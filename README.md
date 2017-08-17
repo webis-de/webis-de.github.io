@@ -1,2 +1,2 @@
-# www2-webis-de
+# www-webis-de
 Draft of the new Webis hub page
