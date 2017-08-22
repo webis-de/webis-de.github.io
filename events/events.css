@@ -1,0 +1,11 @@
+/* DATE. June 6th, 2014 */
+
+#webis-events img {
+  border: 0px;
+  margin: 0px 0px -5px 3px; /* top right bottom left */
+}
+
+#webis-events h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
