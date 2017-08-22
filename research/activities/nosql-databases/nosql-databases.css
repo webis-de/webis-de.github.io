@@ -1,0 +1,26 @@
+/* DATE. July 2nd, 2014 */
+
+#webis-nosql-databases {
+  margin-bottom: 30px;
+}
+
+#webis-nosql-databases .entry {
+  border-top-color: #D9D9D9;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+/*
+#webis-nosql-databases .image {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+}
+*/
+
+#webis-nosql-databases h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
