@@ -1,0 +1,232 @@
+/* DATE. July 19th, 2017 */
+
+/* Adapting the standard buw Typo3 styles for webis. */
+
+
+
+/*
+ * ### Workarounds and Bug Fixes ###
+ */
+
+/* render links in the professorship subtitle */
+#nav-main .subtitle a {
+  display: inline;
+}
+
+#nav-main .subtitle a:hover,
+#nav-main .subtitle a:active,
+#nav-main .subtitle a:visited {
+  background-color: #FFF;
+}
+
+#nav-main .subtitle a:hover {
+  color: #006B94;
+}
+
+/* adapt line height for HTML import if the <p>-tags in the text were forgotton */
+.tx-ce-htmlimport {
+  line-height: 150%;
+}
+
+/* Bring subtitles closer to main titles */
+.csc-header hgroup h1 {
+  margin-bottom: 0px;
+}
+
+
+/*
+ * ### generic ###
+ */
+
+/* add a separating spacer to menu bar after second element */
+#sectionmenu .first.item +.item {
+  margin-right: 25px;
+}
+
+/* add a separating spacer to menu bar after fifth element */
+#sectionmenu .first.item +.item  +.item  +.item  +.item {
+  margin-right: 25px;
+}
+
+/* highlight also active main menu items */
+li strong.menu-highlight {
+  color: #006B94;
+}
+
+/* add space between navigation and main content */
+#main > .ym-wbox.ym-grid {
+  padding-top:3ex !important;
+}
+
+/* deactivate the back button */
+#content_back {
+  display: none;
+}
+
+/* deactivate the default table hover */
+#content_main tbody tr:hover td,
+#content_main tbody tr:hover th {
+  background-color: #FFF;
+}
+
+#content_main tbody th,
+#content_main tbody td,
+#content_main table {
+  border-color: #EEE;
+}
+
+/* set color for quicklinks arrow at hover: grey */
+html.desktop .medien #contentquicklinks .quicklist-item:hover {
+  background-image: url("https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/icons/quicklinks_item_darkgray.png");
+}
+
+/* render standard links below HTML import */
+#content_main a,
+#content_bottom a {
+  color: rgb(6, 69, 173) !important; /* Wikipedia link color */
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+#content_main a:hover,
+#content_bottom a:hover {
+  border-bottom: none !important;
+  text-decoration: underline !important;
+}
+
+/* uniform table of contents */
+.csc-menu .csc-section {
+  line-height: 200%;
+  list-style: url("https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/icons/nav_down_8_darkgray.png");
+}
+
+/* increase distance of <h2> headings wrt. preceding content */
+div[id*='webis-'] h2,
+h2[id*='webis-'] {
+  padding-top: 1.5em !important;
+}
+
+
+
+/*
+ * ### corpora ###
+ */
+
+#webis-corpora table {
+  width: 100% !important;
+}
+
+
+
+/*
+ * ### home ###
+ */
+
+/* lighten den font color in the Mission and Contact boxes */
+/*
+.csc-info-box p.bodytext {
+  color: rgba(0, 0, 0, 0.5);
+}
+ */
+
+
+
+/*
+ * ### lecturenotes ###
+ */
+
+#webis-lecturenotes table {
+  width: 100% !important;
+}
+
+#webis-pub-database table,
+#webis-pub-database td {
+  border: none;
+}
+
+#webis-pub-database table {
+  width: 62.5%;
+}
+
+
+
+/*
+ * ### retrieval-models ###
+ */
+
+#webis-retrieval-models #leftColumn {
+  max-width: 750px;
+}
+
+#webis-retrieval-models #key td {
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#webis-retrieval-models #key table {
+  border: none;
+}
+
+#webis-retrieval-models #leftColumn img {
+  max-width: 750px;
+}
+
+/* change distance from home-picture to text, for emulating slider padding changes to get homogeneous style to dbl page */
+figure.csc-textpic-image {
+    margin-bottom: 0px !important;
+}
+
+
+
+/*
+ * ### teaching ###
+ */
+
+/* Anpassung an Mobile devices, uherrmann, 2014-04-28 */
+#webis-teaching {
+    overflow-x: auto;
+}
+
+
+
+/*
+ * ### quickaccess ###
+ */
+#right {
+  padding-left: 1.667em;
+  display: table-cell;
+  margin: 0;
+  padding-bottom: 0;
+  width: 300px;
+  float: right;
+}
+#right .quickaccess header > h2 {
+  padding-top:8px !important;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+}
+#right .quickaccess header a {
+  color: #ffffff !important;
+}
+#right .quickaccess a {
+  color: #484848 !important;
+}
+#right .quickaccess header a:hover,
+#right .quickaccess li.active a:hover {
+  color: #006b94 !important;
+}
+#right .quickaccess li a:hover,
+#right .quickaccess li.active a {
+  color: #4090af !important;
+}
+#right .quickaccess a:hover {
+  text-decoration: none !important;
+}
+.quickaccess .sep {
+  display: none !important;
+}
+

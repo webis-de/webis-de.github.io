@@ -1,0 +1,97 @@
+/* DATE. Jan 16th, 2017 */
+
+#webis-corpora table.tablesorter thead tr .header {
+  height: 9px;
+  cursor: pointer;
+}
+#webis-corpora table.tablesorter thead tr .header:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAJCAAAAAD4aDiqAAAAAnRSTlMA/1uRIrUAAAACYktHRAD/h4/MvwAAAAlwSFlzAAAASAAAAEgARslrPgAAACtJREFUCNdj+A8HDQgmA0KwoQFTtKEBSZgBWRAujDABGRBQi9VcHG5AcS8Aru2sZGAVfZMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMDYtMjBUMTI6MDk6MDkrMDI6MDA0Npv0AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDExLTExLTE3VDIzOjEzOjUzKzAxOjAwY3+0pwAAAABJRU5ErkJggg==);
+}
+
+#webis-corpora table.tablesorter thead tr .sorting_asc:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAJCAQAAAB3Cq/9AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhARAILiarrMHBAAAARklEQVQY042QQQ7AIAgEp3wcffl6sL3gal1CQsiEBRBrNFw3WNTfrAoHIgeHBx1c0JwggPJnqnwN8Mjt+jmcz8oNCNz/dQBsjzfiITxR2QAAAABJRU5ErkJggg==);
+}
+
+#webis-corpora table.tablesorter thead tr .sorting_desc:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAJCAQAAAB3Cq/9AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhARAILQEliydpAAAASklEQVQY042Q2woAIQgFx37c/PJ6qGhdLVIEL4McpRG9knULwWzG30oGksLSPOhKlcvW79CDATVYgNhdq8KAZeZnrfsgjS94/2sHm5My613mEeUAAAAASUVORK5CYII=);
+}
+
+#webis-corpora table.tablesorter tr:hover td {
+  background-color: #eee;
+}
+
+#webis-corpora table {
+  margin: 0px;
+  width: 1000px;
+}
+
+#webis-corpora table th {
+  background: #ccc;
+  border-bottom: 1px solid #000099;
+  font-size: 1.1em;
+  padding: 4px;
+  text-align: left;
+}
+
+#webis-corpora table tr:hover th {
+  background-color: #ccc;
+}
+
+#webis-corpora table tr:hover th.header {
+  background-color: #eee;
+}
+
+#webis-corpora table td {
+  padding: 4px;
+  vertical-align: top;
+}
+
+#webis-corpora div.spacer {
+  margin: 60px 0 30px 0;
+}
+
+#webis-corpora table th.name {
+  text-align: left;
+  width: 20%;
+}
+
+#webis-corpora table th.publisher {
+  text-align: left;
+  width: 25%;
+}
+
+#webis-corpora table th.year {
+  text-align: left;
+  width: 10%;
+}
+
+#webis-corpora table th.size {
+  text-align: left;
+  width: 20%;
+}
+
+#webis-corpora table th.task {
+  text-align: left;
+  width: 25%;
+}
+
+#webis-corpora .header {
+  background: #eee;
+  border-bottom: 1px solid #bbb;
+  color: #333;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#webis-corpora .empty {
+  color: #bbb;
+}
+
+#webis-corpora .arrow-up {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAABHNCSVQICAgIfAhkiAAAAOJJREFUeJyFjzFqxTAQROcHF4Jg4cK4c2FwrX8B3yC1IWWqFDmDDqArJCdI4S6n0BFUCrUGyarW1ab5ETjOJ1PtMo/Z2YtS6srML/hH27Z9VQDelmV5lVLeBXPOmOf5sQKAruvQNE0x13VF27ZlF0IAAB5+p6SUME0TUkqnCyfYGAPnHIwx5z5KqfcYIzMze+9ZCMEAWAjB3ntmZo4xslLq45CstQYRAQCICFrrQ3D1M4QQYK3FOI7FtNYihIC6ro9w3/dwzp173p4uMBGV839p33cAwGUYhicp5fNd8qac8+c3sotg5tCAmlsAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 11px;
+
+}
+
