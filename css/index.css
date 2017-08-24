@@ -1,0 +1,35 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.h-26px {
+  height: 26px;
+}
+
+.jumbotron {
+  background-image: url("../img/webis-welcome1.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+@media (min-width: 1256px) {
+  .jumbotron {
+    background-size: 100% auto;
+  }
+}
+
+.jumbotron .container {
+  color: white;
+  
+}
+
+.jumbotron .container h1 {
+  text-shadow: 2px 2px 5px grey;
+}
+
+.jumbotron .container .mission {
+  color: lightgray;
+  background-color: rgba(0,0,0,0.5);
+}
+
