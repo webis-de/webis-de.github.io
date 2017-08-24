@@ -10,7 +10,13 @@ body {
 .jumbotron {
   background-image: url("../img/webis-welcome1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto 100%;
+}
+
+@media (min-width: 1256px) {
+  .jumbotron {
+    background-size: 100% auto;
+  }
 }
 
 .jumbotron .container {
