@@ -47,6 +47,10 @@ body {
 
 .min-empty-space {
   min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .footer {
