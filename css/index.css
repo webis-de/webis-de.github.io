@@ -3,8 +3,12 @@ body {
   padding-top: 3.5rem;
 }
 
-.h-26px {
-  height: 26px;
+.h-27px {
+  height: 27px;
+}
+
+.mt-4px {
+  margin-top: 4px;
 }
 
 .jumbotron {
@@ -13,7 +17,7 @@ body {
   background-size: auto 100%;
 }
 
-@media (min-width: 1256px) {
+@media (min-width: 1860px) {
   .jumbotron {
     background-size: 100% auto;
   }
@@ -21,15 +25,13 @@ body {
 
 .jumbotron .container {
   color: white;
+  text-shadow: 2px 2px 5px grey;
   
 }
 
-.jumbotron .container h1 {
-  text-shadow: 2px 2px 5px grey;
-}
-
-.jumbotron .container .mission {
-  color: lightgray;
-  background-color: rgba(0,0,0,0.5);
+.logo-align-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
