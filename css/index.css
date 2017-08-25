@@ -4,6 +4,10 @@ body {
   background-color: #f7f7f7;
 }
 
+.navbar-brand {
+  margin-right: 2rem;
+}
+
 .h-27px {
   height: 27px;
 }
