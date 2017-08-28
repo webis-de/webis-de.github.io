@@ -64,3 +64,8 @@ body {
       text-align: left;
   }
 }
+
+footer .media img {
+  width: 26px;
+  height: 26px;
+}
