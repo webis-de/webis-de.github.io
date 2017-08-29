@@ -7,8 +7,9 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
     <title>Webis</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -46,60 +47,86 @@
         <p><a class="btn btn-info btn-lg" href="teaching/teaching.html" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
-    <div class="container-fluid main min-empty-space text-muted">
-      <small>Intentionally left blank</small>
-    </div>
-    <footer class="footer text-muted">
+    <div class="container-fluid main min-empty-space text-muted"></div>
+    <footer class="footer text-muted text-left">
       <div class="container-fluid p-3 p-md-5">
         <div class="row">
-          <div class="col-md-2">
-            <p>Other Webis sites</p>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
+            <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Other Webis sites</p>
             <ul class="list-unstyled">
               <li class="media my-2">
-                <img class="d-flex align-self-center mr-3" src="img/icon-args.png" alt="Args icon">
-                <div class="d-flex align-self-center media-body">Args</div>
+                <a href="http://www.args.me">
+                  <div class="media">
+                    <img class="d-flex align-self-center mr-3" src="img/icon-args.png" alt="Args icon">
+                    <div class="d-flex align-self-center media-body">Args</div>
+                  </div>
+                </a>
+              </li>
+              <li class="my-2">
+                <a href="http://www.chatnoir.eu">
+                  <div class="media">
+                    <img class="d-flex align-self-center mr-3" src="img/icon-chatnoir.png" alt="ChatNoir icon">
+                    <div class="d-flex align-self-center media-body">ChatNoir</div>
+                  </div>
+                </a>
               </li>
               <li class="media my-2">
-                <img class="d-flex align-self-center mr-3" src="img/icon-chatnoir.png" alt="ChatNoir icon">
-                <div class="d-flex align-self-center media-body">ChatNoir</div>
+                <a href="http://www.netspeak.org">
+                  <div class="media">
+                    <img class="d-flex align-self-center mr-3" src="img/icon-netspeak.png" alt="Netspeak icon">
+                    <div class="d-flex align-self-center media-body">Netspeak</div>
+                  </div>
+                </a>
               </li>
               <li class="media my-2">
-                <img class="d-flex align-self-center mr-3" src="img/icon-netspeak.png" alt="Netspeak icon">
-                <div class="d-flex align-self-center media-body">Netspeak</div>
-              </li>
-              <li class="media my-2">
-                <img class="d-flex align-self-center mr-3" src="img/icon-picapica.png" alt="Picapica icon">
-                <div class="d-flex align-self-center media-body">Picapica</div>
+                <a href="http://www.picapica.org">
+                  <div class="media">
+                    <img class="d-flex align-self-center mr-3" src="img/icon-picapica.png" alt="Picapica icon">
+                    <div class="d-flex align-self-center media-body"><a href="http://www.netspeak.org">Picapica</a></div>
+                  </div>
+                </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-2">
-            <p>Bauhaus-Universität Weimar</p>
-            <ul class="list-unstyled">
-              <li>Home</li>
-              <li>People</li>
-              <li>Teaching</li>
-              <li>Research</li>
-              <li>Publications</li>
-              <li>Corpora</li>
-              <li>Events</li>
-              <li>Facilities</li>
-              <li>Slidehub</li>
-            </ul>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
+            <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-buw" aria-controls="collapse-buw" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+              Bauhaus-Universität Weimar
+            </div>
+            <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Bauhaus-Universität Weimar</p>
+            <div class="collapse navbar-collapse" id="collapse-buw">
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>People</li>
+                <li>Teaching</li>
+                <li>Research</li>
+                <li>Publications</li>
+                <li>Corpora</li>
+                <li>Events</li>
+                <li>Facilities</li>
+                <li>Slidehub</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-2">
-            <p>Leipzig University</p>
-            <ul class="list-unstyled">
-              <li>Home</li>
-              <li>People</li>
-              <li>Teaching</li>
-              <li>Research</li>
-              <li>Publications</li>
-              <li>Corpora</li>
-              <li>Events</li>
-              <li>Facilities</li>
-              <li>Slidehub</li>
-            </ul>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
+            <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-lu" aria-controls="collapse-lu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+              Leipzig University
+            </div>
+            <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Leipzig University</p>
+            <div class="collapse navbar-collapse" id="collapse-lu">
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>People</li>
+                <li>Teaching</li>
+                <li>Research</li>
+                <li>Publications</li>
+                <li>Corpora</li>
+                <li>Events</li>
+                <li>Facilities</li>
+                <li>Slidehub</li>
+              </ul>
+            </div>
           </div>
         </div>
         <p class="float-right">&copy; webis 2017</p>

@@ -69,3 +69,12 @@ footer .media img {
   width: 26px;
   height: 26px;
 }
+
+footer a {
+  color: #868e96;
+}
+
+footer a:hover {
+  color: #868e96;
+  text-decoration: underline;
+}
