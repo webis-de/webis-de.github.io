@@ -16,6 +16,10 @@ body {
   margin-top: 4px;
 }
 
+.mt--5px {
+  margin-top: -10px;
+}
+
 .jumbotron {
   background-image: url("../img/webis-welcome1.jpg");
   background-repeat: no-repeat;
@@ -46,7 +50,7 @@ body {
 }
 
 .min-empty-space {
-  min-height: 500px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
