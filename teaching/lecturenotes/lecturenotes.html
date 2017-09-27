@@ -1,4 +1,4 @@
-<!-- DATE. August 15th, 2017 -->
+<!-- DATE. September 27th, 2017 -->
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -8,87 +8,94 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="copyright" content="&copy; 2013 Webis" />
 <meta name="author" content="Webis" />
-<link href="https://www.uni-weimar.de/medien/webis/teaching/lecturenotes/lecturenotes.css" rel="stylesheet" type="text/css" />
+<link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="../../css/index.css" rel="stylesheet" type="text/css" />
 <style>
-/* For rendering webis web pages without Typo3 */
-
-a, a:link, a:visited, a:active {
-  color: rgb(6, 69, 173); /* same as Wikipedia */
-  text-decoration: none;
+.deprecated td:first-child:after {
+  content: "[deprecated]";
+  padding-left: 10px;
+}
+.arrow-up {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAABHNCSVQICAgIfAhkiAAAAOJJREFUeJyFjzFqxTAQROcHF4Jg4cK4c2FwrX8B3yC1IWWqFDmDDqArJCdI4S6n0BFUCrUGyarW1ab5ETjOJ1PtMo/Z2YtS6srML/hH27Z9VQDelmV5lVLeBXPOmOf5sQKAruvQNE0x13VF27ZlF0IAAB5+p6SUME0TUkqnCyfYGAPnHIwx5z5KqfcYIzMze+9ZCMEAWAjB3ntmZo4xslLq45CstQYRAQCICFrrQ3D1M4QQYK3FOI7FtNYihIC6ro9w3/dwzp173p4uMBGV839p33cAwGUYhicp5fNd8qac8+c3sotg5tCAmlsAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 11px;
+}
+.pdf-icon {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsRAAALEQF/ZF+RAAACA0lEQVR4nJ2TPWhTURiGn3tzkza5+SmJVaqoZOjgKBQtEbGgTipIB0EHF6vQDCqFljo4SMWGKrioIEpBcaiTilEEBy0iOrkJLiL+ELCtieam5P6ce45DQn5smsEXDnxwzvd8Lx/v0cZnnyq6aPLkXtKbE9p69wbA5ex+AgEdWlC6rvHpW5Gr999wcWxEDWyIdoQYAMl4GIBsLt9xyszd1wCqkxsDQPgSI6DzP270f6cl42ESZg+JaPPEIiG2bYo33PxYstS6AOHLRm3fnqI4FMT78Jay5QAwdfogV+YX+V6HrAG0qjfdi1fWEF6QUKj2dO7OSwBm5xf5+GVFGd0AZM4BOXrMVbb0x7hwagSr6hE0DAq/Vrn58D3dAdEU2u5R5NJX/EGfVJ9JNCIRUmEEg5130KZygYD9E3duDOdPiUrVo2ILKrbAqop2gK/WBtJ9cgMCAo6dxXr8DMdTOELiCIUtZBOgFDiiHeAvf6Y0c41IWkf1xTDvnSExGmX7RIyNR+IMHk8B9SC5Prh+E+D/LrCyZweRQ8N4+45SGhrHzUzjCIXrSSKvHlC1fSjXAZPXnzealbWMvHSA6sAw6vwCtpnE9RSuL3GFwhaKSuYElu3Bi3cYt6YPN2KZzeVVcddW3P6dhBYeYYfNWrMnsX1Zq4XElRquV3OsqZblZXP5rl+7k/4C/7jo/uWbzA4AAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  display: inline-block;
+  display: -moz-inline-block;
+  height: 16px;
+  width: 16px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-body {
-  font-family: Verdana, sans-serif;
-  font-size: 0.8em;
-  line-height: 1.5em;
-  margin-left: 40px;
-}
-
-h1 {
-  margin: 30px 0px 20px 0px;
-}
-
-h2 {
-  font-size: 1.2em;
-  margin: 40px 0px 10px 0px;
-}
-
-#right {
-  display: none;
+.deprecated .pdf-icon {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxEAAAsRAX9kX5EAAAAHdElNRQfhBR8OHS+PddZxAAAA+0lEQVQoz3XQv0pCARTH8Y92+4OIFIREQQ9gEbi3BT1DtNRSTb1FNrWHItQQNPQAbba2NLdF4SSEQ6XXuldvg5pa9DvTOed7zg9+qZPEhPatpMb7gGPpQZP27NJRspiaAHIojd2USUZ/Arqm/P9nOJWTHVTGEsoayQTQBTd2PHrHoapGMgb0tawlNoMKqp6SYBIoYk7egbZpr679AjI2NK2al9ET+GPx4dOFd6GOUDgERmHeSdtWE4nEon4OiWiwbqrYknXlVt6LKYV+UDF4s2dTUcG6WORBR13AGWg5t2jXrC9dsciaUF2q719K7i04NfPjHutpq40A/+gbjRNUlqoObPQAAAAASUVORK5CYII=);
 }
 </style>
 </head>
 
-
-
 <body>
+<div class="container">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="#">
+  <img class="h-27px mt--5px" src="img/webis-logo_w27.png">
+  <span class="ml-2">Webis</span>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link mt-4px" href="index.html">Home</a>
+    </li>
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="teaching/teaching.html" aria-haspopup="true" aria-expanded="false">Teaching <span class="sr-only">(current)</span></a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="teaching/teaching.html">Overview</a>
+        <a class="dropdown-item" class="active" href="teaching/lecturenotes/lecturenotes.html">Lecturenotes</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link mt-4px" href="research/activities/activities.html">Research</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link mt-4px" href="publications/publications.html">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link mt-4px" href="corpora/corpora.html">Data</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
 
-<div id="webis-lecturenotes">
+<div class="container-fluid main">
+<div class="container">
+<h1>Lecturenotes</h1>
 
-
-<div id="right">
-<div id="quickaccess" class="generated aside quickaccess csc-service-box csc-box">
-<header class="quickaccess-header csc-header">
-<h2 class="headline headline-right"><a href="http://www.uni-weimar.de/en/media/chairs/webis/teaching/">Teaching</a></h2>
-</header>
-<div id="quickaccess-container" class="csc-text quickaccess-container">
-<ul id="quickaccess-list" class="bare">
-<li class="quickaccess-item normal"><a class="quickaccess-menu-link" href="http://www.uni-weimar.de/en/media/chairs/webis/teaching/" title="Teaching Overview" target="_self">Teaching Overview</a></li>
-<li class="quickaccess-item active"><a class="quickaccess-menu-link" href="http://www.uni-weimar.de/en/media/chairs/webis/teaching/lecturenotes/" title="Lecturenotes" target="_self">Lecturenotes</a></li>
-<li class="quickaccess-item normal"><a class="quickaccess-menu-link" href="http://www.uni-weimar.de/en/media/chairs/webis/teaching/ss-2017/" title="SS 2017" target="_self">SS 2017</a></li>
-<li class="quickaccess-item normal"><a class="quickaccess-menu-link" href="http://www.uni-weimar.de/en/media/chairs/webis/teaching/previous-semesters/" title="Previous Semesters" target="_self">Previous Semesters</a></li>
-<li class="quickaccess-item normal"><a class="quickaccess-menu-link" href="http://www.uni-weimar.de/en/media/chairs/webis/teaching/student-theses/" title="Student Theses" target="_self">Student Theses</a></li>
+<ul>
+  <li><a href="#databases">Datenbanken</a></li>
+  <li><a href="#web-technology">Web-Technologie</a></li>
+  <li><a href="#machine-learning">Machine Learning and Data Mining</a></li>
+  <li><a href="#information-retrieval">Information Retrieval</a></li>
+  <li><a href="#search">Search Algorithms</a></li>
+  <li><a href="#logics">Logik</a></li>
+  <li><a href="#modeling-kbs">Modellierung wissensintensiver Probleme</a></li>
+  <li><a href="#languages-tools">Languages and Tools</a></li>
+  <li><a href="#copyright-notice">Copyright Notice</a></li>
 </ul>
-</div>
-</div>
-</div>
-
-
-<h1 class="csc-firstHeader">Lecturenotes</h1>
-
-<ul class="csc-menu">
-<li class="csc-section"><a href="#databases">Datenbanken</a></li>
-<li class="csc-section"><a href="#web-technology">Web-Technologie</a></li>
-<li class="csc-section"><a href="#machine-learning">Machine Learning and Data Mining</a></li>
-<li class="csc-section"><a href="#information-retrieval">Information Retrieval</a></li>
-<li class="csc-section"><a href="#search">Search Algorithms</a></li>
-<li class="csc-section"><a href="#logics">Logik</a></li>
-<li class="csc-section"><a href="#modeling-kbs">Modellierung wissensintensiver Probleme</a></li>
-<li class="csc-section"><a href="#languages-tools">Languages and Tools</a></li>
-<li class="csc-section"><a href="#copyright-notice">Copyright Notice</a></li>
-</ul>
 
 
 
-<table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+<table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="databases" colspan="2">Collection. Datenbanken</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-databases-intro" colspan="3" class="part ">Part. Einf&uuml;hrung</th>
+    <th id="part-databases-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
     <td id="unit-de-db-organization">Unit. Organisation, Literatur</td>
     <td class="date">12.10.16</td>
@@ -98,7 +105,7 @@ h2 {
     <td class="date">12.10.16</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/databases/unit-de-db-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-conceptual-design" colspan="3" class="part ">Part. Konzeptueller Datenbankentwurf</th>
+    <th id="part-conceptual-design" colspan="3" class="table-active">Part. Konzeptueller Datenbankentwurf</th>
   </tr>  <tr >
     <td id="unit-de-design-and-models">Unit. Datenbankentwurf und Datenbankmodelle</td>
     <td class="date">26.10.16</td>
@@ -116,7 +123,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-relational-design" colspan="3" class="part ">Part. Logischer Datenbankentwurf mit dem relationalen Modell</th>
+    <th id="part-relational-design" colspan="3" class="table-active">Part. Logischer Datenbankentwurf mit dem relationalen Modell</th>
   </tr>  <tr >
     <td id="unit-de-relational-design0">Unit. Relationales Modell: Syntax-&Uuml;berblick</td>
     <td class="date">01.11.16</td>
@@ -130,7 +137,7 @@ h2 {
     <td class="date">15.11.16</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/databases/unit-de-relational-design2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-relational-calculus" colspan="3" class="part ">Part. Grundlagen relationaler Anfragesprachen</th>
+    <th id="part-relational-calculus" colspan="3" class="table-active">Part. Grundlagen relationaler Anfragesprachen</th>
   </tr>  <tr >
     <td id="unit-de-relational-algebra">Unit. Relationale Algebra</td>
     <td class="date">29.11.16</td>
@@ -140,7 +147,7 @@ h2 {
     <td class="date">13.12.16</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/databases/unit-de-relational-calculus.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-sql" colspan="3" class="part ">Part. SQL</th>
+    <th id="part-sql" colspan="3" class="table-active">Part. SQL</th>
   </tr>  <tr >
     <td id="unit-de-sql1">Unit. SQL: Anfragesprache</td>
     <td class="date">10.01.17</td>
@@ -154,7 +161,7 @@ h2 {
     <td class="date">10.01.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/databases/unit-de-sql3.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-relational-theory" colspan="3" class="part ">Part. Entwurfstheorie relationaler Datenbanken</th>
+    <th id="part-relational-theory" colspan="3" class="table-active">Part. Entwurfstheorie relationaler Datenbanken</th>
   </tr>  <tr >
     <td id="unit-de-relational-theory1">Unit. Funktionale Abh&auml;ngigkeiten und Normalformen</td>
     <td class="date">24.01.17</td>
@@ -164,12 +171,12 @@ h2 {
     <td class="date">07.02.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/databases/unit-de-relational-theory2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-physical-design" colspan="3" class="part empty">Part. Physikalischer Datenbankentwurf</th>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+    <th id="part-physical-design" colspan="3" class="table-active text-muted">Part. Physikalischer Datenbankentwurf</th>
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="web-technology" colspan="2">Collection. Web-Technologie</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-web-technology-intro" colspan="3" class="part ">Part. Einf&uuml;hrung</th>
+    <th id="part-web-technology-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
     <td id="unit-de-wt-organization">Unit. Organisation, Literatur</td>
     <td class="date">13.04.17</td>
@@ -179,7 +186,7 @@ h2 {
     <td class="date">13.04.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/web-technology/unit-de-wt-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-network-protocol" colspan="3" class="part ">Part. Rechnerkommunikation und Protokolle</th>
+    <th id="part-network-protocol" colspan="3" class="table-active">Part. Rechnerkommunikation und Protokolle</th>
   </tr>  <tr >
     <td id="unit-de-network-protocol1">Unit. Kommunikation und Protokolle f&uuml;r Web-Systeme (1)</td>
     <td class="date">08.05.17</td>
@@ -193,7 +200,7 @@ h2 {
     <td class="date">08.05.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/web-technology/unit-de-network-protocol3.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-document-languages" colspan="3" class="part ">Part. Dokumentsprachen</th>
+    <th id="part-document-languages" colspan="3" class="table-active">Part. Dokumentsprachen</th>
   </tr>  <tr >
     <td id="unit-de-doclang-introduction">Unit. Auszeichnungssprachen</td>
     <td class="date">31.05.17</td>
@@ -223,7 +230,7 @@ h2 {
     <td class="date">31.05.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/web-technology/unit-de-doclang-xml-api.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-server-technologies" colspan="3" class="part ">Part. Server-Technologien</th>
+    <th id="part-server-technologies" colspan="3" class="table-active">Part. Server-Technologien</th>
   </tr>  <tr >
     <td id="unit-de-server-technologies1">Unit. CGI, Servlets, JSP</td>
     <td class="date">05.07.17</td>
@@ -233,7 +240,7 @@ h2 {
     <td class="date">05.07.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/web-technology/unit-de-server-technologies2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-client-technologies" colspan="3" class="part ">Part. Client-Technologien</th>
+    <th id="part-client-technologies" colspan="3" class="table-active">Part. Client-Technologien</th>
   </tr>  <tr >
     <td id="unit-de-client-technologies1">Unit. JavaScript</td>
     <td class="date">05.07.17</td>
@@ -243,7 +250,7 @@ h2 {
     <td class="date">05.07.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/web-technology/unit-de-client-technologies2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-webis-architectures" colspan="3" class="part ">Part. Architekturen und Middleware-Technologien</th>
+    <th id="part-webis-architectures" colspan="3" class="table-active">Part. Architekturen und Middleware-Technologien</th>
   </tr>  <tr >
     <td id="unit-de-webis-architectures1">Unit. &Uuml;berblick, Ajax</td>
     <td class="date">05.07.17</td>
@@ -253,7 +260,7 @@ h2 {
     <td class="date">05.07.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/web-technology/unit-de-webis-architectures2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-semantic-web" colspan="3" class="part ">Part. Semantic Web</th>
+    <th id="part-semantic-web" colspan="3" class="table-active">Part. Semantic Web</th>
   </tr>  <tr >
     <td id="unit-de-semantic-web-introduction">Unit. Motivation Semantic Web</td>
     <td class="date">31.03.15</td>
@@ -282,11 +289,11 @@ h2 {
     <td id="unit-de-semantic-web-owlapp">Unit. OWL-Anwendungen und Werkzeuge</td>
     <td class="date"></td>
     <td class="links"></td>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="machine-learning" colspan="2">Collection. Machine Learning and Data Mining</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-machine-learning-intro" colspan="3" class="part ">Part. Introduction</th>
+    <th id="part-machine-learning-intro" colspan="3" class="table-active">Part. Introduction</th>
   </tr>  <tr >
     <td id="unit-en-ml-organization">Unit. Organization, Literature</td>
     <td class="date">27.10.15</td>
@@ -296,7 +303,7 @@ h2 {
     <td class="date">06.11.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/machine-learning/unit-en-ml-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-machine-learning-basics" colspan="3" class="part ">Part. Machine Learning Basics</th>
+    <th id="part-machine-learning-basics" colspan="3" class="table-active">Part. Machine Learning Basics</th>
   </tr>  <tr >
     <td id="unit-en-data">Unit. On Data</td>
     <td class="date">20.11.15</td>
@@ -314,7 +321,7 @@ h2 {
     <td class="date">20.11.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/machine-learning/unit-en-performance-measures.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-decision-trees" colspan="3" class="part ">Part. Decision Trees</th>
+    <th id="part-decision-trees" colspan="3" class="table-active">Part. Decision Trees</th>
   </tr>  <tr >
     <td id="unit-en-decision-trees-basics">Unit. Decision Trees Basics</td>
     <td class="date">05.12.15</td>
@@ -332,7 +339,7 @@ h2 {
     <td class="date">05.12.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/machine-learning/unit-en-decision-trees-pruning.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-statistical-learning" colspan="3" class="part ">Part. Statistical Learning</th>
+    <th id="part-statistical-learning" colspan="3" class="table-active">Part. Statistical Learning</th>
   </tr>  <tr >
     <td id="unit-en-probability-basics">Unit. Probability Basics</td>
     <td class="date">21.01.16</td>
@@ -346,7 +353,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-linear-models" colspan="3" class="part empty">Part. Linear Models</th>
+    <th id="part-linear-models" colspan="3" class="table-active text-muted">Part. Linear Models</th>
   </tr>  <tr class='empty'>
     <td id="unit-en-discriminant-analysis">Unit. Discriminant Analysis</td>
     <td class="date"></td>
@@ -356,7 +363,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-neural-networks" colspan="3" class="part ">Part. Neural Networks</th>
+    <th id="part-neural-networks" colspan="3" class="table-active">Part. Neural Networks</th>
   </tr>  <tr >
     <td id="unit-en-perceptron-learning">Unit. Perceptron Learning</td>
     <td class="date">21.01.16</td>
@@ -370,13 +377,13 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-kernel-methods" colspan="3" class="part empty">Part. Kernel Methods</th>
+    <th id="part-kernel-methods" colspan="3" class="table-active text-muted">Part. Kernel Methods</th>
   </tr>  <tr class='empty'>
     <td id="unit-en-support-vector-machines">Unit. Support Vector Machines</td>
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-learning-theory" colspan="3" class="part empty">Part. Learning Theory</th>
+    <th id="part-learning-theory" colspan="3" class="table-active text-muted">Part. Learning Theory</th>
   </tr>  <tr class='empty'>
     <td id="unit-en-error-decomposition">Unit. Error Decomposition and Model Selection</td>
     <td class="date"></td>
@@ -390,7 +397,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-meta-learning" colspan="3" class="part ">Part. Combined Models and Meta Learning</th>
+    <th id="part-meta-learning" colspan="3" class="table-active">Part. Combined Models and Meta Learning</th>
   </tr>  <tr >
     <td id="unit-en-ensemble-classifiers">Unit. Ensemble Classifiers</td>
     <td class="date">27.10.15</td>
@@ -404,13 +411,13 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-latent-variables" colspan="3" class="part empty">Part. Latent Variables Analysis</th>
+    <th id="part-latent-variables" colspan="3" class="table-active text-muted">Part. Latent Variables Analysis</th>
   </tr>  <tr class='empty'>
     <td id="unit-en-pca">Unit. Principal Component Analysis</td>
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-cluster-analysis" colspan="3" class="part ">Part. Cluster Analysis</th>
+    <th id="part-cluster-analysis" colspan="3" class="table-active">Part. Cluster Analysis</th>
   </tr>  <tr >
     <td id="unit-en-dm-overview">Unit. Data Mining Overview</td>
     <td class="date">03.02.16</td>
@@ -440,7 +447,7 @@ h2 {
     <td class="date">03.02.16</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/machine-learning/unit-en-cluster-analysis-constrained.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-unsupervised-others" colspan="3" class="part ">Part. Other Unsupervised Learning Methods</th>
+    <th id="part-unsupervised-others" colspan="3" class="table-active">Part. Other Unsupervised Learning Methods</th>
   </tr>  <tr class='empty'>
     <td id="unit-en-nearest-neighbor">Unit. Nearest Neighbor Strategies</td>
     <td class="date"></td>
@@ -457,107 +464,35 @@ h2 {
     <td id="unit-en-reinforcement-learning">Unit. Reinforcement Learning</td>
     <td class="date"></td>
     <td class="links"></td>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="information-retrieval" colspan="2">Collection. Information Retrieval</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-information-retrieval-intro" colspan="3" class="part ">Part. Introduction</th>
+    <th id="part-information-retrieval-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
-    <td id="unit-en-ir-organization">Unit. Organization, Literature</td>
-    <td class="date">13.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-ir-organization.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a> <a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-ir-organization.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-ir-introduction">Unit. Retrieval Problems</td>
+    <td id="unit-de-ir-organization">Unit. Organisation, Literatur</td>
     <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-ir-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a> <a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-ir-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
+    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-ir-organization.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
+  </tr>  <tr >
+    <td id="unit-de-ir-introduction">Unit. Problemstellungen, Begriffe</td>
+    <td class="date">10.08.17</td>
+    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-ir-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-information-retrieval-basics" colspan="3" class="part ">Part. Architecture of a Search Engine</th>
+    <th id="part-information-retrieval-basics" colspan="3" class="table-active">Part. Grundlagen Information Retrieval</th>
   </tr>  <tr >
-    <td id="unit-en-indexing-process">Unit. Indexing Process</td>
+    <td id="unit-de-ir-evaluation">Unit. Evaluierung von Retrieval-Systemen</td>
     <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-indexing-process.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
+    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-ir-evaluation.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr >
-    <td id="unit-en-query-process">Unit. Query Process</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-query-process.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-text-transformation" colspan="3" class="part ">Part. Text Transformation</th>
-  </tr>  <tr >
-    <td id="unit-en-parsing">Unit. Parsing Documents</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-parsing.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-link-analysis">Unit. Link Analysis</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-link-analysis.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-information-extraction">Unit. Information Extraction</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-information-extraction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-de-index-terms">Unit. Indexterme</td>
+    <td id="unit-de-index-terms">Unit. Index-Terme</td>
     <td class="date">10.08.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-index-terms.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-de-stemming">Unit. Stammformreduktion</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-stemming.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-indexing" colspan="3" class="part ">Part. Indexing</th>
+    <th id="part-retrieval-models" colspan="3" class="table-active">Part. Retrieval-Modelle</th>
   </tr>  <tr >
-    <td id="unit-en-abstract-ranking">Unit. Abstract Model of Ranking</td>
+    <td id="unit-de-retrieval-models">Unit. Modelle und Prozesse im Information Retrieval</td>
     <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-abstract-ranking.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-inverted-indexes">Unit. Inverted Indexes</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-inverted-indexes.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-compression">Unit. Compression</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-compression.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-auxiliary-structures">Unit. Auxiliary Structures</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-auxiliary-structures.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-index-construction">Unit. Index Construction</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-index-construction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-query-processing">Unit. Query Processing</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-query-processing.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-retrieval-models" colspan="3" class="part ">Part. Retrieval Models</th>
-  </tr>  <tr >
-    <td id="unit-en-retrieval-models">Unit. Overview of Retrieval Models</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-retrieval-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a> <a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-retrieval-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-rm-old-models">Unit. Old Models</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-rm-old-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-rm-probabilistic-models">Unit. Probabilistic Models</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-rm-probabilistic-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-rm-language-models">Unit. Language Models</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-rm-language-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-rm-combining-evidence">Unit. Combining Evidence</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-rm-combining-evidence.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-rm-web-search">Unit. Web Search</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-rm-web-search.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-rm-learning-to-rank">Unit. Learning to Rank</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-rm-learning-to-rank.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
+    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-retrieval-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr >
     <td id="unit-de-rm-term-based">Unit. Term-basierte Retrieval-Modelle</td>
     <td class="date">10.08.17</td>
@@ -566,99 +501,89 @@ h2 {
     <td id="unit-de-rm-algebraic">Unit. Algebraische Retrieval-Modelle</td>
     <td class="date">10.08.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-rm-algebraic.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-users-and-queries" colspan="3" class="part ">Part. Users and Queries</th>
-  </tr>  <tr >
-    <td id="unit-en-information-needs">Unit. Information Needs and Queries</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-information-needs.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-query-transformation">Unit. Query Transformation and Refinement</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-query-transformation.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-cross-language">Unit. Cross-Language Search</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-cross-language.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-result-presentation" colspan="3" class="part ">Part. Result Presentation</th>
-  </tr>  <tr >
-    <td id="unit-en-showing-results">Unit. Showing the Results</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-showing-results.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-evaluation" colspan="3" class="part ">Part. Evaluation</th>
-  </tr>  <tr >
-    <td id="unit-en-evaluation-corpus">Unit. Evaluation Corpus</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-evaluation-corpus.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-logging">Unit. Logging</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-logging.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-effectiveness-metrics">Unit. Effectiveness Metrics</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-effectiveness-metrics.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-efficiency-metrics">Unit. Efficiency Metrics</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-efficiency-metrics.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-training-and-testing">Unit. Training and Testing</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-training-and-testing.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-de-ir-evaluation">Unit. Evaluierung von Retrieval-Systemen</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-ir-evaluation.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-acquisition" colspan="3" class="part ">Part. Acquisition</th>
-  </tr>  <tr >
-    <td id="unit-en-crawling">Unit. Crawling the Web</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-crawling.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-conversion">Unit. Conversion</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-conversion.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr >
-    <td id="unit-en-storing">Unit. Storing Documents</td>
-    <td class="date">10.08.17</td>
-    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-en-storing.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
-  </tr>  <tr>
-    <th id="part-cross-language-retrieval" colspan="3" class="part empty">Part. Cross-language Retrieval</th>
-  </tr>  <tr>
-    <th id="part-distributed-and-parallel-retrieval" colspan="3" class="part empty">Part. Distributed and Parallel Retrieval</th>
-  </tr>  <tr>
-    <th id="part-multimedia-retrieval" colspan="3" class="part empty">Part. Multimedia Retrieval</th>
-  </tr>  <tr>
-    <th id="part-other-application-domains" colspan="3" class="part empty">Part. Other Application Domains</th>
   </tr>  <tr class='empty'>
-    <td id="unit-en-digital-libraries">Unit. Digital Libraries</td>
+    <td id="unit-de-rm-language">Unit. Generative Sprachmodelle</td>
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr class='empty'>
-    <td id="unit-en-enterprise-search">Unit. Enterprise Search</td>
+    <td id="unit-de-rm-structure">Unit. Textstrukturmodelle</td>
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr class='empty'>
-    <td id="unit-en-medical-information-retrieval">Unit. Medical Information Retrieval</td>
+    <td id="unit-de-rm-filtering">Unit. Retrieval-Modelle f&uuml;r Filteraufgaben</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr>
+    <th id="part-index-construction" colspan="3" class="table-active">Part. Indexkonstruktion</th>
+  </tr>  <tr >
+    <td id="unit-de-stemming">Unit. Grund- und Stammformreduktion</td>
+    <td class="date">10.08.17</td>
+    <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/information-retrieval/unit-de-stemming.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-n-gram">Unit. n-Gramme</td>
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr class='empty'>
-    <td id="unit-en-legal-information-retrieval">Unit. Legal Information Retrieval</td>
+    <td id="unit-de-term-enrichment">Unit. Termanreicherung</td>
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr class='empty'>
-    <td id="unit-en-patent-search">Unit. Patent Search</td>
+    <td id="unit-de-word-class-analysis">Unit. Wortklassenbestimmung</td>
     <td class="date"></td>
     <td class="links"></td>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+  </tr>  <tr>
+    <th id="part-query-construction" colspan="3" class="table-active text-muted">Part. Anfragekonstruktion</th>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-query-types">Unit. Anfragearten und -sprachen</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-query-processing">Unit. Anfrageaufbereitung</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr>
+    <th id="part-indexing" colspan="3" class="table-active text-muted">Part. Indexing und Suche</th>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-inverted-file">Unit. Invertierte Dateien</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-signature-file">Unit. Signatur-Dateien und Shingling</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-trees-and-tries">Unit. Suffix-B&auml;ume und Tries</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-linear-search">Unit. Lineare Textsuche</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr>
+    <th id="part-web-ir" colspan="3" class="table-active text-muted">Part. Web-spezifische Aspekte</th>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-link-analysis">Unit. Linkanalyse</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-search-engine">Unit. Suchmaschinen</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr class='empty'>
+    <td id="unit-de-distributed-retrieval">Unit. Verteiltes Retrieval</td>
+    <td class="date"></td>
+    <td class="links"></td>
+  </tr>  <tr>
+    <th id="part-synthesis" colspan="3" class="table-active text-muted">Part. Schl&uuml;sselworte, Labeling, Summarization</th>
+  </tr>  <tr>
+    <th id="part-multilingual-ir" colspan="3" class="table-active text-muted">Part. Multilinguales Retrieval</th>
+  </tr>  <tr>
+    <th id="part-multimedia-ir" colspan="3" class="table-active text-muted">Part. Multimedia-Retrieval</th>
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="search" colspan="2">Collection. Search Algorithms</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-search-intro" colspan="3" class="part ">Part. Introduction</th>
+    <th id="part-search-intro" colspan="3" class="table-active">Part. Introduction</th>
   </tr>  <tr >
     <td id="unit-en-search-organization">Unit. Organization, Literature</td>
     <td class="date">07.10.15</td>
@@ -668,7 +593,7 @@ h2 {
     <td class="date">17.10.16</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-search-introduction.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-search-representation" colspan="3" class="part ">Part. Searchspace Representation</th>
+    <th id="part-search-representation" colspan="3" class="table-active">Part. Searchspace Representation</th>
   </tr>  <tr >
     <td id="unit-en-representation1">Unit. State-Space Representation</td>
     <td class="date">07.02.17</td>
@@ -678,7 +603,7 @@ h2 {
     <td class="date">07.10.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-representation2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-basic-search" colspan="3" class="part ">Part. Basic Search Algorithms</th>
+    <th id="part-basic-search" colspan="3" class="table-active">Part. Basic Search Algorithms</th>
   </tr>  <tr >
     <td id="unit-en-basic-search1">Unit. Uninformed Search (1)</td>
     <td class="date">17.11.15</td>
@@ -688,7 +613,7 @@ h2 {
     <td class="date">17.11.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-basic-search2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-informed-search" colspan="3" class="part ">Part. Informed Search</th>
+    <th id="part-informed-search" colspan="3" class="table-active">Part. Informed Search</th>
   </tr>  <tr >
     <td id="unit-en-informed-bf1">Unit. Best-First Search: Introduction</td>
     <td class="date">07.02.17</td>
@@ -702,7 +627,7 @@ h2 {
     <td class="date">07.02.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-informed-bf3.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-search-theory" colspan="3" class="part ">Part. Search Theory</th>
+    <th id="part-search-theory" colspan="3" class="table-active">Part. Search Theory</th>
   </tr>  <tr >
     <td id="unit-en-astar-formal1">Unit. A*: Formal Properties (1)</td>
     <td class="date">07.02.17</td>
@@ -712,7 +637,7 @@ h2 {
     <td class="date">07.02.17</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-astar-formal2.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-relaxed-models" colspan="3" class="part ">Part. Relaxed Models</th>
+    <th id="part-relaxed-models" colspan="3" class="table-active">Part. Relaxed Models</th>
   </tr>  <tr >
     <td id="unit-en-astar-relaxed1">Unit. A*: Relaxing Optimality (1)</td>
     <td class="date">07.02.17</td>
@@ -730,18 +655,18 @@ h2 {
     <td class="date">07.10.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-relaxed-models.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-game-playing" colspan="3" class="part ">Part. Game Playing</th>
+    <th id="part-game-playing" colspan="3" class="table-active">Part. Game Playing</th>
   </tr>  <tr >
     <td id="unit-en-game-playing-basics">Unit. Basic Game Playing Strategies</td>
     <td class="date">07.10.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/search/unit-en-game-playing-basics.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.en</a></nobr></td>
   </tr>  <tr>
-    <th id="part-search-applications" colspan="3" class="part empty">Part. Search Applications</th>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+    <th id="part-search-applications" colspan="3" class="table-active text-muted">Part. Search Applications</th>
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="logics" colspan="2">Collection. Logik</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-logics-intro" colspan="3" class="part ">Part. Einf&uuml;hrung</th>
+    <th id="part-logics-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
     <td id="unit-de-logics-organization">Unit. Organisation, Literatur</td>
     <td class="date">09.12.13</td>
@@ -751,7 +676,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-propositional-logics" colspan="3" class="part ">Part. Aussagenlogik</th>
+    <th id="part-propositional-logics" colspan="3" class="table-active">Part. Aussagenlogik</th>
   </tr>  <tr >
     <td id="unit-de-propositional-basics">Unit. Syntax, Semantik</td>
     <td class="date">23.10.13</td>
@@ -773,7 +698,7 @@ h2 {
     <td class="date">23.10.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/logics/unit-de-propositional-complexity.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-predicate-logics" colspan="3" class="part ">Part. Pr&auml;dikatenlogik</th>
+    <th id="part-predicate-logics" colspan="3" class="table-active">Part. Pr&auml;dikatenlogik</th>
   </tr>  <tr >
     <td id="unit-de-predicate-basics">Unit. Syntax, Semantik</td>
     <td class="date">23.10.13</td>
@@ -791,7 +716,7 @@ h2 {
     <td class="date">23.10.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/logics/unit-de-predicate-complexity.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-nonclassical-logics" colspan="3" class="part ">Part. Nichtklassische Logiken</th>
+    <th id="part-nonclassical-logics" colspan="3" class="table-active">Part. Nichtklassische Logiken</th>
   </tr>  <tr >
     <td id="unit-de-fuzzy-basics">Unit. Fuzzy-Mengen</td>
     <td class="date">09.12.13</td>
@@ -801,7 +726,7 @@ h2 {
     <td class="date">09.12.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/logics/unit-de-fuzzy-inference.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-logics-extensions" colspan="3" class="part ">Part. Erweiterungen und Anwendungen zur Logik</th>
+    <th id="part-logics-extensions" colspan="3" class="table-active">Part. Erweiterungen und Anwendungen zur Logik</th>
   </tr>  <tr >
     <td id="unit-de-rule-systems">Unit. Produktionsregelsysteme</td>
     <td class="date">23.10.13</td>
@@ -826,11 +751,11 @@ h2 {
     <td id="unit-de-verification3">Unit. Verifikation: Terminierung</td>
     <td class="date">23.10.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/logics/unit-de-verification3.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr >
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="modeling-kbs" colspan="2">Collection. Modellierung wissensintensiver Probleme</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-modeling-kbs-intro" colspan="3" class="part ">Part. Einf&uuml;hrung</th>
+    <th id="part-modeling-kbs-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
     <td id="unit-de-kbs-organization">Unit. Organisation, Literatur</td>
     <td class="date">08.12.13</td>
@@ -844,7 +769,7 @@ h2 {
     <td class="date">08.12.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/modeling-kbs/unit-de-kbs-applications.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-knowledge-representation" colspan="3" class="part ">Part. Wissensrepr&auml;sentation</th>
+    <th id="part-knowledge-representation" colspan="3" class="table-active">Part. Wissensrepr&auml;sentation</th>
   </tr>  <tr >
     <td id="unit-de-symbol">Unit. Symbolische versus subsymbolische Repr&auml;sentation</td>
     <td class="date">23.10.13</td>
@@ -858,7 +783,7 @@ h2 {
     <td class="date">23.10.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/modeling-kbs/unit-de-xps.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-modeling-kbs-basics" colspan="3" class="part ">Part. Begriffe der Modellierung</th>
+    <th id="part-modeling-kbs-basics" colspan="3" class="table-active">Part. Begriffe der Modellierung</th>
   </tr>  <tr >
     <td id="unit-de-model-system">Unit. System, Modell, Schlussfolgern</td>
     <td class="date">29.01.15</td>
@@ -868,7 +793,7 @@ h2 {
     <td class="date">29.01.15</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/modeling-kbs/unit-de-model-formation.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-constraints" colspan="3" class="part ">Part. Modellieren mit Constraints</th>
+    <th id="part-constraints" colspan="3" class="table-active">Part. Modellieren mit Constraints</th>
   </tr>  <tr >
     <td id="unit-de-constraints-introduction">Unit. Einf&uuml;hrung Constraints</td>
     <td class="date">23.10.13</td>
@@ -894,7 +819,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-diagnosis" colspan="3" class="part ">Part. Diagnose</th>
+    <th id="part-diagnosis" colspan="3" class="table-active">Part. Diagnose</th>
   </tr>  <tr >
     <td id="unit-de-diagnosis-bayes">Unit. Statistische Diagnose: Bayes</td>
     <td class="date">17.01.14</td>
@@ -916,7 +841,7 @@ h2 {
     <td class="date">17.01.14</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/modeling-kbs/unit-de-diagnosis-cbr.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr>  <tr>
-    <th id="part-configuration" colspan="3" class="part ">Part. Planen und Konfigurieren</th>
+    <th id="part-configuration" colspan="3" class="table-active">Part. Planen und Konfigurieren</th>
   </tr>  <tr >
     <td id="unit-de-planning-basics">Unit. Planen: Grundlagen</td>
     <td class="date">23.10.13</td>
@@ -937,11 +862,11 @@ h2 {
     <td id="unit-de-configuration-basics">Unit. Konfigurierung: Problemstellungen, Ans&auml;tze</td>
     <td class="date">23.10.13</td>
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/modeling-kbs/unit-de-configuration-basics.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
-  </tr></table><table cellpadding="4" cellspacing="0" bgcolor="#ffffff">  <tr class='empty'>
+  </tr></table><table class="table table-hover table-sm">  <tr class="table-dark text-muted">
     <th id="languages-tools" colspan="2">Collection. Languages and Tools</th>
-    <th valign="bottom"><div align="right"><a href="#"><div class="arrow-up"></div></a></div></th>
+    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
-    <th id="part-lisp" colspan="3" class="part empty">Part. LISP</th>
+    <th id="part-lisp" colspan="3" class="table-active text-muted">Part. LISP</th>
   </tr>  <tr class='empty'>
     <td id="unit-de-contents-ws03-slides">Unit. Organization, Literature</td>
     <td class="date"></td>
@@ -967,7 +892,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-lisp-applications" colspan="3" class="part empty">Part. LISP Applications</th>
+    <th id="part-lisp-applications" colspan="3" class="table-active text-muted">Part. LISP Applications</th>
   </tr>  <tr class='empty'>
     <td id="unit-de-rule-system-ws03-slides">Unit. Production Rule System</td>
     <td class="date"></td>
@@ -981,7 +906,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-mapreduce" colspan="3" class="part empty">Part. MapReduce</th>
+    <th id="part-mapreduce" colspan="3" class="table-active text-muted">Part. MapReduce</th>
   </tr>  <tr class='empty'>
     <td id="unit-en-mapreduce">Unit. Introduction to MapReduce</td>
     <td class="date"></td>
@@ -991,7 +916,7 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr>  <tr>
-    <th id="part-knowledge-representation-tools" colspan="3" class="part empty">Part. Knowledge Representation Tools</th>
+    <th id="part-knowledge-representation-tools" colspan="3" class="table-active text-muted">Part. Knowledge Representation Tools</th>
   </tr>  <tr class='empty'>
     <td id="unit-de-clips">Unit. CLIPS: C Language Integrated Production System</td>
     <td class="date"></td>
@@ -1001,19 +926,10 @@ h2 {
     <td class="date"></td>
     <td class="links"></td>
   </tr></table>
-</div><!-- id="webis-lecturenotes" -->
-
-
-<script type="text/javascript">
-function popup(url) {
- fenster=window.open(url, "Lecturenotes Upload", "width=600,height=150,resizable=yes,toolbar=yes,scrollbars=yes");
- fenster.focus();
- return false;
-}
-</script>
-
-
-<p>&nbsp;</p>
+</div>
+</div>
+<footer class="footer text-muted">
+<div class="container-fluid p-3 p-md-5">
 <p id="copyright-notice">&copy;
  Maintainers of the Lecturenotes repository and main persons in charge are <a href="https://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a> and <a href="http://www-old.cs.uni-paderborn.de/fachgebiete/fg-kleine-buening/personen/theodor-lettmann.html">Theo Lettmann</a>, who also authored a large portion of the scripts. Guiding principle has been (and still is) to create first-class teaching resources for selected basic and advanced computer science topics, while putting high emphasis on both semantical and syntactical coherence. In this regard, the mathematical language is unified across all units, as is the ''formalization dialectics'', but also the use of fonts, colors, and style, to mention only a few aspects.
 <br/>
@@ -1023,7 +939,22 @@ Meanwhile, other computer scientists have joined the team:
 Martin Potthast (Leipzig University) as of 2017.
 The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medien/webis/teaching/upload" target="700x250" onclick="return popup(this.href);" rtekeep="1" style="color: inherit ! important;text-decoration:none ! important;">improved</a> and extended; the scripts are freely available and their use is encouraged&mdash;as long as they are not modified and a copyright note pointing to the authors is provided. Hints regarding the improvement or the use of the scripts are appreciated.</p>
 <p align="right">Benno Stein and Theo Lettmann &nbsp;&nbsp;</p>
+</div>
+</footer>
+<script type="text/javascript">
+function popup(url) {
+ fenster=window.open(url, "Lecturenotes Upload", "width=600,height=150,resizable=yes,toolbar=yes,scrollbars=yes");
+ fenster.focus();
+ return false;
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+<script src="../../js/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../js/ie10-viewport-bug-workaround.js"></script>
+</body>
 
-<!--
-Autoren dieser Vorlesungen sind <a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a> und <a href="http://wwwcs.uni-paderborn.de/cs/ag-klbue/de/staff/lettmann/index.html">Theo Lettmann</a>. Alle Skripte wurden f&uuml;r die Lehrveranstaltungen der Arbeitsgruppen Webis (Bauhaus-Universit&auml;t Weimar) und Wissensbasierte Systeme (Universit&auml;t Paderborn) neu konzipiert und werden kontinuierlich <a href="http://www.uni-weimar.de/medien/webis/teaching/upload" target="700x250" onclick="return popup(this.href);" rtekeep="1" style="color: inherit ! important;text-decoration:none ! important;">aktualisiert</a> und weiter entwickelt. Seit Sommersemester 2012 ist <a href="http://www.fim.uni-passau.de/en/media-computer-science">Michael Granitzer</a> (Universit&auml;t Passau) Mitglied unseres Autorenteams. Unsere Skripte stehen frei zur Verf&uuml;gung, sofern sie unver&auml;ndert und unter Hinweis des Copyrights eingesetzt werden. Wir freuen uns &uuml;ber Hinweise zur Verwendung und Verbesserung.</p>
--->
+
+
