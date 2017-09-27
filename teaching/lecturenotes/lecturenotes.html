@@ -28,6 +28,20 @@
 .deprecated .pdf-icon {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxEAAAsRAX9kX5EAAAAHdElNRQfhBR8OHS+PddZxAAAA+0lEQVQoz3XQv0pCARTH8Y92+4OIFIREQQ9gEbi3BT1DtNRSTb1FNrWHItQQNPQAbba2NLdF4SSEQ6XXuldvg5pa9DvTOed7zg9+qZPEhPatpMb7gGPpQZP27NJRspiaAHIojd2USUZ/Arqm/P9nOJWTHVTGEsoayQTQBTd2PHrHoapGMgb0tawlNoMKqp6SYBIoYk7egbZpr679AjI2NK2al9ET+GPx4dOFd6GOUDgERmHeSdtWE4nEon4OiWiwbqrYknXlVt6LKYV+UDF4s2dTUcG6WORBR13AGWg5t2jXrC9dsciaUF2q719K7i04NfPjHutpq40A/+gbjRNUlqoObPQAAAAASUVORK5CYII=);
 }
+
+.main {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.table {
+  margin-bottom: 3rem;
+}
+
+.table-of-contents {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
 </style>
 </head>
 
@@ -50,7 +64,7 @@
       <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="teaching/teaching.html" aria-haspopup="true" aria-expanded="false">Teaching <span class="sr-only">(current)</span></a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="teaching/teaching.html">Overview</a>
-        <a class="dropdown-item" class="active" href="teaching/lecturenotes/lecturenotes.html">Lecturenotes</a>
+        <a class="dropdown-item active" href="teaching/lecturenotes/lecturenotes.html">Lecturenotes</a>
       </div>
     </li>
     <li class="nav-item">
@@ -71,7 +85,7 @@
 <div class="container">
 <h1>Lecturenotes</h1>
 
-<ul>
+<ul class="table-of-contents">
   <li><a href="#databases">Datenbanken</a></li>
   <li><a href="#web-technology">Web-Technologie</a></li>
   <li><a href="#machine-learning">Machine Learning and Data Mining</a></li>
@@ -87,7 +101,7 @@
 
 <table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="databases" colspan="2">Collection. Datenbanken</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-databases-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
@@ -168,7 +182,7 @@
     <th id="part-physical-design" colspan="3" class="table-active text-muted">Part. Physikalischer Datenbankentwurf</th>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="web-technology" colspan="2">Collection. Web-Technologie</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-web-technology-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
@@ -285,7 +299,7 @@
     <td class="links"></td>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="machine-learning" colspan="2">Collection. Machine Learning and Data Mining</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-machine-learning-intro" colspan="3" class="table-active">Part. Introduction</th>
   </tr>  <tr >
@@ -460,7 +474,7 @@
     <td class="links"></td>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="information-retrieval" colspan="2">Collection. Information Retrieval</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-information-retrieval-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
@@ -575,7 +589,7 @@
     <th id="part-multimedia-ir" colspan="3" class="table-active text-muted">Part. Multimedia-Retrieval</th>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="search" colspan="2">Collection. Search Algorithms</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-search-intro" colspan="3" class="table-active">Part. Introduction</th>
   </tr>  <tr >
@@ -658,7 +672,7 @@
     <th id="part-search-applications" colspan="3" class="table-active text-muted">Part. Search Applications</th>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="logics" colspan="2">Collection. Logik</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-logics-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
@@ -747,7 +761,7 @@
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/logics/unit-de-verification3.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark">
     <th id="modeling-kbs" colspan="2">Collection. Modellierung wissensintensiver Probleme</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-modeling-kbs-intro" colspan="3" class="table-active">Part. Einf&uuml;hrung</th>
   </tr>  <tr >
@@ -858,7 +872,7 @@
     <td class="links"><nobr><a style="font-size:7pt" href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/modeling-kbs/unit-de-configuration-basics.pdf"><div class="pdf-icon" alt="PDF-Icon" ></div>.de</a></nobr></td>
   </tr></table><table class="table table-hover table-sm">  <tr class="table-dark text-muted">
     <th id="languages-tools" colspan="2">Collection. Languages and Tools</th>
-    <th><div align="right"><a href="#"><i class="fw fa-chevron-up" aria-hidden="true"></i></a></div></th>
+    <th><div align="right"><a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div></th>
   </tr>  <tr>
     <th id="part-lisp" colspan="3" class="table-active text-muted">Part. LISP</th>
   </tr>  <tr class='text-muted'>
