@@ -1,0 +1,73 @@
+body {
+  /* Move down content because we have a fixed navbar that is 3.5rem tall */
+  padding-top: 3.5rem;
+  background-color: #f7f7f7;
+}
+
+/* navbar */
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+/* main */
+
+.table-of-contents {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  font-size: 85%;
+}
+
+/* footer */
+
+@media (min-width: 576px) {
+  .footer {
+      text-align: left;
+  }
+}
+
+.footer {
+  font-size: 85%;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+footer .media img {
+  width: 26px;
+  height: 26px;
+}
+
+footer a {
+  color: #868e96;
+}
+
+footer a:hover {
+  color: #868e96;
+  text-decoration: underline;
+}
+
+/* font awesome */
+
+a .fa {
+  color: black;
+}
+
+/* sizing classes */
+
+.h-27px {
+  height: 27px;
+}
+
+.mt-4px {
+  margin-top: 4px;
+}
+
+.mt--5px {
+  margin-top: -10px;
+}
