@@ -1,4 +1,4 @@
-@import url(webis.css)
+@import url("webis.css")
 
 .deprecated td:first-child:after {
   content: "[deprecated]";
