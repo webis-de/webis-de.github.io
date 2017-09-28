@@ -1,5 +1,5 @@
-@import url(bootstrap.min.css);
-@import url(font-awesome.min.css);
+@import url("bootstrap.min.css");
+@import url("font-awesome.min.css");
 
 body {
   /* Move down content because we have a fixed navbar that is 3.5rem tall */
