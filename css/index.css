@@ -1,24 +1,4 @@
-body {
-  /* Move down content because we have a fixed navbar that is 3.5rem tall */
-  padding-top: 3.5rem;
-  background-color: #f7f7f7;
-}
-
-.navbar-brand {
-  margin-right: 2rem;
-}
-
-.h-27px {
-  height: 27px;
-}
-
-.mt-4px {
-  margin-top: 4px;
-}
-
-.mt--5px {
-  margin-top: -10px;
-}
+@import url("../css/webis.css");
 
 .jumbotron {
   background-image: url("../img/webis-welcome1.jpg");
@@ -45,40 +25,10 @@ body {
   text-decoration: underline;  
 }
 
-.main {
-  background-color: white;
-}
-
 .min-empty-space {
   min-height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-}
-
-.footer {
-  font-size: 85%;
-  text-align: center;
-  background-color: #f7f7f7;
-}
-
-@media (min-width: 576px) {
-  .footer {
-      text-align: left;
-  }
-}
-
-footer .media img {
-  width: 26px;
-  height: 26px;
-}
-
-footer a {
-  color: #868e96;
-}
-
-footer a:hover {
-  color: #868e96;
-  text-decoration: underline;
 }
