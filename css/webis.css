@@ -1,11 +1,12 @@
 @import url("bootstrap.min.css");
 @import url("font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto')
 
 body {
   /* Move down content because we have a fixed navbar that is 3.5rem tall */
   padding-top: 3.5rem;
   background-color: #f7f7f7;
-  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Geneva, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* navbar */
