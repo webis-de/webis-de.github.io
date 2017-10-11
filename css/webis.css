@@ -39,6 +39,11 @@ nav {
   color: rgb(6, 69,173) !important;
 }
 
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.65em;
+}
+
 .table-of-contents {
   margin-top: 1rem;
   margin-bottom: 3rem;
