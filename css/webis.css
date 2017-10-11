@@ -45,6 +45,10 @@ h1 {
   margin-bottom: 0.65em;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
 .table-of-contents {
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -52,6 +56,36 @@ h1 {
 .table-of-contents li {
   margin-bottom: 2px;
   list-style: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAARAAAAEQB6rnU3wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB1SURBVBiVfU87CgJBFEseC5Z6E2sbu4F3Ee3mQnoI28DcYE+jpYUTq5VFB1MFEvKhbfwDM/PQe9+NxIi4T7ZfEXEDsPnSn7aPIWkmWX+iySpp5rIhMy8kTwBg+yrpDADTqq/a3i/8k7R+UUrZAkBr7TE0jPAG3mEw1f4Hsd4AAAAASUVORK5CYII=');
+}
+
+
+.list-container {
+  margin-bottom: 2rem;
+}
+.list-container .date {
+  color: #666;
+  padding-left: 12px;
+}
+.list-container .entry {
+  border-top-color: #D9D9D9;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.list-container .image {
+  display: table-cell;
+  vertical-align: middle;
+  width: 120px;
+}
+.list-container .right {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+.list-container h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 
 /* footer */
