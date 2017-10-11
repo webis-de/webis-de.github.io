@@ -1,6 +1,6 @@
 @import url("bootstrap.min.css");
 @import url("font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css?family=Roboto')
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   /* Move down content because we have a fixed navbar that is 3.5rem tall */
