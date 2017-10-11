@@ -32,9 +32,6 @@
 td:nth-child(2), th:nth-child(2) {
   width: 1%;
 }
-td:last-child, th:last-child {
-  width: 70px;
-}
 .table-dark th {
   border-bottom: 1px solid #000099;
 }
