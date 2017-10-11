@@ -95,3 +95,9 @@ a .fa {
 .mt--5px {
   margin-top: -10px;
 }
+
+/*
+  This is to stop CSS preprocessor, such as Sass, Less, or Stylus, from downloading the bootstrap map file, causing numerous errors when opening the page in web developer.
+  See https://stackoverflow.com/a/42127159
+*/
+/*# sourceMappingURL= */
