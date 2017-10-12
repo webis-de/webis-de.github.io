@@ -12,7 +12,7 @@ body {
 /* navbar */
 
 nav {
-  font-size: 90%;
+  font-size: 16px;
 }
 .navbar-brand {
   margin-right: 2rem;
@@ -33,7 +33,7 @@ nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: white;
-  font-size: 75%;
+  font-size: 14px;
 }
 
 .main a {
@@ -97,7 +97,7 @@ h2 {
 }
 
 .footer {
-  font-size: 75%;
+  font-size: 12px;
   text-align: center;
   background-color: #f7f7f7;
 }
