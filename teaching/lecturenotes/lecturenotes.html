@@ -17,26 +17,34 @@
 <body>
 
 <!-- header start -->
-
+<!-- Our scripts rely on the header start and end comments to be there and on an line on their own, so never change them! -->
+<!--
+  For our maintenance scripts, the following has to hold:
+    - All <li> and <a> that can receive bootstrap's active class need to have
+      - An ID "nav-item-..." where "..." is the "-"-separated list of directories in which the respective HTML file resides
+      - At least one class that is defined after the ID
+    - The <li> of index.html has to have the ID "nav-item-home" 
+-->
 <div id="header-container" class="container">
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"><a class="navbar-brand" href="/index.html"><img class="h-27px mt--5px" src="/img/webis-logo_w27.png"><span class="ml-3">Webis</span></a>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="../../index.html"><img class="h-27px mt--5px" src="../../img/webis-logo_w27.png" /><span class="ml-3">Webis</span></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbar">
   <ul class="navbar-nav mr-auto">
-<li id="nav-item-home" class="nav-item ">
-      <a class="nav-link mt-4px" href="/index.html">Home</a>
+    <li id="nav-item-home" class="nav-item ">
+      <a class="nav-link mt-4px" href="../../index.html">Home<span class="sr-only"> (current)</span></a>
     </li>
     <li id="nav-item-teaching" class="nav-item dropdown active">
-      <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="/#" role="button" aria-haspopup="true" aria-expanded="false">Teaching</a>
+      <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Teaching</a>
       <div class="dropdown-menu">
-        <a id="nav-item-teaching-overview" class="dropdown-item" href="/teaching/teaching.html">Overview</a>
-        <a id="nav-item-teaching-lecturenotes" class="dropdown-item active" href="/teaching/lecturenotes/lecturenotes.html">Lecturenotes<span class="sr-only"> (current)</span></a>
+        <a id="nav-item-teaching-overview" class="dropdown-item" href="../overview/overview.html">Overview</a>
+        <a id="nav-item-teaching-lecturenotes" class="dropdown-item active" href="#">Lecturenotes</a>
       </div>
     </li>
     <li id="nav-item-facilities" class="nav-item">
-      <a class="nav-link mt-4px" href="/facilities/facilities.html">Facilities</a>
+      <a class="nav-link mt-4px" href="../../facilities/facilities.html">Facilities</a>
     </li>
   </ul>
 </div>
@@ -986,43 +994,44 @@ The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medi
 </div>
 
 <!-- footer start -->
-
+<!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
 <div id="footer-container">
-<footer class="footer text-muted text-left"><div class="container-fluid p-3 p-md-5">
+<footer class="footer text-muted text-left">
+<div class="container-fluid p-3 p-md-5">
   <div class="row">
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
       <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Other Webis sites</p>
       <ul class="list-unstyled">
-<li class="media my-2">
+        <li class="media my-2">
           <a href="http://www.args.me">
             <div class="media">
-              <img class="d-flex align-self-center mr-3" src="/img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
             </div>
           </a>
         </li>
         <li class="my-2">
           <a href="http://www.chatnoir.eu">
             <div class="media">
-              <img class="d-flex align-self-center mr-3" src="/img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
             </div>
           </a>
         </li>
         <li class="media my-2">
           <a href="http://www.netspeak.org">
             <div class="media">
-              <img class="d-flex align-self-center mr-3" src="/img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
             </div>
           </a>
         </li>
         <li class="media my-2">
           <a href="http://www.picapica.org">
             <div class="media">
-              <img class="d-flex align-self-center mr-3" src="/img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
             </div>
           </a>
         </li>
       </ul>
-</div>
+    </div>
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-buw" aria-controls="collapse-buw" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
@@ -1031,13 +1040,13 @@ The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medi
       <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.uni-weimar.de/medien/webis/">Bauhaus-Universität Weimar</a></p>
       <div class="collapse navbar-collapse" id="collapse-buw">
         <ul class="list-unstyled">
-<a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/teaching"><li>Teaching</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/events"><li>Events</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/facilities"><li>Facilities</li></a>
         </ul>
-</div>
+      </div>
     </div>
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-lu" aria-controls="collapse-lu" aria-expanded="false" aria-label="Toggle navigation">
@@ -1047,29 +1056,29 @@ The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medi
       <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Leipzig University</p>
       <div class="collapse navbar-collapse" id="collapse-lu">
         <ul class="list-unstyled">
-<li>Home</li>
+          <li>Home</li>
           <li>People</li>
           <li>Teaching</li>
           <li>Events</li>
           <li>Facilities</li>
         </ul>
-</div>
+      </div>
     </div>
   </div>
   <p class="float-right">© webis 2017</p>
 </div>
-</footer><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="/">window.jQuery || document.write('<script src="js/jquery-3.2.1.slim.min.js"><\/script>')</script><script src="/js/popper.min.js"></script><script src="/js/bootstrap.min.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug --><script src="/js/ie10-viewport-bug-workaround.js"></script>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+<script src="../../js/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../js/ie10-viewport-bug-workaround.js"></script>
 </div>
 <!-- footer end -->
 
-<script type="text/javascript">
-function popup(url) {
- fenster=window.open(url, "Lecturenotes Upload", "width=600,height=150,resizable=yes,toolbar=yes,scrollbars=yes");
- fenster.focus();
- return false;
-}
-</script>
 </body>
-
+</html>
 
 
