@@ -26,6 +26,11 @@ nav {
 .dropdown-menu {
   font-size: inherit;
 }
+.dropdown-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
 
 /* main */
 
@@ -33,7 +38,7 @@ nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: white;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .main a {

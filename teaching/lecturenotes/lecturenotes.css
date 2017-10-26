@@ -27,10 +27,14 @@
   margin-bottom: 0rem;
 }
 .table td, .table th {
-  padding: .2rem;
+  padding: 3px;
 }
-td:nth-child(2), th:nth-child(2) {
+td.date {
   width: 1%;
+}
+td.links {
+  width: 65px;
+  text-align: right;
 }
 .table-dark th {
   border-bottom: 1px solid #000099;
