@@ -63,6 +63,11 @@ h2 {
   list-style: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAARAAAAEQB6rnU3wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB1SURBVBiVfU87CgJBFEseC5Z6E2sbu4F3Ee3mQnoI28DcYE+jpYUTq5VFB1MFEvKhbfwDM/PQe9+NxIi4T7ZfEXEDsPnSn7aPIWkmWX+iySpp5rIhMy8kTwBg+yrpDADTqq/a3i/8k7R+UUrZAkBr7TE0jPAG3mEw1f4Hsd4AAAAASUVORK5CYII=');
 }
 
+.container, .container-fluid {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
 
 .list-container {
   margin-bottom: 2rem;
