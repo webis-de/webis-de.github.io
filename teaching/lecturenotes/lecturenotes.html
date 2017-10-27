@@ -11,19 +11,22 @@
     - The <li> of index.html has to have the ID "nav-item-home" 
 -->
 <div id="header-container" class="container">
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"><a class="navbar-brand" href="../../index.html"><img class="h-27px mt--5px" src="../../img/webis-logo_w27.png"><span class="ml-3">Webis</span></a>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="../../index.html"><img class="h-27px mt--5px" src="../../img/webis-logo_w27.png" /><span class="ml-3">Webis</span></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbar">
-  <ul class="navbar-nav mr-auto"><li id="nav-item-home" class="nav-item ">
+  <ul class="navbar-nav mr-auto">
+    <li id="nav-item-home" class="nav-item ">
       <a class="nav-link mt-4px" href="../../index.html">Home<span class="sr-only"> (current)</span></a>
     </li>
     <li id="nav-item-people" class="nav-item dropdown">
       <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
       <div class="dropdown-menu">
+        <a id="nav-item-people-hagen" class="dropdown-item" href="http://matthias-hagen.de">Matthias Hagen (Bauhaus-Universität Weimar)</a>
         <a id="nav-item-people-potthast" class="dropdown-item" href="http://ul.webis.de">Martin Potthast (Leipzig University)</a>
-        <a id="nav-item-people-stein" class="dropdown-item" href="http://buw.webis.de">Benno Stein (Bauhaus-Universit&auml;t Weimar)</a>
+        <a id="nav-item-people-stein" class="dropdown-item" href="http://buw.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a>
       </div>
     </li>
     <li id="nav-item-teaching" class="nav-item dropdown active">
@@ -36,8 +39,10 @@
     <li id="nav-item-facilities" class="nav-item">
       <a class="nav-link mt-4px" href="../../facilities/facilities.html">Facilities</a>
     </li>
-  </ul></div>
-</nav></div>
+  </ul>
+</div>
+</nav>
+</div>
 <!-- header end -->
 
 <div class="container-fluid main">
@@ -718,11 +723,13 @@ The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medi
 <!-- footer start -->
 <!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
 <div id="footer-container">
-<footer class="footer text-muted text-left"><div class="container-fluid p-3 p-md-5">
+<footer class="footer text-muted text-left">
+<div class="container-fluid p-3 p-md-5">
   <div class="row">
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
       <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Other Webis sites</p>
-      <ul class="list-unstyled"><li class="media my-2">
+      <ul class="list-unstyled">
+        <li class="media my-2">
           <a href="http://www.args.me">
             <div class="media">
               <img class="d-flex align-self-center mr-3" src="../../img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
@@ -750,20 +757,23 @@ The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medi
             </div>
           </a>
         </li>
-      </ul></div>
+      </ul>
+    </div>
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-buw" aria-controls="collapse-buw" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
-        Bauhaus-Universit&auml;t Weimar
+        Bauhaus-Universität Weimar
       </div>
-      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.uni-weimar.de/medien/webis/">Bauhaus-Universit&auml;t Weimar</a></p>
+      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.uni-weimar.de/medien/webis/">Bauhaus-Universität Weimar</a></p>
       <div class="collapse navbar-collapse" id="collapse-buw">
-        <ul class="list-unstyled"><a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
+        <ul class="list-unstyled">
+          <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/teaching"><li>Teaching</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/events"><li>Events</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/facilities"><li>Facilities</li></a>
-        </ul></div>
+        </ul>
+      </div>
     </div>
     <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-lu" aria-controls="collapse-lu" aria-expanded="false" aria-label="Toggle navigation">
@@ -772,19 +782,29 @@ The Lecturenotes scripts are continuously <a href="http://www.uni-weimar.de/medi
       </div>
       <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/">Leipzig University</a></p>
       <div class="collapse navbar-collapse" id="collapse-lu">
-        <ul class="list-unstyled"><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li>
-          </a><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
+        <ul class="list-unstyled">
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/teaching/"><li>Teaching</li></a>
           <!--
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/events/"><li>Events</li></a>
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/facilities/"><li>Facilities</li></a>
           -->
-        </ul></div>
+        </ul>
+      </div>
     </div>
   </div>
-  <p class="float-right">&copy; webis 2017</p>
+  <p class="float-right">© webis 2017</p>
 </div>
-</footer><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script>window.jQuery || document.write('<script src="../../js/jquery-3.2.1.slim.min.js"><\/script>')</script><script src="../../js/popper.min.js"></script><script src="../../js/bootstrap.min.js"></script><!-- IE10 viewport hack for Surface/desktop Windows 8 bug --><script src="../../js/ie10-viewport-bug-workaround.js"></script></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+<script src="../../js/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../js/ie10-viewport-bug-workaround.js"></script>
+</div>
 <!-- footer end -->
 
 <script type="text/javascript">
