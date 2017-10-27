@@ -12,8 +12,8 @@
 <link rel="icon" href="../../favicon.ico" />
 </head>
 
-
 <body>
+<script src="overview.js"></script>
 
 <!-- header start -->
 <!-- Our scripts rely on the header start and end comments to be there and on an line on their own, so never change them! -->
@@ -63,18 +63,10 @@
 <h1>Teaching Overview</h1>
 
 <p>
-Our teaching covers relevant elements from the research areas of the Webis Group:
+Our teaching covers relevant elements from the research areas of the Webis Group.
 </p>
-
-<ul>
-<li>Search Algorithms, Logics, Knowledge Processing&emsp;<span style="background-color:rgb(178,211,144);">[s, l, mk]</span></li>
-<li>Information Retrieval, Machine Learning&emsp;<span style="background-color:rgb(245,222,144);">[ir, ml]</span></li>
-<li>Databases&emsp;<span style="background-color:rgb(142,202,245);">[db]</span></li>
-<li>Web Technology&emsp;<span style="background-color:rgb(162,155,224);">[wt]</span></li>
-</ul>
-
 <p>
-The table below organizes the teaching material according to the study course level; the cells are hyperlinked: clicking on the text will take you to the course slides in the <a class="internal-link" title="Lecturenotes" href="../lecturenotes/lecturenotes.html">Lecturenotes</a> repository. The drop-down box "Filter..." highlights courses with respect to the selected criterion. The letter codes in the list above [s, l, mk, ir, ml, db, wt] are used within the page numbering scheme of the <a class="internal-link" title="Lecturenotes" href="../lecturenotes/lecturenotes.html">Lecturenotes</a>.
+The table below organizes the teaching material; the cells are hyperlinked: clicking on the text will take you to the course slides in the <a class="internal-link" title="Lecturenotes" href="../lecturenotes/lecturenotes.html">Lecturenotes</a> repository. The drop-down box "Filter..." highlights courses with respect to the selected criterion.
 </p>
 
 <p>
@@ -86,6 +78,7 @@ The table below organizes the teaching material according to the study course le
 <option value="master">Master</option>
 <option disabled="disabled">--</option>
 <option value="buw">Bauhaus-Universit&auml;t</option>
+<option value="ul">Leipzig University</option>
 <option value="upb">Paderborn University&nbsp;</option>
 <option value="upa">Passau University</option>
 </select>
@@ -93,178 +86,105 @@ The table below organizes the teaching material according to the study course le
 <br />
 </p>
 
+<div id="coursetable" class="base">
+<ul class="bachelor db collection">
+  <li class="buw collection"><a href="../lecturenotes/lecturenotes.html#databases">Datenbanken</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-databases-intro">Einf&uuml;hrung</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-conceptual-design">Konzeptueller Datenbank&shy;entwurf</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-relational-design">Logischer Datenbank&shy;entwurf mit dem rel. Modell</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-relational-calculus">Grundlagen relationaler Anfrage&shy;sprachen</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-sql">SQL</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-relational-theory">Entwurfstheorie relationaler Datenbanken</a></li>
+  <li class="part empty"><span>Physikalischer Datenbank&shy;entwurf</span></li>
 
-<table id="webis-coursetable" class="base">
+</ul>
 
+<ul class="bachelor web collection">
+  <li class="buw upb collection"><a href="../lecturenotes/lecturenotes.html#web-technology">Web-Technologie</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-web-technology-intro">Einf&uuml;hrung</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-network-protocol">Rechner&shy;kommunikation und Protokolle</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-document-languages">Dokument&shy;sprachen</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-server-technologies">Server-Technologien</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-client-technologies">Client-Technologien</a></li>
+  <li class="buw part"><a href="../lecturenotes/lecturenotes.html#part-webis-architectures">Architekturen und Middleware-Technologien</a></li>
+  <li class="part"><a href="../lecturenotes/lecturenotes.html#part-semantic-web">Semantic Web</a></li>
+</ul>
 
-<!-- Graduation row -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell grad"><a href="http://www.uni-weimar.de/medien/webis/people/#webis-assistants">Graduate Studies</a></td>
-</tr>
-</table>
-</td>
-</tr>
+<ul class="master ml collection">
+  <li class="buw upa upb collection"><a href="../lecturenotes/lecturenotes.html#machine-learning">Machine Learning and Data Mining</a></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-machine-learning-intro">Introduction</a></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-machine-learning-basics">Machine Learning Basics</a></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-decision-trees">Decision Trees</a></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-statistical-learning">Statistical Learning</a></li>
+  <li class="part empty"><span>Linear Models</span></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-neural-networks">Neural Networks</a></li>
+  <li class="part empty"><span>Kernel Methods</span></li>
+  <li class="part empty"><span>Learning Theory</span></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-meta-learning">Combined Models and Meta Learning</a></li>
+  <li class="part empty"><span>Latent Variables Analysis</span></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-cluster-analysis">Cluster Analysis</a></li>
+  <li class="buw upa upb part"><a href="../lecturenotes/lecturenotes.html#part-unsupervised-others">Other Unsupervised Learning Methods</a></li>
+</ul>
 
+<ul class="master ir collection">
+  <li class="buw lu collection"><a href="../lecturenotes/lecturenotes.html#information-retrieval">Information Retrieval</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-information-retrieval-intro">Introduction</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-text-transformation">Text Transformation</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-indexing">Indexing</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-retrieval-models">Retrieval Models</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-users-and-queries">Users and Queries</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-result-presentation">Result Presentation</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-evaluation">Evaluation</a></li>
+  <li class="buw lu part"><a href="../lecturenotes/lecturenotes.html#part-acquisition">Acquisition</a></li>
+  <li class="part empty"><span>Cross-language Retrieval</span></li>
+  <li class="part empty"><span>Distributed and Parallel Retrieval</span></li>
+  <li class="part empty"><span>Multimedia Retrieval</span></li>
+  <li class="part empty"><span>Other Application Domains</span></li>
 
+</ul>
 
-<!-- MSc row -->
-<tr>
-<td>
-<table>
-<tr>
+<ul class="master search collection">
+  <li class="buw upb collection"><a href="../lecturenotes/lecturenotes.html#search">Search Algorithms</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-search-intro">Introduction</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-search-representation">Searchspace Representation</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-basic-search">Basic Search Algorithms</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-informed-search">Informed Search</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-search-theory">Search Theory</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-relaxed-models">Relaxed Models</a></li>
+  <li class="buw upb part"><a href="../lecturenotes/lecturenotes.html#part-game-playing">Game Playing</a></li>
+  <li class="part empty"><span>Search Applications</span></li>
 
-<!-- Left -->
-<td style="width:60%">
-<table>
-<!-- above -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell ai master" style="width:25%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-modeling-kbs-basics">Modeling&nbsp;&amp;<br/>Constraints</a></td>
-<td class="coursecell ai master" style="width:25%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-diagnosis">Diagnosis</a></td>
-<td class="coursecell ai master upb" style="width:25%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-configuration">Planning&nbsp;&amp;<br/>Configuration</a></td>
-<td class="coursecell ai master buw" style="width:25%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-semantic-web">Semantic<br/>Web</a></td>
-</tr>
-</table>
-</td>
-</tr>
-<!-- below -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell ai master buw upb" style="width:40%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#search">Search<br/>Algorithms</a></td>
-<td class="coursecell ai master upb" style="width:40%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#logics">Logics&nbsp;&amp;<br/>Calculi</a></td>
-<td class="coursecell ai master upb" style="width:20%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-nonclassical-logics">Logics<br/>Extensions</a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
+</ul>
 
-<!-- Right -->
-<td style="width:40%">
-<table>
-<!-- above -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell ml master inactive" style="width:50%">Learning<br/>Theory</td>
-<td class="coursecell ml master buw" style="width:50%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#information-retrieval">Information Retrieval<br/>&amp; Extraction</a></td>
-</tr>
-</table>
-</td>
-</tr>
-<!-- below -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell ml master buw upb upa" style="width:70%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#machine-learning">Machine<br/>Learning</a></td>
-<td class="coursecell ml master buw upb upa" style="width:30%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-cluster-analysis">Data<br/>Mining</a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
+<ul class="master logics collection">
+  <li class="upb collection"><a href="../lecturenotes/lecturenotes.html#logics">Logik</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-logics-intro">Einf&uuml;hrung</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-propositional-logics">Aussagenlogik</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-predicate-logics">Pr&auml;dikatenlogik</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-nonclassical-logics">Nichtklassische Logiken</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-logics-extensions">Erweiterungen und Anwendungen zur Logik</a></li>
+</ul>
 
-</tr>
-</table>
-</td>
-</tr>
+<ul class="master mk collection">
+  <li class="upb collection"><a href="../lecturenotes/lecturenotes.html#modeling-kbs">Modellierung wissens&shy;intensiver Probleme</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-modeling-kbs-intro">Einf&uuml;hrung</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-knowledge-representation">Wissens&shy;repr&auml;sentation</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-modeling-kbs-basics">Begriffe der Modellierung</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-constraints">Modellieren mit Constraints</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-diagnosis">Diagnose</a></li>
+  <li class="upb part"><a href="../lecturenotes/lecturenotes.html#part-configuration">Planen und Konfigurieren</a></li>
+</ul>
 
-
-
-<!-- BSc row -->
-<tr>
-<td>
-<table>
-<tr>
-
-<!-- Left -->
-<td style="width:45%">
-<table>
-<!-- above -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell db bachelor buw"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-sql">SQL</a></td>
-<td class="coursecell db bachelor buw"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-relational-theory">Relational<br/>Theory</a></td>
-</tr>
-</table>
-</td>
-</tr>
-<!-- below -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell db bachelor buw"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-conceptual-design">Conceptual<br/>Design</a></td>
-<td class="coursecell db bachelor buw"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-relational-calculus">Relational<br/>Calculus</a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-
-<!-- Right -->
-<td style="width:55%">
-<table>
-<!-- above -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell web bachelor buw upb" style="width:40%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-server-technologies">Server<br/>Technologies</a></td>
-<td class="coursecell web bachelor buw upb" style="width:40%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-client-technologies">Client<br/>Technologies</a></td>
-<td class="coursecell web bachelor inactive" style="width:20%">Architectures&nbsp;&amp;<br/>Middleware</td>
-</tr>
-</table>
-</td>
-</tr>
-<!-- below -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell web bachelor buw upb" style="width:80%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-document-languages">Document Languages</a></td>
-<td class="coursecell web bachelor buw" style="width:20%"><a href="http://www.uni-weimar.de/medien/webis/teaching/lecturenotes/#part-network-protocol">Network&nbsp;&amp;<br/>Protocols</a></td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-</td>
-
-</tr>
-</table>
-</td>
-</tr>
+<ul class="tools collection">
+  <li class="collection empty"><span>Languages and Tools</span></li>
+  <li class="part empty"><span>LISP</span></li>
+  <li class="part empty"><span>LISP Applications</span></li>
+  <li class="part empty"><span>MapReduce</span></li>
+  <li class="part empty"><span>Knowledge Representation Tools</span></li>
+</ul>
+</div>
 
 
-
-<!-- Foundations row -->
-<tr>
-<td>
-<table>
-<tr>
-<td class="coursecell found inactive"> Mathematics / Statistics / CS Theory / Algorithms / SWE </td>
-</tr>
-</table>
-</td>
-</tr>
-
-
-</table>
 </div>
 </div>
 
@@ -358,4 +278,3 @@ The table below organizes the teaching material according to the study course le
 
 </body>
 </html>
-

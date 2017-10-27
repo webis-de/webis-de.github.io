@@ -1,234 +1,88 @@
 @import url("../../css/webis.css");
 
-/* outer table */
-#webis-coursetable {
-  border: 1px solid black;
-  border-collapse: collapse;
-  table-layout: fixed;
-  width: 550px;
+ul.collection, ul.collection li, ul.collection li * {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
 }
-
-/* inner table */
-#webis-coursetable table {
-  border: 1px;
-  border-collapse: collapse;
-  width: 100%;
-  margin: 0;
+ul.collection {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
-/* cells holding inner table */
-#webis-coursetable td {
-  border: 0px;
-  padding: 0px;
+ul.collection li {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
 }
-
-/* cell of inner table */
-#webis-coursetable td.coursecell {
-  border: 1px solid black;
-  font-family: Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  padding: 7px 5px; /* y x */
+ul.collection li.collection {
+  font-weight: bold;
+}
+ul.collection li * {
+  padding: 4px;
+  width: 100px;
+  color: inherit !important;
   text-align: center;
-  vertical-align: middle;
-  white-space: nowrap;
+  justify-content: center; /* align horizontal */
+  -webkit-align-items: center;
+  align-items: center; /* align vertical */
 }
 
+/* colors */
 
-/* COLOR MODELS */
-/* Font color (third entry) = background color (first entry) at 30% B under HSB model when converted from RGB model */
-
-/* DEFAULT CELL STYLES */
-/* set font color for */
-#webis-coursetable a,
-#webis-coursetable a:link,
-#webis-coursetable a:visited,
-#webis-coursetable a:active,
-#webis-coursetable td.inactive {
-  color: rgb(120,120,120) !important;
-}
-#webis-coursetable a:hover {
-  text-decoration: underline !important;
+ul.collection li.empty {
+  color: rgb(120,120,120);
 }
 
-/* GRADUATES CELL STYLES */
-/* set 1st background color for */
-#webis-coursetable.base td.grad {
-  background: rgb(245,245,220);
+ul.collection li.collection {
+  background: rgb(192,192,192);
 }
-/* set 2st background color for */
-#webis-coursetable.base td.grad:hover {
-  background: rgb(255,255,245);
+ul.collection.search li.part {
+  background: rgb(161,196,131);
 }
-/* set font color for */
-#webis-coursetable.base td.grad a,
-#webis-coursetable.base td.grad a:link,
-#webis-coursetable.base td.grad a:visited,
-#webis-coursetable.base td.grad a:active {
-  color: rgb(76,76,69) !important;
-}
-
-/* AI CLASSES CELL STYLES [s,l,mk] */
-/* set 1st background color for */
-#webis-coursetable.base   td.ai,
-#webis-coursetable.master td.ai,
-#webis-coursetable.buw    td.ai.buw,
-#webis-coursetable.upb    td.ai.upb {
+ul.collection.logics li.part {
   background: rgb(178,217,144);
 }
-/* set 2st background color for */
-#webis-coursetable.base   td.ai:hover,
-#webis-coursetable.master td.ai:hover,
-#webis-coursetable.buw    td.ai.buw:hover,
-#webis-coursetable.upb    td.ai.upb:hover {
-  background: rgb(227,244,211);
+ul.collection.mk li.part {
+  background: rgb(206,222,191);
 }
-/* set font color for */
-#webis-coursetable.base   td.ai a,
-#webis-coursetable.master td.ai a,
-#webis-coursetable.buw    td.ai.buw a,
-#webis-coursetable.base   td.ai a:link,
-#webis-coursetable.master td.ai a:link,
-#webis-coursetable.buw    td.ai.buw a:link,
-#webis-coursetable.base   td.ai a:visited,
-#webis-coursetable.master td.ai a:visited,
-#webis-coursetable.buw    td.ai.buw a:visited,
-#webis-coursetable.base   td.ai a:active,
-#webis-coursetable.master td.ai a:active,
-#webis-coursetable.buw    td.ai.buw a:active,
-#webis-coursetable.upb    td.ai.upb a,
-#webis-coursetable.upb    td.ai.upb a:link,
-#webis-coursetable.upb    td.ai.upb a:visited,
-#webis-coursetable.upb    td.ai.upb a:active {
-  color: rgb(63,76,49) !important;
-}
-
-/* ML CLASSES CELL STYLES [ir,ml] */
-/* set 1st background color for */
-#webis-coursetable.base   td.ml,
-#webis-coursetable.base   td.ml.inactive:hover,
-#webis-coursetable.master td.ml,
-#webis-coursetable.master td.ml.inactive:hover,
-#webis-coursetable.buw    td.ml.buw,
-#webis-coursetable.upb    td.ml.upb,
-#webis-coursetable.upa    td.ml.upa {
-  background: rgb(245,222,144);
-}
-/* set 2st background color for */
-#webis-coursetable.base   td.ml:hover,
-#webis-coursetable.master td.ml:hover,
-#webis-coursetable.buw    td.ml.buw:hover,
-#webis-coursetable.upb    td.ml.upb:hover,
-#webis-coursetable.upa    td.ml.upa:hover {
-  background: rgb(255,245,209);
-}
-/* set 1st font color for */
-#webis-coursetable.base   td.ml a,
-#webis-coursetable.base   td.ml a:link,
-#webis-coursetable.base   td.ml a:visited,
-#webis-coursetable.base   td.ml a:active,
-#webis-coursetable.master td.ml a,
-#webis-coursetable.master td.ml a:link,
-#webis-coursetable.master td.ml a:visited,
-#webis-coursetable.master td.ml a:active,
-#webis-coursetable.buw    td.ml.buw a,
-#webis-coursetable.buw    td.ml.buw a:link,
-#webis-coursetable.buw    td.ml.buw a:visited,
-#webis-coursetable.buw    td.ml.buw a:active,
-#webis-coursetable.upb    td.ml.upb a,
-#webis-coursetable.upb    td.ml.upb a:link,
-#webis-coursetable.upb    td.ml.upb a:visited,
-#webis-coursetable.upb    td.ml.upb a:active,
-#webis-coursetable.upa    td.ml.upa a,
-#webis-coursetable.upa    td.ml.upa a:link,
-#webis-coursetable.upa    td.ml.upa a:visited,
-#webis-coursetable.upa    td.ml.upa a:active {
-  color: rgb(76,69,45) !important;
-}
-/* set 2nd font color for */
-#webis-coursetable.base   td.ml.inactive,
-#webis-coursetable.master td.ml.inactive {
-  color: rgb(255,245,209) !important;
-}
-
-/* DB CLASSES CELL STYLES [db] */
-/* set 1st background color for */
-#webis-coursetable.base     td.db,
-#webis-coursetable.bachelor td.db,
-#webis-coursetable.buw      td.db.buw {
+ul.collection.db li.part {
   background: rgb(142,202,245);
 }
-/* set 2st background color for */
-#webis-coursetable.base     td.db:hover,
-#webis-coursetable.bachelor td.db:hover,
-#webis-coursetable.buw      td.db.buw:hover {
-  background: rgb(218,239,255);
+ul.collection.ml li.part {
+  background: rgb(245,220,135);
 }
-/* set font color for */
-#webis-coursetable.base     td.db a,
-#webis-coursetable.base     td.db a:link,
-#webis-coursetable.base     td.db a:visited,
-#webis-coursetable.base     td.db a:active,
-#webis-coursetable.bachelor td.db a,
-#webis-coursetable.bachelor td.db a:link,
-#webis-coursetable.bachelor td.db a:visited,
-#webis-coursetable.bachelor td.db a:active,
-#webis-coursetable.buw      td.db.buw a,
-#webis-coursetable.buw      td.db.buw a:link,
-#webis-coursetable.buw      td.db.buw a:visited,
-#webis-coursetable.buw      td.db.buw a:active {
-  color: rgb(44,63,76) !important;
+ul.collection.ir li.part {
+  background: rgb(245,231,184);
 }
-
-/* WEB CLASSES CELL STYLES [wt] */
-/* set 1st background color for */
-#webis-coursetable.base     td.web,
-#webis-coursetable.base     td.web.inactive:hover,
-#webis-coursetable.bachelor td.web,
-#webis-coursetable.bachelor td.web.inactive:hover,
-#webis-coursetable.buw      td.web.buw,
-#webis-coursetable.upb      td.web.upb {
+ul.collection.web li.part {
   background: rgb(162,155,224);
 }
-/* set 2st background color for */
-#webis-coursetable.base     td.web:hover,
-#webis-coursetable.bachelor td.web:hover,
-#webis-coursetable.buw      td.web.buw:hover,
-#webis-coursetable.upb      td.web.upb:hover {
-  background: rgb(214,210,242);
+ul.collection.tools li.part {
+  background: rgb(233,161,119);
 }
-/* set 1st font color for */
-#webis-coursetable.base     td.web a,
-#webis-coursetable.base     td.web a:link,
-#webis-coursetable.base     td.web a:visited,
-#webis-coursetable.base     td.web a:active,
-#webis-coursetable.bachelor td.web a,
-#webis-coursetable.bachelor td.web a:link,
-#webis-coursetable.bachelor td.web a:visited,
-#webis-coursetable.bachelor td.web a:active,
-#webis-coursetable.buw      td.web.buw a,
-#webis-coursetable.buw      td.web.buw a:link,
-#webis-coursetable.buw      td.web.buw a:visited,
-#webis-coursetable.buw      td.web.buw a:active,
-#webis-coursetable.upb      td.web.upb a,
-#webis-coursetable.upb      td.web.upb a:link,
-#webis-coursetable.upb      td.web.upb a:visited,
-#webis-coursetable.upb      td.web.upb a:active {
-  color: rgb(55,53,76) !important;
-}
-/* set 2nd font color for */
-#webis-coursetable.base     td.web.inactive,
-#webis-coursetable.bachelor td.web.inactive {
-  color: rgb(214,210,242) !important;
+ul.collection li:hover:not(.empty) {
+  -webkit-filter: brightness(1.15);
+  filter: brightness(1.15);
 }
 
-/* FOUNDATIONS CELL STYLES */
-/* set 1st background color for */
-#webis-coursetable.base td.found {
+/* selection */
+
+#coursetable.buw li:not(.buw),
+#coursetable.upb li:not(.upb),
+#coursetable.upa li:not(.upa),
+#coursetable.ul li:not(.ul),
+#coursetable.bachelor ul:not(.bachelor) li,
+#coursetable.master ul:not(.master) li {
   background: rgb(210,210,210);
-}
-/* set font color for */
-#webis-coursetable.base td.found.inactive {
-  color: rgb(76,76,69) !important;
+  color: rgb(120,120,120);
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
 }
 
