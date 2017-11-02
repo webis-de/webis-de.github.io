@@ -15,7 +15,21 @@ ul.collection {
   -ms-box-orient: horizontal;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  background-image: url("part-placeholder.svg");
 }
+
+/* resize to fit ul.collection to contain li elements without additional space */
+/* li width steps with tolerance for .container padding and scroll bar */
+@media (min-width: 120px) { #coursetable ul { width: 100px; } }
+@media (min-width: 220px) { #coursetable ul { width: 200px; } }
+@media (min-width: 320px) { #coursetable ul { width: 300px; } }
+@media (min-width: 420px) { #coursetable ul { width: 400px; } }
+@media (min-width: 520px) { #coursetable ul { width: 500px; } }
+/* bootstrap width steps */
+@media (min-width: 768px) { #coursetable ul { width: 700px; } }
+@media (min-width: 992px) { #coursetable ul { width: 900px; } }
+@media (min-width: 1200px) { #coursetable ul { width: 1100px; } }
+
 ul.collection li {
   width: 100px;
   height: 100px;
