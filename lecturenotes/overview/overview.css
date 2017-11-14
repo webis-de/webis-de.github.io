@@ -73,7 +73,7 @@ ul.collection.ml li.part {
   background: rgb(245,220,135);
 }
 ul.collection.ir li.part {
-  background: rgb(245,231,184);
+  background: rgb(255,231,77);
 }
 ul.collection.web li.part {
   background: rgb(162,155,224);
@@ -82,8 +82,8 @@ ul.collection.tools li.part {
   background: rgb(233,161,119);
 }
 ul.collection li:hover:not(.empty) {
-  -webkit-filter: brightness(1.15);
-  filter: brightness(1.15);
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
 }
 
 /* selection */

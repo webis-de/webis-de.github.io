@@ -1,0 +1,18 @@
+#header-container img {
+  max-width: 27px;
+}
+#header-container li:focus,
+#header-container a:focus {
+  outline: 0px;
+}
+#header-container .dropdown-item:visited {
+  color: #212529;
+}
+#footer-container a:visited {
+  color: #868e96;
+}
+
+:root {
+  --toolbox-height: 60px;
+}
+

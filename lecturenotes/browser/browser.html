@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SlideHub is a presentation/slide/talk explorer">
+
+    <title>SlideHub</title>
+
+    <link rel="stylesheet" href="../../css/webis.css" type="text/css" />
+    <link rel="stylesheet" href="browser.css">
+    <link rel="stylesheet" href="browser-compatibility.css">
+
+    <script>
+        /*
+        * Document data
+        */
+        const documentsData = [
+            ["unit-de-db-organization.pdf", 7],
+            ["unit-de-db-introduction.pdf", 46],
+            ["unit-de-design-and-models.pdf", 29],
+            ["unit-de-conceptual-design1.pdf", 31],
+            ["unit-de-conceptual-design2.pdf", 52],
+            ["unit-de-relational-design1.pdf", 44],
+            ["unit-de-relational-design2.pdf", 62],
+            ["unit-de-relational-algebra.pdf", 67],
+            ["unit-de-relational-calculus.pdf", 85],
+            ["unit-de-sql1.pdf", 96],
+            ["unit-de-sql2.pdf", 38],
+            ["unit-de-sql3.pdf", 16],
+            ["unit-de-relational-theory1.pdf", 71],
+            ["unit-de-relational-theory2.pdf", 50],
+            ["unit-de-wt-organization.pdf", 7],
+            ["unit-de-wt-introduction.pdf", 57],
+            ["unit-de-network-protocol1.pdf", 44],
+            ["unit-de-network-protocol2.pdf", 38],
+            ["unit-de-network-protocol3.pdf", 53],
+            ["unit-de-doclang-introduction.pdf", 30],
+            ["unit-de-doclang-html.pdf", 53],
+            ["unit-de-doclang-css.pdf", 35],
+            ["unit-de-doclang-xml-basics.pdf", 74],
+            ["unit-de-doclang-xml-schema.pdf", 92],
+            ["unit-de-doclang-xml-xsl.pdf", 115],
+            ["unit-de-doclang-xml-api.pdf", 77],
+            ["unit-de-server-technologies1.pdf", 63],
+            ["unit-de-server-technologies2.pdf", 84],
+            ["unit-de-client-technologies1.pdf", 85],
+            ["unit-de-client-technologies2.pdf", 45],
+            ["unit-de-webis-architectures1.pdf", 36],
+            ["unit-de-webis-architectures2.pdf", 17],
+            ["unit-de-semantic-web-introduction.pdf", 30],
+            ["unit-de-semantic-web-rdf.pdf", 79],
+            ["unit-de-semantic-web-rdfs.pdf", 32],
+            ["unit-de-semantic-web-rdfsem.pdf", 27],
+            ["unit-de-semantic-web-ontology.pdf", 72],
+            ["unit-en-ml-organization.pdf", 8],
+            ["unit-en-ml-introduction.pdf", 33],
+            ["unit-en-data.pdf", 27],
+            ["unit-en-regression.pdf", 44],
+            ["unit-en-concept-learning.pdf", 51],
+            ["unit-en-performance-measures.pdf", 21],
+            ["unit-en-decision-trees-basics.pdf", 32],
+            ["unit-en-decision-trees-impurity.pdf", 33],
+            ["unit-en-decision-trees-algorithms.pdf", 26],
+            ["unit-en-decision-trees-pruning.pdf", 20],
+            ["unit-en-probability-basics.pdf", 20],
+            ["unit-en-bayesian-learning.pdf", 23],
+            ["unit-en-perceptron-learning.pdf", 59],
+            ["unit-en-multilayer-perceptron.pdf", 22],
+            ["unit-en-dm-overview.pdf", 10],
+            ["unit-en-cluster-analysis-basics.pdf", 21],
+            ["unit-en-cluster-analysis-hierarchical.pdf", 85],
+            ["unit-en-cluster-analysis-iterative.pdf", 26],
+            ["unit-en-cluster-analysis-density.pdf", 59],
+            ["unit-en-cluster-analysis-evaluation.pdf", 72],
+            ["unit-en-cluster-analysis-constrained.pdf", 38],
+            ["unit-en-association-analysis.pdf", 2],
+            ["unit-en-ir-organization.pdf", 9],
+            ["unit-en-ir-introduction.pdf", 64],
+            ["unit-en-ir-architecture.pdf", 65],
+            ["unit-en-parsing.pdf", 56],
+            ["unit-en-link-analysis.pdf", 17],
+            ["unit-en-information-extraction.pdf", 16],
+            ["unit-de-index-terms.pdf", 20],
+            ["unit-de-stemming.pdf", 12],
+            ["unit-en-abstract-ranking.pdf", 9],
+            ["unit-en-inverted-indexes.pdf", 11],
+            ["unit-en-compression.pdf", 18],
+            ["unit-en-auxiliary-structures.pdf", 2],
+            ["unit-en-index-construction.pdf", 14],
+            ["unit-en-query-processing.pdf", 22],
+            ["unit-en-retrieval-models.pdf", 9],
+            ["unit-en-rm-old-models.pdf", 13],
+            ["unit-en-rm-probabilistic-models.pdf", 17],
+            ["unit-en-rm-language-models.pdf", 24],
+            ["unit-en-rm-combining-evidence.pdf", 12],
+            ["unit-en-rm-web-search.pdf", 8],
+            ["unit-en-rm-learning-to-rank.pdf", 7],
+            ["unit-de-rm-term-based.pdf", 24],
+            ["unit-de-rm-algebraic.pdf", 45],
+            ["unit-en-information-needs.pdf", 9],
+            ["unit-en-query-transformation.pdf", 43],
+            ["unit-en-cross-language.pdf", 7],
+            ["unit-en-showing-results.pdf", 19],
+            ["unit-en-evaluation-corpus.pdf", 9],
+            ["unit-en-logging.pdf", 5],
+            ["unit-en-effectiveness-metrics.pdf", 24],
+            ["unit-en-efficiency-metrics.pdf", 3],
+            ["unit-en-training-and-testing.pdf", 13],
+            ["unit-de-ir-evaluation.pdf", 19],
+            ["unit-en-crawling.pdf", 38],
+            ["unit-en-conversion.pdf", 7],
+            ["unit-en-storing.pdf", 21],
+            ["unit-en-search-organization.pdf", 4],
+            ["unit-en-search-introduction.pdf", 36],
+            ["unit-en-representation1.pdf", 34],
+            ["unit-en-representation2.pdf", 52],
+            ["unit-en-basic-search1.pdf", 68],
+            ["unit-en-basic-search2.pdf", 38],
+            ["unit-en-informed-bf1.pdf", 102],
+            ["unit-en-informed-bf2.pdf", 117],
+            ["unit-en-informed-bf3.pdf", 21],
+            ["unit-en-astar-formal1.pdf", 63],
+            ["unit-en-astar-formal2.pdf", 65],
+            ["unit-en-astar-relaxed1.pdf", 42],
+            ["unit-en-astar-relaxed2.pdf", 32],
+            ["unit-en-relaxed-models.pdf", 24],
+            ["unit-en-game-playing-basics.pdf", 41],
+            ["unit-de-logics-organization.pdf", 5],
+            ["unit-de-propositional-basics.pdf", 58],
+            ["unit-de-propositional-transformation.pdf", 33],
+            ["unit-de-propositional-sat-semantical.pdf", 22],
+            ["unit-de-propositional-sat-syntactical.pdf", 56],
+            ["unit-de-propositional-complexity.pdf", 18],
+            ["unit-de-predicate-basics.pdf", 36],
+            ["unit-de-predicate-transformation.pdf", 23],
+            ["unit-de-predicate-sat-syntactical.pdf", 27],
+            ["unit-de-predicate-complexity.pdf", 6],
+            ["unit-de-fuzzy-basics.pdf", 44],
+            ["unit-de-fuzzy-inference.pdf", 29],
+            ["unit-de-rule-systems.pdf", 58],
+            ["unit-de-non-monotonicity.pdf", 21],
+            ["unit-de-logics-algebra.pdf", 3],
+            ["unit-de-verification1.pdf", 46],
+            ["unit-de-verification2.pdf", 132],
+            ["unit-de-verification3.pdf", 32],
+            ["unit-de-kbs-organization.pdf", 7],
+            ["unit-de-kbs-introduction.pdf", 28],
+            ["unit-de-kbs-applications.pdf", 31],
+            ["unit-de-symbol.pdf", 32],
+            ["unit-de-psk.pdf", 12],
+            ["unit-de-xps.pdf", 26],
+            ["unit-de-model-system.pdf", 18],
+            ["unit-de-model-formation.pdf", 14],
+            ["unit-de-constraints-introduction.pdf", 34],
+            ["unit-de-constraints-fd1.pdf", 43],
+            ["unit-de-constraints-fd2.pdf", 50],
+            ["unit-de-constraints-ifd.pdf", 18],
+            ["unit-de-diagnosis-bayes.pdf", 28],
+            ["unit-de-diagnosis-dempster.pdf", 34],
+            ["unit-en-diagnosis-tms.pdf", 38],
+            ["unit-en-diagnosis-gde.pdf", 56],
+            ["unit-de-diagnosis-cbr.pdf", 35],
+            ["unit-de-planning-basics.pdf", 40],
+            ["unit-de-planning-algorithms.pdf", 56],
+            ["unit-de-configuration-basics.pdf", 34]
+        ]
+    </script>
+    <script src="browser.js"></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link visually-hidden focusable">Skip to content</a>
+
+<!-- header start -->
+<!-- Our scripts rely on the header start and end comments to be there and on an line on their own, so never change them! -->
+<!--
+  For our maintenance scripts, the following has to hold:
+    - All <li> and <a> that can receive bootstrap's active class need to have
+      - An ID "nav-item-..." where "..." is the "-"-separated list of directories in which the respective HTML file resides
+      - At least one class that is defined after the ID
+    - The <li> of index.html has to have the ID "nav-item-home" 
+-->
+<div id="header-container" class="container">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="../../index.html"><img class="h-27px mt--5px" src="../../img/webis-logo_w27.png" /><span class="ml-3">Webis</span></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar">
+  <ul class="navbar-nav mr-auto">
+    <li id="nav-item-home" class="nav-item ">
+      <a class="nav-link mt-4px" href="../../index.html">Home<span class="sr-only"> (current)</span></a>
+    </li>
+    <li id="nav-item-people" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+      <div class="dropdown-menu">
+        <a id="nav-item-people-hagen" class="dropdown-item" href="http://matthias-hagen.de">Matthias Hagen (Bauhaus-Universität Weimar)</a>
+        <a id="nav-item-people-potthast" class="dropdown-item" href="http://ul.webis.de">Martin Potthast (Leipzig University)</a>
+        <a id="nav-item-people-stein" class="dropdown-item" href="http://buw.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a>
+      </div>
+    </li>
+    <li id="nav-item-teaching" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lecturenotes</a>
+      <div class="dropdown-menu">
+        <a id="nav-item-lecturenotes-overview" class="dropdown-item" href="../overview/overview.html">Overview</a>
+        <a id="nav-item-lecturenotes-slides" class="dropdown-item" href="../slides/slides.html">Slides</a>
+        <a id="nav-item-lecturenotes-browser" class="dropdown-item active" href="#">Browser</a>
+      </div>
+    </li>
+    <li id="nav-item-facilities" class="nav-item">
+      <a class="nav-link mt-4px" href="../../facilities/facilities.html">Facilities</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
+<!-- header end -->
+
+    <header class="toolbox">
+        <h1 class="site-title">
+            <a href="#">SlideHub</a>
+        </h1>
+
+        <button data-target-modal="modal--shortcuts" disabled>Shortcuts</button>
+
+        <button data-target-modal="modal--features" disabled>Features</button>
+
+        <h3 class="site-title">demo: slides are currently not updated</h3>
+    </header>
+
+    <main class="main-content" id="main-content">
+        <div class="doc-container"></div>
+    </main>
+
+    <div class="modal modal--shortcuts closed" aria-hidden="true" aria-labelledby="shortcuts-title" role="dialog">
+        <div class="modal-content" role="document">
+            <button class="modal__close button--close" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="close-shortcuts-svg-title">
+                    <title id="close-shortcuts-svg-title">An x symbol representing a closing action</title>
+                    <path d="m4,0l8,8 8,-8 4,4 -8,8 8,8 -4,4 -8,-8 -8,8 -4,-4 8,-8 -8,-8 Z" fill="#000"/>
+                </svg>
+            </button>
+
+            <h2 id="shortcuts-title">Shortcuts</h2>
+
+            <div class="shortcut-table-wrapper">
+                <table class="shortcut-table">
+                    <caption class="visually-hidden">Document-specific shortcuts</caption>
+                    <thead>
+                        <tr>
+                            <th class="shortcut-table__input">
+                                <span class="visually-hidden">Shortcut</span>
+                            </th>
+                            <th class="shortcut-table__action">Documents</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="shortcut-table__input">
+                                <div class="shortcut-group">
+                                    <kbd aria-label="Up arrow key">↑</kbd>
+                                    <kbd aria-label="Down arrow key">↓</kbd>
+                                </div>
+                            </td>
+                            <td class="shortcut-table__action">Navigate documents</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="shortcut-table">
+                    <caption class="visually-hidden">Page-specific shortcuts</caption>
+                    <thead>
+                        <tr>
+                            <th class="shortcut-table__input">
+                                <span class="visually-hidden">Shortcut</span>
+                            </th>
+                            <th class="shortcut-table__action">Pages</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="shortcut-table__input">
+                                <div class="shortcut-group">
+                                    <kbd aria-label="Left arrow key">←</kbd>
+                                    <kbd aria-label="Right arrow key">→</kbd>
+                                </div>
+                                <div class="shortcut-group">
+                                    <kbd>Shift</kbd> +
+                                    <kbd aria-label="Scroll wheel up/down">↕</kbd>
+                                </div>
+                            </td>
+                            <td class="shortcut-table__action">Move page forward/backward</td>
+                        </tr>
+                        <tr>
+                            <td class="shortcut-table__input">
+                                <div class="shortcut-group">
+                                    <kbd>Shift</kbd> +
+                                    <kbd aria-label="Left arrow key">←</kbd>
+                                </div>
+                                <div class="shortcut-group">
+                                    <kbd>Shift</kbd> +
+                                    <kbd aria-label="Right arrow key">→</kbd>
+                                </div>
+                            </td>
+                            <td class="shortcut-table__action">Move 3 pages forward/backward</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--features closed" aria-hidden="true" aria-labelledby="features-title" role="dialog">
+        <div class="modal-content" role="document">
+            <button class="modal__close button--close" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="close-features-svg-title">
+                    <title id="close-features-svg-title">An x symbol representing a closing action</title>
+                    <path d="m4,0l8,8 8,-8 4,4 -8,8 8,8 -4,4 -8,-8 -8,8 -4,-4 8,-8 -8,-8 Z" fill="#000"/>
+                </svg>
+            </button>
+
+            <h2 id="features-title">Features</h2>
+
+            <fieldset class="features-fieldset">
+                <legend class="visually-hidden">Features</legend>
+            </fieldset>
+        </div>
+    </div>
+
+<!-- footer start -->
+<!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
+<div id="footer-container">
+<footer class="footer text-muted text-left">
+<div class="container-fluid p-3 p-md-5">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
+      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Webis search engines</p>
+      <ul class="list-unstyled">
+        <li class="media my-2">
+          <a href="http://www.args.me">
+            <div class="media">
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
+            </div>
+          </a>
+        </li>
+        <li class="my-2">
+          <a href="http://www.chatnoir.eu">
+            <div class="media">
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
+            </div>
+          </a>
+        </li>
+        <li class="media my-2">
+          <a href="http://www.netspeak.org">
+            <div class="media">
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
+            </div>
+          </a>
+        </li>
+        <li class="media my-2">
+          <a href="http://www.picapica.org">
+            <div class="media">
+              <img class="d-flex align-self-center mr-3" src="../../img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-buw" aria-controls="collapse-buw" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+        Bauhaus-Universität Weimar
+      </div>
+      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.uni-weimar.de/medien/webis/">Bauhaus-Universität Weimar</a></p>
+      <div class="collapse navbar-collapse" id="collapse-buw">
+        <ul class="list-unstyled">
+          <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/teaching"><li>Teaching</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/events"><li>Events</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/facilities"><li>Facilities</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-lu" aria-controls="collapse-lu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+        Leipzig University
+      </div>
+      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/">Leipzig University</a></p>
+      <div class="collapse navbar-collapse" id="collapse-lu">
+        <ul class="list-unstyled">
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/teaching/"><li>Teaching</li></a>
+          <!--
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/events/"><li>Events</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/facilities/"><li>Facilities</li></a>
+          -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="float-right">© webis 2017</p>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+<script src="../../js/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../js/ie10-viewport-bug-workaround.js"></script>
+</div>
+<!-- footer end -->
+
+</body>
+
+</html>
