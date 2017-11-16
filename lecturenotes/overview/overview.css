@@ -100,3 +100,9 @@ ul.collection li:hover:not(.empty) {
   filter: brightness(1);
 }
 
+/* copyright notice */
+#copyright-notice {
+  margin-top: 3rem;
+}
+
+
