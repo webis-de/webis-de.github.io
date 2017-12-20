@@ -81,6 +81,9 @@ ul.collection.web li.part {
 ul.collection.tools li.part {
   background: rgb(233,161,119);
 }
+ul.collection.generic li.part {
+  background: rgb(255,255,255);
+}
 ul.collection li:hover:not(.empty) {
   -webkit-filter: brightness(1.05);
   filter: brightness(1.05);
