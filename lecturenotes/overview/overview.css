@@ -70,7 +70,10 @@ ul.collection.db li.part {
   background: rgb(142,202,245);
 }
 ul.collection.ml li.part {
-  background: rgb(255,226,115);
+  background: rgb(247,234,123);
+}
+ul.collection.dm li.part {
+  background: rgb(253,219,96);
 }
 ul.collection.ir li.part {
   background: rgb(246,231,184);
