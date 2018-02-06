@@ -60,6 +60,6 @@ tr:last-child {
   border-bottom: 1px solid #e9ecef;
 }
 
-.table td:target ~ td, .table th:target ~ th {
+.table.table-hover td:target ~ td, .table.table-hover th:target ~ th {
   background-color: #e0e5f0; 
 }
