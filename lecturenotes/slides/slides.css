@@ -38,6 +38,11 @@
 .table td, .table th {
   padding: 3px;
 }
+.table .anchor {
+  padding: 0px;
+  margin: 0px;
+  width: 0px;
+}
 td.date {
   width: 1%;
 }
@@ -53,4 +58,8 @@ th.table-active {
 }
 tr:last-child {
   border-bottom: 1px solid #e9ecef;
+}
+
+.table td:target ~ td, .table th:target ~ th {
+  background-color: #e0e5f0; 
 }
