@@ -2,27 +2,23 @@
 
 .jumbotron {
   background-image: url("../img/webis-welcome1.jpg");
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: cover;
   border-radius: 0;
   margin-bottom:0 ;
-}
-
-@media (min-width: 1740px) {
-  .jumbotron {
-    background-size: 100% auto;
-  }
 }
 
 .jumbotron .container {
   color: white;
   text-shadow: 2px 2px 5px darkgrey;
-  
+  max-width: 475px;
 }
 
-.jumbotron .container .lead a {
-  color: white;
-  text-decoration: underline;  
+.jumbotron .container h1 {
+  font-size: 3rem;
+}
+
+.jumbotron .container .lead {
+  font-size: 1.1rem;
 }
 
 .min-empty-space {
