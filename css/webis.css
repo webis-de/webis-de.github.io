@@ -15,7 +15,12 @@ nav {
   font-size: 16px;
 }
 .navbar-brand {
-  margin-right: 5rem;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  nav li.first-in-nav-group {
+    margin-left: 20px;
+  }
 }
 .anchor {
   display: block;
@@ -107,9 +112,15 @@ h2 {
 
 /* footer */
 
-@media (min-width: 576px) {
-  .footer {
-      text-align: left;
+@media (min-width: 768px) {
+  footer div.navbar-expand-md {
+    width: initial;
+    flex: none;
+    margin-right: 30px;
+  }
+
+  footer div.first-in-footer-group {
+    margin-left: auto;
   }
 }
 

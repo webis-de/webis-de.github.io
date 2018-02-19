@@ -32,9 +32,6 @@
 </button>
 <div class="collapse navbar-collapse" id="navbar">
   <ul class="navbar-nav mr-auto">
-    <li id="nav-item-home" class="nav-item active">
-      <a class="nav-link mt-4px" href="index.html">Home<span class="sr-only"> (current)</span></a>
-    </li>
     <li id="nav-item-people" class="nav-item dropdown">
       <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
       <div class="dropdown-menu">
@@ -43,7 +40,7 @@
         <a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a>
       </div>
     </li>
-    <li id="nav-item-lecturenotes" class="nav-item dropdown">
+    <li id="nav-item-lecturenotes" class="nav-item dropdown first-in-nav-group">
       <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lecturenotes</a>
       <div class="dropdown-menu">
         <a id="nav-item-lecturenotes-overview" class="dropdown-item" href="lecturenotes/overview/overview.html">Overview</a>
@@ -51,8 +48,27 @@
         <a id="nav-item-lecturenotes-browser" class="dropdown-item" href="lecturenotes/browser/browser.html">Browser</a>
       </div>
     </li>
+    <li id="nav-item-research" class="nav-item">
+      <a class="nav-link mt-4px" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/research/activities-by-field/">Research</a>
+    </li>
+    <li id="nav-item-publications" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
+      <div class="dropdown-menu">
+        <a id="nav-item-publications-selected" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/selected-publications/">Selected</a>
+        <a id="nav-item-publications-by-year" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-year/">By Year</a>
+        <a id="nav-item-publications-by-author" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-author/">By Author</a>
+        <a id="nav-item-publications-by-topic" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-topic/">By Topic</a>
+        <a id="nav-item-publications-by-type" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-type/">By Type</a>
+      </div>
+    </li>
+    <li id="nav-item-data" class="nav-item first-in-nav-group">
+      <a class="nav-link mt-4px" href="https://www.uni-weimar.de/de/medien/professuren/medieninformatik/webis/corpora/">Data</a>
+    </li>
     <li id="nav-item-facilities" class="nav-item">
       <a class="nav-link mt-4px" href="facilities/facilities.html">Facilities</a>
+    </li>
+    <li id="nav-item-events" class="nav-item">
+      <a class="nav-link mt-4px" href="https://www.uni-weimar.de/fr/medien/professuren/medieninformatik/webis/events/">Events</a>
     </li>
   </ul>
 </div>
@@ -71,12 +87,6 @@
 </div>
 
 <div class="container-fluid main min-empty-space text-muted">
-<p>
-  <i class="fa fa-circle" aria-hidden="true"></i>
-  <i class="fa fa-circle-o" aria-hidden="true"></i>
-  <i class="fa fa-circle-o" aria-hidden="true"></i>
-  <i class="fa fa-circle-o" aria-hidden="true"></i>
-</p>
 </div>
 
 
@@ -86,7 +96,7 @@
 <footer class="footer text-muted text-left">
 <div class="container-fluid p-3 p-md-5">
   <div class="row">
-    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+    <div class="col-12 navbar-expand-md">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-webis-search-engines" aria-controls="collapse-webis-search-engines" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         Webis search engines
@@ -125,7 +135,7 @@
         </ul>
       </div>
     </div>
-    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+    <div class="col-12 navbar-expand-md first-in-footer-group">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-weimar" aria-controls="collapse-weimar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         Bauhaus-Universität Weimar
@@ -141,7 +151,7 @@
         </ul>
       </div>
     </div>
-    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+    <div class="col-12 col-md-3 navbar-expand-md">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-leipzig" aria-controls="collapse-leipzig" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         Leipzig University
@@ -159,10 +169,10 @@
         </ul>
       </div>
     </div>
-    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+    <div class="col-12 navbar-expand-md">
       <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-halle" aria-controls="collapse-halle" aria-expanded="false" aria-label="Toggle navigation">
         <!--<span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>-->
-        Martin Luther University Halle-Wittenberg
+        Halle University
       </div>
       <p class="d-none d-sm-none d-md-block"><a href="#">Halle University</a></p>
       <div class="collapse navbar-collapse" id="collapse-halle">
@@ -178,7 +188,7 @@
       </div>
     </div>
   </div>
-  <p class="float-right">© webis 2017</p>
+  <p class="float-right d-none d-md-block">© webis 2017</p>
 </div>
 </footer>
 
