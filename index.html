@@ -38,9 +38,9 @@
     <li id="nav-item-people" class="nav-item dropdown">
       <a class="nav-link dropdown-toggle mt-4px" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
       <div class="dropdown-menu">
-        <a id="nav-item-people-hagen" class="dropdown-item" href="http://matthias-hagen.de">Matthias Hagen (Bauhaus-Universität Weimar)</a>
-        <a id="nav-item-people-potthast" class="dropdown-item" href="http://ul.webis.de">Martin Potthast (Leipzig University)</a>
-        <a id="nav-item-people-stein" class="dropdown-item" href="http://buw.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a>
+        <a id="nav-item-people-hagen" class="dropdown-item" href="http://halle.webis.de">Matthias Hagen (Bauhaus-Universität Weimar)</a>
+        <a id="nav-item-people-potthast" class="dropdown-item" href="http://leipzig.webis.de">Martin Potthast (Leipzig University)</a>
+        <a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a>
       </div>
     </li>
     <li id="nav-item-lecturenotes" class="nav-item dropdown">
@@ -86,46 +86,52 @@
 <footer class="footer text-muted text-left">
 <div class="container-fluid p-3 p-md-5">
   <div class="row">
-    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
-      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block">Webis search engines</p>
-      <ul class="list-unstyled">
-        <li class="media my-2">
-          <a href="http://www.args.me">
-            <div class="media">
-              <img class="d-flex align-self-center mr-3" src="img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
-            </div>
-          </a>
-        </li>
-        <li class="my-2">
-          <a href="http://www.chatnoir.eu">
-            <div class="media">
-              <img class="d-flex align-self-center mr-3" src="img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
-            </div>
-          </a>
-        </li>
-        <li class="media my-2">
-          <a href="http://www.netspeak.org">
-            <div class="media">
-              <img class="d-flex align-self-center mr-3" src="img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
-            </div>
-          </a>
-        </li>
-        <li class="media my-2">
-          <a href="http://www.picapica.org">
-            <div class="media">
-              <img class="d-flex align-self-center mr-3" src="img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
-            </div>
-          </a>
-        </li>
-      </ul>
+    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-webis-search-engines" aria-controls="collapse-webis-search-engines" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+        Webis search engines
+      </div>
+      <p class="d-none d-sm-none d-md-block">Webis search engines</p>
+      <div class="collapse navbar-collapse" id="collapse-webis-search-engines">
+        <ul class="list-unstyled">
+          <li>
+            <a href="http://www.args.me">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.chatnoir.eu">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.netspeak.org">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.picapica.org">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
-      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-buw" aria-controls="collapse-buw" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-weimar" aria-controls="collapse-weimar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         Bauhaus-Universität Weimar
       </div>
-      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.uni-weimar.de/medien/webis/">Bauhaus-Universität Weimar</a></p>
-      <div class="collapse navbar-collapse" id="collapse-buw">
+      <p class="d-none d-sm-none d-md-block"><a href="https://www.uni-weimar.de/medien/webis/">Bauhaus-Universität Weimar</a></p>
+      <div class="collapse navbar-collapse" id="collapse-weimar">
         <ul class="list-unstyled">
           <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
           <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
@@ -135,13 +141,13 @@
         </ul>
       </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-2 navbar-expand-md navbar-expand-lg navbar-expand-xl">
-      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-lu" aria-controls="collapse-lu" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-leipzig" aria-controls="collapse-leipzig" aria-expanded="false" aria-label="Toggle navigation">
         <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
         Leipzig University
       </div>
-      <p class="d-none d-sm-none d-md-block d-lg-block d-xl-block"><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/">Leipzig University</a></p>
-      <div class="collapse navbar-collapse" id="collapse-lu">
+      <p class="d-none d-sm-none d-md-block"><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/">Leipzig University</a></p>
+      <div class="collapse navbar-collapse" id="collapse-leipzig">
         <ul class="list-unstyled">
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li>
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
@@ -149,6 +155,24 @@
           <!--
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/events/"><li>Events</li></a>
           <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/facilities/"><li>Facilities</li></a>
+          -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 col-xl-2 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-halle" aria-controls="collapse-halle" aria-expanded="false" aria-label="Toggle navigation">
+        <!--<span class="float-right"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>-->
+        Martin Luther University Halle-Wittenberg
+      </div>
+      <p class="d-none d-sm-none d-md-block"><a href="#">Martin Luther University Halle-Wittenberg</a></p>
+      <div class="collapse navbar-collapse" id="collapse-halle">
+        <ul class="list-unstyled">
+          <!--
+          <a href=""><li>Home</li></a>
+          <a href=""><li>People</li></a>
+          <a href=""><li>Teaching</li></a>
+          <a href=""><li>Events</li></a>
+          <a href=""><li>Facilities</li></a>
           -->
         </ul>
       </div>
