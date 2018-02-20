@@ -1,7 +1,7 @@
 @import url("../css/webis.css");
 
 .jumbotron {
-  background-image: url("../img/webis-welcome1.jpg");
+  background-image: url("../img/webis-network-welcome.jpg");
   background-size: cover;
   border-radius: 0;
   margin-bottom:0 ;
@@ -10,7 +10,7 @@
 .jumbotron .container {
   color: white;
   text-shadow: 2px 2px 5px darkgrey;
-  max-width: 475px;
+  max-width: 575px;
 }
 
 .jumbotron .container h1 {
