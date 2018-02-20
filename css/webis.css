@@ -2,17 +2,29 @@
 @import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+html {
+  height: 100%;
+}
+
 body {
   /* Move down content because we have a fixed navbar that is 3.5rem tall */
   padding-top: 3.5rem;
-  background-color: #f7f7f7;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+.vertical-spread {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 /* navbar */
 
 nav {
   font-size: 14px;
+  border-bottom: 1px solid white;
 }
 .navbar-brand {
   margin-right: 10px;
