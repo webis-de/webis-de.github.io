@@ -208,6 +208,76 @@
       <image:caption>Picapica icon</image:caption>
     </image:image>
   </url>
+  <!-- urls for images in the test folder linked in test.html -->
+  <url>
+    <loc>http://webis.de/test/test.html</loc>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-0.png</image:loc>
+      <image:title>Concept Learning</image:title>
+      <image:caption>Concept Learning - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-1.png</image:loc>
+      <image:title>Search Space Hypothesis</image:title>
+      <image:caption>Search Space Hypothesis - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-2.png</image:loc>
+      <image:title>Search Space Hypothesis</image:title>
+      <image:caption>Search Space Hypothesis - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-3.png</image:loc>
+      <image:title>Search In Hypothesis Space</image:title>
+      <image:caption>Search In Hypothesis Space - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-4.png</image:loc>
+      <image:title>Hypothesis Space</image:title>
+      <image:caption>Hypothesis Space - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-5.png</image:loc>
+      <image:title>Hypothesis Fulfilling Consistency</image:title>
+      <image:caption>Hypothesis Fulfilling Consistency - Benno Stein</image:caption>
+    </image:image>
+  </url>
+  <!-- urls for images in the test folder not in test.html -->
+  <url>
+    <loc>http://webis.de/test/test.html</loc>
+    <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-10.png</image:loc>
+      <image:title>Order Of Hypothesis</image:title>
+      <image:caption>Order Of Hypothesis - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-11.png</image:loc>
+      <image:title>Order Of Hypothesis General Relation</image:title>
+      <image:caption>Order Of Hypothesis General Relation - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-12.png</image:loc>
+      <image:title>Hypothesis Space</image:title>
+      <image:caption>Hypothesis Space - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-13.png</image:loc>
+      <image:title>Hypothesis Space</image:title>
+      <image:caption>Hypothesis Space - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-14.png</image:loc>
+      <image:title>Hypothesis Space</image:title>
+      <image:caption>Hypothesis Space - Benno Stein</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://webis.de/test/unit-en-concept-learning.pdf-15.png</image:loc>
+      <image:title>Inductive Learning Hypothesis</image:title>
+      <image:caption>Inductive Learning Hypothesis - Benno Stein</image:caption>
+    </image:image>
+  </url>
 </urlset>
 <!--<guid value="3f88bc8c-feda-4ab0-a18b-fec366ec8344" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
