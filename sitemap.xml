@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.webis.de/</loc>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://www.webis.de/img/webis-logo_w27.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-args.png</image:loc>
+      <image:title>Args icon</image:title>
+      <image:caption>Args icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-chatnoir.png</image:loc>
+      <image:title>ChatNoir icon</image:title>
+      <image:caption>ChatNoir icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-netspeak.png</image:loc>
+      <image:title>Netspeak icon</image:title>
+      <image:caption>Netspeak icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-picapica.png</image:loc>
+      <image:title>Picapica icon</image:title>
+      <image:caption>Picapica icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.webis.de/lecturenotes/browser/browser.html</loc>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://www.webis.de/img/webis-logo_w27.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-args.png</image:loc>
+      <image:title>Args icon</image:title>
+      <image:caption>Args icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-chatnoir.png</image:loc>
+      <image:title>ChatNoir icon</image:title>
+      <image:caption>ChatNoir icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-netspeak.png</image:loc>
+      <image:title>Netspeak icon</image:title>
+      <image:caption>Netspeak icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-picapica.png</image:loc>
+      <image:title>Picapica icon</image:title>
+      <image:caption>Picapica icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.webis.de/facilities/facilities.html</loc>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://www.webis.de/img/webis-logo_w27.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/generic-cloud-logo.png</image:loc>
+      <image:title>Cloud</image:title>
+      <image:caption>Cloud</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/gitlab-logo.png</image:loc>
+      <image:title>GitLab</image:title>
+      <image:caption>GitLab</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/github-logo.png</image:loc>
+      <image:title>GitHub</image:title>
+      <image:caption>GitHub</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/docker-logo.png</image:loc>
+      <image:title>Docker</image:title>
+      <image:caption>Docker</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/generic-app-logo.png</image:loc>
+      <image:title>webis-cmd</image:title>
+      <image:caption>webis-cmd</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/hadoop-logo.png</image:loc>
+      <image:title>Betaweb Cluster</image:title>
+      <image:caption>Betaweb Cluster</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/check-mk-logo.png</image:loc>
+      <image:title>Check_mk</image:title>
+      <image:caption>Check_mk</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/chatnoir-logo1.png</image:loc>
+      <image:title>ChatNoir</image:title>
+      <image:caption>ChatNoir</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/netspeak-logo.png</image:loc>
+      <image:title>Netspeak</image:title>
+      <image:caption>Netspeak</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/generic-people-logo.png</image:loc>
+      <image:title>People</image:title>
+      <image:caption>People</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/git-logo.png</image:loc>
+      <image:title>Git</image:title>
+      <image:caption>Git</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/thesis-logo.png</image:loc>
+      <image:title>Graduation cap</image:title>
+      <image:caption>Graduation cap</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/facilities/generic-notes-logo.png</image:loc>
+      <image:title>Notes</image:title>
+      <image:caption>Notes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-args.png</image:loc>
+      <image:title>Args icon</image:title>
+      <image:caption>Args icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-chatnoir.png</image:loc>
+      <image:title>ChatNoir icon</image:title>
+      <image:caption>ChatNoir icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-netspeak.png</image:loc>
+      <image:title>Netspeak icon</image:title>
+      <image:caption>Netspeak icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-picapica.png</image:loc>
+      <image:title>Picapica icon</image:title>
+      <image:caption>Picapica icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.webis.de/lecturenotes/overview/overview.html</loc>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://www.webis.de/img/webis-logo_w27.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-args.png</image:loc>
+      <image:title>Args icon</image:title>
+      <image:caption>Args icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-chatnoir.png</image:loc>
+      <image:title>ChatNoir icon</image:title>
+      <image:caption>ChatNoir icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-netspeak.png</image:loc>
+      <image:title>Netspeak icon</image:title>
+      <image:caption>Netspeak icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-picapica.png</image:loc>
+      <image:title>Picapica icon</image:title>
+      <image:caption>Picapica icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.webis.de/lecturenotes/slides/slides.html</loc>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://www.webis.de/img/webis-logo_w27.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.webis.de/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <image:image>
+      <image:loc>http://www.webis.de/img/webis-logo_w27.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-args.png</image:loc>
+      <image:title>Args icon</image:title>
+      <image:caption>Args icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-chatnoir.png</image:loc>
+      <image:title>ChatNoir icon</image:title>
+      <image:caption>ChatNoir icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-netspeak.png</image:loc>
+      <image:title>Netspeak icon</image:title>
+      <image:caption>Netspeak icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.webis.de/img/icon-picapica.png</image:loc>
+      <image:title>Picapica icon</image:title>
+      <image:caption>Picapica icon</image:caption>
+    </image:image>
+  </url>
+</urlset>
+<!--<guid value="3f88bc8c-feda-4ab0-a18b-fec366ec8344" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
