@@ -29,10 +29,17 @@ nav {
 .navbar-brand {
   margin-right: 10px;
 }
+.navbar-brand img {
+  height: 27px;
+  margin-top: -10px;
+}
 @media (min-width: 768px) {
   nav li.first-in-nav-group {
     margin-left: 20px;
   }
+}
+nav .nav-link {
+  margin-top: 4px;
 }
 .anchor {
   display: block;
@@ -92,36 +99,6 @@ h2 {
   padding-right: 2px;
 }
 
-
-.list-container {
-  margin-bottom: 2rem;
-}
-.list-container .date {
-  color: #666;
-  padding-left: 12px;
-}
-.list-container .entry {
-  border-top-color: #D9D9D9;
-  border-top-style: solid;
-  border-top-width: 1px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-.list-container .image {
-  display: table-cell;
-  vertical-align: middle;
-  width: 120px;
-}
-.list-container .right {
-  display: table-cell;
-  text-align: left;
-  vertical-align: middle;
-}
-.list-container h2 {
-  margin-bottom: 0.5rem;
-  margin-top: 2rem;
-}
-
 /* footer */
 
 @media (min-width: 768px) {
@@ -162,16 +139,3 @@ a .fa {
   color: black;
 }
 
-/* sizing classes */
-
-.h-27px {
-  height: 27px;
-}
-
-.mt-4px {
-  margin-top: 4px;
-}
-
-.mt--5px {
-  margin-top: -10px;
-}
