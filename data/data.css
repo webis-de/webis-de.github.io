@@ -1,0 +1,11 @@
+@import url("../css/webis.css");
+@import url("../css/webis-table.css");
+
+td.date {
+  width: 1%;
+}
+
+td.links {
+  width: 65px;
+  text-align: right;
+}
