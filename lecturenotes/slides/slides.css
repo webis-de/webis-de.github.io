@@ -10,3 +10,7 @@ td.links {
   text-align: right;
 }
 
+.table .placeholder {
+  color: rgba(0,0,0,0);
+  cursor: default;
+}
