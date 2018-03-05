@@ -57,3 +57,10 @@ tr:last-child {
 .table.table-hover td:target ~ td, .table.table-hover th:target ~ th {
   background-color: #e0e5f0; 
 }
+
+.table .placeholder {
+  color: white;
+}
+.table .placeholder:hover {
+  color: rgba(0,0,0,.075);
+}
