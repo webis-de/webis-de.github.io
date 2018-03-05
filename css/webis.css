@@ -136,6 +136,13 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer .copyright {
+  float: right;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  margin-right: -2rem;
+}
+
 /* font awesome */
 
 a .fa {
