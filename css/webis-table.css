@@ -41,6 +41,9 @@
   margin: 0px;
   width: 0px;
 }
+.table-dark {
+  color: black;
+}
 .table-dark th {
   border-bottom: 1px solid #000099;
 }
