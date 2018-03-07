@@ -1,28 +1,28 @@
 .list-container {
   margin-bottom: 2rem;
 }
-.list-container .date {
+.webis-list .date {
   color: #666;
   padding-left: 12px;
 }
-.list-container .entry {
+.webis-list .entry {
   border-top-color: #D9D9D9;
   border-top-style: solid;
   border-top-width: 1px;
   padding-bottom: 15px;
   padding-top: 15px;
 }
-.list-container .image {
+.webis-list .image {
   display: table-cell;
   vertical-align: middle;
   width: 120px;
 }
-.list-container .right {
+.webis-list .description {
   display: table-cell;
   text-align: left;
   vertical-align: middle;
 }
-.list-container h2 {
+.webis-list h2 {
   margin-bottom: 0.5rem;
   margin-top: 2rem;
 }
