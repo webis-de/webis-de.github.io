@@ -1,5 +1,4 @@
 @import url("bootstrap.min.css");
-@import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html {
@@ -145,7 +144,7 @@ footer .copyright {
 
 /* font awesome */
 
-a .fa {
+a .svg-inline--fa {
   color: black;
 }
 
