@@ -144,7 +144,7 @@ footer .copyright {
 
 /* font awesome */
 
-a .svg-inline--fa {
+a .svg-inline--fa.fa-chevron-up, a .svg-inline--fa.fa-chevron-down {
   color: black;
 }
 
