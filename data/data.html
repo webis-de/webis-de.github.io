@@ -85,7 +85,7 @@
 
     <div class="anchor" id="released-webis-corpora"></div>
     <div class="table-responsive">
-      <table class="table table-hover">
+      <table class="table table-hover tablesorter">
         <thead>
           <tr class="table-dark">
             <th colspan="5">Released Webis Corpora</th>
@@ -94,12 +94,12 @@
             </th>
           </tr>
           <tr>
-            <th class="table-active">Name</th>
-            <th class="table-active">Publisher/Creator</th>
-            <th class="table-active">Year</th>
-            <th class="table-active">Size</th>
-            <th class="table-active">Default Task</th>
-            <th class="table-active"></th>
+            <th class="header table-active">Name</th>
+            <th class="header table-active">Publisher/Creator</th>
+            <th class="header table-active">Year</th>
+            <th class="header table-active">Size</th>
+            <th class="header table-active">Default Task</th>
+            <th class="header table-active"></th>
           </tr>
         </thead>
         <tbody>
@@ -406,12 +406,12 @@
             </th>
           </tr>
           <tr>
-            <th class="table-active">Name</th>
-            <th class="table-active">Publisher/Creator</th>
-            <th class="table-active">Year</th>
-            <th class="table-active">Size</th>
-            <th class="table-active">Default Task</th>
-            <th class="table-active"></th>
+            <th class="header table-active">Name</th>
+            <th class="header table-active">Publisher/Creator</th>
+            <th class="header table-active">Year</th>
+            <th class="header table-active">Size</th>
+            <th class="header table-active">Default Task</th>
+            <th class="header table-active"></th>
           </tr>
         </thead>
         <tbody>
@@ -550,12 +550,12 @@
             </th>
           </tr>
           <tr>
-            <th class="table-active">Name</th>
-            <th class="table-active">Publisher/Creator</th>
-            <th class="table-active">Year</th>
-            <th class="table-active">Size</th>
-            <th class="table-active">Default Task</th>
-            <th class="table-active"></th>
+            <th class="header table-active">Name</th>
+            <th class="header table-active">Publisher/Creator</th>
+            <th class="header table-active">Year</th>
+            <th class="header table-active">Size</th>
+            <th class="header table-active">Default Task</th>
+            <th class="header table-active"></th>
           </tr>
         </thead>
         <tbody>
@@ -606,12 +606,12 @@
             </th>
           </tr>
           <tr>
-            <th class="table-active">Name</th>
-            <th class="table-active">Publisher/Creator</th>
-            <th class="table-active">Year</th>
-            <th class="table-active">Size</th>
-            <th class="table-active">Default Task</th>
-            <th class="table-active"></th>
+            <th class="header table-active">Name</th>
+            <th class="header table-active">Publisher/Creator</th>
+            <th class="header table-active">Year</th>
+            <th class="header table-active">Size</th>
+            <th class="header table-active">Default Task</th>
+            <th class="header table-active"></th>
           </tr>
         </thead>
         <tbody>
@@ -1413,6 +1413,7 @@
 
   </div>
 </div>
+
 <!-- footer start -->
 <!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
 <div id="footer-container">
@@ -1526,10 +1527,22 @@
 </div>
 <!-- footer end -->
 
+<script src="../js/jquery.dataTables.min.js"></script>
 <script type="text/javascript">
-function popup(url) {
- fenster=window.open(url, "Lecturenotes Upload", "width=600,height=150,resizable=yes,toolbar=yes,scrollbars=yes");
- fenster.focus();
- return false;
+function ready(fn) {
+  if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
 }
+
+ready(function() {
+  $('table').DataTable({
+    paging: false,
+    searching: false,
+    info: false,
+    autoWidth: false,
+  });
+})
 </script></body></html>
