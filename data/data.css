@@ -40,7 +40,8 @@ table tbody td:nth-child(3) {
 	width: 3rem;
 }
 table tbody td:nth-child(4) {
-	width: 10rem;
+	text-align: right;
+	width: 5rem;
 }
 table tbody td:nth-child(5) {
 	width: 10rem;
@@ -50,4 +51,8 @@ table tbody td:nth-child(6) {
 }
 table tbody td:nth-child(7) {
 	width: 2rem;
+}
+
+table tbody svg {
+	color: rgba(0,0,0,.5);
 }
