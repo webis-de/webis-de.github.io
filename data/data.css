@@ -25,3 +25,29 @@ table thead tr .sorting_asc:after {
 table thead tr .sorting_desc:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAJCAQAAAB3Cq/9AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhARAILQEliydpAAAASklEQVQY042Q2woAIQgFx37c/PJ6qGhdLVIEL4McpRG9knULwWzG30oGksLSPOhKlcvW79CDATVYgNhdq8KAZeZnrfsgjS94/2sHm5My613mEeUAAAAASUVORK5CYII=);
 }
+
+table thead tr th:nth-child(7) {
+	text-align: right;
+}
+
+table tbody td:nth-child(1) {
+	width: 15rem;
+}
+table tbody td:nth-child(2) {
+	width: 10rem;
+}
+table tbody td:nth-child(3) {
+	width: 3rem;
+}
+table tbody td:nth-child(4) {
+	width: 10rem;
+}
+table tbody td:nth-child(5) {
+	width: 10rem;
+}
+table tbody td:nth-child(6) {
+	width: 10rem;
+}
+table tbody td:nth-child(7) {
+	width: 2rem;
+}
