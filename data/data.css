@@ -10,6 +10,15 @@ td.links {
   text-align: right;
 }*/
 
+table {
+	margin-top: 3rem;
+	margin-bottom: 0 !important;
+}
+
+table.first_table_on_page {
+	margin-top: 0;
+}
+
 table thead tr .header {
   height: 9px;
   cursor: pointer;
@@ -41,7 +50,7 @@ table tbody td:nth-child(3) {
 }
 table tbody td:nth-child(4) {
 	text-align: right;
-	width: 5rem;
+	width: 7rem;
 }
 table tbody td:nth-child(5) {
 	width: 10rem;
