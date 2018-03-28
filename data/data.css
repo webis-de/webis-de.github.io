@@ -35,12 +35,12 @@ table thead tr th:nth-child(8) {
 }
 
 table tbody td:nth-child(1) {
-	width: 10rem;
-	min-width: 10rem;
+	width: 9rem;
+	min-width: 9rem;
 }
 table tbody td:nth-child(2) {
-	width: 10rem;
-	min-width: 10rem;
+	width: 9rem;
+	min-width: 9rem;
 }
 table tbody td:nth-child(3) {
 	width: 4rem;
