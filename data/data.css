@@ -1,18 +1,13 @@
 @import url("../css/webis.css");
 @import url("../css/webis-table.css");
 
-/*td.date {
-  width: 1%;
-}
-
-td.links {
-  width: 65px;
-  text-align: right;
-}*/
-
 table {
 	margin-top: 3rem;
 	margin-bottom: 0 !important;
+}
+
+table .numeric {
+	text-align: right;
 }
 
 table.first_table_on_page {
@@ -35,30 +30,38 @@ table thead tr .sorting_desc:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAJCAQAAAB3Cq/9AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfhARAILQEliydpAAAASklEQVQY042Q2woAIQgFx37c/PJ6qGhdLVIEL4McpRG9knULwWzG30oGksLSPOhKlcvW79CDATVYgNhdq8KAZeZnrfsgjS94/2sHm5My613mEeUAAAAASUVORK5CYII=);
 }
 
-table thead tr th:nth-child(7) {
+table thead tr th:nth-child(8) {
 	text-align: right;
 }
 
 table tbody td:nth-child(1) {
-	/*width: 15rem;*/
+	width: 15rem;
+	min-width: 15rem;
 }
 table tbody td:nth-child(2) {
-	width: 15rem;
+	width: 10rem;
+	min-width: 10rem;
 }
 table tbody td:nth-child(3) {
-	width: 3rem;
+	width: 4rem;
+	min-width: 4rem;
 }
 table tbody td:nth-child(4) {
-	text-align: right;
 	width: 7rem;
+	min-width: 7rem;
 }
 table tbody td:nth-child(5) {
-	width: 10rem;
+	width: 4rem;
+	min-width: 4rem;
 }
 table tbody td:nth-child(6) {
-	width: 15rem;
+	width: 7rem;
+	min-width: 7rem;
 }
 table tbody td:nth-child(7) {
+	min-width: 7rem;
+}
+table tbody td:nth-child(8) {
 	width: 2rem;
 	text-align: right;
 	padding-right: 0.5rem;
@@ -66,4 +69,12 @@ table tbody td:nth-child(7) {
 
 table tbody td:nth-child(4) svg {
 	color: rgba(0,0,0,.5);
+}
+
+table svg.fa-eye {
+  color: royalblue;
+}
+
+table svg.fa-lock {
+  color: black;
 }

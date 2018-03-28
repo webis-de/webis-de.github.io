@@ -1,5 +1,5 @@
 jQuery.fn.dataTable.ext.type.order['unit-size-pre'] = function ( data ) {
-    var matches = data.match( /^(\d+[,\d]*(?:\.\d+)?)\s*([a-z]+)/i );
+    var matches = data.match( /^(\d+[,\d]*(?:\.\d+)?)\s*([a-z]*)/i );
     // console.log(matches)
     var multipliers = {
         // b:  1,
