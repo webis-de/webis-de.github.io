@@ -35,8 +35,8 @@ table thead tr th:nth-child(8) {
 }
 
 table tbody td:nth-child(1) {
-	width: 15rem;
-	min-width: 15rem;
+	width: 10rem;
+	min-width: 10rem;
 }
 table tbody td:nth-child(2) {
 	width: 10rem;
