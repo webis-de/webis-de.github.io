@@ -72,9 +72,9 @@ table tbody td:nth-child(4) svg {
 }
 
 table svg.fa-eye {
-  color: royalblue;
+  color: royalblue !important;
 }
 
 table svg.fa-lock {
-  color: black;
+  color: black !important;
 }
