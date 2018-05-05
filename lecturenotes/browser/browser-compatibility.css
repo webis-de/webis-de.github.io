@@ -12,7 +12,13 @@
   color: #868e96;
 }
 
-:root {
-  --toolbox-height: 60px;
+.slidehub-container {
+  margin-top: 50px;
+}
+
+/* in case alternate texts are shown */
+.page img {
+  overflow: hidden;
+  white-space: nowrap;
 }
 
