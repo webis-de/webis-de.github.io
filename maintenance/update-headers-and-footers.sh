@@ -45,6 +45,10 @@ gawk 'BEGIN {
     text = add_class(text, path_parts[first_level_directory], "active")
     if (directory_level > 1) {
       text = add_class(text, path_parts[first_level_directory]"-"path_parts[second_level_directory], "active")
+      filename = gensub("\.html", "", 1, path_parts[second_level_directory + 1])
+      if (path_parts[second_level_directory] != filename) {
+        text = add_class(text, path_parts[first_level_directory]"-"path_parts[second_level_directory]"-"filename, "active")
+      }
     }
     return text
   } function adjust_links(text, target_file) {

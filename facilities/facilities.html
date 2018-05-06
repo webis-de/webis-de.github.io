@@ -34,32 +34,45 @@
   <ul class="navbar-nav mr-auto">
     <li id="nav-item-people" class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
-      <div class="dropdown-menu">
-        <a id="nav-item-people-hagen" class="dropdown-item" href="http://halle.webis.de">Matthias Hagen (Halle University)</a>
-        <a id="nav-item-people-potthast" class="dropdown-item" href="http://leipzig.webis.de">Martin Potthast (Leipzig University)</a>
-        <a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a>
-      </div>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-people-hagen" class="dropdown-item" href="http://halle.webis.de">Matthias Hagen (Halle University)</a></li>
+        <li><a id="nav-item-people-potthast" class="dropdown-item" href="http://leipzig.webis.de">Martin Potthast (Leipzig University)</a></li>
+        <li><a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a></li>
+      </ul>
     </li>
     <li id="nav-item-lecturenotes" class="nav-item dropdown first-in-nav-group">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lecturenotes</a>
-      <div class="dropdown-menu">
-        <a id="nav-item-lecturenotes-overview" class="dropdown-item" href="../lecturenotes/overview/overview.html">Overview</a>
-        <a id="nav-item-lecturenotes-slides" class="dropdown-item" href="../lecturenotes/slides/slides.html">Slides</a>
-        <!-- <a id="nav-item-lecturenotes-browser" class="dropdown-item" href="../lecturenotes/browser/browser.html">Browser</a> -->
-      </div>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-lecturenotes-overview" class="dropdown-item" href="../lecturenotes/overview/overview.html">Overview</a></li>
+        <li><a id="nav-item-lecturenotes-slides" class="dropdown-item" href="../lecturenotes/slides/slides.html">Slides</a></li>
+        <li>
+          <a id="nav-item-lecturenotes-browser" class="dropdown-item dropdown-toggle" href="#">Browser</a>
+          <ul class="dropdown-menu">
+            <li><a id="nav-item-lecturenotes-browser-databases" class="dropdown-item" href="../lecturenotes/browser/databases.html">Datenbanken</a></li>
+            <li><a id="nav-item-lecturenotes-browser-web-technology" class="dropdown-item" href="../lecturenotes/browser/web-technology.html">Web-Technologie</a></li>
+            <li><a id="nav-item-lecturenotes-browser-machine-learning" class="dropdown-item" href="../lecturenotes/browser/machine-learning.html">Machine Learning</a></li>
+            <li><a id="nav-item-lecturenotes-browser-data-mining" class="dropdown-item" href="../lecturenotes/browser/data-mining.html">Data Mining</a></li>
+            <li><a id="nav-item-lecturenotes-browser-information-retrieval" class="dropdown-item" href="../lecturenotes/browser/information-retrieval.html">Information Retrieval</a></li>
+            <li><a id="nav-item-lecturenotes-browser-search" class="dropdown-item" href="../lecturenotes/browser/search.html">Search Algorithms</a></li>
+            <li><a id="nav-item-lecturenotes-browser-logics" class="dropdown-item" href="../lecturenotes/browser/logics.html">Logik</a></li>
+            <li><a id="nav-item-lecturenotes-browser-modeling-foundations" class="dropdown-item" href="../lecturenotes/browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
+            <li><a id="nav-item-lecturenotes-browser-lecturenotes-generic" class="dropdown-item" href="../lecturenotes/browser/lecturenotes-generic.html">Lecturenotes Generic</a></li>
+          </ul>
+        </li>
+      </ul>
     </li>
     <li id="nav-item-research" class="nav-item">
       <a class="nav-link" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/research/activities-by-field/">Research</a>
     </li>
     <li id="nav-item-publications" class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
-      <div class="dropdown-menu">
-        <a id="nav-item-publications-selected" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/selected-publications/">Selected</a>
-        <a id="nav-item-publications-by-year" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-year/">By Year</a>
-        <a id="nav-item-publications-by-author" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-author/">By Author</a>
-        <a id="nav-item-publications-by-topic" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-topic/">By Topic</a>
-        <a id="nav-item-publications-by-type" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-type/">By Type</a>
-      </div>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-publications-selected" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/selected-publications/">Selected</a></li>
+        <li><a id="nav-item-publications-by-year" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-year/">By Year</a></li>
+        <li><a id="nav-item-publications-by-author" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-author/">By Author</a></li>
+        <li><a id="nav-item-publications-by-topic" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-topic/">By Topic</a></li>
+        <li><a id="nav-item-publications-by-type" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-type/">By Type</a></li>
+      </ul>
     </li>
     <li id="nav-item-data" class="nav-item first-in-nav-group">
       <a class="nav-link" href="../data/data.html">Data</a>
@@ -423,6 +436,7 @@ Updates the lecturenotes on GitHub and Gonzo.
 <script>window.jQuery || document.write('<script src="../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-4-navbar.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../js/ie10-viewport-bug-workaround.js"></script>
 </div>
