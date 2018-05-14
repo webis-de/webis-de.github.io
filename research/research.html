@@ -1,0 +1,581 @@
+<!-- DATE. February 22nd, 2018 -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title>Research</title>
+<meta charset="UTF-8" />
+<meta name="copyright" content="&copy; 2014 - 2018 Webis" />
+<meta name="author" content="Webis" />
+<link href="research.css" rel="stylesheet" type="text/css" />
+
+<body>
+
+<!-- header start -->
+<!-- Our scripts rely on the header start and end comments to be there and on an line on their own, so never change them! -->
+<!--
+  For our maintenance scripts, the following has to hold:
+    - All <li> and <a> that can receive bootstrap's active class need to have
+      - An ID "nav-item-..." where "..." is the "-"-separated list of directories in which the respective HTML file resides
+      - At least one class that is defined after the ID
+    - The <li> of index.html has to have the ID "nav-item-home" 
+-->
+<div id="header-container" class="container">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="../index.html"><img src="../img/webis-logo_w27.png" /><span class="ml-3">Webis</span></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar">
+  <ul class="navbar-nav mr-auto">
+    <li id="nav-item-people" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-people-hagen" class="dropdown-item" href="http://halle.webis.de">Matthias Hagen (Halle University)</a></li>
+        <li><a id="nav-item-people-potthast" class="dropdown-item" href="http://leipzig.webis.de">Martin Potthast (Leipzig University)</a></li>
+        <li><a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a></li>
+      </ul>
+    </li>
+    <li id="nav-item-lecturenotes" class="nav-item dropdown first-in-nav-group">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lecturenotes</a>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-lecturenotes-overview" class="dropdown-item" href="../lecturenotes/overview/overview.html">Overview</a></li>
+        <li><a id="nav-item-lecturenotes-slides" class="dropdown-item" href="../lecturenotes/slides/slides.html">Slides</a></li>
+        <li>
+          <a id="nav-item-lecturenotes-browser" class="dropdown-item dropdown-toggle" href="#">Browser</a>
+          <ul class="dropdown-menu">
+            <li><a id="nav-item-lecturenotes-browser-databases" class="dropdown-item" href="../lecturenotes/browser/databases.html">Datenbanken</a></li>
+            <li><a id="nav-item-lecturenotes-browser-web-technology" class="dropdown-item" href="../lecturenotes/browser/web-technology.html">Web-Technologie</a></li>
+            <li><a id="nav-item-lecturenotes-browser-machine-learning" class="dropdown-item" href="../lecturenotes/browser/machine-learning.html">Machine Learning</a></li>
+            <li><a id="nav-item-lecturenotes-browser-data-mining" class="dropdown-item" href="../lecturenotes/browser/data-mining.html">Data Mining</a></li>
+            <li><a id="nav-item-lecturenotes-browser-information-retrieval" class="dropdown-item" href="../lecturenotes/browser/information-retrieval.html">Information Retrieval</a></li>
+            <li><a id="nav-item-lecturenotes-browser-search" class="dropdown-item" href="../lecturenotes/browser/search.html">Search Algorithms</a></li>
+            <li><a id="nav-item-lecturenotes-browser-logics" class="dropdown-item" href="../lecturenotes/browser/logics.html">Logik</a></li>
+            <li><a id="nav-item-lecturenotes-browser-modeling-foundations" class="dropdown-item" href="../lecturenotes/browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
+            <li><a id="nav-item-lecturenotes-browser-lecturenotes-generic" class="dropdown-item" href="../lecturenotes/browser/lecturenotes-generic.html">Lecturenotes Generic</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li id="nav-item-research" class="nav-item active">
+      <a class="nav-link" href="#">Research</a>
+    </li>
+    <li id="nav-item-publications" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-publications-selected" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/selected-publications/">Selected</a></li>
+        <li><a id="nav-item-publications-by-year" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-year/">By Year</a></li>
+        <li><a id="nav-item-publications-by-author" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-author/">By Author</a></li>
+        <li><a id="nav-item-publications-by-topic" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-topic/">By Topic</a></li>
+        <li><a id="nav-item-publications-by-type" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-type/">By Type</a></li>
+      </ul>
+    </li>
+    <li id="nav-item-data" class="nav-item first-in-nav-group">
+      <a class="nav-link" href="../data/data.html">Data</a>
+    </li>
+    <li id="nav-item-facilities" class="nav-item">
+      <a class="nav-link" href="../facilities/facilities.html">Facilities</a>
+    </li>
+    <li id="nav-item-events" class="nav-item">
+      <a class="nav-link" href="../events/events.html">Events</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
+<!-- header end -->
+
+<div class="container-fluid main">
+<div class="container">
+
+<div id="webis-projects">
+
+  <h1>Research</h1>
+  <ul class="table-of-contents">
+    <li><a href="#webis-informationRetrievalAndSearch">Information Retrieval and Search</a></li>
+    <li><a href="#webis-informationExtractionAndNLP">Information Extraction and Computational Linguistics</a></li>
+    <li><a href="#webis-dataMiningAndMachineLearning">Data Mining and Machine Learning</a></li>
+    <li><a href="#webis-softwareEngineeringAndToolDevelopment">Software Engineering and Tool Development</a></li>
+  </ul>
+
+
+<!-- list container start -->
+<div class="list-container">
+
+<!--
+SECTION Information Retrieval and Search
+-->
+<div id="webis-informationRetrievalAndSearch" class="webis-list">
+  <h2>Information Retrieval and Search</h2>
+
+  <div id="args" class="entry">
+  <div class="image"><img src="args-logo.png" alt="Args" /></div>
+  <div class="description">
+  <a href="http://www.args.me" target="_blank" class="external-link-new-window">Args</a>
+  <span class="date">[2017 - today]</span><br />
+  The first search engine for arguments on the web.<br />
+  [<a href="http://www.args.me" target="_blank" class="external-link-new-window">service</a>] [<a href="http://www.args.me/static/html/en/args-api.html" target="_blank" class="external-link-new-window">api</a>]
+  </div>
+  </div>
+
+  <div id="retrieval-models" class="entry">
+  <div class="image"><img src="retrieval-models-logo.png" alt="Retrieval Models" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/retrieval-models" class="internal-link">Retrieval Models</a>
+  <span class="date">[2011 - 2013]</span><br />
+  Interactive map to overview and compare the characteristics of well-known retrieval models.
+  </div>
+  </div>
+
+  <div id="chatnoir" class="entry">
+  <div class="image"><img src="chatnoir-logo1.png" alt="ChatNoir" style="height:100px;" /></div>
+  <div class="description">
+  <a href="https://www.chatnoir.eu/" target="_blank" class="external-link-new-window">ChatNoir</a>
+  <span class="date">[2010 - today]</span><br />
+  Research search engine indexing the ClueWeb and CommonCrawl.<br />
+  [<a href="https://www.chatnoir.eu/" target="_blank" class="external-link-new-window">service</a>] [<a href="https://www.chatnoir.eu/doc/api" target="_blank" class="external-link-new-window">api</a>] (ChatNoir2)<br />
+  [<a href="http://chatnoir.webis.de" target="_blank" class="external-link-new-window">service</a>] [<a href="http://webis15.medien.uni-weimar.de/#developer" target="_blank" class="external-link-new-window">api</a>] (ChatNoir1)
+  </div>
+  </div>
+
+  <div id="query-segmentation" class="entry">
+  <div class="image"><img src="query-segmentation-logo.png" alt="Query Segmentation" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/query-segmentation" class="internal-link">Query Segmentation</a>
+  <span class="date">[2010 - today]</span><br />
+  Second-guess the user’s intent from a search query.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/query-segmentation" class="internal-link">project</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/query-segmentation-server" target="_blank" class="external-link-new-window">demo</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/query-segmentation/query-segmentation-server/doc/rest-api-documentation.pdf" target="_blank" class="external-link-new-window">api</a>]
+  </div>
+  </div>
+
+  <div id="netspeak" class="entry">
+  <div class="image"><img src="netspeak-logo.png" alt="Netspeak" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/netspeak" class="internal-link">Netspeak</a>
+  <span class="date">[2006 - today]</span><br />
+  Tool to assist authors in writing.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/netspeak" class="internal-link">project</a>]
+  [<a href="http://www.netspeak.org"  target="_blank" class="external-link-new-window">service</a>]
+  [<a href="http://www.netspeak.org/#developer"  target="_blank" class="external-link-new-window">api</a>]
+  [video <a href="http://www.youtube.com/watch?v=vklWCIsB_jM" target="_blank" class="external-link-new-window">1</a>
+         <a href="http://www.youtube.com/watch?v=YPLypsK1KIk" target="_blank" class="external-link-new-window">2</a>
+         <a href="http://www.youtube.com/watch?v=X-GlKjGcC00" target="_blank" class="external-link-new-window">3</a>
+         <a href="http://www.youtube.com/watch?v=-EMxQacIJ20" target="_blank" class="external-link-new-window">4</a>]
+  </div>
+  </div>
+
+  <div id="plagiarism-detection" class="entry">
+  <div class="image"><img src="picapica-logo.png" alt="Plagiarism Detection" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/plagiarism-detection" class="internal-link">Plagiarism Detection</a>
+  <span class="date">[2005 - today]</span><br />
+  Technology for automated plagiarism detection.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/plagiarism-detection" class="internal-link">project</a>]
+  [<a href="http://www.picapica.org/"  target="_blank" class="external-link-new-window">service</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/webis-trc-demo/" target="_blank" class="external-link-new-window">demo</a>: writing process]
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/plagiarism-detection/picapica-video.mp4"  target="_blank" class="external-link-new-window">video</a>]
+  </div>
+  </div>
+
+  <div id="webis-informationRetrievalAndSearch-more" style="display:none;"> <!-- additional activities start -->
+
+  <div id="wikipedia-fingerprinting" class="entry">
+  <div class="image"><img src="wikipedia-fingerprinting-logo.png" alt="Wikipedia Fingerprinting" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/wikipedia-fingerprinting" class="internal-link">Wikipedia Fingerprinting</a>
+  <span class="date">[2007]</span><br />
+  Search engine implementing full text queries against Wikipedia based on fingerprinting.
+  </div>
+  </div>
+
+  <div id="bat" class="entry">
+  <div class="image"><img src="bat-logo.png" alt="BAT" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/bat" class="internal-link">BAT</a>
+  <span class="date">[2005 - 2006]</span><br />
+  Browser extension to facilitate the accessibility of Web pages for the visually impaired.
+  </div>
+  </div>
+
+  <div id="aisearch" class="entry">
+  <div class="image"><img src="aisearch-logo.png" alt="AIsearch" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/aisearch" class="internal-link">AIsearch</a>
+  <span class="date">[2003 - 2006]</span><br />
+  Meta search engine for Web document categorization and graphical access.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/aisearch" class="internal-link">project</a>]
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/aisearch/aisearch-video.mp4" target="_blank" class="external-link-new-window">video</a>]
+  </div>
+  </div>
+
+  </div> <!-- additional activities end -->
+  <a style="cursor:pointer;" onclick="javascript:document.getElementById('webis-informationRetrievalAndSearch-more').style.display='block';this.style.display='none';">More...</a>
+</div>
+
+
+<!--
+SECTION Information Extraction and Computational Linguistics
+-->
+<div id="webis-informationExtractionAndNLP" class="webis-list">
+  <h2>Information Extraction and Computational Linguistics</h2>
+
+  <div id="clickbait" class="entry">
+  <div class="image"><img src="clickbait-logo.png" alt="Clickbait Logo" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/clickbait" class="internal-link">CLICKBAIT</a>
+  <span class="date">[2016 - today]</span><br />
+  Analysis of clickbait messages in social media.
+  </div>
+  </div>
+
+  <div id="arguana-for-the-web" class="entry">
+  <div class="image"><img src="arguana-for-the-web-logo.png" alt="ArguAna" width=75 height=34/></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/arguana-for-the-web" class="internal-link">ArguAna for the Web</a>
+  <span class="date">[2016 - today]</span><br />
+  Argumentation analysis for the web.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/arguana-for-the-web" class="internal-link">project</a>]
+  [<a href="http://args.me"  target="_blank" class="external-link-new-window">service</a>: argument search]
+  [<a href="http://args.me/static/args-api.html"  target="_blank" class="external-link-new-window">api</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/essay-scoring/"  target="_blank" class="external-link-new-window">demo</a>: essay scoring]
+  </div>
+  </div>
+
+  <div id="arguana" class="entry">
+  <div class="image"><img src="arguana-logo.png" alt="ArguAna" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/arguana" class="internal-link">ArguAna</a>
+  <span class="date">[2012 - 2015]</span><br />
+  Argumentation analysis in customer opinion mining.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/arguana" class="internal-link">project</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/arguana/"  target="_blank" class="external-link-new-window">demo</a>: review analysis]
+  </div>
+  </div>
+
+  <div id="infexba" class="entry">
+  <div class="image"><img src="infexba-logo.png" alt="InfexBA" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/infexba" class="internal-link">InfexBA</a>
+  <span class="date">[2009 - 2011]</span><br />
+  Information extraction for business applications.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/infexba" class="internal-link">project</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/infexba/"  target="_blank" class="external-link-new-window">demo</a>: sentiment detection]
+  </div>
+  </div>
+
+  <div id="opinioncloud" class="entry">
+  <div class="image"><img src="opinioncloud-logo.png" alt="OpinionCloud" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/opinioncloud" class="internal-link">OpinionCloud</a>
+  <span class="date">[2008 - 2013]</span><br />
+  On the fly comment summarization for YouTube and Flickr.
+  </div>
+  </div>
+
+  <div id="webis-informationExtractionAndNLP-more" style="display:none;"> <!-- additional activities start -->
+
+  <div id="person-resolution" class="entry">
+  <div class="image"><img src="person-resolution-logo.png" alt="Person Resolution" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/person-resolution" class="internal-link">Person Resolution</a>
+  <span class="date">[2007 - 2008]</span><br />
+  Resolution of named entities in Web pages.
+  </div>
+  </div>
+
+  <div id="market-forecast" class="entry">
+  <div class="image"><img src="market-forecast-logo.png" alt="Market Forecast" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/market-forecast" class="internal-link">Market Forecast</a>
+  <span class="date">[2005 - 2006]</span><br />
+  Extraction and summarization of market forecast statements for a user-specified market.
+  </div>
+  </div>
+
+  </div> <!-- additional activities end -->
+  <a style="cursor:pointer;" onclick="javascript:document.getElementById('webis-informationExtractionAndNLP-more').style.display='block';this.style.display='none';">More...</a>
+</div>
+
+<!--
+SECTION Data Mining and Machine Learning
+-->
+<div id="webis-dataMiningAndMachineLearning" class="webis-list">
+
+  <h2>Data Mining and Machine Learning</h2>
+
+  <div id="deep-text-analytics" class="entry">
+  <div class="image"><img src="deep-text-analytics-logo.png" alt="Deep Text Analytics"/></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/deep-text-analytics" class="internal-link">Deep Text Analytics</a>
+  <span class="date">[2015 - today]</span><br />
+  Deep analysis of textual content in collaboration with Adobe.<br />
+  </div>
+  </div>
+
+  <div id="digital-engineering" class="entry">
+  <div class="image"><img src="digital-engineering-logo.png" alt="Digital Engineering" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/digital-engineering" class="internal-link">Digital Engineering</a>
+  <span class="date">[2010 - today]</span><br />
+  Data mining in artificially generated data to support modeling and simulation tasks.
+  </div>
+  </div>
+
+  <div id="wikipedia-quality" class="entry">
+  <div class="image"><img src="wikipedia-quality-logo.png" alt="Wikipedia Quality" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/wikipedia-quality" class="internal-link">Wikipedia Quality</a>
+  <span class="date">[2010 - today]</span><br />
+  Analyzing and predicting quality flaws in Wikipedia.
+  </div>
+  </div>
+
+  <div id="cair" class="entry">
+  <div class="image"><img src="cair-logo.png" alt="CAIR" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/cair" class="internal-link">CAIR</a>
+  <span class="date">[2010 - 2015]</span><br />
+  Semantic cluster analysis in information retrieval.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/cair" class="internal-link">project</a>]
+  [<a href="http://webis16.medien.uni-weimar.de/taxonomy-dendrogram" target="_blank" class="external-link-new-window">demo</a>: publication taxonomy]
+  </div>
+  </div>
+
+  <div id="wikipedia-vandalism" class="entry">
+  <div class="image"><img src="wikipedia-vandalism-logo.png" alt="Wikipedia Vandalism" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/wikipedia-vandalism" class="internal-link">Wikipedia Vandalism</a>
+  <span class="date">[2007 - today]</span><br />
+  Research for the analysis and detection of vandalism on Wikipedia.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/wikipedia-vandalism" class="internal-link">project</a>]
+  [<a href="https://webis16.medien.uni-weimar.de/wikipedia-vandalism" target="_blank" class="external-link-new-window">demo</a>: spatio-temporal analysis]
+  </div>
+  </div>
+
+  <div id="webis-dataMiningMachineLearnClass-more" style="display:none;"> <!-- additional activities start -->
+
+  <div id="web-genres" class="entry">
+  <div class="image"><img src="web-genres-logo.png" alt="Web Genres" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/web-genres" class="internal-link">Web Genres</a>
+  <span class="date">[2006 - 2008]</span><br />
+  On the fly genre analysis for Web pages.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/web-genres" class="internal-link">project</a>]
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/web-genres/web-genres-video.mp4"  target="_blank" class="external-link-new-window">video</a>]
+  </div>
+  </div>
+
+  </div> <!-- additional activities end -->
+  <a style="cursor:pointer;" onclick="javascript:document.getElementById('webis-dataMiningMachineLearnClass-more').style.display='block';this.style.display='none';">More...</a>
+</div>
+
+<!--
+SECTION Software Engineering and Tool Development
+-->
+<div id="webis-softwareEngineeringAndToolDevelopment" class="webis-list">
+  <h2> Software Engineering and Tool Development</h2>
+
+  <div id="wat-sl" class="entry">
+  <div class="image"><img src="wat-sl-logo.png" alt="WAT-SL" /></div>
+  <div class="description">
+  <a href="https://webis16.medien.uni-weimar.de/wat-sl/" target="_blank" class="external-link-new-window">WAT-SL</a>
+  <span class="date">[2017 - today]</span><br />
+  Web Annotation Tool for Segment Labeling.<br />
+  [<a href="https://webis16.medien.uni-weimar.de/wat-sl/" target="_blank" class="internal-link">demo</a>]
+  [<a href="https://github.com/webis-de/wat" target="_blank" class="external-link-new-window">code</a>]
+  </div>
+  </div>
+
+  <div id="cluster-visualization" class="entry">
+  <div class="image"><img src="cluster-visualization-logo.png" alt="Cluster Visualization" /></div>
+  <div class="description">
+  <a href="http://webis16.medien.uni-weimar.de/cluster-vis" target="_blank" class="external-link-new-window">Cluster Visualization</a>
+  <span class="date">[2015 - today]</span><br />
+  Tools for monitoring the group's clusters.
+  </div>
+  </div>
+
+  <div id="nosql-databases" class="entry">
+  <div class="image"><img src="nosql-databases-logo.png" alt="NoSQL Stores" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/nosql-databases" class="internal-link">NoSQL Databases</a>
+  <span class="date">[2014 - 2015]</span><br />
+  Development of key-value storage systems for Big Data applications.
+  </div>
+  </div>
+
+  <div id="github" class="entry">
+  <div class="image"><img src="github-logo.png" alt="Webis&#64;Github" /></div>
+  <div class="description">
+  <a href="https://github.com/webis-de" target="_blank" class="external-link-new-window">Webis&#64;Github</a>
+  <span class="date">[2013 - today]</span><br />
+  Webis github account that hosts the source code for reproducing our research.
+  </div>
+  </div>
+
+  <div id="tira" class="entry">
+  <div class="image"><img src="tira-logo.png" alt="TIRA" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/tira" class="internal-link">TIRA</a>
+  <span class="date">[2007 - today]</span><br />
+  Online experiment configuration and execution.<br />
+  [<a href="http://www.uni-weimar.de/medien/webis/research/activities/tira" class="internal-link">project</a>]
+  [<a href="http://www.tira.io/"  target="_blank" class="external-link-new-window">service</a>]
+  <!-- [<a href="https://github.com/timgollub/tira"  target="_blank" class="external-link-new-window">github</a>] -->
+  </div>
+  </div>
+
+  <div id="aitools" class="entry">
+  <div class="image"><img src="aitools-logo.png" alt="AItools" /></div>
+  <div class="description">
+  <a href="http://www.uni-weimar.de/medien/webis/research/activities/aitools" class="internal-link">AItools</a>
+  <span class="date">[2003 - today]</span><br />
+  Java library for information retrieval and data mining.
+  </div>
+  </div>
+</div>
+
+
+<!-- <div id="webis-softwareEngineeringAndToolDevelopment-more" style="display:none;"> additional activities start -->
+
+<!--
+<div id="webis-text-reuse-editor" class="entry">
+<div class="image"><img src="generic-app-logo.png" alt="Webis Text Reuse Editor" style="height:55px;" /></div>
+<div class="description">
+<a href="http://webis16.medien.uni-weimar.de/webis-text-reuse-editor-client#topics" class="internal-link">Text Reuse Editor</a>
+<span class="date">[2012 - today]</span><br />
+Editor for the Webis Text Reuse Corpus 2012.<br />
+[<a href="https://github.com/webis-de"  target="_blank" class="external-link-new-window">code</a>]
+</div>
+</div>
+-->
+
+<!-- </div> additional activities end
+<a style="cursor:pointer;" onclick="javascript:document.getElementById('webis-softwareEngineeringAndToolDevelopment-more').style.display='block';this.style.display='none';">More...</a> -->
+
+
+</div> <!-- list container end -->
+</div> <!-- webis-projects -->
+
+</div>
+</div>
+<!-- footer start -->
+<!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
+<div id="footer-container">
+<footer class="footer text-muted text-left">
+<div class="container-fluid p-3 p-md-5">
+  <div class="row">
+    <div class="col-12 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-webis-search-engines" aria-controls="collapse-webis-search-engines" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Webis search engines
+      </div>
+      <p class="d-none d-sm-none d-md-block">Webis search engines</p>
+      <div class="collapse navbar-collapse" id="collapse-webis-search-engines">
+        <ul class="list-unstyled">
+          <li>
+            <a href="http://www.args.me">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.chatnoir.eu">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.netspeak.org">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.picapica.org">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 navbar-expand-md first-in-footer-group">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-weimar" aria-controls="collapse-weimar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Bauhaus-Universität Weimar
+      </div>
+      <p class="d-none d-sm-none d-md-block">Bauhaus-Universität Weimar</p>
+      <div class="collapse navbar-collapse" id="collapse-weimar">
+        <ul class="list-unstyled">
+          <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/teaching"><li>Teaching</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/events"><li>Events</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/facilities"><li>Facilities</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-leipzig" aria-controls="collapse-leipzig" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Leipzig University
+      </div>
+      <p class="d-none d-sm-none d-md-block">Leipzig University</p>
+      <div class="collapse navbar-collapse" id="collapse-leipzig">
+        <ul class="list-unstyled">
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/teaching/"><li>Teaching</li></a>
+          <!--
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/events/"><li>Events</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/facilities/"><li>Facilities</li></a>
+          -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-halle" aria-controls="collapse-halle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Halle University
+      </div>
+      <p class="d-none d-sm-none d-md-block">Halle University</p>
+      <div class="collapse navbar-collapse" id="collapse-halle">
+        <ul class="list-unstyled">
+          <a href="http://www.matthias-hagen.de"><li>Home</li></a>
+          <!--
+          <a href=""><li>People</li></a>
+          <a href=""><li>Teaching</li></a>
+          <a href=""><li>Events</li></a>
+          <a href=""><li>Facilities</li></a>
+          -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="copyright d-none d-md-block">© webis 2018</p>
+</div>
+</footer>
+
+<script defer src="../js/fontawesome.min.js"></script>
+<script defer src="../js/fa-solid.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-4-navbar.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+</div>
+<!-- footer end -->
+
+</body>
+</html>
+

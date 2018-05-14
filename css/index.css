@@ -11,6 +11,14 @@
   color: white;
   text-shadow: 2px 2px 5px darkgrey;
   max-width: 575px;
+
+  /*
+  alternative;
+  color: inherit;
+  background-color: rgba(233, 236, 239, 0.66);
+  padding: 2rem 1.5rem;
+  border-radius: 3px;
+  */
 }
 
 .jumbotron .container h1 {
