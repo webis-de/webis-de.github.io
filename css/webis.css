@@ -109,7 +109,12 @@ h2 {
   footer div.navbar-expand-md {
     width: initial;
     flex: none;
-    margin-right: 30px;
+    margin-right: 20px;
+  }
+
+  footer div.university p {
+    max-width: 140px;
+    height: 3.2em;
   }
 
   footer div.first-in-footer-group {
