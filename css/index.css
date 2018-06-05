@@ -1,0 +1,22 @@
+.search-engine-argsme {
+  background-image: url("../img/icons/argsme.png");
+}
+
+.search-engine-chatnoir {
+  background-image: url("../img/icons/chatnoir.png");
+}
+
+.search-engine-netspeak {
+  background-image: url("../img/icons/netspeak.png");
+}
+
+.search-engine-picapica {
+  background-image: url("../img/icons/picapica.png");
+}
+
+.search-engine-icons a {
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+/*# sourceMappingURL=file:///C:/Users/janek/Documents/University/Webis/webis.de/css/index.css.map */

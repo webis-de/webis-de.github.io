@@ -1,0 +1,59 @@
+// Index styles
+
+.people-university {
+    text-transform: $nav-header-text-transform;
+}
+
+.index-main-cover {
+    background: url("../img/index-cover-01.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 450px;
+}
+
+@media (min-width: $breakpoint-medium) {
+    .index-main-cover {
+        height: 60vh;
+    }
+}
+
+.cover-background-fade {
+    @extend .uk-position-cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.85) 85%);
+}
+
+.search-engine-card {
+    display: block;
+    background: no-repeat $global-gutter center;
+    padding: $global-gutter;
+    padding-left: 2 * $global-gutter + 50px;
+    @extend .uk-link-reset !optional;
+
+    &.argsme {
+        background-image: url("../img/icons/argsme.png");
+    }
+
+    &.chatnoir {
+        background-image: url("../img/icons/chatnoir.png");
+    }
+
+    &.netspeak {
+        background-image: url("../img/icons/netspeak.png");
+    }
+
+    &.picapica {
+        background-image: url("../img/icons/picapica.png");
+    }
+}
+
+.search-engine-card:hover {
+    background-color: $background-muted-background;
+}
+
+.footer-section {
+    @extend .uk-text-small;
+    @extend .uk-text-muted;
+
+    a {
+        @extend .uk-text-muted;
+    }
+}

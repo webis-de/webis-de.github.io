@@ -1,0 +1,13 @@
+// global variables
+
+
+// default UIKit variables
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+
+
+// UIKit main theme
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+
+// Custom styles
+@import "index.scss";
