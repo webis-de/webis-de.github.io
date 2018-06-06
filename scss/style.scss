@@ -1,13 +1,15 @@
 // global variables
+$global-font-family: "Assistant-web", "Helvetica Neue", sans-serif;
 $section-header-text-transform: uppercase;
 
 // default UIKit variables
-@import "../node_modules/uikit/src/scss/variables-theme.scss";
-@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+@import "../node_modules/uikit/src/scss/variables-theme";
+@import "../node_modules/uikit/src/scss/mixins-theme";
 
 
 // UIKit main theme
-@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+@import "../node_modules/uikit/src/scss/uikit-theme";
 
 // Custom styles
-@import "index.scss";
+@import "fonts";
+@import "index";

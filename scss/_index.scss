@@ -4,20 +4,6 @@
     text-transform: $nav-header-text-transform;
 }
 
-.index-main-cover {
-    background: url("../img/index-cover-01.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 450px;
-}
-
-.people {
-    .uk-card-body {
-        padding: 10px;
-        text-align: center;
-        transform: rotate(-3deg);
-    }
-}
-
 .section-header {
     text-transform: $section-header-text-transform;
 }
@@ -33,6 +19,24 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.85) 85%);
 }
 
+.index-main-cover {
+    background: url("../img/index-cover-01.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 450px;
+}
+
+.name {
+    font-weight: lighter;
+}
+
+.people {
+    .uk-card-body {
+        padding: 10px;
+        text-align: center;
+        transform: rotate(-3deg);
+    }
+}
+
 .search-engine-icon {
     width: 52px;
     height: 52px;
@@ -43,8 +47,10 @@
     background-color: $background-muted-background;
 }
 
-.search-engines > .uk-container {
-    margin-bottom: 10px;
+.search-engines {
+    & > .uk-container {
+        margin-bottom: 10px;
+    }
 }
 
 .footer-section {
