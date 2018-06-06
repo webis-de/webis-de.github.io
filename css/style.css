@@ -546,10 +546,9 @@ a.uk-link-heading:hover,
 /*
  * `!important` needed to override inverse component
  */
-a.uk-link-reset, a.search-engine-card,
+a.uk-link-reset,
 a.uk-link-reset:hover,
 .uk-link-reset a,
-.search-engine-card a,
 .uk-link-reset a:hover {
   color: inherit !important;
   text-decoration: none !important;
@@ -11384,6 +11383,16 @@ h3 {
   height: 450px;
 }
 
+.people .uk-card-body {
+  padding: 10px;
+  text-align: center;
+  transform: rotate(-3deg);
+}
+
+.section-header {
+  text-transform: uppercase;
+}
+
 @media (min-width: 960px) {
   .index-main-cover {
     height: 60vh;
@@ -11393,27 +11402,18 @@ h3 {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.85) 85%);
 }
 
-.search-engine-card {
-  display: block;
-  background: no-repeat 30px center;
-  padding: 30px;
-  padding-left: 110px;
-}
-.search-engine-card.argsme {
-  background-image: url("../img/icons/argsme.png");
-}
-.search-engine-card.chatnoir {
-  background-image: url("../img/icons/chatnoir.png");
-}
-.search-engine-card.netspeak {
-  background-image: url("../img/icons/netspeak.png");
-}
-.search-engine-card.picapica {
-  background-image: url("../img/icons/picapica.png");
+.search-engine-icon {
+  width: 52px;
+  height: 52px;
+  padding-top: 0.1em;
 }
 
 .search-engine-card:hover {
   background-color: #f8f8f8;
+}
+
+.footer-section {
+  background-color: #323232;
 }
 
 /*# sourceMappingURL=file:///C:/Users/janek/Documents/University/Webis/webis.de/css/style.css.map */
