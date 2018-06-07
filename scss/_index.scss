@@ -1,5 +1,14 @@
 // Index styles
 
+.global-nav {
+    border-bottom: 1px solid lighten($global-secondary-background, 25);
+
+    .uk-logo {
+        height: .7em;
+        padding-right: $global-small-gutter;
+    }
+}
+
 .people-university {
     text-transform: $nav-header-text-transform;
 }
@@ -17,6 +26,18 @@
     background: url("../img/index-cover-01.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 450px;
+}
+
+@media (max-width: 400px) {
+    .index-main-cover {
+        height: 550px;
+    }
+}
+
+@media (max-width: 300px) {
+    .index-main-cover {
+        height: 600px;
+    }
 }
 
 @media (min-width: $breakpoint-medium) {
@@ -38,23 +59,21 @@
 }
 
 .search-engine-icon {
-    width: 52px;
-    height: 52px;
-    padding-top: .1em;
+    width: 42px;
+    height: 42px;
+    padding-top: .35em;
 }
 
-.search-engine-card:hover {
-    background-color: $background-muted-background;
-}
 
 .search-engines {
-    & > .uk-container {
-        margin-bottom: 10px;
+    h5 {
+        margin-bottom: 0;
     }
 }
 
 .footer-section {
-    background-color: #323232;
+    margin-bottom: 0;
+    padding-bottom: $global-gutter;
 
     @extend .uk-text-small;
     @extend .uk-text-muted;

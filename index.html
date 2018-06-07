@@ -5,26 +5,85 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="copyright" content="&copy; 2018 Webis">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
-    <link rel="stylesheet" href="css/style.css?5">
+    <link rel="stylesheet" href="css/style.css?9">
 </head>
-<body>
+<body class="uk-offcanvas-content">
 
-<div class="uk-background-secondary" data-uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<div id="offcanvas-nav" class="uk-hidden@m" data-uk-offcanvas="overlay: true; flip: true;">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        <nav class="uk-margin-large-top">
+            <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
+                <li class="uk-parent">
+                    <a href="#">People</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="http://halle.webis.de/">Matthias Hagen
+                            <span class="people-university">&bullet; Halle University</span></a></li>
+                        <li><a href="http://leipzig.webis.de/">Martin Potthast
+                            <span class="people-university">&bullet; Leipzig University</span></a></li>
+                        <li><a href="http://weimar.webis.de/">Benno Stein
+                            <span class="people-university">&bullet; Bauhaus-Universität Weimar</span></a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Lecture Notes</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="http://www.webis.de/lecturenotes/overview/overview.html">Overview</a></li>
+                        <li class="uk-parent">
+                            <a href="http://www.webis.de/lecturenotes/slides/slides.html">Slides</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="http://www.webis.de/lecturenotes/browser/databases.html">Databases</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/web-technology.html">Web-Technologie</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/machine-learning.html">Machine Learning</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/data-mining.html">Data Mining</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/information-retrieval.html">Information Retrieval</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/search.html">Search Algorithms</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/logics.html">Logik</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
+                                <li><a href="http://www.webis.de/lecturenotes/browser/lecturenotes-generic.html">Lecturenotes Generic</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Research</a></li>
+                <li class="uk-parent">
+                    <a href="#">Publications</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Selected</a></li>
+                        <li><a href="#">By Year</a></li>
+                        <li><a href="#">By Author</a></li>
+                        <li><a href="#">By Topic</a></li>
+                        <li><a href="#">By Type</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Data</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="uk-background-secondary global-nav uk-visible@m" data-uk-sticky="sel-target: .uk-navbar-container; cls-active:">
     <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="">Webis.de</a></li>
+                <li class="uk-active">
+                    <a href=""><img src="img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
+                </li>
                 <li>
                     <a href="#">People</a>
                     <div class="uk-navbar-dropdown uk-width-large">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li><a href="http://halle.webis.de/">Matthias Hagen
-                                <span class="people-university">• Halle University</span></a></li>
+                                <span class="people-university">&bullet; Halle University</span></a></li>
                             <li><a href="http://leipzig.webis.de/">Martin Potthast
-                                <span class="people-university">• Leipzig University</span></a></li>
+                                <span class="people-university">&bullet; Leipzig University</span></a></li>
                             <li><a href="http://weimar.webis.de/">Benno Stein
-                                <span class="people-university">• Bauhaus-Universität Weimar</span></a></li>
+                                <span class="people-university">&bullet; Bauhaus-Universität Weimar</span></a></li>
                         </ul>
                     </div>
                 </li>
@@ -81,6 +140,23 @@
     </nav>
 </div>
 
+<div class="uk-background-secondary global-nav uk-hidden@m">
+    <div class="uk-navbar-container uk-navbar-transparent uk-container uk-light mobile-nav-toggle" data-uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href=""><img src="img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right">
+            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu"
+                    data-uk-toggle="target: #offcanvas-nav"></button>
+        </div>
+    </div>
+</div>
+
 <section class="uk-section uk-cover-container index-main-cover">
     <div class="cover-background-fade"></div>
     <div class="uk-container uk-position-bottom uk-light uk-padding">
@@ -100,9 +176,8 @@
 <section class="uk-section uk-section-default people">
     <div class="uk-container uk-margin-large uk-text-muted">
         <h2 class="section-header">The faces behind Webis</h2>
-        <p>Webis is a group of adept and ambitious scientist and student assistants at three different universities lead by:</p>
 
-        <div class="uk-grid uk-child-width-expand uk-margin-large" data-uk-grid>
+        <div class="uk-grid uk-child-width-expand@l uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-large" data-uk-grid>
             <div>
                 <div class="uk-grid uk-grid-small" data-uk-grid>
                     <div class="uk-width-auto">
@@ -110,7 +185,7 @@
                     </div>
                     <div class="uk-width-expand">
                         <h3><a href="http://halle.webis.de/" class="uk-link-heading name">Matthias Hagen</a></h3>
-                        <p>Professor at Martin-Luther-Universität Halle-Wittenberg</p>
+                        <p>Martin-Luther-Universität Halle-Wittenberg</p>
                     </div>
                 </div>
             </div>
@@ -121,7 +196,7 @@
                     </div>
                     <div class="uk-width-expand">
                         <h3><a href="http://leipzig.webis.de/" class="uk-link-heading name">Martin Potthast</a></h3>
-                        <p>Jun.-Professor at Leipzig University</p>
+                        <p>Leipzig University</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +207,7 @@
                     </div>
                     <div class="uk-width-expand">
                         <h3><a href="http://weimar.webis.de/" class="uk-link-heading name">Benno Stein</a></h3>
-                        <p>Professor at Bauhaus-Universität Weimar</p>
+                        <p>Bauhaus-Universität Weimar</p>
                     </div>
                 </div>
             </div>
@@ -140,66 +215,61 @@
     </div>
 </section>
 
-<section class="uk-section uk-section-muted search-engines">
-    <div class="uk-container uk-margin-large uk-text-muted">
-        <h2 class="section-header">Search Engines</h2>
-
-        <div class="uk-grid uk-child-width-expand uk-margin-large" data-uk-grid>
-            <div>
-                <div class="uk-grid uk-grid-small" data-uk-grid>
-                    <div class="uk-width-auto search-engine-icon"><img src="img/icons/argsme.png"></div>
-                    <div class="uk-width-expand">
-                        <h4><a href="http://www.args.me/" class="uk-link-heading name">Args</a></h4>
-                        <p>Search arguments for or against controversal topics</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-grid uk-grid-small" data-uk-grid>
-                    <div class="uk-width-auto search-engine-icon"><img src="img/icons/chatnoir.png"></div>
-                    <div class="uk-width-expand">
-                        <h4><a href="https://www.chatnoir.eu/" class="uk-link-heading name">ChatNoir</a></h4>
-                        <p>Search engine for ClueWeb and Common Crawl</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-grid uk-grid-small" data-uk-grid>
-                    <div class="uk-width-auto search-engine-icon"><img src="img/icons/netspeak.png"></div>
-                    <div class="uk-width-expand">
-                        <h4><a href="http://netspeak.org/" class="uk-link-heading name">Netspeak</a></h4>
-                        <p>English writing assistance based on common usage</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-grid uk-grid-small" data-uk-grid>
-                    <div class="uk-width-auto search-engine-icon"><img src="img/icons/picapica.png"></div>
-                    <div class="uk-width-expand">
-                        <h4><a href="http://picapica.org/" class="uk-link-heading name">Picapica</a></h4>
-                        <p>Detect and identify plagiarism from the web</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="uk-section uk-section-secondary footer-section" data-uk-height-viewport="expand: true">
+<section class="uk-section uk-section-muted footer-section" data-uk-height-viewport="expand: true">
     <div class="uk-container">
-        <div class="uk-grid uk-grid-small" data-uk-grid>
-            <div class="uk-width-1-5 uk-text-muted uk-text-small">
-                <ul class="uk-nav">
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Legal Info / Impressum</a></li>
-                </ul>
-                <p>Copyright &copy; 2018 Webis Group</p>
+        <div class="uk-grid uk-grid-small uk-child-width-1-5@l uk-child-width-1-2@m" data-uk-grid>
+            <div class="uk-text-muted uk-text-small search-engines">
+
+                <h4>Search Engines</h4>
+
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="http://www.args.me/" class="uk-link-reset"><img src="img/icons/argsme.png"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5><a href="http://www.args.me/" class="uk-link-heading">Args</a></h5>
+                            <div class="uk-text-small">Argument search</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="https://www.chatnoir.eu/" class="uk-link-reset"><img src="img/icons/chatnoir.png"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5><a href="https://www.chatnoir.eu/" class="uk-link-heading">ChatNoir</a></h5>
+                            <div class="uk-text-small">Common Crawl search engine</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="https://www.chatnoir.eu/" class="uk-link-reset"><img src="img/icons/netspeak.png"></a></div>
+                        <div class="uk-width-expand">
+                            <h5><a href="http://netspeak.org/" class="uk-link-heading">Netspeak</a></h5>
+                            <div class="uk-text-small">English writing assistance</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="http://picapica.org/" class="uk-link-reset"><img src="img/icons/picapica.png"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5><a href="http://picapica.org/" class="uk-link-heading">Picapica</a></h5>
+                            <div class="uk-text-small">Plagiarism detection</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="uk-width-1-5"></div>
+            <div></div>
 
-            <div class="uk-width-1-5 footer-link-column">
+            <div class="footer-link-column">
                 <ul class="uk-nav">
                     <li class="uk-nav-header">Bauhaus-Universität Weimar</li>
                     <li><a href="https://www.uni-weimar.de/medien/webis/">Home</a></li>
@@ -210,7 +280,7 @@
                 </ul>
             </div>
 
-            <div class="uk-width-1-5 footer-link-column">
+            <div class="footer-link-column">
                 <ul class="uk-nav">
                     <li class="uk-nav-header">Leipzig University</li>
                     <li><a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/">Home</a></li>
@@ -219,7 +289,7 @@
                 </ul>
             </div>
 
-            <div class="uk-width-1-5 footer-link-column">
+            <div class="footer-link-column">
                 <ul class="uk-nav">
                     <li class="uk-nav-header">Martin-Luther-Universität Halle-Wittenberg</li>
                     <li><a href="http://www.matthias-hagen.de/">Home</a></li>
@@ -227,10 +297,17 @@
             </div>
         </div>
 
+        <div class="uk-align-right uk-margin-top">
+            Copyright &copy; 2018 Webis Group <span class="uk-padding-small">&bullet;</span>
+            <a href="#">Contact</a> <span class="uk-padding-small">&bullet;</span>
+            <a href="#">Privacy</a> <span class="uk-padding-small">&bullet;</span>
+            <a href="#">Legal Info / Impressum</a>
+        </div>
     </div>
 </section>
 
-<script src="js/uikit/uikit.min.js" defer></script>
-<script src="js/uikit/uikit-icons.min.js" defer></script>
+<script src="js/uikit/uikit.min.js"></script>
+<script src="js/uikit/uikit-icons.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
