@@ -87,6 +87,7 @@
     <!-- Comment out sections you do not provide -->
       <li class="csc-section"><a href="#webis-synopsis">Synopsis</a></li>
       <li class="csc-section"><a href="#webis-download">Download</a></li>
+      <li class="csc-section"><a href="#webis-software">Software</a></li>
       <li class="csc-section"><a href="#webis-research">Research</a></li>
       <li class="csc-section"><a href="#webis-people">People</a></li>
       <li class="csc-section"><a href="#webis-publications">Publications</a></li>
@@ -98,7 +99,9 @@
     -->
     <h2 id="webis-synopsis">Synopsis</h2>
 
-    <p>The Webis Clickbait Corpus 2017 (Webis-Clickbait-17) comprises 19538 Twitter tweets from 27 major US news publishers. The tweets had been published between November 2016 and June 2017. To avoid publisher and topical biases, a maximum of ten tweets per day and publisher were sampled. All tweets have been annotated on the 4-point scale [not click baiting (0.0), slightly click baiting (0.33), considerably click baiting (0.66), heavily click baiting (1.0)] by five annotators from Amazon Mechanical Turk. A total of 4761 tweets are considered clickbait by the majority of annotators. In terms of its size, this corpus outranges the <a href="https://www.uni-weimar.de/en/media/chairs/computer-science-and-media/webis/corpora/corpus-webis-clickbait-16/">Webis Clickbait Corpus 2016</a> by an order of magnitude. The corpus is used as training data for the <a href="http://www.clickbait-challenge.org">Clickbait Challenge</a>.</p>
+    <p>
+      The Webis Clickbait Corpus 2017 (Webis-Clickbait-17) comprises a total of 38,517 Twitter posts from 27 major US news publishers. In addition to the posts, information about the articles linked in the posts are included. The posts had been published between November 2016 and June 2017. To avoid publisher and topical biases, a maximum of ten posts per day and publisher were sampled. All posts were annotated on a 4-point scale [not click baiting (0.0), slightly click baiting (0.33), considerably click baiting (0.66), heavily click baiting (1.0)] by five annotators from Amazon Mechanical Turk. A total of 9,276 posts are considered clickbait by the majority of annotators. In terms of its size, this corpus outranges the <a href="https://www.uni-weimar.de/en/media/chairs/computer-science-and-media/webis/corpora/corpus-webis-clickbait-16/">Webis Clickbait Corpus 2016</a> by one order of magnitude. The corpus is divided into two logical parts, a training and a test dataset. The training dataset has been published in the course of the <a href="http://www.clickbait-challenge.org">Clickbait Challenge</a>. The test dataset is currently still unpublished to allow for an objective performance evaluation on the Evaluation-as-a-Service platform <a href="http://www.tira.io/task/clickbait-detection/dataset/clickbait17-test-170720/">TIRA</a>.
+    </p>
 
 
     <!--
@@ -106,14 +109,15 @@
     -->
     <h2 id="webis-download">Download</h2>
 
-    <p>To download the corpus use the following link:</p>
+    <p>To download the corpus use the following links:</p>
 
     <ul>
-    <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-train-170630.zip">clickbait17-train-170630.zip</a> (894 MB)</li>
+    <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-train-170630.zip">clickbait17-train-170630.zip</a> (894 MiB, 19538 posts)</li>
+    <li class="text-muted">clickbait17-test-170720.zip (892 MiB, 18979 posts, currently private)</li>
     </ul>
 
     <p>
-    	The archive contains the following resources:
+    	Each corpus zip file comprises the following resources:
     	<ul>
         <li><code>instances.jsonl</code>: A line delimited JSON file (JSON Lines). Each line is a JSON-Object containing the information extracted for a specific post and its target article. Have a look at the <a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-dataset-schema.txt">dataset schema file</a> for an overview of the available fields.</li>
         <li><code>truth.jsonl</code>: A line delimited JSON file. Each line is a JSON-Object containing the crowdsourced clickbait judgements of a specific post. Have a look at the <a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-dataset-schema.txt">dataset schema file</a> for an overview of the available fields.</li>
@@ -121,7 +125,37 @@
         </ul>
     </p>
 
-    <!--<p> If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to refer to the corpus via [<a href="http://www.uni-weimar.de/medien/webis/publications/bibentries.php?bibkey=stein_2016b">bib</a>].</p>-->
+    <p>In addition to the corpus, we provide the original WARC archives of the articles that are linked in the posts:</p>
+
+    <ul>
+    <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/archives-clickbait17-train-170630.zip">archives-clickbait17-train-170630.zip</a></li>
+    <li class="text-muted">archives-clickbait17-test-170720.zip</li>
+    </ul>
+
+    <p>
+      The WARC archives may be used to redo the content analysis that we performed to provide information about the linked articles in the corpus. Each article archive zip file comprises a folder for each post in the respective corpus zip file. The folders are labeled with the id of the post they refer to. To avoid a single gigantic folder, each article folder is put into a parent folder according to the last two digits of its name. Each article folder contains:
+      <ul>
+        <li><code>original-url.txt</code> A text file that contains the url of the link that was stated in the respective post.</li>
+        <li><code><i>id</i>.warc</code> The WARC archive recorded when requesting the link in the respective post.</li>
+        <li><code><i>id</i>-live.png</code> A screenshot of the archived article.</li>
+        <li><code>url_<i>id</i>.html</code> The html file of the article that is contained, togehter with other resources, also in the WARC. Note that this file might differ from the version in the WARC archive.</li>
+      </ul>
+    </p>
+
+    <!--
+    SECTION Software
+    -->
+    <h2 id="webis-software">Software</h2>
+
+    <p>To make working with the Webis Clickbait Corpus 2017 convenient, and to allow for its validation and replication, we are developing and sharing a number of software projects:
+    </p>
+
+    <ul>
+      <li> <a href="https://github.com/webis-de/corpus-viewer">Corpus Viewer</a>. Django web service for exploring corpora. For importing the Webis Clickbait Corpus 2017 into the corpus viewer, we provide an appropriate <a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-corpus-viewer-config.py">configuration file</a>.</li>
+      <li> <a href="https://github.com/webis-de/mturk-manager">MTurk Manager</a>. Django web service for conducting sophisticated crowd sourcing tasks on Amazon Mechanical Turk. The service allows to manage projects, upload batches of HITS, apply custom reviewing interfaces, and more. To make the clickbait crowd-sourcing task replicable, we share the <a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-worker-template.html"> worker template</a> that we used to instruct the workers and to display the tweets. Also shared is a <a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-review-template.html">reviewing template</a> that can be used to accept/reject assignments and to assess the quality of the received annotations quickly.</li>
+      <li> <a href="https://github.com/webis-de/webis-web-archiver">Web Archiver</a>. Software for archiving web pages as WARC files and reproducing them later on. This software can be used to reproduce the WAR archives provided above.</li>
+    </ul>
+
 
     <!--
     SECTION Research
@@ -152,12 +186,6 @@
     </ul>
 
     <p>Students: Kristof Komlossy, Sebstian Schuster, Matti Wiegmann, Erica Garces.</p>
-
-
-    <!--
-    SECTION Publications
-    -->
-    <h2 id="webis-publications">Publications</h2>
 
 
   </div>
