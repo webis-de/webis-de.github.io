@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Webis-Web-Archive-17</title>
+<meta charset="UTF-8">
+<meta name="copyright" content="&copy; 2018 Webis">
+<meta name="author" content="Webis">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="data.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- header start -->
+<!-- Our scripts rely on the header start and end comments to be there and on an line on their own, so never change them! -->
+<!--
+  For our maintenance scripts, the following has to hold:
+    - All <li> and <a> that can receive bootstrap's active class need to have
+      - An ID "nav-item-..." where "..." is the "-"-separated list of directories in which the respective HTML file resides
+      - At least one class that is defined after the ID
+    - The <li> of index.html has to have the ID "nav-item-home" 
+-->
+<div id="header-container" class="container">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<a class="navbar-brand" href="../index.html"><img src="../img/webis-logo_w27.png" /><span class="ml-3">Webis</span></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar">
+  <ul class="navbar-nav mr-auto">
+    <li id="nav-item-people" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-people-hagen" class="dropdown-item" href="http://halle.webis.de">Matthias Hagen (Halle University)</a></li>
+        <li><a id="nav-item-people-potthast" class="dropdown-item" href="http://leipzig.webis.de">Martin Potthast (Leipzig University)</a></li>
+        <li><a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a></li>
+      </ul>
+    </li>
+    <li id="nav-item-lecturenotes" class="nav-item dropdown first-in-nav-group">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lecturenotes</a>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-lecturenotes-overview" class="dropdown-item" href="../lecturenotes/overview/overview.html">Overview</a></li>
+        <li><a id="nav-item-lecturenotes-slides" class="dropdown-item" href="../lecturenotes/slides/slides.html">Slides</a></li>
+        <li>
+          <a id="nav-item-lecturenotes-browser" class="dropdown-item dropdown-toggle" href="#">Browser</a>
+          <ul class="dropdown-menu">
+            <li><a id="nav-item-lecturenotes-browser-databases" class="dropdown-item" href="../lecturenotes/browser/databases.html">Datenbanken</a></li>
+            <li><a id="nav-item-lecturenotes-browser-web-technology" class="dropdown-item" href="../lecturenotes/browser/web-technology.html">Web-Technologie</a></li>
+            <li><a id="nav-item-lecturenotes-browser-machine-learning" class="dropdown-item" href="../lecturenotes/browser/machine-learning.html">Machine Learning</a></li>
+            <li><a id="nav-item-lecturenotes-browser-data-mining" class="dropdown-item" href="../lecturenotes/browser/data-mining.html">Data Mining</a></li>
+            <li><a id="nav-item-lecturenotes-browser-information-retrieval" class="dropdown-item" href="../lecturenotes/browser/information-retrieval.html">Information Retrieval</a></li>
+            <li><a id="nav-item-lecturenotes-browser-search" class="dropdown-item" href="../lecturenotes/browser/search.html">Search Algorithms</a></li>
+            <li><a id="nav-item-lecturenotes-browser-logics" class="dropdown-item" href="../lecturenotes/browser/logics.html">Logik</a></li>
+            <li><a id="nav-item-lecturenotes-browser-modeling-foundations" class="dropdown-item" href="../lecturenotes/browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
+            <li><a id="nav-item-lecturenotes-browser-lecturenotes-generic" class="dropdown-item" href="../lecturenotes/browser/lecturenotes-generic.html">Lecturenotes Generic</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li id="nav-item-research" class="nav-item">
+      <a class="nav-link" href="../research/research.html">Research</a>
+    </li>
+    <li id="nav-item-publications" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
+      <ul class="dropdown-menu">
+        <li><a id="nav-item-publications-selected" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/selected-publications/">Selected</a></li>
+        <li><a id="nav-item-publications-by-year" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-year/">By Year</a></li>
+        <li><a id="nav-item-publications-by-author" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-author/">By Author</a></li>
+        <li><a id="nav-item-publications-by-topic" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-topic/">By Topic</a></li>
+        <li><a id="nav-item-publications-by-type" class="dropdown-item" href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/publications/by-type/">By Type</a></li>
+      </ul>
+    </li>
+    <li id="nav-item-data" class="nav-item first-in-nav-group active">
+      <a class="nav-link" href="data.html">Data</a>
+    </li>
+    <li id="nav-item-facilities" class="nav-item">
+      <a class="nav-link" href="../facilities/facilities.html">Facilities</a>
+    </li>
+    <li id="nav-item-events" class="nav-item">
+      <a class="nav-link" href="../events/events.html">Events</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
+<!-- header end -->
+
+
+<body>
+<div class="container-fluid main">
+<div class="container">
+<h1>Webis-Web-Archive-17</h1>
+
+<ul class="csc-menu">
+<!-- Comment out sections you do not provide -->
+  <li class="csc-section"><a href="#synopsis">Synopsis</a></li>
+  <li class="csc-section"><a href="#resources">Resources</a></li>
+  <li class="csc-section"><a href="#people">People</a></li>
+</ul>
+
+
+<!--
+SECTION Synopsis
+-->
+<h2 id="synopsis">Synopsis</h2>
+<p>
+The Webis-Web-Archive-17 comprises a total of 10,000 web page archives from mid-2017 with an annotation per web page how well the web page can be reduced from the archive. This data aims to be the foundation for other web datasets. The archiving of the web pages makes them reproducible, which we see as a requirement for conducting research on web page analysis tools. A key question in this regard is how well the web pages can be reproduced from the archive with current technology. For this, we had human annotators grade the achieved reproduction on a 5-point scale. Annotations were collected using crowd sourcing and a tailored <a href="https://zenodo.org/record/1002204/files/page-quality-interface.png" target="_blank">annotation interface</a>. Each archive contains the files requested by the browser to display a single web page. The web pages were carefully sampled from the Common Crawl to involve a mixture of high-ranking and low-ranking web pages. The process is described in detail in an upcoming publication.
+</p>
+
+
+<!--
+SECTION Resources
+-->
+<h2 id="resources">Resources</h2>
+<p>You can find the entire dataset on Zenodo, including archives, screenshots, and extracted HTML. You can use our webis-web-archiver tool to reproduce the web pages from the archives and programmatically access them.</p>
+<ul>
+<li><a href="https://doi.org/10.5281/zenodo.1002203" target="_blank">Webis-Web-Archive-17</a></li>
+<li><a href="https://github.com/webis-de/webis-web-archiver" target="_blank">webis-web-archiver</a></li>
+</ul>
+
+
+<!--
+SECTION People
+-->
+<h2 id="people">People</h2>
+<ul>
+<li><a href="http://www.uni-weimar.de/medien/webis/people/#kiesel" title="Johannes Kiesel">Johannes Kiesel</a></li>
+<li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+<li><a href="http://www.uni-weimar.de/medien/webis/people/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+<li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+</ul>
+<p>Students: Florian Kneist.</p>
+</div>
+</div>
+
+<!-- footer start -->
+<!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
+<div id="footer-container">
+<footer class="footer text-muted text-left">
+<div class="container-fluid p-3 p-md-5">
+  <div class="row">
+    <div class="col-12 navbar-expand-md">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-webis-search-engines" aria-controls="collapse-webis-search-engines" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Webis search engines
+      </div>
+      <p class="d-none d-sm-none d-md-block">Webis search engines</p>
+      <div class="collapse navbar-collapse" id="collapse-webis-search-engines">
+        <ul class="list-unstyled">
+          <li>
+            <a href="http://www.args.me">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.chatnoir.eu">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.netspeak.org">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
+              </div>
+            </a>
+          </li>
+          <li class="my-2">
+            <a href="http://www.picapica.org">
+              <div class="media">
+                <img class="d-flex align-self-center mr-3" src="../img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 navbar-expand-md university first-in-footer-group">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-weimar" aria-controls="collapse-weimar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Bauhaus-Universit&auml;t Weimar
+      </div>
+      <p class="d-none d-sm-none d-md-block">Bauhaus-Universit&auml;t Weimar</p>
+      <div class="collapse navbar-collapse" id="collapse-weimar">
+        <ul class="list-unstyled">
+          <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/teaching"><li>Teaching</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/events"><li>Events</li></a>
+          <a href="https://www.uni-weimar.de/medien/webis/facilities"><li>Facilities</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-md-3 navbar-expand-md university">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-leipzig" aria-controls="collapse-leipzig" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Leipzig University
+      </div>
+      <p class="d-none d-sm-none d-md-block">Leipzig University</p>
+      <div class="collapse navbar-collapse" id="collapse-leipzig">
+        <ul class="list-unstyled">
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/teaching/"><li>Teaching</li></a>
+          <!--
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/events/"><li>Events</li></a>
+          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/facilities/"><li>Facilities</li></a>
+          -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 navbar-expand-md university">
+      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-halle" aria-controls="collapse-halle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+        Martin-Luther-Universit&auml;t Halle-Wittenberg
+      </div>
+      <p class="d-none d-sm-none d-md-block">Martin-Luther-Universit&auml;t Halle-Wittenberg</p>
+      <div class="collapse navbar-collapse" id="collapse-halle">
+        <ul class="list-unstyled">
+          <a href="http://www.matthias-hagen.de"><li>Home</li></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="copyright d-none d-md-block">© webis 2018</p>
+</div>
+</footer>
+
+<script defer src="../js/fontawesome.min.js"></script>
+<script defer src="../js/fa-solid.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap-4-navbar.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+</div>
+<!-- footer end -->
+</body>
+</html>
+
