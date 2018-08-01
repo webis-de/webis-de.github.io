@@ -26,7 +26,7 @@ fi
 echo "Using git directory $(pwd)"
 
 index_file=index.html
-other_html_files=$(find -name '*.html' | grep -v "^\./index.html")
+other_html_files=$(find -name '*.html' -type f | grep -v "^\./index.html")
 
 gawk 'BEGIN {
     header_start = "<!-- header start -->"
