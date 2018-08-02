@@ -21,5 +21,19 @@
 
 #bib a:hover {
   text-decoration:underline;
+  cursor: pointer;
+}
+
+#bib textarea.bibtex {
+  width: 100%;
+  font-family: New Courier, Monospace;
+  font-size: smaller;
+  resize: none;
+  border: none;
+  margin-top: 5px;
+}
+
+#bib textarea.bibtex.hidden {
+  display: none;
 }
 

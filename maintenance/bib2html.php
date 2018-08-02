@@ -326,7 +326,7 @@ class Bibentries {
             $entry['slides'] = $hrefSlides;
         }
 
-        $bib = '[' . $this->wrap('a', array('class' => 'bib', 'href' => '#' . $bibkeyclean, 'onclick' => 'openBibtex(event)', 'data-bibtex' => preg_replace('/"/', "&quot;", $entry['plain'])), 'bib') . ']';
+        $bib = '[' . $this->wrap('a', array('class' => 'bib', 'onclick' => 'openBibtex(event)', 'data-target' => "bibtex-" . $bibid), 'bib') . ']';
 
         $title = "";
         foreach($entry as $key => $value) {
@@ -547,8 +547,9 @@ class Bibentries {
         }
 
         $divAttributes['class'] = "bib-entry " . $class;
+        $bibtexArea = "<textarea id='bibtex-" . $bibid . "' class='bibtex hidden' readonly>" . $entry["plain"] . "</textarea>";
 
-        echo isset($content) ? '    ' . $this->wrap('div', $divAttributes, $content . ' ' . $links) . "\n" : '';
+        echo isset($content) ? '    ' . $this->wrap('div', $divAttributes, $content . ' ' . $links . $bibtexArea) . "\n" : '';
     }
 }
 

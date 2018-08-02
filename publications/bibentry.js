@@ -1,19 +1,9 @@
-// based on https://stackoverflow.com/a/33542499
 openBibtex = function(event) {
-  const key = event.target.getAttribute("href").substring(1); // remove #
-  const bibtex = event.target.getAttribute("data-bibtex").replace(/\&quot;/g, '"');
-  const blob = new Blob([bibtex], {type: 'text/plain;charset=latin-1'});
-  if (window.navigator.msSaveOrOpenBlob) { // Internet Explorer and Edge
-    window.navigator.msSaveOrOpenBlob(blob, key + ".bib");
-  } else {
-    const dummyLink = document.createElement('a');
-    dummyLink.href = window.URL.createObjectURL(blob);
-    dummyLink.target = "_blank";
-    dummyLink.download = key + ".bib";
-    document.body.appendChild(dummyLink);
-    dummyLink.click();
-    document.body.removeChild(dummyLink);
-  }
+  const bibtexId = event.target.getAttribute("data-target");
+  const bibtex = document.getElementById(bibtexId);
+  bibtex.classList.toggle("hidden");
+  bibtex.style.height = "5px";
+  bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
 }
 
 containsQuery = function(entry, queryWords) {
