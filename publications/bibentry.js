@@ -4,6 +4,9 @@ openBibtex = function(event) {
   bibtex.classList.toggle("hidden");
   bibtex.style.height = "5px";
   bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
+  if (!bibtex.classList.contains("hidden")) {
+    bibtex.focus();
+  }
 }
 
 containsQuery = function(entry, queryWords) {
