@@ -1,7 +1,7 @@
 {
   "name": "webis.de",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "_layouts/index.html",
   "author": "Janek Bevendorff",
   "license": "MIT",
   "dependencies": {

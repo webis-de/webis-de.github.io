@@ -1,3 +1,7 @@
+---
+# Front matter to ensure Jekyll is processing the file.
+---
+
 // global variables
 $global-secondary-background: #323232;
 $global-font-family: "Assistant-web", "Helvetica Neue", sans-serif;
@@ -12,5 +16,5 @@ $section-header-text-transform: uppercase;
 @import "../node_modules/uikit/src/scss/uikit-theme";
 
 // Custom styles
-@import "fonts";
-@import "index";
+@import "../_sass/fonts";
+@import "../_sass/index";
