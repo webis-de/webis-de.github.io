@@ -194,6 +194,6 @@ description: Webis lecture notes overview
 
 <script>
     function changeStyleSheet(name) {
-        document.getElementById('lecturenotes-coursetable').setAttribute('class', name);
+        document.querySelector('#lecturenotes-coursetable > div').setAttribute('class', name);
     }
 </script>
