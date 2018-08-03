@@ -1,0 +1,11 @@
+change in src/js/config
+  staticContent: true
+  metaSlide: false
+
+run
+npm install
+npm run build
+
+copy
+app.bundle.js  -> browser.js
+app.bundle.css -> browser.css

@@ -52,16 +52,7 @@
                     </ul>
                 </li>
                 <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
-                <li class="uk-parent">
-                    <a href="#">Publications</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Selected</a></li>
-                        <li><a href="#">By Year</a></li>
-                        <li><a href="#">By Author</a></li>
-                        <li><a href="#">By Topic</a></li>
-                        <li><a href="#">By Type</a></li>
-                    </ul>
-                </li>
+                <li><a href="{{ '/publications.html' | relative_url }}">Publications</a></li>
                 <li><a href="#">Data</a></li>
                 <li><a href="#">Facilities</a></li>
                 <li><a href="#">Events</a></li>
@@ -121,16 +112,7 @@
                     <a href="{{ '/research.html' | relative_url }}">Research</a>
                 </li>
                 <li{% if page.nav_active == "publications" %} class="uk-active"{% endif %}>
-                    <a href="#">Publications</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#">Selected</a></li>
-                            <li><a href="#">By Year</a></li>
-                            <li><a href="#">By Author</a></li>
-                            <li><a href="#">By Topic</a></li>
-                            <li><a href="#">By Type</a></li>
-                        </ul>
-                    </div>
+                    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
                 </li>
             </ul>
         </div>

@@ -1,0 +1,21 @@
+---
+layout: default
+nav_active: publications
+title: Publications
+description: Publications by the Webis group
+---
+
+<section class="uk-section uk-section-default people">
+    <div class="uk-container uk-margin-medium">
+        <h2>Publications</h2>
+        <div id="search-control">
+            <input type="text" class="uk-input" id="search-field" oninput="filter()" placeholder="Type here to filter&hellip;"/>
+        </div>
+    </div>
+
+    <div class="uk-container uk-margin-medium publications-list">
+        {% include publications_bib.html %}
+    </div>
+</section>
+
+<script src="{{ '/js/bibentry.js' | relative_url }}"></script>

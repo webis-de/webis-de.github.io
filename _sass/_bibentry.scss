@@ -1,0 +1,26 @@
+.publications-list {
+    .bib-entry {
+        margin-bottom: 2ex;
+    }
+
+    .filtered, .hidden {
+        display: none;
+    }
+
+    .title, .booktitle, .series, .journal {
+        font-style: italic;
+    }
+
+    a.request {
+        @extend .uk-link-reset;
+    }
+
+    .bibtex {
+        @extend .uk-textarea;
+        @extend .uk-text-small;
+        @extend .uk-padding-small;
+        font-family: Consolas, Hack, MonacoB, monospace;
+        resize: none;
+        border: none;
+    }
+}
