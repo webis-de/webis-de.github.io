@@ -51,7 +51,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#">Research</a></li>
+                <li><a href="{{ '/lecturenotes/research.html' | relative_url }}">Research</a></li>
                 <li class="uk-parent">
                     <a href="#">Publications</a>
                     <ul class="uk-nav-sub">
@@ -117,7 +117,9 @@
                         </div>
                     </div>
                 </li>
-                <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}><a href="#">Research</a></li>
+                <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/lecturenotes/research.html' | relative_url }}">Research</a>
+                </li>
                 <li{% if page.nav_active == "publications" %} class="uk-active"{% endif %}>
                     <a href="#">Publications</a>
                     <div class="uk-navbar-dropdown">
