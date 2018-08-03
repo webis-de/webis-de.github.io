@@ -1,0 +1,199 @@
+---
+layout: default
+nav_active: lecturenotes
+title: Lecture Notes
+description: Webis lecture notes overview
+---
+
+<section class="uk-section uk-section-default people">
+    <div class="uk-container">
+        <h2>Lecturenotes Overview</h2>
+
+        <p>
+            The table below organizes our teaching material (see <a href="#copyright-notice">copyright</a>), which
+            covers relevant elements from our research areas. The cells are hyperlinked: clicking a cell will take you
+            to the course <a title="Slides" href="{{ '/lecturenotes/slides/slides.html' | relative_url }}">slides</a>. The drop-down box "Filter..."
+            highlights courses with respect to the selected criterion.
+        </p>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <div data-uk-form-custom="target: > * > span:nth-child(2)">
+            <select size="1" onkeyup="changeStyleSheet(this.options[this.selectedIndex].value)"
+                    onchange="changeStyleSheet(this.options[this.selectedIndex].value)">
+                <option value="base" selected="selected">Filter ...</option>
+                <option disabled="disabled">--</option>
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+                <option disabled="disabled">--</option>
+                <option value="buw">Bauhaus-Universit&auml;t</option>
+                <option value="ul">Leipzig University</option>
+                <option value="upb">Paderborn University&nbsp;</option>
+                <option value="upa">Passau University</option>
+            </select>
+            <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                <span data-uk-icon="cog" class="uk-text-middle"></span>&nbsp;&nbsp;
+                <span class="uk-text-middle"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="uk-container uk-margin-medium" id="lecturenotes-coursetable">
+        <div class="base">
+            <ul class="bachelor db lecturenotes-collection">
+                <li class="buw lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#databases">Datenbanken</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-databases-intro">Einf&uuml;hrung</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-conceptual-design">Konzeptueller Datenbank&shy;entwurf</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-relational-design">Logischer Datenbank&shy;entwurf
+                    mit dem rel. Modell</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-relational-calculus">Grundlagen relationaler
+                    Anfrage&shy;sprachen</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-sql">SQL</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-relational-theory">Entwurfstheorie relationaler
+                    Datenbanken</a></li>
+                <li class="part empty"><span>Physikalischer Datenbank&shy;entwurf</span></li>
+            </ul>
+
+            <ul class="bachelor web lecturenotes-collection">
+                <li class="buw upb lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#web-technology">Web-Technologie</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-web-technology-intro">Einf&uuml;hrung</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-network-protocol">Rechner&shy;kommunikation und
+                    Protokolle</a></li>
+                <li class="buw upb part"><a
+                        href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-document-languages">Dokument&shy;sprachen</a></li>
+                <li class="buw upb part"><a
+                        href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-server-technologies">Server-Technologien</a></li>
+                <li class="buw upb part"><a
+                        href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-client-technologies">Client-Technologien</a></li>
+                <li class="buw part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-webis-architectures">Architekturen und
+                    Middleware-Technologien</a></li>
+                <li class="part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-semantic-web">Semantic Web</a></li>
+            </ul>
+
+            <ul class="master ml lecturenotes-collection">
+                <li class="buw upa upb lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#machine-learning">Machine Learning</a></li>
+                <li class="buw upa upb part"><a
+                        href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-machine-learning-intro">Introduction</a></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-machine-learning-basics">Machine
+                    Learning Basics</a></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-decision-trees">Decision Trees</a></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-statistical-learning">Statistical
+                    Learning</a></li>
+                <li class="part empty"><span>Linear Models</span></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-neural-networks">Neural Networks</a>
+                </li>
+                <li class="part empty"><span>Kernel Methods</span></li>
+                <li class="part empty"><span>Learning Theory</span></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-meta-learning">Combined Models and Meta
+                    Learning</a></li>
+            </ul>
+
+            <ul class="master dm lecturenotes-collection">
+                <li class="buw upa upb lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#data-mining">Data Mining</a></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-data-mining-intro">Introduction</a></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-cluster-analysis">Cluster Analysis</a></li>
+                <li class="buw upa upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-nearest-neighbor-strategies">Nearest
+                    Neighbor Strategies</a></li>
+                <li class="part empty"><span>Latent Variables Analysis</span></li>
+                <li class="part empty"><span>Association Analysis</span></li>
+            </ul>
+
+            <ul class="master ir lecturenotes-collection">
+                <li class="buw ul lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#information-retrieval">Information
+                    Retrieval</a></li>
+                <li class="buw ul part"><a
+                        href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-information-retrieval-intro">Introduction</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-text-transformation">Text Transformation</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-indexing">Indexing</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-retrieval-models">Retrieval Models</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-users-and-queries">Users and Queries</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-result-presentation">Result Presentation</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-evaluation">Evaluation</a></li>
+                <li class="buw ul part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-acquisition">Acquisition</a></li>
+                <li class="part empty"><span>Cross-language Retrieval</span></li>
+                <li class="part empty"><span>Distributed and Parallel Retrieval</span></li>
+                <li class="part empty"><span>Multimedia Retrieval</span></li>
+                <li class="part empty"><span>Other Application Domains</span></li>
+            </ul>
+
+            <ul class="master search lecturenotes-collection">
+                <li class="buw upb lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#search">Search Algorithms</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-search-intro">Introduction</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-search-representation">Searchspace
+                    Representation</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-basic-search">Basic Search Algorithms</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-informed-search">Informed Search</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-search-theory">Search Theory</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-relaxed-models">Relaxed Models</a></li>
+                <li class="buw upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-game-playing">Game Playing</a></li>
+                <li class="part empty"><span>Search Applications</span></li>
+            </ul>
+
+            <ul class="master logics lecturenotes-collection">
+                <li class="upb lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#logics">Logik</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-logics-intro">Einf&uuml;hrung</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-propositional-logics">Aussagenlogik</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-predicate-logics">Pr&auml;dikatenlogik</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-nonclassical-logics">Nichtklassische
+                    Logiken</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-logics-extensions">Erweiterungen und
+                    Anwendungen zur Logik</a></li>
+            </ul>
+
+            <ul class="master mk lecturenotes-collection">
+                <li class="upb lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#modeling-kbs">Modellierung wissens&shy;intensiver
+                    Probleme</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-modeling-kbs-intro">Einf&uuml;hrung</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-knowledge-representation">Wissens&shy;repr&auml;sentation</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-modeling-kbs-basics">Begriffe der
+                    Modellierung</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-constraints">Modellieren mit Constraints</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-diagnosis">Diagnose</a></li>
+                <li class="upb part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-configuration">Planen und Konfigurieren</a></li>
+            </ul>
+
+            <ul class="tools lecturenotes-collection">
+                <li class="lecturenotes-collection empty"><span>Languages and Tools</span></li>
+                <li class="part empty"><span>LISP</span></li>
+                <li class="part empty"><span>LISP Applications</span></li>
+                <li class="part empty"><span>MapReduce</span></li>
+                <li class="part empty"><span>Knowledge Representation Tools</span></li>
+            </ul>
+
+            <ul class="generic lecturenotes-collection">
+                <li class="lecturenotes-collection"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#lecturenotes-generic">Lecturenotes Generic</a></li>
+                <li class="part"><a href="{{ '/lecturenotes/slides/slides.html' | relative_url }}#part-styleguide">Styleguide</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="uk-container">
+        <p id="copyright-notice" class="uk-text-muted uk-text-small">
+            &copy; Maintainers of the Lecturenotes repository and main persons in charge are
+            <a href="https://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a> and
+            <a href="http://www-old.cs.uni-paderborn.de/fachgebiete/fg-kleine-buening/personen/theodor-lettmann.html">Theo Lettmann</a>,
+            who also authored a large portion of the scripts. Our mission is to create first-class
+            teaching resources for selected basic and advanced computer science topics, while putting high emphasis on
+            both semantical and syntactical coherence. In this regard, the mathematical language is unified across all
+            units, as is the ''formalization dialectics'', but also the use of fonts, colors, and style, to mention only
+            a few aspects. <br>
+
+            Meanwhile, other computer scientists have joined the team:
+            <a href="http://www.fim.uni-passau.de/en/media-computer-science">Michael Granitzer</a> (Universit&auml;t
+            Passau) as of 2012,
+            <a href="http://halle.webis.de/">Matthias Hagen</a> (Halle University) as of 2015,
+            <a href="http://leipzig.webis.de/">Martin Potthast</a> (Leipzig University) as of 2017.
+            The Lecture notes scripts are continuously
+            <a href="http://www.uni-weimar.de/medien/webis/teaching/upload" class="uk-link-reset">improved</a>
+            and extended; the scripts are freely available and their use is encouraged&mdash;as long as they are not
+            modified and a copyright note pointing to the authors is provided. Hints regarding the improvement or the
+            use of the scripts are appreciated.</p>
+        <p class="uk-text-right uk-text-muted uk-text-small">Benno Stein and Theo Lettmann</p>
+    </div>
+</section>
+
+<script>
+    function changeStyleSheet(name) {
+        document.getElementById('lecturenotes-coursetable').setAttribute('class', name);
+    }
+</script>

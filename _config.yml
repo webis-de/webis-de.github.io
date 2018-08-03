@@ -10,8 +10,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Webis
-email: webis@listserv.uni-weimar.de
-description: Information is nothing without retrieval
 baseurl: ""
 url: "https://webis.de"
 
