@@ -12,6 +12,8 @@
 </head>
 <body class="uk-offcanvas-content">
 
+<script src="{{ '/js/uikit/uikit.min.js' | relative_url }}"></script>
+
 <div id="offcanvas-nav" class="uk-hidden@m" data-uk-offcanvas="overlay: true; flip: true;">
     <div class="uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" data-uk-close></button>
@@ -89,7 +91,7 @@
                     </div>
                 </li>
                 <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %}>
-                    <a href="#">Lecture Notes</a>
+                    <a href="{{ '/lecturenotes/overview.html' | relative_url }}">Lecture Notes</a>
                     <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                         <div class="uk-navbar-dropdown-grid" data-uk-grid>
                             <div class="uk-width-1-3">
@@ -252,7 +254,6 @@
     </div>
 </section>
 
-<script src="{{ '/js/uikit/uikit.min.js' | relative_url }}"></script>
 <script src="{{ '/js/uikit/uikit-icons.min.js' | relative_url }}"></script>
 </body>
 </html>

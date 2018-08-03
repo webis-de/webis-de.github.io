@@ -1,0 +1,37 @@
+.webis-list {
+    margin-bottom: 2rem;
+
+    .date {
+        color: #666;
+        padding-left: 12px;
+    }
+
+    .entry {
+        border-top: 1px solid $background-muted-background;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .image {
+        display: table-cell;
+        vertical-align: middle;
+        width: 120px;
+    }
+
+    .description {
+        display: table-cell;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .phone-ext {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAQAAABKmM6bAAAAAmJLR0QA75o43NsAAAAJcEhZcwAAAEgAAABIAEbJaz4AAAC0SURBVAjXY2Rg2MEgK8o496XvQ4ZfDEIMwtMY7zDc4mWc/Cv+PcNvhn8Mrxk4GFhYxBm73sW+Z2Bl+MXwgoGNQfEG0333L3EvGVl/qvQJb+L7ZXzMMITlQ+Njht8M4lOcyvYJssipvPr3lOWxwicGRoaXqqvEOZ7/fPuNwYiB5SPDb4YvDD/9jB6aFDH+YWBgYGBSYfjO8J9B7PjH6Qx/GBgYGBgYmPSnSTFwXRNK/nudAQoA5Lg70dfrWfYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMDYtMjBUMTE6Mjg6NTIrMDI6MDB0tX9bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEzLTA2LTIwVDExOjI4OjUyKzAyOjAwBejH5wAAAABJRU5ErkJggg==)
+                    no-repeat 0 50%;
+        margin-left: 1em;
+        padding-left: 11px;
+    }
+}
