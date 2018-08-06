@@ -4,7 +4,7 @@ maintenance=$(dirname $0)
 cd ${maintenance}/..
 
 # fetch dependencies
-yarn upgrade
+/usr/bin/yarn upgrade
 
 # copy over files from node_modules folder
 rsync -a --delete node_modules/uikit/src/scss/ _sass/uikit/
