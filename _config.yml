@@ -27,3 +27,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - yarn-error.log
+  - README.md

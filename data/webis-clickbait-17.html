@@ -1,0 +1,186 @@
+---
+layout: default
+nav_active: data
+title: Webis-Clickbait-17
+description: Overview of corpora that are used by the Webis research group
+---
+
+<main class="uk-section uk-section-default people">
+    <div class="uk-container">
+        <h2>Webis-Clickbait-17</h2>
+
+        <ul class="uk-list">
+            {{* Comment out sections you do not provide *}}
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#software">Software</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            {{* <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li> *}}
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h3 id="synopsis">Synopsis</h3>
+
+        <p>
+            The Webis Clickbait Corpus 2017 (Webis-Clickbait-17) comprises a total of 38,517 Twitter posts from 27 major US
+            news publishers. In addition to the posts, information about the articles linked in the posts are included. The
+            posts had been published between November 2016 and June 2017. To avoid publisher and topical biases, a maximum
+            of ten posts per day and publisher were sampled. All posts were annotated on a 4-point scale [not click baiting
+            (0.0), slightly click baiting (0.33), considerably click baiting (0.66), heavily click baiting (1.0)] by five
+            annotators from Amazon Mechanical Turk. A total of 9,276 posts are considered clickbait by the majority of
+            annotators. In terms of its size, this corpus outranges the <a
+                href="https://www.uni-weimar.de/en/media/chairs/computer-science-and-media/webis/corpora/corpus-webis-clickbait-16/">Webis
+            Clickbait Corpus 2016</a> by one order of magnitude. The corpus is divided into two logical parts, a training
+            and a test dataset. The training dataset has been released in the course of the <a
+                href="http://www.clickbait-challenge.org">Clickbait Challenge</a> and a download link is provided below. To
+            allow for an objective evaulatuion of clickbait detection systems, the test dataset is available only through
+            the Evaluation-as-a-Service platform <a href="http://www.tira.io/" target="_blank">TIRA</a> at the moment. On
+            TIRA, developers can deploy clickbait detection systems and execute them against the test dataset. The
+            performance of the submitted systems can be viewed on the <a
+                href="http://www.tira.io/task/clickbait-detection/dataset/clickbait17-test-170720/">TIRA page of the
+            Clickbait Challenge</a>.
+        </p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h3 id="download">Download</h3>
+        <p>To download the corpus use the following links:</p>
+
+        <ul>
+            <li>
+                <a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-clickbait-17/clickbait17-train-170630.zip">clickbait17-train-170630.zip</a>
+                (894 MiB, 19538 posts)
+            </li>
+            <li class="text-muted">clickbait17-test-170720.zip (892 MiB, 18979 posts, currently only accessible through <a
+                    href="http://www.tira.io/task/clickbait-detection/dataset/clickbait17-test-170720/">TIRA</a>, available
+                as download after the next clickbait challenge)
+            </li>
+        </ul>
+
+        <p>Each corpus zip file comprises the following resources:</p>
+        <ul>
+            <li><code>instances.jsonl</code>: A line delimited JSON file (JSON Lines). Each line is a JSON-Object containing
+                the information extracted for a specific post and its target article. Have a look at the <a
+                        href="clickbait17-dataset-schema.txt">dataset schema file</a> for an overview of the available
+                fields.
+            </li>
+            <li><code>truth.jsonl</code>: A line delimited JSON file. Each line is a JSON-Object containing the crowdsourced
+                clickbait judgements of a specific post. Have a look at the <a href="clickbait17-dataset-schema.txt">dataset
+                    schema file</a> for an overview of the available fields.
+            </li>
+            <li><code>media/</code>: A folder that contains all the images referenced in the instances.jsonl file.</li>
+        </ul>
+
+        <p>In addition to the corpus, we provide the original WARC archives of the articles that are linked in the
+            posts:</p>
+
+        <ul>
+            <li>
+                <a href="https://webis18.medien.uni-weimar.de/tmp/archives-clickbait17-train-170630.zip">archives-clickbait17-train-170630.zip</a>
+                (94.3 GiB)
+            </li>
+            <li class="text-muted">archives-clickbait17-test-170720.zip (available as soon as the test corpus can be
+                downloaded)
+            </li>
+        </ul>
+
+        <p>
+            The WARC archives may be used to redo the content analysis that we performed to provide information about the
+            linked articles in the corpus. Each article archive zip file comprises a folder for each post in the respective
+            corpus zip file. The folders are labeled with the id of the post they refer to. To avoid a single gigantic
+            folder, each article folder is put into a parent folder according to the last two digits of its name. Each
+            article folder contains:
+        </p>
+        <ul>
+            <li><code>original-url.txt</code> A text file that contains the url of the link that was stated in the
+                respective post.
+            </li>
+            <li><code><i>id</i>.warc</code> The WARC archive recorded when requesting the link in the respective post.</li>
+            <li><code><i>id</i>-live.png</code> A screenshot of the archived article.</li>
+            <li><code>url_<i>id</i>.html</code> The html file of the article that is contained, together with other
+                resources, also in the WARC. Note that this file might differ from the version in the WARC archive.
+            </li>
+        </ul>
+
+        <!--
+        SECTION Software
+        -->
+        <h3 id="software">Software</h3>
+
+        <p>
+            To make working with the Webis Clickbait Corpus 2017 convenient, and to allow for its validation and replication,
+            we are developing and sharing a number of software projects:
+        </p>
+
+        <ul>
+            <li><a href="https://github.com/webis-de/corpus-viewer">Corpus Viewer</a>. Our Django web service for exploring
+                corpora. For importing the Webis Clickbait Corpus 2017 into the corpus viewer, we provide an appropriate <a
+                        href="clickbait17-corpus-viewer-config.py">configuration file</a>.
+            </li>
+            <li><a href="https://github.com/webis-de/mturk-manager">MTurk Manager</a>. Our Django web service for conducting
+                sophisticated crowd sourcing tasks on Amazon Mechanical Turk. The service allows to manage projects, upload
+                batches of HITS, apply custom reviewing interfaces, and more. To make the clickbait crowd-sourcing task
+                replicable, we share the <a href="clickbait17-worker-template.html"> worker template</a> that we used to
+                instruct the workers and to display the tweets. Also shared is a <a href="clickbait17-review-template.html">reviewing
+                    template</a> that can be used to accept/reject assignments and to assess the quality of the received
+                annotations quickly.
+            </li>
+            <li><a href="https://github.com/webis-de/webis-web-archiver">Web Archiver</a>. Software for archiving web pages
+                as WARC files and reproducing them later on. This software can be used to open the WARC archives provided
+                above.
+            </li>
+        </ul>
+
+
+        <!--
+        SECTION Research
+        -->
+        <h3 id="research">Research</h3>
+
+        <p>
+            Clickbait refers to a certain kind of web content advertisement that is designed to entice its readers into
+            clicking an accompanying link. Typically, it is spread on social media in the form of short teaser messages that
+            may read like the following examples:
+        </p>
+        <ul>
+            <li>A Man Falls Down And Cries For Help Twice. The Second Time, My Jaw Drops</li>
+            <li>9 Out Of 10 Americans Are Completely Wrong About This Mind-Blowing Fact</li>
+            <li>Here’s What Actually Reduces Gun Violence</li>
+        </ul>
+        <p>
+            When reading such and similar messages, many get the distinct impression that something is odd about them;
+            something unnamed is referred to, some emotional reaction is promised, some lack of knowledge is ascribed, some
+            authority is claimed. Content publishers of all kinds discovered clickbait as an effective tool to draw
+            attention to their websites. The level of attention captured by a website determines the prize of displaying ads
+            there, whereas attention is measured in terms of unique page impressions, usually caused by clicking on a link
+            that points to a given page (often abbreviated as “clicks”). Therefore, a clickbait’s target link alongside its
+            teaser message usually redirects to the sender’s website if the reader is afar, or else to another page on the
+            same site. The content found at the linked page often encourages the reader to share it, suggesting clickbait
+            for a default message and thus spreading it virally. Clickbait on social media has been on the rise in recent
+            years, and even some news publishers have adopted this technique. These developments have caused general concern
+            among many outspoken bloggers, since clickbait threatens to clog up social media channels, and since it violates
+            journalistic codes of ethics.
+        </p>
+
+
+        <!--
+        SECTION People
+        -->
+        <h3 id="people">People</h3>
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#gollub" title="Tim Gollub">Tim Gollub</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#wiegmann" title="Matti Wiegmann">Matti Wiegmann</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+        </ul>
+        <p>Students: Kristof Komlossy, Sebstian Schuster, Erika P. Garces Fernandez.</p>
+    </div>
+</main>

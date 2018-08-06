@@ -29,6 +29,9 @@ take care of compiling them on its own.
 - `css` Main Sass file and additional CSS
 - `img/fonts/js` Image, fonts, and JavaScript files
 
+Other folders not starting with an underscore are content folders containing
+HTML content files. 
+
 ## Update Publications
 To update the publications page, change into the `_maintenance` folder and
 run

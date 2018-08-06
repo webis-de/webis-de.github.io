@@ -1,0 +1,83 @@
+---
+layout: default
+nav_active: data
+title: Corpus-Webis-Wikidiscussions-18
+description: Overview of corpora that are used by the Webis research group
+---
+
+<main class="uk-section uk-section-default people">
+    <div class="uk-container">
+        <h2>Corpus-Webis-Wikidiscussions-18</h2>
+
+        <ul class="uk-list">
+            {{* Comment out sections you do not provide *}}
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            {{*
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+            *}}
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h3 id="synopsis">Synopsis</h3>
+        <p>
+            Webis-WikiDiscussions-18 Corpus is the output of parsing the entire set of Wikipedia talk pages. The corpus
+            contains about six million discussions, consisting of about 20 million turns. The turns comprise around
+            74,000 different tags with a total of about 100,000 instances, around 7000 different shortcuts with about
+            400,000 instances, and around 51,000 different inline templates with about 3.3 million instances.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h3 id="download">Download</h3>
+        <p>To download the corpus use the following links:</p>
+        <ul>
+            <li>
+                <a href="https://webis18.medien.uni-weimar.de/data/Webis-WikiDiscussions-18-TSV.tar.gz">Webis-WikiDiscussions-18-TSV.tar.gz</a>
+                (4.4GB, 8 tables in TSV format)
+            </li>
+            {{* <li>
+                <a href="">Webis-WikiDiscussions-18-database-backup.tar.gz</a> (? GB, PostgreSQL database with indices)
+            </li> *}}
+        </ul>
+
+        <p>The database has the following structure:</p>
+        <ul>
+            <li><strong>PAGES:</strong> PAGE-ID, URL, TITLE</li>
+            <li><strong>DISCUSSIONS:</strong> DISCUSSION-ID, PAGE-ID, TITLE</li>
+            <li><strong>COMMENTS:</strong> COMMENT-ID, DISCUSSION-ID, PARENT-ID, TEXT-RAW, TEXT-CLEAN, USER</li>
+            <li><strong>TAGS:</strong> TAG-ID, COMMENT-ID, TAG-TEXT, TAG-CLASS</li>
+            <li><strong>TEMPLATES:</strong> TEMPLATE-ID, DISCUSSION-ID, TEMPLATE-TEXT</li>
+            <li><strong>SHORTCUTS:</strong> SHORTCUT-ID, COMMENT-ID, SHORTCUT-TEXT, SHORTCUT-CLASS</li>
+            <li><strong>LINKS:</strong> LINK-ID, COMMENT-ID, LINK-TEXT</li>
+            <li><strong>INLINE-TEMPLATES:</strong> IL-TEMPLATE-ID, COMMENT-ID, IL-TEMPLATE-TEXT, TYPE, DESCRIPTION</li>
+        </ul>
+
+        {{*
+        <!--
+        SECTION Research
+        -->
+        <h3 id="research">Research</h3>
+        <p></p>
+        *}}
+
+        <!--
+        SECTION People
+        -->
+        <h3 id="people">People</h3>
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#al-khatib">Khalid Al-Khatib</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#wachsmuth">Henning Wachsmuth</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#hagen">Matthias Hagen</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein">Benno Stein</a></li>
+        </ul>
+        <p>Students: Kevin Lang, Jakob Herpel.</p>
+    </div>
+</main>

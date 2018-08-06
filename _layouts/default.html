@@ -54,11 +54,21 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
-                <li><a href="{{ '/publications.html' | relative_url }}">Publications</a></li>
-                <li><a href="#">Data</a></li>
-                <li><a href="#">Facilities</a></li>
-                <li><a href="#">Events</a></li>
+                <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/research.html' | relative_url }}">Research</a>
+                </li>
+                <li{% if page.nav_active == "publications" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+                </li>
+                <li{% if page.nav_active == "data" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/data/index.html' | relative_url }}">Data</a>
+                </li>
+                <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
+                </li>
+                <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/events.html' | relative_url }}">Events</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -122,9 +132,15 @@
 
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
-                <li><a href="#">Data</a></li>
-                <li><a href="#">Facilities</a></li>
-                <li><a href="#">Events</a></li>
+                <li{% if page.nav_active == "data" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/data/index.html' | relative_url }}">Data</a>
+                </li>
+                <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
+                </li>
+                <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/events.html' | relative_url }}">Events</a>
+                </li>
             </ul>
         </div>
     </nav>
