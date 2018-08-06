@@ -9,6 +9,9 @@
     <link rel="icon" type="image/png" href="{{ '/img/favicon.png' | relative_url }}">
 
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}?9">
+    {%- for css in page.additional_css %}
+    <link rel="stylesheet" href="{{ css | relative_url }}">
+    {%- endfor %}
 </head>
 <body class="uk-offcanvas-content">
 
@@ -38,15 +41,15 @@
                         <li class="uk-parent">
                             <a href="{{ '/lecturenotes/slides.html' | relative_url }}">Slides</a>
                             <ul class="uk-nav-sub">
-                                <li><a href="http://www.webis.de/lecturenotes/browser/databases.html">Databases</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/web-technology.html">Web-Technologie</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/machine-learning.html">Machine Learning</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/data-mining.html">Data Mining</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/information-retrieval.html">Information Retrieval</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/search.html">Search Algorithms</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/logics.html">Logik</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
-                                <li><a href="http://www.webis.de/lecturenotes/browser/lecturenotes-generic.html">Lecturenotes Generic</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/databases.html' | relative_url }}">Databases</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/web-technology.html' | relative_url }}">Web-Technologie</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/machine-learning.html' | relative_url }}">Machine Learning</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/data-mining.html' | relative_url }}">Data Mining</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/information-retrieval.html' | relative_url }}">Information Retrieval</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/search.html' | relative_url }}">Search Algorithms</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/logics.html' | relative_url }}">Logik</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/modeling-foundations.html' | relative_url }}">Modellierung wissensintensiver Probleme</a></li>
+                                <li><a href="{{ '/lecturenotes/browser/lecturenotes-generic.html' | relative_url }}">Lecture Notes Generic</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -94,15 +97,15 @@
                             <div class="uk-width-2-3">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li class="uk-nav-header">Slide sets</li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/databases.html">Databases</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/web-technology.html">Web-Technologie</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/machine-learning.html">Machine Learning</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/data-mining.html">Data Mining</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/information-retrieval.html">Information Retrieval</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/search.html">Search Algorithms</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/logics.html">Logik</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
-                                    <li><a href="http://www.webis.de/lecturenotes/browser/lecturenotes-generic.html">Lecturenotes Generic</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/databases.html' | relative_url }}">Databases</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/web-technology.html' | relative_url }}">Web-Technologie</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/machine-learning.html' | relative_url }}">Machine Learning</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/data-mining.html' | relative_url }}">Data Mining</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/information-retrieval.html' | relative_url }}">Information Retrieval</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/search.html' | relative_url }}">Search Algorithms</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/logics.html' | relative_url }}">Logik</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/modeling-foundations.html' | relative_url }}">Modellierung wissensintensiver Probleme</a></li>
+                                    <li><a href="{{ '/lecturenotes/browser/lecturenotes-generic.html' | relative_url }}">Lecture Notes Generic</a></li>
                                 </ul>
                             </div>
                         </div>
