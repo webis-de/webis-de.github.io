@@ -1,0 +1,266 @@
+---
+layout: default
+nav_active: facilities
+title: Facilities
+description: Overview of the Webis facilities
+---
+
+<main class="uk-section uk-section-default people" id="lecturenotes-slides">
+    <div class="uk-container">
+        <h2>Facilities</h2>
+
+        <ul class="uk-list">
+            <li><span data-uk-icon="chevron-down"></span> <a href="#hardware">Hardware</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#software">Software</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#monitoring-and-configuration">Monitoring and
+                Configuration</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#documentation">Documentation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#website-maintenance">Website Maintenance</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Lab Space and Hardware
+        -->
+        <div id="list-hardware" class="webis-list">
+            <h3 id="hardware" class="anchor">Hardware</h3>
+
+            <div class="entry anchor" id="deltaweb">
+                <div class="image"><img src="{{ '/img/facilities/generic-cloud-logo.png' | relative_url }}" alt="Cloud"/></div>
+                <div class="description">
+                    Deltaweb Cluster
+                    <span class="date">[2018]</span><br>
+                    <a href="http://www.digital-bauhaus-lab.de" target="_blank">Digital Bauhaus Lab</a><br>
+                    Specification: 78 nodes, 1248 cores at 2.1 GHz, 10 TB RAM, 12&hairsp;480 TB HDD<br>
+                </div>
+            </div>
+
+            <div class="entry anchor" id="webis-storage-server">
+                <div class="image"><img src="{{ '/img/facilities/generic-cloud-logo.png' | relative_url }}"
+                                        alt="Cloud"/></div>
+                <div class="description">
+                    Webis storage server
+                    <span class="date">[2017]</span><br>
+                    <a href="https://www.digital-bauhaus-lab.de" target="_blank">Digital Bauhaus Lab</a><br>
+                    Specification: 1 server, 20 cores at 2.2 GHz, 0.1 TB RAM, 240 TB HDD
+                </div>
+            </div>
+
+            <div class="entry anchor" id="gammaweb">
+                <div class="image"><img src="{{ '/img/facilities/generic-cloud-logo.png' | relative_url }}" alt="Cloud"/></div>
+                <div class="description">
+                    <a href="{{ '/img/facilities/webis-cluster-2016.jpg' | relative_url }}" target="_blank">Gammaweb Cluster</a>
+                    <span class="date">[2016]</span><br>
+                    <a href="http://www.digital-bauhaus-lab.de" target="_blank">Digital Bauhaus Lab</a><br>
+                    Specification: 3 nodes, 96 cores at 2.1 GHz, 4.5 TB RAM, 22.5 TB SSD, 24 GeForce GTX 1080
+                </div>
+            </div>
+
+            <div class="entry anchor" id="betaweb">
+                <div class="image"><img src="{{ '/img/facilities/generic-cloud-logo.png' | relative_url }}" alt="Cloud"/></div>
+                <div class="description">
+                    <a href="{{ '/img/facilities/webis-cluster-2014.jpg' | relative_url }}" target="_blank">Betaweb Cluster</a>
+                    <span class="date">[2015]</span><br>
+                    <a href="http://www.digital-bauhaus-lab.de" target="_blank">Digital Bauhaus Lab</a><br>
+                    Specification: 145 nodes, 1740 cores at 2.4 GHz, 27.2 TB RAM, 4060 TB HDD<br>
+                </div>
+            </div>
+
+            <div class="entry anchor" id="alphaweb">
+                <div class="image"><img src="{{ '/img/facilities/generic-cloud-logo.png' | relative_url }}" alt="Cloud"/></div>
+                <div class="description">
+                    <a href="{{ '/img/facilities/webis-cluster-2010.jpg' | relative_url }}" target="_blank">Alphaweb Cluster</a>
+                    <span class="date">[2009]</span><br>
+                    B11 R204<br>
+                    Specification: 44 nodes, 88 cores at 1 - 2 GHz, 0.4 TB RAM, 352 TB HDD
+                </div>
+            </div>
+
+            <div class="entry anchor" id="webis-server">
+                <div class="image"><img src="{{ '/img/facilities/generic-cloud-logo.png' | relative_url }}"
+                                        alt="Cloud"/></div>
+                <div class="description">
+                    Webis rack servers
+                    <span class="date">[2009 - 2014]</span><br>
+                    B11 RK15<br>
+                    Specification: 7 servers, up to 12 cores at 2.4 GHz, 128 GB RAM, 21.6 TB HDD
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        SECTION Software
+        -->
+        <div id="list-software" class="webis-list">
+            <h3 id="software" class="anchor">Software<sup style="font-size:small;"><a href="#footnote-accessible-within-university">*</a></sup></h3>
+
+            <div class="entry anchor" id="gitlab">
+                <div class="image"><img src="{{ '/img/facilities/gitlab-logo.png' | relative_url }}" alt="GitLab" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de" target="_blank">GitLab</a><br>
+                    Internal code repository for development.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="github">
+                <div class="image"><img src="{{ '/img/facilities/github-logo.png' | relative_url }}" alt="GitHub" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://github.com/webis-de" target="_blank">GitHub</a><br>
+                    Public code repository.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="docker">
+                <div class="image"><img src="{{ '/img/facilities/docker-logo.png' | relative_url }}" alt="Docker" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://hub.docker.com/r/webis/" target="_blank">Docker</a><br>
+                    Public container repository.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="webis-cmd">
+                <div class="image"><img src="{{ '/img/facilities/generic-app-logo.png' | relative_url }}"
+                                        alt="webis-cmd" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de/code-generic/code-webis-cmd" target="_blank">Webis Command</a><br>
+                    Helper utility for automating every-day tasks in the webis group.<br>
+                    [<a href="https://git.webis.de/code-generic/code-webis-cmd" target="_blank">code</a>]
+                    [<a href="https://git.webis.de/code-generic/code-webis-cmd/blob/master/cheatsheet.txt" target="_blank">cheatsheet</a>]
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        SECTION Monitoring and Configuration
+        -->
+        <div id="list-monitoring-and-configuration" class="webis-list">
+            <h3 id="monitoring-and-configuration" class="anchor">Monitoring and Configuration<sup style="font-size:small;"><a href="#footnote-accessible-within-university">*</a></sup></h3>
+
+            <div class="entry anchor" id="betaweb-monitoring">
+                <div class="image"><img src="{{ '/img/facilities/hadoop-logo.png' | relative_url }}" alt="Betaweb Cluster" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="http://betaweb020:8088" target="_blank">Betaweb Cluster</a><br>Monitor MapReduce jobs.<br>
+                    [<a href="http://betaweb020:8088" target="_blank">tasks</a>]
+                    [<a href="http://betaweb020:50070/dfshealth.html#tab-overview" target="_blank">hdfs</a>]
+                    [<a href="http://webis16.medien.uni-weimar.de/cluster-vis" target="_blank">load</a>]
+                </div>
+            </div>
+
+            <div class="entry anchor" id="check_mk">
+                <div class="image"><img src="{{ '/img/facilities/check-mk-logo.png' | relative_url }}" alt="Check_mk"
+                                        style="height:55px;"/></div>
+                <div class="description">
+                    <a href="http://webis111.medien.uni-weimar.de/monitoring/check_mk/login.py?_username=readonly&_password=readonly&_login=1" target="_blank">Check MK</a><br>
+                    Monitoring IT infrastructure.<br>
+                    [<a href="http://webis111.medien.uni-weimar.de/monitoring/check_mk/login.py?_username=readonly&_password=readonly&_login=1" target="_blank">read-only-view</a>]
+                    [<a href="http://webis111.medien.uni-weimar.de/monitoring/check_mk/logout.py" target="_blank">login</a>]
+                    [<a href="https://git.webis.de/code-generic/code-admin-monitoring/blob/master/README.md" target="_blank">readme</a>]
+                </div>
+            </div>
+
+            <div class="entry anchor" id="chatnoir">
+                <div class="image"><img src="{{ '/img/facilities/chatnoir-logo1.png' | relative_url }}" alt="ChatNoir" style="height:100px;"/></div>
+                <div class="description">
+                    <a href="http://webis15.medien.uni-weimar.de/#status" target="_blank">ChatNoir</a><br>
+                    Dashboard and access token management.<br>
+                    [<a href="http://webis15.medien.uni-weimar.de/#status" target="_blank">dashboard</a>]
+                    [<a href="http://webis15.medien.uni-weimar.de/#tokens" target="_blank">tokengenerator</a>]
+                </div>
+            </div>
+
+            <div class="entry anchor" id="netspeak-dashboard">
+                <div class="image"><img src="{{ '/img/facilities/netspeak-logo.png' | relative_url }}" alt="Netspeak"/></div>
+                <div class="description">
+                    <a href="http://webis61.medien.uni-weimar.de/netspeak3/search?dashboard" target="_blank">Netspeak
+                        Dashboard</a><br>
+                    Dashboard showing runtime data.
+                </div>
+            </div>
+        </div>
+
+        <!--
+        SECTION Documentation
+        -->
+        <div id="list-documentation" class="webis-list">
+            <h3 id="documentation" class="anchor">Documentation<sup style="font-size:small;"><a href="#footnote-accessible-within-university">*</a></sup></h3>
+
+            <div class="entry anchor" id="introduction-to-webis">
+                <div class="image"><img src="{{ '/img/facilities/generic-people-logo.png' | relative_url }}" alt="People" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de/code-generic/code-webis-faq" target="_blank">Introduction to Webis</a><br>
+                    FAQ about working in Webis.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="git">
+                <div class="image"><img src="{{ '/img/facilities/git-logo.png' | relative_url }}" alt="Git" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de/code-generic/code-webis-cmd/wikis/git-setup"
+                       target="_blank">Git</a><br>
+                    Wiki for using our Git repository.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="thesis-notes">
+                <div class="image"><img src="{{ '/img/facilities/thesis-logo.png' | relative_url }}" alt="Graduation cap" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt"
+                       target="_blank">Thesis Notes</a><br>
+                    Notes on thesis writing.<br>
+                    [<a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt"
+                        target="_blank">notes</a>]
+                    [<a href="https://git.webis.de/code-generic/code-webis-thesis/tree/master/template" target="_blank">template</a>]
+                </div>
+            </div>
+
+            <div class="entry anchor" id="admin-notes">
+                <div class="image"><img src="{{ '/img/facilities/generic-notes-logo.png' | relative_url }}" alt="Notes"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de/code-generic/code-admin-workstations/blob/master/admin-notes.md"
+                       target="_blank">Admin Notes</a><br>
+                    Notes on hardware/software administration.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="hadoop-notes">
+                <div class="image"><img src="{{ '/img/facilities/hadoop-logo.png' | relative_url }}" alt="Hadoop" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://git.webis.de/code-generic/code-admin-clusters/blob/master/betaweb/hadoop/hadoop-notes.md"
+                       target="_blank">Hadoop Notes</a><br>
+                    Notes on Hadoop setup / configuration.<br>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        SECTION Website Maintenance
+        -->
+        <div id="list-website-maintenance" class="webis-list">
+            <h3 id="website-maintenance" class="anchor">Website Maintenance<sup style="font-size:small;"><a href="#footnote-accessible-within-university">*</a></sup></h3>
+
+            <div class="entry anchor" id="github-webis-de">
+                <div class="image"><img src="{{ '/img/facilities/github-logo.png' | relative_url }}" alt="Github" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://github.com/webis-de/webis-de.github.io" target="_blank">Website Source</a><br>
+                    The source code of this website, hosted on GitHub through GitHub Pages.
+                </div>
+            </div>
+
+            <div class="entry anchor" id="lecturenotes-upload">
+                <div class="image"><img src="{{ '/img/facilities/generic-app-logo.png' | relative_url }}" alt="App" style="height:55px;"/></div>
+                <div class="description">
+                    <a href="https://www.uni-weimar.de/medien/webis/teaching/upload/" target="_blank">Upload Lecturenotes</a><br>
+                    Updates the lecturenotes on GitHub and Gonzo.
+                </div>
+            </div>
+        </div>
+
+        <p class="uk-text-small uk-text-muted">
+            <a href="#">*</a>Most of the documents and tools on
+            this page can only be accessed from inside the university or with a registered account.</p>
+
+    </div> <!-- container -->
+</main>
