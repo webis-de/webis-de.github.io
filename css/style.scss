@@ -8,12 +8,11 @@ $global-font-family: "Assistant-web", "Helvetica Neue", sans-serif;
 $section-header-text-transform: uppercase;
 
 // default UIKit variables
-@import "../node_modules/uikit/src/scss/variables-theme";
-@import "../node_modules/uikit/src/scss/mixins-theme";
-
+@import "../_sass/uikit/variables-theme";
+@import "../_sass/uikit/mixins-theme";
 
 // UIKit main theme
-@import "../node_modules/uikit/src/scss/uikit-theme";
+@import "../_sass/uikit/uikit-theme";
 
 // Custom styles
 @import "../_sass/fonts";

@@ -1,8 +1,7 @@
-node_modules
-yarn.lock
-.sass-cache
-.idea
 *.css.map
-_site
-.sass-cache
+.idea/
+_site/
+.sass-cache/
 .jekyll-metadata
+yarn-error.log
+node_modules/

@@ -5,6 +5,10 @@
   "author": "Janek Bevendorff",
   "license": "MIT",
   "dependencies": {
-    "uikit": "^3.0.0-rc.5"
-  }
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "datatables.net-dt": "^1.10.19",
+    "jquery": "^3.3.1",
+    "uikit": "^3.0.0-rc.10"
+  },
+  "devDependencies": {}
 }
