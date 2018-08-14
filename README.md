@@ -50,7 +50,11 @@ Third-party dependencies (UIkit, jQuery, etc.) are managed via NPM/Yarn.
 Unless you want to update them or need to add new dependencies, you don't
 have to touch them.
 
-To install Yarn, run
+To install NPM, run
+
+    apt install npm
+
+If you prefer Yarn (not to be confused with Apache Yarn), run
 
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
@@ -62,6 +66,8 @@ and run
     ./update-dependencies.sh
 
 Then add, commit, and push the changed files. The script will check out the
-dependencies via `yarn` into a folder called `node_modules` and copy all the
-files needed for operating the website to `js/thirdparty`. You do not (and
-should not) add `node_modules` directly to the Git repository.
+dependencies via `yarn` or `npm` (whichever is installed) into a folder
+called `node_modules` and copy all the files needed for operating the website
+to `js/thirdparty`. You do not (and should not) add `node_modules` directly
+to the Git repository.
+

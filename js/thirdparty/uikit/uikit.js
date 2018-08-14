@@ -1,4 +1,4 @@
-/*! UIkit 3.0.0-rc.10 | http://www.getuikit.com | (c) 2014 - 2018 YOOtheme | MIT License */
+/*! UIkit 3.0.0-rc.9-dev.bd39d353 | http://www.getuikit.com | (c) 2014 - 2017 YOOtheme | MIT License */
 
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -95,11 +95,11 @@
         return isObject(obj) && !!obj.jquery;
     }
 
+    var toString = objPrototype.toString;
     function isNode(obj) {
-        return obj instanceof Node || isObject(obj) && obj.nodeType === 1;
+        return toString.call(obj) === '[object Node]' || isObject(obj) && obj.nodeType === 1;
     }
 
-    var toString = objPrototype.toString;
     function isNodeCollection(obj) {
         return toString.call(obj).match(/^\[object (NodeList|HTMLCollection)\]$/);
     }
@@ -233,17 +233,14 @@
     function noop() {}
 
     function intersectRect(r1, r2) {
-        return r1.left < r2.right &&
-            r1.right > r2.left &&
-            r1.top < r2.bottom &&
-            r1.bottom > r2.top;
+        return r1.left <= r2.right &&
+            r2.left <= r1.right &&
+            r1.top <= r2.bottom &&
+            r2.top <= r1.bottom;
     }
 
     function pointInRect(point, rect) {
-        return point.x <= r2.right &&
-            point.x >= r2.left &&
-            point.y <= r2.bottom &&
-            point.y >= r2.top;
+        return intersectRect({top: point.y, bottom: point.y, left: point.x, right: point.x}, rect);
     }
 
     var Dimensions = {
@@ -1872,19 +1869,6 @@
         return clamp(((vh + win.pageYOffset - top) / ((vh + (elHeight - (diff < vp ? diff : 0))) / 100)) / 100);
     }
 
-    function scrollTop(element, top) {
-        element = toNode(element);
-
-        if (isWindow(element) || isDocument(element)) {
-            var ref = window$1(element);
-            var scrollTo = ref.scrollTo;
-            var pageXOffset = ref.pageXOffset;
-            scrollTo(pageXOffset, top);
-        } else {
-            element.scrollTop = top;
-        }
-    }
-
     function offsetPosition(element) {
         var offset = [0, 0];
 
@@ -2569,7 +2553,6 @@
         flipPosition: flipPosition,
         isInView: isInView,
         scrolledOver: scrolledOver,
-        scrollTop: scrollTop,
         isReady: isReady,
         ready: ready,
         index: index,
@@ -5276,7 +5259,7 @@
 
                 // IE 11 fix (min-height on a flex container won't apply to its flex items)
                 var height$$1;
-                if (/* isIE && */(height$$1 = Math.round(toFloat(css(this.$el, 'minHeight')))) >= offsetHeight(this.$el)) {
+                if (/*isIE && */(height$$1 = Math.round(toFloat(css(this.$el, 'minHeight')))) >= offsetHeight(this.$el)) {
                     css(this.$el, 'height', height$$1);
                 }
 
@@ -7056,7 +7039,7 @@
 
                     var currentY = startY + (target - startY) * ease(clamp((Date.now() - start) / this$1.duration));
 
-                    scrollTop(window, currentY);
+                    window.scroll(window.pageXOffset, currentY);
 
                     // scroll more if we have not reached our destination
                     if (currentY !== target) {
@@ -7469,7 +7452,7 @@
                             var elHeight = this$1.$el.offsetHeight;
 
                             if (this$1.isActive && elTop + elHeight >= top && elTop <= top + target.offsetHeight) {
-                                scrollTop(window, top - elHeight - (isNumeric(this$1.targetOffset) ? this$1.targetOffset : 0) - this$1.offset);
+                                window.scroll(0, top - elHeight - (isNumeric(this$1.targetOffset) ? this$1.targetOffset : 0) - this$1.offset);
                             }
 
                         });
@@ -8027,7 +8010,7 @@
 
     }
 
-    UIkit.version = '3.0.0-rc.10';
+    UIkit.version = '3.0.0-rc.9-dev.bd39d353';
 
     core(UIkit);
 
@@ -8282,7 +8265,7 @@
                 addClass(this.target, targetClass);
                 children.forEach(function (el, i) { return propsFrom[i] && css(el, propsFrom[i]); });
                 css(this.target, 'height', oldHeight);
-                scrollTop(window, oldScrollY);
+                window.scroll(window.pageXOffset, oldScrollY);
 
                 return Promise.all(children.map(function (el, i) { return propsFrom[i] && propsTo[i]
                         ? Transition.start(el, propsTo[i], this$1.animation, 'ease')
@@ -11278,7 +11261,7 @@
                     scroll = this.scrollY + 5;
                 }
 
-                scroll && setTimeout(function () { return scrollTop(window, scroll); }, 5);
+                scroll && setTimeout(function () { return window.scroll(window.pageXOffset, scroll); }, 5);
             }
 
         },

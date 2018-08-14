@@ -1,4 +1,4 @@
-/*! UIkit 3.0.0-rc.10 | http://www.getuikit.com | (c) 2014 - 2018 YOOtheme | MIT License */
+/*! UIkit 3.0.0-rc.9-dev.bd39d353 | http://www.getuikit.com | (c) 2014 - 2017 YOOtheme | MIT License */
 
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('uikit-util')) :
@@ -87,7 +87,7 @@
                 uikitUtil.addClass(this.target, targetClass);
                 children.forEach(function (el, i) { return propsFrom[i] && uikitUtil.css(el, propsFrom[i]); });
                 uikitUtil.css(this.target, 'height', oldHeight);
-                uikitUtil.scrollTop(window, oldScrollY);
+                window.scroll(window.pageXOffset, oldScrollY);
 
                 return uikitUtil.Promise.all(children.map(function (el, i) { return propsFrom[i] && propsTo[i]
                         ? uikitUtil.Transition.start(el, propsTo[i], this$1.animation, 'ease')
@@ -241,7 +241,7 @@
                     scroll = this.scrollY + 5;
                 }
 
-                scroll && setTimeout(function () { return uikitUtil.scrollTop(window, scroll); }, 5);
+                scroll && setTimeout(function () { return window.scroll(window.pageXOffset, scroll); }, 5);
             }
 
         },
