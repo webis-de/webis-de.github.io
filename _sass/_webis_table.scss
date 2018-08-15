@@ -25,6 +25,16 @@
         display: inline-block;
         height: 16px;
         width: 16px;
+        @extend .uk-link-reset;
+    }
+
+    .browser-icon {
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAABcSAAAXEgFnn9JSAAAAB3RJTUUH4QwUDgUAfK6WAQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAGvSURBVCjPTZI7a1RRFIW/fc6+c/GVBIfEOOhf0MY6ipBCUCwsY2El+Eu0sLYQLESMChaCFikEwc4m5B8oyTijecfH3Ln3nrO3xUXIKlex+PhY8uDh+6CxEIDkRKFLco6XTZtVNF5ZubGyaIK/GYalPqe19ly8HMX7F+s6y7vt3vUFf/xkTXH2/rA29DLY7l/7YrSu0f1wkj6MwzQzrtInYnYUWCi5Nchg+0281s9nNAfTp024M6g98Wpc3pxv1oUAiEBwxEUQcAHJAPjEJDuV46DA1oTn3yIev1cctCqi5uw0PNs8USU5av31jzIZClw4xd1FF/fVoSz182zMZvJiVNwb1E3m7c9y+dz0UUABM0RAEAjiGjD37AQhuTgEETqA5Bw0HqB1meRgDubm7LSyXcepyagJ3hn41fJ5TxQ/bP3rREZTnY1UmfUjHU7DXsPGb83dar/k9vmE2+pWcXnGLs2kkx42q2K5X29Nw8fd8upcs9HJcgdTXHHJFs5GlagOUeK8ShmY0/+sFHgRBaEXizKNLQrSK7XWPG5iFYp9MiDdXfT4XRwggwrmWKci5X+mHea7URzuOwAAAABJRU5ErkJggg==')
+                    no-repeat;
+        display: inline-block;
+        height: 14px;
+        width: 16px;
+        margin-left: 10px;
     }
 
     .deprecated, .empty {
@@ -40,19 +50,13 @@
         }
     }
 
+    td.links a {
+        @extend .uk-link-reset;
+    }
+
     tr.empty {
          background: none !important;
      }
-
-    .browser-icon {
-        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAABcSAAAXEgFnn9JSAAAAB3RJTUUH4QwUDgUAfK6WAQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAGvSURBVCjPTZI7a1RRFIW/fc6+c/GVBIfEOOhf0MY6ipBCUCwsY2El+Eu0sLYQLESMChaCFikEwc4m5B8oyTijecfH3Ln3nrO3xUXIKlex+PhY8uDh+6CxEIDkRKFLco6XTZtVNF5ZubGyaIK/GYalPqe19ly8HMX7F+s6y7vt3vUFf/xkTXH2/rA29DLY7l/7YrSu0f1wkj6MwzQzrtInYnYUWCi5Nchg+0281s9nNAfTp024M6g98Wpc3pxv1oUAiEBwxEUQcAHJAPjEJDuV46DA1oTn3yIev1cctCqi5uw0PNs8USU5av31jzIZClw4xd1FF/fVoSz182zMZvJiVNwb1E3m7c9y+dz0UUABM0RAEAjiGjD37AQhuTgEETqA5Bw0HqB1meRgDubm7LSyXcepyagJ3hn41fJ5TxQ/bP3rREZTnY1UmfUjHU7DXsPGb83dar/k9vmE2+pWcXnGLs2kkx42q2K5X29Nw8fd8upcs9HJcgdTXHHJFs5GlagOUeK8ShmY0/+sFHgRBaEXizKNLQrSK7XWPG5iFYp9MiDdXfT4XRwggwrmWKci5X+mHea7URzuOwAAAABJRU5ErkJggg==')
-                    no-repeat;
-        display: inline-block;
-        display: -moz-inline-block;
-        height: 14px;
-        width: 14px;
-        margin-left: 10px;
-    }
 
     .anchor {
         @extend .uk-margin-top;
