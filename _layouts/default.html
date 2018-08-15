@@ -23,7 +23,7 @@
 
         <nav class="uk-margin-large-top">
             <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
-                <li class="uk-parent">
+                <li{% if page.nav_active == "people" %} class="uk-active"{% endif %} class="uk-parent">
                     <a href="#">People</a>
                     <ul class="uk-nav-sub">
                         <li><a href="http://halle.webis.de/">Matthias Hagen
@@ -34,7 +34,7 @@
                             <span class="people-university">&bullet; Bauhaus-Universität Weimar</span></a></li>
                     </ul>
                 </li>
-                <li class="uk-parent">
+                <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %} class="uk-parent">
                     <a href="#">Lecture Notes</a>
                     <ul class="uk-nav-sub">
                         <li><a href="{{ '/lecturenotes/overview.html' | relative_url }}">Overview</a></li>
@@ -81,7 +81,7 @@
                 <li{% if page.nav_active == "index" %} class="uk-active"{% endif %}>
                     <a href="{{ '/' | relative_url }}"><img src="{{ '/img/webis-logo.png' | relative_url }}" alt="Webis Logo" class="uk-logo"> Webis.de</a>
                 </li>
-                <li>
+                <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
                     <a href="#">People</a>
                     <div class="uk-navbar-dropdown uk-width-large">
                         <ul class="uk-nav uk-navbar-dropdown-nav">

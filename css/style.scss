@@ -3,10 +3,7 @@
 ---
 
 // global variables
-$global-secondary-background: #323232;
-$global-font-family: "Assistant-web", "Helvetica Neue", sans-serif;
-$section-header-text-transform: uppercase;
-$table-small-cell-padding-vertical: 4px;
+@import "../_sass/variables";
 
 // default UIKit variables
 @import "../_sass/uikit/variables-theme";
@@ -17,7 +14,7 @@ $table-small-cell-padding-vertical: 4px;
 
 // Custom styles
 @import "../_sass/fonts";
-@import "../_sass/index";
+@import "../_sass/main";
 @import "../_sass/webis_list";
 @import "../_sass/webis_table";
 @import "../_sass/lecturenotes_overview";
