@@ -29,3 +29,6 @@ exclude:
   - node_modules
   - yarn-error.log
   - README.md
+
+plugins:
+  - jekyll-sitemap

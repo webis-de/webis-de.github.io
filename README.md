@@ -5,7 +5,7 @@ The website is built using [Jekyll](https://jekyllrb.com/docs/).
 To install Jekyll, run
 
     sudo apt install ruby ruby-dev build-essential
-    sudo gem install jekyll
+    sudo gem install jekyll jekyll-sitemap
 
 Once Jekyll is installed, you can `cd` into the main folder of this repository
 and run
