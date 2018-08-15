@@ -1,23 +1,16 @@
 #!/usr/bin/env bash
 
-maintenance=$(dirname $0)
+maintenance=$(realpath $(dirname $0))
 cd ${maintenance}/..
 
-# find out which command to use
-if [ -x /usr/bin/yarn ]; then
-    # use absolute path to avoid clashes with Apache Yarn
-    # which may be somewhere on the path, but hopefully
-    # not in /usr/bin
-    CMD=/usr/bin/yarn
-elif command -v npm > /dev/null; then
-    CMD=npm
-else
-    echo "Neither Yarn nor NPM are installed." >&2
+if ! command -v npm > /dev/null; then
+    echo "NPM not installed. Please install it via" >&2
+    echo "    sudo apt install npm" >&2
     exit 1
 fi
 
 # fetch dependencies
-$CMD upgrade
+npm upgrade
 
 # copy over files from node_modules folder
 rsync -a --delete node_modules/uikit/src/scss/ _sass/uikit/

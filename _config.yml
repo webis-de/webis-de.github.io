@@ -22,12 +22,10 @@ sass:
 
 # Exclude from processing.
 exclude:
-  - yarn.lock
   - package.json
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - yarn-error.log
   - README.md
 
 plugins:

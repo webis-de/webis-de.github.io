@@ -81,27 +81,19 @@ that the `php` command could not be found, install it via
 and run the script again.
 
 ## Update Third-party Dependencies
-Third-party dependencies (UIkit, jQuery, etc.) are managed via NPM/Yarn.
-Unless you want to update them or need to add new dependencies, you don't
-have to touch them.
+Third-party dependencies (UIkit, jQuery, etc.) are managed via NPM.
+Unless you want to update those or need to add new dependencies, you don't
+have to touch anything here.
 
-To install NPM, run
+In any other case, install NPM via
 
-    apt install npm
+    sudo apt install npm
 
-If you prefer Yarn (not to be confused with Apache Yarn), run
+Once the installation has finished, run
 
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-    sudo apt update && sudo apt install yarn
-
-Once the installation has finished, change into the `_maintenance` folder
-and run
-
-    ./update-dependencies.sh
+    ./_maintenance/update-dependencies.sh
 
 Then add, commit, and push the changed files. The script will check out the
-dependencies via `yarn` or `npm` (whichever is installed) into a folder
-called `node_modules` and copy all the files needed for operating the website
-to `js/thirdparty` and `_sass/uikit`. Please do not add `node_modules` directly
-to the Git repository.
+dependencies via `npm` into a folder called `node_modules` and copy all the files
+needed for operating the website to `js/thirdparty` and `_sass/uikit`. Please do not
+add `node_modules` directly to the Git repository.
