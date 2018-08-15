@@ -12,7 +12,7 @@ and run
 
     jekyll serve
 
-This will start a server at [http://localhost:4000/]() serving the compiled
+This will start a server at <http://localhost:4000/> serving the compiled
 website. If the source files change, the server will automatically recompile
 them. The server can be stopped via `Ctrl+C`.
 
