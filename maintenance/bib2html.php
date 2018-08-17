@@ -117,6 +117,9 @@ foreach($bibentries->entries as $key => $entry){
 }
 echo <<<END
 </div>
+<div id="filtered-all-message" class="hidden">
+None of our publications match your filter.
+</div>
 </div>
 </div>
 </div>

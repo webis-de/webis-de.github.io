@@ -1,22 +1,20 @@
-/* DATE. September 3rd, 2013. */
-
 #bib .bib-entry {
-  margin-bottom:2ex;
+  margin-bottom: 2ex;
 }
 #bib .bib-entry.filtered, #bib .year-entry.filtered {
   display: none;
 }
 
 #bib .inproceedings .booktitle, #bib .inproceedings .series, #bib .article .journal, #bib .book .title, #bib .incollection .booktitle, #bib .proceedings .title, #bib .phdthesis .title, #bib .inbook .title {
-  font-style:italic;
+  font-style: italic;
 }
 
 #bib a:link, #bib a:visited {
-  color:#003399;
-  text-decoration:none;
+  color: #003399;
+  text-decoration: none;
 }
 #bib a:link.request, #bib a:visited.request {
-  color:gray !important;
+  color: gray !important;
 }
 
 #bib a:hover {
@@ -34,6 +32,13 @@
 }
 
 #bib textarea.bibtex.hidden {
+  display: none;
+}
+
+#filtered-all-message {
+  margin-top: 10px;
+}
+#filtered-all-message.hidden {
   display: none;
 }
 
