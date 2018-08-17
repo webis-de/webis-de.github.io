@@ -16,9 +16,26 @@ foreach($argv as $bib_file) {
 // sort
 uksort($bibentries->entries, 'compare_keys');
 function compare_keys($key1, $key2) {
-    $year1 = substr($key1, strpos($key1, ":") + 1);
-    $year2 = substr($key2, strpos($key2, ":") + 1);
-    return -strcmp($year1, $year2);
+    global $bibentries;
+    $year1 = substr($key1, strpos($key1, ":") + 1, 4);
+    $year2 = substr($key2, strpos($key2, ":") + 1, 4);
+
+    if ($year1 != $year2) {
+        return -strcmp($year1, $year2);
+    } else {
+        $entry2 = $bibentries->entries[$key2];
+        if (!isset($entry2['month'])) {
+          return 1;
+        }
+        $entry1 = $bibentries->entries[$key1];
+        if (!isset($entry1['month'])) {
+          return -1;
+        }
+
+        $month1 = array_search($entry1['month'], array_keys(Bibentries::$month_names));
+        $month2 = array_search($entry2['month'], array_keys(Bibentries::$month_names));
+        return strcmp($month2, $month1);
+    }
 }
 
 
@@ -405,7 +422,7 @@ class Bibentries {
 
         // check for inbook, because inbook entries have a title, but the paper link should be in the chapter part
         if(isset($href) && $class != "inbook") {
-            $title = $this->wrap('a', array('href' => $href, 'class' => $linkclass), $title);
+            $title = $this->wrap('a', array('href' => $href, 'class' => $linkclass, 'target' => 'blank'), $title);
         }
 
         $date = (isset($month) ? $month . ' ' : '') . $year;
