@@ -1,6 +1,7 @@
 change in src/js/config
   staticContent: true
   metaSlide: false
+  highlightColor: '#ffd'
 
 run
 npm install
