@@ -4,9 +4,11 @@ change in src/js/config
   highlightColor: '#ffd'
 
 run
-npm install
-npm run build
+  npm install -g parcel-bundler
+  npm install
+  npm run build
 
 copy
-app.bundle.js  -> browser.js
-app.bundle.css -> browser.css
+  app.*.js  -> browser.js
+  slidehub.*.css -> browser.css
+rename in index.html accordingly
