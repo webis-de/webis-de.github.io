@@ -1,0 +1,25 @@
+---
+layout: default
+nav_active: publications
+title: Publications
+description: Publications by the Webis group
+---
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container uk-margin-medium">
+        <h1>Publications</h1>
+        <div id="search-control">
+            <input type="text" class="uk-input" id="bib-filter-field" placeholder="Type here to filter&hellip;"/>
+        </div>
+    </div>
+
+    <div class="uk-container uk-margin-medium publications-list">
+        {% include publications_bib.html %}
+
+        <div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+            None of our publications match your filter.
+        </div>
+    </div>
+</main>
+
+<script src="{{ '/js/bibentry.js' | relative_url }}?{{site.time | date: '%s'}}"></script>

@@ -12,12 +12,8 @@
   color: #868e96;
 }
 
-.slidehub-container {
-  margin-top: 50px;
-}
-
 /* in case alternate texts are shown */
-.page img {
+.sh-page img {
   overflow: hidden;
   white-space: nowrap;
 }

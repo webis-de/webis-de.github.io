@@ -1,244 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+nav_active: lecturenotes
+title: Lecture Notes Generic
+description: SlideHub is a presentation/slide/talk explorer
+additional_css: [ '/lecturenotes/browser/browser.css', '/lecturenotes/browser/browser-compatibility.css' ]
+---
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="SlideHub is a presentation/slide/talk explorer">
-<title>Lecturenotes Generic</title>
-<link rel="stylesheet" href="../../css/webis.css" type="text/css">
-<link rel="stylesheet" href="browser.css">
-<link rel="stylesheet" href="browser-compatibility.css">
-<script src="browser.js"></script>
-</head>
+<script src="{{ '/lecturenotes/browser/browser.js' | relative_url }}"></script>
 
-
-<body>
-<!-- header start -->
-<!-- Our scripts rely on the header start and end comments to be there and on an line on their own, so never change them! -->
-<!--
-  For our maintenance scripts, the following has to hold:
-    - All <li> and <a> that can receive bootstrap's active class need to have
-      - An ID "nav-item-..." where "..." is the "-"-separated list of directories in which the respective HTML file resides
-      - At least one class that is defined after the ID
-    - The <li> of index.html has to have the ID "nav-item-home" 
--->
-<div id="header-container" class="container">
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-<a class="navbar-brand" href="../../index.html"><img src="../../img/webis-logo_w27.png" /><span class="ml-3">Webis</span></a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbar">
-  <ul class="navbar-nav mr-auto">
-    <li id="nav-item-people" class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
-      <ul class="dropdown-menu">
-        <li><a id="nav-item-people-hagen" class="dropdown-item" href="http://halle.webis.de">Matthias Hagen (Halle University)</a></li>
-        <li><a id="nav-item-people-potthast" class="dropdown-item" href="http://leipzig.webis.de">Martin Potthast (Leipzig University)</a></li>
-        <li><a id="nav-item-people-stein" class="dropdown-item" href="http://weimar.webis.de">Benno Stein (Bauhaus-Universität Weimar)</a></li>
-      </ul>
-    </li>
-    <li id="nav-item-lecturenotes" class="nav-item dropdown first-in-nav-group active">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lecturenotes</a>
-      <ul class="dropdown-menu">
-        <li><a id="nav-item-lecturenotes-overview" class="dropdown-item" href="../overview/overview.html">Overview</a></li>
-        <li><a id="nav-item-lecturenotes-slides" class="dropdown-item" href="../slides/slides.html">Slides</a></li>
-        <li>
-          <a id="nav-item-lecturenotes-browser" class="dropdown-item dropdown-toggle active" href="#">Browser</a>
-          <ul class="dropdown-menu">
-            <li><a id="nav-item-lecturenotes-browser-databases" class="dropdown-item" href="../browser/databases.html">Datenbanken</a></li>
-            <li><a id="nav-item-lecturenotes-browser-web-technology" class="dropdown-item" href="../browser/web-technology.html">Web-Technologie</a></li>
-            <li><a id="nav-item-lecturenotes-browser-machine-learning" class="dropdown-item" href="../browser/machine-learning.html">Machine Learning</a></li>
-            <li><a id="nav-item-lecturenotes-browser-data-mining" class="dropdown-item" href="../browser/data-mining.html">Data Mining</a></li>
-            <li><a id="nav-item-lecturenotes-browser-information-retrieval" class="dropdown-item" href="../browser/information-retrieval.html">Information Retrieval</a></li>
-            <li><a id="nav-item-lecturenotes-browser-search" class="dropdown-item" href="../browser/search.html">Search Algorithms</a></li>
-            <li><a id="nav-item-lecturenotes-browser-logics" class="dropdown-item" href="../browser/logics.html">Logik</a></li>
-            <li><a id="nav-item-lecturenotes-browser-modeling-foundations" class="dropdown-item" href="../browser/modeling-foundations.html">Modellierung wissensintensiver Probleme</a></li>
-            <li><a id="nav-item-lecturenotes-browser-lecturenotes-generic" class="dropdown-item active" href="#">Lecturenotes Generic</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li id="nav-item-research" class="nav-item">
-      <a class="nav-link" href="../../research/research.html">Research</a>
-    </li>
-    <li id="nav-item-publications" class="nav-item">
-      <a class="nav-link" href="../../publications/publications.html">Publications</a>
-    </li>
-    <li id="nav-item-data" class="nav-item first-in-nav-group">
-      <a class="nav-link" href="../../data/data.html">Data</a>
-    </li>
-    <li id="nav-item-facilities" class="nav-item">
-      <a class="nav-link" href="../../facilities/facilities.html">Facilities</a>
-    </li>
-    <li id="nav-item-events" class="nav-item">
-      <a class="nav-link" href="../../events/events.html">Events</a>
-    </li>
-  </ul>
-</div>
-</nav>
-</div>
-<!-- header end -->
-
-<main class="main-content" id="main-content" data-slidehub="">
+<main class="uk-margin-medium" data-slidehub="">
 <!-- SlideHub will hook itself as a child element into [data-slidehub] -->
 <div class="slidehub-container">
 
 <!-- units start -->
-<div class="doc" id="unit-en-styleguide.pdf" data-doc-source="https://github.com/webis-de/webis-de.github.io/releases/download/lecturenotes/unit-en-styleguide.pdf" style="--pages: 18"><div class="doc-scrollbox"><div class="page-container">
-  <div class="page" data-image-git-sha="4d32423d77fc797f438a59d6fc45a8a5cc7fbaa3" data-page="1"><img alt="Chapter I:I I. Style Guide" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-1.png"></div>
-  <div class="page" data-image-git-sha="ad45bc62da0ddb42acae6117a40262b4324b2eda" data-page="2"><img alt="Generic Hints Our Commandments" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-2.png"></div>
-  <div class="page" data-image-git-sha="c2e5e269d3376ffa3861e22f70d5cb4633b7d374" data-page="3"><img alt="Generic Hints Our Philosophy of Writing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-3.png"></div>
-  <div class="page" data-image-git-sha="e23ce2a482cdfab373c4b8b6ad8d124b030c143d" data-page="4"><img alt="Mathematical Notation Wolfram Style" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-4.png"></div>
-  <div class="page" data-image-git-sha="265d95d4b3966a52178b19387ffe9bb315ea829d" data-page="5"><img alt="Mathematical Notation Environment Numbering" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-5.png"></div>
-  <div class="page" data-image-git-sha="f365312cfbf909e16eafcab2662ff4171846cb42" data-page="6"><img alt="Style Guide Latex Standard Slide" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-6.png"></div>
-  <div class="page" data-image-git-sha="5abac5390b4c65362a5d328720374e60723cee9c" data-page="7"><img alt="Style Guide Latex " src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-7.png"></div>
-  <div class="page" data-image-git-sha="eadbaba54ea46431cb3c6d36e34f81a12b42f337" data-page="8"><img alt="Style Guide Latex Two Columns" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-8.png"></div>
-  <div class="page" data-image-git-sha="f8edfddde4b94d0ed8b461f44df9321730b50b08" data-page="9"><img alt="Style Guide Latex Remarks Slide" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-9.png"></div>
-  <div class="page" data-image-git-sha="82c0017f6fee7b415a5cc0ff4fa9d907c4b20619" data-page="10"><img alt="Style Guide Latex Lists" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-10.png"></div>
-  <div class="page" data-image-git-sha="ef3296f4006ea93b0e6363cccd6272330f887eba" data-page="11"><img alt="Style Guide Latex Tables" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-11.png"></div>
-  <div class="page" data-image-git-sha="e93fa3c7118e2537ad6e99d6a5b3df109d185b3e" data-page="12"><img alt="Style Guide Latex Program Code" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-12.png"></div>
-  <div class="page" data-image-git-sha="8e1782e93b600d23b6bb7dc11a13550b964f5516" data-page="13"><img alt="Style Guide Latex Links, Hyperrefs, URLs, References, Quotes" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-13.png"></div>
-  <div class="page" data-image-git-sha="71a4a57e849345fbb160c5fdb24bf45d98391276" data-page="14"><img alt="Style Guide Latex Comments" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-14.png"></div>
-  <div class="page" data-image-git-sha="55f4ba553786d7ac4fbeba6dcad07fb9718b6b16" data-page="15"><img alt="Style Guide Latex Other Latex Hints" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-15.png"></div>
-  <div class="page" data-image-git-sha="73bcaab53a05b43bc82b61b40077ce5bd210925c" data-page="16"><img alt="Style Guide Figures Adobe Illustrator: Basics" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-16.png"></div>
-  <div class="page" data-image-git-sha="75014b24fe6a123ef8e98cca2827f059efcd0976" data-page="17"><img alt="Style Guide Figures Adobe Illustrator: Program Code" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-17.png"></div>
-  <div class="page" data-image-git-sha="6f91532296cc2362a4d51cdfbbc97baa1949d8ba" data-page="18"><img alt="Style Guide Figures Gimp" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-18.png"></div>
+<div class="sh-doc" id="unit-en-styleguide.pdf" data-doc-source="https://github.com/webis-de/webis-de.github.io/releases/download/lecturenotes/unit-en-styleguide.pdf" style="--sh-pages: 18"><div class="sh-doc-scrollbox"><div class="sh-page-container">
+  <div class="sh-page" data-image-git-sha="4d32423d77fc797f438a59d6fc45a8a5cc7fbaa3" data-page="1"><img alt="Chapter I:I I. Style Guide" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-1.png"></div>
+  <div class="sh-page" data-image-git-sha="ad45bc62da0ddb42acae6117a40262b4324b2eda" data-page="2"><img alt="Generic Hints Our Commandments" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-2.png"></div>
+  <div class="sh-page" data-image-git-sha="c2e5e269d3376ffa3861e22f70d5cb4633b7d374" data-page="3"><img alt="Generic Hints Our Philosophy of Writing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-3.png"></div>
+  <div class="sh-page" data-image-git-sha="e23ce2a482cdfab373c4b8b6ad8d124b030c143d" data-page="4"><img alt="Mathematical Notation Wolfram Style" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-4.png"></div>
+  <div class="sh-page" data-image-git-sha="265d95d4b3966a52178b19387ffe9bb315ea829d" data-page="5"><img alt="Mathematical Notation Environment Numbering" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-5.png"></div>
+  <div class="sh-page" data-image-git-sha="f365312cfbf909e16eafcab2662ff4171846cb42" data-page="6"><img alt="Style Guide Latex Standard Slide" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-6.png"></div>
+  <div class="sh-page" data-image-git-sha="5abac5390b4c65362a5d328720374e60723cee9c" data-page="7"><img alt="Style Guide Latex " src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-7.png"></div>
+  <div class="sh-page" data-image-git-sha="eadbaba54ea46431cb3c6d36e34f81a12b42f337" data-page="8"><img alt="Style Guide Latex Two Columns" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-8.png"></div>
+  <div class="sh-page" data-image-git-sha="f8edfddde4b94d0ed8b461f44df9321730b50b08" data-page="9"><img alt="Style Guide Latex Remarks Slide" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-9.png"></div>
+  <div class="sh-page" data-image-git-sha="82c0017f6fee7b415a5cc0ff4fa9d907c4b20619" data-page="10"><img alt="Style Guide Latex Lists" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-10.png"></div>
+  <div class="sh-page" data-image-git-sha="ef3296f4006ea93b0e6363cccd6272330f887eba" data-page="11"><img alt="Style Guide Latex Tables" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-11.png"></div>
+  <div class="sh-page" data-image-git-sha="e93fa3c7118e2537ad6e99d6a5b3df109d185b3e" data-page="12"><img alt="Style Guide Latex Program Code" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-12.png"></div>
+  <div class="sh-page" data-image-git-sha="8e1782e93b600d23b6bb7dc11a13550b964f5516" data-page="13"><img alt="Style Guide Latex Links, Hyperrefs, URLs, References, Quotes" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-13.png"></div>
+  <div class="sh-page" data-image-git-sha="71a4a57e849345fbb160c5fdb24bf45d98391276" data-page="14"><img alt="Style Guide Latex Comments" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-14.png"></div>
+  <div class="sh-page" data-image-git-sha="55f4ba553786d7ac4fbeba6dcad07fb9718b6b16" data-page="15"><img alt="Style Guide Latex Other Latex Hints" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-15.png"></div>
+  <div class="sh-page" data-image-git-sha="73bcaab53a05b43bc82b61b40077ce5bd210925c" data-page="16"><img alt="Style Guide Figures Adobe Illustrator: Basics" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-16.png"></div>
+  <div class="sh-page" data-image-git-sha="75014b24fe6a123ef8e98cca2827f059efcd0976" data-page="17"><img alt="Style Guide Figures Adobe Illustrator: Program Code" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-17.png"></div>
+  <div class="sh-page" data-image-git-sha="6f91532296cc2362a4d51cdfbbc97baa1949d8ba" data-page="18"><img alt="Style Guide Figures Gimp" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styleguide/unit-en-styleguide-18.png"></div>
   <div class="page dummy-page" aria-hidden="true" style="visibility: hidden;"></div>
 </div></div></div>
-<div class="doc" id="unit-en-styletest.pdf" data-doc-source="https://github.com/webis-de/webis-de.github.io/releases/download/lecturenotes/unit-en-styletest.pdf" style="--pages: 17"><div class="doc-scrollbox"><div class="page-container">
-  <div class="page" data-image-git-sha="228e014314a2c3a50573ffa1f8dd8f9eba8cd47f" data-page="1"><img alt="Chapter I:I " src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-1.png"></div>
-  <div class="page" data-image-git-sha="6b5db4584c6869730e8b17eefcb214fcd3ae6eef" data-page="2"><img alt="Style Test Sizes" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-2.png"></div>
-  <div class="page" data-image-git-sha="8b92f17ccd897db0fe0aa3b3cddc031e31ee9814" data-page="3"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-3.png"></div>
-  <div class="page" data-image-git-sha="f86abbbfc2566c5c946b3fdae2db57c58068d8e1" data-page="4"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-4.png"></div>
-  <div class="page" data-image-git-sha="62fd2de914754fc06fe37eb8a0bccfdc84900e5d" data-page="5"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-5.png"></div>
-  <div class="page" data-image-git-sha="bc3b8fc0cd95f136e643c0f8cf87a698bf08e298" data-page="6"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-6.png"></div>
-  <div class="page" data-image-git-sha="d9600ba6a03d67afc31efe0c82ad3d6785dcbec2" data-page="7"><img alt="Style Test Skips: normalsize" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-7.png"></div>
-  <div class="page" data-image-git-sha="bc1553fb518505bc927feceb1024335d47a50b13" data-page="8"><img alt="Style Test Skips: small" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-8.png"></div>
-  <div class="page" data-image-git-sha="5b4fc2784e7e8a16189adc3097ec63aa25861869" data-page="9"><img alt="Style Test Fonts" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-9.png"></div>
-  <div class="page" data-image-git-sha="c7816536792ee467b3f6e1b3bd9d978f049ca612" data-page="10"><img alt="Style Test Figures" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-10.png"></div>
-  <div class="page" data-image-git-sha="6e6b4bb00f8828cb3498da17d5f785bc791a69b9" data-page="11"><img alt="Style Test Environments: Verbatim" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-11.png"></div>
-  <div class="page" data-image-git-sha="abdf54bbf74b69df466429f7aa1e8da37017fcb8" data-page="12"><img alt="Style Test Algorithm" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-12.png"></div>
-  <div class="page" data-image-git-sha="68d7ba1c29d2e3250b14ec34aec20d890a7ddf52" data-page="13"><img alt="(1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-13.png"></div>
-  <div class="page" data-image-git-sha="1ab83c524e8c8e650b890bc32bc6464cfe68e675" data-page="14"><img alt="(17) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (18) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-14.png"></div>
-  <div class="page" data-image-git-sha="1e3bf5667608847659f6e6ea64504724dff3b27f" data-page="15"><img alt="(1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-15.png"></div>
-  <div class="page" data-image-git-sha="339cee1b90f7501e1a8ae9d90e7082e8bfa34c18" data-page="16"><img alt="ghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ " src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-16.png"></div>
-  <div class="page" data-image-git-sha="654f40a3a72a301df1a204d8bb6ac99447fe432b" data-page="17"><img alt="Remarks:" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-17.png"></div>
+<div class="sh-doc" id="unit-en-styletest.pdf" data-doc-source="https://github.com/webis-de/webis-de.github.io/releases/download/lecturenotes/unit-en-styletest.pdf" style="--sh-pages: 17"><div class="sh-doc-scrollbox"><div class="sh-page-container">
+  <div class="sh-page" data-image-git-sha="228e014314a2c3a50573ffa1f8dd8f9eba8cd47f" data-page="1"><img alt="Chapter I:I " src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-1.png"></div>
+  <div class="sh-page" data-image-git-sha="6b5db4584c6869730e8b17eefcb214fcd3ae6eef" data-page="2"><img alt="Style Test Sizes" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-2.png"></div>
+  <div class="sh-page" data-image-git-sha="8b92f17ccd897db0fe0aa3b3cddc031e31ee9814" data-page="3"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-3.png"></div>
+  <div class="sh-page" data-image-git-sha="f86abbbfc2566c5c946b3fdae2db57c58068d8e1" data-page="4"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-4.png"></div>
+  <div class="sh-page" data-image-git-sha="62fd2de914754fc06fe37eb8a0bccfdc84900e5d" data-page="5"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-5.png"></div>
+  <div class="sh-page" data-image-git-sha="bc3b8fc0cd95f136e643c0f8cf87a698bf08e298" data-page="6"><img alt="Style Test Listing" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-6.png"></div>
+  <div class="sh-page" data-image-git-sha="d9600ba6a03d67afc31efe0c82ad3d6785dcbec2" data-page="7"><img alt="Style Test Skips: normalsize" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-7.png"></div>
+  <div class="sh-page" data-image-git-sha="bc1553fb518505bc927feceb1024335d47a50b13" data-page="8"><img alt="Style Test Skips: small" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-8.png"></div>
+  <div class="sh-page" data-image-git-sha="5b4fc2784e7e8a16189adc3097ec63aa25861869" data-page="9"><img alt="Style Test Fonts" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-9.png"></div>
+  <div class="sh-page" data-image-git-sha="c7816536792ee467b3f6e1b3bd9d978f049ca612" data-page="10"><img alt="Style Test Figures" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-10.png"></div>
+  <div class="sh-page" data-image-git-sha="6e6b4bb00f8828cb3498da17d5f785bc791a69b9" data-page="11"><img alt="Style Test Environments: Verbatim" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-11.png"></div>
+  <div class="sh-page" data-image-git-sha="abdf54bbf74b69df466429f7aa1e8da37017fcb8" data-page="12"><img alt="Style Test Algorithm" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-12.png"></div>
+  <div class="sh-page" data-image-git-sha="68d7ba1c29d2e3250b14ec34aec20d890a7ddf52" data-page="13"><img alt="(1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-13.png"></div>
+  <div class="sh-page" data-image-git-sha="1ab83c524e8c8e650b890bc32bc6464cfe68e675" data-page="14"><img alt="(17) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (18) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-14.png"></div>
+  <div class="sh-page" data-image-git-sha="1e3bf5667608847659f6e6ea64504724dff3b27f" data-page="15"><img alt="(1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-15.png"></div>
+  <div class="sh-page" data-image-git-sha="339cee1b90f7501e1a8ae9d90e7082e8bfa34c18" data-page="16"><img alt="ghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ " src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-16.png"></div>
+  <div class="sh-page" data-image-git-sha="654f40a3a72a301df1a204d8bb6ac99447fe432b" data-page="17"><img alt="Remarks:" src="https://webis.de/downloads/lecturenotes/lecturenotes-generic/unit-en-styletest/unit-en-styletest-17.png"></div>
   <div class="page dummy-page" aria-hidden="true" style="visibility: hidden;"></div>
 </div></div></div>
 <!-- units end -->
 </div>
 </main>
-
-<!-- footer start -->
-<!-- Our scripts rely on the footer start and end comments to be there and on an line on their own, so never change them! -->
-<div id="footer-container">
-<footer class="footer text-muted text-left">
-<div class="container-fluid p-3 p-md-5">
-  <div class="row">
-    <div class="col-12 navbar-expand-md">
-      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-webis-search-engines" aria-controls="collapse-webis-search-engines" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
-        Webis search engines
-      </div>
-      <p class="d-none d-sm-none d-md-block">Webis search engines</p>
-      <div class="collapse navbar-collapse" id="collapse-webis-search-engines">
-        <ul class="list-unstyled">
-          <li>
-            <a href="http://www.args.me">
-              <div class="media">
-                <img class="d-flex align-self-center mr-3" src="../../img/icon-args.png" alt="Args icon"><div class="d-flex align-self-center media-body">Args</div>
-              </div>
-            </a>
-          </li>
-          <li class="my-2">
-            <a href="http://www.chatnoir.eu">
-              <div class="media">
-                <img class="d-flex align-self-center mr-3" src="../../img/icon-chatnoir.png" alt="ChatNoir icon"><div class="d-flex align-self-center media-body">ChatNoir</div>
-              </div>
-            </a>
-          </li>
-          <li class="my-2">
-            <a href="http://www.netspeak.org">
-              <div class="media">
-                <img class="d-flex align-self-center mr-3" src="../../img/icon-netspeak.png" alt="Netspeak icon"><div class="d-flex align-self-center media-body">Netspeak</div>
-              </div>
-            </a>
-          </li>
-          <li class="my-2">
-            <a href="http://www.picapica.org">
-              <div class="media">
-                <img class="d-flex align-self-center mr-3" src="../../img/icon-picapica.png" alt="Picapica icon"><div class="d-flex align-self-center media-body">Picapica</div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-12 navbar-expand-md university first-in-footer-group">
-      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-weimar" aria-controls="collapse-weimar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
-        Bauhaus-Universit&auml;t Weimar
-      </div>
-      <p class="d-none d-sm-none d-md-block">Bauhaus-Universit&auml;t Weimar</p>
-      <div class="collapse navbar-collapse" id="collapse-weimar">
-        <ul class="list-unstyled">
-          <a href="https://www.uni-weimar.de/medien/webis/"><li>Home</li></a>
-          <a href="https://www.uni-weimar.de/medien/webis/people"><li>People</li></a>
-          <a href="https://www.uni-weimar.de/medien/webis/teaching"><li>Teaching</li></a>
-          <a href="https://www.uni-weimar.de/medien/webis/events"><li>Events</li></a>
-          <a href="https://www.uni-weimar.de/medien/webis/facilities"><li>Facilities</li></a>
-        </ul>
-      </div>
-    </div>
-    <div class="col-12 col-md-3 navbar-expand-md university">
-      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-leipzig" aria-controls="collapse-leipzig" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="float-right d-md-none d-lg-none d-xl-none"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
-        Leipzig University
-      </div>
-      <p class="d-none d-sm-none d-md-block">Leipzig University</p>
-      <div class="collapse navbar-collapse" id="collapse-leipzig">
-        <ul class="list-unstyled">
-          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/home/"><li>Home</li></a>
-          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/"><li>People</li></a>
-          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/teaching/"><li>Teaching</li></a>
-          <!--
-          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/events/"><li>Events</li></a>
-          <a href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/facilities/"><li>Facilities</li></a>
-          -->
-        </ul>
-      </div>
-    </div>
-    <div class="col-12 navbar-expand-md university">
-      <div class="navbar-toggler my-2 pl-0" data-toggle="collapse" data-target="#collapse-halle" aria-controls="collapse-halle" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="float-right"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
-        Martin-Luther-Universit&auml;t Halle-Wittenberg
-      </div>
-      <p class="d-none d-sm-none d-md-block">Martin-Luther-Universit&auml;t Halle-Wittenberg</p>
-      <div class="collapse navbar-collapse" id="collapse-halle">
-        <ul class="list-unstyled">
-          <a href="http://www.matthias-hagen.de"><li>Home</li></a>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <p class="copyright d-none d-md-block">© webis 2018</p>
-</div>
-</footer>
-
-<script defer src="../../js/fontawesome.min.js"></script>
-<script defer src="../../js/fa-solid.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../js/jquery-3.2.1.slim.min.js"><\/script>')</script>
-<script src="../../js/popper.min.js"></script>
-<script src="../../js/bootstrap.min.js"></script>
-<script src="../../js/bootstrap-4-navbar.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../js/ie10-viewport-bug-workaround.js"></script>
-</div>
-<!-- footer end -->
-
-</body>
-</html>
-

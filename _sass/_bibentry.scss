@@ -1,0 +1,42 @@
+// Publications
+
+.publications-list {
+    .bib-entry {
+        margin-bottom: 2.5ex;
+        line-height: 1.6;
+    }
+
+    .booktitle, .series, .journal {
+        font-style: italic;
+    }
+
+    .year {
+        margin-top: .7rem;
+        margin-bottom: 1rem;
+    }
+
+    .year-entry {
+        margin-bottom: 3rem;
+
+        &:first-child .year {
+            margin-top: 0;
+        }
+    }
+
+    a.request {
+        @extend .uk-link-reset;
+    }
+
+    .bibtex {
+        @extend .uk-textarea;
+        @extend .uk-text-small;
+        @extend .uk-padding-small;
+        font-family: Consolas, Hack, MonacoB, monospace;
+        resize: none;
+        border: none;
+    }
+}
+
+#search-control input {
+    max-width: 35rem;
+}
