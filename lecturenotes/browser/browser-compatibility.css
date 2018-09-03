@@ -1,15 +1,11 @@
-#header-container img {
-  max-width: 27px;
+.slidehub-container {
+  margin-left: 1px;
+  margin-right: 1px;
 }
-#header-container li:focus,
-#header-container a:focus {
-  outline: 0px;
-}
-#header-container .dropdown-item:visited {
-  color: #212529;
-}
-#footer-container a:visited {
-  color: #868e96;
+
+/* avoid that slidehub footer overlaps with copyright */
+.footer-section {
+  margin-bottom: 10px;
 }
 
 /* in case alternate texts are shown */
