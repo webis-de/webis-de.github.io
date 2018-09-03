@@ -8,6 +8,12 @@ additional_css: [ '/lecturenotes/browser/browser.css', '/lecturenotes/browser/br
 
 <script src="{{ '/lecturenotes/browser/browser.js' | relative_url }}"></script>
 
+<footer class="sh-status-bar">
+  <div data-slidehub-page-widget=""></div>
+  <span>Tip: Scroll through documents with <kbd>Shift</kbd>+<kbd>MouseWheel</kbd>.</span>
+  <div class="sh-modal-buttons" data-slidehub-modal-buttons=""></div>
+</footer>
+
 <main class="uk-margin-medium" data-slidehub="">
 <!-- SlideHub will hook itself as a child element into [data-slidehub] -->
 <div class="slidehub-container">
@@ -16,3 +22,80 @@ additional_css: [ '/lecturenotes/browser/browser.css', '/lecturenotes/browser/br
 <!-- units end -->
 </div>
 </main>
+
+<div class="sh-modal closed" data-modal-help="" aria-hidden="true" aria-labelledby="sh-help-title" role="dialog">
+  <div class="sh-modal-content" role="document">
+    <button class="sh-modal__close sh-button sh-button--close" data-close-modal="" aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-labelledby="sh-close-help-title"><path d="M4 0l8 8 8-8 4 4-8 8 8 8-4 4-8-8-8 8-4-4 8-8-8-8z"/></svg>
+    </button>
+    <h2 class="sh-modal__title" id="sh-help-title">Help</h2>
+    <div class="sh-shortcut-table-wrapper">
+      <table class="sh-shortcut-table">
+        <caption class="sh-visually-hidden">Document-specific controls</caption>
+        <thead>
+          <tr>
+            <th class="sh-shortcut-table__input">
+              <span class="sh-visually-hidden">Shortcut</span>
+            </th>
+            <th class="sh-shortcut-table__action">Documents</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="sh-shortcut-table__input">
+              <div class="sh-shortcut-group">
+                <kbd aria-label="Up or down arrow key">↑/↓</kbd>
+              </div>
+            </td>
+            <td class="sh-shortcut-table__action">Navigate documents</td>
+          </tr>
+          <tr>
+            <td class="sh-shortcut-table__input">
+              <div class="sh-shortcut-group">
+                <kbd>Shift</kbd> + <kbd aria-label="Up or down arrow key">↑/↓</kbd>
+              </div>
+            </td>
+            <td class="sh-shortcut-table__action">Navigate 3 documents</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="sh-shortcut-table">
+        <caption class="sh-visually-hidden">Page-specific controls</caption>
+        <thead>
+          <tr>
+            <th class="sh-shortcut-table__input">
+              <span class="sh-visually-hidden">Shortcut</span>
+            </th>
+            <th class="sh-shortcut-table__action">Pages</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="sh-shortcut-table__input">
+              <div class="sh-shortcut-group">
+                <kbd aria-label="Left or right arrow key">←/→</kbd>
+              </div>
+            </td>
+            <td class="sh-shortcut-table__action">Navigate pages</td>
+          </tr>
+          <tr>
+            <td class="sh-shortcut-table__input">
+              <div class="sh-shortcut-group">
+                <kbd>Shift</kbd> + <kbd>MouseWheel</kbd>
+              </div>
+            </td>
+            <td class="sh-shortcut-table__action">Navigate pages</td>
+          </tr>
+          <tr>
+            <td class="sh-shortcut-table__input">
+              <div class="sh-shortcut-group">
+                <kbd>Shift</kbd> + <kbd aria-label="Left or right arrow key">←/→</kbd>
+              </div>
+            </td>
+            <td class="sh-shortcut-table__action">Navigate 3 pages</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
