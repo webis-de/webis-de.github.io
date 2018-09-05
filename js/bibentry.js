@@ -75,7 +75,7 @@ doFilter = (query) => {
 // Set up filter field
 const filterField = document.getElementById("bib-filter-field");
 if (document.location.hash.startsWith("#filter:")) {
-    filterField.value = document.location.hash.substr(8);
+    filterField.value = decodeURIComponent(document.location.hash.substr(8));
 }
 filterField.addEventListener("input", event => doFilter(event.target.value));
 doFilter(filterField.value);
