@@ -17,6 +17,23 @@
         width: 120px;
     }
 
+    .people-image {
+        width: 110px;
+    }
+    .people-image img {
+        height: 100px;
+    }
+
+    .information {
+      margin-top: 0.6em;
+      margin-bottom: 0;
+    }
+
+    .space {
+      margin-left: 4px;
+      margin-right: 8px;
+    }
+
     .description {
         display: table-cell;
         text-align: left;
