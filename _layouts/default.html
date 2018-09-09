@@ -101,7 +101,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="uk-margin-large-left@l{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
+                <li class="nav-group-start{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
                     <a href="#">Lecturenotes</a>
 
                     <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3 uk-padding-remove">
@@ -135,7 +135,7 @@
                 <li{% if page.nav_active == "publications" %} class="uk-active"{% endif %}>
                     <a href="{{ '/publications.html' | relative_url }}">Publications</a>
                 </li>
-                <li class="uk-margin-large-left@l{% if page.nav_active == 'data' %} uk-active{% endif %}">
+                <li class="nav-group-start{% if page.nav_active == 'data' %} uk-active{% endif %}">
                     <a href="{{ '/data.html' | relative_url }}">Data</a>
                 </li>
                 <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
@@ -144,7 +144,7 @@
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
-                <li class="uk-margin-large-left@l{% if page.nav_active == 'forstudents' %} uk-active{% endif %}">
+                <li class="nav-group-start{% if page.nav_active == 'forstudents' %} uk-active{% endif %}">
                     <a href="#">For&nbsp;Students</a>
                 </li>
             </ul>

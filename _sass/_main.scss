@@ -28,6 +28,10 @@
         }
     }
 
+    & > .nav-group-start {
+        padding-left: 2.5 * $navbar-nav-item-padding-horizontal;
+    }
+
     & > .uk-active > a {
         color: #fff;
     }
