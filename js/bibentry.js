@@ -1,13 +1,23 @@
 containsQuery = (entry, queryWords) => {
     const attributes = entry.dataset;
     for (let q = 0; q < queryWords.length; ++q) {
-        const queryWord = queryWords[q];
+        let queryWord = queryWords[q].replace(/\+/, " ");
         let found = false;
-        for (let a in attributes) {
-            if (attributes[a].toLowerCase().indexOf(queryWord) >= 0) {
+
+        const attributeSpecificatorPos = queryWord.indexOf(":");
+        if (attributeSpecificatorPos >= 0) {
+            const attribute = queryWord.substr(0, attributeSpecificatorPos);
+            queryWord = queryWord.substr(attributeSpecificatorPos + 1);
+            if (attributes[attribute].toLowerCase().indexOf(queryWord) >= 0) {
                 found = true;
-                break;
             }
+        } else {
+          for (let a in attributes) {
+              if (attributes[a].toLowerCase().indexOf(queryWord) >= 0) {
+                  found = true;
+                  break;
+              }
+          }
         }
         if (!found) {
             return false;
@@ -33,7 +43,7 @@ doFilter = (query) => {
         }
     } else {
         filteredAll = true;
-        const queryWords = query.toLowerCase().replace(/[^a-z0-9-]/, " ").split(/\s+/);
+        const queryWords = query.toLowerCase().replace(/[^a-z0-9-:+]/, " ").split(/\s+/);
         for (let y = 0; y < years.length; ++y) {
             const year = years[y];
             let filteredAllOfYear = true;
