@@ -71,8 +71,8 @@
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
-                <li{% if page.nav_active == "forstudents" %} class="uk-active"{% endif %}>
-                    <a href="#">For&nbsp;Students</a>
+                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
             </ul>
         </nav>
@@ -144,8 +144,8 @@
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
-                <li class="nav-group-start{% if page.nav_active == 'forstudents' %} uk-active{% endif %}">
-                    <a href="#">For&nbsp;Students</a>
+                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
             </ul>
         </div>
@@ -251,6 +251,8 @@
                     <ul class="uk-nav">
                         <li class="uk-nav-header">Martin-Luther-Univ. Halle-Wittenberg</li>
                         <li><a href="http://halle.webis.de">Home</a></li>
+                        <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/">People</a></li>
+                        <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/lehre/">Teaching</a></li>
                     </ul>
                 </div>
             </div>
