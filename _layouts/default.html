@@ -24,16 +24,8 @@
         <!-- Mobile navigation -->
         <nav class="uk-margin-large-top">
             <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
-                <li{% if page.nav_active == "people" %} class="uk-active"{% endif %} class="uk-parent">
-                    <a href="#">People</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="http://halle.webis.de/">Matthias Hagen
-                            <span class="people-university">&bullet; Halle University</span></a></li>
-                        <li><a href="http://leipzig.webis.de/">Martin Potthast
-                            <span class="people-university">&bullet; Leipzig University</span></a></li>
-                        <li><a href="http://weimar.webis.de/">Benno Stein
-                            <span class="people-university">&bullet; Bauhaus-Universität Weimar</span></a></li>
-                    </ul>
+                <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/people.html' | relative_url }}">People</a>
                 </li>
                 <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %} class="uk-parent">
                     <a href="#">Lecturenotes</a>
@@ -88,18 +80,7 @@
                     <a href="{{ '/' | relative_url }}"><img src="{{ '/img/webis-logo.png' | relative_url }}" alt="Webis Logo" class="uk-logo"> Webis.de</a>
                 </li>
                 <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
-                    <a href="#">People</a>
-
-                    <div class="uk-navbar-dropdown uk-width-large">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="http://halle.webis.de/">Matthias Hagen
-                                <span class="people-university">&bullet; Halle University</span></a></li>
-                            <li><a href="http://leipzig.webis.de/">Martin Potthast
-                                <span class="people-university">&bullet; Leipzig University</span></a></li>
-                            <li><a href="http://weimar.webis.de/">Benno Stein
-                                <span class="people-university">&bullet; Bauhaus-Universität Weimar</span></a></li>
-                        </ul>
-                    </div>
+                    <a href="{{ '/people.html' | relative_url }}">People</a>
                 </li>
                 <li class="nav-group-start{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
                     <a href="#">Lecturenotes</a>
