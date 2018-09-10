@@ -125,7 +125,7 @@
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
-                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
+                <li class="nav-group-start{% if page.nav_active == 'for-students' %} uk-active{% endif %}">
                     <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
             </ul>
