@@ -26,8 +26,8 @@ containsQuery = (entry, queryWords) => {
     return true;
 };
 
-const years = document.querySelectorAll(".year-entry");
-doFilter = (query) => {
+doFilter = (doc, query) => {
+    const years = doc.querySelectorAll(".year-entry");
     query = query.trim();
 
     let filteredAll = false;
@@ -67,30 +67,8 @@ doFilter = (query) => {
         }
     }
 
-    const filteredAllMessage = document.getElementById("filtered-all-message");
-    if (filteredAll) {
-        filteredAllMessage.classList.remove("uk-hidden");
-        filteredAllMessage.removeAttribute("aria-hidden");
-    } else {
-        filteredAllMessage.classList.add("uk-hidden");
-        filteredAllMessage.setAttribute("aria-hidden", "true");
-    }
-
-    document.location.hash = "#filter:" + query;
-
-    // Force UIkit update to prevent glitches
-    UIkit.update();
+    return filteredAll;
 };
-
-// Set up filter field
-const filterField = document.getElementById("bib-filter-field");
-if (document.location.hash.startsWith("#filter:")) {
-    filterField.value = decodeURIComponent(document.location.hash.substr(8));
-}
-filterField.addEventListener("input", event => doFilter(event.target.value));
-doFilter(filterField.value);
-filterField.focus();
-
 
 // Show BibTeX on click
 document.querySelectorAll('.bib-toggle').forEach(el => el.addEventListener("click", (event) => {
@@ -109,3 +87,24 @@ document.querySelectorAll('.bib-toggle').forEach(el => el.addEventListener("clic
     bibtex.style.height = "5px";
     bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
 }));
+
+// include from other page
+//   parentElement: element to which the bibentries should be added
+//   query:         filter query as used on the webis.de page
+//   source:        URL of the page the contains the bibentries
+includeBibentries = (parentElement, query = "", source = "https://webis.de/publications.html") => {
+    parentElement.innerText = "Loading...";
+
+    const request = new XMLHttpRequest();
+    request.onload = function() {
+        const doc = this.response.documentElement.querySelector(".publications-list");
+        doFilter(doc, query);
+        parentElement.innerText = "";
+        parentElement.appendChild(doc);
+    }
+    request.open("GET", source);
+    request.responseType = "document";
+    request.send();
+}
+
+
