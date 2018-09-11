@@ -22,6 +22,7 @@ if (document.location.hash.startsWith("#filter:")) {
     filterField.value = decodeURIComponent(document.location.hash.substr(8));
 }
 filterField.addEventListener("input", event => doFilterWebisDe(event.target.value));
+activateBibtexToggle(document);
 doFilterWebisDe(filterField.value);
 filterField.focus();
 

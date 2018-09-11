@@ -71,22 +71,24 @@ doFilter = (doc, query) => {
 };
 
 // Show BibTeX on click
-document.querySelectorAll('.bib-toggle').forEach(el => el.addEventListener("click", (event) => {
-    event.preventDefault();
+activateBibtexToggle = (doc) => {
+  doc.querySelectorAll('.bib-toggle').forEach(el => el.addEventListener("click", (event) => {
+      event.preventDefault();
 
-    const bibtexId = event.target.dataset.target;
-    const bibtex = document.getElementById(bibtexId);
+      const bibtexId = event.target.dataset.target;
+      const bibtex = document.getElementById(bibtexId);
 
-    bibtex.classList.toggle("uk-hidden");
-    const isHidden = bibtex.classList.contains("uk-hidden");
-    if (!isHidden) {
-        bibtex.focus();
-    }
-    bibtex.setAttribute("aria-hidden", isHidden ? "true" : "false");
+      bibtex.classList.toggle("uk-hidden");
+      const isHidden = bibtex.classList.contains("uk-hidden");
+      if (!isHidden) {
+          bibtex.focus();
+      }
+      bibtex.setAttribute("aria-hidden", isHidden ? "true" : "false");
 
-    bibtex.style.height = "5px";
-    bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
-}));
+      bibtex.style.height = "5px";
+      bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
+  }));
+}
 
 // include from other page
 //   parentElement: element to which the bibentries should be added
@@ -106,9 +108,10 @@ includeBibentries = (parentElement, query = "", source = "https://webis.de/publi
     const request = new XMLHttpRequest();
     request.onload = function() {
         const doc = this.response.documentElement.querySelector(".publications-list");
+        activateBibtexToggle(doc);
         doFilter(doc, query);
+        doc.classList.remove("uk-container", "uk-margin-medium");
         parentElement.innerText = "";
-        parentElement.classList.add("uk-container", "uk-margin-medium", "publications-list");
         parentElement.appendChild(doc);
     }
     request.open("GET", source);
