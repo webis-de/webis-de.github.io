@@ -8,7 +8,7 @@ containsQuery = (entry, queryWords) => {
         if (attributeSpecificatorPos >= 0) {
             const attribute = queryWord.substr(0, attributeSpecificatorPos);
             queryWord = queryWord.substr(attributeSpecificatorPos + 1);
-            if (attributes[attribute].toLowerCase().indexOf(queryWord) >= 0) {
+            if (attributes.hasOwnProperty(attribute) && attributes[attribute].toLowerCase().indexOf(queryWord) >= 0) {
                 found = true;
             }
         } else {
