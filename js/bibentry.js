@@ -1,7 +1,7 @@
 containsQuery = (entry, queryWords) => {
     const attributes = entry.dataset;
     for (let q = 0; q < queryWords.length; ++q) {
-        let queryWord = queryWords[q].replace(/\+/, " ");
+        let queryWord = queryWords[q].replace(/\+/g, " ");
         let found = false;
 
         const attributeSpecificatorPos = queryWord.indexOf(":");
@@ -43,7 +43,7 @@ doFilter = (doc, query) => {
         }
     } else {
         filteredAll = true;
-        const queryWords = query.toLowerCase().replace(/[^a-z0-9-:+]/, " ").split(/\s+/);
+        const queryWords = query.toLowerCase().replace(/[^a-z0-9-:+]/g, " ").split(/\s+/);
         for (let y = 0; y < years.length; ++y) {
             const year = years[y];
             let filteredAllOfYear = true;
