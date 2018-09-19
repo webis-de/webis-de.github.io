@@ -1,6 +1,7 @@
 change in src/js/config
   staticContent: true
   metaSlide: false
+  selectColor: '#005dc9'
   highlightColor: '#ff3'
 
 run
