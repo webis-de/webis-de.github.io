@@ -1,0 +1,98 @@
+---
+layout: default
+nav_active: data
+title: Webis-QSeC-10
+description: Overview of corpora that are used by the Webis research group
+---
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-QSeC-10</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The Webis Query Segmentation Corpus 2010 (Webis-QSeC-10) contains segmentations for 53,437 web queries obtained from Mechanical Turk crowdsourcing. For each query, 10 MTurk workers were asked to segment the query. The corpus represents the distribution of their decisions.</p>
+
+        <p>As we currently figure out whether a segmentation competition based on our corpus could be interesting, we publish a sample of 4,850 queries (such that it is about 10% of the then remaining 48,587 queries that should be used as the test set during the competition).</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <p>We provide the training set as a single folder in a Zip archive which contains several files. The file "webis-qsec-10-training-set-queries.txt" contains the query strings and a unique ID for each query. The file "webis-qsec-10-training-set-segmentations.txt" contains the crowdsourced segmentations with their number of votes per query ID (see below for an example). The folder "data" contains all the data (n-gram frequencies, PMI values, POS tags, etc.) needed to replicate the evaluation results of our proposed segmentation algorithms. For convenience reasons, the folder "segmentations-of-algorithms" contains the segmentations that our proposed algorithms compute on the training set.</p>
+
+        <p>To download the corpus, please use the following link:</p>
+
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-qsec-10/corpus-webis-qsec-10-training-set.zip">corpus-webis-qsec-10-training-set.zip</a>
+            <br />(1.9 MB, MD5 sum: cd9a306261a6d884eb109098d75c7e6c)</li>
+        </ul>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to refer to the corpus via [<a href="http://www.uni-weimar.de/medien/webis/publications/bibentries.php?bibkey=stein_2011e.bib">bib</a>].</p>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>The original queries were extracted from the AOL query log, and range from 3 to 10 keywords in length. For each query 10 MTurk workers were asked to segment the query and their decisions are accumulated in the corpus. The examples below demonstrate two different cases.</p>
+
+        <p>Sample queries with internal ID (as in "Webis-QSeC-10-training-set-queries.txt"):</p>
+
+        <ul>
+            <li>2315313155 harvard community credit union</li>
+            <li>1858084875 women's cycling tops</li>
+        </ul>
+
+        <p>Sample segmentations (as in "Webis-QSeC-10-training-set-queries.txt"):</p>
+
+        <ul>
+            <li>2315313155 [(6, 'harvard community credit union'), (2, 'harvard community|credit union'), (1, 'harvard|community|credit union'), (1, 'harvard|community credit union')]</li>
+            <li>1858084875 [(5, "women's|cycling tops"), (2, "women's|cycling|tops"), (2, "women's cycling|tops"), (1, "women's cycling tops")]</li>
+        </ul>
+
+        <p>Each query has a unique internal ID (e.g., 2315313155 in the first example) and the segmentations file contains the 10 different decisions the MTurk workers made for that query. In the first example 6 workers have all 4 keywords in one segment, 2 workers decided to break after the second word (denoted by a |) etc. Note that in the second example (query ID 1858084875) in the segmentations the apostrophe in the query is escaped by double quotes around the segmentation strings.</p>
+
+        <p>For more information on the construction of the dataset see the respective publication.</p>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+        <p>Students: Christof Bräutigam, Anna Beyer</p>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-qsec-10");
+</script>

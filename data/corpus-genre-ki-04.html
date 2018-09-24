@@ -1,0 +1,116 @@
+---
+layout: default
+nav_active: data
+title: Genre-KI-04
+description: Overview of corpora that are used by the Webis research group
+---
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Genre-KI-04</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The web genre corpus 2004 (Genre-KI-04) is designed for the evaluation of techniques for genre classification.
+It consists of 1239 web documents classified into 8 genres and basic meta data for each of the files.</p>
+
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>The corpus consists of the HTML documents grouped into directories according to their respective genre.
+The first lines of each document contain the meta information for each document in a HTML comment.
+This information includes the URL the document was downloaded from as well as the document title and the parsed text.</p>
+
+        <p>A definition of the genres can be found in the paper
+[<a href="http://dx.doi.org/10.1007/978-3-540-30221-6_20">doi</a>]
+[<a href="http://www.uni-weimar.de/medien/webis/publications/papers/stein_2004c.pdf">pdf</a>]
+[<a href="http://www.uni-weimar.de/medien/webis/publications/bibentries.php?bibkey=stein_2004c.bib">bib</a>]
+or in the corpus.
+The distribution of the documents among the genres is summarized in the table below.</p>
+
+        <table>
+               <tbody>
+                      <tr>
+                          <th>Genre</th><th>Number of Documents</th>
+                      </tr>
+                      <tr>
+                          <td>Articles</td>
+                          <td align="right">127 (10.2%)</td>
+                      </tr>
+                      <tr>
+                          <td>Discussion</td>
+                          <td align="right">127 (10.3%)</td>
+                      </tr>
+                      <tr>
+                          <td>Download</td>
+                          <td align="right">152 (12.3%)</td>
+                      </tr>
+                      <tr>
+                          <td>Help</td>
+                          <td align="right">140 (11.3%)</td>
+                      </tr>
+                      <tr>
+                          <td>Link lists</td>
+                          <td align="right">208 (16.8%)</td>
+                      </tr>
+                      <tr>
+                          <td>Portrait (non private)</td>
+                          <td align="right">179 (14.4%)</td>
+                      </tr>
+                      <tr>
+                          <td>Portrait (private)</td>
+                          <td align="right">131 (10.6%)</td>
+                      </tr>
+                      <tr>
+                          <td>Shop</td>
+                          <td align="right">175 (14.1%)</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Sum</strong></td>
+                          <td align="right">1239</td>
+                      </tr>
+               </tbody>
+               <caption>Distribution of genres</caption>
+        </table>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein">Benno Stein</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#meyer-zu-eissen">Sven Meyer zu Eissen</a></li>
+        </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "corpora:corpus-genre-ki-04");
+</script>

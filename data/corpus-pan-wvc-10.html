@@ -1,0 +1,83 @@
+---
+layout: default
+nav_active: data
+title: PAN-WVC-10
+description: Overview of corpora that are used by the Webis research group
+---
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>PAN-WVC-10</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The PAN Wikipedia vandalism corpus 2010 (PAN-WVC-10) is a corpus for the evaluation of automatic vandalism detectors for Wikipedia. For research purposes the corpus can be used free of charge.</p>
+
+        <p>This corpus is supplemented by the <a href="corpus-pan-wvc-11.html" title="PAN-WVC-11">PAN-WVC-11</a>, which features additional edits in English, Spanish and German. Both corpora should be used to get more representative results.</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>To download the corpus use the following link:</p>
+
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-pan-wvc-10/pan-wikipedia-vandalism-corpus-2010.zip">pan-wikipedia-vandalism-corpus-2010.zip</a>
+            <br />(447 MB, MD5 sum fed384796c5cdb066d2ab9d1c0ec7764).</li>
+        </ul>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to refer to the corpus via [<a href="http://www.uni-weimar.de/medien/webis/publications/bibentries.php?bibkey=potthast_2010b.bib">bib</a>].</p>
+
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>As part of our research on <a href="en/media/chairs/webis/research/selected-projects/wikipedia-vandalism">automatic vandalism detection</a> we have compiled a corpus of vandalism cases found in Wikipedia. The corpus compiles 32452 edits on 28468 Wikipedia articles, among which 2391 vandalism edits have been identified. To annotate the corpus we have used Amazon's Mechanical Turk; 753 workers have been recruited who cast more than 150000 votes on the edits, so that each edit was reviewed by at least 3 annotators. The achieved level of agreement was analyzed in order to label an edit as "regular" or "vandalism."</p>
+
+        <p>The corpus has been successfully employed in the <a href="http://www.uni-weimar.de/medien/webis/events/pan-10/pan10-web/wikipedia-vandalism-detection.html">1st International Competition on Wikipedia Vandalism Detection</a>, PAN'10, which was held in conjunction with the CLEF'10 conference. In the competition, 9 vandalism detectors have been evaluated based on the corpus. More details about the competition can be found in the <a href="http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010t.pdf">overview paper</a>.</p>
+
+        <p><em>Previous Corpus Versions.</em> The first vandalism corpus was the <a href="corpus-webis-wvc-07.html">Webis-WVC-07</a>. However, that corpus is significantly smaller than the PAN-WVC-10 and its class distribution is not representative.</p>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+        <p>Students: Teresa Holfeld</p>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "corpora:corpus-pan-wvc-10");
+</script>

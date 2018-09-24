@@ -1,0 +1,67 @@
+---
+layout: default
+nav_active: data
+title: WDVC-15
+description: Overview of corpora that are used by the Webis research group
+---
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>WDVC-15</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The Wikidata vandalism corpus 2015 (WDVC-15) is a corpus for the evaluation of automatic vandalism detectors for Wikidata. For research purposes the corpus can be used free of charge.</p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>To download the corpus use the following link:</p>
+
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-wdvc-15/wikidata-vandalism-corpus-2015.tar.bz2">wikidata-vandalism-corpus-2015.tar.bz2</a>
+            <br />(4.5 GB, SHA1 sum ce416496054b06c50bec6790fad17e2cd5137a4b).</li>
+            </ul>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to refer to the corpus via [<a href="http://www.uni-weimar.de/medien/webis/publications/bibentries.php?bibkey=stein_2015h.bib">bib</a>].</p>
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+             <li><a href="http://is.uni-paderborn.de/en/research-group/fg-engels/people/visitenkarten/heindorf/business-card.html" title="Stefan Heindorf">Stefan Heindorf</a></li>
+             <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+             <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+             <li><a href="http://is.uni-paderborn.de/fachgebiete/fg-engels/personen/visitenkarten/gregor-engels/visitenkarte.html" title="Gregor Engels">Gregor Engels</a></li>
+        </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "corpora:corpus-wdvc-15}");
+</script>
