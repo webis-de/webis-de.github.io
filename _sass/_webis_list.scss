@@ -14,7 +14,11 @@
     .image {
         display: table-cell;
         vertical-align: middle;
-        width: 120px;
+        width: 105px;
+
+        img {
+            width: 60px;
+        }
     }
 
     .people-image {

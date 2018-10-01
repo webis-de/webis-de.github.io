@@ -96,7 +96,7 @@ description: Overview of the Webis facilities
             <h2 id="software" class="anchor">Software<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
 
             <div class="entry anchor" id="gitlab">
-                <div class="image"><img src="facilities/img/gitlab-logo.png" alt="GitLab" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/gitlab-logo.png" alt="GitLab"/></div>
                 <div class="description">
                     <a href="https://git.webis.de" target="_blank">GitLab</a><br>
                     Internal code repository for development.
@@ -104,7 +104,7 @@ description: Overview of the Webis facilities
             </div>
 
             <div class="entry anchor" id="github">
-                <div class="image"><img src="facilities/img/github-logo.png" alt="GitHub" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/github-logo.png" alt="GitHub"/></div>
                 <div class="description">
                     <a href="https://github.com/webis-de" target="_blank">GitHub</a><br>
                     Public code repository.
@@ -112,7 +112,7 @@ description: Overview of the Webis facilities
             </div>
 
             <div class="entry anchor" id="docker">
-                <div class="image"><img src="facilities/img/docker-logo.png" alt="Docker" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/docker-logo.png" alt="Docker"/></div>
                 <div class="description">
                     <a href="https://hub.docker.com/r/webis/" target="_blank">Docker</a><br>
                     Public container repository.
@@ -121,7 +121,7 @@ description: Overview of the Webis facilities
 
             <div class="entry anchor" id="webis-cmd">
                 <div class="image"><img src="facilities/img/generic-app-logo.png"
-                                        alt="webis-cmd" style="height:55px;"/></div>
+                                        alt="webis-cmd"/></div>
                 <div class="description">
                     <a href="https://git.webis.de/code-generic/code-webis-cmd" target="_blank">Webis Command</a><br>
                     Helper utility for automating every-day tasks in the webis group.<br>
@@ -138,20 +138,44 @@ description: Overview of the Webis facilities
         <div id="list-monitoring-and-configuration" class="webis-list">
             <h2 id="monitoring-and-configuration" class="anchor">Monitoring and Configuration<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
 
-            <div class="entry anchor" id="betaweb-monitoring">
-                <div class="image"><img src="facilities/img/hadoop-logo.png" alt="Betaweb Cluster" style="height:55px;"/></div>
+            <div class="entry anchor" id="webis-monitoring">
+                <div class="image"><img src="facilities/img/grafana-logo.png" alt="Webis Monitoring"/></div>
                 <div class="description">
-                    <a href="http://betaweb020:8088" target="_blank">Betaweb Cluster</a><br>Monitor MapReduce jobs.<br>
-                    [<a href="http://betaweb020:8088" target="_blank">tasks</a>]
-                    [<a href="http://betaweb020:50070/dfshealth.html#tab-overview" target="_blank">hdfs</a>]
-                    [<a href="http://webis16.medien.uni-weimar.de/cluster-vis" target="_blank">load</a>]
+                    <a href="https://monitoring.webis.de/" target="_blank">Webis Monitoring</a><br>Monitor Webis Infrastructure.<br>
+                    [<a href="https://monitoring.webis.de/" target="_blank">grafana</a>]
+                    [<a href="https://prometheus.webis.de/" target="_blank">prometheus</a>]
+                    [<a href="https://alertmanager.webis.de/" target="_blank">alertmanager</a>]
+                </div>
+            </div>
+
+            <div class="entry anchor" id="webis-infrastructure">
+                <div class="image"><img src="facilities/img/consul-logo.png" alt="Webis Infrastructure"/></div>
+                <div class="description">
+                    <a href="https://consul.webis.de/" target="_blank">Consul</a><br>Webis Infrastructure Overview.<br>
+                </div>
+            </div>
+
+            <div class="entry anchor" id="betaweb-es-monitoring">
+                <div class="image"><img src="facilities/img/kibana-logo.png" alt="Betaweb Elasticsearch Monitoring"/></div>
+                <div class="description">
+                    <a href="http://betaweb001:5601/app/monitoring" target="_blank">Betaweb Elasticsearch Monitoring</a><br>Monitor Elasticsearch on Betaweb.<br>
+                </div>
+            </div>
+
+            <div class="entry anchor" id="betaweb-hadoop">
+                <div class="image"><img src="facilities/img/hadoop-logo.png" alt="Betaweb Cluster"/></div>
+                <div class="description">
+                    <a href="https://yarn.webis.de/" target="_blank">Betaweb Hadoop Monitoring</a><br>Monitor Hadoop jobs and storage.<br>
+                    [<a href="https://yarn.webis.de/" target="_blank">application master</a>]
+                    [<a href="https://hdfs.webis.de/" target="_blank">hdfs</a>]
+                    <!-- [<a href="http://webis16.medien.uni-weimar.de/cluster-vis" target="_blank">load</a>] -->
                 </div>
             </div>
 
             <div class="entry anchor" id="chatnoir">
-                <div class="image"><img src="facilities/img/chatnoir-logo1.png" alt="ChatNoir" style="height:100px;"/></div>
+                <div class="image"><img src="facilities/img/chatnoir-logo.png" alt="ChatNoir"/></div>
                 <div class="description">
-                    <a href="http://webis15.medien.uni-weimar.de/#status" target="_blank">ChatNoir</a><br>
+                    <a href="http://webis15.medien.uni-weimar.de/#status" target="_blank">ChatNoir (old)</a><br>
                     Dashboard and access token management.<br>
                     [<a href="http://webis15.medien.uni-weimar.de/#status" target="_blank">dashboard</a>]
                     [<a href="http://webis15.medien.uni-weimar.de/#tokens" target="_blank">tokengenerator</a>]
@@ -175,7 +199,7 @@ description: Overview of the Webis facilities
             <h2 id="documentation" class="anchor">Documentation<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
 
             <div class="entry anchor" id="introduction-to-webis">
-                <div class="image"><img src="facilities/img/generic-people-logo.png" alt="People" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/generic-people-logo.png" alt="People"/></div>
                 <div class="description">
                     <a href="https://git.webis.de/code-generic/code-webis-faq" target="_blank">Introduction to Webis</a><br>
                     FAQ about working in Webis.
@@ -183,7 +207,7 @@ description: Overview of the Webis facilities
             </div>
 
             <div class="entry anchor" id="git">
-                <div class="image"><img src="facilities/img/git-logo.png" alt="Git" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/git-logo.png" alt="Git"/></div>
                 <div class="description">
                     <a href="https://git.webis.de/code-generic/code-webis-cmd/wikis/git-setup"
                        target="_blank">Git</a><br>
@@ -192,7 +216,7 @@ description: Overview of the Webis facilities
             </div>
 
             <div class="entry anchor" id="thesis-notes">
-                <div class="image"><img src="facilities/img/thesis-logo.png" alt="Graduation cap" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/thesis-logo.png" alt="Graduation cap"/></div>
                 <div class="description">
                     <a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt"
                        target="_blank">Thesis Notes</a><br>
@@ -213,7 +237,7 @@ description: Overview of the Webis facilities
             </div>
 
             <div class="entry anchor" id="hadoop-notes">
-                <div class="image"><img src="facilities/img/hadoop-logo.png" alt="Hadoop" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/hadoop-logo.png" alt="Hadoop"/></div>
                 <div class="description">
                     <a href="https://git.webis.de/code-generic/code-admin-clusters/blob/master/betaweb/hadoop/hadoop-notes.md"
                        target="_blank">Hadoop Notes</a><br>
@@ -229,7 +253,7 @@ description: Overview of the Webis facilities
             <h2 id="website-maintenance" class="anchor">Website Maintenance<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
 
             <div class="entry anchor" id="github-webis-de">
-                <div class="image"><img src="facilities/img/github-logo.png" alt="Github" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/github-logo.png" alt="Github"/></div>
                 <div class="description">
                     <a href="https://github.com/webis-de/webis-de.github.io" target="_blank">Website Source</a><br>
                     The source code of this website, hosted on GitHub through GitHub Pages.
@@ -237,7 +261,7 @@ description: Overview of the Webis facilities
             </div>
 
             <div class="entry anchor" id="lecturenotes-upload">
-                <div class="image"><img src="facilities/img/generic-app-logo.png" alt="App" style="height:55px;"/></div>
+                <div class="image"><img src="facilities/img/generic-app-logo.png" alt="App"/></div>
                 <div class="description">
                     <a href="https://www.uni-weimar.de/medien/webis/teaching/upload/" target="_blank">Upload Lecturenotes</a><br>
                     Updates the lecturenotes on GitHub and Gonzo.
