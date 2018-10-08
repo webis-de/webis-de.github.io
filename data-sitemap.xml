@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://webis.de/data.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://webis.de/people.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/overview.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/slides.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/databases.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/web-technology.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/machine-learning.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/data-mining.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/information-retrieval.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/search.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/logics.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/modeling-foundations.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/lecturenotes/browser/lecturenotes-generic.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/research.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/publications.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/facilities.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/events.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/for-students.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-genre-ki-04.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-lfa-11.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-ambient-15.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-bias-flipper-18.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/webis-clickbait-16.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/webis-clickbait-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-cls-10.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-cpc-11.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-debate-16.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-editorial-quality-18.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-editorials-16.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-kiqc-13.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-mnemonics-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-odp-10.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-pc-08.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-pra-12.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-qsec-10.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-qspell-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-revenue-10.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-sdmbridge-12.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-sentences-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-smc-12.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-tldr-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/webis-trc-12.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-tripad-13-sentiment.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-tripad-14.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/webis-web-archive-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/webis-wikidiscussions-18.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/webis-wikidebate-18.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-webis-wvc-07.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-wdvc-15.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-pan-pc-09.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-pan-pc-10.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-pan-pc-11.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-pan-wqf-12.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-pan-wvc-10.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-pan-wvc-11.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-paga-12.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/data/corpus-scientific-authors-writing-style-17.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webis.de/research/netspeak.html</loc>
+  <lastmod>2018-10-08T13:51:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2018m.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2018j.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2018h.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2018g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2018k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2018b.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2018b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2018c.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2018c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2018r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2017b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017x.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017y.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017v.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2017r.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017q.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017s.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2017k.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2017h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2017g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2017c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2017e.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2017b.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2017c.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2017a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2017a.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2017a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2016o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2016p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016q.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/potthast_2016c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2016c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016s.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016n.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016m.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016k.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016j.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016i.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016l.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/potthast_2016a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2016a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2016b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/wachsmuth_2016.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016c.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016b.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2016b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016a.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2016d.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2016d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2015b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/wachsmuth_2015.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2015o.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2015n.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2015h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2015a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2015b.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2015c.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2015c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2014a.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2014b.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2014j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2014k.pdf</loc>
+  <lastmod>2018-10-02T07:46:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2014f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2014c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2014b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2014a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2013h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2013g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2013f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/anderka_2013.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2013b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2013a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2013a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/wachsmuth_2013.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/lipka_2013.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/alkhatib_2012.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012x.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012v.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/potthast_2012a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2012a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012w.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012w.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012q.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012q.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012s.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2012m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2012k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2012c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2012a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/potthast_2011b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2011b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/wachsmuth_2011.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011x.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011q.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011q.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011w.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011v.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2011a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011s.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2011e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2011e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010s.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/potthast_2010a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2010a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2010t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010t.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2010u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010u.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2010p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010p.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/potthast_2010b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2010b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2010r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010r.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2010j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2010i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2010h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2010f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2010b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2010a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2010a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/lipka_2010.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2009b.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2009a.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/eiselt_2009.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2009e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/potthast_2009a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2009a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2009a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2008b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2008b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2008c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2008b.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2008d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2008a.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2008c.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2008j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2008a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2007b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2007b.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2007a.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007n.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007o.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2007m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/arens_2007.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/potthast_2007.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/posters/stein_2007f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007i.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2007d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/meyerzueissen_2007.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2007e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2006l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2006j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2006.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2006b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/hagen_2005.pdf</loc>
+  <lastmod>2018-10-02T07:46:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2005e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2005d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2005a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/slides/stein_2005b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2005b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2004h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2004g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2004e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2004c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2004b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2004a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2003d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2003c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2003b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2003a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2003e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2002e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2002c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2002b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2002a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001h.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2001a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2000f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2000d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2000e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2000c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2000b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_2000a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1999a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1999e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1999c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1999d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1999b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998m.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998l.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998k.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998j.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998g.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1998a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1997c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1997b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1996b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1996a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1995c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1995b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1995a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1994d.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1994e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1993c.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1993b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1992b.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1992a.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1991f.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1991e.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://webis.de/downloads/publications/papers/stein_1990.pdf</loc>
+  <lastmod>2018-10-02T07:46:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
