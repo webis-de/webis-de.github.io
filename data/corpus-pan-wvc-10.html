@@ -5,6 +5,56 @@ title: PAN-WVC-10
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"PAN-WVC-10",
+    "description":"The PAN Wikipedia vandalism corpus 2010 (PAN-WVC-10) is a corpus for the evaluation of automatic vandalism detectors for Wikipedia. For research purposes the corpus can be used free of charge.",
+    "about":"As part of our research on automatic vandalism detection we have compiled a corpus of vandalism cases found in Wikipedia. The corpus compiles 32452 edits on 28468 Wikipedia articles, among which 2391 vandalism edits have been identified. To annotate the corpus we have used Amazon's Mechanical Turk; 753 workers have been recruited who cast more than 150000 votes on the edits, so that each edit was reviewed by at least 3 annotators. The achieved level of agreement was analyzed in order to label an edit as 'regular' or 'vandalism.'",
+    "url":"https://webis.de/data/corpus-pan-wvc-10.html",
+    "keywords":[
+        "wikipedia", 
+        "vandalism", 
+        "automatic vandalism detectors", 
+        "2010"
+    ], 
+    "datePublished":"2010",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#potthast",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"TXT",
+            "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-pan-wvc-10/pan-wikipedia-vandalism-corpus-2010.zip"
+        }
+    ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
         <h1>PAN-WVC-10</h1>
@@ -79,5 +129,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-pan-wvc-10");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-pan-wvc-10");
 </script>

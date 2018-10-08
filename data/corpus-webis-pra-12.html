@@ -5,6 +5,61 @@ title: Webis-PRA-12
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-PRA-12",
+    "description":"The Webis Patent Retrieval Corpus 2012 (Webis-PRA-12) is a corpus for studying the impact of misspelled companies on patent retrieval.",
+    "about":"The corpus contains 14,189 different company names extracted on the basis of 2,132,825 patents granted by the United States Patent and Trademark Office (USPTO) between 2001 and 2010.",
+    "url":"https://webis.de/data/corpus-webis-pra-12.html",
+    "keywords":[
+        "patent", 
+        "misspelled companies", 
+        "retrieval"
+    ], 
+    "datePublished":"2012",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#gollub",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Gollub, Tim"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#hoppe",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hoppe, Dennis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-pra-12/corpus-webis-pra-12.zip"
+        }
+    ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
         <h1>Webis-PRA-12</h1>
@@ -73,5 +128,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-pra-12");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-pra-12");
 </script>

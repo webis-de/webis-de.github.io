@@ -5,6 +5,82 @@ title: Webis-Editorials-16
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "name":"Webis-Editorials-16",
+  "description":"The Webis-Editorials-16 corpus is a novel corpus with 300 news editorials evenly selected from three diverse online news portals: Al Jazeera, Fox News, and The Guardian. The aim of the corpus is to study (1) the mining and classification of fine-grained types of argumentative discourse units and (2) the analysis of argumentation strategies pursued in editorials to achieve persuasion. To this end, each editorial contains manual type annotations of all units that capture the role that a unit plays in the argumentative discourse, such as assumption or statistics. The corpus consists of 14,313 units of six different types, each annotated by three professional annotators from the crowdsourcing platform upwork.com.",
+  "about":"Regarding the distribution of the argumentative discourse unit types in the corpus, some general tendencies as well as some insightful differences can be observed. Generally, more than two third of an editorial usually comprises assumptions. This is not surprising, as the type assumption covers both claims and any other propositions that may require justification. While The Guardian has the highest proportion of assumptions (71.7%), it represents the median for most other types. Fox News more strongly relies on common ground, with more than one unit of that type on average. Even more clearly, 8.7% of all units in Fox News editorials is testimony evidence, more than twice as many on average as in The Guardian (4.55 vs. 2.53). In contrast, Al Jazeera seems to put more emphasis on anecdote. At least, it spreads anecdotes across more units (21.0% of all). Interestingly, all three portals behave very similar in their resort to statistics at the same time.",
+  "url":"https://webis.de/data/corpus-webis-editorials-16.html",
+  "keywords":[
+    "news editorials", 
+    "news",
+    "arguments",
+    "argumentative discourse units", 
+    "argumentation strategies"
+  ], 
+  "datePublished":"2016",
+  "creator":[
+    {
+      "@type":"Organization",
+      "url":"https://webis.de/",
+      "name":"The Web Technology & Information Systems Network",
+      "alternateName":"Webis"
+    },
+    {
+      "@type":"Person", 
+      "url":"http://www.uni-weimar.de/medien/webis/people/#al-khatib",
+      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+      "name":"Al-Khatib, Khalid"
+    },
+    {
+      "@type":"Person", 
+      "url":"http://www.uni-weimar.de/medien/webis/people/#wachsmuth",
+      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+      "name":"Wachsmuth, Henning"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1617-6508", 
+      "@type": "Person", 
+      "affiliation": "Bauhaus-Universit\u00e4t Weimar", 
+      "url":"http://www.uni-weimar.de/medien/webis/people/#kiesel",
+      "name": "Kiesel, Johannes"
+    },
+    {
+      "@type":"Person", 
+      "url":"http://www.uni-weimar.de/medien/webis/people/#hagen",
+      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+      "name":"Hagen, Matthias"
+    },
+    {
+      "@type":"Person", 
+      "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+      "name":"Stein, Benno"
+    },
+    {
+      "@type":"Person", 
+      "url":"http://www.uni-weimar.de/medien/webis/people/#goering",
+      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+      "name":"G\u00F6ring, Steve"
+    }
+  ],
+  "includedInDataCatalog":{
+    "@type":"DataCatalog",
+    "name":"Webis Data Catalog",
+    "url":"https://webis.de/data/"
+  },
+  "distribution":[
+    {
+      "@type":"DataDownload",
+      "encodingFormat":"XMI",
+      "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-editorials-16/corpus-webis-editorials-16.zip"
+    }
+  ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
         <h1>Webis-Editorials-16</h1>
@@ -110,5 +186,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-editorials-16");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-editorials-16");
 </script>

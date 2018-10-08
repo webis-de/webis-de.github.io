@@ -14,14 +14,21 @@
     .image {
         display: table-cell;
         vertical-align: middle;
-        width: 120px;
+        width: 100px;
+        padding-left: 7px;
+
+        img {
+            width: 55px;
+        }
     }
 
     .people-image {
-        width: 110px;
-    }
-    .people-image img {
-        height: 100px;
+        width: 115px;
+        padding-left: 0;
+
+        img {
+            width: 83px;
+        }
     }
 
     .information {

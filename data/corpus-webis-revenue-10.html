@@ -5,6 +5,61 @@ title: Webis-Revenue-10
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-Revenue-10",
+    "description":"The corpus consists of 1,128 German news articles from the years 2003 to 2009, collected from 29 general and business news websites. In each article, statements on the revenue of companies or markets were manually annotated, i.e., sentences and entities that refer to a statement are tagged and linked to each other.",
+    "url":"https://webis.de/data/corpus-webis-revenue-10.html",
+    "keywords":[
+        "german news article", 
+        "news", 
+        "article", 
+        "revenue"
+    ], 
+    "datePublished":"*2010",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#wachsmuth",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Wachsmuth, Henning"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#prettenhofer",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Prettenhofer, Peter"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"XML",
+            "contentUrl":"http://infexba.uni-paderborn.de/fileadmin/Informatik/AG-Engels/webdesign/infexba/revenuecorpus_annotated.tar.gz"
+        }
+    ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
         <h1>Webis-Revenue-10</h1>
@@ -87,5 +142,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-revenue-10");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-revenue-10");
 </script>

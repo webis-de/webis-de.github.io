@@ -5,9 +5,63 @@ title: Webis-Sentences-17
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-Sentences-17",
+    "description":"The Webis-Sentences-17 corpus is a collection of 3,369,618,811 sentences extracted from the ClueWeb12 web crawl. It is designed to allow for statistical analyses of human-written sentences. More details on the sentence extraction can be found in the associated publication. The Webis-Simple-Sentences-17 corpus contains 471,085,690 English sentences from the Webis-Sentences-17 corpus. The sentences were sampled to achieve a level of sentence complexity similar to the one of sentences that humans make up as a memory aid for remembering passwords. Sentence complexity was determined by syllables per word. Both corpora are split in training and test set as they are used in the associated publication. The test set is extracted from part 00 of the ClueWeb12, while the training set is extracted from the other parts.",
+    "url":"https://webis.de/data/corpus-webis-sentences-17.html",
+    "keywords":[
+        "web crawl", 
+        "sentence", 
+        "readability", 
+        "password",
+        "Password Mnemonic"
+    ], 
+    "datePublished":"2017-02-27",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1617-6508", 
+            "@type": "Person", 
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar", 
+            "name": "Kiesel, Johannes"
+        }, 
+        {
+            "@type": "Person", 
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar", 
+            "name": "Stein, Benno"
+        }, 
+        {
+            "@type": "Person", 
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar", 
+            "name": "Lucks, Stefan"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "@id":"https://doi.org/10.5281/zenodo.205950",
+            "url":"https://zenodo.org/record/205950#.W7cu7hSxVtg"
+        }
+    ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>WWebis-Sentences-17</h1>
+        <h1>Webis-Sentences-17</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -77,5 +131,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-sentences-17");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-sentences-17");
 </script>

@@ -5,9 +5,74 @@ title: Webis-SMC-12<
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-SMC-12",
+    "description":"The Webis Search Mission Corpus 2012 (Webis-SMC-12) contains 8840 search engine interactions of 127 users. Two human annotators divided these interactions into 2881 logical sessions and 1378 missions. Cases where the annotators did not agree initially were discussed to reach a consensus.",
+    "about":"The Webis-SMC-12 is based on the AOL log query sample used in Daniel Gayo-Avello's search session corpus (A survey on session detection methods in query logs and a proposal for future evaluation. Information Sciences, 179(12):1822–1843, 2009.). From the AOL log we extracted all queries of the 215 users contained in the Gayo-Avello sample. We removed the few queries that are empty or just a URL (probably submitted by users mixing up the search field with the address bar) and all queries from the 88 users that submitted less than 4 queries in total (too few queries for reasonable logical sessions). The corpus contains a line for each interaction of a user. The interactions are ordered by time. Each line contains a user ID, the query string, a time stamp, and the rank and domain of the clicked result in case of a click interaction. This data comes from the AOL query log. Furthermore, we have annotated each interaction with a mission ID and potentially a comment from our annotators. The values in a line are tab-separated. Empty lines denote physical session breaks (more than 90 minutes between consecutive interactions) or logical session breaks (different search intents in one physical session). The interactions of different users are additionally split by a dashed line. The feature value data for our OAIR 2013 paper is provided for all query pairs (or session-query pairs) in the Webis-SMC-12 on which our cascading method invokes the specific steps for session or mission detection. There are different folders for session and mission detection and for the individual steps. Note that the mission detection test was invoked on the manually labeled sessions in the Webis-SMC-12 test set. The pdf of our OAIR 2013 paper is included for convenience. The notes file contains the user ID's used for training and test set.",
+    "url":"https://webis.de/data/corpus-webis-smc-12.html",
+    "keywords":[
+        "search engine interactions", 
+        "search", 
+        "engine", 
+        "interactions"
+    ], 
+    "datePublished":"2012",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Gomoll, Jakob"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Beyer, Anna"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"TXT",
+            "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-smc-12/corpus-webis-smc-12.zip"
+        },
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"TXT",
+            "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-smc-12/data-oair13-paper.zip"
+        }
+    ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Webis-SMC-12<</h1>
+        <h1>Webis-SMC-12</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -85,5 +150,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-smc-12");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-smc-12");
 </script>

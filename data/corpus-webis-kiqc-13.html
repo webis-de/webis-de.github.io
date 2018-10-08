@@ -5,6 +5,60 @@ title: Webis-KIQC-13
 description: Overview of corpora that are used by the Webis research group
 ---
 
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-KIQC-13",
+    "description":"The Webis Known-Item Question Corpus 2013 (Webis-KIQC-13) contains annotations for 2,755 questions posted on Yahoo! Answers. For each question, 2 annotators were asked to categorize the question as having a known-item information need or not, to identify a ClueWeb09 website representing the known item, and whether false memories are contained in the description of the need. The corpus represents the decisions of the annotators who had discussions for the few questions on which they did not agree initially. The corpus contains the IDs of the ClueWeb09 documents representing the known item and an annotated categorization and correction for questions with a false memory.",
+    "about":"The original questions were crawled from the Yahoo! Answers platform to enable repeatable research on realistic known-item topics.Each question entry in the corpus contains the returned information from the Yahoo! Answers API and additionally fields for the ClueWeb09-ID and the URL of the respective known-item, a Boolean field for whether false memories are included and in case that this is true also fields for the type of the false memory and a short correction notice. For more information on the construction of the dataset see the respective publication.",
+    "url":"https://webis.de/data/corpus-webis-kiqc-13.html",
+    "keywords":[
+        "questions", 
+        "yahoo", 
+        "known-item"
+    ], 
+    "datePublished":"2013",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"W\u00e4gner, Daniel"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"JSON",
+            "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-kiqc-13/corpus-webis-kiqc-13.zip"
+        }
+    ]
+}
+</script>
+
 <main class="uk-section uk-section-default">
     <div class="uk-container">
         <h1>Webis-KIQC-13</h1>
@@ -81,5 +135,5 @@ description: Overview of corpora that are used by the Webis research group
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "corpora:corpus-webis-kiqc-13");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-kiqc-13");
 </script>
