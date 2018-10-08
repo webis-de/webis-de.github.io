@@ -14,6 +14,66 @@ Examples: http://www.uni-weimar.de/en/media/chairs/webis/corpora/
 <meta charset="UTF-8" />
 <meta name="copyright" content="&copy; 2014 Webis" />
 <meta name="author" content="Webis" />
+
+<script type="application/ld+json">
+{
+	"@context":"http://schema.org/",
+	"@type":"Dataset",
+	"name":"*name of the Database",
+	"description":"*short description of the database in 1 or 2 sentences.",
+	"about":"*description of the reasearch",
+	"url":"*link that leads to this HTML web page.",
+	"sameAs":"*is there an id link?",
+	"keywords":[
+		"*some", 
+		"*key", 
+		"*words", 
+		"*to decribe the dataset"
+	], 
+	"datePublished":"*2018-12-31",
+	"image":"*link to image which describes corpus",
+	"issn":"*international standard serial number if available",
+	"measurementTechnique":"*technique or technology used in a Dataset",
+	"variableMeasured":"*variables measured in dataset",
+	"creator":[
+		{
+			"@type":"Organization",
+			"url":"https://webis.de/",
+			"name":"The Web Technology & Information Systems Network",
+			"alternateName":"Webis"
+		},
+		{
+			"@id":"*orcid id if available", 
+			"@type":"Person", 
+			"url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+			"affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+			"name":"*last name, first name"
+		}
+	],
+	"includedInDataCatalog":{
+		"@type":"DataCatalog",
+		"name":"Webis Data Catalog",
+		"url":"https://webis.de/data/"
+	},
+	"distribution":[
+		{
+			"@type":"DataDownload",
+			"encodingFormat":"CSV",
+			"contentUrl":"https://webis18.medien.uni-weimar.de/data/my-data.csv"
+		},
+		{
+			"@type":"DataDownload",
+			"encodingFormat":"XML",
+			"contentUrl":"*https://webis18.medien.uni-weimar.de/data/my-data.xml"
+		},
+		{
+			"@type":"DataDownload",
+			"@id":"*https://doi.org/10.5281/zenodo.1002204",
+			"url":"*link to zenodo"
+		}
+	]
+}
+</script>
 </head>
 
 
