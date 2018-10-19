@@ -4,18 +4,13 @@ layout: default
 
 <script src="{{ '/lecturenotes/browser/browser.js' | relative_url }}"></script>
 
-<footer class="sh-status-bar">
-  <div data-slidehub-page-widget></div>
-  <div data-slidehub-mousewheel-tip></div>
-  <div data-slidehub-modal-buttons></div>
-</footer>
-
 <main class="uk-margin-medium" data-slidehub="">
 <!-- SlideHub will hook itself as a child element into [data-slidehub] -->
 <div class="slidehub-container">
 
 <!-- units start -->
 {% for unitId in site.data.browser[page.collection].ordering %}
+{% if site.data.browser[page.collection] contains unitId %}
 {% assign unit = site.data.browser[page.collection][unitId] %}
 <div class="sh-doc" id="{{ unitId }}.pdf" data-doc-source="https://webis.de/downloads/lecturenotes/{{ page.collection }}/{{ unitId }}.pdf" style="--sh-pages: {{ unit.numpages }}"><div class="sh-doc-scrollbox"><div class="sh-page-container">
 {% for unitpage in unit.pages %}
@@ -23,6 +18,7 @@ layout: default
 {% endfor %}
   <div class="page dummy-page" aria-hidden="true" style="visibility: hidden;"></div>
 </div></div></div>
+{% endif %}
 {% endfor %}
 <!-- units end -->
 </div>
