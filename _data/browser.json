@@ -13754,5 +13754,3889 @@
                 }
             ]
         }
+    },
+    "search": {
+        "ordering": [
+            "unit-en-search-organization",
+            "unit-en-search-introduction",
+            "unit-en-representation1",
+            "unit-en-representation2",
+            "unit-en-basic-search1",
+            "unit-en-basic-search2",
+            "unit-en-informed-bf1",
+            "unit-en-informed-bf2",
+            "unit-en-informed-bf3",
+            "unit-en-astar-formal1",
+            "unit-en-astar-formal2",
+            "unit-en-astar-relaxed1",
+            "unit-en-astar-relaxed2",
+            "unit-en-relaxed-models",
+            "unit-en-game-playing-basics"
+        ],
+        "unit-en-search-organization": {
+            "sha": "9fe9679bcd3972c669c19a4d637cd1de7ac0949b",
+            "numpages": 4,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "e2652edd5671616c587fa1ad6a50c482108651f9",
+                    "description": "Search Algorithms Benno Stein"
+                },
+                {
+                    "page": 2,
+                    "sha": "6fcf09b08a9c6144e7e46d2393d01675859efe9d",
+                    "description": "Contents I. Introduction"
+                },
+                {
+                    "page": 3,
+                    "sha": "5f901ba21890b73e9d2308805f0afca709512782",
+                    "description": "Objectives "
+                },
+                {
+                    "page": 4,
+                    "sha": "7364e8069bcfb409fa3bc30bab013e66634557bc",
+                    "description": "Literature"
+                }
+            ]
+        },
+        "unit-en-search-introduction": {
+            "sha": "ae5c7b621d04679aab16d71b916aca74e8fe6d71",
+            "numpages": 47,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "e262b54868de0e428064f0335bdaff9650dfea09",
+                    "description": "Chapter S:I I. Introduction"
+                },
+                {
+                    "page": 2,
+                    "sha": "7eb7c67db3b1a0aac1b22fa2b9b5f1b93a91998e",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 3,
+                    "sha": "76ec05f319c13930dbbd36c2f4b351c1af5851ba",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 4,
+                    "sha": "1cd408918c23c0abd9c1105ad5edd0e0c0a20441",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 5,
+                    "sha": "d6fda2b282b9fb862c7f18a1578bdeca556d175a",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 6,
+                    "sha": "68a23b6dcd19794204e512d8af31b58e36c528a7",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 7,
+                    "sha": "d282def8e10821b01b28f00d8efd546e5d532bd7",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 8,
+                    "sha": "55c72b63011596a68a3a6f0e726ef5f5d702f84c",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 9,
+                    "sha": "6800f67b651f6ce9bf7882ec9a44c2330edfdc0e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 10,
+                    "sha": "b2857379227a0c6312028bc359628b48cad7f994",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 11,
+                    "sha": "cd6204e4c159118b0149e4b03bd0a8bb028a1d0e",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 12,
+                    "sha": "89ec0918c8dddef7f8ce8a9e5c35c1de217064df",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 13,
+                    "sha": "03b73edaadb414bddda5ec27e6f1e0dfb365e2cc",
+                    "description": "Examples for Search Problems 8-Queens Problem"
+                },
+                {
+                    "page": 14,
+                    "sha": "0c79d3f37360f584a7806d5b47711bcf243c6cbd",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 15,
+                    "sha": "a721931c6ca35b0a68a85cb69ca59a5caf4519ff",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 16,
+                    "sha": "2b880b12b20edc1218bb1c2332837e6a24a43438",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 17,
+                    "sha": "aafe366e657c78ade5b4131e22599aee6c98710a",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 18,
+                    "sha": "36cb1cde683abb373e277e9d28e3d318342d9752",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 19,
+                    "sha": "5cd11b9431cd5b716383a8138a21be50d4ea1f27",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 20,
+                    "sha": "4f4a4f5d104fdc7b2fb27f765be58e38b9404085",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 21,
+                    "sha": "83b69c83f15cc03f479e973dbcbad39d0ae014e7",
+                    "description": "Examples for Search Problems Road Map Problem"
+                },
+                {
+                    "page": 22,
+                    "sha": "573e038bcd974535ea85cfde8afb7bf8af9d56ab",
+                    "description": "Examples for Search Problems 8-Puzzle Problem"
+                },
+                {
+                    "page": 23,
+                    "sha": "48d70b392d201bb0a0e538e02d664d881ed266ec",
+                    "description": "Examples for Search Problems 8-Puzzle Problem"
+                },
+                {
+                    "page": 24,
+                    "sha": "d04ddcfbda99138109d0a74644b6255eeb4e1966",
+                    "description": "Examples for Search Problems 8-Puzzle Problem"
+                },
+                {
+                    "page": 25,
+                    "sha": "03767310b43c570072b42afe0cc9d73478f0c566",
+                    "description": "Examples for Search Problems 8-Puzzle Problem"
+                },
+                {
+                    "page": 26,
+                    "sha": "af57c1b45b2426462c8f440fe5dd6e479659aeae",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 27,
+                    "sha": "7c9e1367befa3683d0e8c7f55a9fb0b3f5436f4c",
+                    "description": "Examples for Search Problems 8-Puzzle Problem"
+                },
+                {
+                    "page": 28,
+                    "sha": "f7ebeb04643b412a831ca9ad982ed7601aa085dc",
+                    "description": "Examples for Search Problems 8-Puzzle Problem"
+                },
+                {
+                    "page": 29,
+                    "sha": "455a2c061b772f97447174b19368b37471a8a3c7",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 30,
+                    "sha": "57e42cbbd60c11851bc5e468078562155eccf986",
+                    "description": "Examples for Search Problems Traveling Salesman Problem (TSP)"
+                },
+                {
+                    "page": 31,
+                    "sha": "9eff5bb71132d6d9f95006a15a15b9b56d805076",
+                    "description": "Examples for Search Problems Traveling Salesman Problem"
+                },
+                {
+                    "page": 32,
+                    "sha": "afd2f464eae79dd3af4111938a1d39506a779a4d",
+                    "description": "Examples for Search Problems Traveling Salesman Problem"
+                },
+                {
+                    "page": 33,
+                    "sha": "7f4e308d5251e8a01e82f6410df35566e411a324",
+                    "description": "Examples for Search Problems Traveling Salesman Problem"
+                },
+                {
+                    "page": 34,
+                    "sha": "564ae2943d0891cee04199d7869c884a36e96158",
+                    "description": "Examples for Search Problems Traveling Salesman Problem"
+                },
+                {
+                    "page": 35,
+                    "sha": "5fcc425466a0dfe39b93af67cb0ed52817667fe4",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 36,
+                    "sha": "36bb14524672223d7ebd9e78cfd352435e17c3bd",
+                    "description": "Examples for Search Problems Traveling Salesman Problem"
+                },
+                {
+                    "page": 37,
+                    "sha": "0ecf29db455db9fd4fff3186fd460912d2674848",
+                    "description": "Examples for Search Problems Traveling Salesman Problem"
+                },
+                {
+                    "page": 38,
+                    "sha": "b0e34f886cb7011b70897d91b54f8abbe2975c4f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 39,
+                    "sha": "f18f489de2ce7f23bf53fb36c94016125e592f8f",
+                    "description": "Examples for Search Problems Blocks World Planning"
+                },
+                {
+                    "page": 40,
+                    "sha": "ceab13861be22e4bbd533db3ad74740c724d1afe",
+                    "description": "Examples for Search Problems Blocks World Planning"
+                },
+                {
+                    "page": 41,
+                    "sha": "49666e16cc6d5b0c1d0f0ce6fea3eb49c4a76f3b",
+                    "description": "Examples for Search Problems Blocks World Planning"
+                },
+                {
+                    "page": 42,
+                    "sha": "9a87ed1b60b59cf95e48e4b4d6f9fb9334e591d2",
+                    "description": "Examples for Search Problems Blocks World Planning"
+                },
+                {
+                    "page": 43,
+                    "sha": "a32d8f58e3a7ef1dac72496bc52c3a81eb072aae",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 44,
+                    "sha": "93ee8c0e2c8be9af3af2dffb0b3ce2dc23e0d6a4",
+                    "description": "Examples for Search Problems Problem Abstraction: State Transition System"
+                },
+                {
+                    "page": 45,
+                    "sha": "3851144d15394d09217351a43910b2a2e4f97afe",
+                    "description": "Examples for Search Problems Problem Abstraction: State Transition System"
+                },
+                {
+                    "page": 46,
+                    "sha": "a46ec95fbf33cdafa55db368841a201214c048fc",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 47,
+                    "sha": "d3381d12d5d015c16969b925dcf731e0875b607a",
+                    "description": "Search Problem Abstraction Questions"
+                }
+            ]
+        },
+        "unit-en-representation1": {
+            "sha": "99699705eace4a1b9d9c744e941b53e4da78a0a5",
+            "numpages": 34,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "1f857a2f1881730a3bf26efc5257ef97cc78c4a0",
+                    "description": "Chapter S:II II. Search Space Representation"
+                },
+                {
+                    "page": 2,
+                    "sha": "7f0fd447ef77eb93f89b74763c1542006911e63a",
+                    "description": "Systematic Search Types of Problems"
+                },
+                {
+                    "page": 3,
+                    "sha": "aeff3700893213586b7895d324f76b510bbc0a7e",
+                    "description": "Systematic Search Types of Problems"
+                },
+                {
+                    "page": 4,
+                    "sha": "dc9cdbf73877078f454900aa244b98030dce9354",
+                    "description": "Systematic Search Optimization Problems"
+                },
+                {
+                    "page": 5,
+                    "sha": "193c5137a8d883455a90a4a34d9a27d69fbb0c5b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 6,
+                    "sha": "cdc99a4c8570e6c8495c72301dcaf1c188c652d6",
+                    "description": "Remarks (continued) :"
+                },
+                {
+                    "page": 7,
+                    "sha": "9c6c36b1e1efdfa97f6fd54e1cf5cb875814c024",
+                    "description": "Systematic Search Search Building Blocks"
+                },
+                {
+                    "page": 8,
+                    "sha": "65639bae7355554e95a67e62223d90ebeecaf8ba",
+                    "description": "Systematic Search Search Building Blocks"
+                },
+                {
+                    "page": 9,
+                    "sha": "79b10de38a299bb6084ce18a754720b0dc95eb08",
+                    "description": "Systematic Search Search Building Blocks"
+                },
+                {
+                    "page": 10,
+                    "sha": "388353f8be2352d8e7759110f1fe74f188f9d381",
+                    "description": "Encoding of Problems Solution Bases"
+                },
+                {
+                    "page": 11,
+                    "sha": "5484e6e67b8cfa355eaa028c8b0304f6d41d01f9",
+                    "description": "Encoding of Problems Solution Bases"
+                },
+                {
+                    "page": 12,
+                    "sha": "6c05396156867645491a89ac1753ac5879e4db31",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 13,
+                    "sha": "d7a051b10b356dc9c5c05fb4664f69c4e768e602",
+                    "description": "Remarks (continued) :"
+                },
+                {
+                    "page": 14,
+                    "sha": "69dbd18689712baa4c10b795b8dcb41e3e0831af",
+                    "description": "Remarks (continued) :"
+                },
+                {
+                    "page": 15,
+                    "sha": "4487e346cc997aa33839374ecba3c9bc3357cc66",
+                    "description": "Encoding of Problems Solution Bases"
+                },
+                {
+                    "page": 16,
+                    "sha": "f269c405187923e3d1ced42dc04e96f1774535b3",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 17,
+                    "sha": "afb98a059dc74c606318e4e3af63ff53fb24bf18",
+                    "description": "Encoding of Problems Example: 8-Queens Problem"
+                },
+                {
+                    "page": 18,
+                    "sha": "dcf6667e88cdacb0c81aa5fd6a0307510fa56621",
+                    "description": "Encoding of Problems Example: 8-Puzzle Problem"
+                },
+                {
+                    "page": 19,
+                    "sha": "8a865e96ef37af5824da16bfa8948463e818ecdd",
+                    "description": "Encoding of Problems Example: 8-Puzzle Problem"
+                },
+                {
+                    "page": 20,
+                    "sha": "42012c016a704e1f5cdd03922a718f3e603e1061",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 21,
+                    "sha": "a57df4dc07a90de24593db6b1de3e592eb348e58",
+                    "description": "State-Space Representation The Concept of a State"
+                },
+                {
+                    "page": 22,
+                    "sha": "9a2ed67a9b51405c31327ed2463760f15996653c",
+                    "description": "State-Space Representation The Concept of a State"
+                },
+                {
+                    "page": 23,
+                    "sha": "88ecc8e7d79473f23c84dfa9e49bf55e530373a3",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 24,
+                    "sha": "17a57992be72151c48903a514885d4e2c39d332d",
+                    "description": "State-Space Representation Search Building Blocks"
+                },
+                {
+                    "page": 25,
+                    "sha": "271a08f4c9d4f5944694d442794194c95cbb436f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 26,
+                    "sha": "72432acca56d134bab5549dfd1e406be1c90a2ec",
+                    "description": "State-Space Representation Search Building Blocks"
+                },
+                {
+                    "page": 27,
+                    "sha": "7ad99be23c70648ea6307f584c9ee93b05fcb0fb",
+                    "description": "State-Space Representation Search Building Blocks"
+                },
+                {
+                    "page": 28,
+                    "sha": "7e6ab7afc1df3c2a0f1a9266f25ce302781408b4",
+                    "description": "State-Space Representation Solution Path"
+                },
+                {
+                    "page": 29,
+                    "sha": "2a1eb0b8ffba4c62448a8050fcaed03982d5536d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 30,
+                    "sha": "231b070c6af632a86f01fdcdc7eb0024bbc3f8e0",
+                    "description": "State-Space Representation Example: 8-Queens Problem"
+                },
+                {
+                    "page": 31,
+                    "sha": "d1dae362f535c8ccf02ade7d7c0ea05323ed1c55",
+                    "description": "State-Space Representation Example: 8-Puzzle Problem"
+                },
+                {
+                    "page": 32,
+                    "sha": "873f44d778d5a2fcb7f6a48eef6b7ccc795142c8",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 33,
+                    "sha": "66a89bb90c7eb98c8c4b7bcac775a2c7fcd4bd00",
+                    "description": "State-Space Representation Example: TSP"
+                },
+                {
+                    "page": 34,
+                    "sha": "ab0fd80b691488c5a489c4497047e79a4682a865",
+                    "description": "State-Space Representation Example: TSP"
+                }
+            ]
+        },
+        "unit-en-representation2": {
+            "sha": "8329b5a9393ad8dbe840ec7f05a36e428d47e669",
+            "numpages": 52,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "3b1a26583e990ac80f71a296295a1e853193df74",
+                    "description": "Chapter S:II II. Search Space Representation"
+                },
+                {
+                    "page": 2,
+                    "sha": "b6afc7f069d86850934cf902c3a0e34373102514",
+                    "description": "Problem-Reduction Representation The Counterfeit Coin Problem"
+                },
+                {
+                    "page": 3,
+                    "sha": "27e04c3476820c5345e377913b10c8e1d669ab27",
+                    "description": "Problem-Reduction Representation The Counterfeit Coin Problem"
+                },
+                {
+                    "page": 4,
+                    "sha": "ef4328800fc7d4e7b06aa718b5972b82d2dbb582",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "a36df0758cd788b9cb7d4a158b760a4c7a938e6c",
+                    "description": "Problem-Reduction Representation The Different Link Types"
+                },
+                {
+                    "page": 6,
+                    "sha": "670071fd8411f551902c7c46f6f06211f12b3efa",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 7,
+                    "sha": "a90c9932fe1d2f74f20dbe5860abaaebba9d463d",
+                    "description": "Problem-Reduction Representation Counterfeit Problem"
+                },
+                {
+                    "page": 8,
+                    "sha": "28f59b5e2799cf3bc6fc73031bd2899ec55eeae1",
+                    "description": "Problem-Reduction Representation Counterfeit Problem"
+                },
+                {
+                    "page": 9,
+                    "sha": "1637c2bd3e65faaaf67c856232af6e47b3440d61",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 10,
+                    "sha": "af92856697e369b56a2b8386f35964ae123a2214",
+                    "description": "Problem-Reduction Representation The Different Node types"
+                },
+                {
+                    "page": 11,
+                    "sha": "afe4302cf2404f985f7adcace0b9ed0dd7c8fc05",
+                    "description": "Problem-Reduction Representation Canonical Representation of AND-OR Graphs"
+                },
+                {
+                    "page": 12,
+                    "sha": "9058e50e63d57d9398d89f0b32981457dc71cc90",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 13,
+                    "sha": "7733e0307939aaa4d30f47f97645f73ea2dd28f4",
+                    "description": "Problem-Reduction Representation Search Building Blocks"
+                },
+                {
+                    "page": 14,
+                    "sha": "909619c4c67d4db1a095a9462b05dca04a5af0d2",
+                    "description": "Problem-Reduction Representation Solution Graph"
+                },
+                {
+                    "page": 15,
+                    "sha": "2d6f7a72e958bc4c0b7968438bcfdf690a41590e",
+                    "description": "Problem-Reduction Representation Solution Graph"
+                },
+                {
+                    "page": 16,
+                    "sha": "8235e43f6186a63b014a7b3fa3080ac26597b404",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 17,
+                    "sha": "bb08decf1c2f5343404cb5d9ee7e7cd7e227488c",
+                    "description": "Remarks (continued) :"
+                },
+                {
+                    "page": 18,
+                    "sha": "e19560ec5e82d32e935afba7fef4b0e82e0f00e8",
+                    "description": "Problem-Reduction Representation Solution Graph"
+                },
+                {
+                    "page": 19,
+                    "sha": "321ecea224a098521ec11eb962af43769e595f82",
+                    "description": "Problem-Reduction Representation Solution Graph"
+                },
+                {
+                    "page": 20,
+                    "sha": "d6a39b3f7867cb08f8aa05c945799acfad7bc7c0",
+                    "description": "Problem-Reduction Representation Solution Graph"
+                },
+                {
+                    "page": 21,
+                    "sha": "1006890cc941acf4d71dd86561cd61c8b62268ef",
+                    "description": "Problem-Reduction Representation Solution Graph"
+                },
+                {
+                    "page": 22,
+                    "sha": "8f622cfc50dca20eb4756967e4a78e9a93ca5e90",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 23,
+                    "sha": "da848c98e6ce225ede72a35123a5d27a2d4b988e",
+                    "description": "Problem-Reduction Representation Algorithm:"
+                },
+                {
+                    "page": 24,
+                    "sha": "e6eb9a032a2fff97635d457456d7c1def923dc59",
+                    "description": "Problem-Reduction Representation Algorithm:"
+                },
+                {
+                    "page": 25,
+                    "sha": "dfa8f740db82c658595a9a268c772a8a6ea51dad",
+                    "description": "Problem-Reduction Representation Algorithm:"
+                },
+                {
+                    "page": 26,
+                    "sha": "343a0ef01beaf2600cd7dd5f5e14be3d2e5ef02d",
+                    "description": "Problem-Reduction Representation Algorithm:"
+                },
+                {
+                    "page": 27,
+                    "sha": "023a90e31b30adc133939afa382c159ec737662a",
+                    "description": "Problem-Reduction Representation Algorithm:"
+                },
+                {
+                    "page": 28,
+                    "sha": "3df0f75bdeafeaf0fbae8cf550c411ae24f99128",
+                    "description": "Problem-Reduction Representation Solution Graphs with Cycles (1)"
+                },
+                {
+                    "page": 29,
+                    "sha": "9971a5ef235ec4c7a84ece3af49bd4b0a8ba4a09",
+                    "description": "Problem-Reduction Representation Solution Graphs with Cycles (1)"
+                },
+                {
+                    "page": 30,
+                    "sha": "e0268e00ed24aec4509e8bd6cd5920cf9e5dff58",
+                    "description": "Problem-Reduction Representation Solution Graphs with Cycles (1)"
+                },
+                {
+                    "page": 31,
+                    "sha": "1d6df610f7e5fad9b87035be53ea4ff43f51135d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 32,
+                    "sha": "f7d44f70ef69e9fd8871ec334294fbb08817f851",
+                    "description": "Problem-Reduction Representation Solution Graphs with Cycles (2)"
+                },
+                {
+                    "page": 33,
+                    "sha": "eb3b506b42091f31271b95d25544895ba4d19382",
+                    "description": "Problem-Reduction Representation Solution Graphs with Cycles (2)"
+                },
+                {
+                    "page": 34,
+                    "sha": "189c59ed7b86523e0bf96483eb87c0276bd4f847",
+                    "description": "Problem-Reduction Representation Hypergraphs"
+                },
+                {
+                    "page": 35,
+                    "sha": "d04ea26ea2c72338de5e795faf6795f4969a3346",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 36,
+                    "sha": "2906ed410e9eb16e2380952e784e90b23a8f1d69",
+                    "description": "Choosing a Representation Problem-Reduction Graphs with Alternating Node Types"
+                },
+                {
+                    "page": 37,
+                    "sha": "8586a44b7871104a279da959de183bcb31f1814a",
+                    "description": "Choosing a Representation Problem-Reduction Graphs with Alternating Node Types"
+                },
+                {
+                    "page": 38,
+                    "sha": "76a335316e602a323dc8dd868674e35139dd5d0d",
+                    "description": "Choosing a Representation Transforming Problem-Reduction into State-Space Graphs"
+                },
+                {
+                    "page": 39,
+                    "sha": "7ff2a74984d92922b99f062c32cfefd1ff0a613c",
+                    "description": "Choosing a Representation Transforming Problem-Reduction into State-Space Graphs"
+                },
+                {
+                    "page": 40,
+                    "sha": "3c98554f6391ba66f00754a56db65ce5d466d39e",
+                    "description": "Choosing a Representation Transforming Problem-Reduction into State-Space Graphs"
+                },
+                {
+                    "page": 41,
+                    "sha": "03a34adf6900b592b87b4b6ab8cc70a68bbf0543",
+                    "description": "Choosing a Representation Transforming Problem-Reduction into State-Space Graphs"
+                },
+                {
+                    "page": 42,
+                    "sha": "92d29847bec819c8bd3f23086d8978aa151a2f5b",
+                    "description": "Choosing a Representation Transformed Counterfeit Problem"
+                },
+                {
+                    "page": 43,
+                    "sha": "fa24ff82e18deff55a93866849bc50d98de4998f",
+                    "description": "Choosing a Representation State-Space versus Problem-Reduction Representation"
+                },
+                {
+                    "page": 44,
+                    "sha": "c82d309f3c0e1fb8cc5c98def737a328fa2151c4",
+                    "description": "Choosing a Representation State-Space versus Problem-Reduction Representation"
+                },
+                {
+                    "page": 45,
+                    "sha": "d48d09553e88d55ccba1b64606bd42b2fd3a3441",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 46,
+                    "sha": "d6440e24d88aab5f36b8a528ab75cb8e2d6e5f2c",
+                    "description": "Choosing a Representation Tower of Hanoi Problem"
+                },
+                {
+                    "page": 47,
+                    "sha": "6d989fb35499460b8772c9a908473beaa9543024",
+                    "description": "Choosing a Representation Tower of Hanoi Problem"
+                },
+                {
+                    "page": 48,
+                    "sha": "1e416c7f6e9284e1cf0bbe016684fca956c2bb1d",
+                    "description": "Choosing a Representation Tower of Hanoi Problem"
+                },
+                {
+                    "page": 49,
+                    "sha": "efa8e3e6fb3e4c8403e41dc0b73c88cbf867c157",
+                    "description": "Choosing a Representation Tower of Hanoi Problem"
+                },
+                {
+                    "page": 50,
+                    "sha": "2b5a054550ec86b6a74c4b023a64c2de8247736d",
+                    "description": "Choosing a Representation Means-End Analysis"
+                },
+                {
+                    "page": 51,
+                    "sha": "25d66120dd14e450bc64cd6d37925d2846a29b2b",
+                    "description": "Choosing a Representation Means-End Analysis"
+                },
+                {
+                    "page": 52,
+                    "sha": "e5ffd4176a28dfaccd1958f64ef52b1c866872a0",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-basic-search1": {
+            "sha": "c93d0ce61da5c7ab031454a33abce6dd1133f392",
+            "numpages": 96,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "6440ce1318121127708063383d478f7802d933d7",
+                    "description": "Chapter S:II II. Basic Search Algorithms"
+                },
+                {
+                    "page": 2,
+                    "sha": "b22926b95edcc115cffcdce18a198e2dcf91fe27",
+                    "description": "Systematic Search Types of Problems"
+                },
+                {
+                    "page": 3,
+                    "sha": "2c8022ece1e61a2687306a60b5d5fd22f486daf8",
+                    "description": "Systematic Search Types of Problems"
+                },
+                {
+                    "page": 4,
+                    "sha": "81ac3c0396ac2605407f1ae04c14c762e06963a5",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "19eb42112e66525f913a567c109bc9e0cf57767b",
+                    "description": "Systematic Search Search Building Blocks"
+                },
+                {
+                    "page": 6,
+                    "sha": "5af11ad2f10529b0b6ca199e774c6cb399c803c1",
+                    "description": "Systematic Search Definition 1 (Systematic Control Strategy)"
+                },
+                {
+                    "page": 7,
+                    "sha": "43ccdaf06cd350bae05cb4ef3c9cb7cbcc866279",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 8,
+                    "sha": "447ca43ff13ea85e41666ece0741aa71f8ee2586",
+                    "description": "Systematic Search Definition 2 (State Transition System)"
+                },
+                {
+                    "page": 9,
+                    "sha": "d304c62c94a1cdec60f3664917815af65fb76f79",
+                    "description": "Systematic Search Modeling as Reachability Problem for STS"
+                },
+                {
+                    "page": 10,
+                    "sha": "b2bbffe84ba2b6d988a368d23ca01ecd9a258852",
+                    "description": "Systematic Search Modeling as Reachability Problem for STS"
+                },
+                {
+                    "page": 11,
+                    "sha": "cfcf3f345c73e76813db894d8a379be336e3ddb6",
+                    "description": "Systematic Search Modeling as Reachability Problem for STS"
+                },
+                {
+                    "page": 12,
+                    "sha": "ca35177dd03022f07d83336df9a9f04d29f8d24b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 13,
+                    "sha": "e92d2703f92a56545176ad2bf6707177ab806322",
+                    "description": "Graph Search Basics Definition 3 (Directed Graph)"
+                },
+                {
+                    "page": 14,
+                    "sha": "3b143bc5e742b1b91f010bac4ede42642df07b23",
+                    "description": "Graph Search Basics Definition 3 (Directed Graph)"
+                },
+                {
+                    "page": 15,
+                    "sha": "ffdaf0f2a1132906953d940ff3e5b3c09b09f3ad",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 16,
+                    "sha": "9a0dfbb7450041d4548a0b68e63de3f84dc4a89d",
+                    "description": "Graph Search Basics Definition 4 (Path, Node Types, Outdegree)"
+                },
+                {
+                    "page": 17,
+                    "sha": "eb08d9c7a824041fcb51db4c24577646a636e816",
+                    "description": "Graph Search Basics Definition 4 (Path, Node Types, Outdegree)"
+                },
+                {
+                    "page": 18,
+                    "sha": "fc12043bb249d54e5678d674256e63d56ce69f31",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 19,
+                    "sha": "f28619b8973839b5a99572df1c5b1d948ad296a5",
+                    "description": "Graph Search Basics Definition 5 (Directed Tree, Uniform Tree)"
+                },
+                {
+                    "page": 20,
+                    "sha": "9fa8af7f284fd2740287c61296f25932553597aa",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 21,
+                    "sha": "7aa1f1dd81c0e423b2d1f7751c9e4be52fcdf4a0",
+                    "description": "Graph Search Basics Modeling as Path-Seeking Problem"
+                },
+                {
+                    "page": 22,
+                    "sha": "6789c2243b5aa19317990bb3e40ef06d46c78aa5",
+                    "description": "Graph Search Basics Modeling as Path-Seeking Problem"
+                },
+                {
+                    "page": 23,
+                    "sha": "6e31eedddb4803bd5be35ef5cab41f045935273a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 24,
+                    "sha": "d1c2d04e4aaecbd119830f36324d6de871e266a8",
+                    "description": "Graph Search Basics Modeling as Path-Seeking Problem"
+                },
+                {
+                    "page": 25,
+                    "sha": "a60969d505b967436bb396fcbabb7e2592f87953",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 26,
+                    "sha": "b64dc164f8443cc00ac7f29a824a1609956774a3",
+                    "description": "Graph Search Basics Illustration of Solution Paths and Solution Bases"
+                },
+                {
+                    "page": 27,
+                    "sha": "4fda26a2fb68c07bdc4d957cc3ed55da6dbcc428",
+                    "description": "Best-First Search for State-Space Graphs Illustration of Solution Paths and Solution Bases"
+                },
+                {
+                    "page": 28,
+                    "sha": "d40833906b8c47c380ddb8fdb94c3862b60c8d0b",
+                    "description": "Best-First Search for State-Space Graphs Illustration of Solution Paths and Solution Bases"
+                },
+                {
+                    "page": 29,
+                    "sha": "dc2c0b4f3d7a7283775881e636b80d15e723978d",
+                    "description": "Solution base for s : s"
+                },
+                {
+                    "page": 30,
+                    "sha": "919b175c5d10e4381db2ec1e2bb26047b522d50e",
+                    "description": "Graph Search Basics Graph Representation"
+                },
+                {
+                    "page": 31,
+                    "sha": "59a1e68015e47d78a16c740b65ea2d88caccc89a",
+                    "description": "S:II-31 "
+                },
+                {
+                    "page": 32,
+                    "sha": "709448b98fd3572fb80f974e690c9ee0b22ad3f8",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 33,
+                    "sha": "bfa34fd93f8e42a993576dfe9f80a0552701bda4",
+                    "description": "Graph Search Basics Definition 8 (Node Generation)"
+                },
+                {
+                    "page": 34,
+                    "sha": "928efad4813406191fed988f80cc631dd35f6f85",
+                    "description": "Graph Search Basics Node Generation as Basic Step"
+                },
+                {
+                    "page": 35,
+                    "sha": "6047d419a12482f5fa793d54186c0dc31de8ade1",
+                    "description": "Graph Search Basics Node Expansion as Basic Step"
+                },
+                {
+                    "page": 36,
+                    "sha": "05e301c0aff72a28bd42dbb9a5817535b4d5e922",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 37,
+                    "sha": "53a738178ca6c9a328ccec0f8cad26331578ac98",
+                    "description": "Graph Search Basics Explicit Parts of State-Space Subgraphs"
+                },
+                {
+                    "page": 38,
+                    "sha": "7e5bec33e0a345c9084f4caa96b326ef27e5f389",
+                    "description": "Graph Search Basics Requirements for an Algorithmization of State-Space Search"
+                },
+                {
+                    "page": 39,
+                    "sha": "4bb2e544a4763de1d6e085a9a465d6d4d8dfbd82",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 40,
+                    "sha": "d600af9f7ef4c0f2d8048d6efbe86d070bb14c54",
+                    "description": "Remarkss (continued) :"
+                },
+                {
+                    "page": 41,
+                    "sha": "62734f1ddca7717da4642957bf58c568653bc1fc",
+                    "description": "Graph Search Basics Algorithm:"
+                },
+                {
+                    "page": 42,
+                    "sha": "2ba7514395b0175682c53d6f251cb1277aa3b841",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 43,
+                    "sha": "71347644d6110759fb1d256468f367a40780f6bd",
+                    "description": "Graph Search Basics Efficient Storage of Solution Bases"
+                },
+                {
+                    "page": 44,
+                    "sha": "4004729ecd3536be08073e7eeabb95c2fdf37cac",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 45,
+                    "sha": "0856f39d10fd73fab224e9f9f036b3471373ec4d",
+                    "description": "Graph Search Basics Efficient Storage of Solution Bases"
+                },
+                {
+                    "page": 46,
+                    "sha": "59c986239a0e3bc51eb6156343544fdba8b1f14c",
+                    "description": "Graph Search Basics Efficient Storage of Solution Bases"
+                },
+                {
+                    "page": 47,
+                    "sha": "95547a64aedb2bc49c7419e808742e6601fb820a",
+                    "description": "Graph Search Basics Efficient Storage of Solution Bases"
+                },
+                {
+                    "page": 48,
+                    "sha": "e4bd5b9dbdf4c31c21eec9194577cb2ccc994770",
+                    "description": "Graph Search Basics Efficient Storage of Solution Bases"
+                },
+                {
+                    "page": 49,
+                    "sha": "49fed407230e483f144c5aaa534408b7132fb51d",
+                    "description": "Graph Search Basics Schema for Search Algorithms"
+                },
+                {
+                    "page": 50,
+                    "sha": "437941f26ef71b54019bfc1bbb5d4de07d875496",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 51,
+                    "sha": "98038e571225a801240c0d9644df68dcfd349456",
+                    "description": "Graph Search Basics Searching a Search Space Graph"
+                },
+                {
+                    "page": 52,
+                    "sha": "f019854e3663b5d524f30fa070dc852e37c2b7ae",
+                    "description": "Graph Search Basics Searching a Search Space Graph"
+                },
+                {
+                    "page": 53,
+                    "sha": "a03f55dd11217c9c20e1100f3a167fb301ab982f",
+                    "description": "Graph Search Basics Searching a Search Space Graph"
+                },
+                {
+                    "page": 54,
+                    "sha": "ed882d84704d0d97377571bf4d962d4f1a084137",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 55,
+                    "sha": "e5c46253a1a7bc55ad57f2fc0a5d412ba507887a",
+                    "description": "Graph Search Basics Algorithm:"
+                },
+                {
+                    "page": 56,
+                    "sha": "fc555b49986ba899cce139a419f6e767c4ef92a1",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 57,
+                    "sha": "f75a3dc412049941255e002f018f406cfa9d3193",
+                    "description": "Graph Search Basics Searching a Search Space Graph"
+                },
+                {
+                    "page": 58,
+                    "sha": "666ec5cab948208a366cefbb97b89e471811470e",
+                    "description": "Graph Search Basics Uninformed Systematic Search"
+                },
+                {
+                    "page": 59,
+                    "sha": "a14af61d8c382fe0e15c4977b446228ecf50922c",
+                    "description": "Graph Search Basics Uninformed Systematic Search"
+                },
+                {
+                    "page": 60,
+                    "sha": "cc2b82730f7b8641e0e5ccc78658bfbe7b1824bd",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 61,
+                    "sha": "b8c9c7ee043db094325b0c0b0ae4933d2eee4f45",
+                    "description": "Depth-First Search (DFS) Depth-first search is an uninformed (systematic) search strategy."
+                },
+                {
+                    "page": 62,
+                    "sha": "cf95661a58a7e2b2f7a9d114fabcae935731ed3b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 63,
+                    "sha": "56c1730621edca2a853e7c5b195c8df9fba2c4b0",
+                    "description": "Depth-First Search Algorithm:"
+                },
+                {
+                    "page": 64,
+                    "sha": "2c5b5f4c8e5fbbfb9e7bc47d6c105c701aab78fb",
+                    "description": "Depth-First Search "
+                },
+                {
+                    "page": 65,
+                    "sha": "0486648828f34cdb063d8164445b66b7a85fa754",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 66,
+                    "sha": "bf49f4fbd1bafedb8f5a2ebbff3c794e4e63cfa3",
+                    "description": "Depth-First Search "
+                },
+                {
+                    "page": 67,
+                    "sha": "7a7deb718af7a86c0e08ceed98fa2779ce38c137",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 68,
+                    "sha": "f871c1228571cb73f229c56874b4983bf709a19e",
+                    "description": "Depth-First Search "
+                },
+                {
+                    "page": 69,
+                    "sha": "f39947d8b021809d3e3883b8c9edb0560f35a0cf",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 70,
+                    "sha": "00664f9f763f49040ff1789aa77872b055ff0dfe",
+                    "description": "Depth-First Search Discussion"
+                },
+                {
+                    "page": 71,
+                    "sha": "6edfc39534e40238c6ea704b55cecdba2cb4f71b",
+                    "description": "Depth-First Search Discussion"
+                },
+                {
+                    "page": 72,
+                    "sha": "2c4e738974a2c4359a803397e111211d9aa6fe5e",
+                    "description": "Depth-First Search Example: 4-Queens Problem"
+                },
+                {
+                    "page": 73,
+                    "sha": "d727065ca6d9d41ca91268fe1826ac138952ebeb",
+                    "description": "Depth-First Search Example: 4-Queens Problem"
+                },
+                {
+                    "page": 74,
+                    "sha": "cb7a8bc725af45bbfd1907a202431a3657f21387",
+                    "description": "Depth-First Search Example: 4-Queens Problem"
+                },
+                {
+                    "page": 75,
+                    "sha": "7049c01b1cad0d269bba5085bbca6839239d6ba5",
+                    "description": "Depth-First Search Example: 4-Queens Problem"
+                },
+                {
+                    "page": 76,
+                    "sha": "818744c4eec2b413d147d908da1421aa03248069",
+                    "description": "Depth-First Search Search Depth"
+                },
+                {
+                    "page": 77,
+                    "sha": "dd4b9aae31817d7b48a4046ad558d7833b7d4d85",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 78,
+                    "sha": "0fe84dd72609d504b97714b4d9bbf1030b285358",
+                    "description": "Remarks (continued) :"
+                },
+                {
+                    "page": 79,
+                    "sha": "7001d66efe5600f6a52de7ba859af9f0bca4a760",
+                    "description": "Backtracking (BT) Backtracking is a variant of depth-first search."
+                },
+                {
+                    "page": 80,
+                    "sha": "ab2e69989f09b40bdb3860c469a7fb4512b22f74",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 81,
+                    "sha": "cd246646a82b79add4de802b4c3ce9302d783b0f",
+                    "description": "Backtracking Algorithm:"
+                },
+                {
+                    "page": 82,
+                    "sha": "ca8f8afe870c35d899a9ed77e883535d7c1948b1",
+                    "description": "Backtracking "
+                },
+                {
+                    "page": 83,
+                    "sha": "1846d69ac66a3bf9d8da1df868fba8b43ba7e7b6",
+                    "description": "Backtracking Discussion"
+                },
+                {
+                    "page": 84,
+                    "sha": "e44737d4544382e75f136ffc51c802518b144277",
+                    "description": "Backtracking Discussion"
+                },
+                {
+                    "page": 85,
+                    "sha": "26a882e8227de407fc52e56909463d129602bf1a",
+                    "description": "Backtracking Non-Monotone Backtracking: 8-Queens Problem"
+                },
+                {
+                    "page": 86,
+                    "sha": "e935b6b62d6f75d46a40c667d6e4915ad48b2b6c",
+                    "description": "Backtracking Non-Monotone Backtracking: 8-Queens Problem"
+                },
+                {
+                    "page": 87,
+                    "sha": "9752f45ddb94679e704b080b004041a057edb603",
+                    "description": "Backtracking Non-Monotone Backtracking: 8-Queens Problem"
+                },
+                {
+                    "page": 88,
+                    "sha": "6d4578339205c45cf448b0375a3364c85212befc",
+                    "description": "Backtracking Non-Monotone Backtracking: 8-Queens Problem"
+                },
+                {
+                    "page": 89,
+                    "sha": "ce5cd96ca7b4e0eb5bc4e657a05ff83bc2d265f6",
+                    "description": "Backtracking Non-Monotone Backtracking: 8-Queens Problem"
+                },
+                {
+                    "page": 90,
+                    "sha": "7e85a033bbddd14781aa92679cc5e805fad9b260",
+                    "description": "Backtracking Non-Monotone Backtracking: Generic"
+                },
+                {
+                    "page": 91,
+                    "sha": "c98401ea0b8ad453bf9b4476206dd70340e5ba9b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 92,
+                    "sha": "1930b442d73f244fa1ceb0f88d506ed5c5657dc8",
+                    "description": "Backtracking Simple Cost Concepts"
+                },
+                {
+                    "page": 93,
+                    "sha": "85903873b94c6542d71d98f950e2ad7fe3749c1f",
+                    "description": "Backtracking Backtracking for Optimization: Generic"
+                },
+                {
+                    "page": 94,
+                    "sha": "49216a8a30becaac4ad2b555956f972b8ab9877c",
+                    "description": "Backtracking Backtracking for Optimization: Example"
+                },
+                {
+                    "page": 95,
+                    "sha": "dda5196eceac7955e382b1a9c9251433e8f47aa9",
+                    "description": "Backtracking Backtracking for Optimization: Example"
+                },
+                {
+                    "page": 96,
+                    "sha": "c98b5802bf55749cfddb18de3d7b9aa099feca27",
+                    "description": "Backtracking Backtracking for Optimization: Example"
+                }
+            ]
+        },
+        "unit-en-basic-search2": {
+            "sha": "d95284a1677b962aa873fa38a696fc764554c935",
+            "numpages": 15,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "946b2c52a9b45b3e2bb569c7b2729f5a42db7468",
+                    "description": "Chapter S:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "5b5d4568294cf0826a07c27336e729718f8cdfba",
+                    "description": "Breadth-First Search (BFS) "
+                },
+                {
+                    "page": 3,
+                    "sha": "eb4be43b25ff8797997ab2de206cdb646f5af7cc",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 4,
+                    "sha": "2618ee1260508bd9cc7ac3eb9fe1fc942e8bc51b",
+                    "description": "Breadth-First Search Algorithm:"
+                },
+                {
+                    "page": 5,
+                    "sha": "71ae9afbeb680cb5c519e3dbdd7d5ee5571f62f0",
+                    "description": "Breadth-First Search BFS(s, successors, ?, \u22a5)"
+                },
+                {
+                    "page": 6,
+                    "sha": "cfae423a50ced697854c89f57d8e65e40d4a1d2e",
+                    "description": "Breadth-First Search BFS(s, successors, ?, \u22a5)"
+                },
+                {
+                    "page": 7,
+                    "sha": "7ffa21e744bbcbacda2a9b250d8a9105ab61fe7a",
+                    "description": "Breadth-First Search Discussion"
+                },
+                {
+                    "page": 8,
+                    "sha": "6c899d5fd17deaefddffa1af135d0f21534bfd16",
+                    "description": "Breadth-First Search Discussion"
+                },
+                {
+                    "page": 9,
+                    "sha": "9d7280ed43b784cf2814ba85679a857bbc6d7fbe",
+                    "description": "Breadth-First Search Example: 4-Queens Problem"
+                },
+                {
+                    "page": 10,
+                    "sha": "c2177cb53ba9ac6180e03d29d951c6a01a231169",
+                    "description": "Breadth-First Search Example: 4-Queens Problem"
+                },
+                {
+                    "page": 11,
+                    "sha": "4ce41c11bba64f788867a341060da9cc6b4b3640",
+                    "description": "Uniform-Cost Search "
+                },
+                {
+                    "page": 12,
+                    "sha": "898aef061d4c243299a87d5c9a372971b4dc61dc",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 13,
+                    "sha": "380a365a3fdfc03564218b0f7119e955360454d5",
+                    "description": "Uniform-Cost Search Uniform-Cost Search for Optimization: Generic"
+                },
+                {
+                    "page": 14,
+                    "sha": "9bcbf26eb081298410149aff70842c51979261af",
+                    "description": "Uniform-Cost Search Uniform-Cost Search for Optimization: Example"
+                },
+                {
+                    "page": 15,
+                    "sha": "2a227872f633905c8d488d9adbd08cb6b1348550",
+                    "description": "Uniform-Cost Search Uniform-Cost Search for Optimization: Example"
+                }
+            ]
+        },
+        "unit-en-informed-bf1": {
+            "sha": "252253fc594a566fe0d51b1739acebf8a6275621",
+            "numpages": 102,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "e53666f0d475fdb3ec61a507ee62451bf2cb2108",
+                    "description": "Chapter S:IV IV. Informed Search"
+                },
+                {
+                    "page": 2,
+                    "sha": "75392c8da5e30f33cfddc3b35bcc2fcbcbeaa251",
+                    "description": "Best-First Search \u201cTo enhance the performance of AI\u2019s programs, knowledge [about the"
+                },
+                {
+                    "page": 3,
+                    "sha": "3c77291e44e98787dfb7eea6287a05744c1eac4d",
+                    "description": "Best-First Search \u201cTo enhance the performance of AI\u2019s programs, knowledge [about the"
+                },
+                {
+                    "page": 4,
+                    "sha": "225603b75ee4ec2854c8a2461d67dba4f71de004",
+                    "description": "Best-First Search \u201cTo enhance the performance of AI\u2019s programs, knowledge [about the"
+                },
+                {
+                    "page": 5,
+                    "sha": "00a8ea9bea43bea37fbe6183013f4e9c666e02ec",
+                    "description": "Best-First Search \u201cTo enhance the performance of AI\u2019s programs, knowledge [about the"
+                },
+                {
+                    "page": 6,
+                    "sha": "86e9e3a63c68fd1c4dbc594bd0d9a7ca4acdb1c3",
+                    "description": "Best-First Search \u201cThe promise of a node is estimated numerically by a heuristic"
+                },
+                {
+                    "page": 7,
+                    "sha": "c07be448338fee18157cd8dd724f657def31945e",
+                    "description": "Best-First Search \u201cThe promise of a node is estimated numerically by a heuristic"
+                },
+                {
+                    "page": 8,
+                    "sha": "f3ef1c259eb39b7d8617cc187aac38e93b55cb86",
+                    "description": "Best-First Search Schema for Best-First Algorithms"
+                },
+                {
+                    "page": 9,
+                    "sha": "a41553afd49cab5ba2eb3177541d425540a0e232",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 10,
+                    "sha": "c627440e696fc8a6067f44a601264cd4723603b7",
+                    "description": "Best-First Search for State-Space Graphs Illustration of Solution Paths and Solution Bases"
+                },
+                {
+                    "page": 11,
+                    "sha": "55bb672daee38a04fd41843bc348c732603fd486",
+                    "description": "Best-First Search for State-Space Graphs Illustration of Solution Paths and Solution Bases"
+                },
+                {
+                    "page": 12,
+                    "sha": "98608c5730d416a43bd938f38ee943f4da7ba892",
+                    "description": "Best-First Search for State-Space Graphs Illustration of Solution Paths and Solution Bases"
+                },
+                {
+                    "page": 13,
+                    "sha": "6e641880c183c4f6333a38b76fac7b6ccc790a7a",
+                    "description": "Best-First Search for State-Space Graphs Definition 11 (Solution Base in a State-Space Graph)"
+                },
+                {
+                    "page": 14,
+                    "sha": "09f101e9f8e6bbf1199e776865d6963dfcc28add",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 15,
+                    "sha": "5d92267707fa58814473e27d963e406ea30fbd72",
+                    "description": "Best-First Search for State-Space Graphs Principles of Algorithm BF"
+                },
+                {
+                    "page": 16,
+                    "sha": "feb39620a96ac4d482d930889f2cc80c8e7a07b2",
+                    "description": "Best-First Search for State-Space Graphs Principles of Algorithm BF"
+                },
+                {
+                    "page": 17,
+                    "sha": "b52243b7dabf9278874ccbf08c73649b71036d78",
+                    "description": "Best-First Search for State-Space Graphs Principles of Algorithm BF"
+                },
+                {
+                    "page": 18,
+                    "sha": "d9fc92b70a22c01899e44471a3cf8a9e879cdbe4",
+                    "description": "Best-First Search for State-Space Graphs Principles of Algorithm BF"
+                },
+                {
+                    "page": 19,
+                    "sha": "39f5a7c98692fa1bb6a2e2d0e2dd31470d40090b",
+                    "description": "Best-First Search for State-Space Graphs Principles of Algorithm BF"
+                },
+                {
+                    "page": 20,
+                    "sha": "2d49c45c1132ee83b5e61218886fcee024a25c99",
+                    "description": "Best-First Search for State-Space Graphs Principles of Algorithm BF"
+                },
+                {
+                    "page": 21,
+                    "sha": "02775391720ef995b3b450a3cc50a1e021888170",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 22,
+                    "sha": "06ce7cf596aa9b4bd4fbb8570b1637f32cd884ab",
+                    "description": "Best-First Search for State-Space Graphs Algorithm:"
+                },
+                {
+                    "page": 23,
+                    "sha": "ec8cec5ba40aeb47a784d463f2afebdea85a4c3c",
+                    "description": "Best-First Search for State-Space Graphs BF(s, successors, ?, f )"
+                },
+                {
+                    "page": 24,
+                    "sha": "de8af443f7fdd48d3796472d55113711f66992bc",
+                    "description": "Best-First Search for State-Space Graphs BF(s, successors, ?, f )"
+                },
+                {
+                    "page": 25,
+                    "sha": "69fd44c43d7a9b844f06063b823c2bf6a588ea92",
+                    "description": "Best-First Search for State-Space Graphs BF(s, successors, ?, f )"
+                },
+                {
+                    "page": 26,
+                    "sha": "8761dbcef7de6ea7e63b60b084782569aca216b8",
+                    "description": "Best-First Search for State-Space Graphs BF(s, successors, ?, f )"
+                },
+                {
+                    "page": 27,
+                    "sha": "c7e776ce8142df37268d4b7b05bed87e05a4eb89",
+                    "description": "Best-First Search for State-Space Graphs "
+                },
+                {
+                    "page": 28,
+                    "sha": "59f6147ca2174e8fe3838cae9c93530c6417e1b7",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 29,
+                    "sha": "bd20124f56075618c941c6dd454eebd027024b4a",
+                    "description": "Best-First Search for State-Space Graphs Path Discarding for a Node n0"
+                },
+                {
+                    "page": 30,
+                    "sha": "016aa5b06f86174c8ec90bf4801fb8e6ec6ceb4f",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 31,
+                    "sha": "3a957e51f3bece3dab01eda0f1b9b0297eb8adc5",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 32,
+                    "sha": "04f3ee0b2f8ee956990c5feb9d30ff5a7099bb76",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 33,
+                    "sha": "4425779d52671189f76ec90622dc37395fd6f085",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 34,
+                    "sha": "c9afe8f00cec189cb3a0a7e54dd1ef0a24e1c5a7",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 35,
+                    "sha": "18fd90eb4006ac86cd530d4a29e785dfdc5b6f42",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 36,
+                    "sha": "38c0805a2555cda3656f993909b63fa06b6ff359",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 37,
+                    "sha": "eab80c7a96d0e3f6ef7592c4750effdf1f1098d3",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 38,
+                    "sha": "d447fa1d70c9288cf34f4db817135b756c4fe09a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 39,
+                    "sha": "0188827e753b6696afa67655e97a71d1f8c25ce6",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 40,
+                    "sha": "501fca13b3fba3f643fee55a1178a9c1d2e1c18a",
+                    "description": "Best-First Search for State-Space Graphs Re-evaluation of a Node n0"
+                },
+                {
+                    "page": 41,
+                    "sha": "04c22004926afd56415791a5bf54106e1e0a3f74",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 42,
+                    "sha": "3e80ae060ee99b575cec9433bea03d0fa26df153",
+                    "description": "Best-First Search for State-Space Graphs Optimality of Algorithm BF"
+                },
+                {
+                    "page": 43,
+                    "sha": "268bab6ee72c8a561ec09f0168db5d26a9d5c964",
+                    "description": "Best-First Search for State-Space Graphs Optimality of Algorithm BF"
+                },
+                {
+                    "page": 44,
+                    "sha": "8387f3f1b83ba336219f294a7f64b9a303a2a0a1",
+                    "description": "Best-First Search for State-Space Graphs "
+                },
+                {
+                    "page": 45,
+                    "sha": "2abdff9327d8c0104898ac2bc048a9a724f09446",
+                    "description": "Best-First Search for State-Space Graphs Irrevocable Path Discarding in Algorithm BF"
+                },
+                {
+                    "page": 46,
+                    "sha": "b9e317c6265a99e070cb402d4b58f19a441fbb15",
+                    "description": "Best-First Search for State-Space Graphs Irrevocable Path Discarding in Algorithm BF"
+                },
+                {
+                    "page": 47,
+                    "sha": "19635d471e94197c100eb0085b45acf0599b41bc",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of Solution Graphs and Solution Bases"
+                },
+                {
+                    "page": 48,
+                    "sha": "b41555f8a4d5b8727b2e3f56d91af3bb2f534ccf",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of Solution Graphs and Solution Bases"
+                },
+                {
+                    "page": 49,
+                    "sha": "c76314694a2fe16ba21fc2f0cc9994f2c6bf6394",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of Solution Graphs and Solution Bases"
+                },
+                {
+                    "page": 50,
+                    "sha": "fdb641bac1592ea058406c0cf7a812f8239b6e16",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of Solution Graphs and Solution Bases"
+                },
+                {
+                    "page": 51,
+                    "sha": "5285b5a7b4466904df8ac8dea0ad6025bc5f15d3",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of Solution Graphs and Solution Bases"
+                },
+                {
+                    "page": 52,
+                    "sha": "4f452181bf2c459aafc2e04047fdd9b691aad169",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of Solution Graphs and Solution Bases"
+                },
+                {
+                    "page": 53,
+                    "sha": "c475c099232b11a8654ca3509d40fe209e76ab18",
+                    "description": "Best-First Search for AND-OR Graphs Definition 12 (Solution Base in a Problem-Reduction Graph)"
+                },
+                {
+                    "page": 54,
+                    "sha": "5570845811109a8d20df9f9ddf78ad767b2a81da",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 55,
+                    "sha": "531d002594a838046541501d2a36a5fe74dbcca8",
+                    "description": "Best-First Search for AND-OR Graphs Principles of Algorithm GBF"
+                },
+                {
+                    "page": 56,
+                    "sha": "f08f9282cf1ce1f864d513aa96ac1e3c517f15dd",
+                    "description": "Best-First Search for AND-OR Graphs Principles of Algorithm GBF"
+                },
+                {
+                    "page": 57,
+                    "sha": "266643c9a48496a550687d7b90bc70dde1d2c50d",
+                    "description": "Best-First Search for AND-OR Graphs Principles of Algorithm GBF"
+                },
+                {
+                    "page": 58,
+                    "sha": "e82f46b5e45e66498b519bf8fed8bbc6fc529267",
+                    "description": "Best-First Search for AND-OR Graphs Principles of Algorithm GBF"
+                },
+                {
+                    "page": 59,
+                    "sha": "47debe10d4636386c85edce379f19db1648b76fe",
+                    "description": "Best-First Search for AND-OR Graphs Principles of Algorithm GBF"
+                },
+                {
+                    "page": 60,
+                    "sha": "d5c4f165eb5feaf02a14260a0dcd52aeed349b29",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 61,
+                    "sha": "50aa12861a3a43d688e4d644ff5b3fc899c22095",
+                    "description": "Best-First Search for AND-OR Graphs Algorithm:"
+                },
+                {
+                    "page": 62,
+                    "sha": "43ab1ae47b302301f52bf8aae524ff17ff8e479f",
+                    "description": "Best-First Search for AND-OR Graphs GBF(s, successors, \u22a5, ?, f1 , f2 )"
+                },
+                {
+                    "page": 63,
+                    "sha": "f0200d97e030682f63b657fd4fac79ca90c9cdb5",
+                    "description": "Best-First Search for AND-OR Graphs GBF(s, successors, \u22a5, ?, f1 , f2 )"
+                },
+                {
+                    "page": 64,
+                    "sha": "0424d756004a2c4078f46af90b36b1723f4de0e2",
+                    "description": "Best-First Search for AND-OR Graphs GBF(s, successors, \u22a5, ?, f1 , f2 )"
+                },
+                {
+                    "page": 65,
+                    "sha": "d8af1cb5ae7c51b15ec03801a98b58b92cbe9a38",
+                    "description": "Best-First Search for AND-OR Graphs GBF(s, successors, \u22a5, ?, f1 , f2 )"
+                },
+                {
+                    "page": 66,
+                    "sha": "4d3b127df07ce1257c7e49427b9a72074602f16b",
+                    "description": "Best-First Search for AND-OR Graphs "
+                },
+                {
+                    "page": 67,
+                    "sha": "89bf436170f26916821fc8f1433d11c3b955ad92",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 68,
+                    "sha": "0f64a9e5d4665feccadf34416f090080e25412ad",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 69,
+                    "sha": "c76af2ce2bde13f04406475f4e19150c4f32f1dd",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 70,
+                    "sha": "f9db6f9e9ab2e3f315c6bf065d32bfe143fb04e5",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 71,
+                    "sha": "894f3c3ceb4787f921ddf4059a05971a8985ac83",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 72,
+                    "sha": "0968afa84359bd14d2ca3bc0a899bda6511ac359",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 73,
+                    "sha": "df782be7ec2feb19564d280d5ff108e5ef142db5",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 74,
+                    "sha": "a0b852fe2a7d92713b48b843d9743ca12f601a90",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 75,
+                    "sha": "e4aa06ecdb754baa01b23f4168390e663936b300",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 76,
+                    "sha": "bd829f1f40b1a7b9c9cb8e45ab03e5d2821a6c03",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 77,
+                    "sha": "e8bf684b1d0bbd5b672ab2165ac1d156a01b71e5",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 78,
+                    "sha": "ec7aef6670002140da9d33c1cf6b139dfe4d78eb",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 79,
+                    "sha": "fb052010fa3f82df3fd7628d40c520702107054f",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 80,
+                    "sha": "1d2fa3272aa08ded67f81dc4d3a5d7c85638e0d4",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 81,
+                    "sha": "a9c1078a75bc2da9455ab7ed1de00708550fe4d1",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF"
+                },
+                {
+                    "page": 82,
+                    "sha": "3f8d1c07fdda083ae5824596a5ed113f567a8891",
+                    "description": "Best-First Search for AND-OR Graphs Multiple Accounting of a Node"
+                },
+                {
+                    "page": 83,
+                    "sha": "5e96abed5c6baaf8621ab9c93f9519ba805a8ce1",
+                    "description": "Best-First Search for AND-OR Graphs Multiple Accounting of a Node"
+                },
+                {
+                    "page": 84,
+                    "sha": "741d5a0b062662f870b67c8811e909b3516000b5",
+                    "description": "Best-First Search for AND-OR Graphs Multiple Accounting of a Node"
+                },
+                {
+                    "page": 85,
+                    "sha": "4bbfd74e7b8373d79c44ec8bd3240aeb162ba1df",
+                    "description": "Best-First Search for AND-OR Graphs Multiple Accounting of a Node"
+                },
+                {
+                    "page": 86,
+                    "sha": "0f8a4ec1091913319bc2d41045ea728c1e5e9d9a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 87,
+                    "sha": "bc4cf90e48f21801dc1116266f507b602338f214",
+                    "description": "Best-First Search for AND-OR Graphs Optimality of Algorithm GBF"
+                },
+                {
+                    "page": 88,
+                    "sha": "fa1bf61378616addb244852d3b5cf2859a8baf62",
+                    "description": "Best-First Search for AND-OR Graphs Optimality of Algorithm GBF"
+                },
+                {
+                    "page": 89,
+                    "sha": "f7ddbb0af8c1a9def406eb41e9bb7db7add6358a",
+                    "description": "Best-First Search for AND-OR Graphs "
+                },
+                {
+                    "page": 90,
+                    "sha": "9ff18b86221ca709894df3e220d69a7717e03c0c",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF*"
+                },
+                {
+                    "page": 91,
+                    "sha": "bb36181b4d6d51d5bf0775b18a6b61c873de6968",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF*"
+                },
+                {
+                    "page": 92,
+                    "sha": "6cc56856b862be91260c07ecdd61c17fce7647ee",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF*"
+                },
+                {
+                    "page": 93,
+                    "sha": "4938c3abdb78bf435be28d93b1ad698ec3d1840a",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF*"
+                },
+                {
+                    "page": 94,
+                    "sha": "d4978da9f13087b68ad3072438c8c93a7f30b6b4",
+                    "description": "Best-First Search for AND-OR Graphs Illustration of GBF*"
+                },
+                {
+                    "page": 95,
+                    "sha": "1b0a2a1c63eccacf766f51ab2442466bc90958c6",
+                    "description": "Relation between GBF and BF Algorithm GBF applied to a state-space graph will simulate Algorithm BF."
+                },
+                {
+                    "page": 96,
+                    "sha": "eeae40a4b283467d935c352877d95de6e0a08bf2",
+                    "description": "Relation between GBF and BF Algorithm GBF applied to a state-space graph will simulate Algorithm BF."
+                },
+                {
+                    "page": 97,
+                    "sha": "76584c3460d55795a6afa1b658c9d0aee8560f5b",
+                    "description": "Relation between GBF and BF Algorithm GBF applied to a state-space graph will simulate Algorithm BF."
+                },
+                {
+                    "page": 98,
+                    "sha": "9ddb69a88018dbfdd89658002afaea61c3d0e76c",
+                    "description": "Relation between GBF and BF Algorithm GBF applied to a state-space graph will simulate Algorithm BF."
+                },
+                {
+                    "page": 99,
+                    "sha": "1581c1cb23a9a4bac81dab616d995ced59ec4c1b",
+                    "description": "Relation between GBF and BF Algorithm GBF applied to a state-space graph will simulate Algorithm BF."
+                },
+                {
+                    "page": 100,
+                    "sha": "399e7eba2e8cab1cbd3b37e5d1d33634f58c2ceb",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 101,
+                    "sha": "dbbd70e5495c5475702023b7cd3272d53500cdc7",
+                    "description": "Relation between GBF and BF Irrevocability is not Amenable to Problem Reduction Graphs"
+                },
+                {
+                    "page": 102,
+                    "sha": "cba8fca913c3ed596195a22f2c6a179149558ede",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-informed-bf2": {
+            "sha": "ca203c55290449710ca3dd5e42b077c3f1dda9b3",
+            "numpages": 117,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "dd68ac90e2cefcd6a0a3dcea8120c35a97a181be",
+                    "description": "Chapter S:IV IV. Informed Search"
+                },
+                {
+                    "page": 2,
+                    "sha": "c17fed545aea00f3141eb3809073ceb3c542532f",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 3,
+                    "sha": "479eb0a04430164e5dc76c47528c99f79b954bc9",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 4,
+                    "sha": "da36accb66617e1cd576701087ffe6cee9da5345",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 5,
+                    "sha": "7a1958a7a6108b4ea99197f74a2c769692791049",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 6,
+                    "sha": "2551c09a8fe0235e7499226e9f9605a55f050595",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 7,
+                    "sha": "856b4e71a207d5c109c4d12036917afb78afc249",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 8,
+                    "sha": "252de6891f2b7fab89ec3384e3eb3fe1ec546348",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 9,
+                    "sha": "5273d29ebc8215ebbe0d771f34f0d3fce85646e8",
+                    "description": "Cost Functions Overview"
+                },
+                {
+                    "page": 10,
+                    "sha": "e890dabb113bb32089f776907999b62a197885b9",
+                    "description": "Cost Functions If solution graphs are known, the solution cost for a solution graph can be"
+                },
+                {
+                    "page": 11,
+                    "sha": "8174706246d37416d04e51a04298b11c9afbe992",
+                    "description": "Cost Functions If solution graphs are known, the solution cost for a solution graph can be"
+                },
+                {
+                    "page": 12,
+                    "sha": "8e099bb4c19abbdf45b4c87601ec4c1f17d7fd92",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 13,
+                    "sha": "dc24b63b24e9c53251b2fd2bf62852b40e3e71d0",
+                    "description": "Cost Functions If the entire search space graph rooted at a node s is known, the optimum solution"
+                },
+                {
+                    "page": 14,
+                    "sha": "09d17d8baa22e4e75c4367b16d8c49bd422002b3",
+                    "description": "Cost Functions If the entire search space graph rooted at a node s is known, the optimum solution"
+                },
+                {
+                    "page": 15,
+                    "sha": "dd623dc897889e619b8e4fe91c70fdfaf5fc6b33",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 16,
+                    "sha": "dd60dbee9dd6e669d02ea079276e8a7f09457b39",
+                    "description": "Cost Functions If the entire search space graph rooted at a node s is known, the optimum solution"
+                },
+                {
+                    "page": 17,
+                    "sha": "3799e985783e57871462dd8113fd6586fd0f2bfa",
+                    "description": "Cost Functions If the entire search space graph rooted at a node s is known, the optimum solution"
+                },
+                {
+                    "page": 18,
+                    "sha": "f3a576daa606c5df0511dd615cfac7985ec2fe36",
+                    "description": "Cost Functions If the search space graph rooted at a node s is known partially, the optimum"
+                },
+                {
+                    "page": 19,
+                    "sha": "6d15fca7c9212527ebe16b946921a211f7b5463e",
+                    "description": "Cost Functions If the search space graph rooted at a node s is known partially, the optimum"
+                },
+                {
+                    "page": 20,
+                    "sha": "2b7c86f86b6dde9c2d6cb8a786cf57806d66aef1",
+                    "description": "Cost Functions If the search space graph rooted at a node s is known partially, the optimum"
+                },
+                {
+                    "page": 21,
+                    "sha": "2f563adfefcddb74b6c805b8dde2bf311192518d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 22,
+                    "sha": "31c8a11e2963118cb47148064fb534500a3371b3",
+                    "description": "Cost Functions If the search space graph rooted at a node s is known partially, the optimum"
+                },
+                {
+                    "page": 23,
+                    "sha": "9613692b19387c8db833419c6d8a6e0ae081b216",
+                    "description": "Cost Functions If the search space graph rooted at a node s is known partially, the optimum"
+                },
+                {
+                    "page": 24,
+                    "sha": "1612118c30105406cdb192295cb4d568b1409c4c",
+                    "description": "Cost Functions If the search space graph rooted at a node s is known partially, the optimum"
+                },
+                {
+                    "page": 25,
+                    "sha": "da3dc2bfc8d15eb1337cc6dab27139827c341bbd",
+                    "description": "Cost Functions Recursive Cost Functions"
+                },
+                {
+                    "page": 26,
+                    "sha": "fe2d72ced6334bfe84dfb8cf4968ad22453feee9",
+                    "description": "Cost Functions Recursive Cost Functions"
+                },
+                {
+                    "page": 27,
+                    "sha": "679fe007d10e278fbdd8bb827f23f06972d4974b",
+                    "description": "Cost Functions Recursive Cost Functions"
+                },
+                {
+                    "page": 28,
+                    "sha": "6b3db6d6a4fd09727274aef542a5c9b110e72e2d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 29,
+                    "sha": "de95cbc9a0d3d4bbe33de070d15145a505c6dd10",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 30,
+                    "sha": "26dce9029bd598a1bcaa5f97c1c916b2d0c118d7",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 31,
+                    "sha": "58c0ab58ae7892b99161f8a15286b0c4f127dc78",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 32,
+                    "sha": "fde85ad5756643a3fba31f66c7883dbb462aeb52",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 33,
+                    "sha": "8d7db82f4c1d4e2ac6290b0d76325ec6319f8a1e",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 34,
+                    "sha": "5545aef1cf209616da901a7d5ab76b947d48fa07",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 35,
+                    "sha": "d45356ba7a452f42b5b60c946280521e63864778",
+                    "description": "Cost Functions Illustration of CH for AND-OR Graphs"
+                },
+                {
+                    "page": 36,
+                    "sha": "79868bfa8f0235932090822507df0227f53ebc3c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 37,
+                    "sha": "20eaf1b9261a19c92ea9638bd21752b6ad80cdda",
+                    "description": "Cost Functions Recursive Cost Functions"
+                },
+                {
+                    "page": 38,
+                    "sha": "636f9e92b352768b07d4d464303937be06412d94",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 39,
+                    "sha": "7ed31b6f0bcfd20e0b0657b523522c2ff7123e28",
+                    "description": "Cost Functions Recursive Cost Functions"
+                },
+                {
+                    "page": 40,
+                    "sha": "53bd6085fcee115a3928f4de10a41a6d75c57d58",
+                    "description": "Cost Functions Recursive Cost Functions"
+                },
+                {
+                    "page": 41,
+                    "sha": "cc027bd8517bc743f2f056c62d19331a216fdecd",
+                    "description": "Evaluation of AND-OR Graphs Recursive Cost Functions and Efficiency"
+                },
+                {
+                    "page": 42,
+                    "sha": "3cabc4005d7b005405b2b59398cd1422537d2ea9",
+                    "description": "Evaluation of AND-OR Graphs Recursive Cost Functions and Efficiency"
+                },
+                {
+                    "page": 43,
+                    "sha": "f42af1b0e1af17d0c5e94fab2ae5111e43e507e6",
+                    "description": "Evaluation of AND-OR Graphs Illustration of C \u2217"
+                },
+                {
+                    "page": 44,
+                    "sha": "f558f989470e0911a79c12c5a6e5f841dc58b6ff",
+                    "description": "Evaluation of AND-OR Graphs Illustration of C \u2217"
+                },
+                {
+                    "page": 45,
+                    "sha": "bf8c506c3d590e0aa8cbe4fa97e83547e5a41c6a",
+                    "description": "Evaluation of AND-OR Graphs Illustration of C \u2217"
+                },
+                {
+                    "page": 46,
+                    "sha": "99b5f5413776f47b526fc62eb3b84f5c0db67f9d",
+                    "description": "Evaluation of AND-OR Graphs Illustration of C \u2217"
+                },
+                {
+                    "page": 47,
+                    "sha": "0075ab8d6c42c10b201c864fc3138443cb525e0e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 48,
+                    "sha": "be38c64c659c56787c8806f97b1fb1578d1a3149",
+                    "description": "Evaluation of AND-OR Graphs Recursive Cost Functions and Efficiency"
+                },
+                {
+                    "page": 49,
+                    "sha": "b685c437147f9a27b41054dbacc3c01b53d03c7e",
+                    "description": "Remarks: b requires a useful handling regarding the value \u221e. (h(n) = \u221e"
+                },
+                {
+                    "page": 50,
+                    "sha": "015a896635637a3e9108128d4acfd831b3d71622",
+                    "description": "Evaluation of AND-OR Graphs b"
+                },
+                {
+                    "page": 51,
+                    "sha": "2cbb44dd3e66bf142814b4e27f173c47857369c9",
+                    "description": "Evaluation of AND-OR Graphs Relation to the Algorithm GBF"
+                },
+                {
+                    "page": 52,
+                    "sha": "ababdd1da928e5ab2b43314cea220b6d89445367",
+                    "description": "Evaluation of AND-OR Graphs Relation to the Algorithm GBF"
+                },
+                {
+                    "page": 53,
+                    "sha": "703db85ca69c6cd3057a7b26d292e1dc5ecd6489",
+                    "description": "Evaluation of AND-OR Graphs Relation to the Algorithm GBF"
+                },
+                {
+                    "page": 54,
+                    "sha": "586796bb0b0254e30327391a44f4b59b0cf5c1fc",
+                    "description": "Remarks: b is a recursive cost function. Hence, the determination of a most promising solution base"
+                },
+                {
+                    "page": 55,
+                    "sha": "e2922792ebf1ab321ed5b4169dce8c0cf6979f24",
+                    "description": "Evaluation of AND-OR Graphs Taxonomy of Best-First Algorithms"
+                },
+                {
+                    "page": 56,
+                    "sha": "20382fec19b8ec31ae3f98f8d024489d190e2d11",
+                    "description": "Evaluation of State-Space Graphs Recursive Cost Functions and Efficiency"
+                },
+                {
+                    "page": 57,
+                    "sha": "14434c43d833f0d96dce2bc780cfd78b838e1967",
+                    "description": "Evaluation of State-Space Graphs Recursive Cost Functions and Efficiency"
+                },
+                {
+                    "page": 58,
+                    "sha": "371f46c424f9194aaeae56221db716b08e959bc2",
+                    "description": "Evaluation of State-Space Graphs Recursive Cost Functions and Efficiency"
+                },
+                {
+                    "page": 59,
+                    "sha": "aca0f032f9e24199551a366f75bca1633148894d",
+                    "description": "Remarks: b"
+                },
+                {
+                    "page": 60,
+                    "sha": "58db4cec76c02cc08cca0c4a6543b8c268317d70",
+                    "description": "Evaluation of State-Space Graphs b"
+                },
+                {
+                    "page": 61,
+                    "sha": "467a1df7dc49827a2de2a4346265e553d3feb885",
+                    "description": "Evaluation of State-Space Graphs b"
+                },
+                {
+                    "page": 62,
+                    "sha": "94712d6f95ee1e7aead9d59e43f94ee3330aa83a",
+                    "description": "Evaluation of State-Space Graphs Additive Cost Measures"
+                },
+                {
+                    "page": 63,
+                    "sha": "94f35e8a40d9d6fca42a3b02d1eba02bb5a9c944",
+                    "description": "Evaluation of State-Space Graphs Additive Cost Measures"
+                },
+                {
+                    "page": 64,
+                    "sha": "80c586e39d67821ce109088306038ff15126a13f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 65,
+                    "sha": "eafb3bca6a4faccb88efd1851f9ab7e1bbd64c3d",
+                    "description": "Evaluation of State-Space Graphs Relation to the Algorithm BF"
+                },
+                {
+                    "page": 66,
+                    "sha": "ddc730fa58e5a3744900ad079e438c343bf5eb5d",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 67,
+                    "sha": "c07c6da86843bcd3190c4438a508760f6fa324d8",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 68,
+                    "sha": "3cbb5d987ffa645c174376231d58b4f2ea4c5b40",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 69,
+                    "sha": "5e1b016cd904bd50568cd522fedc7d660395ae9f",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 70,
+                    "sha": "4fbce8beecc9f4130e4444ea4348eb1745101e83",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 71,
+                    "sha": "cb5cd77e0fb7570eb5a8618770fc4e118f1b169d",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 72,
+                    "sha": "0aae1ff363dc3813747ade9fc00ad2dd45ebb7ac",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 73,
+                    "sha": "b56f31c5d154dc0acdfd35a62bb62fc85fdcb6a3",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 74,
+                    "sha": "910f42c6535459d36707482ccf34211a8a0fb086",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 75,
+                    "sha": "1a7df2f31cddeef7f51f1e9873b5a872a9046095",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 76,
+                    "sha": "d7fa8d3b36055a1f611523c69a646c79fa90714d",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 77,
+                    "sha": "4b341e5260d6cf2c79e0ac842249d4850d317dc0",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 78,
+                    "sha": "25a8010a6af6819e53ed90688e0359ecf41b1397",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 79,
+                    "sha": "b39cde40a5d4ecd81ef2a1753048092bed81e5cc",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 80,
+                    "sha": "1223e45017d4c8409eb57e6d7b1879e954fd1919",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 81,
+                    "sha": "a984db84f995fdaf17ac69e85139f0128fb2f47a",
+                    "description": "Evaluation of State-Space Graphs Optimum Solution Cost and Order Preservation"
+                },
+                {
+                    "page": 82,
+                    "sha": "ce0a8a10fba3172037eb1f6cf1e12196e2935b5a",
+                    "description": "Evaluation of State-Space Graphs Taxonomy of Best-First Algorithms"
+                },
+                {
+                    "page": 83,
+                    "sha": "f5df29d4c92143893802cdac825829b34b7845d7",
+                    "description": "Algorithm A* Algorithm:"
+                },
+                {
+                    "page": 84,
+                    "sha": "3dc9fafb4bd77cb6e3d033d57944220930f059f3",
+                    "description": "Algorithm A* "
+                },
+                {
+                    "page": 85,
+                    "sha": "2a57aab7110841dc0b081d950e7c4848715f2c2e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 86,
+                    "sha": "ef6aa6b5a32e5770130b66513073f1ebd79a05e9",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 87,
+                    "sha": "b68d7c123a69d760126471556de46e259b4c1af0",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 88,
+                    "sha": "6586b23fb043c092d9b88b1aaa6d65f9ef8d31a5",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 89,
+                    "sha": "5b9d04af7b850f5c7897bf2cc356e21fee7b3a74",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 90,
+                    "sha": "2f740e050b9998cab6dba55b6b276eb496d39af1",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 91,
+                    "sha": "f4ca2eb82848c084d6ac0f2279d17c050065c62d",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 92,
+                    "sha": "e793889e261c3a5d584476116c5bead7506f1bed",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 93,
+                    "sha": "b8619145faeffe6084f9207c91c5889b7d6b530c",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 94,
+                    "sha": "69e9658fb06b7fb566fd1a4da644c0575ff2a1a2",
+                    "description": "Algorithm A* Example: Knight Moves"
+                },
+                {
+                    "page": 95,
+                    "sha": "1f1a4c8b9c198a16d6421a0e9dba14d4b8a0576a",
+                    "description": "Algorithm A* Breadth-first search is a special case of A*, where h = 0 and c(n, n0) = 1 for all"
+                },
+                {
+                    "page": 96,
+                    "sha": "1afbf84420672a1912113ec9eac62df99867d6d9",
+                    "description": "Algorithm A* Breadth-first search is a special case of A*, where h = 0 and c(n, n0) = 1 for all"
+                },
+                {
+                    "page": 97,
+                    "sha": "a9c016cda7661f960d7a45c1023e72d3fd9c7ad5",
+                    "description": "Algorithm A* Breadth-first search is a special case of A*, where h = 0 and c(n, n0) = 1 for all"
+                },
+                {
+                    "page": 98,
+                    "sha": "04856ae65606fb8785ab8bf1ed2de32621d880d8",
+                    "description": "Algorithm A* Breadth-first search is a special case of A*, where h = 0 and c(n, n0) = 1 for all"
+                },
+                {
+                    "page": 99,
+                    "sha": "6f7d3ca84caa4b64248e5568b9abc9b65a357d1b",
+                    "description": "Algorithm A* Uniform-cost search is a special case of A*, where h = 0."
+                },
+                {
+                    "page": 100,
+                    "sha": "cadd1c3567bedc32fad87fe43b5b15a1e22aa4cd",
+                    "description": "Algorithm A* Depth-first search is a special case of Z*, where f (n0) = f (n) \u2212 1, f (s) = 0, for all"
+                },
+                {
+                    "page": 101,
+                    "sha": "a9567ade43de6bc4f7408118a558a0e42b1eda3f",
+                    "description": "Algorithm A* Depth-first search is a special case of Z*, where f (n0) = f (n) \u2212 1, f (s) = 0, for all"
+                },
+                {
+                    "page": 102,
+                    "sha": "f4a9e104a7c33d9d53c393fdef6792ef7715f802",
+                    "description": "Algorithm A* Depth-first search is a special case of Z*, where f (n0) = f (n) \u2212 1, f (s) = 0, for all"
+                },
+                {
+                    "page": 103,
+                    "sha": "31d199c95d603bfccf66d3d2d298832aeb035d57",
+                    "description": "Algorithm A* Depth-first search is a special case of Z*, where f (n0) = f (n) \u2212 1, f (s) = 0, for all"
+                },
+                {
+                    "page": 104,
+                    "sha": "660dde32341b193518b5c3b7e1d9a8c08d69cc56",
+                    "description": "Algorithm A* Exponential Runtime Example"
+                },
+                {
+                    "page": 105,
+                    "sha": "990c7f549ff62686628b00812853fd66146f6b27",
+                    "description": "Algorithm A* Exponential Runtime Example"
+                },
+                {
+                    "page": 106,
+                    "sha": "30957692120cf1d25285ca6c0b7e2cf66075434c",
+                    "description": "Algorithm A* Exponential Runtime Example"
+                },
+                {
+                    "page": 107,
+                    "sha": "bde07e7b0bb93dec30b438c384e66e9a531e4495",
+                    "description": "Algorithm A* Exponential Runtime Example"
+                },
+                {
+                    "page": 108,
+                    "sha": "6b00d3b88e6a47cdce3bc2860ed62e6e2fdde087",
+                    "description": "Relation to Dynamic Programming Optimum Solution Cost and Bellman\u2019s Principle of Optimality"
+                },
+                {
+                    "page": 109,
+                    "sha": "f98f5b71f0b9ffe26caa8e24b8f5d90083766f3f",
+                    "description": "Relation to Dynamic Programming Optimum Solution Cost and Bellman\u2019s Principle of Optimality"
+                },
+                {
+                    "page": 110,
+                    "sha": "7e9d94a2ea0c047eca101b8866a2fadfade73f77",
+                    "description": "Relation to Dynamic Programming Optimum Solution Cost and Bellman\u2019s Principle of Optimality"
+                },
+                {
+                    "page": 111,
+                    "sha": "eb9711cacb75ba7dc4c0811f8be27dc00cd9545a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 112,
+                    "sha": "433679df16c888c2c0aaf30de0ead61b625979cc",
+                    "description": "Relation to Dynamic Programming Optimum Solution Cost and Bellman\u2019s Principle of Optimality"
+                },
+                {
+                    "page": 113,
+                    "sha": "350da2eaf2b5dfd24d5ed1b79064b3ab964c9c3f",
+                    "description": "Relation to Dynamic Programming Optimum Solution Cost and Bellman\u2019s Principle of Optimality"
+                },
+                {
+                    "page": 114,
+                    "sha": "51922bdf1350df966aada4b1764e33cb859c7623",
+                    "description": "Relation to Dynamic Programming Partially Explored State Spaces"
+                },
+                {
+                    "page": 115,
+                    "sha": "44d36638709c7630a6421e1df87c9692312b549f",
+                    "description": "Relation to Dynamic Programming Partially Explored State Spaces"
+                },
+                {
+                    "page": 116,
+                    "sha": "5f93fe1c5cb97fd41be30763b8bad3fc57eff2b8",
+                    "description": "Relation to Dynamic Programming Partially Explored State Spaces"
+                },
+                {
+                    "page": 117,
+                    "sha": "c68cfb39ebd68bbf4fb68be8742d06f3c0e08458",
+                    "description": "Relation to Dynamic Programming Partially Explored State Spaces"
+                }
+            ]
+        },
+        "unit-en-informed-bf3": {
+            "sha": "2d24babf144f1617edd5863060fe3d58e96661d7",
+            "numpages": 21,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "490c4e1acc223519337a80210b4c6ed7efc3a656",
+                    "description": "Chapter S:IV IV. Informed Search"
+                },
+                {
+                    "page": 2,
+                    "sha": "7140bcd62c9d49d916c5bc5c9ed371c342b9b06e",
+                    "description": "Hybrid Strategies Spectrum of Search Strategies"
+                },
+                {
+                    "page": 3,
+                    "sha": "6f26728810ccc01becf2d428f90bc31d41b9aba4",
+                    "description": "Hybrid Strategies Spectrum of Search Strategies"
+                },
+                {
+                    "page": 4,
+                    "sha": "358745cbc80088eea36ea71767d23e55c96014d1",
+                    "description": "Hybrid Strategies Spectrum of Search Strategies"
+                },
+                {
+                    "page": 5,
+                    "sha": "329320d6e545df9324b229b1be022e5a9bbfafbb",
+                    "description": "Hybrid Strategies Spectrum of Search Strategies"
+                },
+                {
+                    "page": 6,
+                    "sha": "09f80efcebc044b812b9c562a93495377111d098",
+                    "description": "Hybrid Strategies Spectrum of Search Strategies"
+                },
+                {
+                    "page": 7,
+                    "sha": "c2f031f40e1ee049eeb0a395fe736c7a54a06aba",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 8,
+                    "sha": "f7844257c004f2d08e793b4876bc34f7c61c7f2c",
+                    "description": "Hybrid Strategies Strategy 1: BF at Top"
+                },
+                {
+                    "page": 9,
+                    "sha": "d5b8e51a3fa5cefedc698166f30c83668f54b4a7",
+                    "description": "Hybrid Strategies Strategy 2: BF at Bottom"
+                },
+                {
+                    "page": 10,
+                    "sha": "ab23769807a502143b7bf1c33720eb7aa08bdd0d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 11,
+                    "sha": "453efcd3643538db94214f0a09c3335316ff4eca",
+                    "description": "Hybrid Strategies Strategy 3: Extended Expansion"
+                },
+                {
+                    "page": 12,
+                    "sha": "208b1c63bacfec5932d0040bb3a0cd39188ad35e",
+                    "description": "Hybrid Strategies Strategy 3: Extended Expansion"
+                },
+                {
+                    "page": 13,
+                    "sha": "00b02d7afc34663d021a69c766a2a852b1c21763",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 14,
+                    "sha": "522d8e5f7d3a9be6f6edbf43ea2284479365ce4e",
+                    "description": "Hybrid Strategies Strategy 4: IDA*"
+                },
+                {
+                    "page": 15,
+                    "sha": "9b20fcf20eac6a0e4090098f108051ade84ded75",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 16,
+                    "sha": "1d582a33be132cb6e001358f0fd3e6f4193a735a",
+                    "description": "Hybrid Strategies Strategy 5: Focal Search"
+                },
+                {
+                    "page": 17,
+                    "sha": "95869ba20d641e1e444944e17c1945df8cf65a44",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 18,
+                    "sha": "ae20939867e27dfdf4d8428dd340dd1ca591c44d",
+                    "description": "Hybrid Strategies Strategy 6: Best-First Beam Search"
+                },
+                {
+                    "page": 19,
+                    "sha": "604e831fc3774f74081ad663c04c55bc18528cee",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 20,
+                    "sha": "a908422ab2c60a599211d0525b6ed0ed1d731758",
+                    "description": "Hybrid Strategies Strategy 7: Staged Search"
+                },
+                {
+                    "page": 21,
+                    "sha": "d7a87bad5d581779ce0ad4e66c1bd192e3720b4e",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-astar-formal1": {
+            "sha": "d04edd38e5a399a4e6971f921219439ca10b9356",
+            "numpages": 63,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "501e70653dbc25732258c2ca58c5e13015870433",
+                    "description": "Chapter S:V V. Formal Properties of A*"
+                },
+                {
+                    "page": 2,
+                    "sha": "1bbdc87ad124e704786d5c8ed87e1fcdb49695a2",
+                    "description": "Formal Properties of A* Task: Find a cheapest path from s to some node \u03b3 \u2208 \u0393."
+                },
+                {
+                    "page": 3,
+                    "sha": "3abe7aa048f04fe1a9175a4ccf8ebfc0697b1088",
+                    "description": "Properties of Search Space Graphs Non-Existence of Optimum Solution Paths"
+                },
+                {
+                    "page": 4,
+                    "sha": "390c6c5093cf8e873f42cd0d425b81c5bcfdd573",
+                    "description": "Properties of Search Space Graphs Non-Existence of Optimum Solution Paths"
+                },
+                {
+                    "page": 5,
+                    "sha": "016f643ecd13c7ee13fae6cf1e571ed4985663be",
+                    "description": "Properties of Search Space Graphs Prop(G): Required Properties of G"
+                },
+                {
+                    "page": 6,
+                    "sha": "dfd4a54f71a761dccda874dd8d62434518a5a416",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 7,
+                    "sha": "83780ebe156d8f1be8376bed90278d45f9dbf5ad",
+                    "description": "Properties of Search Space Graphs Existence of Optimum Solution Path"
+                },
+                {
+                    "page": 8,
+                    "sha": "fde9517ee0e1fcd6e2706ad79c16e519d69b8326",
+                    "description": "Properties of Search Space Graphs Existence of Optimum Solution Path"
+                },
+                {
+                    "page": 9,
+                    "sha": "98b508172352ed19db40fef1f177e95e9141dbf0",
+                    "description": "Properties of Search Space Graphs Existence of Optimum Solution Path"
+                },
+                {
+                    "page": 10,
+                    "sha": "de283b7f03d4349c507905ba42a52c3b51cccd88",
+                    "description": "Auxiliary Concepts Search Space Graph versus Traversal Tree"
+                },
+                {
+                    "page": 11,
+                    "sha": "6223ba2d866dec8973f05de8f45ad56f9323b619",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 12,
+                    "sha": "9b820c639d97b8720f8c42bdfed07acfd40faed4",
+                    "description": "Auxiliary Concepts Illustration of Traversal Trees"
+                },
+                {
+                    "page": 13,
+                    "sha": "abd70333eee3d7a05416013903bcf50975b4784f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 14,
+                    "sha": "4cbcad8f55b994527a4faed462e4b60970c81d3f",
+                    "description": "Auxiliary Concepts Definition 34 (Specific Paths and Functions)"
+                },
+                {
+                    "page": 15,
+                    "sha": "653bf40ba219150ab99aad12eaf7e9793c5026b4",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 16,
+                    "sha": "4bcc2aa202512309d3e3214d9e110a89ceeaedab",
+                    "description": "Auxiliary Concepts Definition 34 (Specific Paths and Functions"
+                },
+                {
+                    "page": 17,
+                    "sha": "40bfdae0c1306344f437c95851c1f5a159a799ce",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 18,
+                    "sha": "64b7f4ae4926f23637306e66b3eee0687dc806ea",
+                    "description": "Auxiliary Concepts Definition 34 (Specific Paths and Functions"
+                },
+                {
+                    "page": 19,
+                    "sha": "cfea7a03ac66257ab71caa735506e786ae499a44",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 20,
+                    "sha": "6f17ab2aaf19a8211837ff2137fc83ada66eaf79",
+                    "description": "Auxiliary Concepts Definition 34 (Specific Paths and Functions"
+                },
+                {
+                    "page": 21,
+                    "sha": "e823ed8f7db9025467ad8fdb3f186e069950f234",
+                    "description": "Auxiliary Concepts Definition 34 (Specific Paths and Functions"
+                },
+                {
+                    "page": 22,
+                    "sha": "75822e0d7f44f3074f0c2cb015e8364c74b398e8",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 23,
+                    "sha": "97fc00318ab1df2114bd339ce4d71ea279d1f4a2",
+                    "description": "Auxiliary Concepts Definition 34 (Specific Paths and Functions"
+                },
+                {
+                    "page": 24,
+                    "sha": "461e01269044b03406cd0079fda0daea4f25cd28",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 25,
+                    "sha": "1e3945798cdc53473c35cb2d44dbf8b10bdac5ec",
+                    "description": "Auxiliary Concepts Lemma 35 (Basic Observations)"
+                },
+                {
+                    "page": 26,
+                    "sha": "d1831c4649617c74fe68fb8692be4087f4eb0e10",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 27,
+                    "sha": "b2e197d233febae964dd8d2246b4d3f0baf3ad3c",
+                    "description": "Roadmap Important Lemmas and Theorems"
+                },
+                {
+                    "page": 28,
+                    "sha": "03b2c3227b405e7fe3e0cce3abdfcc38cb59eb68",
+                    "description": "Completeness of A* Two important concepts for algorithms with regard to the returned solutions are"
+                },
+                {
+                    "page": 29,
+                    "sha": "03f2a61e2d60b6f1531576e2a9c73a8c71ac3b32",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 30,
+                    "sha": "2ed54df7b28e09c87b5b78b874f25ad1f4cf3c8e",
+                    "description": "Completeness of A* Termination"
+                },
+                {
+                    "page": 31,
+                    "sha": "e021d922a5e56bdca09f285701c6ba47acec6577",
+                    "description": "Completeness of A* Termination"
+                },
+                {
+                    "page": 32,
+                    "sha": "e25e67b837b54a9b9d13fc054a2b9a7d4b4ed355",
+                    "description": "Remarks: 1. Obviously, the new pointer-paths that are used in Point 4 are cycle-free."
+                },
+                {
+                    "page": 33,
+                    "sha": "b449075d959a7aabf188cf793775530ce09fcd25",
+                    "description": "Completeness of A* Shallowest OPEN Node"
+                },
+                {
+                    "page": 34,
+                    "sha": "84afc39a8c058f3e068d46efcb47c565b4deb967",
+                    "description": "Completeness of A* Shallowest OPEN Node"
+                },
+                {
+                    "page": 35,
+                    "sha": "cd9bce71a8fef1e638527166003d63a755c12c09",
+                    "description": "Admissibility of A* Illustration of Shallowest OPEN Node"
+                },
+                {
+                    "page": 36,
+                    "sha": "cc2f5357ad10b30f7ea9692ca13cd805489dd59a",
+                    "description": "Admissibility of A* Illustration of Shallowest OPEN Node"
+                },
+                {
+                    "page": 37,
+                    "sha": "cfe51a011942a655a58aab814a333d36e818317d",
+                    "description": "Admissibility of A* Illustration of Shallowest OPEN Node"
+                },
+                {
+                    "page": 38,
+                    "sha": "a5cb93e9788e632e9d67750f114274716035a8ba",
+                    "description": "Admissibility of A* Illustration of Shallowest OPEN Node"
+                },
+                {
+                    "page": 39,
+                    "sha": "e72fd30b49a0443b7eba7213668c853ab1d45b3e",
+                    "description": "Completeness of A* Shallowest OPEN Node"
+                },
+                {
+                    "page": 40,
+                    "sha": "9e3a208544af474567f68497148952bb0ac2d880",
+                    "description": "Completeness of A* Shallowest OPEN Node"
+                },
+                {
+                    "page": 41,
+                    "sha": "a4ff5f07ebe869631150a4c520f7729fdf322d3b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 42,
+                    "sha": "d3c141dd36a262034c5a59b790a8003893cfadd8",
+                    "description": "Completeness of A* Lemma 40 (Completeness for Finite Graph)"
+                },
+                {
+                    "page": 43,
+                    "sha": "1bbcc6ea52c318fd9a45f48c9777ee411dcd4b4e",
+                    "description": "Completeness of A* Lemma 40 (Completeness for Finite Graph)"
+                },
+                {
+                    "page": 44,
+                    "sha": "f17f0f6d7bb4e287ce2a1d0d6fc2117bcf14d4f1",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 45,
+                    "sha": "caf7a3184ed1ec64be09849132860a4c4f430eb7",
+                    "description": "Completeness of A* Lemma 41 (Shallowest OPEN Node on Path) ?"
+                },
+                {
+                    "page": 46,
+                    "sha": "ef30219e1090d169a54406771ec3bfd477835b88",
+                    "description": "Completeness of A* Lemma 41 (Shallowest OPEN Node on Path) ?"
+                },
+                {
+                    "page": 47,
+                    "sha": "ffc71e01f6c647802cc95e82f5c5b1be76261eab",
+                    "description": "Completeness of A* Theorem 42 (Completeness)"
+                },
+                {
+                    "page": 48,
+                    "sha": "f578bed1c83acc69b607502bd9434cda9f7d3772",
+                    "description": "Completeness of A* Theorem 42 (Completeness)"
+                },
+                {
+                    "page": 49,
+                    "sha": "a7a6a696f54a0375ced4a5bada7bfcd4380cfb9a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 50,
+                    "sha": "02d5192ee344e59a5ac915dad91503497151788e",
+                    "description": "Admissibility of A* Lemma 43 (Node Cost on Optimum Path)"
+                },
+                {
+                    "page": 51,
+                    "sha": "c2af866dba1e6789fecf6864a88f4f9d580ea739",
+                    "description": "Admissibility of A* Lemma 43 (Node Cost on Optimum Path)"
+                },
+                {
+                    "page": 52,
+                    "sha": "628eca8d7532e6a5e38c031ccf65839133217ec6",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 53,
+                    "sha": "a3014720977a415d690f6a6cea1369334242b65a",
+                    "description": "Admissibility of A* Corollary 44 (Implications of Lemma 43)"
+                },
+                {
+                    "page": 54,
+                    "sha": "6e32b8ed670c58ec15b5895021ba1bdc2c3669d3",
+                    "description": "Admissibility of A* Definition 45 (Admissibility of h)"
+                },
+                {
+                    "page": 55,
+                    "sha": "896d8843a6eaf41149f3fe9b07a4685a8372f8a4",
+                    "description": "Admissibility of A* Corollary 46 (Shallowest OPEN Node on Optimum Path"
+                },
+                {
+                    "page": 56,
+                    "sha": "c7cb758625b30296162d403f1aa875e6553fd763",
+                    "description": "Admissibility of A* Corollary 46 (Shallowest OPEN Node on Optimum Path"
+                },
+                {
+                    "page": 57,
+                    "sha": "79b9cd6aa89aeb657717388319c23f2b6ff684f4",
+                    "description": "Remarks: ? The Lemma states that nodes on optimum paths are reached by A* with optimum cost when"
+                },
+                {
+                    "page": 58,
+                    "sha": "3f4d62911398e0608c5e42827f9f6a3a8a033408",
+                    "description": "Admissibility of A* Lemma 47 (C \u2217-Bounded OPEN Node)"
+                },
+                {
+                    "page": 59,
+                    "sha": "5eb9aaf025aa756e5059041b6827f563c6b67d85",
+                    "description": "Admissibility of A* Lemma 47 (C \u2217-Bounded OPEN Node)"
+                },
+                {
+                    "page": 60,
+                    "sha": "19f2c1f3694060056b5931a4198b210f15f8b90c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 61,
+                    "sha": "7b2a45718cc6347fe70e170007798d83ac571135",
+                    "description": "Admissibility of A* Theorem 48 (Admissibility)"
+                },
+                {
+                    "page": 62,
+                    "sha": "d742aa89215c7e1fff7e78ef9cde0834b951f59f",
+                    "description": "Admissibility of A* Theorem 48 (Admissibility)"
+                },
+                {
+                    "page": 63,
+                    "sha": "fb91c3c4f08214cf8a91dd1f02af0a7392bb466e",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-astar-formal2": {
+            "sha": "fbdf4b52f8ba2aeb980653aff021981c6584c308",
+            "numpages": 65,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "eadcab520f7d791103dfb016a67d2e82d0024d50",
+                    "description": "Chapter S:V V. Formal Properties of A*"
+                },
+                {
+                    "page": 2,
+                    "sha": "153f58d31482602676fe4aef980a909bf497bc05",
+                    "description": "Efficiency of A* Efficiency of Search Algorithms"
+                },
+                {
+                    "page": 3,
+                    "sha": "6d3c2dc4778b31629ec4ba1f749dde89a6889fa6",
+                    "description": "Efficiency of A* Efficiency of Search Algorithms"
+                },
+                {
+                    "page": 4,
+                    "sha": "b715d7d2a69c0635868c0a62493c21a92f7892ef",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "804a9571a4c470e51c405f434b4bd77a2d85d802",
+                    "description": "Efficiency of A* Efficiency of Search Algorithms"
+                },
+                {
+                    "page": 6,
+                    "sha": "c49663449290ede06f1f9a125081c79a5395868d",
+                    "description": "Efficiency of A* Conditions for Node Expansion I"
+                },
+                {
+                    "page": 7,
+                    "sha": "7b8bfac2dfe8015923a2e5f783469bfd23bfab2e",
+                    "description": "Efficiency of A* Conditions for Node Expansion I"
+                },
+                {
+                    "page": 8,
+                    "sha": "9725acd02896d51e83692da7c00cd3e95a34e09a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 9,
+                    "sha": "701a869f7171f084de287ef3f9cbc0c8405c5002",
+                    "description": "Efficiency of A* Conditions for Node Expansion I"
+                },
+                {
+                    "page": 10,
+                    "sha": "9767760842632fc59bf62e1a4ccc402d37892f67",
+                    "description": "Efficiency of A* Conditions for Node Expansion I"
+                },
+                {
+                    "page": 11,
+                    "sha": "feffdc26ced046484affc8c6492e907213042986",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 12,
+                    "sha": "0bd10c459ef67463bd058000c7a1389c88106af9",
+                    "description": "Efficiency of A* Conditions for Node Expansion I"
+                },
+                {
+                    "page": 13,
+                    "sha": "815ef894053f7a26734cab23e39d49dd030073ec",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 14,
+                    "sha": "5072f409a2a939696627beae041e3f44c26290cf",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 15,
+                    "sha": "da58f7fc37461794f68f68c3c1e30cdeab77e621",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 16,
+                    "sha": "5c65b56d11741929f240e3528926fca399b97d40",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 17,
+                    "sha": "435981b232951ae883801c9e143baecf319d56ba",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 18,
+                    "sha": "ed92d061147b5e4337f6fb83b4e0415b2f8241b7",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 19,
+                    "sha": "4e49fbee5b104abfdc5803d382bc882d10ef77e0",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 20,
+                    "sha": "b5929ba7149f81fc3d0946d566275233ca41244c",
+                    "description": "Efficiency of A* Conditions for Node Expansion II"
+                },
+                {
+                    "page": 21,
+                    "sha": "156056b7df80c396146f90ac0954067d0e8c0290",
+                    "description": "Efficiency of A* Informedness and Dominance"
+                },
+                {
+                    "page": 22,
+                    "sha": "e99445d5696c8301dbcf1e58ef21099b8f3a647e",
+                    "description": "Efficiency of A* Informedness and Dominance"
+                },
+                {
+                    "page": 23,
+                    "sha": "56c53b1cdea059755e2e1981131f11e3460bbdc6",
+                    "description": "Efficiency of A* Informedness and Dominance"
+                },
+                {
+                    "page": 24,
+                    "sha": "65dea2df84021d92d3feff075e822141a04ee772",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 25,
+                    "sha": "555a58b37727346fa0b9bdd74b03d7d76525bf59",
+                    "description": "Efficiency of A* Informedness and Dominance: Discussion"
+                },
+                {
+                    "page": 26,
+                    "sha": "4a931a85f37b98a75a34bbc2005c978bdf5812c1",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 27,
+                    "sha": "3e65ded8a5a04d78e2f638e6b2eb486e0338d585",
+                    "description": "Monotone Heuristic Functions Motivation"
+                },
+                {
+                    "page": 28,
+                    "sha": "3206e62bdb5a9f307357316305c918123e6ed05e",
+                    "description": "Monotone Heuristic Functions Motivation"
+                },
+                {
+                    "page": 29,
+                    "sha": "1ad4803c566b69a59257152c5d9963d57fe91c2b",
+                    "description": "Monotone Heuristic Functions Motivation"
+                },
+                {
+                    "page": 30,
+                    "sha": "501f6fc7fd63527f18790620791ae15b4123309f",
+                    "description": "Monotone Heuristic Functions Motivation"
+                },
+                {
+                    "page": 31,
+                    "sha": "c84d54be5d90aa612418e70394babb6704ab593d",
+                    "description": "Monotone Heuristic Functions Illustration of the Global Triangle Inequality"
+                },
+                {
+                    "page": 32,
+                    "sha": "6e78b0aa025cc76a4c99e9770b8862d79314dc54",
+                    "description": "Monotone Heuristic Functions Illustration of the Local Triangle Inequality"
+                },
+                {
+                    "page": 33,
+                    "sha": "ad9756976439ba2d82369f6f4a67ee25d10ee3de",
+                    "description": "Monotone Heuristic Functions Definition 58 (Consistency Condition)"
+                },
+                {
+                    "page": 34,
+                    "sha": "6ba55c281820f8ddd70fbbe8ee81eb7bd62f27f7",
+                    "description": "Monotone Heuristic Functions Definition 58 (Consistency Condition)"
+                },
+                {
+                    "page": 35,
+                    "sha": "52ba93cc7a1e6c8909c93c66f3526e873e1c20a8",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 36,
+                    "sha": "73bce6de0ddc35315bedbbc68a2d1cc586cb88fb",
+                    "description": "Monotone Heuristic Functions Theorem 60 (Consistency Equivalent to Monotonicity)"
+                },
+                {
+                    "page": 37,
+                    "sha": "155eae8dbf6da89fbe1e30130f3eee223f46cb3d",
+                    "description": "Monotone Heuristic Functions Theorem 60 (Consistency Equivalent to Monotonicity)"
+                },
+                {
+                    "page": 38,
+                    "sha": "eba08af4a2086bf73dd63dab517e842402f7c598",
+                    "description": "Monotone Heuristic Functions Illustration of a Monotone h"
+                },
+                {
+                    "page": 39,
+                    "sha": "89babd1273b5a4832f15654b48bbc90c526fee94",
+                    "description": "Monotone Heuristic Functions Illustration of a Monotone h"
+                },
+                {
+                    "page": 40,
+                    "sha": "ba932d83148f52855666c65045b758970dc4c861",
+                    "description": "Monotone Heuristic Functions Theorem 61 (Monotone Heuristic Functions)"
+                },
+                {
+                    "page": 41,
+                    "sha": "227241e64df5e421ecdfabbea98dd587ab5fc369",
+                    "description": "Monotone Heuristic Functions Theorem 61 (Monotone Heuristic Functions)"
+                },
+                {
+                    "page": 42,
+                    "sha": "89b4137397b6a9f2e5d013a2797283c4935600fd",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 43,
+                    "sha": "71561cfb8f1b37f2659f00915866bc768fe7df6d",
+                    "description": "Monotone Heuristic Functions Theorem 62 (No Reopening)"
+                },
+                {
+                    "page": 44,
+                    "sha": "515db07a899e3063ad9dc0b06edd915345a0004c",
+                    "description": "Monotone Heuristic Functions Theorem 62 (No Reopening)"
+                },
+                {
+                    "page": 45,
+                    "sha": "e0748eac96e29220bb42b736472a75fc15ebd189",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 46,
+                    "sha": "b3d969921edcded70a0361230a47c657a810c2d4",
+                    "description": "Monotone Heuristic Functions Illustration of a Non-Monotone h"
+                },
+                {
+                    "page": 47,
+                    "sha": "f315717bcc55b3a8da495782e96287364103519a",
+                    "description": "Monotone Heuristic Functions Illustration of a Non-Monotone h"
+                },
+                {
+                    "page": 48,
+                    "sha": "ffd96d4997295b64229f1c5edbdab971dd82dd66",
+                    "description": "Monotone Heuristic Functions Illustration of a Non-Monotone h"
+                },
+                {
+                    "page": 49,
+                    "sha": "9557fc5e68f84a534052033903a6f36a40ef1299",
+                    "description": "Monotone Heuristic Functions Illustration of a Non-Monotone h"
+                },
+                {
+                    "page": 50,
+                    "sha": "54aee719c4ab6c53f972820b6935f2094973fd68",
+                    "description": "Monotone Heuristic Functions Illustration of a Non-Monotone h"
+                },
+                {
+                    "page": 51,
+                    "sha": "6f48ffa65a6e7d57f25c681c85ce28fd71ae2748",
+                    "description": "Monotone Heuristic Functions Non-Decreasing f -Values"
+                },
+                {
+                    "page": 52,
+                    "sha": "b682b73d9acfb37448990bd26824824eb708b38d",
+                    "description": "Monotone Heuristic Functions Non-Decreasing f -Values"
+                },
+                {
+                    "page": 53,
+                    "sha": "d58b06a40827240ba7f0a7a6d7c384eb7bbbb37c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 54,
+                    "sha": "1a160dcd207e6c6eccddf42d1a1c92dbde79c75d",
+                    "description": "Monotone Heuristic Functions Illustration of Non-Decreasing f -Values"
+                },
+                {
+                    "page": 55,
+                    "sha": "5b0bf4c9cb6197809af72e4d8d2721d7264bbc4c",
+                    "description": "Monotone Heuristic Functions Illustration of Non-Decreasing f -Values"
+                },
+                {
+                    "page": 56,
+                    "sha": "2dace1571d90f6f0be1046113098d9020c838ace",
+                    "description": "Monotone Heuristic Functions Example: Knight Moves (revisited)"
+                },
+                {
+                    "page": 57,
+                    "sha": "0307710ce9c546a8a1b98dbc6b8a3296ce054601",
+                    "description": "Monotone Heuristic Functions Example: Knight Moves (revisited)"
+                },
+                {
+                    "page": 58,
+                    "sha": "0de32e49b11997483079771f1216066d2d86c060",
+                    "description": "Monotone Heuristic Functions Example: Knight Moves (revisited)"
+                },
+                {
+                    "page": 59,
+                    "sha": "7dafbd30ef99ab9e08838db09c13a502f6854a07",
+                    "description": "Monotone Heuristic Functions Conditions for Node Expansion III"
+                },
+                {
+                    "page": 60,
+                    "sha": "67dc4f80ea8465ad5c064d766e9d1c4dbed2b79a",
+                    "description": "Monotone Heuristic Functions Conditions for Node Expansion III"
+                },
+                {
+                    "page": 61,
+                    "sha": "8d0a590eebe6f4e4771d9b431d69659344ce48b8",
+                    "description": "Monotone Heuristic Functions Conditions for Node Expansion III"
+                },
+                {
+                    "page": 62,
+                    "sha": "d4f4247bcb12e83c10119a4e1b9f023b8b9709cc",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 63,
+                    "sha": "a4f452da56d3e77442683d297d0e03144a181206",
+                    "description": "Monotone Heuristic Functions Definition 65 (Largely Dominating Algorithms)"
+                },
+                {
+                    "page": 64,
+                    "sha": "cf8c5ed756f325314c8f683768c260e82b7a18f1",
+                    "description": "Monotone Heuristic Functions Definition 66 (Largely Dominating Algorithms)"
+                },
+                {
+                    "page": 65,
+                    "sha": "c241768caceff9bc28e83bf8e8a6430f54785053",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-astar-relaxed1": {
+            "sha": "2db9f92fad8f117f85a738e01f8db2dc183c7ae8",
+            "numpages": 42,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "6c6f4457b73f25883219a5c32ac98641e490873f",
+                    "description": "Chapter S:VI VI. Relaxed Models"
+                },
+                {
+                    "page": 2,
+                    "sha": "c5f2dff4410e2181bff28be8659384bb77e2f0f5",
+                    "description": "Motivation"
+                },
+                {
+                    "page": 3,
+                    "sha": "56888a2b58a57c1cb8a5b428770e68520dbdbe29",
+                    "description": "Motivation Basic Questions from Search Theory"
+                },
+                {
+                    "page": 4,
+                    "sha": "d5e68e0158962d1fe8e942514a0354ec0ec0aab3",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "c2431c60601904e791336f9839b60bedad40b928",
+                    "description": "Motivation Examination of g and h"
+                },
+                {
+                    "page": 6,
+                    "sha": "97a4eccdfebef9b0cc7092d935b2c669d54a2e84",
+                    "description": "Motivation Examination of g and h"
+                },
+                {
+                    "page": 7,
+                    "sha": "0b3939115293683bb49f974849152fc4657c826b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 8,
+                    "sha": "32ab1efced10562eba1d0b1bff586222c9fed0db",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Bounded Decrease in Solution Quality"
+                },
+                {
+                    "page": 9,
+                    "sha": "94938c8caacd146805bf352176589e110d608278",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Bounded Decrease in Solution Quality"
+                },
+                {
+                    "page": 10,
+                    "sha": "c652e9b69ea1872b868b2ef709365fd776c0a542",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Static Weighting A* Search: WA*"
+                },
+                {
+                    "page": 11,
+                    "sha": "04c096fdded02e66f340853ac82109a58cf0688c",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Static Weighting A* Search: WA*"
+                },
+                {
+                    "page": 12,
+                    "sha": "5fb242291b24c7d774702af48d0a499e25c06eae",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Static Weighting A* Search: WA*"
+                },
+                {
+                    "page": 13,
+                    "sha": "bb7d42518a71807c02447759c90dcf6ce62226a8",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Static Weighting A* Search: WA*"
+                },
+                {
+                    "page": 14,
+                    "sha": "ed87d295c0452f5b2bf2f423c970f18e2e25eea6",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Static Weighting A* Search: WA*"
+                },
+                {
+                    "page": 15,
+                    "sha": "2c8449bd5deeec7dad551a6f68fe00523b86c53d",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Dynamic Weighting A* Search: DWA*"
+                },
+                {
+                    "page": 16,
+                    "sha": "6de46e8236fa307d4671e78f2da530daf3b70836",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 17,
+                    "sha": "6742340b140611adcf4a0b83c9e24eeac17882c7",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Dynamic Weighting A* Search: DWA*"
+                },
+                {
+                    "page": 18,
+                    "sha": "842b1eb916ad2d17244910c602d7af69a5348926",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Dynamic Weighting A* Search: DWA*"
+                },
+                {
+                    "page": 19,
+                    "sha": "78d25e3c0b0b36bb57ce00cca07cc50e4043149a",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Node Selection by hF (n): A*\u03b5"
+                },
+                {
+                    "page": 20,
+                    "sha": "14d0e8a21401e1bd8183681f827306e2ec4c0fe9",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 21,
+                    "sha": "1236df06f4fc45bc8f29ceb1c5f29fefd4c0b690",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Node Selection by hF (n): A*\u03b5"
+                },
+                {
+                    "page": 22,
+                    "sha": "3504c8ac0b869e7d8568dd9882ce35cab315abbe",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Node Selection by hF (n): A*\u03b5"
+                },
+                {
+                    "page": 23,
+                    "sha": "33f8657e18fb5b96222f2a206f43f637fa59f564",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 24,
+                    "sha": "094e14660712d036f8c471987b9b74c4e760f1e9",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Comparison of DWA* and A*\u03b5"
+                },
+                {
+                    "page": 25,
+                    "sha": "459f4497abb4df83a6af07d0c5643f284a222a64",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Comparison of DWA* and A*\u03b5"
+                },
+                {
+                    "page": 26,
+                    "sha": "33e727cc997a3f0bf1dbdf231666d77e3b782ab5",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Comparison of DWA* and A*\u03b5"
+                },
+                {
+                    "page": 27,
+                    "sha": "4d5a9f672cf3be2ffbad916f65be62f146ecc727",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Comparison of DWA* and A*\u03b5"
+                },
+                {
+                    "page": 28,
+                    "sha": "cb8b5f166614bf72c17446edaed4919670a6acc2",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 29,
+                    "sha": "3f8c393d6a95b11a917e6bd4e2df5849121afc5e",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Unifying View: WA* and DWA* as variants of A*\u03b5"
+                },
+                {
+                    "page": 30,
+                    "sha": "bc1026ce719d5de1ce7362e7ffa5aa930f3d82de",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 31,
+                    "sha": "cd2cc7f73a0bb69c200a27bb95aa343dd38a1590",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Lemma 71 (WA* and DWA* are variants of A*\u03b5)"
+                },
+                {
+                    "page": 32,
+                    "sha": "fa2d425869a224a4a35b2967e6c2797c89118f1e",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Lemma 71 (WA* and DWA* are variants of A*\u03b5)"
+                },
+                {
+                    "page": 33,
+                    "sha": "de90c713efc5e06d8135a3d2d3ee7c2db19543ef",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Pruning Power of h for A*\u03b5"
+                },
+                {
+                    "page": 34,
+                    "sha": "fd7f8033592570d08861d095c46d40df8535a6e7",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 35,
+                    "sha": "fb4687144847151bf9efbd56bf48a685d4c83473",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Using Monotone Heuristic Functions h in A*\u03b5"
+                },
+                {
+                    "page": 36,
+                    "sha": "83492ebdf495d29381fdc7ee532ee82e60614b7c",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Using Monotone Heuristic Functions h in A*\u03b5"
+                },
+                {
+                    "page": 37,
+                    "sha": "790e93f7a42b2b0161c81dcf7a279df84216801c",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Example: Monotone Heuristic Function h in A*\u03b5"
+                },
+                {
+                    "page": 38,
+                    "sha": "2ee67a46e3626384f4cfdfe3c387626da6154616",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Using Monotone Heuristic Functions h in A*\u03b5"
+                },
+                {
+                    "page": 39,
+                    "sha": "914cc18fa45ce9618e327a63f80c99b8ffe8726f",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Using Monotone Heuristic Functions h in A*\u03b5"
+                },
+                {
+                    "page": 40,
+                    "sha": "98fa82276c11ec2f7b89487356a5dc49c66fdb7b",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Example: Monotone heuristic function h in NRA*\u03b5"
+                },
+                {
+                    "page": 41,
+                    "sha": "d98c6951225e22b2a578adffa73b8551cd775d94",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Using Monotone Heuristic Functions h in NRA*\u03b5"
+                },
+                {
+                    "page": 42,
+                    "sha": "d9408ea0f7a697e211a427a82efeb8711ab6b669",
+                    "description": "\u03b5-Admissible Speedup Versions of A* Using Monotone Heuristic Functions h in NRA*\u03b5"
+                }
+            ]
+        },
+        "unit-en-astar-relaxed2": {
+            "sha": "511b2df83b5c4916f7a6164b8611bf6b6ef1e608",
+            "numpages": 32,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "0bebe47ab3f157d3bfd975b31e5103c78032bfd3",
+                    "description": "Chapter S:VI VI. Relaxed Models"
+                },
+                {
+                    "page": 2,
+                    "sha": "4e92948394d0edadcde98aed985f08db84780675",
+                    "description": "Using Information about Uncertainty of h Verwendung einer nicht-zul\u00e4ssigen Sch\u00e4tzfunktion"
+                },
+                {
+                    "page": 3,
+                    "sha": "39a36d1b91e01347b675abae45c77a13d533b061",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 4,
+                    "sha": "e43e59df8b60b57951186d0847003fb322d89469",
+                    "description": "Using Information about Uncertainty of h Illustration von unter- und \u00fcbersch\u00e4tzenden Sch\u00e4tzfunktionen"
+                },
+                {
+                    "page": 5,
+                    "sha": "ae52b536ef3edf7758e025bb8b7e317ed2ab3ea9",
+                    "description": "Using Information about Uncertainty of h Beispiel: Suche in \u201czuf\u00e4lligem\u201d Graphen"
+                },
+                {
+                    "page": 6,
+                    "sha": "cfae0c26cd744b4578b24cf9a88b575f55097d0b",
+                    "description": "Using Information about Uncertainty of h Beispiel: Suche in \u201czuf\u00e4lligem\u201d Graphen"
+                },
+                {
+                    "page": 7,
+                    "sha": "fe76ed4a2b9cb102bb48623970996c202f6b218b",
+                    "description": "Using Information about Uncertainty of h Beschreibung der Sch\u00e4tzunsicherheit durch Dichtefunktionen"
+                },
+                {
+                    "page": 8,
+                    "sha": "53b854ddbdbf98c1ca92ca2273add2dcdf00e116",
+                    "description": "Using Information about Uncertainty of h Beschreibung der Sch\u00e4tzunsicherheit durch Dichtefunktionen"
+                },
+                {
+                    "page": 9,
+                    "sha": "c19457b79f503d92b043de0499ce707cd8585f23",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 10,
+                    "sha": "8034b3e7a66fd1ac71ff90773d3f84a3128a24bc",
+                    "description": "Using Information about Uncertainty of h Beschreibung der Sch\u00e4tzunsicherheit durch Dichtefunktionen"
+                },
+                {
+                    "page": 11,
+                    "sha": "2b336c77a00dae798bcf41f23bb17c071a82a7d3",
+                    "description": "Using Information about Uncertainty of h Beschreibung der Sch\u00e4tzunsicherheit durch Dichtefunktionen"
+                },
+                {
+                    "page": 12,
+                    "sha": "06ad88372acdc31cd71716389e3616d9564c5cca",
+                    "description": "Remarks: (a) Falls sich die Dichtefunktionen nicht \u00fcberlappen, w\u00fcrde derjenige Knoten gew\u00e4hlt, f\u00fcr den"
+                },
+                {
+                    "page": 13,
+                    "sha": "e282f18c7f9731c83bafdb74001f689979949ac4",
+                    "description": "Risk Measures Idee zur Berechnung der Evaluierungsreihenfolge:"
+                },
+                {
+                    "page": 14,
+                    "sha": "a081e5761c4e530081f49bf20096e6d5a09adef4",
+                    "description": "Risk Measures Prinzip des Algorithmus R*\u03b4"
+                },
+                {
+                    "page": 15,
+                    "sha": "b02e83a6a6560d23a1596b460ff7eec577c945b5",
+                    "description": "Bemerkungen und Fragen:"
+                },
+                {
+                    "page": 16,
+                    "sha": "c2b59c4372e19ae8bb4e7a7c6f0b15deda83d851",
+                    "description": "Risk Measures Verbesserungspotenzial einer aktuellen L\u00f6sung"
+                },
+                {
+                    "page": 17,
+                    "sha": "12cc5dcc7eb92c426c21825b03364afa82c1313e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 18,
+                    "sha": "bd91212e0762d88ff142ff01bdccabcae0d53787",
+                    "description": "Risk Measures Risikoschwelle und Risikokosten"
+                },
+                {
+                    "page": 19,
+                    "sha": "a7590cb0d369564225319efc76c1f93ce093f348",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 20,
+                    "sha": "0e9ba78b48437a16c4e8462b2ecba601f2c4446d",
+                    "description": "Risk Measures Definition 75 (\u03b4-Risikozul\u00e4ssigkeit)"
+                },
+                {
+                    "page": 21,
+                    "sha": "36edb4f5b5061ed56fe7eac53265335355e637f4",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 22,
+                    "sha": "d2a62bfd868f352c0f7f33bec8d6e5ed0cedd941",
+                    "description": "Risk Measures Ausgangspunkt sind Dichtefunktionen f\u00fcr die Zufallsvariable fn+ eines Knoten n in"
+                },
+                {
+                    "page": 23,
+                    "sha": "a90c8c640b85e11df2bd6d180b9cde3908192dd9",
+                    "description": "Risk Measures Risk Measures mit der Struktur R(C) = %[C \u2212 f +]"
+                },
+                {
+                    "page": 24,
+                    "sha": "aa526cf971b6129918f5422647ac84d2ca17f21f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 25,
+                    "sha": "14f086a4c4db0d452abe5ac0eb45321f0478d032",
+                    "description": "Risk Measures Beispiel"
+                },
+                {
+                    "page": 26,
+                    "sha": "fcdb9de7f52086d8c50f583893e5fc09188e0716",
+                    "description": "Risk Measures Beispiel"
+                },
+                {
+                    "page": 27,
+                    "sha": "9d1049b52384de97a5a5451d5bfdae1db6ef0e3b",
+                    "description": "Risk Measures Beispiel"
+                },
+                {
+                    "page": 28,
+                    "sha": "f9f2c00aaea9b76c76590339582d27825e42afc7",
+                    "description": "Risk Measures Beispiel"
+                },
+                {
+                    "page": 29,
+                    "sha": "45d6c615ea10f646bc726c7da782024ede9dc808",
+                    "description": "Risk Measures Beispiel"
+                },
+                {
+                    "page": 30,
+                    "sha": "745ca8e340866861b6fca4138fef1b7a9c8b80e4",
+                    "description": "Risk Measures Beispiel"
+                },
+                {
+                    "page": 31,
+                    "sha": "18e38fbd207e170ebc692e2b34c1ad71bb08aa97",
+                    "description": "Risk Measures Theorem 77 (\u03b4-Risikozul\u00e4ssigkeit von R*\u03b4 )"
+                },
+                {
+                    "page": 32,
+                    "sha": "fa9fee54474659566290e5cb199e7c979810087e",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-relaxed-models": {
+            "sha": "d94cd5309d3698af306ae1d98f996dfd5b0b61b5",
+            "numpages": 24,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8a419b4dd190f4e6a7302c17b09bcc49ba9cd1ae",
+                    "description": "Chapter S:VI VI. Relaxed Models"
+                },
+                {
+                    "page": 2,
+                    "sha": "b9d3ffd6ee7d2d719563680b386e7afad8c8a00b",
+                    "description": "Heuristiken aus Modellvereinfachungen Beispiel: Modellvereinfachung f\u00fcr das 8-Puzzle"
+                },
+                {
+                    "page": 3,
+                    "sha": "77f0fd6a63784a2ad66c7b9a87d6430d5a3ccd0b",
+                    "description": "Heuristiken aus Modellvereinfachungen Beispiel: Modellvereinfachung f\u00fcr das 8-Puzzle"
+                },
+                {
+                    "page": 4,
+                    "sha": "24adac8cba330f1aed60e4ec54f5d233dbb17f5c",
+                    "description": "Heuristiken aus Modellvereinfachungen Beispiel: Modellvereinfachung f\u00fcr TSP"
+                },
+                {
+                    "page": 5,
+                    "sha": "4dd840456a4e3e82fd04d3a1aa14266eab5b6803",
+                    "description": "Heuristiken aus Modellvereinfachungen Beispiel: Modellvereinfachung f\u00fcr TSP"
+                },
+                {
+                    "page": 6,
+                    "sha": "626c9fa26a18fd6bca257daf6b14cf2881e707a5",
+                    "description": "Heuristiken aus Modellvereinfachungen Relaxation"
+                },
+                {
+                    "page": 7,
+                    "sha": "b45afc23bad262552ba4dfe9337b5a65e3e8c2f6",
+                    "description": "Heuristiken aus Modellvereinfachungen Relaxation"
+                },
+                {
+                    "page": 8,
+                    "sha": "5e0b28a337de666a5916edc1e09cfe1fd5b0c5a4",
+                    "description": "Heuristiken aus Modellvereinfachungen Zul\u00e4ssigkeit, Konsistenz und Monotonie"
+                },
+                {
+                    "page": 9,
+                    "sha": "f1dda503e0a2c970f507ca279ad534efb6753f30",
+                    "description": "Heuristiken aus Modellvereinfachungen Over-Constraining"
+                },
+                {
+                    "page": 10,
+                    "sha": "8fd0c5778246b8bf7d528a62720521a5f36fb78a",
+                    "description": "Automatische Generierung von Heuristiken Systematisches Relaxieren von Suchproblemen"
+                },
+                {
+                    "page": 11,
+                    "sha": "ab21aef01c2752a890f2c90876c8f01d9c367d93",
+                    "description": "Automatische Generierung von Heuristiken Beispiel: 8er-Puzzle"
+                },
+                {
+                    "page": 12,
+                    "sha": "a7de07382db8c5877492c2ce3a009cb76a13982d",
+                    "description": "Automatische Generierung von Heuristiken Beispiel: 8er-Puzzle"
+                },
+                {
+                    "page": 13,
+                    "sha": "fda02b581749f4e3acab652b9b59d3095384679c",
+                    "description": "Automatische Generierung von Heuristiken Problem:"
+                },
+                {
+                    "page": 14,
+                    "sha": "a11426eb8e76807f9039e55e9922b608a3d28ba5",
+                    "description": "Automatische Generierung von Heuristiken Einfache Probleme: kompositionale Probleme"
+                },
+                {
+                    "page": 15,
+                    "sha": "cc2de6e6a10bac4b77ec167afefa82bd241a7fc4",
+                    "description": "Automatische Generierung von Heuristiken Einfache Probleme: semikompositionale Probleme"
+                },
+                {
+                    "page": 16,
+                    "sha": "182bcf92bebfd813b8bf878d9a6f2eaf27596b71",
+                    "description": "Probabilistische Heuristiken Probabilistisch definierte Probleme"
+                },
+                {
+                    "page": 17,
+                    "sha": "962f0a808ab855ed9bd0949e06275af98551b4a7",
+                    "description": "Probabilistische Heuristiken Probabilistisch definierte Probleme"
+                },
+                {
+                    "page": 18,
+                    "sha": "268b4134bc75a0735f9c2d63cfc7d4de4046d943",
+                    "description": "Probabilistische Heuristiken Probabilistisch definierte Probleme"
+                },
+                {
+                    "page": 19,
+                    "sha": "971569caa0fe702635c4cdbcb7a556850152d167",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "1a40b9ce0b964567901ae16f5b332153ea51dee7",
+                    "description": "Probabilistische Heuristiken Asymptotische Verteilung von C(N, p)"
+                },
+                {
+                    "page": 21,
+                    "sha": "f3088c826c9a1efe6a1eb8f180b0765656e48d37",
+                    "description": "Probabilistische Heuristiken Asymptotische Verteilung von C(N, p)"
+                },
+                {
+                    "page": 22,
+                    "sha": "f339300cefa0277f4d081ba8c8ceec4ce25abd90",
+                    "description": "Probabilistische Heuristiken Asymptotische Verteilung von C(N, p)"
+                },
+                {
+                    "page": 23,
+                    "sha": "6a0156a46e154f52537fe6cdd5446e6038237d55",
+                    "description": "Probabilistische Heuristiken Heuristiken aus der Analyse von Stichproben"
+                },
+                {
+                    "page": 24,
+                    "sha": "0c9c783b8478de3685ec638b7013224ea9a9b82d",
+                    "description": "Probabilistische Heuristiken Heuristiken aus der Analyse von Stichproben"
+                }
+            ]
+        },
+        "unit-en-game-playing-basics": {
+            "sha": "5d3c388f11667e17cb5241b075f2169c64adfcc1",
+            "numpages": 41,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "5b879ccfb7153b7542630ff993020d8db452e7d3",
+                    "description": "Chapter S:VII VII. Game Playing"
+                },
+                {
+                    "page": 2,
+                    "sha": "12a0fdc1ef20de3b969ac8663e4300fd7df833b1",
+                    "description": "Game Playing Introduction The game tree search here focuses on two-player, perfect-information games."
+                },
+                {
+                    "page": 3,
+                    "sha": "d0fd5de628fd0c9c18eb30f5067ff48be6b1c023",
+                    "description": "Game Playing Introduction The game tree search here focuses on two-player, perfect-information games."
+                },
+                {
+                    "page": 4,
+                    "sha": "283140bca920bed8d859fa15b555f3c0793fea78",
+                    "description": "Game Playing Introduction Definition 80 (Game Tree)"
+                },
+                {
+                    "page": 5,
+                    "sha": "ddcd1a4ed9c5a11558faf2ac40da0a6e31c10b0c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 6,
+                    "sha": "c8a52fb25c3aa6929db52682fc2b5a13341902e2",
+                    "description": "Game Playing Introduction Illustration"
+                },
+                {
+                    "page": 7,
+                    "sha": "34319455522750f04a4280fc4cf544968c626003",
+                    "description": "Game Playing Introduction Illustration"
+                },
+                {
+                    "page": 8,
+                    "sha": "94c91b0de1b21efd1920b3a9cecc65d95ca2dacc",
+                    "description": "Game Playing Introduction Definition 81 (Status Labeling Procedure)"
+                },
+                {
+                    "page": 9,
+                    "sha": "e7b89b8943905bed487330f289af6127823801a1",
+                    "description": "Game Playing Introduction Definition 81 (Status Labeling Procedure)"
+                },
+                {
+                    "page": 10,
+                    "sha": "351637c29200d7be4c9d58135e9aa65bc201139e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 11,
+                    "sha": "94e0ddb30f42e856a09673c9d2ae08be7b8cdd40",
+                    "description": "Game Playing Introduction Definition 82 (Game Strategy, Solution Tree, Winning Strategy)"
+                },
+                {
+                    "page": 12,
+                    "sha": "6c507041eb7fba80d84dc10260cfc67319fd316c",
+                    "description": "Game Playing Introduction Illustration"
+                },
+                {
+                    "page": 13,
+                    "sha": "fd622d49ca09aee0267296aeeab7e99e5c291ff4",
+                    "description": "Game Playing Introduction Two strategies T +, T \u2212, of Max and Min respectively, share at each level either one"
+                },
+                {
+                    "page": 14,
+                    "sha": "74187457ccbbf5fa644b09646566e58aa5c2caf7",
+                    "description": "Game Playing Introduction Strategy considerations for two-player, perfect-information games:"
+                },
+                {
+                    "page": 15,
+                    "sha": "255b41118c242dee0fbd1341008cfe5d99e0d93f",
+                    "description": "Game Playing Introduction Strategy considerations for two-player, perfect-information games:"
+                },
+                {
+                    "page": 16,
+                    "sha": "5b5f851401853d60eb3da0d9efdcceb982cca3c7",
+                    "description": "Game Playing Introduction Strategy considerations for two-player, perfect-information games:"
+                },
+                {
+                    "page": 17,
+                    "sha": "cbc1df12122530638e799fd3a9098b3bb312831c",
+                    "description": "Game Playing Introduction Strategy considerations for two-player, perfect-information games:"
+                },
+                {
+                    "page": 18,
+                    "sha": "774526f7c640aa5aa9e46ecb9090b27d0519fe5d",
+                    "description": "Game Playing Introduction Strategy considerations for two-player, perfect-information games:"
+                },
+                {
+                    "page": 19,
+                    "sha": "c930ad09534b13949ad6ee3a2cdf62fd6d41047e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 20,
+                    "sha": "880c101b35b3c49ecd280c3d908fdba492e20d63",
+                    "description": "Game Playing Introduction The labeling of game trees is possible without distinguishing between Max and"
+                },
+                {
+                    "page": 21,
+                    "sha": "89570039015ae7d962789aa17cfe74f4903dba86",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 22,
+                    "sha": "d8fd0ec93da3271308001a4996c98777679b898a",
+                    "description": "Evaluation Functions for Game Trees Status labeling requires the generation of nearly the complete game tree. The"
+                },
+                {
+                    "page": 23,
+                    "sha": "033158abc2c0f661f76d7a163a6adf511b622394",
+                    "description": "Evaluation Functions for Game Trees Status labeling requires the generation of nearly the complete game tree. The"
+                },
+                {
+                    "page": 24,
+                    "sha": "ffd7447b1c966d44de12530dcff8180f99b1d9b6",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 25,
+                    "sha": "c8710c113840dda83b32675d0c15dc371604ca09",
+                    "description": "Evaluation Functions for Game Trees Definition 84 (Minimax Rule)"
+                },
+                {
+                    "page": 26,
+                    "sha": "c375f031e7d1c6245c60647d09b8937ad41ef5ae",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 27,
+                    "sha": "b70a9baa9e0f96f88eb806c5e68c0d776cfef721",
+                    "description": "Propagation Algorithms for Game Trees "
+                },
+                {
+                    "page": 28,
+                    "sha": "87293cad0a71fa1fb95067d20e1d08149b8c157d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 29,
+                    "sha": "2f1dd4e1f163078d2027e97937732e3414b5c99f",
+                    "description": "Propagation Algorithms for Game Trees "
+                },
+                {
+                    "page": 30,
+                    "sha": "29bcb61f0359e733c26d054578d6ae3a4ea51988",
+                    "description": "Propagation Algorithms for Game Trees The pruning rationale used by the algorithm SOLVE is not restricted to two-valued"
+                },
+                {
+                    "page": 31,
+                    "sha": "f2974648c0eff44c287283e3ff7b8acf5cec93dd",
+                    "description": "Propagation Algorithms for Game Trees Game tree with propagated minimax values:"
+                },
+                {
+                    "page": 32,
+                    "sha": "ccc6ae3cd2d12b2513b22f171559d07a57279613",
+                    "description": "Propagation Algorithms for Game Trees Game tree with propagated minimax values:"
+                },
+                {
+                    "page": 33,
+                    "sha": "4a1a5db1f4c8450e9199b4902702c21037e39577",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 34,
+                    "sha": "81b7fffe9842c2d7360eb46cd29c16642060044a",
+                    "description": "Propagation Algorithms for Game Trees Definition 85 (\u03b1-Bound)"
+                },
+                {
+                    "page": 35,
+                    "sha": "c8a7ef54b79d8cd920b45d67485ea05ea83246e6",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 36,
+                    "sha": "1aa20ed937ba0f3991cae549ed488a78ae00a5ef",
+                    "description": "Propagation Algorithms for Game Trees Definition 86 (\u03b2-Bound)"
+                },
+                {
+                    "page": 37,
+                    "sha": "569c452e3f6928bd9b3ce3668728f2e25ab5bc0c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 38,
+                    "sha": "2992720cde67f5c706d470cb55970fcc7e05838d",
+                    "description": "Propagation Algorithms for Game Trees The \u03b1-\u03b2-pruning scheme:"
+                },
+                {
+                    "page": 39,
+                    "sha": "02526e559efadc3e6ce5f59729701583c4a96128",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 40,
+                    "sha": "e92da70c870df4feb8d5ecd4ebab92d033284f9c",
+                    "description": "Propagation Algorithms for Game Trees Algorithm:"
+                },
+                {
+                    "page": 41,
+                    "sha": "8063ecba953c5fb8179c81fea72b5c5a2106e6a2",
+                    "description": "Propagation Algorithms for Game Trees "
+                }
+            ]
+        }
     }
 }
