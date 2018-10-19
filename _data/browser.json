@@ -3568,17 +3568,6 @@
                     "description": "Beziehungen der Normalformen abh\u00e4ngigkeitserhaltende"
                 }
             ]
-        },
-        "unit-de-relational-design0": {
-            "sha": "da66a3d7fd033ffe35ab6710ad2bac93300fc45e",
-            "numpages": 1,
-            "pages": [
-                {
-                    "page": 1,
-                    "sha": "8b7b05fb7a75d29b20a49afc55c3b6aeb1a19453",
-                    "description": "Syntax im Relationenmodell Konzept"
-                }
-            ]
         }
     },
     "algorithms-and-datastructures": {
