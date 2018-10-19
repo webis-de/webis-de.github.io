@@ -289,32 +289,32 @@
                 {
                     "page": 2,
                     "sha": "496655452c509619a1ee5ea0806aea4461d72028",
-                    "description": "Entwurfsprozess ANSI\/SPARC-Schema-Architektur"
+                    "description": "Entwurfsprozess ANSI/SPARC-Schema-Architektur"
                 },
                 {
                     "page": 3,
                     "sha": "7eed65cfe9f5ab0120bee34894d04b3552df5f76",
-                    "description": "Bemerkungen zu [p.30 Elmasri\/Navathe 2010]:"
+                    "description": "Bemerkungen zu [p.30 Elmasri/Navathe 2010]:"
                 },
                 {
                     "page": 4,
                     "sha": "8525b10ed426268afb35c8b0fdfe84262458ff78",
-                    "description": "Entwurfsprozess ANSI\/SPARC-Schema-Architektur: Entwurfspraxis"
+                    "description": "Entwurfsprozess ANSI/SPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 5,
                     "sha": "dd77a5c175c136c7699a523a3a1662eb1c08b974",
-                    "description": "Entwurfsprozess ANSI\/SPARC-Schema-Architektur: Entwurfspraxis"
+                    "description": "Entwurfsprozess ANSI/SPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 6,
                     "sha": "c6c9e3ddd809e7a3ff7c8774c45dc4f91a91bca2",
-                    "description": "Entwurfsprozess ANSI\/SPARC-Schema-Architektur: Entwurfspraxis"
+                    "description": "Entwurfsprozess ANSI/SPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 7,
                     "sha": "dc907507353ea16b021e8bd896cba534f48281a1",
-                    "description": "Entwurfsprozess ANSI\/SPARC-Schema-Architektur: Entwurfspraxis"
+                    "description": "Entwurfsprozess ANSI/SPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 8,
@@ -766,12 +766,12 @@
                 {
                     "page": 35,
                     "sha": "3f4105878742af827f474b584525dedee8e376a0",
-                    "description": "Abstraktionskonzepte Generalisierung \/ Spezialisierung"
+                    "description": "Abstraktionskonzepte Generalisierung / Spezialisierung"
                 },
                 {
                     "page": 36,
                     "sha": "c197937c24a17d0335df6aacb6d7b251ccdd1c71",
-                    "description": "Abstraktionskonzepte Generalisierung \/ Spezialisierung"
+                    "description": "Abstraktionskonzepte Generalisierung / Spezialisierung"
                 },
                 {
                     "page": 37,
@@ -781,17 +781,17 @@
                 {
                     "page": 38,
                     "sha": "02ceecf4d477b7761ebfeddd5c843960f67a6cee",
-                    "description": "Abstraktionskonzepte Generalisierung \/ Spezialisierung"
+                    "description": "Abstraktionskonzepte Generalisierung / Spezialisierung"
                 },
                 {
                     "page": 39,
                     "sha": "dbb08b14e67f01bf9b4b4ac51197f3c09ccf1253",
-                    "description": "Abstraktionskonzepte Generalisierung \/ Spezialisierung"
+                    "description": "Abstraktionskonzepte Generalisierung / Spezialisierung"
                 },
                 {
                     "page": 40,
                     "sha": "8bafa5ea5a635076a8fcd3fb99bbb0749ac1a5ca",
-                    "description": "Abstraktionskonzepte Generalisierung \/ Spezialisierung"
+                    "description": "Abstraktionskonzepte Generalisierung / Spezialisierung"
                 },
                 {
                     "page": 41,
@@ -1795,37 +1795,37 @@
                 {
                     "page": 9,
                     "sha": "8d8727c64a42144944bad3b62ce377f40211aa49",
-                    "description": "Anfragekalk\u00fcle Aufbau einer Formel \/ Grammatik der Sprache: Syntax I"
+                    "description": "Anfragekalk\u00fcle Aufbau einer Formel / Grammatik der Sprache: Syntax I"
                 },
                 {
                     "page": 10,
                     "sha": "c591de4b0a067055b9f3ef597a76da64113fd8f2",
-                    "description": "Anfragekalk\u00fcle Aufbau einer Formel \/ Grammatik der Sprache: Syntax I"
+                    "description": "Anfragekalk\u00fcle Aufbau einer Formel / Grammatik der Sprache: Syntax I"
                 },
                 {
                     "page": 11,
                     "sha": "7c4e6fd426ca8377191ee70052e05a64a10c17aa",
-                    "description": "Anfragekalk\u00fcle Aufbau einer Formel \/ Grammatik der Sprache: Syntax I"
+                    "description": "Anfragekalk\u00fcle Aufbau einer Formel / Grammatik der Sprache: Syntax I"
                 },
                 {
                     "page": 12,
                     "sha": "1dbed51033e97fa2b74596a7540c7fda0a8e1b27",
-                    "description": "Anfragekalk\u00fcle Aufbau einer Formel \/ Grammatik der Sprache: Syntax I"
+                    "description": "Anfragekalk\u00fcle Aufbau einer Formel / Grammatik der Sprache: Syntax I"
                 },
                 {
                     "page": 13,
                     "sha": "4d4538dcef683fd9be7947e588f70338f541adbe",
-                    "description": "Anfragekalk\u00fcle Aufbau einer Formel \/ Grammatik der Sprache: Syntax I"
+                    "description": "Anfragekalk\u00fcle Aufbau einer Formel / Grammatik der Sprache: Syntax I"
                 },
                 {
                     "page": 14,
                     "sha": "ce9f2742cc8e035c47b16dab73a98bdc1f8311bf",
-                    "description": "Anfragekalk\u00fcle Bewertung einer Formel \/ Interpretation der Sprache: Semantik I"
+                    "description": "Anfragekalk\u00fcle Bewertung einer Formel / Interpretation der Sprache: Semantik I"
                 },
                 {
                     "page": 15,
                     "sha": "3d8a80b2eba054d2a7781f58e7e2dc1a3ebc1379",
-                    "description": "Anfragekalk\u00fcle Bewertung einer Formel \/ Interpretation der Sprache: Semantik I"
+                    "description": "Anfragekalk\u00fcle Bewertung einer Formel / Interpretation der Sprache: Semantik I"
                 },
                 {
                     "page": 16,
