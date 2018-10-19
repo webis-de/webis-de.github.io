@@ -15,10 +15,11 @@ layout: default
 <div class="slidehub-container">
 
 <!-- units start -->
-{% for unit in site.data.browser[page.collection] %}
-<div class="sh-doc" id="{{ unit[0] }}.pdf" data-doc-source="https://webis.de/downloads/lecturenotes/{{ page.collection }}/{{ unit[0] }}.pdf" style="--sh-pages: {{ unit[1].numpages }}"><div class="sh-doc-scrollbox"><div class="sh-page-container">
-{% for unitpage in unit[1].pages %}
-<div class="sh-page" data-page="{{ unitpage.page }}"><img alt="{{ unitpage.description }}" src="https://webis.de/downloads/lecturenotes/{{ page.collection }}/{{ unit[0] }}/{{ unit[0] }}-{{ unitpage.page }}.png"></div>
+{% for unitId in site.data.browser[page.collection].ordering %}
+{% assign unit = site.data.browser[page.collection][unitId] %}
+<div class="sh-doc" id="{{ unitId }}.pdf" data-doc-source="https://webis.de/downloads/lecturenotes/{{ page.collection }}/{{ unitId }}.pdf" style="--sh-pages: {{ unit.numpages }}"><div class="sh-doc-scrollbox"><div class="sh-page-container">
+{% for unitpage in unit.pages %}
+<div class="sh-page" data-page="{{ unitpage.page }}"><img alt="{{ unitpage.description }}" src="https://webis.de/downloads/lecturenotes/{{ page.collection }}/{{ unitId }}/{{ unitId }}-{{ unitpage.page }}.png"></div>
 {% endfor %}
   <div class="page dummy-page" aria-hidden="true" style="visibility: hidden;"></div>
 </div></div></div>
