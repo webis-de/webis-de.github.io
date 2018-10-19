@@ -3568,6 +3568,34 @@
                     "description": "Beziehungen der Normalformen abh\u00e4ngigkeitserhaltende"
                 }
             ]
+        },
+        "ordering": [
+            "unit-de-db-organization",
+            "unit-de-db-introduction",
+            "unit-de-design-and-models",
+            "unit-de-conceptual-design1",
+            "unit-de-conceptual-design2",
+            "unit-de-relational-design0",
+            "unit-de-relational-design1",
+            "unit-de-relational-design2",
+            "unit-de-relational-algebra",
+            "unit-de-relational-calculus",
+            "unit-de-sql1",
+            "unit-de-sql2",
+            "unit-de-sql3",
+            "unit-de-relational-theory1",
+            "unit-de-relational-theory2"
+        ],
+        "unit-de-relational-design0": {
+            "sha": "da66a3d7fd033ffe35ab6710ad2bac93300fc45e",
+            "numpages": 1,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "f8c9542c5519dc0d2d404f1cf4859b1779a3042c",
+                    "description": "Syntax im Relationenmodell Konzept"
+                }
+            ]
         }
     },
     "algorithms-and-datastructures": {
