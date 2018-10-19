@@ -3953,5 +3953,3380 @@
                 }
             ]
         }
+    },
+    "logics": {
+        "ordering": [
+            "unit-de-logics-organization",
+            "unit-de-propositional-basics",
+            "unit-de-propositional-transformation",
+            "unit-de-propositional-sat-semantical",
+            "unit-de-propositional-sat-syntactical",
+            "unit-de-propositional-complexity",
+            "unit-de-predicate-basics",
+            "unit-de-predicate-transformation",
+            "unit-de-predicate-sat-syntactical",
+            "unit-de-predicate-complexity",
+            "unit-de-fuzzy-basics",
+            "unit-de-fuzzy-inference",
+            "unit-de-rule-systems",
+            "unit-de-non-monotonicity",
+            "unit-de-logics-algebra",
+            "unit-de-verification1",
+            "unit-de-verification2",
+            "unit-de-verification3"
+        ],
+        "unit-de-logics-organization": {
+            "sha": "1e409df895e491315fee915cc9b432ba9d53063a",
+            "numpages": 5,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "10464c6a6582827edb5faf82e25141538d662692",
+                    "description": "Logik Theo Lettmann"
+                },
+                {
+                    "page": 2,
+                    "sha": "ce1597c7df1bb098880849ec00b49844e4fe0d1a",
+                    "description": "Inhalt I. Einf\u00fchrung"
+                },
+                {
+                    "page": 3,
+                    "sha": "08376669a1f49a77d042a59c86f3e266b8e842e7",
+                    "description": "Ziele Wie k\u00f6nnen aus vorhandenem Wissen Schlussfolgerungen gezogen werden?"
+                },
+                {
+                    "page": 4,
+                    "sha": "de90b71c454a7377dab7f7d0033d24c9dcf9e326",
+                    "description": "Angrenzende Gebiete 1. Formale Sprachen"
+                },
+                {
+                    "page": 5,
+                    "sha": "9ef2225be789d3616c4a5f008ae6357b8b9f44a7",
+                    "description": "Literatur "
+                }
+            ]
+        },
+        "unit-de-propositional-basics": {
+            "sha": "97450b57812c9a93c6e72e9dc3bc7e8a0aff16e4",
+            "numpages": 58,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "b94fe9806826f028580c34f03f4462862c7438b5",
+                    "description": "Kapitel L:II II. Aussagenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "2e2aaaaa8df6cdeed9bb079d5d206302a61a09c3",
+                    "description": "Syntax der Aussagenlogik Definition 1 (Sprache der Aussagenlogik)"
+                },
+                {
+                    "page": 3,
+                    "sha": "3a941f3e51345d3016c402298d98d6106d667534",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 4,
+                    "sha": "2ca5ebba563aef436d2e9317c7818519c1c91c1a",
+                    "description": "Syntax der Aussagenlogik Vereinbarungen:"
+                },
+                {
+                    "page": 5,
+                    "sha": "28cae8c4556ff3550a110568ac320ddf30b76422",
+                    "description": "Syntax der Aussagenlogik Definition 3 (atoms(\u03b1))"
+                },
+                {
+                    "page": 6,
+                    "sha": "692a4de59dccfc8ea4e989454fe1e861564d3112",
+                    "description": "Syntax der Aussagenlogik"
+                },
+                {
+                    "page": 7,
+                    "sha": "990c5c7302443ae430fac86feb608fdcc96c7aa1",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 8,
+                    "sha": "9608bb3aeb568cf40e1906acb2f96172d2fceeac",
+                    "description": "Syntax der Aussagenlogik Definition 4 (Formell\u00e4nge |\u03b1|)"
+                },
+                {
+                    "page": 9,
+                    "sha": "8370f7a8d1cc802bda5ef547570606dc2668bd57",
+                    "description": "Syntax der Aussagenlogik Definition 4 (Formell\u00e4nge |\u03b1|)"
+                },
+                {
+                    "page": 10,
+                    "sha": "d331ecfaa20d27a49421dbd27f7697d8e53b523f",
+                    "description": "Semantik der Aussagenlogik Definition 5 (Bewertung, Interpretation)"
+                },
+                {
+                    "page": 11,
+                    "sha": "5f009f12b519219d60dd07b5e23c7340a46a30a6",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 12,
+                    "sha": "1d2bbc684f535eb6e432dc35ced5f8c078ae03e3",
+                    "description": "Semantik der Aussagenlogik Definition 6 (Bewertung aussagenlogischer Formeln)"
+                },
+                {
+                    "page": 13,
+                    "sha": "5473fcad9741d2cbdc905523cb35605527035dfe",
+                    "description": "Semantik der Aussagenlogik Definition 6 (Bewertung aussagenlogischer Formeln"
+                },
+                {
+                    "page": 14,
+                    "sha": "b8d1dcc7cc86b2298b3ce65a3d32654404d132e0",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 15,
+                    "sha": "5e4d774cb01a293f0a5c2676dd5972af8657ee6e",
+                    "description": "Semantik der Aussagenlogik Die Formalisierung von Aussagen \u00fcber die Realit\u00e4t mittels der Sprache der"
+                },
+                {
+                    "page": 16,
+                    "sha": "2eea5c6d8d6829b867db3abf1333ce07eb44bc59",
+                    "description": "Semantik der Aussagenlogik Die Formalisierung von Aussagen \u00fcber die Realit\u00e4t mittels der Sprache der"
+                },
+                {
+                    "page": 17,
+                    "sha": "88b184e2945513898e9ecb5604956faea8866ed4",
+                    "description": "Semantik der Aussagenlogik Die Formalisierung von Aussagen \u00fcber die Realit\u00e4t mittels der Sprache der"
+                },
+                {
+                    "page": 18,
+                    "sha": "5f2e7b349cd02bacc752c7ca74ec9fd2560811c2",
+                    "description": "Semantik der Aussagenlogik Die Formalisierung von Aussagen \u00fcber die Realit\u00e4t mittels der Sprache der"
+                },
+                {
+                    "page": 19,
+                    "sha": "e8d9000a3a5874793b60dd3b0d9771bb1115901d",
+                    "description": "Semantik der Aussagenlogik Die Formalisierung von Aussagen \u00fcber die Realit\u00e4t mittels der Sprache der"
+                },
+                {
+                    "page": 20,
+                    "sha": "e4e710882b50864fcea49c15fcb1ca6dd4dbe7b6",
+                    "description": "Semantik der Aussagenlogik Satz 7 (Koinzidenztheorem)"
+                },
+                {
+                    "page": 21,
+                    "sha": "dc76e596d2c8382414ac527ce24b76e59c362bea",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 22,
+                    "sha": "eedad4c4447d5ea79604c748883dcb05108a2171",
+                    "description": "Semantik der Aussagenlogik Definition 8 (Wahrheitstafel)"
+                },
+                {
+                    "page": 23,
+                    "sha": "04414c89fb03a7fc11a61a96e6d5024e92b71b34",
+                    "description": "Semantik der Aussagenlogik Definition 8 (Wahrheitstafel)"
+                },
+                {
+                    "page": 24,
+                    "sha": "2e621ac1ee04fbe50a2efef039bc43bba764d015",
+                    "description": "Semantik der Aussagenlogik Definition 8 (Wahrheitstafel)"
+                },
+                {
+                    "page": 25,
+                    "sha": "e428e63e846b4435b38eb1be5980cf5211556a0e",
+                    "description": "Semantik der Aussagenlogik Definition 8 (Wahrheitstafel)"
+                },
+                {
+                    "page": 26,
+                    "sha": "25675e5fc60eec0d2860c34d401b84315f581425",
+                    "description": "Semantik der Aussagenlogik Definition 8 (Wahrheitstafel)"
+                },
+                {
+                    "page": 27,
+                    "sha": "6234dc1d567480c077b12b636dc162943cd6df56",
+                    "description": "Semantik der Aussagenlogik Definition 9 (Erf\u00fcllbarkeitsbegriffe)"
+                },
+                {
+                    "page": 28,
+                    "sha": "2bbf6d167a47ee483d4940fdd6def23b327e787c",
+                    "description": "Semantik der Aussagenlogik Definition 9 (Erf\u00fcllbarkeitsbegriffe)"
+                },
+                {
+                    "page": 29,
+                    "sha": "dcf0304e778e13979d49f73af3aae9469546cea3",
+                    "description": "Semantik der Aussagenlogik Definition 9 (Erf\u00fcllbarkeitsbegriffe)"
+                },
+                {
+                    "page": 30,
+                    "sha": "b8aa071c58a35398bdb91cc1d7f77254b3d6cfb0",
+                    "description": "Semantik der Aussagenlogik Definition 9 (Erf\u00fcllbarkeitsbegriffe)"
+                },
+                {
+                    "page": 31,
+                    "sha": "da926381ce276d271b2d036defaae5876334aad6",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 32,
+                    "sha": "8f60abf78b465480eb8bea9ceb158866fb8c6e70",
+                    "description": "Semantik der Aussagenlogik Satz 10 (Erf\u00fcllbarkeitsbegriffe)"
+                },
+                {
+                    "page": 33,
+                    "sha": "44591f4d5ef47c1ab1f43e2003eeb5b5e32059e0",
+                    "description": "Semantik der Aussagenlogik Definition 11 (Semantische Folgerung)"
+                },
+                {
+                    "page": 34,
+                    "sha": "5f72fd15c10a5844b1fe5f1a2bb4a08ede4285af",
+                    "description": "Semantik der Aussagenlogik Definition 11 (Semantische Folgerung)"
+                },
+                {
+                    "page": 35,
+                    "sha": "4c2e9017ee131b177ff9bdeb5a0b5f8ef12b592d",
+                    "description": "Semantik der Aussagenlogik Definition 11 (Semantische Folgerung)"
+                },
+                {
+                    "page": 36,
+                    "sha": "438553677dca460a5bf193b1edd0f82bb873da04",
+                    "description": "Semantik der Aussagenlogik Zeichen der Objektsprache"
+                },
+                {
+                    "page": 37,
+                    "sha": "ba4559a38998f18685f8c4efaf67e1f24e25adc1",
+                    "description": "Semantik der Aussagenlogik Zeichen der Metasprache"
+                },
+                {
+                    "page": 38,
+                    "sha": "7dac68035396ef272b2194c3c6d28ceddfe36023",
+                    "description": "Semantik der Aussagenlogik Zeichen der Metasprache"
+                },
+                {
+                    "page": 39,
+                    "sha": "4623e7837a902250e94d3eb83ac3b3f0a0a05cce",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 40,
+                    "sha": "ed0e5d5a850d2b507cf20e070623750e0ee2db61",
+                    "description": "Semantik der Aussagenlogik Beispiele f\u00fcr Formeln aus Aussagenlogik und Algebra:"
+                },
+                {
+                    "page": 41,
+                    "sha": "628525ca2d38815ed4c0cf64588bf89b22f91873",
+                    "description": "Semantik der Aussagenlogik Beispiele f\u00fcr Formeln aus Aussagenlogik und Algebra:"
+                },
+                {
+                    "page": 42,
+                    "sha": "b5080fd72d074b0b9ab0cebbe18aebd367b33a3c",
+                    "description": "Semantik der Aussagenlogik Beispiele f\u00fcr Formeln aus Aussagenlogik und Algebra:"
+                },
+                {
+                    "page": 43,
+                    "sha": "4e7698d9fbba76604261c6226ab77fb9e38527cd",
+                    "description": "Semantik der Aussagenlogik Weitere Vereinbarungen zur Syntax:"
+                },
+                {
+                    "page": 44,
+                    "sha": "588a372f332bb2f44078b74cfa84bb8329c62963",
+                    "description": "Bemerkungen: \u2205 |= \u03b2 \u21d4 \u03b2 tautologisch"
+                },
+                {
+                    "page": 45,
+                    "sha": "d8130b9167746e3f09ef215e41276cc83f96872c",
+                    "description": "Eigenschaften des Folgerungsbegriffs Lemma 12 (\u00fcber aussagenlogische Formeln \u03b1 und \u03b2)"
+                },
+                {
+                    "page": 46,
+                    "sha": "da0e7b5a03c9abc66303d9eb9a5bd17f16db0b0c",
+                    "description": "Eigenschaften des Folgerungsbegriffs Lemma 13 (Deduktionstheorem)"
+                },
+                {
+                    "page": 47,
+                    "sha": "2f52d02269632362b65ac4f2b87eecc686be721c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 48,
+                    "sha": "4c172eabf0d5c34d5df30381b0ca0810681d2964",
+                    "description": "Eigenschaften des Folgerungsbegriffs Beweis (Deduktionstheorem)"
+                },
+                {
+                    "page": 49,
+                    "sha": "0ebaa6cdc69230b2b61339490ea70488a40f1473",
+                    "description": "Eigenschaften des Folgerungsbegriffs Korollar 14 (Deduktionstheorem f\u00fcr endliches M )"
+                },
+                {
+                    "page": 50,
+                    "sha": "fc664cd512d6553d86e1488ac8e001b90f0a0bdb",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 51,
+                    "sha": "82fb0fe2ee3a375a825e9e77fc8ed1200b614103",
+                    "description": "\u00c4quivalenz Problematik:"
+                },
+                {
+                    "page": 52,
+                    "sha": "9c075a3c4a48650d4bfe52b712d50d6b546d80b3",
+                    "description": "\u00c4quivalenz Definition 16 (logische \u00c4quivalenz)"
+                },
+                {
+                    "page": 53,
+                    "sha": "6d46f69d6f8f54780ee9b00bbd5a91e8daf733be",
+                    "description": "\u00c4quivalenz Lemma 17"
+                },
+                {
+                    "page": 54,
+                    "sha": "5a0e34f827c8442e9fdc5995a4edaecf71fea53b",
+                    "description": "\u00c4quivalenz Wichtige \u00c4quivalenzen zur Formeltransformation\/-vereinfachung"
+                },
+                {
+                    "page": 55,
+                    "sha": "02ef0f629610f4af9db27b2d96d28b59a26e93d4",
+                    "description": "\u00c4quivalenz Wichtige \u00c4quivalenzen zur Formeltransformation\/-vereinfachung"
+                },
+                {
+                    "page": 56,
+                    "sha": "97cc3bb6130e4828ac90b21b32b97c79a849b357",
+                    "description": "\u00c4quivalenz Definition 18 (Erf\u00fcllbarkeits\u00e4quivalenz)"
+                },
+                {
+                    "page": 57,
+                    "sha": "d2e7ca25f4cba9ab24e0cd9f8e356f3d7fcd85fc",
+                    "description": "\u00c4quivalenz Veranschaulichung der Formeln hinsichtlich ihrer Erf\u00fcllbarkeit:"
+                },
+                {
+                    "page": 58,
+                    "sha": "61d62207af1931a23d7c88266293b0b5570bffb1",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-propositional-transformation": {
+            "sha": "b87d10008e276e60583666f3c6d4f001961cef1a",
+            "numpages": 33,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "a946c0ab9c51809d8cebaa1df99da87a2d8f7349",
+                    "description": "Kapitel L:II II. Aussagenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "750cb6938a530abdea3c2c4425d03ed603fa361f",
+                    "description": "Formeltransformation Jede Formel kann als Datenstruktur in der Form eines Baumes interpretiert"
+                },
+                {
+                    "page": 3,
+                    "sha": "d7eb4934309c67d7e72d7131fe3f691cf8626375",
+                    "description": "Formeltransformation Die Ersetzung eines Vorkommens von \u03b3 in \u03b1 durch \u03b4 entspricht der Ersetzung"
+                },
+                {
+                    "page": 4,
+                    "sha": "7cc400b2de4899450277d0993fa67c282025e57d",
+                    "description": "Formeltransformation Aus Sicht der maschinellen Verarbeitung h\u00e4tte man gerne kanonische Formeln"
+                },
+                {
+                    "page": 5,
+                    "sha": "37c11e41a9f2bf701cf5d276e88a3d11cf1b74bc",
+                    "description": "Formeltransformation Aus Sicht der maschinellen Verarbeitung h\u00e4tte man gerne kanonische Formeln"
+                },
+                {
+                    "page": 6,
+                    "sha": "4333c1a777bb72cfdb06a2e7a7e8020a04496ad3",
+                    "description": "Normalformen Erste Stufe einer Normalisierung:"
+                },
+                {
+                    "page": 7,
+                    "sha": "c6d89bfade404caf7fc973de3b768ba27e29f76c",
+                    "description": "Normalformen Erste Stufe einer Normalisierung:"
+                },
+                {
+                    "page": 8,
+                    "sha": "38abd7d61e8f7781c44498b6a8140925f8cd51a8",
+                    "description": "Normalformen Definition 16 (Negationsnormalform)"
+                },
+                {
+                    "page": 9,
+                    "sha": "ab7c5fc6daf72b79303dac31f3365f598fd9152b",
+                    "description": "Normalformen Algorithmus:"
+                },
+                {
+                    "page": 10,
+                    "sha": "a5955a11dfc67b39cc5b02d38d55c62772bbd039",
+                    "description": "Normalformen Definition 18 (Literal)"
+                },
+                {
+                    "page": 11,
+                    "sha": "2e674e8d8fe4263600dc9e7bd2b262d0f74a6f52",
+                    "description": "Normalformen Definition 20 (Konjunktive Normalform)"
+                },
+                {
+                    "page": 12,
+                    "sha": "4ef2a0aa5391b78488595871182f0e216cdf02a5",
+                    "description": "Normalformen Lemma 21 (logisch \u00e4quivalente KNF)"
+                },
+                {
+                    "page": 13,
+                    "sha": "67a3745c4170941f7274d35191472830dc2f24ee",
+                    "description": "Normalformen Algorithmus:"
+                },
+                {
+                    "page": 14,
+                    "sha": "8c17060f39831318a13a0eb22daefffcd9df0c11",
+                    "description": "Normalformen Beispiel zum exponentiellen Platzbedarf."
+                },
+                {
+                    "page": 15,
+                    "sha": "2d80aee76d6ec3c8717380d101d1df83030232cf",
+                    "description": "Normalformen Beispiel zum exponentiellen Platzbedarf."
+                },
+                {
+                    "page": 16,
+                    "sha": "c9eee77b3d28dabb990bd219dbf8050f4bff2ebb",
+                    "description": "Normalformen Beispiel zum exponentiellen Platzbedarf."
+                },
+                {
+                    "page": 17,
+                    "sha": "69f02b8b7593952c054733e9899c5bc9aaffb378",
+                    "description": "Formeltransformation nach Tseitin Andere Idee zur Erzeugung einer KNF aus \u03b1:"
+                },
+                {
+                    "page": 18,
+                    "sha": "2831507f4cfb1cd4cce9711a85ab1c33ca373a3d",
+                    "description": "Formeltransformation nach Tseitin \u2227"
+                },
+                {
+                    "page": 19,
+                    "sha": "42ba1568a00ffd4379184b98a2edbeada207d146",
+                    "description": "Formeltransformation nach Tseitin \u2227"
+                },
+                {
+                    "page": 20,
+                    "sha": "c31a3e1454152331057ba186f12a57b8fd1dae6b",
+                    "description": "Formeltransformation nach Tseitin \u2227"
+                },
+                {
+                    "page": 21,
+                    "sha": "54623c4ad40c688ef74ade15990e8c33f7e92808",
+                    "description": "Formeltransformation nach Tseitin \u2227"
+                },
+                {
+                    "page": 22,
+                    "sha": "ee25542b95bc55eb787e293f62d549d2f9ab6fb2",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "0fe24bd0f4616015dba8c40780d8bb9e2dc78e99",
+                    "description": "Formeltransformation nach Tseitin Lemma 22 (erf\u00fcllbarkeits\u00e4quivalente KNF)"
+                },
+                {
+                    "page": 24,
+                    "sha": "338642ae5b1fa0542f0d64799b5bd377ac5c11e2",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 25,
+                    "sha": "d958aa67d3e85d93dc6d8afd64cc2f34a28c8f53",
+                    "description": "Normalformen Frage: Gegeben eine Formel \u2208 KNF. Inwieweit lassen sich die Klausell\u00e4ngen"
+                },
+                {
+                    "page": 26,
+                    "sha": "af89e2d9d36ced99f7a8e187425a96ac08ad75fc",
+                    "description": "Normalformen Frage: Gegeben eine Formel \u2208 KNF. Inwieweit lassen sich die Klausell\u00e4ngen"
+                },
+                {
+                    "page": 27,
+                    "sha": "0f922f0f4f1c6e097367a5207d4b03601abbdb45",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 28,
+                    "sha": "76562233017c49960cde9b30f131361f77d87444",
+                    "description": "Normalformen Definition 25 (disjunktive Normalform)"
+                },
+                {
+                    "page": 29,
+                    "sha": "d2c53e1b608137041418727cb0f3b2ade438dbfb",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 30,
+                    "sha": "071a77188518f38b90bdfbb1556846c8ac72e6e7",
+                    "description": "Normalformen Definition 27 (duale Formel)"
+                },
+                {
+                    "page": 31,
+                    "sha": "778f2304d0fef40752bc31bb5faf4866eadf606e",
+                    "description": "Normalformen Lemma 28 (duale Formeln und Erf\u00fcllbarkeit)"
+                },
+                {
+                    "page": 32,
+                    "sha": "03e9b5d69d8cbcd78ac85247270baccf72abce9d",
+                    "description": "Normalformen Definition 29 (Mengenschreibweise f\u00fcr Formeln in KNF)"
+                },
+                {
+                    "page": 33,
+                    "sha": "ba733b91b81b413cd4f199c2061084d916d4df5b",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-propositional-sat-semantical": {
+            "sha": "77b322bab64c7c2b144937170801a35dc7d4aaa0",
+            "numpages": 22,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8369b3856743bfbcd45b7a2f453f00d544ed3b6c",
+                    "description": "Kapitel L:II II. Aussagenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "844a1292f0a06c530c7e17ef35134da974acc044",
+                    "description": "Bedeutung der Folgerung Q. Warum ist der Begriff der Folgerung so wichtig?"
+                },
+                {
+                    "page": 3,
+                    "sha": "6f383bf36734cd2503fe778bec7c5988bcc81fda",
+                    "description": "Bedeutung der Folgerung Q. Warum ist der Begriff der Folgerung so wichtig?"
+                },
+                {
+                    "page": 4,
+                    "sha": "0ecf154b91a5ebb9602244906a2d5e70ac153d87",
+                    "description": "Bedeutung der Folgerung Q. Warum ist der Begriff der Folgerung so wichtig?"
+                },
+                {
+                    "page": 5,
+                    "sha": "e4bc3d27d8cc0dde02d7b9cd6164f2d63175a643",
+                    "description": "Bedeutung der Folgerung Q. Wenn Folgern lediglich Explizitmachen ist, warum hat dann das \u00dcberpr\u00fcfen oder Erzeugen"
+                },
+                {
+                    "page": 6,
+                    "sha": "b0284bd841bb0bb905b8561a32174bd6b492ec8d",
+                    "description": "Bedeutung der Folgerung Q. Wenn Folgern lediglich Explizitmachen ist, warum hat dann das \u00dcberpr\u00fcfen oder Erzeugen"
+                },
+                {
+                    "page": 7,
+                    "sha": "5e6fd7e4196ea9895ac90225e5c0c1c72236d2e5",
+                    "description": "Erf\u00fcllbarkeitsalgorithmen Q. Was hat die Beantwortung der Folgerungsfrage \u201eGilt \u03b1 |= \u03b2 ?\u201c mit dem"
+                },
+                {
+                    "page": 8,
+                    "sha": "e821d73c1cfb301548c31dcf524d32e4be1fab97",
+                    "description": "Erf\u00fcllbarkeitsalgorithmen Verschiedene M\u00f6glichkeiten, die Erf\u00fcllbarkeit einer Formel \u03b1 zu entscheiden."
+                },
+                {
+                    "page": 9,
+                    "sha": "899eac3661207eb42f0527f5e42e1942e3518bda",
+                    "description": "Erf\u00fcllbarkeitsalgorithmen Verschiedene M\u00f6glichkeiten, die Erf\u00fcllbarkeit einer Formel \u03b1 zu entscheiden."
+                },
+                {
+                    "page": 10,
+                    "sha": "c494b4b42c532fecf8e8ded757a4071d0454f201",
+                    "description": "Erf\u00fcllbarkeitsalgorithmen Semantische B\u00e4ume"
+                },
+                {
+                    "page": 11,
+                    "sha": "209d4a496b5d8d9311ec76f2383a5d200153fa89",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 12,
+                    "sha": "0d8256a949b5ebb239ea7808a436138845c47b31",
+                    "description": "Semantische B\u00e4ume Definition 23 (1-\u00c4quivalenzen, 0-\u00c4quivalenzen)"
+                },
+                {
+                    "page": 13,
+                    "sha": "04e6516f5d1160614717cee2f2f87b3b54b95c3a",
+                    "description": "Semantische B\u00e4ume Definition 24 (1-Reduktion, 0-Reduktion)"
+                },
+                {
+                    "page": 14,
+                    "sha": "e62c6ceee035d506ebd180496f56e49fc8373eba",
+                    "description": "Semantische B\u00e4ume \u03b1"
+                },
+                {
+                    "page": 15,
+                    "sha": "989c24f90c0fbe43dc649f0831e277242ba55ef6",
+                    "description": "Semantische B\u00e4ume Beschr\u00e4nkung der Formelstruktur: Sei \u03b1 \u2208 KNF, A \u2208 atoms(\u03b1)"
+                },
+                {
+                    "page": 16,
+                    "sha": "fbf1b539ca7d36026a5dd881d6680a564690e455",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Verbesserung von SPLIT-SAT."
+                },
+                {
+                    "page": 17,
+                    "sha": "15c2e74ab28f60b5e532f945946a88bb52210232",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Verallgemeinerung von \u03b1[A\/1]."
+                },
+                {
+                    "page": 18,
+                    "sha": "2530f6d72b8c569812d75c6f1fb47fbfac98748d",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Davis-Putnam-Algorithmus"
+                },
+                {
+                    "page": 19,
+                    "sha": "b7a7f25992b68365cc19e85e29a320511ca7bd64",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Beispiel f\u00fcr DPLL-SAT:"
+                },
+                {
+                    "page": 20,
+                    "sha": "35737974ba9bb6746acd1f6d857a1e00fd17d158",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Auswahlkriterien f\u00fcr Splittingregel:"
+                },
+                {
+                    "page": 21,
+                    "sha": "ddbc64455e5845b01e67d9e5d948438cec7a15d0",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Auswahlkriterien f\u00fcr Splittingregel:"
+                },
+                {
+                    "page": 22,
+                    "sha": "c6c26b6ede783d355191318a3264389576aed682",
+                    "description": "Weiterentwicklung semantischer B\u00e4ume Auswahlkriterien f\u00fcr Splittingregel:"
+                }
+            ]
+        },
+        "unit-de-propositional-sat-syntactical": {
+            "sha": "13dd197b6261dd315419e255d9d4a9600a060679",
+            "numpages": 56,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8c2ad2c6476d4acce7b010f7807b0adaf2d8a769",
+                    "description": "Kapitel L:II II. Aussagenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "c9a1ad9ed124715cae54bd5a87e4dd514007d69b",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Ausgangspunkt ist die Frage: \u201eGilt \u03b1 |= \u03b2 ?\u201c"
+                },
+                {
+                    "page": 3,
+                    "sha": "1fea59679260d58e5d02780eb81ab3a6324634a1",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Definition 25 (Schlussregel, Kalk\u00fcl)"
+                },
+                {
+                    "page": 4,
+                    "sha": "9cc621cbd640a0fba410f62b15b4f521e459e674",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 5,
+                    "sha": "a232122146a1e183397b591e5f4718a72bf1c98f",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Definition 26 (Herleiten, syntaktisches Schlussfolgern)"
+                },
+                {
+                    "page": 6,
+                    "sha": "ad70577287ec69cdbf075af35cbfd4316d1f1f88",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 7,
+                    "sha": "24470c20bbe0918533df22e3b97ac514ecf2ecb2",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Die Schlussregel Modus Ponens, MP (drei Schreibweisen)"
+                },
+                {
+                    "page": 8,
+                    "sha": "1910098f5ef8758b604c60589ffcc104927975b9",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Die Schlussregel Modus Ponens, MP (drei Schreibweisen)"
+                },
+                {
+                    "page": 9,
+                    "sha": "0f2ab5081a92beee0e280281b68869c001ed360f",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "6f61d265f1d12822732c4f096a7455218434b96d",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Eigenschaften von Kalk\u00fclen"
+                },
+                {
+                    "page": 11,
+                    "sha": "59f9e0af47568d8e89e1e764ae82c267324ce325",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Eigenschaften von Kalk\u00fclen"
+                },
+                {
+                    "page": 12,
+                    "sha": "24dc160bef38d945e69922d933ac4f9cf4174f45",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Eigenschaften von Kalk\u00fclen"
+                },
+                {
+                    "page": 13,
+                    "sha": "67df095981c0a3d1f6d7599a17d2e849a9043134",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 14,
+                    "sha": "103b466244701476f81f9892cde5311e4ef020bc",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Korrektheit der Schlussregel MP"
+                },
+                {
+                    "page": 15,
+                    "sha": "12b499385850a2118bc566aa7cdd8200663b664c",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Vollst\u00e4ndigkeit des MP"
+                },
+                {
+                    "page": 16,
+                    "sha": "2c3a0cadef2607b2e1d1b644454ecdda9e2871e6",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Vollst\u00e4ndigkeit des MP"
+                },
+                {
+                    "page": 17,
+                    "sha": "b1c944d7f596bd5d00c9a020a9925ad2b365c45e",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 18,
+                    "sha": "7150a94464f45faf08cb0a938d46954e6be3df02",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel: Herleitung von \u03b2 aus \u03b1 = \u03b3 \u2227 (\u00ac\u03b3 \u2228 \u03b2)."
+                },
+                {
+                    "page": 19,
+                    "sha": "b3602afa3a82bab9ed509112f24cb092257d943b",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel: Herleitung von \u03b2 aus \u03b1 = \u03b3 \u2227 (\u00ac\u03b3 \u2228 \u03b2)."
+                },
+                {
+                    "page": 20,
+                    "sha": "6562c9b848b4b48fd8d2482c1a9f58d656653703",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel: Herleitung von \u03b2 aus \u03b1 = \u03b3 \u2227 (\u00ac\u03b3 \u2228 \u03b2)."
+                },
+                {
+                    "page": 21,
+                    "sha": "56ed599826a34cd5b51137b1f60c5d4f29e85cd3",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel: Herleitung von \u03b2 aus \u03b1 = \u03b3 \u2227 (\u00ac\u03b3 \u2228 \u03b2)."
+                },
+                {
+                    "page": 22,
+                    "sha": "ac1823d584875aa50dcdfc358a32737944227619",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Weitere Schlussregeln sind denkbar \u2013 z. B. der Kettenschluss, KS:"
+                },
+                {
+                    "page": 23,
+                    "sha": "fac54598b6ef00e8ecf960ff5a2547f0a4ac6cd1",
+                    "description": "L:II-136 "
+                },
+                {
+                    "page": 24,
+                    "sha": "93735224a991fa34e79b6b5440981cc0d44d51dc",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Die Schlussregel Resolution (Formeln in KNF, Mengenschreibweise)"
+                },
+                {
+                    "page": 25,
+                    "sha": "40ed14ac9c03d68db25f807fdfefacd1383f695c",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Die Schlussregel Resolution (Formeln in KNF, Mengenschreibweise)"
+                },
+                {
+                    "page": 26,
+                    "sha": "53cf02c8edfe17c20b918d8c682dd99813c0a81c",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Die Schlussregel Resolution"
+                },
+                {
+                    "page": 27,
+                    "sha": "bff07847ce71f62c43cb802b8c3f23443c29caa3",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 28,
+                    "sha": "a4149a58195a6287c47066ec7fecce8c1099d2ea",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Definition 28 (Resolutionskalk\u00fcl)"
+                },
+                {
+                    "page": 29,
+                    "sha": "640bca209abefa62a6c8aa9d45aee9d439927b71",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Definition 28 (Resolutionskalk\u00fcl)"
+                },
+                {
+                    "page": 30,
+                    "sha": "83e6e28b44317cb1353ff75c274549c0d4e53c96",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel (Input-Resolution)."
+                },
+                {
+                    "page": 31,
+                    "sha": "69b7c53d6c5c0a401b7e7f7f088848aed31bf948",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel."
+                },
+                {
+                    "page": 32,
+                    "sha": "25b3ce9e5597d37b56b805683d56a9944dc1b9a9",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel (regul\u00e4re Resolution)."
+                },
+                {
+                    "page": 33,
+                    "sha": "9cd7d780e8ed551678385103977b49ae55e8f89f",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel (regul\u00e4re Resolution)."
+                },
+                {
+                    "page": 34,
+                    "sha": "439acbb91158868d03a656e6a0febd4025bc5e76",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 35,
+                    "sha": "3e404465e959f0698a1bc77599d221733dbb77ed",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel (lineare Resolution immer m\u00f6glich)."
+                },
+                {
+                    "page": 36,
+                    "sha": "bef26db6c644d5739e9cad44e6cc80159a004c7c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 37,
+                    "sha": "a6242441d93de1e075690d87216f355f99727a02",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beispiel."
+                },
+                {
+                    "page": 38,
+                    "sha": "c90fe0f08f24ee8f1c935fd4cde0bac3fd66fcc4",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Satz 29 (Syntax und Semantik im Resolutionskalk\u00fcl)"
+                },
+                {
+                    "page": 39,
+                    "sha": "08e3ca4c193a5c0dd7404e34e2c9065d91eba8f3",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Satz 29 (Syntax und Semantik im Resolutionskalk\u00fcl)"
+                },
+                {
+                    "page": 40,
+                    "sha": "232eaf3f0e78c8bf7ea92a80d86dbd21d7babec1",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Satz 29 (Syntax und Semantik im Resolutionskalk\u00fcl)"
+                },
+                {
+                    "page": 41,
+                    "sha": "76df90230d6db91f6c29016b317fe159d0209af1",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 42,
+                    "sha": "9dcd9e0948dd3407f270e1144ad9c5561874d0d8",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Beweis (Skizze)"
+                },
+                {
+                    "page": 43,
+                    "sha": "af1dac9f71cd323410e8f7ff24ad4b8b930b0ad3",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 44,
+                    "sha": "fb9039e91e14a2582d89394e5c1513f739afe737",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Satz 30 (Laufzeit des Resolutionskalk\u00fcls)"
+                },
+                {
+                    "page": 45,
+                    "sha": "82f95211935f290b3ff400e0fa56908a44d06a15",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Satz 30 (Laufzeit des Resolutionskalk\u00fcls)"
+                },
+                {
+                    "page": 46,
+                    "sha": "57c216c4ef49b3230f35174f0dff198c0f8de3e9",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 47,
+                    "sha": "b1e2b8ef1ac1007efba1e1c78a11ed244837e825",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Die Varianten des Resolutionskalk\u00fcls k\u00f6nnen als verschiedene Strategien"
+                },
+                {
+                    "page": 48,
+                    "sha": "3e7ce22384b62cf086909588db50a497b5258865",
+                    "description": "Syntaktische Schlussfolgerungsverfahren zu 1. Varianten in der Struktur des Herleitungsbaums"
+                },
+                {
+                    "page": 49,
+                    "sha": "d2118c0bfd6040c1684f5380998fc59b14f9960e",
+                    "description": "Syntaktische Schlussfolgerungsverfahren zu 2. Varianten semantischer Konzepte"
+                },
+                {
+                    "page": 50,
+                    "sha": "64d07ebd74e5513224e7fa10a31c369684b08809",
+                    "description": "Syntaktische Schlussfolgerungsverfahren zu 2. Varianten semantischer Konzepte"
+                },
+                {
+                    "page": 51,
+                    "sha": "84d923fa2d7596354954f97219882af4749f9a12",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 52,
+                    "sha": "2798490e1d9c33dea2b66694674a35f5d18c98ae",
+                    "description": "Syntaktische Schlussfolgerungsverfahren zu 2. Varianten semantischer Konzepte"
+                },
+                {
+                    "page": 53,
+                    "sha": "48d0d6d371bd000adfabb54de6aceb677722c7cd",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 54,
+                    "sha": "d7906b85aac6b91f77d37832f3dedf12acea2a2e",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Wichtige Resultate f\u00fcr Resolutionskalk\u00fcle"
+                },
+                {
+                    "page": 55,
+                    "sha": "4541a46cf477bde30bc033df5eb57fc2059762e9",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Wichtige Resultate f\u00fcr Resolutionskalk\u00fcle"
+                },
+                {
+                    "page": 56,
+                    "sha": "e923f811e99253e2d220866fe00c8f2b8732dd2a",
+                    "description": "Syntaktische Schlussfolgerungsverfahren Zusammenfassung"
+                }
+            ]
+        },
+        "unit-de-propositional-complexity": {
+            "sha": "cc8e0438a51b4ab690c041348223e4fd8b0747bf",
+            "numpages": 18,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "1a7312b152ad143e7b54921b20b7c9b694c6d5a0",
+                    "description": "Kapitel L:II II. Aussagenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "522365691e75ee3d59e77d73f751b621282b683f",
+                    "description": "Erf\u00fcllbarkeitsprobleme Wiederholung (theoretische Informatik)"
+                },
+                {
+                    "page": 3,
+                    "sha": "49a89b4717575ae1f8e7147f76f6b30567d3cf16",
+                    "description": "Erf\u00fcllbarkeitsprobleme Wiederholung (theoretische Informatik)"
+                },
+                {
+                    "page": 4,
+                    "sha": "4128d06c0bbf5bcd8349762ff0e7bf6199f3a3a7",
+                    "description": "Erf\u00fcllbarkeitsprobleme Wiederholung (theoretische Informatik)"
+                },
+                {
+                    "page": 5,
+                    "sha": "d6d22388a8ce8f581cfef7bd573fff83898fb836",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 6,
+                    "sha": "d5c8469d6fb92ff1dce76b356e9cf59735267173",
+                    "description": "Erf\u00fcllbarkeitsprobleme Wiederholung (theoretische Informatik)"
+                },
+                {
+                    "page": 7,
+                    "sha": "ef5e3bb9d38e8a0f8a1ad4b7688e669f5a512281",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 8,
+                    "sha": "e70b995b56bea9c063dc101253c863fa2414648a",
+                    "description": "Erf\u00fcllbarkeitsprobleme Wiederholung (theoretische Informatik)"
+                },
+                {
+                    "page": 9,
+                    "sha": "8e7fd263cc4ad907c7019dc0ce72e39905eef570",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 39 (SAT\u2217)"
+                },
+                {
+                    "page": 10,
+                    "sha": "bfe5110ae5a8850709d0dccbb636d68460ebcd06",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 41 (SAT)"
+                },
+                {
+                    "page": 11,
+                    "sha": "5b120baef7853b01278fc075e49861488e9a7834",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 43 (3SAT)"
+                },
+                {
+                    "page": 12,
+                    "sha": "27d7b9791c730dae1166831b74676f4596ade9c8",
+                    "description": "Erf\u00fcllbarkeitsprobleme Wiederholung (theoretische Informatik)"
+                },
+                {
+                    "page": 13,
+                    "sha": "e3ad1de3dbe73608efad35c3cb685033d632c07a",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 46 (DEDUCT)"
+                },
+                {
+                    "page": 14,
+                    "sha": "c60134858fb480703135fb931cd9a8c42fbaf7ae",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 48 (EQUIV)"
+                },
+                {
+                    "page": 15,
+                    "sha": "3775b078a457ac9ac395e00b604c2f17fba97f04",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 50 (2SAT)"
+                },
+                {
+                    "page": 16,
+                    "sha": "776b44cb70a12feb665f0745380696dd70eba774",
+                    "description": "Erf\u00fcllbarkeitsprobleme Beweis (Skizze: Komplexit\u00e4t von 2SAT)"
+                },
+                {
+                    "page": 17,
+                    "sha": "8ad9e8a20fa714b5c07a0323e40f1a68dd2f02ce",
+                    "description": "Erf\u00fcllbarkeitsprobleme Definition 52 (SAT-Probleme in HORN)"
+                },
+                {
+                    "page": 18,
+                    "sha": "6dfd7b9ba226e1c9a3651ff1f9552ab52642f658",
+                    "description": "Erf\u00fcllbarkeitsprobleme "
+                }
+            ]
+        },
+        "unit-de-predicate-basics": {
+            "sha": "0407f4f16564a69e25b6ff91fe92a52bcd01f547",
+            "numpages": 36,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "a57354d7c1b7e5fa19ef6a9c20566ebb9efa14f5",
+                    "description": "Kapitel L:III III. Pr\u00e4dikatenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "ef2a3968ced9dcae8b4445472789fe35bb685d15",
+                    "description": "Pr\u00e4dikatenlogik Modell, Formalisierung und nat\u00fcrliche Sprache."
+                },
+                {
+                    "page": 3,
+                    "sha": "9f63b3122cb3b3a7a38beec16b80625ea0e15cc9",
+                    "description": "Pr\u00e4dikatenlogik Beispiel \u201eGraphentheorie\u201c."
+                },
+                {
+                    "page": 4,
+                    "sha": "d75f16d49f4208ca1f3681c8aed108bd89d9b068",
+                    "description": "Pr\u00e4dikatenlogik Beispiel \u201eGraphentheorie\u201c \u2013 Formalisierung der Frage."
+                },
+                {
+                    "page": 5,
+                    "sha": "4a074d412f8316e186ccfb873f7b0a3d20cff8e9",
+                    "description": "Pr\u00e4dikatenlogik Beispiel \u201eGraphentheorie\u201c \u2013 alternative Axiomatisierung."
+                },
+                {
+                    "page": 6,
+                    "sha": "efb200780a95f85c9b9ec6a18176f22b20987775",
+                    "description": "Pr\u00e4dikatenlogik Beispiel \u201eBlocks World\u201c."
+                },
+                {
+                    "page": 7,
+                    "sha": "e98c2e3902d0aca370c6950e9bdddb1813b8606e",
+                    "description": "Pr\u00e4dikatenlogik Beispiel \u201eBlocks World\u201c."
+                },
+                {
+                    "page": 8,
+                    "sha": "9b72296691077a8f039699206db9621c9dc9a2fb",
+                    "description": "Pr\u00e4dikatenlogik Charakteristika der Pr\u00e4dikatenlogik erster Stufe:"
+                },
+                {
+                    "page": 9,
+                    "sha": "ae807572d669f9b7fefee3e1fe1f126f0ab76862",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "fcf0944c2baa5945e11dc4ee5314b49b15e36884",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Definition 1 (Sprache der Pr\u00e4dikatenlogik, Signatur)"
+                },
+                {
+                    "page": 11,
+                    "sha": "d7ab24736ec7c000f6a5c64972bb28a3ac2b7712",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Definition 2 (Terme)"
+                },
+                {
+                    "page": 12,
+                    "sha": "a00ad4abacf0bce9025d91c60fcdf63f2b5afb47",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Definition 3 (pr\u00e4dikatenlogische Formeln)"
+                },
+                {
+                    "page": 13,
+                    "sha": "11aec2bf4bf0ef0531636bf5b312889736096ff0",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 14,
+                    "sha": "6ea01f6afde262ea08e857e2cf5be6ff92a1a27e",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Beispiele."
+                },
+                {
+                    "page": 15,
+                    "sha": "26a09e2d7e310b8b7f85dd703bed72da2ac4fc83",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Beispiel \u201eStetigkeit in x0\u201c."
+                },
+                {
+                    "page": 16,
+                    "sha": "5448f25519abc09d3047608085b29ed4e4a80424",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Beispiel \u201eStetigkeit in x0\u201c."
+                },
+                {
+                    "page": 17,
+                    "sha": "06d264256e85c3fbf715fb6889f276b684536c29",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Bindungsst\u00e4rke:"
+                },
+                {
+                    "page": 18,
+                    "sha": "047b2717448ff5ca545af44c05046b525dbe53a7",
+                    "description": "Syntax der Pr\u00e4dikatenlogik"
+                },
+                {
+                    "page": 19,
+                    "sha": "64ea38c9424d1aa1397527e9943c7c5a1cef896f",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Definition 4 (enthaltene Variablen)"
+                },
+                {
+                    "page": 20,
+                    "sha": "aba77a3d41c5b6822a592fb3c52ae0cac32676eb",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Definition 5 (gebundene und freie Variablen)"
+                },
+                {
+                    "page": 21,
+                    "sha": "c1d7a665ba46b56c135e19166009ca1d91fd1672",
+                    "description": "Syntax der Pr\u00e4dikatenlogik Definition 6 (geschlossene Formel)"
+                },
+                {
+                    "page": 22,
+                    "sha": "f424c14a15c3993427316188a8ecbc1e61587b5c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "085c14837ce3529a7d5dd544be9324a2728535e1",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Definition 7 (Interpretation)"
+                },
+                {
+                    "page": 24,
+                    "sha": "bb791064bce8c8ccfbbb28ca8098cfab26892800",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 25,
+                    "sha": "c0ce1d0af681b9c08427098c1fd2bd780063f35f",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Beispiel."
+                },
+                {
+                    "page": 26,
+                    "sha": "cbe88614b73ac0a57f3eaa60f5656349d8a5b164",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Definition 7 (Interpretation \u2013 Fortsetzung)"
+                },
+                {
+                    "page": 27,
+                    "sha": "475bd47758e1764cb09075ccc60b19af45dccda2",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 28,
+                    "sha": "f8c7ab68a12dfa152876ea87511764a4fe505a07",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Definition 7 (Interpretation \u2013 Fortsetzung)"
+                },
+                {
+                    "page": 29,
+                    "sha": "266ceff3db690e57187c480ac118675f4d08c971",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Lemma 8 (Koinzidenztheorem)"
+                },
+                {
+                    "page": 30,
+                    "sha": "764a2dfc3daa083721a591f33346f00e130e542a",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Beispiel."
+                },
+                {
+                    "page": 31,
+                    "sha": "2a5f46df325d53ffcf38b2392c2d606e7a4479db",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Analog zur Aussagenlogik seien folgende Begriffe definiert:"
+                },
+                {
+                    "page": 32,
+                    "sha": "0500fbb76ca59374962bfbc22b71c0a83f037ad9",
+                    "description": "Semantik der Pr\u00e4dikatenlogik Lemma 9"
+                },
+                {
+                    "page": 33,
+                    "sha": "ea7b2cf5835c647eb926af61d34af95704f86b7f",
+                    "description": "Wichtige \u00c4quivalenzen Lemma 11"
+                },
+                {
+                    "page": 34,
+                    "sha": "368358337c806e3d34671aa3c7f5dc67d6a92e37",
+                    "description": "Wichtige \u00c4quivalenzen Vererbung"
+                },
+                {
+                    "page": 35,
+                    "sha": "bb6412d5668d089ee385473a07645aa96d003cac",
+                    "description": "Wichtige \u00c4quivalenzen (Fortsetzung) Quantorwechsel"
+                },
+                {
+                    "page": 36,
+                    "sha": "68edf6c70215f3149770650d37091d0a5b872f95",
+                    "description": "Wichtige \u00c4quivalenzen Folgende \u00c4quivalenzen gelten nicht:"
+                }
+            ]
+        },
+        "unit-de-predicate-transformation": {
+            "sha": "4aff07f0472d85014300793b5a497c6bff05c1b0",
+            "numpages": 23,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8674d1ab7250c9af1d72da12c755ec8bfac40004",
+                    "description": "Kapitel L:III III. Pr\u00e4dikatenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "d0c95556d4e922af6a1957ad6423538255368a39",
+                    "description": "Einfache Normalformen Definition 8 (Negationsnormalform)"
+                },
+                {
+                    "page": 3,
+                    "sha": "46df46d6c9d888643ad458b109b44fe927235fce",
+                    "description": "Einfache Normalformen Definition 10 (pr\u00e4nexe Normalform)"
+                },
+                {
+                    "page": 4,
+                    "sha": "fa997a07d2f1e93f36798b29a7099ec6c79f6db7",
+                    "description": "Einfache Normalformen Erzeugung einer pr\u00e4nexen Normalform."
+                },
+                {
+                    "page": 5,
+                    "sha": "0633a23f34cb72e336f77ca8e8a5dde1791e52fb",
+                    "description": "Einfache Normalformen Lemma 11"
+                },
+                {
+                    "page": 6,
+                    "sha": "179a341673a22537c5d1489d856b04b8a10ccbd9",
+                    "description": "Substitution Beobachtung."
+                },
+                {
+                    "page": 7,
+                    "sha": "a7d7bfa8ebc35046fe41dd1988871cf0dbba4dcc",
+                    "description": "Substitution Definition 12 (Substitution)"
+                },
+                {
+                    "page": 8,
+                    "sha": "0195abd7f84d02086b9c2f5fb970a77feaa2c700",
+                    "description": "Substitution Definition 12 (Substitution)"
+                },
+                {
+                    "page": 9,
+                    "sha": "93e15df9662bdff3a61f67416007a3b0d8491917",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "73c541ba64f7576f3093584fb7a612cba78ff544",
+                    "description": "Substitution Definition 13 (Substitution mit Ersetzungsliste)"
+                },
+                {
+                    "page": 11,
+                    "sha": "d9f7a1cfdf47f68157019afcda7584c900abe7e7",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 12,
+                    "sha": "d5fd682479c4f3dd0db6216a1952d67d782bd3fd",
+                    "description": "Substitution Lemma 14"
+                },
+                {
+                    "page": 13,
+                    "sha": "7caab044841b640dbb397ba057106e67a5e7df9c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 14,
+                    "sha": "d1b9c6f71c189243f77465a20cf3453d8bfeb737",
+                    "description": "Skolem-Normalformen Eigenschaften freier Variablen:"
+                },
+                {
+                    "page": 15,
+                    "sha": "c2e5d2bdac47fc93028c0d120d23f6575588d6f9",
+                    "description": "Skolem-Normalformen Modellierung basiert auf:"
+                },
+                {
+                    "page": 16,
+                    "sha": "a9f1a12f3ea1a195b1716962b37d46435376ac84",
+                    "description": "Skolem-Normalformen Existenzquantoren werden in jeder Interpretation so gedeutet, dass in"
+                },
+                {
+                    "page": 17,
+                    "sha": "bc1380aaae097d8f7aaa08635d5a775969b61ad7",
+                    "description": "Skolem-Normalformen Definition 15 (Skolemisierung)"
+                },
+                {
+                    "page": 18,
+                    "sha": "6e3852af0a72e379d1fa8f5a8f821da31630e7f7",
+                    "description": "Skolem-Normalformen Definition 17 (Skolem-Normalform)"
+                },
+                {
+                    "page": 19,
+                    "sha": "1c768ffda3a00e423446b1f16f3a3b7f7c84bde8",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "9e76e17474e91a661c77379d3c0da65a73f46fbd",
+                    "description": "Skolem-Normalformen Zusammenfassung: Vorgehensweise zur Umwandlung nach SKNF."
+                },
+                {
+                    "page": 21,
+                    "sha": "08615f6cc32cc419b643c7d65f01b7f39a53698b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 22,
+                    "sha": "4a9ed05c2cfda9f50ade5edf9525b6672418c751",
+                    "description": "Skolem-Normalformen Wiederholung: \u2200x (\u03b1 \u2227 \u03b2) \u2248 \u2200x \u03b1 \u2227 \u2200x\u03b2"
+                },
+                {
+                    "page": 23,
+                    "sha": "f58d6b409317cbd9adfea8d80c3fb4139279f190",
+                    "description": "Skolem-Normalformen Analog zur Aussagenlogik k\u00f6nnen lassen sich weitere Einschr\u00e4nkungen an die"
+                }
+            ]
+        },
+        "unit-de-predicate-sat-syntactical": {
+            "sha": "a477d67e31c72f7c1775a8e78099568b4e7d5892",
+            "numpages": 27,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "b57d82db957354d113f64904aa8e37f18f7244c1",
+                    "description": "Kapitel L:III III. Pr\u00e4dikatenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "f3fc496f11ffa18cb80a7c7da813191a6d49a1fb",
+                    "description": "Standard-Erf\u00fcllbarkeit Problem."
+                },
+                {
+                    "page": 3,
+                    "sha": "9103ee6c99aef7e8d3cd15ca17074352bcc2fc1a",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 4,
+                    "sha": "844482204628e0e53065b0a5377e39631874ddf8",
+                    "description": "Standard-Erf\u00fcllbarkeit Beispiele."
+                },
+                {
+                    "page": 5,
+                    "sha": "6b42d36c9be7a45630a221c9b304ea63b1aa066c",
+                    "description": "Standard-Erf\u00fcllbarkeit Und wie weiter?"
+                },
+                {
+                    "page": 6,
+                    "sha": "32cb0f5f1d716c820f86345d2cb9a7a294f80bbc",
+                    "description": "Standard-Erf\u00fcllbarkeit Definition 16 (Herbrand-Interpretation)"
+                },
+                {
+                    "page": 7,
+                    "sha": "0d01fbd24df1d5193d2582f5aec2600630a8cb03",
+                    "description": "Standard-Erf\u00fcllbarkeit Satz 17"
+                },
+                {
+                    "page": 8,
+                    "sha": "fdb88767340ead6e46be8abd1f962f324923029b",
+                    "description": "Standard-Erf\u00fcllbarkeit Sei \u03b1 eine geschlossene Formel in Skolem-Normalform und I eine"
+                },
+                {
+                    "page": 9,
+                    "sha": "06d2a705e767f94f09aceb02d3e0aecdb81b4423",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "061bd88a4c3c4c424a70c6869f4cb81a6ff5e70a",
+                    "description": "Standard-Erf\u00fcllbarkeit Beispiel."
+                },
+                {
+                    "page": 11,
+                    "sha": "b2881b96d0fe5af6098eb1108a3ff3118cf3a476",
+                    "description": "Standard-Erf\u00fcllbarkeit Satz 20 (Endlichkeitssatz)"
+                },
+                {
+                    "page": 12,
+                    "sha": "2cf59a67f50ab56d7257a6539d88f91fe1f4ea3d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 13,
+                    "sha": "49ecba76357822269faa3d84d6799bc6d4154df9",
+                    "description": "Pr\u00e4dikatenlogische Resolution Beobachtung."
+                },
+                {
+                    "page": 14,
+                    "sha": "90054550238d1cdccb4c16d45fdd04c9253aa0f3",
+                    "description": "Pr\u00e4dikatenlogische Resolution Motivation."
+                },
+                {
+                    "page": 15,
+                    "sha": "9c29124b84288d5078c4d4d1bb7cc6b478ba65d5",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 16,
+                    "sha": "df8874e26a68fc69b71c98c7fea7e168d6bc345b",
+                    "description": "Pr\u00e4dikatenlogische Resolution Aussagenlogische Resolution:"
+                },
+                {
+                    "page": 17,
+                    "sha": "bcf40ffd7d153bce7a42ae6a6293107a4f88eb01",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 18,
+                    "sha": "694b6971e8197b26ff71800df1d31fe22f18dfb9",
+                    "description": "Pr\u00e4dikatenlogische Resolution Ziel bei der Unifikation: So wenig spezialisieren, wie m\u00f6glich."
+                },
+                {
+                    "page": 19,
+                    "sha": "0bb2960904db75b4bf886abcd6c83bee594280c4",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "bc832959df854f0b3542198c78a588e4b491dfc2",
+                    "description": "Pr\u00e4dikatenlogische Resolution Wie bestimmt man den allgemeinsten Unifikators f\u00fcr zwei Primformeln"
+                },
+                {
+                    "page": 21,
+                    "sha": "28201761c51bd9e4d18f7e16aa05b202d17e2ce9",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 22,
+                    "sha": "09b94b9ed83af85833a7f2cf16a17bcaf6ab24e5",
+                    "description": "Pr\u00e4dikatenlogische Resolution Definition 23 (Unifikationsverfahren nach Robinson)"
+                },
+                {
+                    "page": 23,
+                    "sha": "9e72c7de8dbc3bdd3e4a2569b0db4c95e79f4ec1",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 24,
+                    "sha": "366732a7f3f92e7eb3a3b2108a1c7ed69e1adccf",
+                    "description": "Pr\u00e4dikatenlogische Resolution Mengenorientierte Schreibweise der Resolutionsregel:"
+                },
+                {
+                    "page": 25,
+                    "sha": "e0e8abfe55e61ada211818b6e27c280ddce8f810",
+                    "description": "Pr\u00e4dikatenlogische Resolution Satz 25"
+                },
+                {
+                    "page": 26,
+                    "sha": "c2c2ba3ff910658caf70e410d35aec58c076734f",
+                    "description": "Pr\u00e4dikatenlogische Resolution Sei \u03b1 eine Formel in Klauselnormalform. Verfahren zur Generierung einer"
+                },
+                {
+                    "page": 27,
+                    "sha": "ffe4bd774240cf78f62d9dab015174f4a6c44bbc",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-predicate-complexity": {
+            "sha": "e11935424f1ca46aa1391fd92fb68b3e20bb6bab",
+            "numpages": 6,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "28ff9598ffc2a875b196c20682bfbe485ca43115",
+                    "description": "Kapitel L:III III. Pr\u00e4dikatenlogik"
+                },
+                {
+                    "page": 2,
+                    "sha": "3b738031fbfd00a2c5f5d7b47d542696481931fe",
+                    "description": "Grenzen der Pr\u00e4dikatenlogik Dadurch, dass wir bisher keine M\u00f6glichkeit vorgesehen haben, in den Formeln die"
+                },
+                {
+                    "page": 3,
+                    "sha": "66c5fe34b01a2be4d35fba7c75cfa3fba2efdf3b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 4,
+                    "sha": "b649ce9a9f5a07e868133d034058fa37e295652e",
+                    "description": "Grenzen der Pr\u00e4dikatenlogik Durch die Gleichheit hat man nun die M\u00f6glichkeit, bestimmte Anzahlen von"
+                },
+                {
+                    "page": 5,
+                    "sha": "b163fd9938bcd64f2de910afb7b1a09c1dcafa45",
+                    "description": "Grenzen der Pr\u00e4dikatenlogik Die Formel"
+                },
+                {
+                    "page": 6,
+                    "sha": "48c338850ac645d4f68d4847d1e2d12a43ba3620",
+                    "description": "Grenzen der Pr\u00e4dikatenlogik Satz 25"
+                }
+            ]
+        },
+        "unit-de-fuzzy-basics": {
+            "sha": "f1c01ca2dcf54e99bf2c5e0bf64fea5e7f4226cd",
+            "numpages": 44,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "b36766af8142382bff477b153940a17eda846bac",
+                    "description": "Kapitel L:IV IV. Nichtklassische Logiken"
+                },
+                {
+                    "page": 2,
+                    "sha": "0a6caf1c89b975c88149cef41052e554c75c31c3",
+                    "description": "Fuzzy-Mengen Unscharfes Wissen"
+                },
+                {
+                    "page": 3,
+                    "sha": "56418f34ee0d7bde031ffcb767c2a21e1af51657",
+                    "description": "Fuzzy-Mengen Unscharfes Wissen"
+                },
+                {
+                    "page": 4,
+                    "sha": "85fb257518799a44e68771d08bb38504b73fa940",
+                    "description": "Fuzzy-Mengen Unscharfes Wissen"
+                },
+                {
+                    "page": 5,
+                    "sha": "0742283e81c25be5e5ac4f9d8225b69f4ba5cb5f",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 6,
+                    "sha": "b8baf721c7c6ad3e203bfbd929c822a6f06e701e",
+                    "description": "Fuzzy-Mengen Unscharfes Schlussfolgern"
+                },
+                {
+                    "page": 7,
+                    "sha": "cde7c8fbd84f63096f57460b453314533dd7311a",
+                    "description": "Fuzzy-Mengen Unscharfes Schlussfolgern"
+                },
+                {
+                    "page": 8,
+                    "sha": "f26af1f06348b9305bbe85dd43f88c2d4b9ebaca",
+                    "description": "Fuzzy-Mengen Geschichte"
+                },
+                {
+                    "page": 9,
+                    "sha": "d335fa2b74ba63074406038154160b9e2e63946c",
+                    "description": "Fuzzy-Mengen (Fuzzy Sets) Die traditionelle Mengenlehre malt ein Schwarz-Wei\u00df-Bild von der Welt: ein"
+                },
+                {
+                    "page": 10,
+                    "sha": "ccf5e072a136b057723b0c3384d055003fc9d9fa",
+                    "description": "Fuzzy-Mengen Beispiel Alter ("
+                },
+                {
+                    "page": 11,
+                    "sha": "bcaff81c69845fefcf25b9eb2cc07abb98d67609",
+                    "description": "Fuzzy-Mengen Definition 1 (Fuzzy-Menge, Zugeh\u00f6rigkeitsfunktion)"
+                },
+                {
+                    "page": 12,
+                    "sha": "4f1352e75c6f5b906719383a834f37c8e4394cf8",
+                    "description": "Fuzzy-Mengen Definition 1 (Fuzzy-Menge, Zugeh\u00f6rigkeitsfunktion)"
+                },
+                {
+                    "page": 13,
+                    "sha": "54ac3a1072ea819d87739259c2a84be94fae3448",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 14,
+                    "sha": "9123fca5d99e1bf972db009c2e7a4e9febf0ba2b",
+                    "description": "Fuzzy-Mengen Beispiel: Raumtemperatur"
+                },
+                {
+                    "page": 15,
+                    "sha": "f8065988060b769e8efd8c32d5eaedae8a44886c",
+                    "description": "Fuzzy-Mengen Konstruktion"
+                },
+                {
+                    "page": 16,
+                    "sha": "8a26c362b0cc9ed0f5ed3b4aca9d54cdbb3c8330",
+                    "description": "Fuzzy-Mengen Konstruktion"
+                },
+                {
+                    "page": 17,
+                    "sha": "125a17d622a394508f323d8d0518ae3605b06a4a",
+                    "description": "Fuzzy-Mengen Konstruktion"
+                },
+                {
+                    "page": 18,
+                    "sha": "efa8a957567f3d6c71fad92d2a255895d0d8d7fd",
+                    "description": "Fuzzy-Mengen Schreibweise"
+                },
+                {
+                    "page": 19,
+                    "sha": "5f3f941dd5b8779847e2ee43bc4c1a8dc8ad3404",
+                    "description": "Fuzzy-Mengen Schreibweise"
+                },
+                {
+                    "page": 20,
+                    "sha": "38ae6b262b53f88d7b8c22be2ce6a0aabdaa3de0",
+                    "description": "Fuzzy-Mengen Charakterisierung"
+                },
+                {
+                    "page": 21,
+                    "sha": "35dae287927c4dc4fca337c28ccfe5e7272ea1b9",
+                    "description": "Fuzzy-Mengen Charakterisierung"
+                },
+                {
+                    "page": 22,
+                    "sha": "0501cf21aaa97f2910fb6fa2a87674e01d6eb2d7",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "860edec561ce522c92a5456a61a0b0e0d1b4f8d8",
+                    "description": "Modifizierer f\u00fcr Fuzzy-Mengen Im t\u00e4glichen Sprachgebrauch spielen Adverbien bei der Beschreibung von"
+                },
+                {
+                    "page": 24,
+                    "sha": "684905ad69915dce1b8a984b8beb3c280aba2d21",
+                    "description": "Modifizierer f\u00fcr Fuzzy-Mengen Beispiel:"
+                },
+                {
+                    "page": 25,
+                    "sha": "00f7d027433ba0e4f742a512f04ba42bffd521c7",
+                    "description": "Modifizierer f\u00fcr Fuzzy-Mengen Definition 3 (Modifizierer f\u00fcr Fuzzy-Menge)"
+                },
+                {
+                    "page": 26,
+                    "sha": "25b8d2e1ee655811c27003520d1457e9f8d13ef5",
+                    "description": "Modifizierer f\u00fcr Fuzzy-Mengen Beispiel:"
+                },
+                {
+                    "page": 27,
+                    "sha": "4fddae32841aef8489c25f5775e95cdf3cc9d9c8",
+                    "description": "Modifizierer f\u00fcr Fuzzy-Mengen Beispiel"
+                },
+                {
+                    "page": 28,
+                    "sha": "555fcfc9c76a458854bbc2b37b232b188371de35",
+                    "description": "Operationen auf Fuzzy-Mengen Klassische Mengen A \u2282 X:"
+                },
+                {
+                    "page": 29,
+                    "sha": "f693eda48739d53efdf277190a1103187efa3716",
+                    "description": "Operationen auf Fuzzy-Mengen Definition 4 (Mengenoperationen auf Fuzzy-Mengen)"
+                },
+                {
+                    "page": 30,
+                    "sha": "be914f58333ade26b424ecd2f1c6cad16a34fa37",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 31,
+                    "sha": "e273d82718a734681a31e2580f432d7428a5f8b5",
+                    "description": "Operationen auf Fuzzy-Mengen Definition 4"
+                },
+                {
+                    "page": 32,
+                    "sha": "9b3b4ae8a65d3cfa75deef420c023dfda018ab18",
+                    "description": "Operationen auf Fuzzy-Mengen Definition 4"
+                },
+                {
+                    "page": 33,
+                    "sha": "e98d1e506a0ff6828df17b958c6e239726b6db38",
+                    "description": "Operationen auf Fuzzy-Mengen Definition 4"
+                },
+                {
+                    "page": 34,
+                    "sha": "c2bc4680bde17263827be8a59c7d2f7a00c063e7",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 35,
+                    "sha": "ea510847af66192732b253a778a2eb6ba6529012",
+                    "description": "Operationen auf Fuzzy-Mengen Beispiel:"
+                },
+                {
+                    "page": 36,
+                    "sha": "48f219bac2e0827b7c370608c84db685483a72a2",
+                    "description": "Operationen auf Fuzzy-Mengen F\u00fcr \u222a, \u2229 und \u00ac und f\u00fcr beliebige Fuzzy-Mengen A, B und C \u00fcber einem"
+                },
+                {
+                    "page": 37,
+                    "sha": "519a55b41a417ada9efcc5b0bc51c29405ee43fa",
+                    "description": "Operationen auf Fuzzy-Mengen Beweis des Satzes von de Morgan f\u00fcr Fuzzy-Mengen:"
+                },
+                {
+                    "page": 38,
+                    "sha": "1d9de10cae8a893cb34696e98f69b93c5e6b2db6",
+                    "description": "Operationen auf Fuzzy-Mengen Konstruktion neuer Fuzzy-Mengen"
+                },
+                {
+                    "page": 39,
+                    "sha": "b0c07c976cf3255d0878b905030a499f99af62ae",
+                    "description": "Operationen auf Fuzzy-Mengen t-Normen"
+                },
+                {
+                    "page": 40,
+                    "sha": "6fe553f9cb908836244db231dd2a67129b59caec",
+                    "description": "Operationen auf Fuzzy-Mengen t-Normen"
+                },
+                {
+                    "page": 41,
+                    "sha": "5fe5b3d66670604ed1ffc4bb4d0abdc897d53d77",
+                    "description": "Operationen auf Fuzzy-Mengen t-Normen"
+                },
+                {
+                    "page": 42,
+                    "sha": "5c9d11cab8db71608a6d5838d20f0ecb301d0e90",
+                    "description": "Operationen auf Fuzzy-Mengen t-Normen"
+                },
+                {
+                    "page": 43,
+                    "sha": "82545ca48e39c71f73bd971f6580f81171ac392f",
+                    "description": "Operationen auf Fuzzy-Mengen t-Normen"
+                },
+                {
+                    "page": 44,
+                    "sha": "670eb6f8a20f10be37f8a4ac01bf132b7adec45b",
+                    "description": "Operationen auf Fuzzy-Mengen t-Normen"
+                }
+            ]
+        },
+        "unit-de-fuzzy-inference": {
+            "sha": "4898d3de7924f14654e5c63dda15054dd85689a8",
+            "numpages": 29,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "c7dc6e74d1d9bf3f351e3137dc53a4e4759f1c0c",
+                    "description": "Kapitel L:IV IV. Nichtklassische Logiken"
+                },
+                {
+                    "page": 2,
+                    "sha": "f953dfeca095797b36325ee34ed3e79aa5e50c11",
+                    "description": "Fuzzy-Inferenz Aussagenlogik versus Fuzzy-Logik"
+                },
+                {
+                    "page": 3,
+                    "sha": "af137b3d6c7e3f1a260da3331ccb1da51e61e374",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 4,
+                    "sha": "29a7709862e8d0676cd70b9b8264a16f78ad6297",
+                    "description": "Fuzzy-Inferenz Generalisierter Modus Ponens"
+                },
+                {
+                    "page": 5,
+                    "sha": "354ee5843fc5de36cb7324d69ba2a14738e188fc",
+                    "description": "Fuzzy-Inferenz Generalisierter Modus Ponens"
+                },
+                {
+                    "page": 6,
+                    "sha": "826662a0ddcd010153961065503db122efab35ec",
+                    "description": "Fuzzy-Inferenz Generalisierter Modus Ponens"
+                },
+                {
+                    "page": 7,
+                    "sha": "39df437d53f314efcfc5997b9aac76ffe9fb1c40",
+                    "description": "Fuzzy-Inferenz Generalisierter Modus Ponens"
+                },
+                {
+                    "page": 8,
+                    "sha": "4897580eb1d6f71eb5fb3c67506ec1c2435789a4",
+                    "description": "Fuzzy-Inferenz Generalisierter Modus Ponens"
+                },
+                {
+                    "page": 9,
+                    "sha": "588dc1a5ae62e10faf44702f8d4ecd6955025eae",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz [Mamdani 1977]"
+                },
+                {
+                    "page": 10,
+                    "sha": "5b6f3010af6600eea43fee2d9526c1bfa12dc248",
+                    "description": "Fuzzy-Inferenz Vektor-Matrix-Multiplikation"
+                },
+                {
+                    "page": 11,
+                    "sha": "39c45a1caeb4032a7a74e3b4a2923a2908e5f85a",
+                    "description": "Fuzzy-Inferenz Vektor-Matrix-Multiplikation"
+                },
+                {
+                    "page": 12,
+                    "sha": "3efaf15bf437030c7c3c20ef75213e06f7b2ae96",
+                    "description": "Fuzzy-Inferenz Vektor-Matrix-Multiplikation"
+                },
+                {
+                    "page": 13,
+                    "sha": "58455ddf294b4367a45da299c17798df84c8f9cb",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz"
+                },
+                {
+                    "page": 14,
+                    "sha": "70b87d4a24079fe853a1b3d03c2219f34e911664",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz"
+                },
+                {
+                    "page": 15,
+                    "sha": "2638cd5c27fffe1b7bc4477abe224d25eddb8adc",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz"
+                },
+                {
+                    "page": 16,
+                    "sha": "7a01ccbdf21d8fe2f382845a951f5b0bf9f9157b",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz"
+                },
+                {
+                    "page": 17,
+                    "sha": "d515077f12ef6548c20bd582d2dd151d688cb1d7",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz"
+                },
+                {
+                    "page": 18,
+                    "sha": "a3df5bd8d467f9063a8877c712750c59dc65145d",
+                    "description": "Fuzzy-Inferenz Max-Min-Inferenz"
+                },
+                {
+                    "page": 19,
+                    "sha": "0c2267bbb8f7f3930327e67f0ad5ea58d8f72283",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "9fed7914f64f7b8b2153b58b686f3f749c698649",
+                    "description": "Fuzzy-Inferenz Max-Produkt-Inferenz"
+                },
+                {
+                    "page": 21,
+                    "sha": "3efb6aedd21a0698c16cfce0da78804e92e601d3",
+                    "description": "Fuzzy-Inferenz Max-Produkt-Inferenz"
+                },
+                {
+                    "page": 22,
+                    "sha": "b1c733ef2f39f8e0e74b0ca53f4e249f4faf56fc",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "4ca07df2538011bccfebb82699bc96e64b97074a",
+                    "description": "Fuzzy-Inferenz Regeln mit mehreren Pr\u00e4missen"
+                },
+                {
+                    "page": 24,
+                    "sha": "2ccb74342789439566869454073bcc5220bcf5bd",
+                    "description": "Fuzzy-Inferenz Multiple Regeln"
+                },
+                {
+                    "page": 25,
+                    "sha": "58d8f1909936f03100f1e109d4473243131f8269",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 26,
+                    "sha": "82340fe886799fdcdb3ac239ea7b8bfd63335068",
+                    "description": "Fuzzy-Inferenz Multiple Regeln"
+                },
+                {
+                    "page": 27,
+                    "sha": "da8c2eaf7256267e96c970f439b96b71ab1cf7dc",
+                    "description": "Fuzzy-Inferenz Multiple Regeln"
+                },
+                {
+                    "page": 28,
+                    "sha": "af8a08c10bad43e89a5a742698cd6b5b91fa9e91",
+                    "description": "Defuzzifizierung Defuzzifizierung ist die Generierung scharfer Werte einer induzierten FuzzyMenge B 0, Grundbereich Y ."
+                },
+                {
+                    "page": 29,
+                    "sha": "742bac2ed5e356ba5c2ef6eeba228f1b4322ef51",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-rule-systems": {
+            "sha": "7c2d00d2f9376723be417d21bf6689e841e5bd00",
+            "numpages": 58,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "20ddef62795d73542a357d801794a9d015c54435",
+                    "description": "Kapitel L:V V. Erweiterungen und Anwendungen zur Logik"
+                },
+                {
+                    "page": 2,
+                    "sha": "b0405230139e2d82ab4f334a0497672579df64f1",
+                    "description": "Produktionsregelsysteme Vergleich von Deduktions- und Produktionsregelsystem"
+                },
+                {
+                    "page": 3,
+                    "sha": "6bb70305b3c870c06be2ae8f58b4e6a0481428a2",
+                    "description": "Produktionsregelsysteme Vergleich von Deduktions- und Produktionsregelsystem"
+                },
+                {
+                    "page": 4,
+                    "sha": "e2b737cb30dd7b5ffcbc659e4f87814a9dfb20b9",
+                    "description": "Produktionsregelsysteme Definition 1 (Produktionsregelsystem)"
+                },
+                {
+                    "page": 5,
+                    "sha": "7ecc7c4bf59f134bc28e744f608f90a33eab8923",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 6,
+                    "sha": "b7c0c986aeae4d850e8144c4ea37fbd1b09345ab",
+                    "description": "Produktionsregelsysteme Definition 2 (Semantik Produktionsregelsystem)"
+                },
+                {
+                    "page": 7,
+                    "sha": "4046faf02e2e489a36284476e13fded1f65c14d1",
+                    "description": "Produktionsregelsysteme Definition 3 (Ableitung)"
+                },
+                {
+                    "page": 8,
+                    "sha": "a79338ff05d93e60ed08d7722af40119f67f0024",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 9,
+                    "sha": "1e388a9810514587a58c26064f2c8ea6d5f7dadb",
+                    "description": "Produktionsregelsysteme Regelinterpreter"
+                },
+                {
+                    "page": 10,
+                    "sha": "192efe177a3520eac9b785dfafc70f93bc63b102",
+                    "description": "Produktionsregelsysteme Regelinterpreter"
+                },
+                {
+                    "page": 11,
+                    "sha": "087a1a106ef0cb1bcb34b6ccde088fe5b8a25119",
+                    "description": "Produktionsregelsysteme Definition 4 (kommutativ)"
+                },
+                {
+                    "page": 12,
+                    "sha": "ae317cba75f9e8d0e0549237fa838e061ee22a47",
+                    "description": "Produktionsregelsysteme Definition 4 (kommutativ)"
+                },
+                {
+                    "page": 13,
+                    "sha": "efd09a16f7b148c6f80e879c1db64d5d5594278d",
+                    "description": "Produktionsregelsysteme Realisierung des Interpreters durch Regelverkettung"
+                },
+                {
+                    "page": 14,
+                    "sha": "2c687d534f9298716acf3252dfe55e5c22321af9",
+                    "description": "Produktionsregelsysteme Realisierung des Interpreters durch Regelverkettung"
+                },
+                {
+                    "page": 15,
+                    "sha": "2e9def6acc10d4be9fe7a88ca967a8c3fa342383",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Vorw\u00e4rtsverkettende Verfahren (Forward-Chaining)"
+                },
+                {
+                    "page": 16,
+                    "sha": "d0be6fae621b4cdb512ed86bfcbd9b184805a7fb",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Vorw\u00e4rtsverkettende Verfahren (Forward-Chaining)"
+                },
+                {
+                    "page": 17,
+                    "sha": "918c96f8baebf3cb6e72617275425f7123b80f27",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Recognize-Act-Zyklus realisiert als Forward-Chaining"
+                },
+                {
+                    "page": 18,
+                    "sha": "a7dc2e16b1c3171fa5f8f4f8a12da8b88059f908",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Eigenschaften des Algorithmus FC"
+                },
+                {
+                    "page": 19,
+                    "sha": "265f8f6091696feb88aff1073bd5cb9277f7ffb3",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Ableitbarkeitstest durch Forward-Chaining"
+                },
+                {
+                    "page": 20,
+                    "sha": "cae93fba95c52b4befa5a292f15b1d03b50b8d94",
+                    "description": "Bemerkung: Eine Verbesserung der Effzienz ist dadruch m\u00f6glich, dass Regeln, die gefeuert haben, aus der"
+                },
+                {
+                    "page": 21,
+                    "sha": "ae702cb8d9cb0f3a94b8239cb218d56e32065fb3",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Recognize-Act-Zyklus realisiert als Backward-Chaining"
+                },
+                {
+                    "page": 22,
+                    "sha": "3b1be806fe29da3660c64ce073deff8fea03a833",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Definition 7 (Und-Oder-Baum)"
+                },
+                {
+                    "page": 23,
+                    "sha": "1e1fa4447b4db0db0c635aa745da09d138d20913",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Beispiel: Und-Oder-Baum"
+                },
+                {
+                    "page": 24,
+                    "sha": "a1899587e165bd26ac2be62bc6280579b9b5799a",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Algorithmus f\u00fcr das Backward-Chaining"
+                },
+                {
+                    "page": 25,
+                    "sha": "58c799afdacb8b442db0fdb3092ed0a749a004de",
+                    "description": "Backward-Chaining Algorithmus f\u00fcr das Backward-Chaining"
+                },
+                {
+                    "page": 26,
+                    "sha": "a6a37f763660eba616a7daad952a0c3a2b942224",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Bedingungen ohne Disjunktion"
+                },
+                {
+                    "page": 27,
+                    "sha": "6ddfdda0bebcf7d8d7ea02887d593daab300c38e",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Bedingungen ohne Disjunktion"
+                },
+                {
+                    "page": 28,
+                    "sha": "8082bcb51614ea63f9d17fae8e249a920f39ed9b",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Definition 8 (Ableitungsbaum)"
+                },
+                {
+                    "page": 29,
+                    "sha": "b332f383d756da38955544c3a22fe07da83230a4",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Beispiel: Ableitungsbaum f\u00fcr Backward-Chaining"
+                },
+                {
+                    "page": 30,
+                    "sha": "9fbad6ce4500d9e4f885c7a1fd78e240ccc4a618",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Analyse von Backward-Chaining mit Regelgraphen"
+                },
+                {
+                    "page": 31,
+                    "sha": "cd7e12ddeb82d9b4615c3d10eb196e3a3f839f77",
+                    "description": "Backward-Chaining Analyse von Backward-Chaining mit Regelgraphen"
+                },
+                {
+                    "page": 32,
+                    "sha": "0e9ecdb77edb3afcf1e10760f75a0fd5651187cd",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Beispiel: Regelgraph"
+                },
+                {
+                    "page": 33,
+                    "sha": "6eb373c18febaeb3ed63e7c0e7d7b0a47f801fcd",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 34,
+                    "sha": "712f6aebe9cbb29000d22b42138919fca6b0701c",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Beispiel: Zyklische Regelmenge"
+                },
+                {
+                    "page": 35,
+                    "sha": "5cab1c7e0c3233fb03e461b037d87da75db578d6",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Laufzeit f\u00fcr Backward-Chaining"
+                },
+                {
+                    "page": 36,
+                    "sha": "40cb46290d4f79ac8ac619b9d1811863e51b9b7a",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Beweis Laufzeit BC-DFS"
+                },
+                {
+                    "page": 37,
+                    "sha": "f40a86278d22bc096a945a52c57264a940deba2e",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Verkettungsstrategien"
+                },
+                {
+                    "page": 38,
+                    "sha": "d14c78a38cd52d27a45a3170383cbfb767bd1623",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Verkettungsstrategien"
+                },
+                {
+                    "page": 39,
+                    "sha": "2c70657953faf52eb2d46ce938a3ad67a84cd6d4",
+                    "description": "Inferenz f\u00fcr Produktionsregelsysteme Verkettungsstrategien"
+                },
+                {
+                    "page": 40,
+                    "sha": "3695f2ebf013163bb7f98e4e93b529396124052e",
+                    "description": "Produktionsregelsysteme mit Negation Definition 12 (PS mit Negation)"
+                },
+                {
+                    "page": 41,
+                    "sha": "71f4143a60205d0b5587a5d8e8182512db8b717c",
+                    "description": "Produktionsregelsysteme mit Negation Vereinfachung von Bedingungsteilen mit NOT"
+                },
+                {
+                    "page": 42,
+                    "sha": "c437913e29f6632ef3ce43a255ecde64e2acdb9a",
+                    "description": "Produktionsregelsysteme mit Negation Vereinfachung von Bedingungsteilen mit NOT"
+                },
+                {
+                    "page": 43,
+                    "sha": "13e245c431a3ddf481145014d8127175767dc0e2",
+                    "description": "Produktionsregelsysteme mit Negation Interpretation von NOT als Negation-as-Failure"
+                },
+                {
+                    "page": 44,
+                    "sha": "300e2243ebef027d26cfcf317b241bade5c62413",
+                    "description": "Produktionsregelsysteme mit Negation Interpretation von NOT als Negation-as-Failure"
+                },
+                {
+                    "page": 45,
+                    "sha": "1f5cd8d35bd6576311c0cce737095ff18b59612b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 46,
+                    "sha": "6014254f7018e144ce2269a3a1376a7ad2f05519",
+                    "description": "Produktionsregelsysteme mit Negation Algorithm:"
+                },
+                {
+                    "page": 47,
+                    "sha": "af57ff306c1ccf645e7492500131849b0ee8ab78",
+                    "description": "Produktionsregelsysteme mit Negation Algorithm:"
+                },
+                {
+                    "page": 48,
+                    "sha": "28015b9ddd1b3d71343dd3d686077ed83147d3bd",
+                    "description": "Produktionsregelsysteme mit Negation Zyklische Regelmengen und NOT"
+                },
+                {
+                    "page": 49,
+                    "sha": "4a5e89e7166a320ca060055d67b36ce6de6ad667",
+                    "description": "Produktionsregelsysteme mit Negation Negation-as-Failure und Vorw\u00e4rtsverkettung"
+                },
+                {
+                    "page": 50,
+                    "sha": "6d81b405be220eef60e78d19af744d921bc89d2a",
+                    "description": "Produktionsregelsysteme mit Negation Negation-as-Failure und Vorw\u00e4rtsverkettung"
+                },
+                {
+                    "page": 51,
+                    "sha": "e9f333a93b60489d86b244eacaa4a0fbcb06536e",
+                    "description": "Produktionsregelsysteme mit Negation Interpretation von NOT bzgl. statischer Datenbasis und Vorw\u00e4rtsverkettung"
+                },
+                {
+                    "page": 52,
+                    "sha": "e536bd49e23aa3a90f784166975bd9cd60966317",
+                    "description": "Produktionsregelsysteme mit Negation Lemma 15"
+                },
+                {
+                    "page": 53,
+                    "sha": "e70bbd32e01fc8882f97728bb7efd4f84792eee2",
+                    "description": "Produktionsregelsysteme mit Negation Algorithm:"
+                },
+                {
+                    "page": 54,
+                    "sha": "ea491e97e020ed0ad5f72a31eabfea9c42f92055",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 55,
+                    "sha": "abbeee42e6d52b9ebc45593a349cc60b020daff7",
+                    "description": "Produktionsregelsysteme mit Negation Satz 16 (Korrektheit und Vollst\u00e4ndigkeit von FC-N-test)"
+                },
+                {
+                    "page": 56,
+                    "sha": "a33fc6f1b93404eaa8b9998cfd9417c40cd56559",
+                    "description": "Produktionsregelsysteme mit Negation Beweis (Korrektheit und Vollst\u00e4ndigkeit von FC-N-test)"
+                },
+                {
+                    "page": 57,
+                    "sha": "efd24d7ddeb1f1be5f8f559d4c48aca8d2516ed5",
+                    "description": "Produktionsregelsysteme mit Negation Nicht-Determinismus von FC-N-test"
+                },
+                {
+                    "page": 58,
+                    "sha": "5fe72b1481cc582c3487622996d18057f6ec9ab0",
+                    "description": "Produktionsregelsysteme mit Negation Beweis (Skizze: NP-Vollst\u00e4ndigkeit des Ableitbarkeitsproblems)"
+                }
+            ]
+        },
+        "unit-de-non-monotonicity": {
+            "sha": "b7afe83829768729d87ab0aa4f7e11edaa0be87b",
+            "numpages": 21,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "802e291dbe641b0ee33225e08715f5084ac0667e",
+                    "description": "Kapitel L:V V. Erweiterungen und Anwendungen zur Logik"
+                },
+                {
+                    "page": 2,
+                    "sha": "55d47f053d26d94211a32b9307b149cb8b89bb12",
+                    "description": "Nicht-monotones Schlie\u00dfen Probleml\u00f6sen mittels Logik"
+                },
+                {
+                    "page": 3,
+                    "sha": "183e943fc64d58ac1d5fbfcf62fc33fb69c85992",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 4,
+                    "sha": "122fd5a34e5f5c12c35fe3184c31d15d8f6fd21c",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern in der klassischen Logik"
+                },
+                {
+                    "page": 5,
+                    "sha": "e20fda25e8e91cbf7a50d5072cc707c258a5a12a",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern in der klassischen Logik"
+                },
+                {
+                    "page": 6,
+                    "sha": "dafb28cf60457fefc02dad94256e6e4690ee02c3",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern in der klassischen Logik"
+                },
+                {
+                    "page": 7,
+                    "sha": "989a6bee7e66e3d131bf06224dc4f164148c6e03",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 8,
+                    "sha": "5932308705fc10bc1b6e9fa2d58d3ea8ba6736be",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern \u00fcber Nicht-Wissen: Negation-as-Failure"
+                },
+                {
+                    "page": 9,
+                    "sha": "2ab3d13b4e2acbb7696a1c2e75bb7240d687f9be",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "a0be353ca0916d0444ac36e665f5203059f3d5b3",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern \u00fcber Nicht-Wissen: Default-Logik"
+                },
+                {
+                    "page": 11,
+                    "sha": "41942c79961bcdb4063aa59b8fcda50510a614c8",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 12,
+                    "sha": "7d82c8f47c3dadd2bd96c64f4a9b3f86e03017d8",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern \u00fcber Nicht-Wissen"
+                },
+                {
+                    "page": 13,
+                    "sha": "03ebe729b91f4356657063f4d0372d06bdf7e574",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 14,
+                    "sha": "7a1acde00ab6a9b0f9f8219b481209deb9a4295e",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern \u00fcber Nicht-Wissen"
+                },
+                {
+                    "page": 15,
+                    "sha": "f64f14c53661a63971257afd04c0f216b9dcfc14",
+                    "description": "Nicht-monotones Schlie\u00dfen Schlussfolgern \u00fcber Nicht-Wissen"
+                },
+                {
+                    "page": 16,
+                    "sha": "1473a52e91b79858fa36d47c789eb2d56b01e5ff",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 17,
+                    "sha": "467a30891b46ed9e39c01748144ee27a9f16365d",
+                    "description": "Nicht-monotones Schlie\u00dfen Operationalisierung"
+                },
+                {
+                    "page": 18,
+                    "sha": "05abc26a7cffee50d878c78ecf14ea49fea87f62",
+                    "description": "Nicht-monotones Schlie\u00dfen Operationalisierung"
+                },
+                {
+                    "page": 19,
+                    "sha": "988d292025e44d66c2af7be2098bcfc823a17068",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "a0e9a0ed950249762185aeef20ecd8ee754ae2de",
+                    "description": "Nicht-monotones Schlie\u00dfen Modellierung"
+                },
+                {
+                    "page": 21,
+                    "sha": "5451628a1ed4eb2a725c4b5a144394a0fda507ac",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-logics-algebra": {
+            "sha": "07146da4d281e16f665d8e109a9b33f962c33bbe",
+            "numpages": 3,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "1ea84247bfe55f86767be9d9b40c123d874083ef",
+                    "description": "Kapitel L:V V. Erweiterungen und Anwendungen zur Logik"
+                },
+                {
+                    "page": 2,
+                    "sha": "6dd763732a4d941586fa002c35c719f1cbd60dad",
+                    "description": "Logik und abstrakte Algebren Logik"
+                },
+                {
+                    "page": 3,
+                    "sha": "5f7aedeeea43cabc7e9abcfb4a5f11c7b1eacd69",
+                    "description": "Logik und abstrakte Algebren Interpretation"
+                }
+            ]
+        },
+        "unit-de-verification1": {
+            "sha": "1198ab0bc30fb4502c0b82c6fa541320b4fb220b",
+            "numpages": 46,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "3e2609aeb3d9bef7457e5bfd3710009bf288f002",
+                    "description": "Kapitel L:V V. Erweiterungen und Anwendungen zur Logik"
+                },
+                {
+                    "page": 2,
+                    "sha": "204ab750e66279550c6bc8550f6752ade828dad4",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 3,
+                    "sha": "9e3270321919a93549222abd4ed3e58445e9661c",
+                    "description": "Verifikation Software-Qualit\u00e4t"
+                },
+                {
+                    "page": 4,
+                    "sha": "b92d165e140b861a2863691c97777036c27c5ba5",
+                    "description": "Verifikation Software-Qualit\u00e4t"
+                },
+                {
+                    "page": 5,
+                    "sha": "c3a6b1c6d5d2e6cd8bd8eed54654a1b35acad97d",
+                    "description": "Verifikation Software-Qualit\u00e4t"
+                },
+                {
+                    "page": 6,
+                    "sha": "965669f68e9f4e43db4932bf8123f4c524e7cc38",
+                    "description": "Verifikation Anwendungsbedarf"
+                },
+                {
+                    "page": 7,
+                    "sha": "b90920ba449f52f232aca9d3eb331c610b910f3a",
+                    "description": "Verifikation Anwendungsbedarf"
+                },
+                {
+                    "page": 8,
+                    "sha": "b1949771c0cfd11123777ed2caf88fd1c870b271",
+                    "description": "Verifikation Testen als Alternative"
+                },
+                {
+                    "page": 9,
+                    "sha": "d249b01672113765688f24e4a6cd92a3215807df",
+                    "description": "Verifikation Testen als Alternative"
+                },
+                {
+                    "page": 10,
+                    "sha": "002badc4b012fdfadc2e0fead5559c1abbfccbd4",
+                    "description": "Verifikation Aufgaben bei der Softwareentwicklung"
+                },
+                {
+                    "page": 11,
+                    "sha": "d8abe38eb9982a0aedbaa377b69d1e216e70958f",
+                    "description": "Verifikation Korrektheitspr\u00fcfung: Softwaretest"
+                },
+                {
+                    "page": 12,
+                    "sha": "9cb1449d093bed2c3efd287a8eb6f40573e5dafb",
+                    "description": "Verifikation Algorithmus und Programm"
+                },
+                {
+                    "page": 13,
+                    "sha": "2b6eda063cd3891d4b038ab8e96508331574bd53",
+                    "description": "Verifikation Algorithmus und Programm"
+                },
+                {
+                    "page": 14,
+                    "sha": "cc62b1f7dc79b4f2fa999810feec552248b5df48",
+                    "description": "Verifikation Arten von Programmierparadigmen"
+                },
+                {
+                    "page": 15,
+                    "sha": "e1b29d5950617031782f73dc7bc4faf0ceee1777",
+                    "description": "Verifikation Programmierparadigmen"
+                },
+                {
+                    "page": 16,
+                    "sha": "379a62738474ac7c4e6a2e89a3bfe0432584d925",
+                    "description": "Verifikation Programmierparadigmen"
+                },
+                {
+                    "page": 17,
+                    "sha": "415b89bf0ae366479cee4c3ff44ce38e83c0bb46",
+                    "description": "Verifikation Eine einfache imperative Programmiersprache"
+                },
+                {
+                    "page": 18,
+                    "sha": "0a2e57c9c418bbae6aed30a8c38971155d16b9e4",
+                    "description": "Verifikation Eine einfache imperative Programmiersprache"
+                },
+                {
+                    "page": 19,
+                    "sha": "513ec0f85c1845992bed3b652026b9b22bfc7f0d",
+                    "description": "Verifikation Eine einfache imperative Programmiersprache"
+                },
+                {
+                    "page": 20,
+                    "sha": "8368efaf4045930aef45ec41cbb365bd7bdf101a",
+                    "description": "Verifikation Eine einfache imperative Programmiersprache"
+                },
+                {
+                    "page": 21,
+                    "sha": "364c7ec431369dcfaac18fb14c7961ac075f7aad",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 22,
+                    "sha": "ed2fad5c248068eaa122dbde5764111dbd48ecd8",
+                    "description": "Verifikation Beispiel f\u00fcr ein Programm"
+                },
+                {
+                    "page": 23,
+                    "sha": "c19cf689534a9b04f53e3f889af3d86da941cc3f",
+                    "description": "Verifikation Einfache imperative Programmiersprache"
+                },
+                {
+                    "page": 24,
+                    "sha": "7fbe9d3683a3dff3b1d6fa36c2c5076f7918c66c",
+                    "description": "Verifikation Beispiel f\u00fcr ein Programm"
+                },
+                {
+                    "page": 25,
+                    "sha": "ba37e78b90734db0efcee038b45febba6c601779",
+                    "description": "Verifikation Semantik formaler Sprachen"
+                },
+                {
+                    "page": 26,
+                    "sha": "9c6b53fc1c61dc26ee9551547875eec88c8e4d73",
+                    "description": "Verifikation Semantik formaler Sprachen"
+                },
+                {
+                    "page": 27,
+                    "sha": "5025bdbd0dfaac65325179ba8fb32bb2a2e9f048",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Der Hoare-Kalk\u00fcl (auch Hoare-Logik) ist ein Formales System,"
+                },
+                {
+                    "page": 28,
+                    "sha": "1c0b4cefa9b8ff3963ef48d4a18937c82f7f4cde",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Imperative Programmierung"
+                },
+                {
+                    "page": 29,
+                    "sha": "73b2e3fb8c881eb934c2cef3928b8e87d4b7b563",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Annotation durch Zusicherungen"
+                },
+                {
+                    "page": 30,
+                    "sha": "82d6e5e5b788c9a50c30f4435b5b9d23c3f01e58",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Spezifikation als spezielle Zusicherungen"
+                },
+                {
+                    "page": 31,
+                    "sha": "19c23ad57cfc78ef8a69dc6c5f592f8b60548173",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Beispiel f\u00fcr eine Spezifikation"
+                },
+                {
+                    "page": 32,
+                    "sha": "582b5677b06219c33d92e3089ed5d85393292dc3",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation auf Basis von Zusicherungen"
+                },
+                {
+                    "page": 33,
+                    "sha": "8981a3b64bb6af1aeb7096c304f214e79d27548f",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation auf Basis von Zusicherungen"
+                },
+                {
+                    "page": 34,
+                    "sha": "45c3df9c7c6757f9c92c6abc112487a80f717a94",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation auf Basis von Zusicherungen"
+                },
+                {
+                    "page": 35,
+                    "sha": "1608b623662dab7d251a88383274eee7c67ed746",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation auf Basis von Zusicherungen"
+                },
+                {
+                    "page": 36,
+                    "sha": "3d19db388be62dc178ef268f94d459c8333a2bf7",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Definition 16 (Hoare-Formel)"
+                },
+                {
+                    "page": 37,
+                    "sha": "fb25b80f5dbc471a767a684e306408d557df938d",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation auf Basis axiomatischer Semantik"
+                },
+                {
+                    "page": 38,
+                    "sha": "34cbdee8d1292f1445a10cd3c9ab5b21259e594c",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation auf Basis axiomatischer Semantik"
+                },
+                {
+                    "page": 39,
+                    "sha": "35f332a8411786b978b2d14b4872d1bcaca35551",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Beispiel f\u00fcr ein Programm"
+                },
+                {
+                    "page": 40,
+                    "sha": "4af623bb0fd63ea37bc8d4e08635d23d172e5413",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Definition 17 (Hoare-Regel)"
+                },
+                {
+                    "page": 41,
+                    "sha": "cb74f8d4b114f2646401a6965d378c6ba1385ebc",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Definition 18 (Hoare-Kalk\u00fcl)"
+                },
+                {
+                    "page": 42,
+                    "sha": "752d529e9b0efc7efc5609ebb6695d6ad0bc2954",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Kalk\u00fcl f\u00fcr die einfache imperative Programmiersprache"
+                },
+                {
+                    "page": 43,
+                    "sha": "7c44d78dbea4acea21e998ea5bff3392af8a1c0a",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Verifikation"
+                },
+                {
+                    "page": 44,
+                    "sha": "7485c1769a8d85b52f090670b43f593cf3651940",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Beipiel einer Verifikation: Addition zweier nat\u00fcrlicher Zahlen"
+                },
+                {
+                    "page": 45,
+                    "sha": "b51c7181e03adb051e38fc5c2df4ba0b4237e2f6",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Beipiel einer Verifikation: Addition zweier nat\u00fcrlicher Zahlen"
+                },
+                {
+                    "page": 46,
+                    "sha": "3928d54fc3017ed074ba88f39dcf7eec278148cb",
+                    "description": "Verifikation mit dem Hoare-Kalk\u00fcl Herleitung im Hoare-Kalk\u00fcl als Baum"
+                }
+            ]
+        },
+        "unit-de-verification2": {
+            "sha": "7186754ae892bc4731749819eb075002e66ef858",
+            "numpages": 132,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "2d93b8f9ed46c2e61150c037323158e3578c5d8f",
+                    "description": "Kapitel L:V V. Erweiterungen und Anwendungen zur Logik"
+                },
+                {
+                    "page": 2,
+                    "sha": "2c6d6378a6164203983d131cff787abc3176f514",
+                    "description": "Hoare-Regeln und partielle Korrektheit Hoare-Regel f\u00fcr Zuweisungen"
+                },
+                {
+                    "page": 3,
+                    "sha": "752546eb0ea4a00f862f6573644e0c7dcc2e6c92",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele f\u00fcr die Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 4,
+                    "sha": "bc11b967a4a3109532e19709ef4c47740329e76d",
+                    "description": "Hoare-Regeln und partielle Korrektheit Abschw\u00e4chungsregeln"
+                },
+                {
+                    "page": 5,
+                    "sha": "22df7fe8b788416f1540dc79fff860bcabfc4922",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele f\u00fcr die Anwendung der Abschw\u00e4chungsregeln"
+                },
+                {
+                    "page": 6,
+                    "sha": "24531335bab17b60f989d49d35469b7de0ec4ed4",
+                    "description": "Hoare-Regeln und partielle Korrektheit Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 7,
+                    "sha": "62cec58e7231bcc9efa1a9630893169aaba26f57",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 8,
+                    "sha": "9ccd387e024fd8a96bee633bb0b2a6b2c7a2c7c6",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 9,
+                    "sha": "ece7d4933cc2345c16ee278f2ba024d4f4d90c96",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 10,
+                    "sha": "fe9a22e8b3ce1d4650c8472d33f57c4583014887",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 11,
+                    "sha": "882eecb7a35c76e5b51c31b758afd09a4eb38c95",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 12,
+                    "sha": "cb30541a074f75304e7f2ebe58c23b86c7f91f48",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 13,
+                    "sha": "0d9d54d3558a5e109076541dbcc43ec4e657c03f",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 14,
+                    "sha": "f33ab7cb78d7e1b8544e0db7cfcff462a5f9c675",
+                    "description": "Hoare-Regeln und partielle Korrektheit Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 15,
+                    "sha": "89766d76abcec9bc9087e390b48efe2738d35595",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 16,
+                    "sha": "8f28b01974b87c5a4fbdc79a5dfcf12d9ac7939f",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 17,
+                    "sha": "e714aa7335e15c5895e774d0a02a03e78e6886b4",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 18,
+                    "sha": "c22057b09cd6aee038460f023b56977b26ad93a3",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 19,
+                    "sha": "0d83422946c05b18f0f6b0a04fa6c533971a6808",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 20,
+                    "sha": "01a672a2a707a91256f478a4305f96113a24d75f",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 21,
+                    "sha": "34d94ebe9f41c219c05c8da4ab6dbca95d625924",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 22,
+                    "sha": "448f5ad1d617b4a44f806b84a0ac129918f2536f",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 23,
+                    "sha": "dcf292fe02acad0f6d762c7e93153425ec0498f9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 24,
+                    "sha": "42e0086eedcf4f602a80b076b6b34c79a8e8a7c9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 25,
+                    "sha": "8da2f512c86c79216ae9106c72d1cce650f57edd",
+                    "description": "Hoare-Regeln und partielle Korrektheit Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 26,
+                    "sha": "12b38f3c91e2866a8e751e4aeb9c446a9368e320",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 27,
+                    "sha": "ee8c15ce547cc79ff2e4d6496c3d5b1f788f2f10",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 28,
+                    "sha": "4cc126ab86a0436cd175d4353f5113b54133e698",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 29,
+                    "sha": "02280babc1041aa26ac0735c03fefacbbea42cda",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 30,
+                    "sha": "45f42703ff0c9314e36401b5bf32618b32193aad",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 31,
+                    "sha": "44da05b8e5fe3cb50a9a7ee1eba63d09de32d4de",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 32,
+                    "sha": "738e3ceb4403a317a6ddcfbef5ad8fdeb291a2d6",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 33,
+                    "sha": "28c9378f2022a8b70fb16737877332e270eee4aa",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Zuweisungsregel"
+                },
+                {
+                    "page": 34,
+                    "sha": "192310b38a1f7c23eeaa2c0ae358f41ed8d60e6e",
+                    "description": "Hoare-Regeln und partielle Korrektheit Hoare-Regeln f\u00fcr Anweisungsfolgen"
+                },
+                {
+                    "page": 35,
+                    "sha": "acd73591625126ac173d80b315e71c0d1a817de6",
+                    "description": "Hoare-Regeln und partielle Korrektheit Vorgehen bei der Verifikation eines Programmes"
+                },
+                {
+                    "page": 36,
+                    "sha": "b18d862c183780296c6a5fee7a7fb8483ed11243",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 37,
+                    "sha": "e755b55229d4c3e7f601ba910915a9ee2e6cb576",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 38,
+                    "sha": "c1936843aada4a0ddb30eb5851bce2d7e2897f7c",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 39,
+                    "sha": "44d59cfe646f7c1eb710c471fe5569112d8d814e",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 40,
+                    "sha": "9b9392fe1a4e06c81f09085fa594b0483e64ae38",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 41,
+                    "sha": "530a3e9928c9192135dbd3fe2ff969681f026877",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 42,
+                    "sha": "c2269eb4bc79c6b117366291de3fc6db0c152f35",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 43,
+                    "sha": "aa676c36640bb145bdeef6ca5773de199757c5ed",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 44,
+                    "sha": "194136d744d8e1e0dcb5debf788f1b09b51a582b",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation eines Programmes"
+                },
+                {
+                    "page": 45,
+                    "sha": "abfa9cea6e4e29c6e26e19cf796bbb875205ce9a",
+                    "description": "Bemerkungen zum Lesen der Tabelle:"
+                },
+                {
+                    "page": 46,
+                    "sha": "0ea5d272d56c6fb6fe813b3b6504f1d1bf7ae2a7",
+                    "description": "Hoare-Regeln und partielle Korrektheit Hoare-Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 47,
+                    "sha": "73e4c3a7c9c9b023caa00565d853e501a08f2207",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 48,
+                    "sha": "1706281653828467717cdc45026103b852fd4e11",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 49,
+                    "sha": "4ec6bf555897f10637f85d282f4616d32172df78",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 50,
+                    "sha": "187a2aab0f11cbe76b0ef18596f328da10b0a605",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 51,
+                    "sha": "93dd4a115257e0671d8d50c4d90300598d49d5be",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 52,
+                    "sha": "d6711dc1fbf9cccb97d3c21fac08211f954aff08",
+                    "description": "Hoare-Regeln und partielle Korrektheit Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 53,
+                    "sha": "3dd65ad0499351d3ff4456fbe384e74aa4ad1266",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 54,
+                    "sha": "1ad4a6994415fa4a783b2bed8aa22ab2f36d35c6",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 55,
+                    "sha": "0d7ca4c4a39f21802af9ec3f09318b909d9caa49",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 56,
+                    "sha": "ee7238e0e9c716ab94261414f9c3313ddf812d14",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 57,
+                    "sha": "d034865d889219478f56f2df2e4fc9a1d77ac0a0",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 58,
+                    "sha": "f72df765827b844993cf028e4a82a36e90e2b69c",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 59,
+                    "sha": "9fbb442094c81076589e818e71e4b41d30393f1e",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 60,
+                    "sha": "6e0c0ccd7bddb75f09737f3cecb9268bb6f4f8a7",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 61,
+                    "sha": "b44a27a5228e1970e9fee3fc16974fc09d24e5d7",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 62,
+                    "sha": "0ea3fa3162ae135d109f0de9f001d22159284249",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 63,
+                    "sha": "0b69b7c3e6866ece5ee95bf5f5da2bba4d76b461",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 64,
+                    "sha": "995da1ebf0cc0411705101599a435a5577b163fc",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 65,
+                    "sha": "aa59562deec883c2c60b03835b675c66a2f987c8",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 66,
+                    "sha": "e8ca208dc5e32982cb2e7ba2029461fadc27e9c3",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 67,
+                    "sha": "726cfa2aabfeb7c8c43cadaba5c5651cd60029ec",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 68,
+                    "sha": "32731429937415f329e5431f395708683ee09df9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 69,
+                    "sha": "2b5077ea62fff4523ea34bce89f48976702a35de",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 70,
+                    "sha": "0dae487fd7d8fd0362d0309fe25e62951550b6c9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 71,
+                    "sha": "58b3a4a394d8e0dbac402a30fa12a2ab0940662b",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 72,
+                    "sha": "bc57eb01024cbb7d401e1aef870dd7ae9222d9f0",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 73,
+                    "sha": "1d8d444e30c0afe96cb95ceeb68f63cb2c6a4363",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 74,
+                    "sha": "559e2a1791f4d6aa92ca01af17a8667d6647743b",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 75,
+                    "sha": "96e1066affa1d59992b62cbe22a4c89b60da1114",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 76,
+                    "sha": "ee5ccf7cdf2203fffebb32cd793fc4cc2f3eecc3",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiele zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 77,
+                    "sha": "eff43b3ec856a475956d8b812dae8c231a783ab8",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 78,
+                    "sha": "be51e3fe8d2d6085beece586bc37d2c1922f0282",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 79,
+                    "sha": "d65644798934c214eeee7b61325fb46527f7644c",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 80,
+                    "sha": "f68c393fc46f2f6fe26820cede15c4cb4ef63757",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Verifikation von bedingten Anweisungen"
+                },
+                {
+                    "page": 81,
+                    "sha": "b57e10eb8c9aba6afd659d4d5affe1c9cb8b451c",
+                    "description": "Hoare-Regeln und partielle Korrektheit Hoare-Regel f\u00fcr Schleifen"
+                },
+                {
+                    "page": 82,
+                    "sha": "b51d26c09d737dc96d4f87163add5cb8966d1d4d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 83,
+                    "sha": "797e374c77e5f8b72d915a9916d9f35a47b11515",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel"
+                },
+                {
+                    "page": 84,
+                    "sha": "a20fe63f2b572893c59a342900eecbb75d53f447",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel"
+                },
+                {
+                    "page": 85,
+                    "sha": "3e541e6cae9fe2f43d85f6cf26396c8d5785ec1a",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel"
+                },
+                {
+                    "page": 86,
+                    "sha": "d49718ba0528a901d8c9719ccab36cc58cb3dbaf",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel"
+                },
+                {
+                    "page": 87,
+                    "sha": "98c53f201ea3326e0c4eafb775451e8fa6a5fb2c",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel"
+                },
+                {
+                    "page": 88,
+                    "sha": "8346cfb8508e9bf9c2110ff640989a490a3df164",
+                    "description": "Hoare-Regeln und partielle Korrektheit Anwendung der Regeln f\u00fcr bedingte Anweisungen"
+                },
+                {
+                    "page": 89,
+                    "sha": "54e30b58b4e8ea067a35f3facfd0790018cff718",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel: Abrollen der Schleife"
+                },
+                {
+                    "page": 90,
+                    "sha": "4014e459e781e63e1f4eb2c519c15873af353edd",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel: Abrollen der Schleife"
+                },
+                {
+                    "page": 91,
+                    "sha": "a8db320b7635fbcf2a7dab70eed47547567a42f5",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel: Abrollen der Schleife"
+                },
+                {
+                    "page": 92,
+                    "sha": "db1e2747a035e6f906d8ee47cc31b118306d5d68",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zur Anwendung der Schleifenregel: Abrollen der Schleife"
+                },
+                {
+                    "page": 93,
+                    "sha": "d45f657a52f458564339a2ba3969fdcaafa4c819",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 94,
+                    "sha": "7e4b1535f0d2d82206a5270e8755897b43c0eec2",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 95,
+                    "sha": "dfd17f0da6e51fe30b2d11c562b4cd008922f58d",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 96,
+                    "sha": "7a4f282419aefdb4e6373284e400ebcd3a1cd490",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 97,
+                    "sha": "61f3832548e7fb800a758b425f497e0a5cce6bda",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 98,
+                    "sha": "4341b7c868b9573f0e8aa15cc333650afef85df0",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 99,
+                    "sha": "65916b15a42f504ae20327087cf9f8113e135144",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 100,
+                    "sha": "9ae92b9a8064cc9eb89b8bc2976af1b53e8d167f",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 101,
+                    "sha": "9ea8f07eb1b29700c769113766da7f4a2ddfecc9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 102,
+                    "sha": "0cf6dba765ae0dcdc53105f14e53f662e90a64dd",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 103,
+                    "sha": "c2dc3680ce827356352b55d465d8e37460ba437b",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 104,
+                    "sha": "3d0e697337532b027cdf4c4d7f18f301ca575bb5",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 105,
+                    "sha": "47103caebff1824c77411fc72d2a5b5a761ccb23",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 106,
+                    "sha": "775465a9bb3db55f675b2eda16dc606028e0de08",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 107,
+                    "sha": "225f04bbfd5e90b8b82ba658a60cb39d9c0081e1",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 108,
+                    "sha": "65d5476b62b4027bd39c87aa5c1f7cb3542fa3c0",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 109,
+                    "sha": "22c66f654048ba2690725b6d7a5773fe00c4d9f4",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel zu Schleifeninvarianten"
+                },
+                {
+                    "page": 110,
+                    "sha": "ceb1934f02091d17f84db6e13662f9e36a547a22",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 111,
+                    "sha": "56836679316cb253db904f92c9ea886a6bcee5ba",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 112,
+                    "sha": "285eddf1c00d720b55d80dbdb676108cf5359312",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 113,
+                    "sha": "3a4c142ca0b8fc6919efd2ef6b06a5c4cbc1b975",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 114,
+                    "sha": "12fff208f1c3ac2b258dd8a2da49cb0ad277b956",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 115,
+                    "sha": "af8ef0bc9bfb9ce3861ec80276a562e7b9e58692",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 116,
+                    "sha": "a394a1f76ad014a6ab3af5f39ddd0ab33cd5cb30",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 117,
+                    "sha": "1f5bb64ca2022ca2a3ab6a2ae6d66c5aca1fc560",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 118,
+                    "sha": "817323a26ee1184e9a5025f3a60a7baf09fa626f",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Einfaches Potenzieren"
+                },
+                {
+                    "page": 119,
+                    "sha": "02da704f1d7f48c11bc39af62bcb743fc2abc325",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 120,
+                    "sha": "d7a81dd0ad620d0683db51995219ccaa51edcd1a",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 121,
+                    "sha": "5bbcf45991cd843c14bee800327437198a177989",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 122,
+                    "sha": "14f557c3a633dac52e0188bb8531e0fe20de9eb9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 123,
+                    "sha": "b7952467250e188e8c872da1a4591f0307c34ea9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 124,
+                    "sha": "3dd20bdb16309b076ca8a07e00d2e3576a3cf782",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 125,
+                    "sha": "2e593d055c648d606c9a82d8309f588037485a6e",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 126,
+                    "sha": "8a8f82e4239a1c409052a056f79454aacf8ec40d",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 127,
+                    "sha": "83cd12c5fe3287b66bb7d70e62b347fe86a875c9",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 128,
+                    "sha": "d6e2081f5d9c030e1eb5dcffa37dcd95b6c13744",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 129,
+                    "sha": "14425b4cd37af19be5570db243a61719fccdc572",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 130,
+                    "sha": "b113a0b5bb1d068a2984682997bd5dd925165344",
+                    "description": "Hoare-Regeln und partielle Korrektheit Beispiel Effizientes Potenzieren"
+                },
+                {
+                    "page": 131,
+                    "sha": "e528285673e60ec78669f3342d2ec5782ef27831",
+                    "description": "Bemerkungen als Wiederholung"
+                },
+                {
+                    "page": 132,
+                    "sha": "f314c15862d51a7d657efdf4c635bc00a877a146",
+                    "description": "Hoare-Regeln und partielle Korrektheit M\u00f6glichkeiten zum Einsparen von Schreibarbeit"
+                }
+            ]
+        },
+        "unit-de-verification3": {
+            "sha": "439e2cea5d64919f7792c0b7a3a5f5ee4ce21d3c",
+            "numpages": 32,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "08bb7ff7fd5c70f4051723f87bebaa7caefe604b",
+                    "description": "Kapitel L:V V. Erweiterungen und Anwendungen zur Logik"
+                },
+                {
+                    "page": 2,
+                    "sha": "eae87baeb9985411c7da6b14e755de27cbc43496",
+                    "description": "Terminierung Der Nachweis der totalen Korrekheit eines Programms erfordert neben der bisher"
+                },
+                {
+                    "page": 3,
+                    "sha": "1236c197621e41ffc107eb4cbeb58f5c03236db9",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 4,
+                    "sha": "f7680cf80072793be2000cb274a622844b2d6c51",
+                    "description": "Terminierung Terminierung von Schleifen"
+                },
+                {
+                    "page": 5,
+                    "sha": "6314fb30cbf1b69b8b19c90feb8c9eb7067a724a",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 6,
+                    "sha": "96d14b15c8fcc4380a26175b9e3646fdf291b1b0",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 7,
+                    "sha": "ef39c5f633bd9fcc69aa92414e2b2bf3913cb917",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 8,
+                    "sha": "1bc9dadf8b18520c3391284fe82acf08da4fff96",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 9,
+                    "sha": "b0cffe21c1487e1fe6767747ea17d4621e99f15d",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 10,
+                    "sha": "a0bf85ca3e20bdff1888237806a926704379b3cc",
+                    "description": "Terminierung Formaler Nachweis der Terminierung von Schleifen"
+                },
+                {
+                    "page": 11,
+                    "sha": "d31787c21480b4c6d84bdf117eaed5cf8bec697f",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 12,
+                    "sha": "5bd095f17669e441b0918e2ffd8e7780c1aac146",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 13,
+                    "sha": "64fe3ef17ee93d79c94f983c93bb1801ffbf3882",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 14,
+                    "sha": "5efd704c461e93e2980f577b69c5d067d27311fb",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 15,
+                    "sha": "0d443be71f7c7546cfb3d3401253e8b0555c3bbd",
+                    "description": "Terminierung Beispiel f\u00fcr den Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 16,
+                    "sha": "c76e166e520338ec095580881d55b217de12a37e",
+                    "description": "Terminierung Informeller Nachweis der Terminierung von Schleifen"
+                },
+                {
+                    "page": 17,
+                    "sha": "f9676139a66fa9e16eee9b578afc8b0962699d0c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 18,
+                    "sha": "9cf6b66463428b2e75df817ca9a729f2df069c94",
+                    "description": "Terminierung Beispiel f\u00fcr den alternativen Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 19,
+                    "sha": "e108f030f643f147d006d7a00304882559659e81",
+                    "description": "Terminierung Beispiel f\u00fcr den alternativen Nachweis der Terminierung einer Schleife"
+                },
+                {
+                    "page": 20,
+                    "sha": "f599ddaec49048a98006959afac3390316952aae",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 21,
+                    "sha": "ce15aac184eb60533581fd3c24e86ee8c04286ad",
+                    "description": "Terminierung Terminierung: Ein Problem?"
+                },
+                {
+                    "page": 22,
+                    "sha": "f4a5b22cabc0b827458a284de44ee53b44551b8a",
+                    "description": "Terminierung Terminierung: Ein Problem?"
+                },
+                {
+                    "page": 23,
+                    "sha": "35f4aa6b11706f1e50027f23a0b69bc21634823b",
+                    "description": "Terminierung Terminierung: Ein Problem?"
+                },
+                {
+                    "page": 24,
+                    "sha": "cb5975e3252e0d2de21e2073da314dfc1e00aea0",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 25,
+                    "sha": "334fac7de08fdf39feb09784e3b2bcbaf5d9a02e",
+                    "description": "Terminierung Nicht-Terminierung von Schleifen"
+                },
+                {
+                    "page": 26,
+                    "sha": "08a639e1ce75285f0f35af13a54424be01d839fa",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 27,
+                    "sha": "7181b021630dae8103326575b65d7796e20a55a2",
+                    "description": "Terminierung Beispiel Nicht-Terminierung von Schleifen"
+                },
+                {
+                    "page": 28,
+                    "sha": "5a735ef4a5e507270440c680707bd0727bd302f1",
+                    "description": "Terminierung Beispiel Nicht-Terminierung von Schleifen"
+                },
+                {
+                    "page": 29,
+                    "sha": "bc43e38cf4f13ec048fea3837792b76f2c2052b3",
+                    "description": "Terminierung Beispiel Nicht-Terminierung von Schleifen"
+                },
+                {
+                    "page": 30,
+                    "sha": "7d3baf66fd426fe08e5a82c55ee73fe89cdea556",
+                    "description": "Terminierung Beispiel Nicht-Terminierung von Schleifen"
+                },
+                {
+                    "page": 31,
+                    "sha": "e09a9bdba61590219f9a0e03a938b89c555301e3",
+                    "description": "Terminierung Beispiel Nicht-Terminierung von Schleifen"
+                },
+                {
+                    "page": 32,
+                    "sha": "9fd2de5fcb04629c97818511188568dd9a89882e",
+                    "description": "Terminierung Beispiel Nicht-Terminierung von Schleifen"
+                }
+            ]
+        }
     }
 }
