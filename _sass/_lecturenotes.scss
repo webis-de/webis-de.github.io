@@ -36,6 +36,10 @@
 }
 
 #lecturenotes-coursetable {
+    .ads .part {
+        background: rgb(142, 202, 245);
+    }
+    
     .search .part {
         background: rgb(161, 196, 131);
     }
@@ -132,10 +136,11 @@
     }
 
     // selection
-    .buw li:not(.buw),
-    .upb li:not(.upb),
-    .upa li:not(.upa),
-    .ul li:not(.ul),
+    .halle li:not(.halle),
+    .leipzig li:not(.leipzig),
+    .paderborn li:not(.paderborn),
+    .passau li:not(.passau),
+    .weimar li:not(.weimar),
     .bachelor ul:not(.bachelor) li,
     .master ul:not(.master) li {
         background: rgb(210, 210, 210);
