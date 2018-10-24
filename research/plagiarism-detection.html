@@ -1,0 +1,117 @@
+---
+layout: default
+nav_active: research
+title: Plagiarism Detection
+description: Overview of research that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Research",
+  "name":"Netspeak",
+  "description":"",
+  "url":"https://webis.de/research/plagiarism-detection.html",
+  "keywords":[
+    "Plagiarism Detection"
+  ], 
+  "creator":[
+    {
+      "@type":"Organization",
+      "url":"https://webis.de/",
+      "name":"The Web Technology & Information Systems Network",
+      "alternateName":"Webis"
+    },
+    {
+        "@type":"Person", 
+        "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+        "name":"Stein, Benno"
+    },
+    {
+        "@type":"Person", 
+        "url":"http://www.uni-weimar.de/medien/webis/people/#potthast",
+        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+        "name":"Potthast, Martin"
+    },
+    {
+        "@type":"Person", 
+        "url":"http://www.uni-weimar.de/medien/webis/people/#trenkmann",
+        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+        "name":"Trenkmann, Martin"
+    }
+  ],
+  "includedInDataCatalog":{
+  },
+  "distribution":[
+  ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Netspeak</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>
+            Picapica&nbsp;is a Web-based application for the automated detection of text reuse. Its underlying technologies and algorithms are developed at our research group and relate to the efficient retrieval and analysis of potentially plagiarized sources from the World Wide Web. Picapica combines several approaches to plagiarism analysis: identification of copies which were taken 1:1 from a Web-document, copies that have undergone certain modifications, as well as an in-depth analyses of an author's writing style. [<a href="http://www.picapica.org/" class="external-link-new-window" title="Öffnet externen Link in neuem Fenster" data-htmlarea-external="1">service</a>] [<a href="http://webis16.medien.uni-weimar.de/webis-trc-demo/" class="external-link-new-window" title="Öffnet Link" data-htmlarea-external="1">demo</a>: writing process] [<a href="https://www.uni-weimar.de/medien/webis/research/activities/plagiarism-detection/picapica-video.html" class="internal-link">video</a>]
+
+        </p>
+	<img src="img/exist-logo.gif" width="30" height="20" alt="">
+	The project is supported by the EXIST support program of the Federal Ministry of Economics and Technology (BMWi).
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>Picapica implements a plagiarism analysis process consisting of three basic steps:</p>
+		<ol><li>Retrieval of reference documents from the World Wide Web as well as from specially prepared plagiarism indexes.</li>
+		    <li>Detailed analysis of a suspicious document against reference documents.</li>
+		    <li>Knowledge-based post-processing of plagiarism indications to avoid the detection of correct citations as plagiarism.</li>
+		</ol>
+	<p>In the first step a suspicious document is analyzed in order to identify it's language, its topic, its genre, important keywords, and other characteristics which may help to narrow a Web search for plagiarized sources. Also, a special plagiarism index with commonly used sources for plagiarism (e.g. Wikipedia) is queried. The result of both heuristic searches is a set of URLs to Web documents which are downloaded in parallel on a distributed server architecture. In the second step the suspicious document is compared to each of the downloaded documents. This step encompasses the retrieval of passages which are equal or which have a high similarity. In this connection fuzzy-fingerprinting plays an important role: from each text passage a fuzzy fingerprint is computed, where text passages with a high similarity are likely to be mapped onto the same fingerprint. This allows for a linear time retrieval of similar text passages between the suspicious document and a reference document. Apart from the comparison with reference documents the writing style of the suspicious document's author is analyzed. This analysis can be used to detect paragraphs copied from sources that are not available electronically. The third step in analysis process is subject to our current research. Solutions to the problem of distinguishing between plagiarism and correct citations will be integrated to the Web service in the near future.</p>
+	<img src="img/picapica-screenshot.png" width="200" height="119" alt=""></a><figcaption class="csc-textpic-caption">Report Generation</figcaption>
+	<p>The activity diagram shows the outlined analysis process and it's distribution on our middleware architecture. The server architecture implements a scalable distributed system based on the message oriented middleware paradigm. A gateway Web server attends to all client interactions. It receives uploaded files and delivers analysis results. A plagiarism analysis is conducted in parallel on several analysis servers. The entire communication, all analysis results, and the information about all currently running tasks are stored in a message queue. The message queue is realized with a relational database system.</p>
+	<img src="img/uml-activity-picapica.gif" width="200" height="198" alt=""></a><figcaption class="csc-textpic-caption">UML Activity Diagram</figcaption>
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+	<ul>
+            <li><a href="https://www.uni-weimar.de/?id=14634#potthast" title="Martin Potthast">Martin Potthast</a> </li>
+            <li><a href="https://www.uni-weimar.de/?id=14634#stein" title="Benno Stein">Benno Stein</a> </li>
+            <li><a href="https://www.uni-weimar.de/?id=14634#meyer-zu-eissen" title="Sven Meyer zu Eissen">Sven Meyer zu Eissen</a> </li>
+            <li><a href="https://www.uni-weimar.de/?id=14634#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+	</ul>
+	<p>EXIST scholarship students: Christof Bräutigam, Christina Eisenach, Jan Graßegger, Daniel Plath</p>
+	<p>Other students: Dennis Braunsdorf, Matthias Busse,&nbsp;Franz Coriand, Andreas Eiselt, Jan Hühne, Alexander Kleppe, Karsten Klüger, Alexander Kümmel, Marion Kulig, Christoph Lössnitz, Fabian Loose, Hagen-Christian Tönnies, Martin Trenkmann, Michael Völske, André Zölitz</p>
+
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+	</div>
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "projects:plagiarism-detection");
+</script>
