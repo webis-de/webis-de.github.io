@@ -1,56 +1,59 @@
 ---
 layout: default
 nav_active: research
-title: Netspeak
+title: Digital Engineering
 description: Overview of research that are used by the Webis research group
 ---
 
 <script type="application/ld+json">
-{
-  "@context":"http://schema.org/",
-  "@type":"Research",
-  "name":"Netspeak",
-  "description":"",
-  "url":"https://webis.de/research/netspeak.html",
-  "keywords":[
-    "netspeak"
-  ], 
-  "creator":[
     {
-      "@type":"Organization",
-      "url":"https://webis.de/",
-      "name":"The Web Technology & Information Systems Network",
-      "alternateName":"Webis"
-    },
-    {
-        "@type":"Person", 
-        "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Stein, Benno"
-    },
-    {
-        "@type":"Person", 
-        "url":"http://www.uni-weimar.de/medien/webis/people/#potthast",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Potthast, Martin"
-    },
-    {
-        "@type":"Person", 
-        "url":"http://www.uni-weimar.de/medien/webis/people/#trenkmann",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Trenkmann, Martin"
+        "@context": "http://schema.org/",
+        "@type": "Research",
+        "name": "Digital Engineering",
+        "description": "",
+        "url": "https://webis.de/research/netspeak.html",
+        "keywords": [
+            "digital-engineering"
+        ],
+        "creator": [{
+                "@type": "Organization",
+                "url": "https://webis.de/",
+                "name": "The Web Technology & Information Systems Network",
+                "alternateName": "Webis"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#burrows",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Burrows, Steven"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#stein",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Stein, Benno"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.joerg.frochte.de/",
+                "affiliation": "Bochum University of Applied Science",
+                "name": "Frochte, Joerg"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#gollub",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Gollub, Tim"
+            }
+        ],
+        "includedInDataCatalog": {},
+        "distribution": []
     }
-  ],
-  "includedInDataCatalog":{
-  },
-  "distribution":[
-  ]
-}
 </script>
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Netspeak</h1>
+        <h1>Digital Engineering</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -67,77 +70,60 @@ description: Overview of research that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
 
-        <p>
-            To write in a foreign language is a difficult task, even for an experienced author. Problems include choosing the right word or preposition in a given context, finding a wording which is commonly used, and avoiding the use of grammatical forms which reflect the author's native language. The Netspeak Web service assists authors to overcome these issues by using the World Wide Web as a source of common language. The service can be queried with short text phrases to determine their customariness on the Web. Wildcard characters can be added to the query to search for variations and synonyms of the query phrase, which will be returned as ranked list with respect to their occurence frequency on the Web. [<a href="http://www.netspeak.org" target="_blank" class="internal-link" class="csc-content-link">service</a>] [<a href="http://www.netspeak.org/#developer" target="_blank" class="internal-link" class="csc-content-link">api</a>] [video <a href="http://www.youtube.com/watch?v=vklWCIsB_jM" target="_blank" class="external-link-new-window" class="csc-content-link">1</a> <a href="http://www.youtube.com/watch?v=YPLypsK1KIk" target="_blank" class="external-link-new-window" class="csc-content-link">2</a> <a href="http://www.youtube.com/watch?v=X-GlKjGcC00" target="_blank" class="external-link-new-window" class="csc-content-link">3</a> <a href="http://www.youtube.com/watch?v=-EMxQacIJ20" target="_blank" class="external-link-new-window" class="csc-content-link">4</a>]
-        </p>
-
+       <p>The Matilda (Mining Artificially Generated Data) project originated from the German research grant &quot;Strategies for Robust Design of Structures&quot; funded by the State of Thuringia. Overall goal of this research line is to apply data mining techniques to engineering problems, specifically to civil engineering tasks dealing with design, but also to model formation and analysis tasks as they occur as part of diagnosis problems.</p>
         <!--
         SECTION Research
         -->
         <h2 id="research">Research</h2>
 
-        Netspeak indexes the complete &quot;<a href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2006T13" target="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2006T13" class="external-link-new-window" class="csc-content-link">Web 1T 5-gram Version 1</a>&quot; corpus as a source of common language on the Web. The corpus comprises about 3.8 billion phrases up to a length of 5 words (so-called n-grams) which were collected by Google from the English Web. The following table shows details on the size of the corpus:</p><div id="c41493" class="csc-frame csc-no-bottom-border  layout-bottomheader">
-				<table class="uk-table uk-table-striped"><thead>
-					<tr class="tr-even tr-0">
-							<th class="td-0" scope="col" id="col41493-0">n-grams</th>
-							<th class="td-1" scope="col" id="col41493-1"><div style="width:100px;text-align:right">count</div></th>
-							<th class="td-2" scope="col" id="col41493-2"><div style="width:150px;text-align:right">size (compressed)</div></th>
-							<th class="td-last td-3" scope="col" id="col41493-3"><div style="width:150px;text-align:right">size (uncompressed)</div></th>
-					</tr>
-					</thead><tbody>
-					<tr class="tr-odd tr-1">
-							<td class="td-0" headers="col41493-0">1-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">13 588 391</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">70.2 MB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">177.0 MB</div></td>
-					</tr>
-					<tr class="tr-even tr-2">
-							<td class="td-0" headers="col41493-0">2-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">314 843 401</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">1.6 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">5.0 GB</div></td>
-					</tr>
-					<tr class="tr-odd tr-3">
-							<td class="td-0" headers="col41493-0">3-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">977 069 902</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">5.5 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">19.0 GB</div></td>
-					</tr>
-					<tr class="tr-even tr-4">
-							<td class="td-0" headers="col41493-0">4-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">1 313 818 354</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">8.4 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">30.5 GB</div></td>
-					</tr>
-					<tr class="tr-odd tr-last">
-							<td class="td-0" headers="col41493-0">5-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">1 176 470 663</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">8.8 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">32.1 GB</div></td>
-					</tr></tbody>
-				</table>
+        <p><strong>Introduction.</strong> &nbsp;Data for structures such as bridges in civil engineering is stored in the IFC-Bridge format, which is an international standard used in building information modeling, and is part of the IFC (Industry Foundation Classes) data model. A novel extension has been recently developed based on the NURBS (Non-Uniform Rational Basis Spline) paradigm, which is useful for modeling curved surfaces where regular geometry and lines do not suffice. Bridge simulations can be performed using these models with the Finite Element Method for numerical analysis using varying geometry and material properties to identify optimal designs. The Hasetal bridge in Suhl, southwest Thuringia, Germany, pictured below with simulation results, is one example that has been driving the initial research. Here, the warm regions of the graphic could indicate displacement, strain, or stress simulation results of concern.</p>
+        <img src="img/csm_paraview-hasetal-bridge-cropped_d17f0b456d.png" alt="Hasetal Bridge">
+
+        <p>Simulation data mining can be applied in this setting to generate knowledge and decision rules from large numbers of simulations. In particular, simulation data mining will be of great value if bridge design is impeded due to the time required to generate simulation results in an interactive setting for large models. Instead, simulation results could be batch-processed in the background whilst the designer goes on with other work, and later be returned on demand. Then if the requested model isn't available, the nearest neighbor could be returned in the interim as an approximated preview, allowing the designer to continue without interruption. In addition, it is also interesting to predict the expected behavior of models based on training data made up of existing simulation results, when the designer is challenged with a design space of enormous size.</p>
+
+        <p><strong>Similarity Measurement.</strong> &nbsp;The development of a similarity measure can support simulation data mining&nbsp;based on the idea that models of similar design will have similar simulation results. From this assumption, similar models can be looked up&nbsp;based on any given model, or models of similar design can be identified&nbsp;based on simulation behavior. The development of this idea is based on six steps pictured below.</p>
+        <img src="img/csm_similarity-measure-construction1_01_11f4ce6ad3.png" alt="similarity measure construction">
+
+        <p>First, a subset of the design space such as geometry and material parameters is considered&nbsp;for exploration (step 1). Next, the simulation results are produced&nbsp;using the Finite Element Method (step 2). Following that, thousands of simulation measurements are aggregated&nbsp;into a more manageable subset (step 3). Then clustering technology is applied&nbsp;to generate knowledge about nearest neighbors (step 4), and an appropriate set of this knowledge is sampled&nbsp;(step 5). Finally,&nbsp;class probability estimates from machine learning classification technology are exploited&nbsp;for producing similarity scores. With the exception of the simulations, all steps form interesting data mining questions, from which many competing alternatives have to be considered and evaluated.</p>
+
+        <p><strong>Mining and Storing BIG Data.</strong> &nbsp;A student project in Summer 2012 called &quot;Mining and Storing BIG Data&quot; studied the relationship between simulation results and machine learning results. As a sub-theme, there is interest in applying so-called &quot;big data&quot; technology to address bottlenecks. The&nbsp;Hadoop and Mahout frameworks have been the technologies applied to address this &quot;big data&quot; theme. <a data-htmlarea-external="1" target="_top" href="http://hadoop.apache.org/">Hadoop</a> is used to allow concurrent processing of numerical simulations, which is an inherently parallelizable task. <a data-htmlarea-external="1" target="_top" href="http://mahout.apache.org/">Mahout</a> provides a library of supervised and unsupervised&nbsp;learning methods that are not otherwise parallelizable, to enable concurrent processing of those parts.</p>
+        <img src="img/csm_simulation-data-mining-optimization-elephants_e7228330a4.png" alt="simulation data mining">
+
+        <p>As another sub-theme, there is interest in implementing methods for making the work easier to reproduce and disseminate. An online version of the six-step &quot;simulation pipeline&quot;&nbsp;implemented&nbsp;as a&nbsp;<a data-htmlarea-external="1" title="&Ouml;ffnet Link" class="external-link-new-window" href="http://www.uni-weimar.de/medien/webis/research/activities/tira">TIRA</a>&nbsp;experiment addresses reproducibility. The TIRA web service&nbsp;provides an online framework to allow researchers to share experiments on the web for others to reproduce, and provides other features such as the ability to explore experiment parameters, monitor experiment progress, and reuse cached results. The <a data-htmlarea-external="1" title="&Ouml;ffnet externen Link in neuem Fenster" class="external-link-new-window" target="_top" href="http://www.uni-weimar.de/medien/webis/research/activities/digital-engineering/bigdata-poster.pdf">poster</a> and <a data-htmlarea-external="1" title="&Ouml;ffnet externen Link in neuem Fenster" class="external-link-new-window" target="_top" href="http://www.uni-weimar.de/medien/webis/research/activities/digital-engineering/bigdata-talk.pdf">talk slides</a> produced during the student group project are available.</p>
+        <img src="img/csm_tira_comic_c834ef6ac0.png" alt="tira comic">
+
+        <p><strong>Domain Decomposition.</strong>&nbsp; There is&nbsp;also interest&nbsp;in speeding up numerical analysis in general, so that the findings can be applied efficiently elsewhere. A method called domain decomposition ca<strong></strong>n be applied to parallelize the processing. To do this the domain on which the numerical analysis is solved is broken into several sub-domains for concurrent processing on modern computing architecture. Then the full solution is reformulated using the overlapping parts of each sub-domain.</p>
+
+        <p>The additive Schwarz method can be applied as one implementation for domain decomposition. In this problem setting, there is a complex trade-off that must be managed between the number of iterations required to execute the additive Schwarz method, and the total size of the problem including the redundancy of the overlaps. Here, a human could organize the sub-domains into a checkerboard pattern and apply a uniform overlap to solve the problem as a simple solution. However, our current work shows that more customized&nbsp;and&nbsp;efficient solutions can be developed with regression analysis in machine learning. Our code for supporting this work is available for download:&nbsp;<a data-htmlarea-external="1" class="external-link-new-window" href="http://www.uni-weimar.de/medien/webis/research/activities/digital-engineering/dd-code-release.zip">dd-code-release.zip</a> (1.4 MB).</p>
+        <img src="img/csm_domain-decomposition_5aa9f2bdfe.png" alt="domain decomposition">
 
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#trenkmann" title="Martin Trenkmann">Martin Trenkmann</a> (Software Engineering)</li>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a> (Scientific Mentoring and Software Architecture)</li>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a> (Scientific Mentoring and Statistics)</li>
+            <li><a title="Steven Burrows" class="internal-link" href="http://www.uni-weimar.de/medien/webis/people/#burrows">Steven
+                    Burrows</a></li>
+            <li><a title="Benno Stein" class="internal-link" href="http://www.uni-weimar.de/medien/webis/people/#stein">Benno
+                    Stein</a></li>
+            <li><a data-htmlarea-external="1" title="&Ouml;ffnet Link" class="external-link-new-window" href="http://www.joerg.frochte.de/">J&ouml;rg
+                    Frochte</a></li>
+            <li><a title="Tim Gollub" class="internal-link" href="http://www.uni-weimar.de/medien/webis/people/#gollub">Tim
+                    Gollub</a></li>
         </ul>
+        <p>Students: David Wiesner, Katja M&uuml;ller,&nbsp;Peter Hirsch, Jens Opolka, Tom Paschke, and Michael V&ouml;lske.</p>
 
-	<!--
+        <!--
 	SECTION Publications
 	-->
-	<h2 id="publications">Publications</h2>
+        <h2 id="publications">Publications</h2>
         <div id="publications-list">
         </div>
-	</div>
-        </div>
+    </div>
+    </div>
 </main>
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-//includeBibentries(document.getElementById("publications-list"), "projects:clickbait");
+includeBibentries(document.getElementById("publications-list"), "projects:digital-engineering");
 </script>
