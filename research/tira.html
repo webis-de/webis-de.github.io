@@ -1,56 +1,77 @@
 ---
 layout: default
 nav_active: research
-title: Netspeak
+title: TIRA
 description: Overview of research that are used by the Webis research group
 ---
 
 <script type="application/ld+json">
-{
-  "@context":"http://schema.org/",
-  "@type":"Research",
-  "name":"Netspeak",
-  "description":"",
-  "url":"https://webis.de/research/netspeak.html",
-  "keywords":[
-    "netspeak"
-  ], 
-  "creator":[
     {
-      "@type":"Organization",
-      "url":"https://webis.de/",
-      "name":"The Web Technology & Information Systems Network",
-      "alternateName":"Webis"
-    },
-    {
-        "@type":"Person", 
-        "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Stein, Benno"
-    },
-    {
-        "@type":"Person", 
-        "url":"http://www.uni-weimar.de/medien/webis/people/#potthast",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Potthast, Martin"
-    },
-    {
-        "@type":"Person", 
-        "url":"http://www.uni-weimar.de/medien/webis/people/#trenkmann",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Trenkmann, Martin"
+        "@context": "http://schema.org/",
+        "@type": "Research",
+        "name": "TIRA",
+        "description": "",
+        "url": "https://webis.de/research/netspeak.html",
+        "keywords": [
+            "tira"
+        ],
+        "creator": [{
+                "@type": "Organization",
+                "url": "https://webis.de/",
+                "name": "The Web Technology & Information Systems Network",
+                "alternateName": "Webis"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#gollub",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Gollub, Tim"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#potthast",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Potthast, Martin"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#stein",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Trenkmann, Martin"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#burrows",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Burrows, Steven"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#hoppe",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Hoppe, Dennis"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#trenkmann",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Trenkmann, Martin"
+            },
+            {
+                "@type": "Person",
+                "url": "http://www.uni-weimar.de/medien/webis/people/#goering",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Goering, Steve"
+            }
+        ],
+        "includedInDataCatalog": {},
+        "distribution": []
     }
-  ],
-  "includedInDataCatalog":{
-  },
-  "distribution":[
-  ]
-}
 </script>
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Netspeak</h1>
+        <h1>TIRA</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -66,78 +87,121 @@ description: Overview of research that are used by the Webis research group
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
+        <div id="tira-synopsis-container">
+            <p id="tira-synopsis">The possibility to reproduce and compare results of other researchers is essential
+                for scientific progress. In many research&nbsp;fields, however, it is often impossible to specify the
+                complete experiment setting; e.g., in the scope of a scientific publication. As a consequence, a&nbsp;
+                reliable comparison becomes difficult, if not impossible. TIRA is&nbsp;our approach to address this
+                shortcoming. TIRA?jokingly, &quot;The Incredible Research Assistant&quot;?provides a means for
+                evaluation as a service. It focuses on hosting&nbsp;shared tasks and facilitates the submission of
+                softwares as opposed to the output of running a software on a test dataset (a&nbsp;so-called run). TIRA
+                encapsulates the submitted softwares into virtual machines. This way, even after a shared task is over,
+                the submitted softwares can be re-evaluated at the click of a button, which severely increased the
+                reproducibility of the corresponding shared task. An overview of existing shared tasks is available at
+                <a data-htmlarea-external="1" title="TIRA Tasks" class="external-link-new-window" href="http://www.tira.io/tasks/">tira.io/tasks</a>.
+                [<a data-htmlarea-external="1" title="offnet externen Link in neuem Fenster" href="http://www.tira.io">service</a>]
+            </p>
+            <img src="img/csm_tira-web-service-14_622fb83d2c.png" id="tira-image" alt="TIRA Interface">
+        </div>
 
-        <p>
-            To write in a foreign language is a difficult task, even for an experienced author. Problems include choosing the right word or preposition in a given context, finding a wording which is commonly used, and avoiding the use of grammatical forms which reflect the author's native language. The Netspeak Web service assists authors to overcome these issues by using the World Wide Web as a source of common language. The service can be queried with short text phrases to determine their customariness on the Web. Wildcard characters can be added to the query to search for variations and synonyms of the query phrase, which will be returned as ranked list with respect to their occurence frequency on the Web. [<a href="http://www.netspeak.org" target="_blank" class="internal-link" class="csc-content-link">service</a>] [<a href="http://www.netspeak.org/#developer" target="_blank" class="internal-link" class="csc-content-link">api</a>] [video <a href="http://www.youtube.com/watch?v=vklWCIsB_jM" target="_blank" class="external-link-new-window" class="csc-content-link">1</a> <a href="http://www.youtube.com/watch?v=YPLypsK1KIk" target="_blank" class="external-link-new-window" class="csc-content-link">2</a> <a href="http://www.youtube.com/watch?v=X-GlKjGcC00" target="_blank" class="external-link-new-window" class="csc-content-link">3</a> <a href="http://www.youtube.com/watch?v=-EMxQacIJ20" target="_blank" class="external-link-new-window" class="csc-content-link">4</a>]
-        </p>
 
         <!--
         SECTION Research
         -->
         <h2 id="research">Research</h2>
 
-        Netspeak indexes the complete &quot;<a href="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2006T13" target="http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2006T13" class="external-link-new-window" class="csc-content-link">Web 1T 5-gram Version 1</a>&quot; corpus as a source of common language on the Web. The corpus comprises about 3.8 billion phrases up to a length of 5 words (so-called n-grams) which were collected by Google from the English Web. The following table shows details on the size of the corpus:</p><div id="c41493" class="csc-frame csc-no-bottom-border  layout-bottomheader">
-				<table class="uk-table uk-table-striped"><thead>
-					<tr class="tr-even tr-0">
-							<th class="td-0" scope="col" id="col41493-0">n-grams</th>
-							<th class="td-1" scope="col" id="col41493-1"><div style="width:100px;text-align:right">count</div></th>
-							<th class="td-2" scope="col" id="col41493-2"><div style="width:150px;text-align:right">size (compressed)</div></th>
-							<th class="td-last td-3" scope="col" id="col41493-3"><div style="width:150px;text-align:right">size (uncompressed)</div></th>
-					</tr>
-					</thead><tbody>
-					<tr class="tr-odd tr-1">
-							<td class="td-0" headers="col41493-0">1-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">13 588 391</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">70.2 MB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">177.0 MB</div></td>
-					</tr>
-					<tr class="tr-even tr-2">
-							<td class="td-0" headers="col41493-0">2-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">314 843 401</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">1.6 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">5.0 GB</div></td>
-					</tr>
-					<tr class="tr-odd tr-3">
-							<td class="td-0" headers="col41493-0">3-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">977 069 902</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">5.5 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">19.0 GB</div></td>
-					</tr>
-					<tr class="tr-even tr-4">
-							<td class="td-0" headers="col41493-0">4-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">1 313 818 354</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">8.4 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">30.5 GB</div></td>
-					</tr>
-					<tr class="tr-odd tr-last">
-							<td class="td-0" headers="col41493-0">5-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">1 176 470 663</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">8.8 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">32.1 GB</div></td>
-					</tr></tbody>
-				</table>
+        <div>
+            <p>TIRA is currently one of the few (if not the only) platform that supports software submissions with
+                little extra effort. We have used it to organize 12 shared tasks within PAN@CLEF, CoNLL, and the now
+                running WSDM Cup. All told, 300 pieces of software have been collected to date, all archived for
+                re-execution. This ensures replicability, and also reproducibility (e.g., re-evaluating the collected
+                software on new datasets).</p>
+        </div>
+        <div></div>
+        <div>
+            <p>For a recent example on applied reproducibility: we hosted a shared task where participants submitted
+                software adversary to those submitted to a previous shared task: author obfuscation vs. authorship
+                verification. Evaluating the obfuscators involved running obfuscated texts through all of 44 previously
+                submitted verifiers to check whether authors could still be identified. This is something that would
+                have been virtually impossible without TIRA.</p>
+        </div>
+        <div></div>
+        <div>
+            <p>TIRA<br />- supports almost any working environment and software stack (incl. Windows)<br />- apparently
+                does not impede participation in shared tasks<br />&nbsp; (we have so far not observed drops of
+                registrations or heard any serious complaints afterward)<br />- prevents participants from directly
+                accessing the test datasets (blind evaluation)<br />- prevents leakage of test datasets,<br />- allows
+                for controlling the amount of information passed back to participants when they run software on test
+                datasets<br />- for the above reasons supports the use of proprietary and sensitive datasets<br />-
+                allows for many different task setups (e.g., for the source retrieval task, participants accessed our
+                in-house ClueWeb search engine ChatNoir)</p>
+        </div>
+        <div></div>
+        <div>
+            <p>TIRA's only requirement to participants is that<br />- software is executable from a POSIX command line
+                (Cygwin on Windows) with a number of parameters</p>
+        </div>
+        <div></div>
+        <div>
+            <p>TIRA's requirements for organizers are that they<br />- supply datasets<br />- supply run evaluation
+                software<br />- review participant runs for errors<br />- moderate evaluation results and whether it
+                should be published<br />- help to answer participant questions as they arise<br />That's nothing more
+                than they are doing, anyway.</p>
+        </div>
+        <div></div>
+        <div>
+            <div>
+                <p>TIRA does currently not support<br />- GPU acceleration inside virtual machines<br />- accessing
+                    cluster computers to run, e.g., MapReduce jobs<br />These are things that will be available
+                    eventually.</p>
+            </div>
+        </div>
+        <div></div>
+        <div>
+            <p>TIRA's operational costs include<br />- running the virtual machines and the servers that host them</p>
+            <div>
+                <p>We are currently running TIRA on our Betaweb cluster at the Digital Bauhaus Lab (130 machines with
+                    64GB RAM each). We can afford to host hundreds of virtual machines simultaneously, and we would be
+                    willing to offer hosting free of charge. In return<br />- we'd ask to be highlighted in appropriate
+                    places on web pages, presentations, papers, etc.<br />- we'd ask task organizers to make sure
+                    participants properly cite TIRA in case they mention it in their papers</p>
+            </div>
+            <div></div>
+            <div>
+                <p>As a grain of salt: TIRA is still a prototype (beta), and it is rough around the edges in some
+                    places. We are working toward an open source release.&nbsp;&nbsp;</p>
+            </div>
+        </div>
 
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#trenkmann" title="Martin Trenkmann">Martin Trenkmann</a> (Software Engineering)</li>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a> (Scientific Mentoring and Software Architecture)</li>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a> (Scientific Mentoring and Statistics)</li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#gollub" title="Tim Gollub">Tim Gollub</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin
+                    Potthast</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#burrows" title="Steven Burrows">Steven Burrows</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#hoppe" title="Dennis Hoppe">Dennis Hoppe</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#trenkmann" title="Martin Trenkmann">Martin
+                    Trenkmann</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#trenkmann" title="Steve Goering">Steve
+                    G&ouml;ring</a></li>
         </ul>
-
-	<!--
+        <p>Students: Anna Beyer, Matthias Busse, Clement Welsch, Arnd Oberl&auml;nder, Johannes Kiesel, Adrian
+            Teschendorf, Manuel Willem</p>
+        <!--
 	SECTION Publications
 	-->
-	<h2 id="publications">Publications</h2>
+        <h2 id="publications">Publications</h2>
         <div id="publications-list">
         </div>
-	</div>
-        </div>
+    </div>
+    </div>
 </main>
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-//includeBibentries(document.getElementById("publications-list"), "projects:clickbait");
+    includeBibentries(document.getElementById("publications-list"), "projects:tira");
 </script>
