@@ -3638,318 +3638,735 @@
             ]
         },
         "unit-de-ads-introduction": {
-            "sha": "06287d345fa03677625f8a8c59e0edb0f1d043f8",
-            "numpages": 62,
+            "sha": "656fdc307f4e5b5508ddb90c3d9607d4a610add4",
+            "numpages": 63,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "4e531fc3e86c93652289014243232947e089e47b",
-                    "description": "Kapitel ADS:I I. Introduction"
+                    "sha": "e5164e2778e810961c887a7991bfe7d02a0b7c1c",
+                    "description": "Kapitel ADS:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 2,
-                    "sha": "040506eba3f402eeda282da25d10296516d5321d",
+                    "sha": "47e2f9a3dcc2478f51da46947f5e3044518ff4ec",
                     "description": "Begriffserkl\u00e4rung Definition 1 (Problem, Probleminstanz)"
                 },
                 {
                     "page": 3,
-                    "sha": "47284ee9d5ec715d0ad73b50456a95c4024e6b35",
+                    "sha": "38462e13d811776523393d4f3b2b173296978ec1",
                     "description": "Begriffserkl\u00e4rung Definition 1 (Problem, Probleminstanz)"
                 },
                 {
                     "page": 4,
-                    "sha": "d360dd6eb6fc2a0637ad8811a17134af62a79e3b",
+                    "sha": "88452a154d39059dace5daa3a856b3fffb4d6403",
                     "description": "Begriffserkl\u00e4rung Definition 1 (Problem, Probleminstanz)"
                 },
                 {
                     "page": 5,
-                    "sha": "58c8f68953c98b5afff5163129c1b3fab0a0bdae",
+                    "sha": "05bc65ca97f7f13900a8b4c14bf383b3f2615188",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 6,
-                    "sha": "618cc5ffbac844f238ce7bb9cee2d49e35b7fa62",
+                    "sha": "5e8afe799c536c690ac69429cceab258c4c02d94",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 7,
-                    "sha": "3717a716d93d2edc20fc468a86ab38044f298dbc",
+                    "sha": "95af11f430698d49290265d53a99fbc7a76a016e",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 8,
-                    "sha": "92f67282289a532b9a63e966255eea0ae30e50e2",
+                    "sha": "0ab775c07d2abf00b24e290b831e8245a90f56ed",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 9,
-                    "sha": "d23478b465663121ec02eefc7ad5d2261ef8258d",
+                    "sha": "204527e79c17696033ac6c953db9a00a0b2d5ccf",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 10,
-                    "sha": "06e87842f8c8240899102fe88909fae916c6ce1d",
+                    "sha": "2d4dd899e35a61fd235c0c734b66adfb11253ab6",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 11,
-                    "sha": "23aa23021655312156233c117e4e823c270f1c69",
+                    "sha": "585b55f853ab39cc160a9d6a33e18dd4c0ca8746",
                     "description": "Begriffserkl\u00e4rung Definition 3 (Datenstruktur)"
                 },
                 {
                     "page": 12,
-                    "sha": "b3da17d935f88e64dece3c7fc5d02b83ad16abaa",
+                    "sha": "acafea37541052d9c4bd6293acf17d43bfd3a690",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 13,
-                    "sha": "ca360bd780ca7114a864fa2023fff300a2b5071a",
+                    "sha": "1bb141bd36543e6aa1f2dbd8fe0d53e98737aa01",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 14,
-                    "sha": "bdcdffed3f4668213a556c8142177f23ef75bf19",
+                    "sha": "038344c87113ca1d157b1ec05c4775eb999434e8",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 15,
-                    "sha": "b48d11b5ef97fb5e3f0f61fdc092f64816a34b7f",
+                    "sha": "281adb1d704214e70eb5c24dcd360bbefb51372b",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 16,
-                    "sha": "d5ce1580b2bb1752e41a8880810621473906c89b",
+                    "sha": "83c8b50f3d017c3c2ba37bb58841bcb3159b9c86",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 17,
-                    "sha": "83bba3a23e98d3c3fc3479ed3b98f6f360faa50a",
+                    "sha": "634a1bb84901dd2df2a85c61422a150273552618",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 18,
-                    "sha": "65998c58f1d213ccd4be1d1678b6fcbfa01cc019",
+                    "sha": "822f2273ad2092f3b4fa0eaac9743bb6e3c4e70b",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 19,
-                    "sha": "3fe1f91b020894a640262bd9a21fc3e674468d36",
+                    "sha": "2cddd075d1e6d91a3718b601756f438d99364274",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 20,
-                    "sha": "f4d8e2248c38d534fa4e64554173d1844023ceaf",
+                    "sha": "e9be07078823d8016711031b5523b9c82917c32d",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 21,
-                    "sha": "62fd32f87844e613c38e476ffb0b05a6dcbe5206",
+                    "sha": "f2eef684abad7174b43b533e0d5cf63b0275bbcd",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 22,
-                    "sha": "bfaf8a6c843662119babc79cd31a29ede7f306eb",
+                    "sha": "63d77c31fe35c2901e22ad7d989655d80cda18ab",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 23,
-                    "sha": "16e1c24744181d9dc52874d7aab31627f85c06aa",
+                    "sha": "88bef1082af525010df7bceccb638ee324e11006",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 24,
-                    "sha": "d9dfec96577c93c1a7f3475a3307607fae5c4761",
+                    "sha": "45df4a95155d928b6030f99f986ec9dbe15b73ca",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 25,
-                    "sha": "5ba55d78718b5cc17cd3b6fcc5da98d57dbe792d",
-                    "description": "Bemerkungen:"
+                    "sha": "4ea61fee9681d247552ab6859aed11b84627cffb",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 26,
-                    "sha": "757064e0b8a6ecda6fbfae5e2393c7f353eb5c03",
+                    "sha": "58a0808ac5c20b201840e4fdfdc4bd4cae553bd9",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 27,
-                    "sha": "c35434a47996195d1033cf713209d7e075213925",
-                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
+                    "sha": "cd77c9406a240b709b4c0437cca3e0d81da50044",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 28,
-                    "sha": "2a4d5a39f3844eec310b243a5ab47ae1b46d7502",
+                    "sha": "4c896af2cc62fd51728427827a3ad96a46560b2f",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 29,
-                    "sha": "c20e43de9c4b438bbb72ef253aa2e559f1fd9702",
+                    "sha": "b42c645e1f0bdfe6d822c382e61d3b0120946333",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 30,
-                    "sha": "d132c2ca7bb6a7d408f188082cc918173521042d",
+                    "sha": "70d044b2d18236d1f86e4981d7c7b28694c5d412",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 31,
-                    "sha": "59bf234ce94f8ac9222412f5bcd46b3dd9fe1eb1",
+                    "sha": "967ccbe2232ced3a78044a682cb9943d6bc8c8cf",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 32,
-                    "sha": "33382969b5270de69e7885ef5fc8bcab403ee6e5",
+                    "sha": "0d3fc497ee0854ee09e637b3974f1178b7afa226",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 33,
-                    "sha": "cbb0f4352e178313c55806b255da33776aed9db3",
+                    "sha": "52813656ba222c7b255c414dfcc3d5225319e8d8",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 34,
-                    "sha": "8609bcd9406262cc3c896284b9b3d17056a45318",
+                    "sha": "1b2cc5e5f74113664d434a94a3ec51d5fbedc5fd",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 35,
-                    "sha": "165dd3e54ea40b3be3864c7ab163b6838aa6b365",
+                    "sha": "230e590df724d4fa5be43ae7cd4b55e712465ba5",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 36,
-                    "sha": "9bf78d1aed4de1580c3560418e45fd5ac330b364",
-                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
+                    "sha": "20b4c3f9cd6a827f2e2875e6289440825ba2cbda",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 37,
-                    "sha": "6fecdd808be2256e1b50fe7b9dc02e8fa5cba98e",
-                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
+                    "sha": "138b7ce7f42fc98c9bc90da7ab60c92fb012e663",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 38,
-                    "sha": "2fa69b8cf061690c514245f4e02c901e39363a16",
+                    "sha": "ed247475d5d42bdfd62fca4b88c4a8b5307de57d",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 39,
-                    "sha": "249b917bbec3fa7477d7ce72a869a8133140801a",
+                    "sha": "c591fddd4d2d938917c1853d531ea7807978e661",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 40,
-                    "sha": "45ee083dd5dacfb66c15c6ff99d66467b1f88133",
+                    "sha": "06f534a39bc193187e4f0adca1baadc56682d83f",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 41,
-                    "sha": "4cb83a4f4162276e33fc2833eb670a0e53ba5a70",
+                    "sha": "ba727f603a84f839efe608a7ca8f8451c8dbe718",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 42,
-                    "sha": "b87aa6847a70f77ae297f431e238e764f5ed1fc1",
+                    "sha": "9eb899e896f44970c8ed32384a306a7ffec79c02",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 43,
-                    "sha": "15296f7c304dfac3d48967ad9740f975cbb607eb",
+                    "sha": "212c30449086199913f0d3203c44faaadeeb2111",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 44,
-                    "sha": "cf48db9de775dba66ccc184cc7530cce330a0f36",
+                    "sha": "c6bbad15cf5b8543a892327cbc7c2da38f8c940f",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 45,
-                    "sha": "310fc9e4084870d171552acc1733b04529a015ba",
+                    "sha": "9c464315acfe656bc04839aeb4bc77e17076575c",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 46,
-                    "sha": "5c78363af765a4b49b153c35ec14732667467a95",
+                    "sha": "4690e40865f19cf57c5ff74173686227596b2f51",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 47,
-                    "sha": "cd4d9cf9b3fa00279028fceb944264486d334f41",
+                    "sha": "41ddf4154885001b777542239404fa23a360234b",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 48,
-                    "sha": "c736681c036957c64639db849b416d4b5e1c1ced",
+                    "sha": "ea2ce71dd8e27b680487591f8330ee00eb33e5be",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 49,
-                    "sha": "189a69d8a0b740ef6fa5e270b95164d2bdba5338",
+                    "sha": "3395044336f0eff42abd90ff5cc8cf1adc4918d4",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 50,
-                    "sha": "95cf679948da874c10f7120ba5bed04b7df63dab",
+                    "sha": "6e6e78e95f72ed2eeb63f999fff22d658dfbcc0e",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 51,
-                    "sha": "f0d707f5f70c2d6114afb46224cb5685d119f086",
-                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
+                    "sha": "bcd77f823d6342b8ddebfe15e2658b0bd86b42f0",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 52,
-                    "sha": "c9eb3e0bcec56032290de45d441c2977dc9cb639",
-                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
+                    "sha": "bb309b71942c7187e90234e6b28ee281d91fe9ac",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 53,
-                    "sha": "ae53710f367dfda2142b51f1ff5814d0cc47ba7c",
+                    "sha": "431d08e00b7611bc9b0fcaeee0f126d024f59238",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 54,
-                    "sha": "8f07ba58923ed1430f258e38759b27597fc14f0a",
+                    "sha": "efaa1c857999f899be541bfb7764f68db534751e",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 55,
-                    "sha": "9c80131a849527442020cff140e1508629480a72",
+                    "sha": "d5edb39a59914607154cb3fcf688ed4540b854b6",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 56,
-                    "sha": "3ae07b017fcfb9a24fa82305fe7b31d6c93b9ab4",
+                    "sha": "ae84076d271f2d8c8e3482c47fc6ed9f8f50f60d",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 57,
-                    "sha": "d3c6da665fd7413994213398fbfa7045f519fccc",
-                    "description": "Bemerkungen:"
+                    "sha": "55e656dd11fed44cfeb54c4f4889a96ac452bfd7",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 58,
-                    "sha": "81891cf66f625396119abe7ed73ed81aabede415",
-                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen PledgeAlgorithm(G, s, ?)"
+                    "sha": "8343e6f94c1d0ee7f31a0cebea7dd561d72373e2",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 59,
-                    "sha": "18bccdd80e9252f3a482f35e2b0da7c4a3875b40",
+                    "sha": "cc65031faf58e21db24051114db6425a20b24963",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen PledgeAlgorithm(G, s, ?)"
                 },
                 {
                     "page": 60,
-                    "sha": "1ef21f4575671f377bc33dda73075f62e0c20f4a",
-                    "description": "Bemerkungen:"
+                    "sha": "8eefb82bf4ac4852a7d0a70dda02f00a7032d68c",
+                    "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen PledgeAlgorithm(G, s, ?)"
                 },
                 {
                     "page": 61,
-                    "sha": "7ddb83525a67083e49738e8c49df62b1d5948375",
-                    "description": "Algorithm Engineering Fragen"
+                    "sha": "0d8c5da1df057358a11cc568006ee36436bdf29c",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 62,
-                    "sha": "1dfd492fe9759ed67b042e932cac665ecb7597d5",
+                    "sha": "e3e5caa689f02468045e13108c7de3048b4d65eb",
                     "description": "Algorithm Engineering Fragen"
+                },
+                {
+                    "page": 63,
+                    "sha": "d15bd1b908808e68daa6372a9561a11adf1b0168",
+                    "description": "Algorithm Engineering Fragen"
+                }
+            ]
+        },
+        "unit-de-problem-solving": {
+            "sha": "c7421f2c9992db560861b96671edd880825cb6b7",
+            "numpages": 22,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "e22fd7cf96448057c24b47f97459b897d07a05e8",
+                    "description": "Kapitel ADS:II II. Algorithm Engineering"
+                },
+                {
+                    "page": 2,
+                    "sha": "026425bc868bb685e700972ea0259203173e2276",
+                    "description": "Probleml\u00f6sen "
+                },
+                {
+                    "page": 3,
+                    "sha": "45002a58c5fa93e571e43523f2fcab3412097566",
+                    "description": "Probleml\u00f6sen Problemklassen"
+                },
+                {
+                    "page": 4,
+                    "sha": "f4bbc0c78e28528b4684842b38a54f27125d3b42",
+                    "description": "Probleml\u00f6sen Problemklassen"
+                },
+                {
+                    "page": 5,
+                    "sha": "6dddd4dc097448b83a18e45fb3eb8415347cadfb",
+                    "description": "Probleml\u00f6sen Problemklassen"
+                },
+                {
+                    "page": 6,
+                    "sha": "1d33a58f99f2339cd311ecaa3de81977245eae58",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 7,
+                    "sha": "9a29705c327454aa076134d541af50c913984f39",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                },
+                {
+                    "page": 8,
+                    "sha": "355d919b667c67e2e13f1c3142a39c51c9baffca",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 9,
+                    "sha": "0f753889b68ffb95cb8d88d5e2503a52b275f2b6",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 10,
+                    "sha": "e897b8e187e35e9b32521190c9273eda6dbc1576",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 11,
+                    "sha": "547da5faeeb36c129f3875215381c2aae81183c7",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 12,
+                    "sha": "f4ddd19a7b392ee47bf7970e101f6c79448c1375",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 13,
+                    "sha": "efa9b637525c86f6d71e95c7a70507732cdaccca",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 14,
+                    "sha": "e4e95816ed9f350baa85fd16880cf7ac236d981a",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 15,
+                    "sha": "636751b9a81fb5772f709ee0683f68489eba6d7c",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 16,
+                    "sha": "019b17d462084f12c9e6da3e831b09f8354a1e23",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 17,
+                    "sha": "586425525044369155a461602b9b16e8bee48b73",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 18,
+                    "sha": "af18736008417c63d738b91972ef56fb2c0841ee",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 19,
+                    "sha": "77f7a128095a0f2459266df822ef50c395bc2066",
+                    "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
+                },
+                {
+                    "page": 20,
+                    "sha": "e18948b7f6649c4f30a79f052aa904985244015c",
+                    "description": "Probleml\u00f6sen Maschinelles Lernen"
+                },
+                {
+                    "page": 21,
+                    "sha": "ae5171e093acbf402099c8dc26ccfd81bc2d601f",
+                    "description": "Probleml\u00f6sen Maschinelles Lernen"
+                },
+                {
+                    "page": 22,
+                    "sha": "7680079ebb8493dc7184a4acde40256f275f202e",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-algorithm-design": {
+            "sha": "02f928161c752c21bc850cb5bb85c3b446b0e453",
+            "numpages": 58,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "278bdaef983abe2acb84e8f69bafde3efe3c38b1",
+                    "description": "Kapitel ADS:II II. Algorithm Engineering"
+                },
+                {
+                    "page": 2,
+                    "sha": "c87d55b8142a33f11a8210b24390f12cac80697d",
+                    "description": "Phasen des Algorithm Engineering "
+                },
+                {
+                    "page": 3,
+                    "sha": "e59b813d75551657ece8811764cc372fea1cb6aa",
+                    "description": "Phasen des Algorithm Engineering "
+                },
+                {
+                    "page": 4,
+                    "sha": "8a677566de0b4dd3eb0cca2ea87b639d9a071525",
+                    "description": "Phasen des Algorithm Engineering "
+                },
+                {
+                    "page": 5,
+                    "sha": "85301e6e1094b539bdd59bad3843e2b549a56566",
+                    "description": "Phasen des Algorithm Engineering "
+                },
+                {
+                    "page": 6,
+                    "sha": "ead4b60166f6b9d72b9253a256989a79396a64b3",
+                    "description": "Phasen des Algorithm Engineering "
+                },
+                {
+                    "page": 7,
+                    "sha": "1f6de2df7fd940f00825960d7da71ed08e38012d",
+                    "description": "Bemerkungen: (frei nach [Sanders 2009])"
+                },
+                {
+                    "page": 8,
+                    "sha": "b8813302b0a69990f579cbcfe47952694727e50f",
+                    "description": "Exkurs: Programmiersprachen 1950"
+                },
+                {
+                    "page": 9,
+                    "sha": "8a267492e5ea4c5e79a63dda6a92b43f2d600815",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 10,
+                    "sha": "a423d124d1c00c49a7a37e2b1b675fb76609b492",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 11,
+                    "sha": "2e66cc4ad3f1b8f4d7d6586d0b94c2311c49f2d2",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 12,
+                    "sha": "589c555bc0d894cc36f0173f1d7c9898fa7bcfaa",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 13,
+                    "sha": "95dd4f69d53782f350f0461c2fcb2a70de2e7004",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 14,
+                    "sha": "8d36d9f32639d0708c70681f58e3d15d976dfe46",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 15,
+                    "sha": "7016463faa2a0856c562784e4831ab8260acd93a",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 16,
+                    "sha": "66061f9951af7b5c16a7e74d54d0d4754953e2bf",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 17,
+                    "sha": "8565618f39b143dca26fa4315bf252ca8ffa6113",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 18,
+                    "sha": "13c2802338a53507769d990807860defbdbd9de2",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 19,
+                    "sha": "4855a16dca55f220294fd524a1efed7586f4ce3c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "8ace99d331955e6b65d0ebbe5d2d4bf0911460c1",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 21,
+                    "sha": "616d874b0226501949cbd8d2d03b06823b7fd37c",
+                    "description": "Exkurs: Programmiersprachen "
+                },
+                {
+                    "page": 22,
+                    "sha": "69f0296bad06ebefe80a0226f4dc6d82d231d55e",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "fef0ecfab506c5aff3a23c545273e1723fc57310",
+                    "description": "Pseudocode Einf\u00fchrung"
+                },
+                {
+                    "page": 24,
+                    "sha": "466e3a725d7539e647c8fcb8eec92774641a329a",
+                    "description": "Pseudocode Einf\u00fchrung"
+                },
+                {
+                    "page": 25,
+                    "sha": "faf206e77b6da0f0b131506118d7ddc45c98b2a8",
+                    "description": "Pseudocode Einf\u00fchrung"
+                },
+                {
+                    "page": 26,
+                    "sha": "96be542757e4064f581ee450fba4dae0e1e5ee06",
+                    "description": "Pseudocode Einf\u00fchrung"
+                },
+                {
+                    "page": 27,
+                    "sha": "7091d3331b1af3101fe9d2c62e88a59e02db73c8",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 28,
+                    "sha": "f93c4e4de2267b228cbe129a33af7d60ce3a8c95",
+                    "description": "Pseudocode Spezifikation und Signatur"
+                },
+                {
+                    "page": 29,
+                    "sha": "7997c689c6b2bf2ff15173dc0f7608d0982ef770",
+                    "description": "Pseudocode Spezifikation und Signatur"
+                },
+                {
+                    "page": 30,
+                    "sha": "6d44f7fe6626455d865a81e204e10ecbb7b2bfc6",
+                    "description": "Pseudocode Grundlagen der Syntax"
+                },
+                {
+                    "page": 31,
+                    "sha": "19e21bc8b0c5db03c14fcdc6c34d5ab1c9c61ae6",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 32,
+                    "sha": "8bbac27cc7de0e1a2f77cadbb8ca2f49de78b1e9",
+                    "description": "Pseudocode Variablen"
+                },
+                {
+                    "page": 33,
+                    "sha": "fb71951f287b961568adc995ff598282b1626dd5",
+                    "description": "Pseudocode Variablen"
+                },
+                {
+                    "page": 34,
+                    "sha": "bd9e07b5abd7c1b28e34ad370152d862b291a70f",
+                    "description": "Pseudocode "
+                },
+                {
+                    "page": 35,
+                    "sha": "114597dc13519e184334478818c1fa61850aab40",
+                    "description": "Pseudocode "
+                },
+                {
+                    "page": 36,
+                    "sha": "fd4dfea797f76714e51e139ea0b46f41d00d26ab",
+                    "description": "Pseudocode "
+                },
+                {
+                    "page": 37,
+                    "sha": "9690e4f9a04007bdc8ae6989a0e415bd36adebc7",
+                    "description": "Pseudocode Operatoren: \u00dcbersicht"
+                },
+                {
+                    "page": 38,
+                    "sha": "98bd2366f2679d4587b4ddeb09992ffda5ec2c20",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 39,
+                    "sha": "288c668901c4eb87a1f0549e3b88c91b5516ed73",
+                    "description": "Pseudocode Datentypen: Primitive"
+                },
+                {
+                    "page": 40,
+                    "sha": "a3015b94ebd7f555e1116f30430c76198858bcea",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 41,
+                    "sha": "38fe791cad733271e0786b8b65c9504d257e035e",
+                    "description": "Pseudocode Datentypen: Objekte"
+                },
+                {
+                    "page": 42,
+                    "sha": "66c84f323655e06248b60bc2952d6d023cae4391",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 43,
+                    "sha": "e0fb8a3bd30e0d4e3a80eea58acad61856370acc",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 44,
+                    "sha": "652153f7a696c4375eea75445a8eb43e980a5705",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 45,
+                    "sha": "6801cd963561aea1e4e40d1faff5cafa458387f0",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 46,
+                    "sha": "ed93ee8ff59790013fb83709275a10af6edcf5b7",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 47,
+                    "sha": "befef5977226aadbb8e7ae18d63482cbe6762eea",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 48,
+                    "sha": "c40d873ac326bdea30d965e0ecaea85316ed3134",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 49,
+                    "sha": "adf56fce242ef94cf87fb43612f315dd45416193",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 50,
+                    "sha": "c40ae6084ff65ccb56c6b07460935b4512c985af",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 51,
+                    "sha": "e9bf937645a12c46d15aa26c80bef834f6ba877c",
+                    "description": "Pseudocode Datentypen: Arrays"
+                },
+                {
+                    "page": 52,
+                    "sha": "bf3a25b6a44aad2643fe1520af60669b7bb2360f",
+                    "description": "Pseudocode Kontrollstrukturen"
+                },
+                {
+                    "page": 53,
+                    "sha": "0ad6835390fd7bd5b6d8916676c310a7b5c9d828",
+                    "description": "Pseudocode Kontrollstrukturen"
+                },
+                {
+                    "page": 54,
+                    "sha": "7117d6f0efb6623e43b85b354a290b6bde58169b",
+                    "description": "Pseudocode Kontrollstrukturen"
+                },
+                {
+                    "page": 55,
+                    "sha": "09ca4be8071aac7093bce8e6039cbbaba8b6cd75",
+                    "description": "Pseudocode Kontrollstrukturen"
+                },
+                {
+                    "page": 56,
+                    "sha": "5d521fd5b14616dc06987ad9fcee00a167568e72",
+                    "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
+                },
+                {
+                    "page": 57,
+                    "sha": "6fe011b436980492ce1c1c2859dc21478f500cf5",
+                    "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
+                },
+                {
+                    "page": 58,
+                    "sha": "ffa264ff30bdc41e260ca166254d202e162a7a34",
+                    "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 }
             ]
         }
@@ -21967,367 +22384,382 @@
             ]
         },
         "unit-en-ir-introduction": {
-            "sha": "d6cdd7263cb7bfd38382a020d293abd6d416912c",
-            "numpages": 72,
+            "sha": "bade977a1564850420ded22a65ddd3fee4f99c26",
+            "numpages": 75,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "ae27df9ed4ddde10f7f1277e18c345bda05cb555",
+                    "sha": "0a0bca148660a145b2a84f6cbf21e56101409424",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 2,
-                    "sha": "efcb9e6b344f0f852c41b4c1a7ef2a83a61f5c34",
+                    "sha": "f25509e3ae339e5df5e01bf472119f684513874c",
                     "description": "Examples of Retrieval Tasks Task: Learn everything there is to learn about information retrieval."
                 },
                 {
                     "page": 3,
-                    "sha": "bc289351153ef3446f5cf238772f8c2113e5ecc3",
+                    "sha": "dba6ca7d51c88c986ca406fff932dd8b79276f33",
                     "description": "Examples of Retrieval Tasks Task: Learn everything there is to learn about information retrieval."
                 },
                 {
                     "page": 4,
-                    "sha": "9be2151e36dd8218d88ec595a4cc81b0c490348e",
+                    "sha": "b1de44a4c46ed5c139d42f609809ea18507a88c0",
                     "description": "Remarks:"
                 },
                 {
                     "page": 5,
-                    "sha": "ae41cb8291367bb534d599d9e758005f51e07b63",
-                    "description": "Examples of Retrieval Tasks Task: Plan a trip to Paris, France."
+                    "sha": "7ee0f3af673f4f8d6ea2c74b47a000a1f691ec03",
+                    "description": "Examples of Retrieval Tasks Task: Plan a trip from San Francisco to Paris, France."
                 },
                 {
                     "page": 6,
-                    "sha": "845b07fe2612a51fdbff539acfb3d8ce35b5d201",
-                    "description": "Examples of Retrieval Tasks Task: Plan a trip to Paris, France."
+                    "sha": "bc104df50a37bffd91c4683e8143037f3f7b44e2",
+                    "description": "Examples of Retrieval Tasks Task: Plan a trip from San Francisco to Paris, France."
                 },
                 {
                     "page": 7,
-                    "sha": "61ed76d80700eda020581acb025b49ec4ebb992a",
+                    "sha": "8e483221c0ff2941ee8911d8cfe92095d99c331f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "44ae05c438c17a1b5f49a48e77e8763d7479a801",
+                    "sha": "471ef6f2808757be1203ea18f99690b85271d131",
                     "description": "Examples of Retrieval Tasks Task: What were the news of the day?"
                 },
                 {
                     "page": 9,
-                    "sha": "44598f83bd050e7d0393cecdc8ef00c9748a4f6d",
+                    "sha": "504472ce5084fb76e830461dbc40bb686124f646",
                     "description": "Examples of Retrieval Tasks Task: What were the news of the day?"
                 },
                 {
                     "page": 10,
-                    "sha": "6de13a4081573b86224d094fa01bf8a872afe25d",
+                    "sha": "64a7e9fc6c919ac415db7157257b1bf146251d2e",
                     "description": "Examples of Retrieval Tasks Task: What were the news of the day?"
                 },
                 {
                     "page": 11,
-                    "sha": "171446f6f5ab81f0538ece4907a927eb3cfacd51",
+                    "sha": "3eca517c6e52e604f2abeec7cc947472ff993bfe",
                     "description": "Remarks:"
                 },
                 {
                     "page": 12,
-                    "sha": "c62d83fa5e52be0141d24bc43184cc79db81fb75",
+                    "sha": "0c83dabd920e4c5a1287f5c3a20b385b7a210012",
                     "description": "Examples of Retrieval Tasks Task: Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 13,
-                    "sha": "f3e1537568688debe2e97dcaf56066e74528267f",
+                    "sha": "192d12522781e894f3cad615d1da1da90a60d38e",
                     "description": "Examples of Retrieval Tasks Task: Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 14,
-                    "sha": "89d3f41fd900c7e4487180d800b0ff0fa122122f",
+                    "sha": "59a9366dc3a8bd2cd9300a128fe6c7536359c0b4",
                     "description": "Examples of Retrieval Tasks Task: Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 15,
-                    "sha": "6f729c3979ea374c1e1b67ec5e46eeaffecf1918",
+                    "sha": "4f9a5eb3448a02b5c05e1ca037db33424734d1d1",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "224860c6e1d95b204dc796293fe914263402dddf",
+                    "sha": "014e1eb2d2b72d16d067a68ca2cba4071ec5f3c0",
                     "description": "Examples of Retrieval Tasks Task: Build a fence."
                 },
                 {
                     "page": 17,
-                    "sha": "0ad0bbc5c87346636adccfb02504dcc1b67954f9",
+                    "sha": "879c37162e6de8200c1ad9f7b7a8569a66d447ad",
                     "description": "Examples of Retrieval Tasks Task: Build a fence."
                 },
                 {
                     "page": 18,
-                    "sha": "91bf2554e7feccf448ceec71502f973ddb7ea11a",
+                    "sha": "e6039fbcdf6cbbc0545a6954e4913b9e9aa4f0c9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "d96d38c32e8445b6bacc71faa2ca8450d60447bf",
+                    "sha": "7c9a6444d5527ea65f876b48060825cc969d6e51",
                     "description": "Examples of Retrieval Tasks Task: Write an essay on video surveillance."
                 },
                 {
                     "page": 20,
-                    "sha": "46a8c3d254614a05bcd4a01abf986369847f9a5b",
+                    "sha": "2057614b62633c4e194bb2a2809e39d47ef72d9a",
                     "description": "Examples of Retrieval Tasks Task: Write an essay on video surveillance."
                 },
                 {
                     "page": 21,
-                    "sha": "190670c52ad49c4828f8475e526593c693fabe52",
+                    "sha": "39a91d6b42a904113d87d64713eb0620b94b0b87",
                     "description": "Remarks:"
                 },
                 {
                     "page": 22,
-                    "sha": "48edbad803fe04de0b0d092cb53392574637740b",
+                    "sha": "10278adf7ff1ffd4006d6d6349213d246172ccd3",
                     "description": "Examples of Retrieval Tasks Task: Given an example image, find more like it."
                 },
                 {
                     "page": 23,
-                    "sha": "9429362718cd3616fa5cdad1eb2bba3b6fdbda18",
+                    "sha": "08f0b66edaab25842686abf937860c1f6843bae9",
                     "description": "Examples of Retrieval Tasks Task: Given an example image, find more like it."
                 },
                 {
                     "page": 24,
-                    "sha": "1d39b6dc1b43e884243fc9bda7a9657d9d6879ae",
+                    "sha": "58da68d9e7c69c5d5f2c90f101f5c81d3873552e",
                     "description": "Examples of Retrieval Tasks Task: Given an example text, find more like it."
                 },
                 {
                     "page": 25,
-                    "sha": "4a8f8e9c09cda29a9b2c5afbb9e65c04d42d6ecd",
+                    "sha": "a2ae2d6f90375717f0c16828d6ef5ba6b5e99e1f",
                     "description": "Examples of Retrieval Tasks Task: Given an example text, find more like it."
                 },
                 {
                     "page": 26,
-                    "sha": "8ad5ee97aa982e9a591afa0cf5b5bbe986dbf506",
+                    "sha": "6f9cb18d644f56097c63316212062e02f08d706e",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "aebdd9a062d52c98fa29142d81244768c782e9f9",
+                    "sha": "94bbeee20a41145f7aa447ac7f6b545790898bbe",
                     "description": "Examples of Retrieval Tasks Task: Find out what people commonly write in the phrase how to ? this."
                 },
                 {
                     "page": 28,
-                    "sha": "86b3c9e9b3027bc1a1e453660c498321e2607e8d",
+                    "sha": "3849935ab3ffa0eb09ee45d0069de4068bad8e96",
                     "description": "Examples of Retrieval Tasks Task: Find out what people commonly write in the phrase how to ? this."
                 },
                 {
                     "page": 29,
-                    "sha": "5c8818939172eea2270dbd41f0e890bf0dbde7a5",
+                    "sha": "61baf5471302babb3eafff70dcf805893432beb9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 30,
-                    "sha": "9e5a42fcf9c607cc436adc1040f3b1234c4c0a24",
+                    "sha": "2a7be4b1dc3df74a2acc9f51dbc92a077addd4b3",
                     "description": "Terminology Information science distinguishes the concepts data, information, and knowledge."
                 },
                 {
                     "page": 31,
-                    "sha": "cd878fb94836d31c281dd6a0ecf3ccb7577782e6",
+                    "sha": "187354e9acd557e6a2cb91b9bc46751999c52fd4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "2f1aed4eff6250001878ed674afa12dca61c79cc",
+                    "sha": "78a82075a1635385613dcea5b1ac2475fbef0fde",
                     "description": "Terminology Definition 4 (Information System)"
                 },
                 {
                     "page": 33,
-                    "sha": "1b8e841c5ceabc4d45fdf9609c19a127dbb347c2",
+                    "sha": "f19ad709c3ff7d6154d01462ce44c410ae2b1160",
                     "description": "Remarks:"
                 },
                 {
                     "page": 34,
-                    "sha": "8b839c9d613ffda0584ce38a32c442edba13efac",
+                    "sha": "43b76e1d266ad998431090ecedfbcd6e33d08365",
                     "description": "Terminology "
                 },
                 {
                     "page": 35,
-                    "sha": "e40a8832ce5aefd86c845cd965a52cea8a8f48c4",
+                    "sha": "8c897d7817011a08d2553539eb20ecdec1f10591",
                     "description": "Terminology "
                 },
                 {
                     "page": 36,
-                    "sha": "e067da1b4187dea5464e50a65408f497d423a457",
+                    "sha": "f94fc7cd5e3227aece12a91ae21ff7de617a90d1",
                     "description": "Terminology "
                 },
                 {
                     "page": 37,
-                    "sha": "fa61f6f0e0504486e3c1340f6ac242e37d305e06",
+                    "sha": "afda157553e86dbe94b5c065e0a44f390d131b34",
                     "description": "Terminology "
                 },
                 {
                     "page": 38,
-                    "sha": "81a5c9ce9f7efc2e292db5483870cca463aaaca7",
+                    "sha": "ae7766c877f786999cb1188b99d8929a073a0b65",
                     "description": "Terminology "
                 },
                 {
                     "page": 39,
-                    "sha": "f495a53cf06f4e5573d7621dd80f043d5ec22348",
+                    "sha": "37edf595a1eaf43b9ff2ce8d5117428201f64cad",
                     "description": "Terminology "
                 },
                 {
                     "page": 40,
-                    "sha": "ab998003e881961739d2091e47741f0c0899410d",
+                    "sha": "6cb4f7d57558ae1d6e3af33f24175a23c1f377f6",
                     "description": "Terminology "
                 },
                 {
                     "page": 41,
-                    "sha": "a4f9fa7ead0b263e87b4e56e23f2327776b6465f",
+                    "sha": "01a308e82e09c7756fc5c272765ee7b8528d6424",
                     "description": "Terminology "
                 },
                 {
                     "page": 42,
-                    "sha": "9e9a4fc3ea1f40310b9576f7f4cfa52a81ad9a82",
+                    "sha": "424b9fc0e1439883fa79dd504bc87180b0988b83",
                     "description": "Terminology "
                 },
                 {
                     "page": 43,
-                    "sha": "e79cea2e0869c7c1b16f7eca884bd985d6229913",
+                    "sha": "70e5a103f206e40eaf0b05c6f953c9aa8f0a84ed",
                     "description": "Terminology "
                 },
                 {
                     "page": 44,
-                    "sha": "3dc0cec413def1baf9b79cc87a1dad7170c470ad",
+                    "sha": "eb58d1501de772869cc1f84773567df12149c7d3",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 45,
-                    "sha": "8bd774896df03fd5c3b147f766530baffb471a11",
+                    "sha": "a214bcb835158f1e7074e0ac00823567897da618",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 46,
-                    "sha": "9c8652a1402dbf30a25ca058c894b91d9927fe26",
+                    "sha": "300abbab9a7073b9e7f79880a5470ecb9c8a7912",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 47,
-                    "sha": "4e221d1ad6e8114dc754dc8a8e4511dc0fb04936",
+                    "sha": "3c5d0de9c464d8ca7289c0c7804475d2f172a54f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 48,
-                    "sha": "4e1840b3a938623b867fa20c3b04671a9be61f66",
+                    "sha": "aa72e6df928f802532744ef2c1165c99e86551b8",
                     "description": "Delineation Databases, Data Retrieval"
                 },
                 {
                     "page": 49,
-                    "sha": "9a1e13e4f3dbd93203aef9e333b48592e83afeae",
+                    "sha": "841f870eb60d69af11f6879156254d08efaa5507",
                     "description": "Remarks:"
                 },
                 {
                     "page": 50,
-                    "sha": "d73b1261e85b2e3cf4ef38d2ea98006c4c850d3f",
+                    "sha": "5e18db00f30e8f299fd5fa4a82d1cadff6463679",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 51,
-                    "sha": "7873824d8522c71943248c25cd393e7778c52576",
+                    "sha": "ebe5c2b3b8c862090ea8131b3e315f77daa4b25a",
                     "description": "Remarks:"
                 },
                 {
                     "page": 52,
-                    "sha": "cb64f8251d338078f0e04542ad421e50441857d1",
-                    "description": "Delineation Retrieval"
+                    "sha": "39ae51186242c0c1777df88fa783f58afaef371b",
+                    "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 53,
-                    "sha": "eb1c1f274a43c6bcae996dc0756a3052e8309939",
-                    "description": "Historical Background Manual Retrieval"
+                    "sha": "cd2c6e6ba518dcdfd1ababa20a77715475c9bc16",
+                    "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 54,
-                    "sha": "69acc7f5801df311ccaf5bcf0848c4ddef67bb03",
-                    "description": "Remarks:"
+                    "sha": "871b7aae6de92f1b5c42aae212e63cfccc3133ee",
+                    "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 55,
-                    "sha": "d715fc858a5b66b9477b7a6a1ca6260b011b084a",
-                    "description": "Historical Background Manual Retrieval"
+                    "sha": "53101373ad4a4851d730ce672ef64ad0b44341d6",
+                    "description": "Delineation Retrieval"
                 },
                 {
                     "page": 56,
-                    "sha": "f910af7b9899959664b4d41f3f3978e96ba331b7",
+                    "sha": "0f7896ae5c991eb565c219a28b2425c2b0208ba6",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 57,
-                    "sha": "a257bf8d922126d0a13b81091c3e1a9219ef49cc",
+                    "sha": "93b48752de5c73bd868e8f4125d6c240e9d96035",
                     "description": "Remarks:"
                 },
                 {
                     "page": 58,
-                    "sha": "a99afc3e4e7f9d12384ea9c6ec396a069a6f692c",
-                    "description": "Historical Background Mechanical Retrieval"
+                    "sha": "27749b77e2f0482e5991f3d8eb93367de5d3e268",
+                    "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 59,
-                    "sha": "cf4249f024e451d77caa7fc23062ddb9e821d025",
-                    "description": "Historical Background Mechanical Retrieval"
+                    "sha": "1cac5940cb94b1d92b4fe14f369dd92de332c360",
+                    "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 60,
-                    "sha": "a33d6913686558770c138d91869c0ed1bc4a6a56",
-                    "description": "Historical Background Computerized Retrieval"
-                },
-                {
-                    "page": 61,
-                    "sha": "734df69e96bbbc577ea09362223d8989a43c5b07",
-                    "description": "Historical Background Computerized Retrieval"
-                },
-                {
-                    "page": 62,
-                    "sha": "a085eb0622f2cca1f388dea61104930d5d5bb0b4",
+                    "sha": "b1006ef4dda77781cf43f73da510134cc83f4040",
                     "description": "Remarks:"
                 },
                 {
+                    "page": 61,
+                    "sha": "55e13340ec1c61cc25c9ab032fa169ab32b799c8",
+                    "description": "Historical Background Mechanical Retrieval"
+                },
+                {
+                    "page": 62,
+                    "sha": "ac91409ef59049077892f98dead96e74dd6df3d1",
+                    "description": "Historical Background Mechanical Retrieval"
+                },
+                {
                     "page": 63,
-                    "sha": "acc7a460038297ae6fe24beb2f03b4af3cde1d61",
-                    "description": "Historical Background Information Retrieval (1950s)"
+                    "sha": "f9bad3e004a44043627e12a299ec5c53bf86d3a5",
+                    "description": "Historical Background Computerized Retrieval"
                 },
                 {
                     "page": 64,
-                    "sha": "cb0502f6cf427fb429cbe0f359906429f4f4d5b2",
-                    "description": "Historical Background Information Retrieval (1960s)"
+                    "sha": "4d8c29e9a40e6ba0f076c055a370741cf80f5123",
+                    "description": "Historical Background Computerized Retrieval"
                 },
                 {
                     "page": 65,
-                    "sha": "ea2709b4166b5db37e4aecc2bf149b5f5d373936",
+                    "sha": "864ea840eac5973ad6eb81b234028f9b13ba7e42",
                     "description": "Remarks:"
                 },
                 {
                     "page": 66,
-                    "sha": "315d60701b5242d66e5885308a247ba83bdb13af",
-                    "description": "Historical Background Information Retrieval (1970s)"
+                    "sha": "3e685f22da705c6179714750c7281d9850c4c245",
+                    "description": "Historical Background Information Retrieval (1950s)"
                 },
                 {
                     "page": 67,
-                    "sha": "6818c0b1cc930d65f32ca75d2be15a24f9e4c9d7",
-                    "description": "Historical Background Information Retrieval (1980s - mid-1990s)"
+                    "sha": "8d3d6061159198b70e075c2ed27ad351afde0eea",
+                    "description": "Historical Background Information Retrieval (1960s)"
                 },
                 {
                     "page": 68,
-                    "sha": "8e890763e97ba668082d0db7bfc65f186ffbdd0f",
-                    "description": "Historical Background Information Retrieval (mid-1990s - 2000s)"
+                    "sha": "0740b183438cd433229347a5d415814ce89ddea5",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 69,
-                    "sha": "c36603e19f3e96577f797326f77c2b01d40a7435",
-                    "description": "Web Search "
+                    "sha": "8ce717025ee644b8231cdabaf4df3414acc7c23b",
+                    "description": "Historical Background Information Retrieval (1970s)"
                 },
                 {
                     "page": 70,
-                    "sha": "0514150008ec32526d7cc52142e1f56ca8c3372a",
-                    "description": "Web Search "
+                    "sha": "1b8eb6ed046929675d0855c267cf8f6e6e339b1b",
+                    "description": "Historical Background Information Retrieval (1980s - mid-1990s)"
                 },
                 {
                     "page": 71,
-                    "sha": "7cb5b3e8e44fbc66dbf9d2a9fcce954b0f88e329",
-                    "description": "Web Search "
+                    "sha": "feaceffbb8c51c8f124a027de4d0b1accb691517",
+                    "description": "Historical Background Information Retrieval (mid-1990s - 2000s)"
                 },
                 {
                     "page": 72,
-                    "sha": "ca4dd3b59991259faf24de274177d8817c0520c0",
+                    "sha": "e627b193da1a503de1c0bcb5b52af1fe3ed8c84d",
+                    "description": "Web Search "
+                },
+                {
+                    "page": 73,
+                    "sha": "d232b9b8a1f474c250350a5fc1612b043579f8ed",
+                    "description": "Web Search "
+                },
+                {
+                    "page": 74,
+                    "sha": "6bf539858c12a9b79f043107f126d02ccf4d392c",
+                    "description": "Web Search "
+                },
+                {
+                    "page": 75,
+                    "sha": "d58153d0e887f1d8de21e8046a9dd2120ef37299",
                     "description": "Web Search "
                 }
             ]
