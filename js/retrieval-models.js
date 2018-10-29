@@ -1,8 +1,5 @@
 /* DATE. July 14th, 2012 */
 
-$(document).ready(function() {
-    onReady();
-});
 
 function ensureFunctioning(path) {
   $(document).ready(function() {

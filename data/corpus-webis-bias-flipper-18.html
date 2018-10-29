@@ -38,7 +38,7 @@ description: Overview of corpora that are used by the Webis research group
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Webis-Bias-Flipper-18</h1>
+        <h1>Webis Bias Flipper 18</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -56,7 +56,7 @@ description: Overview of corpora that are used by the Webis research group
         <h2 id="synopsis">Synopsis</h2>
 
         <p>
-            The Webis Clickbait Corpus 2016 (Webis-Clickbait-16) comprises 2992 Twitter tweets sampled from top 20 news publishers as per retweets in 2014. The tweets have been manually annotated by three independent annotators with regard to whether they can be considered clickbait. A total of 767 tweets are considered clickbait by the majority of annotators. The majority vote of reviewers can be used as a ground truth to build clickbait detection technology. This corpus is the first of its kind and gives rise to the development of technology to tackle clickbait.
+            The Webis Bias Flipper 2018 (Webis-Bias-Flipper-2018) comprises x events from allsides.com as of June 1st, 2012 till February 10, 2018. For each event, the title, the summary, all news portals belonging to the event, and the links to the news portals with respective bias were recorded. After that, we crawled the news portals with the given links to retrieve their headlines and the content of all articles, because the content is not provided on allsides.com.For each event we collected the corresponding news articles. A total of y news articles are collected. 
         </p>
 	-->
 
@@ -71,52 +71,44 @@ description: Overview of corpora that are used by the Webis research group
                 <br />(255 MB, MD5 sum: 7ae5a128350eecbcbad182ade4f42585)
             </li>
         </ul>
-
-        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to refer to the corpus via [<a href="http://www.uni-weimar.de/medien/webis/publications/bibentries.php?bibkey=stein_2016b">bib</a>].
-        </p>
         -->
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to refer to the corpus via [<a href="https://webis.de/publications.html#filter:stein_2018u">bib</a>].
+        </p>
+
         <!--
         SECTION Research
-
+        -->
         <h2 id="research">Research</h2>
 
         <p>
-           Clickbait refers to a certain kind of web content advertisement that is designed to entice its readers into clicking an accompanying link. Typically, it is spread on social media in the form of short teaser messages that may read like the following examples:
-        </p>
-        <ul>
-            <li>A Man Falls Down And Cries For Help Twice. The Second Time, My Jaw Drops</li>
-            <li>9 Out Of 10 Americans Are Completely Wrong About This Mind-Blowing Fact</li>
-            <li>Here’s What Actually Reduces Gun Violence</li>
-        </ul>
-        <p>
-            When reading such and similar messages, many get the distinct impression that something is odd about them; something unnamed is referred to, some emotional reaction is promised, some lack of knowledge is ascribed, some authority is claimed. Content publishers of all kinds discovered clickbait as an effective tool to draw attention to their websites. The level of attention captured by a website determines the prize of displaying ads there, whereas attention is measured in terms of unique page impressions, usually caused by clicking on a link that points to a given page (often abbreviated as “clicks”). Therefore, a clickbait’s target link alongside its teaser message usually redirects to the sender’s website if the reader is afar, or else to another page on the same site. The content found at the linked page often encourages the reader to share it, suggesting clickbait for a default message and thus spreading it virally. Clickbait on social media has been on the rise in recent years, and even some news publishers have adopted this technique. These developments have caused general concern among many outspoken bloggers, since clickbait threatens to clog up social media channels, and since it violates journalistic codes of ethics.
+	   Our research studies the task of “flipping” the bias of news articles: Given an article with a political bias (left or right), generate an article with the same topic but opposite bias. As a first step, we analyze the corpus and discuss intrinsic characteristics of bias. They point to the main challenges of bias flipping, which in turn lead to a specific setting in the generation process. The paper in hand narrows down the general bias flipping task to focus on bias flipping
+for news article headlines. A manual annotation of headlines from each side reveals that they are self-informative in general and often convey bias. We apply an autoen coder incorporating information from an article’s content to learn how to automatically flip the bias.
         </p>
 
         <p>For more information on the construction of the dataset see the publication below.</p>
-        -->
+
 
         <!--
         SECTION People
-
+        -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#chen" title="Wei-Fan Chen">Wei-Fan Chen</a></li>
             <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
-            <li><a href="http://www.uni-weimar.de/medien/webis/people/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
         </ul>
-        <p>Students: Sebastian Köpsel.</p>
-        -->
+        <p>Students: Patrick Saad.</p>
+
 	<!--
 	SECTION Publications
-
+	-->
 	<h2 id="publications">Publications</h2>
         <div id="publications-list">
         </div>
-	-->
+
         </div>
 </main>
 
 <script src="https://webis.de/js/bibentry.js"></script>
 <script>
-//includeBibentries(document.getElementById("publications-list"), "projects:clickbait");
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-bias-flipper-18");
 </script>
