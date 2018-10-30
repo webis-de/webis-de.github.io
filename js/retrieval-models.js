@@ -1,26 +1,23 @@
-/* DATE. July 14th, 2012 */
+/* DATE. October 30th, 2018 */
 
+function showPopup(fragment) {
+  const oldPopups = document.querySelectorAll('#popupContent .popup');
+  for (var i = 0; i < oldPopups.length; ++i) {
+    oldPopups[i].setAttribute('style','display:none;opacity:0');
+  }
 
-function ensureFunctioning(path) {
-  $(document).ready(function() {
-    onReady();
-  });
+  const newPopup = document.querySelector(fragment);
+  newPopup.setAttribute('style','display:block;opacity:0');
+  setTimeout(function() {
+    newPopup.setAttribute('style','display:block;opacity:1');
+  }, 100);
 }
 
-function onReady() {
-    $('#popupContent div.popup').appendTo('#rightColumn');
+const map = document.querySelector('#retrieval-models-map');
+map.addEventListener('click', function(event) {
+  event.preventDefault();
+  const id = event.target.getAttribute('href');
+  showPopup(id);
+});
 
-    showPopup('#boolean-box');
-
-    $('#retrieval-models-map').delegate('area', 'click', function() {
-        showPopup($(this).attr('href'));
-
-        return false;
-    });
-}
-
-function showPopup(id){
-  $('#rightColumn div.popup').fadeOut("slow");
-  var boxid = id;
-  $(boxid).fadeIn();
-}
+showPopup("#boolean-box");

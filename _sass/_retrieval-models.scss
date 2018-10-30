@@ -1,3 +1,11 @@
+#popupContent .popup {
+  transition: opacity 0.9s;
+  display: none;
+}
+
+#popupContent .popup:target {
+  display: block;
+}
 
 #webis-retrievalmodels #webis-retrievalmodels-text {
   margin-bottom: 2em;
