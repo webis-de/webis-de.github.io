@@ -67,19 +67,6 @@ next time UIkit is updated. Instead, if you want to modify the value of a layout
 variable, look for its name in `_sass/uikit/components` and redefine it in
 `_sass/_variables.scss`.
 
-## Update Publications
-To update the publications page, change into the `_maintenance` folder and
-run
-
-    ./bib2html.sh
-
-Then add, commit, and push the changed files. If you get an error message
-that the `php` command could not be found, install it via
-
-    sudo apt install php
-
-and run the script again.
-
 ## Update Third-party Dependencies
 Third-party dependencies (UIkit, jQuery, etc.) are managed via NPM.
 Unless you want to update those or need to add new dependencies, you don't
