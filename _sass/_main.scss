@@ -80,7 +80,8 @@ html {
     border-right: 0;
     font-size: 1rem;
 
-    &:after /*, &:before */ {
+    &:after /*, &:before */
+    {
         content: " ";
         display: block;
         height: 0;
@@ -148,7 +149,6 @@ a:target {
     height: 42px;
     padding-top: .35em;
 }
-
 
 .search-engines {
     h5 {
