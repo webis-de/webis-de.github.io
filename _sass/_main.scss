@@ -1,5 +1,14 @@
 // Main style definitions
 
+// Fix for jumpy scroll position (see https://github.com/uikit/uikit/issues/1379)
+body {
+    overflow: hidden;
+}
+
+html {
+    overflow-y: auto;
+}
+
 .global-nav {
     border-bottom: 1px solid lighten($global-secondary-background, 25);
 
