@@ -80,7 +80,8 @@ html {
     border-right: 0;
     font-size: 1rem;
 
-    &:after /*, &:before */ {
+    &:after /*, &:before */
+    {
         content: " ";
         display: block;
         height: 0;
@@ -109,15 +110,7 @@ html {
     padding-left: 2 * $padding-small-padding;
 }
 
-.uk-navbar-nav > li > a {
-    font-size: 1.02rem;
-}
-
 .uk-offcanvas-bar .uk-nav-primary > li {
-    & > a {
-        font-size: 1.4rem;
-    }
-
     .uk-nav-sub li {
         font-size: 1.1rem;
     }
@@ -148,7 +141,6 @@ a:target {
     height: 42px;
     padding-top: .35em;
 }
-
 
 .search-engines {
     h5 {
