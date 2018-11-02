@@ -110,15 +110,7 @@ html {
     padding-left: 2 * $padding-small-padding;
 }
 
-.uk-navbar-nav > li > a {
-    font-size: 1.02rem;
-}
-
 .uk-offcanvas-bar .uk-nav-primary > li {
-    & > a {
-        font-size: 1.4rem;
-    }
-
     .uk-nav-sub li {
         font-size: 1.1rem;
     }
