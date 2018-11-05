@@ -10,6 +10,5 @@ run
   npm run build
 
 copy
-  app.*.js  -> browser.js
-  slidehub.*.css -> browser.css
-rename in index.html accordingly
+  app.*.js  -> /js/browser.js
+  slidehub.*.css -> /css/browser.css
