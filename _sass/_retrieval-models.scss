@@ -1,117 +1,22 @@
-#popupContent .popup {
-    transition: opacity 0.9s;
+.popup:not(.popup-active) {
     display: none;
 }
-
-#popupContent .popup:target {
-    display: block;
+img[usemap] {
+  max-width: initial;
 }
 
-#webis-retrievalmodels #webis-retrievalmodels-text {
-    margin-bottom: 2em;
-}
+.inline-list {
+  padding-left: 0;
 
-#webis-retrieval-models #mapWrapper {
-    margin-top: 2em;
-    /* position: absolute; */
-    /* left: 0px; */
-    /* width: 1280px; */
-    /* height: 586px; */
-    height: 900px;
 }
-
-#webis-retrieval-models #leftColumn {
-    /* position: relative; */
-    /*float: left;*/
-    width: 750px;
-    height: 435px;
-    /* display: inline; */
-    border: 1px dotted gray;
+.inline-list li {
+  display: inline;
+  margin-right: 5px;
 }
-
-#webis-retrieval-models #leftColumn img {
-    border: 0;
+.inline-item-bullet::before {
+  content: "[";
 }
-
-#webis-retrieval-models #rightColumn {
-    color: #333;
-    width: 405px;
-    height: 435px;
-    float: left;
-    border: 1px dotted gray;
-    margin-top: 1em;
-    /* margin-left: 8px; */
-}
-
-#webis-retrieval-models #rightColumn a.bullet {
-    display: none;
-    /* position: absolute; */
-    display: block;
-    z-index: 2;
-}
-
-#webis-retrieval-models #rightColumn a.bullet:hover {
-    cursor: pointer;
-    text-decoration: none;
-}
-
-#webis-retrieval-models #rightColumn div.popup {
-    display: none;
-}
-
-#webis-retrieval-models #rightColumn div.popup h3 {
-    position: absolute;
-    display: block;
-    padding: 0 13px 8px 13px;
-    font-size: 17px;
-    width: 378px;
-    border-bottom: 1px dotted gray;
-}
-
-#webis-retrieval-models #rightColumn div.popup.empiricalModel h3 {
-    color: rgb(4%, 27%, 60%);
-}
-
-#webis-retrieval-models #rightColumn div.popup.probabilisticModel h3 {
-    color: rgb(51%, 0%, 49%);
-}
-
-#webis-retrieval-models #rightColumn div.popup.languageModel h3 {
-    color: rgb(93%, 32%, 0%); /* upbtextorange */
-}
-
-#webis-retrieval-models #rightColumn div.popup div.popupContent {
-    /* position: absolute; */
-    position: relative;
-    top: 54px;
-    padding: 10px 15px;
-    overflow: auto;
-    overflow: visible;
-    font-family: helvetica;
-    font-size: 13px;
-    line-height: 18px;
-}
-
-#webis-retrieval-models #rightColumn div.popup div.popupContent p {
-    margin: 0 0;
-    /* width: 76%; */
-}
-
-#webis-retrieval-models #key {
-    color: #333;
-    margin-top: 1em;
-    height: 129px;
-    width: 393px;
-    position: relative;
-    float: left;
-    border: 1px dotted gray;
-    margin-left: 8px;
-    padding-left: 15px;
-}
-
-#webis-retrieval-models #key-table td {
-    height: 10px;
-    font-family: helvetica;
-    font-size: 11px;
-    line-height: 19px;
+.inline-item-bullet::after {
+  content: "]";
+  margin-right: 3px;
 }
