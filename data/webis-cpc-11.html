@@ -1,0 +1,175 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-CPC-11
+description: Overview of corpora that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-CPC-11",
+    "description":"The Webis Crowd Paraphrase Corpus 2011 (Webis-CPC-11) contains 7,859 candidate paraphrases obtained from Mechanical Turk crowdsourcing. The corpus is made up of 4,067 accepted paraphrases, 3,792 rejected non-paraphrases, and the original texts. These samples have formed part of PAN 2010 international plagiarism detection competition, but were not previously available separate to rest of the competition data.",
+    "text":"The original samples were extracted from Project Gutenberg, and range from 28 to 954 words in length.",
+    "url":"https://webis.de/data/webis-cpc-11.html",
+    "keywords":[
+        "paraphrases", 
+        "crowdsourcing", 
+        "crowd paraphrase corpus", 
+        "2011"
+    ], 
+    "datePublished":"2011",
+    "image":[
+         "https://webis.de/data/img/webis-cpc-11-example-paraphrase.png",
+         "https://webis.de/data/img/webis-cpc-11-statistics-and-demographics.png",
+         "https://webis.de/data/img/webis-cpc-11-sample-lengths.png"
+    ],
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#burrows",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Burrows, Steven"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#potthast",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.uni-weimar.de/medien/webis/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"TXT",
+            "contentUrl":"http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-cpc-11/corpus-webis-cpc-11.zip"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-CPC-11</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The Webis Crowd Paraphrase Corpus 2011 (Webis-CPC-11) contains 7,859 candidate paraphrases obtained from Mechanical Turk crowdsourcing. The corpus is made up of 4,067 accepted paraphrases, 3,792 rejected non-paraphrases, and the original texts. These samples have formed part of <a href="en/media/chairs/webis/corpora/corpus-pan-pc-10">PAN 2010</a> international plagiarism detection competition, but were not previously available separate to rest of the competition data.</p>
+
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>We provide the dataset as a single folder in a Zip archive. Each paraphrase is represented by three files, containing the original text (e.g.: "1-original.txt"), the paraphrase text (e.g.: "1-paraphrase.txt"), and a file containing metadata (e.g.: "1-metadata.txt"), with information about the task identifier, task author identifier, time taken, and whether the paraphrase was accepted or rejected.</p>
+
+        <p>To download the corpus use the following link:</p>
+
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/corpora/corpus-webis-cpc-11/corpus-webis-cpc-11.zip">corpus-webis-cpc-11.zip</a>
+            <br />(18.6 MB, MD5 sum: c772ea22769389d78aebe525b85c2359)</li>
+        </ul>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>The original samples were extracted from <a href="http://www.gutenberg.org/">Project Gutenberg</a>, and range from 28 to 954 words in length. The example below demonstrates one of the cases.</p>
+
+        <p>Sample original text:</p>
+
+        <ul>
+            <li>"I dipped into these pages, and as I read for the first time some of the odes of The Unknown Eros, I seemed to have made a great discovery: here was a whole glittering and peaceful tract of poetry which was like a new world to me."</li>
+        </ul>
+
+        <p>Sample paraphrased text:</p>
+
+        <ul>
+            <li>"I pored through these pages, and as I perused the lyrics of The Unknown Eros that I had never read before, I appeared to have found out something wonderful: there before me was an entire shining and calming extract of verses that were like a new universe to me."</li>
+            </ul>
+
+        <p>Sample metadata:</p>
+
+        <ul>
+            <li>HITId: 10ZS3NUGQA9S3TFNR35JUEVE5BZVJF <br />
+WorkerId: A1YBZ0T0FK7IZO <br />
+WorkTimeInSeconds: 345 <br />
+Paraphrase: Yes</li>
+        </ul>
+
+        <p>Here's a longer paraphrase example:</p>
+
+        <p><img src="img/webis-cpc-11-example-paraphrase.png" alt="Long paraphrase example." /></p>
+
+        <p>Here's the task statistics and worker demographics. Note that we accepted all nationalities:</p>
+
+        <p><img src="img/webis-cpc-11-statistics-and-demographics.png" alt="Task statistics and worker demographics." /></p>
+
+        <p>Word length statistics of the corpus, plus separate statistics for the accepted and rejected paraphrases respectively. Each bar represents a grouping of 20 word lengths (0-19, 20-39, etc):</p>
+
+        <p><img src="img/webis-cpc-11-sample-lengths.png" alt="Word length statistics." /></p>
+
+        <p>For more information on the construction of the dataset see the publication below.</p>
+
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#burrows" title="Steven Burrows">Steven Burrows</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="http://www.uni-weimar.de/medien/webis/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+        <p>Students: Andreas Eiselt.</p>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-cpc-11");
+</script>
