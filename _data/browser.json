@@ -18062,7 +18062,7 @@
             "unit-en-ml-introduction",
             "unit-en-regression",
             "unit-en-concept-learning",
-            "unit-en-performance-measures",
+            "unit-en-ml-performance-measures",
             "unit-en-decision-trees-basics",
             "unit-en-decision-trees-impurity",
             "unit-en-decision-trees-algorithms",
@@ -18296,488 +18296,488 @@
             ]
         },
         "unit-en-regression": {
-            "sha": "27fb78f0c81aca6c36474ea38961091b50af7ea0",
+            "sha": "638521543c35264ad23b9f268b347f419d95581d",
             "numpages": 44,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "1a1d7083b529028228261d206677f579926797aa",
+                    "sha": "e8a7b76b61f68cc901a2dbfcb36f18071a26c24b",
                     "description": "Chapter ML:II II. Machine Learning Basics"
                 },
                 {
                     "page": 2,
-                    "sha": "2a66ca2a8e2b05183438b4ced4b2fbe982e78a97",
+                    "sha": "68babcc4795c63910d678c4ec8c50b99a2a93eb6",
                     "description": "Regression Classification versus Regression"
                 },
                 {
                     "page": 3,
-                    "sha": "3af1c2079d372036d099f45bcd4d687ad816d919",
+                    "sha": "a69b73e4f2f1d636e74c7d81089771a93bc4f60e",
                     "description": "Regression Classification versus Regression"
                 },
                 {
                     "page": 4,
-                    "sha": "805e5f633fe13c375aa70d9cc883851db5e25fd4",
+                    "sha": "234190846f60a04f6ee3ffcaba7959f72396261e",
                     "description": "Regression The Linear Regression Model"
                 },
                 {
                     "page": 5,
-                    "sha": "5128ddaa9753dd5b6fb76a6d0527af493cbe8bd7",
+                    "sha": "1f58f54ad4502d5388116b960308b92a04760516",
                     "description": "Regression The Linear Regression Model"
                 },
                 {
                     "page": 6,
-                    "sha": "5b018e877fbe1839397a636cb2ffdef642728589",
+                    "sha": "007addc014d026e422053d6432201f3e2237a6e6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "9a0a346ad1085d476bad0950c0f841a73cfb7285",
+                    "sha": "7a59dd81ccc4a34383378fdd19782e6159da4d49",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 8,
-                    "sha": "71fba5a9522b49ef0034d796cda22d55907bffbb",
+                    "sha": "3ee853ba1867421dac4fbe79f4fe9850ca59a201",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 9,
-                    "sha": "44c5c3935e96c986783cc920ebbf338787bebe9d",
+                    "sha": "635063a222d74a23276898ff520bd12ab8239759",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 10,
-                    "sha": "fda8253b89f1bf189e3ff1fb75255c8748bfb4ac",
+                    "sha": "dccad0475d71e5d5cce69d3cfeea3248b18767cd",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 11,
-                    "sha": "6a19bc621ed67fc382cdf4a9d2700a4393f8a115",
+                    "sha": "ec3a88461b2ff3ea2657eb530e1a30fe9abccb97",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 12,
-                    "sha": "c5cbf5ecfb784efea714bfb61a0ae283bafa4cb6",
+                    "sha": "c641ee4ee5a1cec9db18ea32ca9147383d46042f",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 13,
-                    "sha": "1a8e95ce9261381b0bb091cfcd44914f8320ffcd",
+                    "sha": "320d8346b11bb2a02ffbc99083e9de9687a25cd3",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 14,
-                    "sha": "6dccfa8881cf3ad684d24fa202b28c34d8ec0180",
+                    "sha": "c44d8c905b9cd2518d864ffc4bd134672103e756",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 15,
-                    "sha": "08f9ce5adb8a965110780d9a2561b4395d4899c0",
+                    "sha": "855edcdeb0bf069d59d220f770415ba2486c700a",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 16,
-                    "sha": "6f6454cfa7f7db3d9d7af70e9b7b9dd2d289350c",
+                    "sha": "2ea0606acb2f8269e4ca530aa9bd9e81186be01e",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 17,
-                    "sha": "313fe96c10d1a6bec4cd2298c15f04b3b3db27c7",
+                    "sha": "d513743b13a590370be726459b39d3598152d67a",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 18,
-                    "sha": "e5027af66e3adf1096fa70c617d2db9a4d737714",
+                    "sha": "6e2bef92351bec147c62e15422cfea426cc3465d",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 19,
-                    "sha": "44802209f5f52da9d7e705e3a55ba5a9de919888",
+                    "sha": "673a6248746917e929dd25871cdb184c27f72c81",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 20,
-                    "sha": "a0d679aa488418c7c01912a3ec9ba174d3c9ae90",
+                    "sha": "5f9c2ef5aa91062b3f39333e5c6d75d52cd022aa",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "64eeddbc037be71beb219cbe93f6bf0962010432",
+                    "sha": "6447c16f960d98d6462bf6c6702bd62e5b083d2c",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 22,
-                    "sha": "ad575d249dd68fae8444f24b4decb4ab8f264c64",
+                    "sha": "59e453e2fa4d986bf66f2f075e6be1fb519dc509",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 23,
-                    "sha": "ebf9dbddbc5b4d65f0168a3e0fb92a940305f474",
+                    "sha": "de44ac2f5cdeb7db99b3c11cb6432b4f76640372",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 24,
-                    "sha": "7f2b7a56735e9d85379a7d58c1e09d621ec11872",
+                    "sha": "00635fe9774fd48457d6ce0bfd64fed3dedb7d30",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 25,
-                    "sha": "b1f720d3e1958948f04b8fcf823d01443cac6345",
+                    "sha": "61e97d329a25997ab5b0a1e905b72cd2f636a026",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 26,
-                    "sha": "9848cc78229684eae47a1247ae2c2fc9fd61e7e5",
+                    "sha": "187af478f99d2fc82773ad4dad2792a290a85131",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 27,
-                    "sha": "a628d5c626e8b84dcc4cd394c8eaf5a858883c87",
+                    "sha": "cce0a7ad24d91c18030648b7cfcfb803bab1d5a3",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 28,
-                    "sha": "0626ad80a30fdf1aac2ad700f628c151c5a7b147",
+                    "sha": "65cbcfbc3d0ae3d2edee938b260997e7ceb0e2fd",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 29,
-                    "sha": "e312ea27b7f6a15c7c16a1cab3eda866b30f1cc0",
+                    "sha": "52282d6c84d2a849605876d602e3aa9fd7037945",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 30,
-                    "sha": "d05ae24735990c2abecb7eafac57d97ec39f6263",
+                    "sha": "c94fce22126e9721271ce7a52e9c3fee671ea001",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 31,
-                    "sha": "43a900f1f897587b30b2510d45abfe7af96182a6",
+                    "sha": "9b9523d9afe964704ee21c3b84103834ab14579c",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 32,
-                    "sha": "74c5209ef120387c6db48d23ed4229a8fd97851d",
+                    "sha": "5e5237bb232e04456db7cce0c405260fe382779f",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 33,
-                    "sha": "74aead1c448b4bff17698e661fe36d3ef358826c",
+                    "sha": "b6bcae60f19a5de4867114bb4f08428ba9e26c7d",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 34,
-                    "sha": "5e6f1bf8f24de6d6749cae5d958fddf320180581",
+                    "sha": "c14a946a4ec553f6f213ca9cac15d486871e7ab5",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 35,
-                    "sha": "50079b6f8286d41a77e0948635e7d258d6a4dd8f",
+                    "sha": "36707a06d480c5aec3a19d1b00e4f8801136174b",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 36,
-                    "sha": "ee2a71c88872365c0786628160704c4df202d296",
+                    "sha": "2a7a5b412df7dc574c92f54609852e609b161f71",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 37,
-                    "sha": "b01d382c0c22b596e3e53191bff648eb488fbdce",
+                    "sha": "12f932d500fb0cc184d8488c86c753bd76ab118d",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 38,
-                    "sha": "13016e363dc0c6fea6e64f99ff05adf8e1c8acf5",
+                    "sha": "c45071e0a2b3f91805f93d0331b11c5381e80ccf",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 39,
-                    "sha": "b616b1f75bb9d70fea025f1132e8510fa62485e2",
+                    "sha": "2e14f170a5d637cf90248f22520ca13e1df21bcc",
                     "description": "Regression The Linear Model Function: Properties of the Solution"
                 },
                 {
                     "page": 40,
-                    "sha": "2b4a75d4dc9d0b70015979171c220977ecd7f69f",
+                    "sha": "d7d25c10d7fda87b8c2d62af665dbb441485853e",
                     "description": "Regression The Linear Model Function: Properties of the Solution"
                 },
                 {
                     "page": 41,
-                    "sha": "fd575996a99c95807228ea520839983ce22233e7",
+                    "sha": "a2082dcd754255d5bf2f907d8e6741da865f730d",
                     "description": "Regression "
                 },
                 {
                     "page": 42,
-                    "sha": "79f7886a5ecdea80721c2830aa857cb48d01da00",
+                    "sha": "491cac5af909b1ca733e1dbaa64a92d4019bfb18",
                     "description": "Regression n"
                 },
                 {
                     "page": 43,
-                    "sha": "e10ba5f0e14480145437d923121b2c6132b47211",
+                    "sha": "c3f6f531f60a87f0c8932c28416ef1d85172a47d",
                     "description": "Regression n"
                 },
                 {
                     "page": 44,
-                    "sha": "f488874e6dddcfcc255e6c18211a393e6c582c4e",
+                    "sha": "aed9013d4c7f364b1c0dd10663f752a8a70abcac",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-concept-learning": {
-            "sha": "8c390676f8ef346845b1417650ea8b5d5ef169ab",
+            "sha": "c2e5a2322e18a4dcea386e794a4c806ebb32f581",
             "numpages": 51,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "1f9d69dde547d4d053154ffbbee232075feba00f",
+                    "sha": "b9d94912a46d09b3bc58193897f2fc2bcdb6085d",
                     "description": "Chapter ML:II "
                 },
                 {
                     "page": 2,
-                    "sha": "f3e75709ca41e64d19f325813bae5c023d2f1f4f",
+                    "sha": "5cd17ebded8857c6840b580e32c79acc28d644ca",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 3,
-                    "sha": "ad010b76689e07ecbcbe29f8cebd4f49721733cf",
+                    "sha": "9b7293cb0a8feb7595de809e4b1c5b5c7d196cfe",
                     "description": "Remarks:"
                 },
                 {
                     "page": 4,
-                    "sha": "aa442d196728dcb0c9adf2ac1df5269a6e13bfd7",
+                    "sha": "60d8cdfc885dc3858c904a342c5f40843762209d",
                     "description": "Concept Learning: Search in Hypothesis Space Objects"
                 },
                 {
                     "page": 5,
-                    "sha": "4f2c3d48f58782a28042054f7460b91b35f73d1b",
+                    "sha": "70cca35140f9720b0ece9fa85fe2dba02c7d5dd2",
                     "description": "Concept Learning: Search in Hypothesis Space Objects"
                 },
                 {
                     "page": 6,
-                    "sha": "5f9d3eabd08c09d0c0098776eb1884d49d3cfa8b",
+                    "sha": "c8b40633e5a51ec6a08e4ed9d205369856097c35",
                     "description": "Concept Learning: Search in Hypothesis Space Usually, an example set D, D = {(x1, c(x1)), . . . , (xn, c(xn))}, contains positive"
                 },
                 {
                     "page": 7,
-                    "sha": "112bd0135ce7a83cf47310058e69f8ac16a3ff2f",
+                    "sha": "dbf6d6cfc7a6fa71201a7706e08cd63c1fc78713",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "a28ceec09b3acc6f99830e14ee2c345427a4f606",
+                    "sha": "84fdb9258f2cfd03418da036245c08b96a10dcdb",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 9,
-                    "sha": "b8d8cd57c28ad2f8d813e4df476cc6c8298c2ac2",
+                    "sha": "4c692f14cbc5e54e0457d1905aafc8ec23c97a04",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 10,
-                    "sha": "d210c98cbd23c476559cde6bcf83457b2100b531",
+                    "sha": "708745e0882ae2e56de6a0f923a49a6b84071884",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 11,
-                    "sha": "d34c9f5f1683ec02ac04145ca597c1f130167c7d",
+                    "sha": "b2e54e58a7189705857042af7a8cc68f29734a88",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 12,
-                    "sha": "2838669a1e97f8aabb3f3d96219b0fbc161301d2",
+                    "sha": "133f213241cabf26215e6125573e8e1eca30f3e5",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 13,
-                    "sha": "abb1749f1a5f0688cec6b6c13e8b93e436a47d50",
+                    "sha": "b571de164bf6a75d99ee8a888b54756206fe9376",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "26f21048f6ba2a8527271cd42fdddf220adfe178",
+                    "sha": "aec71a305e2b19e9b6e02f12b3627138bb28eb8e",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 15,
-                    "sha": "a9f9d5adc6cacc22f5c833ad90449443ec9b7b9c",
+                    "sha": "8984aca413c66870e62273837afc49f3521b4ee2",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 16,
-                    "sha": "0faffc846d7e07952255e7750a6d1ede10afa0f9",
+                    "sha": "820ca412684ef6793d906dfa7d7da93b9c55ac04",
                     "description": "Concept Learning: Search in Hypothesis Space Inductive Learning Hypothesis"
                 },
                 {
                     "page": 17,
-                    "sha": "6384083dd7e00a55bee1468867a7faa2c142eb94",
+                    "sha": "6e09d1370e37ea61e3485d336e6f1db2de2a95cd",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 18,
-                    "sha": "8c179b907fc687a8c68cd187d5ce381a004ba537",
+                    "sha": "fc0658e0e92fdecbb58711e944b0318beccbf181",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "c5c6bef55bf7919a9dbcc9b5a03772582c6893c3",
+                    "sha": "2f667b2e70d6e077fc3028fed11238e0ef37ddcd",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 20,
-                    "sha": "ddade58f76ad49866bf8a03e25e943b62acfaf51",
+                    "sha": "3cb10a4abeeabfd01779ab59720245e23ebe8bbf",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 21,
-                    "sha": "f9738c56d9536c0af597bb3d51fbefb4af88504a",
+                    "sha": "27a1623f2a4843d1294b9daf5a2419552ffe1ba5",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 22,
-                    "sha": "6253a54177db830a83acfb040ed9a3e0c0d376cb",
+                    "sha": "d740072e6248cf7770184c9f3e83322316586242",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 23,
-                    "sha": "73bf8fc6d47fb6ebb5bbc7595a091eddeef132c4",
+                    "sha": "8951e28f7befd3acafe70c619caa277726bb2a3b",
                     "description": "Concept Learning: Search in Hypothesis Space Discussion of the Find-S Algorithm"
                 },
                 {
                     "page": 24,
-                    "sha": "6874ea6b03ff1b5ae2e5e29bd3510b3feeb9eaf5",
+                    "sha": "bd962da8a1bdfb7a33ce57656f836d99d1db8b44",
                     "description": "Concept Learning: Search in Version Space Definition 5 (Version Space)"
                 },
                 {
                     "page": 25,
-                    "sha": "7e372b3cfd7fbb48241e5860e13bc2b2c82e8dde",
+                    "sha": "8f5d9c6c2dcf352d85fc26597c41279b452f3c53",
                     "description": "Concept Learning: Search in Version Space Definition 5 (Version Space)"
                 },
                 {
                     "page": 26,
-                    "sha": "292f04d7f900bb04de60b77733d85314fc73b85e",
+                    "sha": "8b5b5e0751a566060f7f4c1f92de04537d93fac4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "dfad714ed06275a28fe350885aabbbcd8e6f9657",
+                    "sha": "d6e3b67546d612e38f6f53afef200239ceed2571",
                     "description": "Concept Learning: Search in Version Space Definition 6 (Boundary Sets of a Version Space)"
                 },
                 {
                     "page": 28,
-                    "sha": "1521e115bea132e03132e324f59562c38f2391fb",
+                    "sha": "54acc42047c1620594b43b3d915a126e570545fb",
                     "description": "Concept Learning: Search in Version Space Definition 6 (Boundary Sets of a Version Space)"
                 },
                 {
                     "page": 29,
-                    "sha": "a494aecc4275808b028c428409fa2b37e792c003",
+                    "sha": "32b9fa3d09746b1ef8b9b95ab85c56025dfe2ae0",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm"
                 },
                 {
                     "page": 30,
-                    "sha": "ebd7c514b817222c7f8e0745f735062d6a47383c",
+                    "sha": "146a264e3a6b55de2843bd4f844ae2c4c6278740",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm"
                 },
                 {
                     "page": 31,
-                    "sha": "3bb2f32b58b7812fdee0405c5d250d7ab1540517",
+                    "sha": "10709b33b2ac1aba58708184b2c0cd6cf00eaffa",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "40a3c421fc719897d867774c9d27276e3053de96",
+                    "sha": "dabc801ea34995d226ed6de750f60aae7b27e342",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (pseudo code)"
                 },
                 {
                     "page": 33,
-                    "sha": "22ad4dd4753f5e1bec2cd28af04417300b84ce02",
+                    "sha": "d9fd8593e9d44f3ceaea0398339e1048ff502afa",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (pseudo code)"
                 },
                 {
                     "page": 34,
-                    "sha": "5f43919f6fbae41b43719ce84d7b6a0278158101",
+                    "sha": "5e7e646b1694f0f1d4b4f353b2121bb6f4c7167b",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 35,
-                    "sha": "5c69a371caf98e4f2d8e03749d292cc7bc879121",
+                    "sha": "e577cc14a589d02172aaed808f4346748d3dda6c",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 36,
-                    "sha": "648825eca87772153568e57028ebbc2179318b8f",
+                    "sha": "6f944513d4a92241648af0672ceaf08b556e1642",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 37,
-                    "sha": "3bb0e325fe000c5db444bc801e54fa7206b8d246",
+                    "sha": "96562699c8f4eee5843eb04ad0aef419764b444a",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 38,
-                    "sha": "547638b76d255066a86f55b77f0c96a62fd39a20",
+                    "sha": "0a6819bbc2649d9477c522437614a5c053e3ede5",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 39,
-                    "sha": "e3b08222151caf54bcef34fd88a1a05130227bcd",
+                    "sha": "795fa75895c8b542d1a6c124bf73bcacd7cc5624",
                     "description": "Concept Learning: Search in Version Space Discussion of the Candidate Elimination Algorithm"
                 },
                 {
                     "page": 40,
-                    "sha": "f4f67b605b296d29f0a2c73a9f5135fa2812b856",
+                    "sha": "e933c31d5076c3c2d0164d3550a4291aad69f8d9",
                     "description": "Concept Learning: Search in Version Space Question 1: Selecting Examples from D"
                 },
                 {
                     "page": 41,
-                    "sha": "92065c465d35849907a8ba6c586eac393dad8b66",
+                    "sha": "f3aaa60f1d1d9e8719d0ad0c79d833f1fbe755f8",
                     "description": "Concept Learning: Search in Version Space Question 1: Selecting Examples from D"
                 },
                 {
                     "page": 42,
-                    "sha": "8c34b6254bb838e2c0193de5020fc0d1b9fc5ea4",
+                    "sha": "53e577b11747d6c4d4b5f0859b87e01d69a0f09c",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 43,
-                    "sha": "2eadabc1efcb6605caa28fac95ef22c4bd5e6c43",
+                    "sha": "92a2175fe368c929fba95b7726785b0639abce2d",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 44,
-                    "sha": "c8c87584f953e41817215b1155dc920d8dafeb81",
+                    "sha": "28fc489f916a6b171f25c8a445d0d75a391edcca",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 45,
-                    "sha": "29dd33ff450b4cd26b9ff1e385d2d8e8c36c5138",
+                    "sha": "ebfce49113b1d5abbc4926e98893c0969bb63942",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 46,
-                    "sha": "ae2fdc95f32cb8f9e566e049b1f9d2558a9bc444",
+                    "sha": "0511676bb56c40153c70c3f6cc57006a934fe02f",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 47,
-                    "sha": "0c9f7c5e5542eaa9155d10a580b94dfd8fc87e77",
+                    "sha": "1ff4ecf94388129e7dd889615922ee2d5d955a2d",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 48,
-                    "sha": "11484cb40c5be74d10386f5c9a69e757b9396a29",
+                    "sha": "4e65cc1f9051c206f6acc872c9668c950d6829c7",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 49,
-                    "sha": "998186ed28021ac665176907640e2d9811993d1e",
+                    "sha": "ea141ab3194fd67e9c2616abced5a8223238cd78",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 50,
-                    "sha": "13e64fa3d7add418b348c7453e983b827611a57f",
+                    "sha": "1256d880a41a38981b85766e0af0063bd2c334d7",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 51,
-                    "sha": "dd8d91205de7c7c0e7653017759e5b997531c612",
+                    "sha": "51da13123bbd72a48b6c8bbf9dc18dc058089157",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 }
             ]
@@ -20314,6 +20314,132 @@
                     "page": 32,
                     "sha": "01b70cf4415fbe58efda689c5eacf59ac9c533ac",
                     "description": "Ensemble Classifier Literature"
+                }
+            ]
+        },
+        "unit-en-ml-performance-measures": {
+            "sha": "d084a62bfdbdbf31c9afe2921b6950389379581c",
+            "numpages": 24,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "55d7c4bb223ff8f2009d0e90484099535e785074",
+                    "description": "Chapter ML:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "e4bc0606396e3ff92359d179b2a5a8ac21dd7312",
+                    "description": "Measuring Performance True Misclassification Rate"
+                },
+                {
+                    "page": 3,
+                    "sha": "ca72180d471174b77615fd90cec7906fad720292",
+                    "description": "Measuring Performance True Misclassification Rate"
+                },
+                {
+                    "page": 4,
+                    "sha": "44aeb73f5878bb3fa8d427c9a4dd9c041574e948",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "4d1a3949324bdc62fec236f88033fa817bafbc83",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 6,
+                    "sha": "c4e218557d365e2065e8048a982dba1199c1ca0f",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 7,
+                    "sha": "a24c2bfe5138b8d0157ef054a3c34fb55a748847",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 8,
+                    "sha": "1d3b37d474e7c92eb5e2cec54321eb8c1f92773d",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 9,
+                    "sha": "75673d14643bb9f2b39e68827a637e1be6ee7f9a",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 10,
+                    "sha": "f28a9d27801fd52e6af419f59931f3782adf4ea0",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 11,
+                    "sha": "ade06b7d11c8c0081f880c04de770f8bd7ebf602",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 12,
+                    "sha": "a0e151fcee70f2656911cff68cc214e4757234d6",
+                    "description": "Measuring Performance Training Error"
+                },
+                {
+                    "page": 13,
+                    "sha": "45b369d64f5e45bef882a91b008a69b292a66fb8",
+                    "description": "Measuring Performance Training Error"
+                },
+                {
+                    "page": 14,
+                    "sha": "33181be24f67238f8bcf6a6edc08be75280d01cc",
+                    "description": "Measuring Performance 2-Fold Cross-Validation (Holdout Estimation)"
+                },
+                {
+                    "page": 15,
+                    "sha": "18afb8515dd0a135a535ce04c69b1e6191e0a07c",
+                    "description": "Measuring Performance 2-Fold Cross-Validation (Holdout Estimation)"
+                },
+                {
+                    "page": 16,
+                    "sha": "d07340e5c5e984cf31c07cf55e3c6f19c271b86a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 17,
+                    "sha": "88cd1566dafdde16d654d1adb11efe94e37a6bca",
+                    "description": "Measuring Performance k-Fold Cross-Validation"
+                },
+                {
+                    "page": 18,
+                    "sha": "61a25aa30742b55970e48e064b32bc17aa7747ea",
+                    "description": "Measuring Performance n-Fold Cross-Validation (Leave One Out)"
+                },
+                {
+                    "page": 19,
+                    "sha": "b64c20fb67a2cc4dc5f2306cae497f9d8b23b05c",
+                    "description": "Measuring Performance n-Fold Cross-Validation (Leave One Out)"
+                },
+                {
+                    "page": 20,
+                    "sha": "c234931f3bb46626e59356ae34f76bbc275ef94b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 21,
+                    "sha": "d510795125863f3d831e40881984c7b721df6167",
+                    "description": "Measuring Performance Bootstrapping"
+                },
+                {
+                    "page": 22,
+                    "sha": "c1712f64123be2cd38bb14eaf2a4ff536f0a088c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 23,
+                    "sha": "70252fb69b1525aa7be881e0f9672ed510843d55",
+                    "description": "Measuring Performance Misclassification Costs"
+                },
+                {
+                    "page": 24,
+                    "sha": "80fd42ebabaa79c01d7917c4eb0687031e00f2e0",
+                    "description": "Remarks:"
                 }
             ]
         }
