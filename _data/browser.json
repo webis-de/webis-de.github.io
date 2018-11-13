@@ -3959,414 +3959,684 @@
             ]
         },
         "unit-de-problem-solving": {
-            "sha": "c7421f2c9992db560861b96671edd880825cb6b7",
+            "sha": "93edd8e764126f1dfafa6b0c0e4e8b36e8b22e7b",
             "numpages": 22,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "e22fd7cf96448057c24b47f97459b897d07a05e8",
+                    "sha": "63c7433e574eccba343dc7eb0f51affbfd69fc64",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "026425bc868bb685e700972ea0259203173e2276",
+                    "sha": "e8fa70d939c52372ec5910688429483c230ebf66",
                     "description": "Probleml\u00f6sen "
                 },
                 {
                     "page": 3,
-                    "sha": "45002a58c5fa93e571e43523f2fcab3412097566",
+                    "sha": "0589f0d4eb448bf4e11ed499787cb05a0ab69b89",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 4,
-                    "sha": "f4bbc0c78e28528b4684842b38a54f27125d3b42",
+                    "sha": "46a8ccd8194cd963a0d175d6a40b0ea7d2e31d12",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 5,
-                    "sha": "6dddd4dc097448b83a18e45fb3eb8415347cadfb",
+                    "sha": "2c881b624d97ff5da60875eb4dc1e9f11f11d5a9",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 6,
-                    "sha": "1d33a58f99f2339cd311ecaa3de81977245eae58",
+                    "sha": "06914be0ec08da4ececa942c7e1a247e12e6698e",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 7,
-                    "sha": "9a29705c327454aa076134d541af50c913984f39",
+                    "sha": "926d2d558dc8fff13eeaaf54acb84c2d46ae7893",
                     "description": "Bemerkungen: (Fortsetzung)"
                 },
                 {
                     "page": 8,
-                    "sha": "355d919b667c67e2e13f1c3142a39c51c9baffca",
+                    "sha": "004e0db748412228e023a46ccaa0844c8298145d",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 9,
-                    "sha": "0f753889b68ffb95cb8d88d5e2503a52b275f2b6",
+                    "sha": "23e222fc2130ce0cd7dcd55beca651572a4b5518",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 10,
-                    "sha": "e897b8e187e35e9b32521190c9273eda6dbc1576",
+                    "sha": "8b7a80658d3fb3a5bc3bf0e82ab0b516c7b5fdb4",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 11,
-                    "sha": "547da5faeeb36c129f3875215381c2aae81183c7",
+                    "sha": "8911d106ef13fbab23ac4c7ece23e76542ce6fcc",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 12,
-                    "sha": "f4ddd19a7b392ee47bf7970e101f6c79448c1375",
+                    "sha": "ccd973f1174fb446bf6b2822bf9d7d584b99328f",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 13,
-                    "sha": "efa9b637525c86f6d71e95c7a70507732cdaccca",
+                    "sha": "8be05d4f9aa2f9c3889b3cc7761ab01fe6bd038d",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 14,
-                    "sha": "e4e95816ed9f350baa85fd16880cf7ac236d981a",
+                    "sha": "d67008751937b7305e79f940cdd4f5c6b5810a0b",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 15,
-                    "sha": "636751b9a81fb5772f709ee0683f68489eba6d7c",
+                    "sha": "b9b3b2e8c19b57c5039d403540b8060e5666322a",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 16,
-                    "sha": "019b17d462084f12c9e6da3e831b09f8354a1e23",
+                    "sha": "d70e9da5a5ed0bbdfec55b72d648a9f7a5b411b3",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 17,
-                    "sha": "586425525044369155a461602b9b16e8bee48b73",
+                    "sha": "f6c026b1cde9f6dba1838cc0214dc8b2bb523d3f",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 18,
-                    "sha": "af18736008417c63d738b91972ef56fb2c0841ee",
+                    "sha": "001ac83601d0fb1a8f434e5b96a923104f799a68",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 19,
-                    "sha": "77f7a128095a0f2459266df822ef50c395bc2066",
+                    "sha": "379d6453e47d4700ecab84f1c1c32a574c474b46",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 20,
-                    "sha": "e18948b7f6649c4f30a79f052aa904985244015c",
+                    "sha": "978352c17c7f13a9a8d70398982a32dceac5fe41",
                     "description": "Probleml\u00f6sen Maschinelles Lernen"
                 },
                 {
                     "page": 21,
-                    "sha": "ae5171e093acbf402099c8dc26ccfd81bc2d601f",
+                    "sha": "c5be6e0e316f6f7c269ec02b2a052051abbdd362",
                     "description": "Probleml\u00f6sen Maschinelles Lernen"
                 },
                 {
                     "page": 22,
-                    "sha": "7680079ebb8493dc7184a4acde40256f275f202e",
+                    "sha": "b4eeaaf6e168b6338445fb5f0da87dbf5f8401bf",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-algorithm-design": {
-            "sha": "02f928161c752c21bc850cb5bb85c3b446b0e453",
-            "numpages": 58,
+            "sha": "532a7b809a12b07566d7db85c92a51c2b254b7d6",
+            "numpages": 112,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "278bdaef983abe2acb84e8f69bafde3efe3c38b1",
+                    "sha": "0dd80be4205452f7a4a54c9512f888382eef52bd",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "c87d55b8142a33f11a8210b24390f12cac80697d",
+                    "sha": "732011fc2f138ac304df9ab20c06f1862b2a9460",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 3,
-                    "sha": "e59b813d75551657ece8811764cc372fea1cb6aa",
+                    "sha": "244a22b367780222b4b2ace2f8e8d6348de56472",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 4,
-                    "sha": "8a677566de0b4dd3eb0cca2ea87b639d9a071525",
+                    "sha": "e1479fb4d32118c2e713592ca7df62ae9021272c",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 5,
-                    "sha": "85301e6e1094b539bdd59bad3843e2b549a56566",
+                    "sha": "5953ccc6c03231763cf4c75d49d785d04a6e60db",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 6,
-                    "sha": "ead4b60166f6b9d72b9253a256989a79396a64b3",
+                    "sha": "7a6835542d6d247c2af050a0eb75d37edfaf31d1",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 7,
-                    "sha": "1f6de2df7fd940f00825960d7da71ed08e38012d",
+                    "sha": "5a6eeea0e798e2661272e7b45602baf983118443",
                     "description": "Bemerkungen: (frei nach [Sanders 2009])"
                 },
                 {
                     "page": 8,
-                    "sha": "b8813302b0a69990f579cbcfe47952694727e50f",
+                    "sha": "2248224ad17492e25bf7ccff1a68c6fba5002c3a",
                     "description": "Exkurs: Programmiersprachen 1950"
                 },
                 {
                     "page": 9,
-                    "sha": "8a267492e5ea4c5e79a63dda6a92b43f2d600815",
+                    "sha": "63109aa62dcf19b7c9b681ae821520aa8949a28d",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 10,
-                    "sha": "a423d124d1c00c49a7a37e2b1b675fb76609b492",
+                    "sha": "2d1305e68b0f28329069faa351dd864458e0ec35",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 11,
-                    "sha": "2e66cc4ad3f1b8f4d7d6586d0b94c2311c49f2d2",
+                    "sha": "9f1b587c1b07ee107c98d3b2104ebdc74a62f7fd",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 12,
-                    "sha": "589c555bc0d894cc36f0173f1d7c9898fa7bcfaa",
+                    "sha": "e611c87816e099445429cab8d4bcd6b775006ba9",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 13,
-                    "sha": "95dd4f69d53782f350f0461c2fcb2a70de2e7004",
+                    "sha": "a85ed70d25ea2af87cfe3f110f75e13e3eb5440f",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 14,
-                    "sha": "8d36d9f32639d0708c70681f58e3d15d976dfe46",
+                    "sha": "d3b85ec01df9a927b4367a5c55d5a582ed0cea2c",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 15,
-                    "sha": "7016463faa2a0856c562784e4831ab8260acd93a",
+                    "sha": "32fcf34905b759aa3ddfd55e9cebfaa8ae65f344",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 16,
-                    "sha": "66061f9951af7b5c16a7e74d54d0d4754953e2bf",
+                    "sha": "d62b2034300a9e358b474e983a0cbf3c8b71eda4",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 17,
-                    "sha": "8565618f39b143dca26fa4315bf252ca8ffa6113",
+                    "sha": "9ac0963b57c95d7424ed1bf87c2d8f5598ad52d5",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 18,
-                    "sha": "13c2802338a53507769d990807860defbdbd9de2",
+                    "sha": "054ee214aec6443c93a3293b71738afa8019e330",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 19,
-                    "sha": "4855a16dca55f220294fd524a1efed7586f4ce3c",
+                    "sha": "b1961b86b12b43ec31a7d1b62cc6be36577bf688",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 20,
-                    "sha": "8ace99d331955e6b65d0ebbe5d2d4bf0911460c1",
+                    "sha": "3df558333d276e428ed4f64b3e80744bc807fc93",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 21,
-                    "sha": "616d874b0226501949cbd8d2d03b06823b7fd37c",
+                    "sha": "3ff91be043bb64a5c53204bc05ef9658bfe2ea40",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 22,
-                    "sha": "69f0296bad06ebefe80a0226f4dc6d82d231d55e",
+                    "sha": "00dd21f96f51f5518cdc3f5ef1cf1b9d019e48ba",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 23,
-                    "sha": "fef0ecfab506c5aff3a23c545273e1723fc57310",
+                    "sha": "8c09c9bd0e8faa6e46ca026241d85fbf3468e612",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 24,
-                    "sha": "466e3a725d7539e647c8fcb8eec92774641a329a",
+                    "sha": "71254bcb45fcfb9f6bcbec850619fc0bdc3e2cf5",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 25,
-                    "sha": "faf206e77b6da0f0b131506118d7ddc45c98b2a8",
+                    "sha": "d4dca186e3e01006871cdae08e6355cc7b269dae",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 26,
-                    "sha": "96be542757e4064f581ee450fba4dae0e1e5ee06",
+                    "sha": "6206d478d13174812629be7224816bf9ca10840b",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 27,
-                    "sha": "7091d3331b1af3101fe9d2c62e88a59e02db73c8",
+                    "sha": "4612ba5cbf1a9831d525ae56367ceda82de9f0b0",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 28,
-                    "sha": "f93c4e4de2267b228cbe129a33af7d60ce3a8c95",
+                    "sha": "018d4e630f6d464b74e0a3ac2ac3848dc01f28d5",
                     "description": "Pseudocode Spezifikation und Signatur"
                 },
                 {
                     "page": 29,
-                    "sha": "7997c689c6b2bf2ff15173dc0f7608d0982ef770",
+                    "sha": "3f01f4408dcb49dae06c2205d730596d8505629a",
                     "description": "Pseudocode Spezifikation und Signatur"
                 },
                 {
                     "page": 30,
-                    "sha": "6d44f7fe6626455d865a81e204e10ecbb7b2bfc6",
+                    "sha": "169bdd7defa0e81baf03c279222214af199c31f5",
                     "description": "Pseudocode Grundlagen der Syntax"
                 },
                 {
                     "page": 31,
-                    "sha": "19e21bc8b0c5db03c14fcdc6c34d5ab1c9c61ae6",
+                    "sha": "f0260dbad98802117e04f163d6750acad8c71f00",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 32,
-                    "sha": "8bbac27cc7de0e1a2f77cadbb8ca2f49de78b1e9",
+                    "sha": "e405430258aae2f8c5fe90cdbd66e851697369fe",
                     "description": "Pseudocode Variablen"
                 },
                 {
                     "page": 33,
-                    "sha": "fb71951f287b961568adc995ff598282b1626dd5",
+                    "sha": "8384f1aa770a609be753cb436571dfe7472f2c04",
                     "description": "Pseudocode Variablen"
                 },
                 {
                     "page": 34,
-                    "sha": "bd9e07b5abd7c1b28e34ad370152d862b291a70f",
+                    "sha": "05477f9dc807e4c7d4679e5f1681eae7f2e811fc",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 35,
-                    "sha": "114597dc13519e184334478818c1fa61850aab40",
+                    "sha": "2151bbf9a41abf6b5ea7be80183cf6e95ef47f30",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 36,
-                    "sha": "fd4dfea797f76714e51e139ea0b46f41d00d26ab",
+                    "sha": "f58e8ce093d59e40b8975d61108986d53130d071",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 37,
-                    "sha": "9690e4f9a04007bdc8ae6989a0e415bd36adebc7",
+                    "sha": "538d8941c67445d3b5e38bb2977279aec6ecf49e",
                     "description": "Pseudocode Operatoren: \u00dcbersicht"
                 },
                 {
                     "page": 38,
-                    "sha": "98bd2366f2679d4587b4ddeb09992ffda5ec2c20",
+                    "sha": "4547111082e893f74577ce2aa62ac4aacf1a299a",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 39,
-                    "sha": "288c668901c4eb87a1f0549e3b88c91b5516ed73",
+                    "sha": "30f6fc4ea8317a360b372ce203b49123fd4134eb",
                     "description": "Pseudocode Datentypen: Primitive"
                 },
                 {
                     "page": 40,
-                    "sha": "a3015b94ebd7f555e1116f30430c76198858bcea",
+                    "sha": "0ef888b49253b7fefa38d1055eb1ac30435202d2",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 41,
-                    "sha": "38fe791cad733271e0786b8b65c9504d257e035e",
+                    "sha": "3af517b0d314e7592d75e6ccfce3e186ee7a824e",
                     "description": "Pseudocode Datentypen: Objekte"
                 },
                 {
                     "page": 42,
-                    "sha": "66c84f323655e06248b60bc2952d6d023cae4391",
+                    "sha": "e5201fd33e344454852ec070545d6644e9045d7a",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 43,
-                    "sha": "e0fb8a3bd30e0d4e3a80eea58acad61856370acc",
+                    "sha": "295d711d89f40820656da1066eaa6311bc0598f5",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 44,
-                    "sha": "652153f7a696c4375eea75445a8eb43e980a5705",
+                    "sha": "9d0df3bad60346bb394f713f408a234b933e8e44",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 45,
-                    "sha": "6801cd963561aea1e4e40d1faff5cafa458387f0",
+                    "sha": "8b0e0e675e56bd511ec4e3e335f46035a939b917",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 46,
-                    "sha": "ed93ee8ff59790013fb83709275a10af6edcf5b7",
+                    "sha": "bc34602f7f5d50fc0b7b319a3ddb12eace57b817",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 47,
-                    "sha": "befef5977226aadbb8e7ae18d63482cbe6762eea",
+                    "sha": "548f570175c8001c1fe157788f8ea706455e8b30",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 48,
-                    "sha": "c40d873ac326bdea30d965e0ecaea85316ed3134",
+                    "sha": "fd9964aa3b7fa0b7b7d49fec95b08df53b205a9d",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 49,
-                    "sha": "adf56fce242ef94cf87fb43612f315dd45416193",
+                    "sha": "bebdd82ea7a6889c92aba7d2dbf3be84f4e829b0",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 50,
-                    "sha": "c40ae6084ff65ccb56c6b07460935b4512c985af",
+                    "sha": "888642220cf2ebf7be77b5de44d9510f944d5977",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 51,
-                    "sha": "e9bf937645a12c46d15aa26c80bef834f6ba877c",
+                    "sha": "fcdd6ceb397fb8e5e917b275a941681f538cb62c",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 52,
-                    "sha": "bf3a25b6a44aad2643fe1520af60669b7bb2360f",
+                    "sha": "61207d0a38a9a61c426dc2ac03c612ea2454eab9",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 53,
-                    "sha": "0ad6835390fd7bd5b6d8916676c310a7b5c9d828",
+                    "sha": "1afab702028a9ebea9d533d46dcdd81c870156eb",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 54,
-                    "sha": "7117d6f0efb6623e43b85b354a290b6bde58169b",
+                    "sha": "089a8c3e87c5bbc79e04a0928220c32c3a3fdc6c",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 55,
-                    "sha": "09ca4be8071aac7093bce8e6039cbbaba8b6cd75",
+                    "sha": "9fa161a4bd6568ecfe05f08f1cf764df1d915fc5",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 56,
-                    "sha": "5d521fd5b14616dc06987ad9fcee00a167568e72",
+                    "sha": "053aa9ddb1cdfc764e58405831a97380ca66b635",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 57,
-                    "sha": "6fe011b436980492ce1c1c2859dc21478f500cf5",
+                    "sha": "2811b3222e176c4dba2b245be0ef4db5521150c0",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 58,
-                    "sha": "ffa264ff30bdc41e260ca166254d202e162a7a34",
+                    "sha": "6270be27d0f3cfae27cea672710b16ac655c80b1",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
+                },
+                {
+                    "page": 59,
+                    "sha": "9482f78c489039341d476a0a6c76958a1fb24c71",
+                    "description": "Rekursion Definition 4 (Rekursion, Iteration)"
+                },
+                {
+                    "page": 60,
+                    "sha": "7b0a16531f952cd39b828059e43b0fe3f0ca34d0",
+                    "description": "Rekursion Definition 4 (Rekursion, Iteration)"
+                },
+                {
+                    "page": 61,
+                    "sha": "e6e799741c9919ade3f6d1be7e4438a87f49c50c",
+                    "description": "Rekursion Definition 4 (Rekursion, Iteration)"
+                },
+                {
+                    "page": 62,
+                    "sha": "2c9121f552d35692fcda7ca3642ac7e4d915458a",
+                    "description": "Rekursion Definition 4 (Rekursion, Iteration)"
+                },
+                {
+                    "page": 63,
+                    "sha": "da12effcab63799761cd07d69d54ed3935f2a04b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 64,
+                    "sha": "ba39f8afdb4d05c79dd73d5f3872aad1378c64c1",
+                    "description": "Rekursion Rekursives Definieren"
+                },
+                {
+                    "page": 65,
+                    "sha": "5b591d01c11406aee13114ca50d36d335f0ebd17",
+                    "description": "Rekursion Rekursives Definieren"
+                },
+                {
+                    "page": 66,
+                    "sha": "099060db719594e9c8225268ea4ae7872d491a5b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 67,
+                    "sha": "53e78b8284782d3906fba7e2a1bf272bb0a3d120",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 68,
+                    "sha": "7381be079818b82561f0c0b3a8935b38a49dbb74",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 69,
+                    "sha": "110277e98fcb91e4db7116857eda304239e039e9",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 70,
+                    "sha": "c6a76a69a06fcb003cff9b1fe97b8905a3f155ba",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 71,
+                    "sha": "3284239ea4cf9ecc3ac5b82fdf8686ab100ef138",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 72,
+                    "sha": "79354d980e010b8c7c56e634e991dba004a8b3f1",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 73,
+                    "sha": "5acbe2a87bff9f610dc20adb92d7a2affc7dc5ed",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 74,
+                    "sha": "39ba9c2551e7c1d519efc9ed0d5c95a356b4513a",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 75,
+                    "sha": "20298dc6a031f8a910a19392386363acebeba5ab",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 76,
+                    "sha": "f1f8a1ecac1a7c7f2d10056f016b290269ec8c53",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 77,
+                    "sha": "20138272830e50742e10485dc2574dda1cdc47db",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 78,
+                    "sha": "128c541a64c6ab21f5ab25e5d9f9b81a127e9815",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 79,
+                    "sha": "ff9b707cfa78c0b36252d84774aafb0f2d44429b",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 80,
+                    "sha": "5ecb895515665d2ffaacc0af9f7f61b854c436a1",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 81,
+                    "sha": "fcd3c6bb3d1d10b488583328ef4014546467216d",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                },
+                {
+                    "page": 82,
+                    "sha": "049ae700edb53873e7b5ed79464aedeb6e31b751",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 83,
+                    "sha": "9a01efec97803b507d04b98deef9e4b75a1cfb13",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 84,
+                    "sha": "74e75f56e825833d48157d14018249310d5baff0",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 85,
+                    "sha": "a19d89458b66e17968bdc8a936bd274a9fe853d5",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 86,
+                    "sha": "784a5b81bab750368037172ed2e892b2ca8ea3e6",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 87,
+                    "sha": "d23abbf97307c742a3e5ebb3ad5bc27c5ea428be",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 88,
+                    "sha": "731667820e37f84e270d6cbbe65e12835ca66787",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 89,
+                    "sha": "2af475a42164adb78f30fc25a6665582d6661de5",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 90,
+                    "sha": "eca31041815ebe40ca54a72afd5de558bd347c14",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 91,
+                    "sha": "217f867a16636c9f240a3e89bacde0d23b0b8a4a",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 92,
+                    "sha": "021876d87119a9fc4cc7e8263ad4b737e0e3a63a",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 93,
+                    "sha": "9f73df780ebdc89eeb5b42b0428fcd190a279141",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 94,
+                    "sha": "2205f03f03de600940ddd35894261bad94949c7f",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 95,
+                    "sha": "ee6854020339ba2de7c7bfbe70e7f498f28945f0",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 96,
+                    "sha": "fa06c639d4b8ae2894666d2cc842d6df0d944b62",
+                    "description": "Rekursion Fibonacci-Folge"
+                },
+                {
+                    "page": 97,
+                    "sha": "4f47a95175d1b9931e3b069d88bb6d584ff879cb",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 98,
+                    "sha": "ce3ec94dafe9ebf82666af483e2a58f31813ce60",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 99,
+                    "sha": "8fadb5ac7e109e140340d307a1db921433017d22",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 100,
+                    "sha": "484a686b38c91227748f959324c797879e231b62",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 101,
+                    "sha": "d9e771eccc6747fee9a50bba476853bc7c466952",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 102,
+                    "sha": "6d76540c80e56aed5fbee708fe894bcd9d3f3881",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 103,
+                    "sha": "71257d48c50be416929da38365c54cbe2f839a39",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 104,
+                    "sha": "cd157898e9788cb6c6bb9bc4aa0a77c0e2f001b6",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 105,
+                    "sha": "b4173a30507999aeca893dcdb7d2d80302fd7f2d",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 106,
+                    "sha": "60436f2587900b6a93fdcece971e9a89437d9767",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 107,
+                    "sha": "9a508e6a9c695ce79d29094897ca31d2ceeacfd9",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 108,
+                    "sha": "cb319d31318655d0eacb449268a3299a5ac7f00e",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 109,
+                    "sha": "7dba5c40047eb37bb58cc787efb72b9f40fa78f6",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 110,
+                    "sha": "6931823d7bb8af3607d8357131214949372e76af",
+                    "description": "Rekursion MergeSort"
+                },
+                {
+                    "page": 111,
+                    "sha": "d9818f8bd89a8540f3cf3c827ace25163223e11f",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 112,
+                    "sha": "e2dba38164c378ae30be9136ee504e1ef5706819",
+                    "description": "Rekursion Rekursionsarten"
                 }
             ]
         }
