@@ -18062,7 +18062,7 @@
             "unit-en-ml-introduction",
             "unit-en-regression",
             "unit-en-concept-learning",
-            "unit-en-performance-measures",
+            "unit-en-ml-performance-measures",
             "unit-en-decision-trees-basics",
             "unit-en-decision-trees-impurity",
             "unit-en-decision-trees-algorithms",
@@ -18296,488 +18296,488 @@
             ]
         },
         "unit-en-regression": {
-            "sha": "27fb78f0c81aca6c36474ea38961091b50af7ea0",
+            "sha": "638521543c35264ad23b9f268b347f419d95581d",
             "numpages": 44,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "1a1d7083b529028228261d206677f579926797aa",
+                    "sha": "e8a7b76b61f68cc901a2dbfcb36f18071a26c24b",
                     "description": "Chapter ML:II II. Machine Learning Basics"
                 },
                 {
                     "page": 2,
-                    "sha": "2a66ca2a8e2b05183438b4ced4b2fbe982e78a97",
+                    "sha": "68babcc4795c63910d678c4ec8c50b99a2a93eb6",
                     "description": "Regression Classification versus Regression"
                 },
                 {
                     "page": 3,
-                    "sha": "3af1c2079d372036d099f45bcd4d687ad816d919",
+                    "sha": "a69b73e4f2f1d636e74c7d81089771a93bc4f60e",
                     "description": "Regression Classification versus Regression"
                 },
                 {
                     "page": 4,
-                    "sha": "805e5f633fe13c375aa70d9cc883851db5e25fd4",
+                    "sha": "234190846f60a04f6ee3ffcaba7959f72396261e",
                     "description": "Regression The Linear Regression Model"
                 },
                 {
                     "page": 5,
-                    "sha": "5128ddaa9753dd5b6fb76a6d0527af493cbe8bd7",
+                    "sha": "1f58f54ad4502d5388116b960308b92a04760516",
                     "description": "Regression The Linear Regression Model"
                 },
                 {
                     "page": 6,
-                    "sha": "5b018e877fbe1839397a636cb2ffdef642728589",
+                    "sha": "007addc014d026e422053d6432201f3e2237a6e6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "9a0a346ad1085d476bad0950c0f841a73cfb7285",
+                    "sha": "7a59dd81ccc4a34383378fdd19782e6159da4d49",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 8,
-                    "sha": "71fba5a9522b49ef0034d796cda22d55907bffbb",
+                    "sha": "3ee853ba1867421dac4fbe79f4fe9850ca59a201",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 9,
-                    "sha": "44c5c3935e96c986783cc920ebbf338787bebe9d",
+                    "sha": "635063a222d74a23276898ff520bd12ab8239759",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 10,
-                    "sha": "fda8253b89f1bf189e3ff1fb75255c8748bfb4ac",
+                    "sha": "dccad0475d71e5d5cce69d3cfeea3248b18767cd",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 11,
-                    "sha": "6a19bc621ed67fc382cdf4a9d2700a4393f8a115",
+                    "sha": "ec3a88461b2ff3ea2657eb530e1a30fe9abccb97",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 12,
-                    "sha": "c5cbf5ecfb784efea714bfb61a0ae283bafa4cb6",
+                    "sha": "c641ee4ee5a1cec9db18ea32ca9147383d46042f",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 13,
-                    "sha": "1a8e95ce9261381b0bb091cfcd44914f8320ffcd",
+                    "sha": "320d8346b11bb2a02ffbc99083e9de9687a25cd3",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 14,
-                    "sha": "6dccfa8881cf3ad684d24fa202b28c34d8ec0180",
+                    "sha": "c44d8c905b9cd2518d864ffc4bd134672103e756",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 15,
-                    "sha": "08f9ce5adb8a965110780d9a2561b4395d4899c0",
+                    "sha": "855edcdeb0bf069d59d220f770415ba2486c700a",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 16,
-                    "sha": "6f6454cfa7f7db3d9d7af70e9b7b9dd2d289350c",
+                    "sha": "2ea0606acb2f8269e4ca530aa9bd9e81186be01e",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 17,
-                    "sha": "313fe96c10d1a6bec4cd2298c15f04b3b3db27c7",
+                    "sha": "d513743b13a590370be726459b39d3598152d67a",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 18,
-                    "sha": "e5027af66e3adf1096fa70c617d2db9a4d737714",
+                    "sha": "6e2bef92351bec147c62e15422cfea426cc3465d",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 19,
-                    "sha": "44802209f5f52da9d7e705e3a55ba5a9de919888",
+                    "sha": "673a6248746917e929dd25871cdb184c27f72c81",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 20,
-                    "sha": "a0d679aa488418c7c01912a3ec9ba174d3c9ae90",
+                    "sha": "5f9c2ef5aa91062b3f39333e5c6d75d52cd022aa",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "64eeddbc037be71beb219cbe93f6bf0962010432",
+                    "sha": "6447c16f960d98d6462bf6c6702bd62e5b083d2c",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 22,
-                    "sha": "ad575d249dd68fae8444f24b4decb4ab8f264c64",
+                    "sha": "59e453e2fa4d986bf66f2f075e6be1fb519dc509",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 23,
-                    "sha": "ebf9dbddbc5b4d65f0168a3e0fb92a940305f474",
+                    "sha": "de44ac2f5cdeb7db99b3c11cb6432b4f76640372",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 24,
-                    "sha": "7f2b7a56735e9d85379a7d58c1e09d621ec11872",
+                    "sha": "00635fe9774fd48457d6ce0bfd64fed3dedb7d30",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 25,
-                    "sha": "b1f720d3e1958948f04b8fcf823d01443cac6345",
+                    "sha": "61e97d329a25997ab5b0a1e905b72cd2f636a026",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 26,
-                    "sha": "9848cc78229684eae47a1247ae2c2fc9fd61e7e5",
+                    "sha": "187af478f99d2fc82773ad4dad2792a290a85131",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 27,
-                    "sha": "a628d5c626e8b84dcc4cd394c8eaf5a858883c87",
+                    "sha": "cce0a7ad24d91c18030648b7cfcfb803bab1d5a3",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 28,
-                    "sha": "0626ad80a30fdf1aac2ad700f628c151c5a7b147",
+                    "sha": "65cbcfbc3d0ae3d2edee938b260997e7ceb0e2fd",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 29,
-                    "sha": "e312ea27b7f6a15c7c16a1cab3eda866b30f1cc0",
+                    "sha": "52282d6c84d2a849605876d602e3aa9fd7037945",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 30,
-                    "sha": "d05ae24735990c2abecb7eafac57d97ec39f6263",
+                    "sha": "c94fce22126e9721271ce7a52e9c3fee671ea001",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 31,
-                    "sha": "43a900f1f897587b30b2510d45abfe7af96182a6",
+                    "sha": "9b9523d9afe964704ee21c3b84103834ab14579c",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 32,
-                    "sha": "74c5209ef120387c6db48d23ed4229a8fd97851d",
+                    "sha": "5e5237bb232e04456db7cce0c405260fe382779f",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 33,
-                    "sha": "74aead1c448b4bff17698e661fe36d3ef358826c",
+                    "sha": "b6bcae60f19a5de4867114bb4f08428ba9e26c7d",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 34,
-                    "sha": "5e6f1bf8f24de6d6749cae5d958fddf320180581",
+                    "sha": "c14a946a4ec553f6f213ca9cac15d486871e7ab5",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 35,
-                    "sha": "50079b6f8286d41a77e0948635e7d258d6a4dd8f",
+                    "sha": "36707a06d480c5aec3a19d1b00e4f8801136174b",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 36,
-                    "sha": "ee2a71c88872365c0786628160704c4df202d296",
+                    "sha": "2a7a5b412df7dc574c92f54609852e609b161f71",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 37,
-                    "sha": "b01d382c0c22b596e3e53191bff648eb488fbdce",
+                    "sha": "12f932d500fb0cc184d8488c86c753bd76ab118d",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 38,
-                    "sha": "13016e363dc0c6fea6e64f99ff05adf8e1c8acf5",
+                    "sha": "c45071e0a2b3f91805f93d0331b11c5381e80ccf",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 39,
-                    "sha": "b616b1f75bb9d70fea025f1132e8510fa62485e2",
+                    "sha": "2e14f170a5d637cf90248f22520ca13e1df21bcc",
                     "description": "Regression The Linear Model Function: Properties of the Solution"
                 },
                 {
                     "page": 40,
-                    "sha": "2b4a75d4dc9d0b70015979171c220977ecd7f69f",
+                    "sha": "d7d25c10d7fda87b8c2d62af665dbb441485853e",
                     "description": "Regression The Linear Model Function: Properties of the Solution"
                 },
                 {
                     "page": 41,
-                    "sha": "fd575996a99c95807228ea520839983ce22233e7",
+                    "sha": "a2082dcd754255d5bf2f907d8e6741da865f730d",
                     "description": "Regression "
                 },
                 {
                     "page": 42,
-                    "sha": "79f7886a5ecdea80721c2830aa857cb48d01da00",
+                    "sha": "491cac5af909b1ca733e1dbaa64a92d4019bfb18",
                     "description": "Regression n"
                 },
                 {
                     "page": 43,
-                    "sha": "e10ba5f0e14480145437d923121b2c6132b47211",
+                    "sha": "c3f6f531f60a87f0c8932c28416ef1d85172a47d",
                     "description": "Regression n"
                 },
                 {
                     "page": 44,
-                    "sha": "f488874e6dddcfcc255e6c18211a393e6c582c4e",
+                    "sha": "aed9013d4c7f364b1c0dd10663f752a8a70abcac",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-concept-learning": {
-            "sha": "8c390676f8ef346845b1417650ea8b5d5ef169ab",
+            "sha": "c2e5a2322e18a4dcea386e794a4c806ebb32f581",
             "numpages": 51,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "1f9d69dde547d4d053154ffbbee232075feba00f",
+                    "sha": "b9d94912a46d09b3bc58193897f2fc2bcdb6085d",
                     "description": "Chapter ML:II "
                 },
                 {
                     "page": 2,
-                    "sha": "f3e75709ca41e64d19f325813bae5c023d2f1f4f",
+                    "sha": "5cd17ebded8857c6840b580e32c79acc28d644ca",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 3,
-                    "sha": "ad010b76689e07ecbcbe29f8cebd4f49721733cf",
+                    "sha": "9b7293cb0a8feb7595de809e4b1c5b5c7d196cfe",
                     "description": "Remarks:"
                 },
                 {
                     "page": 4,
-                    "sha": "aa442d196728dcb0c9adf2ac1df5269a6e13bfd7",
+                    "sha": "60d8cdfc885dc3858c904a342c5f40843762209d",
                     "description": "Concept Learning: Search in Hypothesis Space Objects"
                 },
                 {
                     "page": 5,
-                    "sha": "4f2c3d48f58782a28042054f7460b91b35f73d1b",
+                    "sha": "70cca35140f9720b0ece9fa85fe2dba02c7d5dd2",
                     "description": "Concept Learning: Search in Hypothesis Space Objects"
                 },
                 {
                     "page": 6,
-                    "sha": "5f9d3eabd08c09d0c0098776eb1884d49d3cfa8b",
+                    "sha": "c8b40633e5a51ec6a08e4ed9d205369856097c35",
                     "description": "Concept Learning: Search in Hypothesis Space Usually, an example set D, D = {(x1, c(x1)), . . . , (xn, c(xn))}, contains positive"
                 },
                 {
                     "page": 7,
-                    "sha": "112bd0135ce7a83cf47310058e69f8ac16a3ff2f",
+                    "sha": "dbf6d6cfc7a6fa71201a7706e08cd63c1fc78713",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "a28ceec09b3acc6f99830e14ee2c345427a4f606",
+                    "sha": "84fdb9258f2cfd03418da036245c08b96a10dcdb",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 9,
-                    "sha": "b8d8cd57c28ad2f8d813e4df476cc6c8298c2ac2",
+                    "sha": "4c692f14cbc5e54e0457d1905aafc8ec23c97a04",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 10,
-                    "sha": "d210c98cbd23c476559cde6bcf83457b2100b531",
+                    "sha": "708745e0882ae2e56de6a0f923a49a6b84071884",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 11,
-                    "sha": "d34c9f5f1683ec02ac04145ca597c1f130167c7d",
+                    "sha": "b2e54e58a7189705857042af7a8cc68f29734a88",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 12,
-                    "sha": "2838669a1e97f8aabb3f3d96219b0fbc161301d2",
+                    "sha": "133f213241cabf26215e6125573e8e1eca30f3e5",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 13,
-                    "sha": "abb1749f1a5f0688cec6b6c13e8b93e436a47d50",
+                    "sha": "b571de164bf6a75d99ee8a888b54756206fe9376",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "26f21048f6ba2a8527271cd42fdddf220adfe178",
+                    "sha": "aec71a305e2b19e9b6e02f12b3627138bb28eb8e",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 15,
-                    "sha": "a9f9d5adc6cacc22f5c833ad90449443ec9b7b9c",
+                    "sha": "8984aca413c66870e62273837afc49f3521b4ee2",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 16,
-                    "sha": "0faffc846d7e07952255e7750a6d1ede10afa0f9",
+                    "sha": "820ca412684ef6793d906dfa7d7da93b9c55ac04",
                     "description": "Concept Learning: Search in Hypothesis Space Inductive Learning Hypothesis"
                 },
                 {
                     "page": 17,
-                    "sha": "6384083dd7e00a55bee1468867a7faa2c142eb94",
+                    "sha": "6e09d1370e37ea61e3485d336e6f1db2de2a95cd",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 18,
-                    "sha": "8c179b907fc687a8c68cd187d5ce381a004ba537",
+                    "sha": "fc0658e0e92fdecbb58711e944b0318beccbf181",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "c5c6bef55bf7919a9dbcc9b5a03772582c6893c3",
+                    "sha": "2f667b2e70d6e077fc3028fed11238e0ef37ddcd",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 20,
-                    "sha": "ddade58f76ad49866bf8a03e25e943b62acfaf51",
+                    "sha": "3cb10a4abeeabfd01779ab59720245e23ebe8bbf",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 21,
-                    "sha": "f9738c56d9536c0af597bb3d51fbefb4af88504a",
+                    "sha": "27a1623f2a4843d1294b9daf5a2419552ffe1ba5",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 22,
-                    "sha": "6253a54177db830a83acfb040ed9a3e0c0d376cb",
+                    "sha": "d740072e6248cf7770184c9f3e83322316586242",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 23,
-                    "sha": "73bf8fc6d47fb6ebb5bbc7595a091eddeef132c4",
+                    "sha": "8951e28f7befd3acafe70c619caa277726bb2a3b",
                     "description": "Concept Learning: Search in Hypothesis Space Discussion of the Find-S Algorithm"
                 },
                 {
                     "page": 24,
-                    "sha": "6874ea6b03ff1b5ae2e5e29bd3510b3feeb9eaf5",
+                    "sha": "bd962da8a1bdfb7a33ce57656f836d99d1db8b44",
                     "description": "Concept Learning: Search in Version Space Definition 5 (Version Space)"
                 },
                 {
                     "page": 25,
-                    "sha": "7e372b3cfd7fbb48241e5860e13bc2b2c82e8dde",
+                    "sha": "8f5d9c6c2dcf352d85fc26597c41279b452f3c53",
                     "description": "Concept Learning: Search in Version Space Definition 5 (Version Space)"
                 },
                 {
                     "page": 26,
-                    "sha": "292f04d7f900bb04de60b77733d85314fc73b85e",
+                    "sha": "8b5b5e0751a566060f7f4c1f92de04537d93fac4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "dfad714ed06275a28fe350885aabbbcd8e6f9657",
+                    "sha": "d6e3b67546d612e38f6f53afef200239ceed2571",
                     "description": "Concept Learning: Search in Version Space Definition 6 (Boundary Sets of a Version Space)"
                 },
                 {
                     "page": 28,
-                    "sha": "1521e115bea132e03132e324f59562c38f2391fb",
+                    "sha": "54acc42047c1620594b43b3d915a126e570545fb",
                     "description": "Concept Learning: Search in Version Space Definition 6 (Boundary Sets of a Version Space)"
                 },
                 {
                     "page": 29,
-                    "sha": "a494aecc4275808b028c428409fa2b37e792c003",
+                    "sha": "32b9fa3d09746b1ef8b9b95ab85c56025dfe2ae0",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm"
                 },
                 {
                     "page": 30,
-                    "sha": "ebd7c514b817222c7f8e0745f735062d6a47383c",
+                    "sha": "146a264e3a6b55de2843bd4f844ae2c4c6278740",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm"
                 },
                 {
                     "page": 31,
-                    "sha": "3bb2f32b58b7812fdee0405c5d250d7ab1540517",
+                    "sha": "10709b33b2ac1aba58708184b2c0cd6cf00eaffa",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "40a3c421fc719897d867774c9d27276e3053de96",
+                    "sha": "dabc801ea34995d226ed6de750f60aae7b27e342",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (pseudo code)"
                 },
                 {
                     "page": 33,
-                    "sha": "22ad4dd4753f5e1bec2cd28af04417300b84ce02",
+                    "sha": "d9fd8593e9d44f3ceaea0398339e1048ff502afa",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (pseudo code)"
                 },
                 {
                     "page": 34,
-                    "sha": "5f43919f6fbae41b43719ce84d7b6a0278158101",
+                    "sha": "5e7e646b1694f0f1d4b4f353b2121bb6f4c7167b",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 35,
-                    "sha": "5c69a371caf98e4f2d8e03749d292cc7bc879121",
+                    "sha": "e577cc14a589d02172aaed808f4346748d3dda6c",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 36,
-                    "sha": "648825eca87772153568e57028ebbc2179318b8f",
+                    "sha": "6f944513d4a92241648af0672ceaf08b556e1642",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 37,
-                    "sha": "3bb0e325fe000c5db444bc801e54fa7206b8d246",
+                    "sha": "96562699c8f4eee5843eb04ad0aef419764b444a",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 38,
-                    "sha": "547638b76d255066a86f55b77f0c96a62fd39a20",
+                    "sha": "0a6819bbc2649d9477c522437614a5c053e3ede5",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 39,
-                    "sha": "e3b08222151caf54bcef34fd88a1a05130227bcd",
+                    "sha": "795fa75895c8b542d1a6c124bf73bcacd7cc5624",
                     "description": "Concept Learning: Search in Version Space Discussion of the Candidate Elimination Algorithm"
                 },
                 {
                     "page": 40,
-                    "sha": "f4f67b605b296d29f0a2c73a9f5135fa2812b856",
+                    "sha": "e933c31d5076c3c2d0164d3550a4291aad69f8d9",
                     "description": "Concept Learning: Search in Version Space Question 1: Selecting Examples from D"
                 },
                 {
                     "page": 41,
-                    "sha": "92065c465d35849907a8ba6c586eac393dad8b66",
+                    "sha": "f3aaa60f1d1d9e8719d0ad0c79d833f1fbe755f8",
                     "description": "Concept Learning: Search in Version Space Question 1: Selecting Examples from D"
                 },
                 {
                     "page": 42,
-                    "sha": "8c34b6254bb838e2c0193de5020fc0d1b9fc5ea4",
+                    "sha": "53e577b11747d6c4d4b5f0859b87e01d69a0f09c",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 43,
-                    "sha": "2eadabc1efcb6605caa28fac95ef22c4bd5e6c43",
+                    "sha": "92a2175fe368c929fba95b7726785b0639abce2d",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 44,
-                    "sha": "c8c87584f953e41817215b1155dc920d8dafeb81",
+                    "sha": "28fc489f916a6b171f25c8a445d0d75a391edcca",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 45,
-                    "sha": "29dd33ff450b4cd26b9ff1e385d2d8e8c36c5138",
+                    "sha": "ebfce49113b1d5abbc4926e98893c0969bb63942",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 46,
-                    "sha": "ae2fdc95f32cb8f9e566e049b1f9d2558a9bc444",
+                    "sha": "0511676bb56c40153c70c3f6cc57006a934fe02f",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 47,
-                    "sha": "0c9f7c5e5542eaa9155d10a580b94dfd8fc87e77",
+                    "sha": "1ff4ecf94388129e7dd889615922ee2d5d955a2d",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 48,
-                    "sha": "11484cb40c5be74d10386f5c9a69e757b9396a29",
+                    "sha": "4e65cc1f9051c206f6acc872c9668c950d6829c7",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 49,
-                    "sha": "998186ed28021ac665176907640e2d9811993d1e",
+                    "sha": "ea141ab3194fd67e9c2616abced5a8223238cd78",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 50,
-                    "sha": "13e64fa3d7add418b348c7453e983b827611a57f",
+                    "sha": "1256d880a41a38981b85766e0af0063bd2c334d7",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 51,
-                    "sha": "dd8d91205de7c7c0e7653017759e5b997531c612",
+                    "sha": "51da13123bbd72a48b6c8bbf9dc18dc058089157",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 }
             ]
@@ -20314,6 +20314,132 @@
                     "page": 32,
                     "sha": "01b70cf4415fbe58efda689c5eacf59ac9c533ac",
                     "description": "Ensemble Classifier Literature"
+                }
+            ]
+        },
+        "unit-en-ml-performance-measures": {
+            "sha": "d084a62bfdbdbf31c9afe2921b6950389379581c",
+            "numpages": 24,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "55d7c4bb223ff8f2009d0e90484099535e785074",
+                    "description": "Chapter ML:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "e4bc0606396e3ff92359d179b2a5a8ac21dd7312",
+                    "description": "Measuring Performance True Misclassification Rate"
+                },
+                {
+                    "page": 3,
+                    "sha": "ca72180d471174b77615fd90cec7906fad720292",
+                    "description": "Measuring Performance True Misclassification Rate"
+                },
+                {
+                    "page": 4,
+                    "sha": "44aeb73f5878bb3fa8d427c9a4dd9c041574e948",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "4d1a3949324bdc62fec236f88033fa817bafbc83",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 6,
+                    "sha": "c4e218557d365e2065e8048a982dba1199c1ca0f",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 7,
+                    "sha": "a24c2bfe5138b8d0157ef054a3c34fb55a748847",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 8,
+                    "sha": "1d3b37d474e7c92eb5e2cec54321eb8c1f92773d",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 9,
+                    "sha": "75673d14643bb9f2b39e68827a637e1be6ee7f9a",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 10,
+                    "sha": "f28a9d27801fd52e6af419f59931f3782adf4ea0",
+                    "description": "Measuring Performance True Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 11,
+                    "sha": "ade06b7d11c8c0081f880c04de770f8bd7ebf602",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 12,
+                    "sha": "a0e151fcee70f2656911cff68cc214e4757234d6",
+                    "description": "Measuring Performance Training Error"
+                },
+                {
+                    "page": 13,
+                    "sha": "45b369d64f5e45bef882a91b008a69b292a66fb8",
+                    "description": "Measuring Performance Training Error"
+                },
+                {
+                    "page": 14,
+                    "sha": "33181be24f67238f8bcf6a6edc08be75280d01cc",
+                    "description": "Measuring Performance 2-Fold Cross-Validation (Holdout Estimation)"
+                },
+                {
+                    "page": 15,
+                    "sha": "18afb8515dd0a135a535ce04c69b1e6191e0a07c",
+                    "description": "Measuring Performance 2-Fold Cross-Validation (Holdout Estimation)"
+                },
+                {
+                    "page": 16,
+                    "sha": "d07340e5c5e984cf31c07cf55e3c6f19c271b86a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 17,
+                    "sha": "88cd1566dafdde16d654d1adb11efe94e37a6bca",
+                    "description": "Measuring Performance k-Fold Cross-Validation"
+                },
+                {
+                    "page": 18,
+                    "sha": "61a25aa30742b55970e48e064b32bc17aa7747ea",
+                    "description": "Measuring Performance n-Fold Cross-Validation (Leave One Out)"
+                },
+                {
+                    "page": 19,
+                    "sha": "b64c20fb67a2cc4dc5f2306cae497f9d8b23b05c",
+                    "description": "Measuring Performance n-Fold Cross-Validation (Leave One Out)"
+                },
+                {
+                    "page": 20,
+                    "sha": "c234931f3bb46626e59356ae34f76bbc275ef94b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 21,
+                    "sha": "d510795125863f3d831e40881984c7b721df6167",
+                    "description": "Measuring Performance Bootstrapping"
+                },
+                {
+                    "page": 22,
+                    "sha": "c1712f64123be2cd38bb14eaf2a4ff536f0a088c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 23,
+                    "sha": "70252fb69b1525aa7be881e0f9672ed510843d55",
+                    "description": "Measuring Performance Misclassification Costs"
+                },
+                {
+                    "page": 24,
+                    "sha": "80fd42ebabaa79c01d7917c4eb0687031e00f2e0",
+                    "description": "Remarks:"
                 }
             ]
         }
@@ -22324,9 +22450,7 @@
             "unit-en-cross-language",
             "unit-en-showing-results",
             "unit-en-laboratory-experiments",
-            "unit-en-logging",
-            "unit-en-effectiveness-measures",
-            "unit-en-efficiency-measures",
+            "unit-en-ir-performance-measures",
             "unit-en-training-and-testing",
             "unit-en-crawling",
             "unit-en-conversion",
@@ -25085,102 +25209,107 @@
             ]
         },
         "unit-en-laboratory-experiments": {
-            "sha": "82cf3b3a0933e8f71b356a176f8cf7ad3512547a",
-            "numpages": 19,
+            "sha": "5c678f8526e183c7001106adb4765bacbee31bdb",
+            "numpages": 20,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "4ef739411961943923255e50637efadc6ff5dddb",
+                    "sha": "15e9c6c4eb18850d7730ac00504e7093c3cee36a",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "8d314138a0a469b2e70f3dcc8803f74cf662494e",
+                    "sha": "3e9be85c7eab53116dc3d1427e6bec4f7be7bfe6",
                     "description": "Laboratory Experiments Retrieval Tasks"
                 },
                 {
                     "page": 3,
-                    "sha": "e7f8d0d2495c7f2703561d981d35e7e2dae24150",
-                    "description": "Laboratory Experiments Experimental Setup"
+                    "sha": "7a69947fd4fc6f9aec086c6452c777b8d4c53683",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 4,
-                    "sha": "cf1b9ad506259ff8963d1a027de032164c0ad2dd",
-                    "description": "Remarks:"
+                    "sha": "9ea354246e5acad67a47fcca490ad5168f591e9d",
+                    "description": "Laboratory Experiments Experimental Setup"
                 },
                 {
                     "page": 5,
-                    "sha": "f28cb8e4f3d7531ff067cea81af732cc509b004d",
-                    "description": "Laboratory Experiments Public Resources"
+                    "sha": "cd9d9750ac87602159527ac9ea3c7bf5eec0c49e",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 6,
-                    "sha": "09c4e913b81752fa484ddcb7947566e70d39e7bb",
-                    "description": "Remarks:"
+                    "sha": "44af4af1d51263ec7852f6164f07318080792480",
+                    "description": "Laboratory Experiments Experimental Setup: Document Collections \\u002f Corpora"
                 },
                 {
                     "page": 7,
-                    "sha": "ea795b5700a86266bb4a2ae185c1298a6824cbc5",
-                    "description": "Laboratory Experiments Topic Descriptions"
+                    "sha": "5298261ade87af1b80ea5e0ce1904123e1a4c651",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "cca3b434cab7920a53b65f76558a351a69cf3fc9",
-                    "description": "Remarks:"
+                    "sha": "02d95c6615748f89aa8acdc5d192a210da14858a",
+                    "description": "Laboratory Experiments Experimental Setup: Topics"
                 },
                 {
                     "page": 9,
-                    "sha": "373e3083b8bd48fcdb500a17e9e9ac51b3a05547",
-                    "description": "Laboratory Experiments Relevance Judgments"
-                },
-                {
-                    "page": 10,
-                    "sha": "e9bae48abdd4c0dba7fb47034a57f9b97a25d70e",
-                    "description": "Laboratory Experiments Relevance Judgments"
-                },
-                {
-                    "page": 11,
-                    "sha": "38b2ef49f7b44c39de849d3abb16f4f545d0c225",
-                    "description": "Laboratory Experiments Relevance Judgments"
-                },
-                {
-                    "page": 12,
-                    "sha": "d91a4e5eb8baa8b61dad68508ff641a8ccca0554",
-                    "description": "Laboratory Experiments Relevance Judgments"
-                },
-                {
-                    "page": 13,
-                    "sha": "2c7da88a39bf022f6d161850b82c58ae79de533b",
+                    "sha": "453a860f4df07dcc885d17f147f476ce2f992681",
                     "description": "Remarks:"
                 },
                 {
+                    "page": 10,
+                    "sha": "82095881b69fd696355fdfb6ceeb48bee8d0d215",
+                    "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
+                },
+                {
+                    "page": 11,
+                    "sha": "a7340170ca8a0a9a98425dcade8ca8e6bccf1481",
+                    "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
+                },
+                {
+                    "page": 12,
+                    "sha": "daca0acbd6d5fa47e2be8dbe0a05bfc5e824936d",
+                    "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
+                },
+                {
+                    "page": 13,
+                    "sha": "7fcff46edc9dff7058c599a65f4a8fe24cdc8888",
+                    "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
+                },
+                {
                     "page": 14,
-                    "sha": "24694c02c4409cce60cbfad8d9b3f995118f3a5a",
-                    "description": "Laboratory Experiments Assessment Sampling Strategy: Pooling"
+                    "sha": "8823d5279c37b48d77d13beb770cb35f61b53893",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 15,
-                    "sha": "6b7e0651846ba54175c3986328a13d5a1abc3417",
-                    "description": "Laboratory Experiments Measuring Annotator Agreement"
+                    "sha": "f25e03412ec07840cc557b4ac190c222d2524d85",
+                    "description": "Laboratory Experiments Experimental Setup: Pooling"
                 },
                 {
                     "page": 16,
-                    "sha": "02591c8a42ebcf028fe2bce99f12bf9de90d84b2",
-                    "description": "Laboratory Experiments Measuring Annotator Agreement: Kappa Statistics"
+                    "sha": "7781310acec3b07cf2e875a297872211e91c81f1",
+                    "description": "Laboratory Experiments Assessor Reliability"
                 },
                 {
                     "page": 17,
-                    "sha": "1e9d034a23e02d0be3d2a321b689efa2757f55e5",
-                    "description": "Laboratory Experiments Measuring Annotator Agreement: Kappa Statistics"
+                    "sha": "698a537c2ea743f600324b0eb738f85392507332",
+                    "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 18,
-                    "sha": "e65af5bbebda3a56ae3426a8555166ef0ac6e628",
-                    "description": "Laboratory Experiments Measuring Annotator Agreement: Kappa Statistics"
+                    "sha": "7ed0fe025cd94bd06ca519e109a9f375cfbffbb9",
+                    "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 19,
-                    "sha": "875f2cc4e65fefcb48d614b0f3d2c79e6275a1dd",
+                    "sha": "bb95edc9685cf8b5bc91437c1b8998970e18fef4",
+                    "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
+                },
+                {
+                    "page": 20,
+                    "sha": "08517100f826730d410099909534601d76aa9b88",
                     "description": "Remarks:"
                 }
             ]
@@ -25392,92 +25521,92 @@
             ]
         },
         "unit-en-training-and-testing": {
-            "sha": "8a88b0c14f5ca8b961cddeef91b002665008bd56",
+            "sha": "cfa764c1761eefb80c654b67c9a114aa89aac2f4",
             "numpages": 17,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "958ed3b1698ae7ff89e49722ac887145afff6bf7",
+                    "sha": "ea6cff65dcd90a389db6f54535fc46e9e3f0eeb0",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "ac3df6d78b58a4c5a92cab0733df75940a789536",
+                    "sha": "656be2a5ed0bf508998b92c8983738c1dffb2bd8",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 3,
-                    "sha": "d2454d78d4e9f8eb74ea658e7ce728220b6250a3",
+                    "sha": "6430ed631818fd67d925ad0d90107a83b1897515",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 4,
-                    "sha": "352d4971010249d2070e9bd678dcbbbcb1530026",
+                    "sha": "d06c3099bdd5e47e1113ebf413a8c9428a504d4d",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 5,
-                    "sha": "fff03a3a55af8f8a29e64acaca0b05524d07ebf8",
+                    "sha": "e078699af480ea4bb3bf204ba442732fbf84c4fb",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 6,
-                    "sha": "a3f7881cb0c4f8f6cc8519ae031c57978e58f78f",
+                    "sha": "46abaa47162b6383226e33838dfdae2f134b2080",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 7,
-                    "sha": "8e8f86932fb2d75373f23f76e47d56fddf179e6d",
+                    "sha": "110dfb12ec36660afc34c62926c35d72c5c8e0ae",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 8,
-                    "sha": "258664d28d06c492309ea77dc422cd40b9741399",
+                    "sha": "ce335f898e763a49a47274607044fa8626b2e2c9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "272924f83261be1945bd88cbb75cd3db8c5d7b92",
+                    "sha": "836a95f2d707463fc664502cb2bf7c1ef65ff1bb",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 10,
-                    "sha": "8a1527f2f8a32358341cd1118957aa47a8cdaaa7",
+                    "sha": "f05daa09481dac06f5a63891f6100d3388c7c3bd",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 11,
-                    "sha": "26766ce903a438b9ff2381976ff730abbd8a609c",
+                    "sha": "864fa2e2c3473d21594523b7b56ffd1261cd5e7b",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 12,
-                    "sha": "5658450763c753ffbe6ad22ec71fd7b35caefccf",
+                    "sha": "29a5014d6c4e1bbfe122939419fa01421ab720e7",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 13,
-                    "sha": "809cd7b41fd14ea5a8ef39a2e568e87ee4cffe73",
+                    "sha": "22cacd9620de58912b1754bea967a1b67f6eb7ee",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 14,
-                    "sha": "5338ea953f5b63920ebb34ec8c16b7ecc98afd7c",
+                    "sha": "399a05f02148a21d3ea8078693d22eef5c13d2dd",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 15,
-                    "sha": "c89dd3b0e60f3419df9c17f82c90f0915baef561",
+                    "sha": "bebe617b8beef58ae80821390664ab1b30212ff6",
                     "description": "Training and Testing Statistical Hypothesis Testing: Power and Effect Size"
                 },
                 {
                     "page": 16,
-                    "sha": "8aeff0d2a513e82592772231a3345a0de9ad6232",
+                    "sha": "0d5735c3a47a04c31d81eb980361aeb4f15e090f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "9565ee0b651906e3ea23c75948e4ed84af978c6e",
+                    "sha": "d040f8c4a8bb36798dfa55b152bbc02789702b1f",
                     "description": "Training and Testing Hyperparameter Optimization"
                 }
             ]
@@ -25680,6 +25809,941 @@
                     "page": 39,
                     "sha": "31ff86cd4d5325dfdf7cae32ddbb77b018747d89",
                     "description": "Crawling the Web Extensibility"
+                }
+            ]
+        },
+        "unit-en-index-compression": {
+            "sha": "8365f1f31f4a0d69b2634e10cc4738797c587346",
+            "numpages": 14,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "4c8129a0c2745eb371c6740099ed0a606c09d387",
+                    "description": "Chapter IR:IV IV. Indexes"
+                },
+                {
+                    "page": 2,
+                    "sha": "b592533f9811584ffdb8e2f031667b514b4bba1b",
+                    "description": "Compression Size Issues"
+                },
+                {
+                    "page": 3,
+                    "sha": "469e748ca70630ba198d578ff21e7710d1f3e3cd",
+                    "description": "Compression Savings"
+                },
+                {
+                    "page": 4,
+                    "sha": "6546f14d2965bd28aaf9e01e745d5b49de6f40e9",
+                    "description": "Compression Basic Idea"
+                },
+                {
+                    "page": 5,
+                    "sha": "bbc22185473d7f4b265562e3835586b74060fcd1",
+                    "description": "Compression Delta Encoding"
+                },
+                {
+                    "page": 6,
+                    "sha": "4fa07faf93376c768ba48c43b85652e73339c15f",
+                    "description": "Compression Delta Encoding"
+                },
+                {
+                    "page": 7,
+                    "sha": "7fa6d0f6a4ed61029734abffdbaaeed249cacb13",
+                    "description": "Compression Bit-Aligned Codes"
+                },
+                {
+                    "page": 8,
+                    "sha": "005d97752cb9bb8d563bfb415f71981563390348",
+                    "description": "Compression Unary and Binary Codes"
+                },
+                {
+                    "page": 9,
+                    "sha": "39363df873afe9ce21cffebef25f4a58bfc3a2ce",
+                    "description": "Compression Elias-\u03b3 Code"
+                },
+                {
+                    "page": 10,
+                    "sha": "66d5d279c7fd668cfd18377f00376480e757b566",
+                    "description": "Compression Elias-\u03b4 Code"
+                },
+                {
+                    "page": 11,
+                    "sha": "ed9ef6d892910fc685492748669acaced0752dd2",
+                    "description": "Compression Elias-\u03b4 Code"
+                },
+                {
+                    "page": 12,
+                    "sha": "541533f3e0eb616e0ddb6364853a85f93e35adff",
+                    "description": "Compression Byte-Aligned Codes"
+                },
+                {
+                    "page": 13,
+                    "sha": "1a13c7928bc59bcee6de2950459b7ca141c20966",
+                    "description": "Compression V-Byte Encoding"
+                },
+                {
+                    "page": 14,
+                    "sha": "8b704ea475658d5703c0aaf661dadcc9b4babaeb",
+                    "description": "Compression Example"
+                }
+            ]
+        },
+        "unit-en-rm-combining-evidence": {
+            "sha": "9c07ecc0f3d5d4c5ca044daac2398574dee6a639",
+            "numpages": 12,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8a90a9b33d301923f668640da1c30dac30521419",
+                    "description": "Chapter IR:V V. Retrieval Models"
+                },
+                {
+                    "page": 2,
+                    "sha": "e6cb6625cbe110c2513bdab86296c242995b6514",
+                    "description": "Combining Evidence"
+                },
+                {
+                    "page": 3,
+                    "sha": "9484faf8dce3923ea27fb92aec7859d6c111aaf1",
+                    "description": "Combining Evidence Bayesian Networks"
+                },
+                {
+                    "page": 4,
+                    "sha": "856d4870fa7bc2d2dd0931cbbb28a6fc2811cbcd",
+                    "description": "Combining Evidence Inference Network"
+                },
+                {
+                    "page": 5,
+                    "sha": "2675dd204f55ae5574db3ca6aeb6eab86ff9cc4f",
+                    "description": "Combining Evidence Inference Network"
+                },
+                {
+                    "page": 6,
+                    "sha": "f12c9a1bf0140dbffbd418c4a8d6d69b23c8cab8",
+                    "description": "Combining Evidence Inference Network"
+                },
+                {
+                    "page": 7,
+                    "sha": "c42845694df90744e7b13a37838ce469a27d4fbf",
+                    "description": "Combining Evidence Inference Network"
+                },
+                {
+                    "page": 8,
+                    "sha": "42736d9e1dc1b77fb89dea1634a52a417439faf9",
+                    "description": "Combining Evidence Inference Network"
+                },
+                {
+                    "page": 9,
+                    "sha": "7551aa0204aaae48fa954e1a0d69748cfa2b41a0",
+                    "description": "Combining Evidence Example: AND Combination"
+                },
+                {
+                    "page": 10,
+                    "sha": "d5b5c9f5ef86bf3e129649049b2acc1217a8353c",
+                    "description": "Combining Evidence Example: AND Combination"
+                },
+                {
+                    "page": 11,
+                    "sha": "51aaa6bbe6b5c5103a36d1462caa04e50302d748",
+                    "description": "Combining Evidence Inference Network Operators"
+                },
+                {
+                    "page": 12,
+                    "sha": "29dff810e19ead6a471a1ea8fd6f69dfba7e1f09",
+                    "description": "Combining Evidence Query Language Example"
+                }
+            ]
+        },
+        "unit-en-rm-web-search": {
+            "sha": "35121a16531ee39757ec75ea533ed6af04ebb29c",
+            "numpages": 8,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8d4cfbfce0f6f976811c35e161af4028cefbe8fd",
+                    "description": "Chapter IR:V V. Retrieval Models"
+                },
+                {
+                    "page": 2,
+                    "sha": "aa370724f1e20bed0e422ea43f2c1e997a1a15c9",
+                    "description": "Web Search"
+                },
+                {
+                    "page": 3,
+                    "sha": "5045e4db14cea27201e521080e080d71f605b69b",
+                    "description": "Web Search Search Taxonomy"
+                },
+                {
+                    "page": 4,
+                    "sha": "6032c09de90bf12887451c98c74723f92245b678",
+                    "description": "Web Search"
+                },
+                {
+                    "page": 5,
+                    "sha": "94bc801fbeeb1152be171cb47ae2a0f352984458",
+                    "description": "Web Search Search Engine Optimization"
+                },
+                {
+                    "page": 6,
+                    "sha": "86a2468fae2ef453bb67b2b032a7507b09834ccc",
+                    "description": "Web Search"
+                },
+                {
+                    "page": 7,
+                    "sha": "40aa04711a16ddd9fcbc33cb004d690aa17e2dd4",
+                    "description": "Web Search Term Proximity"
+                },
+                {
+                    "page": 8,
+                    "sha": "92f4cee6733c92c797c5c851010d19b1c34de6e1",
+                    "description": "Web Search Query types"
+                }
+            ]
+        },
+        "unit-en-rm-learning-to-rank": {
+            "sha": "c71e89822dacb7f382b6d05abc1c03753c9e87cd",
+            "numpages": 4,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "abaa1a89af69f67109b34857ff57492da05d4a6e",
+                    "description": "Chapter IR:V V. Retrieval Models"
+                },
+                {
+                    "page": 2,
+                    "sha": "74f6459804c543430142c912d56c4392f2a67243",
+                    "description": "Learning to Rank Machine Learning and IR"
+                },
+                {
+                    "page": 3,
+                    "sha": "7b6f9e87187a32632ed80825cb219429fc1f2ba9",
+                    "description": "Learning to Rank Generative vs. Discriminative"
+                },
+                {
+                    "page": 4,
+                    "sha": "850281989c0e1611d69e105ec061668d6dae2dc5",
+                    "description": "Learning to Rank Discriminative Models for IR"
+                }
+            ]
+        },
+        "unit-en-query-transformation": {
+            "sha": "b5361b386795799369ece2259c414eb54e484b4c",
+            "numpages": 43,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "b90c29dcac44575ee44d206d88f2d485dddfeb6c",
+                    "description": "Chapter IR:VI VI. Users and Queries"
+                },
+                {
+                    "page": 2,
+                    "sha": "7331f9cbcc52bbfb1b545b2e13b001cae38eb682",
+                    "description": "Query Transformation and Refinement Query transformation"
+                },
+                {
+                    "page": 3,
+                    "sha": "8e4ebe3af85eebcbe6a4449130a07b3aedfcff2d",
+                    "description": "Query Transformation and Refinement Query-Based Stopping"
+                },
+                {
+                    "page": 4,
+                    "sha": "b8e763db597c130e98ea2508979960c7024c9b8e",
+                    "description": "Query Transformation and Refinement Query-Based Stemming"
+                },
+                {
+                    "page": 5,
+                    "sha": "98623690d679cff67b5b39ec83b22b2cda8a4ebf",
+                    "description": "Query Transformation and Refinement Stem Classes"
+                },
+                {
+                    "page": 6,
+                    "sha": "f170c64db10e99a91a4e88920333c0be1d7cc099",
+                    "description": "Query Transformation and Refinement Stem Classes"
+                },
+                {
+                    "page": 7,
+                    "sha": "eebb00b08ac887a1a07abe00fa9f7a7d912f0288",
+                    "description": "Query Transformation and Refinement Modifying Stem Classes"
+                },
+                {
+                    "page": 8,
+                    "sha": "44d7fb4fdc913b36e2bba280fa521862ed42ff90",
+                    "description": "Query Transformation and Refinement Modifying Stem Classes"
+                },
+                {
+                    "page": 9,
+                    "sha": "61f09f05a188bfd4c4bb221a687b604bb303cc1e",
+                    "description": "Query Transformation and Refinement Spell Checking"
+                },
+                {
+                    "page": 10,
+                    "sha": "455c247264af9326c79cb92905ba20d03b722324",
+                    "description": "Query Transformation and Refinement Spell Checking"
+                },
+                {
+                    "page": 11,
+                    "sha": "34683a673dc95cd1c297413232ea5ade08a61801",
+                    "description": "Query Transformation and Refinement Spell Checking"
+                },
+                {
+                    "page": 12,
+                    "sha": "f77eded801de57ce29455cad439afd07e7ea5032",
+                    "description": "Query Transformation and Refinement Edit Distance"
+                },
+                {
+                    "page": 13,
+                    "sha": "60c81cd6a6e3ca2ec1249710b76c272455c2580d",
+                    "description": "Query Transformation and Refinement Edit Distance"
+                },
+                {
+                    "page": 14,
+                    "sha": "3a72013dfe47e5b98c2be596886f7517b6cffc5b",
+                    "description": "Query Transformation and Refinement Soundex Code"
+                },
+                {
+                    "page": 15,
+                    "sha": "0a172d7ede0066b5e2ef60ee4ada3fbd7bbd6db9",
+                    "description": "Query Transformation and Refinement Spelling Correction Issues"
+                },
+                {
+                    "page": 16,
+                    "sha": "b704c2641a0184f552dc3816180453b08b51f85c",
+                    "description": "Query Transformation and Refinement Noisy Channel Model"
+                },
+                {
+                    "page": 17,
+                    "sha": "c9563103c25126e9b74c0f5b524627542bfba5cb",
+                    "description": "Query Transformation and Refinement Noisy Channel Model"
+                },
+                {
+                    "page": 18,
+                    "sha": "57b672d2ec06c70896e0fac3b770d117eef1dfb4",
+                    "description": "Query Transformation and Refinement Noisy Channel Model"
+                },
+                {
+                    "page": 19,
+                    "sha": "7cc69e1c01d82af93134c9b797e523dc74a93f44",
+                    "description": "Query Transformation and Refinement Noisy Channel Model"
+                },
+                {
+                    "page": 20,
+                    "sha": "1d9461c10192327e5eafffefaac9ecc39df8a88f",
+                    "description": "Query Transformation and Refinement Query Expansion"
+                },
+                {
+                    "page": 21,
+                    "sha": "fd368c3a699cba978e88e113820e031c4331b99b",
+                    "description": "Query Transformation and Refinement Query Expansion"
+                },
+                {
+                    "page": 22,
+                    "sha": "af55c10ec896ad0dcbcb2b507d1119b2e087948c",
+                    "description": "Query Transformation and Refinement Term Association Measures"
+                },
+                {
+                    "page": 23,
+                    "sha": "dfe3553d725dc8806a3d74e604e145a6c7597f1a",
+                    "description": "Query Transformation and Refinement Term Association Measures"
+                },
+                {
+                    "page": 24,
+                    "sha": "1fce0387261e18287613db499d16ec42276366a1",
+                    "description": "Query Transformation and Refinement Term Association Measures"
+                },
+                {
+                    "page": 25,
+                    "sha": "9d4e9365ef35fd0aadc5600c79e2f20bf519094c",
+                    "description": "Query Transformation and Refinement Term Association Measures"
+                },
+                {
+                    "page": 26,
+                    "sha": "36936b6aa6be27d6f5ad732febfcd1c0b1bdcf41",
+                    "description": "Query Transformation and Refinement Term Association Measures"
+                },
+                {
+                    "page": 27,
+                    "sha": "a8f651d5c5fd1fbd37026f0656d9c8ec7a14243a",
+                    "description": "Query Transformation and Refinement Association Measure Example"
+                },
+                {
+                    "page": 28,
+                    "sha": "cbde6870707f582a5e67d04fb694f6831d8244eb",
+                    "description": "Query Transformation and Refinement Association Measure Example"
+                },
+                {
+                    "page": 29,
+                    "sha": "1ca1d01f85a734a49d94ae4383f5a164d27a40ef",
+                    "description": "Query Transformation and Refinement Association Measure Example"
+                },
+                {
+                    "page": 30,
+                    "sha": "eac13b48d93aec338eaa585597f52a59c4bc3f64",
+                    "description": "Query Transformation and Refinement Association Measures"
+                },
+                {
+                    "page": 31,
+                    "sha": "a7bb85ce26cb6bdcb9c9a2ae331491cc806c8147",
+                    "description": "Query Transformation and Refinement Other Query Expansion Approaches"
+                },
+                {
+                    "page": 32,
+                    "sha": "7fcdff6c5ad87cf5edf8db3c1e73718741249c90",
+                    "description": "Query Transformation and Refinement Other Query Expansion Approaches"
+                },
+                {
+                    "page": 33,
+                    "sha": "99331251c0449b32ec97084b735beb0ccfa67856",
+                    "description": "Query Transformation and Refinement Relevance Feedback"
+                },
+                {
+                    "page": 34,
+                    "sha": "92e3b78128d74c8cb9d78fa46676d319bf3f0fce",
+                    "description": "Query Transformation and Refinement Relevance Feedback Example"
+                },
+                {
+                    "page": 35,
+                    "sha": "8681a4b280cbb696dcb70ab95440a090ddb3c77b",
+                    "description": "Query Transformation and Refinement Relevance Feedback Example"
+                },
+                {
+                    "page": 36,
+                    "sha": "838cb54b400ff28945508ccb413371a7cfb47529",
+                    "description": "Query Transformation and Refinement Relevance Feedback Example"
+                },
+                {
+                    "page": 37,
+                    "sha": "0ee74c1ce44ab05f063c3ca82ba465aac88d223d",
+                    "description": "Query Transformation and Refinement Relevance Feedback"
+                },
+                {
+                    "page": 38,
+                    "sha": "160ba7f95d7f9d4f1b34b92f649893fe0efab53e",
+                    "description": "Query Transformation and Refinement Context and Personalization"
+                },
+                {
+                    "page": 39,
+                    "sha": "413694b62dd8cadf30d36c751014dcba98a7a1a1",
+                    "description": "Query Transformation and Refinement User Models"
+                },
+                {
+                    "page": 40,
+                    "sha": "597c7ea0d8f955bfcb8e7bb7ef2f2847c85e879a",
+                    "description": "Query Transformation and Refinement Query Logs"
+                },
+                {
+                    "page": 41,
+                    "sha": "4488e0b7aa024a73462f3e0bbc0482ecc40cf89a",
+                    "description": "Query Transformation and Refinement Local Search"
+                },
+                {
+                    "page": 42,
+                    "sha": "cff68df16a07155be09a28f4e4102c350cc2e8ab",
+                    "description": "Query Transformation and Refinement Local Search"
+                },
+                {
+                    "page": 43,
+                    "sha": "ed5db37198c11ff8e0894b581cea4fb9e436d228",
+                    "description": "Query Transformation and Refinement Extracting Location Information"
+                }
+            ]
+        },
+        "unit-en-cross-language": {
+            "sha": "ee19892d911fbd94944b194324670dfbb707e489",
+            "numpages": 4,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "03f87fd4e89a331af440d3310caaf5aa4d4de28d",
+                    "description": "Chapter IR:VI VI. Users and Queries"
+                },
+                {
+                    "page": 2,
+                    "sha": "c0d37c56795386423872655d01316c32334b39ac",
+                    "description": "Cross-Language Search Goals"
+                },
+                {
+                    "page": 3,
+                    "sha": "c630264ad945fd2c9d3a97b7d3bd52c5dced376b",
+                    "description": "Cross-Language Search Basic Approach"
+                },
+                {
+                    "page": 4,
+                    "sha": "c8f94ddedd29acd8dc74ecbeb29aed3f1f517815",
+                    "description": "Cross-Language Search Translation"
+                }
+            ]
+        },
+        "unit-en-showing-results": {
+            "sha": "cc6c45d0919bc18ad6096a3112f32743800d0cf7",
+            "numpages": 19,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "64933722bbdbd3dd760d001c49d08333deb5e326",
+                    "description": "Chapter IR:VII VII. Result Presentation"
+                },
+                {
+                    "page": 2,
+                    "sha": "7e1d4d18ccf7dbe9d7d3ef23ba1388c99c33a94c",
+                    "description": "Showing the Results Snippet Generation"
+                },
+                {
+                    "page": 3,
+                    "sha": "b67d487604a6f7eb8fb2b6a2d489eca19c372adc",
+                    "description": "Showing the Results Sentence Selection"
+                },
+                {
+                    "page": 4,
+                    "sha": "d8b4b336d5faa623ee62866201d55f813096095f",
+                    "description": "Showing the Results Sentence Selection"
+                },
+                {
+                    "page": 5,
+                    "sha": "1343f7111733f48b4eec5f83d2b761fed2d804d3",
+                    "description": "Showing the Results Snippet Generation"
+                },
+                {
+                    "page": 6,
+                    "sha": "435df7ee3b9ca2972ffdec0d6b79d3d5e8952f36",
+                    "description": "Showing the Results Snippet Generation"
+                },
+                {
+                    "page": 7,
+                    "sha": "65caf2754c7b8e8c906d3bb7f004ecd41e4d4cef",
+                    "description": "Showing the Results Snippet Guidelines"
+                },
+                {
+                    "page": 8,
+                    "sha": "101e0b517036f0967b591fec21d8c81541ee6645",
+                    "description": "Showing the Results Advertising"
+                },
+                {
+                    "page": 9,
+                    "sha": "e0142edb9fe19ad38d351c75102fa39c528130f1",
+                    "description": "Showing the Results Searching Advertisements"
+                },
+                {
+                    "page": 10,
+                    "sha": "2ac82d19e19ba1e4e24ddcaf6f85da31385fa424",
+                    "description": "Showing the Results Searching Advertisements"
+                },
+                {
+                    "page": 11,
+                    "sha": "09b6d79607a546582a8c466ec135ce68eb9ad502",
+                    "description": "Showing the Results Example Advertisements"
+                },
+                {
+                    "page": 12,
+                    "sha": "f2d3f41c886e146086326b370f1ffd8b1d7ef810",
+                    "description": "Showing the Results Clustering Results"
+                },
+                {
+                    "page": 13,
+                    "sha": "588b0afe0bf29159b907b111603700a9c423e4a9",
+                    "description": "Showing the Results Clustering Results \u2013 Requirements"
+                },
+                {
+                    "page": 14,
+                    "sha": "af1c62676aff52f1f5c6aed0e0841a849492ebbc",
+                    "description": "Showing the Results Types of Classification"
+                },
+                {
+                    "page": 15,
+                    "sha": "765fca7a1dd529107865b1f93e18c751ff49df35",
+                    "description": "Showing the Results Classification Example"
+                },
+                {
+                    "page": 16,
+                    "sha": "f9dec2784264a8a915db37c5dedd5e7062feec7c",
+                    "description": "Showing the Results Result Clusters"
+                },
+                {
+                    "page": 17,
+                    "sha": "ec7d10f9e1e9103a0bbba0265be1d1f2d4ab2920",
+                    "description": "Showing the Results Faceted Classification"
+                },
+                {
+                    "page": 18,
+                    "sha": "252189b404c909feba79b6f8f7cbe4da8ae8d78f",
+                    "description": "Showing the Results Example Faceted Classification"
+                },
+                {
+                    "page": 19,
+                    "sha": "bdc3dce0431d762ab3ecb8a964ee4ac4f3b288f8",
+                    "description": "Showing the Results Example Faceted Classification"
+                }
+            ]
+        },
+        "unit-en-ir-performance-measures": {
+            "sha": "3ce5ebb5898ee5d04ab78860ce7e04a24621f0b8",
+            "numpages": 43,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "7ae5899c2a7199f060fba32de1192e0882fe7f5f",
+                    "description": "Chapter IR:VIII VIII. Evaluation"
+                },
+                {
+                    "page": 2,
+                    "sha": "286b85de281e42f876f614db779cf8c303784935",
+                    "description": "Performance Measures Effectiveness and Efficiency"
+                },
+                {
+                    "page": 3,
+                    "sha": "a32e44fc9939efd20df6be77ab51c56baea48b89",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 4,
+                    "sha": "a62cefba1d83073faff6a3b2ba619ba6880c34f6",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 5,
+                    "sha": "da34453fa2a5653c3f8cc14d7f3fb7aef1017d6d",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 6,
+                    "sha": "613110a14dfa3930b41471e5344479f76bcd4379",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 7,
+                    "sha": "357d007c79c5fa633ad3c086936ca3f9268f52b0",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                },
+                {
+                    "page": 8,
+                    "sha": "dce08886c9509111b7ddc567014aac42f04ade2d",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                },
+                {
+                    "page": 9,
+                    "sha": "61f5c0322b9d9ef81073a1da1cefa51c9f98f652",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                },
+                {
+                    "page": 10,
+                    "sha": "7299a8e7bb671b4c1fae744c4ce2c9db25dabe94",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 11,
+                    "sha": "538f273c835e559e870adfd500b15802a314294e",
+                    "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
+                },
+                {
+                    "page": 12,
+                    "sha": "6cd6af1a94756b28fc36a13690055440266ddf97",
+                    "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
+                },
+                {
+                    "page": 13,
+                    "sha": "132f9151bc90affaa3982f9af561a605e890bc8d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 14,
+                    "sha": "2674962841fdb728f070a4cf6a132f8cad424054",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                },
+                {
+                    "page": 15,
+                    "sha": "debeb0621a97e7e44881062c1a7b61600cfb7de4",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                },
+                {
+                    "page": 16,
+                    "sha": "78b136f935197400e0ff5a9e1fa0be2ea3a1e026",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                },
+                {
+                    "page": 17,
+                    "sha": "e19dbd67d86ccc5053a7dd06f5fc24be94bb0455",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Recall Estimation"
+                },
+                {
+                    "page": 18,
+                    "sha": "ddd8709849cf32fd75b05b6c23ef46486aacda4e",
+                    "description": "Performance Measures Ranking Effectiveness"
+                },
+                {
+                    "page": 19,
+                    "sha": "3b3548e720a5fa1688e925f86d6b851c308fab02",
+                    "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
+                },
+                {
+                    "page": 20,
+                    "sha": "625441859aaf711e2f49047d0540c0ad5ee7ee64",
+                    "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
+                },
+                {
+                    "page": 21,
+                    "sha": "7fe1afd8e466b0c3a085c91d61c3541641091397",
+                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                },
+                {
+                    "page": 22,
+                    "sha": "754de8cdae916fd0d2f9d85c89dddd7c70f32b59",
+                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                },
+                {
+                    "page": 23,
+                    "sha": "cbe42e1e54f1f606bfa0f7eddce22aa36029a8f6",
+                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                },
+                {
+                    "page": 24,
+                    "sha": "343e48e403432e27574e9b8a98fa413149f6d167",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 25,
+                    "sha": "f0c5ea3b67bf5d32cb9e0d050a3c30fe523d89dc",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 26,
+                    "sha": "d7f09b2fbf2a0ec9521b2ffdc4e2c5fd92c0434b",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 27,
+                    "sha": "3d92c5f240ab5345c7e58015c08f755c3d8c6d37",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 28,
+                    "sha": "de05e7add32e963b4574fe27e846f8e0c283d7ff",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 1)"
+                },
+                {
+                    "page": 29,
+                    "sha": "1bc5097ce016eed9bbd47389400fcff67b3df96e",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 2)"
+                },
+                {
+                    "page": 30,
+                    "sha": "e2efe9000c473fac8343190866a7624e874f7d1b",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 31,
+                    "sha": "8077c5c2782a0f982a510eaa81fbd4561be22466",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
+                },
+                {
+                    "page": 32,
+                    "sha": "c97699b246a587f2aa7a571a02a20d65379f6008",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
+                },
+                {
+                    "page": 33,
+                    "sha": "7cb4539f229af360bcb6cd2284dfda461c5d3285",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
+                },
+                {
+                    "page": 34,
+                    "sha": "258f9fe3037616782ef81f9b7f8e7eeea1c01ec3",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
+                },
+                {
+                    "page": 35,
+                    "sha": "2e3264e4629593d12fd66407b716d294b53d1fa1",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
+                },
+                {
+                    "page": 36,
+                    "sha": "60b3ead2b6a0c8e3163f5f3ea1b7ac2710b60bcd",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
+                },
+                {
+                    "page": 37,
+                    "sha": "1d4b039b1d04fa2b56d0107025ba238ed5105671",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 38,
+                    "sha": "3bbe78a50c293d8c317c63dab5ab1ac1df161069",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 39,
+                    "sha": "c64af606d3933fad6076969be140c8146cac00c7",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 40,
+                    "sha": "8ddbba6514419cdd60e51e33a3e75199edf5acca",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 41,
+                    "sha": "33158cfaf52e2cd07e29974c4aa446311df308ec",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Reciprocal Rank (MRR)"
+                },
+                {
+                    "page": 42,
+                    "sha": "f8d355a13caa0be06bdff68b790bea56eade4840",
+                    "description": "Performance Measures Ranking Effectiveness: Discounted Cumulative Gain (DCG)"
+                },
+                {
+                    "page": 43,
+                    "sha": "fa30e22be7cbb8ef26a542d8ce90723bb533fbce",
+                    "description": "Performance Measures Ranking Effectiveness: Normalized Discounted Cumulative Gain (NDCG)"
+                }
+            ]
+        },
+        "unit-en-conversion": {
+            "sha": "d99630207ce999433e20e270a7d48e60208d8483",
+            "numpages": 7,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "bc07a0c85ca320bfc548dfcf010aa9ef72188a47",
+                    "description": "Chapter IR:IX IX. Acquisition"
+                },
+                {
+                    "page": 2,
+                    "sha": "6123e93ec69a304ff0f58b2c77ef3099ce961cbc",
+                    "description": "Conversion File formats"
+                },
+                {
+                    "page": 3,
+                    "sha": "36c5f88faeb686459e5745298e11d44bf5dfec6c",
+                    "description": "Conversion Character encoding"
+                },
+                {
+                    "page": 4,
+                    "sha": "d56dfc64fa44c472cd119e885d8466751a990c40",
+                    "description": "Conversion Character encoding: Documents lie!"
+                },
+                {
+                    "page": 5,
+                    "sha": "6a650b21e6cb91a4f454bbdc361a067955e30e02",
+                    "description": "Conversion Character encoding: Even more problems"
+                },
+                {
+                    "page": 6,
+                    "sha": "531c324715ea968b1ea9434f74b9914d14fa423e",
+                    "description": "Conversion Unicode"
+                },
+                {
+                    "page": 7,
+                    "sha": "199aa26e1246bfbfaac2fd5f7978006b8362df15",
+                    "description": "Conversion Unicode: UTF-8"
+                }
+            ]
+        },
+        "unit-en-storing": {
+            "sha": "388aa12033f2b9bfff19e3b442239eb4efd6da88",
+            "numpages": 21,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "1bc901b3d1eeb8203bfe4a4374b5dbba699709bb",
+                    "description": "Chapter IR:IX IX. Acquisition"
+                },
+                {
+                    "page": 2,
+                    "sha": "9b346af9229e10aa0e44efc8363e4c947defd706",
+                    "description": "Storing Documents Creating the document store"
+                },
+                {
+                    "page": 3,
+                    "sha": "27630fb2a808b8d124d0c5dbf7de77fe2b1bdbeb",
+                    "description": "Storing Documents Requirements for document storage systems"
+                },
+                {
+                    "page": 4,
+                    "sha": "72307339d27211ac464c97874d3ba885ff90447a",
+                    "description": "Storing Documents Large files"
+                },
+                {
+                    "page": 5,
+                    "sha": "7e21f1e6dcfd7156ce83cab6d1202171207c37df",
+                    "description": "Storing Documents Example file in TREC Web compound document format"
+                },
+                {
+                    "page": 6,
+                    "sha": "cc24a189fed41fda2e3e5f2240c5e01c17674ac6",
+                    "description": "Storing Documents Compression"
+                },
+                {
+                    "page": 7,
+                    "sha": "09f4f9a0464e6e161d8fa7d206d549344cf72dff",
+                    "description": "Storing Documents BigTable: Google\u2019s document storage system"
+                },
+                {
+                    "page": 8,
+                    "sha": "8380830df1f635d4999d13b2485837e144ee3ee7",
+                    "description": "Storing Documents BigTable"
+                },
+                {
+                    "page": 9,
+                    "sha": "cbeda4495508d25248b7b1518b8f75a74c74a146",
+                    "description": "Storing Documents BigTable"
+                },
+                {
+                    "page": 10,
+                    "sha": "fa26dca4191372aa813fb8d0dc0f6bd30df8719b",
+                    "description": "Storing Documents Detecting Duplicates"
+                },
+                {
+                    "page": 11,
+                    "sha": "f26e7729f37f0df758fe712bd4b43c788d58d779",
+                    "description": "Storing Documents Detecting Duplicates"
+                },
+                {
+                    "page": 12,
+                    "sha": "639af4806e256eb1ebdd4df3ee1119b7bdaf4ec6",
+                    "description": "Storing Documents Near-Duplicate Detection"
+                },
+                {
+                    "page": 13,
+                    "sha": "9249d035a4e82ca1937a7454dcedea6596ae54a5",
+                    "description": "Storing Documents Near-Duplicate Detection"
+                },
+                {
+                    "page": 14,
+                    "sha": "be421ea77bdfd87da00e30c005e1be7256497a90",
+                    "description": "Storing Documents Near-Duplicate Detection"
+                },
+                {
+                    "page": 15,
+                    "sha": "528d53e86f5b9e8d7e29499fb2ec8e8c81b862bf",
+                    "description": "Storing Documents Fingerprinting example"
+                },
+                {
+                    "page": 16,
+                    "sha": "42b6a49d36bc6d1efdc08a83cf6d4eae67da84b9",
+                    "description": "Storing Documents Fingerprinting"
+                },
+                {
+                    "page": 17,
+                    "sha": "96c8e2230283d38791bdab0a760d6b85bdd6d68c",
+                    "description": "Storing Documents Simhash"
+                },
+                {
+                    "page": 18,
+                    "sha": "83c859efb702d3a8bea0512b29179a6b1c0bafd0",
+                    "description": "Storing Documents Simhash example"
+                },
+                {
+                    "page": 19,
+                    "sha": "da60a6a994e09b03216274b9f48d7c2acbb7d74e",
+                    "description": "Storing Documents Removing noise"
+                },
+                {
+                    "page": 20,
+                    "sha": "bdd0990192a6736b62cab8113b5b27f83a43ffac",
+                    "description": "Storing Documents First idea to find content blocks: document slope curve"
+                },
+                {
+                    "page": 21,
+                    "sha": "fc995820b524dbefc335a2b7320638d995b99f30",
+                    "description": "Storing Documents Other ideas to find content blocks"
                 }
             ]
         }
