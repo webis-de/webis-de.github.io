@@ -22706,25 +22706,16 @@
             "unit-en-inverted-indexes",
             "unit-en-query-processing",
             "unit-en-index-construction",
-            "unit-en-index-compression",
             "unit-en-retrieval-models",
             "unit-en-rm-empirical",
             "unit-en-rm-probabilistic",
             "unit-en-rm-algebraic",
             "unit-en-rm-generative",
-            "unit-en-rm-combining-evidence",
-            "unit-en-rm-web-search",
-            "unit-en-rm-learning-to-rank",
             "unit-en-information-needs",
-            "unit-en-query-transformation",
-            "unit-en-cross-language",
-            "unit-en-showing-results",
             "unit-en-laboratory-experiments",
             "unit-en-ir-performance-measures",
             "unit-en-training-and-testing",
-            "unit-en-crawling",
-            "unit-en-conversion",
-            "unit-en-storing"
+            "unit-en-crawling"
         ],
         "unit-en-ir-organization": {
             "sha": "231236f6a34d111aa5204979c7470e9c5b98b95c",
@@ -25791,92 +25782,92 @@
             ]
         },
         "unit-en-training-and-testing": {
-            "sha": "cfa764c1761eefb80c654b67c9a114aa89aac2f4",
+            "sha": "87f213abe03426861d86d1fdd13009fff5f59f25",
             "numpages": 17,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "ea6cff65dcd90a389db6f54535fc46e9e3f0eeb0",
+                    "sha": "1e0c3e4e20197447cf4b1773592c42117afa0b22",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "656be2a5ed0bf508998b92c8983738c1dffb2bd8",
+                    "sha": "0d81d4ba394aab4eec181a333e2946a11c781e71",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 3,
-                    "sha": "6430ed631818fd67d925ad0d90107a83b1897515",
+                    "sha": "c6c9bb6ff11c518e6c66f94b81b6d77eb0f3a0c1",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 4,
-                    "sha": "d06c3099bdd5e47e1113ebf413a8c9428a504d4d",
+                    "sha": "c0882ac3723b8116a69333010724b46e59b02c8a",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 5,
-                    "sha": "e078699af480ea4bb3bf204ba442732fbf84c4fb",
+                    "sha": "26585b7917507d20d637e811ed5f62dec1d54e3b",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 6,
-                    "sha": "46abaa47162b6383226e33838dfdae2f134b2080",
+                    "sha": "5c7bc082296d3a096142d780318a0502f2c432c8",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 7,
-                    "sha": "110dfb12ec36660afc34c62926c35d72c5c8e0ae",
+                    "sha": "32fbacf5cff6a6fb845eba5ef7e381be1f2c17d5",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 8,
-                    "sha": "ce335f898e763a49a47274607044fa8626b2e2c9",
+                    "sha": "993b7019b73de6595dca7df3fadb9a773420b452",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "836a95f2d707463fc664502cb2bf7c1ef65ff1bb",
+                    "sha": "86bd05c61a732f1527d80b435a5adae24d96419a",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 10,
-                    "sha": "f05daa09481dac06f5a63891f6100d3388c7c3bd",
+                    "sha": "9d8c7f08d9d3f21ec396c59f0d3179865d062c46",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 11,
-                    "sha": "864fa2e2c3473d21594523b7b56ffd1261cd5e7b",
+                    "sha": "13614980b5647024434022476f62044f53e53485",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 12,
-                    "sha": "29a5014d6c4e1bbfe122939419fa01421ab720e7",
+                    "sha": "a2bfd8af5591f8a911ca589b18cbaf57d4ebedfd",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 13,
-                    "sha": "22cacd9620de58912b1754bea967a1b67f6eb7ee",
+                    "sha": "f327e3e45976b14e966514468de11ebdaa5b5f90",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 14,
-                    "sha": "399a05f02148a21d3ea8078693d22eef5c13d2dd",
+                    "sha": "3f583bda68efc076c323eaba44d7189a7b56a575",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 15,
-                    "sha": "bebe617b8beef58ae80821390664ab1b30212ff6",
+                    "sha": "2b12d66204bf42d4f6a93827f641e5238d5b7505",
                     "description": "Training and Testing Statistical Hypothesis Testing: Power and Effect Size"
                 },
                 {
                     "page": 16,
-                    "sha": "0d5735c3a47a04c31d81eb980361aeb4f15e090f",
+                    "sha": "807beab6dbea4ebd919fde51e33145fa66344e79",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "d040f8c4a8bb36798dfa55b152bbc02789702b1f",
+                    "sha": "a3bbba0944d438b5f336c222b9021fd5032eb35f",
                     "description": "Training and Testing Hyperparameter Optimization"
                 }
             ]
@@ -26645,222 +26636,227 @@
             ]
         },
         "unit-en-ir-performance-measures": {
-            "sha": "3ce5ebb5898ee5d04ab78860ce7e04a24621f0b8",
-            "numpages": 43,
+            "sha": "3dbf532a5ff8a4bca42fb19aa54184d28f7db89e",
+            "numpages": 44,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "7ae5899c2a7199f060fba32de1192e0882fe7f5f",
+                    "sha": "cb0594a7590b372cb43322a7942da745223651e4",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "286b85de281e42f876f614db779cf8c303784935",
+                    "sha": "1e5e38028d9dde2a4a97c6c0b7d0bd964107e3df",
                     "description": "Performance Measures Effectiveness and Efficiency"
                 },
                 {
                     "page": 3,
-                    "sha": "a32e44fc9939efd20df6be77ab51c56baea48b89",
+                    "sha": "c99586f9ec35964b3bb239a503b40c01d262ef3e",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 4,
-                    "sha": "a62cefba1d83073faff6a3b2ba619ba6880c34f6",
+                    "sha": "66d418e8079368f812fe012ceb6ecbfa6171f14b",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 5,
-                    "sha": "da34453fa2a5653c3f8cc14d7f3fb7aef1017d6d",
+                    "sha": "1003e336de60264378b77e4d030b765104e40971",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 6,
-                    "sha": "613110a14dfa3930b41471e5344479f76bcd4379",
+                    "sha": "324676c4d80bfe80e952b8d1b3844a82de4fff22",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 7,
-                    "sha": "357d007c79c5fa633ad3c086936ca3f9268f52b0",
+                    "sha": "4226a9aed0b323e90ae3a8a24cd2533e532a28fc",
                     "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
                 },
                 {
                     "page": 8,
-                    "sha": "dce08886c9509111b7ddc567014aac42f04ade2d",
+                    "sha": "1edbc86ad2b6f4074a310e194bfc7dd00fabd992",
                     "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
                 },
                 {
                     "page": 9,
-                    "sha": "61f5c0322b9d9ef81073a1da1cefa51c9f98f652",
+                    "sha": "82358d2e6802f5f20530ad65b2b150e2d5e484fb",
                     "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
                 },
                 {
                     "page": 10,
-                    "sha": "7299a8e7bb671b4c1fae744c4ce2c9db25dabe94",
+                    "sha": "82b542470fd06fadf79fe367ae399747cd81ed6e",
                     "description": "Remarks:"
                 },
                 {
                     "page": 11,
-                    "sha": "538f273c835e559e870adfd500b15802a314294e",
+                    "sha": "6d66dc28c806ac22f29ddc95a297c2a346f2ccf1",
                     "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
                 },
                 {
                     "page": 12,
-                    "sha": "6cd6af1a94756b28fc36a13690055440266ddf97",
+                    "sha": "f4f25dc5eaa1a07eef548d31a7616c24cbe499ec",
                     "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
                 },
                 {
                     "page": 13,
-                    "sha": "132f9151bc90affaa3982f9af561a605e890bc8d",
+                    "sha": "60c09ecceb3c3e298e3c2d77cb2807ce4e4a07a3",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "2674962841fdb728f070a4cf6a132f8cad424054",
+                    "sha": "3b11c90df2d73395a599e46d2f74290358300f70",
                     "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
                 },
                 {
                     "page": 15,
-                    "sha": "debeb0621a97e7e44881062c1a7b61600cfb7de4",
+                    "sha": "58c50148bc2cdb6a3989a8dbceadfb934bad1dc5",
                     "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
                 },
                 {
                     "page": 16,
-                    "sha": "78b136f935197400e0ff5a9e1fa0be2ea3a1e026",
+                    "sha": "aab2c7eb8314405e3bb979d561b1865e6362b8fe",
                     "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
                 },
                 {
                     "page": 17,
-                    "sha": "e19dbd67d86ccc5053a7dd06f5fc24be94bb0455",
+                    "sha": "30d6a0e1723e0fc39740fb410ac77e117259dcdb",
                     "description": "Performance Measures Set Retrieval Effectiveness: Recall Estimation"
                 },
                 {
                     "page": 18,
-                    "sha": "ddd8709849cf32fd75b05b6c23ef46486aacda4e",
+                    "sha": "2f8b103965f55553a5cbe738815adf17c6311672",
                     "description": "Performance Measures Ranking Effectiveness"
                 },
                 {
                     "page": 19,
-                    "sha": "3b3548e720a5fa1688e925f86d6b851c308fab02",
+                    "sha": "d1749b19d9464b792bbd2fb95a7b018510ddee05",
                     "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
                 },
                 {
                     "page": 20,
-                    "sha": "625441859aaf711e2f49047d0540c0ad5ee7ee64",
+                    "sha": "2216d4f48ef2ef727160a2e82503f5f24dd3c9b0",
                     "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
                 },
                 {
                     "page": 21,
-                    "sha": "7fe1afd8e466b0c3a085c91d61c3541641091397",
+                    "sha": "b82666aa16ced9b21adb858d408a464d231911d3",
                     "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
                 },
                 {
                     "page": 22,
-                    "sha": "754de8cdae916fd0d2f9d85c89dddd7c70f32b59",
+                    "sha": "5bceeaf9755b05ea53439e09ce74af0fc73b6765",
                     "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
                 },
                 {
                     "page": 23,
-                    "sha": "cbe42e1e54f1f606bfa0f7eddce22aa36029a8f6",
+                    "sha": "2791d160060f3c81d61bb10f9f52f6afa840c22d",
                     "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
                 },
                 {
                     "page": 24,
-                    "sha": "343e48e403432e27574e9b8a98fa413149f6d167",
+                    "sha": "8e987311fab7e366a365ba824d4c0fc21a69835c",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 25,
-                    "sha": "f0c5ea3b67bf5d32cb9e0d050a3c30fe523d89dc",
+                    "sha": "05f2690475f78648d9e7605c2fd2b5c78c1c6e64",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 26,
-                    "sha": "d7f09b2fbf2a0ec9521b2ffdc4e2c5fd92c0434b",
+                    "sha": "93b6f344f142aa4c0c99ab8d831651d85029251e",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 27,
-                    "sha": "3d92c5f240ab5345c7e58015c08f755c3d8c6d37",
+                    "sha": "9df9970d3a58b740d41b0f107c968a00c1241e06",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 28,
-                    "sha": "de05e7add32e963b4574fe27e846f8e0c283d7ff",
+                    "sha": "f34991bb2783bd7ae74d3b6b14e8be56f36582a4",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 1)"
                 },
                 {
                     "page": 29,
-                    "sha": "1bc5097ce016eed9bbd47389400fcff67b3df96e",
+                    "sha": "7019b711a0d0091ab6763a2c8972833df721ff0e",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 2)"
                 },
                 {
                     "page": 30,
-                    "sha": "e2efe9000c473fac8343190866a7624e874f7d1b",
+                    "sha": "289139e0e641267cd3d6aca3c0d28923cf2d2f5b",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 31,
-                    "sha": "8077c5c2782a0f982a510eaa81fbd4561be22466",
+                    "sha": "7579b35cfbbc6cc27c82cabf5e131671342f5053",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 32,
-                    "sha": "c97699b246a587f2aa7a571a02a20d65379f6008",
+                    "sha": "9f2ef0305b0fc011d42b5cf62a68c5d0af8ba8fb",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 33,
-                    "sha": "7cb4539f229af360bcb6cd2284dfda461c5d3285",
+                    "sha": "97c5ec831e6ed00286304f7f9441976c3a93c817",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 34,
-                    "sha": "258f9fe3037616782ef81f9b7f8e7eeea1c01ec3",
+                    "sha": "9107f515ab041474e586c2bc2a5dad5ecfd1dc5b",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 35,
-                    "sha": "2e3264e4629593d12fd66407b716d294b53d1fa1",
+                    "sha": "ef886d1fc5cf9a3d0bb1dc48956beb9d9e739458",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 36,
-                    "sha": "60b3ead2b6a0c8e3163f5f3ea1b7ac2710b60bcd",
+                    "sha": "73dbbd9c1948fd00a3e6b0faf55cf793284dc370",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 37,
-                    "sha": "1d4b039b1d04fa2b56d0107025ba238ed5105671",
+                    "sha": "b3dc482410ba30f9077589e39bdfcf1021f4b86c",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 38,
-                    "sha": "3bbe78a50c293d8c317c63dab5ab1ac1df161069",
+                    "sha": "5cc0c7de7492150bd1a7dca4dcf8498708473072",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 39,
-                    "sha": "c64af606d3933fad6076969be140c8146cac00c7",
+                    "sha": "d3fbdcb24221e9281623840d20a828e244ae8169",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 40,
-                    "sha": "8ddbba6514419cdd60e51e33a3e75199edf5acca",
+                    "sha": "75f0647463d1b6679ba609e162acd406653673f6",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 41,
-                    "sha": "33158cfaf52e2cd07e29974c4aa446311df308ec",
+                    "sha": "40561be1431fb7722c2125b74753923d94dcb76d",
                     "description": "Performance Measures Ranking Effectiveness: Mean Reciprocal Rank (MRR)"
                 },
                 {
                     "page": 42,
-                    "sha": "f8d355a13caa0be06bdff68b790bea56eade4840",
-                    "description": "Performance Measures Ranking Effectiveness: Discounted Cumulative Gain (DCG)"
+                    "sha": "b54ad0d94f0fa1267141f819b51b27f74512355e",
+                    "description": "Remarks: [Fuhr 2017]"
                 },
                 {
                     "page": 43,
-                    "sha": "fa30e22be7cbb8ef26a542d8ce90723bb533fbce",
+                    "sha": "823ef9001703070f98dc344706715965a422c3d4",
+                    "description": "Performance Measures Ranking Effectiveness: Discounted Cumulative Gain (DCG)"
+                },
+                {
+                    "page": 44,
+                    "sha": "38880ea8f319dce4600686c94597e6ebffc349f5",
                     "description": "Performance Measures Ranking Effectiveness: Normalized Discounted Cumulative Gain (NDCG)"
                 }
             ]
