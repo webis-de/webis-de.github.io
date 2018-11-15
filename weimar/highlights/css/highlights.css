@@ -1,0 +1,29 @@
+#webis-highlights h2 {
+  margin-bottom: 2ex;
+  margin-top: 1.5ex;
+}
+
+#webis-highlights-list {
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-bottom: 5em;
+}
+
+#webis-highlights-list li {
+  margin-bottom: 15px;
+  list-style-type: square;
+}
+
+
+.tool {
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.tool-image {
+  margin-right: 5px;
+}
+.tool-image, .tool-description {
+  display: inline-block;
+  vertical-align: middle;
+}
