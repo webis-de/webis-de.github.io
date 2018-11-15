@@ -69,18 +69,21 @@ description: Overview of research that are used by the Webis research group
         <h2 id="research">Research</h2>
 
         <p>The heart of our solution for the person resolution problem is similarity graph clustering. Let <i>G=&lt; V,E, &phi; &gt;</i> denote a weighted graph with node set <i>V</i>, edge set <i>E</i>, and edge weight function <i>&phi;</i>. Each node represents a document, and each edge <i>e</i> in <i>E</i> has a weight <i>&phi;(e)</i> in [0,1] that models the similarity of its incident documents with respect to their referents. Using such a graph-based approach, the challenge can be subdivided into the following steps.</p>
-<ul><li><i>Modeling</i>. Design of a similarity function &phi; that reflects page similarity according to individuals (also called &quot;referents&quot;).</li><li><i>Merging</i>. Choice of a clustering algorithm to generate different clusterings using various parameters.</li><li><i>Evaluation</i>. Test the validity of the generated clusterings in order to choose the best.</li></ul>
+<ul>
+  <li>Modeling. Design of a similarity function &phi; that reflects page similarity according to individuals (also called &quot;referents&quot;).</li>
+  <li>Merging. Choice of a clustering algorithm to generate different clusterings using various parameters.</li>
+  <li>Evaluation. Test the validity of the generated clusterings in order to choose the best.</li>
+</ul>
 <p>In general, the modeling part constitutes the most critical and most important part in the analysis process. If the model is poor, no combination of clustering algorithm or validity measure can succeed in producing a high quality clustering.</p>
 
-    <p><b>Analysis Process</b> For training purposes, we assume the existence of a training set of Web pages that has been labeled according to referents. At training time, a similarity measure in form of a classifier is learned from the training data, which is employed online for deriving similarities of previously unseen Web pages. In the following, the procedure for learning a similarity function (at training time) and the procedure for applying the learned similarity function are shown.<br /> </p>
-<p>Training procedure:
+    <p>For training purposes, we assume the existence of a training set of Web pages that has been labeled according to referents. At training time, a similarity measure in form of a classifier is learned from the training data, which is employed online for deriving similarities of previously unseen Web pages. Training procedure:
 <ul>
   <li>(1a) For each document within an instance, several representations are computed. In particular, we compute a vector space representation using a TF*IDF weighting scheme, a core vocabulary representation, a semantic similarity model based on Wikipedia, a categorical model where the document is classified into the DMOZ hierarchy, and a high-level domain specific model that uses an NLP parser to extract specific knowledge.</li>
   <li>(2a) For each pair of documents, similarity values &phi;<sub>i</sub> according to the mentioned document representations are computed.</li>
   <li>(3) A logistic regression is used to combine the similarity values <i>&phi;<sub>i</sub></i> of an edge <i>e</i> into a single value <i>&phi;</i>. The objective of the regression is to produce a value of <i>&phi;</i>(<i>e</i>)=1 if the incident documents of e belong to the same referent, and <i>&phi;</i>(<i>e</i>)=0 otherwise. In other words, the value of the logistic regression represents the probability that the documents incident to <i>e</i> belong to the same individual.</li>
 </ul>
 </p>
-<p>Once the model is learned, it can be employed to combine the similarity values <i>&phi;<sub>i</sub></i> into one value <i>&phi;</i> for previously unseen data. The following procedure illustrates how the trained classifier is used online.
+<p>How the trained classifier is used:
 <ul>
 <li>(1b) For each pair of documents in an instance, the similarity values <i>&phi;<sub>i</sub></i> are computed.</li>
 <li>(2b) The trained classifier is used to combine the <i>&phi;<sub>i</sub></i> into one value <i>&phi;</i>, which is used as edge weight in a similarity graph <i>G</i>.</li>
