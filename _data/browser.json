@@ -278,1121 +278,1131 @@
             ]
         },
         "unit-de-design-and-models": {
-            "sha": "1e59dab15c3aee33e538125d6e049617aae4dae8",
+            "sha": "acb249b3361794f08c2ac7d33e85ec1bb74950ac",
             "numpages": 29,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "6a000feaa7e4daa89f1c6de1c386b565c201784c",
+                    "sha": "f59d394c3f430ca99706d8183ee0a86db152935e",
                     "description": "Kapitel DB:II II. Datenbankentwurf und Datenbankmodelle"
                 },
                 {
                     "page": 2,
-                    "sha": "496655452c509619a1ee5ea0806aea4461d72028",
+                    "sha": "421c3718358fbab09d4ec4bd77c79df5e0986034",
                     "description": "Entwurfsprozess ANSI\\u002fSPARC-Schema-Architektur"
                 },
                 {
                     "page": 3,
-                    "sha": "7eed65cfe9f5ab0120bee34894d04b3552df5f76",
+                    "sha": "6733bdc1a814cd2756105cd406386ca513d83c5c",
                     "description": "Bemerkungen zu [p.30 Elmasri\\u002fNavathe 2010]:"
                 },
                 {
                     "page": 4,
-                    "sha": "8525b10ed426268afb35c8b0fdfe84262458ff78",
+                    "sha": "8c06f5dfe8c7d97a8c90d7c039caaee0e04bfe57",
                     "description": "Entwurfsprozess ANSI\\u002fSPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 5,
-                    "sha": "dd77a5c175c136c7699a523a3a1662eb1c08b974",
+                    "sha": "68e91ae267f4335245f9c37324e86eaf0c3dc410",
                     "description": "Entwurfsprozess ANSI\\u002fSPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 6,
-                    "sha": "c6c9e3ddd809e7a3ff7c8774c45dc4f91a91bca2",
+                    "sha": "e6fb9551b82a2439a413406d013b820b4ff41b52",
                     "description": "Entwurfsprozess ANSI\\u002fSPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 7,
-                    "sha": "dc907507353ea16b021e8bd896cba534f48281a1",
+                    "sha": "c5298fec0fe7cbf25f774b99f0125790a2a8c438",
                     "description": "Entwurfsprozess ANSI\\u002fSPARC-Schema-Architektur: Entwurfspraxis"
                 },
                 {
                     "page": 8,
-                    "sha": "7d6e6c59c3d2cf330573ff7cd3e1e0c27dc0bae1",
+                    "sha": "5bb20d7d98c479d2d80ba9e9940c90908a158df2",
                     "description": "Entwurfsprozess Zentrale Anforderung an den Entwurfsprozess ist die Informationserhaltung:"
                 },
                 {
                     "page": 9,
-                    "sha": "f6862fdddcbde9849cb17b29547ddafa71e4dd79",
+                    "sha": "eebe389587543c2e2149cbaf9f22bc2ef0ee7223",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 10,
-                    "sha": "d613c67ff0105d575028138ca940f7a45433d9e9",
+                    "sha": "08e6392a3bfdd00e44f765b94c87aa438ec0cd43",
                     "description": "Entwurfsprozess "
                 },
                 {
                     "page": 11,
-                    "sha": "8defd0a98093a3e39923b0fc5689dbed8762eb12",
+                    "sha": "6332305e3cc6563c127bd560e0ae100c62e8aaac",
                     "description": "Phasenmodell des Datenbankentwurfs Informationsstrukturanforderungen"
                 },
                 {
                     "page": 12,
-                    "sha": "2fe79ffd9b90e23259dd95a6eb7dd6543d3d652d",
+                    "sha": "6b48d03305c0e1819d3bc046f1b9fa9712aa7a8f",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 13,
-                    "sha": "d1832a02f0ebbd3fca1a07073eb9a1637b5a35fa",
+                    "sha": "1ad5217268d967771bb54ceb0680a5547ba6042e",
                     "description": "Entwurfsprozess Phasenmodell: Anforderungsanalyse"
                 },
                 {
                     "page": 14,
-                    "sha": "28ff12df277cde75d6df594a3c23e40f10a4562a",
+                    "sha": "d49a11d6150f92c8487e14f8ac2ac39e39997f44",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 15,
-                    "sha": "d5d199208d780bfe5987b4b3b11f7b71c0883281",
+                    "sha": "6e315c4cec72a162abe6c86a5425d2ce5bb73aa3",
                     "description": "Entwurfsprozess Phasenmodell: konzeptueller Entwurf"
                 },
                 {
                     "page": 16,
-                    "sha": "c2113ff18849a7c8fe6ef8c6d6c2f421cd846935",
+                    "sha": "f85675ecc3d9e6be3a8806a79e692466a775ee55",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 17,
-                    "sha": "3d13be27fe104e9cfb28103a557c8b35db35f406",
+                    "sha": "2c0d657db57c5daecfb341c7e28b98728244bd4a",
                     "description": "Entwurfsprozess Phasenmodell: Verteilungsentwurf"
                 },
                 {
                     "page": 18,
-                    "sha": "0c30b8663f5f7dca06431dcb3e8d991fb0ed81ba",
+                    "sha": "064458c36ffb71c1c472e1cd24128a512ca4f54e",
                     "description": "Entwurfsprozess Phasenmodell: logischer Entwurf"
                 },
                 {
                     "page": 19,
-                    "sha": "cf685b142665b32d44bbbaa4834ae727f38480a3",
+                    "sha": "f47c7d6a174c39d5994686152cbcfa0d544da375",
                     "description": "Entwurfsprozess Phasenmodell: physischer Entwurf"
                 },
                 {
                     "page": 20,
-                    "sha": "2f173745dabc70cf5a0bbeb7c7d21112967fcb35",
+                    "sha": "33119b98a005e33cac378e1855668c25516ec7b0",
                     "description": "Bemerkungen [Schuerr 2001]:"
                 },
                 {
                     "page": 21,
-                    "sha": "e3a558643dad69d421148d04b3c73a85a6155e65",
+                    "sha": "bc5be7f2f38f8907d15e387894c80616f7cb5c7c",
                     "description": "Datenbankmodelle Definition 1 (Datenmodell)"
                 },
                 {
                     "page": 22,
-                    "sha": "3ffc18c3f5667b2559fe40dec4be36fa1f13334f",
+                    "sha": "fb3c2f000fc770bbab1036287460920af293e58f",
                     "description": "Datenbankmodelle Definition 1 (Datenmodell)"
                 },
                 {
                     "page": 23,
-                    "sha": "158e3076a941b2e159970cd822ac28923fec6add",
+                    "sha": "1b04f24a468e2ba1da393b58befd0a923724ac4d",
                     "description": "Datenbankmodelle Definition 2 (Datenbankmodell, Datenbankschema"
                 },
                 {
                     "page": 24,
-                    "sha": "3d945d4c588d61bc5e94791f60fb70c1b05832b0",
+                    "sha": "8655a56ee80c84e9543bd9c9da8650353d653169",
                     "description": "Datenbankmodelle Definition 2 (Datenbankmodell, Datenbankschema"
                 },
                 {
                     "page": 25,
-                    "sha": "ca3090db55f48f3c4af088290b13376827baa8ee",
+                    "sha": "6c4e0a608e6ae8a38b86a4b72172f80acc29ee3c",
                     "description": "Datenbankmodelle Historie"
                 },
                 {
                     "page": 26,
-                    "sha": "36b00fa924682bc238ebc03f29706b181d4e2972",
+                    "sha": "c3af36fd4faa8a65531c69270dcc0cc6ee0e0438",
                     "description": "Datenbankmodelle Datenbankschema"
                 },
                 {
                     "page": 27,
-                    "sha": "9f4fca71c4c0332585b628ffe5b373e00edcf370",
+                    "sha": "40d5e45309c2ac2669086fae4332d421e793a6cc",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 28,
-                    "sha": "6def09e66ca7a8d2ad9e646f48727413c9895728",
+                    "sha": "921290d8ff225926b9ce3b22736b49a8a74bf9a7",
                     "description": "Datenbankmodelle Datenbankzustand"
                 },
                 {
                     "page": 29,
-                    "sha": "228c1f4ee0b89ffc762c6005be28557a939fe3d8",
+                    "sha": "cc7a91c3b2acbe446d0cf56fecb58f469d1c4083",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-conceptual-design1": {
-            "sha": "5673b88d9a438d94ca3916c61ddf5788b0c896ae",
+            "sha": "e1c7b09f54f056a9c552818a06c863c0d3c7c611",
             "numpages": 31,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "2621132b5091924025031c1758d3c777fa561bab",
+                    "sha": "c506dae5aa5c29815620ee08274997a9e84075b1",
                     "description": "Kapitel DB:III III. Konzeptueller Datenbankentwurf"
                 },
                 {
                     "page": 2,
-                    "sha": "92402864e9d715a669e6512dc9f7eab6cf83595f",
+                    "sha": "7f007278411f0272b7a4e5f4deef3e2eb9df56b7",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Historie:"
                 },
                 {
                     "page": 3,
-                    "sha": "a4b8b680aa211c7bbdba22a8e67ddd58c55d784b",
+                    "sha": "e811789dc6d79a3d312bd6f38b1ce86783aac39e",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Elemente"
                 },
                 {
                     "page": 4,
-                    "sha": "c268abc68eb8fde0af3800d071a5039e51c4900a",
+                    "sha": "610c5fbfd53d7b15176561f443da125d238e79e0",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 5,
-                    "sha": "04f9a220d2bca88eed26fd463cc90a367f4f9052",
+                    "sha": "dd7b7a10093b13cbcbce8f27337cca345c1e3993",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 6,
-                    "sha": "5296bc317b3b4817dfb363fe0c6ea031ef778375",
+                    "sha": "46da700cd13066155209f0a7a7dff7921db5c7b6",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 7,
-                    "sha": "7aade13b7107968afebf00b7ba5e5e7039129ad6",
+                    "sha": "3139392234b0624867b1af0baa876c7493d88299",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 8,
-                    "sha": "d57cc545bd891694446c505739941385476065d4",
+                    "sha": "eac59a36d82c5ffdf8b6e8edef7bbfbc6ab098d5",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 9,
-                    "sha": "0629036d1ce503e594d80f407aaa5abf4d7a11dc",
+                    "sha": "d6fb52831dce36ae9b34000c149d215878bdb616",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 10,
-                    "sha": "2069633cee4d5bdcd508728c5ff862ad4f6394d8",
+                    "sha": "0617f8bb0153828bb9045886e85467ee97978d15",
                     "description": "Einf\u00fchrung in das Entity-Relationship-Modell Die Beschreibung der Informationsstruktur eines Anwendungsbereichs im EntityRelationship-Modell hei\u00dft Entity-Relationship-Diagramm (ER-Diagramm) oder"
                 },
                 {
                     "page": 11,
-                    "sha": "ab9fdc4a8fb648269a27e1cf46093ce5215f27a4",
+                    "sha": "8718bcb13cdf6e5c739ae73ed7daac391d52bdaa",
                     "description": "ER-Konzepte und ihre Semantik Datentypen"
                 },
                 {
                     "page": 12,
-                    "sha": "815d077eaa260bd0aa190dc1ca6402e6ff13975f",
+                    "sha": "1ee21dd15db33160c457e2560b815affafb56d43",
                     "description": "ER-Konzepte und ihre Semantik Datentypen"
                 },
                 {
                     "page": 13,
-                    "sha": "2491860197be147db8223205ba914884b7accbad",
+                    "sha": "94abab4f0ddbfd84254547f2ae612757d2711cfa",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 14,
-                    "sha": "505fd6ddc36a43c60d4bf5ece855bbfcb50a481e",
+                    "sha": "4dae1e2e2b87af778ee661502821d711fb7af785",
                     "description": "ER-Konzepte und ihre Semantik Entity-Typen"
                 },
                 {
                     "page": 15,
-                    "sha": "fd9f4dc6d85ecc60d9507f43c1d3150ca1dd78a8",
+                    "sha": "8586043999d9005b23c3de28c4df5c002d0d5d44",
                     "description": "ER-Konzepte und ihre Semantik Entity-Typen"
                 },
                 {
                     "page": 16,
-                    "sha": "b5ec5071e740aa39c3a9d34a119a2261793a2f34",
+                    "sha": "1f811cb1ddcde947451ccf07a7ac10611921bf2b",
                     "description": "ER-Konzepte und ihre Semantik Beziehungstypen"
                 },
                 {
                     "page": 17,
-                    "sha": "d0baf986b8e91d760b205af14d63169e9e555c4f",
+                    "sha": "446564093612b22ca621f7ddad22a299d88eaa14",
                     "description": "ER-Konzepte und ihre Semantik Beziehungstypen"
                 },
                 {
                     "page": 18,
-                    "sha": "1a01c3a0744359f092c6f2f61dfc7b0e6413482d",
+                    "sha": "c8c8c71048f91563c07b5bdc3a26a5eb75a0df31",
                     "description": "ER-Konzepte und ihre Semantik Beziehungstypen"
                 },
                 {
                     "page": 19,
-                    "sha": "3bea05cf19b31a4092281e9a48d753ea98a3beab",
+                    "sha": "a79e0db63119dadd03ec71cfd63568731c483c74",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 20,
-                    "sha": "db6af6b98d4a8df583b4464c9ccd12d8d0f397b2",
+                    "sha": "9c20407cd5487f80d66b07e1a33ace8d11aa3bab",
                     "description": "ER-Konzepte und ihre Semantik Attribute und Attributtypen"
                 },
                 {
                     "page": 21,
-                    "sha": "5e2543703ca64de80d7bdfacf9499b0988799ecc",
+                    "sha": "c111d13057e89831fcab5f1a36a0f16a68988182",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 22,
-                    "sha": "d46aa34156473dc465c11b6dbbbc29fe2b1b7a0d",
+                    "sha": "84e68ee8e81bfcab30bf1917644041661ce5d67f",
                     "description": "ER-Konzepte und ihre Semantik Attribute von Entity-Typen"
                 },
                 {
                     "page": 23,
-                    "sha": "e679bb40e841b81b3032c20c7b88610ee4ffcef5",
+                    "sha": "ae7a6d6b59ce34b77871b3547fba37230bf75a32",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 24,
-                    "sha": "11772b257257749252c2a95d76df0af95eef068c",
+                    "sha": "31f901b33274da3709256b5012e1a309285f616e",
                     "description": "ER-Konzepte und ihre Semantik Attribute von Beziehungstypen"
                 },
                 {
                     "page": 25,
-                    "sha": "8e501a3bf531ea7f949b3b5e7cd4d3c98a2dd6ae",
+                    "sha": "ff758e9d9b6d0981a36872644d166184c70ea919",
                     "description": "ER-Konzepte und ihre Semantik Optionale Attribute"
                 },
                 {
                     "page": 26,
-                    "sha": "d5eff0465b7fe39d8737f5a3fa29937f23b9e7cc",
+                    "sha": "02a5e8d4f24129185d59ef537ad66cb863e49213",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 27,
-                    "sha": "aca81c4de27e5162f0d9b30feb68b341338fdd86",
+                    "sha": "0c33de7f4a3bff0d5b7af527b993d2244f4492c4",
                     "description": "ER-Konzepte und ihre Semantik Schl\u00fcssel"
                 },
                 {
                     "page": 28,
-                    "sha": "7c2d3c1cfd38c3dc49185ec8b111c664a08ec775",
+                    "sha": "f06f2033f08534ef4d0d70d26b37ca192afc7c3f",
                     "description": "ER-Konzepte und ihre Semantik Schl\u00fcssel"
                 },
                 {
                     "page": 29,
-                    "sha": "c65f7d9c381fbe9c23198443c62f3e032c1c189b",
+                    "sha": "25ba7ce5c92bd2251268bb9fa5b4d39d8f9ca339",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 30,
-                    "sha": "cab4b4013a8b8873c05a32c80839c6250c69811a",
+                    "sha": "5c1dcc59432075ade373a8a1fc2223ee0bdfee04",
                     "description": "ER-Konzepte und ihre Semantik Schl\u00fcssel"
                 },
                 {
                     "page": 31,
-                    "sha": "b98a77477068c313233e1310cce154f3e722b3a3",
+                    "sha": "bb366668e34acb4e364077863e568553c4bbdaae",
                     "description": "ER-Konzepte und ihre Semantik Datenbankzustand"
                 }
             ]
         },
         "unit-de-conceptual-design2": {
-            "sha": "3c3e40971406452addb8dbce4893d9a188cfebef",
+            "sha": "84bf72bcc508741f05804e44972733392f965c3d",
             "numpages": 52,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "b5c7e00194dc64c60340ad3e7b134e593c1d0180",
+                    "sha": "50877c8395a3d06ea99d33f22be5053009ea8f75",
                     "description": "Kapitel DB:III "
                 },
                 {
                     "page": 2,
-                    "sha": "c8c7f0a1726b96d63477b1036624dd5e0a9cd11e",
+                    "sha": "0e338e78bf67aeb5a6245fc2dda82f4392d19d8c",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei zweistelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 3,
-                    "sha": "b9aab853aa0288595cdce68a5945af72a5da7813",
+                    "sha": "d55b65b03996d162c0ea756f09fefd42d6d147f2",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei zweistelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 4,
-                    "sha": "274b28ccef17758dc2f60c63c6d0d0116cbd9622",
+                    "sha": "f756c001409369995278f0552274ef5ccb51114f",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 5,
-                    "sha": "ab5b7744c82e43dc279ee56f260c38d1858ad7dc",
+                    "sha": "c558c75ab3a1bbb06aa28dc8426bf77ce9b9b549",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei zweistelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 6,
-                    "sha": "323257d705dbf9050ae04adf59731e7898babf30",
+                    "sha": "11935f68ec5f5c3c77595d3e5c428caee38870f8",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 7,
-                    "sha": "e0b71d7ab4ffc2d061907935eb4db731a63eeaa7",
+                    "sha": "d8d1bcfbc1e6d5fc520fde26d14ca1adc4bc8f98",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei zweistelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 8,
-                    "sha": "e43af96aa5552d193fa974857835c80cd4de32fe",
+                    "sha": "745949ceb1ab00645a684b2794d6d0367248801d",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei zweistelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 9,
-                    "sha": "f7a3e5ae225ca3b563b9e8df5ff9df332f6d5fa2",
+                    "sha": "1590c4ac1ac21ed85879a888575315f9cfc7d3c5",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 10,
-                    "sha": "d88b891b5ac2f0cd9ef429e78295b6873b04ecb4",
+                    "sha": "9f5957dc284987053e92e304a3e5ff7e3ff17d27",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 11,
-                    "sha": "b7fc7b0fe2c0f45c0a3d8ec9d2a533f18b19c13b",
+                    "sha": "c5d58737f90f2195a507482eb1ea506b38774c45",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 12,
-                    "sha": "433f8141331245d52966ac0172080d2ce1dd8cdc",
+                    "sha": "24cc505206617bdeb006fea78f42b7c902879b64",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 13,
-                    "sha": "5535de38e70087c19c212175e3b5961b58c0a2e5",
+                    "sha": "733ea66c6061f1f3c517a4a0801643335f14964d",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 14,
-                    "sha": "00d46e8fdbe4fdaae8f6e45b795bb09b7d88e2e3",
+                    "sha": "1b24b5dd2047fc0f36651ca27d45c74721893248",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 15,
-                    "sha": "2bbcade6b635d0ef38fc52501c058da65d765e08",
+                    "sha": "977f13b4a662d19bb9bfdc98b9fa91b4128e7151",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 16,
-                    "sha": "311889c300ab620506342d50f101ccdfc350f12c",
+                    "sha": "c2d4eb049027caf337d2e6f9ab72b456ade65e37",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 17,
-                    "sha": "00b7882c429385b55115cb11dfcfb77e48579619",
+                    "sha": "dc201567a62919c2a6d4ac19abe6b375e080dfac",
                     "description": "Charakterisierung von Beziehungstypen Funktionalit\u00e4ten bei n-stelligen Beziehungen (Formalismus I f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 18,
-                    "sha": "e95a78b15aad506ddb063946a7fc707f83a66b28",
+                    "sha": "d8e6a78b115e8ad0f4d60a2125ae050aeb62ae4a",
                     "description": "Charakterisierung von Beziehungstypen [min, max]-Notation (Formalismus II f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 19,
-                    "sha": "600208c2e8ffa4888868420dacf134f10ea65b79",
+                    "sha": "4c74d2a341fefd2760be7c467684bdba89f12fe1",
                     "description": "Charakterisierung von Beziehungstypen [min, max]-Notation (Formalismus II f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 20,
-                    "sha": "e2b96c46aaef0f03721042ab58d64332318dd445",
+                    "sha": "801af835b9dac18df48bc6f0836602025059af4a",
                     "description": "Charakterisierung von Beziehungstypen [min, max]-Notation (Formalismus II f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 21,
-                    "sha": "29a32d1ce10d2c92bc660823ca4cc7394592c005",
+                    "sha": "3c73bd1b7d6053741e0e2c7fb1ecaf247e8795fe",
                     "description": "Charakterisierung von Beziehungstypen [min, max]-Notation (Formalismus II f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 22,
-                    "sha": "b8e8eeba72673c4c3f83b79b75ff5dabbcfe19dc",
+                    "sha": "26a1f6ec27da7c456b19c018d4cb0b33c3bbd528",
                     "description": "Charakterisierung von Beziehungstypen [min, max]-Notation (Formalismus II f\u00fcr Kardinalit\u00e4ten)"
                 },
                 {
                     "page": 23,
-                    "sha": "ed1139d0d71674cc336619d1efff03b2646a5698",
+                    "sha": "4fdf2080977c97d737062540b0901f27ebb3d3b4",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 24,
-                    "sha": "8cb330eab92faea9ae9556ca442e5a1646960462",
+                    "sha": "dea2833d8f5f2fd39862bbfa5b34c5af16561752",
                     "description": "Charakterisierung von Beziehungstypen Formalismus I versus Formalismus II"
                 },
                 {
                     "page": 25,
-                    "sha": "758999e6b9b29471f2f11bf009408609c3a70515",
+                    "sha": "2c8c23d1007c23f8d316d5d7c8da97c0cc1124ba",
                     "description": "Charakterisierung von Beziehungstypen Formalismus I versus Formalismus II"
                 },
                 {
                     "page": 26,
-                    "sha": "713f3a734c4bf10868f671811411b8cc19d67501",
+                    "sha": "2965b978deed446921c52812576b136888e2e54f",
                     "description": "Charakterisierung von Beziehungstypen Umwandlung n-stelliger Beziehungen"
                 },
                 {
                     "page": 27,
-                    "sha": "72ddb7c0b175783e25dfaecebd37a6c098827184",
+                    "sha": "ba2ab5f0fbeb8465be17beb3c0f410933aacee0c",
                     "description": "Charakterisierung von Beziehungstypen Umwandlung n-stelliger Beziehungen"
                 },
                 {
                     "page": 28,
-                    "sha": "6010aec9de6ffa84f5f35a48f07e40709890f8e4",
+                    "sha": "2237b48cd974fab926f84067bfad8d63254e73a9",
                     "description": "Charakterisierung von Beziehungstypen Umwandlung n-stelliger Beziehungen"
                 },
                 {
                     "page": 29,
-                    "sha": "961978bcaaf3d814052a927fd5b0d5e652a2194b",
+                    "sha": "aa203583f956bd8f8bdcb1a41b938c9631f3e70a",
                     "description": "Charakterisierung von Beziehungstypen Umwandlung n-stelliger Beziehungen"
                 },
                 {
                     "page": 30,
-                    "sha": "34f94a009d723538fc5ea9a25962483192e3fea4",
+                    "sha": "f772ea89ac62f92a5d5958d7db78397f6427048b",
                     "description": "Charakterisierung von Beziehungstypen Umwandlung n-stelliger Beziehungen"
                 },
                 {
                     "page": 31,
-                    "sha": "7cf8e65e00545d2c23aaa1a3f4f5d24b483eb599",
+                    "sha": "503e1588f2c3daad1888516cd1ca1c8a564d8157",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 32,
-                    "sha": "2ed0c5ea6c549a254718bae8b85339ee81c46975",
+                    "sha": "8451f23fe2c8630357afabe4c120f5af00aae57a",
                     "description": "Existenzabh\u00e4ngige Entity-Typen Bisher vorausgesetzt: Entities existieren autonom und sind innerhalb ihres Typs"
                 },
                 {
                     "page": 33,
-                    "sha": "04a74d3ae5f4a96f7498b84cfe25d6eb21387240",
+                    "sha": "0f938c78e74610049be984ad294b9dc409cd3435",
                     "description": "Existenzabh\u00e4ngige Entity-Typen Bisher vorausgesetzt: Entities existieren autonom und sind innerhalb ihres Typs"
                 },
                 {
                     "page": 34,
-                    "sha": "52daeb379f44718e54281aab9c455eaa33bc13ec",
+                    "sha": "cc256c7e673419bfd4549940cb74db8ffca489d1",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 35,
-                    "sha": "3f4105878742af827f474b584525dedee8e376a0",
+                    "sha": "ef416f0d37cee7813c5b0d2c0f50c36005670f3d",
                     "description": "Abstraktionskonzepte Generalisierung \\u002f Spezialisierung"
                 },
                 {
                     "page": 36,
-                    "sha": "c197937c24a17d0335df6aacb6d7b251ccdd1c71",
+                    "sha": "94dac54ba6012e5dc9a1634f88870e51ab0c5879",
                     "description": "Abstraktionskonzepte Generalisierung \\u002f Spezialisierung"
                 },
                 {
                     "page": 37,
-                    "sha": "899587d5d3c04e4747bb0ecf09aa50848843f849",
+                    "sha": "8f2dad4d94010b7dc85e8ffd887961c65393ffef",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 38,
-                    "sha": "02ceecf4d477b7761ebfeddd5c843960f67a6cee",
+                    "sha": "54b688922ec61c3922e5e629a79d5f479e261854",
                     "description": "Abstraktionskonzepte Generalisierung \\u002f Spezialisierung"
                 },
                 {
                     "page": 39,
-                    "sha": "dbb08b14e67f01bf9b4b4ac51197f3c09ccf1253",
+                    "sha": "a3316ec6b8f217b21a563df0c3f80be236a3a55c",
                     "description": "Abstraktionskonzepte Generalisierung \\u002f Spezialisierung"
                 },
                 {
                     "page": 40,
-                    "sha": "8bafa5ea5a635076a8fcd3fb99bbb0749ac1a5ca",
+                    "sha": "cff4c88050a8c7db58d21a6851146b9eedc334a6",
                     "description": "Abstraktionskonzepte Generalisierung \\u002f Spezialisierung"
                 },
                 {
                     "page": 41,
-                    "sha": "617c11a60281c3dc842dbf588bc16f6ad9d6f6f6",
+                    "sha": "6c24dce1eeaccdd3c39045ef0b911c91b8efa609",
                     "description": "Konsolidierung, Sichtenintegration "
                 },
                 {
                     "page": 42,
-                    "sha": "80b4dc58cc5386991f0d6a213ad4da0b91edbccc",
+                    "sha": "e7d84dd4771ee1222aeb93d61d45d1f0f56f0572",
                     "description": "Konsolidierung, Sichtenintegration "
                 },
                 {
                     "page": 43,
-                    "sha": "1078b0d4596bbbd584c8a580382beed4f8d61d0f",
+                    "sha": "d58720a4fc6d544f4eb6b12b615f1350e9c72bbe",
                     "description": "Bemerkungen: [:::::: DB:II ::::::::::::::::::"
                 },
                 {
                     "page": 44,
-                    "sha": "5c92ef2e4f22343e0f3c6c411922fb9185636b6b",
+                    "sha": "0447bad3897a2400f0bfc34eebbc7159cecdeb0f",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 45,
-                    "sha": "e22a89657578454ff2a015d91fdc63e04ca8bd2f",
+                    "sha": "a5522e86829685b7c173a8478e29081eab9bd179",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 46,
-                    "sha": "aa04ecb6f2289fe24ea39d9dfecfaca69e27b814",
+                    "sha": "9881d909342f8b5df745c0adb5512b99a6920704",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 47,
-                    "sha": "a96cd9a37ae12446c2d77ab7621704548b433163",
+                    "sha": "20e6bc8fa5d419d76702be6bcc3cf845d09efbd9",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 48,
-                    "sha": "5985f646ebf2784c0f7aeca22afdc6b9f4eb3ee8",
+                    "sha": "407da0b39a35bc5b5596af7550bc79761bce55af",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 49,
-                    "sha": "c0e6aa73f0304c192d1424ddb89c521127350473",
+                    "sha": "7925a78154e0bd3d5d4b34e48e66d17305c906cc",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 50,
-                    "sha": "330adb24b1a6135346fb01d0176e7e09cb964f3d",
+                    "sha": "950d99679f0a08f4ec4e1c11d9370cbdf24ad357",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 51,
-                    "sha": "400ef6e650530190d9a6c8814a37d13d5140af5b",
+                    "sha": "49a05eeee576d8ed3d6758f25eb73b4c582026ef",
                     "description": "Konsolidierung, Sichtenintegration Beispiel: drei Sichten einer Universit\u00e4tsdatenbank"
                 },
                 {
                     "page": 52,
-                    "sha": "ef5ceb5dfd0e8bf25107d0cab63991ed82c5b796",
+                    "sha": "8eb45ca7502fb351ebf5d3e7f5a0eca3ff898b20",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-relational-design1": {
-            "sha": "fbfda3bde901e855d7e15ec02a82658c811ba679",
+            "sha": "ed6d530345aefde5ba396b02005b66cb11169b63",
             "numpages": 44,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "508ad1c334c413e75ff471ad691136ac943efe05",
+                    "sha": "aa948b403b88d8e9f130d47cc587f25c7f7a4d63",
                     "description": "Kapitel DB:IV IV. Logischer Datenbankentwurf mit dem relationalen Modell"
                 },
                 {
                     "page": 2,
-                    "sha": "f22fc39c538d9d7f8cd079b057fd563a42caf475",
-                    "description": "Das relationale Modell"
+                    "sha": "2c886f3bf4b27ac5a5abad8863726106e42dadcf",
+                    "description": "Das relationale Modell 1. Im relationalen Modell werden die Objekttypen der zu modellierenden"
                 },
                 {
                     "page": 3,
-                    "sha": "05c9e141e8b435bb946482a92ff6a6a4f777db1d",
-                    "description": "Das relationale Modell"
+                    "sha": "76f62a742b57257a1142dbd8185ada8c715fa62a",
+                    "description": "Das relationale Modell 1. Im relationalen Modell werden die Objekttypen der zu modellierenden"
                 },
                 {
                     "page": 4,
-                    "sha": "602f94fe06ee2b0ff307a5dc881ed5311608d89c",
+                    "sha": "312fe00db4438f28d221464e1d453cfccc19c638",
                     "description": "Das relationale Modell Interpretation einer Relation als Tabelle:"
                 },
                 {
                     "page": 5,
-                    "sha": "308db4ff0838d48d5cc38539d68afd1385542668",
+                    "sha": "a00e4692fb3fd16d9374c60fc0686b443766bf72",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 6,
-                    "sha": "b4d595c44ffd800939cb9c152fda84ba24642033",
+                    "sha": "d29cce149bcd803db0ad97e2f736f12a63ede4b8",
                     "description": "Das relationale Modell Definition 1 (Relationenschema, Tupel, Relation)"
                 },
                 {
                     "page": 7,
-                    "sha": "00e647df6c5fc4127cffa5e290e0b851a4aa4673",
+                    "sha": "a929cd82fb1be38b845b9e5f09c7082c226a4ae2",
                     "description": "Das relationale Modell Definition 1 (Relationenschema, Tupel, Relation)"
                 },
                 {
                     "page": 8,
-                    "sha": "01a811d673e0147ea7127923d680b27d7491b1a6",
+                    "sha": "b33bcfcd87d71e4a615e0a341f6bbcb518b10f29",
                     "description": "Das relationale Modell Definition 1 (Relationenschema, Tupel, Relation)"
                 },
                 {
                     "page": 9,
-                    "sha": "341516f270cba4feac5398e531178be969b59583",
+                    "sha": "b0db77fb4df4905a92d0f7eb8b56b3fdf3f66d23",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 10,
-                    "sha": "5c51824d5b5256595ad2d575a7868074901dea67",
+                    "sha": "f81465a70db240d52f84225969856ab4a8d73a12",
                     "description": "Das relationale Modell Beispiel:"
                 },
                 {
                     "page": 11,
-                    "sha": "7e8f4050743214127da96644ded3e28b46ab994e",
+                    "sha": "437ef167a062f08bf1f00f6d42fd32bf6117897d",
                     "description": "Das relationale Modell Beispiel:"
                 },
                 {
                     "page": 12,
-                    "sha": "5a76893a4b5e1048832d41a7874bf566e08dfbf6",
+                    "sha": "417da2abeb4544d3c3bfb14e0f95c5dc3b718868",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 13,
-                    "sha": "38c8a3e04266d127273f51bcd1a1ef26799faf6b",
+                    "sha": "d25df9ee676cc2aa4573fe27aec4f9afc87dd194",
                     "description": "Das relationale Modell Definition 2 (Datenbankschema, Datenbankzustand, Basisrelation)"
                 },
                 {
                     "page": 14,
-                    "sha": "953cd0b196cc5c9c337aef2fa5093838980e768a",
+                    "sha": "e613f9f435dc26b96c95ca42984402fb5a2f8f6a",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 15,
-                    "sha": "b2a5d2fa9f2f2edf5d4b2b922cce52bdcc8b4750",
+                    "sha": "33bc53eafd25a208b8ffa142550c97f7586bd7a2",
                     "description": "Das relationale Modell Beispiel:"
                 },
                 {
                     "page": 16,
-                    "sha": "3ff1e2c6c7d0290fff8ad63eedce616ab9d50491",
+                    "sha": "3da97ab0780ad3c5d0a7eebff2a8770f988b09bb",
                     "description": "Integrit\u00e4tsbedingungen Definition 3 (Integrit\u00e4t)"
                 },
                 {
                     "page": 17,
-                    "sha": "43afbac8804d6dcc7610e4cadd25b0492886ca4f",
+                    "sha": "b5fdb4a6fa0038c6d3e45d8e2216b84c27e75419",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 18,
-                    "sha": "70643bd9a28d0b976438f91313d203e6d7392ea0",
+                    "sha": "76287fbd966e69bd144a2ff8ed0516be0b5bbd1b",
                     "description": "Integrit\u00e4tsbedingungen Physische Integrit\u00e4t"
                 },
                 {
                     "page": 19,
-                    "sha": "ae23507f4706773d515cb84510ff69da695f4265",
+                    "sha": "6dbd04b42befea4c6ac4a1467bb87bc4484d2949",
                     "description": "Integrit\u00e4tsbedingungen Physische Integrit\u00e4t"
                 },
                 {
                     "page": 20,
-                    "sha": "c6a336ce77a88f11bb9ae97c6c6ed0bde8d7c1c2",
+                    "sha": "1d1d8fa471b1642324571d5e644375dde3d30323",
                     "description": "Integrit\u00e4tsbedingungen Datenbankintegrit\u00e4t(sbedingungen)"
                 },
                 {
                     "page": 21,
-                    "sha": "8480212f1a3ba2c07b7329e18a4e3e39828779ce",
+                    "sha": "df70bee933c09b2f78a6462adf5d046834b035d5",
                     "description": "Integrit\u00e4tsbedingungen Werteabh\u00e4ngige (= statische) Integrit\u00e4t"
                 },
                 {
                     "page": 22,
-                    "sha": "27896e1d8771c68bd26cf73b8ede00fa3103e9f8",
+                    "sha": "329b10f04aa783cfa92c8da6e0495d0fc7ffdd7a",
                     "description": "Integrit\u00e4tsbedingungen Werteabh\u00e4ngige (= statische) Integrit\u00e4t"
                 },
                 {
                     "page": 23,
-                    "sha": "ded429ce22c3d07e155d70ffa32fc0af835fed27",
+                    "sha": "17d304ce8c5ec81b0011c0fdd8eca8c0e9cbefdd",
                     "description": "Integrit\u00e4tsbedingungen Operationale (= dynamische) Integrit\u00e4t"
                 },
                 {
                     "page": 24,
-                    "sha": "eec6fc76ab899f80542fc8a3f5e83d6522827a08",
+                    "sha": "99e4586175532cb042b53534dd34de0a3ffe99d5",
                     "description": "Integrit\u00e4tsbedingungen Operationale (= dynamische) Integrit\u00e4t"
                 },
                 {
                     "page": 25,
-                    "sha": "757b8f11b46b912230b08672a415e983d22a14de",
+                    "sha": "09b02abc03d098aea03e5f90214e6c154d9c66ae",
                     "description": "Integrit\u00e4tsbedingungen Datenbankintegrit\u00e4t(sbedingungen)"
                 },
                 {
                     "page": 26,
-                    "sha": "fb4a0b1b4b24c5265593dd49a3adb251552feba0",
+                    "sha": "2a2fb8fa85e440f5e64bc04da4b14ae0f58ff785",
                     "description": "Integrit\u00e4tsbedingungen Schl\u00fcssel und Schl\u00fcsselintegrit\u00e4t"
                 },
                 {
                     "page": 27,
-                    "sha": "16203a77f8ece81ef35195cd2ac728018414e560",
+                    "sha": "7ded9a8c87f47e6976bdf2c341b5f756465a7d50",
                     "description": "Integrit\u00e4tsbedingungen Schl\u00fcssel und Schl\u00fcsselintegrit\u00e4t"
                 },
                 {
                     "page": 28,
-                    "sha": "ec697efbaced3326c176988ef1258700a431cd08",
+                    "sha": "1f85f2d93a49f37f512d62f200e61ebd0248de7d",
                     "description": "Integrit\u00e4tsbedingungen Schl\u00fcssel und Schl\u00fcsselintegrit\u00e4t"
                 },
                 {
                     "page": 29,
-                    "sha": "82a351d59d09c8ad452d4af957411c225ed66a14",
+                    "sha": "b6b82d057a5b4c968c56dbe9e2091d64bddfe672",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 30,
-                    "sha": "0d2f21b355ec14fcb024a27c0098a88d0bb0168d",
+                    "sha": "80ed2ea35ac00b86ed2aa55a857c5823a7c24382",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 31,
-                    "sha": "2c7d84f5f2ebcf1c3563d0faa347dc42521bd400",
+                    "sha": "ee2f7653e1216102755178d281dc07c0ee54fa8f",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 32,
-                    "sha": "ad6a6d10d5ce2402158ae0a9cf67d44077ac8a37",
+                    "sha": "b4232d740b30ca796a88e60f757c7a51ed68f6e7",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 33,
-                    "sha": "c1a6d5b2d021a52c8de2072d701a25ae77cbb973",
+                    "sha": "2bbdc9164a1c0ee02efae8ca21b9e8706cf66b58",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 34,
-                    "sha": "cfcdac2bb94c92d282043818730e9ecdbe609c5a",
+                    "sha": "33e451bbe2e8396e4b21f7385235758619364d53",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 35,
-                    "sha": "a501b0e4d3445d4a4bf863ac2ca0de963a11e449",
+                    "sha": "ec9ceab8005bc10b29e399c36668a4e154609208",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 36,
-                    "sha": "4c4b81f26857ba32152ae5acb662ee2d215d53a2",
+                    "sha": "671e8fddb1f59f0cbb48b9bad55265308819c4cd",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 37,
-                    "sha": "7a5c72b1f7e0eadc38436e502ffb3eff6d631846",
+                    "sha": "834aa2f3260f3e2f5e6907d8b36ff55c08f6c802",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 38,
-                    "sha": "8d9a5180f01641c0a9674f2bde78218e98203302",
+                    "sha": "db12d6491b39075f9bf26f0b2b17bbe5d9bde5a9",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 39,
-                    "sha": "cde3979c87a5c46edda70302390d4826eb987cfe",
+                    "sha": "7435fe221f8d7536d83322c207db462e680e05e1",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 40,
-                    "sha": "b48998ccec3a80c13e5f858011610bf908f28264",
+                    "sha": "0f3664badc051aeb9e9e751db7630d3cbb89d53a",
                     "description": "Integrit\u00e4tsbedingungen Fremdschl\u00fcssel und referentielle Integrit\u00e4t"
                 },
                 {
                     "page": 41,
-                    "sha": "32be7bfdfb6912608512177eef9ede7656616cf3",
+                    "sha": "7331d0fd1d7d01fd624bdfb1baf1e5fd199ea59c",
                     "description": "Integrit\u00e4tsbedingungen Definition 6 (Lokale und globale Integrit\u00e4tsbedingung)"
                 },
                 {
                     "page": 42,
-                    "sha": "bdeab88bd3272ff7e90c9596560a2bc8a48dd2f7",
+                    "sha": "6c7cb8b9ecf7803ff4e9b4b15a075413bb7c757d",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 43,
-                    "sha": "785fa710941575f78bec010b59d2c3242beddadf",
+                    "sha": "1024f50d0304e5f4820fc926c570a5290bf78b71",
                     "description": "Das relationale Modell Historie"
                 },
                 {
                     "page": 44,
-                    "sha": "dd914dfc2648b145000547b69926bba95ec8d25b",
+                    "sha": "9aa38b47e8d3ede957594b279b41e184cc95bd74",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-relational-design2": {
-            "sha": "6e9c84080dd7f9191fdec9b4445a76cc81ad9169",
-            "numpages": 62,
+            "sha": "a5c0ec762e0962fb3486d2915ece8076ca8b623b",
+            "numpages": 64,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "bc0c96d4eb7761ca8a6c57448c155fd3a39c2b49",
+                    "sha": "6eddf9811c66ea452c26a307c7b539471b5e40d3",
                     "description": "Kapitel DB:IV "
                 },
                 {
                     "page": 2,
-                    "sha": "d8b181a22f7493a2dc0feeb1e5b7ad633543e5e2",
+                    "sha": "bc2e879bece5557a1d02b67944571c611e11f231",
                     "description": "Umsetzung ER-Schema in relationales Schema Einordnung"
                 },
                 {
                     "page": 3,
-                    "sha": "800acf6f7b1afecdee6cb2e362e7d40c1f6c64fc",
+                    "sha": "709f4e3b64c4efd330af2c9e7c826388e7821522",
                     "description": "Umsetzung ER-Schema in relationales Schema Einordnung"
                 },
                 {
                     "page": 4,
-                    "sha": "2558de40125cbfb747559559fbfb4436365f774f",
+                    "sha": "50985376fb62224827e3afdba70b3efcfb896b88",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Entity-Typen"
                 },
                 {
                     "page": 5,
-                    "sha": "5a17531d8371fbd29cbaabcc20aea274dc770b04",
+                    "sha": "3546e1792cc648ce1ec48a5476a53a2eb428eb55",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Entity-Typen"
                 },
                 {
                     "page": 6,
-                    "sha": "ee49f5c7cd1b2c00508031402f0910fea15bcef0",
+                    "sha": "a9f824bc3915e22313ecdf79318a35dd4719c617",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Entity-Typen"
                 },
                 {
                     "page": 7,
-                    "sha": "63bafd64c94acdea69317cb26eb2024896f143df",
+                    "sha": "3dab012785119b0246f466622db9f37157140353",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Entity-Typen"
                 },
                 {
                     "page": 8,
-                    "sha": "290814d9303943bb2eaf99eb70c27488cd6f4510",
+                    "sha": "a72e3dd10086e39be3cdbd1a5bd0dadd8f8be965",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 9,
-                    "sha": "41957923b785a5a490d64958cc49982a8287982f",
+                    "sha": "ca3212a413ecb9f679e822f343e2b52a23373b9b",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen"
                 },
                 {
                     "page": 10,
-                    "sha": "94d24c33fcb64550f88d13e2d3bd0173595ca4c9",
+                    "sha": "ddb4f1ab3c928c1a3dcb9182dd091cbb24854b85",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen"
                 },
                 {
                     "page": 11,
-                    "sha": "4976576ab383de4f7a5ba71ee598033cba291c57",
+                    "sha": "32dbcbfa839d0073cfb3659b15bf09d9d74a9009",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen: Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 12,
-                    "sha": "ff585a4178139c97f4588e334905e9cb720f4460",
+                    "sha": "93fcd19218bd000db6ae88715f280c5aeebb2ca1",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen: Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 13,
-                    "sha": "4a5e2998f2d052a2fbec9201a7ca61cac344bc32",
+                    "sha": "848aaf0d019067587e5c876f5e7e143424892b44",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen: Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 14,
-                    "sha": "330165b050a32f127df19d3ca26f9d8b6eccaf7d",
+                    "sha": "da51993a6ede8d5d22a53e88373ac4d06cac20c6",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen: Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 15,
-                    "sha": "3cbad7e0999b6383bb09b2c80f3c36dc4941aa89",
+                    "sha": "8ad288dab3af2a15c3edb9fb81715bedf84a40be",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen: Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 16,
-                    "sha": "3fff242222445cb6be11b87217a9d6f8711d644b",
+                    "sha": "fa6e889fc7982a4d1ee3cf17c335a46ab336002e",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen: Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 17,
-                    "sha": "2a82f97b4c04dfdf580c32a11b63f5645a10b68d",
-                    "description": "Umsetzung ER-Schema in relationales Schema Kapazit\u00e4tserhaltung"
+                    "sha": "fab498c18af13e0dae58e7b35c08628073781bf3",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 18,
-                    "sha": "0a33bad1157c224e7cbbc235fd6ac43ba5267d64",
+                    "sha": "e2caa9941b3e5abf8e8356f2d7e130406fe47670",
                     "description": "Umsetzung ER-Schema in relationales Schema Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 19,
-                    "sha": "0a9f160b4711b891fc13016f690682f4b1490f7a",
+                    "sha": "f3ecdbfd316509a7dbf6dd56261d9461169f0af4",
                     "description": "Umsetzung ER-Schema in relationales Schema Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 20,
-                    "sha": "7caed4d3d7750ea31f4b22bc183063e90a951693",
+                    "sha": "18d5eaf25ffb2da72d00f639d974095ec27ae62f",
                     "description": "Umsetzung ER-Schema in relationales Schema Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 21,
-                    "sha": "ec94e985cdd5ecfd122bb4bfbd2bcb53cb2345b3",
+                    "sha": "0055c1ef6ba3ccdb6029deb09edee90d28c43189",
                     "description": "Umsetzung ER-Schema in relationales Schema Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 22,
-                    "sha": "50032c7b25e565d64bc7489852bb8f155ec70a60",
-                    "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
+                    "sha": "8ff5a7ad8817450c7852a7e10aca2bab5fd68d9b",
+                    "description": "Umsetzung ER-Schema in relationales Schema Kapazit\u00e4tserhaltung"
                 },
                 {
                     "page": 23,
-                    "sha": "97324d05bc9629bb0a65a9ede2bda4b4c15c1dfb",
-                    "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
+                    "sha": "3c4a48b6e049d1a799b19ba15c490cfc04d5b132",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 24,
-                    "sha": "d0468b334a019c47e8c2b310c79cc37e2ddccec7",
+                    "sha": "323f37031bbfe9d5c4f798e3c500b48d2911f640",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
                 },
                 {
                     "page": 25,
-                    "sha": "1994ff47bc2c6df2e0feaaaf2788c4bd501e2b25",
+                    "sha": "12fcd786f3f6ad4b2747dfdf9841cde8292aeb51",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
                 },
                 {
                     "page": 26,
-                    "sha": "5b6867b71436eed0e12704bb0cb0d7020756e330",
+                    "sha": "81918d0dce01e55d7f33645011f969da26e138b7",
                     "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
                 },
                 {
                     "page": 27,
-                    "sha": "f87709c734fd857136ce0653b9edf57ac3d3d4fb",
-                    "description": "Bemerkungen:"
+                    "sha": "d88debab9ee954c748deb1ad4d7ccc84687d5759",
+                    "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
                 },
                 {
                     "page": 28,
-                    "sha": "2336645f42ca3f3e68bee592c2ca73a140f5dcd7",
-                    "description": "Umsetzung ER-Schema in relationales Schema n:m-Beziehungstypen"
+                    "sha": "7d77d3483c15227213c53d73b37f0e3122f79adf",
+                    "description": "Umsetzung ER-Schema in relationales Schema Regul\u00e4re Beziehungstypen (beliebige Entity-Anzahl)"
                 },
                 {
                     "page": 29,
-                    "sha": "b763d2cae5821f1a2eca1df10f1fe80c2a597c10",
-                    "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
+                    "sha": "5b6a7bf31a1943190afe4b33b6f1d300992d75d2",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 30,
-                    "sha": "02089e0e70ea355a495efacc3b43c59232a2f882",
-                    "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
+                    "sha": "5ec9eb1522db12e5850896c9ed855e1e5f4a5999",
+                    "description": "Umsetzung ER-Schema in relationales Schema n:m-Beziehungstypen"
                 },
                 {
                     "page": 31,
-                    "sha": "a58a1c4125b5dfc0c1bd0020e7f31fb4e4e90f0e",
+                    "sha": "9c54a7be923cf0b0b1133db750f0b543d45e5f1e",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
                 },
                 {
                     "page": 32,
-                    "sha": "20c9df87f1292f3002662b4914379cfe5dd4c53f",
+                    "sha": "409df83d46e1bed0bf09da6976441f30b2cfeb14",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
                 },
                 {
                     "page": 33,
-                    "sha": "6a0a74c07a98287709c7cdf7f1184046e7b34aa3",
+                    "sha": "81609cc62c65d7c03ef2d02da679f0810785491f",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
                 },
                 {
                     "page": 34,
-                    "sha": "37e470571b02e00903972fdadc985f5919f00569",
+                    "sha": "1d3bdf2c2887a91489b7ac6ae2143f6e376490ce",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
                 },
                 {
                     "page": 35,
-                    "sha": "67c660c54729f83a07521a177e1d56daa68eb5bb",
-                    "description": "Bemerkungen:"
+                    "sha": "7d00a0120d966b422b423088d9badbb092dc25fb",
+                    "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
                 },
                 {
                     "page": 36,
-                    "sha": "23054f515239a29ec22dcc75bdd19b059aadfde4",
-                    "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
+                    "sha": "a4474cd6bda8c9a7787c9b591f311ee699141bc9",
+                    "description": "Umsetzung ER-Schema in relationales Schema 1:n-Beziehungstypen"
                 },
                 {
                     "page": 37,
-                    "sha": "a9ecab4a6eea62b3bde7b86fcef50138da1d1503",
-                    "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
+                    "sha": "5ff091b4c1e7c3ab3b4321b4cae98708378df398",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 38,
-                    "sha": "36defea73af4fdfb6aa3b2a9b7baad915e3c0923",
+                    "sha": "c32ff87c748605c3ebbfb7c4e183df36a0aa53b1",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
                 },
                 {
                     "page": 39,
-                    "sha": "8b5c1a6fa7e6b9dc5cb5a325fb36746b4e5b1bea",
+                    "sha": "f644fad77e931a53f27c3e8c6105ec1676ecd420",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
                 },
                 {
                     "page": 40,
-                    "sha": "eb0c28ac1a4741f2d17646e337bd9e1535d74697",
-                    "description": "Bemerkungen:"
+                    "sha": "c6b7544649161b83e0c9c9ad9e78f40988ebda4a",
+                    "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
                 },
                 {
                     "page": 41,
-                    "sha": "b80d14df419e216595c39cb5a84249202068b8ab",
+                    "sha": "7e5b6ee795a1b3e92e11579d1c82f5ea803c1ef0",
                     "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
                 },
                 {
                     "page": 42,
-                    "sha": "4a689162e65ac7eb398191837c985cf9e3b17f26",
-                    "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
+                    "sha": "8fd1083ae9ca6547cfbbddf3369176eeabe81dc2",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 43,
-                    "sha": "7a91879b0f52f6ed11aeaad3324428ed9ed7bafe",
-                    "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen mit [min, max]-Beschr\u00e4nkung"
+                    "sha": "dad6133543e200e038abfec9c377cf3ae82d86b5",
+                    "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
                 },
                 {
                     "page": 44,
-                    "sha": "0194b70998cbc962597e2673329f0fd0162a36c4",
-                    "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen mit [min, max]-Beschr\u00e4nkung"
+                    "sha": "d75a5542725794f431ca4f7b9b7d9147294c8e6e",
+                    "description": "Umsetzung ER-Schema in relationales Schema 1:1-Beziehungstypen"
                 },
                 {
                     "page": 45,
-                    "sha": "4baec5e243d6b2d0a113cde6c42202891d3f79af",
+                    "sha": "1fa8c4d7d5d1c1e4a4a987432b6ab82bfd16783d",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen mit [min, max]-Beschr\u00e4nkung"
                 },
                 {
                     "page": 46,
-                    "sha": "dc686d59f4e514b7bea20730fb42ad040844a6eb",
+                    "sha": "aa016e1da35ff022a3158393f512e421cdb41f09",
                     "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen mit [min, max]-Beschr\u00e4nkung"
                 },
                 {
                     "page": 47,
-                    "sha": "0f815f78161c47840ad85309cd4e98f60d79ac7d",
-                    "description": "Bemerkungen:"
+                    "sha": "547ac143ade0495e75a0c1be45ce864ef1a5ba9b",
+                    "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen mit [min, max]-Beschr\u00e4nkung"
                 },
                 {
                     "page": 48,
-                    "sha": "bf8d33d2bdb707d00aa43dbc0ad804eeb345f3d5",
-                    "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
+                    "sha": "1f6dab612a4f37dad62da55ba8ce33c81d5cad0a",
+                    "description": "Umsetzung ER-Schema in relationales Schema Beziehungstypen mit [min, max]-Beschr\u00e4nkung"
                 },
                 {
                     "page": 49,
-                    "sha": "161f0d53b380b715cd0c310fe011c79f1a21010b",
-                    "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
+                    "sha": "1c14dddefbf0bd5cbfc8b9cf68235888b3708711",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 50,
-                    "sha": "df921e8c0de888c87bddb7f2091ffbd317ee48d0",
+                    "sha": "b3daa44accd652679ef908d4d9f8537326fcefdb",
                     "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
                 },
                 {
                     "page": 51,
-                    "sha": "a535ea490a9e5f90cf62ba30bb751fa486a92df9",
+                    "sha": "d85e0cc4f80581dc8a6070c7e9cd005a088562e6",
                     "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
                 },
                 {
                     "page": 52,
-                    "sha": "35be1365b12508336bbae9cc8c9fe56809db8552",
+                    "sha": "7d43aa884ba0e2c04db344035ce03b3676477539",
                     "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
                 },
                 {
                     "page": 53,
-                    "sha": "d7b45290a824631ceb26f4ceb41d7f99d625939f",
-                    "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen [Sonderfall 5]"
+                    "sha": "887b109f55dd0a9ca84c346d9f84bb3bd8b8e594",
+                    "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
                 },
                 {
                     "page": 54,
-                    "sha": "d2f3cabc54242a1a201552708a5733c7b8f5e51d",
-                    "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen [Sonderfall 5]"
+                    "sha": "0213decb40119c1bf3dc862b95b535920ebd57f4",
+                    "description": "Umsetzung ER-Schema in relationales Schema Existenzabh\u00e4ngige Entity-Typen"
                 },
                 {
                     "page": 55,
-                    "sha": "91575a976ee69d5ff97b8746f317b877b442f636",
+                    "sha": "e9dbd98a02fb2017c63274ae36178b447e870349",
                     "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen [Sonderfall 5]"
                 },
                 {
                     "page": 56,
-                    "sha": "687af6c70ff9693e80463931a30dc49c6d2856e4",
+                    "sha": "d0d87a2057b5262ada8be6d8f197ea29972a3a4c",
                     "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen [Sonderfall 5]"
                 },
                 {
                     "page": 57,
-                    "sha": "0d6c2a9574ac1d8d52fbc9e55599e068fb075d85",
-                    "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen"
+                    "sha": "c180167c91ab1ffc4fadeb04a18671593e2cebd5",
+                    "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen [Sonderfall 5]"
                 },
                 {
                     "page": 58,
-                    "sha": "60fa641bc6469ba5de5f430655e74a246f1afc33",
-                    "description": "Bemerkungen:"
+                    "sha": "b67744205ab2141c55886a20f2fc38eb5e658ee1",
+                    "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen [Sonderfall 5]"
                 },
                 {
                     "page": 59,
-                    "sha": "40fb523c140835212391d9ce147b920ce545001e",
-                    "description": "Umsetzung ER-Schema in relationales Schema Reihenfolge der Regelanwendung"
+                    "sha": "79fd8d8e9debc20396528551676bfdb59daffa21",
+                    "description": "Umsetzung ER-Schema in relationales Schema IST-Beziehungstypen"
                 },
                 {
                     "page": 60,
-                    "sha": "6a39089c5c3ea67ab7d2d833938d61e42ea7d419",
-                    "description": "Umsetzung ER-Schema in relationales Schema Zusammenfassung wichtiger Regeln"
+                    "sha": "735c2ba5fc5fbe1e2c38f7b7b580b47bd866cabc",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 61,
-                    "sha": "fb463a11898c7eb5b5fe6a6792723204855331f1",
-                    "description": "Umsetzung ER-Schema in relationales Schema Zusammenfassung wichtiger Regeln"
+                    "sha": "828c1efa96cc4bad6e7b6c47bf3f677f256c45b2",
+                    "description": "Umsetzung ER-Schema in relationales Schema Reihenfolge der Regelanwendung"
                 },
                 {
                     "page": 62,
-                    "sha": "7102200bedc2ac867cd3ab24c44aa1cde0175705",
+                    "sha": "056d11a4d6404ea8f1bbfe8d288f24095d73ed5a",
+                    "description": "Umsetzung ER-Schema in relationales Schema Zusammenfassung wichtiger Regeln"
+                },
+                {
+                    "page": 63,
+                    "sha": "4bd8433e3341878842e643c5f9daf4919ccc7ca8",
+                    "description": "Umsetzung ER-Schema in relationales Schema Zusammenfassung wichtiger Regeln"
+                },
+                {
+                    "page": 64,
+                    "sha": "ee9fdd218bd53959a81310ef8c93453a279b13e8",
                     "description": "Umsetzung ER-Schema in relationales Schema Zusammenfassung wichtiger Regeln"
                 }
             ]
@@ -3587,12 +3597,12 @@
             "unit-de-relational-theory2"
         ],
         "unit-de-relational-design0": {
-            "sha": "da66a3d7fd033ffe35ab6710ad2bac93300fc45e",
+            "sha": "d1a8bffaf06213a2919bb5ddfa2fb267960f8449",
             "numpages": 1,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "f8c9542c5519dc0d2d404f1cf4859b1779a3042c",
+                    "sha": "3f1ac8339a0d416a48c439924e2e2f8e337f31bc",
                     "description": "Syntax im Relationenmodell Konzept"
                 }
             ]
@@ -3959,684 +3969,1075 @@
             ]
         },
         "unit-de-problem-solving": {
-            "sha": "93edd8e764126f1dfafa6b0c0e4e8b36e8b22e7b",
+            "sha": "22605d83c4c308592faf1cf54b2290be7bedad35",
             "numpages": 22,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "63c7433e574eccba343dc7eb0f51affbfd69fc64",
+                    "sha": "eeff34bae9162aab1e2564a295925c93e3c650a8",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "e8fa70d939c52372ec5910688429483c230ebf66",
+                    "sha": "ede7c44d25b88a8b8fa1d88e43c7d7ca145da222",
                     "description": "Probleml\u00f6sen "
                 },
                 {
                     "page": 3,
-                    "sha": "0589f0d4eb448bf4e11ed499787cb05a0ab69b89",
+                    "sha": "9e6f169101282da40f648a80b6853231ac49215d",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 4,
-                    "sha": "46a8ccd8194cd963a0d175d6a40b0ea7d2e31d12",
+                    "sha": "28f2ed6ec53f4f3901b045e68cb8a67f5c603a42",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 5,
-                    "sha": "2c881b624d97ff5da60875eb4dc1e9f11f11d5a9",
+                    "sha": "f4aa11d60cc09ae9a7047c63c7568f09828f5008",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 6,
-                    "sha": "06914be0ec08da4ececa942c7e1a247e12e6698e",
+                    "sha": "080561d78047416944f0690b37fe17b1cec9c088",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 7,
-                    "sha": "926d2d558dc8fff13eeaaf54acb84c2d46ae7893",
+                    "sha": "39134f9707fcdb3f698be23bd3cf13b01240f392",
                     "description": "Bemerkungen: (Fortsetzung)"
                 },
                 {
                     "page": 8,
-                    "sha": "004e0db748412228e023a46ccaa0844c8298145d",
+                    "sha": "9c89ed08b3508b9c07ab6469ad26efcc58b28fbc",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 9,
-                    "sha": "23e222fc2130ce0cd7dcd55beca651572a4b5518",
+                    "sha": "7095c2d120f6446892a68b38d012ab44cae85612",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 10,
-                    "sha": "8b7a80658d3fb3a5bc3bf0e82ab0b516c7b5fdb4",
+                    "sha": "2aa47a6b9d172fce5584c7304eb0b62a07e4b690",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 11,
-                    "sha": "8911d106ef13fbab23ac4c7ece23e76542ce6fcc",
+                    "sha": "151d41f403257fdedb7c793de3bbd4524fb8367e",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 12,
-                    "sha": "ccd973f1174fb446bf6b2822bf9d7d584b99328f",
+                    "sha": "d7e0dfcbaba615fa16e121b933e5ce8b7f82ea83",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 13,
-                    "sha": "8be05d4f9aa2f9c3889b3cc7761ab01fe6bd038d",
+                    "sha": "a0a30207ab02bf3b4f4bb00eba3a1eeb6040d972",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 14,
-                    "sha": "d67008751937b7305e79f940cdd4f5c6b5810a0b",
+                    "sha": "b634992a06ef0b8955267194a40c91dda822f986",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 15,
-                    "sha": "b9b3b2e8c19b57c5039d403540b8060e5666322a",
+                    "sha": "d95a156997fa9d41ce3bf63ee350ae5c2dac21a1",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 16,
-                    "sha": "d70e9da5a5ed0bbdfec55b72d648a9f7a5b411b3",
+                    "sha": "edb3dda8e63df9bbaa1b90192b067d310d5132e7",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 17,
-                    "sha": "f6c026b1cde9f6dba1838cc0214dc8b2bb523d3f",
+                    "sha": "44072df0cf26e5d424b131b8bfdf26f4b4f7a217",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 18,
-                    "sha": "001ac83601d0fb1a8f434e5b96a923104f799a68",
+                    "sha": "b88bfeda6bff3079acd2d9b6f5bdacd633b38f4d",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 19,
-                    "sha": "379d6453e47d4700ecab84f1c1c32a574c474b46",
+                    "sha": "65b2f0528c9c20199e79325d5b268a0ad266e2eb",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 20,
-                    "sha": "978352c17c7f13a9a8d70398982a32dceac5fe41",
+                    "sha": "f8be65390552942c3b9f2921b7630dc333dd875a",
                     "description": "Probleml\u00f6sen Maschinelles Lernen"
                 },
                 {
                     "page": 21,
-                    "sha": "c5be6e0e316f6f7c269ec02b2a052051abbdd362",
+                    "sha": "720ae7123d8576450a896b2e07cb03c24728663b",
                     "description": "Probleml\u00f6sen Maschinelles Lernen"
                 },
                 {
                     "page": 22,
-                    "sha": "b4eeaaf6e168b6338445fb5f0da87dbf5f8401bf",
+                    "sha": "d089db9e27605b162127fde04b10f708e28f394a",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-algorithm-design": {
-            "sha": "532a7b809a12b07566d7db85c92a51c2b254b7d6",
-            "numpages": 112,
+            "sha": "d698c420b5373398b00cd3474ad9921bec392e63",
+            "numpages": 116,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "0dd80be4205452f7a4a54c9512f888382eef52bd",
+                    "sha": "94ab603da2139ceb99871462f8b61925c55f3efd",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "732011fc2f138ac304df9ab20c06f1862b2a9460",
+                    "sha": "6bdf6e165c6e643aaeb974874ff725b3fed5cdc9",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 3,
-                    "sha": "244a22b367780222b4b2ace2f8e8d6348de56472",
+                    "sha": "ee3ba975e6d608faf68d4c5b93899a203fd76b51",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 4,
-                    "sha": "e1479fb4d32118c2e713592ca7df62ae9021272c",
+                    "sha": "85239b0e61b390724c34090f1476f331d1dbd60e",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 5,
-                    "sha": "5953ccc6c03231763cf4c75d49d785d04a6e60db",
+                    "sha": "4ba27c4f17538123ef59aff658a6b96496dd2f13",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 6,
-                    "sha": "7a6835542d6d247c2af050a0eb75d37edfaf31d1",
+                    "sha": "84b7ec0ecc5c3021fa556707e03c8a1c5331f98c",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 7,
-                    "sha": "5a6eeea0e798e2661272e7b45602baf983118443",
+                    "sha": "11765ea230425b23ba2c1441313fa8e29c70b4c4",
                     "description": "Bemerkungen: (frei nach [Sanders 2009])"
                 },
                 {
                     "page": 8,
-                    "sha": "2248224ad17492e25bf7ccff1a68c6fba5002c3a",
+                    "sha": "4d0894eda28492e3810dbbbcd26acde6675ce43c",
                     "description": "Exkurs: Programmiersprachen 1950"
                 },
                 {
                     "page": 9,
-                    "sha": "63109aa62dcf19b7c9b681ae821520aa8949a28d",
+                    "sha": "56507790bc001fa68a7d4dc53b5b7cf06af57e9a",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 10,
-                    "sha": "2d1305e68b0f28329069faa351dd864458e0ec35",
+                    "sha": "fa845000c4a1c22f557fdd1943dbeabbea75ca71",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 11,
-                    "sha": "9f1b587c1b07ee107c98d3b2104ebdc74a62f7fd",
+                    "sha": "4d468481545e53c69b8430d46eda88ddd350842a",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 12,
-                    "sha": "e611c87816e099445429cab8d4bcd6b775006ba9",
+                    "sha": "c7deb3e7e71ea7a8355791caf196ef96f4ebf291",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 13,
-                    "sha": "a85ed70d25ea2af87cfe3f110f75e13e3eb5440f",
+                    "sha": "fb5ffd992c9af4844753d31287342d6ec2791596",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 14,
-                    "sha": "d3b85ec01df9a927b4367a5c55d5a582ed0cea2c",
+                    "sha": "0265a9d43d0fdc8871714b710257a08f160e8603",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 15,
-                    "sha": "32fcf34905b759aa3ddfd55e9cebfaa8ae65f344",
+                    "sha": "0d2f3c0e3fefeead33f1e24f173f11f9677447ea",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 16,
-                    "sha": "d62b2034300a9e358b474e983a0cbf3c8b71eda4",
+                    "sha": "7d8134bd8b780226b312a7296b72e74d1c47b0ff",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 17,
-                    "sha": "9ac0963b57c95d7424ed1bf87c2d8f5598ad52d5",
+                    "sha": "f09c832db2411dfef7e8230bc7431291a18a052d",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 18,
-                    "sha": "054ee214aec6443c93a3293b71738afa8019e330",
+                    "sha": "6f8d0f1a933952365bb3cb4d30a1a365200d19cd",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 19,
-                    "sha": "b1961b86b12b43ec31a7d1b62cc6be36577bf688",
+                    "sha": "4ca6a34cd05ba7bf37bfd878bef829228979fd8e",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 20,
-                    "sha": "3df558333d276e428ed4f64b3e80744bc807fc93",
+                    "sha": "75b35884f9f388647240612716b15a6e71e029a2",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 21,
-                    "sha": "3ff91be043bb64a5c53204bc05ef9658bfe2ea40",
+                    "sha": "bed57d4ca0e438e8206e817831536111f7632a3d",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 22,
-                    "sha": "00dd21f96f51f5518cdc3f5ef1cf1b9d019e48ba",
+                    "sha": "ed8efa04b76757db5c86819467c7200d62363a60",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 23,
-                    "sha": "8c09c9bd0e8faa6e46ca026241d85fbf3468e612",
+                    "sha": "82481e06a8f05c5d96e678198478396aa3b1e1be",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 24,
-                    "sha": "71254bcb45fcfb9f6bcbec850619fc0bdc3e2cf5",
+                    "sha": "56066eea45a828bf7cc1514a0d71f4bbb4e1d568",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 25,
-                    "sha": "d4dca186e3e01006871cdae08e6355cc7b269dae",
+                    "sha": "3b6d2edd03f29e643807889ed7644e5ca33d85b5",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 26,
-                    "sha": "6206d478d13174812629be7224816bf9ca10840b",
+                    "sha": "f8b270690e31361ec6281aee98b16bd80bdb0fe2",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 27,
-                    "sha": "4612ba5cbf1a9831d525ae56367ceda82de9f0b0",
+                    "sha": "ef7f9d57d3933af7d838012a86a50b18fcce1309",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 28,
-                    "sha": "018d4e630f6d464b74e0a3ac2ac3848dc01f28d5",
+                    "sha": "c378a0f64e1f5752b4eb0dd9b823f40e9d84e413",
                     "description": "Pseudocode Spezifikation und Signatur"
                 },
                 {
                     "page": 29,
-                    "sha": "3f01f4408dcb49dae06c2205d730596d8505629a",
+                    "sha": "679193f2a3ea4041b1ed762143d0d994d2b10c1b",
                     "description": "Pseudocode Spezifikation und Signatur"
                 },
                 {
                     "page": 30,
-                    "sha": "169bdd7defa0e81baf03c279222214af199c31f5",
+                    "sha": "c6ce047224b74a6e53d359dd7ccfffd9786f9a28",
                     "description": "Pseudocode Grundlagen der Syntax"
                 },
                 {
                     "page": 31,
-                    "sha": "f0260dbad98802117e04f163d6750acad8c71f00",
+                    "sha": "83a2ecb2e2acbf7271e8446585bba4790aae17d8",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 32,
-                    "sha": "e405430258aae2f8c5fe90cdbd66e851697369fe",
+                    "sha": "857d2a6cc85fd081ccb6110a4432c8d0808acc58",
                     "description": "Pseudocode Variablen"
                 },
                 {
                     "page": 33,
-                    "sha": "8384f1aa770a609be753cb436571dfe7472f2c04",
+                    "sha": "2a69468e726314811e9089e6091156aa2db11584",
                     "description": "Pseudocode Variablen"
                 },
                 {
                     "page": 34,
-                    "sha": "05477f9dc807e4c7d4679e5f1681eae7f2e811fc",
+                    "sha": "b8553d23be58b37e8fc134b285a151f47082c1f1",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 35,
-                    "sha": "2151bbf9a41abf6b5ea7be80183cf6e95ef47f30",
+                    "sha": "d3ffa9ad1e290600ee32aab777d6ab3620112ea0",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 36,
-                    "sha": "f58e8ce093d59e40b8975d61108986d53130d071",
+                    "sha": "b8592b7d1e22ab3feb499293757b251e1af28d32",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 37,
-                    "sha": "538d8941c67445d3b5e38bb2977279aec6ecf49e",
+                    "sha": "fb62b39f284b8a14eb12ad3310d972a23616f6b7",
                     "description": "Pseudocode Operatoren: \u00dcbersicht"
                 },
                 {
                     "page": 38,
-                    "sha": "4547111082e893f74577ce2aa62ac4aacf1a299a",
+                    "sha": "f7fc067bad9515b73b35988501f94aa599af55e7",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 39,
-                    "sha": "30f6fc4ea8317a360b372ce203b49123fd4134eb",
+                    "sha": "31eba3eb4968766af41bd01d2ff6fb666de2c41a",
                     "description": "Pseudocode Datentypen: Primitive"
                 },
                 {
                     "page": 40,
-                    "sha": "0ef888b49253b7fefa38d1055eb1ac30435202d2",
+                    "sha": "02d318b617c55cfa5b6a90de8de3a0b712aa8d00",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 41,
-                    "sha": "3af517b0d314e7592d75e6ccfce3e186ee7a824e",
+                    "sha": "67d5da218522b8f0c62cdb5e51e58536e728d6de",
                     "description": "Pseudocode Datentypen: Objekte"
                 },
                 {
                     "page": 42,
-                    "sha": "e5201fd33e344454852ec070545d6644e9045d7a",
+                    "sha": "38d7606cb0321bb8dd926e4132a2a588abb7838f",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 43,
-                    "sha": "295d711d89f40820656da1066eaa6311bc0598f5",
+                    "sha": "1e79c4885be9c0b0b6ea9150bb541751fcccada4",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 44,
-                    "sha": "9d0df3bad60346bb394f713f408a234b933e8e44",
+                    "sha": "21fc368d67edbe069111ec53551487b87479b63c",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 45,
-                    "sha": "8b0e0e675e56bd511ec4e3e335f46035a939b917",
+                    "sha": "fb41d08eb7af7a3386fe7cb3b7918a42751793fb",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 46,
-                    "sha": "bc34602f7f5d50fc0b7b319a3ddb12eace57b817",
+                    "sha": "44764eec471cfc9f023b1be9927811351aebb99a",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 47,
-                    "sha": "548f570175c8001c1fe157788f8ea706455e8b30",
+                    "sha": "1aa7c48c0386fb4e87cd8017c775f9e41beb4271",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 48,
-                    "sha": "fd9964aa3b7fa0b7b7d49fec95b08df53b205a9d",
+                    "sha": "67d1ef63250dc4de2186a1605b93350e68f03e06",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 49,
-                    "sha": "bebdd82ea7a6889c92aba7d2dbf3be84f4e829b0",
+                    "sha": "1c1daf6b179c123f607ac04a70d1c7ce6a68146c",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 50,
-                    "sha": "888642220cf2ebf7be77b5de44d9510f944d5977",
+                    "sha": "dc089fc95fe8c117cae20a63e27ce44516b221e0",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 51,
-                    "sha": "fcdd6ceb397fb8e5e917b275a941681f538cb62c",
+                    "sha": "afb0f1852e79aac71442950d6e5be7c8d9a5b205",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 52,
-                    "sha": "61207d0a38a9a61c426dc2ac03c612ea2454eab9",
+                    "sha": "e762790fd07566323f4641a7e3da3a60f70b0703",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 53,
-                    "sha": "1afab702028a9ebea9d533d46dcdd81c870156eb",
+                    "sha": "35c723e14b1d9d34ce54ac3a184f51e6c3fc25b9",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 54,
-                    "sha": "089a8c3e87c5bbc79e04a0928220c32c3a3fdc6c",
+                    "sha": "4971c2652bab2abd7aca2c1eacc862636cb02df1",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 55,
-                    "sha": "9fa161a4bd6568ecfe05f08f1cf764df1d915fc5",
+                    "sha": "f015f72dc48c38b668e45f3f7e82745ff54fbca5",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 56,
-                    "sha": "053aa9ddb1cdfc764e58405831a97380ca66b635",
+                    "sha": "0eaeea6862e9d107afc9f6c3ef7531f1de42d0d7",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 57,
-                    "sha": "2811b3222e176c4dba2b245be0ef4db5521150c0",
+                    "sha": "a79c9afe2f57948d2af71065bf635dae2f3d7701",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 58,
-                    "sha": "6270be27d0f3cfae27cea672710b16ac655c80b1",
+                    "sha": "3ce6f9817c33f4669d86d6865f9c2d1cd57964ea",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 59,
-                    "sha": "9482f78c489039341d476a0a6c76958a1fb24c71",
+                    "sha": "9953cab044fe17cdf37d3ad9d93cf75bb86cad51",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 60,
-                    "sha": "7b0a16531f952cd39b828059e43b0fe3f0ca34d0",
+                    "sha": "ecc233f31879aa1eb2d7a95f6f3d8596bb1aaee7",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 61,
-                    "sha": "e6e799741c9919ade3f6d1be7e4438a87f49c50c",
+                    "sha": "cbfd1943dcb9408606007fc6ebaf12fb42495e16",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 62,
-                    "sha": "2c9121f552d35692fcda7ca3642ac7e4d915458a",
+                    "sha": "9bbb015f21cd909ffe1525a8324795bc0b986aa1",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 63,
-                    "sha": "da12effcab63799761cd07d69d54ed3935f2a04b",
+                    "sha": "c8365f38ddde6032b8c5cfc8786cb7d6f5b714fc",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 64,
-                    "sha": "ba39f8afdb4d05c79dd73d5f3872aad1378c64c1",
-                    "description": "Rekursion Rekursives Definieren"
+                    "sha": "cc6a978c5ff91c02dd3e552c5a7ad25e45916dab",
+                    "description": "Rekursion Einf\u00fchrung"
                 },
                 {
                     "page": 65,
-                    "sha": "5b591d01c11406aee13114ca50d36d335f0ebd17",
-                    "description": "Rekursion Rekursives Definieren"
+                    "sha": "13cf1db1ec41b8b98f40e10e088aca1bf10a4f98",
+                    "description": "Rekursion Einf\u00fchrung"
                 },
                 {
                     "page": 66,
-                    "sha": "099060db719594e9c8225268ea4ae7872d491a5b",
-                    "description": "Bemerkungen:"
+                    "sha": "2b484cccc07454d9fec616b7fcf8e650dba30346",
+                    "description": "Rekursion Einf\u00fchrung"
                 },
                 {
                     "page": 67,
-                    "sha": "53e78b8284782d3906fba7e2a1bf272bb0a3d120",
-                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                    "sha": "b5593f12a0441c5eb81da8b573d8a573782b4fd8",
+                    "description": "Rekursion Rekursives Definieren"
                 },
                 {
                     "page": 68,
-                    "sha": "7381be079818b82561f0c0b3a8935b38a49dbb74",
-                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                    "sha": "d7b1596f6d6ec8825adc010485d5526bf47eacbe",
+                    "description": "Rekursion Rekursives Definieren"
                 },
                 {
                     "page": 69,
-                    "sha": "110277e98fcb91e4db7116857eda304239e039e9",
-                    "description": "Rekursion Fakult\u00e4tsfunktion"
+                    "sha": "1401d759b942f33c771939e3a2888acb9c4ebc0d",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 70,
-                    "sha": "c6a76a69a06fcb003cff9b1fe97b8905a3f155ba",
+                    "sha": "40b72d09a97317543c4c2302f2710332dd3ba351",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 71,
-                    "sha": "3284239ea4cf9ecc3ac5b82fdf8686ab100ef138",
+                    "sha": "4ecccd5998f6afaabccc514611f69728d0109db3",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 72,
-                    "sha": "79354d980e010b8c7c56e634e991dba004a8b3f1",
+                    "sha": "afa666e096b08e8e1f0c825f2d33fb73faa6c958",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 73,
-                    "sha": "5acbe2a87bff9f610dc20adb92d7a2affc7dc5ed",
+                    "sha": "c4b673f33e5936870ef8867602002558596845b7",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 74,
-                    "sha": "39ba9c2551e7c1d519efc9ed0d5c95a356b4513a",
+                    "sha": "0ea6521e955badcf674c6f444b022d91e51468f7",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 75,
-                    "sha": "20298dc6a031f8a910a19392386363acebeba5ab",
+                    "sha": "6740a151a2255d2de32c089fe6662204f1111265",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 76,
-                    "sha": "f1f8a1ecac1a7c7f2d10056f016b290269ec8c53",
+                    "sha": "6cfcd939ddbbcd4e41e5defb42c1041c7a3d36be",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 77,
-                    "sha": "20138272830e50742e10485dc2574dda1cdc47db",
+                    "sha": "0719bd5b264628d1a97b861f36554210d69dfd9e",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 78,
-                    "sha": "128c541a64c6ab21f5ab25e5d9f9b81a127e9815",
+                    "sha": "96532e258d3eddc7bbe6bd89c5269faa0b50634f",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 79,
-                    "sha": "ff9b707cfa78c0b36252d84774aafb0f2d44429b",
+                    "sha": "8f116cf23872611c832833b96dbfc7579097ba6a",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 80,
-                    "sha": "5ecb895515665d2ffaacc0af9f7f61b854c436a1",
+                    "sha": "574f5c56f3696c8856ec50207733d50c37513517",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 81,
-                    "sha": "fcd3c6bb3d1d10b488583328ef4014546467216d",
+                    "sha": "f24aa0768d5169b1407d7d11c844ddaf7ba3a4bc",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 82,
-                    "sha": "049ae700edb53873e7b5ed79464aedeb6e31b751",
-                    "description": "Bemerkungen:"
+                    "sha": "9dd64a87eb33f67b049bddbae7847902800d5d1a",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 83,
-                    "sha": "9a01efec97803b507d04b98deef9e4b75a1cfb13",
-                    "description": "Rekursion Fibonacci-Folge"
+                    "sha": "27a4585a0dfc46a7234b72dc578628c8efb25a88",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 84,
-                    "sha": "74e75f56e825833d48157d14018249310d5baff0",
-                    "description": "Rekursion Fibonacci-Folge"
+                    "sha": "c7560482094f77fe61b1de43359ab3dd4d1b8b9b",
+                    "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 85,
-                    "sha": "a19d89458b66e17968bdc8a936bd274a9fe853d5",
-                    "description": "Rekursion Fibonacci-Folge"
+                    "sha": "00c2dc5e699c7f86f3dca0d59d1eb1e6102e8111",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 86,
-                    "sha": "784a5b81bab750368037172ed2e892b2ca8ea3e6",
+                    "sha": "31d99969fa7078528e791b634713780caedf5393",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 87,
-                    "sha": "d23abbf97307c742a3e5ebb3ad5bc27c5ea428be",
+                    "sha": "fd7ccb9e36c20b355a476c6e44df65da80c64459",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 88,
-                    "sha": "731667820e37f84e270d6cbbe65e12835ca66787",
+                    "sha": "62c73415bd18e3c861dbcd418f50daecfb89e92c",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 89,
-                    "sha": "2af475a42164adb78f30fc25a6665582d6661de5",
+                    "sha": "b2afd81caf305766178138d30d22aafd39d53ac6",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 90,
-                    "sha": "eca31041815ebe40ca54a72afd5de558bd347c14",
+                    "sha": "8048b34484fcaea06103f7fa6a582a012d01bf5b",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 91,
-                    "sha": "217f867a16636c9f240a3e89bacde0d23b0b8a4a",
+                    "sha": "674453071fa0b7e45fcc1f43c645871226367fc7",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 92,
-                    "sha": "021876d87119a9fc4cc7e8263ad4b737e0e3a63a",
+                    "sha": "42e9626fc302bd36b80c1ff738fcf5f5f84f89ef",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 93,
-                    "sha": "9f73df780ebdc89eeb5b42b0428fcd190a279141",
+                    "sha": "c984eec5e605f878e00312da59f70d2ef9c0b277",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 94,
-                    "sha": "2205f03f03de600940ddd35894261bad94949c7f",
+                    "sha": "ab235033e241b95be10004830c965c757b9a3ed0",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 95,
-                    "sha": "ee6854020339ba2de7c7bfbe70e7f498f28945f0",
+                    "sha": "24277434026c12f1ab12cbe3a23eb2ceb264921b",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 96,
-                    "sha": "fa06c639d4b8ae2894666d2cc842d6df0d944b62",
+                    "sha": "3392db1ca3947838254b16ee295d5245409b91b9",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 97,
-                    "sha": "4f47a95175d1b9931e3b069d88bb6d584ff879cb",
-                    "description": "Bemerkungen:"
+                    "sha": "21b055377d0786c2c8e9e86bd9e3714f746965be",
+                    "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 98,
-                    "sha": "ce3ec94dafe9ebf82666af483e2a58f31813ce60",
-                    "description": "Rekursion MergeSort"
+                    "sha": "856d6955719fc053c9c8ec63a08c324a0d3d58dc",
+                    "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 99,
-                    "sha": "8fadb5ac7e109e140340d307a1db921433017d22",
-                    "description": "Rekursion MergeSort"
+                    "sha": "df8e7921ee06f02b672baa2fe53162b738c9c289",
+                    "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 100,
-                    "sha": "484a686b38c91227748f959324c797879e231b62",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 101,
-                    "sha": "d9e771eccc6747fee9a50bba476853bc7c466952",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 102,
-                    "sha": "6d76540c80e56aed5fbee708fe894bcd9d3f3881",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 103,
-                    "sha": "71257d48c50be416929da38365c54cbe2f839a39",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 104,
-                    "sha": "cd157898e9788cb6c6bb9bc4aa0a77c0e2f001b6",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 105,
-                    "sha": "b4173a30507999aeca893dcdb7d2d80302fd7f2d",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 106,
-                    "sha": "60436f2587900b6a93fdcece971e9a89437d9767",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 107,
-                    "sha": "9a508e6a9c695ce79d29094897ca31d2ceeacfd9",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 108,
-                    "sha": "cb319d31318655d0eacb449268a3299a5ac7f00e",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 109,
-                    "sha": "7dba5c40047eb37bb58cc787efb72b9f40fa78f6",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 110,
-                    "sha": "6931823d7bb8af3607d8357131214949372e76af",
-                    "description": "Rekursion MergeSort"
-                },
-                {
-                    "page": 111,
-                    "sha": "d9818f8bd89a8540f3cf3c827ace25163223e11f",
+                    "sha": "49511dfa450e7780108652275bb3037444cd24bf",
                     "description": "Bemerkungen:"
                 },
                 {
+                    "page": 101,
+                    "sha": "5183fefa62fe9f236faf65352bab3d1bcaf00e8e",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 102,
+                    "sha": "d8774fcf68097747d49b944759d546fdae93104c",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 103,
+                    "sha": "a5a0a369854c2742feb08cec44c6f606a7b8f6f1",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 104,
+                    "sha": "c1e0047f28006210761bc8ed92572923f97e86b8",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 105,
+                    "sha": "2b0a760ffb8a38031249a07e280883ed157920e8",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 106,
+                    "sha": "a4f2b37b71b38b171381c2272834b9cf23cdd533",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 107,
+                    "sha": "460718a8a807931efe5ac990566313cc851bd920",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 108,
+                    "sha": "11833b71d40ef3231ec16bc9067817fa1d1f5257",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 109,
+                    "sha": "32d60b22de3dd8d154279c3f2f4f9382212e5a45",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 110,
+                    "sha": "58a5dd948c8c20768faef2f00f65655295adb44b",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 111,
+                    "sha": "3d93a100d03ab434a911968a3a5dbbc38a2d2e05",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
                     "page": 112,
-                    "sha": "e2dba38164c378ae30be9136ee504e1ef5706819",
+                    "sha": "b291c174c6c23fde03610ec9e40599c10941efc8",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 113,
+                    "sha": "454e85f743ecc8cbfe100008bd6ddc9c81f4bcbb",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 114,
+                    "sha": "6cd32a2376648ae0690a619f223f3cef7a90c7b5",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 115,
+                    "sha": "59392795d954a2dfe21ab13b251e046263599487",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 116,
+                    "sha": "a0bef34f7da4f8ddf92902118d15d14398882a48",
                     "description": "Rekursion Rekursionsarten"
+                }
+            ]
+        },
+        "unit-de-algorithm-analysis": {
+            "sha": "b1dbee43dfdd9449e727a4c176e14cb08e1e229d",
+            "numpages": 73,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "b7ad18cd9b1f55a501c6ba69b0d505dc65369a3b",
+                    "description": "Kapitel ADS:II II. Algorithm Engineering"
+                },
+                {
+                    "page": 2,
+                    "sha": "74e4e1349806327ad3e0e752cc41efc76bd8c9f7",
+                    "description": "Maschinenmodell \u00dcbersicht \u00fcber Berechenbarkeitsmodelle"
+                },
+                {
+                    "page": 3,
+                    "sha": "04ed6da836123206e17cac0ca80c5b83218f6c8b",
+                    "description": "Maschinenmodell Random Access Machine (RAM) Modell"
+                },
+                {
+                    "page": 4,
+                    "sha": "9c7c6a98f570b5842e655b814354baf649334705",
+                    "description": "Maschinenmodell Random Access Machine (RAM) Modell"
+                },
+                {
+                    "page": 5,
+                    "sha": "de4e3fa21b31c5e4f6af6c2b377aa0afa9bedb09",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 6,
+                    "sha": "b82471721f3d1e46c5451e160988c054da2d53b4",
+                    "description": "Laufzeitanalyse Laufzeit"
+                },
+                {
+                    "page": 7,
+                    "sha": "fcefdf2667d0aff49abc7df0ba4a725e33419f10",
+                    "description": "Laufzeitanalyse Abh\u00e4ngige Variablen: Gr\u00f6\u00dfe der Probleminstanz"
+                },
+                {
+                    "page": 8,
+                    "sha": "49393a33978a3ea59a4ffd45f73b4bea39a70284",
+                    "description": "Laufzeitanalyse Abh\u00e4ngige Variablen: Struktur der Probleminstanz"
+                },
+                {
+                    "page": 9,
+                    "sha": "8d409310a97de54b874cc3ee5254fbd15c66140a",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "74b5d043437ff019ff58bbabd226f5a3729485ff",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 11,
+                    "sha": "ee62cfd74651ce7043fa7bce351bf9195c4d2513",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 12,
+                    "sha": "3d9f43a793b5d4a29a8a4001cff64b980bd0d3aa",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 13,
+                    "sha": "cf8d17ac7f46cf2fb0e2c6270ed7ef25465620d0",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 14,
+                    "sha": "e7cc74963e131ddd1823367e26f591a44e8961d9",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 15,
+                    "sha": "08d81530ea0fcef1b5ff0ad8bc159fe65cfee5c5",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 16,
+                    "sha": "ed70eca32e4bff8cc26503d5349819f1a81e4f04",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 17,
+                    "sha": "c659f5ff114dca1645bfc4559666bce0317149ce",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 18,
+                    "sha": "971ce49af066d6f189c7d4dd208cc47c235c0649",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 19,
+                    "sha": "fe19b0c4f99ef1fd93ea61aea12d6cbfe653b56f",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 20,
+                    "sha": "19fab36e4a3270a8c60de731e129c974bedfc5f3",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 21,
+                    "sha": "9a07344c791d604de8c39af3df1e5f94d42c74f4",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 22,
+                    "sha": "5be6ddb9025c5ae0d79e6e88177b835080adcd2b",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 23,
+                    "sha": "7e2a67ad81952d5b2c18f69d3a4058863e418580",
+                    "description": "Laufzeitanalyse Beispiel"
+                },
+                {
+                    "page": 24,
+                    "sha": "e0983d2462c143969cc45ca9f6e808f87147bdf5",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 25,
+                    "sha": "0828b7df2150f21368873fd762491586085a1786",
+                    "description": "Asymptotische Analyse Wachstumsrate"
+                },
+                {
+                    "page": 26,
+                    "sha": "0b014058fe6655ca60b65688d9a7eac1c612c9be",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 27,
+                    "sha": "9c582397a9dc4c708d9aac5e2bbebf3d2fbf6d59",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 28,
+                    "sha": "c541c8da75eb24e938b8d2bd3a73b930357a3e53",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 29,
+                    "sha": "e720ea20943d2aab5eb2103a3843aa942571b8b9",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 30,
+                    "sha": "384e62bd645768aad639361702613fc456eaf065",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 31,
+                    "sha": "b471491f4f828441f735913709d2a05d8c6b4b2d",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 32,
+                    "sha": "6a0645f3069d228b7af6058957420e3f6c34a740",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 33,
+                    "sha": "1450b6fcc6a0f3f724a3372b943cf27110b70a65",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 34,
+                    "sha": "5580e89696261283e61599a9e80250fd581f7600",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 35,
+                    "sha": "29757e407138f0cb39392ddf202eee938545299a",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 36,
+                    "sha": "9c49f7e4772a68832a8f4c27d53ed468a15b47b5",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 37,
+                    "sha": "5189aa23460711cbc4e1679a21a7b9368eb67978",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 38,
+                    "sha": "99b8857b7a7313b79e72647f0b07d966bb0b2f4d",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 39,
+                    "sha": "920d89d0752f7c8898f669acdc3b738d9286debb",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 40,
+                    "sha": "85a52ac1e02244d1b2de9b079501f62466af1a56",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 41,
+                    "sha": "a48ee0c4e70047e2d8774ae70022a6accfc950fb",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 42,
+                    "sha": "d5b13f7fe834ca0d0f5eb63ce4789b9bf3281f95",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 43,
+                    "sha": "1d7d92c34c2c04eb47b03c9f43bee20c87b9859f",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 44,
+                    "sha": "e85cc4f055f719190af3a2d4975877f4d20a64a3",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 45,
+                    "sha": "eb54c2e06a61859f92b94873c409da0c271ab248",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 46,
+                    "sha": "753d0c9608e50137e9a53f11394b43973cdc5a42",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 47,
+                    "sha": "ff0c797314bc82482fa166299d7751d17cf003ac",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                },
+                {
+                    "page": 48,
+                    "sha": "f636a40601189d917c02fba516befbf4232b9ec1",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Typische Wachstumsraten"
+                },
+                {
+                    "page": 49,
+                    "sha": "19700de0ab3f5f2b17e6447c5c44c0ee17c107f2",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Typische Wachstumsraten"
+                },
+                {
+                    "page": 50,
+                    "sha": "631835d83c0d30bf118e8f1a87b1b608e3f84984",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Notation"
+                },
+                {
+                    "page": 51,
+                    "sha": "e3784064fe99111f8794165acee9d6653211c0db",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Eigenschaften"
+                },
+                {
+                    "page": 52,
+                    "sha": "28e1b63ffe2c413085d5a67fdf40571b19a9f404",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Rechenregeln"
+                },
+                {
+                    "page": 53,
+                    "sha": "b2cd4bc79c03ddf54ee11b285690fb3050edf3d5",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: \u00dcberblick"
+                },
+                {
+                    "page": 54,
+                    "sha": "f6a5ba64b993facf106b1a0bc26a383738e7dfb2",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 55,
+                    "sha": "bbe23c3180894cc5b005245ce18106900191e567",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                },
+                {
+                    "page": 56,
+                    "sha": "ae2a3a199fc7d4b523e0d2683b28e5c89fbce84d",
+                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
+                },
+                {
+                    "page": 57,
+                    "sha": "8cc15267af57df024c301bbc6d43ea28f3b3a3db",
+                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
+                },
+                {
+                    "page": 58,
+                    "sha": "44b1253985cf41110308c9cbd4a2a37c489f005a",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 59,
+                    "sha": "d8ecfced380c427b6d32fc6fcb20af65735b33d0",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 60,
+                    "sha": "05ba4901658e5b0480fe50da2c9716b26776b9d5",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 61,
+                    "sha": "ff36dd4cd406cff51b2a814edb2c7f999d230a82",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 62,
+                    "sha": "d7a56c8829dcc5a2bf51e48a57dca05cab553f40",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 63,
+                    "sha": "9ef4aadc2ca161f206c8371568b6a66ccc66bf17",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 64,
+                    "sha": "abfe54d95e37076a5a43f3b6c94825f85a9b4087",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 65,
+                    "sha": "c29c27098ce6359e1408bf4532426149da05d5a1",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 66,
+                    "sha": "0433f346f23613e9ebce50438d3de83534a2e93c",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 67,
+                    "sha": "4639fb1576c3605b2cf4204431f29357a3d3b40d",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 68,
+                    "sha": "2320f6db1b3eb3a2e4abaf6baa276aee914bd55c",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 69,
+                    "sha": "5a207a8273ef5695af74eeff126ce91d364431f1",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 70,
+                    "sha": "f9069426c976d4cef73c091549c0cdac26a71aa1",
+                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 71,
+                    "sha": "3ddfdf30ec24559877e33e4b212b5967f2776d24",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 72,
+                    "sha": "3e3b77542c9fe4a3e5d606e75563fb47ad9224aa",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiel"
+                },
+                {
+                    "page": 73,
+                    "sha": "c8fc08c5ab83fc415450946194de740717fd6f56",
+                    "description": "Asymptotische Analyse Satz 1 (Master-Theorem)"
                 }
             ]
         }
