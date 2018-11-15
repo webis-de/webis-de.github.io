@@ -16,12 +16,13 @@
 
 
 .tool {
-  width: 200px;
+  width: 150px;
   display: inline-block;
   margin-bottom: 20px;
 }
 .tool-image {
-  margin-right: 5px;
+  margin-right: 3px;
+  width: 27px;
 }
 .tool-image, .tool-description {
   display: inline-block;
