@@ -61,30 +61,33 @@ description: Overview of research that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
 
-        <p>The mapping between people and their names is not one-to-one. When searching the World Wide Web for a person, one is immediately faced with this problem: search results contain Web pages of different individuals having the same name. Since an individual can have several Web pages, search results get cluttered, especially when searching for people with rather common names. The problem can only be addressed with a deeper semantic analysis: Web page content must be interpreted in multiple respects in order to distinguish between different individuals even if they have the same name. This grouping problem is also referred to as &quot;multi document person resolution&quot;; it has recently gained much attention, among others through the <a data-htmlarea-external="1" class="external-link-new-window" href="http://www.uni-weimar.de/en/media/news/awards/titel/professur-content-management-und-web-technologien-gewinnt-die-internationale-spock-challenge/">Spock Challenge</a>. The solution that is outlined below has been awarded the winner of this challenge. </p>
+        <p>The mapping between people and their names is not one-to-one. When searching the World Wide Web for a person, one is immediately faced with this problem: search results contain Web pages of different individuals having the same name. Since an individual can have several Web pages, search results get cluttered, especially when searching for people with rather common names. The problem can only be addressed with a deeper semantic analysis: Web page content must be interpreted in multiple respects in order to distinguish between different individuals even if they have the same name. This grouping problem is also referred to as &quot;multi document person resolution&quot;; it has recently gained much attention, among others through the Spock Challenge. The solution that is outlined below has been awarded the winner of this challenge.</p>
 
         <!--
         SECTION Research
         -->
         <h2 id="research">Research</h2>
 
-        <p>The heart of our solution for the person resolution problem is similarity graph clustering. Let <em>G=&lt; V,E, &phi; &gt;</em> denote a weighted graph with node set <em>V</em>, edge set <em>E</em>, and edge weight function <em>&phi;</em>. Each node represents a document, and each edge <em>e</em> in <em>E</em> has a weight <em>&phi;(e)</em> in [0,1] that models the similarity of its incident documents with respect to their referents. Using such a graph-based approach, the challenge can be subdivided into the following steps.</p>
+        <p>The heart of our solution for the person resolution problem is similarity graph clustering. Let <i>G=&lt; V,E, &phi; &gt;</i> denote a weighted graph with node set <i>V</i>, edge set <i>E</i>, and edge weight function <i>&phi;</i>. Each node represents a document, and each edge <i>e</i> in <i>E</i> has a weight <i>&phi;(e)</i> in [0,1] that models the similarity of its incident documents with respect to their referents. Using such a graph-based approach, the challenge can be subdivided into the following steps.</p>
 <ul><li><i>Modeling</i>. Design of a similarity function &phi; that reflects page similarity according to individuals (also called &quot;referents&quot;).</li><li><i>Merging</i>. Choice of a clustering algorithm to generate different clusterings using various parameters.</li><li><i>Evaluation</i>. Test the validity of the generated clusterings in order to choose the best.</li></ul>
 <p>In general, the modeling part constitutes the most critical and most important part in the analysis process. If the model is poor, no combination of clustering algorithm or validity measure can succeed in producing a high quality clustering.</p>
-    <img src="img/spock-analysis-process.jpg" alt="spock analysis">
 
-    <p><em>Analysis Process</em>. For training purposes, we assume the existence of a training set of Web pages that has been labeled according to referents. The analysis process is depicted in the figure above. At training time (left hand side), a similarity measure in form of a classifier is learned from the training data, which is employed online (right hand side) for deriving similarities of previously unseen Web pages. In the following, the procedure for learning a similarity function (at training time) and the procedure for applying the learned similarity function are shown.<br /> </p>
-<p>Training procedure:</p>
-<blockquote class="person-resolution-steps"><p>(1a) For each document within an instance, several representations are computed. In particular, we compute a vector space representation using a TF*IDF weighting scheme, a core vocabulary representation, a semantic similarity model based on Wikipedia, a categorical model where the document is classified into the DMOZ hierarchy, and a high-level domain specific model that uses an NLP parser to extract specific knowledge. </p></blockquote>
-<blockquote class="person-resolution-steps"><p>(2a) For each pair of documents, similarity values &phi;<sub>i</sub> according to the mentioned document representations are computed.</p></blockquote>
-<blockquote class="person-resolution-steps"><p>(3) A logistic regression is used to combine the similarity values <em>&phi;<sub>i</sub></em> of an edge <em>e</em> into a single value <em>&phi;</em>. The objective of the regression is to produce a value of <em>&phi;</em>(<em>e</em>)=1 if the incident documents of e belong to the same referent, and <em>&phi;</em>(<em>e</em>)=0 otherwise. In other words, the value of the logistic regression represents the probability that the documents incident to <em>e</em> belong to the same individual.</p></blockquote>
-<p>Once the model is learned, it can be employed to combine the similarity values <em>&phi;<sub>i</sub></em> into one value <em>&phi;</em> for previously unseen data. The following procedure illustrates how the trained classifier is used online.</p>
-<p>Application of the learned model:</p>
-<blockquote class="person-resolution-steps"><p>(1b) For each pair of documents in an instance, the similarity values <em>&phi;<sub>i</sub></em> are computed.</p></blockquote>
-<blockquote class="person-resolution-steps"><p>(2b) The trained classifier is used to combine the <em>&phi;<sub>i</sub></em> into one value <em>&phi;</em>, which is used as edge weight in a similarity graph <em>G</em>.</p></blockquote>
-<blockquote class="person-resolution-steps"><p>(4) The similarity graph is reduced to a <em>k</em>-nearest-neighbor graph in order to reduce noise.</p></blockquote>
-<blockquote class="person-resolution-steps"><p>(5) The similarity graph is clustered with the MajorClust algorithm (Stein and Niggemann 1999) using different density thresholds. The resulting clusterings are assessed with respect to their validity using the expected density measure &rho; (Stein and Meyer zu Eissen 2003, Meyer zu Eissen 2007).</p></blockquote>
-
+    <p><b>Analysis Process</b> For training purposes, we assume the existence of a training set of Web pages that has been labeled according to referents. At training time, a similarity measure in form of a classifier is learned from the training data, which is employed online for deriving similarities of previously unseen Web pages. In the following, the procedure for learning a similarity function (at training time) and the procedure for applying the learned similarity function are shown.<br /> </p>
+<p>Training procedure:
+<ul>
+  <li>(1a) For each document within an instance, several representations are computed. In particular, we compute a vector space representation using a TF*IDF weighting scheme, a core vocabulary representation, a semantic similarity model based on Wikipedia, a categorical model where the document is classified into the DMOZ hierarchy, and a high-level domain specific model that uses an NLP parser to extract specific knowledge.</li>
+  <li>(2a) For each pair of documents, similarity values &phi;<sub>i</sub> according to the mentioned document representations are computed.</li>
+  <li>(3) A logistic regression is used to combine the similarity values <i>&phi;<sub>i</sub></i> of an edge <i>e</i> into a single value <i>&phi;</i>. The objective of the regression is to produce a value of <i>&phi;</i>(<i>e</i>)=1 if the incident documents of e belong to the same referent, and <i>&phi;</i>(<i>e</i>)=0 otherwise. In other words, the value of the logistic regression represents the probability that the documents incident to <i>e</i> belong to the same individual.</li>
+</ul>
+</p>
+<p>Once the model is learned, it can be employed to combine the similarity values <i>&phi;<sub>i</sub></i> into one value <i>&phi;</i> for previously unseen data. The following procedure illustrates how the trained classifier is used online.
+<ul>
+<li>(1b) For each pair of documents in an instance, the similarity values <i>&phi;<sub>i</sub></i> are computed.</li>
+<li>(2b) The trained classifier is used to combine the <i>&phi;<sub>i</sub></i> into one value <i>&phi;</i>, which is used as edge weight in a similarity graph <i>G</i>.</li>
+<li>(4) The similarity graph is reduced to a <i>k</i>-nearest-neighbor graph in order to reduce noise.</li>
+<li>(5) The similarity graph is clustered with the MajorClust algorithm (Stein and Niggemann 1999) using different density thresholds. The resulting clusterings are assessed with respect to their validity using the expected density measure &rho; (Stein and Meyer zu Eissen 2003, Meyer zu Eissen 2007).</li>
+</ul>
+</p>
 
 
         <!--

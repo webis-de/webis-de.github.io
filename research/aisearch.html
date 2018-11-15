@@ -69,7 +69,6 @@ description: Overview of research that are used by the Webis research group
                     special
                     prize as research tool.</p>
             </div>
-            <img src="img/easa-award_01.gif" alt="easa award">
         </div>
 
 
@@ -78,13 +77,10 @@ description: Overview of research that are used by the Webis research group
         SECTION Research
         -->
         <h2 id="research">Research</h2>
-       <div style="display:flex">
-        <p><em>Searching with AIsearch</em>. A search process with the AIsearch Web interface starts as usual: A query in the form of interesting search terms is entered within a dialog field. The query is sent to several search engines and for a syntactic analysis to a <em>SmartSpell<sup>&reg;</sup></em> server. The query results, i. e., the HTML document snippets, are collected and analyzed with respect to the similarity of their contents. Based on this analysis, adequate categories are formed and labeled, and a tree of the categories, which shows related categories at a closer distance than unrelated categories, is drawn in the hyperbolic plane. The following figure shows a snapshot of the AIsearch Web interface for the query &quot;tea flavour&quot;. Aside from the hyperbolic category tree, the returned document snippets can also be browsed in a list format. The list groups all snippets of the same category together, and, immediate access to each sublist is possible by simply clicking the leafs in the category tree.</p>
-        <img src="img/aisearch-snapshot.png" style="width:200px; height:156px" alt="aisearch">
-       </div> 
-       <p><em>Query Analysis with SmartSpell<sup>&reg;</sup></em>. The terms of the query are checked with respect to both correct spelling and similar terms. For this job the powerful <em>SmartSpell</em> algorithm is used. <em>SmartSpell</em> analyzes spelling errors with regard to the editing distance, the Levinshtein distance, and the phonological distance against a dictionary. The phonological interpretation depends on a language's level of phonemicity and is realized with a sophisticated, phoneme-dependent word similarity measure. To efficiently find syntactic and phonetic similar words for a search term, <em>SmartSpell</em> operationalizes several paradigms of heuristic search: nogood-lemma generation, search space pruning based on over- and underestimation, iterative deepening search, and memorization. The following table shows some examples of misspelled words along with <em>SmartSpell</em>'s proposals and similarity estimations.</p>
+        <p><b>Searching with AIsearch</b> A search process with the AIsearch Web interface starts as usual: A query in the form of interesting search terms is entered within a dialog field. The query is sent to several search engines and for a syntactic analysis to a <i>SmartSpell</i>&reg;</sup></i> server. The query results, i. e., the HTML document snippets, are collected and analyzed with respect to the similarity of their contents. Based on this analysis, adequate categories are formed and labeled, and a tree of the categories, which shows related categories at a closer distance than unrelated categories, is drawn in the hyperbolic plane. The following figure shows a snapshot of the AIsearch Web interface for the query &quot;tea flavour&quot;. Aside from the hyperbolic category tree, the returned document snippets can also be browsed in a list format. The list groups all snippets of the same category together, and, immediate access to each sublist is possible by simply clicking the leafs in the category tree.</p>
+       <p><b>Query Analysis with SmartSpell<sup>&reg;</sup></b> The terms of the query are checked with respect to both correct spelling and similar terms. For this job the powerful <i>SmartSpell</i> algorithm is used. <i>SmartSpell</i> analyzes spelling errors with regard to the editing distance, the Levinshtein distance, and the phonological distance against a dictionary. The phonological interpretation depends on a language's level of phonemicity and is realized with a sophisticated, phoneme-dependent word similarity measure. To efficiently find syntactic and phonetic similar words for a search term, <i>SmartSpell</i> operationalizes several paradigms of heuristic search: nogood-lemma generation, search space pruning based on over- and underestimation, iterative deepening search, and memorization. The following table shows some examples of misspelled words along with <i>SmartSpell</i>'s proposals and similarity estimations.</p>
 
-    <table class="uk-table">
+    <table class="uk-table uk-table-small uk-width-auto">
             <thead>
                 <tr class="tr-even tr-0">
                     <th class="td-o" scope="col">
@@ -118,17 +114,14 @@ description: Overview of research that are used by the Webis research group
                 </tr>
             </tbody>
         </table>
-        <p>Examples for misspelled words (left column) and the<em> SmartSpell </em>proposals with similarity estimations (right column).<em> Sm</em><em>artSpell'</em>s proposals of similar search terms are directly integrated in the query field; they enable the reformulation, extension, or correction of a query by the press of a button.</p>
+        <p>Examples for misspelled words (left column) and the<i> SmartSpell </i>proposals with similarity estimations (right column).<i> Sm</i><i>artSpell'</i>s proposals of similar search terms are directly integrated in the query field; they enable the reformulation, extension, or correction of a query by the press of a button.</p>
 
-        <p><em>Category Formation</em>. AIsearch implements a new clustering algorithm (MajorClust) for the automatic categorization of document collections. Several analyses have shown the high quality of the found categories. To compare different clusterings of search results, AIsearch employs strategy patterns to make term weighting schemes, similarity measures, clustering algorithms, and cluster validity measures interchangeable at runtime. For efficient text handling, the symbol processing algorithms for text parsing, text compression, and text comparison utilize specialized flyweight patterns.</p>
+        <p><b>Category Formation</b> AIsearch implements a new clustering algorithm (MajorClust) for the automatic categorization of document collections. Several analyses have shown the high quality of the found categories. To compare different clusterings of search results, AIsearch employs strategy patterns to make term weighting schemes, similarity measures, clustering algorithms, and cluster validity measures interchangeable at runtime. For efficient text handling, the symbol processing algorithms for text parsing, text compression, and text comparison utilize specialized flyweight patterns.</p>
 
-        <div style="display:flex">
             <p>
-                Software Architecture and Deployment. The figure shows how the AIsearch components are deployed to machines. When a user enters the AIsearch URL in his browser, a Java Applet that contains the AIsearch user interface is delivered from the Web server, which in turn communicates with the load balancing module. All requests from the client, such as a request for spelling or a request for search, are coded in a proprietary protocol that contains several commands. Whenever a command reaches the load balancing module, one of the AIsearch engines is chosen to perform the associated task. All commands are processed asynchronously. All computationally expensive tasks are performed as threads, which allows us to run several commands simultaneously on a single AIsearch engine. Moreover, the threading model supports multiprocessor machines ideally, and, combined with a load balancing concept, assures a simple scalability of the architecture.
+            <b>Software Architecture and Deployment</b> When a user enters the AIsearch URL in his browser, a Java Applet that contains the AIsearch user interface is delivered from the Web server, which in turn communicates with the load balancing module. All requests from the client, such as a request for spelling or a request for search, are coded in a proprietary protocol that contains several commands. Whenever a command reaches the load balancing module, one of the AIsearch engines is chosen to perform the associated task. All commands are processed asynchronously. All computationally expensive tasks are performed as threads, which allows us to run several commands simultaneously on a single AIsearch engine. Moreover, the threading model supports multiprocessor machines ideally, and, combined with a load balancing concept, assures a simple scalability of the architecture.
 
             </p>
-            <img src="img/aisearch-uml-deployment.png" style="width:200px; height:203px;" alt="aisearch uml deployment">
-        </div>
 
             <!--
         SECTION People

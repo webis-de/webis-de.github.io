@@ -64,7 +64,7 @@ description: Overview of research that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
 
-        <p><em>Market forecast summarization</em> is the task of compiling market forecasts supplied by domain experts.
+        <p>Market forecast summarization is the task of compiling market forecasts supplied by domain experts.
             It is an essential task for investment strategists who base their investment decisions on them. A rich
             source for market forecast information&nbsp;in this connection&nbsp;is the World Wide Web. Our goal is the
             development of a Web-service which identifies and extracts forecast information&nbsp;for a user-specified
@@ -85,19 +85,16 @@ description: Overview of research that are used by the Webis research group
             exhaustive, since human abilities to manage the information flood on the Internet are limited. These facts
             motivated our research to automate this process.</p>
 
-        <div style="display:flex;align-items:center">
-            <p><em>Four Stage Approach</em>. We developed a four stage approach to&nbsp;automate the process of market
-                forecast summarization which is illustrated in the figure below. A user of the system has to specifiy
-                at least one keyword which characterizes the market of interest. The four stages are (<em>i</em>) a
-                focused search for documents containing market forecasts, (<em>ii</em>) analysis of&nbsp;the search
-                results whether they contain forecast information, (<em>iii</em>) parsing of&nbsp;time and money
-                information, and (<em>iv</em>)&nbsp;identification of significant associations between the
-                extracted&nbsp;time and money values. Finally&nbsp;a diagram&nbsp;is generated containing all the
-                forecasts identified for the respective market keyword.</p>
-            <img src="img/four-stage-approach.png" style="width:200px; height:39px;" alt="four stage approach">
-        </div>
+        <p><b>Four Stage Approach</b> We developed a four stage approach to&nbsp;automate the process of market
+            forecast summarization. A user of the system has to specifiy
+            at least one keyword which characterizes the market of interest. The four stages are (<i>i</i>) a
+            focused search for documents containing market forecasts, (<i>ii</i>) analysis of&nbsp;the search
+            results whether they contain forecast information, (<i>iii</i>) parsing of&nbsp;time and money
+            information, and (<i>iv</i>)&nbsp;identification of significant associations between the
+            extracted&nbsp;time and money values. Finally&nbsp;a diagram&nbsp;is generated containing all the
+            forecasts identified for the respective market keyword.</p>
 
-        <p><em>Stage 1: Collecting Candidate Documents</em>. Internet search engines provide an obvious way to retrieve
+        <p><b>Stage 1: Collecting Candidate Documents</b> Internet search engines provide an obvious way to retrieve
             documents about a certain topic, and we use them in a meta-search-manner to compile a first candidate
             document collection. Starting point is a user-specified set of keywords that characterize the market of
             interest, e.g. &quot;online advertising&quot;.&nbsp;These keywords are combined with&nbsp;entries from a
@@ -105,7 +102,7 @@ description: Overview of research that are used by the Webis research group
             advertising forecast&quot; are sent to well-known search engines and the&nbsp;results with a high ranking
             are downloaded.</p>
 
-        <p><em>Stage 2: Report Filtering</em>. At this stage the downloaded documents are classified whether they are
+        <p><b>Stage 2: Report Filtering</b> At this stage the downloaded documents are classified whether they are
             likely to contribute valuable information to market analysis or not. This is done by a genre detection
             which differentiates documents&nbsp;with respect to their form, style or targeted audience. Some well-known
             genres of Web-pages are online-shops, help pages, discussion forums, etc. Each genre comes with its own
@@ -114,26 +111,23 @@ description: Overview of research that are used by the Webis research group
             analysis. Note that this kind of genre detection automates one of the most time-consuming tasks within a
             manually&nbsp;conducted forecast summarization.</p>
 
-        <p><em>Stage 3: Time and Money Identification</em>. Documents that are likely to contain market forecast
+        <p><b>Stage 3: Time and Money Identification</b> Documents that are likely to contain market forecast
             information are subject to a closer analysis: all time and money phrases are identified. Time and money
             extraction from plain text are challenging tasks since they can appear in very different forms. For example
             time information can be expressed as dates, relative time information like &quot;next year&quot;, or vague
             time information like &quot;within the past years&quot;. Money information can be identified on the basis
             of trailing or leading currency symbols.</p>
 
-        <p><em>Stage 4: Phrase Analysis</em>. In order to bring the extracted time and money information of the
+        <p><b>Stage 4: Phrase Analysis</b> In order to bring the extracted time and money information of the
             previous stage together, this stage associates them by means of natural language processing. The result of
             this stage are a number of forecast statements in a computer-understandable form. To obtain them each
             phrase of a candidate document is parsed in order to find out whether it actually is a market forecast or
             if it just contains time and money information in another sense.</p>
 
-        <div style="display:flex;align-items:center">
-            <p><em>Presentation</em>. The forecast statements identified at the end of stage four can be analyzed and
-                presented according to the needs of a user. Currently each statement is included in a diagram such as
-                in the figure below where each point corresponds to one forecast.&nbsp;The x-axis of the diagram shows
-                the time in years and the y-axis shows the turnover a forecast predicts for the respective year.</p>
-            <img src="img/forecast-summary.gif" style="width:200px; height:150px;" alt="forecast summary">
-        </div>
+        <p><b>Presentation</b> The forecast statements identified at the end of stage four can be analyzed and
+            presented according to the needs of a user. Currently each statement is included in a diagram where each
+            point corresponds to one forecast. The x-axis of the diagram shows the time in years and the y-axis shows
+            the turnover a forecast predicts for the respective year.</p>
         <!--
         SECTION People
         -->
