@@ -15216,7 +15216,232 @@
                 }
             ]
         },
-        "unit-en-representation1": null,
+        "unit-en-representation1": {
+            "sha": "76c74825c11d5d331e53fc3fc764b028b2c67193",
+            "numpages": 44,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "c6de60e8ae21ea2c15773d1713c177cc60f263f0",
+                    "description": "Chapter S:IV IV. Search Space Representation"
+                },
+                {
+                    "page": 2,
+                    "sha": "a7ebaf8603719e8c449bd587a903c34ef9273a7c",
+                    "description": "Problem Solving Problem Characterization"
+                },
+                {
+                    "page": 3,
+                    "sha": "6b02d49f50399d394a57f3e9ac19d356a60702db",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 4,
+                    "sha": "ffbb3c6173e8a613e011dac3abb22b1e4bde7132",
+                    "description": "Problem Solving Problem Characterization"
+                },
+                {
+                    "page": 5,
+                    "sha": "6320dc077c239fd5980869e68a4e0a951b5722eb",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 6,
+                    "sha": "9d3edc220afc25e9223c09828fb59309f3f90874",
+                    "description": "Problem Solving Problem Characterization"
+                },
+                {
+                    "page": 7,
+                    "sha": "d6a1006994057d2b6018fc1ea4c2028f49e57440",
+                    "description": "Problem Solving Decision Problem: Abstract Definition"
+                },
+                {
+                    "page": 8,
+                    "sha": "ce0487fea152910abea4b9e5aa5c71ffa2887889",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 9,
+                    "sha": "1c43cb37a99602f9732a74e73c51dfb173681347",
+                    "description": "Problem Solving Search Problem: Abstract Definition"
+                },
+                {
+                    "page": 10,
+                    "sha": "b56184699c9adb168682b682a0b1862432aa5068",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 11,
+                    "sha": "38f5f2656e19bee6ad5246e7aa12dbb7d95ec818",
+                    "description": "Remarks ( (continued)):"
+                },
+                {
+                    "page": 12,
+                    "sha": "4aa2ed3c0497fc4379c6120b291916c475448768",
+                    "description": "Problem Solving Optimization Problem: Abstract Definition"
+                },
+                {
+                    "page": 13,
+                    "sha": "9854ba64197a3e6445675bb2506e73afbad283e1",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 14,
+                    "sha": "c146006a66f19588368c9fb13a353d032674784e",
+                    "description": "Systematic Search Search Building Blocks"
+                },
+                {
+                    "page": 15,
+                    "sha": "e08046a00b7f07cac9889cad72b01cc38912a83a",
+                    "description": "Systematic Search Search Building Blocks"
+                },
+                {
+                    "page": 16,
+                    "sha": "e34c59cc0ed562514637749adc8fb4f7a65e1197",
+                    "description": "Systematic Search Definition 1 (Systematic Control Strategy)"
+                },
+                {
+                    "page": 17,
+                    "sha": "344247f389abdd69d88f735a31149003f0e44df6",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 18,
+                    "sha": "6eb55640cde750145e74e7aa3adb07a515d4780f",
+                    "description": "Systematic Search Categorization of 'Heuristic [Problem Solving] Methods'"
+                },
+                {
+                    "page": 19,
+                    "sha": "8e3bb3df5e244813f4daae72735ac3600c34c12e",
+                    "description": "Search Space Encoding Encoding of Solution Candidates"
+                },
+                {
+                    "page": 20,
+                    "sha": "cd3be916ad05d232d8c7fd4b7b257a3830c3838b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 21,
+                    "sha": "fe712f77d47d1d36f58d05ded0da0eda394def43",
+                    "description": "Search Space Encoding Applicable Heuristic Problem Solving Methods"
+                },
+                {
+                    "page": 22,
+                    "sha": "5619c359656d36cd07bc2e0ac0fb5d4608c00c4e",
+                    "description": "Search Space Encoding Encoding of Solution Candidates ("
+                },
+                {
+                    "page": 23,
+                    "sha": "4ee24acd36db52141694c3315c5d9c8e0fbe3c1e",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 24,
+                    "sha": "2d0cc36b591ed17cac31ec0bade6ca615ce0eecf",
+                    "description": "Remarks (continued) :"
+                },
+                {
+                    "page": 25,
+                    "sha": "dc1a4bca80328607ba21e47c3f28af9a36cff461",
+                    "description": "Search Space Encoding Encoding of Solution Candidates"
+                },
+                {
+                    "page": 26,
+                    "sha": "2566a634990b9a271d42012001d0b09637860232",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 27,
+                    "sha": "b4c807276710c50bb510fcc904b4d2b131c051b9",
+                    "description": "Search Space Encoding Example: Subset Encoding for the 8-Queens Problem"
+                },
+                {
+                    "page": 28,
+                    "sha": "3f184292aa095ff16659eb213039f7ed2981a41b",
+                    "description": "Search Space Encoding Example: Subset Encoding for the 8-Puzzle Problem"
+                },
+                {
+                    "page": 29,
+                    "sha": "9a7e9710cafcd0b9397cdb3f0446675be0d1666f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 30,
+                    "sha": "a3c0b49e7b7508b4c9c3d39db684e91a08fa0dc5",
+                    "description": "State-Space Representation Using Subset Encoding in Search"
+                },
+                {
+                    "page": 31,
+                    "sha": "d570a37e6da096c38f6f4b7fc63b3e2ab04c476d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 32,
+                    "sha": "61e42d1cf898a690a02aad6d0058971474aa7868",
+                    "description": "State-Space Representation Subset Encoding in Search"
+                },
+                {
+                    "page": 33,
+                    "sha": "df1f62b900fa054eb3809262b89a7ff68678a525",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 34,
+                    "sha": "d419bceacd786ed4e883abe93a795d89c60a6c6c",
+                    "description": "State-Space Representation Example: TSP"
+                },
+                {
+                    "page": 35,
+                    "sha": "873a4f3645d39fbc6acd8a61ceabe98f0942c643",
+                    "description": "State-Space Representation Example: TSP"
+                },
+                {
+                    "page": 36,
+                    "sha": "efd68e831e910c0a68c7cbb70bde441fd5082b89",
+                    "description": "State-Space Representation Summary: Solving Search Problems by State Space Search"
+                },
+                {
+                    "page": 37,
+                    "sha": "7eb0ae8ae964dd084f9fabb445bd3b752ff99c3c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 38,
+                    "sha": "462b2636772380a537a056a130465ef4ebadbcf3",
+                    "description": "State-Space Representation Example: 8-Queens Problem"
+                },
+                {
+                    "page": 39,
+                    "sha": "793b645b6935e6a5d20abbf4492dc6f25fe77bf9",
+                    "description": "State-Space Representation Example: 8-Puzzle Problem"
+                },
+                {
+                    "page": 40,
+                    "sha": "09950d0130b311200e6f4eceb00d115956573610",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 41,
+                    "sha": "9366eed1652df3830f6291969da78c21aa2203ff",
+                    "description": "Search Space Encoding Applicable Heuristic Problem Solving Methods"
+                },
+                {
+                    "page": 42,
+                    "sha": "7fd64cee6360b016cd4336d81d009144b86435de",
+                    "description": "State-Space Representation Search Problem: Constraint-Satisfaction or Optimization"
+                },
+                {
+                    "page": 43,
+                    "sha": "ed509a01fe7af1c870c9f6da0e96a2e80b82845f",
+                    "description": "State-Space Representation Search Problem: Constraint-Satisfaction or Optimization"
+                },
+                {
+                    "page": 44,
+                    "sha": "c8914521071ca926a7cd3936515136c4c46c69bd",
+                    "description": "Remarks:"
+                }
+            ]
+        },
         "unit-en-representation2": {
             "sha": "8329b5a9393ad8dbe840ec7f05a36e428d47e669",
             "numpages": 52,
