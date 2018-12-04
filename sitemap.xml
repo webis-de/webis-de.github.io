@@ -8414,7 +8414,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://webis.de/data/corpus-pan-pc-09.html</loc>
+    <loc>https://webis.de/data/pan-pc-09.html</loc>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://webis.de/img/webis-logo.png</image:loc>
@@ -8530,7 +8530,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://webis.de/data/corpus-pan-pc-10.html</loc>
+    <loc>https://webis.de/data/pan-pc-10.html</loc>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://webis.de/img/webis-logo.png</image:loc>
@@ -8563,7 +8563,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://webis.de/data/corpus-pan-wqf-12.html</loc>
+    <loc>https://webis.de/data/pan-wqf-12.html</loc>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://webis.de/img/webis-logo.png</image:loc>
@@ -8621,7 +8621,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://webis.de/data/corpus-pan-pc-11.html</loc>
+    <loc>https://webis.de/data/pan-pc-11.html</loc>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://webis.de/img/webis-logo.png</image:loc>
@@ -8650,7 +8650,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://webis.de/data/corpus-pan-wvc-10.html</loc>
+    <loc>https://webis.de/data/pan-wvc-10.html</loc>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://webis.de/img/webis-logo.png</image:loc>
@@ -8794,7 +8794,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://webis.de/data/corpus-pan-wvc-11.html</loc>
+    <loc>https://webis.de/data/pan-wvc-11.html</loc>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://webis.de/img/webis-logo.png</image:loc>
@@ -9361,32 +9361,32 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webis.de/data/corpus-pan-pc-09.html</loc>
+  <loc>https://webis.de/data/pan-pc-09.html</loc>
   <lastmod>2018-10-08T13:51:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webis.de/data/corpus-pan-pc-10.html</loc>
+  <loc>https://webis.de/data/pan-pc-10.html</loc>
   <lastmod>2018-10-08T13:51:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webis.de/data/corpus-pan-pc-11.html</loc>
+  <loc>https://webis.de/data/pan-pc-11.html</loc>
   <lastmod>2018-10-08T13:51:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webis.de/data/corpus-pan-wqf-12.html</loc>
+  <loc>https://webis.de/data/pan-wqf-12.html</loc>
   <lastmod>2018-10-08T13:51:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webis.de/data/corpus-pan-wvc-10.html</loc>
+  <loc>https://webis.de/data/pan-wvc-10.html</loc>
   <lastmod>2018-10-08T13:51:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webis.de/data/corpus-pan-wvc-11.html</loc>
+  <loc>https://webis.de/data/pan-wvc-11.html</loc>
   <lastmod>2018-10-08T13:51:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
