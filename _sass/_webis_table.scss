@@ -18,6 +18,19 @@
         color: $global-color;
     }
 
+    // hide arrows on non-selected and non-hovered headers
+    .sorting {
+        &:before, &:after {
+            visibility: hidden;
+        }
+    }
+
+    .sorting:hover, .sorting:focus {
+        &:before, &:after {
+            visibility: inherit;
+        }
+    }
+
     .numeric {
         text-align: right;
     }
