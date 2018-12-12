@@ -168,12 +168,11 @@ a:target {
     }
 }
 
-@media (min-width: $breakpoint-medium) {
-    .footer-link-column {
-        max-width: 13rem;
-        min-width: 11rem;
-    }
+.footer-link-column {
+    width: 9rem;
+}
 
+@media (min-width: $breakpoint-medium) {
     .footer-link-column .uk-nav-header {
         min-height: 3em;
     }
