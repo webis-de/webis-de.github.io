@@ -3614,1430 +3614,2715 @@
             "unit-de-ads-introduction",
             "unit-de-problem-solving",
             "unit-de-algorithm-design",
-            "unit-de-algorithm-analysis"
+            "unit-de-algorithm-analysis",
+            "unit-de-sorting-algorithms",
+            "unit-de-internal-comparison-sorting1",
+            "unit-de-internal-comparison-sorting2",
+            "unit-de-internal-distribution-sorting",
+            "unit-de-sorting-theory"
         ],
         "unit-de-ads-organization": {
-            "sha": "dc17588bc53c0f6f46c64b6bac8491cbb266b540",
+            "sha": "86b6f3fd249cda5979aba2910b96d2b080993715",
             "numpages": 5,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "8acbf71f912dde9d4229567c54d15eb6db450c17",
+                    "sha": "bc26b09bc0dd6315c8f07c00c2a3532ed2908dfd",
                     "description": "Algorithmen und Datenstrukturen Martin Potthast"
                 },
                 {
                     "page": 2,
-                    "sha": "a1767ad6547d3acf5c38e8cf52403ed5a0dafca7",
+                    "sha": "a005f26af95e04cbbf48ef2e09a03acebb441e58",
                     "description": "Inhalt I. Einf\u00fchrung"
                 },
                 {
                     "page": 3,
-                    "sha": "730a6af3d932540638a3e0e040f7f16b65b1f2cf",
+                    "sha": "2847c4725210455fcba777b860403a8c6d4f5399",
                     "description": "Ziele"
                 },
                 {
                     "page": 4,
-                    "sha": "8c58def442ce14f6d5e27310d80dc5b516d9b665",
+                    "sha": "84c9046420377748b08f75d603d6599039947a48",
                     "description": "Angrenzende Gebiete 1. Mathematik, Diskrete Strukturen"
                 },
                 {
                     "page": 5,
-                    "sha": "85489314014e1bff56649943752793728aa296cc",
+                    "sha": "2c3874683a17737c05c442ab52d680ba23ee0d3e",
                     "description": "Literatur Algorithmen und Datenstrukturen:"
                 }
             ]
         },
         "unit-de-ads-introduction": {
-            "sha": "656fdc307f4e5b5508ddb90c3d9607d4a610add4",
+            "sha": "3881892867442131bc0d1812341d2daa603f61ee",
             "numpages": 63,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "e5164e2778e810961c887a7991bfe7d02a0b7c1c",
+                    "sha": "d8e804bb4e8fdfa4606994426385d1dbdaaa7b92",
                     "description": "Kapitel ADS:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 2,
-                    "sha": "47e2f9a3dcc2478f51da46947f5e3044518ff4ec",
+                    "sha": "7e654ac16bb1a2cd43b8f873d2b3eee734286b19",
                     "description": "Begriffserkl\u00e4rung Definition 1 (Problem, Probleminstanz)"
                 },
                 {
                     "page": 3,
-                    "sha": "38462e13d811776523393d4f3b2b173296978ec1",
+                    "sha": "2cf07aed91a6b8d91a73a5fc95797d6af1b73d68",
                     "description": "Begriffserkl\u00e4rung Definition 1 (Problem, Probleminstanz)"
                 },
                 {
                     "page": 4,
-                    "sha": "88452a154d39059dace5daa3a856b3fffb4d6403",
+                    "sha": "902a45f10c812ea4fa979528e07a6028a74ae9ca",
                     "description": "Begriffserkl\u00e4rung Definition 1 (Problem, Probleminstanz)"
                 },
                 {
                     "page": 5,
-                    "sha": "05bc65ca97f7f13900a8b4c14bf383b3f2615188",
+                    "sha": "c95ecb59e80856ecd76a274123f4444e1ab99281",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 6,
-                    "sha": "5e8afe799c536c690ac69429cceab258c4c02d94",
+                    "sha": "77f00fab1684595847791471a1a3d6913302fd7f",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 7,
-                    "sha": "95af11f430698d49290265d53a99fbc7a76a016e",
+                    "sha": "a9cf648d9b0507387a6a79edf4cc5bf887fc5f05",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 8,
-                    "sha": "0ab775c07d2abf00b24e290b831e8245a90f56ed",
+                    "sha": "ff336bb8a6a1d87b8e287d572a779fdfc95d334f",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 9,
-                    "sha": "204527e79c17696033ac6c953db9a00a0b2d5ccf",
+                    "sha": "8fa2101f27efee45fe3c0846c4e479eb802435f2",
                     "description": "Begriffserkl\u00e4rung Definition 2 (Algorithmus)"
                 },
                 {
                     "page": 10,
-                    "sha": "2d4dd899e35a61fd235c0c734b66adfb11253ab6",
+                    "sha": "5d5d168cba81d15cfed8f279477275596668097b",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 11,
-                    "sha": "585b55f853ab39cc160a9d6a33e18dd4c0ca8746",
+                    "sha": "fa15e22a06d049fc123e25468a310ddf5f464a05",
                     "description": "Begriffserkl\u00e4rung Definition 3 (Datenstruktur)"
                 },
                 {
                     "page": 12,
-                    "sha": "acafea37541052d9c4bd6293acf17d43bfd3a690",
+                    "sha": "bb6fb2898d3932736e44d4da99cf2950d26488aa",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 13,
-                    "sha": "1bb141bd36543e6aa1f2dbd8fe0d53e98737aa01",
+                    "sha": "a121e7fef6cf584387a98cfafd3cee83d880bc29",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 14,
-                    "sha": "038344c87113ca1d157b1ec05c4775eb999434e8",
+                    "sha": "b40625b0f6bc2ad3db8c20bc11b9972b2d36742b",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 15,
-                    "sha": "281adb1d704214e70eb5c24dcd360bbefb51372b",
+                    "sha": "30c2484d18f15917ef08ccc0c658a2a317047c22",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 16,
-                    "sha": "83c8b50f3d017c3c2ba37bb58841bcb3159b9c86",
+                    "sha": "28d9fb69d91346b0021e22cf16fc5474ded9edce",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 17,
-                    "sha": "634a1bb84901dd2df2a85c61422a150273552618",
+                    "sha": "43a09a21d070f183a78f8ad970807ef4b8347bde",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 18,
-                    "sha": "822f2273ad2092f3b4fa0eaac9743bb6e3c4e70b",
+                    "sha": "b4a0707f9f99004b9f26f5d67ed4d0ed8de27072",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 19,
-                    "sha": "2cddd075d1e6d91a3718b601756f438d99364274",
+                    "sha": "10a0ddc0ede41c22c938f76caa39e6a143f3a3c0",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 20,
-                    "sha": "e9be07078823d8016711031b5523b9c82917c32d",
+                    "sha": "33048e83cf826b50d0587d7e5efa6b433934d27d",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Sortierproblem"
                 },
                 {
                     "page": 21,
-                    "sha": "f2eef684abad7174b43b533e0d5cf63b0275bbcd",
+                    "sha": "0c16d2db512d5411ecff103806e6116008377376",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 22,
-                    "sha": "63d77c31fe35c2901e22ad7d989655d80cda18ab",
+                    "sha": "ca54cb4affb43976d50cee5af9a41cd2e6456356",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 23,
-                    "sha": "88bef1082af525010df7bceccb638ee324e11006",
+                    "sha": "43fd259fa431bbffc76a1aece5fae65334be8a96",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 24,
-                    "sha": "45df4a95155d928b6030f99f986ec9dbe15b73ca",
+                    "sha": "8f3533311cca079545ce7c29b890eec05fe32680",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 25,
-                    "sha": "4ea61fee9681d247552ab6859aed11b84627cffb",
+                    "sha": "9d1475ed61877cb032eb06bc0e6aa9685ccc5a73",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 26,
-                    "sha": "58a0808ac5c20b201840e4fdfdc4bd4cae553bd9",
+                    "sha": "60932053267b0722f4731915da4a1dd9b7ab8ef1",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 27,
-                    "sha": "cd77c9406a240b709b4c0437cca3e0d81da50044",
+                    "sha": "cdb5906ac0c13aeb1bf91eea3ce1dabda3cce624",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 28,
-                    "sha": "4c896af2cc62fd51728427827a3ad96a46560b2f",
+                    "sha": "e955326c5370cf2f2b2cdd1b3355b352af65a221",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 29,
-                    "sha": "b42c645e1f0bdfe6d822c382e61d3b0120946333",
+                    "sha": "cdbd5f4834ab90ce93f354e2694546fb5f6aab4a",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 30,
-                    "sha": "70d044b2d18236d1f86e4981d7c7b28694c5d412",
+                    "sha": "2e8ba78ade0b3e19f38c0db3dccdcaa208922733",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 31,
-                    "sha": "967ccbe2232ced3a78044a682cb9943d6bc8c8cf",
+                    "sha": "e9eacc462846552c741b976bc8693951e26e5dc4",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 32,
-                    "sha": "0d3fc497ee0854ee09e637b3974f1178b7afa226",
+                    "sha": "5ddaa3b47f1f8d6200095ef95cefe00cf3f91c9b",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 33,
-                    "sha": "52813656ba222c7b255c414dfcc3d5225319e8d8",
+                    "sha": "2396bfccda7e6013962231c7594e4ead0eaa8f72",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 34,
-                    "sha": "1b2cc5e5f74113664d434a94a3ec51d5fbedc5fd",
+                    "sha": "c711d6e88068e03d6b7752db2c0d3be2b6462db7",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 35,
-                    "sha": "230e590df724d4fa5be43ae7cd4b55e712465ba5",
+                    "sha": "9ac95f3099626decc95ecf9b55069219351b9692",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 36,
-                    "sha": "20b4c3f9cd6a827f2e2875e6289440825ba2cbda",
+                    "sha": "65e950aaedad8e08da3ce13ff6d93d06dbab355c",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 37,
-                    "sha": "138b7ce7f42fc98c9bc90da7ab60c92fb012e663",
+                    "sha": "9081a17d7ca8abbc507a1720fb2219955b26f19e",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Suchproblem"
                 },
                 {
                     "page": 38,
-                    "sha": "ed247475d5d42bdfd62fca4b88c4a8b5307de57d",
+                    "sha": "ffc895e5b0bf6569a59656731a87d121ca7c2d22",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 39,
-                    "sha": "c591fddd4d2d938917c1853d531ea7807978e661",
+                    "sha": "d59e352476a8e0d2d742724ea322121a279a86aa",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 40,
-                    "sha": "06f534a39bc193187e4f0adca1baadc56682d83f",
+                    "sha": "a7537776456f0b84723cdb46e220ca825a94f0ab",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 41,
-                    "sha": "ba727f603a84f839efe608a7ca8f8451c8dbe718",
+                    "sha": "032501d38d1aa4387224f1c897e23f1ff44acff9",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 42,
-                    "sha": "9eb899e896f44970c8ed32384a306a7ffec79c02",
+                    "sha": "1022d43753251faa341fb437f65d74737d4d23d0",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 43,
-                    "sha": "212c30449086199913f0d3203c44faaadeeb2111",
+                    "sha": "5c2b188e45ef877f897a3bfdc17765ba6a38d6a5",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 44,
-                    "sha": "c6bbad15cf5b8543a892327cbc7c2da38f8c940f",
+                    "sha": "6f5d6489035fff2809230a5f4f89822df3ab3d46",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 45,
-                    "sha": "9c464315acfe656bc04839aeb4bc77e17076575c",
+                    "sha": "e119c4ebf767c0ae284a3c0740b034a8a99503f3",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 46,
-                    "sha": "4690e40865f19cf57c5ff74173686227596b2f51",
+                    "sha": "edd090e4e3b9d540e6f2bbec33b824258c96e571",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 47,
-                    "sha": "41ddf4154885001b777542239404fa23a360234b",
+                    "sha": "99b4ceabd05ab7b9efc51b4a8295723047f5f227",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 48,
-                    "sha": "ea2ce71dd8e27b680487591f8330ee00eb33e5be",
+                    "sha": "f76edb65c50741e00fd510953fd5ffd07ccd1049",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 49,
-                    "sha": "3395044336f0eff42abd90ff5cc8cf1adc4918d4",
+                    "sha": "17e7af31f2cf3e3f953f6ea35cb002d2b1d00dcf",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 50,
-                    "sha": "6e6e78e95f72ed2eeb63f999fff22d658dfbcc0e",
+                    "sha": "04d23478e8c27158e00ca30f58a05ed54b36c128",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 51,
-                    "sha": "bcd77f823d6342b8ddebfe15e2658b0bd86b42f0",
+                    "sha": "9d25c448f2eed37f9c4a0efc5dd965a914f792bf",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 52,
-                    "sha": "bb309b71942c7187e90234e6b28ee281d91fe9ac",
+                    "sha": "3d1f28cd3fa647e1faab1e628f0320018a9b690e",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Labyrinthproblem"
                 },
                 {
                     "page": 53,
-                    "sha": "431d08e00b7611bc9b0fcaeee0f126d024f59238",
+                    "sha": "2b09b51da739a987138eccbc340097ee91ecb2c1",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 54,
-                    "sha": "efaa1c857999f899be541bfb7764f68db534751e",
+                    "sha": "8d3e71f5013847b4c6718b9c2b1f8977b3ca1bdb",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 55,
-                    "sha": "d5edb39a59914607154cb3fcf688ed4540b854b6",
+                    "sha": "0d3e999f48cce7ec0266f4905cb2c7ee2f2e2527",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 56,
-                    "sha": "ae84076d271f2d8c8e3482c47fc6ed9f8f50f60d",
+                    "sha": "e25224237eea4339c337b0ec434ccb2652eda321",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 57,
-                    "sha": "55e656dd11fed44cfeb54c4f4889a96ac452bfd7",
+                    "sha": "6d794fd4bc2e6a77b6661af065bb94435b4770a5",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 58,
-                    "sha": "8343e6f94c1d0ee7f31a0cebea7dd561d72373e2",
+                    "sha": "c1f887fc6ab2d2f54583b3f328fd3b6674b57622",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen Algorithmus:"
                 },
                 {
                     "page": 59,
-                    "sha": "cc65031faf58e21db24051114db6425a20b24963",
+                    "sha": "3bd1579c4f7c3786d656babd2b120671024d39ea",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen PledgeAlgorithm(G, s, ?)"
                 },
                 {
                     "page": 60,
-                    "sha": "8eefb82bf4ac4852a7d0a70dda02f00a7032d68c",
+                    "sha": "cbd6ebf73b59bc3e29b83c20cda8b1f64adc3c5c",
                     "description": "Beispiele f\u00fcr Probleme und algorithmische L\u00f6sungen PledgeAlgorithm(G, s, ?)"
                 },
                 {
                     "page": 61,
-                    "sha": "0d8c5da1df057358a11cc568006ee36436bdf29c",
+                    "sha": "617bf960c535b2460fd76c9cdce8e23a181b0673",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 62,
-                    "sha": "e3e5caa689f02468045e13108c7de3048b4d65eb",
+                    "sha": "58fc37a5200511e4b8d82c47ffbf0285027ef83d",
                     "description": "Algorithm Engineering Fragen"
                 },
                 {
                     "page": 63,
-                    "sha": "d15bd1b908808e68daa6372a9561a11adf1b0168",
+                    "sha": "b47787bedf175b196a65ecd3474543be0a2cacc0",
                     "description": "Algorithm Engineering Fragen"
                 }
             ]
         },
         "unit-de-problem-solving": {
-            "sha": "22605d83c4c308592faf1cf54b2290be7bedad35",
+            "sha": "c4936fc8305a1b4b3b7bceb2d76b7c0bc38e948a",
             "numpages": 22,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "eeff34bae9162aab1e2564a295925c93e3c650a8",
+                    "sha": "74bf3b3de9a58d2b23ccb5ad0157d3be76ef83ab",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "ede7c44d25b88a8b8fa1d88e43c7d7ca145da222",
+                    "sha": "7af3dbaa84b25ea42fe869cb3bfe1e1a3b5bfd5a",
                     "description": "Probleml\u00f6sen "
                 },
                 {
                     "page": 3,
-                    "sha": "9e6f169101282da40f648a80b6853231ac49215d",
+                    "sha": "267932250304aaa0269aac7ffd80cde5d5ed123e",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 4,
-                    "sha": "28f2ed6ec53f4f3901b045e68cb8a67f5c603a42",
+                    "sha": "fbfa1cc471504572625d21f1a88c27dff0320b79",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 5,
-                    "sha": "f4aa11d60cc09ae9a7047c63c7568f09828f5008",
+                    "sha": "8ab14ec1d53170eedf7200437fcbaa3576514d5d",
                     "description": "Probleml\u00f6sen Problemklassen"
                 },
                 {
                     "page": 6,
-                    "sha": "080561d78047416944f0690b37fe17b1cec9c088",
+                    "sha": "563e5a9eb5961a7381da229343d74519defc8498",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 7,
-                    "sha": "39134f9707fcdb3f698be23bd3cf13b01240f392",
+                    "sha": "69269b3a06bf6be681892bd69c23d1d19cdd73b0",
                     "description": "Bemerkungen: (Fortsetzung)"
                 },
                 {
                     "page": 8,
-                    "sha": "9c89ed08b3508b9c07ab6469ad26efcc58b28fbc",
+                    "sha": "0e8acb4b9d6b94129fb3f92c5c1dfe14c9a4191c",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 9,
-                    "sha": "7095c2d120f6446892a68b38d012ab44cae85612",
+                    "sha": "0a143068b3f4703320c4c33d42b373d8591c83ba",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 10,
-                    "sha": "2aa47a6b9d172fce5584c7304eb0b62a07e4b690",
+                    "sha": "e8af6e16c58a1e806ea6328d9b745375be9123b1",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 11,
-                    "sha": "151d41f403257fdedb7c793de3bbd4524fb8367e",
+                    "sha": "8a6b050a7a13a5b0389201843c1241c485fe88c5",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 12,
-                    "sha": "d7e0dfcbaba615fa16e121b933e5ce8b7f82ea83",
+                    "sha": "2b70281cd5ad05062f7fa3f94e6ab19ab7753630",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 13,
-                    "sha": "a0a30207ab02bf3b4f4bb00eba3a1eeb6040d972",
+                    "sha": "495f0d8d185e2146b200b1b3c22b99fbef25cfde",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 14,
-                    "sha": "b634992a06ef0b8955267194a40c91dda822f986",
+                    "sha": "e8be57dbbc4ac7629d007ba3f4577810339e07b7",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 15,
-                    "sha": "d95a156997fa9d41ce3bf63ee350ae5c2dac21a1",
+                    "sha": "2ff7a540a1d729ee565099f3c2138620536b5b2d",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 16,
-                    "sha": "edb3dda8e63df9bbaa1b90192b067d310d5132e7",
+                    "sha": "3f564ce5eab29b9b5386c5d954acd61efdd675e3",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 17,
-                    "sha": "44072df0cf26e5d424b131b8bfdf26f4b4f7a217",
+                    "sha": "a9453039b4c10a3badc975a2d11a838608e721fd",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 18,
-                    "sha": "b88bfeda6bff3079acd2d9b6f5bdacd633b38f4d",
+                    "sha": "3f8fff4cef4770fc0481029dc9a2ff32aeefbe1e",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 19,
-                    "sha": "65b2f0528c9c20199e79325d5b268a0ad266e2eb",
+                    "sha": "9459c631d93916b38e9f28c80f99564dde2db29f",
                     "description": "Probleml\u00f6sen Probleml\u00f6sungsstrategien"
                 },
                 {
                     "page": 20,
-                    "sha": "f8be65390552942c3b9f2921b7630dc333dd875a",
+                    "sha": "7e7b579226c5a7221ef04ae1d4901de91ddfbc4a",
                     "description": "Probleml\u00f6sen Maschinelles Lernen"
                 },
                 {
                     "page": 21,
-                    "sha": "720ae7123d8576450a896b2e07cb03c24728663b",
+                    "sha": "c4925f654f813379a1a7ecae86a0cc6f0ed72170",
                     "description": "Probleml\u00f6sen Maschinelles Lernen"
                 },
                 {
                     "page": 22,
-                    "sha": "d089db9e27605b162127fde04b10f708e28f394a",
+                    "sha": "6bf506d612dcc619bb67629187fbdd65fa4885a7",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-algorithm-design": {
-            "sha": "d698c420b5373398b00cd3474ad9921bec392e63",
-            "numpages": 116,
+            "sha": "743ed9f85fce656cbf48c1ac1f0926349c5f0aea",
+            "numpages": 118,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "94ab603da2139ceb99871462f8b61925c55f3efd",
+                    "sha": "1a79845c97262b54058484f00e89cd8e1a90a1fc",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "6bdf6e165c6e643aaeb974874ff725b3fed5cdc9",
+                    "sha": "66972a5c519e652ee008b76983f7f0f0c927226a",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 3,
-                    "sha": "ee3ba975e6d608faf68d4c5b93899a203fd76b51",
+                    "sha": "7900fec0b177984500dae88bbffbcf57c1589bb6",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 4,
-                    "sha": "85239b0e61b390724c34090f1476f331d1dbd60e",
+                    "sha": "63b811855712d4e0256f0a6145513710cd696a26",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 5,
-                    "sha": "4ba27c4f17538123ef59aff658a6b96496dd2f13",
+                    "sha": "442cd4a9daa877a12debab201521650f722b1ee2",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 6,
-                    "sha": "84b7ec0ecc5c3021fa556707e03c8a1c5331f98c",
+                    "sha": "34c885e846936c1ddda0a05ed42badcbe0328822",
                     "description": "Phasen des Algorithm Engineering "
                 },
                 {
                     "page": 7,
-                    "sha": "11765ea230425b23ba2c1441313fa8e29c70b4c4",
+                    "sha": "0595f276a249ee7330a61e71f1f1ea145f390608",
                     "description": "Bemerkungen: (frei nach [Sanders 2009])"
                 },
                 {
                     "page": 8,
-                    "sha": "4d0894eda28492e3810dbbbcd26acde6675ce43c",
+                    "sha": "b232bd2e6dcce5271dcc888dadac26f7a1c453cf",
                     "description": "Exkurs: Programmiersprachen 1950"
                 },
                 {
                     "page": 9,
-                    "sha": "56507790bc001fa68a7d4dc53b5b7cf06af57e9a",
+                    "sha": "a9d0c17928aa08c1ad738b96adcb9b8e9bf75543",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 10,
-                    "sha": "fa845000c4a1c22f557fdd1943dbeabbea75ca71",
+                    "sha": "31f9f9056cfd8fff5d5604ad0c0eec09c900cdf6",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 11,
-                    "sha": "4d468481545e53c69b8430d46eda88ddd350842a",
+                    "sha": "f3c858e8d850ec404ca6c202f773a004c380ca05",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 12,
-                    "sha": "c7deb3e7e71ea7a8355791caf196ef96f4ebf291",
+                    "sha": "a886d1948e455aec3a78f2a952aadeb9675a10fe",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 13,
-                    "sha": "fb5ffd992c9af4844753d31287342d6ec2791596",
+                    "sha": "0f772b144af830dfbf730a90e81a5aed75b62ed9",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 14,
-                    "sha": "0265a9d43d0fdc8871714b710257a08f160e8603",
+                    "sha": "cff49e0c518011726ed6e37e233557e3636c509f",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 15,
-                    "sha": "0d2f3c0e3fefeead33f1e24f173f11f9677447ea",
+                    "sha": "6c27d3c9a3100ab3a3daf348ba08148bba082bc6",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 16,
-                    "sha": "7d8134bd8b780226b312a7296b72e74d1c47b0ff",
+                    "sha": "ad851be8af5f51c77b72eab95e490e51cb6403fe",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 17,
-                    "sha": "f09c832db2411dfef7e8230bc7431291a18a052d",
+                    "sha": "e39e573ef127cc8d6369d722be84e5865972dc5f",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 18,
-                    "sha": "6f8d0f1a933952365bb3cb4d30a1a365200d19cd",
+                    "sha": "45e1f1b5daf1cb84835353edc66c19ba473b39f8",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 19,
-                    "sha": "4ca6a34cd05ba7bf37bfd878bef829228979fd8e",
+                    "sha": "2ba9e1dc6385e9d731321092beb59506fec8c51c",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 20,
-                    "sha": "75b35884f9f388647240612716b15a6e71e029a2",
+                    "sha": "8cc0bd4fb4168fada9c14f96f0a2783a4c47d129",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 21,
-                    "sha": "bed57d4ca0e438e8206e817831536111f7632a3d",
+                    "sha": "ca327b64c010a17edc0059ce178488fd6ab3496c",
                     "description": "Exkurs: Programmiersprachen "
                 },
                 {
                     "page": 22,
-                    "sha": "ed8efa04b76757db5c86819467c7200d62363a60",
+                    "sha": "8825942bd465d13e474b1f08cc1d59a9a4e8a446",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 23,
-                    "sha": "82481e06a8f05c5d96e678198478396aa3b1e1be",
+                    "sha": "02fec2f4f6d52a12c2795d9b6235e62fb45c1305",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 24,
-                    "sha": "56066eea45a828bf7cc1514a0d71f4bbb4e1d568",
+                    "sha": "d581ca1b35fc0221420e8621cd1f1731a8f67120",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 25,
-                    "sha": "3b6d2edd03f29e643807889ed7644e5ca33d85b5",
+                    "sha": "2f58fe6826c19a5d5597cd508d556d677b013b42",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 26,
-                    "sha": "f8b270690e31361ec6281aee98b16bd80bdb0fe2",
+                    "sha": "cd6201387fd1f2e7adeb298fe471d69053dab6c1",
                     "description": "Pseudocode Einf\u00fchrung"
                 },
                 {
                     "page": 27,
-                    "sha": "ef7f9d57d3933af7d838012a86a50b18fcce1309",
+                    "sha": "f2558e2e272ff851fd3a4459823177d98d0e17cc",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 28,
-                    "sha": "c378a0f64e1f5752b4eb0dd9b823f40e9d84e413",
+                    "sha": "c4f043fbceba0383e2ed2cd4c3bda464d1e67ec8",
                     "description": "Pseudocode Spezifikation und Signatur"
                 },
                 {
                     "page": 29,
-                    "sha": "679193f2a3ea4041b1ed762143d0d994d2b10c1b",
+                    "sha": "2b1b48f24a075e5d729428fb78fc5cafba9a3d1e",
                     "description": "Pseudocode Spezifikation und Signatur"
                 },
                 {
                     "page": 30,
-                    "sha": "c6ce047224b74a6e53d359dd7ccfffd9786f9a28",
+                    "sha": "275b768524efa15ba0d7d41e8bdc46294c2c28bf",
                     "description": "Pseudocode Grundlagen der Syntax"
                 },
                 {
                     "page": 31,
-                    "sha": "83a2ecb2e2acbf7271e8446585bba4790aae17d8",
+                    "sha": "5456ff30224faf4bc568c0caa3207d1823cc2d58",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 32,
-                    "sha": "857d2a6cc85fd081ccb6110a4432c8d0808acc58",
+                    "sha": "0d5e76d4b52ee46b330331d45d0f6dbd9985e07f",
                     "description": "Pseudocode Variablen"
                 },
                 {
                     "page": 33,
-                    "sha": "2a69468e726314811e9089e6091156aa2db11584",
+                    "sha": "8720780a9b5bc4a7c609103603945795e570b11d",
                     "description": "Pseudocode Variablen"
                 },
                 {
                     "page": 34,
-                    "sha": "b8553d23be58b37e8fc134b285a151f47082c1f1",
+                    "sha": "55b9fd17a2d49b53e1e5d34f21418e893297e2c6",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 35,
-                    "sha": "d3ffa9ad1e290600ee32aab777d6ab3620112ea0",
+                    "sha": "59192e741bad42be51b5a8b0b8ec7a7a92b06197",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 36,
-                    "sha": "b8592b7d1e22ab3feb499293757b251e1af28d32",
+                    "sha": "34396e1fca58d79342d1dfc72b13b2731baccd87",
                     "description": "Pseudocode "
                 },
                 {
                     "page": 37,
-                    "sha": "fb62b39f284b8a14eb12ad3310d972a23616f6b7",
+                    "sha": "33e9ef565619bea064daf3bb9ad91f7a717162b0",
                     "description": "Pseudocode Operatoren: \u00dcbersicht"
                 },
                 {
                     "page": 38,
-                    "sha": "f7fc067bad9515b73b35988501f94aa599af55e7",
+                    "sha": "565b09b86acc13e1887413f2fcb8d630db8081e9",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 39,
-                    "sha": "31eba3eb4968766af41bd01d2ff6fb666de2c41a",
+                    "sha": "6d84fc6ae74b6960a4ef66fc03e8cb6f34d72f41",
                     "description": "Pseudocode Datentypen: Primitive"
                 },
                 {
                     "page": 40,
-                    "sha": "02d318b617c55cfa5b6a90de8de3a0b712aa8d00",
+                    "sha": "6350ceb3571d8ed03f7d94ac0c030e38e9601957",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 41,
-                    "sha": "67d5da218522b8f0c62cdb5e51e58536e728d6de",
+                    "sha": "b1b4e36607518ca54bd2d5242ad556f78b3f7eca",
                     "description": "Pseudocode Datentypen: Objekte"
                 },
                 {
                     "page": 42,
-                    "sha": "38d7606cb0321bb8dd926e4132a2a588abb7838f",
+                    "sha": "06f61de55dcd06bbc7b1be9f4a351a1fb4cc3663",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 43,
-                    "sha": "1e79c4885be9c0b0b6ea9150bb541751fcccada4",
+                    "sha": "c965212af25d35f4436f87f2dc2854ee61cbbe60",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 44,
-                    "sha": "21fc368d67edbe069111ec53551487b87479b63c",
+                    "sha": "93f49766f8cc2d5186b99eee94bb90ee0c1e519e",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 45,
-                    "sha": "fb41d08eb7af7a3386fe7cb3b7918a42751793fb",
+                    "sha": "c061184875d9841f9a74458055bee1729add003b",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 46,
-                    "sha": "44764eec471cfc9f023b1be9927811351aebb99a",
+                    "sha": "900705135a29266de2426a4e5a94517af02a6f3e",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 47,
-                    "sha": "1aa7c48c0386fb4e87cd8017c775f9e41beb4271",
+                    "sha": "56b805a66761bbb43685d36a12fbfc40f24ffb64",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 48,
-                    "sha": "67d1ef63250dc4de2186a1605b93350e68f03e06",
+                    "sha": "13dccb571e4d743e21f041e8afea9c0488a30ed4",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 49,
-                    "sha": "1c1daf6b179c123f607ac04a70d1c7ce6a68146c",
+                    "sha": "9ac754ee6af74964a2cf68d1a12c47d92ec8cc6b",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 50,
-                    "sha": "dc089fc95fe8c117cae20a63e27ce44516b221e0",
+                    "sha": "49b669a63f7c2afbbb5f3cdcbbc73f01abf4f87b",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 51,
-                    "sha": "afb0f1852e79aac71442950d6e5be7c8d9a5b205",
+                    "sha": "fc3f886f94666a4ee63cbca7f04cbbd0875e1de4",
                     "description": "Pseudocode Datentypen: Arrays"
                 },
                 {
                     "page": 52,
-                    "sha": "e762790fd07566323f4641a7e3da3a60f70b0703",
+                    "sha": "560b550abbc8085ac5eb5b7748fe67603fe3c8e8",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 53,
-                    "sha": "35c723e14b1d9d34ce54ac3a184f51e6c3fc25b9",
+                    "sha": "fbf71025a51a13239ad252f8d93151676fa506f4",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 54,
-                    "sha": "4971c2652bab2abd7aca2c1eacc862636cb02df1",
+                    "sha": "8a454162dee317d056345db7b7dee5a3e649d4c2",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 55,
-                    "sha": "f015f72dc48c38b668e45f3f7e82745ff54fbca5",
+                    "sha": "45e2024085329734d1aef6bb95996e42b661728f",
                     "description": "Pseudocode Kontrollstrukturen"
                 },
                 {
                     "page": 56,
-                    "sha": "0eaeea6862e9d107afc9f6c3ef7531f1de42d0d7",
+                    "sha": "009814d03493a69f19e527ae49a34e36b87d1b7e",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 57,
-                    "sha": "a79c9afe2f57948d2af71065bf635dae2f3d7701",
+                    "sha": "e49a0285927b5e17da6ca6e96e975476b59f858a",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 58,
-                    "sha": "3ce6f9817c33f4669d86d6865f9c2d1cd57964ea",
+                    "sha": "06d905d9bfca50fa52e8ead4e01d5f24c2e9519e",
                     "description": "Pseudocode Parameter\u00fcbergabe beim Funktionsaufruf"
                 },
                 {
                     "page": 59,
-                    "sha": "9953cab044fe17cdf37d3ad9d93cf75bb86cad51",
+                    "sha": "ec96afc8402674d1519a27c4cc61fe7b7835fbc0",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 60,
-                    "sha": "ecc233f31879aa1eb2d7a95f6f3d8596bb1aaee7",
+                    "sha": "559ce11e04657132527f20ad996f6fde20bffb9a",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 61,
-                    "sha": "cbfd1943dcb9408606007fc6ebaf12fb42495e16",
+                    "sha": "9bdf49fd876c913eb8727066791a5aa4e32e82e4",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 62,
-                    "sha": "9bbb015f21cd909ffe1525a8324795bc0b986aa1",
+                    "sha": "ee881d696d636551856ae302bf2eff79fe840ff9",
                     "description": "Rekursion Definition 4 (Rekursion, Iteration)"
                 },
                 {
                     "page": 63,
-                    "sha": "c8365f38ddde6032b8c5cfc8786cb7d6f5b714fc",
+                    "sha": "25bb9344ed61b8052958ff2bc91b97f96124a6ac",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 64,
-                    "sha": "cc6a978c5ff91c02dd3e552c5a7ad25e45916dab",
+                    "sha": "78ab693e1ff6e0a63460c9caa3c7197a62a6c79b",
                     "description": "Rekursion Einf\u00fchrung"
                 },
                 {
                     "page": 65,
-                    "sha": "13cf1db1ec41b8b98f40e10e088aca1bf10a4f98",
+                    "sha": "f94be8ef33827d34b9d0e546e1a54fac7c55d0e4",
                     "description": "Rekursion Einf\u00fchrung"
                 },
                 {
                     "page": 66,
-                    "sha": "2b484cccc07454d9fec616b7fcf8e650dba30346",
+                    "sha": "cebbcf0f6d7f838a87df75ac9e39b8dec4882c86",
                     "description": "Rekursion Einf\u00fchrung"
                 },
                 {
                     "page": 67,
-                    "sha": "b5593f12a0441c5eb81da8b573d8a573782b4fd8",
+                    "sha": "fb4e6728fc43e5caf01dcdd8ef3d4a30b749a3ad",
                     "description": "Rekursion Rekursives Definieren"
                 },
                 {
                     "page": 68,
-                    "sha": "d7b1596f6d6ec8825adc010485d5526bf47eacbe",
+                    "sha": "6244ef62db9cd1938966442ebaffc31ccafd6002",
                     "description": "Rekursion Rekursives Definieren"
                 },
                 {
                     "page": 69,
-                    "sha": "1401d759b942f33c771939e3a2888acb9c4ebc0d",
+                    "sha": "7d37176353e19dbea4704646b38872a6ccab128d",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 70,
-                    "sha": "40b72d09a97317543c4c2302f2710332dd3ba351",
+                    "sha": "1c3041f2b50ba38a7d6919f3db70f1b3b302c3a0",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 71,
-                    "sha": "4ecccd5998f6afaabccc514611f69728d0109db3",
+                    "sha": "ed3b59619ff65e5e57cc1064b1d29673c72896cf",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 72,
-                    "sha": "afa666e096b08e8e1f0c825f2d33fb73faa6c958",
+                    "sha": "d5f8e57e3a8e0a313404007a06860a21bdfc7a2c",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 73,
-                    "sha": "c4b673f33e5936870ef8867602002558596845b7",
+                    "sha": "17686f361797d5d428d244499e24018d1cf28f46",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 74,
-                    "sha": "0ea6521e955badcf674c6f444b022d91e51468f7",
+                    "sha": "c1536f30df7b8987565bf255150751ab93e3f001",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 75,
-                    "sha": "6740a151a2255d2de32c089fe6662204f1111265",
+                    "sha": "6071f586526579ff7ee9e3947c37db175e6d7cf9",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 76,
-                    "sha": "6cfcd939ddbbcd4e41e5defb42c1041c7a3d36be",
+                    "sha": "f396e0e8c4856e4030b9e4f358acc4c4519a5b7a",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 77,
-                    "sha": "0719bd5b264628d1a97b861f36554210d69dfd9e",
+                    "sha": "f6fb9e7467682d5486648a7237550baa5ab694f2",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 78,
-                    "sha": "96532e258d3eddc7bbe6bd89c5269faa0b50634f",
+                    "sha": "5ab9e200d31297ebcda1366a1e67e81a7303a3f3",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 79,
-                    "sha": "8f116cf23872611c832833b96dbfc7579097ba6a",
+                    "sha": "a75b47580efa4690a425750f9bc70c766f945a04",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 80,
-                    "sha": "574f5c56f3696c8856ec50207733d50c37513517",
+                    "sha": "96ea872af12b5520d594772dcc9579c7fc69f0c9",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 81,
-                    "sha": "f24aa0768d5169b1407d7d11c844ddaf7ba3a4bc",
+                    "sha": "e6ab2ef87dd41c805f7f8be11b12a23df99cc1d4",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 82,
-                    "sha": "9dd64a87eb33f67b049bddbae7847902800d5d1a",
+                    "sha": "73980c32b21467146c2139b4262feddbd98a7a06",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 83,
-                    "sha": "27a4585a0dfc46a7234b72dc578628c8efb25a88",
+                    "sha": "b6901d2efa4fac4641220bb3a214891add38f03e",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 84,
-                    "sha": "c7560482094f77fe61b1de43359ab3dd4d1b8b9b",
+                    "sha": "9c488c83668383ff5076d5de6095f605b7783ddb",
                     "description": "Rekursion Fakult\u00e4tsfunktion"
                 },
                 {
                     "page": 85,
-                    "sha": "00c2dc5e699c7f86f3dca0d59d1eb1e6102e8111",
+                    "sha": "59ec8418cb950d10a08c8cede92a234cb095f56f",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 86,
-                    "sha": "31d99969fa7078528e791b634713780caedf5393",
+                    "sha": "f70d372152bd0d3a50b64682875bcb7cd31e62ea",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 87,
-                    "sha": "fd7ccb9e36c20b355a476c6e44df65da80c64459",
+                    "sha": "ab02e4a2a9ab0ddb3d4eb8df7ad769052588d59c",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 88,
-                    "sha": "62c73415bd18e3c861dbcd418f50daecfb89e92c",
+                    "sha": "6da805fdd980c4782a8a2cf58c3a0ae631f74639",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 89,
-                    "sha": "b2afd81caf305766178138d30d22aafd39d53ac6",
+                    "sha": "5c21c023d96430cfca56a1aeaf916b80a785cef4",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 90,
-                    "sha": "8048b34484fcaea06103f7fa6a582a012d01bf5b",
+                    "sha": "81fd4974be9a9433828a3c169bb682de53b8e1b7",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 91,
-                    "sha": "674453071fa0b7e45fcc1f43c645871226367fc7",
+                    "sha": "882497683cebbe0f83ae772b8ec91e891d43255d",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 92,
-                    "sha": "42e9626fc302bd36b80c1ff738fcf5f5f84f89ef",
+                    "sha": "fce6c8793e96185c95100800518df4d3023a8adf",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 93,
-                    "sha": "c984eec5e605f878e00312da59f70d2ef9c0b277",
+                    "sha": "61da54c121d88b8bdf809f9e772b5235a98dac48",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 94,
-                    "sha": "ab235033e241b95be10004830c965c757b9a3ed0",
+                    "sha": "2bea0dbaaa75f41e058e1e76f0e4af3323becbf3",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 95,
-                    "sha": "24277434026c12f1ab12cbe3a23eb2ceb264921b",
+                    "sha": "27119217882d11c6f907ff24d12baebbec5b6701",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 96,
-                    "sha": "3392db1ca3947838254b16ee295d5245409b91b9",
+                    "sha": "62f0c4ca26dc080e284c4cb45b7048fc9ec75df4",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 97,
-                    "sha": "21b055377d0786c2c8e9e86bd9e3714f746965be",
+                    "sha": "1ab5bcbce7b83ee221000b92e4bbb69e73c06aed",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 98,
-                    "sha": "856d6955719fc053c9c8ec63a08c324a0d3d58dc",
+                    "sha": "840c783bf3780333a12822c1deaf3e51c18cbf72",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 99,
-                    "sha": "df8e7921ee06f02b672baa2fe53162b738c9c289",
+                    "sha": "f3096d336e4783aaaf788996afe8cc5fd9255bda",
                     "description": "Rekursion Fibonacci-Folge"
                 },
                 {
                     "page": 100,
-                    "sha": "49511dfa450e7780108652275bb3037444cd24bf",
+                    "sha": "cce010602ad5e4efe6ddc9e99e779a93b915bec4",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 101,
-                    "sha": "5183fefa62fe9f236faf65352bab3d1bcaf00e8e",
+                    "sha": "aa1c44cc5e64eb10ec203a3fb1febcb819a4a99a",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 102,
-                    "sha": "d8774fcf68097747d49b944759d546fdae93104c",
+                    "sha": "77ebf44f5efdbccca873772254a33d2aa7c2be7e",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 103,
-                    "sha": "a5a0a369854c2742feb08cec44c6f606a7b8f6f1",
+                    "sha": "64700fa9e40e73e4f57784aada0d3a323fa6f5ca",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 104,
-                    "sha": "c1e0047f28006210761bc8ed92572923f97e86b8",
+                    "sha": "bcb1cd003905fcc4ec9075a15e0264c6e6fa7b87",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 105,
-                    "sha": "2b0a760ffb8a38031249a07e280883ed157920e8",
+                    "sha": "bf46c64b00d28ca2e4a852062a4a98a43ea98f47",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 106,
-                    "sha": "a4f2b37b71b38b171381c2272834b9cf23cdd533",
+                    "sha": "15278542eb307d01c08aa9893dc09d59593a8636",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 107,
-                    "sha": "460718a8a807931efe5ac990566313cc851bd920",
+                    "sha": "cfb6424fa5825776f49d31ea1945201050cf490b",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 108,
-                    "sha": "11833b71d40ef3231ec16bc9067817fa1d1f5257",
+                    "sha": "5a143af83388f72bfba96abcabd33d57b4ee84e5",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 109,
-                    "sha": "32d60b22de3dd8d154279c3f2f4f9382212e5a45",
+                    "sha": "a40319b69073fd8e9d3e64b88561b2ea58bc90e4",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 110,
-                    "sha": "58a5dd948c8c20768faef2f00f65655295adb44b",
+                    "sha": "982569946906faac8f561ed68f19d07372774a4f",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 111,
-                    "sha": "3d93a100d03ab434a911968a3a5dbbc38a2d2e05",
+                    "sha": "7c06e911ab6d0ff4672f57d0ebc0f82217a79a27",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 112,
-                    "sha": "b291c174c6c23fde03610ec9e40599c10941efc8",
+                    "sha": "cc28fff1a49136cd28e1504a2d500157d4b08dec",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 113,
-                    "sha": "454e85f743ecc8cbfe100008bd6ddc9c81f4bcbb",
+                    "sha": "c2d122d44c4bc8e816b4f77e4866d30ecc9ce1ec",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 114,
-                    "sha": "6cd32a2376648ae0690a619f223f3cef7a90c7b5",
+                    "sha": "74e399a2df9f6b346fbdd6eb6c7a38c41c7b98e5",
                     "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 115,
-                    "sha": "59392795d954a2dfe21ab13b251e046263599487",
-                    "description": "Bemerkungen:"
+                    "sha": "523690c708628857814b23138a6a8ce1714e7000",
+                    "description": "Rekursion Merge Sort"
                 },
                 {
                     "page": 116,
-                    "sha": "a0bef34f7da4f8ddf92902118d15d14398882a48",
+                    "sha": "899845254744bcf511c77cef3b202a766472be4d",
+                    "description": "Rekursion Merge Sort"
+                },
+                {
+                    "page": 117,
+                    "sha": "851929872700dc3c190f9d17b5823c68f8801a4b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 118,
+                    "sha": "aed464c2017cd8593e578d79b02a7c9146b2aafa",
                     "description": "Rekursion Rekursionsarten"
                 }
             ]
         },
         "unit-de-algorithm-analysis": {
-            "sha": "b1dbee43dfdd9449e727a4c176e14cb08e1e229d",
-            "numpages": 73,
+            "sha": "afb83563f20ce6cc1f4a96d04762c6fc264def8a",
+            "numpages": 134,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "b7ad18cd9b1f55a501c6ba69b0d505dc65369a3b",
+                    "sha": "3a35fab733ca7f5380d9b0f8f7417ba8976202ed",
                     "description": "Kapitel ADS:II II. Algorithm Engineering"
                 },
                 {
                     "page": 2,
-                    "sha": "74e4e1349806327ad3e0e752cc41efc76bd8c9f7",
+                    "sha": "fdee02739333d04a7a719a3e4d53ddac80549769",
                     "description": "Maschinenmodell \u00dcbersicht \u00fcber Berechenbarkeitsmodelle"
                 },
                 {
                     "page": 3,
-                    "sha": "04ed6da836123206e17cac0ca80c5b83218f6c8b",
+                    "sha": "5fdaaff206e43b6fd1e795e6891e541676c987c9",
                     "description": "Maschinenmodell Random Access Machine (RAM) Modell"
                 },
                 {
                     "page": 4,
-                    "sha": "9c7c6a98f570b5842e655b814354baf649334705",
+                    "sha": "779fcfffa617ef764fef7e47bb8ac3490907c1f2",
                     "description": "Maschinenmodell Random Access Machine (RAM) Modell"
                 },
                 {
                     "page": 5,
-                    "sha": "de4e3fa21b31c5e4f6af6c2b377aa0afa9bedb09",
+                    "sha": "42d55bcdabb3d681295b16f2ba3c9f9f75bef342",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 6,
-                    "sha": "b82471721f3d1e46c5451e160988c054da2d53b4",
+                    "sha": "fc18486cc69448ae08ea8f370e52fdb83290ce45",
                     "description": "Laufzeitanalyse Laufzeit"
                 },
                 {
                     "page": 7,
-                    "sha": "fcefdf2667d0aff49abc7df0ba4a725e33419f10",
+                    "sha": "8eadeb4f1b21a6132adb9d957b5bd691e2c7dbbe",
                     "description": "Laufzeitanalyse Abh\u00e4ngige Variablen: Gr\u00f6\u00dfe der Probleminstanz"
                 },
                 {
                     "page": 8,
-                    "sha": "49393a33978a3ea59a4ffd45f73b4bea39a70284",
+                    "sha": "e517d00d56d3923656165b517a0dc33332e7c0b4",
                     "description": "Laufzeitanalyse Abh\u00e4ngige Variablen: Struktur der Probleminstanz"
                 },
                 {
                     "page": 9,
-                    "sha": "8d409310a97de54b874cc3ee5254fbd15c66140a",
+                    "sha": "b3102ff42ac53e9a5b282263ee10f0668195e701",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 10,
-                    "sha": "74b5d043437ff019ff58bbabd226f5a3729485ff",
+                    "sha": "60010362889d4fa8fff9e8b8083715970afcec10",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 11,
-                    "sha": "ee62cfd74651ce7043fa7bce351bf9195c4d2513",
+                    "sha": "2f6a1e548df60137dc335f9fae052ea6a6168b88",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 12,
-                    "sha": "3d9f43a793b5d4a29a8a4001cff64b980bd0d3aa",
+                    "sha": "3c368626191a23cd468f0371b9335cc1d13b4edc",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 13,
-                    "sha": "cf8d17ac7f46cf2fb0e2c6270ed7ef25465620d0",
+                    "sha": "0aefc8e7fd7a1d4c9296ee2a464d23761fe29544",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 14,
-                    "sha": "e7cc74963e131ddd1823367e26f591a44e8961d9",
+                    "sha": "3a0325edf0504bc2f04329df86774e67dedc5cb2",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 15,
-                    "sha": "08d81530ea0fcef1b5ff0ad8bc159fe65cfee5c5",
+                    "sha": "9952cb569245933ec952400ab27258b5696cb312",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 16,
-                    "sha": "ed70eca32e4bff8cc26503d5349819f1a81e4f04",
+                    "sha": "07deca0f274903fd0ea5bdf93cfd5e8c9f3a4770",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 17,
-                    "sha": "c659f5ff114dca1645bfc4559666bce0317149ce",
+                    "sha": "0ba791f69745a071f2c1ae91372318cb115e0e48",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 18,
-                    "sha": "971ce49af066d6f189c7d4dd208cc47c235c0649",
+                    "sha": "0c5430ba478572f0eb9e89bdc90415156462ee9b",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 19,
-                    "sha": "fe19b0c4f99ef1fd93ea61aea12d6cbfe653b56f",
+                    "sha": "780bc1cd4373ac98427d7205ab29463c492efbaf",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 20,
-                    "sha": "19fab36e4a3270a8c60de731e129c974bedfc5f3",
+                    "sha": "a12ac05574ffc47759844f518a3c804af55690b7",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 21,
-                    "sha": "9a07344c791d604de8c39af3df1e5f94d42c74f4",
+                    "sha": "36ef3d3d48d28746460af23db892064131d41784",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 22,
-                    "sha": "5be6ddb9025c5ae0d79e6e88177b835080adcd2b",
+                    "sha": "87b830c7b0d12fbaf539d95010bdf42641d3dbc6",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 23,
-                    "sha": "7e2a67ad81952d5b2c18f69d3a4058863e418580",
+                    "sha": "ca78853a5c8aa8e978b29b2629b6d496eb360989",
                     "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 24,
-                    "sha": "e0983d2462c143969cc45ca9f6e808f87147bdf5",
-                    "description": "Bemerkungen:"
+                    "sha": "1d8eb5ffa1b3cac8b4e90c899873721de0e1aab6",
+                    "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 25,
-                    "sha": "0828b7df2150f21368873fd762491586085a1786",
-                    "description": "Asymptotische Analyse Wachstumsrate"
+                    "sha": "ce389d42e6ea7afa794fe618987ecdace919e0c2",
+                    "description": "Laufzeitanalyse Beispiel"
                 },
                 {
                     "page": 26,
-                    "sha": "0b014058fe6655ca60b65688d9a7eac1c612c9be",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                    "sha": "15a6f77caf91b0318e84f983837fab5a89c7b5c1",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 27,
-                    "sha": "9c582397a9dc4c708d9aac5e2bbebf3d2fbf6d59",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
+                    "sha": "a47f9ef6571ce4a338d591b31daa52f77beadd23",
+                    "description": "Asymptotische Analyse Wachstumsrate"
                 },
                 {
                     "page": 28,
-                    "sha": "c541c8da75eb24e938b8d2bd3a73b930357a3e53",
+                    "sha": "f69befa0348542cba6f9358895796a4169dce554",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 29,
-                    "sha": "e720ea20943d2aab5eb2103a3843aa942571b8b9",
+                    "sha": "46fd0d2fb5ab223cf462ad474e12d7db678ca2b1",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 30,
-                    "sha": "384e62bd645768aad639361702613fc456eaf065",
+                    "sha": "6bf80262914023ec64d84a5bd21546abd1db07ae",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 31,
-                    "sha": "b471491f4f828441f735913709d2a05d8c6b4b2d",
+                    "sha": "306803dcf86340faf034ff42ad43f746a1791749",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 32,
-                    "sha": "6a0645f3069d228b7af6058957420e3f6c34a740",
+                    "sha": "38a1ab1d19e2cefe29fd9125c5c7703c46d7a38e",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 33,
-                    "sha": "1450b6fcc6a0f3f724a3372b943cf27110b70a65",
+                    "sha": "15023d3a68cd7eb144406c71375f6418fe101408",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 34,
-                    "sha": "5580e89696261283e61599a9e80250fd581f7600",
+                    "sha": "639f693fb4f4fd92f61ca488640c23ed75341d92",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 35,
-                    "sha": "29757e407138f0cb39392ddf202eee938545299a",
+                    "sha": "78cf6a3ac8c5d2036c998d131ba1772fd4b4cdc8",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 36,
-                    "sha": "9c49f7e4772a68832a8f4c27d53ed468a15b47b5",
+                    "sha": "4fbf95124ddff8ba330c119faeef8cf6a59f06b8",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 37,
-                    "sha": "5189aa23460711cbc4e1679a21a7b9368eb67978",
+                    "sha": "1744ce709b3d897b5a6d9937749986b2b71c380b",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 38,
-                    "sha": "99b8857b7a7313b79e72647f0b07d966bb0b2f4d",
+                    "sha": "64bc2a2f01ac49964eb96bed5f03fb6ebc66a92e",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 39,
-                    "sha": "920d89d0752f7c8898f669acdc3b738d9286debb",
+                    "sha": "4ad10cf018ed194091940766ef9b162530557a68",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 40,
-                    "sha": "85a52ac1e02244d1b2de9b079501f62466af1a56",
+                    "sha": "2481c470def012b557d55c89fe7b091db2cbadf4",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 41,
-                    "sha": "a48ee0c4e70047e2d8774ae70022a6accfc950fb",
+                    "sha": "f3b5202d3b0726f563d67e31788361a50b94a801",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 42,
-                    "sha": "d5b13f7fe834ca0d0f5eb63ce4789b9bf3281f95",
+                    "sha": "6bba93236293ec878ca7f4fa5184e541807c54fa",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 43,
-                    "sha": "1d7d92c34c2c04eb47b03c9f43bee20c87b9859f",
+                    "sha": "f140480fe21663c3ded0c09c60c8d32a7b4e17fe",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 44,
-                    "sha": "e85cc4f055f719190af3a2d4975877f4d20a64a3",
+                    "sha": "ad582e8774ee5440d6c8bd93d4014a22f6775cbd",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 45,
-                    "sha": "eb54c2e06a61859f92b94873c409da0c271ab248",
+                    "sha": "134974e1e9d7ee56f5dde399f23f30a76d4821fd",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 46,
-                    "sha": "753d0c9608e50137e9a53f11394b43973cdc5a42",
+                    "sha": "84df5ca75c1a80db1a7c06d15ad73a7058a8c0c8",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 47,
-                    "sha": "ff0c797314bc82482fa166299d7751d17cf003ac",
+                    "sha": "9cdd120716f83e094b898e6075897ba92a1dc1eb",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 48,
-                    "sha": "f636a40601189d917c02fba516befbf4232b9ec1",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Typische Wachstumsraten"
+                    "sha": "1963eb2958e37e91efb93ac92e007920a3a93083",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole"
                 },
                 {
                     "page": 49,
-                    "sha": "19700de0ab3f5f2b17e6447c5c44c0ee17c107f2",
+                    "sha": "8d63291082853c4c3ef532ec753190ac869fe3b9",
                     "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Typische Wachstumsraten"
                 },
                 {
                     "page": 50,
-                    "sha": "631835d83c0d30bf118e8f1a87b1b608e3f84984",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Notation"
+                    "sha": "261ddc9367d73bdb94edca511605224fc0885acb",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Typische Wachstumsraten"
                 },
                 {
                     "page": 51,
-                    "sha": "e3784064fe99111f8794165acee9d6653211c0db",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Eigenschaften"
+                    "sha": "dc3c9f692b41d22bbf219c4758f059baf0b4d210",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Notation"
                 },
                 {
                     "page": 52,
-                    "sha": "28e1b63ffe2c413085d5a67fdf40571b19a9f404",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Rechenregeln"
+                    "sha": "0c99d2e1ade50adb2f6ccbb0942c205954adb8b1",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Eigenschaften"
                 },
                 {
                     "page": 53,
-                    "sha": "b2cd4bc79c03ddf54ee11b285690fb3050edf3d5",
-                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: \u00dcberblick"
+                    "sha": "10023b303e3756a4a15ab17d07d54952323c4057",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Rechenregeln"
                 },
                 {
                     "page": 54,
-                    "sha": "f6a5ba64b993facf106b1a0bc26a383738e7dfb2",
-                    "description": "Bemerkungen:"
+                    "sha": "ee3bef6220169cff7c7ecb60986d9bb5d8640a41",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: \u00dcberblick"
                 },
                 {
                     "page": 55,
-                    "sha": "bbe23c3180894cc5b005245ce18106900191e567",
-                    "description": "Bemerkungen: (Fortsetzung)"
-                },
-                {
-                    "page": 56,
-                    "sha": "ae2a3a199fc7d4b523e0d2683b28e5c89fbce84d",
-                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
-                },
-                {
-                    "page": 57,
-                    "sha": "8cc15267af57df024c301bbc6d43ea28f3b3a3db",
-                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
-                },
-                {
-                    "page": 58,
-                    "sha": "44b1253985cf41110308c9cbd4a2a37c489f005a",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 59,
-                    "sha": "d8ecfced380c427b6d32fc6fcb20af65735b33d0",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 60,
-                    "sha": "05ba4901658e5b0480fe50da2c9716b26776b9d5",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 61,
-                    "sha": "ff36dd4cd406cff51b2a814edb2c7f999d230a82",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 62,
-                    "sha": "d7a56c8829dcc5a2bf51e48a57dca05cab553f40",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 63,
-                    "sha": "9ef4aadc2ca161f206c8371568b6a66ccc66bf17",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 64,
-                    "sha": "abfe54d95e37076a5a43f3b6c94825f85a9b4087",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 65,
-                    "sha": "c29c27098ce6359e1408bf4532426149da05d5a1",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 66,
-                    "sha": "0433f346f23613e9ebce50438d3de83534a2e93c",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 67,
-                    "sha": "4639fb1576c3605b2cf4204431f29357a3d3b40d",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 68,
-                    "sha": "2320f6db1b3eb3a2e4abaf6baa276aee914bd55c",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 69,
-                    "sha": "5a207a8273ef5695af74eeff126ce91d364431f1",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 70,
-                    "sha": "f9069426c976d4cef73c091549c0cdac26a71aa1",
-                    "description": "Asymptotische Analyse Rekrusionsbaummethode: Beispiel"
-                },
-                {
-                    "page": 71,
-                    "sha": "3ddfdf30ec24559877e33e4b212b5967f2776d24",
+                    "sha": "5539fe00feb7c947eef855bba2155447435aee9b",
                     "description": "Bemerkungen:"
                 },
                 {
+                    "page": 56,
+                    "sha": "a443a41c85bf7b0d169b09d382d0052894d997ef",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                },
+                {
+                    "page": 57,
+                    "sha": "9cec09f8e094f083cf8f43296f1d78aa45f01296",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 58,
+                    "sha": "1830649a3f4b768e661f48514b713531832c1600",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 59,
+                    "sha": "24cb7ca2a651be0548cf7afc479e82fcfe69c052",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 60,
+                    "sha": "7673565bc32b9bada95e9d7fffbb36756c134970",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 61,
+                    "sha": "a3b2c4d18641695c098e4c8292c7a8b9362538d2",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 62,
+                    "sha": "66559ad5c45db76ed14477da23f569b1cd8f7495",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 63,
+                    "sha": "0bcec9eefcd08800a211a38941faded1c0b2affa",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 64,
+                    "sha": "e78c71597f7326ce6838486c02b4b1b73f1c678d",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 65,
+                    "sha": "7b855a07e54f4807346d71f958e636289cf140d3",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 66,
+                    "sha": "571d7c9e637f80862a4aafaed1e299eca341c320",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 67,
+                    "sha": "0987f206017d01b551987d0359c149b285b8c973",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 68,
+                    "sha": "4f82c3b170e321de8fb60ee78f7cee0aacdf9dc7",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 69,
+                    "sha": "08ab8997797dafe1e6e1a66515251aff9613317d",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 70,
+                    "sha": "1a7f516942317234a6948f3d0f75633d469cdc0e",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 71,
+                    "sha": "c2a8ff1c14aeb3be7ba2456061661a6e2fcd9f14",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
                     "page": 72,
-                    "sha": "3e3b77542c9fe4a3e5d606e75563fb47ad9224aa",
-                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiel"
+                    "sha": "491ea372a0f7721681fe156c88052b2b74991043",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
                 },
                 {
                     "page": 73,
-                    "sha": "c8fc08c5ab83fc415450946194de740717fd6f56",
+                    "sha": "689921c6929bc359547b07460274625b2d31b0dc",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 74,
+                    "sha": "ef811143777d4bb95ff5ce39269c8ea5bf39949f",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 75,
+                    "sha": "99ed9b8a19df8d314f392a79655ff66a39a7c595",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 76,
+                    "sha": "b91d484810db6f75737c01121bfa1fb56a4cfaff",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 77,
+                    "sha": "4deb561e270f2ff293b5b3460fa855c0746537ff",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 78,
+                    "sha": "77e001f4b4955cd339eb788acd31e85ea154919b",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 79,
+                    "sha": "3c84cab900eb8bf64d798607c183ba0e684495bc",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 80,
+                    "sha": "cc5f8afd8514d48069c53f17f3fba42ed19b5f74",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 81,
+                    "sha": "4ecf8061e891910a5ea2e66effbda3eb2aeea729",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 82,
+                    "sha": "9af76b004be44ed4c72ccdb63d79a9c6248e1b38",
+                    "description": "Asymptotische Analyse Bachmann-Landau-Symbole: Beispiele"
+                },
+                {
+                    "page": 83,
+                    "sha": "acb03033c9cc7a8afb3f22cf010b27b6dc4885c5",
+                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
+                },
+                {
+                    "page": 84,
+                    "sha": "d6437b97323da795c6d4a34a2d72dcb3b6aeaebf",
+                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
+                },
+                {
+                    "page": 85,
+                    "sha": "3e30513427965478020ca28050937de78abe5d60",
+                    "description": "Asymptotische Analyse Wachstumsrate rekursiver Funktionen"
+                },
+                {
+                    "page": 86,
+                    "sha": "d0a3e49602485c7ff42be5632e28d1d9933e42dd",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 87,
+                    "sha": "7872c993b0a0c71ce6a5758fbed326abf3c1b9d3",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 88,
+                    "sha": "0e7a89c79b660312f7886d4e640dfe0ebafda1af",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 89,
+                    "sha": "e33e7636b086a16bd8c6cea5882f567052f80418",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 90,
+                    "sha": "f7c1324000b99db31856e658a094e5e46f93eefc",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 91,
+                    "sha": "c37259b3b3c08ddfc2573cc2591ec62766251604",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 92,
+                    "sha": "dd2c8b218c9682b4b6296a7056d96b1ab0705922",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 93,
+                    "sha": "4d785fe1b60b0e1b0d3366a7e986f37e807b9dc7",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 94,
+                    "sha": "7b6247d3a0378ed451fc2dea3d97feafa09b0e45",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 95,
+                    "sha": "052a0e8f0b14682a9b5980e17ade94ebbe0194d2",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 96,
+                    "sha": "9ee1499ad49f0dcfa8372e571962b3bb88742c3c",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 97,
+                    "sha": "1e21e0ae3eb743398f0929aa596d5d070d6c2c5e",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 98,
+                    "sha": "9584de6ea453647fe00f7cd80698f8e7cc3443a1",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 99,
+                    "sha": "2ee106c95a8b35b04d381ba88422f56bb640e992",
+                    "description": "Asymptotische Analyse Rekursionsbaummethode: Beispiel"
+                },
+                {
+                    "page": 100,
+                    "sha": "db40112636796bdb39f4f84ebaf4f61602a89e44",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 101,
+                    "sha": "3194fa27ebae80fedcc8138d66825f8963f4b178",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 102,
+                    "sha": "8d8c16dd82b9052d9a12c29f6b11f0af68b1c686",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 103,
+                    "sha": "8af40ed9aec176f57341f881e99b7de0e8d74663",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 104,
+                    "sha": "6c6bd89b724625d63325631ebca57780b3d79157",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 105,
+                    "sha": "21b1866476ee2a0d2a605b23f7e9f4b52e7b0406",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 106,
+                    "sha": "53f54f80c16102bad07dff8d3afd2e3fd39bca10",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 107,
+                    "sha": "a11aef54544bd1d3393fe3d6883893613b89559d",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 108,
+                    "sha": "ca27b47e7a1b845d78c7c895b214a8d0d754c95d",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 109,
+                    "sha": "6ef8f1c997397dc69ff5a6234a8b3e6448eb2603",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 110,
+                    "sha": "444ffb160a509d0d8f66056e7f3c2b37694e313c",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 111,
+                    "sha": "001fb0772570cf96749db38770d1f6c7c6fb024b",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 112,
+                    "sha": "963cedeb345e30e750bc20dd735bf4ddae5b97d5",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 113,
+                    "sha": "ad7c67673363b3a1e967724f33910777d518d77a",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 114,
+                    "sha": "b2f4d5bec1fd69c0535a82df62f20c5cc999e6b1",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 115,
+                    "sha": "b53539723f631f058997350ca11114a3fa6a88ca",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 116,
+                    "sha": "a852563334d76b9d11e95dceb82883d0200a4ded",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 117,
+                    "sha": "101ca26b16c89e65519a5a7619479fe4c8aea0b3",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 118,
+                    "sha": "6f50864538a4bc4fcb42dca9356504d2040c666a",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 119,
+                    "sha": "1074d33793fc0038e563fce31b9a40c60874c110",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 120,
+                    "sha": "00f3b0d1963221be6eb0af198e8e8a6487858846",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 121,
+                    "sha": "99306f6533dd2b508586d9ffe65bcc1db2098924",
+                    "description": "Asymptotische Analyse Substitutionsmethode: Beispiele"
+                },
+                {
+                    "page": 122,
+                    "sha": "b533a45d7fa5c82c65cdf720d1ccf10d5b541b3d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 123,
+                    "sha": "28271a935fb7fa98422fe1828941e36ce8d0505b",
                     "description": "Asymptotische Analyse Satz 1 (Master-Theorem)"
+                },
+                {
+                    "page": 124,
+                    "sha": "645166bee0b5be0294ad02c7b8705e72f4c86304",
+                    "description": "Asymptotische Analyse Satz 1 (Master-Theorem)"
+                },
+                {
+                    "page": 125,
+                    "sha": "390289b5bb7169fc36d3428292ab4a34945dff01",
+                    "description": "Asymptotische Analyse Master-Theorem: Fall 1"
+                },
+                {
+                    "page": 126,
+                    "sha": "def95dfae4df488c6f9d60ef7a3bf4f13683de67",
+                    "description": "Asymptotische Analyse Master-Theorem: Fall 2"
+                },
+                {
+                    "page": 127,
+                    "sha": "0c086d72932086bac5f0c9a370b2476d3f074d26",
+                    "description": "Asymptotische Analyse Master-Theorem: Fall 2"
+                },
+                {
+                    "page": 128,
+                    "sha": "79b73d53951a2ddad3700cef4db39df54d3f00eb",
+                    "description": "Asymptotische Analyse Master-Theorem: Fall 3"
+                },
+                {
+                    "page": 129,
+                    "sha": "fe4ecf8eb3bc5c6bdea25477dfab4e05201a5e2b",
+                    "description": "Asymptotische Analyse Master-Theorem: Fall 3"
+                },
+                {
+                    "page": 130,
+                    "sha": "edf69dc14cee52a1787ba7d4617c3abccd1b4586",
+                    "description": "Asymptotische Analyse Master-Theorem: Definitionsl\u00fccken"
+                },
+                {
+                    "page": 131,
+                    "sha": "214bf10ef73472bce987df3027d621c2c3331776",
+                    "description": "Asymptotische Analyse Master-Theorem: Definitionsl\u00fccken"
+                },
+                {
+                    "page": 132,
+                    "sha": "eed7c477889960b6d8f0bc33b5c1883b70d76126",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 133,
+                    "sha": "af15dedcd86b87495d5e26b909e8179a634914cd",
+                    "description": "Formelsammlung Monotonie"
+                },
+                {
+                    "page": 134,
+                    "sha": "0ea45d92c5db3c0c92df45fa8c163b00b257c45c",
+                    "description": "Formelsammlung "
+                }
+            ]
+        },
+        "unit-de-sorting-algorithms": {
+            "sha": "9b13516495201307c61175ea13b94c89446f0792",
+            "numpages": 5,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "371d6ab88a1de1f642272b8a115455e237f99cc3",
+                    "description": "Kapitel ADS:III III. Sortieren"
+                },
+                {
+                    "page": 2,
+                    "sha": "20eec2c5d053b30fea893d72eda33eefe5d25bde",
+                    "description": "Sortieralgorithmen Sortierproblem"
+                },
+                {
+                    "page": 3,
+                    "sha": "a0f91c11e688c6907f4730d83398544d6320e293",
+                    "description": "Sortieralgorithmen Sortierparadigmen"
+                },
+                {
+                    "page": 4,
+                    "sha": "ceeae6482e22af28c9f2356e1d4bad567e4c7de1",
+                    "description": "Sortieralgorithmen Sortierparadigmen"
+                },
+                {
+                    "page": 5,
+                    "sha": "29283c2536fb23e0ff36a71acc87866aec342d6c",
+                    "description": "Sortieralgorithmen \u00dcberblick"
+                }
+            ]
+        },
+        "unit-de-internal-comparison-sorting1": {
+            "sha": "97e16c494dcd889bf68d56d146818ba7a8bac8fc",
+            "numpages": 60,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "2020797749a183e27d57d429d1ffd8d8349478c1",
+                    "description": "Kapitel ADS:III III. Sortieren"
+                },
+                {
+                    "page": 2,
+                    "sha": "368535835c862530f3ae91cf67c34ce5c9d6f291",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 3,
+                    "sha": "fd93308c7888a6c3b164ea5a394f6a287aec1112",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 4,
+                    "sha": "1d84641d9e44deedf1fa829553dab54ae3c05139",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 5,
+                    "sha": "2d256668ce14805e3f31463ff06e5f5a951ff3d9",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 6,
+                    "sha": "618fb590143739ccbccc8a73c565944910ec7d0e",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 7,
+                    "sha": "a86a72f55c47f8271c2afc0fdcc9c9e8ad332fbb",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 8,
+                    "sha": "7a1b9b60500dc24665f87502350581a22240e5a7",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 9,
+                    "sha": "bc12397097e75730591955fa99be6dc13902410f",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 10,
+                    "sha": "8885bf872d2d9219e6d8680b9b78f8dcf9638e06",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 11,
+                    "sha": "ebbc5750cc8347b61ea6809a7d31297c87e04785",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 12,
+                    "sha": "c560441d1e3c5336f762d0963cbd80a089a441cd",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 13,
+                    "sha": "c6c11c6f9f8b512a77f5e1fa8ca168bfc8bcfde5",
+                    "description": "Insertion Sort Algorithmus"
+                },
+                {
+                    "page": 14,
+                    "sha": "5e162072547a83bb778e32f162cc3fa30d23099a",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 15,
+                    "sha": "0fcec67690b002a0157a62f05099867b945cd726",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                },
+                {
+                    "page": 16,
+                    "sha": "275e39207a38d53a0d72551ce5753a2a4b6effaa",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 17,
+                    "sha": "7b40ae58e99df59469cddb09a5e41e65bc871da0",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 18,
+                    "sha": "960a38ef487b8891765173d1b3ef3aacdb96ea04",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 19,
+                    "sha": "28e25d0a44c6d8087b6134fbe0f1175d68e270c7",
+                    "description": "Einschub: Binary Heap Definition"
+                },
+                {
+                    "page": 20,
+                    "sha": "3a76c5286c44f5e055f8ef92b350a1e9d4ba73e8",
+                    "description": "Einschub: Binary Heap Implementierung"
+                },
+                {
+                    "page": 21,
+                    "sha": "a1d77074b152350187918bc8e99ef1b0ccd1bdb6",
+                    "description": "Einschub: Binary Heap Implementierung"
+                },
+                {
+                    "page": 22,
+                    "sha": "08807db8de0d2676d060d0b61cc63c8db5fabca9",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "06f0f020b94232a7d5c54e77f50da5cb902381f6",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 24,
+                    "sha": "12db97c0744242f20dec051b43828484c8a401b1",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 25,
+                    "sha": "6113b80fdb0a47806afe129f4019d8dd1f6a78ed",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 26,
+                    "sha": "12b213eb3a08a733ab09285de55d2ff4f9eb3716",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 27,
+                    "sha": "ab9e8180ed211604f17b2aa7f1e61bddd570351a",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 28,
+                    "sha": "bc478929214cfac5ae8f14a82ddc04981236101c",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 29,
+                    "sha": "83b661696312a6277f426a14df078ae53ff586c5",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 30,
+                    "sha": "0eb3c57ef501e886814e1738a96a8afabac35147",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 31,
+                    "sha": "02b6e6f16bab47da84bff9f6a5f82eafcd0997bc",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 32,
+                    "sha": "28e358e44766182e48684833d00dc9a68b9615f3",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 33,
+                    "sha": "a076005752d6c2c705fa65a12d9a428daeb6315f",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 34,
+                    "sha": "22d3eb1b6a56bdfec8052347e0b033d9c3d29ff1",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 35,
+                    "sha": "56bac0884bfe71807df4706fad7c226d8b709024",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 36,
+                    "sha": "97bb37363517720fba599bb5315ba9ed3a7ecc7f",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 37,
+                    "sha": "d0bb8f8d49ea675b4e36b6f42d3d94539dac71d0",
+                    "description": "Einschub: Binary Heap Konstruktion"
+                },
+                {
+                    "page": 38,
+                    "sha": "bc778bbfd97bf1a187ba6ae898e4b4e8f8ef5b51",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 39,
+                    "sha": "d8558f8320fc945678a155886ef10fa4598f814e",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 40,
+                    "sha": "6401e9539341334f58f7338204c2c0f28a137df9",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 41,
+                    "sha": "e0197ef550b264fbd5c87aa7017f78d9c93bf4cd",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 42,
+                    "sha": "18ebff260376f1046b31503a67c52d27c9f65a37",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 43,
+                    "sha": "8458c79bc74d4c7e99d906e6d329864928a3b426",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 44,
+                    "sha": "7f2ff5659ce63249ffef404ca5e2563d5c463e5d",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 45,
+                    "sha": "b947e2945891a563bf0b063d990149c521ce2272",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 46,
+                    "sha": "d2a977b16f53dd17bb399db06cfe817b454997f0",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 47,
+                    "sha": "e7f4ed9d8328c59a4100fc7d4a902c4d7c5e5b68",
+                    "description": "Einschub: Binary Heap Manipulation"
+                },
+                {
+                    "page": 48,
+                    "sha": "17558ab1f05a979bed5b4c8a2568f304c3d3cd5b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 49,
+                    "sha": "f7e56a3e6e5114ee522b44cf1e7268447ca27df6",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 50,
+                    "sha": "7374b7428d6852efe6732aa244645004a6a186ee",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 51,
+                    "sha": "6a8e5b6c86ac9b5aa3236b372e776107d9f2e1fa",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 52,
+                    "sha": "1158075c0a1d142369022cfb44c9db2b329d5ece",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 53,
+                    "sha": "293abaa96b42fb35f9c015c1e18aba8d097ac0d6",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 54,
+                    "sha": "c2e0c32526ff10e4f0307ee92bf57c4d60d0c960",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 55,
+                    "sha": "56d7fc99a1b4bd0197694f5a358e0f47b44e307a",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 56,
+                    "sha": "3bd01ef84f54c24508177ea36eceea066debd7cd",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 57,
+                    "sha": "b78c894cf1be34a4f102e9624f14cb701233e3a3",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 58,
+                    "sha": "13c4441a4f87e133b96de99bc49cef3b2e09ee4a",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 59,
+                    "sha": "6eb58eecc059e104cf579bfcf026fdbf6cbbf080",
+                    "description": "Heapsort Algorithmus"
+                },
+                {
+                    "page": 60,
+                    "sha": "62f1806e57b76986ee2035edb3e6bed701c1888c",
+                    "description": "Heapsort Algorithmus"
+                }
+            ]
+        },
+        "unit-de-internal-comparison-sorting2": {
+            "sha": "3eaab704e3074550575cc7b564dd3fc3d6676cef",
+            "numpages": 62,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "2e1018b9a9e809e4c03bbab044589c21d658c52b",
+                    "description": "Kapitel ADS:III III. Sortieren"
+                },
+                {
+                    "page": 2,
+                    "sha": "d68f864c59d0303ad59de217988a09d850e1a510",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 3,
+                    "sha": "17b6d920dd53d210f352fa4d37dbc61e69117206",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 4,
+                    "sha": "f2b3c2c3de6fe0962b955db275ed6d3630ce8bde",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 5,
+                    "sha": "52a12579b0ddb0efd3a67ba68f987e33876968fb",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 6,
+                    "sha": "ecede52c433f6fb211cbc137739e9b6e98b5e27c",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 7,
+                    "sha": "45a4e984a663f6aeda293333cde322579509b11f",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 8,
+                    "sha": "57df30bb278e019c653c7f75ea53a7adb75ec1ce",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 9,
+                    "sha": "c00878e4487531f264f4eac3ba7fa8c139cd2d5b",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 10,
+                    "sha": "e54f3f585cc3c92cf65a0c39b93f3a076f1e5cfa",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 11,
+                    "sha": "d607e606eb85cfea95af0ca2eb4f2b6b9e57d73e",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 12,
+                    "sha": "807dac47b5fb06df14e60e68b748333bc9a41b5f",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 13,
+                    "sha": "5f6fd7073bb0fbad82a87885b744e026f6e53ba8",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 14,
+                    "sha": "6bda8caa0c2e320aedc4328d5c8c7d70130f7332",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 15,
+                    "sha": "20737a0f23484fdee90febf7f0217e388f98556d",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 16,
+                    "sha": "fa0daf068dfd2a452e3df77a5df6de60e64bf800",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 17,
+                    "sha": "32ec03cb7b3ec3be158933a0849ea956d35540ca",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 18,
+                    "sha": "0ebb11025d929e210986a00aaa3d234f32d6e62c",
+                    "description": "Merge Sort Algorithmus"
+                },
+                {
+                    "page": 19,
+                    "sha": "7b0771fcde5b8c8713ca7801d8a56798b1a87e88",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "e71a4694a6fca4bc1bbd2fc3709fc6b805895f36",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 21,
+                    "sha": "6de8a67f8d84d0564e79f14ce0d3f8b8eb82a97e",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 22,
+                    "sha": "da8f8bf685ffc5b6e1ba5516d88e951bde538313",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 23,
+                    "sha": "e5a943cced8581de9ee0faf87aebf6e1b722edeb",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 24,
+                    "sha": "ac66606389e3800c6851693bac6dd197714c2262",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 25,
+                    "sha": "497e6b5957f648ee1aea88f4feecd1462ee324c9",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 26,
+                    "sha": "91ee28b903e84f2ab26e55cb99dbbc9e04ad6152",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 27,
+                    "sha": "b2c2bd81ee242f1abcc64ab9d9f890924e7b409c",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 28,
+                    "sha": "b0bab17bf89e8750aee9cdc3d406bfd2a8dbc7f9",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 29,
+                    "sha": "4906d30690579e4eb762d56d9daee062dee817fe",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 30,
+                    "sha": "970e98d7958c26143d2d87ddd2566c84288975e5",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 31,
+                    "sha": "031fb461745fdcedee25ff5fd72f2193bf44e2b8",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 32,
+                    "sha": "8a550649170b5e08937c85391288093553d819a1",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 33,
+                    "sha": "197d6ffdace1a1eb5da9b4bda63492256ef49e8e",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 34,
+                    "sha": "212b7d645e31d853bbac9601777e2e24e6b50a3a",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 35,
+                    "sha": "b5adb22d0a21c751a986f1a6400f49f8950ba3c0",
+                    "description": "Merge Sort Merge"
+                },
+                {
+                    "page": 36,
+                    "sha": "246b5f3f9f9d651ad91a424f98fcd3737c07c648",
+                    "description": "Quicksort Algorithmus"
+                },
+                {
+                    "page": 37,
+                    "sha": "9133f45481d89ad049341fe2db8dd0b6a1e04f48",
+                    "description": "Quicksort Algorithmus"
+                },
+                {
+                    "page": 38,
+                    "sha": "1a64b559905806cbc5aba98f96376d1cb13e6564",
+                    "description": "Quicksort Algorithmus"
+                },
+                {
+                    "page": 39,
+                    "sha": "8327ca89671093ef4d3c15e1afead1a877b1a7ab",
+                    "description": "Quicksort Algorithmus"
+                },
+                {
+                    "page": 40,
+                    "sha": "70327a8b56f363e1e31c473350542caca9010522",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 41,
+                    "sha": "7c8da75574fa7edf2480ecc4325e362ed9646e3d",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 42,
+                    "sha": "9489794763c1b0c76dd3bc1d8dd9a5338e6b0b45",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 43,
+                    "sha": "6e5d9dc0ee23d8228c4c7c68ba2f90488318fedf",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 44,
+                    "sha": "09e932d01178277054d1a5bf7f466865a4d14991",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 45,
+                    "sha": "e0b8ff200b1a9daa29a3ccab50a0abe956f9acd9",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 46,
+                    "sha": "f4f28149284b6321657a25c17f339f9405ba4702",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 47,
+                    "sha": "2718a8ae65913eace353a2a2761fd9764014806e",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 48,
+                    "sha": "837c6f0b8a0d79078c235300232f9ce3fb0b214b",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 49,
+                    "sha": "4b24d3aa2b476838245ed21effe51950bddb2ad6",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 50,
+                    "sha": "d61859fb635d5f03df5546acd7d454e00728a117",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 51,
+                    "sha": "a189d997de9ef982f07fc23891943a45fdac90c9",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 52,
+                    "sha": "027c0d6b3049eff2c62e6d8b47000cdee0d5aba5",
+                    "description": "Quicksort Partitionierung"
+                },
+                {
+                    "page": 53,
+                    "sha": "9b9d83d10ceecab8467a7383c9d8e16278eb8d2e",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 54,
+                    "sha": "9507ca8f764facd6494e3ad3046f98dd3729fe43",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 55,
+                    "sha": "087f07a91ee9da767085bb13154f93b4077dc272",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 56,
+                    "sha": "ef31ac553d76ca1fb6556cdfb789d9890e93bff4",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 57,
+                    "sha": "c5b460086c68a069cd30fb437b44728208c1d899",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 58,
+                    "sha": "f15a49035c6034cd5405dc503e8cd4e33124a0a7",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 59,
+                    "sha": "c232c2c3a5e251da51a2ebb54eb8723d90d04687",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 60,
+                    "sha": "6d98be5f4b2ff711f72eb249147ed3cd918cd06f",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 61,
+                    "sha": "7f917c0862619f882fec7b347e02aa85c00c52cd",
+                    "description": "Quicksort Laufzeit (informell)"
+                },
+                {
+                    "page": 62,
+                    "sha": "fbcbd8573eb210053f91bda5e110118f147fb9f7",
+                    "description": "Quicksort Pivot-Selektion"
+                }
+            ]
+        },
+        "unit-de-internal-distribution-sorting": {
+            "sha": "f8e5dad7d3df14833796262c419329f6213d0419",
+            "numpages": 47,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "3041c7d7cb834fdd52d7f7b384565ee7d41b331b",
+                    "description": "Kapitel ADS:III III. Sortieren"
+                },
+                {
+                    "page": 2,
+                    "sha": "a28c53090c4534e9af584777a60e44df8cac92c3",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 3,
+                    "sha": "5a0117c7a35277670b9b4a0c6cd7dbeb849e07aa",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 4,
+                    "sha": "1abea16099baaae010d5741fe4fa7192e5d3d812",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 5,
+                    "sha": "06c02f6994481a9eb57d22385b6aa14ea0a1bc67",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 6,
+                    "sha": "b9afae7f1756edfd890f5554adc45b8842c27cd7",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 7,
+                    "sha": "090dcee0741300cce57ffab8650db90fb9bc2142",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 8,
+                    "sha": "97562a24e698a1629104af51574ca14700b4c34b",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 9,
+                    "sha": "9b987b029cd0c2f059d53a1b43e44d5ffb7ba9e6",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 10,
+                    "sha": "90c5fc83922d2bf51e80b58ee6654857325db290",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 11,
+                    "sha": "5f7410427caba665db26c0e4cb0ac25d3062eaa1",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 12,
+                    "sha": "2e3f1275dbdce12102ce6eefc6790aaabca61163",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 13,
+                    "sha": "32770151862200add0503205931b1f523c290b88",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 14,
+                    "sha": "9534fa3dc96ce0b4e0f14dbed3946c7d2ebe40ab",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 15,
+                    "sha": "f6dbde081c0da00a7badbf6961481dc1c5c54022",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 16,
+                    "sha": "a2bd6905bb9d0c54044c7d25825a2c2999558098",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 17,
+                    "sha": "fc0e15282069ea39afff5620aee16511eeecea38",
+                    "description": "Counting Sort Algorithmus"
+                },
+                {
+                    "page": 18,
+                    "sha": "42ad5a45acb5c5f7296613cdd3b2e5eaa0c16b5a",
+                    "description": "Radix Sort Algorithmus"
+                },
+                {
+                    "page": 19,
+                    "sha": "200b814b4f5c803aedbf03b9916baa8b71222791",
+                    "description": "Radix Sort Algorithmus"
+                },
+                {
+                    "page": 20,
+                    "sha": "3e7acd9adf84c2d02daa9dcb154e30e8382f341e",
+                    "description": "Radix Sort Beispiel"
+                },
+                {
+                    "page": 21,
+                    "sha": "054e4171dfaccb9764dd30a702625ff762118ab3",
+                    "description": "Radix Sort Beispiel"
+                },
+                {
+                    "page": 22,
+                    "sha": "0916543a7148168ed820be55466266a5be223297",
+                    "description": "Radix Sort Beispiel"
+                },
+                {
+                    "page": 23,
+                    "sha": "c73c9cf7bd6333d094326a0c19a02d73e690dfb6",
+                    "description": "Radix Sort Beispiel"
+                },
+                {
+                    "page": 24,
+                    "sha": "e0777e23d1e46561f548aed1040e0cae43887d6f",
+                    "description": "Radix Sort Stelligkeit"
+                },
+                {
+                    "page": 25,
+                    "sha": "3b2f27404d419e438a2d6dbd534cf01af9c1e12a",
+                    "description": "Radix Sort Stelligkeit"
+                },
+                {
+                    "page": 26,
+                    "sha": "627bd88f8c188a4b75fd799adb8450ba07979bfc",
+                    "description": "Radix Sort Stelligkeit"
+                },
+                {
+                    "page": 27,
+                    "sha": "d1d6f25dac3c44521d9c1be7326dac08ca66042f",
+                    "description": "Radix Sort Stelligkeit"
+                },
+                {
+                    "page": 28,
+                    "sha": "f24aa5a2ae406d2716089d50fc797bf61babd1bc",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 29,
+                    "sha": "490feb343d214eadbd27504df13dd48b7061b608",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 30,
+                    "sha": "93c88df3c6ba6d779f20056fd141c3a87cc6fa91",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 31,
+                    "sha": "1611ac1ef25fa74493973eedefecf4e6bc80a59d",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 32,
+                    "sha": "6beba0e3ad47ad188dc323b1b68d9998498d67b9",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 33,
+                    "sha": "3dfe0207429354df701f1b4e1c915808f6fee88b",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 34,
+                    "sha": "2628d3790ba29f8ece1c9c152adf7a60c8ce9787",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 35,
+                    "sha": "43e013a758afb5d380b1fb2ab4c307319a038345",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 36,
+                    "sha": "48a1c3dcb1c1fc40b0d22d6820273c04626f3d6a",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 37,
+                    "sha": "6984e3ad88b36456d7c8a0a3a90eeabde028fdfe",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 38,
+                    "sha": "df66f0290a14b04ace79b12986f885f9bd130ec7",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 39,
+                    "sha": "ca4f95050acad5ac9e04427e55209ac7b1dfb79c",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 40,
+                    "sha": "58df794fc44466a5d2c1c21f4d67f57be09a3d89",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 41,
+                    "sha": "b2e3446694571aa5239863a20e2c35355c43b171",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 42,
+                    "sha": "9bcc3e838cea30c711366a36c14838852346c2ec",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 43,
+                    "sha": "a98c3d49b3c7b310a49a47170efa6600d26cad9d",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 44,
+                    "sha": "271707dde72010c444402f0ea35004648941f908",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 45,
+                    "sha": "dc4e35b3d8cb3485ff4444f307c5bc29ab0fd7aa",
+                    "description": "Bucket Sort Algorithmus"
+                },
+                {
+                    "page": 46,
+                    "sha": "349e11b080a22b848cdd90fb3600e86b0436ed0d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 47,
+                    "sha": "92c1cc560fe6634b34007743ee73b96749088572",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                }
+            ]
+        },
+        "unit-de-sorting-theory": {
+            "sha": "da9ef0fefed59095814688a742adef40f66e801a",
+            "numpages": 13,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "08460a362369c326b0cc342789ca487dcd5bd121",
+                    "description": "Kapitel ADS:III III. Sortieren"
+                },
+                {
+                    "page": 2,
+                    "sha": "ef1e39dcce256dc2133d19916d5bf661df310d94",
+                    "description": "Minimales vergleichsbasiertes Sortieren Entscheidungsbaummodell"
+                },
+                {
+                    "page": 3,
+                    "sha": "6f189823cab7c0428ea118ec4420f6828d0f015b",
+                    "description": "Minimales vergleichsbasiertes Sortieren Entscheidungsbaummodell"
+                },
+                {
+                    "page": 4,
+                    "sha": "f25c1df6a27c359bc98a5dcf3cc74de289a7ca90",
+                    "description": "Minimales vergleichsbasiertes Sortieren Entscheidungsbaummodell"
+                },
+                {
+                    "page": 5,
+                    "sha": "2f0781fd4e11ddf330738ebbd9c15f3121284432",
+                    "description": "Minimales vergleichsbasiertes Sortieren Entscheidungsbaummodell"
+                },
+                {
+                    "page": 6,
+                    "sha": "2ba5db844c1fdcf7ddc257753a3274b8fba03ce0",
+                    "description": "Minimales vergleichsbasiertes Sortieren Entscheidungsbaummodell"
+                },
+                {
+                    "page": 7,
+                    "sha": "799da6977e9e46ee1f2be1085318a6da823edff1",
+                    "description": "Minimales vergleichsbasiertes Sortieren Entscheidungsbaummodell"
+                },
+                {
+                    "page": 8,
+                    "sha": "0fbb5f96a685c58e2f920bacf20dce25a97b55f1",
+                    "description": "Minimales vergleichsbasiertes Sortieren Satz 1 (Untere Schranke f\u00fcr den Worst Case f\u00fcr vergleichsbasiertes Sortieren)"
+                },
+                {
+                    "page": 9,
+                    "sha": "6e21f0d0ce61a4fd0714069d20c545eacac58c87",
+                    "description": "Minimales vergleichsbasiertes Sortieren Satz 1 (Untere Schranke f\u00fcr den Worst Case f\u00fcr vergleichsbasiertes Sortieren)"
+                },
+                {
+                    "page": 10,
+                    "sha": "d6ffac01a28080607479542efd4d83f5bf6a1ddb",
+                    "description": "Minimales vergleichsbasiertes Sortieren Satz 1 (Untere Schranke f\u00fcr den Worst Case f\u00fcr vergleichsbasiertes Sortieren)"
+                },
+                {
+                    "page": 11,
+                    "sha": "0cc239a9080bc4d17612fc6b541aca91103f6973",
+                    "description": "Minimales vergleichsbasiertes Sortieren Satz 1 (Untere Schranke f\u00fcr den Worst Case f\u00fcr vergleichsbasiertes Sortieren)"
+                },
+                {
+                    "page": 12,
+                    "sha": "e034357afd434ff2b1ff2a1d1521331f619c85c3",
+                    "description": "Minimales vergleichsbasiertes Sortieren Satz 1 (Untere Schranke f\u00fcr den Worst Case f\u00fcr vergleichsbasiertes Sortieren)"
+                },
+                {
+                    "page": 13,
+                    "sha": "75d921d28b3246e45ed489262400963916c670f2",
+                    "description": "Bemerkungen:"
                 }
             ]
         }
