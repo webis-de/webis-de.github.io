@@ -9,6 +9,10 @@ html {
     overflow-y: auto;
 }
 
+:not(pre) > code {
+    white-space: normal;
+}
+
 .global-nav {
     border-bottom: 1px solid lighten($global-secondary-background, 25);
 
