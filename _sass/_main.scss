@@ -3,6 +3,7 @@
 // Fix for jumpy scroll position (see https://github.com/uikit/uikit/issues/1379)
 body {
     overflow: hidden;
+    overflow-x: auto;
 }
 
 html {
