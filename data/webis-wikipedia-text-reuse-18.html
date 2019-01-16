@@ -1,0 +1,103 @@
+---
+layout: default
+nav_active: data
+title: Wikipedia Text Reuse Corpus
+description: Wikipedia Text Reuse Corpus
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Wikipedia Text Reuse Corpus",
+    "description":"A cropus of text reuse cases extracted from within Wikipedia and in between Wikipedia and a sample of Common Crawl",
+    "url":"https://webis.de/data/webis-wikipedia-textreuse-18.html",
+    "keywords":[
+       "Wikipedia",
+       "Common Crawl",
+       "Text Reuse"
+    ], 
+    "datePublished":"2018",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"*https://webis18.medien.uni-weimar.de/data/my-data.csv"
+        },
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"XML",
+            "contentUrl":"*https://webis18.medien.uni-weimar.de/data/my-data.xml"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Wikipedia Text Reuse Corpus</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The text reuse corpus containing text reuse cases extracted from within Wikipedia and in between Wikipedia and a sample of the Common Crawl</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="webis-download">Download</h2>
+          <p>Soon to be published!</p>
+
+        <h2 id="research">Research</h2>
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+        <!-- <li><a href="http://www.uni-weimar.de/medien/webis/people/#<last>">&lt;First&gt; &lt;Last&gt;</a></li> -->
+        </ul>
+
+       
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+          <!--
+      You do not need to add anything here.
+      Typo3 will insert publications automatically via pub-database.php.
+      For more information visit webis-web-notes.txt.
+      -->
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+//includeBibentries(document.getElementById("publications-list"), "data:corpus-webis-qspell-17");
+</script>
