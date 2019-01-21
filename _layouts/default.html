@@ -14,12 +14,6 @@
     {%- endfor %}
 </head>
 <body class="uk-offcanvas-content">
-<script>
-    if (window.devicePixelRatio > 1.2 && window.devicePixelRatio * window.screen.availHeight <= 1600) {
-        // fix font scaling issues on smaller FullHD screens
-        document.getElementsByTagName('body')[0].classList.add('dpi-fix');
-    }
-</script>
 <script src="{{ '/js/thirdparty/uikit/uikit.min.js' | relative_url }}"></script>
 <script src="{{ '/js/thirdparty/uikit/uikit-icons.min.js' | relative_url }}"></script>
 
