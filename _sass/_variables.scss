@@ -7,7 +7,7 @@ $global-hidpi-font-size: 14px;
 $global-line-height: 1.5;
 $global-hidpi-line-height: 1.6;
 $text-lead-line-height: $global-hidpi-line-height;
-$text-meta-line-height: $global-line-height;
+$text-meta-line-height: $global-hidpi-line-height;
 $text-small-line-height: 1.7;
 $global-small-font-size: 0.875rem;
 $section-header-text-transform: uppercase;
