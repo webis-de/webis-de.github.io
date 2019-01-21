@@ -36,6 +36,11 @@ html {
     }
 }
 
+.desktop-nav {
+    // made visible by media query later
+    display: none;
+}
+
 .uk-navbar-nav {
     & > li > a {
         .uk-light & {
@@ -185,6 +190,14 @@ a:target {
 @media (min-width: $breakpoint-medium) {
     .footer-link-column .uk-nav-header {
         min-height: 3em;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: block;
     }
 }
 
