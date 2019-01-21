@@ -27,6 +27,9 @@
                 <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
                     <a href="{{ '/people.html' | relative_url }}">People</a>
                 </li>
+                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
+                </li>
                 <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %} class="uk-parent">
                     <a href="#">Lecturenotes</a>
                     <ul class="uk-nav-sub">
@@ -64,9 +67,6 @@
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
-                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
-                </li>
             </ul>
         </nav>
     </div>
@@ -86,6 +86,9 @@
             <ul class="uk-navbar-nav">
                 <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
                     <a href="{{ '/people.html' | relative_url }}">People</a>
+                </li>
+                <li class="{% if page.nav_active == 'for-students' %} uk-active{% endif %}">
+                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
                 <li class="nav-group-start{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
                     <a href="#">Lecturenotes</a>
@@ -130,9 +133,6 @@
                 </li>
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
-                </li>
-                <li class="nav-group-start{% if page.nav_active == 'for-students' %} uk-active{% endif %}">
-                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
             </ul>
         </div>
