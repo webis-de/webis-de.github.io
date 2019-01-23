@@ -2,16 +2,6 @@
 # Front matter to ensure Jekyll is processing the file.
 ---
 
-// Global variable overrides
-@import "../commons/_sass/variables";
-
-// Default UIkit variables
-@import "../commons/_sass/uikit/variables-theme";
-@import "../commons/_sass/uikit/mixins-theme";
-
-// UIkit main theme
-@import "../commons/_sass/uikit/uikit-theme";
-
 // Webis styles
 @import "../commons/_sass/main";
 @import "../commons/_sass/prettyprint";
