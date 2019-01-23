@@ -1,14 +1,23 @@
 # Webis Website
 
-The website is built using [Jekyll](https://jekyllrb.com/docs/).
+The Webis website source code.
 
-To install Jekyll, run
+## Building The Source Code
+
+*If you are editing the files directly on GitHub, you can skip this section.*
+
+**Note:** Please use the `--recursive` flag for `git clone` or refer to
+the [Update Dependencies](#Update-Dependencies) section below to initialize
+or update the needed dependencies before compiling the source code.
+
+The website is built using [Jekyll](https://jekyllrb.com/docs/). To install
+Jekyll on your system, run
 
     sudo apt install ruby ruby-dev build-essential
     sudo gem install jekyll jekyll-sitemap
 
-Once Jekyll is installed, you can `cd` into the main folder of this repository
-and run
+After Jekyll is installed, you can `cd` into the main folder of this
+repository and run
 
     jekyll serve
 
@@ -20,6 +29,7 @@ To publish changes to the source files, just push them to GitHub, which will
 take care of compiling them on its own.
 
 ## Sources Structure
+- `commons` Reusable styles of the Webis theme
 - `_includes` Includes to other source files (e.g. BibHTML)
 - `_layouts` The website's layout templates
 - `_maintenance` Maintenance scripts
@@ -67,20 +77,22 @@ next time UIkit is updated. Instead, if you want to modify the value of a layout
 variable, look for its name in `_sass/uikit/components` and redefine it in
 `_sass/_variables.scss`.
 
-## Update Third-party Dependencies
-Third-party dependencies (UIkit, jQuery, etc.) are managed via NPM.
-Unless you want to update those or need to add new dependencies, you don't
-have to touch anything here.
+## Update Dependencies
+This repository depends on [webis-de-commons](https://github.com/webis-de/webis-de-commons),
+a collection of modular Jekyll templates and Sass styles for the Webis website theme
+and other third-party dependencies (UIkit, Fontawesome, jQuery, etc.).
 
-In any other case, install NPM via
-
-    sudo apt install npm
-
-Once the installation has finished, run
+These dependencies need to be cloned into the `commons` folder before you can
+compile the website. In order to initialize (or update) the dependencies into that
+folder, run the dependency update script like so:
 
     ./_maintenance/update-dependencies.sh
 
-Then add, commit, and push the changed files. The script will check out the
-dependencies via `npm` into a folder called `node_modules` and copy all the files
-needed for operating the website to `js/thirdparty` and `_sass/uikit`. Please do not
-add `node_modules` directly to the Git repository.
+Afterwards, add the changes to your Git index
+    
+    git add -A
+
+and commit and push them
+
+    git commit -m "Commit message"
+    git push

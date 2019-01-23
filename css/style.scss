@@ -2,28 +2,27 @@
 # Front matter to ensure Jekyll is processing the file.
 ---
 
-// global variable overrides
-@import "../_sass/variables";
+// Global variable overrides
+@import "../commons/_sass/variables";
 
-// default UIkit variables
-@import "../_sass/uikit/variables-theme";
-@import "../_sass/uikit/mixins-theme";
+// Default UIkit variables
+@import "../commons/_sass/uikit/variables-theme";
+@import "../commons/_sass/uikit/mixins-theme";
 
 // UIkit main theme
-@import "../_sass/uikit/uikit-theme";
+@import "../commons/_sass/uikit/uikit-theme";
+
+// Webis styles
+@import "../commons/_sass/main";
+@import "../commons/_sass/prettyprint";
+@import "../commons/_sass/_data_tables";
 
 // Custom styles
-@import "../_sass/fonts";
-@import "../_sass/main";
 @import "../_sass/index";
-@import "../_sass/webis_list";
-@import "../_sass/webis_table";
 @import "../_sass/lecturenotes";
-@import "../_sass/bibentry";
 @import "../_sass/nosql_databases";
 @import "../_sass/retrieval-models";
 @import "../_sass/aitools";
 @import "../_sass/tira";
-@import "../_sass/web_genres";
 @import "../_sass/person_resolution";
 
