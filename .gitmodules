@@ -1,3 +1,4 @@
 [submodule "commons"]
 	path = commons
 	url = https://github.com/webis-de/webis-de-commons.git
+	branch = master
