@@ -2,6 +2,9 @@
 # Front matter to ensure Jekyll is processing the file.
 ---
 
+// Variable overrides
+@import "../_sass/variables";
+
 // Webis styles
 @import "../commons/_sass/main";
 @import "../commons/_sass/prettyprint";
