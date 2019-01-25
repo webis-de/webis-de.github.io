@@ -72,9 +72,9 @@
     </div>
 </div>
 
-<div class="uk-background-secondary  global-nav" data-uk-sticky>
-    <div class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar>
-        <div class="">
+<div class="uk-background-secondary global-nav" data-uk-sticky>
+    <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
+        <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li{% if page.nav_active == "index" %} class="uk-active"{% endif %}>
                     <a href="{{ '/' | relative_url }}"><img src="{{ '/img/webis-logo.png' | relative_url }}" alt="Webis Logo" class="uk-logo"> Webis.de</a>
@@ -143,7 +143,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </nav>
 </div>
 
 <div data-uk-height-viewport="expand: true">
