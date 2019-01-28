@@ -3,7 +3,6 @@ layout: default
 nav_active: data
 title: Webis Data
 description: Overview of corpora that are used by the Webis
-additional_css: [ '/css/dataTables.uikit.min.css' ]
 ---
 
 <script type="application/ld+json">
@@ -2148,11 +2147,11 @@ additional_css: [ '/css/dataTables.uikit.min.css' ]
     </div>
 </main>
 
-<script src="{{ 'js/thirdparty/jquery/jquery.slim.min.js' | relative_url }}"></script>
-<script src="{{ 'js/thirdparty/datatables.net/jquery.dataTables.min.js' | relative_url }}"></script>
-<script src="{{ 'js/dataTables/dataTables.uikit.min.js' | relative_url }}"></script>
-<script src="{{ 'js/dataTables/file-size.js' | relative_url }}"></script>
-<script src="{{ 'js/dataTables/unit-size.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/thirdparty/jquery/jquery.slim.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/thirdparty/datatables.net/jquery.dataTables.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/dataTables/dataTables.uikit.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/dataTables/file-size.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/dataTables/unit-size.js' | relative_url }}"></script>
 <script>
     $(document).ready(function() {
         $('.uk-table').DataTable({
@@ -2167,5 +2166,5 @@ additional_css: [ '/css/dataTables.uikit.min.css' ]
         });
     })
 </script>
-<script src="{{ 'js/thirdparty/fontawesome/fontawesome.min.js' | relative_url }}"></script>
-<script src="{{ 'js/thirdparty/fontawesome/solid.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/thirdparty/fontawesome/fontawesome.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/thirdparty/fontawesome/solid.min.js' | relative_url }}"></script>

@@ -23,10 +23,14 @@ sass:
 # Exclude from processing.
 exclude:
   - package.json
+  - package-lock.json
   - Gemfile
   - Gemfile.lock
   - node_modules
   - README.md
+  - commons/README.md
+  - commons/package.json
+  - commons/package-lock.json
 
 plugins:
   - jekyll-sitemap
