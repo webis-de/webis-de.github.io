@@ -27034,77 +27034,77 @@
             ]
         },
         "unit-en-link-analysis": {
-            "sha": "7479d00fb87e88dd390f2119aa78092f86b6d1cc",
+            "sha": "bae534e569f6581e20621d16aa9baab84ca89d86",
             "numpages": 14,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "fa49759bc92eaa82cb799f59d56fd972f86fa0c6",
+                    "sha": "35895d613b570b04b1633235180ec949a5765e7f",
                     "description": "Chapter IR:III III. Text Transformation"
                 },
                 {
                     "page": 2,
-                    "sha": "64e67da6cf8cd92d87a6ca0b387362f94f82c8b2",
+                    "sha": "9946d3a8048fe95865a8a06699700ec26962d61f",
                     "description": "Link Analysis Hyperlinks"
                 },
                 {
                     "page": 3,
-                    "sha": "0377ce66c7f89867d6457e833ceb6d4c76f05ccf",
+                    "sha": "7d96ee9d69b33f0f87dae442cf9f0c2d75d64498",
                     "description": "Link Analysis Anchor Text"
                 },
                 {
                     "page": 4,
-                    "sha": "7c0cd964981dc51839594c6bc7563915154520b6",
+                    "sha": "57fe15b9c7eb078eef9ac4e0c0dbb82ccec7aed6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 5,
-                    "sha": "3cfd36bdccb560c8416743db6c50dc7b2d488de3",
+                    "sha": "377dd430b9a7008c2eef67fd06b15e1d5fb486e1",
                     "description": "Link Analysis PageRank"
                 },
                 {
                     "page": 6,
-                    "sha": "dc3803987005406b4f046d1a488d8e3477a0f067",
+                    "sha": "c7a452a1f9159e965b7125ab1708d466dc8ef1d8",
                     "description": "Link Analysis PageRank: Random Surfer Model"
                 },
                 {
                     "page": 7,
-                    "sha": "94cc49b2995c35cc4875e4390339cad0f6f5f413",
+                    "sha": "40f59a7d1e8df6f030a957bdd8086cf9b9d1736f",
                     "description": "Link Analysis PageRank: Random Surfer Model"
                 },
                 {
                     "page": 8,
-                    "sha": "68cb0228f54754052e4c37681e88db6a81049ef8",
+                    "sha": "8dce63b076b2d312d72327a473f231cb4d59fd8b",
                     "description": "Link Analysis PageRank: Definition"
                 },
                 {
                     "page": 9,
-                    "sha": "65d4a82692d1b4bd57e3938c4d169a2dda69be24",
+                    "sha": "fea7516e63ba6cd7af0d6ac1a55f47307ff89f59",
                     "description": "Link Analysis PageRank: Example"
                 },
                 {
                     "page": 10,
-                    "sha": "1ac4c8d99ad39907329035218ef77919a1c690db",
+                    "sha": "dd2873c94140c3a444378f163564e92cf00183a6",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 11,
-                    "sha": "212f411c94ecc1bd88b85d7afa0b05acd1a8db0f",
+                    "sha": "4ab7d60f30c6c580baddc2696857d3a1eb08c1bb",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 12,
-                    "sha": "7103c9a85e40820771304d43f19c613fd4044d14",
+                    "sha": "527bb47a06015cd28c955a4f79a9cdf9dc22ac03",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 13,
-                    "sha": "ade35f48e008781f5937952e341d59ed9090f900",
+                    "sha": "e0e4da76e6b03c7ac14f43e43c806b8462ab5aef",
                     "description": "Link Analysis PageRank: Convergence"
                 },
                 {
                     "page": 14,
-                    "sha": "6eb3358fdfa230cfcf7537683aaa4b0c54f01f30",
+                    "sha": "7e020525e7860dc08eaa2db6d2396fbc6039e401",
                     "description": "Link Analysis PageRank: Variants"
                 }
             ]
