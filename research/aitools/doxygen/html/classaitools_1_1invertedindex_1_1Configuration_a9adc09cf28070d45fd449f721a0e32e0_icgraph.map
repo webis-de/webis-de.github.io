@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a98ac99a6bc154878d12d3047eb83d8bd" title="aitools::invertedindex::Configuration::clear_available_memory" alt="" coords="347,5,723,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a3db2ada9bca09c220a13a5fb3817245f" title="aitools::invertedindex::Configuration::clear_index_directory" alt="" coords="355,59,715,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a722a0e355a40b1b10b420cfc5add9058" title="aitools::invertedindex::Configuration::clear_input_directory" alt="" coords="357,112,712,141"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a51c56f4d5c1c916911981ccb73df778f" title="aitools::invertedindex::Configuration::clear_input_format" alt="" coords="363,165,707,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a99f25c0e41c5479121ad297e598d4af8" title="aitools::invertedindex::Configuration::clear_postlist_sorting" alt="" coords="355,219,715,248"/>
+</map>

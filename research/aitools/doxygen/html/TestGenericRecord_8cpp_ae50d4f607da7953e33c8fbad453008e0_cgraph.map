@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" href="$namespaceaitools_1_1util.html#a99e1ca204b3d1a8be4d39c7846005b7d" title="aitools::util::fclose" alt="" coords="317,5,445,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ab252f628164d0214f7d1a2ea40f242f2" title="aitools::util::ftell" alt="" coords="325,59,437,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#a3aed896298074f80ad4f9e3adf9eab74" title="aitools::invertedindex::GenericRecord::key" alt="" coords="248,112,515,141"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a7c4ee04fae7a937d60d7e42a0c9df72e" title="aitools::invertedindex::ByteBuffer::resize" alt="" coords="253,165,509,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#af7170d2e0acee1c4a2e68d3e875005c6" title="aitools::invertedindex::GenericRecord::size" alt="" coords="247,219,516,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aaff5936d7584ce4a7811e61df9178e7b" title="aitools::util::tmpfile" alt="" coords="316,272,447,301"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#a8e8f2bb476c421c888f788a78a4f02c3" title="aitools::invertedindex::GenericRecord::value" alt="" coords="243,325,520,355"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#ab7cc44c82281b296fc21c1b5ebb9f3a5" title="aitools::invertedindex::GenericRecord::write" alt="" coords="245,379,517,408"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="568,59,728,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="777,59,983,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1033,59,1161,88"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f" title="aitools::value::quadruple::e1" alt="" coords="491,5,675,35"/>
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6" title="aitools::value::quadruple::e2" alt="" coords="491,59,675,88"/>
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224" title="aitools::value::quadruple::e3" alt="" coords="491,112,675,141"/>
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d" title="aitools::value::quadruple::e4" alt="" coords="491,165,675,195"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#a0c5f778f6259628d4452b7f0c195211d" title="aitools::value::value_traits::write_to" alt="" coords="469,219,696,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ae7a5beeade04257f73da904a4a70fa5c" title="aitools::util::fwrite" alt="" coords="745,219,868,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="917,219,1077,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1127,219,1332,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1383,219,1511,248"/>
+</map>

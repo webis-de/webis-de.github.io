@@ -1,0 +1,51 @@
+<map id="G" name="G">
+<area shape="rect" href="$namespaceaitools_1_1util.html#a99e1ca204b3d1a8be4d39c7846005b7d" title="aitools::util::fclose" alt="" coords="216,345,344,375"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a1a7eda380ed6a1c7f779c4cbe0efda97" title="aitools::util::fopen" alt="" coords="219,557,341,587"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#afbd9e9cda0b614d0bb430112a7443be7" title="aitools::util::fread" alt="" coords="220,796,340,825"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a00b7bcde75a0d1442c45dda0b6a9d96f" title="aitools::util::fseek" alt="" coords="509,1115,632,1144"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ab252f628164d0214f7d1a2ea40f242f2" title="aitools::util::ftell" alt="" coords="224,1035,336,1064"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ae7a5beeade04257f73da904a4a70fa5c" title="aitools::util::fwrite" alt="" coords="219,1193,341,1223"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a4f9b624aac0c444a9fc2a512dcc6a2a7" title="aitools::util::tmpdir" alt="" coords="216,1247,344,1276"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aaff5936d7584ce4a7811e61df9178e7b" title="aitools::util::tmpfile" alt="" coords="215,1351,345,1380"/>
+<area shape="rect" href="$TestGenericRecord_8cpp.html#ae50d4f607da7953e33c8fbad453008e0" title="BOOST_AUTO_TEST_CASE" alt="" coords="476,1061,665,1091"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1builder.html#aa12890dbf80014d00430447b2f2d4d24" title="aitools::bighashmap::core::builder::build_hashfunc" alt="" coords="415,477,727,507"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1builder.html#abde2b6e69cd45c495adaf3b68070638c" title="aitools::bighashmap::core::builder::build_hashtable" alt="" coords="413,584,728,613"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#ad764789cb78d1e714114020e85a58ed1" title="aitools::invertedindex::PostlistBuilder::clear" alt="" coords="435,165,707,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ExternalMergeSort.html#afa852ca57f075466a96655b6091d10a8" title="aitools::invertedindex::ExternalMergeSort::merge" alt="" coords="1272,400,1576,429"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1StorageBuilder.html#aba78df985205dae54ab4f9f7f62c50ff" title="aitools::invertedindex::StorageBuilder::close" alt="" coords="1287,740,1561,769"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1cmph__map.html#aff855434214386951eff2aefeaac0c2d" title="aitools::bighashmap::core::cmph_map::cmph_map" alt="" coords="413,371,728,400"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1internal__map.html#a1b67ce0a5d26d16c57353453e3513c8a" title="aitools::bighashmap::core::internal_map::internal_map" alt="" coords="404,531,737,560"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1StorageSearcher.html#ae4fa256847ba19948d5e8ca86555e4b2" title="aitools::invertedindex::StorageSearcher::open" alt="" coords="867,531,1152,560"/>
+<area shape="rect" href="$test__value__traits_8cpp.html#a90d2fe31fcc3af4d9691b4acf54736e0" title="test" alt="" coords="549,424,592,453"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1external__map.html#ae1437d5ca9efba3f10864cf9d5dbcfc4" title="aitools::bighashmap::core::external_map::~external_map" alt="" coords="396,5,745,35"/>
+<area shape="rect" href="$structaitools_1_1invertedindex_1_1Iterator_1_1Page.html#af7e3f954beeb92d60281e3ce0eaa7742" title="aitools::invertedindex::Iterator::Page::~Page" alt="" coords="433,59,708,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#ab4ee05469e5605241158c3f2df13e7ce" title="aitools::invertedindex::PostlistBuilder::~PostlistBuilder" alt="" coords="404,112,737,141"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1builder.html#ad82b0729f38c4fd0adcf6b5fdc5103fb" title="aitools::bighashmap::core::builder::build_map" alt="" coords="868,477,1151,507"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a69815c7a781768b42bd4dd38aafc989b" title="aitools::invertedindex::PostlistBuilder::build" alt="" coords="875,165,1144,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ExternalMergeSort.html#a5ac9b0130bbf0aefe258d7e8630f7c75" title="aitools::invertedindex::ExternalMergeSort::sort" alt="" coords="1648,400,1939,429"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1StorageBuilder.html#ae5204be96ebaa2ded1fc1df2ae2a48a2" title="aitools::invertedindex::StorageBuilder::~StorageBuilder" alt="" coords="1624,740,1963,769"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1external__map.html#a675e1f2f350316bbc4a1a073efb55a79" title="aitools::bighashmap::core::external_map::external_map" alt="" coords="400,637,741,667"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#aca179d3fbbe9047c164806fd4024f8bd" title="aitools::invertedindex::System::fopen" alt="" coords="452,795,689,824"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1MPHashFunction.html#aeef8fb7274cf639034f5375f44783de8" title="aitools::invertedindex::MPHashFunction::create" alt="" coords="861,792,1157,821"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1MPHashFunction.html#a332d7aae7e1d05cde3a27b5d100a1d34" title="aitools::invertedindex::MPHashFunction::load" alt="" coords="868,635,1151,664"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1MPHashFunction.html#ae05fccf7056b04595c6ad6fccfe321d4" title="aitools::invertedindex::MPHashFunction::save" alt="" coords="865,688,1153,717"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a41f9e4d17ddaeb1510b40e7a6a56e201" title="aitools::invertedindex::System::fread" alt="" coords="453,691,688,720"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#ac8579f2a630b10617f36867357312101" title="aitools::value::value_traits::read_from" alt="" coords="451,848,691,877"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a59fa227660ac0dea5664ab2184dd735c" title="aitools::invertedindex::Iterator::swap" alt="" coords="455,901,687,931"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1external__map.html#a9aa2bcbcbfb6f05fa0754c1de9918fb9" title="aitools::bighashmap::core::external_map::find" alt="" coords="867,1112,1152,1141"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01triple_3_01T1_00_01T2_00_01T3_01_4_01_4.html#abfd0d3aace3211a9c1f7e4d921d778ff" title="aitools::value::value_traits\&lt; triple\&lt; T1, T2, T3 \&gt; \&gt;::read_from" alt="" coords="821,845,1197,875"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01quadruple_3_01T1_00_01T2_00_01T3_00_01T4_01_4_01_4.html#ad7a238df9f8dca67ff279c5a7f9d3fd3" title="aitools::value::value_traits\&lt; quadruple\&lt; T1, T2, T3, T4 \&gt; \&gt;::read_from" alt="" coords="796,899,1223,928"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01pair_3_01T1_00_01T2_01_4_01_4.html#aecf8a233f6c8df6ba6da37a2231036bf" title="aitools::value::value_traits\&lt; pair\&lt; T1, T2 \&gt; \&gt;::read_from" alt="" coords="836,952,1183,981"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a3907ff5ab1973581d032077ee3b13a7c" title="aitools::invertedindex::Iterator::advance" alt="" coords="884,1005,1135,1035"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a2c8ca8c7225939e469cbd93de14efb76" title="aitools::invertedindex::Iterator::Iterator" alt="" coords="888,1059,1131,1088"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#afa9596faeae3a261440d166280780ab6" title="aitools::invertedindex::Iterator::rewind" alt="" coords="891,1165,1128,1195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#aed579938eef5fa2c6030918bf6da51ac" title="aitools::invertedindex::System::fseek" alt="" coords="891,1219,1128,1248"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#abb511225dfac56239bbbd1fdddd4b117" title="aitools::invertedindex::System::ftell" alt="" coords="457,955,684,984"/>
+<area shape="rect" href="$structaitools_1_1invertedindex_1_1Iterator_1_1Page.html#a3295813eb1a96b339489379eef1b19f1" title="aitools::invertedindex::Iterator::Page::Page" alt="" coords="437,1008,704,1037"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a793966de03e991e9a63cb5c927e7e0bd" title="aitools::invertedindex::System::fwrite" alt="" coords="453,1168,688,1197"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ExternalMergeSort.html#ae0fbfcac5547f4d0f1e0c0f8e1374a54" title="aitools::invertedindex::ExternalMergeSort::swap_out" alt="" coords="848,1403,1171,1432"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a807b592a6bfec068ea1aeb155fe26d11" title="aitools::invertedindex::PostlistBuilder::swap_out_values_" alt="" coords="396,1376,745,1405"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#a0c5f778f6259628d4452b7f0c195211d" title="aitools::value::value_traits::write_to" alt="" coords="457,1272,684,1301"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a4e3754c86600a439e1675e99de549246" title="aitools::invertedindex::PostlistBuilder::append" alt="" coords="867,1272,1152,1301"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a12c63dd5199c14939305efe0974ae417" title="aitools::invertedindex::System::tmpfile" alt="" coords="449,1429,692,1459"/>
+</map>

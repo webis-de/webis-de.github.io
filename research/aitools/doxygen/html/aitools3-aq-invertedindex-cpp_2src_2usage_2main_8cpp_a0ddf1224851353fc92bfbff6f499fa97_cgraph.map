@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$namespaceaitools_1_1invertedindex.html#af9067b670a68a635e1d76574fc4d40ad" title="aitools::invertedindex::build_ngram_index" alt="" coords="105,165,364,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1IndexBuilder.html#a2736508bd2d24095b84fbc2e14c77dbc" title="aitools::invertedindex::IndexBuilder::build" alt="" coords="468,5,727,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Logging.html#ae73831ead318ab781da89dd026462963" title="aitools::invertedindex::Logging::error" alt="" coords="481,59,713,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#ae2dbdf5e697e2c1cc80ae8f0be3d36c6" title="aitools::invertedindex::Configuration::set_available_memory" alt="" coords="415,112,780,141"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a376710db27a688930bc5f9ee80520b0e" title="aitools::invertedindex::Configuration::set_index_directory" alt="" coords="423,165,772,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a1af94692d22f128eafe4d8c731440ed3" title="aitools::invertedindex::Configuration::set_input_directory" alt="" coords="424,219,771,248"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#ab9307411d6a366977310f09e1662a685" title="aitools::invertedindex::Configuration::set_input_format" alt="" coords="431,272,764,301"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a25bb3106eaf4e28d2905cfc779b18eab" title="aitools::invertedindex::Configuration::set_postlist_sorting" alt="" coords="423,325,772,355"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Logging.html#a4046f4a90e5a9974a82a2df2834cfaae" title="aitools::invertedindex::Logging::timestamp" alt="" coords="872,59,1139,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Configuration.html#a95c1e7c8466d500294f7dfd81a85665c" title="aitools::invertedindex::Configuration::_set_bit" alt="" coords="864,219,1147,248"/>
+<area shape="rect" href="$namespaceaitools_1_1invertedindex.html#a4bf38975c5f2480b36d7948d29d9f868" title="aitools::invertedindex::Configuration_InputFormat_IsValid" alt="" coords="829,272,1181,301"/>
+<area shape="rect" href="$namespaceaitools_1_1invertedindex.html#a77fa29ebd6d68bcca3cc154a42c9d009" title="aitools::invertedindex::Configuration_Sorting_IsValid" alt="" coords="844,325,1167,355"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1InvertedFileReader.html#af1b7fb5c94086f4ea79be33e7b95e497" title="aitools::invertedindex::InvertedFileReader::close" alt="" coords="244,5,543,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1InvertedFileWriter.html#ae8d5958e6ab4c9195e395e3f885b2b49" title="aitools::invertedindex::InvertedFileWriter::close" alt="" coords="248,59,539,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Record.html#acea4125a74501a8c0e4c8cfd025c392f" title="aitools::invertedindex::Record::key" alt="" coords="625,149,847,179"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1InvertedFileReader.html#a2baf46525cbae2aec599e0ade5362cf9" title="aitools::invertedindex::InvertedFileReader::next" alt="" coords="247,163,540,192"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Record.html#ab15c1cc508bc69a2f7469f6b52f5ddbb" title="aitools::invertedindex::Record::value" alt="" coords="620,241,852,271"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1InvertedFileWriter.html#ad5542dcd166245e8c3f4b9ccfc498b10" title="aitools::invertedindex::InvertedFileWriter::write" alt="" coords="249,216,537,245"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1InvertedFileWriter.html#a290be3cd9bdb37c8f22fc6def672d475" title="aitools::invertedindex::InvertedFileWriter::path" alt="" coords="593,59,879,88"/>
+</map>

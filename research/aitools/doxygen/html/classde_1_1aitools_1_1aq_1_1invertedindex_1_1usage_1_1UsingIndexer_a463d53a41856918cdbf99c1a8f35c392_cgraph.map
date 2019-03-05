@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#a941c4acf1491e3f1b329ad86fc3c41c0" title="de::aitools::aq::invertedindex::core::Properties::printTo" alt="" coords="484,139,820,168"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a68154e9325aed050cd7128e20cdba33a" title="de::aitools::aq::invertedindex::core::Configuration::setExpectedNumberOfRecords" alt="" coords="405,192,899,221"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a96d47e45d7547a6bda4bca9cf774c321" title="de::aitools::aq::invertedindex::core::Configuration::setIndexDirectory" alt="" coords="444,245,860,275"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#aa5492975c48e0da11adaa1431c943e57" title="de::aitools::aq::invertedindex::core::Configuration::setKeySorting" alt="" coords="455,299,849,328"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a02ea94663b703ab96477972281a9d0b8" title="de::aitools::aq::invertedindex::core::Configuration::setMaxMemoryUsage" alt="" coords="432,352,872,381"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#ad98ea71572fc70222ad289fe520a9269" title="de::aitools::aq::invertedindex::core::Configuration::setValueSorting" alt="" coords="451,405,853,435"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#aa81118a06cecab9d76b16dd38bff22ac" title="de::aitools::aq::invertedindex::core::Properties::getKeyCount" alt="" coords="963,5,1333,35"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#af67a60946d967960c793962a74a423d6" title="de::aitools::aq::invertedindex::core::Properties::getTotalSize" alt="" coords="964,59,1332,88"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#a566fdb61b59d8ab5d731b4dbcae05403" title="de::aitools::aq::invertedindex::core::Properties::getValueCount" alt="" coords="959,112,1337,141"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#ae7a5574d1c385b3ef9091bfe8261dadc" title="de::aitools::aq::invertedindex::core::Properties::getValueSorting" alt="" coords="955,165,1341,195"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#a98ca0919bbb722c2340757a17b319c68" title="de::aitools::aq::invertedindex::core::Properties::getValueType" alt="" coords="960,219,1336,248"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Properties.html#aff66b0afb4742657f2f0464ea190756f" title="de::aitools::aq::invertedindex::core::Properties::getVersionNumber" alt="" coords="947,272,1349,301"/>
+</map>

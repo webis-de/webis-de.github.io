@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01triple_3_01T1_00_01T2_00_01T3_01_4_01_4.html#a6099480150622995df339cbec9c9a558" title="aitools::value::value_traits\&lt; triple\&lt; T1, T2, T3 \&gt; \&gt;::print_to" alt="" coords="309,5,669,35"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01quadruple_3_01T1_00_01T2_00_01T3_00_01T4_01_4_01_4.html#aad88f46e597f5f539a33fdf77481dbb5" title="aitools::value::value_traits\&lt; quadruple\&lt; T1, T2, T3, T4 \&gt; \&gt;::print_to" alt="" coords="284,59,695,88"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01pair_3_01T1_00_01T2_01_4_01_4.html#a5fc4e3d8c8d98f82687c82054d51d106" title="aitools::value::value_traits\&lt; pair\&lt; T1, T2 \&gt; \&gt;::print_to" alt="" coords="324,112,655,141"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#a3771fb75b936e08140555ac24a623160" title="aitools::value::value_traits::println_to" alt="" coords="372,165,607,195"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01triple_3_01T1_00_01T2_00_01T3_01_4_01_4.html#aee17dc61fed3066c80a164cb31ca44c2" title="aitools::value::value_traits\&lt; triple\&lt; T1, T2, T3 \&gt; \&gt;::println_to" alt="" coords="304,219,675,248"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01quadruple_3_01T1_00_01T2_00_01T3_00_01T4_01_4_01_4.html#a811e0bca7ee954895c07ce47fa2cee8d" title="aitools::value::value_traits\&lt; quadruple\&lt; T1, T2, T3, T4 \&gt; \&gt;::println_to" alt="" coords="279,272,700,301"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01pair_3_01T1_00_01T2_01_4_01_4.html#a7a95d52a945677a7efd0549d2e076895" title="aitools::value::value_traits\&lt; pair\&lt; T1, T2 \&gt; \&gt;::println_to" alt="" coords="319,325,660,355"/>
+</map>

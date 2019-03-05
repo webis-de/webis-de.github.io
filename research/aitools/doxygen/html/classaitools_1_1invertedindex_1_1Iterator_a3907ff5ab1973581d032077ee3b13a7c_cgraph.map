@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a5f95e94ca6a3aca8e82246c2aff80a74" title="aitools::invertedindex::Iterator::size" alt="" coords="308,5,532,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a59fa227660ac0dea5664ab2184dd735c" title="aitools::invertedindex::Iterator::swap" alt="" coords="304,59,536,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a66aa9ba5bee4f5e75247354425c3def0" title="aitools::invertedindex::ByteBuffer::data" alt="" coords="589,5,837,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#afbd9e9cda0b614d0bb430112a7443be7" title="aitools::util::fread" alt="" coords="653,59,773,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a7c4ee04fae7a937d60d7e42a0c9df72e" title="aitools::invertedindex::ByteBuffer::resize" alt="" coords="585,112,841,141"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="891,59,1051,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1100,59,1305,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1356,59,1484,88"/>
+</map>

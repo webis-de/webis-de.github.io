@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Record.html#acea4125a74501a8c0e4c8cfd025c392f" title="aitools::invertedindex::Record::key" alt="" coords="263,5,484,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#a3aed896298074f80ad4f9e3adf9eab74" title="aitools::invertedindex::GenericRecord::key" alt="" coords="557,83,824,112"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a30692a9e98b4df8b8cbd19a7296e0157" title="aitools::invertedindex::ByteBuffer::size" alt="" coords="251,109,496,139"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Record.html#ab05ba1be434595c8e9627826a89a1165" title="aitools::invertedindex::Record::to_generic" alt="" coords="243,163,504,192"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#a8e8f2bb476c421c888f788a78a4f02c3" title="aitools::invertedindex::GenericRecord::value" alt="" coords="552,215,829,244"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Value.html#a0fd48b7b0551e4328ee3eafce053a24a" title="aitools::invertedindex::Value::to_bytes" alt="" coords="569,161,812,191"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a793966de03e991e9a63cb5c927e7e0bd" title="aitools::invertedindex::System::fwrite" alt="" coords="340,32,575,61"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ae7a5beeade04257f73da904a4a70fa5c" title="aitools::util::fwrite" alt="" coords="729,5,852,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Exception.html#aa101aebcf8be69da4eca930025e6b27a" title="aitools::invertedindex::Exception::throw_runtime_error" alt="" coords="625,59,956,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="1005,5,1165,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1215,5,1420,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1471,5,1599,35"/>
+</map>

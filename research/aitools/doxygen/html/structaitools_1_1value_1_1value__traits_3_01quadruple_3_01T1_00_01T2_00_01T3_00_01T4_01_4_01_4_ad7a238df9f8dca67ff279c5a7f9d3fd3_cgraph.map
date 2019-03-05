@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f" title="aitools::value::quadruple::e1" alt="" coords="511,5,695,35"/>
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6" title="aitools::value::quadruple::e2" alt="" coords="511,59,695,88"/>
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224" title="aitools::value::quadruple::e3" alt="" coords="511,112,695,141"/>
+<area shape="rect" href="$classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d" title="aitools::value::quadruple::e4" alt="" coords="511,165,695,195"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#ac8579f2a630b10617f36867357312101" title="aitools::value::value_traits::read_from" alt="" coords="483,219,723,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#afbd9e9cda0b614d0bb430112a7443be7" title="aitools::util::fread" alt="" coords="772,219,892,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="941,219,1101,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1151,219,1356,248"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1407,219,1535,248"/>
+</map>

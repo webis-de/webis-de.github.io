@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$namespaceaitools_1_1util.html#a99e1ca204b3d1a8be4d39c7846005b7d" title="aitools::util::fclose" alt="" coords="368,5,496,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="753,85,959,115"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a1a7eda380ed6a1c7f779c4cbe0efda97" title="aitools::util::fopen" alt="" coords="371,59,493,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="544,59,704,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1009,85,1137,115"/>
+</map>
