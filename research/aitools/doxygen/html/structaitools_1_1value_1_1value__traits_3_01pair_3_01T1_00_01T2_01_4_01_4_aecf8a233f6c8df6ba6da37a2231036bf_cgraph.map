@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1value_1_1pair.html#ac319f6457bd186eb5b65e1dee482dee2" title="aitools::value::pair::e1" alt="" coords="445,5,595,35"/>
+<area shape="rect" href="$classaitools_1_1value_1_1pair.html#a976b5707503c9423ed5685bac015eec5" title="aitools::value::pair::e2" alt="" coords="445,59,595,88"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#ac8579f2a630b10617f36867357312101" title="aitools::value::value_traits::read_from" alt="" coords="400,112,640,141"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#afbd9e9cda0b614d0bb430112a7443be7" title="aitools::util::fread" alt="" coords="689,112,809,141"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="859,112,1019,141"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1068,112,1273,141"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1324,112,1452,141"/>
+</map>

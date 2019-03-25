@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01triple_3_01T1_00_01T2_00_01T3_01_4_01_4.html#a21520d2f2aaf0c6d17fa5a031f4b4184" title="aitools::value::value_traits\&lt; triple\&lt; T1, T2, T3 \&gt; \&gt;::parse_from" alt="" coords="327,5,711,35"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01quadruple_3_01T1_00_01T2_00_01T3_00_01T4_01_4_01_4.html#a4a1b95dd19b7923c325f16f4ce88cb12" title="aitools::value::value_traits\&lt; quadruple\&lt; T1, T2, T3, T4 \&gt; \&gt;::parse_from" alt="" coords="301,59,736,88"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01pair_3_01T1_00_01T2_01_4_01_4.html#a0e5e597900f5ddaf9021f8699b34004c" title="aitools::value::value_traits\&lt; pair\&lt; T1, T2 \&gt; \&gt;::parse_from" alt="" coords="343,112,695,141"/>
+</map>

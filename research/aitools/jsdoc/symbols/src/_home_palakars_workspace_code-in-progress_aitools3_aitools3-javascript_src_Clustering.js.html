@@ -1,0 +1,548 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"> <style>
+	.KEYW {color: #933;}
+	.COMM {color: #bbb; font-style: italic;}
+	.NUMB {color: #393;}
+	.STRN {color: #393;}
+	.REGX {color: #339;}
+	.line {border-right: 1px dotted #666; color: #666; font-style: normal;}
+	</style></head><body><pre><span class='line'>  1</span> <span class="WHIT">
+<span class='line'>  2</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>  3</span> </span><span class="COMM">/**
+<span class='line'>  4</span>  * @fileOverview Copyright (C) 2009 www.webis.de&lt;br/>
+<span class='line'>  5</span>  * &lt;ul>
+<span class='line'>  6</span>  * &lt;li>Implementation of the clustering data structure&lt;/li>
+<span class='line'>  7</span>  * &lt;li>Implementation of generic cluster algorithm wrapper&lt;/li>
+<span class='line'>  8</span>  * &lt;li>Implemention of the MajorClust algorithmus using a singleton pattern&lt;/li>
+<span class='line'>  9</span>  * &lt;li>Implementation of cluster labeling using Weighted Centroid Covering&lt;/li>
+<span class='line'> 10</span>  * &lt;/ul>
+<span class='line'> 11</span>  * @author Alexander Kuemmel alexander.kuemmel@uni-weimar.de
+<span class='line'> 12</span>  * @author Christian Fricke christian.fricke@uni-weimar.de
+<span class='line'> 13</span>  * @version 0.1
+<span class='line'> 14</span>  */</span><span class="WHIT">
+<span class='line'> 15</span> </span><span class="WHIT"> 
+<span class='line'> 16</span> </span><span class="COMM">/**
+<span class='line'> 17</span>  * Implementation of the clustering data structure
+<span class='line'> 18</span>  * @class Implementation of the clustering data structure
+<span class='line'> 19</span>  * @constructor
+<span class='line'> 20</span>  * @param {Object} nodeIdClusterMapping mapping: key[nodeId]=>value[clusterId]
+<span class='line'> 21</span>  * @author Christian Fricke christian.fricke@uni-weimar.de
+<span class='line'> 22</span>  */</span><span class="WHIT">
+<span class='line'> 23</span> </span><span class="NAME">de.aitools.js.Clustering</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 24</span> </span><span class="WHIT">  </span><span class="NAME">CHECK_TYPE</span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"object"</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"clustering parameter incorrect."</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 25</span> </span><span class="WHIT">  </span><span class="COMM">/**
+<span class='line'> 26</span>    * @private
+<span class='line'> 27</span>    * @type Number
+<span class='line'> 28</span>    */</span><span class="WHIT">
+<span class='line'> 29</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterCount</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 30</span> </span><span class="WHIT">  </span><span class="COMM">/**
+<span class='line'> 31</span>    * @private
+<span class='line'> 32</span>    * @type mapping: key[nodeId]=>value[clusterId]
+<span class='line'> 33</span>    */</span><span class="WHIT">
+<span class='line'> 34</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterResults</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 35</span> </span><span class="WHIT">  </span><span class="COMM">/**
+<span class='line'> 36</span>    * @private
+<span class='line'> 37</span>    * @type mapping: key[clusterId]=>array[nodeIds]
+<span class='line'> 38</span>    */</span><span class="WHIT">
+<span class='line'> 39</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">itemsOfCluster</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 40</span> </span><span class="WHIT">   
+<span class='line'> 41</span>   </span><span class="COMM">/**
+<span class='line'> 42</span>    * Method to get the total cluster count of clustering.
+<span class='line'> 43</span>    * @public
+<span class='line'> 44</span>    * @returns {Number} Total count of clusters within clustering
+<span class='line'> 45</span>    */</span><span class="WHIT">
+<span class='line'> 46</span> </span><span class="WHIT">  </span><span class="NAME">this.getClusterCount</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 47</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">clusterCount</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 48</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 49</span> </span><span class="WHIT">  
+<span class='line'> 50</span>   </span><span class="COMM">/**
+<span class='line'> 51</span>    * Method to get the cluster id that a given node id belongs to.
+<span class='line'> 52</span>    * @public
+<span class='line'> 53</span> 	 * @param {Number} nodeId The node id to be used
+<span class='line'> 54</span>    * @returns {Number} Cluster id the given node id belongs to
+<span class='line'> 55</span>    */</span><span class="WHIT">
+<span class='line'> 56</span> </span><span class="WHIT">  </span><span class="NAME">this.getClusterOfItem</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">nodeId</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 57</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">clusterResults</span><span class="PUNC">[</span><span class="NAME">nodeId</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 58</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 59</span> </span><span class="WHIT">  
+<span class='line'> 60</span>   </span><span class="COMM">/**
+<span class='line'> 61</span>    * Method to get the size of a cluster.
+<span class='line'> 62</span>    * @public
+<span class='line'> 63</span> 	 * @param {Number} clusterId The cluster id to be used
+<span class='line'> 64</span>    * @returns {Number} Size of desired cluster
+<span class='line'> 65</span>    */</span><span class="WHIT">
+<span class='line'> 66</span> </span><span class="WHIT">  </span><span class="NAME">this.getSizeOfCluster</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">clusterId</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 67</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">itemsOfCluster</span><span class="PUNC">[</span><span class="NAME">clusterId</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">length</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 68</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 69</span> </span><span class="WHIT">  
+<span class='line'> 70</span>   </span><span class="COMM">/**
+<span class='line'> 71</span>    * Method to get the node ids of a cluster.
+<span class='line'> 72</span>    * @public
+<span class='line'> 73</span> 	 * @param {Number} clusterId The cluster id to be used
+<span class='line'> 74</span>    * @returns {Array} Array of all nodeIds in the cluster
+<span class='line'> 75</span>    */</span><span class="WHIT">
+<span class='line'> 76</span> </span><span class="WHIT">  </span><span class="NAME">this.getItemsOfCluster</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">clusterId</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 77</span> </span><span class="WHIT">    </span><span class="NAME">CHECK_NOT_UNDEFINED</span><span class="PUNC">(</span><span class="NAME">itemsOfCluster</span><span class="PUNC">[</span><span class="NAME">clusterId</span><span class="PUNC">]</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"clusterId doesn't exist."</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 78</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">itemsOfCluster</span><span class="PUNC">[</span><span class="NAME">clusterId</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 79</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 80</span> </span><span class="WHIT">  
+<span class='line'> 81</span>   </span><span class="COMM">/**
+<span class='line'> 82</span>    * Constructor function.
+<span class='line'> 83</span>    */</span><span class="WHIT">
+<span class='line'> 84</span> </span><span class="WHIT">  </span><span class="PUNC">(</span><span class="KEYW">function</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 85</span> </span><span class="WHIT">    </span><span class="COMM">// each clusterId is unused at first</span><span class="WHIT">
+<span class='line'> 86</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">used</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 87</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">j</span><span class="WHIT"> </span><span class="KEYW">in</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 88</span> </span><span class="WHIT">      </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping.hasOwnProperty</span><span class="PUNC">(</span><span class="NAME">j</span><span class="PUNC">)</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 89</span> </span><span class="WHIT">        </span><span class="NAME">used</span><span class="PUNC">[</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">j</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">false</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 90</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'> 91</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'> 92</span> </span><span class="WHIT">    
+<span class='line'> 93</span>     </span><span class="COMM">// each existing clusterId is assigned a new one</span><span class="WHIT">
+<span class='line'> 94</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">idCounter</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 95</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">newId</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 96</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">newIds</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'> 97</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">k</span><span class="WHIT"> </span><span class="KEYW">in</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 98</span> </span><span class="WHIT">      </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping.hasOwnProperty</span><span class="PUNC">(</span><span class="NAME">k</span><span class="PUNC">)</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'> 99</span> </span><span class="WHIT">        </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">!</span><span class="NAME">used</span><span class="PUNC">[</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>100</span> </span><span class="WHIT">          </span><span class="NAME">used</span><span class="PUNC">[</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">true</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>101</span> </span><span class="WHIT">          </span><span class="NAME">newId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">idCounter</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>102</span> </span><span class="WHIT">          </span><span class="PUNC">++</span><span class="NAME">idCounter</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>103</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT"> </span><span class="KEYW">else</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT"> </span><span class="NAME">newId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">newIds</span><span class="PUNC">[</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>104</span> </span><span class="WHIT">      </span><span class="NAME">newIds</span><span class="PUNC">[</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">newId</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>105</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>106</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>107</span> </span><span class="WHIT">    
+<span class='line'>108</span>     </span><span class="COMM">// each nodeId is assigned the newly created clusterId,</span><span class="WHIT">
+<span class='line'>109</span> </span><span class="WHIT">    </span><span class="COMM">// each nodeId is appended to the array of the appropriate clusterId</span><span class="WHIT">
+<span class='line'>110</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">l</span><span class="WHIT"> </span><span class="KEYW">in</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>111</span> </span><span class="WHIT">      </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping.hasOwnProperty</span><span class="PUNC">(</span><span class="NAME">l</span><span class="PUNC">)</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>112</span> </span><span class="WHIT">        </span><span class="NAME">clusterResults</span><span class="PUNC">[</span><span class="NAME">l</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">newIds</span><span class="PUNC">[</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">l</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>113</span> </span><span class="WHIT">        </span><span class="COMM">// create new clusterId if it doesn't exist already</span><span class="WHIT">
+<span class='line'>114</span> </span><span class="WHIT">        </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">typeof</span><span class="PUNC">(</span><span class="NAME">itemsOfCluster</span><span class="PUNC">[</span><span class="NAME">clusterResults</span><span class="PUNC">[</span><span class="NAME">l</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">===</span><span class="WHIT"> </span><span class="STRN">"undefined"</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>115</span> </span><span class="WHIT">          </span><span class="NAME">itemsOfCluster</span><span class="PUNC">[</span><span class="NAME">clusterResults</span><span class="PUNC">[</span><span class="NAME">l</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>116</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>117</span> </span><span class="WHIT">        </span><span class="COMM">// store nodeId in array belonging to appropriate clusterId</span><span class="WHIT">
+<span class='line'>118</span> </span><span class="WHIT">        </span><span class="NAME">itemsOfCluster</span><span class="PUNC">[</span><span class="NAME">clusterResults</span><span class="PUNC">[</span><span class="NAME">l</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">push</span><span class="PUNC">(</span><span class="NAME">l</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>119</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>120</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>121</span> </span><span class="WHIT">    
+<span class='line'>122</span>     </span><span class="NAME">clusterCount</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">idCounter</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>123</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">)</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>124</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>125</span> 
+<span class='line'>126</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>127</span> 
+<span class='line'>128</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>129</span> </span><span class="COMM">/**
+<span class='line'>130</span>  * Implementation of ClusterAlgorithm - algorithms are implemented as
+<span class='line'>131</span>  * a singleton patterns with an input: Graph and output: Clustering.&lt;br/>
+<span class='line'>132</span>  * Example:&lt;br/>
+<span class='line'>133</span>  *  MajorClust, creates a clustering through comparing weights
+<span class='line'>134</span>  *  of single clusters / node connections.
+<span class='line'>135</span>  * Usage:&lt;br/>
+<span class='line'>136</span>  *  de.aitools.js.MajorClust.setThreshold(value);&lt;br/>
+<span class='line'>137</span>  *  var MajorClust = new de.aitools.js.MajorClust();&lt;br/>
+<span class='line'>138</span>  *  var ca = new de.aitools.js.ClusterAlgorithm(MajorClust);&lt;br/>
+<span class='line'>139</span>  *  var cluster = ca.computeClustering(graph);
+<span class='line'>140</span>  * @class Implementation of ClusterAlgorithm
+<span class='line'>141</span>  * @constructor
+<span class='line'>142</span>  * @param {Object} nodeIdClusterMapping mapping: key[nodeId]=>value[clusterId]
+<span class='line'>143</span>  * @author Christian Fricke christian.fricke@uni-weimar.de
+<span class='line'>144</span>  */</span><span class="WHIT">
+<span class='line'>145</span> </span><span class="NAME">de.aitools.js.ClusterAlgorithm</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">clusteringFunction</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>146</span> </span><span class="WHIT">  </span><span class="NAME">CHECK_TYPE</span><span class="PUNC">(</span><span class="NAME">clusteringFunction.createClustering</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"function"</span><span class="PUNC">,</span><span class="WHIT">
+<span class='line'>147</span> </span><span class="WHIT">             </span><span class="STRN">"no clustering function given."</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>148</span> </span><span class="WHIT">  
+<span class='line'>149</span>   </span><span class="COMM">/**
+<span class='line'>150</span>    * Method to compute a clustering using a graph.
+<span class='line'>151</span>    * @public
+<span class='line'>152</span> 	 * @param {de.aitools.js.Graph} graph The graph to be clusterd
+<span class='line'>153</span>    * @returns {de.aitools.js.Clustering} A clustering
+<span class='line'>154</span>    */</span><span class="WHIT">
+<span class='line'>155</span> </span><span class="WHIT">  </span><span class="NAME">this.computeClustering</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">graph</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>156</span> </span><span class="WHIT">    </span><span class="NAME">CHECK_NOT_UNDEFINED</span><span class="PUNC">(</span><span class="NAME">graph</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"No graph defined"</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>157</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">clusteringFunction.createClustering</span><span class="PUNC">(</span><span class="NAME">graph</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>158</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>159</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>160</span> 
+<span class='line'>161</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>162</span> 
+<span class='line'>163</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>164</span> </span><span class="COMM">/**
+<span class='line'>165</span>  * Implemention of the MajorClust algorithm using a singleton pattern.
+<span class='line'>166</span>  * @class Implemention of MajorClust
+<span class='line'>167</span>  * @constructor
+<span class='line'>168</span>  * @author Christian Fricke christian.fricke@uni-weimar.de
+<span class='line'>169</span>  */</span><span class="WHIT">
+<span class='line'>170</span> </span><span class="NAME">de.aitools.js.MajorClust</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>171</span> </span><span class="WHIT">  
+<span class='line'>172</span>   </span><span class="COMM">/**
+<span class='line'>173</span>    * @private
+<span class='line'>174</span>    * @type Number
+<span class='line'>175</span>    */</span><span class="WHIT">
+<span class='line'>176</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">threshold</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>177</span> </span><span class="WHIT">  
+<span class='line'>178</span>   </span><span class="COMM">/**
+<span class='line'>179</span>    * Constructor function.
+<span class='line'>180</span>    */</span><span class="WHIT">
+<span class='line'>181</span> </span><span class="WHIT">  </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>182</span> </span><span class="WHIT">    </span><span class="COMM">/**
+<span class='line'>183</span>      * Method to set the threshold.
+<span class='line'>184</span>      * @public
+<span class='line'>185</span>      * @static
+<span class='line'>186</span>      * @param {Number} value Threshold to be set
+<span class='line'>187</span>      */</span><span class="WHIT">
+<span class='line'>188</span> </span><span class="WHIT">    </span><span class="NAME">setThreshold</span><span class="WHIT"> </span><span class="PUNC">:</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">value</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>189</span> </span><span class="WHIT">      </span><span class="NAME">CHECK_TYPE</span><span class="PUNC">(</span><span class="NAME">value</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"number"</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"input is not of type number"</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>190</span> </span><span class="WHIT">      </span><span class="NAME">threshold</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">value</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>191</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="PUNC">,</span><span class="WHIT">
+<span class='line'>192</span> </span><span class="WHIT">    
+<span class='line'>193</span>     </span><span class="COMM">/**
+<span class='line'>194</span>      * Method to create the clustering.
+<span class='line'>195</span>      * @public
+<span class='line'>196</span>      * @static
+<span class='line'>197</span>      * @param {de.aitools.js.Graph} graph The graph to be clustered
+<span class='line'>198</span>      * @returns {de.aitools.js.Clustering} A complete clustering.
+<span class='line'>199</span>      */</span><span class="WHIT">
+<span class='line'>200</span> </span><span class="WHIT">    </span><span class="NAME">createClustering</span><span class="WHIT"> </span><span class="PUNC">:</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">graph</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>201</span> </span><span class="WHIT">      </span><span class="COMM">// initial clustering: each vertex in its own cluster</span><span class="WHIT">
+<span class='line'>202</span> </span><span class="WHIT">      </span><span class="COMM">// mapping: key[nodeId]=>value[clusterId]</span><span class="WHIT">
+<span class='line'>203</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">nodesToCluster</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getNodes</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>204</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">size</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getNodeCount</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>205</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>206</span> </span><span class="WHIT">      </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">c</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">c</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">size</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">c</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>207</span> </span><span class="WHIT">        </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">nodesToCluster</span><span class="PUNC">[</span><span class="NAME">c</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">c</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>208</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>209</span> </span><span class="WHIT">      
+<span class='line'>210</span>       </span><span class="COMM">// loop until nothing is changed due to relocation</span><span class="WHIT">
+<span class='line'>211</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">terminate</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">false</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>212</span> </span><span class="WHIT">      </span><span class="KEYW">while</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">!</span><span class="NAME">terminate</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>213</span> </span><span class="WHIT">        </span><span class="NAME">terminate</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">true</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>214</span> </span><span class="WHIT">        
+<span class='line'>215</span>         </span><span class="COMM">// create random permutation of node ids.</span><span class="WHIT">
+<span class='line'>216</span> </span><span class="WHIT">        </span><span class="COMM">// different permutations may produce different results</span><span class="WHIT">
+<span class='line'>217</span> </span><span class="WHIT">        </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">nodeIdPermutation</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getNodes</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>218</span> </span><span class="WHIT">        </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">i</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">i</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">size</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">i</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>219</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">first</span><span class="WHIT">  </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">Math.floor</span><span class="PUNC">(</span><span class="NAME">Math.random</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">*</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">size</span><span class="PUNC">)</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>220</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">second</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">Math.floor</span><span class="PUNC">(</span><span class="NAME">Math.random</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">*</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">size</span><span class="PUNC">)</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>221</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">temp</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">nodeIdPermutation</span><span class="PUNC">[</span><span class="NAME">first</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>222</span> </span><span class="WHIT">          </span><span class="NAME">nodeIdPermutation</span><span class="PUNC">[</span><span class="NAME">first</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">nodeIdPermutation</span><span class="PUNC">[</span><span class="NAME">second</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>223</span> </span><span class="WHIT">          </span><span class="NAME">nodeIdPermutation</span><span class="PUNC">[</span><span class="NAME">second</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">temp</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>224</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>225</span> </span><span class="WHIT">        
+<span class='line'>226</span>         </span><span class="COMM">// subloop for each individual node</span><span class="WHIT">
+<span class='line'>227</span> </span><span class="WHIT">        </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">nodeIndex</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">nodeIndex</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">size</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">nodeIndex</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>228</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">currentNodeId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">nodeIdPermutation</span><span class="PUNC">[</span><span class="NAME">nodeIndex</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>229</span> </span><span class="WHIT">          
+<span class='line'>230</span>           </span><span class="COMM">// reset sums</span><span class="WHIT">
+<span class='line'>231</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">sumOfEdgeWeights</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>232</span> </span><span class="WHIT">          </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">c</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">c</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">size</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">c</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>233</span> </span><span class="WHIT">            </span><span class="NAME">sumOfEdgeWeights</span><span class="PUNC">[</span><span class="NAME">c</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>234</span> </span><span class="WHIT">          </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>235</span> </span><span class="WHIT">          
+<span class='line'>236</span>           </span><span class="COMM">// sum all edges going towards same clusters</span><span class="WHIT">
+<span class='line'>237</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">adjacentNodes</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getAdjacentNodes</span><span class="PUNC">(</span><span class="NAME">currentNodeId</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>238</span> </span><span class="WHIT">          </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">j</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">j</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">adjacentNodes.length</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">j</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>239</span> </span><span class="WHIT">            </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">adjacentNodes</span><span class="PUNC">[</span><span class="NAME">j</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>240</span> </span><span class="WHIT">            </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">edgeWeight</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getEdgeWeight</span><span class="PUNC">(</span><span class="NAME">currentNodeId</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">adjacentNodes</span><span class="PUNC">[</span><span class="NAME">j</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>241</span> </span><span class="WHIT">            </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">edgeWeight</span><span class="WHIT"> </span><span class="PUNC">>=</span><span class="WHIT"> </span><span class="NAME">threshold</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>242</span> </span><span class="WHIT">              </span><span class="COMM">// performance: one could set the sumOfEdgeWeights here,</span><span class="WHIT">
+<span class='line'>243</span> </span><span class="WHIT">              </span><span class="COMM">// instead of initialising every clusterId with 0.</span><span class="WHIT">
+<span class='line'>244</span> </span><span class="WHIT">              </span><span class="NAME">sumOfEdgeWeights</span><span class="PUNC">[</span><span class="NAME">clusterId</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">edgeWeight</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>245</span> </span><span class="WHIT">            </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>246</span> </span><span class="WHIT">          </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>247</span> </span><span class="WHIT">          
+<span class='line'>248</span>           </span><span class="COMM">// determine the cluster that belongs to the biggest sum</span><span class="WHIT">
+<span class='line'>249</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">newClusterId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">currentNodeId</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>250</span> </span><span class="WHIT">          </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">maxWeight</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>251</span> </span><span class="WHIT">          </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">k</span><span class="WHIT"> </span><span class="KEYW">in</span><span class="WHIT"> </span><span class="NAME">sumOfEdgeWeights</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>252</span> </span><span class="WHIT">            </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">sumOfEdgeWeights.hasOwnProperty</span><span class="PUNC">(</span><span class="NAME">k</span><span class="PUNC">)</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>253</span> </span><span class="WHIT">              </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">sumOfEdgeWeights</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">></span><span class="WHIT"> </span><span class="NAME">maxWeight</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>254</span> </span><span class="WHIT">                </span><span class="NAME">newClusterId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">k</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>255</span> </span><span class="WHIT">                </span><span class="NAME">maxWeight</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">sumOfEdgeWeights</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>256</span> </span><span class="WHIT">              </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>257</span> </span><span class="WHIT">            </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>258</span> </span><span class="WHIT">          </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>259</span> </span><span class="WHIT">          
+<span class='line'>260</span>           </span><span class="COMM">// set new clusterId</span><span class="WHIT">
+<span class='line'>261</span> </span><span class="WHIT">          </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">currentNodeId</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">!=</span><span class="WHIT"> </span><span class="NAME">newClusterId</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>262</span> </span><span class="WHIT">            </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">currentNodeId</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">newClusterId</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>263</span> </span><span class="WHIT">            </span><span class="NAME">terminate</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">false</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>264</span> </span><span class="WHIT">          </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>265</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>266</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>267</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clustering</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">new</span><span class="WHIT"> </span><span class="NAME">de.aitools.js.Clustering</span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>268</span> </span><span class="WHIT">      </span><span class="KEYW">delete</span><span class="WHIT"> </span><span class="NAME">this.nodeIdClusterMapping</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>269</span> </span><span class="WHIT">      </span><span class="KEYW">delete</span><span class="WHIT"> </span><span class="NAME">this.nodesToCluster</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>270</span> </span><span class="WHIT">      </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">clustering</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>271</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>272</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>273</span> </span><span class="PUNC">}</span><span class="PUNC">)</span><span class="WHIT">
+<span class='line'>274</span> 
+<span class='line'>275</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>276</span> 
+<span class='line'>277</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>278</span> </span><span class="COMM">/**
+<span class='line'>279</span>  * Implemention of a randomized clustering algorithm using a singleton pattern.
+<span class='line'>280</span>  * Note: Only used for testing the quality against other algorithms.
+<span class='line'>281</span>  * @class Implemention of a randomized clustering algorithm
+<span class='line'>282</span>  * @constructor
+<span class='line'>283</span>  * @author Christian Fricke christian.fricke@uni-weimar.de
+<span class='line'>284</span>  */</span><span class="WHIT">
+<span class='line'>285</span> </span><span class="NAME">de.aitools.js.RandomClust</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>286</span> </span><span class="WHIT">  </span><span class="COMM">/**
+<span class='line'>287</span>    * Constructor function.
+<span class='line'>288</span>    */</span><span class="WHIT">
+<span class='line'>289</span> </span><span class="WHIT">  </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>290</span> </span><span class="WHIT">    </span><span class="COMM">/**
+<span class='line'>291</span>      * Method to create the clustering.
+<span class='line'>292</span>      * @public
+<span class='line'>293</span>      * @static
+<span class='line'>294</span>      * @param {de.aitools.js.Graph} graph The graph to be clustered
+<span class='line'>295</span>      * @returns {de.aitools.js.Clustering} A complete clustering
+<span class='line'>296</span>      */</span><span class="WHIT">
+<span class='line'>297</span> </span><span class="WHIT">    </span><span class="NAME">createClusteringClustering</span><span class="WHIT"> </span><span class="PUNC">:</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">graph</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>298</span> </span><span class="WHIT">      </span><span class="NAME">print</span><span class="PUNC">(</span><span class="STRN">"fubar"</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>299</span> </span><span class="WHIT">      </span><span class="COMM">// initial clustering: each vertex in its own cluster</span><span class="WHIT">
+<span class='line'>300</span> </span><span class="WHIT">      </span><span class="COMM">// mapping: key[nodeId]=>value[clusterId]</span><span class="WHIT">
+<span class='line'>301</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterSize</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">40</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>302</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">nodesToCluster</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getNodes</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>303</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">size</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">graph.getNodeCount</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>304</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">nodeIdClusterMapping</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>305</span> </span><span class="WHIT">      </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">c</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">c</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">size</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">c</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>306</span> </span><span class="WHIT">        </span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">[</span><span class="NAME">nodesToCluster</span><span class="PUNC">[</span><span class="NAME">c</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT">
+<span class='line'>307</span> </span><span class="WHIT">        </span><span class="NAME">Math.floor</span><span class="PUNC">(</span><span class="NAME">Math.random</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">*</span><span class="WHIT"> </span><span class="NAME">clusterSize</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>308</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>309</span> </span><span class="WHIT">      
+<span class='line'>310</span>       </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clustering</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">new</span><span class="WHIT"> </span><span class="NAME">de.aitools.js.Clustering</span><span class="PUNC">(</span><span class="NAME">nodeIdClusterMapping</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>311</span> </span><span class="WHIT">      </span><span class="KEYW">delete</span><span class="WHIT"> </span><span class="NAME">this.nodeIdClusterMapping</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>312</span> </span><span class="WHIT">      </span><span class="KEYW">delete</span><span class="WHIT"> </span><span class="NAME">this.nodesToCluster</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>313</span> </span><span class="WHIT">      </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">clustering</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>314</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>315</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>316</span> </span><span class="PUNC">}</span><span class="PUNC">)</span><span class="WHIT">
+<span class='line'>317</span> 
+<span class='line'>318</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>319</span> 
+<span class='line'>320</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>321</span> </span><span class="COMM">///**</span><span class="WHIT">
+<span class='line'>322</span> </span><span class="COMM">// * Mapping of ids of the document representation, currently not in use.</span><span class="WHIT">
+<span class='line'>323</span> </span><span class="COMM">// * @static</span><span class="WHIT">
+<span class='line'>324</span> </span><span class="COMM">// * @author Alexander Kuemmel alexander.kuemmel@uni-weimar.de</span><span class="WHIT">
+<span class='line'>325</span> </span><span class="COMM">// * @author Christof Braeutigam christof.braeutigam@uni-weimar.de</span><span class="WHIT">
+<span class='line'>326</span> </span><span class="COMM">// * @deprecated</span><span class="WHIT">
+<span class='line'>327</span> </span><span class="COMM">// */</span><span class="WHIT">
+<span class='line'>328</span> </span><span class="COMM">//de.aitools.js.RepresentationMap = {</span><span class="WHIT">
+<span class='line'>329</span> </span><span class="COMM">//  </span><span class="WHIT">
+<span class='line'>330</span> </span><span class="COMM">//  size_ : 0,</span><span class="WHIT">
+<span class='line'>331</span> </span><span class="COMM">//  </span><span class="WHIT">
+<span class='line'>332</span> </span><span class="COMM">//  put : function (id, documentRepresentation) {</span><span class="WHIT">
+<span class='line'>333</span> </span><span class="COMM">//    CHECK_NOT_UNDEFINED(id, "id is undefined");</span><span class="WHIT">
+<span class='line'>334</span> </span><span class="COMM">//    CHECK_NOT_UNDEFINED(</span><span class="WHIT">
+<span class='line'>335</span> </span><span class="COMM">//      documentRepresentation,</span><span class="WHIT">
+<span class='line'>336</span> </span><span class="COMM">//      "documentRepresentation is undefined"</span><span class="WHIT">
+<span class='line'>337</span> </span><span class="COMM">//    );</span><span class="WHIT">
+<span class='line'>338</span> </span><span class="COMM">//    CHECK_NOT_NULL(id, "id is undefined");</span><span class="WHIT">
+<span class='line'>339</span> </span><span class="COMM">//    CHECK_NOT_NULL(documentRepresentation,</span><span class="WHIT">
+<span class='line'>340</span> </span><span class="COMM">//      "documentRepresentation is undefined"</span><span class="WHIT">
+<span class='line'>341</span> </span><span class="COMM">//    );</span><span class="WHIT">
+<span class='line'>342</span> </span><span class="COMM">//    this[id] = documentRepresentation;</span><span class="WHIT">
+<span class='line'>343</span> </span><span class="COMM">//    this.size_ += 1;</span><span class="WHIT">
+<span class='line'>344</span> </span><span class="COMM">//  },</span><span class="WHIT">
+<span class='line'>345</span> </span><span class="COMM">//  </span><span class="WHIT">
+<span class='line'>346</span> </span><span class="COMM">//  get : function (id) {</span><span class="WHIT">
+<span class='line'>347</span> </span><span class="COMM">//    CHECK_NOT_UNDEFINED(id, "id is undefined");</span><span class="WHIT">
+<span class='line'>348</span> </span><span class="COMM">//    return this[id];</span><span class="WHIT">
+<span class='line'>349</span> </span><span class="COMM">//  },</span><span class="WHIT">
+<span class='line'>350</span> </span><span class="COMM">//  </span><span class="WHIT">
+<span class='line'>351</span> </span><span class="COMM">//  size : function () {</span><span class="WHIT">
+<span class='line'>352</span> </span><span class="COMM">//    return this.size_;</span><span class="WHIT">
+<span class='line'>353</span> </span><span class="COMM">//  }</span><span class="WHIT">
+<span class='line'>354</span> </span><span class="COMM">//};</span><span class="WHIT">
+<span class='line'>355</span> </span><span class="COMM">//</span><span class="WHIT">
+<span class='line'>356</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>357</span> 
+<span class='line'>358</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>359</span> 
+<span class='line'>360</span> </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">typeof</span><span class="PUNC">(</span><span class="NAME">de.aitools.js.ClusterLabeling</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">===</span><span class="WHIT"> </span><span class="STRN">"undefined"</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>361</span> </span><span class="WHIT">  </span><span class="COMM">/**
+<span class='line'>362</span>    * @static
+<span class='line'>363</span>    * @namespace de.aitools.js.ClusterLabeling contains labeling algorithms
+<span class='line'>364</span>    */</span><span class="WHIT">
+<span class='line'>365</span> </span><span class="WHIT">  </span><span class="NAME">de.aitools.js.ClusterLabeling</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>366</span> </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>367</span> 
+<span class='line'>368</span> </span><span class="COMM">/**
+<span class='line'>369</span>  * Implementation of the clustering data structure
+<span class='line'>370</span>  * @class Implementation of the clustering data structure
+<span class='line'>371</span>  * @constructor
+<span class='line'>372</span>  * @param {Array} documentRepresentations Mapping: key[nodeId]=>value[Vector]
+<span class='line'>373</span>  * @param {de.aitools.js.Clustering} clustering
+<span class='line'>374</span>  * @param {Number} labelCount Number of labels per cluster
+<span class='line'>375</span>  * @param {Number} occRate Relevance of occurrence of labels
+<span class='line'>376</span>  *                         (first most common to occRate'th most common)
+<span class='line'>377</span>  * @param {de.aitools.js.Vocabulary} vocabularyInstance
+<span class='line'>378</span>  * @author Alexander Kuemmel alexander.kuemmel@uni-weimar.de
+<span class='line'>379</span>  * @author Christian Fricke christian.fricke@uni-weimar.de
+<span class='line'>380</span>  */</span><span class="WHIT">
+<span class='line'>381</span> </span><span class="NAME">de.aitools.js.ClusterLabeling.WeightedCentroidCovering</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="WHIT">
+<span class='line'>382</span> </span><span class="WHIT">  </span><span class="NAME">documentRepresentations</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">clustering</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">labelCount</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">occRate</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">vocabularyInstance</span><span class="PUNC">)</span><span class="WHIT">
+<span class='line'>383</span> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>384</span> 
+<span class='line'>385</span> </span><span class="WHIT">  </span><span class="COMM">/**
+<span class='line'>386</span>    * @private
+<span class='line'>387</span>    */</span><span class="WHIT">
+<span class='line'>388</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">vocabulary</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">vocabularyInstance</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>389</span> </span><span class="WHIT">    
+<span class='line'>390</span>   </span><span class="COMM">/**
+<span class='line'>391</span>    * Datastructure to hold term occurrence rates dependent on occRate. 
+<span class='line'>392</span>    * termId => [(i)th occ. cluster, (i+1)th occ. cluster, ... , ]; 
+<span class='line'>393</span>    * i = (0 .. occRate-1)
+<span class='line'>394</span>    * @private
+<span class='line'>395</span>    * @type Object
+<span class='line'>396</span>    */</span><span class="WHIT">
+<span class='line'>397</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">termOccurrences</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>398</span> </span><span class="WHIT">  
+<span class='line'>399</span>   </span><span class="COMM">/**
+<span class='line'>400</span>    * key[termID] => value[[clusterID,rate], ...]
+<span class='line'>401</span>    * @private
+<span class='line'>402</span>    */</span><span class="WHIT">
+<span class='line'>403</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterRates</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>404</span> </span><span class="WHIT">  
+<span class='line'>405</span>   </span><span class="COMM">/**
+<span class='line'>406</span>    * Sorts an array of tuples [[v1,v2],[v1,v2], ...]
+<span class='line'>407</span>    * @private
+<span class='line'>408</span>    * @param {Array} tuplesArr Tupel array to be sorted
+<span class='line'>409</span>    * @param {Boolean} descOrder True or false
+<span class='line'>410</span>    * @param {Number} byFirstValue Order by first or second element
+<span class='line'>411</span>    */</span><span class="WHIT">
+<span class='line'>412</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">tupleSort</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">tuplesArr</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">descOrder</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">byFirstValue</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>413</span> </span><span class="WHIT">    </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">typeof</span><span class="PUNC">(</span><span class="NAME">byFirstValue</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">===</span><span class="WHIT"> </span><span class="STRN">"undefined"</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT"> </span><span class="NAME">byFirstValue</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">false</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>414</span> </span><span class="WHIT">    </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">!</span><span class="NAME">byFirstValue</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>415</span> </span><span class="WHIT">      </span><span class="NAME">tuplesArr.sort</span><span class="PUNC">(</span><span class="KEYW">function</span><span class="PUNC">(</span><span class="NAME">a</span><span class="PUNC">,</span><span class="NAME">b</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>416</span> </span><span class="WHIT">        </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">descOrder</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">?</span><span class="WHIT"> </span><span class="NAME">b</span><span class="PUNC">[</span><span class="NUMB">1</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">-</span><span class="WHIT"> </span><span class="NAME">a</span><span class="PUNC">[</span><span class="NUMB">1</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">:</span><span class="WHIT"> </span><span class="NAME">a</span><span class="PUNC">[</span><span class="NUMB">1</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">-</span><span class="WHIT"> </span><span class="NAME">b</span><span class="PUNC">[</span><span class="NUMB">1</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>417</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>418</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT"> </span><span class="KEYW">else</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT"> </span><span class="NAME">tuplesArr.sort</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>419</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>420</span> </span><span class="WHIT">  
+<span class='line'>421</span>   </span><span class="COMM">/**
+<span class='line'>422</span>    * Computes the term frequency of a term within the given cluster.
+<span class='line'>423</span>    * @private
+<span class='line'>424</span>    * @param {Array} clusteredDocuments A set (array) of documents (nodeIds)
+<span class='line'>425</span>    * @param {String} termId A term whose term frequency is relevant
+<span class='line'>426</span>    * @returns {Number} The occurence frequency of the given term
+<span class='line'>427</span>    */</span><span class="WHIT">
+<span class='line'>428</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">computeClusterTF</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">clusteredDocuments</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>429</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">frequency</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>430</span> </span><span class="WHIT">    </span><span class="COMM">// iterate over all vectors (document representations)</span><span class="WHIT">
+<span class='line'>431</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">n</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">n</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">clusteredDocuments.length</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">n</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>432</span> </span><span class="WHIT">      </span><span class="COMM">// get vector from documentRepresentations with supplied nodeIds</span><span class="WHIT">
+<span class='line'>433</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">node</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">documentRepresentations</span><span class="PUNC">[</span><span class="NAME">clusteredDocuments</span><span class="PUNC">[</span><span class="NAME">n</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>434</span> </span><span class="WHIT">      </span><span class="NAME">frequency</span><span class="WHIT"> </span><span class="PUNC">+</span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">node.getValue</span><span class="PUNC">(</span><span class="NAME">termId</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>435</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>436</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">frequency</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>437</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>438</span> </span><span class="WHIT">  
+<span class='line'>439</span>   </span><span class="COMM">/**
+<span class='line'>440</span>    * Help function to build a lookup datastructure for faster computation.
+<span class='line'>441</span>    * @private
+<span class='line'>442</span>    */</span><span class="WHIT">
+<span class='line'>443</span> </span><span class="WHIT">  </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">preComputation</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>444</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterCount</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">clustering.getClusterCount</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>445</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">vocSize</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">vocabulary.size</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>446</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">vocSize</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>447</span> </span><span class="WHIT">      </span><span class="COMM">// iterate over all clusters; clustering is array of clusters</span><span class="WHIT">
+<span class='line'>448</span> </span><span class="WHIT">      </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clid</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">clid</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">clusterCount</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">clid</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>449</span> </span><span class="WHIT">        </span><span class="COMM">// compute term frequency over the cluster with id: clid</span><span class="WHIT">
+<span class='line'>450</span> </span><span class="WHIT">        </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">tf_c</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">computeClusterTF</span><span class="PUNC">(</span><span class="NAME">clustering.getItemsOfCluster</span><span class="PUNC">(</span><span class="NAME">clid</span><span class="PUNC">)</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>451</span> </span><span class="WHIT">        </span><span class="COMM">// save tf values for later usage</span><span class="WHIT">
+<span class='line'>452</span> </span><span class="WHIT">        </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">typeof</span><span class="PUNC">(</span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">===</span><span class="WHIT"> </span><span class="STRN">"undefined"</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>453</span> </span><span class="WHIT">          </span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>454</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>455</span> </span><span class="WHIT">        </span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">push</span><span class="PUNC">(</span><span class="PUNC">[</span><span class="NAME">clid</span><span class="PUNC">,</span><span class="NAME">tf_c</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>456</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>457</span> </span><span class="WHIT">      
+<span class='line'>458</span>       </span><span class="COMM">// setup termOccurrences</span><span class="WHIT">
+<span class='line'>459</span> </span><span class="WHIT">      </span><span class="COMM">// sort in descending order, by second values (tf)</span><span class="WHIT">
+<span class='line'>460</span> </span><span class="WHIT">      </span><span class="NAME">tupleSort</span><span class="PUNC">(</span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="KEYW">true</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>461</span> </span><span class="WHIT">      
+<span class='line'>462</span>       </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">prioArr</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>463</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">minPrio</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>464</span> </span><span class="WHIT">      </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">occRate</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">length</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT"> </span><span class="NAME">minPrio</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">occRate</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>465</span> </span><span class="WHIT">      </span><span class="KEYW">else</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT"> </span><span class="NAME">minPrio</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">length</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>466</span> </span><span class="WHIT">      
+<span class='line'>467</span>       </span><span class="COMM">// save the i'th most common frequencies of termId</span><span class="WHIT">
+<span class='line'>468</span> </span><span class="WHIT">      </span><span class="COMM">// fill the array of priorized label occurrences</span><span class="WHIT">
+<span class='line'>469</span> </span><span class="WHIT">      </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">i</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">i</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">minPrio</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">i</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>470</span> </span><span class="WHIT">        </span><span class="COMM">// only push clusterId, no use for tf</span><span class="WHIT">
+<span class='line'>471</span> </span><span class="WHIT">        </span><span class="NAME">prioArr.push</span><span class="PUNC">(</span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NAME">i</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NUMB">0</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>472</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>473</span> </span><span class="WHIT">      </span><span class="NAME">termOccurrences</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">prioArr</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>474</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>475</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>476</span> </span><span class="WHIT">   
+<span class='line'>477</span>   </span><span class="COMM">/**
+<span class='line'>478</span>    * Computes the term frequency of a term within the given cluster.
+<span class='line'>479</span>    * @public
+<span class='line'>480</span>    * @returns {Object} An object according to the following representation:&lt;br/>
+<span class='line'>481</span>    * {clusterId1 : [label1,label2, ..., label'labelCount], clusterId2 : ....,}
+<span class='line'>482</span>    */</span><span class="WHIT">
+<span class='line'>483</span> </span><span class="WHIT">  </span><span class="NAME">this.getLabeling</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="KEYW">function</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>484</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">T</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>485</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">labeling</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>486</span> </span><span class="WHIT">    </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">vocSize</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">vocabulary.size</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>487</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">vocSize</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">termId</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>488</span> </span><span class="WHIT">      </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">i</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">i</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">occRate</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">i</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>489</span> </span><span class="WHIT">        </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">clusterId</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">termOccurrences</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NAME">i</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>490</span> </span><span class="WHIT">        </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">tf</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>491</span> </span><span class="WHIT">        </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">k</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">k</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">length</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">k</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>492</span> </span><span class="WHIT">          </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NUMB">0</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">===</span><span class="WHIT"> </span><span class="NAME">clusterId</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>493</span> </span><span class="WHIT">            </span><span class="NAME">tf</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">clusterRates</span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NAME">k</span><span class="PUNC">]</span><span class="PUNC">[</span><span class="NUMB">1</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>494</span> </span><span class="WHIT">            </span><span class="KEYW">break</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>495</span> </span><span class="WHIT">          </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>496</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>497</span> </span><span class="WHIT">        </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">triple</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="NAME">termId</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">tf</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NAME">clusterId</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>498</span> </span><span class="WHIT">        </span><span class="NAME">T.push</span><span class="PUNC">(</span><span class="NAME">triple</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>499</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>500</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>501</span> </span><span class="WHIT">    </span><span class="COMM">// sort triple [termId, tf, clusterId] according to tf, descending</span><span class="WHIT">
+<span class='line'>502</span> </span><span class="WHIT">    </span><span class="NAME">tupleSort</span><span class="PUNC">(</span><span class="NAME">T</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="KEYW">true</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>503</span> </span><span class="WHIT">    </span><span class="COMM">// build the labels</span><span class="WHIT">
+<span class='line'>504</span> </span><span class="WHIT">    </span><span class="KEYW">for</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">lc</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">1</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">lc</span><span class="WHIT"> </span><span class="PUNC">&lt;=</span><span class="WHIT"> </span><span class="NAME">labelCount</span><span class="PUNC">;</span><span class="WHIT"> </span><span class="NAME">lc</span><span class="PUNC">++</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>505</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">assigned</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>506</span> </span><span class="WHIT">      </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">j</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NUMB">0</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>507</span> </span><span class="WHIT">      </span><span class="KEYW">while</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">assigned</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">clustering.getClusterCount</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">&&</span><span class="WHIT"> </span><span class="NAME">j</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">T.length</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>508</span> </span><span class="WHIT">        </span><span class="KEYW">var</span><span class="WHIT"> </span><span class="NAME">triple_j</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="NAME">T</span><span class="PUNC">[</span><span class="NAME">j</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>509</span> </span><span class="WHIT">        </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="KEYW">typeof</span><span class="PUNC">(</span><span class="NAME">labeling</span><span class="PUNC">[</span><span class="NAME">triple_j</span><span class="PUNC">[</span><span class="NUMB">2</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">===</span><span class="WHIT"> </span><span class="STRN">"undefined"</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>510</span> </span><span class="WHIT">          </span><span class="NAME">labeling</span><span class="PUNC">[</span><span class="NAME">triple_j</span><span class="PUNC">[</span><span class="NUMB">2</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="WHIT"> </span><span class="PUNC">=</span><span class="WHIT"> </span><span class="PUNC">[</span><span class="PUNC">]</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>511</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>512</span> </span><span class="WHIT">        </span><span class="COMM">// check labels for cluster id</span><span class="WHIT">
+<span class='line'>513</span> </span><span class="WHIT">        </span><span class="KEYW">if</span><span class="WHIT"> </span><span class="PUNC">(</span><span class="NAME">labeling</span><span class="PUNC">[</span><span class="NAME">triple_j</span><span class="PUNC">[</span><span class="NUMB">2</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">length</span><span class="WHIT"> </span><span class="PUNC">&lt;</span><span class="WHIT"> </span><span class="NAME">lc</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>514</span> </span><span class="WHIT">          </span><span class="COMM">// add label with termId in triple_j[0] to cluster with id triple_j[2]</span><span class="WHIT">
+<span class='line'>515</span> </span><span class="WHIT">          </span><span class="NAME">labeling</span><span class="PUNC">[</span><span class="NAME">triple_j</span><span class="PUNC">[</span><span class="NUMB">2</span><span class="PUNC">]</span><span class="PUNC">]</span><span class="PUNC">.</span><span class="NAME">push</span><span class="PUNC">(</span><span class="NAME">triple_j</span><span class="PUNC">[</span><span class="NUMB">0</span><span class="PUNC">]</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>516</span> </span><span class="WHIT">          </span><span class="NAME">T.splice</span><span class="PUNC">(</span><span class="NAME">j</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="NUMB">1</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>517</span> </span><span class="WHIT">          </span><span class="PUNC">++</span><span class="NAME">assigned</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>518</span> </span><span class="WHIT">        </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>519</span> </span><span class="WHIT">        </span><span class="PUNC">++</span><span class="NAME">j</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>520</span> </span><span class="WHIT">      </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>521</span> </span><span class="WHIT">    </span><span class="PUNC">}</span><span class="WHIT">
+<span class='line'>522</span> </span><span class="WHIT">    </span><span class="KEYW">return</span><span class="WHIT"> </span><span class="NAME">labeling</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>523</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>524</span> </span><span class="WHIT">  
+<span class='line'>525</span>   </span><span class="COMM">/**
+<span class='line'>526</span>    * Constructor function.
+<span class='line'>527</span>    */</span><span class="WHIT">
+<span class='line'>528</span> </span><span class="WHIT">  </span><span class="PUNC">(</span><span class="KEYW">function</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="WHIT"> </span><span class="PUNC">{</span><span class="WHIT">
+<span class='line'>529</span> </span><span class="WHIT">    </span><span class="NAME">CHECK_NOT_UNDEFINED</span><span class="PUNC">(</span><span class="WHIT">
+<span class='line'>530</span> </span><span class="WHIT">      </span><span class="NAME">documentRepresentations</span><span class="PUNC">,</span><span class="WHIT">
+<span class='line'>531</span> </span><span class="WHIT">      </span><span class="STRN">"Document representations not defined"</span><span class="WHIT">
+<span class='line'>532</span> </span><span class="WHIT">    </span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>533</span> </span><span class="WHIT">    </span><span class="NAME">CHECK_NOT_UNDEFINED</span><span class="PUNC">(</span><span class="NAME">clustering</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"Clustering not defined"</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>534</span> </span><span class="WHIT">    </span><span class="NAME">CHECK_NOT_UNDEFINED</span><span class="PUNC">(</span><span class="NAME">labelCount</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"Label count not defined"</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>535</span> </span><span class="WHIT">    </span><span class="NAME">CHECK_NOT_UNDEFINED</span><span class="PUNC">(</span><span class="NAME">occRate</span><span class="PUNC">,</span><span class="WHIT"> </span><span class="STRN">"Label occurrence rate not defined"</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>536</span> </span><span class="WHIT">    </span><span class="NAME">preComputation</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>537</span> </span><span class="WHIT">  </span><span class="PUNC">}</span><span class="PUNC">)</span><span class="PUNC">(</span><span class="PUNC">)</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>538</span> </span><span class="PUNC">}</span><span class="PUNC">;</span><span class="WHIT">
+<span class='line'>539</span> 
+<span class='line'>540</span> </span><span class="COMM">////////////////////////////////////////////////////////////////////////////////</span><span class="WHIT">
+<span class='line'>541</span> </span></pre></body></html>

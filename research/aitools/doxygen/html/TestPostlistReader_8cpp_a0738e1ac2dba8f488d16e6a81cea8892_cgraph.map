@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a4e3754c86600a439e1675e99de549246" title="aitools::invertedindex::PostlistBuilder::append" alt="" coords="152,85,437,115"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a69815c7a781768b42bd4dd38aafc989b" title="aitools::invertedindex::PostlistBuilder::build" alt="" coords="160,164,429,193"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a7c4ee04fae7a937d60d7e42a0c9df72e" title="aitools::invertedindex::ByteBuffer::resize" alt="" coords="167,217,423,247"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistWriter.html#a50d3ff70419a1245405d8c5ab1836835" title="aitools::invertedindex::PostlistWriter::write" alt="" coords="163,271,427,300"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a793966de03e991e9a63cb5c927e7e0bd" title="aitools::invertedindex::System::fwrite" alt="" coords="504,59,739,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ae7a5beeade04257f73da904a4a70fa5c" title="aitools::util::fwrite" alt="" coords="911,5,1033,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Exception.html#aa101aebcf8be69da4eca930025e6b27a" title="aitools::invertedindex::Exception::throw_runtime_error" alt="" coords="807,59,1137,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="1187,59,1347,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1396,59,1601,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1652,59,1780,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#ad764789cb78d1e714114020e85a58ed1" title="aitools::invertedindex::PostlistBuilder::clear" alt="" coords="485,112,757,141"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a0f3a4478ebe15bc20465d4ffb9bf7298" title="aitools::invertedindex::PostlistBuilder::has_page_file_" alt="" coords="807,165,1137,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a66aa9ba5bee4f5e75247354425c3def0" title="aitools::invertedindex::ByteBuffer::data" alt="" coords="497,216,745,245"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ab54c46dc79807b60dc62427717639841" title="aitools::util::rewind" alt="" coords="557,269,685,299"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a99e1ca204b3d1a8be4d39c7846005b7d" title="aitools::util::fclose" alt="" coords="908,112,1036,141"/>
+</map>

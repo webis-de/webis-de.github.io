@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#aec5d8f4eef9baf20cacb4767adace749" title="aitools::invertedindex::Header::clear_indexing_duration" alt="" coords="316,5,652,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#a9fe0ac9f7e0b2d98f28e4c932f409268" title="aitools::invertedindex::Header::clear_key_count" alt="" coords="336,59,632,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#a6874483228444cae955feb758ee81c8f" title="aitools::invertedindex::Header::clear_major_version" alt="" coords="325,112,643,141"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#a8270028828a86c6349a1d7a0837bb1b2" title="aitools::invertedindex::Header::clear_minor_version" alt="" coords="325,165,643,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#adaab32970795d5dba60941e2b6b95ddd" title="aitools::invertedindex::Header::clear_payload" alt="" coords="344,219,624,248"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#a1e6bdea56ac561463a80e2df51768e33" title="aitools::invertedindex::Header::clear_postlist_sorting" alt="" coords="323,272,645,301"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#a2be69cbf9dbc380fc3cbbe042342416a" title="aitools::invertedindex::Header::clear_value_class_name" alt="" coords="312,325,656,355"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Header.html#af0c8106e8c3c9a7bb1114a30b19cd696" title="aitools::invertedindex::Header::clear_value_count" alt="" coords="331,379,637,408"/>
+</map>

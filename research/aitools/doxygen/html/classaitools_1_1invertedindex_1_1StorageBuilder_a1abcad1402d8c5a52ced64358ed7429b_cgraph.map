@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Logging.html#a4be4729922840b79e1a5620099148926" title="aitools::invertedindex::Logging::log" alt="" coords="373,5,595,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Exception.html#aa101aebcf8be69da4eca930025e6b27a" title="aitools::invertedindex::Exception::throw_runtime_error" alt="" coords="319,59,649,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Converter.html#a0354f81b8d88348b43d07d54f246659b" title="aitools::invertedindex::Converter::ui32_to_str" alt="" coords="344,112,624,141"/>
+</map>

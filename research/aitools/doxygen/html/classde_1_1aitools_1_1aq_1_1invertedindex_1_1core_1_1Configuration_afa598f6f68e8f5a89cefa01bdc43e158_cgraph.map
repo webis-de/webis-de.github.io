@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a46a44d89694950bec5fd9f07285a9846" title="de::aitools::aq::invertedindex::core::Configuration::getExpectedNumberOfRecords" alt="" coords="405,5,899,35"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#aa653c6621f1caaceeedff29c2115ff57" title="de::aitools::aq::invertedindex::core::Configuration::getIndexDirectory" alt="" coords="444,59,860,88"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a6b29135421334cc442da4c102b129f96" title="de::aitools::aq::invertedindex::core::Configuration::getInputDirectory" alt="" coords="447,112,857,141"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a39cab6f22cbd4fe0e02053b9c9267f92" title="de::aitools::aq::invertedindex::core::Configuration::getKeySorting" alt="" coords="455,165,849,195"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#abe14e4a58c7490f67946f97fb799d5b8" title="de::aitools::aq::invertedindex::core::Configuration::getMaxMemoryUsage" alt="" coords="432,219,872,248"/>
+<area shape="rect" href="$classde_1_1aitools_1_1aq_1_1invertedindex_1_1core_1_1Configuration.html#a7df3997fd977a4d1bc71dfd8c24bdc85" title="de::aitools::aq::invertedindex::core::Configuration::getValueSorting" alt="" coords="451,272,853,301"/>
+</map>

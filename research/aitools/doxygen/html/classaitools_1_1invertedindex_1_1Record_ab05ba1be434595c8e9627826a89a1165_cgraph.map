@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#a3aed896298074f80ad4f9e3adf9eab74" title="aitools::invertedindex::GenericRecord::key" alt="" coords="320,5,587,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Value.html#a0fd48b7b0551e4328ee3eafce053a24a" title="aitools::invertedindex::Value::to_bytes" alt="" coords="332,59,575,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1GenericRecord.html#a8e8f2bb476c421c888f788a78a4f02c3" title="aitools::invertedindex::GenericRecord::value" alt="" coords="315,112,592,141"/>
+</map>

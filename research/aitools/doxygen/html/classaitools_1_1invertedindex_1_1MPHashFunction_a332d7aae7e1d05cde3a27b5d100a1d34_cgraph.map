@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#aafd15be95bdfe3fcba53bae666325bbe" title="aitools::invertedindex::System::fclose" alt="" coords="339,5,579,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#aca179d3fbbe9047c164806fd4024f8bd" title="aitools::invertedindex::System::fopen" alt="" coords="340,59,577,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a1a7eda380ed6a1c7f779c4cbe0efda97" title="aitools::util::fopen" alt="" coords="743,32,865,61"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Exception.html#ac8e20265b816f35c415ee1ba44ba9d03" title="aitools::invertedindex::Exception::throw_invalid_argument" alt="" coords="627,85,981,115"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="1029,32,1189,61"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1239,32,1444,61"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1495,32,1623,61"/>
+</map>

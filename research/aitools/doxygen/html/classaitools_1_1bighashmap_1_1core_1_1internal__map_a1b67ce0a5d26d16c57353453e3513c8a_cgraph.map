@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$namespaceaitools_1_1util.html#a99e1ca204b3d1a8be4d39c7846005b7d" title="aitools::util::fclose" alt="" coords="463,5,591,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="921,125,1127,155"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a1a7eda380ed6a1c7f779c4cbe0efda97" title="aitools::util::fopen" alt="" coords="465,59,588,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#afbd9e9cda0b614d0bb430112a7443be7" title="aitools::util::fread" alt="" coords="467,112,587,141"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1cmph__map.html#a9a481831259d5c669403046eec7fe4e9" title="aitools::bighashmap::core::cmph_map::size" alt="" coords="389,216,664,245"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#a51c4aa53157178df5f0887b753617b12" title="aitools::value::value_traits::size_of" alt="" coords="415,269,639,299"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="712,85,872,115"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1177,125,1305,155"/>
+</map>

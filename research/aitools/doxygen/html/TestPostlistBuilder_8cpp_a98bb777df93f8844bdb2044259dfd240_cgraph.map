@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a4e3754c86600a439e1675e99de549246" title="aitools::invertedindex::PostlistBuilder::append" alt="" coords="243,32,528,61"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#a02174b2794047efdd2a0805c29f87dc6" title="aitools::invertedindex::PostlistBuilder::empty" alt="" coords="245,85,525,115"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistBuilder.html#af53858b26fdd00a2eac8c3ab605744c6" title="aitools::invertedindex::PostlistBuilder::length" alt="" coords="247,139,524,168"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ByteBuffer.html#a7c4ee04fae7a937d60d7e42a0c9df72e" title="aitools::invertedindex::ByteBuffer::resize" alt="" coords="257,192,513,221"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a793966de03e991e9a63cb5c927e7e0bd" title="aitools::invertedindex::System::fwrite" alt="" coords="577,32,812,61"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#ae7a5beeade04257f73da904a4a70fa5c" title="aitools::util::fwrite" alt="" coords="967,5,1089,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Exception.html#aa101aebcf8be69da4eca930025e6b27a" title="aitools::invertedindex::Exception::throw_runtime_error" alt="" coords="863,59,1193,88"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#a320c57c4825a929d2e21de79d2cd9e60" title="aitools::util::signal_error" alt="" coords="1243,5,1403,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab" title="aitools::util::throw_runtime_error" alt="" coords="1452,5,1657,35"/>
+<area shape="rect" href="$namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19" title="aitools::util::format" alt="" coords="1708,5,1836,35"/>
+</map>

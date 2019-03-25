@@ -14,18 +14,21 @@
     {%- endfor %}
 </head>
 <body class="uk-offcanvas-content">
-<script src="{{ '/js/thirdparty/uikit/uikit.min.js' | relative_url }}"></script>
-<script src="{{ '/js/thirdparty/uikit/uikit-icons.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/thirdparty/uikit/uikit.min.js' | relative_url }}"></script>
+<script src="{{ '/commons/js/thirdparty/uikit/uikit-icons.min.js' | relative_url }}"></script>
 
-<div id="offcanvas-nav" class="uk-hidden@m" data-uk-offcanvas="overlay: true; flip: true;">
+<div id="offcanvas-nav" class="mobile-nav" data-uk-offcanvas="overlay: true; flip: true;">
     <div class="uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" data-uk-close></button>
 
-        <!-- Mobile navigation -->
+        <!-- Off-canvas mobile navigation -->
         <nav class="uk-margin-large-top">
             <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
                 <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
                     <a href="{{ '/people.html' | relative_url }}">People</a>
+                </li>
+                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
                 <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %} class="uk-parent">
                     <a href="#">Lecturenotes</a>
@@ -64,24 +67,35 @@
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
-                <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
-                </li>
             </ul>
         </nav>
     </div>
 </div>
 
-<div class="uk-background-secondary global-nav uk-visible@m" data-uk-sticky="media: @m">
-    <!-- Desktop navigation -->
+<div class="uk-background-secondary global-nav" data-uk-sticky>
     <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li{% if page.nav_active == "index" %} class="uk-active"{% endif %}>
                     <a href="{{ '/' | relative_url }}"><img src="{{ '/img/webis-logo.png' | relative_url }}" alt="Webis Logo" class="uk-logo"> Webis.de</a>
                 </li>
+            </ul>
+        </div>
+
+        <!-- Mobile navigation toggle button -->
+        <div class="uk-navbar-right mobile-nav">
+            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu"
+                    data-uk-toggle="target: #offcanvas-nav"></button>
+        </div>
+
+        <!-- Desktop navigation -->
+        <div class="uk-navbar-right desktop-nav">
+            <ul class="uk-navbar-nav">
                 <li{% if page.nav_active == "people" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/people.html' | relative_url }}">People</a>
+                <a href="{{ '/people.html' | relative_url }}">People</a>
+                </li>
+                <li class="{% if page.nav_active == 'for-students' %} uk-active{% endif %}">
+                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
                 <li class="nav-group-start{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
                     <a href="#">Lecturenotes</a>
@@ -113,43 +127,23 @@
                     </div>
                 </li>
                 <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/research.html' | relative_url }}">Research</a>
+                <a href="{{ '/research.html' | relative_url }}">Research</a>
                 </li>
                 <li{% if page.nav_active == "publications" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+                <a href="{{ '/publications.html' | relative_url }}">Publications</a>
                 </li>
                 <li class="nav-group-start{% if page.nav_active == 'data' %} uk-active{% endif %}">
                     <a href="{{ '/data.html' | relative_url }}">Data</a>
                 </li>
                 <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
+                <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
                 </li>
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/events.html' | relative_url }}">Events</a>
-                </li>
-                <li class="nav-group-start{% if page.nav_active == 'for-students' %} uk-active{% endif %}">
-                    <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
+                <a href="{{ '/events.html' | relative_url }}">Events</a>
                 </li>
             </ul>
         </div>
     </nav>
-</div>
-
-<div class="uk-background-secondary global-nav uk-hidden@m" data-uk-sticky>
-    <div class="uk-navbar-container uk-navbar-transparent uk-container uk-light mobile-nav-toggle" data-uk-navbar>
-        <div class="">
-            <ul class="uk-navbar-nav">
-                <li{% if page.nav_active == "index" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/' | relative_url }}"><img src="{{ '/img/webis-logo.png' | relative_url }}" alt="Webis Logo" class="uk-logo"> Webis.de</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="uk-navbar-right">
-            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu"
-                    data-uk-toggle="target: #offcanvas-nav"></button>
-        </div>
-    </div>
 </div>
 
 <div data-uk-height-viewport="expand: true">
@@ -243,10 +237,9 @@
                     <ul class="uk-nav">
                         <li class="uk-nav-header">Weimar</li>
                         <li><a href="http://weimar.webis.de">Home</a></li>
-                        <li><a href="https://www.uni-weimar.de/medien/webis/people">People</a></li>
-                        <li><a href="https://www.uni-weimar.de/medien/webis/teaching">Teaching</a></li>
-                        <li><a href="https://www.uni-weimar.de/medien/webis/research">Research</a></li>
-                        <li><a href="https://www.uni-weimar.de/medien/webis/facilities">Facilities</a></li>
+                        <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/">People</a></li>
+                        <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/teaching/">Teaching</a></li>
+                        <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/research/">Research</a></li>
                     </ul>
                 </div>
 

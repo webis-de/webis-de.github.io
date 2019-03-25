@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1System.html#a41f9e4d17ddaeb1510b40e7a6a56e201" title="aitools::invertedindex::System::fread" alt="" coords="227,5,461,35"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1internal__map.html#a1b67ce0a5d26d16c57353453e3513c8a" title="aitools::bighashmap::core::internal_map::internal_map" alt="" coords="177,59,511,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ExternalMergeSort.html#afa852ca57f075466a96655b6091d10a8" title="aitools::invertedindex::ExternalMergeSort::merge" alt="" coords="192,112,496,141"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits.html#ac8579f2a630b10617f36867357312101" title="aitools::value::value_traits::read_from" alt="" coords="224,165,464,195"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a59fa227660ac0dea5664ab2184dd735c" title="aitools::invertedindex::Iterator::swap" alt="" coords="228,352,460,381"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1StorageSearcher.html#ae4fa256847ba19948d5e8ca86555e4b2" title="aitools::invertedindex::StorageSearcher::open" alt="" coords="632,5,917,35"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ExternalMergeSort.html#a5ac9b0130bbf0aefe258d7e8630f7c75" title="aitools::invertedindex::ExternalMergeSort::sort" alt="" coords="629,59,920,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1ExternalMergeSort.html#a28f2855c1987fa6c8418213958e3c5df" title="aitools::invertedindex::ExternalMergeSort::partition" alt="" coords="1037,59,1352,88"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1PostlistSorter.html#afe2ea41184a57e0eda2d3155720b05e2" title="aitools::invertedindex::PostlistSorter::sort" alt="" coords="1065,112,1324,141"/>
+<area shape="rect" href="$classaitools_1_1bighashmap_1_1core_1_1external__map.html#a9aa2bcbcbfb6f05fa0754c1de9918fb9" title="aitools::bighashmap::core::external_map::find" alt="" coords="632,112,917,141"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01triple_3_01T1_00_01T2_00_01T3_01_4_01_4.html#abfd0d3aace3211a9c1f7e4d921d778ff" title="aitools::value::value_traits\&lt; triple\&lt; T1, T2, T3 \&gt; \&gt;::read_from" alt="" coords="587,165,963,195"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01quadruple_3_01T1_00_01T2_00_01T3_00_01T4_01_4_01_4.html#ad7a238df9f8dca67ff279c5a7f9d3fd3" title="aitools::value::value_traits\&lt; quadruple\&lt; T1, T2, T3, T4 \&gt; \&gt;::read_from" alt="" coords="561,219,988,248"/>
+<area shape="rect" href="$structaitools_1_1value_1_1value__traits_3_01pair_3_01T1_00_01T2_01_4_01_4.html#aecf8a233f6c8df6ba6da37a2231036bf" title="aitools::value::value_traits\&lt; pair\&lt; T1, T2 \&gt; \&gt;::read_from" alt="" coords="601,272,948,301"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a3907ff5ab1973581d032077ee3b13a7c" title="aitools::invertedindex::Iterator::advance" alt="" coords="649,325,900,355"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#a2c8ca8c7225939e469cbd93de14efb76" title="aitools::invertedindex::Iterator::Iterator" alt="" coords="653,379,896,408"/>
+<area shape="rect" href="$classaitools_1_1invertedindex_1_1Iterator.html#afa9596faeae3a261440d166280780ab6" title="aitools::invertedindex::Iterator::rewind" alt="" coords="656,432,893,461"/>
+</map>
