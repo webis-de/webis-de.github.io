@@ -78,7 +78,7 @@
                 <li class="{% if page.nav_active == 'for-students' %} uk-active{% endif %}">
                     <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
-                <li class="{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
+                <li class="nav-group-start{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
                     <a href="{{ '/lecturenotes.html' | relative_url }}">Lecturenotes</a>
                 </li>
                 <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
