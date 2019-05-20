@@ -1,0 +1,123 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-QTM-19
+description: Overview of corpora that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-QTM-19",
+    "description":"The Webis Query-Task-Mapping Corpus 2019 (Webis-QTM-19) comprises three benchmark datasets on the query-task-mapping problem, which consists of finding the correct task for a new query in a given task-split background query log.",
+    "url":"https://webis.de/data/webis-qtm-19.html",
+    "keywords":[
+        "query-task mapping"
+    ], 
+    "datePublished":"2019-05-20",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#voelske",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Michael V\u00F6lske"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"HTML",
+            "contentUrl":"https://www.uni-weimar.de/medien/webis/corpora/corpus-webis-qtm-19/webis-qtm-19.zip"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-QTM-19</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#webis-synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#webis-download">Download</a></li>
+            <!-- <li class="csc-section"><span data-uk-icon="chevron-down"></span> <a href="#webis-research">Research</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#webis-people">People</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#webis-publications">Publications</a></li> -->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="webis-synopsis">Synopsis</h2>
+        <p>
+The Webis Query-Task-Mapping Corpus 2019 (Webis-QTM-19) comprises three benchmark datasets on the query-task-mapping problem, which consists of finding the correct task for a new query in a given task-split background query log.
+</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="webis-download">Download</h2>
+	<p>The dataset is available for download <a href="https://www.uni-weimar.de/medien/webis/corpora/corpus-webis-qtm-19/webis-qtm-19.zip">here</a> (1.9 MiB compressed). Refer to the Readme.md file in the archive and the publication(s) below for further information.</p>
+
+        <!--
+        SECTION Research
+        -->
+        <!--
+        <h3 id="webis-research">Research</h3>
+        <p>For more information on the construction of the dataset see the publication below.</p>
+        -->
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="webis-people">People</h2>
+
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#voelske" title="Michael V&ouml;lske">Michael V&ouml;lske</a></li>
+            <li><a href="https://weimar.webis.de/people/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+        <p>Students: Ehsan Fatehifar</p>
+
+        <!--
+        SECTION Publications
+        -->
+        <h2 id="publications">Publications</h3>
+        <div id="publications-list">
+        </div>
+
+    </div>
+</main>
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:corpus-webis-qtm-19");
+</script>
