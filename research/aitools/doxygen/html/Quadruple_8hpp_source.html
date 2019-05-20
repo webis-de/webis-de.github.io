@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>/home/palakars/workspace-inprogress/code-in-progress/aitools3/aitools3-aq-invertedindex-cpp/src/value/Quadruple.hpp Source File</title>
+<title>include/value/quadruple.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -23,325 +23,186 @@
       <li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
     </ul>
   </div>
-<h1>/home/palakars/workspace-inprogress/code-in-progress/aitools3/aitools3-aq-invertedindex-cpp/src/value/Quadruple.hpp</h1><a href="Quadruple_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/* Copyright (C) 2011 webis.de</span>
-<a name="l00002"></a>00002 <span class="comment"> * All rights reserved.</span>
-<a name="l00003"></a>00003 <span class="comment"> */</span>
-<a name="l00004"></a>00004 <span class="preprocessor">#ifndef AITOOLS_INVERTEDINDEX_QUADRUPLE_HPP</span>
-<a name="l00005"></a>00005 <span class="preprocessor"></span><span class="preprocessor">#define AITOOLS_INVERTEDINDEX_QUADRUPLE_HPP</span>
-<a name="l00006"></a>00006 <span class="preprocessor"></span>
-<a name="l00007"></a>00007 <span class="preprocessor">#include &quot;<a class="code" href="Value_8hpp.html">Value.hpp</a>&quot;</span>
-<a name="l00008"></a>00008 <span class="preprocessor">#include &lt;iostream&gt;</span>
-<a name="l00009"></a>00009 <span class="preprocessor">#include &lt;cassert&gt;</span>
-<a name="l00010"></a>00010 <span class="preprocessor">#include &lt;cstring&gt;</span>
+<h1>include/value/quadruple.hpp</h1><a href="quadruple_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">// triple.hpp -*- C++ -*-</span>
+<a name="l00002"></a>00002 <span class="comment">// Copyright (C) 2011 Martin Trenkmann</span>
+<a name="l00003"></a>00003 <span class="preprocessor">#ifndef AITOOLS_VALUE_QUADRUPLE_HPP</span>
+<a name="l00004"></a>00004 <span class="preprocessor"></span><span class="preprocessor">#define AITOOLS_VALUE_QUADRUPLE_HPP</span>
+<a name="l00005"></a>00005 <span class="preprocessor"></span>
+<a name="l00006"></a>00006 <span class="keyword">namespace </span>aitools {
+<a name="l00007"></a>00007 <span class="keyword">namespace </span>value {
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
+<a name="l00010"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html">00010</a> <span class="keyword">class </span><a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple</a> {
 <a name="l00011"></a>00011 
-<a name="l00012"></a>00012 <span class="keyword">namespace </span>aitools {
-<a name="l00013"></a>00013 <span class="keyword">namespace </span>invertedindex {
-<a name="l00014"></a>00014 
-<a name="l00024"></a>00024 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00025"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">00025</a> <span class="keyword">class </span><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple</a> : <span class="keyword">public</span> <a class="code" href="classaitools_1_1invertedindex_1_1Value.html">Value</a>
-<a name="l00026"></a>00026 {
+<a name="l00012"></a>00012 <span class="keyword">public</span>:
+<a name="l00013"></a>00013 
+<a name="l00014"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">00014</a>         <span class="keyword">typedef</span> T1 <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a>;
+<a name="l00015"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">00015</a>         <span class="keyword">typedef</span> T2 <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a>;
+<a name="l00016"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">00016</a>         <span class="keyword">typedef</span> T3 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a>;
+<a name="l00017"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">00017</a>         <span class="keyword">typedef</span> T4 <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a>;
+<a name="l00018"></a>00018 
+<a name="l00019"></a>00019 <span class="keyword">public</span>:
+<a name="l00020"></a>00020 
+<a name="l00021"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a51b18da7861652e98f31e2d0f76fc4e0">00021</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a51b18da7861652e98f31e2d0f76fc4e0">quadruple</a>()
+<a name="l00022"></a>00022         :       <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>(),
+<a name="l00023"></a>00023                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>(),
+<a name="l00024"></a>00024                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>(),
+<a name="l00025"></a>00025                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>()
+<a name="l00026"></a>00026         {}
 <a name="l00027"></a>00027 
-<a name="l00028"></a>00028 <span class="keyword">public</span>: <span class="comment">// nested types</span>
-<a name="l00029"></a>00029 
-<a name="l00030"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aa49883fdc5a9a600384ca780282a8af8">00030</a>         <span class="keyword">typedef</span> T1 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aa49883fdc5a9a600384ca780282a8af8">e1_type</a>;
-<a name="l00031"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ada25db3c0b29278b31420ea69ec61e14">00031</a>         <span class="keyword">typedef</span> T2 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ada25db3c0b29278b31420ea69ec61e14">e2_type</a>;
-<a name="l00032"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afeeeb8c6d4cba09c9f38638ab5d6c8ab">00032</a>         <span class="keyword">typedef</span> T3 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afeeeb8c6d4cba09c9f38638ab5d6c8ab">e3_type</a>;
-<a name="l00033"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9052f939c7a514db979b8d8e5ffd9e44">00033</a>         <span class="keyword">typedef</span> T4 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9052f939c7a514db979b8d8e5ffd9e44">e4_type</a>;
-<a name="l00034"></a>00034 
-<a name="l00035"></a>00035 <span class="keyword">public</span>: <span class="comment">// class data</span>
-<a name="l00036"></a>00036 
-<a name="l00037"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2104c5335b16e7eaa239dfaa1ceec6f7">00037</a>         <span class="keyword">static</span> <span class="keyword">const</span> std::string <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2104c5335b16e7eaa239dfaa1ceec6f7">classname</a>;
-<a name="l00038"></a>00038 
-<a name="l00039"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">00039</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a> = <span class="keyword">sizeof</span>(T1);
-<a name="l00040"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">00040</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a> = <span class="keyword">sizeof</span>(T2);
-<a name="l00041"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">00041</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a> = <span class="keyword">sizeof</span>(T3);
-<a name="l00042"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">00042</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">sizeof_T4</a> = <span class="keyword">sizeof</span>(T4);
-<a name="l00043"></a>00043 
-<a name="l00044"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afea70c34fe3b148192b1891c3f077251">00044</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afea70c34fe3b148192b1891c3f077251">offset_T2</a> = <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a>;
-<a name="l00045"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a72033a9714c7923bf11edced3052629f">00045</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a72033a9714c7923bf11edced3052629f">offset_T3</a> = <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afea70c34fe3b148192b1891c3f077251">offset_T2</a> + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a>;
-<a name="l00046"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aaa488169bf1b60843a92556b69800b7b">00046</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aaa488169bf1b60843a92556b69800b7b">offset_T4</a> = <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a72033a9714c7923bf11edced3052629f">offset_T3</a> + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a>;
-<a name="l00047"></a>00047 
-<a name="l00048"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a74bebb0016d00548ea4ea94c62c55639">00048</a>         <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a74bebb0016d00548ea4ea94c62c55639">sizeof_value</a> =
-<a name="l00049"></a>00049                         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a> + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a> + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a> + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">sizeof_T4</a>;
+<a name="l00028"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a2b3172d159b73225e2a0205d6964c687">00028</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a51b18da7861652e98f31e2d0f76fc4e0">quadruple</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>, <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>,
+<a name="l00029"></a>00029                           <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>, <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>)
+<a name="l00030"></a>00030         :       <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>(e1),
+<a name="l00031"></a>00031                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>(e2),
+<a name="l00032"></a>00032                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>(e3),
+<a name="l00033"></a>00033                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>(e4)
+<a name="l00034"></a>00034         {}
+<a name="l00035"></a>00035 
+<a name="l00036"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#af09954a76ccf5aeca0733b68f182e3fc">00036</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a51b18da7861652e98f31e2d0f76fc4e0">quadruple</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple</a>&amp; rhs)
+<a name="l00037"></a>00037         :       <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>(rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>),
+<a name="l00038"></a>00038                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>(rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>),
+<a name="l00039"></a>00039                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>(rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>),
+<a name="l00040"></a>00040                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>(rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>)
+<a name="l00041"></a>00041         {}
+<a name="l00042"></a>00042 
+<a name="l00043"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a8d9e1b6a3fca429a5fdecdb4bb620c82">00043</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8d9e1b6a3fca429a5fdecdb4bb620c82">~quadruple</a>() {}
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a>&amp;
+<a name="l00046"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">00046</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>()
+<a name="l00047"></a>00047         {
+<a name="l00048"></a>00048                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>;
+<a name="l00049"></a>00049         }
 <a name="l00050"></a>00050 
-<a name="l00051"></a>00051 <span class="keyword">public</span>: <span class="comment">// c&#39;tor / d&#39;tor</span>
-<a name="l00052"></a>00052 
-<a name="l00056"></a>00056         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">Quadruple</a>();
-<a name="l00057"></a>00057 
-<a name="l00061"></a>00061         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">Quadruple</a>(T1 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af933d90a0a2c856c82c6d83eff0586eb">e1</a>, T2 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a93010a0d6d2e2d2d38ae0af673f352ef">e2</a>, T3 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ae3529259c43b10dcdc3d76d958b443fc">e3</a>, T4 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a8855e219cc2566eba729ad5262583779">e4</a>);
+<a name="l00051"></a>00051         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a>&amp;
+<a name="l00052"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">00052</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>()
+<a name="l00053"></a>00053         {
+<a name="l00054"></a>00054                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>;
+<a name="l00055"></a>00055         }
+<a name="l00056"></a>00056 
+<a name="l00057"></a>00057         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a>&amp;
+<a name="l00058"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">00058</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>()
+<a name="l00059"></a>00059         {
+<a name="l00060"></a>00060                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>;
+<a name="l00061"></a>00061         }
 <a name="l00062"></a>00062 
-<a name="l00066"></a>00066         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">Quadruple</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs);
-<a name="l00067"></a>00067 
-<a name="l00071"></a>00071         <span class="keyword">virtual</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a58222a639095da78573bfb6cc8a2b145">~Quadruple</a>();
-<a name="l00072"></a>00072 
-<a name="l00073"></a>00073 <span class="keyword">public</span>: <span class="comment">// member</span>
+<a name="l00063"></a>00063         <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a>&amp;
+<a name="l00064"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">00064</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>()
+<a name="l00065"></a>00065         {
+<a name="l00066"></a>00066                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>;
+<a name="l00067"></a>00067         }
+<a name="l00068"></a>00068 
+<a name="l00069"></a>00069         <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a>&amp;
+<a name="l00070"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a34e87347b56224a1046f4b15404b7afa">00070</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>()<span class="keyword"> const</span>
+<a name="l00071"></a>00071 <span class="keyword">        </span>{
+<a name="l00072"></a>00072                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>;
+<a name="l00073"></a>00073         }
 <a name="l00074"></a>00074 
-<a name="l00075"></a>00075         <span class="keywordtype">void</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2e75e4ddd89bf95e1267d55725d0d7a3">clear</a>();
-<a name="l00076"></a>00076 
-<a name="l00077"></a>00077         <span class="keywordtype">double</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">score</a>() <span class="keyword">const</span>;
-<a name="l00078"></a>00078 
-<a name="l00079"></a>00079         <span class="keywordtype">bool</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a23e44c690adc9c0c97d6a76ef872204d">operator==</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs) <span class="keyword">const</span>;
+<a name="l00075"></a>00075         <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a>&amp;
+<a name="l00076"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a47a3254a6a61d5ad04abd0bb9ac14291">00076</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>()<span class="keyword"> const</span>
+<a name="l00077"></a>00077 <span class="keyword">        </span>{
+<a name="l00078"></a>00078                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>;
+<a name="l00079"></a>00079         }
 <a name="l00080"></a>00080 
-<a name="l00081"></a>00081         <span class="keywordtype">bool</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a03a4b9ef7f455ea8751ae6f8ddef8902">operator!=</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs) <span class="keyword">const</span>;
-<a name="l00082"></a>00082 
-<a name="l00083"></a>00083         <span class="keywordtype">bool</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#abbdbccb7e31ef99978395cf1c13b1871">operator&gt;</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs) <span class="keyword">const</span>;
-<a name="l00084"></a>00084 
-<a name="l00085"></a>00085         <span class="keywordtype">bool</span> operator&lt;(const Quadruple&lt;T1, T2, T3, T4&gt;&amp; rhs) <span class="keyword">const</span>;
+<a name="l00081"></a>00081         <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a>&amp;
+<a name="l00082"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#afba279dcfe41a32c660ba3a6b65e3274">00082</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>()<span class="keyword"> const</span>
+<a name="l00083"></a>00083 <span class="keyword">        </span>{
+<a name="l00084"></a>00084                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>;
+<a name="l00085"></a>00085         }
 <a name="l00086"></a>00086 
-<a name="l00087"></a>00087         <span class="keywordtype">void</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#abf908f2b942dad02324401c95411db0b">parse</a>(std::istream&amp; is);
-<a name="l00088"></a>00088 
-<a name="l00092"></a>00092         T1&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af933d90a0a2c856c82c6d83eff0586eb">e1</a>();
-<a name="l00093"></a>00093 
-<a name="l00097"></a>00097         T2&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a93010a0d6d2e2d2d38ae0af673f352ef">e2</a>();
+<a name="l00087"></a>00087         <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a>&amp;
+<a name="l00088"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a752f9c5aa855d22e00dc5910dbbe931a">00088</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>()<span class="keyword"> const</span>
+<a name="l00089"></a>00089 <span class="keyword">        </span>{
+<a name="l00090"></a>00090                 <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>;
+<a name="l00091"></a>00091         }
+<a name="l00092"></a>00092 
+<a name="l00093"></a>00093         <span class="keywordtype">void</span>
+<a name="l00094"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a1d52547ceab37dfb50695fd452dd76dd">00094</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a1d52547ceab37dfb50695fd452dd76dd">set_e1</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>)
+<a name="l00095"></a>00095         {
+<a name="l00096"></a>00096                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a> = e1;
+<a name="l00097"></a>00097         }
 <a name="l00098"></a>00098 
-<a name="l00102"></a>00102         T3&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ae3529259c43b10dcdc3d76d958b443fc">e3</a>();
-<a name="l00103"></a>00103 
-<a name="l00107"></a>00107         T4&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a8855e219cc2566eba729ad5262583779">e4</a>();
-<a name="l00108"></a>00108 
-<a name="l00112"></a>00112         <span class="keyword">const</span> T1&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af933d90a0a2c856c82c6d83eff0586eb">e1</a>() <span class="keyword">const</span>;
-<a name="l00113"></a>00113 
-<a name="l00117"></a>00117         <span class="keyword">const</span> T2&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a93010a0d6d2e2d2d38ae0af673f352ef">e2</a>() <span class="keyword">const</span>;
-<a name="l00118"></a>00118 
-<a name="l00122"></a>00122         <span class="keyword">const</span> T3&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ae3529259c43b10dcdc3d76d958b443fc">e3</a>() <span class="keyword">const</span>;
-<a name="l00123"></a>00123 
-<a name="l00127"></a>00127         <span class="keyword">const</span> T4&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a8855e219cc2566eba729ad5262583779">e4</a>() <span class="keyword">const</span>;
+<a name="l00099"></a>00099         <span class="keywordtype">void</span>
+<a name="l00100"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#aad9bf336e621f6e74eafb5199d8d5427">00100</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aad9bf336e621f6e74eafb5199d8d5427">set_e2</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>)
+<a name="l00101"></a>00101         {
+<a name="l00102"></a>00102                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a> = e2;
+<a name="l00103"></a>00103         }
+<a name="l00104"></a>00104 
+<a name="l00105"></a>00105         <span class="keywordtype">void</span>
+<a name="l00106"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a0eda14a8f6d26051d88114de7bbfc58f">00106</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a0eda14a8f6d26051d88114de7bbfc58f">set_e3</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>)
+<a name="l00107"></a>00107         {
+<a name="l00108"></a>00108                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a> = e3;
+<a name="l00109"></a>00109         }
+<a name="l00110"></a>00110 
+<a name="l00111"></a>00111         <span class="keywordtype">void</span>
+<a name="l00112"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a32c76886686867ffeef1f0a38979649d">00112</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a32c76886686867ffeef1f0a38979649d">set_e4</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>)
+<a name="l00113"></a>00113         {
+<a name="l00114"></a>00114                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a> = e4;
+<a name="l00115"></a>00115         }
+<a name="l00116"></a>00116 
+<a name="l00117"></a>00117         <span class="keywordtype">void</span>
+<a name="l00118"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#afda8083a9fc6293da8bed0c09386780a">00118</a>         <span class="keyword">set</span>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>, <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>,
+<a name="l00119"></a>00119                 <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>, <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a>&amp; <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>)
+<a name="l00120"></a>00120         {
+<a name="l00121"></a>00121                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a> = <a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>;
+<a name="l00122"></a>00122                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a> = <a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>;
+<a name="l00123"></a>00123                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a> = <a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>;
+<a name="l00124"></a>00124                 <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a> = <a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>;
+<a name="l00125"></a>00125         }
+<a name="l00126"></a>00126 
+<a name="l00127"></a>00127 <span class="keyword">private</span>:
 <a name="l00128"></a>00128 
-<a name="l00129"></a>00129         <span class="keywordtype">void</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a95cc97fbc234cbc5d21d9910686e0899">print</a>(std::ostream&amp; os) <span class="keyword">const</span>;
-<a name="l00130"></a>00130 
-<a name="l00131"></a>00131         <span class="keywordtype">void</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9d26313b8cfa3be40e1b9dd761c2b0e4">to_bytes</a>(<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html">ByteBuffer</a>&amp; buffer) <span class="keyword">const</span>;
-<a name="l00132"></a>00132 
-<a name="l00133"></a>00133         <span class="keywordtype">void</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af2e47f395a30e09e9ce4e0a42a41e61b">wrap</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* data, <span class="keywordtype">size_t</span> size);
-<a name="l00134"></a>00134 
-<a name="l00135"></a>00135         <span class="keywordtype">void</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af2e47f395a30e09e9ce4e0a42a41e61b">wrap</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html">ByteBuffer</a>&amp; buffer);
-<a name="l00136"></a>00136 
-<a name="l00137"></a>00137 <span class="keyword">private</span>: <span class="comment">// data</span>
-<a name="l00138"></a>00138 
-<a name="l00139"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">00139</a>         T1 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>;
-<a name="l00140"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">00140</a>         T2 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>;
-<a name="l00141"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">00141</a>         T3 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>;
-<a name="l00142"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">00142</a>         T4 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>;
-<a name="l00143"></a>00143 
-<a name="l00144"></a>00144 };
-<a name="l00145"></a>00145 
-<a name="l00146"></a>00146 <span class="comment">// IMPLEMENTATION</span>
+<a name="l00129"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">00129</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeefa04a049af456791f193899d23855e">e1_type</a> <a class="code" href="classaitools_1_1value_1_1quadruple.html#abb03e3723d1e6b845c1be50be0f91b44">e1_</a>;
+<a name="l00130"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">00130</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#aeee8feaab2be981e0a6b38bcc5dc194f">e2_type</a> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a902cf51c6a00fb563a5ccbf35dced8eb">e2_</a>;
+<a name="l00131"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">00131</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#a949e81df3327e780648205a7de213c09">e3_type</a> <a class="code" href="classaitools_1_1value_1_1quadruple.html#af85de4fc4952e425e59ddcbe58f6f1de">e3_</a>;
+<a name="l00132"></a><a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">00132</a>         <a class="code" href="classaitools_1_1value_1_1quadruple.html#ac3a9c30ded37323a70c9fb217cfd78a2">e4_type</a> <a class="code" href="classaitools_1_1value_1_1quadruple.html#a6e5ecd10e4db57b6e226578cd8c1dfd2">e4_</a>;
+<a name="l00133"></a>00133 
+<a name="l00134"></a>00134 };
+<a name="l00135"></a>00135 
+<a name="l00136"></a>00136 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
+<a name="l00137"></a>00137 <span class="keyword">inline</span> <span class="keywordtype">bool</span>
+<a name="l00138"></a><a class="code" href="namespaceaitools_1_1value.html#ab94668a587079f8f3f8abb609ae536e5">00138</a> <a class="code" href="namespaceaitools_1_1value.html#ad95ae3ddc97fdb146099e2d68a1888f2">operator==</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; lhs,
+<a name="l00139"></a>00139                    <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)
+<a name="l00140"></a>00140 {
+<a name="l00141"></a>00141         <span class="keywordflow">return</span>
+<a name="l00142"></a>00142                 lhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>() == rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>() &amp;&amp;
+<a name="l00143"></a>00143                 lhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>() == rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#acd06c38228362dace13faa4e63edf2e6">e2</a>() &amp;&amp;
+<a name="l00144"></a>00144                 lhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>() == rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#a234ed6eb06a60f5f443be1b8e11a5224">e3</a>() &amp;&amp;
+<a name="l00145"></a>00145                 lhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>() == rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#a8f33d89637165a6e0d2068092b1d645d">e4</a>();
+<a name="l00146"></a>00146 }
 <a name="l00147"></a>00147 
 <a name="l00148"></a>00148 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00149"></a>00149 <span class="keyword">const</span> std::string
-<a name="l00150"></a>00150 <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2104c5335b16e7eaa239dfaa1ceec6f7">Quadruple&lt;T1, T2, T3, T4&gt;::classname</a>
-<a name="l00151"></a>00151 (<span class="stringliteral">&quot;Quadruple&lt;&quot;</span> + Converter::nameof&lt;T1&gt;() + <span class="stringliteral">&quot;, &quot;</span>
-<a name="l00152"></a>00152                       + Converter::nameof&lt;T2&gt;() + <span class="stringliteral">&quot;, &quot;</span>
-<a name="l00153"></a>00153                       + Converter::nameof&lt;T3&gt;() + <span class="stringliteral">&quot;, &quot;</span>
-<a name="l00154"></a>00154                       + Converter::nameof&lt;T4&gt;() + <span class="stringliteral">&quot;&gt;&quot;</span>);
+<a name="l00149"></a>00149 <span class="keyword">inline</span> <span class="keywordtype">bool</span>
+<a name="l00150"></a><a class="code" href="namespaceaitools_1_1value.html#add3ed6a8d71beefe48d7692f62d6e73f">00150</a> <a class="code" href="namespaceaitools_1_1value.html#af3817926103ef77b61c9626fae5a26cf">operator!=</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; lhs,
+<a name="l00151"></a>00151                    <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)
+<a name="l00152"></a>00152 {
+<a name="l00153"></a>00153         <span class="keywordflow">return</span> !(lhs == rhs);
+<a name="l00154"></a>00154 }
 <a name="l00155"></a>00155 
 <a name="l00156"></a>00156 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00157"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">00157</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">Quadruple&lt;T1, T2, T3, T4&gt;::Quadruple</a>()
-<a name="l00158"></a>00158 :   e1_(0),
-<a name="l00159"></a>00159         e2_(0),
-<a name="l00160"></a>00160         e3_(0),
-<a name="l00161"></a>00161         e4_(0)
-<a name="l00162"></a>00162 {}
+<a name="l00157"></a>00157 <span class="keyword">inline</span> <span class="keywordtype">bool</span>
+<a name="l00158"></a><a class="code" href="namespaceaitools_1_1value.html#a6cc116c76243e1fdf388747eb816435c">00158</a> operator&lt;(const quadruple&lt;T1, T2, T3, T4&gt;&amp; lhs,
+<a name="l00159"></a>00159                   <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)
+<a name="l00160"></a>00160 {
+<a name="l00161"></a>00161         <span class="keywordflow">return</span> lhs.e1() &lt; rhs.e1();
+<a name="l00162"></a>00162 }
 <a name="l00163"></a>00163 
 <a name="l00164"></a>00164 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00165"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9a770750cd5a8ff58cb5b3a68d904f0a">00165</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">Quadruple&lt;T1, T2, T3, T4&gt;::Quadruple</a>(T1 e1, T2 e2, T3 e3, T4 e4)
-<a name="l00166"></a>00166 :   e1_(e1),
-<a name="l00167"></a>00167         e2_(e2),
-<a name="l00168"></a>00168         e3_(e3),
-<a name="l00169"></a>00169         e4_(e4)
-<a name="l00170"></a>00170 {}
+<a name="l00165"></a>00165 <span class="keyword">inline</span> <span class="keywordtype">bool</span>
+<a name="l00166"></a><a class="code" href="namespaceaitools_1_1value.html#af10d6fbb51f06ce07d7c2aa88b74b7a8">00166</a> <a class="code" href="namespaceaitools_1_1value.html#a3519e9086d8239a9d221afcf7332aa15">operator&gt;</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; lhs,
+<a name="l00167"></a>00167                   <span class="keyword">const</span> <a class="code" href="classaitools_1_1value_1_1quadruple.html">quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)
+<a name="l00168"></a>00168 {
+<a name="l00169"></a>00169         <span class="keywordflow">return</span> lhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>() &gt; rhs.<a class="code" href="classaitools_1_1value_1_1quadruple.html#aa0f9b047fcbea8f1b5fba495eb30710f">e1</a>();
+<a name="l00170"></a>00170 }
 <a name="l00171"></a>00171 
-<a name="l00172"></a>00172 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00173"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a3ec7ff76af911a06c216f554fac83d11">00173</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a184e4f8e6525a5ea29e385b6cd5510bf">Quadruple&lt;T1, T2, T3, T4&gt;::Quadruple</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)
-<a name="l00174"></a>00174 :   e1_(rhs.e1_),
-<a name="l00175"></a>00175         e2_(rhs.e2_),
-<a name="l00176"></a>00176         e3_(rhs.e3_),
-<a name="l00177"></a>00177         e4_(rhs.e4_)
-<a name="l00178"></a>00178 {}
-<a name="l00179"></a>00179 
-<a name="l00180"></a>00180 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00181"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a58222a639095da78573bfb6cc8a2b145">00181</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a58222a639095da78573bfb6cc8a2b145">Quadruple&lt;T1, T2, T3, T4&gt;::~Quadruple</a>()
-<a name="l00182"></a>00182 {}
-<a name="l00183"></a>00183 
-<a name="l00184"></a>00184 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00185"></a>00185 <span class="keywordtype">void</span>
-<a name="l00186"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2e75e4ddd89bf95e1267d55725d0d7a3">00186</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2e75e4ddd89bf95e1267d55725d0d7a3">Quadruple&lt;T1, T2, T3, T4&gt;::clear</a>()
-<a name="l00187"></a>00187 {
-<a name="l00188"></a>00188         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a> = 0;
-<a name="l00189"></a>00189         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a> = 0;
-<a name="l00190"></a>00190         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a> = 0;
-<a name="l00191"></a>00191         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a> = 0;
-<a name="l00192"></a>00192 }
-<a name="l00193"></a>00193 
-<a name="l00194"></a>00194 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00195"></a>00195 <span class="keywordtype">double</span>
-<a name="l00196"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">00196</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">Quadruple&lt;T1, T2, T3, T4&gt;::score</a>()<span class="keyword"> const</span>
-<a name="l00197"></a>00197 <span class="keyword"></span>{
-<a name="l00198"></a>00198         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>;
-<a name="l00199"></a>00199 }
-<a name="l00200"></a>00200 
-<a name="l00201"></a>00201 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00202"></a>00202 <span class="keywordtype">bool</span>
-<a name="l00203"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a23e44c690adc9c0c97d6a76ef872204d">00203</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a23e44c690adc9c0c97d6a76ef872204d">Quadruple&lt;T1, T2, T3, T4&gt;::operator==</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)<span class="keyword"> const</span>
-<a name="l00204"></a>00204 <span class="keyword"></span>{
-<a name="l00205"></a>00205         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a> == rhs.<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a> &amp;&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a> == rhs.<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a> &amp;&amp;
-<a name="l00206"></a>00206                    <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a> == rhs.<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a> &amp;&amp; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a> == rhs.<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>;
-<a name="l00207"></a>00207 }
-<a name="l00208"></a>00208 
-<a name="l00209"></a>00209 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00210"></a>00210 <span class="keywordtype">bool</span>
-<a name="l00211"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a03a4b9ef7f455ea8751ae6f8ddef8902">00211</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a03a4b9ef7f455ea8751ae6f8ddef8902">Quadruple&lt;T1, T2, T3, T4&gt;::operator!=</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)<span class="keyword"> const</span>
-<a name="l00212"></a>00212 <span class="keyword"></span>{
-<a name="l00213"></a>00213         <span class="keywordflow">return</span> !(*<span class="keyword">this</span> == rhs);
-<a name="l00214"></a>00214 }
-<a name="l00215"></a>00215 
-<a name="l00216"></a>00216 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00217"></a>00217 <span class="keywordtype">bool</span>
-<a name="l00218"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#abbdbccb7e31ef99978395cf1c13b1871">00218</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#abbdbccb7e31ef99978395cf1c13b1871">Quadruple&lt;T1, T2, T3, T4&gt;::operator&gt;</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)<span class="keyword"> const</span>
-<a name="l00219"></a>00219 <span class="keyword"></span>{
-<a name="l00220"></a>00220         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">score</a>() &gt; rhs.<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">score</a>();
-<a name="l00221"></a>00221 }
-<a name="l00222"></a>00222 
-<a name="l00223"></a>00223 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00224"></a>00224 <span class="keywordtype">bool</span>
-<a name="l00225"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a4a1d49d451fea0bf052e60236e13409d">00225</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a4a1d49d451fea0bf052e60236e13409d">Quadruple&lt;T1, T2, T3, T4&gt;::operator&lt;</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html">Quadruple&lt;T1, T2, T3, T4&gt;</a>&amp; rhs)<span class="keyword"> const</span>
-<a name="l00226"></a>00226 <span class="keyword"></span>{
-<a name="l00227"></a>00227         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">score</a>() &lt; rhs.<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad05cc0c94e10ee7bc5042b28fa4868e1">score</a>();
-<a name="l00228"></a>00228 }
-<a name="l00229"></a>00229 
-<a name="l00230"></a>00230 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00231"></a>00231 <span class="keywordtype">void</span>
-<a name="l00232"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#abf908f2b942dad02324401c95411db0b">00232</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#abf908f2b942dad02324401c95411db0b">Quadruple&lt;T1, T2, T3, T4&gt;::parse</a>(std::istream&amp; is)
-<a name="l00233"></a>00233 {
-<a name="l00234"></a>00234         <span class="comment">// Force parsing as integer instead of a single character</span>
-<a name="l00235"></a>00235         <span class="comment">// 1 year later: Yes I know traits can solve this problem.</span>
-<a name="l00236"></a>00236         <span class="comment">// Please take a look at the new inverted index implementation.</span>
-<a name="l00237"></a>00237         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) is &gt;&gt; <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#ac749b65f125c86351ba7b5ad5059c77d">tmp_int</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a> = tmp_int;
-<a name="l00238"></a>00238         <span class="keywordflow">else</span> is &gt;&gt; e1_;
-<a name="l00239"></a>00239 
-<a name="l00240"></a>00240         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) is &gt;&gt; tmp_int, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a> = tmp_int;
-<a name="l00241"></a>00241         <span class="keywordflow">else</span> is &gt;&gt; e2_;
-<a name="l00242"></a>00242 
-<a name="l00243"></a>00243         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) is &gt;&gt; tmp_int, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a> = tmp_int;
-<a name="l00244"></a>00244         <span class="keywordflow">else</span> is &gt;&gt; e3_;
-<a name="l00245"></a>00245 
-<a name="l00246"></a>00246         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">sizeof_T4</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) is &gt;&gt; tmp_int, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a> = tmp_int;
-<a name="l00247"></a>00247         <span class="keywordflow">else</span> is &gt;&gt; e4_;
-<a name="l00248"></a>00248 }
-<a name="l00249"></a>00249 
-<a name="l00250"></a>00250 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00251"></a>00251 T1&amp;
-<a name="l00252"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af933d90a0a2c856c82c6d83eff0586eb">00252</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af933d90a0a2c856c82c6d83eff0586eb">Quadruple&lt;T1, T2, T3, T4&gt;::e1</a>()
-<a name="l00253"></a>00253 {
-<a name="l00254"></a>00254         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>;
-<a name="l00255"></a>00255 }
-<a name="l00256"></a>00256 
-<a name="l00257"></a>00257 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00258"></a>00258 T2&amp;
-<a name="l00259"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a93010a0d6d2e2d2d38ae0af673f352ef">00259</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a93010a0d6d2e2d2d38ae0af673f352ef">Quadruple&lt;T1, T2, T3, T4&gt;::e2</a>()
-<a name="l00260"></a>00260 {
-<a name="l00261"></a>00261         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>;
-<a name="l00262"></a>00262 }
-<a name="l00263"></a>00263 
-<a name="l00264"></a>00264 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00265"></a>00265 T3&amp;
-<a name="l00266"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ae3529259c43b10dcdc3d76d958b443fc">00266</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ae3529259c43b10dcdc3d76d958b443fc">Quadruple&lt;T1, T2, T3, T4&gt;::e3</a>()
-<a name="l00267"></a>00267 {
-<a name="l00268"></a>00268         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>;
-<a name="l00269"></a>00269 }
-<a name="l00270"></a>00270 
-<a name="l00271"></a>00271 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00272"></a>00272 T4&amp;
-<a name="l00273"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a8855e219cc2566eba729ad5262583779">00273</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a8855e219cc2566eba729ad5262583779">Quadruple&lt;T1, T2, T3, T4&gt;::e4</a>()
-<a name="l00274"></a>00274 {
-<a name="l00275"></a>00275         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>;
-<a name="l00276"></a>00276 }
-<a name="l00277"></a>00277 
-<a name="l00278"></a>00278 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00279"></a>00279 <span class="keyword">const</span> T1&amp;
-<a name="l00280"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a7bdba399b92f29cadd85d46d81fb648d">00280</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af933d90a0a2c856c82c6d83eff0586eb">Quadruple&lt;T1, T2, T3, T4&gt;::e1</a>()<span class="keyword"> const</span>
-<a name="l00281"></a>00281 <span class="keyword"></span>{
-<a name="l00282"></a>00282         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>;
-<a name="l00283"></a>00283 }
-<a name="l00284"></a>00284 
-<a name="l00285"></a>00285 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00286"></a>00286 <span class="keyword">const</span> T2&amp;
-<a name="l00287"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9fed7cd8c64201be40457e73b08c9d6c">00287</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a93010a0d6d2e2d2d38ae0af673f352ef">Quadruple&lt;T1, T2, T3, T4&gt;::e2</a>()<span class="keyword"> const</span>
-<a name="l00288"></a>00288 <span class="keyword"></span>{
-<a name="l00289"></a>00289         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>;
-<a name="l00290"></a>00290 }
-<a name="l00291"></a>00291 
-<a name="l00292"></a>00292 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00293"></a>00293 <span class="keyword">const</span> T3&amp;
-<a name="l00294"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2caaf56bf34d35d568fb76f2f6c24f19">00294</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ae3529259c43b10dcdc3d76d958b443fc">Quadruple&lt;T1, T2, T3, T4&gt;::e3</a>()<span class="keyword"> const</span>
-<a name="l00295"></a>00295 <span class="keyword"></span>{
-<a name="l00296"></a>00296         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>;
-<a name="l00297"></a>00297 }
-<a name="l00298"></a>00298 
-<a name="l00299"></a>00299 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00300"></a>00300 <span class="keyword">const</span> T4&amp;
-<a name="l00301"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aa82f48c4684abbe8787d0797ee5632d9">00301</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a8855e219cc2566eba729ad5262583779">Quadruple&lt;T1, T2, T3, T4&gt;::e4</a>()<span class="keyword"> const</span>
-<a name="l00302"></a>00302 <span class="keyword"></span>{
-<a name="l00303"></a>00303         <span class="keywordflow">return</span> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>;
-<a name="l00304"></a>00304 }
-<a name="l00305"></a>00305 
-<a name="l00306"></a>00306 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00307"></a>00307 <span class="keywordtype">void</span>
-<a name="l00308"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a95cc97fbc234cbc5d21d9910686e0899">00308</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a95cc97fbc234cbc5d21d9910686e0899">Quadruple&lt;T1, T2, T3, T4&gt;::print</a>(std::ostream&amp; os)<span class="keyword"> const</span>
-<a name="l00309"></a>00309 <span class="keyword"></span>{
-<a name="l00310"></a>00310         <span class="comment">// Force printing as integer instead of a not printable character.</span>
-<a name="l00311"></a>00311         <span class="comment">// 1 year later: Yes I know traits can solve this problem.</span>
-<a name="l00312"></a>00312         <span class="comment">// Please take a look at the new inverted index implementation.</span>
-<a name="l00313"></a>00313         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) os &lt;&lt; (int) <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>;
-<a name="l00314"></a>00314         <span class="keywordflow">else</span> os &lt;&lt; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>;
-<a name="l00315"></a>00315         os &lt;&lt; <span class="charliteral">&#39; &#39;</span>;
-<a name="l00316"></a>00316 
-<a name="l00317"></a>00317         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) os &lt;&lt; (int) <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>;
-<a name="l00318"></a>00318         <span class="keywordflow">else</span> os &lt;&lt; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>;
-<a name="l00319"></a>00319         os &lt;&lt; <span class="charliteral">&#39; &#39;</span>;
-<a name="l00320"></a>00320 
-<a name="l00321"></a>00321         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) os &lt;&lt; (int) <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>;
-<a name="l00322"></a>00322         <span class="keywordflow">else</span> os &lt;&lt; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>;
-<a name="l00323"></a>00323         os &lt;&lt; <span class="charliteral">&#39; &#39;</span>;
-<a name="l00324"></a>00324 
-<a name="l00325"></a>00325         <span class="keywordflow">if</span> (<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">sizeof_T4</a> == <a class="code" href="classaitools_1_1invertedindex_1_1Value.html#a467122434240428c324323ce04bc4318">sizeof_int8_t</a>) os &lt;&lt; (int) <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>;
-<a name="l00326"></a>00326         <span class="keywordflow">else</span> os &lt;&lt; <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>;
-<a name="l00327"></a>00327 }
-<a name="l00328"></a>00328 
-<a name="l00329"></a>00329 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00330"></a>00330 <span class="keywordtype">void</span>
-<a name="l00331"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9d26313b8cfa3be40e1b9dd761c2b0e4">00331</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9d26313b8cfa3be40e1b9dd761c2b0e4">Quadruple&lt;T1, T2, T3, T4&gt;::to_bytes</a>(<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html">ByteBuffer</a>&amp; buffer)<span class="keyword"> const</span>
-<a name="l00332"></a>00332 <span class="keyword"></span>{
-<a name="l00333"></a>00333         buffer.<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html#a7c4ee04fae7a937d60d7e42a0c9df72e">resize</a>(<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a74bebb0016d00548ea4ea94c62c55639">sizeof_value</a>);
-<a name="l00334"></a>00334         std::memcpy(buffer.<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html#a66aa9ba5bee4f5e75247354425c3def0">data</a>(), &amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a>);
-<a name="l00335"></a>00335         std::memcpy(buffer.<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html#a66aa9ba5bee4f5e75247354425c3def0">data</a>() + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afea70c34fe3b148192b1891c3f077251">offset_T2</a>, &amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a>);
-<a name="l00336"></a>00336         std::memcpy(buffer.<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html#a66aa9ba5bee4f5e75247354425c3def0">data</a>() + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a72033a9714c7923bf11edced3052629f">offset_T3</a>, &amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a>);
-<a name="l00337"></a>00337         std::memcpy(buffer.<a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html#a66aa9ba5bee4f5e75247354425c3def0">data</a>() + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aaa488169bf1b60843a92556b69800b7b">offset_T4</a>, &amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">sizeof_T4</a>);
-<a name="l00338"></a>00338 }
-<a name="l00339"></a>00339 
-<a name="l00340"></a>00340 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00341"></a>00341 <span class="keywordtype">void</span>
-<a name="l00342"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af2e47f395a30e09e9ce4e0a42a41e61b">00342</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af2e47f395a30e09e9ce4e0a42a41e61b">Quadruple&lt;T1, T2, T3, T4&gt;::wrap</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* data, <span class="keywordtype">size_t</span> size)
-<a name="l00343"></a>00343 {
-<a name="l00344"></a>00344         assert(data != NULL);
-<a name="l00345"></a>00345         assert(size &gt;= <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a74bebb0016d00548ea4ea94c62c55639">sizeof_value</a>);
-<a name="l00346"></a>00346         std::memcpy(&amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a44674d571ed0369dff3a5fd5232356b6">e1_</a>, data, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a2a7713b142a7dde86fcc750b2ca7a50c">sizeof_T1</a>);
-<a name="l00347"></a>00347         std::memcpy(&amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aef0b659352d567a3b50ee4f7614e3bff">e2_</a>, data + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#afea70c34fe3b148192b1891c3f077251">offset_T2</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ac7bc1b8788ee00f13d22ffb7a910af68">sizeof_T2</a>);
-<a name="l00348"></a>00348         std::memcpy(&amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a30b31a02dc8e56a9fd02f59b3988fbfb">e3_</a>, data + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a72033a9714c7923bf11edced3052629f">offset_T3</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#ad6e2c9a7421f5e0636bc20527f59ba91">sizeof_T3</a>);
-<a name="l00349"></a>00349         std::memcpy(&amp;<a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a9845da04dea45dba7696d9ffbbf036fd">e4_</a>, data + <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#aaa488169bf1b60843a92556b69800b7b">offset_T4</a>, <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a86f2598bb612494451e7e35bb07067d9">sizeof_T4</a>);
-<a name="l00350"></a>00350 }
-<a name="l00351"></a>00351 
-<a name="l00352"></a>00352 <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;
-<a name="l00353"></a>00353 <span class="keywordtype">void</span>
-<a name="l00354"></a><a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#a02386e3cabb9d1f3dc100190dc0908e2">00354</a> <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af2e47f395a30e09e9ce4e0a42a41e61b">Quadruple&lt;T1, T2, T3, T4&gt;::wrap</a>(<span class="keyword">const</span> <a class="code" href="classaitools_1_1invertedindex_1_1ByteBuffer.html">ByteBuffer</a>&amp; buffer)
-<a name="l00355"></a>00355 {
-<a name="l00356"></a>00356         <a class="code" href="classaitools_1_1invertedindex_1_1Quadruple.html#af2e47f395a30e09e9ce4e0a42a41e61b">Value::wrap</a>(buffer);
-<a name="l00357"></a>00357 }
-<a name="l00358"></a>00358 
-<a name="l00359"></a>00359 } <span class="comment">// namespace invertedindex</span>
-<a name="l00360"></a>00360 } <span class="comment">// namespace aitools</span>
-<a name="l00361"></a>00361 
-<a name="l00362"></a>00362 <span class="preprocessor">#endif // AITOOLS_INVERTEDINDEX_QUADRUPLE_HPP</span>
+<a name="l00172"></a>00172 } <span class="comment">// namespace value</span>
+<a name="l00173"></a>00173 
+<a name="l00174"></a>00174 <span class="keyword">using</span> value::quadruple;
+<a name="l00175"></a>00175 
+<a name="l00176"></a>00176 } <span class="comment">// namespace aitools</span>
+<a name="l00177"></a>00177 
+<a name="l00178"></a>00178 <span class="preprocessor">#endif // AITOOLS_VALUE_QUADRUPLE_HPP</span>
 </pre></div></div>
-<hr class="footer"/><address style="text-align: right;"><small>Generated on Wed May 30 15:07:26 2012 by&nbsp;
+<hr class="footer"/><address style="text-align: right;"><small>Generated on Wed May 30 15:07:25 2012 by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
 </body>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>/home/palakars/workspace-inprogress/code-in-progress/aitools3/aitools3-aq-invertedindex-cpp/src/util/Logging.hpp File Reference</title>
+<title>include/util/logging.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -25,16 +25,33 @@
   </div>
 </div>
 <div class="contents">
-<h1>/home/palakars/workspace-inprogress/code-in-progress/aitools3/aitools3-aq-invertedindex-cpp/src/util/Logging.hpp File Reference</h1><code>#include &lt;iostream&gt;</code><br/>
+<h1>include/util/logging.hpp File Reference</h1><code>#include &lt;ctime&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
+<code>#include &lt;cassert&gt;</code><br/>
+<code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;iterator&gt;</code><br/>
+<code>#include &lt;cstdarg&gt;</code><br/>
 
-<p><a href="Logging_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="logging_8hpp_source.html">Go to the source code of this file.</a></p>
 <table border="0" cellpadding="0" cellspacing="0">
-<tr><td colspan="2"><h2>Classes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">class &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaitools_1_1invertedindex_1_1Logging.html">aitools::invertedindex::Logging</a></td></tr>
 <tr><td colspan="2"><h2>Namespaces</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">namespace &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools.html">aitools</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">namespace &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1invertedindex.html">aitools::invertedindex</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">namespace &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html">aitools::util</a></td></tr>
+<tr><td colspan="2"><h2>Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#ab36a7e84f69ba8ec4254fd281c93a8ce">aitools::util::print_timestamp_to</a> (std::ostream &amp;os)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#af8f03b89e8c0eaac4b866a710c537e27">aitools::util::log_debug</a> (const char *file, size_t line, const std::string &amp;msg)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a2d553a756bddfeac2a407913682a834f">aitools::util::log_debug</a> (const char *file, size_t line, const std::string &amp;msg, const T &amp;val)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename Iter &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#af34aef1efb0642141cb0b2875684731f">aitools::util::log_debug</a> (const char *file, size_t line, const std::string &amp;msg, Iter first, Iter last)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a341ac5aaf04508d94776f4f7e672e44b">aitools::util::vlog_debug</a> (const std::string &amp;format, va_list args)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#ae34ddf951dd25c17579c385b3d3c83fc">aitools::util::logf_debug</a> (const std::string &amp;format,...)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#af61ea6075b7faabc219b999fc8f078ee">aitools::util::log_error</a> (const std::string &amp;message)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#aae6997f44ac2c2ea6e6f7cb2dfa05fec">aitools::util::log_error</a> (const std::string &amp;message, const T &amp;value)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a1a22b76cc975be0fbea124e6feb5241b">aitools::util::log_info</a> (const std::string &amp;message)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#afe6497cf3e781d5f419771d3d529ed31">aitools::util::log_info</a> (const std::string &amp;message, const T &amp;value)</td></tr>
 </table>
 </div>
 <hr class="footer"/><address style="text-align: right;"><small>Generated on Wed May 30 15:07:26 2012 by&nbsp;
