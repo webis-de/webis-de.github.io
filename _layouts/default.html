@@ -30,27 +30,8 @@
                 <li{% if page.nav_active == "for-students" %} class="uk-active"{% endif %}>
                     <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
-                <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %} class="uk-parent">
-                    <a href="#">Lecturenotes</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="{{ '/lecturenotes/overview.html' | relative_url }}">Overview</a></li>
-                        <li><a href="{{ '/lecturenotes/slides.html' | relative_url }}">Slides</a></li>
-                        <li class="uk-parent">
-                            Browser
-                            <ul class="uk-nav-sub">
-                                <li><a href="{{ '/lecturenotes/browser/algorithms-and-datastructures.html' | relative_url }}">Algorithmen und Datenstrukturen</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/databases.html' | relative_url }}">Datenbanken</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/web-technology.html' | relative_url }}">Web-Technologie</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/machine-learning.html' | relative_url }}">Machine Learning</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/data-mining.html' | relative_url }}">Data Mining</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/information-retrieval.html' | relative_url }}">Information Retrieval</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/search.html' | relative_url }}">Search Algorithms</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/logics.html' | relative_url }}">Logik</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/modeling-foundations.html' | relative_url }}">Modellierung wissensintensiver Probleme</a></li>
-                                <li><a href="{{ '/lecturenotes/browser/lecturenotes-generic.html' | relative_url }}">Lecturenotes Generic</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                <li{% if page.nav_active == "lecturenotes" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/lecturenotes.html' | relative_url }}">Lecturenotes</a>
                 </li>
                 <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
                     <a href="{{ '/research.html' | relative_url }}">Research</a>
@@ -98,33 +79,7 @@
                     <a href="{{ '/for-students.html' | relative_url }}">For&nbsp;Students</a>
                 </li>
                 <li class="nav-group-start{% if page.nav_active == 'lecturenotes' %} uk-active{% endif %}">
-                    <a href="#">Lecturenotes</a>
-
-                    <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3 uk-padding-remove">
-                        <div class="uk-navbar-dropdown-grid" data-uk-grid>
-                            <div class="uk-width-1-3">
-                                <ul class="uk-nav uk-navbar-dropdown-nav uk-padding-small">
-                                    <li><a href="{{ '/lecturenotes/overview.html' | relative_url }}">Overview</a></li>
-                                    <li><a href="{{ '/lecturenotes/slides.html' | relative_url }}">Slides</a></li>
-                                    <li class="nav-left-open-category">Browser</li>
-                                </ul>
-                            </div>
-                            <div class="uk-width-2-3">
-                                <ul class="uk-nav uk-navbar-dropdown-nav nav-right-open-sub uk-padding-small">
-                                    <li><a href="{{ '/lecturenotes/browser/algorithms-and-datastructures.html' | relative_url }}">Algorithmen und Datenstrukturen</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/databases.html' | relative_url }}">Datenbanken</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/web-technology.html' | relative_url }}">Web-Technologie</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/machine-learning.html' | relative_url }}">Machine Learning</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/data-mining.html' | relative_url }}">Data Mining</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/information-retrieval.html' | relative_url }}">Information Retrieval</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/search.html' | relative_url }}">Search Algorithms</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/logics.html' | relative_url }}">Logik</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/modeling-foundations.html' | relative_url }}">Modellierung wissensintensiver Probleme</a></li>
-                                    <li><a href="{{ '/lecturenotes/browser/lecturenotes-generic.html' | relative_url }}">Lecturenotes Generic</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="{{ '/lecturenotes.html' | relative_url }}">Lecturenotes</a>
                 </li>
                 <li{% if page.nav_active == "research" %} class="uk-active"{% endif %}>
                 <a href="{{ '/research.html' | relative_url }}">Research</a>
@@ -248,9 +203,9 @@
 
         <div class="uk-align-right@m uk-margin-top">
             Copyright &copy; {{site.time | date: '%Y'}} Webis Group <span class="uk-padding-small">&bullet;</span>
-            <a href="#">Contact</a> <span class="uk-padding-small">&bullet;</span>
-            <a href="#">Privacy</a> <span class="uk-padding-small">&bullet;</span>
-            <a href="#">Legal Info / Impressum</a>
+            <a href="impressum.html">Impressum / Privacy Policy</a> <span class="uk-padding-small">&bullet;</span>
+            <!-- <a href="#">Privacy</a> <span class="uk-padding-small">&bullet;</span>  -->
+            <a href="/people.html">Contact</a>
         </div>
     </div>
 </footer>

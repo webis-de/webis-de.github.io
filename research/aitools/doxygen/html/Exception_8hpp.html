@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>/home/palakars/workspace-inprogress/code-in-progress/aitools3/aitools3-aq-invertedindex-cpp/src/util/Exception.hpp File Reference</title>
+<title>include/util/exception.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -25,19 +25,36 @@
   </div>
 </div>
 <div class="contents">
-<h1>/home/palakars/workspace-inprogress/code-in-progress/aitools3/aitools3-aq-invertedindex-cpp/src/util/Exception.hpp File Reference</h1><code>#include &quot;<a class="el" href="Record_8hpp_source.html">Record.hpp</a>&quot;</code><br/>
-<code>#include &lt;boost/filesystem.hpp&gt;</code><br/>
-<code>#include &lt;stdexcept&gt;</code><br/>
+<h1>include/util/exception.hpp File Reference</h1><code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
-<code>#include &lt;string&gt;</code><br/>
+<code>#include &lt;stdexcept&gt;</code><br/>
 
-<p><a href="Exception_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="exception_8hpp_source.html">Go to the source code of this file.</a></p>
 <table border="0" cellpadding="0" cellspacing="0">
-<tr><td colspan="2"><h2>Classes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">class &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classaitools_1_1invertedindex_1_1Exception.html">aitools::invertedindex::Exception</a></td></tr>
 <tr><td colspan="2"><h2>Namespaces</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">namespace &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools.html">aitools</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">namespace &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1invertedindex.html">aitools::invertedindex</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">namespace &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html">aitools::util</a></td></tr>
+<tr><td colspan="2"><h2>Functions</h2></td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#acf6489bf2eda7032719e9fc707d8ca19">aitools::util::format</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#aed4dd9ec49936b0cb3a5444fc96da9ab">aitools::util::throw_runtime_error</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a0a6a2f855ae24f560dac88652bee9bd9">aitools::util::throw_invalid_argument</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#ad719d80608bf9ca12855bc5d745884e3">aitools::util::throw_out_of_range</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a8635c1bcb6b77e9f4264e6ef69df75bb">aitools::util::throw_length_error</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a5ad7c385e63bd4172bbdb419e9d41f41">aitools::util::throw_logic_error</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#ac185393414a53e8a2434f4329abdf097">aitools::util::throw_domain_error</a> (const std::string &amp;msg, const T &amp;value)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#aafefb1279352538b547a95970ac95b25">aitools::util::throw_logic_error</a> (const std::string &amp;msg)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a124e027f6db34ff3867ffcebe51c9f09">aitools::util::throw_domain_error</a> (const std::string &amp;msg)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#ac114c0da70d9e13aa951a145d4cfdf65">aitools::util::throw_runtime_error</a> (const std::string &amp;msg)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#acb3f6e51fdc2e3bf3e342dfa1e3397f4">aitools::util::throw_overflow_error</a> (const std::string &amp;msg)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#a63ba23bb4b880b33f436539099f264cd">aitools::util::throw_underflow_error</a> (const std::string &amp;msg)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceaitools_1_1util.html#acd7ca0ac02d4e361f87855c20e3e131d">aitools::util::throw_invalid_argument</a> (const std::string &amp;msg)</td></tr>
 </table>
 </div>
 <hr class="footer"/><address style="text-align: right;"><small>Generated on Wed May 30 15:07:26 2012 by&nbsp;

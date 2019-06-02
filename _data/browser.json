@@ -10536,1031 +10536,1061 @@
             "unit-de-semantic-web-ontology"
         ],
         "unit-de-wt-organization": {
-            "sha": "7a42a691e5201641f882dee6786e7fabe38e8893",
+            "sha": "e0ec154162fc5e756f1dbb16a9174815804b7443",
             "numpages": 7,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "18cbd37a63a952e7db36157a11181bddf0cca758",
+                    "sha": "25b94900624c6a63ba73692131d3baeddb480b33",
                     "description": "Web-Technologie Benno Stein"
                 },
                 {
                     "page": 2,
-                    "sha": "c4b51f7f4915a656080115c659dcb6b6706ce7c0",
+                    "sha": "2c7e9e3629f46ee9ba1851e50cb97916715844d2",
                     "description": "Inhalt I. Einf\u00fchrung"
                 },
                 {
                     "page": 3,
-                    "sha": "00a61e5dd7fedebdc78b78f3fa192c8cec416002",
+                    "sha": "e4f5095b1f058450619211264ffea423b4caaef7",
                     "description": "Ziele"
                 },
                 {
                     "page": 4,
-                    "sha": "df29cd2fc4542bde28c23ad0f2fba6c7677e75af",
+                    "sha": "5864b0941381cfc963a46217403073bdbb48323c",
                     "description": "Angrenzende Gebiete 1. Web-Engineering"
                 },
                 {
                     "page": 5,
-                    "sha": "ed32ff151d24600bc6ca4f0a26da0451f3e4c6e6",
+                    "sha": "d3d086359eb4ecef9a5cd6702e6f10e1545c89e5",
                     "description": "Literatur Java:"
                 },
                 {
                     "page": 6,
-                    "sha": "3dd4b14c71b0f9b88008091793e8027728d074a0",
+                    "sha": "21403df0d392c5031e2e3b4b6d4cdd72a1f960db",
                     "description": "Literatur Web-Technologie:"
                 },
                 {
                     "page": 7,
-                    "sha": "cdb942158ab641a39c550e8ae9c12a08ce842902",
+                    "sha": "bdea687a05b62126cbaf6325ce1cabf42c09ffd8",
                     "description": "Literatur XML:"
                 }
             ]
         },
         "unit-de-wt-introduction": {
-            "sha": "26b2785bf3d38c4bf7d9554788715449cd392175",
-            "numpages": 54,
+            "sha": "81d32a4941d6df64d8790c1b9ff303d3db086b5a",
+            "numpages": 56,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "0385a8478617f5f0f9b6cd5ed26b011c257c7d31",
+                    "sha": "e45381e4ab38808c1a37a4eef62dede8940e6eed",
                     "description": "Kapitel WT:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 2,
-                    "sha": "f5396a60fc55bc1989eda9de92192a565b5babd4",
+                    "sha": "c668b7dabfcd8b1a8f87137d00d5305a0834c700",
                     "description": "Begriffskl\u00e4rung Definition 1 (Informationssystem"
                 },
                 {
                     "page": 3,
-                    "sha": "747f62b6abe8f0dfa884a76301e8ad40c7fe8164",
+                    "sha": "d4c7cc8d430c59cc7d3950d2ea8f71aa536c6387",
                     "description": "Begriffskl\u00e4rung Definition 1 (Informationssystem"
                 },
                 {
                     "page": 4,
-                    "sha": "1cf3a1e74b9f18426f6a7c7c0adbb03984328977",
+                    "sha": "da3899d867fd5f93d472320578269377f5f5f13a",
                     "description": "Begriffskl\u00e4rung Definition 2 (Web-basiertes Informationssystem"
                 },
                 {
                     "page": 5,
-                    "sha": "ab454a368a9db66b4db07d0944e268fd3bc8874d",
+                    "sha": "dfed5b85ef5b58276b80566d5959ba65c1b7b474",
                     "description": "Begriffskl\u00e4rung Definition 2 (Web-basiertes Informationssystem"
                 },
                 {
                     "page": 6,
-                    "sha": "8fc6033707abc73275cb3f99efd3e935ca5ac57a",
+                    "sha": "dfe0494426cbdd062607e43f770505828127c071",
                     "description": "Begriffskl\u00e4rung Definition 2 (Web-basiertes Informationssystem"
                 },
                 {
                     "page": 7,
-                    "sha": "df234234a563ff431692d92b2e429020924263f6",
+                    "sha": "68b41b64c916d5dfa4b8633eb52b9ceb7a63778b",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 8,
-                    "sha": "0dcab4fec9e12d465d149eb22706fb34786386d6",
+                    "sha": "a4d1eee1d9b5631af261c67a692c23adefd9a38d",
                     "description": "Geschichte des Internet "
                 },
                 {
                     "page": 9,
-                    "sha": "c3baf1f4173078255920da62aa9760588b15bfd9",
+                    "sha": "ddd13e5b7f7f097d4ad782589e74e32203f5591b",
                     "description": "Geschichte des Internet "
                 },
                 {
                     "page": 10,
-                    "sha": "32d95fe8880ce9c18e73eaf3f23ccb4497149a7e",
+                    "sha": "b288c31c4d64503acf41ed1bd361d1921ef0a328",
                     "description": "Geschichte des Internet "
                 },
                 {
                     "page": 11,
-                    "sha": "67ad2d8794e301834585f43af146e8acbbf84d3f",
+                    "sha": "40caa0e85e8cb90575673f92c20400bcc90cbeb8",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 12,
-                    "sha": "635c38ccb7b668d77291ad5b5bfb1203f4ceb075",
+                    "sha": "529d44d181c43a8209a8c1c062e22ffd7c2660ae",
                     "description": "Geschichte des Internet "
                 },
                 {
                     "page": 13,
-                    "sha": "b5520f50b803715bcb53e720fe2752ff05074f94",
+                    "sha": "c4e0e4f4aef3ada6498fd0a039004f0dae724efa",
                     "description": "Geschichte des Internet "
                 },
                 {
                     "page": 14,
-                    "sha": "63dcc03899e0699f583307a66d75c6249beb8493",
+                    "sha": "3ee1f20743135524dfa9aa105560f3abce978e9b",
                     "description": "Geschichte des Internet "
                 },
                 {
                     "page": 15,
-                    "sha": "b91721a5531a2df7e7a8acfc4ced57a7efedef3e",
-                    "description": "Geschichte des Internet 2017 1.074.971.748 Hosts (neue Definition) im Juli 2017."
+                    "sha": "e4574b88cc066eca5e14a40a12b92d63b39a4e50",
+                    "description": "Geschichte des Internet 2019 1.012.695.272 Hosts (einschlie\u00dflich virtual Hosts)."
                 },
                 {
                     "page": 16,
-                    "sha": "635beb8bc2516729d7dc53c400d628367487958d",
+                    "sha": "f1c965f3918387c1a03600c516253097d32a3b83",
                     "description": "Geschichte des World Wide Web "
                 },
                 {
                     "page": 17,
-                    "sha": "3b5980510c09243b5f442d5b47ef68dcd464111c",
+                    "sha": "7f432a3d57aadd0f314dc2bfc379d75d90a53a49",
                     "description": "Geschichte des World Wide Web "
                 },
                 {
                     "page": 18,
-                    "sha": "49bcfa7ce39258e59bcf526da2626ddc9ed6177f",
+                    "sha": "969c46315c0873babb166b214b8d06a913b8f963",
                     "description": "Geschichte des World Wide Web "
                 },
                 {
                     "page": 19,
-                    "sha": "1f898fadfa4dbe022f6365b17868646aaab1945b",
-                    "description": "Geschichte des World Wide Web 2018 1.770.411.187"
+                    "sha": "7012174972f07fb2845ef9e71036dc5e1244cecf",
+                    "description": "Geschichte des World Wide Web 2019 1.462.021.378"
                 },
                 {
                     "page": 20,
-                    "sha": "61fe6d8c1adfa81abf9fa58352bca1a3fe6fade5",
+                    "sha": "e48f1f2067d9f83fb91c169a9be7c7a66cd2cafb",
                     "description": "Organisation von Internet und World Wide Web Board of Trustees"
                 },
                 {
                     "page": 21,
-                    "sha": "064fa061ddd82dcaca935b4e41471e0ab3ae9bf6",
+                    "sha": "0fe133979f500552130c7df25452f950dc3f3979",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 22,
-                    "sha": "cfbc1ffa13a24aefa4b062209b9b6e26026d3ee8",
+                    "sha": "51599eada04e09f9eca21191a8d8b480de726704",
                     "description": "Organisation von Internet und World Wide Web Request for Comment RFC"
                 },
                 {
                     "page": 23,
-                    "sha": "905747b37001898d4ff73049966038466ac337fe",
+                    "sha": "03a75bafcea2b176ebebc9813b2bbc84a4cc8d15",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme "
                 },
                 {
                     "page": 24,
-                    "sha": "0092f7629ff41d129008a26ff7e38e9b8060adac",
+                    "sha": "bbab6acc90db5b9e18a3de74f64253bb79d7bf8e",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme "
                 },
                 {
                     "page": 25,
-                    "sha": "382cee1638ec775e8381df9250c2065e2a372c26",
+                    "sha": "e8d66ad6232c203960efdab67ee90f68bee8de85",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme "
                 },
                 {
                     "page": 26,
-                    "sha": "5933781d6ee0fc0bbf4c3c19bb6fa20f3fbc36b8",
+                    "sha": "4a5a5a1c8e30358f7201628bfba4f4e5ac746ee5",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme "
                 },
                 {
                     "page": 27,
-                    "sha": "18d82bdd3972fff93361579d3090642c0b4980a2",
-                    "description": "Beispiele f\u00fcr Web-basierte Informationssysteme Eine Internet-Minute in 2018"
+                    "sha": "ac97232eab6a2d3aedc45f82179738fd290d01c7",
+                    "description": "Beispiele f\u00fcr Web-basierte Informationssysteme Eine Internet-Minute in 2019"
                 },
                 {
                     "page": 28,
-                    "sha": "f3708199a0dacce8a6afe92d54a5f68df792afe1",
+                    "sha": "f3b3d3648f10ff7fb2126257dc658a0b671902c4",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme Herausforderungen f\u00fcr Suchmaschinen"
                 },
                 {
                     "page": 29,
-                    "sha": "428a20439bba39d917eca957598022ddcb418b3b",
+                    "sha": "ba9842ef29fc5863ffb17e25e08c2e1a8f26f5b3",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme Herausforderungen f\u00fcr Nachrichtenportale"
                 },
                 {
                     "page": 30,
-                    "sha": "a872772c04ea8272a4233de8595a4ec41177af15",
+                    "sha": "81c9ee1391bb1e4d45a6b7f6027e7819d74dbc48",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme Herausforderungen im E-Commerce"
                 },
                 {
                     "page": 31,
-                    "sha": "5d4e37d5401282ddc0bd64de2e3a6252caa1a87e",
+                    "sha": "f33a8e37bb74f4ba73b5e4fe7d01bb9aba76885c",
                     "description": "Beispiele f\u00fcr Web-basierte Informationssysteme E-Commerce Plattformen"
                 },
                 {
                     "page": 32,
-                    "sha": "49be9181da233d83f25b82fb7da797e8420d53b7",
+                    "sha": "51025315f3f9c135fd98d15476cbd64f11319ed9",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 33,
-                    "sha": "08af69c160e188ea38d0977ffe5ec42a7d533530",
+                    "sha": "dd82b72bc2372b2a994233b6c81633ade3956948",
                     "description": "Verteilte Systeme Web-Systeme sind verteilte Systeme"
                 },
                 {
                     "page": 34,
-                    "sha": "c305cc6aa354b5e747758b11c66927f966f7e1a0",
+                    "sha": "692e26081ba4fc1276178f7079f856f001b12347",
                     "description": "Verteilte Systeme Web-Systeme sind verteilte Systeme"
                 },
                 {
                     "page": 35,
-                    "sha": "c9c726ae6fac3f5948234dc9f02f13e6e3baacd6",
+                    "sha": "7d084211d71b93107f56ac620a0c75e0af9053c0",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 36,
-                    "sha": "80fdc5ad51a266727a781728c54876870d65a661",
+                    "sha": "34c94a85c054a2ee23588d7b71e943a7183884a4",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 37,
-                    "sha": "1e588c1fffbb3b158dc3e7746f6fc3fe7cb3f678",
+                    "sha": "174aeaf4a74de864a7a8d6b6a2bbc992cbe9da3b",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 38,
-                    "sha": "d108359c5bfe30e35c7a8d1907051d5c15163f5e",
+                    "sha": "605f01aecf6deebd80fab682bf105db5077b4c2f",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 39,
-                    "sha": "eb394e7f0f85c84adacc2938fe055a0e71761955",
+                    "sha": "c76b3e5812f507e3e9b71553a9bc8e20ad05e95c",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 40,
-                    "sha": "a5a2b60f3a9838ead8b5206a9f63370b7eb037a4",
+                    "sha": "b6cfa9b70a85b6af7a3671211fe8d4ab359b1b8c",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 41,
-                    "sha": "e12244d4a5b10ebcddf6a1af9af7868dbf177571",
+                    "sha": "5e01fc54ddbcddc9912f74150f62e9bce039d73c",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 42,
-                    "sha": "497248142078fd64c5a4a54185db94ed9cd288b9",
+                    "sha": "d27f8cd6ef7ec792078ad0d797eb37d1ab2e3c8b",
                     "description": "Verteilte Systeme "
                 },
                 {
                     "page": 43,
-                    "sha": "105b00b9d8fba72b282cde526cd479d2bed53df2",
+                    "sha": "45c1b62236c1247919225ea2312b1336b41b95a2",
                     "description": "Verteilte Systeme Herausforderung Sicherheit: DDoS-Angriff"
                 },
                 {
                     "page": 44,
-                    "sha": "d8b104ebaafd08b6093e23427befe235a0503b2f",
-                    "description": "Verteilte Systeme Weitere Herausforderungen"
+                    "sha": "f71f21da1c725908f52a928c3103ee565df651ac",
+                    "description": "Verteilte Systeme Herausforderung Sicherheit: DDoS-Angriff"
                 },
                 {
                     "page": 45,
-                    "sha": "bb46a40a0e663346b887333eb9ef2b8b48f31904",
-                    "description": "Web-Technologien und Web-Engineering Verteilte Systeme"
+                    "sha": "f9d90e3b2f6f9911cb98a7d335f59f02ef326be8",
+                    "description": "Verteilte Systeme Herausforderung Sicherheit: DDoS-Angriff"
                 },
                 {
                     "page": 46,
-                    "sha": "52e929ffd38c1e3bbcd27f42cf9388ebb7108c51",
-                    "description": "Web-Technologien und Web-Engineering Verteilte Systeme"
+                    "sha": "041eea9365562df14c76264e341bccbc2fb3ab9f",
+                    "description": "Verteilte Systeme Weitere Herausforderungen"
                 },
                 {
                     "page": 47,
-                    "sha": "89398d3fb9d62171a5af8725c6b4741d66ff71be",
+                    "sha": "afcf3e11fcd6c38157e95ed8ce1d0d56abe93b3d",
                     "description": "Web-Technologien und Web-Engineering Verteilte Systeme"
                 },
                 {
                     "page": 48,
-                    "sha": "a55866d34fb7746c0f9036f108622d824e62472d",
-                    "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
+                    "sha": "ed82d30e3f0b334f0462ad968ded905887bd5adb",
+                    "description": "Web-Technologien und Web-Engineering Verteilte Systeme"
                 },
                 {
                     "page": 49,
-                    "sha": "1bf1f5970501df3248f55b0441207da77f97731e",
-                    "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
+                    "sha": "c29c18ceb48467958a1d079707a3b96b5e706917",
+                    "description": "Web-Technologien und Web-Engineering Verteilte Systeme"
                 },
                 {
                     "page": 50,
-                    "sha": "4f06d746046d665eae590d7f7475cdc7c969b471",
+                    "sha": "6e71858bad801aeced32cec7010c885be0568378",
                     "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
                 },
                 {
                     "page": 51,
-                    "sha": "bd8fc9de9aa3e88036e39da4693aa9792d6328e0",
+                    "sha": "68df6ebc12589b49ba9e2d73feb6fb55bb1a2cce",
                     "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
                 },
                 {
                     "page": 52,
-                    "sha": "61a1788a439f257d60f187836906039d3ae71b40",
+                    "sha": "1fe7244025aeee8a8415dab3475f4ecb9f868ac9",
                     "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
                 },
                 {
                     "page": 53,
-                    "sha": "f1a5e53fa73ebb86c815cf453e4bca8e07297e9c",
-                    "description": "Web-Technologien und Web-Engineering World Wide Web"
+                    "sha": "990b0272eff5fec6af92b6c365897e2694fe33ba",
+                    "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
                 },
                 {
                     "page": 54,
-                    "sha": "ccac876cd5649c1d6f528f5b20c3ab5d2c9df8c0",
+                    "sha": "56d899a82f98c0e962cfb132eefa20ea0d6a5f0a",
+                    "description": "Web-Technologien und Web-Engineering Aufteilung von Web-Technologien"
+                },
+                {
+                    "page": 55,
+                    "sha": "66e280e9edb1c4db97c79ca83df6cea45106e51e",
+                    "description": "Web-Technologien und Web-Engineering World Wide Web"
+                },
+                {
+                    "page": 56,
+                    "sha": "8cff0b75d2bf3be89247712ced14d304e67ae14e",
                     "description": "Web-Technologien und Web-Engineering World Wide Web"
                 }
             ]
         },
         "unit-de-network-protocol1": {
-            "sha": "c0b74d1762016924bc73af2b901af5340810e419",
+            "sha": "a82c5f61e30bce849f6ef77cb8d53fe07b193b15",
             "numpages": 44,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "2974ea6e7238dbea4153ba2cf297007c9f56473c",
+                    "sha": "255088a1948438befdbb9796c999bac36dda326e",
                     "description": "Kapitel WT:II II. Rechnerkommunikation und Protokolle"
                 },
                 {
                     "page": 2,
-                    "sha": "363ab0844a8d504467261e87ab9630525392f66d",
+                    "sha": "d2262c0a9f3c7eacf5220c7f22155ad2e99d43c4",
                     "description": "Rechnernetze "
                 },
                 {
                     "page": 3,
-                    "sha": "7099ebed3ee1dc9009607b4f09a21e9ab914ec03",
+                    "sha": "f4938ab08b345ac75072b8e7292592d69eea8ee8",
                     "description": "Rechnernetze "
                 },
                 {
                     "page": 4,
-                    "sha": "890a643631887a0bf0e987da837fecc0c7308a6e",
+                    "sha": "42e3e1d17ca536b1efa65fb9b445fccc161ce20c",
                     "description": "Rechnernetze "
                 },
                 {
                     "page": 5,
-                    "sha": "1b7bdbad648d3a2398b20ec2873acf19bbf13772",
+                    "sha": "42fc229415e6a3cb681ef8f2add29d8751041266",
                     "description": "Rechnernetze "
                 },
                 {
                     "page": 6,
-                    "sha": "1d85070dffcc73ed9c003e7b15574bbe276f864c",
+                    "sha": "fc28bc168f8da32170dbcad8961789ecec7b31f1",
                     "description": "Rechnernetze "
                 },
                 {
                     "page": 7,
-                    "sha": "b2dcd08b693bcf4cb86d42798687247f9e442887",
+                    "sha": "d0dbd2d71425bfcf624329c9bc2301fc0aeff06f",
                     "description": "Rechnernetze "
                 },
                 {
                     "page": 8,
-                    "sha": "6f105e7636acdd653d70c46646ce4b11f5adf23d",
+                    "sha": "0817c9ed1c0c556d0e50269494e27a5eb8a16656",
                     "description": "Prinzipien des Datenaustauschs Punkt-zu-Punkt (ohne Zwischenelement bzw. Vermittlung)"
                 },
                 {
                     "page": 9,
-                    "sha": "81398009e299def5069e5e4155620d81b247d9d3",
+                    "sha": "4a514f7b325c42b0db129ea7c01990be2d2a9cd7",
                     "description": "Prinzipien des Datenaustauschs Punkt-zu-Punkt (ohne Zwischenelement bzw. Vermittlung)"
                 },
                 {
                     "page": 10,
-                    "sha": "57256f6105b86f57e09a859d158c7e110ec52c41",
+                    "sha": "c5ea9732f9cf3878b0bb1341bf1b7b21ba1989a7",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 11,
-                    "sha": "1a7dd3a4e8179233e54edf87a44b34ec3f906982",
+                    "sha": "cfd79dd0f1d8c16984850ddc3dd67ed7b1b6710c",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 12,
-                    "sha": "6c4d7b7b0592d84a80ea145d639510ef736a43fd",
+                    "sha": "98d16ec7e0e8367b5745163a5aab92a288f6b032",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 13,
-                    "sha": "5b6050978bbc664a3b277f1e232c8d5e1d95c72a",
+                    "sha": "97d0fd80beacb1afdf3c1d3f01cfa35ddf595453",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 14,
-                    "sha": "e55f9fe20b5dc7042c4ffe9e15022f4147b98b62",
+                    "sha": "ce4c49bb7a7a8c9fb0a6f107517e4a7e43175966",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 15,
-                    "sha": "faa54142bdd99e1f1e8fb47091298d47fb30a5dd",
+                    "sha": "6c915b9e837de399deae89279612574ae7c7cfac",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 16,
-                    "sha": "0ce8271a23cc0ca7d37963ee40256b23c8cdfd29",
+                    "sha": "f79e3953f00696d250eeb6d14e1bdbd246907c10",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 17,
-                    "sha": "a07074aff7b28b54b5ce3b44b82a45f8a818deb3",
+                    "sha": "004242df2ff3abdb9bbe1abaf330ab72629276da",
                     "description": "Prinzipien des Datenaustauschs "
                 },
                 {
                     "page": 18,
-                    "sha": "f4cfd3bde26b630737affc69bed45b64ff2a0da1",
+                    "sha": "4221a3b2ffebd1c1d5634c254f95ec0fe630b48e",
                     "description": "Netzsoftware und Kommunikationsprotokolle Herstellung einer Verbindung und Datenaustausch 6= Kommunikation."
                 },
                 {
                     "page": 19,
-                    "sha": "42a86a11db22d59d820b985e0ba69e397eacdf13",
+                    "sha": "205867cce1d9301da76ea757d6ca9ec443d0474d",
                     "description": "Netzsoftware und Kommunikationsprotokolle Die Netzsoftware ist eine in Schichten organisierte, komplexe Software, die die"
                 },
                 {
                     "page": 20,
-                    "sha": "b453b6e9cc1601eac0384cffe265b23feb555254",
+                    "sha": "faadf55727d0a696cf34a45ff7dc43080c129f18",
                     "description": "Netzsoftware und Kommunikationsprotokolle Die Netzsoftware ist eine in Schichten organisierte, komplexe Software, die die"
                 },
                 {
                     "page": 21,
-                    "sha": "85006b830247fe0b64f14990fadc4fd18aa31699",
+                    "sha": "72eee6e7f492dbcab429444702b843582566dcfb",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
                 },
                 {
                     "page": 22,
-                    "sha": "230cb0c4dc95e1642258445b04c413a1e6c0dfc5",
+                    "sha": "daf35678fded99a0e036e025994f4c2a7f45699e",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
                 },
                 {
                     "page": 23,
-                    "sha": "e8e27d1f2897533ef6b4fbc79157eda256409abe",
+                    "sha": "0460ac71b9a829df6559686a7ff7b2d517bd0e52",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
                 },
                 {
                     "page": 24,
-                    "sha": "144d97813c0ea2b343dbb3d455ad5035c5390ccf",
+                    "sha": "5ab5f89bc67bb5686eabc99868ad9183feb11ee2",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
                 },
                 {
                     "page": 25,
-                    "sha": "39b54f94b1170aff36b77b2f5ac18a1896d647d7",
+                    "sha": "69db1644394c26c356fd30850f8caec9edb20128",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
                 },
                 {
                     "page": 26,
-                    "sha": "717d8c4abbdbeb7251ad824226d067bd69e2484a",
+                    "sha": "cbcecced9e0498523e904afdec852778f4d0b0a4",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 27,
-                    "sha": "808b1ba01474dcc0eeec429c910cf7d3ee5ed111",
+                    "sha": "22413c50ac7b21aee17428804d6909c2e5339694",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI versus TCP\\u002fIP Protokoll-Stack"
                 },
                 {
                     "page": 28,
-                    "sha": "eb5f65ca46cf2e29dbeb7179d8f8a2db2cdf6bf9",
+                    "sha": "ddb0749aed4ffce5bff43483ad3adceb78f78c50",
                     "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI versus TCP\\u002fIP Protokoll-Stack"
                 },
                 {
                     "page": 29,
-                    "sha": "d9cd285e1c087da9d20d63cbcca7d31d1e4736fc",
+                    "sha": "0f0a32aa3721a89bb2ba5fee155937a2b39d0bbb",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 30,
-                    "sha": "b23db6c45ba65e9becbfa1dee82bf83d41665f6a",
+                    "sha": "44b94c4d74a9e25d4eab56779c7eb91bd6c74c72",
                     "description": "Netzsoftware und Kommunikationsprotokolle Datenfragmentierung und Kapselung"
                 },
                 {
                     "page": 31,
-                    "sha": "b5a7bfd4e8d1384ddd81ec2f37cc2cc862acf9e0",
+                    "sha": "449c37d9abd2fbf8a2c98a6c655358b29fe5634b",
                     "description": "Internetworking"
                 },
                 {
                     "page": 32,
-                    "sha": "5cd4e5fef220bf75ddc14b9463384cf888256dae",
+                    "sha": "7679041d92a2798852807063c0f3e8c17b1347b3",
                     "description": "Internetworking "
                 },
                 {
                     "page": 33,
-                    "sha": "2928913850a38caf2eb155c91fb917acc02325d6",
+                    "sha": "c6e3c023a6991fd8a813701190df5482d5984323",
                     "description": "Internetworking "
                 },
                 {
                     "page": 34,
-                    "sha": "b14af610e43ea09fdb64a237d47910403e3d7192",
+                    "sha": "a3b65d1fd17f2624e61f39e3990898b67b410fbc",
                     "description": "Internetworking MAC-Adressierung"
                 },
                 {
                     "page": 35,
-                    "sha": "3c8e9880b2f36da12d369663fa687186f33e2eab",
+                    "sha": "965c246650b3f4561d79b7ee30b6a30ef7d6925a",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 36,
-                    "sha": "ef4b92e2f7b90af6b1c144c7ebc735a1d61e9296",
+                    "sha": "99194647bc41824d5d5420ad975757dedf6be3fc",
                     "description": "Internetworking IP-Adressierung mit IPv4"
                 },
                 {
                     "page": 37,
-                    "sha": "de212a58b4a1bfc45ecceaca6216a30f17305971",
+                    "sha": "a1731db29cbe792866d57f4b0a760ed86b142dd9",
                     "description": "Internetworking IP-Adressierung mit IPv4"
                 },
                 {
                     "page": 38,
-                    "sha": "939035908a2ee86d8be0cd68fb56d5a97e478c28",
+                    "sha": "c54ec47ccaef7a19d2f7ddcd96393d5952f48d3e",
                     "description": "Internetworking IP-Adressierung mit IPv4: Netzklassen (veraltet)"
                 },
                 {
                     "page": 39,
-                    "sha": "31298dd6c09642f2987403a148c2a83b73bcef37",
+                    "sha": "327782a65715e0f305402fbe3d57e8b94903584b",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 40,
-                    "sha": "97c747aaaee3225fa440ae6de957b95c64545e89",
+                    "sha": "a5c6bce3f051e68f8a2d3ab3c518ac80c0b01467",
                     "description": "Internetworking IP-Adressierung mit IPv6"
                 },
                 {
                     "page": 41,
-                    "sha": "dafb267b7e13c60b5ceee2310fb7f590c3ec73f1",
+                    "sha": "4f5ac000e72a68b8573c206c2841e095f3230368",
                     "description": "Internetworking IP-Adressierung mit IPv6"
                 },
                 {
                     "page": 42,
-                    "sha": "b4490da67e410aee2d036a672a41e00c087f1687",
+                    "sha": "41e31706d737ac227abc304ba060eef743c18f72",
                     "description": "Internetworking Domain Name System, DNS"
                 },
                 {
                     "page": 43,
-                    "sha": "5d26c3dfd5737817b21c5ab28d9767d63e2d4969",
+                    "sha": "7f14bb51546612cc94471b226d87835e1dc329f7",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 44,
-                    "sha": "7bba718fb84f9cf869945af0f83e1dc71cccd8a5",
+                    "sha": "6f1498746461c86a68f428b2f02f2686c2b271d9",
                     "description": "Internetworking Quellen zum Nachlernen und Nachschlagen im Web"
                 }
             ]
         },
         "unit-de-network-protocol2": {
-            "sha": "f813983f8138268c285db7bd7c8ab2271c0bb701",
-            "numpages": 42,
+            "sha": "46a63ed8b8cd2f52397ebccf4a2d94fdfbc68241",
+            "numpages": 46,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "03a1d0329ac5c6fa182383f358e458a6fe2e12a6",
+                    "sha": "033f8f5007eebd330471b912b339895e41ad3eb1",
                     "description": "Kapitel WT:II "
                 },
                 {
                     "page": 2,
-                    "sha": "976536f119b67684a202b5007b028ae4bdba65b8",
+                    "sha": "1c7080d2bc524b08d0131cefbc0b9ebe3525a754",
                     "description": "Client-Server-Interaktionsmodell Client"
                 },
                 {
                     "page": 3,
-                    "sha": "632cdc39d6f546150bacdce1f2760c88b89daaca",
+                    "sha": "2163ac49f6192a7b9289245b4bcc762039ea7911",
                     "description": "Client-Server-Interaktionsmodell Client"
                 },
                 {
                     "page": 4,
-                    "sha": "27d838c3c66673f713a712072e858b2937139913",
+                    "sha": "729cd4379d289623c8cffbab59eddd99a35a9c49",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 5,
-                    "sha": "65ad68e00e12d6449ea81ec3e1628a6d589149d9",
+                    "sha": "12a3fb8d7cfdd8c381e10fc5bfba32cbc2c94a18",
                     "description": "Client-Server-Interaktionsmodell Portkonzept"
                 },
                 {
                     "page": 6,
-                    "sha": "f5b295c14839b15d18818aeeefd07545ea007fd7",
+                    "sha": "8f40ea83ad6d85e342033ad4251e195cfea31099",
                     "description": "Client-Server-Interaktionsmodell Portkonzept"
                 },
                 {
                     "page": 7,
-                    "sha": "1892cdeec2f0a9fb565828671e6cedb1f69f754f",
+                    "sha": "54c62cb1c455203d254473440f9b2ea1f521630f",
                     "description": "Client-Server-Interaktionsmodell Klassifikation von Ports"
                 },
                 {
                     "page": 8,
-                    "sha": "3e8597b663f038958c8abd595bcf3466d0b25c2c",
+                    "sha": "c282ebf0d7c3b5cdde81cc30d51c1a6f2909b7b1",
                     "description": "Client-Server-Interaktionsmodell Klassifikation von Ports"
                 },
                 {
                     "page": 9,
-                    "sha": "099d665a50ed8b358dd21957cf6d8d0c1f75df4b",
+                    "sha": "d5d54122dab9e5bc18fd54a4853da38be4cf4996",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 10,
-                    "sha": "041b9ca5cba79f6e57ec17eb51b76e907da5ea9f",
+                    "sha": "6350148c588754ccbb4a95d15d2c28bd062ce16a",
                     "description": "Client-Server-Interaktionsmodell Socket-API"
                 },
                 {
                     "page": 11,
-                    "sha": "c398a6f48f76eb202d060ef4099c260c9cbd7f9f",
+                    "sha": "fe11bbc3e45e6e0ebe2f0ec1daf6c1f7aee70afd",
                     "description": "Client-Server-Interaktionsmodell Socket-API"
                 },
                 {
                     "page": 12,
-                    "sha": "70cd886ae7192a87648a37e41d51cee97904b3c0",
+                    "sha": "bf9987e1b1c15477650fd2b536ccade90c84c437",
                     "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
                 },
                 {
                     "page": 13,
-                    "sha": "3e776b201e1ab7a30eae1f2e373e3f44983a3601",
+                    "sha": "c955f08b800a82ed02254c771e8236117f4a17a2",
                     "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
                 },
                 {
                     "page": 14,
-                    "sha": "2ff729bb15a16d2d8bf0f37810c2602148194a3e",
+                    "sha": "c84d1c88bc7406313780d96574b84d38993bb872",
                     "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
                 },
                 {
                     "page": 15,
-                    "sha": "2ce53e3180d1428316f5638cbec18a97b361225a",
+                    "sha": "4eada92b7716c0ac965e575c1df13fadc0d9826e",
                     "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
                 },
                 {
                     "page": 16,
-                    "sha": "f3d632b36e1598c1660cb60345ff4a54c471c2a7",
+                    "sha": "b83432cdf1c327ea2e1dabba8decd87c8a812d7f",
                     "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
                 },
                 {
                     "page": 17,
-                    "sha": "b3ccf7cf75a477f854de15ffd8b1dad6572f8ed0",
+                    "sha": "d6a4714128e7cc48452ff5661575aee59705b49f",
                     "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
                 },
                 {
                     "page": 18,
-                    "sha": "330e8d5d9806f589a02034b651d85d2c7e552577",
+                    "sha": "8b2a1ac131ee8d0f5fb7b9ffad21e5bbae6c5994",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 19,
-                    "sha": "975f366a6ebffef03ce25c0a828105427aadea9c",
+                    "sha": "47a56b5759e2858ec7a7afe5a9d7ec626b2f72d0",
                     "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
                 },
                 {
                     "page": 20,
-                    "sha": "3906630e5946290ff29f602cf0de4eb768d2455c",
+                    "sha": "8d90f6e3844ee52fa29e12c300f1a7c9880cee20",
                     "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
                 },
                 {
                     "page": 21,
-                    "sha": "377695d7360e3e4a24f8d8a3be8446ce45e86b4e",
+                    "sha": "b9ed1e6b438c2f3817777ee52fb9e08a0a20f2ca",
                     "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
                 },
                 {
                     "page": 22,
-                    "sha": "87e6dae612ea372b5cbbc6eb133b40157a9fb5d5",
+                    "sha": "8dd718fabcf06ef0edd14f11829bb1d8e44285de",
                     "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
                 },
                 {
                     "page": 23,
-                    "sha": "346b6828c4419f4ac7d8d9ef58248a341aaa7a5d",
+                    "sha": "6dbda101bb4adfea84ea116d41388d609b7f20bc",
                     "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
                 },
                 {
                     "page": 24,
-                    "sha": "60c5712903f1c3da4c055ea795cc2241b2f26704",
+                    "sha": "7e0cc656dcfe006e671f867814c7a3d01fd04dd4",
                     "description": "Client-Server-Interaktionsmodell Dienstabwicklung durch Anforderungs-\\u002fAntwortprotokoll"
                 },
                 {
                     "page": 25,
-                    "sha": "b5e25ccccfc7b3ff8dbdcee37aa06a696b8ba6eb",
+                    "sha": "54f37c56b4681f4274a8c9cf606ddbf243c5248b",
                     "description": "Client-Server-Interaktionsmodell Dienstabwicklung durch Anforderungs-\\u002fAntwortprotokoll"
                 },
                 {
                     "page": 26,
-                    "sha": "40990f76c2f2fdf245c008774950430bffe638a2",
-                    "description": "Uniform Resource Locator URI"
+                    "sha": "b56a253e111fd00d793a4ea6e870584813530e0f",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 27,
-                    "sha": "229b5e0c02b04a19f2e9d1b5d9ef10783854e921",
+                    "sha": "bb3920866df33c9c7eb95ce67d5738804c463990",
                     "description": "Uniform Resource Locator URI"
                 },
                 {
                     "page": 28,
-                    "sha": "504d0cde2e1ddb3f7b19543028a79311ae955622",
-                    "description": "Uniform Resource Locator URL versus URI"
+                    "sha": "64d9c5f63106e30f4d27cc6e4f8321552cc741a0",
+                    "description": "Uniform Resource Locator URI"
                 },
                 {
                     "page": 29,
-                    "sha": "568274e4d8eae0905978ca794ad3bc97a4545f52",
+                    "sha": "3b7f72d281b91634ec3914db7d5fada2f2ca4e7c",
                     "description": "Uniform Resource Locator URL versus URI"
                 },
                 {
                     "page": 30,
-                    "sha": "26c4b985ca0a18493bb4be177dfb9c193b99b38a",
+                    "sha": "b79e9af644a6e2a8299dd21b68686b581531d633",
                     "description": "Uniform Resource Locator URL versus URI"
                 },
                 {
                     "page": 31,
-                    "sha": "e234cedfb9915c3d30a0f9a9bd2dc43e59055726",
-                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                    "sha": "1ea07e1feae3b7ded8d892509b577e9978b738d3",
+                    "description": "Uniform Resource Locator URL versus URI"
                 },
                 {
                     "page": 32,
-                    "sha": "4cad6c978de1de1602785692fa65f2cb0fd26a7d",
+                    "sha": "4855be9fe04c2bc6b28fdfd47f75758e60aae6da",
                     "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 33,
-                    "sha": "7a250b716b3982b4334077751cca389014af4fbf",
+                    "sha": "b94426ee5c20cba9996a8f53ba07c9f75f2ee3ca",
                     "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 34,
-                    "sha": "3d1059af8a015178e0235ccd21c9e13676146270",
+                    "sha": "b78906cf7acee21194f4ce9b97330b23dc8f52ab",
                     "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 35,
-                    "sha": "281ab6d64e394b4e99307dc75806212659d558a0",
+                    "sha": "18380516f983b65bdecdffa00093b6f2acb54174",
                     "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 36,
-                    "sha": "2d5d3228297583f77c1be8efef2c9451d2384321",
-                    "description": "Bemerkungen:"
+                    "sha": "a474b8c2b2a405640a44e41a236b45c37bd7fac2",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 37,
-                    "sha": "1a07e2c7eb66b7560be9e207b5f322c85430d3d0",
-                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                    "sha": "aeb6665aa096a08d9b01cd564bbfe7949d2e1b82",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 38,
-                    "sha": "6560327907c1dcbe8c4de76b40ebeda07b904230",
-                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                    "sha": "c0c68bd24f15699d8f068f9e0af47a4ed8dea619",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 39,
-                    "sha": "ea35acc483a2f87fbd5554969126fe937161e093",
-                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                    "sha": "c8016989bbfced003a5734c53bc0623645f3700e",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
                 },
                 {
                     "page": 40,
-                    "sha": "41eacb7a6e310c5a90447c0b4784719a4319baf2",
-                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                    "sha": "ee3eb201ce5b38b6b9de2e953d772a007b05a792",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 41,
-                    "sha": "289e9f8caa6867510ee8f00031b801fe90506ce6",
+                    "sha": "ce98950164b1c915dd283d78840178887268e09f",
                     "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
                 },
                 {
                     "page": 42,
-                    "sha": "7056b6644e7046dcbee68f6ed79edfae114a6ed4",
+                    "sha": "2cd5fb7a42ac24bd2efaf93a9574a02852ca4105",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 43,
+                    "sha": "9368469064de51e8ea15ba59af1c1459b27e9b5a",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 44,
+                    "sha": "2bef7f73759f13067ef378fa131cbd7e6ea2b701",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 45,
+                    "sha": "ca68b1d98c5300f51a47577fe488ac6bb23a4547",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 46,
+                    "sha": "a82135d0be51346c404069bdaf8432f6fb385473",
                     "description": "Bemerkungen:"
                 }
             ]
         },
         "unit-de-network-protocol3": {
-            "sha": "6c6ed42d69165a75eeeb04236b683e789c6edcfb",
+            "sha": "39d93a879d9cfa9486c080b5930c913aa4c0e41b",
             "numpages": 53,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "e34fae431a8f18e19ec6a16c23d6af683e1a6e66",
+                    "sha": "d311c2b62550d29160942c6d458e321ad2834f0e",
                     "description": "Kapitel WT:II "
                 },
                 {
                     "page": 2,
-                    "sha": "b4bf07830fd9a43ae7433849c46dba31937d541c",
+                    "sha": "a067565d43c8d4abc77525fd55aef1a039c28f97",
                     "description": "Hypertext-Transfer-Protokoll HTTP Der HTTP-Standard sieht das Client-Server-Prinzip mit folgenden"
                 },
                 {
                     "page": 3,
-                    "sha": "fc2e4363694ebf4c3db0bd2ee260290ac328a41b",
+                    "sha": "d7c73bb517b7a07e9f4fa50951cfd1b97b1dcff2",
                     "description": "Hypertext-Transfer-Protokoll HTTP Der HTTP-Standard sieht das Client-Server-Prinzip mit folgenden"
                 },
                 {
                     "page": 4,
-                    "sha": "f28cae8bd6bf69a714a424bbd978e559d3d4e754",
+                    "sha": "79160bd9d9bd5c6fa4cfef0303b62412580a19a2",
                     "description": "Hypertext-Transfer-Protokoll HTTP Historie"
                 },
                 {
                     "page": 5,
-                    "sha": "386f66a3d6c4fad7396d9aa3110ea1c4495ed5d2",
+                    "sha": "04ce1d0b577613cf876f70fafa9aa391de91f61b",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 6,
-                    "sha": "25f8469fd8a792b90676c29c6bab54f60c727be5",
+                    "sha": "4bbc9b163c4d665aef48d0bdb90b2330399c9122",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message"
                 },
                 {
                     "page": 7,
-                    "sha": "e596eaf88ec22c3508b3bc7625b3d6244ccf217e",
+                    "sha": "656d510ac431a63ad9880cc256275d78d93cc26c",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message"
                 },
                 {
                     "page": 8,
-                    "sha": "1ae95eb2f1410dbb71e49b9bfc0a4de64a8ae0c1",
+                    "sha": "0a609c38a3079eb7ae9ee18f0cfc4d3d327bc433",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Methoden"
                 },
                 {
                     "page": 9,
-                    "sha": "171f4be0907ae39baf5399ace3f2c6e50367ec44",
+                    "sha": "352820f84559a65c991ccd8b5a29d0258daa061c",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Methoden"
                 },
                 {
                     "page": 10,
-                    "sha": "cbfbc00d8d1cb226d0b3f5b31efaaeb590361f80",
+                    "sha": "59ad61a99a34e2b008d2a015958560bc32bb3a4f",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Methoden"
                 },
                 {
                     "page": 11,
-                    "sha": "1fafe953209a39abeb1f67acd909930dc426aef2",
+                    "sha": "c1c98e81cf16e31bc9e0485ef2b779138b25591c",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Beispielanfrage mittels GET-Methode (1)"
                 },
                 {
                     "page": 12,
-                    "sha": "e32a55cab03fdf92950174b6868662d96733e881",
+                    "sha": "9e928847e9141ca138e0497c58e0dd2fe36bdf50",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
                 },
                 {
                     "page": 13,
-                    "sha": "6f310cd5fd3d1a72a1d90aedecdcf70684810ddf",
+                    "sha": "d44e18dad5cdc335dbf57e0ca14c2189416f1faf",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
                 },
                 {
                     "page": 14,
-                    "sha": "c4306dfdfe3f5a2556db50e3dae870a9471e8edb",
+                    "sha": "d9cead703c82fc0e93a5fbceda0ca5b5203d69f6",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
                 },
                 {
                     "page": 15,
-                    "sha": "010a3c93145a624ab85262d69ea027b9e39ae0d7",
+                    "sha": "305a709ac74d1844006d0ea949e6f3408d9d7359",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
                 },
                 {
                     "page": 16,
-                    "sha": "a57af7d070e38d3dea1ed284076f7e0a1e7ed2e8",
+                    "sha": "69f4e11af4159f5af743006f0542eaee2f1342db",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Response-Message"
                 },
                 {
                     "page": 17,
-                    "sha": "d27001a41f8a71794ac6aaab3b6cb046d3a3f43e",
+                    "sha": "87f8fae35b3cda1786daf73bc4c9a609cb6d90be",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Response-Message"
                 },
                 {
                     "page": 18,
-                    "sha": "b4beca65d3a418500f0ccdae83759dd2a0167282",
+                    "sha": "f7f400909e2e5f2ba260296a8773aaf72ef2762d",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Response-Message: Status-Codes"
                 },
                 {
                     "page": 19,
-                    "sha": "1a9d47eeff10cfbc846a58cc05f536b0ce5bc15d",
+                    "sha": "1182a74a9eb1d4925e3bfec1922610ef4f85f801",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Response-Message: Status-Codes"
                 },
                 {
                     "page": 20,
-                    "sha": "e92dcdf5d4d2274db6a08d9800fdf2f595e2cde4",
+                    "sha": "3a9fbb3905996a79968ed9cab2d32b47722ba765",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Message-Header"
                 },
                 {
                     "page": 21,
-                    "sha": "d2454cea5a781c7a48176a338941f60ef797323d",
+                    "sha": "8d2ed61a48d3ce3f101bc4002b9d576ff003c731",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 22,
-                    "sha": "e644f8b38f2135f6bcf2d0fb35c3f7a01b4371b2",
+                    "sha": "5f9d0004f2a40235081cb8f9674fa3d8741c0e30",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Response-Message: Beispielantwort"
                 },
                 {
                     "page": 23,
-                    "sha": "282aa7cf53b7b413647ca574c0784d66d0f20d26",
+                    "sha": "c291f82add94addfe37e6eed7981dfad9a216355",
                     "description": "Hypertext-Transfer-Protokoll HTTP Content Type \\u002f MIME Type \\u002f Media Type"
                 },
                 {
                     "page": 24,
-                    "sha": "584519fa3022f57c1dfea78b99d8b0199470ce51",
+                    "sha": "7f652e0507c748730d635f9d8ca6c5adf6425290",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 25,
-                    "sha": "202841df882c6999b30123459b028217c81612e3",
+                    "sha": "8b6a61e8c041a88958b43574f1541988e07b3d71",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 26,
-                    "sha": "e9028f69c2de2b47813cd28a5e163b65cea0332a",
+                    "sha": "91d162632cae40a4a68727658bd7c9629abd6fc6",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 27,
-                    "sha": "d51bcd98cd51b64d23f94c4e86fbb0463c660938",
+                    "sha": "0bfe877c9f2349f95a46aca53a96896ae4cd574a",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 28,
-                    "sha": "a304cb0227bb21714a0b14bd61c19000e4f40c7b",
+                    "sha": "bc04e1fc1d9c1f2db43f8937c56c72f7ebb7e3e2",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 29,
-                    "sha": "3dc4d6a6b17af9d00086e6655c507d8f2f2dacca",
+                    "sha": "03cf9341073489b0daf0a7143af7988a1d6ddd50",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 30,
-                    "sha": "cdde8dee24325886ef7076174937c064e6ab6da6",
+                    "sha": "c29cb1d93a4e4150cbd13c6e5f6d06f32410cc85",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 31,
-                    "sha": "6f95884a2c11f69b70bae56a0bfd946a97f6720f",
+                    "sha": "b312552fb883be764f353530740b1b945a625b4e",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 32,
-                    "sha": "0efa63d63f12b84dc63e384f892dcb948fb920e0",
+                    "sha": "02c8b714a24a19445f5d7c6ec2bf2d2e348f4860",
                     "description": "Hypertext-Transfer-Protokoll HTTP HTTP-Kommunikation mit Java"
                 },
                 {
                     "page": 33,
-                    "sha": "f255e1211a39c507eb0f8cf0c78f1fae9ac0729f",
+                    "sha": "5bda2f440a76cbd3fbc3bd4421f3f426f31a3ce0",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management"
                 },
                 {
                     "page": 34,
-                    "sha": "06474e75bffd273c33bd97d6a392d6ebe31e9d7a",
+                    "sha": "7701407787ce08e5311fef0638a08bd99e0e34c5",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management"
                 },
                 {
                     "page": 35,
-                    "sha": "ae7070430ef374fb5e32aa0ff3386cfeeb186b0b",
+                    "sha": "294d056926ccc8b79703420ca2aea9bb451b2c6e",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management"
                 },
                 {
                     "page": 36,
-                    "sha": "02f1536d06e5316b01133ccfa2ac9ee51940d5f4",
+                    "sha": "3f8635e7995eeb5a5551e6da51bdd643c692ee9e",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 37,
-                    "sha": "da839e3482428ea1ee7c1d23e2ed7cf284d9d88c",
+                    "sha": "c5c04e874dd2d1f58a411ee073c084ada8f0b6cd",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 38,
-                    "sha": "a12f266c98a725f41bec4f956036e2eec2ae4d89",
+                    "sha": "57d59f850efb1a6812de6a56a22bf237ee18c107",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 39,
-                    "sha": "1d24e994bb8da41a2c836aa347981fa305521c4f",
+                    "sha": "25438c68d69bc6ee3d530919df6ea6795e5618be",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 40,
-                    "sha": "f1949d80e4c666c8d9b06b5eeafcf9fb9627d36f",
+                    "sha": "916be503b8d588d5179975946dfaf91cbacf95e3",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 41,
-                    "sha": "9eec996dc3fc242b1407385b86197eda159f0b66",
+                    "sha": "a4bbac30169f1e00ad6fc05e4e93b75a238d3f1d",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 42,
-                    "sha": "556a35ec4870a135d9ea5712a4834cc29b08a858",
+                    "sha": "302403e9f4bff80b0b34aa4776702fb7b17d1d4f",
                     "description": "Fortgeschrittene HTTP-Konzepte Session-Management: Cookies"
                 },
                 {
                     "page": 43,
-                    "sha": "3a1635bd8d7d6bd21c7733a5f20f5d7dbbf1f010",
+                    "sha": "262a797f44369058968b8fc6b47dbe6f43dff199",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 44,
-                    "sha": "95b306bab99086b48203292596a148cd6c5f5fcd",
+                    "sha": "41296cf947414e8c4adc5a47dd2546793cf5d782",
                     "description": "Fortgeschrittene HTTP-Konzepte Content-Negotiation"
                 },
                 {
                     "page": 45,
-                    "sha": "d5c65c84e0dc621448d5524eec0e83f9514b111f",
+                    "sha": "ee06334e7255cd7ca9f11cd96ae3c522a78ece74",
                     "description": "Fortgeschrittene HTTP-Konzepte Content-Negotiation"
                 },
                 {
                     "page": 46,
-                    "sha": "ee268c8511551d67c2b70b275f618fc9248e8c2a",
+                    "sha": "adec8dbe9ebc779fd40903c686709beb0433a5a0",
                     "description": "Fortgeschrittene HTTP-Konzepte Content-Negotiation: transparent"
                 },
                 {
                     "page": 47,
-                    "sha": "a7db82659e01cbeefa2922a63b11f17b7d2f5338",
+                    "sha": "dc267ebb1bd71617fcce86eb69405290acf2ad2f",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 48,
-                    "sha": "77dc6d992a144814271911054f7efb6e359c2cb2",
+                    "sha": "7d59015b967f46b9efffe8b7b9aa3c9f9f717670",
                     "description": "Fortgeschrittene HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
                 },
                 {
                     "page": 49,
-                    "sha": "7f4513398f97a4010aad96d1f8af6bba6dc20d7e",
+                    "sha": "0c1b09c7c3346db09116eefcbd8a6e318e186981",
                     "description": "Fortgeschrittene HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
                 },
                 {
                     "page": 50,
-                    "sha": "ff0c59541a197ee4cff7e3a2bf7ec7a4b356c94c",
+                    "sha": "c724acb729f6c1336775363213da8b6e7c4d8cdb",
                     "description": "Fortgeschrittene HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
                 },
                 {
                     "page": 51,
-                    "sha": "39990c0b75b98538570d5077211bb70f78607d8a",
+                    "sha": "c685ce466a9ab2f48f6a5d8a13c02caa9387ab40",
                     "description": "Fortgeschrittene HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
                 },
                 {
                     "page": 52,
-                    "sha": "d0e96081e86f6fe5845dfb03699a055c020ef7ef",
+                    "sha": "84511fb6e9b49036fa429254d22b538f3721d131",
                     "description": "Fortgeschrittene HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
                 },
                 {
                     "page": 53,
-                    "sha": "76ef81e5d79e1efb52de5caed261f5b341db952e",
+                    "sha": "b06a85edf918d4ae0903df6434b67a27ad38aa2b",
                     "description": "WWW "
                 }
             ]
@@ -25888,825 +25918,825 @@
             "unit-en-crawling"
         ],
         "unit-en-ir-organization": {
-            "sha": "231236f6a34d111aa5204979c7470e9c5b98b95c",
+            "sha": "00af4778997c16161f56d704df235d444fa2e5c8",
             "numpages": 9,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "a7ef08fc4fc7f252c37b59a4d2bd6683c683e18f",
+                    "sha": "a420e19f879df5656ffc39be603f29fe19dcdade",
                     "description": "Information Retrieval Matthias Hagen"
                 },
                 {
                     "page": 2,
-                    "sha": "db14b6f39d870c7249befc6456b1713501f9c43c",
+                    "sha": "f79e972562413b69affaf05583935aef0696def5",
                     "description": "Contents I. Introduction"
                 },
                 {
                     "page": 3,
-                    "sha": "7e4f6b8514cda3b914f95a83ba22d424fef769da",
+                    "sha": "f921f5082f823ca775c55df42ca967becbda949e",
                     "description": "Objectives "
                 },
                 {
                     "page": 4,
-                    "sha": "7253a2a428861342044c06c34eca74b290b2a29d",
+                    "sha": "3ddd1914ee0f016f77908878f584fe9221b7b365",
                     "description": "Related Fields 1. Statistics"
                 },
                 {
                     "page": 5,
-                    "sha": "9dfa44d50f1b08ca5fb39f9105fb55c09f5589f1",
+                    "sha": "d09bd5143ea710b029b0518408fbc2deae97c9a7",
                     "description": "Literature Information Retrieval:"
                 },
                 {
                     "page": 6,
-                    "sha": "b55d283e9d86702a87ba7fa080135d0173413793",
+                    "sha": "140ffbe5b454ef51983e488f76e2ad3ef9a04312",
                     "description": "Literature Information Retrieval:"
                 },
                 {
                     "page": 7,
-                    "sha": "9160ec0348ef6ba419107fcf2710e7e53a52e5f7",
+                    "sha": "8f8759f865c76ee14c59df91285a082ada6cf7c0",
                     "description": "Literature \u201cCore\u201d information retrieval conferences:"
                 },
                 {
                     "page": 8,
-                    "sha": "c0afc4d654d18bdd54efead8a9924b3b05ab753b",
+                    "sha": "150743e202a736e458fa87ff54f433126e982df8",
                     "description": "Software Industry (Open Source):"
                 },
                 {
                     "page": 9,
-                    "sha": "948365b8db623acde5b0ac428a6078e92e47cace",
+                    "sha": "d61c9b31b3cd6861a3c33e5517d9a2dd3ee00101",
                     "description": "Software Services:"
                 }
             ]
         },
         "unit-en-ir-introduction": {
-            "sha": "bade977a1564850420ded22a65ddd3fee4f99c26",
+            "sha": "12fb8c3e86379d65ec776ba9e10678b77229acec",
             "numpages": 75,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "0a0bca148660a145b2a84f6cbf21e56101409424",
+                    "sha": "7797402a6676e4a21a984d10eb5f422d02de954e",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 2,
-                    "sha": "f25509e3ae339e5df5e01bf472119f684513874c",
+                    "sha": "9cd944a67f4774469986e3176d98d8273537a222",
                     "description": "Examples of Retrieval Tasks Task: Learn everything there is to learn about information retrieval."
                 },
                 {
                     "page": 3,
-                    "sha": "dba6ca7d51c88c986ca406fff932dd8b79276f33",
+                    "sha": "8fbe83965e4f31b741f5383d9fbcd8d7fafc955e",
                     "description": "Examples of Retrieval Tasks Task: Learn everything there is to learn about information retrieval."
                 },
                 {
                     "page": 4,
-                    "sha": "b1de44a4c46ed5c139d42f609809ea18507a88c0",
+                    "sha": "b507803bef56e9d115af6aeed9bd7afeed43c918",
                     "description": "Remarks:"
                 },
                 {
                     "page": 5,
-                    "sha": "7ee0f3af673f4f8d6ea2c74b47a000a1f691ec03",
+                    "sha": "7a3b8b3f201d016c4c6701546ee049fc4bd114c4",
                     "description": "Examples of Retrieval Tasks Task: Plan a trip from San Francisco to Paris, France."
                 },
                 {
                     "page": 6,
-                    "sha": "bc104df50a37bffd91c4683e8143037f3f7b44e2",
+                    "sha": "eda143b871cc10b5431dbad082ecdcf373f16a05",
                     "description": "Examples of Retrieval Tasks Task: Plan a trip from San Francisco to Paris, France."
                 },
                 {
                     "page": 7,
-                    "sha": "8e483221c0ff2941ee8911d8cfe92095d99c331f",
+                    "sha": "9f482cd616a43ee5d98773f265d384d2774afe89",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "471ef6f2808757be1203ea18f99690b85271d131",
+                    "sha": "b7a35fbdcf7a38e02dca2a52ea303497d5086a23",
                     "description": "Examples of Retrieval Tasks Task: What were the news of the day?"
                 },
                 {
                     "page": 9,
-                    "sha": "504472ce5084fb76e830461dbc40bb686124f646",
+                    "sha": "1d04e5193e4a091adfe24f3e2be7e45ad4c5c20a",
                     "description": "Examples of Retrieval Tasks Task: What were the news of the day?"
                 },
                 {
                     "page": 10,
-                    "sha": "64a7e9fc6c919ac415db7157257b1bf146251d2e",
+                    "sha": "e63ff005a98f6ed61c80482593ee86aef137837d",
                     "description": "Examples of Retrieval Tasks Task: What were the news of the day?"
                 },
                 {
                     "page": 11,
-                    "sha": "3eca517c6e52e604f2abeec7cc947472ff993bfe",
+                    "sha": "e35ef9066f78e8dff5b575d8a0e4d989ba82bc42",
                     "description": "Remarks:"
                 },
                 {
                     "page": 12,
-                    "sha": "0c83dabd920e4c5a1287f5c3a20b385b7a210012",
+                    "sha": "1daca532aae0bb1d39ac5405c07dbfb176c7f25b",
                     "description": "Examples of Retrieval Tasks Task: Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 13,
-                    "sha": "192d12522781e894f3cad615d1da1da90a60d38e",
+                    "sha": "65b474c709f876a731243e86ffade6f1f65bf034",
                     "description": "Examples of Retrieval Tasks Task: Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 14,
-                    "sha": "59a9366dc3a8bd2cd9300a128fe6c7536359c0b4",
+                    "sha": "cbf2c5ed958a1a267c8390a73efee27baa5bb237",
                     "description": "Examples of Retrieval Tasks Task: Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 15,
-                    "sha": "4f9a5eb3448a02b5c05e1ca037db33424734d1d1",
+                    "sha": "9939943ff1f92732454f17908f3340a152bd2980",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "014e1eb2d2b72d16d067a68ca2cba4071ec5f3c0",
+                    "sha": "e018065d6c4130ab5088cf076455fcf8646c2b0e",
                     "description": "Examples of Retrieval Tasks Task: Build a fence."
                 },
                 {
                     "page": 17,
-                    "sha": "879c37162e6de8200c1ad9f7b7a8569a66d447ad",
+                    "sha": "dacb83f36977074fe90fb5d1003d809d6aa0bc55",
                     "description": "Examples of Retrieval Tasks Task: Build a fence."
                 },
                 {
                     "page": 18,
-                    "sha": "e6039fbcdf6cbbc0545a6954e4913b9e9aa4f0c9",
+                    "sha": "8e04a0e1967e9009db37b8fd4391676f785797f6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "7c9a6444d5527ea65f876b48060825cc969d6e51",
+                    "sha": "ef5d3b22d3ba0e5fb68b677de21374f085afa11e",
                     "description": "Examples of Retrieval Tasks Task: Write an essay on video surveillance."
                 },
                 {
                     "page": 20,
-                    "sha": "2057614b62633c4e194bb2a2809e39d47ef72d9a",
+                    "sha": "c21f421f55796ccd8bfdfec2a8442dd531061d2c",
                     "description": "Examples of Retrieval Tasks Task: Write an essay on video surveillance."
                 },
                 {
                     "page": 21,
-                    "sha": "39a91d6b42a904113d87d64713eb0620b94b0b87",
+                    "sha": "0a13f4cfc1e69fc4b8b0f7d5302fc7a875fa3df6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 22,
-                    "sha": "10278adf7ff1ffd4006d6d6349213d246172ccd3",
+                    "sha": "af1ad7e5cfa3f8c2b75085ed6407e82dce2a0887",
                     "description": "Examples of Retrieval Tasks Task: Given an example image, find more like it."
                 },
                 {
                     "page": 23,
-                    "sha": "08f0b66edaab25842686abf937860c1f6843bae9",
+                    "sha": "ba1d21f2dbc00c0583e29689fc0322e5af3cc64c",
                     "description": "Examples of Retrieval Tasks Task: Given an example image, find more like it."
                 },
                 {
                     "page": 24,
-                    "sha": "58da68d9e7c69c5d5f2c90f101f5c81d3873552e",
+                    "sha": "75642aa45713b84704c5b245a268ba896c83db66",
                     "description": "Examples of Retrieval Tasks Task: Given an example text, find more like it."
                 },
                 {
                     "page": 25,
-                    "sha": "a2ae2d6f90375717f0c16828d6ef5ba6b5e99e1f",
+                    "sha": "560bf6e2827cb828577ff9b10bbe598e5da89ef1",
                     "description": "Examples of Retrieval Tasks Task: Given an example text, find more like it."
                 },
                 {
                     "page": 26,
-                    "sha": "6f9cb18d644f56097c63316212062e02f08d706e",
+                    "sha": "07cb73aa72d82aeb15dd65f629330fcbadfb94ab",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "94bbeee20a41145f7aa447ac7f6b545790898bbe",
+                    "sha": "20f05160e728a2af9b0ed8e5e46fdb60cc2b86a8",
                     "description": "Examples of Retrieval Tasks Task: Find out what people commonly write in the phrase how to ? this."
                 },
                 {
                     "page": 28,
-                    "sha": "3849935ab3ffa0eb09ee45d0069de4068bad8e96",
+                    "sha": "9087d4b937b8645b983a932fadfcf48381aea7fa",
                     "description": "Examples of Retrieval Tasks Task: Find out what people commonly write in the phrase how to ? this."
                 },
                 {
                     "page": 29,
-                    "sha": "61baf5471302babb3eafff70dcf805893432beb9",
+                    "sha": "0445f658963eb1effe13305b227c8cf58af7aaf1",
                     "description": "Remarks:"
                 },
                 {
                     "page": 30,
-                    "sha": "2a7be4b1dc3df74a2acc9f51dbc92a077addd4b3",
+                    "sha": "cbf2515e8c5626f571f97ed5d8584fe783a59e9f",
                     "description": "Terminology Information science distinguishes the concepts data, information, and knowledge."
                 },
                 {
                     "page": 31,
-                    "sha": "187354e9acd557e6a2cb91b9bc46751999c52fd4",
+                    "sha": "d5680426720e95898916145291fd8fcfbfc562dd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "78a82075a1635385613dcea5b1ac2475fbef0fde",
+                    "sha": "ebfe117c77ba240b2987008af8fde876df82a6a5",
                     "description": "Terminology Definition 4 (Information System)"
                 },
                 {
                     "page": 33,
-                    "sha": "f19ad709c3ff7d6154d01462ce44c410ae2b1160",
+                    "sha": "1d1ca0cd1303e71f759d0101200126953e1ba59b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 34,
-                    "sha": "43b76e1d266ad998431090ecedfbcd6e33d08365",
+                    "sha": "83459b73ee541b4530cf7cdbbbe4046f0c121e30",
                     "description": "Terminology "
                 },
                 {
                     "page": 35,
-                    "sha": "8c897d7817011a08d2553539eb20ecdec1f10591",
+                    "sha": "deb1265a963480a2140db6c1cd28f7242ec084d7",
                     "description": "Terminology "
                 },
                 {
                     "page": 36,
-                    "sha": "f94fc7cd5e3227aece12a91ae21ff7de617a90d1",
+                    "sha": "bfceaec1fb0974da313a1a9627e2618f7cf44872",
                     "description": "Terminology "
                 },
                 {
                     "page": 37,
-                    "sha": "afda157553e86dbe94b5c065e0a44f390d131b34",
+                    "sha": "29d06521ba44138ae1286e5c968b2c2f84a0a08c",
                     "description": "Terminology "
                 },
                 {
                     "page": 38,
-                    "sha": "ae7766c877f786999cb1188b99d8929a073a0b65",
+                    "sha": "c70eb0e1b0b816cb514894f4af8e7812fd4da199",
                     "description": "Terminology "
                 },
                 {
                     "page": 39,
-                    "sha": "37edf595a1eaf43b9ff2ce8d5117428201f64cad",
+                    "sha": "14cf2c4e4b9a18deb3f64e2ee3c0ea8721a1f14d",
                     "description": "Terminology "
                 },
                 {
                     "page": 40,
-                    "sha": "6cb4f7d57558ae1d6e3af33f24175a23c1f377f6",
+                    "sha": "4a6bac06da2a7fe806e0e5725592b08f27adf2b1",
                     "description": "Terminology "
                 },
                 {
                     "page": 41,
-                    "sha": "01a308e82e09c7756fc5c272765ee7b8528d6424",
+                    "sha": "22127cf910ed89d04c8e967ad8fba9984070aff4",
                     "description": "Terminology "
                 },
                 {
                     "page": 42,
-                    "sha": "424b9fc0e1439883fa79dd504bc87180b0988b83",
+                    "sha": "1a9f0a0c3ce13f10383720821f44ca7e02ac1695",
                     "description": "Terminology "
                 },
                 {
                     "page": 43,
-                    "sha": "70e5a103f206e40eaf0b05c6f953c9aa8f0a84ed",
+                    "sha": "7b6626b7536b72585c940b22a03266e685149786",
                     "description": "Terminology "
                 },
                 {
                     "page": 44,
-                    "sha": "eb58d1501de772869cc1f84773567df12149c7d3",
+                    "sha": "f483e2d5b1e291a579eb1538cc3064cbf59e4aa7",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 45,
-                    "sha": "a214bcb835158f1e7074e0ac00823567897da618",
+                    "sha": "3bca75cac4a77f45efc7c638849211aaa15f3d1b",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 46,
-                    "sha": "300abbab9a7073b9e7f79880a5470ecb9c8a7912",
+                    "sha": "6d91f4be10a207be16a822a2ceeec793d79a4d2c",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 47,
-                    "sha": "3c5d0de9c464d8ca7289c0c7804475d2f172a54f",
+                    "sha": "291e05c8da6c4d3a6849cc0e8b1b55c900920a36",
                     "description": "Remarks:"
                 },
                 {
                     "page": 48,
-                    "sha": "aa72e6df928f802532744ef2c1165c99e86551b8",
+                    "sha": "24ef59227a8ceacb65a41db350c8dd8beb66fcf7",
                     "description": "Delineation Databases, Data Retrieval"
                 },
                 {
                     "page": 49,
-                    "sha": "841f870eb60d69af11f6879156254d08efaa5507",
+                    "sha": "8be56997fcd21f71af860128e7e0ad9c872ba8eb",
                     "description": "Remarks:"
                 },
                 {
                     "page": 50,
-                    "sha": "5e18db00f30e8f299fd5fa4a82d1cadff6463679",
+                    "sha": "4853d3fd98968cde35f24ab4f2b617dbdee40e94",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 51,
-                    "sha": "ebe5c2b3b8c862090ea8131b3e315f77daa4b25a",
+                    "sha": "7e899ec3d3efc4761cd52be6cc4d8b327b9d8a1e",
                     "description": "Remarks:"
                 },
                 {
                     "page": 52,
-                    "sha": "39ae51186242c0c1777df88fa783f58afaef371b",
+                    "sha": "fa5e5a098d6ed2657618abc67ed3641fad793628",
                     "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 53,
-                    "sha": "cd2c6e6ba518dcdfd1ababa20a77715475c9bc16",
+                    "sha": "9e98db5f3d152907c0be42dcb5853606308f8524",
                     "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 54,
-                    "sha": "871b7aae6de92f1b5c42aae212e63cfccc3133ee",
+                    "sha": "672bf088390ab649b121953fa7c76dd0f1c6a506",
                     "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 55,
-                    "sha": "53101373ad4a4851d730ce672ef64ad0b44341d6",
+                    "sha": "e3c6127ca060c4160437fc185478d479744cd8cf",
                     "description": "Delineation Retrieval"
                 },
                 {
                     "page": 56,
-                    "sha": "0f7896ae5c991eb565c219a28b2425c2b0208ba6",
+                    "sha": "581aefb875d633b6f23afefc10f72e8eab79e82b",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 57,
-                    "sha": "93b48752de5c73bd868e8f4125d6c240e9d96035",
+                    "sha": "e28125e516c613ffcf54c16ef1db63ab8d7ead89",
                     "description": "Remarks:"
                 },
                 {
                     "page": 58,
-                    "sha": "27749b77e2f0482e5991f3d8eb93367de5d3e268",
+                    "sha": "a5a4e5e4151e8186e2106bd0faa315d96ac6f927",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 59,
-                    "sha": "1cac5940cb94b1d92b4fe14f369dd92de332c360",
+                    "sha": "4d03eb96d5850897aba7e1cb0db658d808be19b8",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 60,
-                    "sha": "b1006ef4dda77781cf43f73da510134cc83f4040",
+                    "sha": "3fa179a71e832b7cfbb633b706fbd8e718aab5b4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 61,
-                    "sha": "55e13340ec1c61cc25c9ab032fa169ab32b799c8",
+                    "sha": "3f26461cdd9007e7660178b8c9d177d54909b04d",
                     "description": "Historical Background Mechanical Retrieval"
                 },
                 {
                     "page": 62,
-                    "sha": "ac91409ef59049077892f98dead96e74dd6df3d1",
+                    "sha": "796ca4c9987a46f51f4113cb1e50c915eb6a4999",
                     "description": "Historical Background Mechanical Retrieval"
                 },
                 {
                     "page": 63,
-                    "sha": "f9bad3e004a44043627e12a299ec5c53bf86d3a5",
+                    "sha": "e5f1e14f169886b4ee33ef12c9cd896dc389dd93",
                     "description": "Historical Background Computerized Retrieval"
                 },
                 {
                     "page": 64,
-                    "sha": "4d8c29e9a40e6ba0f076c055a370741cf80f5123",
+                    "sha": "6a6e75699099edcdeffc52f8354b49dc8da6263c",
                     "description": "Historical Background Computerized Retrieval"
                 },
                 {
                     "page": 65,
-                    "sha": "864ea840eac5973ad6eb81b234028f9b13ba7e42",
+                    "sha": "2bc794095c1f7d7beb56f38836a3cc563d5fbea7",
                     "description": "Remarks:"
                 },
                 {
                     "page": 66,
-                    "sha": "3e685f22da705c6179714750c7281d9850c4c245",
+                    "sha": "ebf23e202d8632ff84ba4db662ba85736560381d",
                     "description": "Historical Background Information Retrieval (1950s)"
                 },
                 {
                     "page": 67,
-                    "sha": "8d3d6061159198b70e075c2ed27ad351afde0eea",
+                    "sha": "938420dbcd7d04ade789c1b65aa0974702466113",
                     "description": "Historical Background Information Retrieval (1960s)"
                 },
                 {
                     "page": 68,
-                    "sha": "0740b183438cd433229347a5d415814ce89ddea5",
+                    "sha": "e565b37132d1adfa24257db1ef015360c1cb700b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 69,
-                    "sha": "8ce717025ee644b8231cdabaf4df3414acc7c23b",
+                    "sha": "11e443468ecc1a18ae9a94ca8feee4b2dc6909e7",
                     "description": "Historical Background Information Retrieval (1970s)"
                 },
                 {
                     "page": 70,
-                    "sha": "1b8eb6ed046929675d0855c267cf8f6e6e339b1b",
+                    "sha": "714895a6f858d5e55af975c462334db82e2f2b37",
                     "description": "Historical Background Information Retrieval (1980s - mid-1990s)"
                 },
                 {
                     "page": 71,
-                    "sha": "feaceffbb8c51c8f124a027de4d0b1accb691517",
+                    "sha": "d475b11ff0e3ffa44698b4496ba94d0e2e9861c6",
                     "description": "Historical Background Information Retrieval (mid-1990s - 2000s)"
                 },
                 {
                     "page": 72,
-                    "sha": "e627b193da1a503de1c0bcb5b52af1fe3ed8c84d",
+                    "sha": "ca40b188e7f9adc8b08c12d927d1e45e517d131a",
                     "description": "Web Search "
                 },
                 {
                     "page": 73,
-                    "sha": "d232b9b8a1f474c250350a5fc1612b043579f8ed",
+                    "sha": "bf66e14e0e9ebe1574a6c8d6eda5783ca15f03de",
                     "description": "Web Search "
                 },
                 {
                     "page": 74,
-                    "sha": "6bf539858c12a9b79f043107f126d02ccf4d392c",
+                    "sha": "deebbc05f2b0d456bfde833669c5d63bf1548007",
                     "description": "Web Search "
                 },
                 {
                     "page": 75,
-                    "sha": "d58153d0e887f1d8de21e8046a9dd2120ef37299",
+                    "sha": "bca350617fd7543032dc03f98d24af1c2b9bc85d",
                     "description": "Web Search "
                 }
             ]
         },
         "unit-en-ir-architecture": {
-            "sha": "f40eb88b89e033a113e206c2772b870e29a64173",
+            "sha": "0689fabb5d4ed9c9684e47a75574c9f5e7a1cd56",
             "numpages": 64,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "eb92a612b1f4980fca8980cde558e4013f68f50b",
+                    "sha": "7b781ab0ae513b4292f6caf3b83008a0fbdc8e7e",
                     "description": "Chapter IR:II II. Architecture of a Search Engine"
                 },
                 {
                     "page": 2,
-                    "sha": "0f5ce18d6d653038e4fcd1151d4f38e857aad541",
+                    "sha": "10e3a7cf4e7b717949bfe9d080b8763144931b1c",
                     "description": "Remarks:"
                 },
                 {
                     "page": 3,
-                    "sha": "3655b5a8068ec57b6717031895260b63020ee416",
-                    "description": "IR:II-84 "
+                    "sha": "f9a7e8c198cb7e493094b374a42158484db3e335",
+                    "description": "IR:II-87 "
                 },
                 {
                     "page": 4,
-                    "sha": "081a71e4f548a6c770e01cdf1320c6d6eb9e9289",
+                    "sha": "723c8bc9330061bec3a80e39321b1c492ff8b600",
                     "description": "? "
                 },
                 {
                     "page": 5,
-                    "sha": "109558d6b9f9dfa9762e0d3fba813ceced2cf7bc",
+                    "sha": "b08d1de89339cfc78857c341e73eeaa7506ea242",
                     "description": "Indexing Process "
                 },
                 {
                     "page": 6,
-                    "sha": "014d22094c5ceb206652d493cd94aadd12b605bf",
+                    "sha": "754b5d80f279458e33e4cc9158a5f21a160eae2b",
                     "description": "Acquisition conversion to"
                 },
                 {
                     "page": 7,
-                    "sha": "a442e8a40239d1fbbb85cfcdcc889a882e9c73d6",
+                    "sha": "ac528085a45c3a61a5f991e404e5395aaf5cbaa8",
                     "description": "Indexing Process Acquisition"
                 },
                 {
                     "page": 8,
-                    "sha": "191bcc6e7b006c531594a4c695f74ecc0d8c9ab0",
+                    "sha": "04a1be59de7c8d9b68ae23f356d5954cb9206c98",
                     "description": "Indexing Process Acquisition: Crawler"
                 },
                 {
                     "page": 9,
-                    "sha": "74b9155ad353e5eab68d2b75340c3dff2b6cc355",
+                    "sha": "92005c31620fc86d5e0ca2fe51225a4f9c955730",
                     "description": "Indexing Process Acquisition: Crawler"
                 },
                 {
                     "page": 10,
-                    "sha": "9e9606c04e658c9b95e4851191df6a9e5b02931d",
+                    "sha": "36f7a16888000897e8147d9daffd6df2315c5a4b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 11,
-                    "sha": "392846f327f24b678db95fdcc70f6643899167ab",
+                    "sha": "811f2150be62e4e115dd0fb77ab2550cfc2f19a6",
                     "description": "Indexing Process Acquisition: Converter"
                 },
                 {
                     "page": 12,
-                    "sha": "ff21992aecc60e0a20e8ed22d32eb622a7defb5d",
+                    "sha": "7d009825f08e8cd89dcc4f87f07d2096b5097fde",
                     "description": "Indexing Process Acquisition: Document Store"
                 },
                 {
                     "page": 13,
-                    "sha": "3abb4c25ee81e6842b14111e90ed20e941943e4b",
+                    "sha": "fd647c72a369eb29e55ad1acc28ccc639ecb2bf6",
                     "description": "Indexing Process Acquisition: Document Store"
                 },
                 {
                     "page": 14,
-                    "sha": "bb1a0365e36f50f55eb49cccb6eb4f5c1dbb9f57",
+                    "sha": "c9062248e03f38719b62656b03fc19281faacf3b",
                     "description": "Acquisition conversion to"
                 },
                 {
                     "page": 15,
-                    "sha": "58f2f10309623a6be3b73c686ee726e0a905a981",
+                    "sha": "e342e849d021486e5daf3d667658f4e11d314b63",
                     "description": "d "
                 },
                 {
                     "page": 16,
-                    "sha": "80358295411e8915f26a29a734702391f6ea2bda",
+                    "sha": "98034f200651621558dab1152b53d32b1a5fcf5d",
                     "description": "Indexing Process Text Transformation"
                 },
                 {
                     "page": 17,
-                    "sha": "e37a7ceb8e4486e9f86869802016ee00358039eb",
+                    "sha": "69282b40adc93bacb3d80aa4a81cafc958b24a87",
                     "description": "Indexing Process Text Transformation"
                 },
                 {
                     "page": 18,
-                    "sha": "2dee14ee718fe57c32371ac33736c233180f89a1",
+                    "sha": "a0a22f3dd38680250c075d8792fc20bc1eef648e",
                     "description": "Indexing Process Text Transformation: Segmenter"
                 },
                 {
                     "page": 19,
-                    "sha": "2fe9de80a7d4d7a1365284c7bf9a7f9d142a1ae2",
+                    "sha": "c877c9a358c2321d9b1c2c406528823b43d05d07",
                     "description": "Indexing Process Text Transformation: Segmenter"
                 },
                 {
                     "page": 20,
-                    "sha": "ca57ae0f6503cd172b0fa9c208e1d4367c57eaf4",
+                    "sha": "0d7115e91584166d85b3355bce380c245e399e42",
                     "description": "Indexing Process Text Transformation: Stopping"
                 },
                 {
                     "page": 21,
-                    "sha": "d42b3b8dacdf788e888d5d91a53f96a36fbc557e",
+                    "sha": "9a0ab0c757114c8aa355d81fa5ec69f510b87e3e",
                     "description": "Indexing Process Text Transformation: Stemmer \\u002f Lemmatizer"
                 },
                 {
                     "page": 22,
-                    "sha": "807ec1a30984a426d419cec79d2e13b2a140e567",
+                    "sha": "acb01e26bc7afed274d079b7b55cfb2a8b4e3091",
                     "description": "Indexing Process Text Transformation: Stemmer \\u002f Lemmatizer"
                 },
                 {
                     "page": 23,
-                    "sha": "8e3cd2847bb80aa00db6754bcaad5184a06b8157",
+                    "sha": "f03d3f4cef693d67deb47b77a0add4561a50e9d7",
                     "description": "Indexing Process Text Transformation: Link Extraction"
                 },
                 {
                     "page": 24,
-                    "sha": "593f90b112c2ea12f08efb80bb95d0522a8c6f00",
+                    "sha": "f772584c9156bbfdc967266adfda7159c773958b",
                     "description": "Indexing Process Text Transformation: Information Extraction"
                 },
                 {
                     "page": 25,
-                    "sha": "aff68d002f7a741730283d7cddbb0942135ef2f8",
+                    "sha": "8abe225a8a2945971d68d05bb3d6b35038f88b8d",
                     "description": "Indexing Process Text Transformation: Classification"
                 },
                 {
                     "page": 26,
-                    "sha": "5bcaa01ca0d0aa73017688db3050cd50896a0fd7",
+                    "sha": "3216396e7a31c00acd1c569714f8b04a2d35e071",
                     "description": "d "
                 },
                 {
                     "page": 27,
-                    "sha": "70fc05e50a59751a6960f0e7e56d0bcad0203874",
+                    "sha": "8c38af18728d94495292f179a7f2fa141e975cdf",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 28,
-                    "sha": "718dca990ed55d4964016ae439cdb91b562757f5",
+                    "sha": "98864efac525d551edd0525d825ce761efc47252",
                     "description": "Indexing Process Indexing"
                 },
                 {
                     "page": 29,
-                    "sha": "ecaccbcded73a006a146da9e5e4f72513bff8586",
+                    "sha": "a2f0c725fc1ee173417a7fef84ecd53b087d3cd1",
                     "description": "Indexing Process Indexing: Document Statistics"
                 },
                 {
                     "page": 30,
-                    "sha": "ef72a54a773eb901bd9f1860a3ab3e4a51e4bd7a",
+                    "sha": "25dda51f821408e44c6a7f31d6ac1e8856c7c16d",
                     "description": "Indexing Process Indexing: Weighting"
                 },
                 {
                     "page": 31,
-                    "sha": "87d7f324fc32635ef9cc0f468816c94f84b20489",
+                    "sha": "c92f04dc9b1639f0fddd2e40df168701545f63eb",
                     "description": "Indexing Process Indexing: Inversion"
                 },
                 {
                     "page": 32,
-                    "sha": "d7fad5966631c1743117e5fe1d39efa38638a1f8",
+                    "sha": "abf940fc5342d15a64835feef6dcf73dfd429502",
                     "description": "Indexing Process Indexing: Distribution"
                 },
                 {
                     "page": 33,
-                    "sha": "f1972a8693d77541554fdfc94c7937b397397249",
+                    "sha": "87fb3461681ab99cb04841a04e1c2f9de78d671c",
                     "description": "Indexing Process Indexing: Distribution"
                 },
                 {
                     "page": 34,
-                    "sha": "3ff53f6164f8829cdefc384eb45e7c1099bb431e",
+                    "sha": "f1b8a1609e136cafe464fcbb4357c576f2e15fef",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 35,
-                    "sha": "58af9745167c64a75f60d4e5ecd23f0b23e707e9",
+                    "sha": "db4f1b0419c4fbf787ed7f0ec66cecf46bc42dc7",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 36,
-                    "sha": "fcc76425097073124368accfb5f7028687fff140",
+                    "sha": "38ce830252e37b86560b51a00af131830ff0097a",
                     "description": "Search Process User Interaction"
                 },
                 {
                     "page": 37,
-                    "sha": "a8c5b050a86b8d7e77a02fb3ca27a1ec9f567d02",
+                    "sha": "86715e557107c9cbd944cf09a64ad6c8e4248d70",
                     "description": "Search Process User Interaction"
                 },
                 {
                     "page": 38,
-                    "sha": "b3f0786efe0e5a284cdbcf6552e8885abc9aa5fd",
+                    "sha": "25669823c0e61e1be6866d9a77c206c0525dce20",
                     "description": "Search Process User Interaction"
                 },
                 {
                     "page": 39,
-                    "sha": "e3a007ba6d1c2da7d8b727ad8a4ddc9a8d5fedef",
+                    "sha": "381d68c9e43828645f9cad4b652df4669b9b88e6",
                     "description": "Search Process User Interaction: Query Language"
                 },
                 {
                     "page": 40,
-                    "sha": "7b154a0773abfd78d624006ad9b22d01ee528f34",
+                    "sha": "49605a839a29c3ee0c28c7121be770b7cda74347",
                     "description": "Search Process User Interaction: Query Language"
                 },
                 {
                     "page": 41,
-                    "sha": "a31ee5ab0f9e7b5fc165fae303cbe6bfe2584fff",
+                    "sha": "fc41da4b743849ff12296936a83f75ad4d82fc13",
                     "description": "Search Process User Interaction: Query Transformation"
                 },
                 {
                     "page": 42,
-                    "sha": "9a8b74fb7f5e34c89cca9675321919c2ce5c2c76",
+                    "sha": "c891d1b6b7bd03469c840e559e8bd532e337b10b",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 43,
-                    "sha": "8e55836086b6782b7c3f34e2acaeae641d82da10",
+                    "sha": "9cff17e657679984b5e1f441839cdad24ce0fc13",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 44,
-                    "sha": "9e4ac067bacac2b45561f1b02e7fa3980cbf2002",
+                    "sha": "93e67d33c2f96383c7cc9b5b9fc5b9a1713904e9",
                     "description": "Search Process Ranking"
                 },
                 {
                     "page": 45,
-                    "sha": "b82142467c1cade5e9002b792ca02bb2fc1840ac",
+                    "sha": "6ed61bd9766f4e84f31621a98d44cfc55c19c102",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 46,
-                    "sha": "c6f4e585661b9c348e1361e1020d0d3e5a9fd733",
+                    "sha": "817f479912db883e91dced68a8ebf08eafaa698f",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 47,
-                    "sha": "04750e560dcc7de21918c52b4930120ad4c1c99a",
+                    "sha": "4c835f40f46f632ae48a87bee7bac5c486ead87a",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 48,
-                    "sha": "20a5187b55239f4a1f59615d7a0b59261678434d",
-                    "description": "Search Process Ranking: Efficient Document Scoring"
+                    "sha": "ddbd900c2967ea0204fa36cb36795ec2921e8c72",
+                    "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 49,
-                    "sha": "73303ddd0299f8d6131f3faff4e4cc417255382a",
+                    "sha": "15d36651eca967a66f8011c17c50171c661d10c8",
                     "description": "Search Process Ranking: Distribution"
                 },
                 {
                     "page": 50,
-                    "sha": "1222e026dd0a2a8d183bbd41fe617beb13076097",
+                    "sha": "f251bab679453557b7e6c31cd1e5af0bdc0c719e",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 51,
-                    "sha": "7405143781a36c53fee837900da8eb7d876c68b6",
+                    "sha": "f9615eda3e7c9934de8e78f812518421418b5a18",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 52,
-                    "sha": "fbadb141d4cd6e0bdbb4cebc836be49cb79d36c7",
+                    "sha": "362f392ac7aec514660898ab03811245d5af79a5",
                     "description": "Search Process User Interaction: Results Output"
                 },
                 {
                     "page": 53,
-                    "sha": "f1244e1eb3215b5125e648140f62b86b8616087a",
+                    "sha": "905683db5b1c06b8c405063126c23e14729cc597",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 54,
-                    "sha": "c4e9e6df0ddb011932d90df16555f77305efce75",
+                    "sha": "2afb3edb200954780816b846de8ac540db7e96eb",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 55,
-                    "sha": "332c9673233edcf61e8516ce0041cf95550a505c",
+                    "sha": "222902e1712f28ef536ebf02b3433b0f410b307d",
                     "description": "Search Process User Interaction: Query Transformation"
                 },
                 {
                     "page": 56,
-                    "sha": "ad81264efa34cebec6b7011ebbc052370510fbc4",
+                    "sha": "474527e2b4cb5a7cdf642a2dd81061b3ac790aab",
                     "description": "Search Process User Interaction: Query Transformation"
                 },
                 {
                     "page": 57,
-                    "sha": "4704e81891586c8733e023c5d19119fc442cf92d",
+                    "sha": "d2b224e8ab9a9a9add48949843d2d5c0312e93bc",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 58,
-                    "sha": "42490197ba833b80eb0b9bf1f488714ff5176472",
+                    "sha": "4d99f46aecc2f4adc6a8fc43d5cd6de922035303",
                     "description": "t1 t2"
                 },
                 {
                     "page": 59,
-                    "sha": "24b643a7b3c389076f996b33c2627f9c02b7861b",
+                    "sha": "2d85cea453b92dfdd99f6a6a9baa9ee7804cf705",
                     "description": "Search Process Logging"
                 },
                 {
                     "page": 60,
-                    "sha": "6e87cf62ce8084e8edaa95d41a908445ab8367d7",
+                    "sha": "3259f9727a11693e5b1df63665d2bca4cc52a8b6",
                     "description": "t1 t2"
                 },
                 {
                     "page": 61,
-                    "sha": "9fcf3d9dbd2ca75bd576043b714dda5e78a4b43a",
+                    "sha": "6903322d99e304116fd0e7cd60b1c0e775c37a46",
                     "description": "t1 t2"
                 },
                 {
                     "page": 62,
-                    "sha": "01ce705e2063619220f2853836e5581de0158729",
+                    "sha": "7dcb6d98b4104ffd7954403990940853dfd97c8c",
                     "description": "Evaluation Overview"
                 },
                 {
                     "page": 63,
-                    "sha": "ecc55e69a9ce31eeb7dbd0ba6ae4b79284b5625b",
+                    "sha": "26336d25412211a70019e72319f507324ed6d783",
                     "description": "Remarks:"
                 },
                 {
                     "page": 64,
-                    "sha": "77195e8faba65ae7be04c384e54d2d08085cac1f",
+                    "sha": "3cfaa4b7438803c10adb426104244f308a5658ff",
                     "description": "Architecture of a Search Engine "
                 }
             ]
         },
         "unit-en-ir-architecture-karaoke": {
-            "sha": "ee5f4692733fe18785a2995beffc2f9e37f6a31f",
+            "sha": "3d31f19b15327000fdbcf25d137416452214f623",
             "numpages": 12,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "d03b6a2531f50990d07b80031df77d96e71c16c8",
+                    "sha": "c10f05715d5d0fe27c209801b61cdf13da8cf39e",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 2,
-                    "sha": "512532e667da7523a1a04dfa5cd62b478e72af97",
+                    "sha": "1891af18509599af8e3323a2b67ce8f5f49e9fb5",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 3,
-                    "sha": "566c76f48e533a64dd1802884bc416ed36bc9403",
+                    "sha": "d3576651ff7dc0427cc554e930ccd7d60f0f816f",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 4,
-                    "sha": "94c342d62eb0f07b1bffc7fc806ffff0505236bc",
+                    "sha": "09c8e64a1d6759093e639d3f0f95367d924fdd6a",
                     "description": "Architecture of a Search Engine (Karaoke Version) Acquisition"
                 },
                 {
                     "page": 5,
-                    "sha": "c1c939e859691d4534600c3fb9bb3315e0ba728f",
+                    "sha": "39cd334067523798e6bb3a3f31e956534c44fe9e",
                     "description": "Architecture of a Search Engine (Karaoke Version) d"
                 },
                 {
                     "page": 6,
-                    "sha": "0e5dcdb7ff7c1a517b7a0c369ecb39ba1876772d",
+                    "sha": "57c5586677d5816e014ea6b72f10bb5f3df81f0f",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 7,
-                    "sha": "ffeeeaeba1196d8243e1bfe0b381a87654c10eb2",
+                    "sha": "38871c32505bd42d88c13cacf9524b4a2a8f2f76",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 8,
-                    "sha": "b50b5625b8dea1716301f922d775f5e5b609db0a",
+                    "sha": "2c933afda96c0562f141c85b40eb240aa2506be0",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 9,
-                    "sha": "b577ff42027feefe71da32da44d1ce7b930eab30",
+                    "sha": "c7acf48d1c272ce4cccbf24a06d517e0108e5f5f",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 10,
-                    "sha": "ec6aa8cfa87d58f79fc675cdb5485b74ccd42165",
+                    "sha": "62cd77f88cadbf530b43afc52ce8e4af57afaadd",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 11,
-                    "sha": "1cd0fa57eddc1200da40b947056a70fc5f2d990b",
+                    "sha": "54a6d6565a3a89add6e5402507a29215cc19c942",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 12,
-                    "sha": "7481a6bfa8e40e1b3ce0c7292af4e71c610a736e",
+                    "sha": "5ae06714a4198e4402484214d6ad55f86dce3a6a",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 }
             ]
