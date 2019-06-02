@@ -1,5 +1,11 @@
-containsQuery = (entry, queryWords) => {
-    const attributes = entry.dataset;
+function containsQuery(entry, queryWords) {
+    const attributes = {
+      name: entry.children[0].textContent.toLowerCase(),
+      publisher: entry.children[1].textContent.toLowerCase(),
+      year: entry.children[2].textContent,
+      units: entry.children[5].textContent.toLowerCase(),
+      task: entry.children[6].textContent.toLowerCase()
+    };
     for (let q = 0; q < queryWords.length; ++q) {
         let queryWord = queryWords[q].replace(/\+/g, " ");
         let found = false;
@@ -8,12 +14,12 @@ containsQuery = (entry, queryWords) => {
         if (attributeSpecificatorPos >= 0) {
             const attribute = queryWord.substr(0, attributeSpecificatorPos);
             queryWord = queryWord.substr(attributeSpecificatorPos + 1);
-            if (attributes.hasOwnProperty(attribute) && attributes[attribute].toLowerCase().indexOf(queryWord) >= 0) {
+            if (attributes.hasOwnProperty(attribute) && attributes[attribute].indexOf(queryWord) >= 0) {
                 found = true;
             }
         } else {
           for (let a in attributes) {
-              if (attributes[a].toLowerCase().indexOf(queryWord) >= 0) {
+              if (attributes[a].indexOf(queryWord) >= 0) {
                   found = true;
                   break;
               }
@@ -27,41 +33,40 @@ containsQuery = (entry, queryWords) => {
 };
 
 function doFilter(doc, query) {
-    const years = doc.querySelectorAll(".year-entry");
+    const tables = doc.querySelectorAll(".dataTables_wrapper");
     query = query.trim();
-
-    let filteredAll = false;
-
+    let filteredAll = true;
     if (query === "") {
-        for (let y = 0; y < years.length; ++y) {
-            const year = years[y];
-            const entries = year.querySelectorAll(".bib-entry");
-            for (let e = 0; e < entries.length; ++e) {
-                entries[e].classList.remove("uk-hidden");
-            }
-            year.classList.remove("uk-hidden");
+        for (let t = 0; t < tables.length; ++t) {
+            tables[t].classList.remove("uk-hidden");
         }
+
+        const entries = doc.querySelectorAll("tr");
+        for (let e = 0; e < entries.length; ++e) {
+            entries[e].classList.remove("uk-hidden");
+        }
+
+        filteredAll = false;
     } else {
-        filteredAll = true;
         const queryWords = query.toLowerCase().replace(/[^a-z0-9-:+]/g, " ").split(/\s+/);
-        for (let y = 0; y < years.length; ++y) {
-            const year = years[y];
-            let filteredAllOfYear = true;
-            const entries = year.querySelectorAll(".bib-entry");
+        for (let t = 0; t < tables.length; ++t) {
+            const table = tables[t];
+            let filteredAllOfTable = true;
+            const entries = table.querySelectorAll("tbody tr");
             for (let e = 0; e < entries.length; ++e) {
                 const entry = entries[e];
                 if (containsQuery(entry, queryWords)) {
-                    filteredAllOfYear = false;
                     entry.classList.remove("uk-hidden");
+                    filteredAllOfTable = false;
                 } else {
                     entry.classList.add("uk-hidden");
                 }
             }
 
-            if (filteredAllOfYear) {
-                year.classList.add("uk-hidden");
+            if (filteredAllOfTable) {
+                table.classList.add("uk-hidden");
             } else {
-                year.classList.remove("uk-hidden");
+                table.classList.remove("uk-hidden");
                 filteredAll = false;
             }
         }
@@ -70,53 +75,41 @@ function doFilter(doc, query) {
     return filteredAll;
 };
 
-// Show BibTeX on click
-activateBibtexToggle = (doc) => {
-  doc.querySelectorAll('.bib-toggle').forEach(el => el.addEventListener("click", (event) => {
-      event.preventDefault();
+function doFilterWebisDe(query) {
+    const filteredAll = doFilter(document, query);
 
-      const bibtexId = event.target.dataset.target;
-      const bibtex = document.getElementById(bibtexId);
-
-      bibtex.classList.toggle("uk-hidden");
-      const isHidden = bibtex.classList.contains("uk-hidden");
-      if (!isHidden) {
-          bibtex.focus();
-      }
-      bibtex.setAttribute("aria-hidden", isHidden ? "true" : "false");
-
-      bibtex.style.height = "5px";
-      bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
-  }));
-}
-
-// include from other page
-//   parentElement: element to which the bibentries should be added
-//   query:         filter query as used on the webis.de page
-//   source:        URL of the page the contains the bibentries
-includeBibentries = (parentElement, query = "", source = "https://webis.de/publications.html") => {
-    parentElement.innerText = "Loading...";
-
-    /* add style sheet if not added already */
-    if (document.querySelector('link[href="https://webis.de/css/style.css"]') == null) {
-      var linkElement = document.createElement('link');
-      linkElement.setAttribute('rel', 'stylesheet');
-      linkElement.setAttribute('href', 'https://webis.de/css/style.css');
-      document.getElementsByTagName('head')[0].appendChild(linkElement);
+    const filteredAllMessage = document.getElementById("filtered-all-message");
+    if (filteredAll) {
+        filteredAllMessage.classList.remove("uk-hidden");
+        filteredAllMessage.removeAttribute("aria-hidden");
+    } else {
+        filteredAllMessage.classList.add("uk-hidden");
+        filteredAllMessage.setAttribute("aria-hidden", "true");
     }
 
-    const request = new XMLHttpRequest();
-    request.onload = function() {
-        const doc = this.response.documentElement.querySelector(".publications-list");
-        activateBibtexToggle(doc);
-        doFilter(doc, query);
-        doc.classList.remove("uk-container", "uk-margin-medium");
-        parentElement.innerText = "";
-        parentElement.appendChild(doc);
+    if (query.trim() !== "") {
+      document.location.hash = "#filter:" + query;
     }
-    request.open("GET", source);
-    request.responseType = "document";
-    request.send();
-}
 
+    // Force UIkit update to prevent glitches
+    UIkit.update();
+};
+
+// Set up filter field
+const filterField = document.getElementById("data-filter-field");
+if (document.location.hash.startsWith("#filter:")) {
+    filterField.value = decodeURIComponent(document.location.hash.substr(8));
+}
+filterField.addEventListener("input", function(event) { doFilterWebisDe(event.target.value) });
+window.addEventListener("hashchange", function(event) {
+  if (!document.location.hash.startsWith("#filter:")) {
+    filterField.value = "";
+    doFilterWebisDe("");
+  }
+});
+
+$(document).ready(function() {
+  doFilterWebisDe(filterField.value);
+  filterField.focus();
+});
 
