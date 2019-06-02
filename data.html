@@ -56,6 +56,10 @@ Most of our released corpora are also indexed in the <a href="https://toolbox.go
 </p>
 </div>
 
+<div id="search-control">
+<input type="text" class="uk-input" id="data-filter-field" placeholder="Type here to filter&hellip;"/>
+</div>
+
 <div class="uk-container uk-margin-medium webis-data-table">
 <table id="released-webis-corpora" class="uk-margin-medium uk-table uk-table-divider uk-table-small uk-table-hover">
 <thead>
@@ -2148,24 +2152,25 @@ Snapshots</a></td>
 </div>
 </main>
 
-<script src="{{ '/commons/js/thirdparty/jquery/jquery.slim.min.js' | relative_url }}"></script>
-<script src="{{ '/commons/js/thirdparty/datatables.net/jquery.dataTables.min.js' | relative_url }}"></script>
-<script src="{{ '/commons/js/dataTables/dataTables.uikit.min.js' | relative_url }}"></script>
-<script src="{{ '/commons/js/dataTables/file-size.js' | relative_url }}"></script>
-<script src="{{ '/commons/js/dataTables/unit-size.js' | relative_url }}"></script>
+<script src="/commons/js/thirdparty/jquery/jquery.slim.min.js"></script>
+<script src="/commons/js/thirdparty/datatables.net/jquery.dataTables.min.js"></script>
+<script src="/commons/js/dataTables/dataTables.uikit.min.js"></script>
+<script src="/commons/js/dataTables/file-size.js"></script>
+<script src="/commons/js/dataTables/unit-size.js"></script>
 <script>
 $(document).ready(function() {
 $('.uk-table').DataTable({
-paging: false,
-searching: false,
-info: false,
-autoWidth: false,
-columnDefs: [
-{ 'type': 'file-size', 'targets': 3 },
-{ 'type': 'unit-size', 'targets': 4 }
-]
-});
+  paging: false,
+  searching: false,
+  info: false,
+  autoWidth: false,
+  columnDefs: [
+      { 'type': 'file-size', 'targets': 3 },
+      { 'type': 'unit-size', 'targets': 4 }
+    ]
+  });
 })
 </script>
-<script src="{{ '/commons/js/thirdparty/fontawesome/fontawesome.min.js' | relative_url }}"></script>
-<script src="{{ '/commons/js/thirdparty/fontawesome/solid.min.js' | relative_url }}"></script>
+<script src="/commons/js/thirdparty/fontawesome/fontawesome.min.js"></script>
+<script src="/commons/js/thirdparty/fontawesome/solid.min.js"></script>
+<script src="/js/data.js"></script>
