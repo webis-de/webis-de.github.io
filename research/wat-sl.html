@@ -1,0 +1,83 @@
+---
+layout: default
+nav_active: research
+title: Webis Research on WAT-SL
+description: Overview of the Webis group's work on the WAT-SL web annotation tool for segment labeling.
+---
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "Research",
+"name": "WAT-SL",
+"description": "",
+"url": "https://webis.de/research/wat-sl.html",
+"keywords": [
+"wat-sl",
+"annotation",
+"segmentation",
+"segments",
+"segment annotation"
+],
+"creator": [{
+"@type": "Organization",
+"url": "https://webis.de/",
+"name": "The Web Technology & Information Systems Network",
+"alternateName": "Webis"
+}
+],
+"includedInDataCatalog": {},
+"distribution": []
+}
+</script>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<h1>WAT-SL</h1>
+
+<ul class="uk-list">
+<!-- Comment out sections you do not provide -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+<!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+</ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+<!--
+SECTION Synopsis
+-->
+<h2 id="synopsis">Synopsis</h2>
+<p>WAT-SL is a web-based tool that is dedicated to segment labeling and highly customizable to the labeling task at hand. WAT-SL provides all functionalities to efficiently run and manage segment labeling projects. Its self-descriptive annotation interface requires only a web browser, making it particularly convenient for remote annotation processes. The interface can be easily tailored to the requirements of the project using standard web technologies in order to focus on the specific segment labels at hand and to match the layout expectations of the annotators. At the same time, it ensures that the texts to be labeled remain readable during the whole annotation process. This process is server-based and preemptable at any point. The annotator’s progress can be constantly monitored, as all relevant interactions of the annotators are logged in a simple key-value based plain text format. [<a href="https://demo.webis.de/wat-sl/" target="_blank">demo</a>] [<a href="https://github.com/webis-de/wat" target="_blank">code</a>]</p>
+
+<!--
+SECTION Research
+<h2 id="research">Research</h2>
+-->
+
+<!--
+SECTION People
+-->
+<h2 id="people">People</h2>
+<ul>
+<li><a title="Khalid Al-Khatib" href="https://weimar.webis.de/people/#al-khatib">Khalid Al-Khatib</a></li>
+<li><a title="Johannes Kiesel" href="https://weimar.webis.de/people/#kiesel">Johannes Kiesel</a></li>
+<li><a title="Benno Stein" href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+<li><a title="Henning Wachsmuth" href="https://weimar.webis.de/people/#wachsmuth">Henning Wachsmuth</a></li>
+</ul>
+
+<!--
+SECTION Publications
+-->
+<h2 id="publications">Publications</h2>
+<div id="publications-list">
+</div>
+</div>
+</div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:wat-sl");
+</script>
