@@ -1,0 +1,89 @@
+---
+layout: default
+nav_active: research
+title: ChatNoir Web Search Engine
+description: Overview of the Webis group's web search engine ChatNoir
+---
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "Research",
+"name": "ChatNoir",
+"description": "",
+"url": "https://webis.de/research/chatnoir.html",
+"keywords": [
+"web search"
+],
+"creator": [{
+"@type": "Organization",
+"url": "https://webis.de/",
+"name": "The Web Technology & Information Systems Network",
+"alternateName": "Webis"
+}
+],
+"includedInDataCatalog": {},
+"distribution": []
+}
+</script>
+
+<main class="uk-section uk-section-default">
+
+<div class="uk-container">
+    <h1>ChatNoir </h1>
+
+    <ul class="uk-list">
+    <!-- Comment out sections you do not provide -->
+    <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+    <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+    <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+    <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+    </ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+    <!--
+    SECTION Synopsis
+    -->
+    <h2 id="synopsis">Synopsis</h2>
+    <p>ChatNoir is the web search engine developed and maintained by the Webis group. Unlike traditional search engines such as Google or DuckDuckGo,
+        ChatNoir does not index the live web but fixed snapshots of it while being transparent about any of its retrieval decisions. Thus, the main focus
+        of ChatNoir is enabling retrieval research by providing the research community with easy and ready-to-use access to billions of indexed web
+        pages and allowing for reproducible experiments on them. This relieves researchers of the burden and all the issues coming with massive tera- and
+        petabyte scale out, so they can focus on their actual tasks instead.</p>
+
+    <p>Currently, ChatNoir indexes the <a href="https://lemurproject.org/clueweb09/" target="_blank">ClueWeb09</a> and
+        <a href="https://lemurproject.org/clueweb12/" target="_blank">ClueWeb12</a> web page collections and a periodically updated set of
+        <a href="https://commoncrawl.org/" target="_blank">Common Crawl</a> snapshots.</p>
+
+    <p>ChatNoir is available at <a href="https://www.chatnoir.eu/" target="_blank">www.chatnoir.eu</a>.</p>
+    <!--
+    SECTION Research
+    <h2 id="research">Research</h2>
+    -->
+
+    <!--
+    SECTION People
+    -->
+    <h2 id="people">People</h2>
+    <ul>
+    <li><a title="Janek Bevendorff" href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
+    <li><a title="Martin Potthast" href="https://www.informatik.uni-leipzig.de/ifi/professuren/angewandteinf/temir/people/#c2092">Martin Potthast</a></li>
+    <li><a title="Matthias Hagen" href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/hagen">Matthias Hagen</a></li>
+    <li><a title="Benno Stein" href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+    </ul>
+
+    <!--
+    SECTION Publications
+    -->
+    <h2 id="publications">Publications</h2>
+    <div id="publications-list">
+    </div>
+</div>
+
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:chatnoir");
+</script>
