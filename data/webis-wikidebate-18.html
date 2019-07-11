@@ -113,6 +113,26 @@ description: Overview of corpora that are used by the Webis research group
             <li><a href="https://files.webis.de/corpora/corpora-webis/corpus-webis-wikidebate-18/Webis-WikiDebate-18.tar.gz">Webis-WikiDebate-18.tar.gz</a> (77.8MB)</li>
         </ul>
 
+        <p>
+            The table has the following attributes:
+        </p>
+        <ul>
+            <li>comment-ID</li>
+            <li>discussion-ID</li>
+            <li>reference comment-ID</li>
+            <li>comment (wiki format with tag)</li>
+            <li>comment (plain text without tag)</li>
+            <li>username</li>
+            <li>timestamp</li>
+            <li>hierarchy level in discussion</li>
+        </ul>
+        <p>
+            The ID's consists of up to 3 numbers. For example the comment-ID "3203277-22-11" consists of the page-ID "3203277" with the 23th discussion and the 12th comment inside the discussion. Please note that the counting starts with 0. The page-ID is from the MediaWiki's internal article ID and can be called by the curid attribute (e.g. http://en.wikipedia.org/?curid=3203277). The article on wikipedia and the corresponding talk page have two different IDs.</br>
+            Sometimes the value is "\N" when the comment or the structure of the discussion was ill-formed and there was no previous comment, user or timestamp statement. This can happen quite often because no editor checks the meta data and everything has to be managed by the users themselves.</br>
+            The reference comment-ID is the last comment on the higher hierarchy level which the current one refers to with its statement.</br>
+            The hierarchy level of a comment in a discussion is identified by the number of the ":" in wiki format at the beginning of a comment and shows how deep the discussion already involves.
+        </p>
+        
         <!--
         SECTION Research
         -->
