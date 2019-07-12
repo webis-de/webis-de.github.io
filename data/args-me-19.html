@@ -1,0 +1,152 @@
+---
+layout: default
+nav_active: data
+title: args-me corpus 
+description: Overview of corpora that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"args.me corpus",
+    "description":"args.me corpus comprises 387 606 arguments crawled from four debate portals in the middle of 2019. The debate portals are Debatewise, IDebate.org, Debatepedia, and Debate.org. The arguments are extracted using heuristics that are designed for each debate portal.",
+    "url":"https://webis.de/data/args-me-19.html",
+    "keywords":[
+        "debate portal", 
+        "arguments", 
+        "computational argumentation", 
+        "argument search"
+    ], 
+    "datePublished":"2019",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#ajjour",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Ajjour, Yamen"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Wachsmuth, Henning"
+        },
+        {
+            "@type":"Person",
+	    "url":"https://weimar.webis.de/people/#kiesel",
+	    "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+	    "name":"Kiesel, Johannes"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Leipzig University",
+	    "url":"https://temir.org/people.html",
+	    "name":"Potthast, Martin"
+        },
+	{
+	    "@type":"Person",
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person",
+	    "url":"https://weimar.webis.de/people/#kiesel",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Kiesel, Johannes"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"JSON",
+            "contentUrl":"https://zenodo.org/record/3274636#.XSjclntS_b0"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>args.me Corpus</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li> -->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+args.me corpus comprises 387 606 arguments crawled from four debate portals in the middle of 2019. The debate portals are Debatewise, IDebate.org, Debatepedia, and Debate.org. The arguments are extracted using heuristics that are designed for each debate portal.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>To download the corpus use the following links:</p>
+        <ul>
+            <li>
+                <a href="https://zenodo.org/record/3274636#.XSjclntS_b0">args.me</a>
+                (894.9 MB in JSON format)
+            </li>
+        </ul>
+
+        <p>The corpus has the following structure:</p>
+        <ul>
+            <li><strong>conclusion</strong></li>
+            <li><strong>premises:</strong> each premise is modeled as stance, text</li>
+            <li><strong>id</strong></li>
+            <li><strong>context:</strong> sourceTitle, sourceId, nextArgumentInSourceId, sourceUrl, discussionTitle, previousArgumentInSourceId, acquisitionTime</li>
+        </ul>
+
+        <!--
+        SECTION Research
+        -->
+        <!--
+        <h3 id="research">Research</h3>
+        <p></p>
+        -->
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#ajjour">Yamen Ajjour</a></li>
+            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
+	    <li><a href="https://weimar.webis.de/people/#kiesel">Johannes Kiesel</a></li>
+	    <li><a href="https://temir.org/people.html"> Martin Potthast</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+    </div>
+</main>
