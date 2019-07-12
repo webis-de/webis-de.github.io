@@ -26350,327 +26350,327 @@
             ]
         },
         "unit-en-ir-architecture": {
-            "sha": "0689fabb5d4ed9c9684e47a75574c9f5e7a1cd56",
+            "sha": "3b36447750bf2784a6ade3ead5b01db0884831a1",
             "numpages": 64,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "7b781ab0ae513b4292f6caf3b83008a0fbdc8e7e",
+                    "sha": "77ade6d4142baebf7a34fb8b0fa8d534ca5e3653",
                     "description": "Chapter IR:II II. Architecture of a Search Engine"
                 },
                 {
                     "page": 2,
-                    "sha": "10e3a7cf4e7b717949bfe9d080b8763144931b1c",
+                    "sha": "cf669ece5b753b38ff9724677a6fa65d680bb49e",
                     "description": "Remarks:"
                 },
                 {
                     "page": 3,
-                    "sha": "f9a7e8c198cb7e493094b374a42158484db3e335",
+                    "sha": "dc6012b49408b048eddc16961e9a9a283ec0b16f",
                     "description": "IR:II-87 "
                 },
                 {
                     "page": 4,
-                    "sha": "723c8bc9330061bec3a80e39321b1c492ff8b600",
+                    "sha": "e4067106530ebc5b9db13eec165a82cb8a97f8c3",
                     "description": "? "
                 },
                 {
                     "page": 5,
-                    "sha": "b08d1de89339cfc78857c341e73eeaa7506ea242",
+                    "sha": "308f9d502127027f1698677083d681fd58516b1c",
                     "description": "Indexing Process "
                 },
                 {
                     "page": 6,
-                    "sha": "754b5d80f279458e33e4cc9158a5f21a160eae2b",
+                    "sha": "c58807275cf6f3d115a588c64ef93c0b15659c1b",
                     "description": "Acquisition conversion to"
                 },
                 {
                     "page": 7,
-                    "sha": "ac528085a45c3a61a5f991e404e5395aaf5cbaa8",
+                    "sha": "b03237296f721538053a4cf4b980e0822cbe9594",
                     "description": "Indexing Process Acquisition"
                 },
                 {
                     "page": 8,
-                    "sha": "04a1be59de7c8d9b68ae23f356d5954cb9206c98",
+                    "sha": "b3a674fc1743f9447e8d61907062bf670d2a3955",
                     "description": "Indexing Process Acquisition: Crawler"
                 },
                 {
                     "page": 9,
-                    "sha": "92005c31620fc86d5e0ca2fe51225a4f9c955730",
+                    "sha": "02c1b3b1d8af51faf3f0b7ccfe3f44b9312dec2b",
                     "description": "Indexing Process Acquisition: Crawler"
                 },
                 {
                     "page": 10,
-                    "sha": "36f7a16888000897e8147d9daffd6df2315c5a4b",
+                    "sha": "f527e3d1bc5072d507dbfdc9cdde0a1f4bc214e1",
                     "description": "Remarks:"
                 },
                 {
                     "page": 11,
-                    "sha": "811f2150be62e4e115dd0fb77ab2550cfc2f19a6",
+                    "sha": "d0896428a8fdd0002756798fd4d1ae1acbc9bf9d",
                     "description": "Indexing Process Acquisition: Converter"
                 },
                 {
                     "page": 12,
-                    "sha": "7d009825f08e8cd89dcc4f87f07d2096b5097fde",
+                    "sha": "c4ebea1bc745ca62a4bb290d66ad687a69d99f00",
                     "description": "Indexing Process Acquisition: Document Store"
                 },
                 {
                     "page": 13,
-                    "sha": "fd647c72a369eb29e55ad1acc28ccc639ecb2bf6",
+                    "sha": "471f9c6be24e1a20bb8fcf4ae8a9bc18ca3656fb",
                     "description": "Indexing Process Acquisition: Document Store"
                 },
                 {
                     "page": 14,
-                    "sha": "c9062248e03f38719b62656b03fc19281faacf3b",
+                    "sha": "f095d4b48354c4cf19797b0d57467263200bfe13",
                     "description": "Acquisition conversion to"
                 },
                 {
                     "page": 15,
-                    "sha": "e342e849d021486e5daf3d667658f4e11d314b63",
+                    "sha": "8610591480440d1c64d14a80a710718dabc7d54d",
                     "description": "d "
                 },
                 {
                     "page": 16,
-                    "sha": "98034f200651621558dab1152b53d32b1a5fcf5d",
+                    "sha": "a54f28ecd29f035c02e17b2d7a68770604d638b6",
                     "description": "Indexing Process Text Transformation"
                 },
                 {
                     "page": 17,
-                    "sha": "69282b40adc93bacb3d80aa4a81cafc958b24a87",
+                    "sha": "2d5f4d00a040968cc5f2a037e46aed8ccd8eb961",
                     "description": "Indexing Process Text Transformation"
                 },
                 {
                     "page": 18,
-                    "sha": "a0a22f3dd38680250c075d8792fc20bc1eef648e",
+                    "sha": "b8c1da06ad6a7620718283a8732e7f994930970c",
                     "description": "Indexing Process Text Transformation: Segmenter"
                 },
                 {
                     "page": 19,
-                    "sha": "c877c9a358c2321d9b1c2c406528823b43d05d07",
+                    "sha": "e455b609d87ce8ae65183d539448b12ae10b6ddf",
                     "description": "Indexing Process Text Transformation: Segmenter"
                 },
                 {
                     "page": 20,
-                    "sha": "0d7115e91584166d85b3355bce380c245e399e42",
+                    "sha": "f00644d5406bca488eafbdb170e3c654ffcba3f7",
                     "description": "Indexing Process Text Transformation: Stopping"
                 },
                 {
                     "page": 21,
-                    "sha": "9a0ab0c757114c8aa355d81fa5ec69f510b87e3e",
+                    "sha": "6a947ca920f34b002c5323d11f3d008e61055134",
                     "description": "Indexing Process Text Transformation: Stemmer \\u002f Lemmatizer"
                 },
                 {
                     "page": 22,
-                    "sha": "acb01e26bc7afed274d079b7b55cfb2a8b4e3091",
+                    "sha": "475588f63c860b959ad65c66008340d1a1e2cf74",
                     "description": "Indexing Process Text Transformation: Stemmer \\u002f Lemmatizer"
                 },
                 {
                     "page": 23,
-                    "sha": "f03d3f4cef693d67deb47b77a0add4561a50e9d7",
+                    "sha": "efb3ac3148d8ad10b82c6ed53d7b111d39d58786",
                     "description": "Indexing Process Text Transformation: Link Extraction"
                 },
                 {
                     "page": 24,
-                    "sha": "f772584c9156bbfdc967266adfda7159c773958b",
+                    "sha": "a8a53b918b1954df7665d0bcba67fcafd1218b9b",
                     "description": "Indexing Process Text Transformation: Information Extraction"
                 },
                 {
                     "page": 25,
-                    "sha": "8abe225a8a2945971d68d05bb3d6b35038f88b8d",
+                    "sha": "ab8bdd7955afbd9b01545fa1574d6942e4499fcd",
                     "description": "Indexing Process Text Transformation: Classification"
                 },
                 {
                     "page": 26,
-                    "sha": "3216396e7a31c00acd1c569714f8b04a2d35e071",
+                    "sha": "bd79ba8438ead237915ceb0fa6e5bba5c7a25e9c",
                     "description": "d "
                 },
                 {
                     "page": 27,
-                    "sha": "8c38af18728d94495292f179a7f2fa141e975cdf",
+                    "sha": "c10a69073f4f66cd07e4e5c98bf3f013ddd1a9af",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 28,
-                    "sha": "98864efac525d551edd0525d825ce761efc47252",
+                    "sha": "8863dc0f7c8f81c3599911cdfd26ab96ca217866",
                     "description": "Indexing Process Indexing"
                 },
                 {
                     "page": 29,
-                    "sha": "a2f0c725fc1ee173417a7fef84ecd53b087d3cd1",
+                    "sha": "e7e7812c9cb79a29e279b4b7d15b69cd6cb5b4ec",
                     "description": "Indexing Process Indexing: Document Statistics"
                 },
                 {
                     "page": 30,
-                    "sha": "25dda51f821408e44c6a7f31d6ac1e8856c7c16d",
+                    "sha": "d23822efa0b48d9ca113d6e570e79949a686061f",
                     "description": "Indexing Process Indexing: Weighting"
                 },
                 {
                     "page": 31,
-                    "sha": "c92f04dc9b1639f0fddd2e40df168701545f63eb",
+                    "sha": "17ee09b2b7d076092063e9850e2d6114991e59c6",
                     "description": "Indexing Process Indexing: Inversion"
                 },
                 {
                     "page": 32,
-                    "sha": "abf940fc5342d15a64835feef6dcf73dfd429502",
+                    "sha": "c9e628480f549c9f5515c4736c053c2bbb37dfdd",
                     "description": "Indexing Process Indexing: Distribution"
                 },
                 {
                     "page": 33,
-                    "sha": "87fb3461681ab99cb04841a04e1c2f9de78d671c",
+                    "sha": "bf8d388e74a11bf4575402df453ad22a75b72c96",
                     "description": "Indexing Process Indexing: Distribution"
                 },
                 {
                     "page": 34,
-                    "sha": "f1b8a1609e136cafe464fcbb4357c576f2e15fef",
+                    "sha": "58f4b593863c97313538fb4a851c0db88a3e249e",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 35,
-                    "sha": "db4f1b0419c4fbf787ed7f0ec66cecf46bc42dc7",
+                    "sha": "b26a4f05193749f3b8d869f7e2a7287f8ed866cb",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 36,
-                    "sha": "38ce830252e37b86560b51a00af131830ff0097a",
+                    "sha": "34f1df8bd1e6a35debf96f52cf2fe3900c8e2112",
                     "description": "Search Process User Interaction"
                 },
                 {
                     "page": 37,
-                    "sha": "86715e557107c9cbd944cf09a64ad6c8e4248d70",
+                    "sha": "47d1d5480d82b231722250632440089c8fb4b062",
                     "description": "Search Process User Interaction"
                 },
                 {
                     "page": 38,
-                    "sha": "25669823c0e61e1be6866d9a77c206c0525dce20",
+                    "sha": "6f9eb51a104ed3a8b8cbadb19736a95865e1c191",
                     "description": "Search Process User Interaction"
                 },
                 {
                     "page": 39,
-                    "sha": "381d68c9e43828645f9cad4b652df4669b9b88e6",
+                    "sha": "4caa4defecc064babd326a9b8ace1f8f10b5d98d",
                     "description": "Search Process User Interaction: Query Language"
                 },
                 {
                     "page": 40,
-                    "sha": "49605a839a29c3ee0c28c7121be770b7cda74347",
+                    "sha": "9d8d2f17ec38ea65a98123b5306201b9f8234108",
                     "description": "Search Process User Interaction: Query Language"
                 },
                 {
                     "page": 41,
-                    "sha": "fc41da4b743849ff12296936a83f75ad4d82fc13",
+                    "sha": "688350cbe4516bee964cb24b426fb6c0525442d3",
                     "description": "Search Process User Interaction: Query Transformation"
                 },
                 {
                     "page": 42,
-                    "sha": "c891d1b6b7bd03469c840e559e8bd532e337b10b",
+                    "sha": "394828a06bdab2265d6c553e2aa70421467d7ee0",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 43,
-                    "sha": "9cff17e657679984b5e1f441839cdad24ce0fc13",
+                    "sha": "447f996f0f3702b237b054ced93897f3df04f348",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 44,
-                    "sha": "93e67d33c2f96383c7cc9b5b9fc5b9a1713904e9",
+                    "sha": "88a68e94b4bbb6b7723c924c5c2de55f57d2bcbb",
                     "description": "Search Process Ranking"
                 },
                 {
                     "page": 45,
-                    "sha": "6ed61bd9766f4e84f31621a98d44cfc55c19c102",
+                    "sha": "8a306d44d82c80ccf08ab451cb3cf6811483509a",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 46,
-                    "sha": "817f479912db883e91dced68a8ebf08eafaa698f",
+                    "sha": "a55b93bd80de034d51a99c7679d5e44edb2e9123",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 47,
-                    "sha": "4c835f40f46f632ae48a87bee7bac5c486ead87a",
+                    "sha": "86b2760a8369ba04b462d1662e509e81c0d811f8",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 48,
-                    "sha": "ddbd900c2967ea0204fa36cb36795ec2921e8c72",
+                    "sha": "089380f615ede90b097ea25031cf63a2e3cff9b8",
                     "description": "Search Process Ranking: Document Scoring"
                 },
                 {
                     "page": 49,
-                    "sha": "15d36651eca967a66f8011c17c50171c661d10c8",
+                    "sha": "01165105b84e7e982aad5d5e82c98122a0b1f6f3",
                     "description": "Search Process Ranking: Distribution"
                 },
                 {
                     "page": 50,
-                    "sha": "f251bab679453557b7e6c31cd1e5af0bdc0c719e",
+                    "sha": "13d5ca12d725ce3b20769981486688d93457c52a",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 51,
-                    "sha": "f9615eda3e7c9934de8e78f812518421418b5a18",
+                    "sha": "07fa8681297fa9bf8bc5c82d8227e43fb9e93127",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 52,
-                    "sha": "362f392ac7aec514660898ab03811245d5af79a5",
+                    "sha": "527b19bf15334786fa55ad635924adb0b9668f4e",
                     "description": "Search Process User Interaction: Results Output"
                 },
                 {
                     "page": 53,
-                    "sha": "905683db5b1c06b8c405063126c23e14729cc597",
+                    "sha": "49bb28dee2c8c19d623c64d15bbaeaf9d76c4b9c",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 54,
-                    "sha": "2afb3edb200954780816b846de8ac540db7e96eb",
+                    "sha": "71aedd4671fa3e1f163dba0319848c039def5e39",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 55,
-                    "sha": "222902e1712f28ef536ebf02b3433b0f410b307d",
+                    "sha": "a258a8f1e070158a647bcc3a5a6ee5414785ec53",
                     "description": "Search Process User Interaction: Query Transformation"
                 },
                 {
                     "page": 56,
-                    "sha": "474527e2b4cb5a7cdf642a2dd81061b3ac790aab",
+                    "sha": "24fccba3025d2c3a62c5fc799b80f74f87900386",
                     "description": "Search Process User Interaction: Query Transformation"
                 },
                 {
                     "page": 57,
-                    "sha": "d2b224e8ab9a9a9add48949843d2d5c0312e93bc",
+                    "sha": "cf346786e8ee4948b61771ef6743508e5dd5a11a",
                     "description": "conversion to plain text, and"
                 },
                 {
                     "page": 58,
-                    "sha": "4d99f46aecc2f4adc6a8fc43d5cd6de922035303",
+                    "sha": "6a38640bf5f089b56bc6c4ae88c27b6737d882fd",
                     "description": "t1 t2"
                 },
                 {
                     "page": 59,
-                    "sha": "2d85cea453b92dfdd99f6a6a9baa9ee7804cf705",
+                    "sha": "f50aa81c72014f062393827b9a2bc94e8c6caeb2",
                     "description": "Search Process Logging"
                 },
                 {
                     "page": 60,
-                    "sha": "3259f9727a11693e5b1df63665d2bca4cc52a8b6",
+                    "sha": "e0c75dfc81bedc966ae8de7ffbf209e2c38604f5",
                     "description": "t1 t2"
                 },
                 {
                     "page": 61,
-                    "sha": "6903322d99e304116fd0e7cd60b1c0e775c37a46",
+                    "sha": "e55a6bbbd21c68cd550ced1f37109393d5568768",
                     "description": "t1 t2"
                 },
                 {
                     "page": 62,
-                    "sha": "7dcb6d98b4104ffd7954403990940853dfd97c8c",
+                    "sha": "ef031eb654fad3b4d0a99083622ca5063047118a",
                     "description": "Evaluation Overview"
                 },
                 {
                     "page": 63,
-                    "sha": "26336d25412211a70019e72319f507324ed6d783",
+                    "sha": "37f35d7b14465c113a111c44be91a8f0f2a900ce",
                     "description": "Remarks:"
                 },
                 {
                     "page": 64,
-                    "sha": "3cfaa4b7438803c10adb426104244f308a5658ff",
+                    "sha": "d626d064a1ca225028d0958662acfa271c11a2fe",
                     "description": "Architecture of a Search Engine "
                 }
             ]
@@ -26742,1933 +26742,1988 @@
             ]
         },
         "unit-en-text-statistics": {
-            "sha": "aac47c1f22c899983b57a3ee941a3e200fbbe047",
+            "sha": "22febfef545baa5ebc7b86ada35ea3f974293dea",
             "numpages": 24,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "cc94aa42425e7fc67f33be435f889b52050ce8f1",
+                    "sha": "e6972829336124a006bbf1a6bbd104ec7080bab4",
                     "description": "Chapter IR:III III. Text Transformation"
                 },
                 {
                     "page": 2,
-                    "sha": "941a53328a0e9c272a6352540b116e0c4e5afa6e",
+                    "sha": "07f778f6a7d1f0a24381c45958fb76e5d4ecb04e",
                     "description": "Text Statistics Questions"
                 },
                 {
                     "page": 3,
-                    "sha": "f50c035ad130a0abb9f910fb7af3fdf0937d6987",
+                    "sha": "e42f2af98bb4a06b1fcc5f2d4527ed2f89ecf287",
                     "description": "Text Statistics Vocabulary Growth: Heaps\u2019 Law"
                 },
                 {
                     "page": 4,
-                    "sha": "bb11045b822d5de26b37ac8c75d776cc8ffb0e90",
+                    "sha": "1779220baa1b47007f67589a8b8d7d25d1a13fcc",
                     "description": "Text Statistics Vocabulary Growth: Heaps\u2019 Law"
                 },
                 {
                     "page": 5,
-                    "sha": "0d4ec081110f5d6b7ee36a892b09c88b6558725d",
+                    "sha": "71cb0703e61ad8e8eaa76aee1b5852cf0f4a2a64",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 6,
-                    "sha": "610e24f61736c01e23e53871f4509c0cdc7c8915",
+                    "sha": "cbc9501903764611f0f18e1a11846923106d6ef5",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 7,
-                    "sha": "6469f004ec1de77aa7d6bc0027d581d53d97be0c",
+                    "sha": "4cbee6f8239efc719cffbd34bde9a683c7b4224a",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 8,
-                    "sha": "e6a20fdbeff28c0df768637fa312961905a314a3",
+                    "sha": "d2a24533c9e2a789eb6d687f093d46223fc33bd3",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 9,
-                    "sha": "b58ae3cdf7b71a362c83ec786042b75cc15d20c8",
+                    "sha": "3eb80a6df12f435d0a72168c3a12e0290adef29f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "1b90e37189caef32c91f9b217ef17b833159e456",
+                    "sha": "d30b29ab6b23e96231ca1c6d1e272c61bdb021ec",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 11,
-                    "sha": "78b15852c083404d8bf2d84392c764cbf78b54e0",
+                    "sha": "1fdb474a203f5a694600f857729e133ec561d321",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 12,
-                    "sha": "77b0e9877bfe01d0e00e654ceda6762bb96af031",
+                    "sha": "14e39aec9db0e8f95d3bc7804e110d9747516285",
                     "description": "Remarks:"
                 },
                 {
                     "page": 13,
-                    "sha": "bfc30f8c789849bde3af2db1485f9089f1c05a5f",
+                    "sha": "34eac7b9523c0d2982d4c45eb303ec5bd1e0ae7d",
                     "description": "Text Statistics Term Frequency: Zipf\u2019s Law"
                 },
                 {
                     "page": 14,
-                    "sha": "c3893fcb2ddef9055ec3a1145161817202f0bd3f",
+                    "sha": "7e2b8e4d22856bf8ea7ac3cf48f6bab1c360002e",
                     "description": "Text Statistics Estimating Result Set Size"
                 },
                 {
                     "page": 15,
-                    "sha": "96b303505304e5e4fd9e1dc7f9425e24e1f3a2a8",
+                    "sha": "de8066c1c3f0607edec5bb953b8a20b7c632ac6a",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "8a2be13dc7a424f75bf447acbc232cdcf99c706e",
+                    "sha": "d3ee2016da3d0e2898bdd8c67ab72eec8a80a59c",
                     "description": "Text Statistics Estimating Result Set Size: Joint Probability"
                 },
                 {
                     "page": 17,
-                    "sha": "81200300dc0cf382db68336eea24bcf2298e07aa",
+                    "sha": "fb1155d7a8b45370e5e24848f2140cefe7e940cd",
                     "description": "Text Statistics Estimating Result Set Size: Conditional Probability"
                 },
                 {
                     "page": 18,
-                    "sha": "cbe841ac6a478cdc1ab1fdfc8249c16d196b03b6",
+                    "sha": "9722c3cc8154b493a3284e685d56281a676224ad",
                     "description": "Text Statistics Estimating Result Set Size: Initial Result Set-based Estimation"
                 },
                 {
                     "page": 19,
-                    "sha": "1a51f90f0c2f3d7561a920e86d0e665be07c4f04",
+                    "sha": "3232347269a1057752efdaf27bebdbd69b37277f",
                     "description": "Text Statistics Estimating Result Set Size: Initial Result Set-based Estimation"
                 },
                 {
                     "page": 20,
-                    "sha": "baa134c10fd404e366c2a2d9aec0e276ab8f8bdd",
+                    "sha": "af84f77c1bdcc3273897bd2d41f5b49f6a37273c",
                     "description": "Text Statistics Estimating Collection Size: Joint Probability-based"
                 },
                 {
                     "page": 21,
-                    "sha": "82315fe4dc9a89eb643839c87b62d0c591d7d4b9",
+                    "sha": "2a821bacd2701599588ab7ad2c66eb10d1c2c4b6",
                     "description": "Text Statistics Estimating Collection Size: Proportionality"
                 },
                 {
                     "page": 22,
-                    "sha": "2d3194130727c5cfaf80c017e3cd1f5a3fa13943",
+                    "sha": "6fc57103f21ec8377fec237053c0c7c0d858847c",
                     "description": "Text Statistics Estimating Collection Size: Proportionality"
                 },
                 {
                     "page": 23,
-                    "sha": "61cc729629c7fc39f69b25a45c2f585ac3e09116",
+                    "sha": "b742d35a2d13b7b936af4b136cbecafe6978c3cc",
                     "description": "Remarks: 1."
                 },
                 {
                     "page": 24,
-                    "sha": "430b1471c71568e67bbf5d0004704628ee12b15e",
+                    "sha": "8af9600ea25568e55c46f2eb8ff7d078b5f1603a",
                     "description": "22. 23."
                 }
             ]
         },
         "unit-en-parsing": {
-            "sha": "52b733429b4fac15c8c81caa894381e97ff61c21",
+            "sha": "80815d46b8a5f12034d36b0727761abd6f31d659",
             "numpages": 38,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "37889fc8715b6dbbf7fcdd6af77d2575cf162714",
+                    "sha": "eed5310d9392aa30598f0d11244b1bfefde35173",
                     "description": "Chapter IR:III III. Text Transformation"
                 },
                 {
                     "page": 2,
-                    "sha": "2f8a65c026c5de7c2a38a41f853da0159d09fdd8",
+                    "sha": "5d2264570d54c44ee15cd3d150b280f625b19b2b",
                     "description": "Parsing Documents Retrieval Unit"
                 },
                 {
                     "page": 3,
-                    "sha": "1af68afaa1352908b4b0e4d44d870808a82cfb1a",
+                    "sha": "5c3298d13d4c0ad905b10d6ef8377fca42b9453d",
                     "description": "Parsing Documents Index Term"
                 },
                 {
                     "page": 4,
-                    "sha": "ac71c7f56b5f52561a2ab60737cff71595b57070",
+                    "sha": "40888fe635001ec841d67ad09549cbb1390b3744",
                     "description": "Parsing Documents Document Structure and Markup"
                 },
                 {
                     "page": 5,
-                    "sha": "99732dd6731b2a8f364cb41c7c8e0a46eb971812",
+                    "sha": "4a83b2b59957624f059a962f35aeae350d5c83e2",
                     "description": "Parsing Documents Document Structure and Markup"
                 },
                 {
                     "page": 6,
-                    "sha": "ee6ec5f4be8190a9617ce06f94815cd7c85e0b9c",
+                    "sha": "c776e135f5fbb85e553b973ae13a96df2cfbf60e",
                     "description": "Parsing Documents Document Structure and Markup"
                 },
                 {
                     "page": 7,
-                    "sha": "52370ccb2dcd03845bc4116eab94ef7b17981f84",
+                    "sha": "29acc0dc531c032d2a0b7018f323caef4e674ff5",
                     "description": "Parsing Documents Tokenization"
                 },
                 {
                     "page": 8,
-                    "sha": "a3bb8b8f391e59e743a171ca9ce6f6e42ba7dad9",
+                    "sha": "d0caa3cb45c26d045424432397ba03cfe1d21725",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "e72a3c572e9acef531fc039070936e568406381c",
+                    "sha": "3578cfaf8c432aae98854bac1544934eb73ec922",
                     "description": "Parsing Documents Tokenization Problems"
                 },
                 {
                     "page": 10,
-                    "sha": "de744aa62548ae016588bdedb3238294a0a8ad35",
+                    "sha": "1c9a763ca481a85d570df9080fd87019f20ba218",
                     "description": "Parsing Documents Tokenization Problems"
                 },
                 {
                     "page": 11,
-                    "sha": "5feaaf0e0e6343098beed9fad70f661453d6e5cf",
+                    "sha": "1b3641937c3071fe07a660b9e799aecba98353c9",
                     "description": "Parsing Documents Stopping (Token Removal)"
                 },
                 {
                     "page": 12,
-                    "sha": "57b1e8bdcdd82c94a72c5785d777555849e0b4d6",
+                    "sha": "2606145c746a81ca75879e7b7ec0f74e6ab23e09",
                     "description": "Parsing Documents Token Normalization"
                 },
                 {
                     "page": 13,
-                    "sha": "e9d852a715d397ff9a4a0b16ece66646f6ffc8ea",
+                    "sha": "bc7553e3bde8e0579419df78d783cbe28efc4d21",
                     "description": "Parsing Documents Stemming"
                 },
                 {
                     "page": 14,
-                    "sha": "d9121ffc3958455db434483fcf49a6b6f105e379",
+                    "sha": "2d8f8104917290b404169deb5d757fcc7e339d3a",
                     "description": "Parsing Documents Stemming: Principles"
                 },
                 {
                     "page": 15,
-                    "sha": "294c21b5215951ebb3ed1e1afddeceb7c016f695",
+                    "sha": "91864ea1059c05f6e842db661a2e4c873235224e",
                     "description": "Parsing Documents Stemming: Affix Elimination"
                 },
                 {
                     "page": 16,
-                    "sha": "a9e1b6c969694f2631edfb5ce79fde6fc075a5bd",
+                    "sha": "c100253cd750950cfa16046b20eb7f9eb1702523",
                     "description": "Parsing Documents Stemming: Affix Elimination"
                 },
                 {
                     "page": 17,
-                    "sha": "e116ddcc1e7bb27de86e098fa6408a42f73e4683",
+                    "sha": "2029fb9739274f94681fe3e8e6e98d4200768856",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 18,
-                    "sha": "6c120c8ceb12c16f85f98ab48c8beaa5e78305e7",
+                    "sha": "9fc892e1c901baad20582e9a953448dc04d517b6",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 19,
-                    "sha": "90d3da1208dc426377ca08538c2ba20d5da298a0",
+                    "sha": "9040559d13af0cc0f7802bd6446cebc52b3b4233",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 20,
-                    "sha": "3f73f22b2c46c410f27c1d0cfdc15d6d23f29b83",
+                    "sha": "1350f100529584789c7abbcc685e3e2c19945a09",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 21,
-                    "sha": "04ceb4093387949ebef45df597342d5635282bcb",
+                    "sha": "48d73f610c71c1bdd2605330ae998b554464bee8",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 22,
-                    "sha": "c28b3e3fe054b824ebd273f969183248a57b7ed3",
+                    "sha": "ebc03ee3643f9a3d7da2752d4c9667da79a5b7b0",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 23,
-                    "sha": "2ab22dd79a4f7745d1ddf085fde0c0920745dc28",
+                    "sha": "834667fc72c23870b4debc7e16e65702fff06fbf",
                     "description": "Parsing Documents Stemming: Porter Stemmer"
                 },
                 {
                     "page": 24,
-                    "sha": "b823e2b0dd49f26a07dedd262d5beeda42c1c0ef",
+                    "sha": "b2e96c23c7f9c7c9f3e1200c8c52d5b4a532cc8c",
                     "description": "Parsing Documents Stemming: Krovetz Stemmer"
                 },
                 {
                     "page": 25,
-                    "sha": "db4bcbc0de0ed993a445a5cf5d062d71485d52a8",
+                    "sha": "059d2f968be734c70c2b21a0aabd73520a0c0b9e",
                     "description": "Parsing Documents Stemming: Stemmer Comparison"
                 },
                 {
                     "page": 26,
-                    "sha": "33d1ab09a5af3cc926f8ff0c6d10e87040a5822b",
+                    "sha": "9dfdadd69de893bef66efa07d968353ae943954b",
                     "description": "Parsing Documents Stemming: Stemmer Comparison"
                 },
                 {
                     "page": 27,
-                    "sha": "07c6b9a34ae44d89c965b58b1a1013b63f74c2f6",
+                    "sha": "0641c35d4bb66acb53a390014c105e24dfa98fb2",
                     "description": "Parsing Documents Stemming: Stemmer Comparison"
                 },
                 {
                     "page": 28,
-                    "sha": "e1391dc5ebe2b9b0553b65bfdba963a27b687f89",
+                    "sha": "e47c7ee6eca7128553b3ca13a953a46d50d14e52",
                     "description": "Parsing Documents Stemming: Character n-grams"
                 },
                 {
                     "page": 29,
-                    "sha": "a5bf1fa9004741db0087442740a746c5b19cafd4",
+                    "sha": "e364c0b285cc762978b63e03f80a51ed8d068a33",
                     "description": "Parsing Documents Stemming: Character n-grams"
                 },
                 {
                     "page": 30,
-                    "sha": "ab43d9373d568adde258e3f53d1ffdf253856dd3",
+                    "sha": "7614b97e48da6aad5ff9a2af78c59365736508f3",
                     "description": "Parsing Documents Phrases (Multi-Token Index Terms)"
                 },
                 {
                     "page": 31,
-                    "sha": "8104ccc20446a93a0e49a92d0b1285e4f6fd5b41",
+                    "sha": "edf6d296153cfb868766807c52cf6fceca832c66",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "7f432353418447f156d5a1c08a1780af4ba75756",
+                    "sha": "5e771cbe209076228ea448ae71abf6331217de36",
                     "description": "Parsing Documents Phrases: N-Grams"
                 },
                 {
                     "page": 33,
-                    "sha": "cd5160bb03c7fa67ab229fd0552f1448e7039ecb",
+                    "sha": "3bf8fdfe2e4889e7eb929f715abbd844b44a4feb",
                     "description": "Parsing Documents Phrases: N-Grams"
                 },
                 {
                     "page": 34,
-                    "sha": "729ddb82e6e38fced06d969935c5175d35d064b8",
+                    "sha": "d4b85406fadb5d1053f161f8091d543671e2325b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 35,
-                    "sha": "a882799eb4730644dbd05febacb6f1c43accb8d9",
+                    "sha": "2c1ab7839761186213c0c9e37d4a6a9b32836efe",
                     "description": "IR:III-59 "
                 },
                 {
                     "page": 36,
-                    "sha": "b20a3436a8948b4224421379e63fa426a30139f7",
+                    "sha": "0dbeda9d5fdf15aa8aa37314e66442b7a196aa0f",
                     "description": "IR:III-60 "
                 },
                 {
                     "page": 37,
-                    "sha": "9f0cd08e2857eb886c12b36de86dbc8a743b93c5",
+                    "sha": "893c8afa0bbe2e9993191707a254a635ad883966",
                     "description": "IR:III-61 "
                 },
                 {
                     "page": 38,
-                    "sha": "80aeac71019408b07997f537bddb053c02870289",
+                    "sha": "f55c81038f26a3c0ffd31f19a765f07c02491e03",
                     "description": "IR:III-62 "
                 }
             ]
         },
         "unit-en-link-analysis": {
-            "sha": "bae534e569f6581e20621d16aa9baab84ca89d86",
-            "numpages": 14,
+            "sha": "41d0e36cbbcf3637aa1b730b2c2220a5bd4ef312",
+            "numpages": 13,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "35895d613b570b04b1633235180ec949a5765e7f",
+                    "sha": "63545572f01b2fb4a4a170ab488efc9c0c4c5c30",
                     "description": "Chapter IR:III III. Text Transformation"
                 },
                 {
                     "page": 2,
-                    "sha": "9946d3a8048fe95865a8a06699700ec26962d61f",
+                    "sha": "99d2e2bdfa8c582044f65028bd1642c889f2f6fc",
                     "description": "Link Analysis Hyperlinks"
                 },
                 {
                     "page": 3,
-                    "sha": "7d96ee9d69b33f0f87dae442cf9f0c2d75d64498",
+                    "sha": "21b170eab195e2c6fbe3996a3ab72eba6b623922",
                     "description": "Link Analysis Anchor Text"
                 },
                 {
                     "page": 4,
-                    "sha": "57fe15b9c7eb078eef9ac4e0c0dbb82ccec7aed6",
+                    "sha": "e2b7aa8aeca17cfee885574bb9dce6e3f5978e5c",
                     "description": "Remarks:"
                 },
                 {
                     "page": 5,
-                    "sha": "377dd430b9a7008c2eef67fd06b15e1d5fb486e1",
+                    "sha": "add647fca607a07414a3de27c7bf9531262be160",
                     "description": "Link Analysis PageRank"
                 },
                 {
                     "page": 6,
-                    "sha": "c7a452a1f9159e965b7125ab1708d466dc8ef1d8",
+                    "sha": "6134b25e7f3fd59442f335f9fc7da14a9859d6da",
                     "description": "Link Analysis PageRank: Random Surfer Model"
                 },
                 {
                     "page": 7,
-                    "sha": "40f59a7d1e8df6f030a957bdd8086cf9b9d1736f",
-                    "description": "Link Analysis PageRank: Random Surfer Model"
-                },
-                {
-                    "page": 8,
-                    "sha": "8dce63b076b2d312d72327a473f231cb4d59fd8b",
+                    "sha": "54256dea05427fc854fbc597030c82ebe8f6e070",
                     "description": "Link Analysis PageRank: Definition"
                 },
                 {
-                    "page": 9,
-                    "sha": "fea7516e63ba6cd7af0d6ac1a55f47307ff89f59",
+                    "page": 8,
+                    "sha": "b2d33acbc2ea0720248c167dbf6a0e2e35e79cec",
                     "description": "Link Analysis PageRank: Example"
                 },
                 {
+                    "page": 9,
+                    "sha": "cc93ba008176f731f2d4566519bc5a6984eb0854",
+                    "description": "Link Analysis Algorithm:"
+                },
+                {
                     "page": 10,
-                    "sha": "dd2873c94140c3a444378f163564e92cf00183a6",
+                    "sha": "d7abc161110934fdc929ecba898c4d1cbdb13078",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 11,
-                    "sha": "4ab7d60f30c6c580baddc2696857d3a1eb08c1bb",
+                    "sha": "c9c3d754980f8454c376de5e5babd23262b866f0",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 12,
-                    "sha": "527bb47a06015cd28c955a4f79a9cdf9dc22ac03",
-                    "description": "Link Analysis Algorithm:"
-                },
-                {
-                    "page": 13,
-                    "sha": "e0e4da76e6b03c7ac14f43e43c806b8462ab5aef",
+                    "sha": "a8a8ed3863b71b03f7d73aa7c03fb62428377613",
                     "description": "Link Analysis PageRank: Convergence"
                 },
                 {
-                    "page": 14,
-                    "sha": "7e020525e7860dc08eaa2db6d2396fbc6039e401",
+                    "page": 13,
+                    "sha": "261788b9044ccd7eadbd6f299f3c4f8a9532102f",
                     "description": "Link Analysis PageRank: Variants"
                 }
             ]
         },
         "unit-en-information-extraction": {
-            "sha": "30b66643be1adacf6af121b8c22758a8d5f58d32",
+            "sha": "250af987d25debf45ec41d733cccbf86fbdea349",
             "numpages": 19,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "152138b04a270ce7588c825a1df0374a2b152410",
+                    "sha": "66affd315bb8a8c506df8a9b9a0edfa8eed25c77",
                     "description": "Chapter IR:III III. Text Transformation"
                 },
                 {
                     "page": 2,
-                    "sha": "3d5e282587f847f7cb0d12ba70f590e37a5930df",
+                    "sha": "bba1eb7e35828082f224e11c97910a05e6aa8aeb",
                     "description": "Information Extraction Overview"
                 },
                 {
                     "page": 3,
-                    "sha": "fb487e3257d03953166e91cf8e32087efae54dff",
+                    "sha": "335a70cac226e9294565fa9c3e3bb40e613a154b",
                     "description": "Information Extraction Overview"
                 },
                 {
                     "page": 4,
-                    "sha": "40d6ec7753c6922ec98c59ff896188a5d13d1801",
+                    "sha": "f3b7fc2b25e0e1fe0669ea7fda9cbf9c0c677d0b",
                     "description": "Information Extraction Part-of-Speech Tagging"
                 },
                 {
                     "page": 5,
-                    "sha": "a014b62672c956db1cbd9756fd57b7e4c77cb9ef",
+                    "sha": "b1b11ca29f42d8d60b655413eb1c86a5c35e901e",
                     "description": "Information Extraction Part-of-Speech Tagging: Example"
                 },
                 {
                     "page": 6,
-                    "sha": "30e7b7eeafdcc0aa51ce3166183cb8e9eaa3e697",
+                    "sha": "bc59bf0a439efe39f00343773fb7e9ac9dd01894",
                     "description": "Information Extraction Part-of-Speech Tagging: Brill Tagger"
                 },
                 {
                     "page": 7,
-                    "sha": "700fb371f79b8a44a57cd38fb1f963fed7359710",
+                    "sha": "e29c3f018af233784299fdb92c61b78a60fbd08c",
                     "description": "Information Extraction Part-of-Speech Tagging: Brill Tagger"
                 },
                 {
                     "page": 8,
-                    "sha": "f172a5cf1ffe9c569d4e35e6b11fa3198a4ff55f",
+                    "sha": "4c425fa89d6c38e45f507b66c9bd3471d7d69b8d",
                     "description": "Information Extraction Part-of-Speech Tagging: Brill Tagger"
                 },
                 {
                     "page": 9,
-                    "sha": "5b019c6c5511ef17875b3afee31424db39105e00",
+                    "sha": "207dfa60c3dbd383cdaf68f08e5a78bc365894bb",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "fcce35eff41bd67c96391e96cd972b13fdee1ea5",
+                    "sha": "34a5227d273715d8d04f07309e270e8986b2cfa7",
                     "description": "Information Extraction Noun Phrase"
                 },
                 {
                     "page": 11,
-                    "sha": "b80b7b91fc745a23e6ac23a3e9b7f8cc912a5680",
+                    "sha": "8e5b7f2096f551e264dbee99f13f280424f69ddb",
                     "description": "Information Extraction Noun Phrase"
                 },
                 {
                     "page": 12,
-                    "sha": "0d11fe1e31bf8d182afe867ba104d54b240ed64c",
+                    "sha": "03515f98b74cc1112fd5dc3b8abc3e801beb969a",
                     "description": "Information Extraction Noun Phrase Extraction"
                 },
                 {
                     "page": 13,
-                    "sha": "721e6c12458f6bbaa3147cf8ee9039f767fea2cd",
+                    "sha": "faaf6ac4125c20e68af46e3e55123bb17f7f8e3b",
                     "description": "Information Extraction Named Entity"
                 },
                 {
                     "page": 14,
-                    "sha": "2dbadebb686d3e708cf0ec21f434686e64292cb5",
+                    "sha": "252e028bcf5eb8d41236481c146ca04c16def403",
                     "description": "Information Extraction Named Entity"
                 },
                 {
                     "page": 15,
-                    "sha": "03e4bd24a52a954987c3eab29efdc9c607457f9e",
+                    "sha": "910937583822d6211fb52bd82fa6cb6f2d2ad056",
                     "description": "Information Extraction Named Entity Recognition"
                 },
                 {
                     "page": 16,
-                    "sha": "6f160c04c039e56748beddf94012fae5071bf05f",
+                    "sha": "f87e0e890f274a8fd9ee3ff935215c0c61aec25c",
                     "description": "Information Extraction Named Entity Recognition: Hidden Markov Models (informal)"
                 },
                 {
                     "page": 17,
-                    "sha": "2642006f44f778beb4382affd5cba0a782e45c07",
+                    "sha": "d9bb18df480e69b5a71953bee71c829951b4e37e",
                     "description": "Information Extraction Named Entity Recognition: Hidden Markov Models (informal)"
                 },
                 {
                     "page": 18,
-                    "sha": "54a3fc2da0ffdada73c14ef171a22a91d230ced0",
+                    "sha": "c6275608810d9cc31a746b2e75292f07ff04101b",
                     "description": "Information Extraction Named Entity Recognition: Hidden Markov Models (informal)"
                 },
                 {
                     "page": 19,
-                    "sha": "dcf2446dc050cbee13b1b2624274bd28adc6f260",
+                    "sha": "faff23ce96ea7ecb16fd6217c4fdbbc047cb6129",
                     "description": "Information Extraction Named Entity Recognition: Hidden Markov Models (informal)"
                 }
             ]
         },
         "unit-en-inverted-indexes": {
-            "sha": "85d9513e95575ea020698f6e4f7e34a113204e45",
-            "numpages": 15,
+            "sha": "181d76b050f770981430316904e46e8b273a4e96",
+            "numpages": 24,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "53ce6aedf155fbb1ab7113232ec00233d6c8e7dd",
+                    "sha": "96cab048bd87c2ba3acac1386d2ec75c5be831a2",
                     "description": "Chapter IR:IV IV. Indexes"
                 },
                 {
                     "page": 2,
-                    "sha": "4a1272a01c4126ee897aa7f91bfe1b31da6a9a35",
+                    "sha": "c368f54887552615d74659ff733d22422aa4a6e5",
                     "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 3,
-                    "sha": "faa84b49962fd6caeff95ce7dda406adbdd4f0af",
+                    "sha": "df8a3af22f0e7141d09bde2afbc81af65fdbc601",
                     "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 4,
-                    "sha": "14566c0afef54032aa1a4aa587f0d06713ce99ac",
+                    "sha": "95dd51c4d64be5d3e578619a7d111048955adae0",
                     "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 5,
-                    "sha": "1074e76eead2cef3ccac595535501d4dc0b06363",
-                    "description": "Remarks:"
+                    "sha": "dc4868c82202bc4ee2f6a007198cf95dca083ed7",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 6,
-                    "sha": "785b6a7643f5a71a061e366e7ac0772f1527730a",
-                    "description": "Inverted Indexes Data Structure"
+                    "sha": "60dd7635a29ba6d46f1c7a05b2fce9a1fa34ace5",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 7,
-                    "sha": "3d2b57474ba3561a2e47266dbffc78fb9349ec0c",
-                    "description": "Inverted Indexes Data Structure"
+                    "sha": "8a20822e90e6210ff9bc43f50c45675f4893efcd",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 8,
-                    "sha": "6cc00fb006dc321a86bd857f89b9c9a6cae5aadc",
-                    "description": "Inverted Indexes Data Structure"
+                    "sha": "e6486e5916a8a4d016dca31c05f6b689bb75df95",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 9,
-                    "sha": "1c392c414f1e5a343d90ecf5be23129ba64698be",
-                    "description": "Inverted Indexes Data Structure"
+                    "sha": "96f64e639252d51c11b0e10d5d6699fd98f5b502",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 10,
-                    "sha": "ac72252cb78379ed6554c99df34e387d76a211f8",
-                    "description": "Remarks:"
+                    "sha": "a8174545f8864154a675c6983e72ed64af10e0a2",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 11,
-                    "sha": "3f411eb67185ab03b90a622351aef76f6f1453b0",
-                    "description": "Inverted Index Postings"
+                    "sha": "d204cb8185bf11d6407fdc4d075b2233b7337ec6",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 12,
-                    "sha": "ceb0d3d6de730c9585d141d59114b0bdab2c8826",
-                    "description": "Inverted Index Postings"
+                    "sha": "57a2431cbb2078e3c500ccbab9c770e71db06b9a",
+                    "description": "Inverted Indexes Index"
                 },
                 {
                     "page": 13,
-                    "sha": "0d8c993406fa2c3a549a6075c25a9d8f98c2380b",
-                    "description": "Inverted Index Postings"
+                    "sha": "6c0065ebb8cf402a24c04baea1ae41fa267aa0d4",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "569459fb2b284f720cba1e9744383fb5f28c92d7",
-                    "description": "Inverted Index Postings Lists"
+                    "sha": "dedbf08adff153241df5c21b02a3ab93a95ea943",
+                    "description": "Inverted Indexes Data Structure"
                 },
                 {
                     "page": 15,
-                    "sha": "b19dd0b1686a5651f3596758a3b783e33c1b3b70",
+                    "sha": "53cbd46da6bbd77561b1dc31b822d2224ab06fd1",
+                    "description": "Inverted Indexes Data Structure"
+                },
+                {
+                    "page": 16,
+                    "sha": "9192377617381423e57205827f607ec58e70b2a0",
+                    "description": "Inverted Indexes Data Structure"
+                },
+                {
+                    "page": 17,
+                    "sha": "e4a8b7a44bdea4deb72c50d21ed765bd549c0e88",
+                    "description": "Inverted Indexes Data Structure"
+                },
+                {
+                    "page": 18,
+                    "sha": "9e8cbdff152576b2dbf27990c29469b851d8cfb6",
+                    "description": "Inverted Indexes Data Structure"
+                },
+                {
+                    "page": 19,
+                    "sha": "01cae121303e3bdcb23ecf967885c1c768640841",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 20,
+                    "sha": "28a4ac9a46f881a774b29acded892212621221dc",
+                    "description": "Inverted Index Postings"
+                },
+                {
+                    "page": 21,
+                    "sha": "cbfa7b8aa1eec68c42710b5b36804f72f9d481f2",
+                    "description": "Inverted Index Postings"
+                },
+                {
+                    "page": 22,
+                    "sha": "649897a830c5e1f0b64981e1f1ceddcaeaa0c9fb",
+                    "description": "Inverted Index Postings"
+                },
+                {
+                    "page": 23,
+                    "sha": "124dcaaa8c5bc45199ea52d36aaeb4ce67ccf328",
+                    "description": "Inverted Index Postings Lists"
+                },
+                {
+                    "page": 24,
+                    "sha": "74d607dcdb492a00de2f8dd855ec43a314dcc25a",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-query-processing": {
-            "sha": "030f42497e251e5126bb63b6a67ac9a2148b1324",
-            "numpages": 37,
+            "sha": "b7e6d07f9f200686426e83145688f836f63cfa21",
+            "numpages": 38,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "3ec0f0154f032749d46c34953b410cf1c0aa68b4",
+                    "sha": "e39b966d57319813f4381e00710d8998e8929c52",
                     "description": "Chapter IR:IV IV. Indexes"
                 },
                 {
                     "page": 2,
-                    "sha": "02eeef93febe48f111830c10866e247fe42d4342",
+                    "sha": "56a61c5783fa60a8a92d5b4120ac774ab1308fd7",
                     "description": "Query Processing Query Types"
                 },
                 {
                     "page": 3,
-                    "sha": "affcdb96fa35ba4e27ba6d43b4d13da5f4241506",
-                    "description": "Query Processing Postlist Intersection"
+                    "sha": "f77b1aca2a079ddefd76cd3c90aa78d6dff58171",
+                    "description": "Query Processing Query Types"
                 },
                 {
                     "page": 4,
-                    "sha": "5722e9e1cfcfe1333e2a4866d3b960806e1697f6",
+                    "sha": "898f9ccf090a04f5d5e9c05cad33e16cb91d9277",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 5,
-                    "sha": "f28e5821d2a3e85183f02e86ec1073c3b7556fe6",
+                    "sha": "4f2588d889ebb6f68abe11a354839e24266436d5",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 6,
-                    "sha": "3a4f8600af5c3c2bd0c80ea5267f86747fae2ca8",
+                    "sha": "4c34c95751726686e0ce09efdb6041e748ce0c50",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 7,
-                    "sha": "f4e1ad160552418dd0eea0e709b4a4e0896bdf7b",
+                    "sha": "da997234887aa4307d07a3c7e974274a6410d4e9",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 8,
-                    "sha": "f3fcffa84f5baa1b617b1770c545c0886eee9b7b",
+                    "sha": "c30c9f7cd80d88fea33977bf38ca1fec89cecbf0",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 9,
-                    "sha": "0b323f879952f6e67c68483c963d66d2761aa457",
+                    "sha": "dd16b438767d0928caef8b32f362685d31b07f7c",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 10,
-                    "sha": "953eab46ff0eb5e7a7f78b5eb89cbb2872d07cec",
+                    "sha": "204d89ccda1c19b570c08e00a5e694c8bf04c561",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 11,
-                    "sha": "7809ede13b507231a44ecd988f11feab7514085f",
+                    "sha": "8820054a9615fa40baf9b992b48815e55048240c",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 12,
-                    "sha": "dda082227af2458f2fce6e63f546df6b2173bfb3",
+                    "sha": "e572a0bd33eeade2e94a073a601e377a482213e2",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 13,
-                    "sha": "69f7ccb2b3f54481ce77f03f896a66c3b46f58c8",
+                    "sha": "c1eddcb4a9a233701bc72a4e0ab6aff8e2f80b14",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 14,
-                    "sha": "3bbe8c647e9e9aa6a6ab30002282bbbd2e240ed5",
+                    "sha": "1491d522d0753a775c681e712c078c1a9242b26b",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 15,
-                    "sha": "ff256d5f256fee9c13eadc7c1192dbb92f6d8f4e",
+                    "sha": "de436c80c757318b0b8af935a77eef30b2e94499",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 16,
-                    "sha": "4ddfdd60d3f5b726b5be8a73df8e0a9a009bb84f",
+                    "sha": "30ed9f62f6508b8118f832b44adb3f60ca1763d1",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 17,
-                    "sha": "001aac7e91efd32463ff7830804709fbfc99b477",
+                    "sha": "d805d7738317a216d55e90d7119cad23c46bcb44",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 18,
-                    "sha": "73570716e2c9b2ba8cec04bccb957bab5c13ad6a",
-                    "description": "Remarks:"
-                },
-                {
-                    "page": 19,
-                    "sha": "41774976b88e46e6a86193893a196fd2c16c4d8e",
+                    "sha": "7c5597fd72a95858784865225af13cabf82caef8",
                     "description": "Query Processing Postlist Intersection"
                 },
                 {
+                    "page": 19,
+                    "sha": "026c98653419400d28e17adc91eec0478111bd62",
+                    "description": "Remarks:"
+                },
+                {
                     "page": 20,
-                    "sha": "9c963471b5d81fbf7f869a618a2ead3dc767db12",
-                    "description": "Query Processing Positional Indexing"
+                    "sha": "6c753ad890d6c7230d0ff6d977fb9245aac1c57f",
+                    "description": "Query Processing Postlist Intersection"
                 },
                 {
                     "page": 21,
-                    "sha": "b3f35725c1a37d67d5a628527ee22307406b3a17",
+                    "sha": "a12116d423e62f6fe0474464dd8088e5c5e3e156",
                     "description": "Query Processing Positional Indexing"
                 },
                 {
                     "page": 22,
-                    "sha": "1191565b288f520c539f3d2c8891af6dcb9bfec3",
+                    "sha": "f4cf1e72e61c4509dc85bdd6dbec76d276a6fc82",
                     "description": "Query Processing Positional Indexing"
                 },
                 {
                     "page": 23,
-                    "sha": "0da4d6c7545c85dd9f886a119dee7cd1184aa94e",
+                    "sha": "9ad474a643bcfdade2b615e45f98754fda791b79",
                     "description": "Query Processing Positional Indexing"
                 },
                 {
                     "page": 24,
-                    "sha": "e50a6396e03bed0efa0dd8c856d8397be874cef6",
+                    "sha": "ea08672ac4d187ccff0755fc78d912e31fc60c6a",
                     "description": "Query Processing Positional Indexing"
                 },
                 {
                     "page": 25,
-                    "sha": "12f5c1b764c7073e05a1b3c2bd82048c05398760",
-                    "description": "Remarks:"
+                    "sha": "3101a9b0197f60e7eda2f4014a9a36071e4ca33e",
+                    "description": "Query Processing Positional Indexing"
                 },
                 {
                     "page": 26,
-                    "sha": "a4a2688edb2730bc22cf153a2546cd428ece25d4",
-                    "description": "Query Processing Document Scoring"
+                    "sha": "3ec9ffe399c44f0b268c901c4fb0a97df29f7581",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "29b930ec2d5c5d860c926605b56868edd2179c7b",
-                    "description": "Remarks:"
+                    "sha": "0f73e4f49422d936f5a717294e77c7792ebed9cf",
+                    "description": "Query Processing Document Scoring"
                 },
                 {
                     "page": 28,
-                    "sha": "fa60b9c5887bf7b827b463ce7d889e4ace0b8c57",
-                    "description": "Query Processing Document Scoring"
+                    "sha": "53409e7ae84f9ae27e354c91b37475524405ec53",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 29,
-                    "sha": "5a2369b8b89e73103924cddfc974b4db9bec55f4",
-                    "description": "Remarks:"
+                    "sha": "eb5168380a4603a99e23e9b528e2670489dafb18",
+                    "description": "Query Processing Document Scoring"
                 },
                 {
                     "page": 30,
-                    "sha": "12feba6afa11ea2bc7c249db725e1b31433781a1",
-                    "description": "Query Processing Document Scoring"
-                },
-                {
-                    "page": 31,
-                    "sha": "de2d6cdbb85aa7ee100d8e19910bbf31860c98a2",
+                    "sha": "51de42699f7bba2f33cdf09e17e4aa1636723418",
                     "description": "Remarks:"
                 },
                 {
-                    "page": 32,
-                    "sha": "1aad8cb6d7e091b2c29c9312486b307bd7ffe439",
+                    "page": 31,
+                    "sha": "84deaa449d4e8dd8e974beb61e6657314d641917",
                     "description": "Query Processing Document Scoring"
                 },
                 {
+                    "page": 32,
+                    "sha": "dfb13855fb97fe92af3bbe9e5c2a1ec4fa18d14c",
+                    "description": "Remarks:"
+                },
+                {
                     "page": 33,
-                    "sha": "2fda7845c91fa3729c7c0d0e64282458bfbe46f8",
+                    "sha": "fea71c768108f53704c4a5644190b19fbe05357c",
                     "description": "Query Processing Document Scoring"
                 },
                 {
                     "page": 34,
-                    "sha": "08f9bc38b3c005a10f42466702ee2408b7b6e684",
+                    "sha": "ed72dbb467689760dee5032270a6c6dfd210f51d",
                     "description": "Query Processing Document Scoring"
                 },
                 {
                     "page": 35,
-                    "sha": "9f60296ab17de061886f408dcd46fed0afe32503",
-                    "description": "Query Processing Top-k Retrieval"
+                    "sha": "e79f0f8855e2db5ae1cde59fa0d40342c99fc02c",
+                    "description": "Query Processing Document Scoring"
                 },
                 {
                     "page": 36,
-                    "sha": "8a5a673281a9ee99d452d8117ed14179e66b497e",
-                    "description": "Query Processing Index Distribution"
+                    "sha": "cea7b85fc3b3c2133c72178924913822141859f5",
+                    "description": "Query Processing Top-k Retrieval"
                 },
                 {
                     "page": 37,
-                    "sha": "e6df957491a1854c06b0a1d70e0d3b7904bd21c6",
+                    "sha": "034dab89032e19c9b5ecfac03313ec0b416238c4",
+                    "description": "Query Processing Index Distribution"
+                },
+                {
+                    "page": 38,
+                    "sha": "2142ed6e584902758ca33b6a1e66af9bb4f34254",
                     "description": "Query Processing Caching"
                 }
             ]
         },
         "unit-en-index-construction": {
-            "sha": "21e992ef070a554111f646d664ee4f3e7c544a01",
-            "numpages": 22,
+            "sha": "6d3c7fb9e62fd2fb59f554095853254645a4b9bd",
+            "numpages": 24,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "f2db48094969ee5d3c5b296903d0255e65b20e7a",
+                    "sha": "cd33131199c17ef109cdb9bb4e0d27fc8fb1e825",
                     "description": "Chapter IR:IV IV. Indexes"
                 },
                 {
                     "page": 2,
-                    "sha": "8c0ae6dcc18eb50dfc0563e65ad6700d9ee84261",
+                    "sha": "60cc6d543001101f20e33b19c29e2316fe6bde42",
                     "description": "Index Construction Inversion and Indexing"
                 },
                 {
                     "page": 3,
-                    "sha": "12bca8930ecf61c89c058219c494080d5aaf743d",
+                    "sha": "86b43272882f7540eecc8ce7534991d42b4cc312",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 4,
-                    "sha": "08ef5a65d575b07e8ef4d3ccb656d9a21fb46607",
+                    "sha": "44e817f7749227c6db8240a06a405df6c9cca757",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 5,
-                    "sha": "6c8435667dfded838dd925de838f4b9816be486c",
+                    "sha": "5b3a696feb1409068f8db569d9c7cfba024f18cf",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 6,
-                    "sha": "026d79c9e83c870e4412241a58267509ee9f5a9a",
+                    "sha": "913bc07ac32aa2af3c3a71641273a2a7468483b7",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 7,
-                    "sha": "f7bbd39def525f768cb31e6fd9184d7e03b94fbd",
+                    "sha": "174f5a6142c664699b2e5a08989500c368b7f8a8",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 8,
-                    "sha": "fd07acaa0034a95b39f0c6b81170e01c381502d0",
+                    "sha": "d90f0c70cb9b92135fe9671cbcad4db096297e15",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 9,
-                    "sha": "a6d52a9f06d4373b219e0e21c06ad936645bdeba",
+                    "sha": "4e4f5dd534000c1b2bc803a56e6b7105aa430843",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 10,
-                    "sha": "fe6ea9c19b984829110489db7493c4c07c671283",
+                    "sha": "c58756113b5f3d506dd9b491052c78468661b745",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 11,
-                    "sha": "6cc9ed31f7e2041f7222c9391f7351f1832badbb",
+                    "sha": "b980bbed5f305b0604e09e38509c5e19489349b1",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 12,
-                    "sha": "d34b3b96d63947942b93f870ab70f2c8df7d633d",
+                    "sha": "05dc22eff8c6699e3a6d68f3063beadc4b872e87",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 13,
-                    "sha": "4c4f0cbac412095fd11154dc49ef21e843be7b53",
+                    "sha": "dadd34fc3d3c053aead7d97f1bc3b28da326c902",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 14,
-                    "sha": "57c58b301851a611a711e27dfc61ecdaff1525ce",
+                    "sha": "754e339c1035589ef6326c4373a45b5aef73cebb",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 15,
-                    "sha": "ceed2c9a9676f84d1a3618aeed7525b9887fff8a",
+                    "sha": "9452fb190a85754309e5e59f8cb4c1c5bdc660f6",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 16,
-                    "sha": "b133e168395711b87858b92745d40c02f6bb96bf",
+                    "sha": "3622e092e62787d529988167851aebd09d12a903",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 17,
-                    "sha": "bf66442236498aa4a45d1dfc09c5131107231a06",
+                    "sha": "210df4f66d080ad2778311b570ee9426912dd096",
                     "description": "Remarks:"
                 },
                 {
                     "page": 18,
-                    "sha": "554c212666f761d16f78743fd81a773e098805d5",
+                    "sha": "ee0d6de5472540595af8eb7f2c131c034540a566",
                     "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 19,
-                    "sha": "ea20e8ebb2addbe8e0b09099cceed58cf88f81f9",
-                    "description": "Remarks:"
+                    "sha": "24302ee6bc52068b3ee08663b105596977156e67",
+                    "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 20,
-                    "sha": "941e6504aa3030bd941b1764b27126436d6f975d",
+                    "sha": "66303e50de05a2fd508597135483822d9555666e",
                     "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 21,
-                    "sha": "1b323489304c2e5661409bcfca0823fe2a579e44",
-                    "description": "Index Construction Distributed Indexing: Example Netspeak"
+                    "sha": "7bad77f4ced8449e789b29a5a84f8703f37218bb",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 22,
-                    "sha": "eeaa2b96071e74ecffdd3ed96ee89a06a2846f21",
+                    "sha": "af0fdd11e852a8a89b87585a3146bed22f7b225e",
+                    "description": "Index Construction Distributed Indexing"
+                },
+                {
+                    "page": 23,
+                    "sha": "750cca110a1be24e7cd75e9c2dc5b3d32543d163",
+                    "description": "Index Construction Distributed Indexing: Example Netspeak"
+                },
+                {
+                    "page": 24,
+                    "sha": "90b6600320db8c7b7fc3ba357c3074124d976a0a",
                     "description": "Index Construction Index Updates"
                 }
             ]
         },
         "unit-en-retrieval-models": {
-            "sha": "aa68bb3ad84309c9e49971f369b9b3ef6185cec0",
+            "sha": "6b5f752cbde7a442b6a3aed1e6c68af1de2ffaed",
             "numpages": 10,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "466a30fe76ed695cb761aa5d26bb4765fa9a869f",
+                    "sha": "d3ff001323904b302368caff4bc47b8d921c5a53",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "c3314055a4760100fec14284a472b221cb52b6dd",
+                    "sha": "f19551f64678eb433007ac38a5359e86575038c7",
                     "description": "Overview of Retrieval Models Document Views"
                 },
                 {
                     "page": 3,
-                    "sha": "d45c634608bb9156d5cf5fd5101b2d31a0fda47e",
+                    "sha": "cde6a3fce1b98a018ab992678b98ece089d22b94",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 4,
-                    "sha": "c7c1b1f3c1d32dad7a457db59a21a5694046ed07",
+                    "sha": "39e7f6c766103c05edc27cc7399abc38138ec451",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 5,
-                    "sha": "c3cb4b5a0de602f6a5b18928c56d7cebc159d394",
+                    "sha": "6e51ecb1aaebf5c864ceb515ec4417570718f4a7",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 6,
-                    "sha": "45712bb71d9596ae209c6d51f4c42e836479dfc5",
+                    "sha": "2a31632e8c5e701690cd80e90859e08234efed85",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 7,
-                    "sha": "f9bb07177ba5dced60e1219484343924f8f81e46",
+                    "sha": "9689238312e860d457851c2e0db1bec3d0f0da2a",
                     "description": "Overview of Retrieval Models Definition 1 (Retrieval Model, Relevance Function)"
                 },
                 {
                     "page": 8,
-                    "sha": "46f5d4d81f677166a57e42382d53a086aeb5250f",
+                    "sha": "cf8505ba349b9933d36bedb5e4218a16fe6e14ce",
                     "description": "Overview of Retrieval Models Definition 1 (Retrieval Model, Relevance Function)"
                 },
                 {
                     "page": 9,
-                    "sha": "71ed02942231f7ef3c7f5adab5e132742d4b93bf",
+                    "sha": "eef24b5276c49352d8282eb9cea15ccb2633c0f4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "121b5b3fb3557d54568ef48eb9b9c3536f369cd2",
+                    "sha": "4443a106b82ead505623e8646a9ccf0116a44f9f",
                     "description": "Overview of Retrieval Models History of Retrieval Models"
                 }
             ]
         },
         "unit-en-rm-empirical": {
-            "sha": "d71ae4b873108e1b68500b1ee03846eceae75cc1",
+            "sha": "4d6ad80ab073915e5ea1582848c0673c5894bf9d",
             "numpages": 26,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "35957784e1ac57c1e59228130958dd54741570e2",
+                    "sha": "5318dc1ca9fb8006db75b12e585b3b7129888501",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "558c25e1153564f3a05df372004f74f5a6fb0cdb",
+                    "sha": "98e9a7b5096fef1004d04675af585779ef8ec974",
                     "description": "Empirical Models "
                 },
                 {
                     "page": 3,
-                    "sha": "f67fdf36c4e93a35ded3682629328eed16522877",
+                    "sha": "97b69a95477d4a3de5985dc4a4f87a9b758a4fe7",
                     "description": "Boolean Retrieval Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 4,
-                    "sha": "fa22393f7ad333dc6fe7cbb97fa9cd659336d5c9",
+                    "sha": "86ebd87f125422cc51c2c30ecb87d1480f279ec5",
                     "description": "Boolean Retrieval Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 5,
-                    "sha": "92be6f14a87d7dba32d998b9bb5cf87c10fba068",
+                    "sha": "9ff87a3977ea2aa4c95244a0dc7ba3a9aab3d673",
                     "description": "Boolean Retrieval Relevance Function \u03c1"
                 },
                 {
                     "page": 6,
-                    "sha": "4fc86ebd7160461a4c4eaf6ae3a93dca5ffeb2a1",
+                    "sha": "15b13b6cb607d74a6de55b42fa10b87ffb2125cb",
                     "description": "Boolean Retrieval Relevance Function \u03c1"
                 },
                 {
                     "page": 7,
-                    "sha": "7168a98fecfa8ac15768fdfd6d91d22343f4e61e",
+                    "sha": "2711299520e2657fc82311e78dffdd45bd465d5d",
                     "description": "Boolean Retrieval Example"
                 },
                 {
                     "page": 8,
-                    "sha": "d4bcfd847efbbfd8ecf30b7af3eb4e56e2687a69",
+                    "sha": "ff17a290c447faa269368cb641a1492f91ceb39b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "2a3a6cfad426f3417d8b3381009b53f8ebf2622d",
+                    "sha": "ff33c764ef2b29202d928caf585033fcffda6c3b",
                     "description": "Boolean Retrieval Query Refinement: \u201cSearching by Numbers\u201d"
                 },
                 {
                     "page": 10,
-                    "sha": "a6c863e8c913e06c68d1b5fc2eb57f16bdad70c6",
+                    "sha": "ec499840a2343d9d6dca80c633095fe90cdc8765",
                     "description": "Boolean Retrieval Query Refinement: \u201cSearching by Numbers\u201d"
                 },
                 {
                     "page": 11,
-                    "sha": "e5dbc6950df955761589140cacd6a512d48dc819",
+                    "sha": "e079c7b00953059024cacb1f23b9b179f7d944f2",
                     "description": "Boolean Retrieval Discussion"
                 },
                 {
                     "page": 12,
-                    "sha": "da4fa0ecc4686a894c78cab203295ecc0bafca4e",
+                    "sha": "4ed745b1cadb20ee7bd53533901741a1723210ce",
                     "description": "Vector Space Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 13,
-                    "sha": "40e22f71851a7587ac4ae24154dc58bd4f7858da",
+                    "sha": "12539f68fe024acf957b76fcee44860f77e44254",
                     "description": "Vector Space Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 14,
-                    "sha": "9dc4c78af7d6b57d9c885fb86d98b9737bd287b6",
+                    "sha": "920bab50d0dba6cc51912a72e707964571ad4b41",
                     "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
                 },
                 {
                     "page": 15,
-                    "sha": "159f79f202c32930b479c4a970e0a890774b2be9",
+                    "sha": "dabf35f1e8466ff262582890bd8bd887bef34fe9",
                     "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
                 },
                 {
                     "page": 16,
-                    "sha": "195f76e015c083f5c51a9345379941e666e69784",
-                    "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
+                    "sha": "2ae8db68b8b699a945ce84ac0b9c28cef7dddb82",
+                    "description": "Relevance Function \u03c1: Cosine Similarity chrysler"
                 },
                 {
                     "page": 17,
-                    "sha": "4faf8ef9219c35153ebd7f1642d61c5ca89217be",
+                    "sha": "d342bd938d655091c8ec2c8c8f6f742b0eae935b",
                     "description": "Vector Space Model Example"
                 },
                 {
                     "page": 18,
-                    "sha": "6f4f3af28b626ef0750e7046f988d41fdd857256",
+                    "sha": "3fd41f3f089abdb73f5d6694fb1ba5d8d865de25",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 19,
-                    "sha": "b5efc8daf887c71d0594193dc3524e80ec1e5ccb",
+                    "sha": "3d9eb240226bb47552db4d6e09b98bd4f8b7b441",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 20,
-                    "sha": "ba372dfe77761fa62dd45ccb5f0510fba21a4249",
+                    "sha": "199be740449091cf9164048a35d11957b89e383b",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 21,
-                    "sha": "e4a268cc02f9884641043914c910c683bd24a4b2",
+                    "sha": "c131bfb0f2432d73361dc2d8877c88baed597e76",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 22,
-                    "sha": "7947ff3c9af0ffec28d9b8b64db4b185aca3508b",
-                    "description": "Remarks:"
-                },
-                {
-                    "page": 23,
-                    "sha": "8278955308c19a1b45498180ff0e04491adc32f3",
+                    "sha": "44cf0daef5065c8f581ea7b465d0bf00b9662d7a",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
+                    "page": 23,
+                    "sha": "fabe9b5deefb2364c4e8cf6ccd8b547cb1102420",
+                    "description": "Remarks:"
+                },
+                {
                     "page": 24,
-                    "sha": "365b070668f2e86f3c18a6ec11048055b1e001d7",
+                    "sha": "549d1edb58a16aa7a1083463d9fce3c908c16118",
                     "description": "Vector Space Model Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 25,
-                    "sha": "ee9fc370609e5a0212249c8654b39ef26d70e094",
+                    "sha": "5baed8f1bb42beddb2dee9f3185c331b2626a969",
                     "description": "Vector Space Model Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 26,
-                    "sha": "d50ecc454475a975e63e5b03012781d34e4df49b",
+                    "sha": "a01b5694137125b66cc7fb999950a995a63a4547",
                     "description": "Vector Space Model Discussion"
                 }
             ]
         },
         "unit-en-rm-probabilistic": {
-            "sha": "9d981969e6b1bd7ad93926686c7b7ce601ac33c2",
+            "sha": "b2201bde27fa5dc578141ae4271ef7b5e2190385",
             "numpages": 54,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "79d18cda08cd38cfc16b666fce03b26b0a8f680c",
+                    "sha": "110b006f2933f7e1001b27b1a67c681f79d42762",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "9684df833cab4b88f970311ee24a3a371f308389",
+                    "sha": "0cd272b2dc590ca2776a30bad548df60f56e67c6",
                     "description": "Probabilistic Models "
                 },
                 {
                     "page": 3,
-                    "sha": "25bac580f191661f47f75a65bca9f1c7640fa064",
+                    "sha": "0a4eaea4c8711713c956f8245fd9d73f0d3ac0ac",
                     "description": "Probabilistic Models Probability Ranking Principle"
                 },
                 {
                     "page": 4,
-                    "sha": "f0277046ee873419d752b49cb7c42b974e2fc75c",
+                    "sha": "33a2384e12b1e82abe85bb70b00bae4e98fa3351",
                     "description": "Probabilistic Models Probability Ranking Principle"
                 },
                 {
                     "page": 5,
-                    "sha": "bd5a80c93de3c4abaefc5e0e7b5e5dd2aa105331",
+                    "sha": "223d01676c20fcdb139e1ba42d479dd137df9903",
                     "description": "Remarks:"
                 },
                 {
                     "page": 6,
-                    "sha": "a2c4e094d86f3a923ad71de7b3cd995b6d2b0c3f",
+                    "sha": "1eb388414f2abc5c3a49bf325685f8d1f97ac016",
                     "description": "Binary Independence Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 7,
-                    "sha": "320a2463cd7ea0046f80ce8c9c3cf0d654454b9a",
+                    "sha": "2a7e5500081467d4c9adc2f9a46254d879adeb63",
                     "description": "Binary Independence Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 8,
-                    "sha": "822f92c37b9581f889d6392dfa8680628f2fae75",
+                    "sha": "ecf6fd284f77fdccb8fe7b8dbb5f41b568578ffb",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "98140f736133057b27d8745941eb0eb40a8f478a",
+                    "sha": "339dbbcf46b72b9c04a6283f904e5c048f195663",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 10,
-                    "sha": "c66b0da2acefe45059d4db8d7a2690731e3927ea",
+                    "sha": "8bd5aa68f29cde5427c66d72cb175623637e3a8d",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 11,
-                    "sha": "7bc0d2c7214a6617b2f75da51a912f1469f70da8",
+                    "sha": "af67fedcd368ea9ca94674d6a69b6ef4343e5bff",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 12,
-                    "sha": "45d923a630d126715c468f70c56f1f415766d2fb",
+                    "sha": "f26bfdb1faf5cad366755af1c0bfbc15f41bea4d",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 13,
-                    "sha": "835b6f0f32de0f100d4ac8b5bfdeac62404235fa",
+                    "sha": "f80698672f02b54f850657c2801708a762f561ad",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 14,
-                    "sha": "084690fa7b50eb36a1e6a91756077bce61717a2c",
+                    "sha": "1bff61a49ba4d964a17205ce554360883b36a584",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 15,
-                    "sha": "2a1815416e5d8ebbe4de7faf9d7ee69bc38da1f1",
+                    "sha": "dfe5832e21f08e330e80b541b43083c51383b8c0",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 16,
-                    "sha": "6f9d43380ec6ba052ab9fb5407571d88994fcdbe",
+                    "sha": "ad866e145c0cee452cb99ec730e4169a973ec65a",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 17,
-                    "sha": "4e4219fad21af2c5e3165e7b3237c9274695bc66",
+                    "sha": "33e9a4611f96cf0e387988631de437548851eaf5",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 18,
-                    "sha": "62a95cecdc2a754fd697bb31c6661628b73f6fdb",
+                    "sha": "ec77475f32231b528cfcf5f9bde48dad5fbf896a",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 19,
-                    "sha": "de476439d4eb35ead19377ad7d38f650d1235b5b",
+                    "sha": "0cfaa1c067e483728c4ab00b9e2c5571b30bb9c1",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 20,
-                    "sha": "690c7a03fa8bed57650ec3e014e2346ed59fac1e",
+                    "sha": "548e47adbf966a8cce69afab1edf94f01c60d2b0",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 21,
-                    "sha": "4cc64b5bd286f66d4aad4f1953863304a38465f3",
+                    "sha": "a7741f74853e5f637ebe027768936de556786aba",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 22,
-                    "sha": "2f84031ccaba5923dc91e2ef526cf68ff17f44a7",
+                    "sha": "547d8fe073a8977ff124e5731000368e956b4384",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 23,
-                    "sha": "8c565dbc297ca1093afdcfc572885af259a9d9f3",
+                    "sha": "56e91ec0e6c913c41deee2011738be04fc499322",
                     "description": "Binary Independence Model Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 24,
-                    "sha": "89f99f855394dd83b098d7b051d5ae778c2c3d1b",
+                    "sha": "6f37f63f8d30dd965ad944bfec60762811cfbb6a",
                     "description": "Binary Independence Model Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 25,
-                    "sha": "d1eb298eae91423a59e6058f51102163d5e0fcd7",
+                    "sha": "896ffb0380951086805140b1589d78e43ee0118e",
                     "description": "Binary Independence Model Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 26,
-                    "sha": "15b6c7d3c2cd30ec2e5514ff63ead3865893c9f0",
+                    "sha": "00e6213c30a9a760e5327134d1a0e8cc663ab2eb",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "32a8d13316385371835ed1b2fb952a26f23a22ed",
+                    "sha": "76376b0e192d7248a41039abcddc1a899db6e2a8",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 28,
-                    "sha": "5df7697c9d8e2645697083bc17e3d750c39f55c9",
+                    "sha": "b2e83d14a6e4cefa36ffa419542a2f228f00600a",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 29,
-                    "sha": "1ff0e773a96c3fdd1086fa2ee497f4b6a8884e67",
+                    "sha": "7c3bd6288b69deb488d1ff447db5dd25993103a0",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 30,
-                    "sha": "4585e52fb1545428da77ad6d211151942794085d",
+                    "sha": "e8bab20f7864241cf9a0bb41713c815185d3a52f",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 31,
-                    "sha": "360226d9b562443fbda97ca3fa62efaac4c0f99b",
+                    "sha": "771c3e6ebc89f49574fffd714d818ae953d4cd46",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 32,
-                    "sha": "dbc8d5ac83fb4790d4114084431ee53af5e42157",
+                    "sha": "c56169ef4eff88434c54ca27c5c541de9a75f8dc",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 33,
-                    "sha": "c8113555f25fbcc3ea3ccde8000ee9b7642f0b73",
+                    "sha": "8cbfcd1b6131d4e706f96c41340d9bcc7c10795a",
                     "description": "Binary Independence Model Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 34,
-                    "sha": "12af4c441cf99b601ec01c2ff0f7bea88c743d13",
+                    "sha": "38c6498ad5d599258b2e4c447d2cc73cd6c40bf6",
                     "description": "Binary Independence Model Relevance Function \u03c1: Summary"
                 },
                 {
                     "page": 35,
-                    "sha": "ddbdb79268fbf698c44024598c43504e78f78ea9",
+                    "sha": "5493041048135763d138d35ad83f8e0e0cadefbe",
                     "description": "Remarks:"
                 },
                 {
                     "page": 36,
-                    "sha": "9fa85387011c757e83167c6647f8090778de758f",
+                    "sha": "63100efe295a1cb56db525771af8dabef51dfe6f",
                     "description": "Binary Independence Model Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 37,
-                    "sha": "6261893e9836fb5788c3942e87f7317f0312b9bc",
+                    "sha": "ac7e9d8a39186f0ecfd6810508d68c5c03c09aff",
                     "description": "Binary Independence Model Query Refinement: Relevance Feedback Example"
                 },
                 {
                     "page": 38,
-                    "sha": "b6260887e7926895befaefc5be68cf7cc867622c",
+                    "sha": "b9ee2c5e6402bce922e1ebb1dc48ce2cb9d2821e",
                     "description": "Binary Independence Model Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 39,
-                    "sha": "55727bcb20c76ab930d4c85f0b570b64e46098b3",
+                    "sha": "81973bc6f4e4512be11172aa55cfd4f7cf5e17da",
                     "description": "Binary Independence Model Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 40,
-                    "sha": "0e86b1975f7515fc0e8163e063cab95026072556",
+                    "sha": "061f62e72447601bafdd3b4153044c09fd1fdb23",
                     "description": "Remarks:"
                 },
                 {
                     "page": 41,
-                    "sha": "81de58f4e5f9dc43f365e1c96e34b5dc207e7123",
+                    "sha": "bd8edf9513032b7a00abf955ddfd798ef192d9fe",
                     "description": "Binary Independence Model Discussion"
                 },
                 {
                     "page": 42,
-                    "sha": "83be1e023fbb8b7a9181cbd63d4e6b5485b45bb5",
+                    "sha": "2e3c6271f85e3a7f95965c9572adc563ef4699bb",
                     "description": "Okapi BM25 Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 43,
-                    "sha": "3b0e4bbc278a6a941a71e98f133c9e1a0272625c",
+                    "sha": "e86854bfbef0925ac94c92c94d5c98f954006294",
                     "description": "Okapi BM25 Background"
                 },
                 {
                     "page": 44,
-                    "sha": "680b0e465f8a2fa81f844492c47b2a87dd054cfc",
+                    "sha": "526415c4422edbeecee802c0d836c323c63784bd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 45,
-                    "sha": "57a2328c438a0baf5cb372d07d505c9d9517e1a3",
+                    "sha": "08b2d1fa077938b8b2073bc40b7edc31ed02931d",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 46,
-                    "sha": "180848a36c1a07c31dbe471135df1caef344ec92",
+                    "sha": "d4d792add2491895906f96a59bcde84eb0de3265",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 47,
-                    "sha": "9eb690480aa702f05b197a901b7e68492c7f26a6",
+                    "sha": "1ba2620a12d42388ef38225c86e70fd5d1076b29",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 48,
-                    "sha": "03f484b5948559930827766ca089a45e47ffe8b6",
+                    "sha": "f9e157c0e934777fd2c0854d2bf5e61ba6122f06",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 49,
-                    "sha": "27f97adfa1c20a137d5061b2909ed1f408d16850",
+                    "sha": "c0a6d0ade3f863df000a549613684259f97f38cf",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 50,
-                    "sha": "345f4c24ed994e18f62e04028d60de0fa270ca18",
+                    "sha": "b3d63e8a0475815d2d65b38e95811d33800becaf",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 51,
-                    "sha": "c5e19e65eeec39e115254d4fc6609649fe20d9c2",
+                    "sha": "09943b04fd59844828f51655bd19b6fc0e3c4812",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 52,
-                    "sha": "c1dedffffd0524e90004f4b0b28c6798d8c02a00",
+                    "sha": "69a34b9bfc3ebab58f46524ad4609f31996bd743",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 53,
-                    "sha": "1c6aa45815f94b6cb32e2e47244934dd1a0ddaeb",
+                    "sha": "90eccf90d446bd26bf755536a7fb93f8992d2160",
                     "description": "Okapi BM25 Term Weighting"
                 },
                 {
                     "page": 54,
-                    "sha": "c0441f3ad8873a796c496439d44f7d6fd179674e",
+                    "sha": "0f579deefa49746502f313e2bc37bc18b183eab3",
                     "description": "Okapi BM25 Discussion"
                 }
             ]
         },
         "unit-en-rm-algebraic": {
-            "sha": "68f1843cbdbe064efcfffb6fc553e22ff72643e9",
+            "sha": "ad22485b9ebf417e509129c739de07c8cd49c0e0",
             "numpages": 54,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "6cbf5d1cba81d8deebb01f8efc288b658b4ad507",
+                    "sha": "160f2bab2c889f76f663270a1a9e47c8488b1226",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "ddf505897424e8b18ba61ab29f34f67ffe228126",
-                    "description": "Hidden Variable Models Obviously, the terms found in a document d \u2208 D are somehow related to the"
+                    "sha": "ec71164b4498c5afb17905e2264adc6b62c411e4",
+                    "description": "Hidden Variable Models The terms in a document d \u2208 D are related to its semantics."
                 },
                 {
                     "page": 3,
-                    "sha": "2044487e81be4a6d601012ae3fc39606c98816a8",
+                    "sha": "275d1e808bb523fca1780c1f229f1d7bacf4cbcd",
                     "description": "Hidden Variable Models "
                 },
                 {
                     "page": 4,
-                    "sha": "a22600135bfd8e0ea44221ca74b4c21e3c738013",
+                    "sha": "314521ecf4b5870122541fec960c93b1381451e9",
                     "description": "Hidden Variable Models Term-Document Matrix"
                 },
                 {
                     "page": 5,
-                    "sha": "2563b549cc8dadef5e3fcb7f4655e5a609dd8647",
+                    "sha": "90698b4df5039fc748b42ad8272df569500b2cd5",
                     "description": "Hidden Variable Models Term-Document Matrix"
                 },
                 {
                     "page": 6,
-                    "sha": "04fe95ea8720ea2dcd7e7c7f125e6e9438fb06ed",
+                    "sha": "3be4fcdf0d508f0cce693d756d9c43830df7acd4",
                     "description": "Hidden Variable Models Term-Document Matrix"
                 },
                 {
                     "page": 7,
-                    "sha": "27d685e501021106d62a50decfec1eb5d4f6eef5",
+                    "sha": "1803d47c54f1cd5fec6f274be3680d6f9c2f1839",
                     "description": "Hidden Variable Models Term-Document Matrix"
                 },
                 {
                     "page": 8,
-                    "sha": "137b2a724a6a0651c1cf145985dc4c2daec4b83b",
+                    "sha": "f88a0d0706faf2bc37eb2375d911c9c7406624b5",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "823408f00178b9a33c6b00032322d6decfdc89ed",
+                    "sha": "fade2fcecc8b9dcace0b9924d6951e2d54b5874d",
                     "description": "Hidden Variable Models Term-Document Matrix"
                 },
                 {
                     "page": 10,
-                    "sha": "f0d8efc447842295b2076f2bfa9e8c7e88e19e61",
+                    "sha": "7fe765938e52d3fd90413f668f49a2b9142c6ce2",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 11,
-                    "sha": "162945bbb1059fb28fddc1c60db00d16cb883aa5",
+                    "sha": "df15a565f344f876c1e5cd30e2449d3a45ee2366",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 12,
-                    "sha": "bcbbd1b53d9cf89c610b34f615b2641c060ea1b5",
+                    "sha": "1d4a16add1b74224dae26e76aebd3470ce15db81",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 13,
-                    "sha": "963f45a4179e2db551d6eb95be20b1f6aaa38ab1",
+                    "sha": "a8eca121d41fe09751b36bafe305e87de7463a41",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 14,
-                    "sha": "494ea25433593a93f8fbe4e6a3f50aa61b91a94a",
+                    "sha": "d5b688c5914b9a71bf6f5b3a5fc9cf9a8c507ae2",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 15,
-                    "sha": "835b1507ba9aa7e7a405b0787e10ba2c5006acd9",
+                    "sha": "fe22dd4dac6c30e9cf58c0a1bfe76d9ca32730d7",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 16,
-                    "sha": "b736d59c1ba7a13c1f7ca9ef40eff248f887a702",
+                    "sha": "7dd60785f01cb473f3180b85a80b4aac79839315",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 17,
-                    "sha": "a656a39c2dc3b9b570ad842fdbacecc5328668c5",
+                    "sha": "751cb8c6e762aa93d57063489a156ecdb119fa71",
                     "description": "Latent Semantic Indexing Singular Value Decomposition"
                 },
                 {
                     "page": 18,
-                    "sha": "2f9b9ad81836758d07be166e8a5502c3fc4b5ae1",
+                    "sha": "1ec6d8407f824bfd63c96fff078ea3c66ee254c7",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "cc70c044696a600d9eccd68f94d5c10b19971924",
-                    "description": "Latent Semantic Indexing Retrieval Model R = hD, Q, \u03c1i"
+                    "sha": "890866bbd56bbd7697695163cd364f5ea3950724",
+                    "description": "Remarks: (continued)"
                 },
                 {
                     "page": 20,
-                    "sha": "80c02e4ce01fbbdba503ac52b260b28a563ff8b3",
+                    "sha": "1072c06ecfa8fbbedd01a4c916d06cda9d821381",
                     "description": "Latent Semantic Indexing Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 21,
-                    "sha": "a84873172cd765b1b3b41f1932f2a3cc1b09b699",
-                    "description": "Latent Semantic Indexing Example"
+                    "sha": "d458d1eabc4979927ba8c85d53278f99519e1329",
+                    "description": "Latent Semantic Indexing Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 22,
-                    "sha": "67d6e0fdd5f7780af145fcd974dac621d2d85a84",
+                    "sha": "28df9320b808ab30067f859567518c20ca26d0b2",
                     "description": "Latent Semantic Indexing Example"
                 },
                 {
                     "page": 23,
-                    "sha": "dd4577cd274e502da6e4031dab2f47261f4be0ac",
+                    "sha": "ba5c5723db476952fcf8b34371695b2c3ec5061d",
                     "description": "Latent Semantic Indexing Example"
                 },
                 {
                     "page": 24,
-                    "sha": "13f3a0560ccf2fd86854b18cc2dd0374932930da",
-                    "description": "Remarks:"
+                    "sha": "49ed7cfb356ed45c655da3c086437e21708b5c12",
+                    "description": "Latent Semantic Indexing Example"
                 },
                 {
                     "page": 25,
-                    "sha": "e9a850d41bdee43465d4c117147bc7da4420efd4",
+                    "sha": "15fe5b096bd715a87b2d5c38c1a23137e6b35e3e",
                     "description": "Latent Semantic Indexing Example: Term-Document Matrix A"
                 },
                 {
                     "page": 26,
-                    "sha": "3c258a2bfb87e04df8672cc2eb549ae44c68ec4a",
+                    "sha": "0ff3b82d110bc01ed70b9b11dd35f4379e7424b1",
                     "description": "Latent Semantic Indexing Example: Singular Value Decomposition A = U S V T"
                 },
                 {
                     "page": 27,
-                    "sha": "e6715e4f4f505af52579c37a4c790f6a9be9eea6",
+                    "sha": "4313f62f85775d214814ae7c2b00b7b0a28e28b4",
                     "description": "Latent Semantic Indexing Example: Singular Value Decomposition A = U S V T"
                 },
                 {
                     "page": 28,
-                    "sha": "7b89fb70decc0e4a5b870f0748ffefe3571fb9ac",
+                    "sha": "bcd9f7bcde226e9f81017f99fc430ee1a2abeb5c",
                     "description": "Latent Semantic Indexing Example: Singular Value Decomposition A = U S V T"
                 },
                 {
                     "page": 29,
-                    "sha": "beabe15959cdde5e444ec6f210a8c8c93b9202ec",
+                    "sha": "f4f8692f78cb50d511ef5f1992be45784d588405",
                     "description": "Latent Semantic Indexing Example: Dimensionality Reduction Ak = Uk Sk VkT"
                 },
                 {
                     "page": 30,
-                    "sha": "02b3a58e8ab97b9485d1c51b9527716287925694",
+                    "sha": "9d2dcb0283dd85bd7cd9f8e8a8b4e995aecfa888",
                     "description": "Latent Semantic Indexing Example: Dimensionality Reduction Ak = Uk Sk VkT"
                 },
                 {
                     "page": 31,
-                    "sha": "2d208d97284452443e6802be2c16e3f9335065c8",
+                    "sha": "f5ab12c3ca3f584693d46f9a1f347d35814b4e5f",
                     "description": "Latent Semantic Indexing Example: Dimensionality Reduction Ak = Uk Sk VkT"
                 },
                 {
                     "page": 32,
-                    "sha": "64cab8ae8a313ae6174df7375092e8489a3fe566",
+                    "sha": "e744cfc86c735497ead64cde4bbac3f09184943b",
                     "description": "Latent Semantic Indexing Example: Retrieval in Concept Space"
                 },
                 {
                     "page": 33,
-                    "sha": "7965f352bd9564584a927d53b638be9998abf168",
+                    "sha": "78ae9fbce29ca5412563778d70e245508cb60715",
                     "description": "Latent Semantic Indexing Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 34,
-                    "sha": "e3d3742147b198d2fc17813172d0ae057a1af5a4",
+                    "sha": "9908a7b0f2e092da076f62a2d78a6f6b10be216f",
                     "description": "Latent Semantic Indexing Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 35,
-                    "sha": "d7a7d308abdcab612d69bffce4e3645154a15e06",
+                    "sha": "8f5ee9ba6ac43fe8e81d0248b26b6a976613c271",
                     "description": "Latent Semantic Indexing Example 2"
                 },
                 {
                     "page": 36,
-                    "sha": "6d8b28dff871f3bb399aa29d0aab5582447b77f9",
+                    "sha": "bb272e34af85a01754e9a6fc547f55961f51e88b",
                     "description": "Latent Semantic Indexing Example 2"
                 },
                 {
                     "page": 37,
-                    "sha": "696781d789e0f4a7ebcfec79f2220f0903446f0c",
+                    "sha": "77f53590cd15bb368a9c13b76abb5e90efee9b0f",
                     "description": "Latent Semantic Indexing Example 2"
                 },
                 {
                     "page": 38,
-                    "sha": "d68f87e1b3a79c080ae5a296305a6dcc539356dc",
+                    "sha": "225dc72574c3b5066f944e1689049a90d8edddcd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 39,
-                    "sha": "deff897f93c8d756b7b20ac62beeb83b68019f08",
+                    "sha": "7dfaae572b7aa802c2bc043e94d2bf771cef1426",
                     "description": "Latent Semantic Indexing Example 2: Document Similarity Matrix AT A"
                 },
                 {
                     "page": 40,
-                    "sha": "ffc53a00eebc4b8dc713b2a24460a0aedf081b07",
+                    "sha": "0fbe7620f7e45bf68deeea82cffbd9b8db03547f",
                     "description": "Latent Semantic Indexing Example 2: Document Similarity Matrix AT A"
                 },
                 {
                     "page": 41,
-                    "sha": "337747f50e22cf3b21096bf787226b9ee6c436d7",
+                    "sha": "116a823401fe17ba1c10a3a178f2f66c6317d68d",
                     "description": "Latent Semantic Indexing Example 2: Document Similarity Matrix AT A"
                 },
                 {
                     "page": 42,
-                    "sha": "e56e90411a70c6738b6cf0e14a34b876ee85b689",
+                    "sha": "f652dff0e8cae24466a9ba0852b412ad86b31b14",
                     "description": "Latent Semantic Indexing Example 2: Term Similarity Matrix AAT"
                 },
                 {
                     "page": 43,
-                    "sha": "71aa2aa30ce6c147b57344f318b87c5918ed0ec9",
+                    "sha": "9742caea06e00266acb6f043f62b6c852b6eb1da",
                     "description": "Latent Semantic Indexing Example 2: Term Similarity Matrix AAT"
                 },
                 {
                     "page": 44,
-                    "sha": "106282709a099fe906f49f5c4a608f42ecee3464",
+                    "sha": "73a97aae5d2b4708ea80e245bfc4591c660577ee",
                     "description": "Latent Semantic Indexing Example 2: Term Similarity Matrix AAT"
                 },
                 {
                     "page": 45,
-                    "sha": "24d58307d1924cae9d74d4eb24a4fd49f4b39c8b",
+                    "sha": "217d2956d451fec6d1d8d8d9a3c0b5c508eb4a0e",
                     "description": "Latent Semantic Indexing Discussion"
                 },
                 {
                     "page": 46,
-                    "sha": "26d40b844b8cf50c98245b0d12686dc8be2e1373",
+                    "sha": "580f4c2f71dfe81028eab0c8336f4b0802db539e",
                     "description": "Explicit Semantic Analysis Concept Hypothesis"
                 },
                 {
                     "page": 47,
-                    "sha": "b0fae43ed1f904aae79abf6d2cb959a24059ef00",
+                    "sha": "08d00219aa952adbad6889a09bf77d3778e9bd63",
                     "description": "Explicit Semantic Analysis Concept Hypothesis"
                 },
                 {
                     "page": 48,
-                    "sha": "b87fb871810ea10b365980b67966ca5524a16b65",
+                    "sha": "f528545799c0f56259558551ad74f67aca0fa048",
                     "description": "Explicit Semantic Analysis Concept Hypothesis"
                 },
                 {
                     "page": 49,
-                    "sha": "5ee5f9cf710f31abc18b3399917cf442353184f1",
+                    "sha": "cdaed67c4e0049c15307fa1f0e0ec0e119f4a803",
                     "description": "Explicit Semantic Analysis Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 50,
-                    "sha": "64a02a71a02cf75214579d9dcdc4a00fb331245d",
+                    "sha": "16ca124cd70c560686f43f56a333af63ed8dbcfb",
                     "description": "Explicit Semantic Analysis Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 51,
-                    "sha": "921589d74f29aa877a7700e3ee64aec5b45e1534",
+                    "sha": "677b344a9a3c9f3fe425695e8884b6bf788069a6",
                     "description": "Explicit Semantic Analysis Document Representation"
                 },
                 {
                     "page": 52,
-                    "sha": "fe78e1fd9068c03b63dd8260feeb922c9bc93d78",
+                    "sha": "d985b10ce7d7bcc27dfe0c3c7d164fa03c5553c7",
                     "description": "Explicit Semantic Analysis Relevance Function \u03c1"
                 },
                 {
                     "page": 53,
-                    "sha": "c1db9875a456ec280cce06810f61d57e9dfb5879",
+                    "sha": "a4bdd83b1a58807da9a13092996200775893588c",
                     "description": "Explicit Semantic Analysis Relevance Function \u03c1"
                 },
                 {
                     "page": 54,
-                    "sha": "f89f726e9d59cc2884ced0cfddfbbbcac195b9d6",
+                    "sha": "be9accd6457f7dbda89dba34dc3c0f5467494ad6",
                     "description": "Explicit Semantic Analysis Discussion"
                 }
             ]
         },
         "unit-en-rm-generative": {
-            "sha": "1bf43c0e0015c228ae5e09be00d86913b122b524",
+            "sha": "0a649c960dd306267ab4640ecda1689bc3a5f8fd",
             "numpages": 59,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "5f5324eb98f64c661cc898bbfe212183c05afe88",
+                    "sha": "f57edd9988e6c545f3205a65a9bc865fc2548950",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "b2db70f7421594cd8728d24fc6dcfc413421f512",
+                    "sha": "fa53a2b1f739968121b27a7f2c6815c87eb9bf4d",
                     "description": "Generative Models "
                 },
                 {
                     "page": 3,
-                    "sha": "422326994c74e6b331b1c892f969ef0b59a55fa6",
+                    "sha": "7094aa07588da87495f31b3dbccf7e4738092cfe",
                     "description": "Language Models Background"
                 },
                 {
                     "page": 4,
-                    "sha": "cf40bc8bc91e1d1db943f5b87386e3d46f3a49b0",
+                    "sha": "e5bd0998d5bc63a226f26f1e5e17b86d6ce37c5d",
                     "description": "Language Models Basics: Grammar"
                 },
                 {
                     "page": 5,
-                    "sha": "0e9a5b308d893ccacc365ccfd159aed793eeeb9d",
+                    "sha": "7a336c44a4c62d651f3e368d23195662e77d146f",
                     "description": "Language Models Basics: Grammar"
                 },
                 {
                     "page": 6,
-                    "sha": "458fe27908ec64ad00dc9a00358972e962787d9b",
+                    "sha": "82fc28b0b7db70b4e92076bf36e78682ea731e3d",
                     "description": "Remarks [Kastens 2005] :"
                 },
                 {
                     "page": 7,
-                    "sha": "784b17d17fcae4d3583d37a3f3ba279c11d32718",
+                    "sha": "82fd7791472a3c0c55d284b36eabaad35c735585",
                     "description": "Language Models Basics: Grammar"
                 },
                 {
                     "page": 8,
-                    "sha": "74974dac52b7694484999023a129c54376b9e12c",
+                    "sha": "a498c092c3d5692945ce2c28a9a69a9f91d4c9bb",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "9eedd7ab68250ca75ebe49cbd626fddadd918f9a",
+                    "sha": "32c4e1d93ade26524259a0ad12128b82d321479f",
                     "description": "Language Models Basics: Grammar"
                 },
                 {
                     "page": 10,
-                    "sha": "c2fe58a29d0b7a0c9cd152b1bd29a44bf3291bb1",
+                    "sha": "ba06e4fa3bef589316ca2ceae6ec16778a7120bd",
                     "description": "Language Models Basics: Grammar"
                 },
                 {
                     "page": 11,
-                    "sha": "7f51a1ec0dae5d2f905522dc91edf70e54a07477",
+                    "sha": "52060f5289a709f50d3387b755f036436485fa57",
                     "description": "Remarks:"
                 },
                 {
                     "page": 12,
-                    "sha": "c71e2f09af726c39c2bc057bcdf81c895103965d",
+                    "sha": "6e959c75de80aeeac50d23a78ca9f3c0f6766e0a",
                     "description": "Language Models Basics: Chomsky Hierarchy"
                 },
                 {
                     "page": 13,
-                    "sha": "7a653fce83596ebea2b007d8f619da43c8612a4d",
+                    "sha": "1f201fdc9c901ba48daad64737658f6fb589469b",
                     "description": "Language Models Basics: Chomsky Hierarchy"
                 },
                 {
                     "page": 14,
-                    "sha": "8464793e0ac0dfeca4c2ac453afc56ce26b07005",
+                    "sha": "47c38dc99a2ee3d6b41da5a6f3073c8ccab3c2c2",
                     "description": "Language Models Basics: Chomsky Hierarchy"
                 },
                 {
                     "page": 15,
-                    "sha": "57b30c039d2b1689dc7865e3f905d4cfefae7954",
+                    "sha": "9c4b9809414f98736542a944f8caffa03887590d",
                     "description": "Language Models Basics: Chomsky Hierarchy"
                 },
                 {
                     "page": 16,
-                    "sha": "b9b8347286239e48ca40a8f993a93944c0ce67e2",
+                    "sha": "fbc383c2fd67b4cf19a90ed2595091c9ca8ca2c9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "29efe312c0a1cca798fee298ebe52d616c61d784",
+                    "sha": "15ef7f8b371df532b93131b43e33551f6ba01ba6",
                     "description": "Language Models Basics: Calculi"
                 },
                 {
                     "page": 18,
-                    "sha": "6b303f634735817fcc70a3a37701621d9943695b",
+                    "sha": "6e9b59d2930a5c25408890aa6f7b032c851b2c94",
                     "description": "Language Models Basics: Calculi"
                 },
                 {
                     "page": 19,
-                    "sha": "86db5b7b205f8ef8eb6050534da52cce477f9e30",
+                    "sha": "0380901ce984cb38dcd1fe42288cdbe9533611ee",
                     "description": "Language Models Example: Deterministic Language Model"
                 },
                 {
                     "page": 20,
-                    "sha": "a1b4c084571ea7bfb7e94d3411c0adde728caa25",
+                    "sha": "6c608d6495846d98f8d4dd3991a0c0a87b72faff",
                     "description": "Language Models Example: Deterministic Language Model"
                 },
                 {
                     "page": 21,
-                    "sha": "ec26350ef2d0ec5cc0a591751dddd4d162b9c88d",
+                    "sha": "a885890cfa95b11ec17c134ee23872b0d7464036",
                     "description": "Language Models Example: Deterministic Language Model"
                 },
                 {
                     "page": 22,
-                    "sha": "d5391d9b118bee7453f1f4b5823dc02116158190",
+                    "sha": "cbfbea20159becc2b2f9a61e739e46a9b6877ffa",
                     "description": "Language Models Example: Deterministic Language Model"
                 },
                 {
                     "page": 23,
-                    "sha": "ec2621071d011313924fbb98c97434cd3dfe1015",
+                    "sha": "db946405afdb9ffd9cd9d60a48c862e313fb5b0f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 24,
-                    "sha": "4e6c5e9600e236cc37a483b5d35eefbf7e4f9472",
+                    "sha": "b55397b6566fae2f2854f696f2369ed64459bcba",
                     "description": "Language Models Example: Statistical Language Model"
                 },
                 {
                     "page": 25,
-                    "sha": "8867316f2bf0290fb32668cbaaa76c7ed73dadc6",
+                    "sha": "b7e5d5057015cbf880fd9eb7d753c9da325ea1e9",
                     "description": "Language Models Example: Statistical Language Model"
                 },
                 {
                     "page": 26,
-                    "sha": "b9f4bed24d805d7067ed28b718f70ad2344c7c8e",
+                    "sha": "643cf82d6d16db9ea129eb83f822db8ec244659b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "a0a74373ed0162ddb60b25cef4406b6698ff93ca",
+                    "sha": "025ebe402d86b455df7d15e595fb1632eac4c729",
                     "description": "Language Models Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 28,
-                    "sha": "de0a4e4f362a018936acdfdef09afc4d6d0fc4c9",
+                    "sha": "20d3cb59505d5d5a8cb8ee523c66d357ff4f852b",
                     "description": "Language Models Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 29,
-                    "sha": "cae42de4f13196004e7f7478aa0fb882a5450ef8",
+                    "sha": "acaa59d93c38a6cfee0c0b1864d3b55453a4b8bf",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 30,
-                    "sha": "3927c673b8d07c33ae4aa61a427465908d1dee76",
+                    "sha": "a2a2ba92120ee4682c1c696eb065dfcb2fb154f3",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 31,
-                    "sha": "f38ea5dd900ff2ae045b4016bc7cc7a56a640baf",
+                    "sha": "a9f7134507407d3a655ae995919fea70abab5230",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 32,
-                    "sha": "cbcd41918f83b862dd9ed4b54481469e381699e4",
+                    "sha": "b8f44731728ddb8fa945d903781bd03e96fb655d",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 33,
-                    "sha": "8d0e48ca00245156545e8ece72ebfbbe1d3de8d4",
+                    "sha": "6ef77c321d2a36c27fd6bad1950b37cd922e21b2",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 34,
-                    "sha": "f9fae508a2448841374c00d41d44a67d34746d39",
+                    "sha": "0e1d0249ff9c1f94e51f6c887fcf629b7f84b954",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 35,
-                    "sha": "0bb8cdb36f0a21525329e8e081b8c755a1d987da",
+                    "sha": "45f8999babc847a969e732e00f97cff604a4fd97",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 36,
-                    "sha": "17ef0968576f356b169d498d8be2b5cd53956a01",
+                    "sha": "3560aa461266db3ee772ff74985b3d79b3f2d931",
                     "description": "Language Models Relevance Function \u03c1: Derivation"
                 },
                 {
                     "page": 37,
-                    "sha": "0e4b38681048448223a46fa5900b374d8b05d518",
+                    "sha": "7983b2343e4e014c230450d16057a6ccc1ab454a",
                     "description": "Language Models Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 38,
-                    "sha": "bc54d7ab766f94dcb454280c12f4dc4e89522204",
+                    "sha": "22e7e59692ccb09f573077675d4e91bfe0cfbf63",
                     "description": "Language Models Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 39,
-                    "sha": "71f825948c18cbfa2524dc11be42a5c76798d5b0",
+                    "sha": "dd0450e5b8d022931c5729958e6b9baef8386874",
                     "description": "Language Models Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 40,
-                    "sha": "8b3cf69e98beeced181c23c6da99b1d01ba59dd9",
+                    "sha": "94dfd2567c80f64b12caf3fd117df66de32ee376",
                     "description": "Remarks:"
                 },
                 {
                     "page": 41,
-                    "sha": "54022ea2f0ee64d322e672a934a500eeb9dd22c4",
+                    "sha": "5640bb52dafee8d8560d881d16661d63d0966872",
                     "description": "Language Models Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 42,
-                    "sha": "aee76ea305758f5a929584e323ea77a24f478cb0",
+                    "sha": "95c593c88588c240bd271e4625b07ba78b1f0f31",
                     "description": "Language Models Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 43,
-                    "sha": "0ad479a09c2ff8c35e1d8469df93257f0a9d990d",
+                    "sha": "185d35aca4725a454c0eb1a692098bb8442e2c6a",
                     "description": "Language Models Relevance Function \u03c1: Estimation"
                 },
                 {
                     "page": 44,
-                    "sha": "10a6de5649b5339e1aeb02638ce4578e11407f65",
+                    "sha": "b26860a284133900ac78892fa19f9d653dd59273",
                     "description": "Remarks:"
                 },
                 {
                     "page": 45,
-                    "sha": "f9383245d1c1f8189a1ffced8b51eb4b2008faa9",
+                    "sha": "2481bbb174ddcd42159466b0433c6f1b2141c528",
                     "description": "Language Models Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 46,
-                    "sha": "f9dc82aaf86b51f344cea4633ca535e04048ed1b",
+                    "sha": "4f5716e1d689937fd18c27fdb2cf67761778d06e",
                     "description": "Language Models Relevance Function \u03c1: Example"
                 },
                 {
                     "page": 47,
-                    "sha": "24a46b44bbc926e3cc3ec2d78475e0e84491b005",
+                    "sha": "81f8e4b12eeedc04b1ff081345ee7025472e63b3",
                     "description": "Language Models Relevance Function \u03c1: Summary"
                 },
                 {
                     "page": 48,
-                    "sha": "f0b95786415927958b9a88ee3c4165d89aba2707",
+                    "sha": "e6fed065edc610190bf774bcdf75aaed0741035e",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 49,
-                    "sha": "6398559f9efd559d7a2e97ada76f9698e96e1c0c",
+                    "sha": "1585362871dc0a927944873273ca334bc9353c0f",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 50,
-                    "sha": "f54f3322f3f997d6c4228160ac7046bdd7250045",
+                    "sha": "e6139458858ce5307cd2b757ee7faa8245f7eeb0",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 51,
-                    "sha": "35c61b0144363cefd20775b4ab49c94759119a39",
+                    "sha": "dd70ae398f80d91af6feaea9f8b249c822911cbe",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 52,
-                    "sha": "5c2b6dc33c6df593556c109e566385c12ab8fa64",
+                    "sha": "3c551790cbf575ae2c6c9434282987c54b909174",
                     "description": "Remarks:"
                 },
                 {
                     "page": 53,
-                    "sha": "695a3a6787fbb44157c30c3b77c63c206f8a2bc2",
+                    "sha": "f6a6400697222fb2904df8b16f943272fe06fc5f",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 54,
-                    "sha": "c064da655328a41fe1cd6ea3ab3416af7ecb74f0",
+                    "sha": "d1bf02265c29ef661522a955ff3b5c56b82dc1a7",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 55,
-                    "sha": "4304bdaef9d28fd82e06e73b76bf71c03c46b121",
+                    "sha": "5b8e300bd4aa7b60b2ebe8320e6e2642f0b5a01d",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 56,
-                    "sha": "0d33bd5741eb6060996a8ec26004baedfdf035ed",
+                    "sha": "30fc8e41f5e2749e2e42544dac3745944848b167",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 57,
-                    "sha": "bcfd1dc413b78e789e7c50e0fcdfa96fb97f7f22",
+                    "sha": "2b6560d534a6deaed53254924c0ce8f4a439beb5",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 58,
-                    "sha": "5d509f81f882e351948cca24fea808526c0d7820",
+                    "sha": "2599589a9c83ddacef7588fc4f89ddfa7edae865",
                     "description": "Language Models Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 59,
-                    "sha": "15690c9be32d9d17c5ce5839e9dd0ea69fb74bd4",
+                    "sha": "3d572129bf25a0df1c13c56f0b1cb3bcd1a914dd",
                     "description": "Language Models Discussion"
                 }
             ]
@@ -28715,107 +28770,107 @@
             ]
         },
         "unit-en-laboratory-experiments": {
-            "sha": "5c678f8526e183c7001106adb4765bacbee31bdb",
+            "sha": "73d8841441be8c36a454bc8eb3ab213ac40f763b",
             "numpages": 20,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "15e9c6c4eb18850d7730ac00504e7093c3cee36a",
+                    "sha": "3ab692c0958243eb735a3daa571419e24e1ef636",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "3e9be85c7eab53116dc3d1427e6bec4f7be7bfe6",
+                    "sha": "56b9e2ec5c671532d05dd82ef7c0c1490dec1173",
                     "description": "Laboratory Experiments Retrieval Tasks"
                 },
                 {
                     "page": 3,
-                    "sha": "7a69947fd4fc6f9aec086c6452c777b8d4c53683",
+                    "sha": "95cb2886101b777e37090a215568b9aa3a607dd6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 4,
-                    "sha": "9ea354246e5acad67a47fcca490ad5168f591e9d",
+                    "sha": "e0046faae8ff558c2b61f85e8baebb5dddb48a50",
                     "description": "Laboratory Experiments Experimental Setup"
                 },
                 {
                     "page": 5,
-                    "sha": "cd9d9750ac87602159527ac9ea3c7bf5eec0c49e",
+                    "sha": "27488f469efac7838a6619bafde33a76129b3938",
                     "description": "Remarks:"
                 },
                 {
                     "page": 6,
-                    "sha": "44af4af1d51263ec7852f6164f07318080792480",
+                    "sha": "b423bb97881d3ffa0cda9719a9052136620112cc",
                     "description": "Laboratory Experiments Experimental Setup: Document Collections \\u002f Corpora"
                 },
                 {
                     "page": 7,
-                    "sha": "5298261ade87af1b80ea5e0ce1904123e1a4c651",
+                    "sha": "9d0ba71bba19872da9ef330040bfd224c52d66e6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "02d95c6615748f89aa8acdc5d192a210da14858a",
+                    "sha": "1dcec1dd16d5f4c97b7c3f3850550bcf88182ee6",
                     "description": "Laboratory Experiments Experimental Setup: Topics"
                 },
                 {
                     "page": 9,
-                    "sha": "453a860f4df07dcc885d17f147f476ce2f992681",
+                    "sha": "dea0c068f8d1c8b0412da9a54269c7dd0685e750",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "82095881b69fd696355fdfb6ceeb48bee8d0d215",
+                    "sha": "9c87f84499f63cb671b0dbb9e328502257ae40ca",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 11,
-                    "sha": "a7340170ca8a0a9a98425dcade8ca8e6bccf1481",
+                    "sha": "f5ad71614a7018fe837af26345015c71f49aa8ab",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 12,
-                    "sha": "daca0acbd6d5fa47e2be8dbe0a05bfc5e824936d",
+                    "sha": "880b314599bdae604b160330a28f326b3dcbec04",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 13,
-                    "sha": "7fcff46edc9dff7058c599a65f4a8fe24cdc8888",
+                    "sha": "9975ae7a9a81511b098140bfbeb4876557ae97f8",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 14,
-                    "sha": "8823d5279c37b48d77d13beb770cb35f61b53893",
+                    "sha": "a23ec5f666c0a703e80723cbc73efda64002e3d4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 15,
-                    "sha": "f25e03412ec07840cc557b4ac190c222d2524d85",
+                    "sha": "a6a02d6d80c9a168f39c182ec5fc741212b1c150",
                     "description": "Laboratory Experiments Experimental Setup: Pooling"
                 },
                 {
                     "page": 16,
-                    "sha": "7781310acec3b07cf2e875a297872211e91c81f1",
+                    "sha": "06818c9fd3379a90b055e93c51e275a0b6dac7d8",
                     "description": "Laboratory Experiments Assessor Reliability"
                 },
                 {
                     "page": 17,
-                    "sha": "698a537c2ea743f600324b0eb738f85392507332",
+                    "sha": "cdd5cef3e914b1b428f7b47c02e7e375d4f361ec",
                     "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 18,
-                    "sha": "7ed0fe025cd94bd06ca519e109a9f375cfbffbb9",
+                    "sha": "a5f096c9e2de9a904bee3871452e2597e9899c54",
                     "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 19,
-                    "sha": "bb95edc9685cf8b5bc91437c1b8998970e18fef4",
+                    "sha": "97197e0878949c00b294c79549db62f2c867d0c6",
                     "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 20,
-                    "sha": "08517100f826730d410099909534601d76aa9b88",
+                    "sha": "3f24613667023254728232db2a3006f0173ccc81",
                     "description": "Remarks:"
                 }
             ]
@@ -29027,92 +29082,92 @@
             ]
         },
         "unit-en-training-and-testing": {
-            "sha": "87f213abe03426861d86d1fdd13009fff5f59f25",
+            "sha": "9b3fc36c0ae4bf11444889af4beb89728b319e56",
             "numpages": 17,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "1e0c3e4e20197447cf4b1773592c42117afa0b22",
+                    "sha": "9f6cb74de45f7427a00a689d46c23446d1c928ae",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "0d81d4ba394aab4eec181a333e2946a11c781e71",
+                    "sha": "548d8ac90c69235fc46086bee60e2b2fa11df782",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 3,
-                    "sha": "c6c9bb6ff11c518e6c66f94b81b6d77eb0f3a0c1",
+                    "sha": "a01cc567226b7357f772173244ea640ede9f037c",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 4,
-                    "sha": "c0882ac3723b8116a69333010724b46e59b02c8a",
+                    "sha": "415232845444b0d8227dce16596c7bae37fe43b0",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 5,
-                    "sha": "26585b7917507d20d637e811ed5f62dec1d54e3b",
+                    "sha": "4fecd7022c08ea552c8a455f3aeba16f14aaeeb3",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 6,
-                    "sha": "5c7bc082296d3a096142d780318a0502f2c432c8",
+                    "sha": "911ba1242bbe52bfffa07c96662aa600f199b96a",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 7,
-                    "sha": "32fbacf5cff6a6fb845eba5ef7e381be1f2c17d5",
+                    "sha": "57f07de52b2aa4684d8155213aefd07c20bbac53",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 8,
-                    "sha": "993b7019b73de6595dca7df3fadb9a773420b452",
+                    "sha": "fdfb3f3b199c9722f98c379403abacb4608e8e83",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "86bd05c61a732f1527d80b435a5adae24d96419a",
+                    "sha": "c0dd52a4b558b690b0d08793c34734da52934a29",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 10,
-                    "sha": "9d8c7f08d9d3f21ec396c59f0d3179865d062c46",
+                    "sha": "9ed9024f537fe2512792a3f908f4d0cef92510f6",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 11,
-                    "sha": "13614980b5647024434022476f62044f53e53485",
+                    "sha": "7cc4a1219b5d5b415be0edbdfbbdd88e68cac42e",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 12,
-                    "sha": "a2bfd8af5591f8a911ca589b18cbaf57d4ebedfd",
+                    "sha": "87f3c5789eeb95b9fc6378c584ca1b0fd7e3f6c6",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 13,
-                    "sha": "f327e3e45976b14e966514468de11ebdaa5b5f90",
+                    "sha": "48ee72c08c6be33476ef5a3ffb92b642bc5c06ee",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 14,
-                    "sha": "3f583bda68efc076c323eaba44d7189a7b56a575",
+                    "sha": "96c4056e1d5ca87d7c376dfaf093e1b66ff43a8b",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 15,
-                    "sha": "2b12d66204bf42d4f6a93827f641e5238d5b7505",
+                    "sha": "2a51c43f0e745559904d8f61bded37493fb36177",
                     "description": "Training and Testing Statistical Hypothesis Testing: Power and Effect Size"
                 },
                 {
                     "page": 16,
-                    "sha": "807beab6dbea4ebd919fde51e33145fa66344e79",
+                    "sha": "8a389c670121940d2dc6a39a498d3294e8fcc427",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "a3bbba0944d438b5f336c222b9021fd5032eb35f",
+                    "sha": "215d3c9a97963372d8a0b75e27984db551fa1f31",
                     "description": "Training and Testing Hyperparameter Optimization"
                 }
             ]
@@ -29876,228 +29931,233 @@
             ]
         },
         "unit-en-ir-performance-measures": {
-            "sha": "3dbf532a5ff8a4bca42fb19aa54184d28f7db89e",
-            "numpages": 44,
+            "sha": "dcb37cd1d59cb22eeb878eb666c4ec2fe022ddea",
+            "numpages": 45,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "cb0594a7590b372cb43322a7942da745223651e4",
+                    "sha": "1d57f11187e5b88871bf9fc6caa0523ca51a91d2",
                     "description": "Chapter IR:VIII VIII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "1e5e38028d9dde2a4a97c6c0b7d0bd964107e3df",
+                    "sha": "fb81b1d7889315659832cee21fbf97c5d8b1713a",
                     "description": "Performance Measures Effectiveness and Efficiency"
                 },
                 {
                     "page": 3,
-                    "sha": "c99586f9ec35964b3bb239a503b40c01d262ef3e",
+                    "sha": "b0c5c22e9b06dc532468f9973f6c8e0a6ed8ecda",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 4,
-                    "sha": "66d418e8079368f812fe012ceb6ecbfa6171f14b",
+                    "sha": "1524a6f96ebebab0a132d1721023d46ff95bf60a",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 5,
-                    "sha": "1003e336de60264378b77e4d030b765104e40971",
+                    "sha": "8dfaf217886ba4bacf66238e87c310183599a152",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 6,
-                    "sha": "324676c4d80bfe80e952b8d1b3844a82de4fff22",
+                    "sha": "756a1cc4a5f871b2141a55a22e4dc6d0877e6b76",
                     "description": "Performance Measures Effectiveness Measures"
                 },
                 {
                     "page": 7,
-                    "sha": "4226a9aed0b323e90ae3a8a24cd2533e532a28fc",
+                    "sha": "a9b1e9bac3cd5d15060444e245fec858be9a6344",
                     "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
                 },
                 {
                     "page": 8,
-                    "sha": "1edbc86ad2b6f4074a310e194bfc7dd00fabd992",
+                    "sha": "595a89b3c91d8c01a88f94f93124f88fd6f4c340",
                     "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
                 },
                 {
                     "page": 9,
-                    "sha": "82358d2e6802f5f20530ad65b2b150e2d5e484fb",
+                    "sha": "1ec015898048d6144cfc640a6b7c6fe06f4f9786",
                     "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
                 },
                 {
                     "page": 10,
-                    "sha": "82b542470fd06fadf79fe367ae399747cd81ed6e",
+                    "sha": "36e41cb8c11d1ba6634d3d346ff6326213da3104",
                     "description": "Remarks:"
                 },
                 {
                     "page": 11,
-                    "sha": "6d66dc28c806ac22f29ddc95a297c2a346f2ccf1",
+                    "sha": "eda543445314bd447365ba4552e9620a27b435f8",
                     "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
                 },
                 {
                     "page": 12,
-                    "sha": "f4f25dc5eaa1a07eef548d31a7616c24cbe499ec",
+                    "sha": "3726e3e383b16602400857732aa520d1a5672677",
                     "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
                 },
                 {
                     "page": 13,
-                    "sha": "60c09ecceb3c3e298e3c2d77cb2807ce4e4a07a3",
+                    "sha": "7bfc9574bb113460d923a7b4ce3e8588044988c7",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "3b11c90df2d73395a599e46d2f74290358300f70",
+                    "sha": "d2b58735bc983aca7bdb68ea05801f610c1b1d67",
                     "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
                 },
                 {
                     "page": 15,
-                    "sha": "58c50148bc2cdb6a3989a8dbceadfb934bad1dc5",
+                    "sha": "71cafecb2ba68e6a6d238e0737ecf8c1aef4f74a",
                     "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
                 },
                 {
                     "page": 16,
-                    "sha": "aab2c7eb8314405e3bb979d561b1865e6362b8fe",
+                    "sha": "e80313e3fed1e6a21d04ca5dcd31aae01feb0029",
                     "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
                 },
                 {
                     "page": 17,
-                    "sha": "30d6a0e1723e0fc39740fb410ac77e117259dcdb",
+                    "sha": "541b9fe3e3ec43cc6136fa742b3f907a0a21f33d",
                     "description": "Performance Measures Set Retrieval Effectiveness: Recall Estimation"
                 },
                 {
                     "page": 18,
-                    "sha": "2f8b103965f55553a5cbe738815adf17c6311672",
+                    "sha": "6379ba90a08c0881b821c242df19c1398bb566ca",
                     "description": "Performance Measures Ranking Effectiveness"
                 },
                 {
                     "page": 19,
-                    "sha": "d1749b19d9464b792bbd2fb95a7b018510ddee05",
+                    "sha": "d8ad0c8e3ea1a8b953b08e50f6043da165c27b6a",
                     "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
                 },
                 {
                     "page": 20,
-                    "sha": "2216d4f48ef2ef727160a2e82503f5f24dd3c9b0",
+                    "sha": "af1018b1bec82bcaa5bc4fe4a2837b0f34617c65",
                     "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
                 },
                 {
                     "page": 21,
-                    "sha": "b82666aa16ced9b21adb858d408a464d231911d3",
+                    "sha": "6f9a293d180c120a98d386c26a4275c49f791dba",
                     "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
                 },
                 {
                     "page": 22,
-                    "sha": "5bceeaf9755b05ea53439e09ce74af0fc73b6765",
+                    "sha": "f1ff68a4d1b4c94c983fea61fcfbca3629f250e2",
                     "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
                 },
                 {
                     "page": 23,
-                    "sha": "2791d160060f3c81d61bb10f9f52f6afa840c22d",
+                    "sha": "f87b79308dab12b468d846d25b71dd64dc917ce0",
                     "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
                 },
                 {
                     "page": 24,
-                    "sha": "8e987311fab7e366a365ba824d4c0fc21a69835c",
+                    "sha": "6abdc435c5b282fe5493a46492c48ff9e8244058",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 25,
-                    "sha": "05f2690475f78648d9e7605c2fd2b5c78c1c6e64",
+                    "sha": "f83cc0d905c67a144e1ea31964198ad7c8bee561",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 26,
-                    "sha": "93b6f344f142aa4c0c99ab8d831651d85029251e",
+                    "sha": "7163a80ce756c92779d324602be2f7085a9d3d4f",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 27,
-                    "sha": "9df9970d3a58b740d41b0f107c968a00c1241e06",
+                    "sha": "a148ad90a31661b01ccd0019837c8fa602a97ca1",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 28,
-                    "sha": "f34991bb2783bd7ae74d3b6b14e8be56f36582a4",
+                    "sha": "a48b7b28b7cb1d6ab2a395e8004ed64dca6e919c",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 1)"
                 },
                 {
                     "page": 29,
-                    "sha": "7019b711a0d0091ab6763a2c8972833df721ff0e",
+                    "sha": "a5cf02583b4a0ba9776aa82f6074cc81a12f0e95",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 2)"
                 },
                 {
                     "page": 30,
-                    "sha": "289139e0e641267cd3d6aca3c0d28923cf2d2f5b",
+                    "sha": "7b26a1bd907674317fb8480ac97056ed24dd2dd3",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision"
                 },
                 {
                     "page": 31,
-                    "sha": "7579b35cfbbc6cc27c82cabf5e131671342f5053",
+                    "sha": "4772fcee9b903aa99db42306aca2cc82b0bbfa9c",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 32,
-                    "sha": "9f2ef0305b0fc011d42b5cf62a68c5d0af8ba8fb",
+                    "sha": "7b3ad5e3161d04256b744d16f587bd2ece334d22",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 33,
-                    "sha": "97c5ec831e6ed00286304f7f9441976c3a93c817",
+                    "sha": "3255bd1f1b6c223677262547cbfdd8c1e066f4c6",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 34,
-                    "sha": "9107f515ab041474e586c2bc2a5dad5ecfd1dc5b",
+                    "sha": "ce924111b915c8b75a07d01d14c462e71db504b9",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 35,
-                    "sha": "ef886d1fc5cf9a3d0bb1dc48956beb9d9e739458",
+                    "sha": "bf93abe7d241cbe84768bf5297b94d0ea1d0d8ce",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 36,
-                    "sha": "73dbbd9c1948fd00a3e6b0faf55cf793284dc370",
+                    "sha": "3d99a1997ea813d974bbd027c6184e48d5285abe",
                     "description": "Performance Measures Ranking Effectiveness: Average Precision-Recall Curves"
                 },
                 {
                     "page": 37,
-                    "sha": "b3dc482410ba30f9077589e39bdfcf1021f4b86c",
+                    "sha": "49d837ecf5ce514d637e73ce95825017fdcb9c3f",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 38,
-                    "sha": "5cc0c7de7492150bd1a7dca4dcf8498708473072",
+                    "sha": "3f30876970fb636e82af99a8e5cafa5a8063806c",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 39,
-                    "sha": "d3fbdcb24221e9281623840d20a828e244ae8169",
+                    "sha": "e9f5b79461361b1e9646b1e8553b594d0fa0d60a",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 40,
-                    "sha": "75f0647463d1b6679ba609e162acd406653673f6",
+                    "sha": "5901b585e39a9ba3c81dbebb2e20238ccf11c11b",
                     "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
                 },
                 {
                     "page": 41,
-                    "sha": "40561be1431fb7722c2125b74753923d94dcb76d",
+                    "sha": "44236bb1d6546d0706ba2a28d9345ab087cc3ac3",
                     "description": "Performance Measures Ranking Effectiveness: Mean Reciprocal Rank (MRR)"
                 },
                 {
                     "page": 42,
-                    "sha": "b54ad0d94f0fa1267141f819b51b27f74512355e",
+                    "sha": "893a3c55a96feb4437d83ec9131406ee4a3d9557",
                     "description": "Remarks: [Fuhr 2017]"
                 },
                 {
                     "page": 43,
-                    "sha": "823ef9001703070f98dc344706715965a422c3d4",
+                    "sha": "67717ca28f2d983ca7a3147477f4d9b630542a3c",
                     "description": "Performance Measures Ranking Effectiveness: Discounted Cumulative Gain (DCG)"
                 },
                 {
                     "page": 44,
-                    "sha": "38880ea8f319dce4600686c94597e6ebffc349f5",
+                    "sha": "8a3df52f8043b7a2a8ec6775f3dc4e1740565b70",
                     "description": "Performance Measures Ranking Effectiveness: Normalized Discounted Cumulative Gain (NDCG)"
+                },
+                {
+                    "page": 45,
+                    "sha": "fef7f06a7105bf2c70dbff6a3820d4504d363ac0",
+                    "description": "Remarks:"
                 }
             ]
         },
