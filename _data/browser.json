@@ -42,237 +42,237 @@
             ]
         },
         "unit-de-db-introduction": {
-            "sha": "a427e8a8fea76fb79537c01740f50b85c487d851",
+            "sha": "4fb0330686b9e84040b9bb40bc8c8e6e88fa505a",
             "numpages": 46,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "d2366262f556677ede69ad6d92d373455294587b",
+                    "sha": "d066947c7a17057ef985bc377c56f4bfd1bc6864",
                     "description": "Kapitel DB:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 2,
-                    "sha": "7bf791c2f2601c6e00a6294e17ddbb5c892f1f7b",
+                    "sha": "67664bf0815fa7c6914cd04d2affed6520e22954",
                     "description": "Datenintensive Anwendungen"
                 },
                 {
                     "page": 3,
-                    "sha": "1fc8c12052af5471378beca7537e57ec143ef451",
+                    "sha": "7ab5892b76c5c60144f722be35762ae72f37d623",
                     "description": "Datenintensive Anwendungen Beispiel: Hotelreservierung"
                 },
                 {
                     "page": 4,
-                    "sha": "c635fd68fb7685913a17c8682a8517f20a8b0ea6",
+                    "sha": "971e34dcbf5e9517250a59668e8d0d35a4f51ff6",
                     "description": "Entstehung von Datenbanksystemen Alte Bibliothek von Alexandria"
                 },
                 {
                     "page": 5,
-                    "sha": "54df78a154a69e9c70480a87fa1fcdf28a5ac370",
+                    "sha": "a9de6b10da4439615f777f540fe5d46796bebe32",
                     "description": "Entstehung von Datenbanksystemen Neue Bibliothek von Alexandria"
                 },
                 {
                     "page": 6,
-                    "sha": "0a8f8169ccfbbceb7fcd95999560eb813d68a43a",
+                    "sha": "29804ec4654a96a6206f959054693cdd1c6c77da",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 7,
-                    "sha": "483b5f08e1a7f869ea6434aae989006717dfa49c",
+                    "sha": "f46c792c749db303b67bd36d96fc1892637b8068",
                     "description": "Entstehung von Datenbanksystemen Anfang 60er Jahre: direkter Dateizugriff"
                 },
                 {
                     "page": 8,
-                    "sha": "9f55abeea51871a57697b8ce25686f7e06e6ad17",
+                    "sha": "8b7c8834e0f82e5f6a181f9b15ab0c49a10f280e",
                     "description": "Entstehung von Datenbanksystemen Ende 60er Jahre: Dateizugriff mit Verwaltungssystem"
                 },
                 {
                     "page": 9,
-                    "sha": "e22614a3917ce1bb9511045c21e33d072dc118db",
+                    "sha": "43f8046ff350bd9d9db1848cf40173998a2543aa",
                     "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
                 },
                 {
                     "page": 10,
-                    "sha": "836237e80379ff655827dc0aab8ca8a3ee4f0166",
+                    "sha": "075969a3de0e3cb54f8311891163a56acde456b2",
                     "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
                 },
                 {
                     "page": 11,
-                    "sha": "3eb4ca1d222ef2ca5f510d9dc4b12d63ee129297",
+                    "sha": "39c56df83dbe1e5fa9bed3785ceb568d76d886e2",
                     "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
                 },
                 {
                     "page": 12,
-                    "sha": "1b4e89f8741469e5a4710e40486779ce0df9f481",
+                    "sha": "04fbfe8625918afe76a0eb0ad4ed4f82193ee2ab",
                     "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
                 },
                 {
                     "page": 13,
-                    "sha": "74336972b74c85672362caf211a886968f775562",
+                    "sha": "ae4ea955568c13f413a800ce3dc585e931a64be7",
                     "description": "Entstehung von Datenbanksystemen Mitte 70er Jahre: explizites Daten-Management"
                 },
                 {
                     "page": 14,
-                    "sha": "12fdb89423a0728771adc022aba7c49f75159ac1",
+                    "sha": "6e106086593dbcb6c2724bc8ecfcc273a9dbc3ee",
                     "description": "Begriffsbildung und Einordnung Definition 1 (Datenbank = Datenbasis, DB)"
                 },
                 {
                     "page": 15,
-                    "sha": "579348cdc1bcc96f20b58005e1429942eb170071",
+                    "sha": "da2442397ba0e50bd0eef3a51fa334b2ad058042",
                     "description": "Begriffsbildung und Einordnung Definition 1 (Datenbank = Datenbasis, DB)"
                 },
                 {
                     "page": 16,
-                    "sha": "217825a595b6098bd74f4edc9074abb8f7854900",
+                    "sha": "4aa6a021d8e7121fe02188c8b2a1cfff40ddc76d",
                     "description": "Begriffsbildung und Einordnung Softwareschichten eines Computer-Systems"
                 },
                 {
                     "page": 17,
-                    "sha": "7f8c8a039199fbb5758878cab603549d61edb0fd",
+                    "sha": "2d98c9c53dbc92925709bcbf965fe2a4b19a7698",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 18,
-                    "sha": "913c4d0d43227842333447e9714c62b7efddfbfb",
+                    "sha": "218166488020ff9020a38ea9b56adeb65e28be64",
                     "description": "Datenbank-Management-Systeme Neun Anforderungen an ein DBMS"
                 },
                 {
                     "page": 19,
-                    "sha": "0ea2baf1aa916e873b0965ac0e12859f5e13d96a",
+                    "sha": "e2805d4c1a33a80a5c3b88fcca24f1366744c69a",
                     "description": "Datenbank-Management-Systeme Neun Anforderungen an ein DBMS"
                 },
                 {
                     "page": 20,
-                    "sha": "336eb96c44428fed3f5d90873ea07de6bbdefef3",
+                    "sha": "0a82adb8c1b683a072f9f2b72054272a41838fd2",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 21,
-                    "sha": "aa1d616cb814c9e964bdb273def24bb9b2774b0e",
+                    "sha": "263e3c0f79cbef5c55901a23f581881c6d4cc545",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 22,
-                    "sha": "45b430595a6ca2a49995a02dcf021533357a9a05",
+                    "sha": "448cf4f49d021454b77c70be557e043bd0b9b325",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 23,
-                    "sha": "0794e13fff8d7505eaafc93939766c67abdde7c0",
+                    "sha": "6a43116d8a65e000406a4c9f8e2f9be1cf43f02a",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 24,
-                    "sha": "298ae47790bd4b03c28a1ae583cadf84d0c39e95",
+                    "sha": "0b8a0083039b6f4e95255cfd10708db1c38a2013",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 25,
-                    "sha": "842035210be799b6f497cc4b9f3519cebdedde6a",
+                    "sha": "82302f5ae2a5d60e983c62d53696f81a90a63567",
                     "description": "Datenbank-Management-Systeme Was ein DBMS zu tun hat"
                 },
                 {
                     "page": 26,
-                    "sha": "c30bee909c04f91dcf93a502e3cce574284534e1",
+                    "sha": "43d8f7415dce413d677df54e74891a313b223e8c",
                     "description": "Datenbank-Management-Systeme Was ein DBMS zu tun hat"
                 },
                 {
                     "page": 27,
-                    "sha": "8564eba20b24db7f20e43bd2c72b743a08fc5319",
+                    "sha": "36fe7a7da26ccc53db647bb4aed6608154e315c4",
                     "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
                 },
                 {
                     "page": 28,
-                    "sha": "675242603fd709024883a1c13bc909bb9529370e",
+                    "sha": "6c2182a077d92fcd69ebf349a7ea70ce01a3a2ac",
                     "description": "Datenbank-Management-Systeme Ebene 1"
                 },
                 {
                     "page": 29,
-                    "sha": "1f8f9ce44837cd3acee03f14e63591b2dab58f96",
+                    "sha": "6306281aeda5e2bf17700485cf7974722dbcd928",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 30,
-                    "sha": "f4a6c8241f3351726b85d1123a1c30f2888502e2",
+                    "sha": "b3bf4c4390861966559d64c4e1b32d2c7d442571",
                     "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
                 },
                 {
                     "page": 31,
-                    "sha": "4eb8a3097ef74e278525e61efb637d44802132df",
+                    "sha": "5e0223c369ae2a4bf79f08ca566b052524aa5441",
                     "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
                 },
                 {
                     "page": 32,
-                    "sha": "8aaf7d934fc09d3436d1baea595fd7ee9cc87c81",
+                    "sha": "f8e80c37b5b8877ba57d725fd14b6bee5cf635c0",
                     "description": "Relationale Datenbanksysteme "
                 },
                 {
                     "page": 33,
-                    "sha": "e627fcd3db4feedc28f9be3223421a85505ffdb8",
+                    "sha": "1ac5b2c863ea36adc52f987514691dd2ebb5700f",
                     "description": "Relationale Datenbanksysteme Merkmale relationaler Datenbank-Management-Systeme (RDBMS)"
                 },
                 {
                     "page": 34,
-                    "sha": "e103f78b915f555f2b12d5f607dbaedb950744b8",
+                    "sha": "7060474348b95f215e31c6669c85b5b3a89ae67d",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 35,
-                    "sha": "10ea8dda28853bdb19a610bfeb9470b1facebb3a",
+                    "sha": "05414b498f1db06e7fa8a78e119788fcd53e744d",
                     "description": "Relationale Datenbanksysteme Beispiel: Daten- und Datenbankdefinition"
                 },
                 {
                     "page": 36,
-                    "sha": "46573a3ecdbddcc18bb7699ac6d447c7a236ff9f",
+                    "sha": "5b3b76aefb6c48b3eeb807d1d2f6e01bb5c7afc2",
                     "description": "Relationale Datenbanksysteme Beispiel: Integrit\u00e4tsbedingungen"
                 },
                 {
                     "page": 37,
-                    "sha": "104116a124d03d7e767ab38d528225e7c43e5be9",
+                    "sha": "dad8f104917619db060adf3dd0a4d895d52fd9bf",
                     "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
                 },
                 {
                     "page": 38,
-                    "sha": "d9dc3eb0b280e40dd982caec54969417157c53d8",
+                    "sha": "aac8a83e5f373299af8bfeb83f31d6cd38b4ec66",
                     "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
                 },
                 {
                     "page": 39,
-                    "sha": "a7ae7a461e9103109a7c6b4d5100b83a86ff546d",
+                    "sha": "58c8ac5d663aaaa3792a97c96af031fbcee81a8a",
                     "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
                 },
                 {
                     "page": 40,
-                    "sha": "0bbaf1b9b335e1e8591d73f6ed5a73ef4f9bdc7c",
+                    "sha": "1d32b6e991fcd5f4c535f518f33de527491c11bd",
                     "description": "Relationale Datenbanksysteme Anfrageoptimierung"
                 },
                 {
                     "page": 41,
-                    "sha": "a510f87278284bc82e747dbc6c1c4f20a5bc03f6",
+                    "sha": "ae6786a0dae0440c189b9a70d42236c7d89e78d2",
                     "description": "Relationale Datenbanksysteme Anfrageoptimierung"
                 },
                 {
                     "page": 42,
-                    "sha": "f43a8a7d323cebe9f89aa7dd8ab13d43e4490956",
+                    "sha": "906f85334d3bfc30d105de43b753be66f00d2332",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 43,
-                    "sha": "01ae5b0627523b63d84803651df7843cd0561d24",
+                    "sha": "e1111fccf0e65f9486d2ad15d1e9c54bd57e2b42",
                     "description": "Relationale Datenbanksysteme Grenzen von RDBMS"
                 },
                 {
                     "page": 44,
-                    "sha": "c25a6df56a8e7fe6cc4fa800bd7a1ac968d50da7",
+                    "sha": "25014d6b5f8861d983b845c06994ae0fd1712178",
                     "description": "Relationale Datenbanksysteme Grenzen von RDBMS"
                 },
                 {
                     "page": 45,
-                    "sha": "ccf29982f52a620fe5729cc358945e04e955abe7",
+                    "sha": "cf6cc7a077cb509e1a0d25e00589ec07b831a316",
                     "description": "Relationale Datenbanksysteme Erstellung von RDBMS"
                 },
                 {
                     "page": 46,
-                    "sha": "08ebcbbf295a33db8ab2834eab40a00124f0a237",
+                    "sha": "59eeaee0fb5ceeb637374f3c30bb8ee164f4dbf6",
                     "description": "Bemerkungen:"
                 }
             ]
@@ -3658,7 +3658,10 @@
             "unit-de-basics",
             "unit-de-lists",
             "unit-de-hash-tables",
-            "unit-de-hash-functions"
+            "unit-de-hash-functions",
+            "unit-de-trees",
+            "unit-de-search-trees",
+            "unit-de-external-search-trees"
         ],
         "unit-de-ads-organization": {
             "sha": "86b6f3fd249cda5979aba2910b96d2b080993715",
@@ -7131,6 +7134,1254 @@
                     "page": 38,
                     "sha": "a2a96c1abd6dc681e8a3896a39c31540cadea907",
                     "description": "Hash Function Perfect Hashing: Analyse"
+                }
+            ]
+        },
+        "unit-de-trees": {
+            "sha": "0177eb0d40505671aeb21f089738d4586c4e10d5",
+            "numpages": 31,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "8f543abea89656dc5348ce6a4ef1e25de2b10016",
+                    "description": "Kapitel ADS:IV IV. Datenstrukturen"
+                },
+                {
+                    "page": 2,
+                    "sha": "7a945562d14f532d105980742d03ba686d8b2182",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 3,
+                    "sha": "8acdb36b010159a7d43c592f0ee839888ecfaeb6",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 4,
+                    "sha": "27f7487b9b171721ce6c3bd33a8b3931f8a9eb05",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 5,
+                    "sha": "d9c88d4ba6b69483d1f5b7e9284e83371d87c2b1",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 6,
+                    "sha": "614c34aeb1f66230e3e93b3169b2bdad90638d1e",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 7,
+                    "sha": "cfa108444e731542299a20a7ff4c2cc550cdbed4",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 8,
+                    "sha": "b3bcdb2813f8bd4276f76d45eb264c3ca2381c9f",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 9,
+                    "sha": "c3cdf6e59eba3a718d68edb68064dcc70fb768a5",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 10,
+                    "sha": "929c7db5b65b67b7d9ca4edc22e1d3d77d840ef7",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 11,
+                    "sha": "e803c267f7cdccb24fac4c2c32c1d9a1445ad5fa",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 12,
+                    "sha": "31e4dedad14a62cfdc732c566059e7e8f56f8cc1",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 13,
+                    "sha": "07d7d73e708fdbce0ae06b523ac583818eee7ede",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 14,
+                    "sha": "e112b4dc7500b3c47561dd70448ca43ade986a0c",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 15,
+                    "sha": "1437683baed400eca495a809394e0f058d68eb22",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 16,
+                    "sha": "cf703d606ebf210d7452a68cf9e8d0b6e5db07e7",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 17,
+                    "sha": "5cf5dfaa854bf32ac3026024fd0a6b2f2f9d8585",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 18,
+                    "sha": "143e0d9b4cb9baec55af3cdbafeea8c7ed69d4a9",
+                    "description": "Tree Definition"
+                },
+                {
+                    "page": 19,
+                    "sha": "21f2100e42dc7127399f6240e7aa1bb30f0a5dcf",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 20,
+                    "sha": "d6ce408f12d02b982d73ce0754dc9ad1bba95980",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                },
+                {
+                    "page": 21,
+                    "sha": "e3e0150eeff8356b7a9c8ecbdcbf47b5eebe78a8",
+                    "description": "Tree Implementierung"
+                },
+                {
+                    "page": 22,
+                    "sha": "57fb1c9aea4b90347a3dc4542e46dd930265c98c",
+                    "description": "Tree Implementierung: Beispiel"
+                },
+                {
+                    "page": 23,
+                    "sha": "a1066f725cd0baf348bc2e8a8b1e8a1ef32bf15b",
+                    "description": "Tree Implementierung: Beispiel"
+                },
+                {
+                    "page": 24,
+                    "sha": "6b4acced08420af6fb3e0bf08f4cbba58add6082",
+                    "description": "Tree Manipulation"
+                },
+                {
+                    "page": 25,
+                    "sha": "c04b4079fcc2fe9bae945e02d3b32dbb8626b59a",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 26,
+                    "sha": "b5266e8b726ca6f8f45d48d68f5a6cc178529530",
+                    "description": "Tree Manipulation: Traversierung"
+                },
+                {
+                    "page": 27,
+                    "sha": "74a5b5595e19f99f2ffab01a49b168ec14142c91",
+                    "description": "Tree Manipulation: Traversierung"
+                },
+                {
+                    "page": 28,
+                    "sha": "8b861d93d97130cdcc434f0190ddec2babfdcaeb",
+                    "description": "Tree Manipulation: Traversierung"
+                },
+                {
+                    "page": 29,
+                    "sha": "70476f718f5390eea9ba27453c8f3e383cbbfbbb",
+                    "description": "Tree Manipulation: Traversierung"
+                },
+                {
+                    "page": 30,
+                    "sha": "ba299efbf8cf515a3caeef697cd648b0d10a2814",
+                    "description": "Tree Manipulation: Traversierung"
+                },
+                {
+                    "page": 31,
+                    "sha": "fc2ab4a7342ce06f212e346f18c797540ce9e8bd",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-search-trees": {
+            "sha": "15867514c3639ad70d02472969ce29ef68af224d",
+            "numpages": 155,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "332deb890d739a6370f7b3bfa70e61d049d80e84",
+                    "description": "Kapitel ADS:V V. Suchen"
+                },
+                {
+                    "page": 2,
+                    "sha": "7879dbd5c299ca63a1d3c2a48b48d6d5732c2f46",
+                    "description": "Binary Search Tree Definition"
+                },
+                {
+                    "page": 3,
+                    "sha": "83e97d9d9e54f22ba081addb3b5bd97681d4f85c",
+                    "description": "Binary Search Tree Definition"
+                },
+                {
+                    "page": 4,
+                    "sha": "feef68ba42e7e2b4ff802999e64ee67e0a94ffe4",
+                    "description": "Binary Search Tree Definition"
+                },
+                {
+                    "page": 5,
+                    "sha": "c6d205e985a01a7a30086dbdfdbb39e675c4ef52",
+                    "description": "Binary Search Tree Implementierung"
+                },
+                {
+                    "page": 6,
+                    "sha": "de8b71851780318959b44ab191ee6137d076a537",
+                    "description": "Binary Search Tree Implementierung"
+                },
+                {
+                    "page": 7,
+                    "sha": "54d272fa6717c866bf28175facc1355c10f0c1af",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 8,
+                    "sha": "4bd9cc59bb0353a459475cfc9e4030930527ca15",
+                    "description": "Binary Search Tree Manipulation: Suche"
+                },
+                {
+                    "page": 9,
+                    "sha": "053e0ba53a79c3a45cb8e5c5739aa1d115ba084a",
+                    "description": "Binary Search Tree Manipulation: Suche"
+                },
+                {
+                    "page": 10,
+                    "sha": "52342836380eebe96dd14b4805cc109f8d385266",
+                    "description": "Binary Search Tree Manipulation: Suche"
+                },
+                {
+                    "page": 11,
+                    "sha": "ed0c5639510ec780aedc7b4da9332903f2852750",
+                    "description": "Binary Search Tree Manipulation: Suche"
+                },
+                {
+                    "page": 12,
+                    "sha": "5804abcba321484b66015b57690b20b2ce3b8bbb",
+                    "description": "Binary Search Tree Manipulation: Suche"
+                },
+                {
+                    "page": 13,
+                    "sha": "b88f58ace45a9a87ae17cf9f6a9b7693f68f4d47",
+                    "description": "Binary Search Tree Manipulation: Minimum"
+                },
+                {
+                    "page": 14,
+                    "sha": "9b02cf66066941236d1f322fa68095018fa98d40",
+                    "description": "Binary Search Tree Manipulation: Minimum"
+                },
+                {
+                    "page": 15,
+                    "sha": "d66bc81e25c3d31eaa9bd252a799a0de292337b9",
+                    "description": "Binary Search Tree Manipulation: Maximum"
+                },
+                {
+                    "page": 16,
+                    "sha": "634a38ed738683da3e8144612c426f14cfc343b5",
+                    "description": "Binary Search Tree Manipulation: Maximum"
+                },
+                {
+                    "page": 17,
+                    "sha": "59724b6fe708a25f1c40c0c3931f427ebb945c3c",
+                    "description": "Binary Search Tree Manipulation: Nachfolger"
+                },
+                {
+                    "page": 18,
+                    "sha": "09aa0a2a62dcf9e7b38984bfebfe08e2756b0d7d",
+                    "description": "Binary Search Tree Manipulation: Nachfolger"
+                },
+                {
+                    "page": 19,
+                    "sha": "bf558c0ef1e89157a8cc7794ff7d3f3548b25ac2",
+                    "description": "Binary Search Tree Manipulation: Nachfolger"
+                },
+                {
+                    "page": 20,
+                    "sha": "82862bea04a5f9c30be22427ac498fee9f396089",
+                    "description": "Binary Search Tree Manipulation: Nachfolger"
+                },
+                {
+                    "page": 21,
+                    "sha": "d399771e7afef6d4612d88eab35630b64ee78745",
+                    "description": "Binary Search Tree Manipulation: Nachfolger"
+                },
+                {
+                    "page": 22,
+                    "sha": "7b642c2c021caf2e12c87123d86de8761878570b",
+                    "description": "Binary Search Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 23,
+                    "sha": "ad3eecc64573a34b047a11f508432a783bb114e0",
+                    "description": "Binary Search Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 24,
+                    "sha": "0de6d08ce0d026441e96bc7d6ee65ad49b2ece55",
+                    "description": "Binary Search Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 25,
+                    "sha": "ad8dec644f88d59d85216945566189fcaae779e0",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 26,
+                    "sha": "8ac66638cdf9e3ed364292d0c654e917f825760b",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 27,
+                    "sha": "cca84c7f8fc64930b4bb7531ec17698c0e7f7087",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 28,
+                    "sha": "b70369369623176f0995caf43f5ea2e1f18d732d",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 29,
+                    "sha": "306b77eb417282aa78350fd9139e413cdac10bbb",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 30,
+                    "sha": "8823072519341c3e9a80a59a84dffff92fc560ba",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 31,
+                    "sha": "bbb368cec7253869311283b0ba3e7d57ecb7c277",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 32,
+                    "sha": "da0ec4072a5340b5aa9d6ae2572d30f683e7617b",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 33,
+                    "sha": "db73b4c572bd2b5d6bee46c3706bef735dbc5bc7",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 34,
+                    "sha": "87e9103b901410f6a53b48b8ef89bce9b6e4f9a9",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 35,
+                    "sha": "38fb69a1f2199947bf7d3a64ad105f8d4be9a0a2",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 36,
+                    "sha": "f59ef17cb06ff4275dc8df5d3e7f42f2b69e154f",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 37,
+                    "sha": "f8f616bf4615ec6b24142a04cdda9652bd9ae7f1",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 38,
+                    "sha": "b5e69b4064cd72b0ead4713a6ac5e0562700947d",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 39,
+                    "sha": "cfaaa9ca50581b84ed6be3f5e324b4fcf80e4282",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 40,
+                    "sha": "64ca6377fc3e33e0a82b2a6d8a2b6e33a080f7f9",
+                    "description": "Binary Search Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 41,
+                    "sha": "3cc8d3dc2af141cbd53f77d33bdec0dba0250651",
+                    "description": "Binary Search Tree Laufzeit"
+                },
+                {
+                    "page": 42,
+                    "sha": "e2cba4cc1d1fd80aff10ec8e2a8d38f85aad0111",
+                    "description": "Binary Search Tree Laufzeit"
+                },
+                {
+                    "page": 43,
+                    "sha": "c73cc6aaaaf4cf9e5906f3c6b43ed16b4dea2a17",
+                    "description": "AVL Tree Definition"
+                },
+                {
+                    "page": 44,
+                    "sha": "c48b5a536ce52ed9a91fe9f6a51df73fe6e54b3c",
+                    "description": "AVL Tree Definition"
+                },
+                {
+                    "page": 45,
+                    "sha": "d975c2471e334eb5b1004ec6f98dc14298fb2480",
+                    "description": "AVL Tree Definition"
+                },
+                {
+                    "page": 46,
+                    "sha": "2d80f5e8d25253f8491ba4d392bd2bd5f93d749d",
+                    "description": "AVL Tree Definition"
+                },
+                {
+                    "page": 47,
+                    "sha": "9c3ba07256ff0f333c9911034dc91732f917d4b1",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 48,
+                    "sha": "4a99ecf797a148e2463229a8358a252221230675",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 49,
+                    "sha": "a04141e8e68be949ccd3383b0543495eb828f63d",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 50,
+                    "sha": "eaf02d0021d21225baed1ffaa553652b2be12638",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 51,
+                    "sha": "1d3cfc965002780a7ead4e62f50c43f9863abf64",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 52,
+                    "sha": "32422a9a610a9ef37a7003ec6d6cd6323e85275b",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 53,
+                    "sha": "e692c0f9a3b87cbe61844efd543542149f41d988",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 54,
+                    "sha": "e69d5a5c3fd83cde5aa5bbfd7905878dcaa17b5e",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 55,
+                    "sha": "c14a6ec00b36eae222204b4e024f519abf272d1c",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 56,
+                    "sha": "5f5e481a9fcf2568fb17ce1d240b42c359d9cef0",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 57,
+                    "sha": "524e7028d23dd6a48c863868c2b0a4e44ba5569b",
+                    "description": "AVL Tree Satz 1"
+                },
+                {
+                    "page": 58,
+                    "sha": "e7c9d8d147d4b22577ef3d61c0ece1ae3557acdd",
+                    "description": "AVL Tree Manipulation"
+                },
+                {
+                    "page": 59,
+                    "sha": "aa405616cf591266e8d7e4050581f3671eb13025",
+                    "description": "AVL Tree Manipulation"
+                },
+                {
+                    "page": 60,
+                    "sha": "7426a47063119f792c131c60b3b0730b92c3b5fd",
+                    "description": "AVL Tree [Animation]"
+                },
+                {
+                    "page": 61,
+                    "sha": "29087689cfbd7c34a04d4a42f0aa10356eca74d0",
+                    "description": "AVL Tree Manipulation: Rotation"
+                },
+                {
+                    "page": 62,
+                    "sha": "840ba56b25f8ff6c1a8d3ebdafc4075ceee4e78b",
+                    "description": "AVL Tree Manipulation: Rotation"
+                },
+                {
+                    "page": 63,
+                    "sha": "840c7b1661d91a3e29e1eb7e8321c26d299dc847",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 64,
+                    "sha": "6816c8fc0eaa0b93bd846fa28ebd5c1d0bcf59ca",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 65,
+                    "sha": "d4e0211e867698ac8c6805d6379d39398039b79c",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 66,
+                    "sha": "8444f3f36de0e083d0720b5ce755298c8c35d9fb",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 67,
+                    "sha": "da53202a8c8084b9f1af86030dcc3610a6177fb9",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 68,
+                    "sha": "cc6546fff0da01d8c936aeefa0cddc7160150791",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 69,
+                    "sha": "27b23b0b850ad41e13819832c4148ebf56dc8200",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 70,
+                    "sha": "4e4c29a8253d8b37db8729ecd10d7aba83e38d33",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 71,
+                    "sha": "eaf22388c0ad8521d41c58a923ee272ced65ea24",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 72,
+                    "sha": "88037fcd4ed2a931dbbe386d932d3b154302437a",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 73,
+                    "sha": "2de82d9476d1d8a69be2affbdb1429ddb7feb9b4",
+                    "description": "AVL Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 74,
+                    "sha": "27b15529e01595d729b5bcde9a051961b409f7fd",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 75,
+                    "sha": "1513d4dd8703bac05f6884fd5dbd3af8fa0cf565",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 76,
+                    "sha": "909448816b16fc1dcb1f64f690d8939ce7cc58c0",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 77,
+                    "sha": "4f0b56cd33691a9bf5691ff48e4fcb937d52fdef",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 78,
+                    "sha": "c37d4e3b5a06ea3c980979412c1eaa89c1d3cde5",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 79,
+                    "sha": "878c526bfc61d5e4b9ab0abed86faa0e55e6bd64",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 80,
+                    "sha": "e0dbd010160414139311938b4cd33d88fcb91ece",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 81,
+                    "sha": "9d59d394a54829d4d304526d9b96112f9211d0e2",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 82,
+                    "sha": "9f89caf6c68a264605a983cb1ed374f8b1d1f5cf",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 83,
+                    "sha": "b8f3ec230bccc37fa149e4d372148a4cc378e74d",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 84,
+                    "sha": "13b221729fb6b330ad2ba29185ca7c1fd5b3e6b5",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 85,
+                    "sha": "c23e6bcb986da579f1c7f6a7420a2742c4060d61",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 86,
+                    "sha": "85f2b2382a3e396974421f8dfcc66ddae7463073",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 87,
+                    "sha": "549fac3f6799cfa13475717453d3191da0b863a7",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 88,
+                    "sha": "ce769eb74a7d922f10acf2c45a7f0f3194f224f4",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 89,
+                    "sha": "2343e3173a413ea5e7c565413b3ea1b9237024ea",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 90,
+                    "sha": "7e552f75e42ecfbd3466d0fb0933b1ca70148970",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 91,
+                    "sha": "28acf321931bd5c980542c382c46aeb636d46b30",
+                    "description": "AVL Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 92,
+                    "sha": "0a14ab8fa4a9c19d126cb307c44712ba61d18c73",
+                    "description": "Red-Black Tree Definition"
+                },
+                {
+                    "page": 93,
+                    "sha": "7d3c79576a10ae44fbe1191f48dc63513e1b5fba",
+                    "description": "Red-Black Tree Definition"
+                },
+                {
+                    "page": 94,
+                    "sha": "5b03bd4192dd5e83780489038b55174ce6c3ff54",
+                    "description": "Red-Black Tree Definition"
+                },
+                {
+                    "page": 95,
+                    "sha": "f70a1b7c9a4c07e8310879c35a0a43b61d2433f4",
+                    "description": "Red-Black Tree Satz 2"
+                },
+                {
+                    "page": 96,
+                    "sha": "055870d20f30ba780a5fdb5b24094e7824029f99",
+                    "description": "Red-Black Tree Satz 2"
+                },
+                {
+                    "page": 97,
+                    "sha": "885534d942449942772d7ad20717ad50d65d45aa",
+                    "description": "Red-Black Tree Satz 2"
+                },
+                {
+                    "page": 98,
+                    "sha": "dfecdf618b5aa047523b7c30552b613ecc3a4267",
+                    "description": "Red-Black Tree Satz 2"
+                },
+                {
+                    "page": 99,
+                    "sha": "27ae3978e641a2d23d09b432882bf41446e5397b",
+                    "description": "Red-Black Tree Satz 2"
+                },
+                {
+                    "page": 100,
+                    "sha": "4c11aaa9efad1cd46913d1766b29db3b329649f0",
+                    "description": "Red-Black Tree H\u00f6he eines Red-Black Tree"
+                },
+                {
+                    "page": 101,
+                    "sha": "c0fd7e6b56d2dc4ff0e9ab26757f699a7a640343",
+                    "description": "Red-Black Tree H\u00f6he eines Red-Black Tree"
+                },
+                {
+                    "page": 102,
+                    "sha": "9a2c7ba53b370d11255d5d00cc12701eea210e0b",
+                    "description": "Red-Black Tree H\u00f6he eines Red-Black Tree"
+                },
+                {
+                    "page": 103,
+                    "sha": "c7d479aaa9097d050586eaa01ceb0c10ae3f91a4",
+                    "description": "Red-Black Tree Implementierung"
+                },
+                {
+                    "page": 104,
+                    "sha": "b8f8ae90d15b5326a8142603c75a2a7348901d80",
+                    "description": "Red-Black Tree Implementierung"
+                },
+                {
+                    "page": 105,
+                    "sha": "6cd7cfb594e773650dcfe290b87c70e868c682d6",
+                    "description": "Red-Black Tree Implementierung"
+                },
+                {
+                    "page": 106,
+                    "sha": "b2c6ce7e7822dbf60ea95906cd51626aeaaa44ba",
+                    "description": "Red-Black Tree Manipulation"
+                },
+                {
+                    "page": 107,
+                    "sha": "3d0c8f526a5484df988027574b652e1137c9da7c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 108,
+                    "sha": "0b8a0b28425199b806d8134d01f0b1194187fe7f",
+                    "description": "Red-Black Tree Manipulation"
+                },
+                {
+                    "page": 109,
+                    "sha": "109234a78f6956e763a25d87dffc4971c99a17c7",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 110,
+                    "sha": "96fcc24e6935ce74a39a4d42b9ca026c64225aeb",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 111,
+                    "sha": "8aad2a51466574a749b302c9e01e64a0e3b7829f",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 112,
+                    "sha": "0016df9fe27bc414d8d35e1ab9821bce70fc118f",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 113,
+                    "sha": "349a6682fd719b2e255faee134a0dd6a95653807",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 114,
+                    "sha": "5c1361f7391a1a5c4e93aa7c2f3f25eabe260f50",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 115,
+                    "sha": "544ef8090a52b28f0b78aad517afab769b6d1b18",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 116,
+                    "sha": "bc37083ff2879ceb8b55c8bf077a491498afe1b1",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 117,
+                    "sha": "cf8bf6a1d54af15c2c74bf05299fd6ed80026745",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 118,
+                    "sha": "4b1aa596632082c8155e9fcddc4514ea5e46914a",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 119,
+                    "sha": "bb2c284758e7db08c66dfd620107d08ac8e857c7",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 120,
+                    "sha": "aa10995db7cf0916c7b7d49cfb92f4d6fd1e63f6",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 121,
+                    "sha": "5e2b5387ac1744cc7a1298f10e37e0e85ef3fe6d",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 122,
+                    "sha": "22c7f5826219f25ba2e3954b01b84c902bb7067a",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 123,
+                    "sha": "7489dd0a9055c3861a59fed285507610a5794579",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 124,
+                    "sha": "14a4b320b08aecadd994071029f32c2d71bafe3b",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 125,
+                    "sha": "d275e650359f8d327f127998dc9b2c0d14e300c6",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 126,
+                    "sha": "91989db86aa7eed0eb355c3ec2617502c6ea97ce",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 127,
+                    "sha": "6817351555be4ae297b062fe24ef1574ad0092eb",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 128,
+                    "sha": "e84cb207e97beb29d2dd3a384982623ddb67076e",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 129,
+                    "sha": "f75e915b64495ba184f013e75c4c582dd941a0a0",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 130,
+                    "sha": "add9fec86721cc94cf6a7d7639a0fa60d8c0fac3",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 131,
+                    "sha": "640279f459a6e662cd84d0092e365222bee50159",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 132,
+                    "sha": "081b8f9c1be120813a8e113e1135e88906a4b374",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 133,
+                    "sha": "700c8529fceeb070ad3760fbb2e95782f3172827",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 134,
+                    "sha": "5872a36b2abada3c47bd4758e309db5ef5830690",
+                    "description": "Red-Black Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 135,
+                    "sha": "64ffeb2a985d2a6a863cf666a487fd456ca4df83",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 136,
+                    "sha": "1d0c42120cddf037efc0dd70ffc12f7e7678a503",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 137,
+                    "sha": "f812a5c9d2dd51a3a869c500bef5b1e82eeb4458",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 138,
+                    "sha": "8633334b846f776f5c6e83385fc64e9635a7678f",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 139,
+                    "sha": "abd287d154aae7d27bb2eaf7c6472ef9fc830e47",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 140,
+                    "sha": "62eba717413ffc55e7eea483c510335982ecb000",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 141,
+                    "sha": "703ca96cd09d48535f9a47946197554257f677dc",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 142,
+                    "sha": "2833db654d5082911d648cf1d713c98215430411",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 143,
+                    "sha": "fc9beb3d125f2fd866833e444c5e09245bf59727",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 144,
+                    "sha": "8ccf7a1c6a51b8a05d9cdaf9b43866d7a3ddc322",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 145,
+                    "sha": "902dbb3bbc4eafa1981d942d0bee7fbebe9fbd8c",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 146,
+                    "sha": "159f0421cdb35da362dfa3d3f956f1cf4e15ef86",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 147,
+                    "sha": "1c78ee2ca743940a05cd796b398ba7e80b73a528",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 148,
+                    "sha": "a14883763155a8e7f9b98116f143f5753db8e7c9",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 149,
+                    "sha": "c7160190f6dbad211e9682c73007665c914fa824",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 150,
+                    "sha": "e0ed4ee4a93ea9b4d59648c1c468325f4a26f0ae",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 151,
+                    "sha": "43f2113dc869d1583f2f01513547aefd21d39c0f",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 152,
+                    "sha": "61d0ad6874c88020885c2c8cb43c78663c1facbc",
+                    "description": "Red-Black Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 153,
+                    "sha": "16bda4ca6e7a4b145c98e858025866e73e001af8",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 154,
+                    "sha": "2ad65b2fb517a085c533920664dbe8b8d4e2e884",
+                    "description": "Bemerkungen: (Fortsetzung)"
+                },
+                {
+                    "page": 155,
+                    "sha": "d3995e3cc9a9aa7e65a697afafa6ef25e9f0095b",
+                    "description": "Red-Black Tree Binary Search Tree Hierarchy"
+                }
+            ]
+        },
+        "unit-de-external-search-trees": {
+            "sha": "ca2168e23da099ddd157da899ff8e4ef2007fb81",
+            "numpages": 60,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "52a725b61b7182b674ff9c7e2f945736e9ddea06",
+                    "description": "Kapitel ADS:V V. Suchen"
+                },
+                {
+                    "page": 2,
+                    "sha": "752480715305448d3ad6d11f31afb356fbdebc1c",
+                    "description": "Maschinenmodell (Erweiterung) Sekund\u00e4rspeicher"
+                },
+                {
+                    "page": 3,
+                    "sha": "c1521ac605a1373dcca8d22080b6518f51203d38",
+                    "description": "Maschinenmodell (Erweiterung) Sekund\u00e4rspeicher"
+                },
+                {
+                    "page": 4,
+                    "sha": "be861fd26cac643cb4dcd6c80a016c0ec7c154fc",
+                    "description": "Maschinenmodell (Erweiterung) Sekund\u00e4rspeicher"
+                },
+                {
+                    "page": 5,
+                    "sha": "455013f51fea48cce8b42b0f816ae025942e2107",
+                    "description": "Maschinenmodell (Erweiterung) Sekund\u00e4rspeicher"
+                },
+                {
+                    "page": 6,
+                    "sha": "c773c56432bbfda475795b6e98a105ea1419aacb",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 7,
+                    "sha": "7a9c9412ef97136dd4ca4ded190eaa2de8ec213f",
+                    "description": "Maschinenmodell (Erweiterung) Sekund\u00e4rspeicher"
+                },
+                {
+                    "page": 8,
+                    "sha": "06cc12370bb41816c7e4aec59023a890afbfc8c3",
+                    "description": "Maschinenmodell (Erweiterung) Laufzeitanalyse"
+                },
+                {
+                    "page": 9,
+                    "sha": "69cb06c210c5aa7f481f09fa179534f6f4a67a85",
+                    "description": "Maschinenmodell (Erweiterung) Laufzeitanalyse"
+                },
+                {
+                    "page": 10,
+                    "sha": "4450d636f20a441e8ab260483d34ac76df57d3ce",
+                    "description": "B-Tree Definition"
+                },
+                {
+                    "page": 11,
+                    "sha": "660693666d24141d7cb5a7a232cf76edbc090779",
+                    "description": "B-Tree Definition"
+                },
+                {
+                    "page": 12,
+                    "sha": "1057a7fe4d4cf39cf4f37563f5adfef822e3c30b",
+                    "description": "B-Tree Definition"
+                },
+                {
+                    "page": 13,
+                    "sha": "aedf2f8cce32a8bf3f4753585817b771b30adf2a",
+                    "description": "B-Tree Definition"
+                },
+                {
+                    "page": 14,
+                    "sha": "87b062729c1af087dcdd510c0aec47cae445e0f4",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 15,
+                    "sha": "909f7ceeafb323c17636078c286267a3afc20795",
+                    "description": "B-Tree Definition"
+                },
+                {
+                    "page": 16,
+                    "sha": "15c507fa3c589fd0f42b0ebefdc582952106f521",
+                    "description": "B-Tree Definition"
+                },
+                {
+                    "page": 17,
+                    "sha": "96883d7be6fb5928329751c895060caec950ac0f",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 18,
+                    "sha": "9a19e7675442d6ad8b46ec2d18fc38ab7976d230",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 19,
+                    "sha": "194a8e5144522335115aaade7fdf7fa13e5e927f",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 20,
+                    "sha": "ea8202b0e4152e13fff30151f4cdf07e7ea4ab7f",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 21,
+                    "sha": "0de61913d701fdc9ff54e9b707ce7abee73954c3",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 22,
+                    "sha": "9f26d006f89816645fab8522236cf0f163c3bc2e",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 23,
+                    "sha": "0379ba84ce2bd5e50ac5e053a67cd9e8775f9897",
+                    "description": "B-Tree Satz 1"
+                },
+                {
+                    "page": 24,
+                    "sha": "f69e2f8fae61010b457ab2ec5efb99b894c79bfd",
+                    "description": "B-Tree Konstruktion"
+                },
+                {
+                    "page": 25,
+                    "sha": "97d2e19d1890bac2c725ba63023a0318c0875d04",
+                    "description": "B-Tree Manipulation"
+                },
+                {
+                    "page": 26,
+                    "sha": "e2b3d4a3264a03cf0a76bd87691ba6ef59348bf1",
+                    "description": "B-Tree Manipulation: Suche"
+                },
+                {
+                    "page": 27,
+                    "sha": "828ddbd768a61f3a9e5394c821f8ca1666ae29db",
+                    "description": "B-Tree Manipulation: Suche"
+                },
+                {
+                    "page": 28,
+                    "sha": "19aa776420cf901b211e2c43e5f9d1375c897428",
+                    "description": "B-Tree Manipulation: Suche"
+                },
+                {
+                    "page": 29,
+                    "sha": "bcc31bdfa9a47a9a509bc3acf8a86473ae7a1bf9",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 30,
+                    "sha": "f759868d959ef68d35b85bc42888087a4a59c3ef",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 31,
+                    "sha": "124b6b7d451b967c95b39cd681aac4c18e52af19",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 32,
+                    "sha": "51f53b97405723eb4844a27cc8e2786c257c4387",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 33,
+                    "sha": "4576d0f45c9250dd0fa3ca876d14e238afadf58b",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 34,
+                    "sha": "27cafd95230fc4d816b5be6fa7e31ca69fca92cc",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 35,
+                    "sha": "ba9189cc6c7709d23c0d9791253c592d1d6c00b8",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 36,
+                    "sha": "1de87cd0f0f52f66dee2d5e834ae5157f8e77866",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 37,
+                    "sha": "bb44f248b8951b98f83b15874c9f9592bee9de6c",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 38,
+                    "sha": "430cf2b165ba01268b6234cb9b0a0165ff00cbe9",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 39,
+                    "sha": "89f95b317f279340742fa8f4f2b45630b86ba223",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 40,
+                    "sha": "c88907229e618c3c670824cf817e2759f0f17b0f",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 41,
+                    "sha": "282d42878a30b2bc1feaaf296516b226213a9284",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 42,
+                    "sha": "3339560a1386a07925e98e21ca8421cfe6d9109a",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 43,
+                    "sha": "f0bf26a0ac956f3a7dca2f6c5d0fae128a329927",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 44,
+                    "sha": "22da5dd2987e6b35dddcaf7ae76933f7bc4d9755",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 45,
+                    "sha": "0d4c5d8d8dda5de0bd827b8fde97738740ff4878",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 46,
+                    "sha": "b1aa8c3f6eb46f37e6903bbb262d626cce836467",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 47,
+                    "sha": "030e64a4f853035c93dbb101f0ca079e7635465f",
+                    "description": "B-Tree Manipulation: Einf\u00fcgen"
+                },
+                {
+                    "page": 48,
+                    "sha": "aaf8e6811d2f0a563cf067c5d233040440ea32eb",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 49,
+                    "sha": "a541fd2c3b97582016c8192d8c3181a95f3f0fd1",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 50,
+                    "sha": "d0c6fb0787639cc1b62ee911edc9ec6981f0e6de",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 51,
+                    "sha": "f0b31d93c7777e9a6bd204566c8fa3e8d8c2bf3a",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 52,
+                    "sha": "9abe528cf52feaf8fb945e75a03b23035ae0752b",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 53,
+                    "sha": "130cf83db9f76c8a68003523b6e6f73804a63e00",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 54,
+                    "sha": "58ea651ae62d77251ab8b56c8f22a84cfe9085a3",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 55,
+                    "sha": "c11d3b9ba3068babb5c724093a65760a63be75ab",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 56,
+                    "sha": "d4757cf8e5fb77b6206c173f294b280dc69645a6",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 57,
+                    "sha": "8cca244d7e3561d292cd01d4168c7d28331dea69",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 58,
+                    "sha": "79108835d13722b333b10d53cd1f4681425dba5b",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 59,
+                    "sha": "214f0f37d2a5489373df654042f717d8851c9026",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
+                },
+                {
+                    "page": 60,
+                    "sha": "642236a0baa7e0dc413c4ec1c01062c99b23f153",
+                    "description": "B-Tree Manipulation: L\u00f6schen"
                 }
             ]
         }
@@ -21499,223 +22750,223 @@
             "unit-de-ensemble-classifiers"
         ],
         "unit-en-ml-organization": {
-            "sha": "302f3aa41eccecc48e48f1111d41f17bcd298320",
+            "sha": "ec5276a5e346f4b23690de1d41315b4c3563e823",
             "numpages": 7,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "7c299e347b1a91fa9a77babe63792b52661b07e9",
+                    "sha": "569182e685e91c9a8c32ee5d2ce6f25bca064f6e",
                     "description": "Machine Learning Benno Stein"
                 },
                 {
                     "page": 2,
-                    "sha": "2a7f779a3260a93cdea6d74e0d09c6a58e0a16e1",
+                    "sha": "8954f51fb17bd89e447500a970acf6572dc03191",
                     "description": "Contents I. Introduction"
                 },
                 {
                     "page": 3,
-                    "sha": "3df0935ea38403e4eb316f25406095d62bc5f271",
+                    "sha": "d170bc8461106801d5ebbe40b1dad23ca4fcda19",
                     "description": "Objectives "
                 },
                 {
                     "page": 4,
-                    "sha": "a81fc82b71537a72c03bba445c9c23a2a50c0cb1",
+                    "sha": "eefccb7653bfd096170bf9a816bce95b4a0bb81f",
                     "description": "Related Fields 1. Statistics"
                 },
                 {
                     "page": 5,
-                    "sha": "cef8fdb70b62b4a824d4d7dc803881ceb0796075",
+                    "sha": "25fa7a5213350c89af7b001f50c725d2ea9d90d3",
                     "description": "Literature Machine Learning:"
                 },
                 {
                     "page": 6,
-                    "sha": "2968ee98544e026b299c12f1d256275a24f6cefc",
+                    "sha": "5f5bc9e6d26f8009d11d5829d6970d8ed4172eca",
                     "description": "Software Programming:"
                 },
                 {
                     "page": 7,
-                    "sha": "f277e68267749876d66b7dba0f35a69b867f664a",
+                    "sha": "18015f94313b363ec779bb7d8cca234cb7e62863",
                     "description": "Software Statistics:"
                 }
             ]
         },
         "unit-en-ml-introduction": {
-            "sha": "766087855b9e871cc14572377dedb650b5ac52ca",
+            "sha": "a0d50d51958e6025d5db4fb8c6bb6e8153359c8c",
             "numpages": 35,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "43f7ad6f5ab92f65eda3cdb3083c725ab72c9bdf",
+                    "sha": "1e037993267674073cef0024d80874138e47337c",
                     "description": "Chapter ML:I I. Introduction"
                 },
                 {
                     "page": 2,
-                    "sha": "69e4575113865b021a7e39b8f0361829cea0042e",
+                    "sha": "b010cb629f0f2623c9624af7ff0773d7bb18f535",
                     "description": "Examples of Learning Tasks Car Shopping Guide"
                 },
                 {
                     "page": 3,
-                    "sha": "699ca527d35d5c1a14c7e8ab28713caed7788b98",
+                    "sha": "6debac03befda528ec2388879d52ae9f398373c3",
                     "description": "Examples of Learning Tasks Risk Analysis for Credit Approval"
                 },
                 {
                     "page": 4,
-                    "sha": "c8ecb11e2c079220fd19e1686fbf76ccdf8d944a",
+                    "sha": "72b860b6bd1f7c0623fe64de07fed6d01983956e",
                     "description": "Examples of Learning Tasks Risk Analysis for Credit Approval"
                 },
                 {
                     "page": 5,
-                    "sha": "8c24b0853309daf7f3b78025a853b00be74a9608",
+                    "sha": "7d460db40e188bba97d5659a70c3a2a2ee05e287",
                     "description": "Examples of Learning Tasks Image Analysis"
                 },
                 {
                     "page": 6,
-                    "sha": "330d98dd12dfdf20f528f16fcaa69b85adffff66",
+                    "sha": "0b508385a64613647e16742ea0794283aa75fe7d",
                     "description": "Examples of Learning Tasks Image Analysis"
                 },
                 {
                     "page": 7,
-                    "sha": "487f41a3e27122f6ddfc6f735dd660b14dc1c92f",
+                    "sha": "517415bb2f402f4aea2a65f22a8e2890517d5913",
                     "description": "Specification of Learning Problems Definition 1 (Machine Learning"
                 },
                 {
                     "page": 8,
-                    "sha": "ba2914aa704a3326a9a64bfeb6bbe6d1a49d9070",
+                    "sha": "a66da47014f4b46aae1d55ebc813f2287193fb1f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "80bb4ae0a7ca82a7372706a71b9348be60cf125b",
+                    "sha": "2c30cf14402c89838ad6e629c9ba5a5a51db8f5b",
                     "description": "Specification of Learning Problems Learning Paradigms"
                 },
                 {
                     "page": 10,
-                    "sha": "bbf24b8232be163fe52502588a194d52cff73c9b",
+                    "sha": "e0579bd2ec9fe4606b02148fd1bce58d495a52b5",
                     "description": "Specification of Learning Problems Learning Paradigms"
                 },
                 {
                     "page": 11,
-                    "sha": "279ec15f8413862aa39e3b4b5aa73040349bfc45",
+                    "sha": "2f6332702293879f2e578d712e7da2c2fbaf463c",
                     "description": "Specification of Learning Problems Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 12,
-                    "sha": "de8f41daf85cf45562054618c2f0d3274eb28341",
+                    "sha": "b61e9d84a8aeff1d288fb45e270eafdc78924fb8",
                     "description": "Specification of Learning Problems Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 13,
-                    "sha": "5621e5d3538062f018738c5ebed20282a59b6ea0",
+                    "sha": "8943471643ee3f3bf820b2fe03309bc32df44ab6",
                     "description": "Specification of Learning Problems Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 14,
-                    "sha": "a9b49f2f9f72a99b6872dde52420e3a0a801de39",
+                    "sha": "fe97ea08fb1ee2b0a772e0cca9f144810b164741",
                     "description": "Specification of Learning Problems Example Chess: Ideal Target Function \u03b3"
                 },
                 {
                     "page": 15,
-                    "sha": "775893732c9f6fc44d3333c45ed19104869c3284",
+                    "sha": "106eeb2dcf7deac6eeecfd909f4d9dc4eb184100",
                     "description": "Specification of Learning Problems Example Chess: Ideal Target Function \u03b3"
                 },
                 {
                     "page": 16,
-                    "sha": "30e4519f23085d5a23284e9ddfbcb0ea9b5314e4",
+                    "sha": "57536705233e6b1575682f9e87afe4c4f3672a43",
                     "description": "Specification of Learning Problems Example Chess: From the Real World \u03b3 to a Model World y"
                 },
                 {
                     "page": 17,
-                    "sha": "1c2e1b5fa7bde61db4377abfad51b45b6e50568a",
+                    "sha": "6cf59f9c60f3ccc98abeef24f2b228cced0999f1",
                     "description": "Specification of Learning Problems Example Chess: From the Real World \u03b3 to a Model World y"
                 },
                 {
                     "page": 18,
-                    "sha": "042fcec126039f4f6d66b5857f10ee3e1a5c6035",
+                    "sha": "bad631fe8f3081f47e6e220cb2ace14a24a3f5a1",
                     "description": "Specification of Learning Problems Example Chess: From the Real World \u03b3 to a Model World y"
                 },
                 {
                     "page": 19,
-                    "sha": "d4f2b08894c7d21d11bbda2f057fe97a4cabc946",
+                    "sha": "c62d4cbfcbacddac4318f342a5519bae68547fef",
                     "description": "Remarks:"
                 },
                 {
                     "page": 20,
-                    "sha": "d39310af5af0ada83e12eb29853da5d8fb0a164f",
+                    "sha": "56cba3c4bb64171085238c29d9e5ba8694e87eba",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 21,
-                    "sha": "4b41e1a7c5b7e36cf283e679cbabaaefbf9346e4",
+                    "sha": "97f37d75a64ecbe069019f2bcfb9fb8628f88345",
                     "description": "Specification of Learning Problems "
                 },
                 {
                     "page": 22,
-                    "sha": "b17b227bfaf5d9b431d04e3ce0955f3bd8ab0109",
+                    "sha": "a5337ddbc38987e6594f7e80d3a509136eb47957",
                     "description": "Specification of Learning Problems "
                 },
                 {
                     "page": 23,
-                    "sha": "072fb576eda9dc265017c6a7377208dec8c849a9",
+                    "sha": "cc9b5567a0910ff056b5e9b1b11256918507445e",
                     "description": "Specification of Learning Problems How to Build a Classifier y"
                 },
                 {
                     "page": 24,
-                    "sha": "f0ce6b7e13f0751834e5a24739f625aa52f917ba",
+                    "sha": "dad04a465089982140106e7c13e4c1d78c401da1",
                     "description": "Specification of Learning Problems How to Build a Classifier y"
                 },
                 {
                     "page": 25,
-                    "sha": "8179510282bf8994cc79ae5aaa54ade3495573b6",
+                    "sha": "7b0a49429bc1e9ccf30e76c87c4b47c3603d5215",
                     "description": "Specification of Learning Problems How to Build a Classifier y"
                 },
                 {
                     "page": 26,
-                    "sha": "4c5433b8e6f8c78409e14c6406ecbfb48d99208a",
+                    "sha": "6c40978d44cd487180074ad2ee7f31e2f7aabb86",
                     "description": "Specification of Learning Problems How to Build a Classifier y"
                 },
                 {
                     "page": 27,
-                    "sha": "43698d04f1dd53cd8026ef3ac7302c1eb45628e8",
+                    "sha": "9502980d72f975e5ab43b6093c3712cf9ad71979",
                     "description": "Specification of Learning Problems How to Build a Classifier y"
                 },
                 {
                     "page": 28,
-                    "sha": "1c9c8951a2615bf1bf46589a896416497e89fa09",
+                    "sha": "cb471e7a55aa1faaf72ef57ba963a29aac03f73a",
                     "description": "Specification of Learning Problems How to Build a Classifier y"
                 },
                 {
                     "page": 29,
-                    "sha": "177f9096f45714306733519c910d0184492ccc86",
+                    "sha": "007d82d58c7e6bedc262990d6c62652237c1eaec",
                     "description": "Remarks:"
                 },
                 {
                     "page": 30,
-                    "sha": "bd2b23baa9c01d9c6ea47ebb69952c053ebb3af9",
+                    "sha": "dbccda82d8f53537cc3bc646e1450fb76783faa5",
                     "description": "Specification of Learning Problems LMS Algorithm for Fitting y"
                 },
                 {
                     "page": 31,
-                    "sha": "7a174db19050719ed58d7be348f28ecbf3e492f9",
+                    "sha": "af83c7af92a9af7777f273dc13990675bdc07df1",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "9ae8024348a8d03cdf721fa5ef988e3fc8c16f72",
+                    "sha": "e04a82b9dd817242c23a223da71c63dce82c3acd",
                     "description": "Specification of Learning Problems Design of Learning Systems"
                 },
                 {
                     "page": 33,
-                    "sha": "14aa1f43e090a568cc2c886bcaf069a32d44f7bc",
+                    "sha": "4f80b3e688f2391c57e42c942ea58672e178fa46",
                     "description": "Specification of Learning Problems Design of Learning Systems"
                 },
                 {
                     "page": 34,
-                    "sha": "a7c5b8cc508e8c6820d373e08eb25571b7402243",
+                    "sha": "577d450baec68e5d929ca0d592f0f09048c8f40e",
                     "description": "Specification of Learning Problems Related Questions"
                 },
                 {
                     "page": 35,
-                    "sha": "df7f2166a44ae1a341843df82741267ac300367e",
+                    "sha": "24f217f1d4238f7d32d6e863592bbcebb3d9c5f6",
                     "description": "Specification of Learning Problems Related Questions"
                 }
             ]
