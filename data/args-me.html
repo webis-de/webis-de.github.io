@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_active: data
-title: Webis Data Corpus-Webis-Wikidiscussions-18
+title: args-me corpus 
 description: Overview of corpora that are used by the Webis research group
 ---
 
@@ -9,19 +9,16 @@ description: Overview of corpora that are used by the Webis research group
 {
     "@context":"http://schema.org/",
     "@type":"Dataset",
-    "name":"Corpus-Webis-Wikidiscussions-18",
-    "description":"Webis-WikiDiscussions-18 Corpus is the output of parsing the entire set of Wikipedia talk pages. The corpus contains about six million discussions, consisting of about 20 million turns. The turns comprise around 74,000 different tags with a total of about 100,000 instances, around 7000 different shortcuts with about 400,000 instances, and around 51,000 different inline templates with about 3.3 million instances.",
-    "url":"https://webis.de/data/webis-wikidiscussions-18.html",
+    "name":"args.me corpus",
+    "description":"args.me corpus comprises 387 606 arguments crawled from four debate portals in the middle of 2019. The debate portals are Debatewise, IDebate.org, Debatepedia, and Debate.org. The arguments are extracted using heuristics that are designed for each debate portal.",
+    "url":"https://webis.de/data/args-me-19.html",
     "keywords":[
-        "wikipedia", 
-        "talk pages", 
-        "discussions", 
-        "tags",
-        "shortcuts",
-        "links", 
-        "templates" 
+        "debate portal", 
+        "arguments", 
+        "computational argumentation", 
+        "argument search"
     ], 
-    "datePublished":"2018",
+    "datePublished":"2019",
     "creator":[
         {
             "@type":"Organization",
@@ -31,9 +28,9 @@ description: Overview of corpora that are used by the Webis research group
         },
         {
             "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#al-khatib",
+            "url":"https://weimar.webis.de/people/#ajjour",
             "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Al-Khatib, Khalid"
+            "name":"Ajjour, Yamen"
         },
         {
             "@type":"Person", 
@@ -42,7 +39,19 @@ description: Overview of corpora that are used by the Webis research group
             "name":"Wachsmuth, Henning"
         },
         {
+            "@type":"Person",
+	    "url":"https://weimar.webis.de/people/#kiesel",
+	    "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+	    "name":"Kiesel, Johannes"
+        },
+        {
             "@type":"Person", 
+            "affiliation":"Leipzig University",
+	    "url":"https://temir.org/people.html",
+	    "name":"Potthast, Martin"
+        },
+	{
+	    "@type":"Person",
             "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
             "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
             "name":"Hagen, Matthias"
@@ -54,14 +63,10 @@ description: Overview of corpora that are used by the Webis research group
             "name":"Stein, Benno"
         },
         {
-            "@type":"Person", 
+            "@type":"Person",
+	    "url":"https://weimar.webis.de/people/#kiesel",
             "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Lang, Kevin"
-        },
-        {
-            "@type":"Person", 
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Herpel, Jakob"
+            "name":"Kiesel, Johannes"
         }
     ],
     "includedInDataCatalog":{
@@ -72,8 +77,8 @@ description: Overview of corpora that are used by the Webis research group
     "distribution":[
         {
             "@type":"DataDownload",
-            "encodingFormat":"TSV",
-            "contentUrl":"https://files.webis.de/corpora/corpora-webis/corpus-webis-wikidiscussions-18/Webis-WikiDiscussions-18-TSV.tar.gz"
+            "encodingFormat":"JSON",
+            "contentUrl":"https://zenodo.org/record/3274636#.XSjclntS_b0"
         }
     ]
 }
@@ -81,7 +86,7 @@ description: Overview of corpora that are used by the Webis research group
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Corpus-Webis-Wikidiscussions-18</h1>
+        <h1>args.me Corpus</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -95,41 +100,32 @@ description: Overview of corpora that are used by the Webis research group
 
     <div class="uk-container uk-margin-medium">
         <!--
+???END
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            Webis-WikiDiscussions-18 Corpus is the output of parsing the entire set of Wikipedia talk pages. The corpus
-            contains about six million discussions, consisting of about 20 million turns. The turns comprise around
-            74,000 different tags with a total of about 100,000 instances, around 7000 different shortcuts with about
-            400,000 instances, and around 51,000 different inline templates with about 3.3 million instances.
+args.me corpus comprises 387 606 arguments crawled from four debate portals in the middle of 2019. The debate portals are Debatewise, IDebate.org, Debatepedia, and Debate.org. The arguments are extracted using heuristics that are designed for each debate portal.
         </p>
 
         <!--
         SECTION Download
         -->
         <h2 id="download">Download</h2>
-        <p>To download the corpus use the following links:</p>
+        <p>To download the corpus use the following link:</p>
         <ul>
             <li>
-                <a href="https://files.webis.de/corpora/corpora-webis/corpus-webis-wikidiscussions-18/Webis-WikiDiscussions-18-TSV.tar.gz">Webis-WikiDiscussions-18-TSV.tar.gz</a>
-                <br />(4.4 GB, 8 tables in TSV format, MD5 sum: 3b008055bd84f5d4808931ce0797bdf8)
+                <a href="https://zenodo.org/record/3274636/files/argsme.zip?download=1">args.me Corpus</a>
+                (894.9 MB in JSON format)
             </li>
-            <!-- <li>
-                <a href="">Webis-WikiDiscussions-18-database-backup.tar.gz</a> (? GB, PostgreSQL database with indices)
-            </li> -->
         </ul>
 
-        <p>The database has the following structure:</p>
+        <p>Each argument in the corpus is represented by the following fields:</p>
         <ul>
-            <li><strong>PAGES:</strong> PAGE-ID, URL, TITLE</li>
-            <li><strong>DISCUSSIONS:</strong> DISCUSSION-ID, PAGE-ID, TITLE</li>
-            <li><strong>COMMENTS:</strong> COMMENT-ID, DISCUSSION-ID, PARENT-ID, TEXT-RAW, TEXT-CLEAN, USER</li>
-            <li><strong>TAGS:</strong> TAG-ID, COMMENT-ID, TAG-TEXT, TAG-CLASS</li>
-            <li><strong>TEMPLATES:</strong> TEMPLATE-ID, DISCUSSION-ID, TEMPLATE-TEXT</li>
-            <li><strong>SHORTCUTS:</strong> SHORTCUT-ID, COMMENT-ID, SHORTCUT-TEXT, SHORTCUT-CLASS</li>
-            <li><strong>LINKS:</strong> LINK-ID, COMMENT-ID, LINK-TEXT</li>
-            <li><strong>INLINE-TEMPLATES:</strong> IL-TEMPLATE-ID, COMMENT-ID, IL-TEMPLATE-TEXT, TYPE, DESCRIPTION</li>
+	    <li><strong>conclusion</strong></li>
+	    <li><strong>premises:</strong> each premise is modeled as stance, text</li>
+            <li><strong>id</strong></li>
+            <li><strong>context:</strong> sourceTitle, sourceId, nextArgumentInSourceId, sourceUrl, discussionTitle, previousArgumentInSourceId, acquisitionTime</li>
         </ul>
 
         <!--
@@ -145,11 +141,12 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="https://weimar.webis.de/people/#al-khatib">Khalid Al-Khatib</a></li>
+            <li><a href="https://weimar.webis.de/people/#ajjour">Yamen Ajjour</a></li>
             <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
+	    <li><a href="https://weimar.webis.de/people/#kiesel">Johannes Kiesel</a></li>
+	    <li><a href="https://temir.org/people.html"> Martin Potthast</a></li>
             <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
             <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
         </ul>
-        <p>Students: Kevin Lang, Jakob Herpel.</p>
     </div>
 </main>
