@@ -6,21 +6,38 @@ description: Theses of the Webis group
 ---
 
 <main class="uk-section uk-section-default">
-    <div class="uk-container uk-margin-medium">
-        <h1><a href="../for-students.html">For Students</a> <span data-uk-icon="chevron-right"></span> Theses</h1>
-        <div id="search-control">
-            <input type="text" class="uk-input" id="bib-filter-field" placeholder="Type here to filter&hellip;"/>
-        </div>
-    </div>
+<div class="uk-container uk-margin-medium">
+<h1><a href="../for-students.html">For Students</a> <span data-uk-icon="chevron-right"></span> Theses</h1>
 
-    <div class="uk-container uk-margin-medium publications-list">
-        {% include bib-theses.html %}
+<ul class="uk-list">
+<li><span data-uk-icon="chevron-down"></span> <a href="#open-theses-topics">Open Theses Topics</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#completed-theses">Completed Theses</a></li>
+</ul>
+</div>
 
-        <div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
-            None of our publications match your filter.
-        </div>
-    </div>
+<div class="uk-container uk-margin-medium">
+<h2 id="open-theses-topics">Open Theses Topics</h2>
+<p>
+Students who are eager to develop their skills in a research-oriented thesis in our group should mail us their interests at webis[at]listserv.uni-weimar.de. Suitable topics are, for example:
+</p>
+<ul>
+<li>Argumentative Image Search</li>
+</ul>
+
+<h2 id="completed-theses">Completed Theses</h2>
+<div id="search-control">
+<input type="text" class="uk-input" id="bib-filter-field" placeholder="Type here to filter&hellip;"/>
+</div>
+</div>
+
+<div class="uk-container uk-margin-medium publications-list">
+{% include bib-theses.html %}
+
+<div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+None of our publications match your filter.
+</div>
+</div>
 </main>
 
-<script src="{{ '/js/bibentry.js' | relative_url }}?{{site.time | date: '%s'}}"></script>
-<script src="{{ '/js/bibentry-webis-de.js' | relative_url }}?{{site.time | date: '%s'}}"></script>
+<script src="/js/bibentry.js"></script>
+<script src="/js/bibentry-webis-de.js"></script>
