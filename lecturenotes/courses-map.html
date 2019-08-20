@@ -18,11 +18,11 @@ description: Webis lecturenotes courses map
     </div>
 
     <div class="uk-container uk-margin-medium">
-        <div data-uk-form-custom="target: > * > span:nth-child(2)">
-            <select size="1" class="uk-select"
+        <div>
+            <select class="uk-select filter"
                     onkeyup="changeStyleSheet(this.options[this.selectedIndex].value)"
                     onchange="changeStyleSheet(this.options[this.selectedIndex].value)">
-                <option value="base" selected="selected">Filter ...</option>
+                <option value="base" selected="selected">Click here to filter...</option>
                 <option disabled="disabled">--</option>
                 <option value="bachelor">Bachelor</option>
                 <option value="master">Master</option>
@@ -33,10 +33,6 @@ description: Webis lecturenotes courses map
                 <option value="passau">Passau University</option>
                 <option value="weimar">Weimar University</option>
             </select>
-            <button class="uk-button uk-button-default uk-width-medium" type="button" tabindex="-1">
-                <span data-uk-icon="cog" class="uk-text-middle"></span>&nbsp;&nbsp;
-                <span class="uk-text-middle"></span>
-            </button>
         </div>
     </div>
 
