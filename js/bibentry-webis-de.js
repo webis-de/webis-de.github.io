@@ -16,13 +16,18 @@ doFilterWebisDe = (query) => {
     UIkit.update();
 };
 
-// Set up filter field
-const filterField = document.getElementById("bib-filter-field");
 // legacy 'filter:' option
 if (document.location.hash.startsWith("#filter:")) {
     const query = decodeURIComponent(document.location.hash.substr(8));
     document.location.hash = "#?q=" + query;
 }
+// remove spurious "\"
+if (document.location.hash.indexOf("\\") > 0) {
+  document.location.hash = document.location.hash.replace(/\\/g, "");
+}
+
+// Set up filter field
+const filterField = document.getElementById("bib-filter-field");
 if (document.location.hash.startsWith("#?q=")) {
     const query = decodeURIComponent(document.location.hash.substr(4));
     filterField.value = query;
