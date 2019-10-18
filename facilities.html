@@ -12,7 +12,7 @@ description: Overview of the Webis facilities
 <ul class="uk-list">
 <li><span data-uk-icon="chevron-down"></span> <a href="#lab-space">Lab Space</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#hardware">Hardware</a></li>
-<li><span data-uk-icon="chevron-down"></span> <a href="#software">Software</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#software-and-collaboration">Software and Collaboration</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#monitoring-and-configuration">Monitoring and Configuration</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#documentation">Documentation</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#website-maintenance">Website Maintenance</a></li>
@@ -144,16 +144,25 @@ Specification: 7 servers, up to 12 cores at 2.4 GHz, 128 GB RAM, 21.6 TB HDD
 
 
 <!--
-SECTION Software
+SECTION Software and Collaboration
 -->
 <div id="list-software" class="webis-list">
-<h2 id="software">Software<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
+<h2 id="software-and-collaboration">Software and Collaboration<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
+
+<div class="entry" id="docker">
+<div class="image"><img src="facilities/img/docker-logo.png" alt="Docker"/></div>
+<div class="description">
+<a href="https://hub.docker.com/r/webis/">Docker</a><br>
+Public container repository.
+</div>
+</div>
 
 <div class="entry" id="gitlab">
-<div class="image"><img src="facilities/img/gitlab-logo.png" alt="GitLab"/></div>
+<div class="image"><img src="facilities/img/generic-storage-logo.png" alt="CVS"/></div>
 <div class="description">
-<a href="https://git.webis.de">GitLab</a><br>
-Internal code repository for development.
+<a href="#webis-cmd">CVS</a><br>
+Staff internal repository for research and organization.<br>
+[<a href="#webis-cmd">access</a>: webis cvs onboard]
 </div>
 </div>
 
@@ -165,11 +174,14 @@ Public code repository.
 </div>
 </div>
 
-<div class="entry" id="docker">
-<div class="image"><img src="facilities/img/docker-logo.png" alt="Docker"/></div>
+<div class="entry" id="gitlab">
+<div class="image"><img src="facilities/img/gitlab-logo.png" alt="GitLab"/></div>
 <div class="description">
-<a href="https://hub.docker.com/r/webis/">Docker</a><br>
-Public container repository.
+<a href="https://git.webis.de">GitLab</a><br>
+Internal code repository for development.<br>
+[<a href="https://git.webis.de">repository</a>]
+[<a href="https://git.webis.de/code-generic/code-webis-cmd/wikis/git-setup">notes</a>]
+[<a href="#webis-cmd">access</a>: webis git onboard]
 </div>
 </div>
 
@@ -183,6 +195,16 @@ Helper utility for automating every-day tasks in the webis group.<br>
 [<a href="https://git.webis.de/code-generic/code-webis-cmd/blob/master/cheatsheet.txt">cheatsheet</a>]
 </div>
 </div>
+
+<div class="entry" id="web-services">
+<div class="image"><img src="facilities/img/generic-service-logo.png" alt="Play" style="height:55px;"/></div>
+<div class="description">
+<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/web-service-proxy/README.md">Web Services</a><br>
+Notes on web service setup / configuration.<br>
+[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/web-service-proxy/README.md">service proxy</a>]
+[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/demo/README.md">demos</a>]
+</div>
+</div>
 </div>
 
 
@@ -192,37 +214,52 @@ SECTION Monitoring and Configuration
 <div id="list-monitoring-and-configuration" class="webis-list">
 <h2 id="monitoring-and-configuration">Monitoring and Configuration<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
 
-<div class="entry" id="webis-monitoring">
-<div class="image"><img src="facilities/img/grafana-logo.png" alt="Webis Monitoring"/></div>
-<div class="description">
-<a href="https://monitoring.webis.de/">Webis Monitoring</a><br>Monitor Webis Infrastructure.<br>
-[<a href="https://monitoring.webis.de/">grafana</a>]
-[<a href="https://prometheus.webis.de/">prometheus</a>]
-[<a href="https://alertmanager.webis.de/">alertmanager</a>]
-</div>
-</div>
-
-<div class="entry" id="webis-infrastructure">
-<div class="image"><img src="facilities/img/consul-logo.png" alt="Webis Infrastructure"/></div>
-<div class="description">
-<a href="https://consul.webis.de/">Consul</a><br>Webis Infrastructure Overview.<br>
-</div>
-</div>
-
 <div class="entry" id="betaweb-es-monitoring">
 <div class="image"><img src="facilities/img/kibana-logo.png" alt="Betaweb Elasticsearch Monitoring"/></div>
 <div class="description">
-<a href="http://betaweb001:5601/app/monitoring">Betaweb Elasticsearch Monitoring</a><br>Monitor Elasticsearch on Betaweb.<br>
+<a href="http://betaweb001:5601/app/monitoring">Betaweb Elasticsearch Monitoring</a><br>
+Monitor Elasticsearch on Betaweb.<br>
 </div>
 </div>
 
 <div class="entry" id="betaweb-hadoop">
 <div class="image"><img src="facilities/img/hadoop-logo.png" alt="Betaweb Cluster"/></div>
 <div class="description">
-<a href="https://yarn.webis.de/">Betaweb Hadoop Monitoring</a><br>Monitor Hadoop jobs and storage.<br>
+<a href="https://yarn.webis.de/">Betaweb Hadoop Monitoring</a><br>
+Monitor Hadoop jobs and storage.<br>
 [<a href="https://yarn.webis.de/">application master</a>]
 [<a href="https://hdfs.webis.de/">hdfs</a>]
 <!-- [<a href="http://webis16.medien.uni-weimar.de/cluster-vis">load</a>] -->
+</div>
+</div>
+
+<div class="entry" id="consul">
+<div class="image"><img src="facilities/img/consul-logo.png" alt="Consul"/></div>
+<div class="description">
+<a href="https://consul.webis.de/">Consul</a><br>
+Webis Infrastructure Overview.<br>
+</div>
+</div>
+
+<div class="entry" id="infrastructure-monitoring">
+<div class="image"><img src="facilities/img/grafana-logo.png" alt="Infrastructure Monitoring"/></div>
+<div class="description">
+<a href="https://monitoring.webis.de/">Infrastructure Monitoring</a><br>
+Monitor Webis Infrastructure.<br>
+[<a href="https://monitoring.webis.de/">grafana</a>]
+[<a href="https://prometheus.webis.de/">prometheus</a>]
+[<a href="https://alertmanager.webis.de/">alertmanager</a>]
+</div>
+</div>
+
+<div class="entry" id="mailing-lists">
+<div class="image"><img src="facilities/img/mailman-logo.png" alt="Mailing Lists"/></div>
+<div class="description">
+<a href="https://listserv.uni-weimar.de/mailman/admin/webis">Mailing Lists</a><br>
+Configure our mailing lists.<br>
+[<a href="https://listserv.uni-weimar.de/mailman/admin/webis">webis</a>]
+[<a href="https://listserv.uni-weimar.de/mailman/admin/webisstud">webisstud</a>]
+[<a href="https://listserv.uni-weimar.de/mailman/admin/webisservices">webisservices</a>]
 </div>
 </div>
 
@@ -233,13 +270,6 @@ SECTION Monitoring and Configuration
 Dashboard showing runtime data.
 </div>
 </div>
-
-<div class="entry" id="webis-cert-server">
-<div class="image"><img src="facilities/img/certificate-logo.png" alt="Webis Cert Server"/></div>
-<div class="description">
-<a href="https://cert-server.webis.de/">Webis Certificate Authority Server</a><br>Webis VPN Certificate Issuance.<br>
-</div>
-</div>
 </div>
 
 <!--
@@ -247,33 +277,6 @@ SECTION Documentation
 -->
 <div id="list-documentation" class="webis-list">
 <h2 id="documentation">Documentation<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
-
-<div class="entry" id="introduction-to-webis">
-<div class="image"><img src="facilities/img/generic-people-logo.png" alt="People"/></div>
-<div class="description">
-<a href="https://git.webis.de/code-generic/code-webis-faq">Introduction to Webis</a><br>
-FAQ about working in Webis.
-</div>
-</div>
-
-<div class="entry" id="git">
-<div class="image"><img src="facilities/img/git-logo.png" alt="Git"/></div>
-<div class="description">
-<a href="https://git.webis.de/code-generic/code-webis-cmd/wikis/git-setup">Git</a><br>
-Wiki for using our Git repository.
-</div>
-</div>
-
-<div class="entry" id="thesis-notes">
-<div class="image"><img src="facilities/img/thesis-logo.png" alt="Graduation cap"/></div>
-<div class="description">
-<a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt">Thesis Notes</a><br>
-Notes on thesis writing.<br>
-[<a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt">notes</a>]
-[<a href="https://git.webis.de/code-generic/code-webis-thesis/tree/master/template">template</a>]
-[<a href="https://git.webis.de/code-generic/code-webis-poster">poster template</a>]
-</div>
-</div>
 
 <div class="entry" id="admin-notes">
 <div class="image"><img src="facilities/img/generic-notes-logo.png" alt="Notes"/></div>
@@ -290,7 +293,7 @@ Notes on hardware / software administration.<br>
 <div class="description">
 <a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/ceph/cephfs-usage.md">Cluster Notes</a><br>
 Notes and tutorials on Cluster setup / configuration / usage.<br>
-[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/ceph/cephfs-usage.md">ceph</a>]
+[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/ceph/cephfs-usage.md">storage</a>: ceph]
 [<a href="https://webis.de/lecturenotes.html#unit-en-docker">docker</a>]
 [<a href="https://git.webis.de/code-generic/code-admin-clusters/blob/master/betaweb/hadoop/hadoop-notes.md">hadoop</a>]
 [<a href="https://git.webis.de/aitools/aitools4-aq-cluster-computing/blob/master/docker/Readme.md">jupyter</a>]
@@ -298,13 +301,32 @@ Notes and tutorials on Cluster setup / configuration / usage.<br>
 </div>
 </div>
 
-<div class="entry" id="web-services-notes">
-<div class="image"><img src="facilities/img/generic-service-logo.png" alt="Play" style="height:55px;"/></div>
+<div class="entry" id="introduction-to-webis">
+<div class="image"><img src="facilities/img/generic-people-logo.png" alt="People"/></div>
 <div class="description">
-<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/web-service-proxy/README.md">Web Services Notes</a><br>
-Notes on web service setup / configuration.<br>
-[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/web-service-proxy/README.md">service proxy</a>]
-[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/demo/README.md">demos</a>]
+<a href="https://git.webis.de/code-generic/code-webis-faq">Introduction to Webis</a><br>
+FAQ about working in Webis.
+</div>
+</div>
+
+<div class="entry" id="thesis-notes">
+<div class="image"><img src="facilities/img/thesis-logo.png" alt="Graduation cap"/></div>
+<div class="description">
+<a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt">Thesis Notes</a><br>
+Notes on thesis writing.<br>
+[<a href="https://git.webis.de/code-generic/code-webis-thesis/blob/master/code-thesis-notes.txt">notes</a>]
+[<a href="https://git.webis.de/code-generic/code-webis-thesis/tree/master/template">template</a>]
+[<a href="https://git.webis.de/code-generic/code-webis-poster">poster template</a>]
+</div>
+</div>
+
+<div class="entry" id="vpn">
+<div class="image"><img src="facilities/img/certificate-logo.png" alt="VPN"/></div>
+<div class="description">
+<a href="https://cert-server.webis.de/">VPN</a><br>
+Notes on Webis VPN setup.<br>
+[<a href="https://cert-server.webis.de/">certificate authority server</a>]
+[<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/tree/master/services/openvpn">notes</a>]
 </div>
 </div>
 </div>
@@ -315,19 +337,19 @@ SECTION Website Maintenance
 <div id="list-website-maintenance" class="webis-list">
 <h2 id="website-maintenance">Website Maintenance<a href="#footnote-accessible-within-university" class="uk-text-top uk-text-small">*</a></h2>
 
-<div class="entry" id="github-webis-de">
-<div class="image"><img src="facilities/img/github-logo.png" alt="Github"/></div>
-<div class="description">
-<a href="https://github.com/webis-de/webis-de.github.io">Website Source</a><br>
-The source code of this website, hosted on GitHub through GitHub Pages.
-</div>
-</div>
-
 <div class="entry" id="lecturenotes-upload">
 <div class="image"><img src="facilities/img/generic-app-logo.png" alt="App"/></div>
 <div class="description">
 <a href="https://www.uni-weimar.de/medien/webis/teaching/upload/">Upload Lecturenotes</a><br>
 Uploads lecturenotes to GitHub.
+</div>
+</div>
+
+<div class="entry" id="github-webis-de">
+<div class="image"><img src="facilities/img/github-logo.png" alt="Github"/></div>
+<div class="description">
+<a href="https://github.com/webis-de/webis-de.github.io">Website Source</a><br>
+The source code of this website, hosted on GitHub through GitHub Pages.
 </div>
 </div>
 </div>
