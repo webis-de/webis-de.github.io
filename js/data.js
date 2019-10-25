@@ -106,14 +106,16 @@ if (document.location.hash.indexOf("\\") > 0) {
 }
 
 // Set up filter field
-const filterField = document.getElementById("bib-filter-field");
+const filterField = document.getElementById("data-filter-field");
 if (document.location.hash.startsWith("#?q=")) {
     const query = decodeURIComponent(document.location.hash.substr(4));
     filterField.value = query;
 }
 filterField.addEventListener("input", event => doFilterWebisDe(event.target.value));
 doFilterWebisDe(filterField.value);
-filterField.focus();
+if (document.location.hash.startsWith("#filter:") || document.location.hash === "") {
+  filterField.focus();
+}
 
 // Update if hash in URL changed (e.g., browser back button)
 window.addEventListener("hashchange", event => {

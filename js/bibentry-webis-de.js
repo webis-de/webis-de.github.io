@@ -35,7 +35,9 @@ if (document.location.hash.startsWith("#?q=")) {
 filterField.addEventListener("input", event => doFilterWebisDe(event.target.value));
 activateBibtexToggle(document);
 doFilterWebisDe(filterField.value);
-filterField.focus();
+if (document.location.hash.startsWith("#filter:") || document.location.hash === "") {
+  filterField.focus();
+}
 
 // Update if hash in URL changed (e.g., browser back button)
 window.addEventListener("hashchange", event => {
