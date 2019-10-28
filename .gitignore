@@ -3,6 +3,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache
 yarn-error.log
 node_modules/
 .directory
