@@ -1,10 +1,10 @@
 function containsQuery(entry, queryWords) {
     const attributes = {
-      name: entry.children[0].textContent.toLowerCase(),
-      publisher: entry.children[1].textContent.toLowerCase(),
-      year: entry.children[2].textContent,
-      units: entry.children[5].textContent.toLowerCase(),
-      task: entry.children[6].textContent.toLowerCase()
+      name: entry.children[1].textContent.toLowerCase(),
+      publisher: entry.children[2].textContent.toLowerCase(),
+      year: entry.children[3].textContent,
+      units: entry.children[6].textContent.toLowerCase(),
+      task: entry.children[7].textContent.toLowerCase()
     };
     for (let q = 0; q < queryWords.length; ++q) {
         let queryWord = queryWords[q].replace(/\+/g, " ");
@@ -33,7 +33,7 @@ function containsQuery(entry, queryWords) {
 };
 
 function doFilter(doc, query) {
-    const tables = doc.querySelectorAll(".dataTables_wrapper");
+    const tables = doc.querySelectorAll(".targetable");
     query = query.trim();
     let filteredAll = true;
     if (query === "") {
