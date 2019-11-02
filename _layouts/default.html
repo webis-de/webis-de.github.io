@@ -42,11 +42,11 @@
                 <li{% if page.nav_active == "data" %} class="uk-active"{% endif %}>
                     <a href="{{ '/data.html' | relative_url }}">Data</a>
                 </li>
-                <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
-                </li>
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                     <a href="{{ '/events.html' | relative_url }}">Events</a>
+                </li>
+                <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
+                    <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
                 </li>
             </ul>
         </nav>
@@ -90,11 +90,11 @@
                 <li class="nav-group-start{% if page.nav_active == 'data' %} uk-active{% endif %}">
                     <a href="{{ '/data.html' | relative_url }}">Data</a>
                 </li>
-                <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
-                <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
-                </li>
                 <li{% if page.nav_active == "events" %} class="uk-active"{% endif %}>
                 <a href="{{ '/events.html' | relative_url }}">Events</a>
+                </li>
+                <li{% if page.nav_active == "facilities" %} class="uk-active"{% endif %}>
+                <a href="{{ '/facilities.html' | relative_url }}">Facilities</a>
                 </li>
             </ul>
         </div>
