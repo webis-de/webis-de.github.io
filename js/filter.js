@@ -7,12 +7,16 @@ function containQuery(attributes, queryWords) {
         if (attributeSpecificatorPos >= 0) {
             const attribute = queryWord.substr(0, attributeSpecificatorPos);
             queryWord = queryWord.substr(attributeSpecificatorPos + 1);
-            if (attributes.hasOwnProperty(attribute) && attributes[attribute].indexOf(queryWord) >= 0) {
-                found = true;
+            if (attributes.hasOwnProperty(attribute)) {
+                const attributeValue = attributes[attribute].replace(/[^\x20-\x7E]/g, ''); // removes invisible characters
+                if (attributeValue.indexOf(queryWord) >= 0) {
+                    found = true;
+                }
             }
         } else {
           for (let a in attributes) {
-              if (attributes[a].indexOf(queryWord) >= 0) {
+              const attributeValue = attributes[a].replace(/[^\x20-\x7E]/g, ''); // removes invisible characters
+              if (attributeValue.indexOf(queryWord) >= 0) {
                   found = true;
                   break;
               }
