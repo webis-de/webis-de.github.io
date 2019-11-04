@@ -16,6 +16,12 @@ description: Webis research projects
 </ul>
 </div>
 
+<div class="uk-container uk-margin-medium">
+<div id="search-control">
+<input type="text" class="uk-input" id="filter-field" placeholder="Type here to filter&hellip;"/>
+</div>
+</div>
+
 <!-- list container start -->
 <div class="uk-container uk-margin-medium">
 
@@ -95,10 +101,14 @@ Develop state-of-the-art systems in various Shared Tasks in the area of text reu
 </div>
 -->
 
+</div>
+
+
 
 <!--
      SECTION Information Retrieval and Search
 -->
+<div class="webis-list">
 <h2><a id="information-retrieval-and-search"></a>Information Retrieval and Search</h2>
 
 <span id="acqua"></span>
@@ -216,7 +226,10 @@ Meta search engine for Web document categorization and graphical access.<br>
 [<a href="https://www.youtube.com/watch?v=i5PwDBs369g">video</a>]
 </div>
 </div>
+
 </div>
+
+
 
 <!--
 SECTION Natural Language Processing and Computational Linguistics
@@ -308,7 +321,10 @@ Resolution of named entities in Web pages.
 Extraction and summarization of market forecast statements for a user-specified market.
 </div>
 </div>
+
 </div>
+
+
 
 <!--
 SECTION Data Mining and Machine Learning
@@ -387,7 +403,10 @@ On the fly genre analysis for Web pages.<br>
 [<a href="https://www.youtube.com/watch?v=DR0Fxmfi8RI">video</a>]
 </div>
 </div>
+
 </div>
+
+
 
 <!--
 SECTION Software Engineering and Tool Development
@@ -438,5 +457,13 @@ Java library for information retrieval and data mining.
 </div>
 </div>
 
-</div> <!-- list container end -->
+</div>
+
+<div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+None of our presented research projects match your filter.
+</div>
+</div>
 </main>
+
+<script src="/js/filter.js"></script>
+<script src="/js/filter-list.js"></script>
