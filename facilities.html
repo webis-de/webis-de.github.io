@@ -20,6 +20,12 @@ description: Overview of the Webis facilities
 </div>
 
 <div class="uk-container uk-margin-medium">
+<div id="search-control">
+<input type="text" class="uk-input" id="filter-field" placeholder="Type here to filter&hellip;"/>
+</div>
+</div>
+
+<div class="uk-container uk-margin-medium">
 <!--
 SECTION Lab Space
 -->
@@ -75,6 +81,7 @@ HK7 <a href="facilities/img/weimar-webis-lab-3.png">R013, R014, R106</a><span cl
 20 workstations
 </div>
 </div>
+
 </div>
 
 
@@ -151,7 +158,9 @@ B11 RK15<br>
 Specification: 7 servers, up to 12 cores at 2.4 GHz, 128 GB RAM, 21.6 TB HDD
 </div>
 </div>
+
 </div>
+
 
 
 <!--
@@ -222,7 +231,9 @@ Notes on web service setup / configuration.<br>
 [<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/blob/master/services/demo/README.md">demos</a>]
 </div>
 </div>
+
 </div>
+
 
 
 <!--
@@ -293,7 +304,10 @@ Configure our mailing lists.<br>
 Dashboard showing runtime data.
 </div>
 </div>
+
 </div>
+
+
 
 <!--
 SECTION Documentation
@@ -357,7 +371,10 @@ Notes on Webis VPN setup.<br>
 [<a href="https://git.webis.de/code-generic/code-admin-knowledgebase/tree/master/services/openvpn">notes</a>]
 </div>
 </div>
+
 </div>
+
+
 
 <!--
 SECTION Website Maintenance
@@ -382,6 +399,12 @@ Uploads lecturenotes to GitHub.
 The source code of this website, hosted on GitHub through GitHub Pages.
 </div>
 </div>
+
+</div>
+
+
+<div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+None of our listed facilities match your filter.
 </div>
 
 <p class="uk-text-small uk-text-muted" id="footnote-accessible-within-university">
@@ -389,3 +412,6 @@ The source code of this website, hosted on GitHub through GitHub Pages.
 
 </div> <!-- container -->
 </main>
+
+<script src="/js/filter.js"></script>
+<script src="/js/filter-list.js"></script>
