@@ -8,14 +8,14 @@ function containQuery(attributes, queryWords) {
             const attribute = queryWord.substr(0, attributeSpecificatorPos);
             queryWord = queryWord.substr(attributeSpecificatorPos + 1);
             if (attributes.hasOwnProperty(attribute)) {
-                const attributeValue = attributes[attribute].replace(/[^\x20-\x7E]/g, ''); // removes invisible characters
+                const attributeValue = attributes[attribute];
                 if (attributeValue.indexOf(queryWord) >= 0) {
                     found = true;
                 }
             }
         } else {
           for (let a in attributes) {
-              const attributeValue = attributes[a].replace(/[^\x20-\x7E]/g, ''); // removes invisible characters
+              const attributeValue = attributes[a];
               if (attributeValue.indexOf(queryWord) >= 0) {
                   found = true;
                   break;
@@ -43,7 +43,7 @@ function filterByQuery(query, groupSelector, elementSelector, attributeExtractor
         }
         filteredAll = false;
     } else {
-        const queryWords = query.toLowerCase().replace(/[^a-z0-9-:+]/g, " ").split(/\s+/);
+        const queryWords = query.toLowerCase().replace(/[^a-zäöüß0-9-:+]/g, " ").split(/\s+/);
         for (let g = 0; g < groups.length; ++g) {
             const group = groups[g];
             let filteredAllOfGroup = true;
