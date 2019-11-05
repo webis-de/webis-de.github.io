@@ -55,7 +55,7 @@ definitions, but should at least (but doesn't have to) include the following:
     title: The page title
     description: A meta description
     ---
-
+ 
 The only thing special is `nav_active`, which determines which entry in the navigation should
 be highlighted as active. The placeholder `id` can be any of `index`, `people`,
 `lecturenotes`, `forstudents`, `research`, `publications`, `data`, `facilities`, or `events`.
