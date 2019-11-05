@@ -99,10 +99,10 @@ includeBibentries = (parentElement, query = "", source = "https://webis.de/publi
 
     /* add style sheet if not added already */
     if (document.querySelector('link[href="https://webis.de/css/style.css"]') == null) {
-      var linkElement = document.createElement('link');
-      linkElement.setAttribute('rel', 'stylesheet');
-      linkElement.setAttribute('href', 'https://webis.de/css/style.css');
-      document.getElementsByTagName('head')[0].appendChild(linkElement);
+        var linkElement = document.createElement('link');
+        linkElement.setAttribute('rel', 'stylesheet');
+        linkElement.setAttribute('href', 'https://webis.de/css/style.css');
+        document.getElementsByTagName('head')[0].appendChild(linkElement);
     }
 
     const request = new XMLHttpRequest();
