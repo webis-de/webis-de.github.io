@@ -1,5 +1,5 @@
 initFiltering(".webis-list", ".entry", entry => {
-  return {
-    text: entry.textContent.toLowerCase()
-  };
+    const attributes = entry.dataset;
+    attributes['text'] = entry.textContent.toLowerCase();
+    return attributes;
 });

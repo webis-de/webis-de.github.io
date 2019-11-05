@@ -1,5 +1,5 @@
 initFiltering(".webis-paragraphs", "p", paragraph => {
-  return {
-    text: paragraph.textContent.toLowerCase()
-  };
+    const attributes = paragraph.dataset;
+    attributes['text'] = paragraph.textContent.toLowerCase();
+    return attributes;
 });
