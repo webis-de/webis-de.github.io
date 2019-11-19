@@ -13,13 +13,13 @@ description: Wikipedia Text Reuse Corpus
     "description":"A cropus of text reuse cases extracted from within Wikipedia and in between Wikipedia and a sample of Common Crawl",
     "text":"The datasets were extracted in the work by Alshomary et al. 2018 that aimed to study the text reuse phenomena related to Wikipedia at scale. A pipeline for large scale text reuse extraction was developed and used on Wikipedia and the CommonCrawl.",
     "url":"https://webis.de/data/webis-wikipedia-textreuse-18.html",
-    "sameAs":"https://doi.org/10.5281/zenodo.3372485",
+    "sameAs":"https://doi.org/10.5281/zenodo.3546193",
     "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords":[
        "Wikipedia",
        "Common Crawl",
        "Text Reuse"
-    ], 
+    ],
     "datePublished":"2018",
     "creator":[
         {
@@ -29,43 +29,43 @@ description: Wikipedia Text Reuse Corpus
             "alternateName":"Webis"
         },
         {
-            "@type":"Person", 
+            "@type":"Person",
             "url":"https://www.uni-paderborn.de/person/73059/",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
             "name":"Alshomary, Milad"
         },
         {
-            "@id":"0000-0002-9283-6846", 
-            "@type":"Person", 
+            "@id":"0000-0002-9283-6846",
+            "@type":"Person",
             "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/voelske/",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
             "name":"V&ouml;lske, Michael"
         },
         {
-            "@type":"Person", 
+            "@type":"Person",
             "url":"https://www.uni-paderborn.de/person/3900/",
-            "affiliation":"Universit\u00e4t Paderborn", 
+            "affiliation":"Universit\u00e4t Paderborn",
             "name":"Wachsmuth, Henning"
         },
         {
-            "@id":"0000-0001-9033-2217", 
-            "@type":"Person", 
+            "@id":"0000-0001-9033-2217",
+            "@type":"Person",
             "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/stein/",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
             "name":"Stein, Benno"
         },
         {
-            "@id":"0000-0002-9733-2890", 
-            "@type":"Person", 
+            "@id":"0000-0002-9733-2890",
+            "@type":"Person",
             "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/hagen/",
-            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg",
             "name":"Hagen, Matthias"
         },
         {
-            "@id":"0000-0003-2451-0665", 
-            "@type":"Person", 
+            "@id":"0000-0003-2451-0665",
+            "@type":"Person",
             "url":"https://temir.org/people.html#potthast",
-            "affiliation":"Universit\u00e4t Leipzig", 
+            "affiliation":"Universit\u00e4t Leipzig",
             "name":"Potthast, Martin"
         }
     ],
@@ -104,29 +104,29 @@ description: Wikipedia Text Reuse Corpus
         SECTION Download
         -->
         <h2 id="webis-download">Download</h2>
-          <p>You can access the "Within Wikipedia Text Reuse" corpus on <a href="https://doi.org/10.5281/zenodo.3372485">Zenodo</a>.</p>
+          <p>You can access the "Within Wikipedia Text Reuse" corpus on <a href="https://doi.org/10.5281/zenodo.3546193">Zenodo</a>.</p>
             <ul>
                 <li>
-                wikipedia.tar.gz (3.6 GB) 
+                wikipedia.jsonl.bz2 (3.0 GB)
                 <p> - Each line, representing a Wikipedia article, contains a json array of article_id, article_title, and article_body  </p>
                 </li>
                 <li>
-                within-wikipedia-tr-01.gz (4.4 GB)
+                within-wikipedia-tr-01.jsonl.bz2 (3.0 GB)
                 <p> - Each line, representing a text reuse case, contains a json array of s_id (source article id), t_id (target article id), s_text (source text), t_text (target text) </p>
                 </li>
                 <li>
-                within-wikipedia-tr-02.gz (3.7 GB) 
+                within-wikipedia-tr-02.jsonl.bz2 (2.5 GB)
                 <p> - Each line, representing a text reuse case, contains a json array of s_id (source article id), t_id (target article id), s_text (source text), t_text (target text) </p>
                 </li>
             </ul>
-            <p>You can access the "Commoncrawl & Wikipedia Text Reuse" corpus on <a href="https://doi.org/10.5281/zenodo.3372485">Zenodo</a>.</p>
+            <p>You can access the "Commoncrawl & Wikipedia Text Reuse" corpus on <a href="https://doi.org/10.5281/zenodo.3546193">Zenodo</a>.</p>
             <ul>
                 <li>
-                preprocessed_web_sample.tar.gz <a href="">(download)</a> 
-                <p> - Each line, representing a web page, contains a json array of page_id, page_url, and content  </p>
+                preprocessed_web_sample.jsonl.xz (34.9 GB)
+                <p> - Each line, representing a web page, contains a json object of page_id, page_url, and content  </p>
                 </li>
                 <li>
-                without-wikipedia-tr.zip  <a href="">(download)</a>
+                without-wikipedia-tr.jsonl.bz2 (190.5 MB)
                 <p> - Each line, representing a text reuse case, contains a json array of s_id (Wikipedia page id), t_id (The web page id), s_text (source text), t_text (target text) </p>
                 </li>
             </ul>
@@ -145,7 +145,7 @@ description: Wikipedia Text Reuse Corpus
         <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
         </ul>
 
-       
+
         <h2 id="publications">Publications</h2>
         <div id="publications-list">
         </div>
