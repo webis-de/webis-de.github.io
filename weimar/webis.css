@@ -1,0 +1,156 @@
+/* DATE. December 3rd, 2019 */
+
+/* Adapting the standard buw Typo3 styles for webis. */
+
+
+/*
+ * ### Workarounds and Bug Fixes ###
+ */
+
+/* undo scroll fix */
+html {
+  overflow-y: initial !important;
+}
+body {
+  overflow: initial !important;
+}
+
+/* adjust font size from webis.de */
+html {
+  font-size: 16px !important;
+  background: inherit !important;
+}
+#content_main h1, #content_main h2,
+#content_bottom h1, #content_bottom h2 {
+  font-family: "Verdana",sans-serif !important;
+  color: rgb(72, 72, 72) !important;
+}
+#content_main h1,
+#content_bottom h1 {
+  font-size: 23px !important;
+  font-weight: bold !important;
+}
+#content_main h2, #content_bottom h2, h2.year {
+  font-size: 18px !important;
+}
+
+/*
+ * ### generic ###
+ */
+
+/* render standard links below HTML import */
+#content_main a,
+#content_bottom a {
+  color: rgb(6, 69, 173) !important; /* Wikipedia link color */
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+#content_main a:hover,
+#content_bottom a:hover {
+  border-bottom: none !important;
+  text-decoration: underline !important;
+}
+
+/* uniform table of contents */
+.csc-menu .csc-section, .uk-list li {
+  list-style-image: url("https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/icons/nav_down_8_darkgray.png");
+  line-height: 200%;
+}
+.layout-topheader .csc-menu, .uk-list {
+  margin-bottom: 2em;
+}
+
+/* increase distance of <h2> headings wrt. preceding content */
+div[class*='webis-'] h2,
+h2[id*='webis-'] {
+  padding-top: 1.5em !important;
+}
+
+/*
+ * ### webis-list ###
+ */
+
+/* rules aplied on both, people and funded projects page*/
+.webis-list .entry {
+  border-top: 1px solid #bfbfbf;
+  padding: 15px;
+}
+.webis-list .entry:target {
+  background-color: #d9e7f7 !important;
+}
+.webis-list .description {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* rules applied on funded projects page*/
+.webis-list .image-wide {
+  width: 100px;
+  padding-left: 7px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.webis-list .image-wide img {
+  width: 80px;
+  vertical-align: middle;
+}
+.webis-list .date {
+  color: #666;
+  padding-left: 12px;
+}
+/* rules applied on people page*/
+.webis-list .people-image {
+  width: 115px;
+  padding-left: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+.webis-list .people-image img {
+  width: 83px;
+  vertical-align: middle;
+}
+.webis-list .phone-ext {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAQAAABKmM6bAAAAAmJLR0QA75o43NsAAAAJcEhZcwAAAEgAAABIAEbJaz4AAAC0SURBVAjXY2Rg2MEgK8o496XvQ4ZfDEIMwtMY7zDc4mWc/Cv+PcNvhn8Mrxk4GFhYxBm73sW+Z2Bl+MXwgoGNQfEG0333L3EvGVl/qvQJb+L7ZXzMMITlQ+Njht8M4lOcyvYJssipvPr3lOWxwicGRoaXqqvEOZ7/fPuNwYiB5SPDb4YvDD/9jB6aFDH+YWBgYGBSYfjO8J9B7PjH6Qx/GBgYGBgYmPSnSTFwXRNK/nudAQoA5Lg70dfrWfYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTMtMDYtMjBUMTE6Mjg6NTIrMDI6MDB0tX9bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEzLTA2LTIwVDExOjI4OjUyKzAyOjAwBejH5wAAAABJRU5ErkJggg==) no-repeat 0 50%;
+  margin-left: 1em;
+  padding-left: 11px;
+}
+.webis-list .information {
+  margin-top: 0.6em;
+  margin-bottom: 0;
+  padding:0;
+}
+
+
+/*
+ * ### home ###
+ */
+
+#webis-highlights h2 {
+  margin-bottom: 2ex;
+}
+
+#webis-highlights-list {
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-bottom: 3em;
+}
+
+#webis-highlights-list li {
+  margin-bottom: 15px;
+  list-style-type: square;
+}
+
+
+#webis-highlights .tool {
+  margin-bottom: 20px;
+}
+#webis-highlights .tool-image img {
+  margin-right: 12px;
+  width: 30px;
+}
+#webis-highlights .tool-image, #webis-highlights .tool-description {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
