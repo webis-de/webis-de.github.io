@@ -27441,7 +27441,7 @@
             "unit-en-rm-generative",
             "unit-en-information-needs",
             "unit-en-laboratory-experiments",
-            "unit-en-ir-performance-measures",
+            "unit-en-ir-effectiveness-measures",
             "unit-en-training-and-testing",
             "unit-en-crawling"
         ],
@@ -29237,193 +29237,193 @@
             ]
         },
         "unit-en-retrieval-models": {
-            "sha": "6b5f752cbde7a442b6a3aed1e6c68af1de2ffaed",
-            "numpages": 10,
+            "sha": "084ebc939a6fce28c95c11e6bd1ec462a0d4f36a",
+            "numpages": 11,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "d3ff001323904b302368caff4bc47b8d921c5a53",
+                    "sha": "fe7b6891f1a7911c8a93d3e05d0c76837219f86c",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "f19551f64678eb433007ac38a5359e86575038c7",
+                    "sha": "054915f537f367bd37c13471f8b2033399d6bb30",
                     "description": "Overview of Retrieval Models Document Views"
                 },
                 {
                     "page": 3,
-                    "sha": "cde6a3fce1b98a018ab992678b98ece089d22b94",
+                    "sha": "7e49055b217b28cb642092f21a4fae72c9c5b26b",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 4,
-                    "sha": "39e7f6c766103c05edc27cc7399abc38138ec451",
+                    "sha": "80d1a531fe726084dd74930f0cbd92d82799f7cb",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 5,
-                    "sha": "6e51ecb1aaebf5c864ceb515ec4417570718f4a7",
+                    "sha": "5660564be382435612e591aa317b2e5418a5d780",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 6,
-                    "sha": "2a31632e8c5e701690cd80e90859e08234efed85",
+                    "sha": "a5ec54b64982c7e81b2508a36f80eb3157460bf9",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 7,
-                    "sha": "9689238312e860d457851c2e0db1bec3d0f0da2a",
+                    "sha": "89057128a7f269f91df09e59fe809dcd373334b6",
                     "description": "Overview of Retrieval Models Definition 1 (Retrieval Model, Relevance Function)"
                 },
                 {
                     "page": 8,
-                    "sha": "cf8505ba349b9933d36bedb5e4218a16fe6e14ce",
+                    "sha": "f3036b8d90d31481a672540a6ee7c66e94e71df6",
                     "description": "Overview of Retrieval Models Definition 1 (Retrieval Model, Relevance Function)"
                 },
                 {
                     "page": 9,
-                    "sha": "eef24b5276c49352d8282eb9cea15ccb2633c0f4",
+                    "sha": "17f7db5892bd1bc085453f5fbf832c13adc8e741",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "4443a106b82ead505623e8646a9ccf0116a44f9f",
+                    "sha": "28abccab753d2e55b7b2297e446f9f34c1eb34f3",
                     "description": "Overview of Retrieval Models History of Retrieval Models"
+                },
+                {
+                    "page": 11,
+                    "sha": "eca4f17f66cfbbab068eda43bdeccb99d34d05ed",
+                    "description": "Overview of Retrieval Models Document Modeling"
                 }
             ]
         },
         "unit-en-rm-empirical": {
-            "sha": "4d6ad80ab073915e5ea1582848c0673c5894bf9d",
-            "numpages": 26,
+            "sha": "e73460b10fcb15064f717cd74bc1612bc149a8be",
+            "numpages": 25,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "5318dc1ca9fb8006db75b12e585b3b7129888501",
+                    "sha": "fa05aa8e169591cac962a2b61ef6623a34615203",
                     "description": "Chapter IR:V V. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "98e9a7b5096fef1004d04675af585779ef8ec974",
+                    "sha": "f51dfc94d2e9ab14edd732f55f374b578b785f8d",
                     "description": "Empirical Models "
                 },
                 {
                     "page": 3,
-                    "sha": "97b69a95477d4a3de5985dc4a4f87a9b758a4fe7",
+                    "sha": "ecac09261ba1dc5964cd10bd57ffc9e68e48a829",
                     "description": "Boolean Retrieval Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 4,
-                    "sha": "86ebd87f125422cc51c2c30ecb87d1480f279ec5",
+                    "sha": "d9b363a4ac0f8c85eaac132eca6727dad5e3f151",
                     "description": "Boolean Retrieval Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 5,
-                    "sha": "9ff87a3977ea2aa4c95244a0dc7ba3a9aab3d673",
+                    "sha": "f26a2800fc0d43c20e4c44f1edee707d8ab96935",
                     "description": "Boolean Retrieval Relevance Function \u03c1"
                 },
                 {
                     "page": 6,
-                    "sha": "15b13b6cb607d74a6de55b42fa10b87ffb2125cb",
+                    "sha": "5f6e81a59f2c80282f42cc1d15456e250a24ec3b",
                     "description": "Boolean Retrieval Relevance Function \u03c1"
                 },
                 {
                     "page": 7,
-                    "sha": "2711299520e2657fc82311e78dffdd45bd465d5d",
+                    "sha": "7823ec49055dba457e782653399862ba0be96a2f",
                     "description": "Boolean Retrieval Example"
                 },
                 {
                     "page": 8,
-                    "sha": "ff17a290c447faa269368cb641a1492f91ceb39b",
+                    "sha": "98ea08046956c6565f3cd1fe6959ada9a712c3ab",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "ff33c764ef2b29202d928caf585033fcffda6c3b",
+                    "sha": "08794b3d50e2e315b78274adc4d1db796076f156",
                     "description": "Boolean Retrieval Query Refinement: \u201cSearching by Numbers\u201d"
                 },
                 {
                     "page": 10,
-                    "sha": "ec499840a2343d9d6dca80c633095fe90cdc8765",
+                    "sha": "8fb2398042112ced2e491c77d114052dceabd5a5",
                     "description": "Boolean Retrieval Query Refinement: \u201cSearching by Numbers\u201d"
                 },
                 {
                     "page": 11,
-                    "sha": "e079c7b00953059024cacb1f23b9b179f7d944f2",
+                    "sha": "d13972ce471830b56b49653306b94f075e60a85c",
                     "description": "Boolean Retrieval Discussion"
                 },
                 {
                     "page": 12,
-                    "sha": "4ed745b1cadb20ee7bd53533901741a1723210ce",
+                    "sha": "2fa2e776d133dbf2b7253ff001d2bb7f72ff4795",
                     "description": "Vector Space Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 13,
-                    "sha": "12539f68fe024acf957b76fcee44860f77e44254",
+                    "sha": "7a44267f96cf2c594d11d1ee7e73f099519e8535",
                     "description": "Vector Space Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 14,
-                    "sha": "920bab50d0dba6cc51912a72e707964571ad4b41",
+                    "sha": "8c4fd819ea83c78c31bbbe1b68e9b06030dac979",
                     "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
                 },
                 {
                     "page": 15,
-                    "sha": "dabf35f1e8466ff262582890bd8bd887bef34fe9",
+                    "sha": "cfb6ff56291b2fc129474d13cbbec1a801a8cb47",
                     "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
                 },
                 {
                     "page": 16,
-                    "sha": "2ae8db68b8b699a945ce84ac0b9c28cef7dddb82",
-                    "description": "Relevance Function \u03c1: Cosine Similarity chrysler"
-                },
-                {
-                    "page": 17,
-                    "sha": "d342bd938d655091c8ec2c8c8f6f742b0eae935b",
+                    "sha": "0ef63539b1a1c119379404f1a2acb5a092557b59",
                     "description": "Vector Space Model Example"
                 },
                 {
+                    "page": 17,
+                    "sha": "17c6ca73bae7cd0f29f95076d9dae7fb312af7d3",
+                    "description": "Vector Space Model Term Weighting: tf \u00b7idf"
+                },
+                {
                     "page": 18,
-                    "sha": "3fd41f3f089abdb73f5d6694fb1ba5d8d865de25",
+                    "sha": "ca3e9a39c14ecdd760ca688cd933ab2b5a1aaf03",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 19,
-                    "sha": "3d9eb240226bb47552db4d6e09b98bd4f8b7b441",
+                    "sha": "ad92d0067684f453a59e309655e87ff9b7297087",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 20,
-                    "sha": "199be740449091cf9164048a35d11957b89e383b",
+                    "sha": "ea45f14cf94524f3ce355252e4c47c72fe44406b",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 21,
-                    "sha": "c131bfb0f2432d73361dc2d8877c88baed597e76",
+                    "sha": "8cb814eb57dd60aa14d1facbb0c765e2fe4df9cf",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 22,
-                    "sha": "44cf0daef5065c8f581ea7b465d0bf00b9662d7a",
-                    "description": "Vector Space Model Term Weighting: tf \u00b7idf"
-                },
-                {
-                    "page": 23,
-                    "sha": "fabe9b5deefb2364c4e8cf6ccd8b547cb1102420",
+                    "sha": "4c821790542410544b401e49ab80c6dc6374e1f2",
                     "description": "Remarks:"
                 },
                 {
+                    "page": 23,
+                    "sha": "6b27afa597425d6fdae6b3e74b117099bae98c5e",
+                    "description": "Vector Space Model Query Refinement: Relevance Feedback"
+                },
+                {
                     "page": 24,
-                    "sha": "549d1edb58a16aa7a1083463d9fce3c908c16118",
+                    "sha": "201baa1f8c07296672ecad75b0cbbe58124e146d",
                     "description": "Vector Space Model Query Refinement: Relevance Feedback"
                 },
                 {
                     "page": 25,
-                    "sha": "5baed8f1bb42beddb2dee9f3185c331b2626a969",
-                    "description": "Vector Space Model Query Refinement: Relevance Feedback"
-                },
-                {
-                    "page": 26,
-                    "sha": "a01b5694137125b66cc7fb999950a995a63a4547",
+                    "sha": "47e20311a531b644b1d71d5d7e1ecdb8f8bea267",
                     "description": "Vector Space Model Discussion"
                 }
             ]
@@ -31893,6 +31893,262 @@
                     "page": 21,
                     "sha": "fc995820b524dbefc335a2b7320638d995b99f30",
                     "description": "Storing Documents Other ideas to find content blocks"
+                }
+            ]
+        },
+        "unit-en-ir-effectiveness-measures": {
+            "sha": "3ec245f2b300f8cb87984c4e116387ccfd17d156",
+            "numpages": 50,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "598d7da1ed07392648c9783e056d4bd8bd1f88bf",
+                    "description": "Chapter IR:VIII VIII. Evaluation"
+                },
+                {
+                    "page": 2,
+                    "sha": "bc913d210b45285d2e646231f68c470a2b86982d",
+                    "description": "Performance Measures Effectiveness and Efficiency"
+                },
+                {
+                    "page": 3,
+                    "sha": "daef241142042e164478bd018cb9fc341b8d49bb",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 4,
+                    "sha": "cb1dd23b16806b603d612a0efad1bae1144b79e2",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 5,
+                    "sha": "b6e798c03eae4d81d19e71514492faf500f5bc66",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 6,
+                    "sha": "43c55b8da0a93d04483bb9ff0de30551c7500f0a",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 7,
+                    "sha": "f21bd2ed17f70ae75d4a92e0932f43d1438df369",
+                    "description": "Performance Measures Effectiveness Measures"
+                },
+                {
+                    "page": 8,
+                    "sha": "006ac9dcf1141486d883eaeee4e67b94bf5bf623",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                },
+                {
+                    "page": 9,
+                    "sha": "fb9144635781332f261646f8d9e1368007bcf312",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                },
+                {
+                    "page": 10,
+                    "sha": "5a30f7e6c1a625965871cf48a46fd2e65c012886",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                },
+                {
+                    "page": 11,
+                    "sha": "261b111411be6608bd4094afab16608754c22e0f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 12,
+                    "sha": "c8f9bcb458b148994ec9959ad57b1fdd35bc0822",
+                    "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
+                },
+                {
+                    "page": 13,
+                    "sha": "2a8d614489f40a85d20121a408f0184c04a23c8c",
+                    "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
+                },
+                {
+                    "page": 14,
+                    "sha": "8a7fd7f70382398be08c2d64b8712bc42df334eb",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 15,
+                    "sha": "1840026fb1ba8fb96630f60ded0d22bb7796e422",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                },
+                {
+                    "page": 16,
+                    "sha": "938e77bd559fc58690b64ce5de844db5d48e541e",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                },
+                {
+                    "page": 17,
+                    "sha": "0b9bb81a635449144c0f810930ad5d5ceca073c2",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                },
+                {
+                    "page": 18,
+                    "sha": "66027d0631c9416f60c518cea71d8f0fb6a97a72",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall Averaging"
+                },
+                {
+                    "page": 19,
+                    "sha": "3bfd5ac58bef6ebb395c3b831e2fe32edab95b24",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall Averaging"
+                },
+                {
+                    "page": 20,
+                    "sha": "3dc458e259fa35b338dc841a36221e1ac4ed80e3",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall Averaging"
+                },
+                {
+                    "page": 21,
+                    "sha": "dd271105704851a01b87ac3185f0a42fa8bc221b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 22,
+                    "sha": "5c74e397c43c6c566e1aa444788e6a145328d982",
+                    "description": "Performance Measures Set Retrieval Effectiveness: Recall Estimation"
+                },
+                {
+                    "page": 23,
+                    "sha": "2baa3fd140be360f6b2ab6add6a91a2a0a14087e",
+                    "description": "Performance Measures Ranking Effectiveness"
+                },
+                {
+                    "page": 24,
+                    "sha": "0bd32495694d7755eb4d9c363d1efd3bebbe9516",
+                    "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
+                },
+                {
+                    "page": 25,
+                    "sha": "7d1ef9eb100553be130d048adf4371b7aca58e76",
+                    "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
+                },
+                {
+                    "page": 26,
+                    "sha": "54d3ee4be1537224f0cb33c0ee71aa8ce994ce41",
+                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                },
+                {
+                    "page": 27,
+                    "sha": "afb49a382d79638b34e29d5f858cccb98206d0b1",
+                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                },
+                {
+                    "page": 28,
+                    "sha": "90ee4b0e2aee4c9ebbd5e3649db9cc5f2b57c53a",
+                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                },
+                {
+                    "page": 29,
+                    "sha": "2bb5b75c9e5935df7e455ec3fbdc86b90ce08957",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 30,
+                    "sha": "608c18565c21d3ca1689f261cffc0884adb72d5d",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 31,
+                    "sha": "6970109d9b416a07759640b3354d049bf943ffbd",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 32,
+                    "sha": "c7ae6c73e7f3e93bd4abd45e518a792cc5014eb4",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 33,
+                    "sha": "f4ff6c09b717e30e368cfe6b9aca7fbe2c941e3e",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 1)"
+                },
+                {
+                    "page": 34,
+                    "sha": "f01521e4eabb9f90275f182d8d37d674a564f62f",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 2)"
+                },
+                {
+                    "page": 35,
+                    "sha": "7d6640b1aa8dd3ef3f66b529716979a3f4016473",
+                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                },
+                {
+                    "page": 36,
+                    "sha": "d6c584d5c919cabfb60031bf7a0b71ffcea9ca4c",
+                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                },
+                {
+                    "page": 37,
+                    "sha": "e795bcb7f5b5b19934fae1ae9a436e9c37c090fa",
+                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                },
+                {
+                    "page": 38,
+                    "sha": "59298f795cbcc55ee96422a45fba2253e3177370",
+                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                },
+                {
+                    "page": 39,
+                    "sha": "8ca6e93e57d5d63631445d78bcd83731d1208e3d",
+                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                },
+                {
+                    "page": 40,
+                    "sha": "40017091f7c575cd3daa97622db7874eb28c84db",
+                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                },
+                {
+                    "page": 41,
+                    "sha": "96594d14b2603ab5eb0574ba23ac380884605f7f",
+                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                },
+                {
+                    "page": 42,
+                    "sha": "f782f91563ac567a8bb67a901e68c9fce4287779",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 43,
+                    "sha": "43b52b090bbfad1110a48a52abf3cc2cf41802d9",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 44,
+                    "sha": "d36b619bb6982655eac8761b338f858cce7e1f14",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 45,
+                    "sha": "0b335a70b3db63fed96e1b7ed4f9e6f221ca8531",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                },
+                {
+                    "page": 46,
+                    "sha": "f49fedcd32e15a69fca489647e32c6f3f6d61b2d",
+                    "description": "Performance Measures Ranking Effectiveness: Mean Reciprocal Rank (MRR)"
+                },
+                {
+                    "page": 47,
+                    "sha": "4d175fecd814ff49494286ff1b17caba31196e7c",
+                    "description": "Remarks: [Fuhr 2017]"
+                },
+                {
+                    "page": 48,
+                    "sha": "8ff03de9f9c2b3de4c3dfb6eb27bf67cd7f3d5f5",
+                    "description": "Performance Measures Ranking Effectiveness: Discounted Cumulative Gain (DCG)"
+                },
+                {
+                    "page": 49,
+                    "sha": "f5c8a4d2ce65f893cb6bb9f451e62cde436999e1",
+                    "description": "Performance Measures Ranking Effectiveness: Normalized Discounted Cumulative Gain (NDCG)"
+                },
+                {
+                    "page": 50,
+                    "sha": "49d3f8bdebd5552bf5054388a2ba47f8514636a5",
+                    "description": "Remarks:"
                 }
             ]
         }
