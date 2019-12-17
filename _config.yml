@@ -10,8 +10,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Webis
-baseurl: ""
-url: "https://webis.de"
 
 # Build settings
 markdown: kramdown

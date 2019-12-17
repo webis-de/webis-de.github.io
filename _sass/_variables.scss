@@ -1,3 +1,20 @@
-// Webis theme variable overrides
+// UIkit variable redefinitions
+// Must be consistent with the original values from _sass/uikit/variables-theme.scss in webis-de-commons
 
-$navbar-breakpoint: 1010px;
+$breakpoint-small: 640px !default;
+$breakpoint-medium: 960px !default;
+$breakpoint-large: 1200px !default;
+$breakpoint-xlarge: 1600px !default;
+
+$global-emphasis-color: #333 !default;
+$text-lead-color: $global-emphasis-color !default;
+$global-muted-color: #999 !default;
+$text-muted-color: $global-muted-color !default;
+
+$global-small-font-size: 0.875rem !default;
+
+
+// Webis Commons variable redefinitions
+// Must be consistent with the original values from _sass/_variables.scss in webis-de-commons
+
+$global-secondary-background: #323232 !default;

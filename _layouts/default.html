@@ -6,7 +6,7 @@
     <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="copyright" content="&copy; {{site.time | date: '%Y'}} Webis">
-    <link rel="icon" type="image/png" href="{{ '/img/favicon.png' | relative_url }}">
+    <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
 
     <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}?{{site.time | date: '%s'}}">
     {%- for css in page.additional_css %}
@@ -14,8 +14,9 @@
     {%- endfor %}
 </head>
 <body class="uk-offcanvas-content">
-<script src="{{ '/commons/js/thirdparty/uikit/uikit.min.js' | relative_url }}"></script>
-<script src="{{ '/commons/js/thirdparty/uikit/uikit-icons.min.js' | relative_url }}"></script>
+<script src="https://assets.webis.de/js/hyphenate/hyphenate.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit-icons.min.js"></script>
 
 <div id="offcanvas-nav" class="mobile-nav" data-uk-offcanvas="overlay: true; flip: true;">
     <div class="uk-offcanvas-bar">
@@ -58,7 +59,7 @@
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li{% if page.nav_active == "index" %} class="uk-active"{% endif %}>
-                    <a href="{{ '/' | relative_url }}"><img src="{{ '/img/webis-logo.png' | relative_url }}" alt="Webis Logo" class="uk-logo"> Webis.de</a>
+                    <a href="{{ '/' | relative_url }}"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
                 </li>
             </ul>
         </div>
@@ -204,8 +205,8 @@
 
         <div class="uk-align-right@m uk-margin-top">
             &copy; {{site.time | date: '%Y'}} <a href="/">Webis group</a> <span class="uk-padding-small">&bullet;</span>
-            <a href="/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
-            <a href="/legal.html">Impressum / Terms / Privacy</a>
+            <a href="{{ '/people.html' | relative_url }}">Contact</a> <span class="uk-padding-small">&bullet;</span>
+            <a href="{{ '/legal.html' | relative_url }}">Impressum / Terms / Privacy</a>
         </div>
     </div>
 </footer>

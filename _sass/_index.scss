@@ -12,7 +12,11 @@
 }
 
 .cover-background-fade {
-    @extend .uk-position-cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.85) 85%);
 }
 
@@ -33,18 +37,3 @@
         height: 50vh;
     }
 }
-
-//.name {
-//    font-weight: lighter;
-//}
-//
-//.people {
-//    .uk-card-body {
-//        padding: 7px;
-//        text-align: center;
-//    }
-//}
-//
-//.people-university {
-//    text-transform: $nav-header-text-transform;
-//}
