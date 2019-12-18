@@ -77,22 +77,12 @@ next time UIkit is updated. Instead, if you want to modify the value of a layout
 variable, look for its name in `_sass/uikit/components` and redefine it in
 `_sass/_variables.scss`.
 
-## Update Dependencies
-This repository depends on [webis-de-commons](https://github.com/webis-de/webis-de-commons),
+## Hotlink Assets
+Most styles and web assets are hot-linked from [webis-de-assets](https://github.com/webis-de/webis-de-assets),
 a collection of modular Jekyll templates and Sass styles for the Webis website theme
 and other third-party dependencies (UIkit, Fontawesome, jQuery, etc.).
 
-These dependencies need to be cloned into the `commons` folder before you can
-compile the website. In order to initialize (or update) the dependencies into that
-folder, run the dependency update script like so:
-
-    ./_maintenance/update-dependencies.sh
-
-Afterwards, add the changes to your Git index
-    
-    git add -A
-
-and commit and push them
-
-    git commit -m "Commit message"
-    git push
+If you add new styles or scripts, please check if they are modular and reusable enough
+to be added there. Only add them to this repository if they are specific to the webis.de
+main website. Please also keep the number of Sass variable redefinitions at the absolute minimum
+to avoid inconsistencies between websites.
