@@ -29,7 +29,6 @@ To publish changes to the source files, just push them to GitHub, which will
 take care of compiling them on its own.
 
 ## Sources Structure
-- `commons` Reusable styles of the Webis theme
 - `_includes` Includes to other source files (e.g. BibHTML)
 - `_layouts` The website's layout templates
 - `_maintenance` Maintenance scripts
