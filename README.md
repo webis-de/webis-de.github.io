@@ -77,10 +77,10 @@ next time UIkit is updated. Instead, if you want to modify the value of a layout
 variable, look for its name in `_sass/uikit/components` and redefine it in
 `_sass/_variables.scss`.
 
-## Hotlink Assets
-Most styles and web assets are hot-linked from [webis-de-assets](https://github.com/webis-de/webis-de-assets),
-a collection of modular Jekyll templates and Sass styles for the Webis website theme
-and other third-party dependencies (UIkit, Fontawesome, jQuery, etc.).
+## Linked Assets
+Most styles and other web assets are hot-linked from [webis-de-assets](https://github.com/webis-de/webis-de-assets),
+a collection of modular Jekyll templates, Sass styles, and other third-party dependencies
+(UIkit, Fontawesome, jQuery, etc.) for the Webis website theme.
 
 If you add new styles or scripts, please check if they are modular and reusable enough
 to be added there. Only add them to this repository if they are specific to the webis.de
