@@ -1,0 +1,102 @@
+---
+layout: default
+nav_active: research
+title: Webis Research on Authorship Analytics
+description: Overview of the Webis group's authorship analysis research
+---
+
+<script type="application/ld+json">
+    {
+        "@context":"http://schema.org/",
+        "@type":"Research",
+        "name":"Authorship Analysis",
+        "description":"",
+        "url":"https://webis.de/research/authorship.html",
+        "keywords":[
+            "authorship",
+            "authorship verification",
+            "authorship verification",
+            "authorship identification",
+            "stylometry"
+        ],
+        "creator":[
+            {
+                "@type":"Organization",
+                "url":"https://webis.de/",
+                "name":"The Web Technology & Information Systems Network",
+                "alternateName":"Webis"
+            },
+            {
+                "@type":"Person",
+                "url":"https://weimar.webis.de/people/#bevendorff",
+                "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+                "name":"Bevendorff, Janek"
+            },
+            {
+                "@type":"Person",
+                "url":"https://weimar.webis.de/people/#stein",
+                "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+                "name":"Stein, Benno"
+            }
+        ],
+        "includedInDataCatalog":{
+        },
+        "distribution":[
+        ]
+    }
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Authorship Verification</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>Authorship verification is the task of comparing two or more documents with regard to their stylistic properties in
+        order to determine if they were written by the same author. One of the most effective authorship verification methods
+        to date is "authorship unmasking", which was developed by Koppel and Schler (2004) and extended by us for
+        application on short texts (<a href="/publications.html#?q=bibid:2019g">Bevendorff et al., 2019</a>).</p>
+
+        <p>The idea behind unmasking is to build representations of two texts and let a classification system
+        continuously discriminate between those while gradually degrading the representations. The resulting accuracy
+        curves tend to drop faster for two texts written by the same author, largely due to more similar function
+        word distributions. [<a href="https://authorship.demo.webis.de/">demo</a>]</p>
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
+<!--            <li><a href="https://weimar.webis.de/people/#wiegmann">Matti Wiegmann</a></li>-->
+<!--            <li><a href="https://weimar.webis.de/people/#stein">Magdalena Wolska</a></li>-->
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+        <!--
+        SECTION Publications
+        -->
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+        <!--
+      You do not need to add anything here. Just change "your-project-name" below.
+      -->
+    </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+    includeBibentries(document.getElementById("publications-list"), "bibid:2019g");
+</script>
