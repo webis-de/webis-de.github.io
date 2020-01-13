@@ -29,7 +29,7 @@ function containQuery(attributes, queryWords) {
     return true;
 };
 
-function filterByQuery(query, groupSelector, elementSelector, attributeExtractor) {
+function filterByQuery(query, groupSelector, elementSelector) {
     query = query.trim();
     const groups = document.querySelectorAll(groupSelector);
     let filteredAll = true;
@@ -50,7 +50,7 @@ function filterByQuery(query, groupSelector, elementSelector, attributeExtractor
             const elements = group.querySelectorAll(elementSelector);
             for (let e = 0; e < elements.length; ++e) {
                 const element = elements[e];
-                const attributes = attributeExtractor(element);
+                const attributes = element.dataset;
                 if (containQuery(attributes, queryWords)) {
                     element.classList.remove("uk-hidden");
                     filteredAllOfGroup = false;
@@ -91,20 +91,32 @@ function filterByQuery(query, groupSelector, elementSelector, attributeExtractor
 
 /*
  * groupSelector: query selector that specifies a group of elements to be filtered
- * elementSelector: query selector that specifies each element within a group to be
- * filtered
- * attributeExtractor: a function that takes the DOM node of an element and returns
- * an object of the form: "attributeName": "attributeValue" where the attribute
- * values are checked for filtering
+ * elementSelector: query selector that specifies each element within a group to be filtered
+ * populateDataAttributes: a function that takes the DOM node of an element and sets the data- attributes for filtering
  */
-function initFiltering(groupSelector, elementSelector, attributeExtractor) {
+function initFiltering(groupSelector, elementSelector, populateDataAttributes) {
+  // populate data- attributes
+  const groups = document.querySelectorAll(groupSelector);
+  for (let g = 0; g < groups.length; ++g) {
+      const elements = groups[g].querySelectorAll(elementSelector);
+      for (let e = 0; e < elements.length; ++e) {
+          populateDataAttributes(elements[e]);
+          // remove &shy; from all attributes (Chrome seems to insert them automatically)
+          const dataset = elements[e].dataset;
+          for (let a in dataset) {
+            dataset[a] = dataset[a].replace(/&shy;/g, "");
+          }
+      }
+  }
+
+  // make filter function
   const filterFunction = (query) => {
-    return filterByQuery(query, groupSelector, elementSelector, attributeExtractor);
+      return filterByQuery(query, groupSelector, elementSelector);
   };
 
   // remove spurious "\"
   if (document.location.hash.indexOf("\\") > 0) {
-    document.location.hash = document.location.hash.replace(/\\/g, "");
+      document.location.hash = document.location.hash.replace(/\\/g, "");
   }
 
   // Set up filter field
@@ -116,7 +128,7 @@ function initFiltering(groupSelector, elementSelector, attributeExtractor) {
   filterField.addEventListener("input", event => filterFunction(event.target.value));
   filterFunction(filterField.value);
   if (document.location.hash.startsWith("#?q=") || document.location.hash === "") {
-    filterField.focus();
+      filterField.focus();
   }
 
   // Update if hash in URL changed (e.g., browser back button)
