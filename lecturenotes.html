@@ -2937,5 +2937,11 @@ None of our lecturenotes match your filter.
 </div>
 </main>
 
-<script src="{{ '/js/filter.js' | relative_url }}"></script>
-<script src="{{ '/js/filter-lecturenotes.js' | relative_url }}"></script>
+<script src="/js/filter.js"></script>
+<script>
+initFiltering(".targetable", "tbody tr", entry => {
+    const attributes = entry.dataset;
+    attributes['name'] = normalizeDataAttributeValue(entry.children[1].textContent);
+    return attributes;
+});
+</script>

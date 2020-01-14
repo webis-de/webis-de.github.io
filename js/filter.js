@@ -29,9 +29,9 @@ function containQuery(attributes, queryWords) {
     return true;
 };
 
-function filterByQuery(query, groupSelector, elementSelector) {
+function filterByQuery(query, groupSelector, elementSelector, root = document) {
     query = query.trim();
-    const groups = document.querySelectorAll(groupSelector);
+    const groups = root.querySelectorAll(groupSelector);
     let filteredAll = true;
     if (query === "") {
         for (let g = 0; g < groups.length; ++g) {
@@ -83,10 +83,20 @@ function filterByQuery(query, groupSelector, elementSelector) {
       document.location.hash = "#?q=" + query;
     }
 
-    // Force UIkit update to prevent glitches
-    UIkit.update();
+    if (root === document) { // webis.de page
+      // Force UIkit update to prevent glitches
+      UIkit.update();
+    }
 
     return filteredAll;
+};
+
+function normalizeDataAttributeValue(value, protectCommata = true) {
+  return value.toLowerCase();
+};
+
+function removeHyphenationPossibilities(value) {
+  return value.replace(/&shy;/g, "");
 };
 
 /*
@@ -94,9 +104,9 @@ function filterByQuery(query, groupSelector, elementSelector) {
  * elementSelector: query selector that specifies each element within a group to be filtered
  * populateDataAttributes: a function that takes the DOM node of an element and sets the data- attributes for filtering
  */
-function initFiltering(groupSelector, elementSelector, populateDataAttributes) {
+function initFiltering(groupSelector, elementSelector, populateDataAttributes, root = document) {
   // populate data- attributes
-  const groups = document.querySelectorAll(groupSelector);
+  const groups = root.querySelectorAll(groupSelector);
   for (let g = 0; g < groups.length; ++g) {
       const elements = groups[g].querySelectorAll(elementSelector);
       for (let e = 0; e < elements.length; ++e) {
@@ -104,42 +114,138 @@ function initFiltering(groupSelector, elementSelector, populateDataAttributes) {
           // remove &shy; from all attributes (Chrome seems to insert them automatically)
           const dataset = elements[e].dataset;
           for (let a in dataset) {
-            dataset[a] = dataset[a].replace(/&shy;/g, "");
+            dataset[a] = removeHyphenationPossibilities(dataset[a]);
           }
       }
   }
 
   // make filter function
   const filterFunction = (query) => {
-      return filterByQuery(query, groupSelector, elementSelector);
+      return filterByQuery(query, groupSelector, elementSelector, root);
   };
 
-  // remove spurious "\"
-  if (document.location.hash.indexOf("\\") > 0) {
-      document.location.hash = document.location.hash.replace(/\\/g, "");
-  }
-
-  // Set up filter field
   const filterField = document.getElementById("filter-field");
-  if (document.location.hash.startsWith("#?q=")) {
-      const query = decodeURIComponent(document.location.hash.substr(4));
-      filterField.value = query;
-  }
-  filterField.addEventListener("input", event => filterFunction(event.target.value));
-  filterFunction(filterField.value);
-  if (document.location.hash.startsWith("#?q=") || document.location.hash === "") {
-      filterField.focus();
+  if (filterField !== null) {
+    // remove spurious "\"
+    if (document.location.hash.indexOf("\\") > 0) {
+        document.location.hash = document.location.hash.replace(/\\/g, "");
+    }
+
+    // Set up filter field
+    if (document.location.hash.startsWith("#?q=")) {
+        const query = decodeURIComponent(document.location.hash.substr(4));
+        filterField.value = query;
+    }
+    filterField.addEventListener("input", event => filterFunction(event.target.value));
+    filterFunction(filterField.value);
+    if (document.location.hash.startsWith("#?q=") || document.location.hash === "") {
+        filterField.focus();
+    }
+
+    // Update if hash in URL changed (e.g., browser back button)
+    window.addEventListener("hashchange", event => {
+        if (document.location.hash.startsWith("#?q=")) {
+            const query = decodeURIComponent(document.location.hash.substr(4));
+            if (query !== filterField.value) {
+              filterField.value = query;
+              filterFunction(query);
+            }
+        }
+    });
   }
 
-  // Update if hash in URL changed (e.g., browser back button)
-  window.addEventListener("hashchange", event => {
-      if (document.location.hash.startsWith("#?q=")) {
-          const query = decodeURIComponent(document.location.hash.substr(4));
-          if (query !== filterField.value) {
-            filterField.value = query;
-            filterFunction(query);
-          }
-      }
-  });
+  return filterFunction;
+};
+
+// update legacy 'filter:' option
+if (document.location.hash.startsWith("#filter:")) {
+    const query = decodeURIComponent(document.location.hash.substr(8));
+    document.location.hash = "#?q=" + query;
 }
+
+////////////////////////////////////////////////////
+// Specific code for common web page layouts
+////////////////////////////////////////////////////
+
+function initWebisListFiltering(root = document) {
+    initFiltering(".webis-list", ".entry", entry => {
+        const attributes = entry.dataset;
+        attributes['text'] = normalizeDataAttributeValue(entry.textContent);
+        return attributes;
+    }, root);
+}
+
+function initWebisParagraphsFiltering(root = document) {
+    initFiltering(".webis-paragraphs", "p", paragraph => {
+        const attributes = paragraph.dataset;
+        attributes['text'] = normalizeDataAttributeValue(paragraph.textContent);
+        return attributes;
+    });
+}
+
+////////////////////////////////////////////////////
+// Specific code for publications
+////////////////////////////////////////////////////
+
+// Show BibTeX on click
+function activateBibtexToggle(root = document) {
+    root.querySelectorAll('.bib-toggle').forEach(el => el.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const bibtexId = event.target.dataset.target;
+        const bibtex = document.getElementById(bibtexId);
+
+        bibtex.classList.toggle("uk-hidden");
+        const isHidden = bibtex.classList.contains("uk-hidden");
+        if (!isHidden) {
+            bibtex.focus();
+        }
+        bibtex.setAttribute("aria-hidden", isHidden ? "true" : "false");
+
+        bibtex.style.height = "5px";
+        bibtex.style.height = (bibtex.scrollHeight + 5) + "px";
+    }));
+};
+
+function initPublicationsFiltering(publicationsList = document) {
+    const filterFunction = initFiltering(".year-entry", ".bib-entry", entry => {
+        const attributes = entry.dataset;
+        for (let a in attributes) {
+            attributes[a] = normalizeDataAttributeValue(attributes[a]);
+        }
+    }, publicationsList);
+    activateBibtexToggle(publicationsList);
+    return filterFunction;
+};
+
+// include from other page
+//   parentElement: element to which the bibentries should be added
+//   query:         filter query as used on the webis.de page
+//   source:        URL of the page the contains the bibentries
+function includeBibentries(parentElement, query = "", source = "https://webis.de/publications.html") {
+    parentElement.innerText = "Loading...";
+
+    /* add style sheet if not added already */
+    if (document.querySelector('link[href="https://webis.de/css/style.css"]') == null) {
+        var linkElement = document.createElement('link');
+        linkElement.setAttribute('rel', 'stylesheet');
+        linkElement.setAttribute('href', 'https://webis.de/css/style.css');
+        document.getElementsByTagName('head')[0].appendChild(linkElement);
+    }
+
+    const request = new XMLHttpRequest();
+    request.onload = function() {
+        const publicationsList = this.response.documentElement.querySelector(".publications-list");
+        const filterFunction = initPublicationsFiltering(publicationsList);
+        filterFunction(query);
+        publicationsList.classList.remove("uk-container", "uk-margin-medium");
+        parentElement.innerText = "";
+        parentElement.appendChild(publicationsList);
+    }
+    request.open("GET", source);
+    request.responseType = "document";
+    request.send();
+}
+
+
 
