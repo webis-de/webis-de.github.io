@@ -43,7 +43,7 @@ function filterByQuery(query, groupSelector, elementSelector, root = document) {
         }
         filteredAll = false;
     } else {
-        const queryWords = query.toLowerCase().replace(/[^a-zäöüß0-9-:+]/g, " ").split(/\s+/);
+        const queryWords = normalize(query, protectCommata = false, protectQueryModifiers = true).split(/\s+/);
         for (let g = 0; g < groups.length; ++g) {
             const group = groups[g];
             let filteredAllOfGroup = true;
@@ -91,8 +91,18 @@ function filterByQuery(query, groupSelector, elementSelector, root = document) {
     return filteredAll;
 };
 
-function normalizeDataAttributeValue(value, protectCommata = true) {
-  return value.toLowerCase();
+function normalize(value, protectCommata = false, protectQueryModifiers = false) {
+  const regexBase = /[^\u{61}-\u{7a}\u{df}-\u{f6}\u{f8}-\u{ff}\u{100}-\u{17F}0-9\-,:+\s]/gu;
+  const regexCommata = /[,]/g;
+  const regexQueryModifiers = /[:+]/g;
+  const regexWhitespace = /[\s]/g;
+  
+  let tmp = value.toLowerCase().replace(regexBase, "");
+  if (!protectCommata) tmp = tmp.replace(regexCommata, "");
+  if (!protectQueryModifiers) tmp = tmp.replace(regexQueryModifiers, "");
+  tmp = tmp.replace(regexWhitespace, " ");
+
+  return tmp;
 };
 
 function removeHyphenationPossibilities(value) {
@@ -170,7 +180,7 @@ if (document.location.hash.startsWith("#filter:")) {
 function initWebisListFiltering(root = document) {
     initFiltering(".webis-list", ".entry", entry => {
         const attributes = entry.dataset;
-        attributes['text'] = normalizeDataAttributeValue(entry.textContent);
+        attributes['text'] = normalize(entry.textContent);
         return attributes;
     }, root);
 }
@@ -178,7 +188,7 @@ function initWebisListFiltering(root = document) {
 function initWebisParagraphsFiltering(root = document) {
     initFiltering(".webis-paragraphs", "p", paragraph => {
         const attributes = paragraph.dataset;
-        attributes['text'] = normalizeDataAttributeValue(paragraph.textContent);
+        attributes['text'] = normalize(paragraph.textContent);
         return attributes;
     });
 }
@@ -211,7 +221,11 @@ function initPublicationsFiltering(publicationsList = document) {
     const filterFunction = initFiltering(".year-entry", ".bib-entry", entry => {
         const attributes = entry.dataset;
         for (let a in attributes) {
-            attributes[a] = normalizeDataAttributeValue(attributes[a]);
+          if (a == "author" || a == "tags" || a == "editor") {
+            attributes[a] = normalize(attributes[a], protectCommata = true, protectQueryModifiers = false);
+          } else {
+            attributes[a] = normalize(attributes[a]);
+          }
         }
     }, publicationsList);
     activateBibtexToggle(publicationsList);
