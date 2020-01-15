@@ -97,7 +97,7 @@ function normalize(value, protectCommata = false, protectQueryModifiers = false)
   const regexQueryModifiers = /[:+]/g;
   const regexWhitespace = /[\s]/g;
   
-  let tmp = value.toLowerCase().replace(regexBase, "");
+  let tmp = value.toLowerCase().normalize("NFD").replace(/[\u{300}-\u{36f}]/gu, "").replace(regexBase, "");
   if (!protectCommata) tmp = tmp.replace(regexCommata, "");
   if (!protectQueryModifiers) tmp = tmp.replace(regexQueryModifiers, "");
   tmp = tmp.replace(regexWhitespace, " ");
