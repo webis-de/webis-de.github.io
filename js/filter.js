@@ -262,4 +262,5 @@ function includeBibentries(parentElement, query = "", source = "https://webis.de
 }
 
 
+console.log("Using webis.de/js/filter.js is deprecated. Please switch to https://assets.webis.de/js/filter.js (you can still use includeBibentries() as before)");
 

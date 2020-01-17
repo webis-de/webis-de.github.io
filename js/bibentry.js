@@ -120,4 +120,4 @@ includeBibentries = (parentElement, query = "", source = "https://webis.de/publi
 }
 
 
-console.log("Using bibentry.js is deprecated. Please switch to filter.js (you can still use includeBibentries() as before)");
+console.log("Using bibentry.js is deprecated. Please switch to https://assets.webis.de/js/filter.js (you can still use includeBibentries() as before)");
