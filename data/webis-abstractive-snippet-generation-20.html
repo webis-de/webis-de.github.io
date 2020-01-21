@@ -1,0 +1,137 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-Corpus-Title
+description: Short description of the Corpus
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"*name of the dataset",
+    "description":"*synopsis, short description of the dataset",
+    "text":"*research, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "*some", 
+        "*key", 
+        "*words", 
+        "*to decribe the dataset"
+    ], 
+    "datePublished":"*2018-12-31",
+    "image":"*link to image which describes corpus",
+    "issn":"*international standard serial number if available",
+    "measurementTechnique":"*technique or technology used in a Dataset",
+    "variableMeasured":"*variables measured in dataset",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"*https://files.webis.de/corpora/corpora-webis/my-data.csv"
+        },
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"XML",
+            "contentUrl":"*https://files.webis.de/corpora/corpora-webis/my-data.xml"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-Corpus-Title</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>Your synopsis here</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="webis-download">Download</h2>
+
+        <p>You can access the *TITLE-OF-CORPUS* corpus on <a href="...">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="...">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="...">doi</a>] for a stable link.</p>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>Your research description here</p>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+        <li><a href="https://weimar.webis.de/people/#<last>">&lt;First&gt; &lt;Last&gt;</a></li>
+        </ul>
+
+        <p>Students: &lt;First&gt; &lt;Last&gt;</p>
+
+        <!--
+        SECTION Publications
+        -->
+        <h2 id="publications">Publications</h2>
+        <!--
+        You do not need to add anything here.
+        Typo3 will insert publications automatically via pub-database.php.
+        For more information visit webis-web-notes.txt.
+        -->
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+        	<!--
+			You do not need to add anything here.
+			Typo3 will insert publications automatically via pub-database.php.
+			For more information visit webis-web-notes.txt.
+			-->
+        </div>
+</main>
+
+<script src="https://webis.de/js/bibentry.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:corpus-webis-qspell-17");
+</script>
