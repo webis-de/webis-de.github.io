@@ -2696,14 +2696,6 @@ None of our corpora match your filter.
 <script src="https://assets.webis.de/js/thirdparty/fontawesome/solid.min.js"></script>
 <script src="https://assets.webis.de/js/filter.js"></script>
 <script>
-initFiltering(".targetable", "tbody tr", entry => {
-    const attributes = entry.dataset;
-    attributes['name'] = normalize(entry.children[1].textContent);
-    attributes['publisher'] = normalize(entry.children[2].textContent);
-    attributes['year'] = normalize(entry.children[3].textContent);
-    attributes['units'] = normalize(entry.children[6].textContent);
-    attributes['task'] = normalize(entry.children[7].textContent);
-    return attributes;
-});
+initWebisDataFiltering();
 </script>
 
