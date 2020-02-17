@@ -1,0 +1,47 @@
+<!-- +++ Layout for one-page demos. +++ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="&copy; {{site.time | date: '%Y'}} Webis">
+    <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
+
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}?{{site.time | date: '%s'}}">
+</head>
+<body class="uk-offcanvas-content">
+<script src="https://assets.webis.de/js/hyphenate/hyphenate.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit-icons.min.js"></script>
+
+<div class="uk-background-secondary global-nav" data-uk-sticky>
+    <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <!-- We expect one-page demos and their associated resources to live inside an appropriately named subfolder. The parent directory's name is appended to demo.webis.de in the link next to the logo. -->
+                <li{% if page.nav_active == "index" %} class="uk-active"{% endif %} style="display: flex; align-items: center; text-transform: uppercase;">
+                    <a href="https://webis.de/research.html#?q=demo"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> demo.webis.de</a> {% assign name = page.dir | split: '/' %} /{{ name | last }}/ <!-- TODO: change link to point to demo.webis.de once redirect is in place -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div data-uk-height-viewport="expand: true">
+{{ content }}
+</div>
+
+<footer class="uk-section uk-section-muted footer-section">
+    <div class="uk-container">
+        <div class="uk-align-right@m uk-margin-top">
+            &copy; {{site.time | date: '%Y'}} <a href="https://webis.de/">Webis group</a> <span class="uk-padding-small">&bullet;</span>
+            <a href="https://webis.de/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
+            <a href="https://webis.de/legal.html">Impressum / Terms / Privacy</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
