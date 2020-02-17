@@ -2,18 +2,19 @@
 layout: default
 nav_active: research
 title: Webis Research on Authorship Analytics
-description: Overview of the Webis group's authorship analysis research
+description: Overview of the Webis group's authorship analytics research
 ---
 
 <script type="application/ld+json">
     {
         "@context":"http://schema.org/",
         "@type":"Research",
-        "name":"Authorship Analysis",
+        "name":"Authorship Analytics",
         "description":"",
         "url":"https://webis.de/research/authorship.html",
         "keywords":[
             "authorship",
+            "authorship analytics",
             "authorship verification",
             "authorship verification",
             "authorship identification",
@@ -34,6 +35,36 @@ description: Overview of the Webis group's authorship analysis research
             },
             {
                 "@type":"Person",
+                "url":"https://weimar.webis.de/people/#wiegmann",
+                "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+                "name":"Wiegmann, Matti"
+            },
+            {
+                "@type":"Person",
+                "url":"https://weimar.webis.de/people/#wolska",
+                "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+                "name":"Wolska, Magdalena"
+            },
+            {
+                "@type":"Person",
+                "url":"https://weimar.webis.de/people/#peter",
+                "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+                "name":"Peter, Anne"
+            },
+            {
+                "@type":"Person",
+                "url":"https://temir.org/people.html#potthast",
+                "affiliation":"Leipzig University",
+                "name":"Potthast, Martin"
+            },
+            {
+                "@type":"Person",
+                "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+                "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg",
+                "name":"Hagen, Matthias"
+            },
+            {
+                "@type":"Person",
                 "url":"https://weimar.webis.de/people/#stein",
                 "affiliation":"Bauhaus-Universit\u00e4t Weimar",
                 "name":"Stein, Benno"
@@ -48,7 +79,7 @@ description: Overview of the Webis group's authorship analysis research
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Authorship Verification</h1>
+        <h1>Authorship Analytics</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -64,15 +95,26 @@ description: Overview of the Webis group's authorship analysis research
         -->
         <h2 id="synopsis">Synopsis</h2>
 
-        <p>Authorship verification is the task of comparing two or more documents with regard to their stylistic properties in
-        order to determine if they were written by the same author. One of the most effective authorship verification methods
-        to date is "authorship unmasking", which was developed by Koppel and Schler (2004) and extended by us for
-        application on short texts (<a href="/publications.html#?q=bibid:2019g">Bevendorff et al., 2019</a>).</p>
+        <p>Authorship analytics (also: authorship identification) deals with the deduction of a text's authorship
+            using stylometric methods and features.
 
-        <p>The idea behind unmasking is to build representations of two texts and let a classification system
-        continuously discriminate between those while gradually degrading the representations. The resulting accuracy
-        curves tend to drop faster for two texts written by the same author, largely due to more similar function
-        word distributions. [<a href="https://authorship.demo.webis.de/">demo</a>]</p>
+        <p>The classical form of forensic authorship analysis and also the earliest form of computational authorship
+            identification, <em>authorship attribution</em>, tries to assign authorship to a text from a closed set of
+            likely candidate authors. This later gave rise to <em>authorship verification</em>, which recasts authorship
+            identification as a true one-class classification problem.
+            In a one-class classification problem, one is given a target class for which a certain number of examples exist.
+            Objects outside the target class are called outliers, and the one-class classification task is to tell apart
+            outliers from target class members. Within authorship verification, the target class is comprised of writing
+            examples of a certain author A, whereas a piece of text written by any other author B is an outlier.</p>
+
+        <p>With their excellent <em>unmasking</em> algorithm, Koppel and Schler (2004) were the first to introduce an
+            effective approach for tackling the difficult verification problem. A variant of this approach optimized for
+            short texts (<a href="/publications.html#?q=bibid:2019g">Bevendorff et al., 2019</a>) is demonstrated in a web demo.
+            [<a href="https://authorship.demo.webis.de/">demo</a>]</p>
+
+        <p>Other applications of authorship analytics include <em>author profiling</em>, the creation of author profiles
+            from texts based on psycho-linguistic features, and <em>author masking</em> (also: <em>authorship obfuscation</em>),
+            the obstruction of authorship identification by targeted text manipulation.</p>
 
         <!--
         SECTION People
@@ -80,8 +122,9 @@ description: Overview of the Webis group's authorship analysis research
         <h2 id="people">People</h2>
         <ul>
             <li><a href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
-<!--            <li><a href="https://weimar.webis.de/people/#wiegmann">Matti Wiegmann</a></li>-->
-<!--            <li><a href="https://weimar.webis.de/people/#stein">Magdalena Wolska</a></li>-->
+            <li><a href="https://weimar.webis.de/people/#wiegmann">Matti Wiegmann</a></li>
+            <li><a href="https://weimar.webis.de/people/#wolska">Magdalena Wolska</a></li>
+            <li><a href="https://weimar.webis.de/people/#peter">Anne Peter</a></li>
             <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
             <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
             <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
@@ -100,5 +143,5 @@ description: Overview of the Webis group's authorship analysis research
 
 <script src="https://assets.webis.de/js/filter.js"></script>
 <script>
-    includeBibentries(document.getElementById("publications-list"), "bibid:2019g");
+    includeBibentries(document.getElementById("publications-list"), "authorship");
 </script>
