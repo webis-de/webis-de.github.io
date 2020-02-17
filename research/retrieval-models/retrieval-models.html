@@ -55,7 +55,7 @@ description: Overview of Retrieval Models
 
 <div class="uk-container uk-margin-medium">
 <p>In the literature a distinction between empirical models, probabilistic models, and language models is often made, which is rooted in the query-oriented understanding of retrieval tasks but also has historical reasons. Our map reflects this distinction.</p>
-<p>By clicking on a model acronym in the map a short description of the respective retrieval model is displayed below the map. A retrieval model is either empirical, probabilistic, or of language model type. Below a model's acronym you find a code in the form of a quadrupel, [1&nbsp;2&nbsp;3&nbsp;4], which hints the model's characteristics along four dimensions: <b>(1)</b>&nbsp;<b>Feature type</b>, which defines the basic principle to capture a document's content; possible values include document <i>terms</i> [T], latent or explicit taxonomic <i>concepts</i> [C], or an (often NLP-based) method yielding <i>special</i> [S] features. <b>(2)</b>&nbsp;Foundation of the <b>Retrieval status value (RSV) computation</b>; possible values include feature vector <i>similarity </i> [&#966;], <i>relevance</i> [&#961;] assessment, or the ability of a document to <i>generate</i> [&#947;] a query. <b>(3)</b>&nbsp;Dependency on a <b>Closed world</b>; possible values are <i>open</i> [&#8746;], where the document collection need not to be completely given, and <i>closed</i> [&#8745;], where the collection must be completely given to compute global characteristics. <b>(4)</b>&nbsp;<b>External knowledge</b>, if used at all; possible values include  <i>none</i> [&#8709;], <i>user feedback</i> [&#10003;], e.g. for relevance assessment purposes, and an <i> additional</i> [+] document collection, e.g., for computing collection-relative document similarities. Our scheme is not intended to exactly differentiate between all particularities of a model, but shall pinpoint retrieval model strengths and weaknesses. If you find it useful, if you have hints for its improvement, or if you detect incorrect statements please drop us a mail. Finally, we kindly ask you to refer to the overview using the related publication below.</p>
+<p>By clicking on a model acronym in the map a short description of the respective retrieval model is displayed below the map. A retrieval model is either empirical, probabilistic, or of language model type. Below a model's acronym you find a code in the form of a quadrupel, [1&nbsp;2&nbsp;3&nbsp;4], which hints the model's characteristics along four dimensions: <b>(1)</b>&nbsp;<b>Feature type</b>, which defines the basic principle to capture a document's content; possible values include document <i>terms</i> [T], latent or explicit taxonomic <i>concepts</i> [C], or an (often NLP-based) method yielding <i>special</i> [S] features. <b>(2)</b>&nbsp;Foundation of the <b>Retrieval status value (RSV) computation</b>; possible values include feature vector <i>similarity </i> [&#966;], <i>relevance</i> [&#961;] assessment, or the ability of a document to <i>generate</i> [&#947;] a query. <b>(3)</b>&nbsp;Dependency on a <b>Closed world</b>; possible values are <i>open</i> [&#8746;], where the document collection need not to be completely given, and <i>closed</i> [&#8745;], where the collection must be completely given to compute global characteristics. <b>(4)</b>&nbsp;<b>External knowledge</b>, if used at all; possible values include  <i>none</i> [&#8709;], <i>user feedback</i> [&#10003;], e.g. for relevance assessment purposes, and an <i> additional</i> [+] document collection, e.g., for computing collection-relative document similarities. Our scheme is not intended to exactly differentiate between all particularities of a model, but shall pinpoint retrieval model strengths and weaknesses. If you find it useful, if you have hints for its improvement, or if you detect incorrect statements please drop us a mail. Finally, we kindly ask you to refer to the overview using the related publication (<a href="https://webis.de/publications.html#stein_2017t">Stein et al., 2017t</a>).</p>
 
 <div>
 <div>
@@ -313,19 +313,8 @@ description: Overview of Retrieval Models
 </tr>
 </table>
 
-<!--
-SECTION Publications
--->
-<h2 id="publications">Publications</h2>
-<div id="publications-list">
-</div>
-
 </div>
 </div>
 </main>
 
-<script src="https://assets.webis.de/js/filter.js"></script>
-<script>
-includeBibentries(document.getElementById("publications-list"), "bibid:stein2017t");
-</script>
 <script src="retrieval-models.js"></script>
