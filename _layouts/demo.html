@@ -1,4 +1,5 @@
 <!-- +++ Layout for one-page demos. +++ -->
+<!-- ATTENTION: Make sure to set url and, if necessary, baseurl in _config.yml properly! -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,9 +21,32 @@
     <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
-                <!-- We expect one-page demos and their associated resources to live inside an appropriately named subfolder. The parent directory's name is appended to demo.webis.de in the link next to the logo. -->
+                <!-- 
+                If the demo has its own *.demo.webis.de subdomain, display it next to the Webis logo.
+                Otherwise, the name of the folder the demo lives in is appended to demo.webis.de and shown next to the Webis logo.
+                The link always leads to the demo overview page.
+                -->
                 <li{% if page.nav_active == "index" %} class="uk-active"{% endif %} style="display: flex; align-items: center; text-transform: uppercase;">
-                    <a href="https://webis.de/research.html#?q=demo"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> demo.webis.de</a> {% assign name = page.dir | split: '/' %} /{{ name | last }}/ <!-- TODO: change link to point to demo.webis.de once redirect is in place -->
+                    {% assign full_url = site.url | split: '/' %}
+                    {% assign base_url = full_url.last | split: '.' %}
+                    {% assign subdomain = false %}
+                    {% if base_url.size > 3%}
+                        {% assign minus_three = base_url.size | minus: 3 %}
+                        {% assign minus_two = base_url.size | minus: 2 %}
+                        {% assign minus_one = base_url.size | minus: 1 %}
+                        {% if page.dir == "/" and base_url[minus_three] == "demo" and base_url[minus_two] == "webis" and base_url[minus_one] == "de" %} <!-- demo.webis.de subdomain -->
+                            {% assign subdomain = true %}
+                        {% endif %}
+                    {% endif %}
+                    <!-- TODO: change link to point to demo.webis.de once redirect is in place -->
+                    <a href="https://webis.de/research.html#?q=demo"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"></a>{% if subdomain == true %}{% assign minus_four = base_url.size | minus: 4 %}{% for i in (0..minus_four) %}{{base_url[i]}}.{% endfor %}{% endif %}<a href="https://webis.de/research.html#?q=demo">demo.webis.de</a>
+                    {% assign name = "" %}
+                    {% if page.dir != "/" %} <!-- subpage of e.g. webis.de -->
+                        {% assign name = page.dir | split: '/' | last %}
+                    {% elsif site.baseurl != "" %}
+                        {% assign name = site.baseurl | split: '/' | last %}
+                    {% endif %}
+                    /{{ name }}/
                 </li>
             </ul>
         </div>
