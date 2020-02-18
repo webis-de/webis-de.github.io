@@ -38,15 +38,14 @@
                             {% assign subdomain = true %}
                         {% endif %}
                     {% endif %}
-                    <!-- TODO: change link to point to demo.webis.de once redirect is in place -->
-                    <a href="https://webis.de/research.html#?q=demo"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"></a>{% if subdomain == true %}{% assign minus_four = base_url.size | minus: 4 %}{% for i in (0..minus_four) %}{{base_url[i]}}.{% endfor %}{% endif %}<a href="https://webis.de/research.html#?q=demo">demo.webis.de</a>
+                    <a href="https://demo.webis.de/"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"></a>{% if subdomain == true %}{% assign minus_four = base_url.size | minus: 4 %}{% for i in (0..minus_four) %}{{base_url[i]}}.{% endfor %}{% endif %}<a href="https://demo.webis.de/">demo.webis.de</a>
                     {% assign name = "" %}
                     {% if page.dir != "/" %} <!-- subpage of e.g. webis.de -->
                         {% assign name = page.dir | split: '/' | last %}
                     {% elsif site.baseurl != "" %}
                         {% assign name = site.baseurl | split: '/' | last %}
                     {% endif %}
-                    /{{ name }}/
+                    /<a href="#">{{ name }}</a>
                 </li>
             </ul>
         </div>
