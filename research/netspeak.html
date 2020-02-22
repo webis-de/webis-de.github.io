@@ -66,56 +66,25 @@ description: Overview of research that are used by the Webis research group
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
+<p>
+To write in a foreign language is a difficult task, even for an experienced author. Problems include choosing the right word or preposition in a given context, finding a wording which is commonly used, and avoiding the use of grammatical forms which reflect the author's native language. The Netspeak Web service assists authors to overcome these issues by using the World Wide Web as a source of common language. The service can be queried with short text phrases to determine their customariness on the Web. Wildcard characters can be added to the query to search for variations and synonyms of the query phrase, which will be returned as ranked list with respect to their occurence frequency on the Web.
+</p>
 
-        <p>
-            To write in a foreign language is a difficult task, even for an experienced author. Problems include choosing the right word or preposition in a given context, finding a wording which is commonly used, and avoiding the use of grammatical forms which reflect the author's native language. The Netspeak Web service assists authors to overcome these issues by using the World Wide Web as a source of common language. The service can be queried with short text phrases to determine their customariness on the Web. Wildcard characters can be added to the query to search for variations and synonyms of the query phrase, which will be returned as ranked list with respect to their occurence frequency on the Web. [<a href="http://www.netspeak.org/#developer">api</a>] [<a href="http://www.netspeak.org" class="internal-link">service</a>] [<a href="https://www.youtube.com/watch?v=vklWCIsB_jM&list=PLgD1TOdHQCI97rA9s4z1EGxRJSXCHzwBk">video</a>]
-        </p>
-
-        <!--
-        SECTION Research
-        -->
-        <h2 id="research">Research</h2>
-
-        Netspeak indexes the complete &quot;<a href="https://catalog.ldc.upenn.edu/LDC2006T13" class="csc-content-link">Web 1T 5-gram Version 1</a>&quot; corpus as a source of common language on the Web. The corpus comprises about 3.8 billion phrases up to a length of 5 words (so-called n-grams) which were collected by Google from the English Web. The following table shows details on the size of the corpus:</p><div id="c41493" class="csc-frame csc-no-bottom-border  layout-bottomheader">
-				<table class="uk-table uk-table-striped uk-table-small uk-width-auto"><thead>
-					<tr class="tr-even tr-0">
-							<th class="td-0" scope="col" id="col41493-0">n-grams</th>
-							<th class="td-1" scope="col" id="col41493-1"><div style="width:100px;text-align:right">count</div></th>
-							<th class="td-2" scope="col" id="col41493-2"><div style="width:150px;text-align:right">size (compressed)</div></th>
-							<th class="td-last td-3" scope="col" id="col41493-3"><div style="width:150px;text-align:right">size (uncompressed)</div></th>
-					</tr>
-					</thead><tbody>
-					<tr class="tr-odd tr-1">
-							<td class="td-0" headers="col41493-0">1-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">13 588 391</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">70.2 MB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">177.0 MB</div></td>
-					</tr>
-					<tr class="tr-even tr-2">
-							<td class="td-0" headers="col41493-0">2-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">314 843 401</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">1.6 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">5.0 GB</div></td>
-					</tr>
-					<tr class="tr-odd tr-3">
-							<td class="td-0" headers="col41493-0">3-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">977 069 902</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">5.5 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">19.0 GB</div></td>
-					</tr>
-					<tr class="tr-even tr-4">
-							<td class="td-0" headers="col41493-0">4-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">1 313 818 354</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">8.4 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">30.5 GB</div></td>
-					</tr>
-					<tr class="tr-odd tr-last">
-							<td class="td-0" headers="col41493-0">5-grams</td>
-							<td class="td-1" headers="col41493-1"><div style="width:120px;text-align:right">1 176 470 663</div></td>
-							<td class="td-2" headers="col41493-2"><div style="width:100px;text-align:right">8.8 GB</div></td>
-							<td class="td-last td-3" headers="col41493-3"><div style="width:110px;text-align:right">32.1 GB</div></td>
-					</tr></tbody>
-				</table>
+<p>
+Netspeak indexes the complete
+&quot;<a href="https://catalog.ldc.upenn.edu/LDC2006T13">Web 1T 5-gram Version 1</a>&quot; corpus
+(<a href="https://catalog.ldc.upenn.edu/docs/LDC2006T13/readme.txt">readme.txt</a>)
+as a source of common language on the Web. The corpus comprises about 3.8 billion phrases up to a length of 5&nbsp;words:
+   13,588,391&nbsp;unigrams,
+  314,843,401&nbsp;bigrams,
+  977,069,902&nbsp;trigrams,
+1,313,818,354&nbsp;fourgrams, and
+1,176,470,663&nbsp;fivegrams.
+Basis of this resource is the extremely large number of 1,024,908,267,229 tokens, which allowed for high frequency cutoffs: only tokens (words, numbers, and punctuation) appearing 200 times or more (1 in 5 billion) and N-grams appearing 40 times or more (1 in 25 billion) were kept.
+[<a href="http://www.netspeak.org/#developer">api</a>]
+[<a href="http://www.netspeak.org" class="internal-link">service</a>]
+[<a href="https://www.youtube.com/watch?v=vklWCIsB_jM&list=PLgD1TOdHQCI97rA9s4z1EGxRJSXCHzwBk">video</a>]
+</p>
 
         <!--
         SECTION People
