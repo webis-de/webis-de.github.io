@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_active: data
-title: Webis Data Webis-Corpus-Title
+title: Webis Data Webis-Snippet-20
 description: Short description of the Corpus
 ---
 
@@ -121,15 +121,11 @@ We introduces a new approach to abstractive snippet generation: We identify the 
         <h2 id="publications">Publications</h2>
         <div id="publications-list">
         </div>
-        	<!--
-			You do not need to add anything here.
-			Typo3 will insert publications automatically via pub-database.php.
-			For more information visit webis-web-notes.txt.
-			-->
+        	<script src="https://assets.webis.de/js/filter.js"></script>
+		<script>
+		includeBibentries(document.getElementById("publications-list"), "tags:corpus-webis-snippet-20");
+		</script>
         </div>
 </main>
 
-<script src="https://assets.webis.de/js/filter.js"></script>
-<script>
-includeBibentries(document.getElementById("publications-list"), "tags:corpus-webis-snippet-20");
-</script>
+
