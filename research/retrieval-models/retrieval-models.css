@@ -1,0 +1,27 @@
+.popup:not(.popup-active) {
+  display: none; }
+
+.popup {
+  background: #F8F8F8;
+  color: #222222;
+  padding: 15px;
+  margin-top: 20px; }
+
+img[usemap] {
+  max-width: initial; }
+
+.inline-list {
+  padding-left: 0; }
+
+.inline-list li {
+  display: inline;
+  margin-right: 5px; }
+
+.inline-item-bullet::before {
+  content: "["; }
+
+.inline-item-bullet::after {
+  content: "]";
+  margin-right: 3px; }
+
+/*# sourceMappingURL=retrieval-models.css.map */
