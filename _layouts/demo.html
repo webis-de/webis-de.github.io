@@ -10,6 +10,9 @@
     <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
 
     <link rel="stylesheet" href="https://assets.webis.de/css/style.css?{{site.time | date: '%s'}}">
+    {%- for css in page.additional_css %}
+    <link rel="stylesheet" href="{{ css | relative_url }}?{{site.time | date: '%s'}}">
+    {%- endfor %}
 </head>
 <body class="uk-offcanvas-content">
 <script src="https://assets.webis.de/js/hyphenate/hyphenate.min.js"></script>
@@ -24,8 +27,11 @@
                     <a href="https://demo.webis.de/"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo">demo.webis.de</a>
                 </li>
                 <li>
-                    <!-- Change "demo-title" to the name of the demo. -->
-                    <a class="path" href="#">demo-title</a>
+                    <!-- If using Jekyll/Liquid: Make sure to set the "path:" variable in your demo page's front matter! 
+                         If using this layout manually: Insert your demo title here. 
+                         Lowercase, hyphens as word separators.
+                    -->
+                    <a class="path" href="#">{{ page.demotitle }}</a>
                 </li>
             </ul>
         </div>
