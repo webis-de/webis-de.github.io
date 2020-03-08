@@ -49,7 +49,6 @@ description: Overview of research that are used by the Webis research group
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
@@ -61,15 +60,13 @@ description: Overview of research that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
 
-        <p>In this project we develop and implement a new&nbsp;indexing technology which allows us to use complete (and possibly very large) documents as queries,&nbsp;while having&nbsp;a&nbsp;retrieval&nbsp;performance comparable to a standard term query. Our approach provides a powerful technology for retrieval tasks such as plagiarism analysis, near-duplicate detection, and high similarity search. To demonstrate the performance of our technology we have compiled&nbsp;the search index &quot;Wikipedia in the Pocket&quot;, which contains&nbsp;about 1.5 million English Wikipedia articles and 0.5 million German articles. This index - along with a search interface and a servlet engine -&nbsp;fits&nbsp;on a conventional CD (0.7 gigabyte).</p>
+        <p>
+        This project focuses on effective indexing technology for retrieval tasks with an inherently quadratic nature, such as plagiarism analysis, near-duplicate detection, and high similarity search. To demonstrate our technology we have compiled the search index ``Wikipedia in the Pocket'', which covers about 1.5&bsp;million English Wikipedia articles and 0.5&bsp;million German articles, and which fits&mdash;along with a search interface and a servlet engine&mdash;on a conventional CD (0.7&bsp;gigabyte).
+        </p>
 
-        <!--
-        SECTION Research
-        -->
-        <h2 id="research">Research</h2>
-
-        <p>The ingredients of our indexing technology are similarity hashing and minimal perfect hashing. With respect to the former we have developed a new kind of tolerant (&quot;fuzzy&quot;) hashcodes for larger portions of text (50-1000 words). Fuzziness is introduced by generalizing divergence properties of a document's terms as a small set of parameters, which in turn are encoded as - what is here called - fingerprint. The probability that the fingerprints of two documents are equal is close to one for documents with a high cosine similarity.</p>
-<p>Fuzzy hashcodes of indexed documents are mapped to memory positions, which point to a postlist referencing all documents associated with the hashcode in question. An optimal solution for this problem is a hash function which (i) maps all keys without hash collisions to the available memory positions, and (ii) has an upper bound for the average number of additional positions needed to ensure the first property. A hash function with the first property is called perfect; moreover, it is called minimal if the second property's upper bound is a small constant. For a previously known set of keys, minimal perfect hash functions can be constructed&nbsp;in linear time and space. This prerequisite is fulfilled for Wikipedia in the Pocket because all documents to be indexed are known in advance. We call this a half-open retrieval situation.</p>
+        <p>
+Building blocks of our indexing technology are similarity hashing and minimal perfect hashing. Regarding the former we have proposed a new kind of tolerant (``fuzzy'') hashcodes for larger portions of text (50-1000 words). Fuzziness is introduced by generalizing divergence properties of a document's terms as a small set of parameters, which in turn are encoded as&mdash;what is here called&mdash;fingerprint. The probability that the fingerprints of two documents are equal is close to one for documents with a high cosine similarity. Fuzzy hashcodes of indexed documents are mapped to memory positions, which point to a postlist referencing all documents associated with the hashcode in question. An optimum solution for this problem is a hash function which (1)&bsp;maps all keys without hash collisions to the available memory positions, and (2)&bsp;has an upper bound for the average number of additional positions needed to ensure the first property. A hash function with the first property is called perfect, it is called minimal if the second property's upper bound is a small constant. For a previously known set of keys, minimal perfect hash functions can be constructed in linear time and space. For Wikipedia this prerequisite is fulfilled.
+        </p>
 
         <!--
         SECTION People
