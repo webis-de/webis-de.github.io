@@ -2940,9 +2940,10 @@ None of our lecturenotes match your filter.
 <script src="https://assets.webis.de/js/filter.js"></script>
 <script src="https://assets.webis.de/js/tables.js"></script>
 <script>
-initFiltering(".targetable", "tbody tr", entry => {
+initWebisFiltering(document.querySelectorAll(".targetable"), "tbody tr", true, entry => {
     const attributes = entry.dataset;
     attributes['name'] = normalize(entry.children[1].textContent);
     return attributes;
 });
+initTableHighlightOnClick();
 </script>
