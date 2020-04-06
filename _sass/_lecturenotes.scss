@@ -163,9 +163,16 @@ select.uk-select.filter {
         width: 1%;
     }
 
+    .links svg.fa-youtube {
+        color: #AAA;
+    }
+
     .links {
-        width: 65px;
-        text-align: right;
+        width: 75px;
+    }
+    
+    .links a:not(:first-child) {
+        margin-left: 5px;
     }
 
     .table .placeholder {
