@@ -7,7 +7,6 @@ let lastHistoryChangeMs = new Date().getTime();
 
 function updateUrlQueryParameter(query) {
   const url = new URL(document.location.href);
-  console.log(query + " " + url.searchParams);
   if (query.trim() === "") {
     if (!url.searchParams.has("q")) {
       return;
