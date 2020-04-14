@@ -98,7 +98,7 @@ function filterByQuery(query, groups, elementSelector, updateUrlQueryParam = tru
 
       historyTimeoutId = setTimeout(function (url, query) {
         history.pushState({ query: query }, document.title, url)
-      }, historyTimeoutMs, url.search, query);
+      }, historyTimeoutMs, url.href, query);
     }
   }
 
@@ -274,7 +274,21 @@ function includeList(parentElement, sourceUrl, listSelector, listCallback) {
 // update legacy 'filter:' option
 if (document.location.hash.startsWith("#filter:")) {
     const query = decodeURIComponent(document.location.hash.substr(8));
-    document.location.hash = "#?q=" + query;
+    
+    let newUrl = new URL(document.location);
+    newUrl.hash = "";
+    newUrl.searchParams.set("q", query);
+    history.replaceState({ query: query }, document.title, newUrl.href);
+}
+
+// update legacy '#?q=' option
+if (document.location.hash.startsWith("#?q=")) {
+    const query = decodeURIComponent(document.location.hash.substr(4));
+
+    let newUrl = new URL(document.location);
+    newUrl.hash = "";
+    newUrl.searchParams.set("q", query);
+    history.replaceState({ query: query }, document.title, newUrl.href);
 }
 
 ////////////////////////////////////////////////////
@@ -343,29 +357,22 @@ function activateBibtexToggle(root = document) {
   }));
 };
 
-// Highlight publication, generate fragment identifier in URL and copy URL to clipboard on click
+// Generate fragment identifier in URL and copy URL to clipboard on click
 function activateShareLink(root = document) {
   root.querySelectorAll('.share').forEach(el => el.addEventListener("click", (event) => {
+    // Prevent page reload for links with empty href (as needed by uni-weimar.de pages)
     event.preventDefault();
 
     const bibentry = event.target.parentElement;
     const bibid = bibentry.previousElementSibling.id;
 
     const hash = "#" + bibid;
-    
-    if (window.location.hash !== hash) {
-      clearBibHighlight();
-      
-      const filterField = document.querySelector("#filter-field");
-      if ((filterField !== null) && (filterField.value !== "")) {
-        copyStringToClipboard(window.location.href.split("#")[0] + hash);
-      } else {
-        bibentry.classList.add("target");
-        history.pushState({ target: bibid }, document.title, hash);
-        copyStringToClipboard(window.location.href);
-      }
-    }
+    history.pushState({ target: bibid }, document.title, hash);
 
+    // Always copy URL when clicking share link, even when selecting the same bibentry
+    copyStringToClipboard(window.location.href);
+
+    // Display "copied" for 0.5 s after clicking share link
     var copiedSpan = document.createElement("span");
     const copiedText = document.createTextNode("copied");
     copiedSpan.appendChild(copiedText);
@@ -373,9 +380,7 @@ function activateShareLink(root = document) {
     event.target.insertAdjacentElement('afterend', copiedSpan);
     setTimeout(function() { event.target.parentNode.removeChild(copiedSpan); event.target.hidden = false }, 500);
 
-  }))
-  refreshBibHighlight();
-  window.addEventListener("hashchange", refreshBibHighlight);
+  }));
 }
 
 function copyStringToClipboard(str) {
@@ -389,26 +394,6 @@ function copyStringToClipboard(str) {
   el.select();
   document.execCommand('copy');
   document.body.removeChild(el);
-}
-
-function clearBibHighlight() {
-  document.querySelectorAll('.target').forEach(target => {
-    target.classList.remove("target");
-  });
-}
-
-function refreshBibHighlight() {
-  clearBibHighlight();
-  const hash = window.location.hash;
-  if (hash !== "" && !hash.startsWith("#?q=")) {
-    const targeted = document.querySelector(window.location.hash);
-    if (targeted !== null) {
-      const bibentry = targeted.nextElementSibling;
-      if (bibentry !== null) {
-        bibentry.classList.add("target");
-      }
-    }
-  }
 }
 
 function initWebisPublicationsFiltering(groups = document.querySelectorAll(".year-entry"), updateUrlQueryParam = true) {
