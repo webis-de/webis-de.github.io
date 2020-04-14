@@ -37,10 +37,6 @@ function refreshHighlight(type) {
 function initBibHighlightOnShare(shareLinks = document.querySelectorAll('.share')) {
   shareLinks.forEach(el => el.addEventListener("click", (event) => {
     const bibentry = event.target.parentElement;
-    const bibid = bibentry.previousElementSibling.id;
-
-    const hash = "#" + bibid;
-
     clearHighlight();
     bibentry.classList.add("target");
   }));
@@ -61,19 +57,6 @@ function highlightRow(row) {
     if (window.location.hash !== hash) {
       clearHighlight();
       row.classList.add("target");
-
-      const filterField = document.querySelector("#filter-field");
-      if (filterField !== null) {
-        if (filterField.value !== "") {
-          filterField.value = "";
-          filterField.dispatchEvent(new Event("input"));
-          const anchorRectangle = idCell.getBoundingClientRect();
-          if (anchorRectangle.bottom > window.innerHeight || anchorRectangle.top < 0) {
-            idCell.scrollIntoView();
-          }
-        }
-      }
-
       history.pushState( { target: id }, "", hash);
     }
   }
