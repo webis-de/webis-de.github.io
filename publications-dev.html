@@ -1,0 +1,30 @@
+---
+layout: default
+nav_active: publications
+title: Webis Publications
+description: Publications by the Webis group
+---
+
+<main class="uk-section uk-section-default">
+<div class="uk-container uk-margin-medium">
+<h1>Publications</h1>
+<div id="search-control">
+<input type="text" class="uk-input" id="filter-field" placeholder="Type here to filter&hellip;"/>
+</div>
+</div>
+
+<div class="uk-container uk-margin-medium publications-list">
+{% include bib-webis.html %}
+
+<div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+None of our publications match your filter.
+</div>
+</div>
+</main>
+
+<script src="/js/filter-dev.js"></script>
+<script src="/js/selection-dev.js"></script>
+<script>
+initWebisPublicationsFiltering();
+initBibHighlightOnShare();
+</script>
