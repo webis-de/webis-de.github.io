@@ -1,5 +1,42 @@
-const historyTimeoutMs = 500;
-let historyTimeoutId = undefined;
+////////////////////////////////////////////////////
+// Generic code for filter-based history manipulation
+////////////////////////////////////////////////////
+
+const historyNewStateThresholdMs = 1000;
+let lastHistoryChangeMs = new Date().getTime();
+
+function updateUrlQueryParameter(query) {
+  const url = new URL(document.location.href);
+  console.log(query + " " + url.searchParams);
+  if (query.trim() === "") {
+    if (!url.searchParams.has("q")) {
+      return;
+    } else {
+      url.searchParams.delete("q");
+    }
+  } else {
+    if (url.searchParams.has("q") && url.searchParams.get("q") === query) {
+      return;
+    } else {
+      url.searchParams.set("q", query);
+    }
+  }
+
+  const now = new Date().getTime();
+  const msSinceLastHistoryChange = now - lastHistoryChangeMs;
+  lastHistoryChangeMs = now;
+
+  if (msSinceLastHistoryChange >= historyNewStateThresholdMs) {
+    history.pushState({ query: query }, "", url);
+  } else {
+    history.replaceState({ query: query }, "", url);
+  }
+}
+
+
+////////////////////////////////////////////////////
+// Generic code for filtering
+////////////////////////////////////////////////////
 
 function containQuery(attributes, queryWords) {
   for (let q = 0; q < queryWords.length; ++q) {
@@ -82,24 +119,7 @@ function filterByQuery(query, groups, elementSelector, updateUrlQueryParam = tru
   }
 
   if (updateUrlQueryParam) { // webis.de page
-    let url = new URL(document.location.href); // copy url to make searchParams writable
-    let params = url.searchParams;
-    let changed = false;
-
-    if ((changed = (query.trim() !== "")) === true) {
-      params.set("q", query);
-    } else if ((changed = params.has("q")) === true) {
-      params.delete("q");
-    }
-    if (changed) {
-      if (historyTimeoutId !== undefined) {
-        clearTimeout(historyTimeoutId); // clear timeout on each new character input
-      }
-
-      historyTimeoutId = setTimeout(function (url, query) {
-        history.pushState({ query: query }, document.title, url)
-      }, historyTimeoutMs, url.href, query);
-    }
+    updateUrlQueryParameter(query);
   }
 
   if (typeof UIkit !== "undefined") {
