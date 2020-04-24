@@ -1,0 +1,140 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-Gmane-19
+description: Overview of corpora that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-Gmane-19",
+    "description":"A large-scale corpus of 153,310,330 fully-segmented emails from 14.635 public mailing lists.",
+    "url":"https://webis.de/data/webis-gmane-19.html",
+    "sameAs":"",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "debate", 
+        "argumentation", 
+        "arguments", 
+        "discussion"
+    ], 
+    "datePublished":"2020",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type": "Person",
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+            "name": "Bevendorff, Janek"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#al-khatib",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Al-Khatib, Khalid"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2451-0665",
+            "@type": "Person",
+            "affiliation": "Leipzig University",
+            "name": "Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"JSON",
+            "contentUrl":""
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-Gmane-19</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li> -->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>A large-scale corpus of 153,310,330 fully-segmented emails from 14.635 public mailing lists.</p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>As a qualified individual researcher or member of a research institution, you can request access the Webis-Gmane-19 corpus on <a href="#">Zenodo</a>. By downloading the dataset, you agree not to use or redistribute it for any non-academic purposes. We remind you that even though the data was compiled from public sources, you are handling user data and thus we ask you to act responsibly when using the corpus in your research.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="#">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="#">doi</a>] for a stable link.</p>
+
+        <p>The pre-trained segmentation model and code can be downloaded freely from <a href="#">GitHub</a>.</p>
+
+        <!--
+        SECTION Research
+        -->
+<!--        <h2 id="research">Research</h2>-->
+<!--        <p></p>-->
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
+            <li><a href="https://weimar.webis.de/people/#al-khatib">Khalid Al-Khatib</a></li>
+            <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+
+        <!--
+    	SECTION Publications
+        -->
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "tags:gmane");
+                </script>
+            </p>
+        </div>
+</main>
+
+<!--
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+//includeBibentries(document.getElementById("publications-list"), "tags:clickbait");
+</script>
+-->
