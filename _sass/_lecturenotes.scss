@@ -46,7 +46,31 @@ select.uk-select.filter {
 
 #lecturenotes-coursetable {
     .ads .part {
+        background: rgb(112, 172, 216);
+    }
+
+    .db .part {
         background: rgb(142, 202, 245);
+    }
+
+    .web .part {
+        background: rgb(171, 220, 255);
+    }
+
+    .ir .part {
+        background: rgb(189, 182, 227);
+    }
+
+    .nlp .part {
+        background: rgb(219, 213, 253);
+    }
+
+    .ml .part {
+        background: rgb(234, 219, 93);
+    }
+
+    .dm .part {
+        background: rgb(247, 234, 123);
     }
 
     .search .part {
@@ -59,26 +83,6 @@ select.uk-select.filter {
 
     .mk .part {
         background: rgb(206, 222, 191);
-    }
-
-    .db .part {
-        background: rgb(142, 202, 245);
-    }
-
-    .ml .part {
-        background: rgb(247, 234, 123);
-    }
-
-    .dm .part {
-        background: rgb(253, 219, 96);
-    }
-
-    .ir .part {
-        background: rgb(246, 231, 184);
-    }
-
-    .web .part {
-        background: rgb(162, 155, 224);
     }
 
     .tools .part {
