@@ -13,21 +13,21 @@ description: Overview of research that are used by the Webis research group
   "description":"",
   "url":"https://webis.de/research/opinioncloud.html",
   "keywords":[
-    "opinioncloud"
+  "opinioncloud"
   ], 
   "creator":[
-    {
-      "@type":"Organization",
-      "url":"https://webis.de/",
-      "name":"The Web Technology & Information Systems Network",
-      "alternateName":"Webis"
-    },
-    {
-        "@type":"Person", 
-        "url":"https://temir.org/people.html#potthast",
-        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-        "name":"Potthast, Martin"
-    }
+  {
+    "@type":"Organization",
+    "url":"https://webis.de/",
+    "name":"The Web Technology & Information Systems Network",
+    "alternateName":"Webis"
+  },
+  {
+    "@type":"Person", 
+    "url":"https://temir.org/people.html#potthast",
+    "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+    "name":"Potthast, Martin"
+  }
   ],
   "includedInDataCatalog":{
   },
@@ -37,54 +37,47 @@ description: Overview of research that are used by the Webis research group
 </script>
 
 <main class="uk-section uk-section-default">
-    <div class="uk-container">
-        <h1>OpinionCloud</h1>
+  <div class="uk-container">
+    <h1>OpinionCloud</h1>
 
-        <ul class="uk-list">
-            <!-- Comment out sections you do not provide -->
-            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
-        </ul>
-    </div>
+    <ul class="uk-list">
+      <!-- Comment out sections you do not provide -->
+      <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+      <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+      <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+    </ul>
+  </div>
 
-    <div class="uk-container uk-margin-medium">
-        <!--
-        SECTION Synopsis
-        -->
-        <h2><a id="synopsis"></a>Synopsis</h2>
-
-       <p>In this project we develop OpinionCloud, a new opinion summarization technology for Web comments in general and YouTube and Flickr in particular. Popular Web items often get up to thousands of comments and in order to get an idea about the crowd's overall opinion one has to read all of them, which is of course impractical. Our summarization approach helps to retrieve this important piece of information by generating an opinion word cloud for a given set of comments. We operationalize the technology in a browser add-on for Firefox which summarizes the comments on a YouTube video when the user starts watching it.</p>
+  <div class="uk-container uk-margin-medium">
 
 
-        <!--
-        SECTION Research
-        -->
-        <h2><a id="research"></a>Research</h2>
+    <!--
+    SECTION Synopsis
+    -->
+    <h2><a id="synopsis"></a>Synopsis</h2>
 
-        <p>Our research on opinion summarization of Web comments boils down to two research areas: sentiment analysis and summary visualization. The former deals with the classification of words as positive, negative, or neutral, whereas the latter deals with the design of an accessible visual representation of a set of opinions.</p>
+    <p>With OpinionCloud we present a new opinion summarization technology for Web comments in general and for YouTube and Flickr in particular. Popular Web items quickly get up to thousands of comments; to get an idea about the crowd's overall opinion one has to read all of them, which quickly may become impossible. The OpinionCloud summarization approach helps to retrieve this impression by generating an opinion word cloud for a given set of comments.</p>
 
-        <p>In sentiment analysis a word's polarity can be identified by measuring its co-occurrence with words whose polarity is known in advance, i.e., if a given word occurs with a high probability in the vicinity of positive (negative) words it can be considered positive (negative) as well. Neutral words, however, tend to occur arbitrarily next to words of both polarities. We use this idea to train a dictionary of opinion words which also contains slang terms that are often used in comments. The dictionary is then used to classify the words of comments into positive, negative, and neutral words. By default, words that are not contained in the dictionary are considered neutral.</p>
-        <p>The the visualization of the opinions, the words are arranged in a cloud where the color of a word denotes its polarity and the size of a word its frequency in the comments. This visualization is comparable to the well-known tag clouds for folksonomies.</p>
+    <p>Opinion summarization of Web comments combines two research strands: sentiment analysis and summary visualization. The former deals with the classification of words as positive, negative, or neutral, the latter deals with the design of an accessible visual representation of a set of opinions. A word's polarity can be assessed by measuring its co-occurrence with words whose polarity is known in advance. We use this idea to train a dictionary of opinion words which also contains slang terms that are often used in comments. This dictionary is used to classify the words of comments into positive, negative, and neutral. The words are arranged in a cloud where the color of a word denotes its polarity and the size of a word its frequency in the comments. The visualization is comparable to the well-known tag clouds for folksonomies.</p>
 
-        <!--
-        SECTION People
-        -->
-        <h2><a id="people"></a>People</h2>
-        <ul>
+
+    <!--
+    SECTION People
+    -->
+    <h2><a id="people"></a>People</h2>
+    <ul>
 	<li><a href="https://weimar.webis.de/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
-        </ul>
-        <p>Students:&nbsp;Steffen Becker</p>
+    </ul>
+    <p>Students:&nbsp;Steffen Becker</p>
 
 	<!--
 	SECTION Publications
 	-->
 	<h2><a id="publications"></a>Publications</h2>
-        <div id="publications-list">
-        </div>
+    <div id="publications-list">
+    </div>
 	</div>
-        </div>
+    </div>
 </main>
 
 <script src="https://assets.webis.de/js/filter.js"></script>
