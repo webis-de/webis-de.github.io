@@ -1,0 +1,233 @@
+---
+layout: default
+nav_active: data
+title: Webis-NearDuplicates-20 
+description: Overview of corpora that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"webis-near-duplicates-20",
+    "description":"Under Review.",
+    "url":"https://webis.de/data/webis-near-duplicates-20"
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "Text Reuse",
+        "Common Crawl",
+        "ClueWeb09" 
+        "ClueWeb09"
+    ], 
+    "datePublished":"TBD: Under-Review",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#froebe",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Fr\u00f6be, Maik"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#bevendorff",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Bevendorff, Janek"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#gienapp",
+            "affiliation":"Leipzig University", 
+            "name":"Gienapp, Lukas"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#potthast",
+            "affiliation":"Leipzig University", 
+            "name":"Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"still-under-review"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-Near-Duplicates-20</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>-->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            TBD.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>The datasets are stored in our ceph cluster and can be accessed by our public S3 endpoints. S3 allows direct download with HTTP and can be directly incorporated into big data tools like Hadoop and Spark.</p>
+
+        <h3 id="download-ids-to-remove">IDs to Remove</h3>
+	<p>The following files contain the IDs of documents that you can skip during the processing of your corpus to obtain a corpus without near-duplicates. Each document specified by an ID has a near-duplicate that remains in the crawl.</p>
+        <ul>
+            <li>
+                <a href="">clueweb09-ids-to-remove</a>
+            </li>
+            <li>
+                <a href="">clueweb12-ids-to-remove</a>
+            </li>
+	    <li>
+                <a href="">common-crawl-2015-11-ids-to-remove</a>
+            </li>
+	    <li>
+                <a href="">common-crawl-2017-04-ids-to-remove</a>
+            </li>
+        </ul>
+	<p>The data contains one ID per line and is splitted into multiple parts. To retrieve the first two documents to remove for ClueWeb09, run:</p>
+	<code>
+		curl example |head -2
+	</code>
+
+        <h3 id="download-pairs-of-near-duplicates">Pairs of Near-Duplicates (With Reason)</h3>
+	<p>The following files contain the pairs of near-duplicates that we found with the reason. Attention: you need Groups of Near-Duplicates.</p>
+        <ul>
+            <li>
+                <a href="">clueweb09-raw-near-duplicate-pairs</a>
+	    </li>
+	    <li>
+                <a href="">clueweb12-raw-near-duplicate-pairs</a>
+            </li>
+	    <li>
+                <a href="">common-crawl-2015-11-raw-near-duplicate-pairs</a>
+	    </li>
+	    <li>
+                <a href="">common-crawl-2017-04-raw-near-duplicate-pairs</a>
+            </li>
+        </ul>
+	<p>The data is in the jsonl format is splitted into multiple parts. To retrieve the first two pairs of near-duplicates for ClueWeb09, run:</p>
+	<code>
+		curl example |head -2
+	</code>
+
+        <h3 id="download-groups-of-near-duplicates">Groups of Near-Duplicates</h3>
+	<p>TBD.</p>
+        <ul>
+            <li>
+                <a href="">clueweb09-tbd</a>
+	    </li>
+	    <li>
+                <a href="">clueweb12-tbd</a>
+            </li>
+	    <li>
+                <a href="">common-crawl-2015-11-tbd</a>
+	    </li>
+	    <li>
+                <a href="">common-crawl-2017-04-tbd</a>
+            </li>
+        </ul>
+	<p>The data is in the jsonl format is splitted into multiple parts. TBD-Example, run:</p>
+	<code>
+		curl example |head -2
+	</code>
+
+        <h3 id="download-document-representations">Document Representations</h3>
+	<p>TBD.</p>
+        <ul>
+            <li>
+                <a href="">clueweb09-tbd</a>
+	    </li>
+	    <li>
+                <a href="">clueweb12-tbd</a>
+            </li>
+	    <li>
+                <a href="">common-crawl-2015-11-tbd</a>
+	    </li>
+	    <li>
+                <a href="">common-crawl-2017-04-tbd</a>
+            </li>
+        </ul>
+	<p>The data is in the jsonl format is splitted into multiple parts. TBD-Example, run:</p>
+	<code>
+		curl example |head -2
+	</code>
+        <!--
+        SECTION Research
+        
+        <h2 id="research">Research</h2>
+
+        <ul>
+            <li> </li>
+        </ul>
+
+    
+        -->
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#froebe">Maik Fr&ouml;be</a></li>
+            <li><a href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
+            <li><a href="https://temir.org/people.html#gienapp">Lukas Gienapp</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+            <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+        </ul>
+        <!--
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/filter.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "tags:webis-argument-framing-19");
+            </script>
+            </p>
+        </div>
+        -->
+    </div>
+
+</main>
+
+
