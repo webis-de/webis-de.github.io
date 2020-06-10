@@ -118,21 +118,24 @@ description: Overview of corpora that are used by the Webis research group
 	<p>The following files contain the IDs of documents that you can skip during the processing of your corpus to obtain a corpus without near-duplicates. Each document specified by an ID has a near-duplicate that remains in the crawl.</p>
         <ul>
             <li>
-                <a href="">clueweb09-ids-to-remove</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/">ClueWeb09 (keys: documents-to-remove/cw09-ids-to-remove-bzip2/*)</a>
             </li>
             <li>
-                <a href="">clueweb12-ids-to-remove</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/">ClueWeb12 (keys: documents-to-remove/cw12-ids-to-remove-bzip2/*)</a>
             </li>
 	    <li>
-                <a href="">common-crawl-2015-11-ids-to-remove</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/">Common Crawl 2015-11 (keys: documents-to-remove/2015-11-ids-to-remove-bzip2/*)</a>
             </li>
 	    <li>
-                <a href="">common-crawl-2017-04-ids-to-remove</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/">rawl 2017-04: (keys: documents-to-remove/2017-04-ids-to-remove-bzip2/*)</a>
             </li>
         </ul>
 	<p>The data contains one ID per line and is splitted into multiple parts. To retrieve the first two documents to remove for ClueWeb09, run:</p>
 	<code>
-		curl example |head -2
+		curl 'https://corpus-copycat.s3.data.webis.de/documents-to-remove/cw09-ids-to-remove-bzip2/part-00000.bz2' \<br>
+			2>/dev/null |\<br>
+			bzip2 -dc \<br>
+			|head -2
 	</code>
 
         <h3 id="download-pairs-of-near-duplicates">Pairs of Near-Duplicates</h3>
