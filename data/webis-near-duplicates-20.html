@@ -124,25 +124,24 @@ description: Overview of corpora that are used by the Webis research group
                 <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw12">ClueWeb12 (keys: documents-to-remove/cw12-ids-to-remove-bzip2/*)</a>
             </li>
 	    <li>
-                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cc-2015-11">Common Crawl 2015-11 (keys: documents-to-remove/2015-11-ids-to-remove-bzip2/*)</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cc-2015-11">Common Crawl 2015-11 (keys: documents-to-remove/cc-2015-11-ids-to-remove-bzip2/*)</a>
             </li>
 	    <li>
-                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cc-2017-04">rawl 2017-04: (keys: documents-to-remove/2017-04-ids-to-remove-bzip2/*)</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cc-2017-04">Common Crawl 2017-04: (keys: documents-to-remove/cc-2017-04-ids-to-remove-bzip2/*)</a>
             </li>
         </ul>
 	<p>The data contains one ID per line and is splitted into multiple parts. To retrieve the first two documents to remove for ClueWeb09, run:</p>
-	<code>
-		curl 'https://corpus-copycat.s3.data.webis.de/documents-to-remove/cw09-ids-to-remove-bzip2/part-00000.bz2' \<br>
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/documents-to-remove/cw09-ids-to-remove-bzip2/part-00000.bz2' \<br>
 			2>/dev/null |\<br>
 			bzip2 -dc \<br>
 			|head -2
 	</code>
 
         <h3 id="download-pairs-of-near-duplicates">Pairs of Near-Duplicates</h3>
-	<p>To make our work reproducible, we make the intermediate results of the final step of our pipeline (near-duplicates) available. Currently we make the data public available in our Ceph-Cluster. The data will be available until 13.06.2020.</p>
+	<p>To make our work reproducible, we make the intermediate results of the final step of our pipeline (near-duplicates) available. Currently we make the data public available in our Ceph-Cluster. The data will be available on 13.06.2020.</p>
 
         <h3 id="download-groups-of-near-duplicates">Groups of Near-Duplicates</h3>
-	<p>To make our work reproducible, we make the intermediate results of step two of our pipeline (documents with identical SimHash) available. Currently we make the data public available in our Ceph-Cluster. The data will be available until 13.06.2020.</p>
+	<p>To make our work reproducible, we make the intermediate results of step two of our pipeline (documents with identical SimHash) available. Currently we make the data public available in our Ceph-Cluster. The data will be available on 13.06.2020.</p>
 
         <h3 id="download-document-representations">Document Representations</h3>
 	<p>To make our work reproducible, we publish the document representations that are the result of the first step of our pipeline. Each raw document is mapped to a representation with the fields: <code>docId</code>, <code>url</code>, <code>canonicalURL</code>, <code>64BitK3SimHashOneGrams</code>, and <code>64BitK3SimHashThreeAndFiveGrams</code> that we use for the near-duplicate detection with SimHash in subsequent steps of the pipeline.</p>
@@ -159,21 +158,20 @@ description: Overview of corpora that are used by the Webis research group
                 <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cc-2015-11/">Common Crawl 2015-11 (keys: document-representations/cc-2015-11/*)</a>
             </li>
 	    <li>
-                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cc-2017-04/">rawl 2017-04: (keys: document-representations/cc-2017-11/*)</a>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cc-2017-04/">Common Crawl 2017-04: (keys: document-representations/cc-2017-11/*)</a>
             </li>
         </ul>
 	
 	<p>The data comes in the jsonl format and is splitted into multiple parts (i.e. each line is a valid json that represents one document. To retrieve the first two document-representations for ClueWeb09, run:</p>
 	
-	<code>
-		curl 'https://corpus-copycat.s3.data.webis.de/document-representations/cw09/part-00000.bz2' \<br>
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/document-representations/cw09/part-00000.bz2' \<br>
 			2>/dev/null |\<br>
 			bzip2 -dc \<br>
 			|head -2
 	</code>
 	
         <h3 id="transferred-relevance-judgments">Transferred Relevance Judgments</h3>
-	<p>To make our work reproducible, we make the transferred relevance judgments of the WEB and Session track available. Currently we make the data public available in our Ceph-Cluster. The data will be available until 13.06.2020.</p>
+	<p>To make our work reproducible, we make the transferred relevance judgments of the WEB and Session track available. Currently we make the data public available in our Ceph-Cluster. The data will be available on 13.06.2020.</p>
 
         <!--
         SECTION People
