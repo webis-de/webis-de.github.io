@@ -208,7 +208,19 @@ description: Overview of corpora that are used by the Webis research group
 	</code>
 	
         <h3 id="transferred-relevance-judgments">Transferred Relevance Judgments</h3>
-	<p>To make our work reproducible, we make the transferred relevance judgments of the WEB and Session track available. Currently we make the data public available in our Ceph-Cluster. The data will be available on 13.06.2020.</p>
+	<p>To make our work reproducible, we make the transferred relevance judgments of the WEB and Session tracks available. For each transferred relevance judgment, we list only one document (in case there are multiple near-duplicates).</p>
+	<ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/relevance-transfer.jsonl">relevance-transfer.jsonl</a>
+            </li>
+        </ul>
+	<p>The data comes in the jsonl format. To retrieve the first two transferred relevance judgments, run:</p>
+	
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/relevance-transfer.jsonl' \<br>
+			2>/dev/null |\<br>
+			head -2
+	</code>
+
 
         <!--
         SECTION People
