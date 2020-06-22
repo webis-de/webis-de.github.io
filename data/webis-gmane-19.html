@@ -146,12 +146,12 @@ description: Overview of corpora that are used by the Webis research group
         <p>The corpus was originally indexed with Elasticsearch 6.8, which accepted a different date format. Elasticsearch 7.x may fail due to invalid UTC zone offsets in some messages. The following Painless&nbsp;script fixes the issue by clipping offsets outside the +/-18:00 range:</p>
 
         <pre>
-<code class="language-java">if (ctx._source.timestamp != null) {
-    String o = ctx._source.timestamp.substring(ctx._source.timestamp.length() - 5);
+<code class="language-java">if (ctx._source.headers.date != null) {
+    String o = ctx._source.headers.date.substring(ctx._source.headers.date.length() - 5);
     int oi = Integer.min(18, Integer.parseInt(o.substring(0, 2)));
     String co = String.format("%02d", new def[] {oi});
-    o = oi &lt; 18 ? co + o.substring(o.length() - 3) : co + ":00";
-    ctx._source.timestamp = ctx._source.timestamp.substring(0, ctx._source.timestamp.length() - 5) + o;
+    o = oi < 18 ? co + o.substring(o.length() - 3) : co + ":00";
+    ctx._source.headers.date = ctx._source.headers.date.substring(0, ctx._source.headers.date.length() - 5) + o;
 }</code></pre>
 
         <p>In Python, you can preprocess the date field with:</p>
