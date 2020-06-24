@@ -112,7 +112,7 @@ description: Overview of corpora that are used by the Webis research group
 
         <ul>
             <li>message_id</li>
-            <li>date (yyyy-MM-dd HH:mm:ssZZ)</li>
+            <li>date (ES 7.x: yyyy-MM-dd HH:mm:ssXXX, ES 6.8: yyy-MM-dd HH:mm:ssZZ)</li>
             <li>subject</li>
             <li>from</li>
             <li>to</li>
@@ -141,6 +141,23 @@ description: Overview of corpora that are used by the Webis research group
             <li>technical</li>
             <li>visual_separator</li>
         </ul>
+
+        <h3>Compatibility Note:</h3>
+        <p>The corpus was originally indexed with Elasticsearch 6.8, which accepted a different date format. Elasticsearch 7.x may fail due to invalid UTC zone offsets in some messages. The following Painless&nbsp;script fixes the issue by clipping offsets outside the +/-18:00 range:</p>
+
+        <pre>
+<code class="language-java">if (ctx._source.headers.date != null) {
+    String o = ctx._source.headers.date.substring(ctx._source.headers.date.length() - 5);
+    int oi = Integer.min(18, Integer.parseInt(o.substring(0, 2)));
+    String co = String.format("%02d", new def[] {oi});
+    o = oi < 18 ? co + o.substring(o.length() - 3) : co + ":00";
+    ctx._source.headers.date = ctx._source.headers.date.substring(0, ctx._source.headers.date.length() - 5) + o;
+}</code></pre>
+
+        <p>In Python, you can preprocess the date field with:</p>
+
+        <pre>
+<code class="language-python">''.join((d[:-5], f'{min(18, int(d[-5:-3])):02d}', d[-3:] if int(d[-5:-3]) &lt; 18 else ':00'))</code></pre>
 
         <!--
         SECTION Download

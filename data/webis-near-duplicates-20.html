@@ -1,0 +1,252 @@
+---
+layout: default
+nav_active: data
+title: Webis-NearDuplicates-20 
+description: Overview of corpora that are used by the Webis research group
+---
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"webis-near-duplicates-20",
+    "description":"Under Review.",
+    "url":"https://webis.de/data/webis-near-duplicates-20"
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "Text Reuse",
+        "Common Crawl",
+        "ClueWeb09" 
+        "ClueWeb09"
+    ], 
+    "datePublished":"TBD: Under-Review",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#froebe",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Fr\u00f6be, Maik"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#bevendorff",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Bevendorff, Janek"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#gienapp",
+            "affiliation":"Leipzig University", 
+            "name":"Gienapp, Lukas"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#potthast",
+            "affiliation":"Leipzig University", 
+            "name":"Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"still-under-review"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-Near-Duplicates-20</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>-->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            This dataset (currently under review) contains information on automatically detected near-duplicate documents (with SimHash) within the ClueWeb09, the ClueWeb12, two snapshots of the Common Crawl, as well as between selected pairs of these corpora. The dataset addresses several issues:
+        <ul>
+         	<li>Make it as simple as possible for users to obtain a copy of their crawl with out near-duplicates</li>
+         	<li>Support the transition of standard evaluation corpora (such as from ClueWeb09 to ClueWeb12) for web search tasks by enabling the transfer of annotated information to near-duplicates of a target crawl</li>
+         	<li>Enable studies on near duplicates in static web corpora</li>
+        </ul>
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>The datasets are stored in our ceph cluster and can be accessed by our public S3 endpoints. S3 allows direct download with HTTP and can be directly incorporated into big data tools like Hadoop and Spark.</p>
+
+        <h3 id="download-ids-to-remove">IDs to Remove</h3>
+	<p>The following files contain the IDs of documents that you can skip during the processing of your corpus to obtain a corpus without near-duplicates. Each document specified by an ID has a near-duplicate that remains in the crawl.</p>
+        <ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw09">ClueWeb09 (keys: documents-to-remove/cw09-ids-to-remove-bzip2/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw12">ClueWeb12 (keys: documents-to-remove/cw12-ids-to-remove-bzip2/*)</a>
+            </li>
+	    <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cc-2015-11">Common Crawl 2015-11 (keys: documents-to-remove/cc-2015-11-ids-to-remove-bzip2/*)</a>
+            </li>
+	    <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cc-2017-04">Common Crawl 2017-04: (keys: documents-to-remove/cc-2017-04-ids-to-remove-bzip2/*)</a>
+            </li>
+        </ul>
+	<p>The data contains one ID per line and is splitted into multiple parts. To retrieve the first two documents to remove for ClueWeb09, run:</p>
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/documents-to-remove/cw09-ids-to-remove-bzip2/part-00000.bz2' \<br>
+			2>/dev/null |\<br>
+			bzip2 -dc \<br>
+			|head -2
+	</code>
+
+        <h3 id="download-pairs-of-near-duplicates">Pairs of Near-Duplicates</h3>
+	<p>To make our work reproducible, we make the intermediate results of the final step of our pipeline (near-duplicates) available. Please note that you also need to take the <a href="#download-groups-of-near-duplicates">groups of near-duplicates</a> into consideration.</p>
+        <ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicates/cw09-cw12/">ClueWeb09/12 (keys: near-duplicates/cw09-cw12/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicates/cc-2017-04/">Common Crawl 2017-04 (keys: near-duplicates/cc-2017-04/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicates/cw09-cw12-cc-2015-11/">ClueWeb09 + ClueWeb12 + Common Crawl 2015-11 (keys: near-duplicates/cw09-cw12-cc-2015-11/*)</a>
+            </li>
+        </ul>
+	<p>The data comes in the csv format <code>first-id,second-id</code> where <code>first-id</code> is a near-duplicate of <code>second-id</code> and <code>first-id</code> is the alphanumerical lower id. The pairs of ids are distinct (without duplicates), and the pair <code>second-id,first-id</code> is ommitted. To retrieve the first two pairs of near-duplicates for the ClueWebs, run:</p>
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/near-duplicates/cw09-cw12/part-00000' 2>/dev/null |\ <br>head -2</code>
+
+        <h3 id="download-groups-of-near-duplicates">Groups of Near-Duplicates</h3>
+	<p>To make our work reproducible, we make the intermediate results of step two of our pipeline available: documents with identical SimHash.</p>
+
+        <ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=exact-duplicates/cw09/">ClueWeb09 (keys: exact-duplicates/cw09/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=exact-duplicates/cw12/">ClueWeb12 (keys: exact-duplicates/cw12/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=exact-duplicates/cc-2015-11/">Common Crawl 2015-11 (keys: exact-duplicates/cc-2015-11/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=exact-duplicates/cc-2017-04/">Common Crawl 2017-04 (keys: exact-duplicates/cc-2017-04/*)</a>
+            </li>
+                        <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=exact-duplicates/cw09-cw12-cc-2015-11/">ClueWeb09 + ClueWeb12 + Common Crawl 2015-11 (keys: exact-duplicates/cw09-cw12-cc-2015-11/*)</a>
+            </li>
+        </ul>
+	<p>The data comes in the jsonl format and is splitted into multiple parts (i.e. each line is a valid json that represents one group of documents. To retrieve the first two groups of documents with identical fingerprint for ClueWeb09, run:</p>
+	
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/exact-duplicates/cw09/part-00000' \<br>
+			2>/dev/null |\<br>
+			head -2
+	</code>
+
+        <h3 id="download-document-representations">Document Representations</h3>
+	<p>To make our work reproducible, we publish the document representations that are the result of the first step of our pipeline. Each raw document is mapped to a representation with the fields: <code>docId</code>, <code>url</code>, <code>canonicalURL</code>, <code>64BitK3SimHashOneGrams</code>, and <code>64BitK3SimHashThreeAndFiveGrams</code> that we use for the near-duplicate detection with SimHash in subsequent steps of the pipeline.</p>
+	
+	
+	<ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cw09/">ClueWeb09 (keys: document-representations/cw09/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cw12/">ClueWeb12 (keys: document-representations/cw12/*)</a>
+            </li>
+	    <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cc-2015-11/">Common Crawl 2015-11 (keys: document-representations/cc-2015-11/*)</a>
+            </li>
+	    <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=document-representations/cc-2017-04/">Common Crawl 2017-04: (keys: document-representations/cc-2017-11/*)</a>
+            </li>
+        </ul>
+	
+	<p>The data comes in the jsonl format and is splitted into multiple parts (i.e. each line is a valid json that represents one document. To retrieve the first two document-representations for ClueWeb09, run:</p>
+	
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/document-representations/cw09/part-00000.bz2' \<br>
+			2>/dev/null |\<br>
+			bzip2 -dc \<br>
+			|head -2
+	</code>
+	
+        <h3 id="transferred-relevance-judgments">Transferred Relevance Judgments</h3>
+	<p>To make our work reproducible, we make the transferred relevance judgments of the WEB and Session tracks available. For each transferred relevance judgment, we list only one document (in case there are multiple near-duplicates).</p>
+	<ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/relevance-transfer.jsonl">relevance-transfer.jsonl</a>
+            </li>
+        </ul>
+	<p>The data comes in the jsonl format. To retrieve the first two transferred relevance judgments, run:</p>
+	
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/relevance-transfer.jsonl' \<br>
+			2>/dev/null |\<br>
+			head -2
+	</code>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#froebe">Maik Fr&ouml;be</a></li>
+            <li><a href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
+            <li><a href="https://temir.org/people.html#gienapp">Lukas Gienapp</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+            <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+        </ul>
+        <!--
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/filter.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "tags:webis-argument-framing-19");
+            </script>
+            </p>
+        </div>
+        -->
+    </div>
+
+</main>
+
+
