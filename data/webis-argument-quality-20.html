@@ -96,14 +96,11 @@ description: Overview of corpora that are used by the Webis research group
         SECTION Download
         -->
         <h2 id="download">Download</h2>
-        <p>To download the corpus use the following link:</p>
+        <p>To download the corpus and model use the following links:</p>
         <ul>
             <li>
                 <a href="https://zenodo.org/record/3780049">Webis-ArgQuality-20 Data</a>
             </li>
-        </ul>
-        <p>The model implementation is available at:</p>
-        <ul>
             <li>
                 <a href="https://github.com/webis-de/acl20-efficient-argument-quality-annotation">Webis-ArgQuality-20 Model</a>
             </li>
@@ -118,7 +115,8 @@ description: Overview of corpora that are used by the Webis research group
         <h3> Processed Data </h3>
         <p>The dataset is split into three different tables. Each key represents a column name, with details about the contained data in the explanation field. Primary keys are marked in <b>bold</b>. If a combined key is used, all entries that the combined key is composed of are marked. Foreign keys that can be used to reference other tables are marked in <i>italics</i>.</p>
         <ul>
-            <li> Argument Dataset 
+            <li> Argument Dataset
+                <table class="uk-table uk-table-divider uk-table-condensed"> 
                 <tbody>
                   <tr>
                     <td class="uk-table-shrink"><b>Key</b></td>
@@ -172,9 +170,11 @@ description: Overview of corpora that are used by the Webis research group
                     <td class="uk-table-shrink">Text Length</td>
                     <td class="uk-table-shrink">Word Count of the premise</td>
                   </tr>
-                </tbody>                                                                       
+                </tbody>
+                </table>                                                                       
             </li>
             <li>Ranking Dataset
+                <table class="uk-table uk-table-divider uk-table-condensed">
                 <tbody>
                   <tr>
                     <td class="uk-table-shrink"><b>Key</b></td>
@@ -200,9 +200,11 @@ description: Overview of corpora that are used by the Webis research group
                     <td class="uk-table-shrink"><i>Discussion ID</i></td>
                     <td class="uk-table-shrink">Unique identifier of the discussion the argument is part of</td>
                   </tr>
-                </tbody> 
+                </tbody>
+                </table> 
             </li>
             <li>Topic Dataset
+                <table class="uk-table uk-table-divider uk-table-condensed">
                 <tbody>
                   <tr>
                     <td class="uk-table-shrink"><b>Key</b></td>
@@ -224,13 +226,15 @@ description: Overview of corpora that are used by the Webis research group
                     <td class="uk-table-shrink">Short Query</td>
                     <td class="uk-table-shrink">Shortened form of the query</td>
                   </tr>
-                </tbody> 
+                </tbody>
+                </table> 
             </li>
         </ul>
         <h4>Raw Data</h4>
         <p>Individual comparisons for argument quality are given in a dedicated table each. Relevance annotations are included as well. Each key represents a column name, with details about the contained data in the explanation field. Primary keys are marked in <b>bold</b>. If a combined key is used, all entries that the combined key is composed of are marked. Foreign keys that can be used to reference other tables are marked in <i>italics</i>.</p>
         <ul>
             <li>Quality Annotations
+                <table class="uk-table uk-table-divider uk-table-condensed">
                 <tbody>
                   <tr>
                     <td class="uk-table-shrink"><b>Key</b></td>
@@ -257,8 +261,10 @@ description: Overview of corpora that are used by the Webis research group
                     <td class="uk-table-shrink">Denotes the direction of the comparison; can be "A" if argument A is better, "B" if argument B is better, of "Tie", if both arguments are equal. </td>
                   </tr>
                 </tbody>
+                </table>
             </li> 
             <li>Relevance Annotations
+                <table class="uk-table uk-table-divider uk-table-condensed">
                 <tbody>
                   <tr>
                     <td class="uk-table-shrink"><b>Key</b></td>
@@ -285,6 +291,7 @@ description: Overview of corpora that are used by the Webis research group
                     <td class="uk-table-shrink">Boolean value, indicating wether the item is an argument, or not</td>
                   </tr>
                 </tbody>
+                </table>
             </li>
         </ul>
         <h4>Model Implementation</h4>
@@ -314,5 +321,3 @@ description: Overview of corpora that are used by the Webis research group
     </div>
 
 </main>
-
-
