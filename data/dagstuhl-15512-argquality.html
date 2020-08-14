@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_active: data
-title: Arg-Microtexts Synthesis Benchmark 
+title: Dagstuhl-15512-ArgQuality 
 description: Overview of corpora that are used by the Webis research group
 ---
 
@@ -9,10 +9,10 @@ description: Overview of corpora that are used by the Webis research group
 {
     "@context":"http://schema.org/",
     "@type":"Dataset",
-    "name":"arg-microtexts-18",
-    "description":"130 logos-oriented and 130 pathos-oriented benchmark arguments for 10 topics, manually synthesized by 26 experts based on a pool of argumentative discourse units from the Arg-Microtexts corpus.",
-    "url":"https://webis.de/data/arg-microtexts-18",
-    "sameAs":"https://doi.org/10.5281/zenodo.3973270",
+    "name":"dagstuhl-15512-argquality",
+    "description":"An English corpus for studying the assessment of argumentation quality. It contains 320 online debate portal arguments, annotated for 15 different quality dimensions by three annotators.",
+    "url":"https://webis.de/data/dagstuhl-15512-argquality",
+    "sameAs":"https://doi.org/10.5281/zenodo.3973284",
     "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords":[
         "arguments", 
@@ -27,34 +27,40 @@ description: Overview of corpora that are used by the Webis research group
             "alternateName":"Webis"
         },
         {
-            "@type":"Person", 
+            "@type":"Person",
             "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
-            "affiliation":"Paderborn University", 
+            "affiliation":"Paderborn University",
             "name":"Wachsmuth, Henning"
         },
         {
-            "@type":"Person", 
-            "url":"https://www.ling.uni-potsdam.de/~stede/",
-            "affiliation":"University of Potsdam",
-            "name":"Stede, Manfred"
+            "@type":"Person",
+            "affiliation":"University of Toronto, Toronto, Canada",
+            "name":"Naderi, Nona"
         },
         {
             "@type":"Person",
-	        "url":"https://weimar.webis.de/people/#elbaff",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"El Baff, Roxanne"
+            "affiliation":"IBM Research Dublin, Ireland",
+            "name":"Hou, Yufang"
         },
         {
-            "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#alkhatib",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Al-Khatib, Khalid"
+            "@type":"Person",
+            "affiliation":"IBM Research Haifa, Israel",
+            "name":"Bilu, Yonatan"
         },
         {
-            "@type":"Person", 
-            "url":"https://people.dsv.su.se/~mariask/",
-            "affiliation":"Linnaeus University, V\u00e4xj\u00f6, Sweden", 
-            "name":"Skeppstedt, Maria"
+            "@type":"Person",
+            "affiliation":"Stanford University, Stanford, CA, USA",
+            "name":"Prabhakaran, Vinodkumar"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"University of Toronto, Toronto, Canada",
+            "name":"Alberdingk Thijm, Tim"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"University of Toronto, Toronto, Canada",
+            "name":"Hirst, Graeme"
         },
         {
             "@type":"Person", 
@@ -72,7 +78,7 @@ description: Overview of corpora that are used by the Webis research group
         {
             "@type":"DataDownload",
             "encodingFormat":"CSV",
-            "contentUrl":"https://zenodo.org/record/3973271"
+            "contentUrl":"https://zenodo.org/record/3973285"
         }
     ]
 }
@@ -80,7 +86,7 @@ description: Overview of corpora that are used by the Webis research group
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Arg-Microtexts-18</h1>
+        <h1>Dagstuhl-15512-ArgQuality</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -99,8 +105,11 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            130 logos-oriented and 130 pathos-oriented benchmark arguments for 10 topics, manually synthesized by 26 experts based on a pool of argumentative discourse units from the <a href="https://github.com/peldszus/arg-microtexts">Arg-Microtexts</a> corpus.
-            In case you publish any results related to the this benchmark data, please cite our upcoming COLING 2018 <a href="#publications">paper</a> on argumentation synthesis.
+            An English corpus for studying the assessment of argumentation quality. It contains 320 online debate portal arguments, annotated for 15 different quality dimensions by three annotators.
+            
+            In version 2, the annotated XMI files have been changed according to a new underlying type system where each quality dimension is represented by an own annotation. This annotation contains not only the majority score of the respective dimension (as in version 1), but also the mean score and the scores of all annotators. We recommend to use version 2.
+            
+            In case you publish any results related to the Dagstuhl-15512 ArgQuality corpus, please cite our EACL 2017 <a href="#publications">paper</a> on argumentation quality.
         </p>
 
         <!--
@@ -110,7 +119,7 @@ description: Overview of corpora that are used by the Webis research group
         <p>To download the corpus use the following link:</p>
         <ul>
             <li>
-                <a href="https://zenodo.org/record/3973271">Arg-Microtexts-18</a>
+                <a href="https://zenodo.org/record/3973285">Dagstuhl-15512-ArgQuality</a>
             </li>
         </ul>
 
@@ -131,10 +140,12 @@ description: Overview of corpora that are used by the Webis research group
         <h2 id="people">People</h2>
         <ul>
             <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
-            <li><a href="https://www.ling.uni-potsdam.de/~stede/">Manfred Stede</a></li>
-            <li><a href="https://weimar.webis.de/people/#elbaff">Roxanne El Baff</a></li>
-            <li><a href="https://weimar.webis.de/people/#alkhatib">Khalid Al-Khatib</a></li>
-            <li><a href="https://people.dsv.su.se/~mariask/">Maria Skeppstedt</a></li>
+            <li>Nona Naderi</li>
+            <li>Yufang Hou</li>
+            <li>Yonatan Bilu</li>
+            <li>Vinodkumar Prabhakaran</li>
+            <li>Tim Alberdingk Thijm</li>
+            <li>Graeme Hirst</li>
             <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
         </ul>
 
@@ -143,7 +154,7 @@ description: Overview of corpora that are used by the Webis research group
             <p>
             <script src="https://assets.webis.de/js/filter.js"></script>
             <script>
-            includeBibentries(document.getElementById("publications-list"), "bibid:stein2018p");
+            includeBibentries(document.getElementById("publications-list"), "bibid:stein2017c");
             </script>
             </p>
         </div>

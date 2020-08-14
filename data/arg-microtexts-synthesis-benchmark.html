@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_active: data
-title: ArguAna Counterargs Corpus 
+title: Arg-Microtexts Synthesis Benchmark 
 description: Overview of corpora that are used by the Webis research group
 ---
 
@@ -9,10 +9,10 @@ description: Overview of corpora that are used by the Webis research group
 {
     "@context":"http://schema.org/",
     "@type":"Dataset",
-    "name":"arguana-counterargs-18",
-    "description":"An English corpus for studying the retrieval of the best counterargument to an argument. It contains 6753 pairs of argument and best counterargument from the online debate portal idebate.org, along with different experiment files with up to millions of candidate pairs.",
-    "url":"https://webis.de/data/arguana-counterargs-18",
-    "sameAs":"https://doi.org/10.5281/zenodo.3973257",
+    "name":"arg-microtexts-synthesis-benchmark",
+    "description":"130 logos-oriented and 130 pathos-oriented benchmark arguments for 10 topics, manually synthesized by 26 experts based on a pool of argumentative discourse units from the Arg-Microtexts corpus.",
+    "url":"https://webis.de/data/arg-microtexts-synthesis-benchmark",
+    "sameAs":"https://doi.org/10.5281/zenodo.3973270",
     "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords":[
         "arguments", 
@@ -34,9 +34,27 @@ description: Overview of corpora that are used by the Webis research group
         },
         {
             "@type":"Person", 
-            "url":"https://temir.org/people.html#syed",
-            "affiliation":"Leipzig University", 
-            "name":"Syed, Shahbaz"
+            "url":"https://www.ling.uni-potsdam.de/~stede/",
+            "affiliation":"University of Potsdam",
+            "name":"Stede, Manfred"
+        },
+        {
+            "@type":"Person",
+	        "url":"https://weimar.webis.de/people/#elbaff",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"El Baff, Roxanne"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#alkhatib",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Al-Khatib, Khalid"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://people.dsv.su.se/~mariask/",
+            "affiliation":"Linnaeus University, V\u00e4xj\u00f6, Sweden", 
+            "name":"Skeppstedt, Maria"
         },
         {
             "@type":"Person", 
@@ -54,7 +72,7 @@ description: Overview of corpora that are used by the Webis research group
         {
             "@type":"DataDownload",
             "encodingFormat":"CSV",
-            "contentUrl":"https://zenodo.org/record/3973258"
+            "contentUrl":"https://zenodo.org/record/3973271"
         }
     ]
 }
@@ -62,7 +80,7 @@ description: Overview of corpora that are used by the Webis research group
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Arguana-Counterargs-18</h1>
+        <h1>Arg-Microtexts Synthesis Benchmark</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -81,8 +99,8 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            An English corpus for studying the retrieval of the best counterargument to an argument. It contains 6753 pairs of argument and best counterargument from the online debate portal idebate.org, along with different experiment files with up to millions of candidate pairs.
-            In case you publish any results related to the ArguAna Counterargs corpus, please cite our upcoming ACL 2018 <a href="#publications">paper</a> on counterarguments.
+            130 logos-oriented and 130 pathos-oriented benchmark arguments for 10 topics, manually synthesized by 26 experts based on a pool of argumentative discourse units from the <a href="https://github.com/peldszus/arg-microtexts">Arg-Microtexts</a> corpus.
+            In case you publish any results related to the this benchmark data, please cite our upcoming COLING 2018 <a href="#publications">paper</a> on argumentation synthesis.
         </p>
 
         <!--
@@ -92,7 +110,7 @@ description: Overview of corpora that are used by the Webis research group
         <p>To download the corpus use the following link:</p>
         <ul>
             <li>
-                <a href="https://zenodo.org/record/3973258">Arguana-Counterargs-18</a>
+                <a href="https://zenodo.org/record/3973271">Arg-Microtexts Synthesis Benchmark</a>
             </li>
         </ul>
 
@@ -113,7 +131,10 @@ description: Overview of corpora that are used by the Webis research group
         <h2 id="people">People</h2>
         <ul>
             <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
-            <li><a href="https://temir.org/people.html#syed">Shahbaz Syed</a></li>
+            <li><a href="https://www.ling.uni-potsdam.de/~stede/">Manfred Stede</a></li>
+            <li><a href="https://weimar.webis.de/people/#elbaff">Roxanne El Baff</a></li>
+            <li><a href="https://weimar.webis.de/people/#alkhatib">Khalid Al-Khatib</a></li>
+            <li><a href="https://people.dsv.su.se/~mariask/">Maria Skeppstedt</a></li>
             <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
         </ul>
 
@@ -122,7 +143,7 @@ description: Overview of corpora that are used by the Webis research group
             <p>
             <script src="https://assets.webis.de/js/filter.js"></script>
             <script>
-            includeBibentries(document.getElementById("publications-list"), "bibid:stein2018l");
+            includeBibentries(document.getElementById("publications-list"), "bibid:stein2018p");
             </script>
             </p>
         </div>

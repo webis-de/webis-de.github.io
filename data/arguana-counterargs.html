@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_active: data
-title: The Dagstuhl-15512 ArgQuality Corpus 
+title: ArguAna Counterargs 
 description: Overview of corpora that are used by the Webis research group
 ---
 
@@ -9,10 +9,10 @@ description: Overview of corpora that are used by the Webis research group
 {
     "@context":"http://schema.org/",
     "@type":"Dataset",
-    "name":"dagstuhl-15512",
-    "description":"An English corpus for studying the assessment of argumentation quality. It contains 320 online debate portal arguments, annotated for 15 different quality dimensions by three annotators.",
-    "url":"https://webis.de/data/dagstuhl-15512",
-    "sameAs":"https://doi.org/10.5281/zenodo.3973284",
+    "name":"arguana-counterargs",
+    "description":"An English corpus for studying the retrieval of the best counterargument to an argument. It contains 6753 pairs of argument and best counterargument from the online debate portal idebate.org, along with different experiment files with up to millions of candidate pairs.",
+    "url":"https://webis.de/data/arguana-counterargs",
+    "sameAs":"https://doi.org/10.5281/zenodo.3973257",
     "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords":[
         "arguments", 
@@ -27,40 +27,16 @@ description: Overview of corpora that are used by the Webis research group
             "alternateName":"Webis"
         },
         {
-            "@type":"Person",
+            "@type":"Person", 
             "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
-            "affiliation":"Paderborn University",
+            "affiliation":"Paderborn University", 
             "name":"Wachsmuth, Henning"
         },
         {
-            "@type":"Person",
-            "affiliation":"University of Toronto, Toronto, Canada",
-            "name":"Naderi, Nona"
-        },
-        {
-            "@type":"Person",
-            "affiliation":"IBM Research Dublin, Ireland",
-            "name":"Hou, Yufang"
-        },
-        {
-            "@type":"Person",
-            "affiliation":"IBM Research Haifa, Israel",
-            "name":"Bilu, Yonatan"
-        },
-        {
-            "@type":"Person",
-            "affiliation":"Stanford University, Stanford, CA, USA",
-            "name":"Prabhakaran, Vinodkumar"
-        },
-        {
-            "@type":"Person",
-            "affiliation":"University of Toronto, Toronto, Canada",
-            "name":"Alberdingk Thijm, Tim"
-        },
-        {
-            "@type":"Person",
-            "affiliation":"University of Toronto, Toronto, Canada",
-            "name":"Hirst, Graeme"
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#syed",
+            "affiliation":"Leipzig University", 
+            "name":"Syed, Shahbaz"
         },
         {
             "@type":"Person", 
@@ -78,7 +54,7 @@ description: Overview of corpora that are used by the Webis research group
         {
             "@type":"DataDownload",
             "encodingFormat":"CSV",
-            "contentUrl":"https://zenodo.org/record/3973285"
+            "contentUrl":"https://zenodo.org/record/3973258"
         }
     ]
 }
@@ -86,7 +62,7 @@ description: Overview of corpora that are used by the Webis research group
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Dagstuhl-15512</h1>
+        <h1>Arguana Counterargs</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -105,11 +81,8 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            An English corpus for studying the assessment of argumentation quality. It contains 320 online debate portal arguments, annotated for 15 different quality dimensions by three annotators.
-            
-            In version 2, the annotated XMI files have been changed according to a new underlying type system where each quality dimension is represented by an own annotation. This annotation contains not only the majority score of the respective dimension (as in version 1), but also the mean score and the scores of all annotators. We recommend to use version 2.
-            
-            In case you publish any results related to the Dagstuhl-15512 ArgQuality corpus, please cite our EACL 2017 <a href="#publications">paper</a> on argumentation quality.
+            An English corpus for studying the retrieval of the best counterargument to an argument. It contains 6753 pairs of argument and best counterargument from the online debate portal idebate.org, along with different experiment files with up to millions of candidate pairs.
+            In case you publish any results related to the ArguAna Counterargs corpus, please cite our upcoming ACL 2018 <a href="#publications">paper</a> on counterarguments.
         </p>
 
         <!--
@@ -119,7 +92,7 @@ description: Overview of corpora that are used by the Webis research group
         <p>To download the corpus use the following link:</p>
         <ul>
             <li>
-                <a href="https://zenodo.org/record/3973285">Dagstuhl-15512</a>
+                <a href="https://zenodo.org/record/3973258">Arguana Counterargs</a>
             </li>
         </ul>
 
@@ -140,12 +113,7 @@ description: Overview of corpora that are used by the Webis research group
         <h2 id="people">People</h2>
         <ul>
             <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
-            <li>Nona Naderi</li>
-            <li>Yufang Hou</li>
-            <li>Yonatan Bilu</li>
-            <li>Vinodkumar Prabhakaran</li>
-            <li>Tim Alberdingk Thijm</li>
-            <li>Graeme Hirst</li>
+            <li><a href="https://temir.org/people.html#syed">Shahbaz Syed</a></li>
             <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
         </ul>
 
@@ -154,7 +122,7 @@ description: Overview of corpora that are used by the Webis research group
             <p>
             <script src="https://assets.webis.de/js/filter.js"></script>
             <script>
-            includeBibentries(document.getElementById("publications-list"), "bibid:stein2017c");
+            includeBibentries(document.getElementById("publications-list"), "bibid:stein2018l");
             </script>
             </p>
         </div>
