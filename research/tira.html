@@ -87,89 +87,14 @@ description: Overview of research that are used by the Webis research group
         SECTION Synopsis
         -->
         <h2><a id="synopsis"></a>Synopsis</h2>
-        <p id="tira-synopsis">The possibility to reproduce and compare results of other researchers is essential
-            for scientific progress. In many research&nbsp;fields, however, it is often impossible to specify the
-            complete experiment setting; e.g., in the scope of a scientific publication. As a consequence, a&nbsp;
-            reliable comparison becomes difficult, if not impossible. TIRA is&nbsp;our approach to address this
-            shortcoming. TIRA-jokingly, &quot;The Incredible Research Assistant&quot;-provides a means for
-            evaluation as a service. It focuses on hosting&nbsp;shared tasks and facilitates the submission of
-            softwares as opposed to the output of running a software on a test dataset (a&nbsp;so-called run). TIRA
-            encapsulates the submitted softwares into virtual machines. This way, even after a shared task is over,
-            the submitted softwares can be re-evaluated at the click of a button, which severely increased the
-            reproducibility of the corresponding shared task. An overview of existing shared tasks is available at
-            <a title="TIRA Tasks" href="http://www.tira.io/tasks/">tira.io/tasks</a>.
-            [<a href="http://www.tira.io">service</a>]
-	    [<a href="https://www.youtube.com/watch?v=mJ4r8jCu0jQ">video</a>]
+        <p>
+        The possibility to reproduce and compare results of other researchers is essential for scientific progress. In many research fields, however, it is often impossible to specify the complete experiment setting; e.g., in the scope of a scientific publication. As a consequence, a reliable comparison becomes difficult, if not impossible. The TIRA Integrated Research Architecture provides a means for evaluation as a service and is our approach to address this shortcoming. It focuses on hosting shared tasks and facilitates the submission of softwares as opposed to the output of running a software on a test dataset (a so-called run). TIRA encapsulates the submitted softwares into virtual machines. This way, even after a shared task is over, the submitted softwares can be re-evaluated at the click of a button, which severely increased the reproducibility of the corresponding shared task.
         </p>
-
-
-        <!--
-        SECTION Research
-        -->
-        <h2><a id="research"></a>Research</h2>
-
-        <div>
-            <p>TIRA is currently one of the few (if not the only) platform that supports software submissions with
-                little extra effort. We have used it to organize 12 shared tasks within PAN@CLEF, CoNLL, and the now
-                running WSDM Cup. All told, 300 pieces of software have been collected to date, all archived for
-                re-execution. This ensures replicability, and also reproducibility (e.g., re-evaluating the collected
-                software on new datasets).</p>
-        </div>
-        <div></div>
-        <div>
-            <p>For a recent example on applied reproducibility: we hosted a shared task where participants submitted
-                software adversary to those submitted to a previous shared task: author obfuscation vs. authorship
-                verification. Evaluating the obfuscators involved running obfuscated texts through all of 44 previously
-                submitted verifiers to check whether authors could still be identified. This is something that would
-                have been virtually impossible without TIRA.</p>
-        </div>
-        <div></div>
-        <div>
-            <p>TIRA<br />- supports almost any working environment and software stack (incl. Windows)<br />- apparently
-                does not impede participation in shared tasks<br />&nbsp; (we have so far not observed drops of
-                registrations or heard any serious complaints afterward)<br />- prevents participants from directly
-                accessing the test datasets (blind evaluation)<br />- prevents leakage of test datasets,<br />- allows
-                for controlling the amount of information passed back to participants when they run software on test
-                datasets<br />- for the above reasons supports the use of proprietary and sensitive datasets<br />-
-                allows for many different task setups (e.g., for the source retrieval task, participants accessed our
-                in-house ClueWeb search engine ChatNoir)</p>
-        </div>
-        <div></div>
-        <div>
-            <p>TIRA's only requirement to participants is that<br />- software is executable from a POSIX command line
-                (Cygwin on Windows) with a number of parameters</p>
-        </div>
-        <div></div>
-        <div>
-            <p>TIRA's requirements for organizers are that they<br />- supply datasets<br />- supply run evaluation
-                software<br />- review participant runs for errors<br />- moderate evaluation results and whether it
-                should be published<br />- help to answer participant questions as they arise<br />That's nothing more
-                than they are doing, anyway.</p>
-        </div>
-        <div></div>
-        <div>
-            <div>
-                <p>TIRA does currently not support<br />- GPU acceleration inside virtual machines<br />- accessing
-                    cluster computers to run, e.g., MapReduce jobs<br />These are things that will be available
-                    eventually.</p>
-            </div>
-        </div>
-        <div></div>
-        <div>
-            <p>TIRA's operational costs include<br />- running the virtual machines and the servers that host them</p>
-            <div>
-                <p>We are currently running TIRA on our Betaweb cluster at the Digital Bauhaus Lab (130 machines with
-                    64GB RAM each). We can afford to host hundreds of virtual machines simultaneously, and we would be
-                    willing to offer hosting free of charge. In return<br />- we'd ask to be highlighted in appropriate
-                    places on web pages, presentations, papers, etc.<br />- we'd ask task organizers to make sure
-                    participants properly cite TIRA in case they mention it in their papers</p>
-            </div>
-            <div></div>
-            <div>
-                <p>As a grain of salt: TIRA is still a prototype (beta), and it is rough around the edges in some
-                    places. We are working toward an open source release.&nbsp;&nbsp;</p>
-            </div>
-        </div>
+        <p>
+TIRA is currently one of the few (if not the only) platform that supports software submissions with little extra effort. We have used it to organize more than 25 shared tasks within PAN@CLEF, CoNLL, and WSDM Cup. All pieces of software have been collected to date, all archived for re-execution. This ensures replicability, and also reproducibility (e.g., re-evaluating the collected software on new datasets). An overview of existing shared tasks is available at <a title="TIRA Tasks" href="http://www.tira.io/tasks/">tira.io/tasks</a>.
+[<a href="http://www.tira.io">service</a>]
+[<a href="https://www.youtube.com/watch?v=mJ4r8jCu0jQ">video</a>]
+        </p>
 
         <!--
         SECTION People
