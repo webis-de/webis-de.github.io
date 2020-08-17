@@ -1,0 +1,129 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-WebSeg-20
+description: Dataset page of the Webis-WebSeg-20
+---
+
+<script type="application/ld+json">
+{
+"@context":"http://schema.org/",
+"@type":"Dataset",
+"name":"Webis-WebSeg-20",
+"description":"The Webis-WebSeg-20 dataset comprises 42,450 crowdsourced segmentations for 8,490 web pages from the Webis-Web-Archive-17. Segmentations were fused from the segmentations of five crowd workers each.",
+"sameAs":"https://doi.org/10.5281/zenodo.3354902",
+"license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+"keywords":[
+"web page",
+"web page segmentation",
+"webpage segmentation",
+"web archives", 
+"segmentation",
+"evaluation"
+], 
+"datePublished":"2020",
+"creator":[
+{
+"@type":"Organization",
+"url":"https://webis.de/",
+"name":"The Web Technology & Information Systems Network",
+"alternateName":"Webis"
+},
+{
+"@type":"Person", 
+"url":"https://weimar.webis.de/people/#kiesel",
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Kiesel, Johannes"
+},
+{
+"@type":"Person", 
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Kneist, Florian"
+},
+{
+"@type":"Person", 
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Komlossy, Kristof"
+},
+{
+"@type":"Person", 
+"url":"https://weimar.webis.de/people/#meyer",
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Meyer, Lars"
+},
+{
+"@type":"Person", 
+"url":"https://weimar.webis.de/people/#stein",
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Stein, Benno"
+},
+{
+"@type":"Person", 
+"url":"https://temir.org/people.html#potthast",
+"affiliation":"Leipzig University", 
+"name":"Potthast, Martin"
+}
+],
+"includedInDataCatalog":{
+"@type":"DataCatalog",
+"name":"Webis Data Catalog",
+"url":"https://webis.de/data/"
+},
+"distribution":[
+{
+"@type":"DataDownload",
+"@id":"https://doi.org/10.5281/zenodo.3354902",
+"url":"https://zenodo.org/record/3354902"
+}
+]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<h1>Webis-WebSeg-20</h1>
+
+<ul class="uk-list">
+<!-- Comment out sections you do not provide -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+</ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+<!--
+SECTION Synopsis
+-->
+<h2><a id="synopsis"></a>Synopsis</h2>
+<p>
+The Webis-WebSeg-20 dataset comprises 42,450 crowdsourced segmentations for 8,490 web pages from the <a href="../data.html#webis-web-archive-17">Webis-Web-Archive-17</a>. Segmentations were fused from the segmentations of five crowd workers each. You can download the dataset <a href="https://doi.org/10.5281/zenodo.3354902">here</a>. Please cite the dataset using <a href="#stein_2020t">this paper</a>.
+</p>
+
+<!--
+SECTION People
+-->
+<h2><a id="people"></a>People</h2>
+<ul>
+<li><a href="https://weimar.webis.de/people/#kiesel" title="Johannes Kiesel">Johannes Kiesel</a></li>
+<li><a href="https://weimar.webis.de/people/#meyer" title="Lars Meyer">Lars Meyer</a></li>
+<li><a href="https://temir.org/people.html#potthast" title="Martin Potthast">Martin Potthast</a></li>
+<li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+</ul>
+
+<p>Students: Florian Kneist, Kristof Komlossy.</p>
+
+<!--
+SECTION Publications
+-->
+<h2 id="publications">Publications</h2>
+<div id="publications-list">
+</div>
+
+</div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:webis-webseg-20");
+</script>
