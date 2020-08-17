@@ -58,7 +58,6 @@ description: Overview of research that are used by the Webis research group
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
@@ -69,42 +68,9 @@ description: Overview of research that are used by the Webis research group
         SECTION Synopsis
         -->
         <h2><a id="synopsis"></a>Synopsis</h2>
-
         <p>
-            WEGA (Web Genre Analysis) is a technology for enriching Internet search results with genre information.
-                For each snippet in a result list WEGA analyzes the type, purpose, or target group (= genre) of the
-                underlying document, and labels the snippet as &lt;discussion page&gt;, &lt;article&gt;, &lt;online
-                shop&gt;, &lt;download site&gt;, &lt;private homepage&gt;, &lt;commercial homepage&gt;, or &lt;help
-                site&gt;. Since genre information is generally accepted as positive or negative filtering criterion, it
-                simplifies finding the most relevant results. [<a href="https://www.youtube.com/watch?v=DR0Fxmfi8RI">video</a>]
-        </p>
-
-        <!--
-        SECTION Research
-        -->
-        <h2><a id="research"></a>Research</h2>
-
-        <p id="web-genres-research">
-            The WEGA project addresses the following challenges:
-            <ul>
-              <li>Conceptual Genre Palette. WEGA aims at helping information seekers, and hence the genre palette
-            should address a &quot;typical&quot; user's information needs. Based on a user study, we chose to
-            support the following genres: &lt;discussion page&gt;, &lt;online shop&gt;, &lt;download site&gt;,
-            &lt;private homepage&gt;, &lt;commercial homepage&gt;, and &lt;help site&gt;.</li>
-              <li>Novel Retrieval Models for Genre Classification. Retrieval models for Web genre
-            classification have been proposed since the year 2000. These models are based on HTML tag
-            statistics, linguistic analyses, simple text statistics, and manually compiled word lists. However,
-            the linguistic statistics are often expensive to compute, and hypotheses learned from HTML tags do
-            not generalize well since the diversity in the Web is difficult to be reflected by a training
-            corpus. WEGA addresses these issues with a new retrieval model that is based on the analysis of
-            core vocabulary distributions. Our genre retrieval model allows for efficient feature computation
-            while providing an acceptable classification performance at the same time.</li>
-            <li>Development of a Firefox Add-On. The current WEGA prototype is implemented as an Add-On for
-            the popular Firefox browser and labels Google search result lists. Unlike previous versions no
-            additional server technology is needed: each document in a result list is loaded in the browser and
-            analyzed in the background with JavaScript. Document download, analysis, and labeling happen
-            asynchronously and do not hamper the user.</li>
-            </ul>
+         WEGA (Web Genre Analysis) is a technology for tagging Web search results with genre information. For each snippet in a search engine result list WEGA analyzes the type, purpose, or target group (= genre) of the underlying document, and labels the snippet as &lt;discussion page&gt;, &lt;article&gt;, &lt;online shop&gt;, &lt;download site&gt;, &lt;private homepage&gt;, &lt;commercial homepage&gt;, or &lt;help site&gt;. These genre classes were derived from user studies, and we have developed tailored document models for their classification. Since genre information is generally accepted as positive or negative filtering criterion, genre tagging simplifies finding the relevant results. 
+[<a href="https://www.youtube.com/watch?v=DR0Fxmfi8RI">video</a>]
         </p>
 
         <!--
