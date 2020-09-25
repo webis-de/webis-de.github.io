@@ -3300,19 +3300,9 @@ None of our lecturenotes match your filter.
 <script src="https://assets.webis.de/js/selection.js"></script>
 <script src="https://assets.webis.de/js/tables.js"></script>
 <script>
-{
-  let currentPart = null;
-  initWebisFiltering(document.querySelectorAll(".targetable"), "tbody tr", true, entry => {
-    const isPartEntry = (entry.querySelector('th') !== null);
-    if (isPartEntry) { currentPart = null; }
-
-    const attributes = entry.dataset;
-    attributes['name'] = normalize(entry.children[1].textContent);
-    attributes['collection'] = normalize(entry.closest('table').querySelector('thead').textContent.trim());
-    if (currentPart !== null) { attributes['part'] = currentPart; }
-
-    if (isPartEntry) { currentPart = normalize(entry.textContent.trim()); }
-    return attributes;
-  });
-}
+initWebisTableFiltering(document.querySelectorAll(".targetable"), true, entry => {
+  const attributes = entry.dataset;
+  attributes['name'] = normalize(entry.children[1].textContent);
+  return attributes;
+});
 </script>
