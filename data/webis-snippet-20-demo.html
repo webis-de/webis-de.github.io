@@ -1,9 +1,17 @@
 ---
 layout: default
 nav_active: data
-title: Abstractive Snippet Generation Demo
+title: Webis Data Abstractive Snippet Generation Demo
 description: Abstractive Snippet Generation Demo
 ---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <style>
