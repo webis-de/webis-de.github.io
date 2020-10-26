@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../../index.html">Webis.de</a></li>
+<li><a href="../../lecturenotes.html">Lecturenotes</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Lecturenotes Browser ", "" }}</a></li>
+</ul>
+</nav>
 
 <script src="{{ '/js/browser.js' | relative_url }}"></script>
 
