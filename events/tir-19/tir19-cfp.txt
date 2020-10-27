@@ -1,0 +1,87 @@
+-----------------------------------------------------------------------------------
+*TIR'19  -  16th International Workshop on Technologies for Information Retrieval*
+-----------------------------------------------------------------------------------
+
+                       In conjunction with the DEXA 2019
+   30th International Conference on Database and Expert Systems Applications
+                            Linz, Austria
+                        August 26 - August 29, 2019
+
+                            http://tir.webis.de
+
+
+-----------------------------------------------------------------------------------
+About this Workshop
+-----------------------------------------------------------------------------------
+
+The development of advanced retrieval solutions requires the understanding and the 
+combination of methods from different research areas, including machine learning, 
+(big) data mining, natural language processing, artificial intelligence, user 
+interaction and modeling, and Web engineering. In addition, societal challenges 
+such as information quality, bias, or the trustworthiness of the stated facts and 
+arguments have come into focus.
+
+In this regard the TIR workshop provides a platform for presenting and discussing 
+new solutions, novel ideas, or specific tools for future retrieval and text 
+understanding systems. The following list organizes classic and recent topics for 
+which contributions are welcome, but not limited to:
+
+
+- Theory. Retrieval models, similarity measures, formal analysis
+
+- Evaluation. Corpus construction, experiment design, performance measures, 
+  reproducibility, benchmarking of Information Retrieval and Machine Learning 
+  algorithms
+
+- Information Quality and Provenance. Text quality assessment, text reuse, 
+  trust and author reputation, provenance analytics
+
+- Natural Language Technologies for IR Applications. Opinion mining, text 
+  summarization and simplification, question answering, discourse and argument 
+  mining
+
+- Personalization. Personalized retrieval, context detection, user profiling, 
+  user modeling
+
+- Web Search. Ranking and recommendation, query classification and segmentation, 
+  vertical search, dynamic taxonomy generation
+
+- Social Media Analytics. People analytics, social network analysis, trend analysis
+
+- Semantic Web. Meta data analysis and tagging, knowledge extraction, 
+  inference and linking
+
+- Machine Learning. Representation learning for text mining
+
+- Explanations. Explainable IR models, result explanations, evaluation of 
+  explanations
+
+
+
+The TIR workshop is held for the sixteenth time. Past workshops could attract 
+high-quality and innovative contributions and were characterized by an open 
+and stimulating atmosphere. 
+
+Accepted papers will appear in the proceedings of DEXA’19 Workshops published 
+by Springer in Communications in Computer and Information Science - CCIS.
+
+
+----------------------------------------------------------------------------
+Important Dates
+----------------------------------------------------------------------------
+
+April 19, 2019: Deadline for paper submission (23:59 CET), extended
+May 23, 2019: Notification to authors
+June 08, 2019: Camera-ready copy due
+
+
+----------------------------------------------------------------------------
+Workshop Organizers
+----------------------------------------------------------------------------
+Christin Seifert  (Co-Chair), University of Twente, The Netherlands
+Benno Stein (Co-Chair), Bauhaus-Universität Weimar, Germany
+Michael Granitzer (Co-Chair), University of Passau, Germany
+
+Contact: tir [AT] webis.de
+Information about the workshop can be found at http://tir.webis.de
+

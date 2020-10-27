@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffcc;
+    font-family: Arial, Helvetica;
+    font-size: 9pt;
+}
+
+table.header {
+    margin: 0px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffa600;
+}
+
+.header td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+table.menu {
+    float: left;
+    margin: 0px;
+    height: 100%;
+    border-collapse: collapse;
+    background-color: #ffa600;
+}
+
+.menu tr {
+    padding-top: 2em;
+    vertical-align: top;
+}
+
+.menu td {
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1em;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.menu li {
+    margin-bottom: 1.5ex;
+}
+
+.menu a {
+	font-weight: bold;
+}
+
+.menu a:link, .menu a:visited {
+    color: #ecfcfd;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #cc0033;
+    text-decoration: none;
+}
+
+table.content {
+    border-collapse: collapse;
+}
+
+.content td {
+    padding: 3ex;
+    padding-top: 2ex;
+    padding-left: 5ex;
+}
+
+.content .part {
+    padding-bottom: 4ex;
+    border-bottom: 1px dotted #999;
+    margin-bottom: 4ex;
+}
+
+.content h1 {
+	font-size: 2em
+}
+
+.content h2 {
+	font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.content li {
+    margin-bottom: 3px;
+}
+
+a:link, a:visited {
+    color: #00F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc0033;
+    text-decoration: none;
+}
+

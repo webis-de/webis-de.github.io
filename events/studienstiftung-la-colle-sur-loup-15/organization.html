@@ -1,0 +1,109 @@
+---
+layout: workshop 
+nav_active: organization
+title: Summer Academy "Who Wrote the Web?"
+description: The goal of this working group was to give an overview of research and development in the area of natural language processing with a particular focus on technologies to analyze the authorship of text documents. These technologies are posed to be eventually employed to answer the overarching question of "Who wrote the Web?"
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Summer Academy "Who Wrote the Web?"</a></li>
+<li class="uk-disabled"><a href="#">Organization</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Workshop",
+    "name":"Summer Academy 'Who Wrote the Web?'",
+    "description":"The goal of this working group was to give an overview of research and development in the area of natural language processing with a particular focus on technologies to analyze the authorship of text documents. These technologies are posed to be eventually employed to answer the overarching question of 'Who wrote the Web?'",
+    "url":"https://webis.de/events/studienstiftung-la-colle-sur-loup-15/",
+    "keywords":[
+        "authorship analysis", 
+        "authorship identification", 
+        "authorship verification", 
+        "reproducibility"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Group",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"0000-0002-9733-2890", 
+            "@type":"Person", 
+            "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@id":"0000-0002-1336-9128", 
+            "@type":"Person", 
+            "url":"http://www.icsd.aegean.gr/lecturers/stamatatos/",
+            "affiliation":"University of the Aegean", 
+            "name":"Stamatatos, Efstathios"
+        },
+        {
+            "@id":"0000-0003-2451-0665", 
+            "@type":"Person", 
+            "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#potthast",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Potthast, Martin"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Organization</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#contact">Contact and Communication</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission details</a></li>-->
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#policy">Policy</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#resources">Resources</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#organizing-committee">Organizing Committee</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#program-committee">Program Committee</a></li>-->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Contact and Communication
+        -->
+        <h2 id="contact">Contact and Communication</h2>
+        <ul>
+            <li>Email: martin.potthast@uni-weimar.de</li>
+        </ul>
+
+        <!--
+        SECTION Resources
+        -->
+        <h2 id="resources">Resources</h2>
+        <ul>
+            <li><a href="https://github.com/pan-webis-de?q=ecir%2B2016">github.com/pan-webis-de</a> collects the reproduced software</li>
+        </ul>
+
+        <!--
+        SECTION Organizing Committee
+        -->
+        <!-- Use _includes/templates/people-card.html as a template for these cards. They do not need to be parametrized, this is just a demonstration. -->
+        <h2 id="organizing-committee">Organizing Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/hagen.html gender="male" %}
+            {% include people-cards/stamatatos.html gender="male" %}
+            {% include people-cards/potthast.html gender="male" %}
+        </div>
+    </div>
+</main>

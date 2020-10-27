@@ -1,0 +1,20 @@
+<div>
+    <div class="uk-card uk-card-default uk-card-body">
+        <a href="http://webis.de" class="uk-link-reset">
+            <!-- Picture of person -->
+            <!-- You may omit the if-statements here in actual use. These are only here to demonstrate parametrized includes. -->
+            {% if include.gender == "male" %}
+            <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="<First> <Last>"></div>
+            {% endif %}
+            {% if include.gender == "female" %}
+            <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-female.jpg" alt="<First> <Last>"></div>
+            {% endif %}
+            <div class="uk-height-1-1">
+                <div class="uk-card-title">First Last</div> <!-- Name -->
+                <div class="uk-text-muted uk-margin-small-top">Affiliation</div>
+                <img class="uk-position-bottom-right thumbnail-card-logo" src="https://assets.webis.de/img/webis-logo-gray.png"
+                 alt="Affiliation logo">
+            </div>
+        </a>
+    </div>
+</div>

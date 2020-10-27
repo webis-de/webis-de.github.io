@@ -1,0 +1,701 @@
+
+body {
+	margin: 0;
+	padding: 0 10px;
+	color: #3F3F3F;
+	background:#CFCFCF url(topbg3.jpg) top  repeat-x;
+	font: 73% Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.5em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h1 { font-size: 1.3em; }
+
+h2 { font-size: 1.2em; }
+
+h3, h4, h5, h6 { font-size: 1.1em; }
+
+p {
+	margin-top: 0.7em;
+	margin-bottom: 1em;
+	font-size: 13px; /* webis */
+	line-height: 1.2em;
+	letter-spacing: 0.04em;
+	text-align:justify;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link { color:#1F597F; }
+
+a:visited { color: #1F597F; }
+
+a:hover {
+	color:#AF0007;
+	text-decoration: underline;
+}
+
+fieldset { border: 1px solid #ccc; }
+
+pre {
+	background-color: #eee;
+	padding: 0.75em 1.5em;
+	font-size: 12px;
+	border: 1px solid #ddd;
+}
+
+table { /* make <td> sizes relative to body size! */ font-size: 1em; }
+
+.form-item label {
+	font-size: 1em;
+	color: #222;
+}
+
+.item-list .title {
+	font-size: 1em;
+	color: #222;
+}
+
+.links {
+	margin-bottom: 0em;
+	font-size:.95em;
+}
+
+.comment .links { margin-bottom: 0em; }
+
+/*
+** Page layout blocks / IDs
+*/
+#header, #content { width: 100%; }
+
+#header {
+	position:relative;
+	background:url(linz.gif) no-repeat;
+	height:175px; 
+	overflow:hidden;
+}
+#header1 {
+	position:relative;
+	background:#AEB5BD url(linz3.gif) repeat-x top right;
+	border-bottom: 10px solid #AF0007;
+	height:172px; 
+	overflow:hidden;
+}
+#logo {
+	float:left;
+	margin:0px 0 0 5px;
+}
+
+#logo img {
+	padding: 0;
+	border: 0;
+	margin:0;
+}
+
+#sub_header {
+	position:relative;
+	height:10px;
+	padding:4px 5px;
+	margin:0 0 15px 0;
+}
+
+#sub_header .content {
+	padding:2px 0 0 0;
+	color:#ccc;
+}
+
+#sub_header .block a { color:#fff; }
+
+#sub_header .block {
+	color:#fff;
+	margin:0 350px 0 30px;
+	padding:5px 0 0 0;
+}
+
+#sub_header .block-title {
+	float:left;
+	width:150px;
+	text-align:right;
+	margin:0 20px 30px 0;
+	color:#99CA30;
+	padding:0;
+}
+
+#secondary {
+	padding:0;
+	margin:0;
+	position:absolute;
+	right:20px;
+	top:10px;
+	font-size:12px;
+	color:#0053A0;
+}
+
+#secondary li { padding:0 6px 0 8px; }
+
+#secondary a {
+	padding: 7px 0;
+	margin:0;
+	font-size: 11px;
+	font-weight:normal;
+	color:#344A04;
+}
+
+#secondary a:hover, #secondary a.active {
+	text-decoration:underline;
+	color:#344A04;
+}
+
+#secondary ul.links li { border-left: 1px solid #344A04; }
+
+ul.links li { border-left: 1px solid #ccc; }
+
+ul.links li a { margin-left:2px;  }
+
+ul.links li.first { border-left: none !important; }
+
+ul.links li.last { padding-right:0 !important; }
+
+#primary {
+
+}
+
+#primary ul {
+	height:185px;
+	float:right;
+}
+
+#primary li {
+	padding:0px; /* set to 0 in IE fix */
+	float:left; /* float is nececcary! for correct tabs*/
+	height:180px;
+	width:100px;
+	border-left:1px solid #fff;
+	background-color: #CFCFCF;
+	filter:alpha(opacity=65);
+	opacity: 0.75;
+	-moz-opacity:0.75;
+	border-bottom:#AF0007 23px   solid !important;
+}
+
+#primary  a {
+
+	margin-right:10px;
+	margin-top:149px;
+	position:absolute;
+	padding-bottom:12px;
+	font-size: 15px;
+	font-weight:bold;
+	color:#4F4333;
+	margin-left:0px; /*to equalize with li margin */
+	text-align:center;
+	width:100px;
+}
+#primary  a.active{
+	margin-right:40px;
+	margin-top:149px;
+	padding-bottom:12px;
+	font-size: 15px;
+	font-weight:bold;
+	color:#AF0007;
+	margin-left:0px; /*to equalize with li margin */
+}
+
+#primary  a:hover {
+	background:transparent;
+	text-decoration:none;
+	margin-top:150px;
+	color:#AF0007;
+	margin-top:130px;
+	font-size: 20px;
+	font-weight:normal;
+	border-bottom:#AF0007 15px   solid !important;
+}
+
+ul.links li.first {
+	border: none;
+	padding-left:0 !important;
+}
+
+ul.links li.last { padding-right:0  !important; }
+
+#search {
+	position:absolute;
+	right:10px;
+	top:10px;
+	vertical-align:middle;
+	padding:6px 15px;
+	z-index:2;
+}
+
+#search label {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.3em;
+}
+
+#search .form-text {
+	border: 1px solid #99CA30;
+	font-size: 1.2em;
+	height: 21px;
+	vertical-align: middle;
+	width: 175px;
+	padding: 3px 5px 0 5px;
+	margin:0;
+}
+
+#mission {
+	background-color: #fff;
+  color: #696969;
+  font-family: "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom:30px; /* webis */
+}
+#mission h1{
+	font-weight: bold;
+	color:#000;
+	font-size:22px;
+	display:block;
+}	
+#mission a, #mission a:visited {
+/*	color: #9cf;
+	font-weight: bold;  webis */
+}
+
+.site-name {
+
+	margin: 0;
+	padding: 40px 0 5px 0px;
+	font-size: 3.3em;
+	font-family:Impact, "Arial Black", Arial, Helvetica, sans-serif;
+}
+.site-name a {
+padding:0 0 0 20px;
+}
+
+.site-name a:link, .site-name a:visited { color: #fff; }
+
+.site-name a:hover { text-decoration: none; }
+
+.site-slogan {
+	font-size: 1em;
+	color: #000;
+	display: block;
+	margin: 0;
+	font-weight: bold;
+	float:left;
+	padding:0 0 20px 23px;
+	
+}
+
+#main {
+	/* padding in px not ex because IE messes up 100% width tables otherwise */
+  	padding: 0 15px;
+	text-align:left;
+	margin-top: 0.7em;
+	margin-bottom: 1em;
+	font-size: 13px; /* webis */
+	letter-spacing: 0.03em;
+	line-height: 1.2em;
+}
+#main .title{
+	font-family:arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+
+#mission, .node .content, .comment .content { line-height: 1.4; }
+
+#help {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+
+.breadcrumb {
+	margin-bottom: .5em;
+	font-size:.9em;
+	color:#6a6a6a;
+}
+
+.breadcrumb a { color:#6a6a6a; }
+
+.messages {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 0.3em;
+	margin-bottom: 1em;
+}
+
+.error { border-color: red; }
+
+#footer {
+	padding: 15px;
+	font-size: 0.9em !important;
+	text-align:right;
+	vertical-align:bottom;
+	color:#797979;
+	background:#CFCFCF url(topbg3.jpg) top  repeat-x;
+	margin:15px 0 0 0;
+	height:80px;
+
+
+}
+
+#footer a { color:#797979;  }
+#footer p { color:#797979; float:left; }	
+
+#footer .links { margin-bottom:5px; }
+
+#author_link {
+	text-align:right;
+	padding:.5em 0 0 0;
+	float:left;
+}
+
+/*
+** Common declarations for child classes of node, comment, block, box, etc.
+** If you want any of them styled differently for a specific parent, add
+** additional rules /with only the differing properties!/ to .parent .class.
+** See .comment .title for an example.
+*/
+.title, .title a {
+	font-weight: bold;
+/*	font-size: 1.4em; webis */
+	color: #AF0007;
+	margin: 0 auto 0 auto;  /* decrease default margins for h<x>.title */
+
+}
+
+.feed-item-title a { color:#000; }
+
+.block { margin-bottom:1.5em; }
+
+#center .date {
+	font-size:.8em;
+	color:#6a6a6a;
+}
+
+.submitted {
+	color: #999;
+	font-size: 0.8em;
+}
+
+.links li.first { padding-left:0; }
+
+.links a {
+	font-weight: normal;
+	color:#000;
+}
+
+.block, .box { padding: 0; }
+
+.block .title { margin-bottom: .25em; }
+
+.box .title { font-size: 1.1em; }
+
+.node .title { font-size: 1.1em; }
+
+.node { margin: .5em 0 1em 0; }
+
+#center .node { 
+	padding-bottom:1.0em; /* webis */
+ }
+
+.sticky {
+	margin-bottom:2em; /* webis */
+	border-bottom:1px dotted #999; /* webis */
+}
+
+.node .content, .comment .content { margin: .5em 0 .5em 0; }
+
+.node .taxonomy {
+	color: #999;
+	font-size: 0.8em;
+	padding: 1.5em;
+}
+
+.node .picture {
+	border: 1px solid #ddd;
+	float: right;
+	margin: 0.5em;
+}
+
+.comment {
+	border: 1px solid #abc;
+	padding: .5em;
+	margin-bottom: 1em;
+}
+
+.comment .title a {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+.comment .new {
+	text-align: right;
+	font-weight: bold;
+	font-size: 0.8em;
+	float: right;
+	color: red;
+}
+
+.comment .picture {
+	border: 1px solid #abc;
+	float: right;
+	margin: 0.5em;
+}
+
+/*
+** Module specific styles
+*/
+#aggregator .feed-source {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin: 1em 0 1em 0;
+}
+
+#aggregator .news-item .categories, #aggregator .source, #aggregator .age {
+	color: #999;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+#aggregator .title {
+	margin-bottom: 0.5em;
+	font-size: 1em;
+}
+
+#aggregator h3 { margin-top: 1em; }
+
+#forum table { width: 100%; }
+
+#forum td { padding: 0.5em 0.5em 0.5em 0.5em; }
+
+#forum td.forum, #forum td.posts { background-color: #eee; }
+
+#forum td.topics, #forum td.last-reply { background-color: #ddd; }
+
+#forum td.container { background-color: #ccc; }
+
+#forum td.container a { color: #555; }
+
+#forum td.statistics, #forum td.settings, #forum td.pager {
+	height: 1.5em;
+	border: 1px solid #bbb;
+}
+
+#forum td .name { color: #96c; }
+
+#forum td .links {
+	padding-top: 0.7em;
+	font-size: 0.9em;
+}
+
+#profile .profile {
+	clear: both;
+	border: 1px solid #abc;
+	padding: .5em;
+	margin: 1em 0em 1em 0em;
+}
+
+#profile .profile .name { padding-bottom: 0.5em; }
+
+.block-forum h3 { margin-bottom: .5em; }
+
+.calendar a { text-decoration: none; }
+
+.calendar td, .calendar th {
+	padding: 0.4em 0;
+	border-color: #888;
+}
+
+.calendar .day-today { background-color: #69c; }
+
+.calendar .day-today a { color: #fff; }
+
+.calendar .day-selected {
+	background-color: #369;
+	color: #fff;
+}
+
+.calendar .header-week { background-color: #ccc; }
+
+.calendar .day-blank { background-color: #ccc; }
+
+.calendar .row-week td a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/*----------block stuf ----------*/
+
+#left .block-title {
+	padding:7px 0 3px 10px;
+	color:#fff;
+	margin: 0;
+	height:26px; /* necessary for IE!!!!!!! */
+	background:url(block.gif) top left no-repeat;
+}
+
+/* ------------------- block-user-0 ----------------- */
+#block-user-0 .item-list {
+	margin-top:10px;
+	text-align:left;
+	padding:4px 0 0 0;
+}
+
+#block-user-0 .item-list ul li { list-style-type:none; }
+
+.user_profile label { font-weight:bold; }
+
+.user_profile .fields { margin:1.4em 0; }
+
+/* sidebar menu
+--------------------------------------------------*/
+
+#right li.collapsed, #right li.leaf {
+	padding:0;
+	line-height:1.8em;
+}
+
+#right .collapsed a, #right .leaf a {
+	display:block;
+	padding:4px;
+	height:1%; /* IE WIN */
+	text-decoration:none;
+	border-bottom:1px dotted #E0E4E7;
+	color:#1F597F;
+}
+
+*html #right .collapsed a, #right .leaf a { border-bottom:1px solid; }
+
+#right .collapsed a:hover, #right .leaf a:hover {
+	background-color:#98ABB8;
+	color:#AF0007;
+	text-decoration:none;
+}
+
+/* -------------- table view ------------------------- */
+table {
+	width:100%;
+	margin-bottom:15px;
+}
+
+thead th {
+	background:#A7D34B;
+	border:1px solid #88B52D;
+	padding:11px 5px;
+}
+
+tr.odd td, tr.even td {
+	padding:8px 5px;
+	border:1px solid #88B52D;
+}
+
+tr.odd td { background:#F3FAE4; }
+
+tr.even td { background:#E0EFC0; }
+
+tr.odd td.active { background:#E6F2CE; }
+
+tr.even td.active { background:#D1E8A4; }
+
+tr.odd td a, tr.odd td { color:#6A8C22; }
+
+tr.even td a, tr.even td, thead th a { color:#344A04 !important; }
+
+.pager { margin-bottom:15px; }
+
+/* sidebar menu
+--------------------------------------------------*/
+
+#left li.collapsed, #left li.leaf {
+	padding:0;
+	line-height:1.8em;
+}
+
+#left .collapsed a, #left .leaf a {
+	display:block;
+	padding:4px;
+	height:1%; /* IE WIN */
+	text-decoration:none;
+	border-bottom:1px solid #E0E4E7;
+	color:#1F597F;
+
+}
+
+#left .collapsed a:hover, #left .leaf a:hover {
+	background-color:transparent;
+	color:#AF0007;
+	text-decoration:none;
+}
+
+/* -------------------- laout. Holy Grail layout technique is used. Do not forget to fix IE ------------------- */
+
+#wrapper {
+	width:80%;
+	padding:0;
+	margin: 0px auto;
+	text-align:left;
+	background: #fff;
+}
+
+#container {
+	 margin-top:5px; 
+	 width: 100%;
+	 padding-left:0px;
+	 padding-right:0px;
+	 }
+
+.container { padding:0; }
+
+.container-left { padding-left: 200px;   /* LC fullwidth */ }
+
+.container-right { padding-right: 170px;  /* RC fullwidth  */ }
+
+#container .column {
+	position: relative;
+	float: left;
+}
+
+#center {
+	padding:0px;
+	overflow:hidden;
+}
+
+#left {
+	width: 190px;				/* LC width */
+	padding: 0 10px 0 10px;		/* LC padding */
+	margin-left: 0;
+	overflow:hidden;
+	float:left;
+}
+
+#container > #left { /* hide from f***king IE6! */ right: 200px;          /* LC fullwidth + CC padding */ }
+
+#right {
+	float:right;
+	width: 190px;				/* RC width */
+	padding: 0 10px 0 10px;		/* RC padding */
+	margin-right: 0px;		/* RC fullwidth + CC padding + 1 px for border*/
+	overflow:hidden; /* this thing helps to get rid of layout breakdown if content is wider, than 100% */
+}
+
+#footer { clear: both; }
+
+#right .block-title {
+	padding:7px 0 3px 10px;
+	color:#fff;
+	margin: 0;
+	height:26px; /* necessary for IE!!!!!!! */
+	background:url(block.gif) top left no-repeat;
+	font-size: 12px;
+}

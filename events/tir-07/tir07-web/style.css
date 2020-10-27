@@ -1,0 +1,151 @@
+/* $Id: style.css,v 1.1 2007/04/11 19:52:53 bmst2305 Exp $ */
+
+/*
+** HTML elements
+*/
+body {
+  font-family: arial, helvetica, sans-serif;
+}
+a:link {
+  color: #656
+}
+a:visited {
+  color: #656
+}
+a:active {
+  color: #ccc
+}
+h2 {
+  background-color: #eaeaea;
+  border: solid 1px #777;
+  font-size: 1.1em;
+  margin: 0.5em 0em 0.5em 0em;
+  padding: 0.5em;
+}
+
+h3 {
+  background-color: #fff;
+  color: #696969;
+  font-family: "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+h2.title {
+  background-color: #fff;
+  border: solid 1px #888;
+  margin-top: 1em;
+}
+p {
+  margin: 0 1em 1em 0;
+  padding: 0;
+}
+table {
+  font-size: 1em;
+}
+
+/*
+** Page layout blocks / IDs
+*/
+#main {
+  width: 80%;
+}
+#header .title {
+  padding-top: .75em;
+}
+
+/*
+** Common declarations for child classes of node, comment, block, box etc
+*/
+.node .submitted {
+  color: #7c7c7c;
+  font-size: 0.9em;
+  float: left;
+  padding: 0.5em 0em 0.5em 1em;
+}
+.node .taxonomy {
+  color: #7c7c7c;
+  font-size: 0.9em;
+  float: right;
+}
+.node .content {
+  clear: both;
+  padding-left: 1em;
+  padding-bottom: 1.5em; /* webis */
+}
+.node .links {
+  padding: 1em;
+}
+.comment {
+  border: solid 1px #777;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em;
+}
+.block {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+
+  background-color : #C6CEDE;
+  color: #666666;
+
+}
+.block .content {
+  border: solid 1px #888;
+  border-top: none;
+  margin: 0;
+  padding: 5px;
+}
+.block h2.title {
+  margin: 0;
+  background-color : #394A6B;
+  color: #FFFFFF;
+}
+
+/* webis */
+.node h2.title {
+  margin-bottom: 1em;
+}
+
+#mission {
+  background-color: #fff;
+  color: #696969;
+  font-family: "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, Verdana, sans-serif;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+/*
+** Module specific styles
+*/
+.item-list ul li {
+  list-style-image: url(bullet.png);
+}
+.calendar .day-today {
+  background-color: #ccc;
+}
+.calendar .day-selected {
+  background-color: #bbb;
+}
+.calendar .header-month {
+  background-color: #ddd;
+}
+.calendar .header-week {
+  background-color: #ccc;
+}
+.calendar .day-blank {
+  background-color: #ddd;
+}
+.calendar .day-link a {
+  color: #000;
+}
+.calendar .row-week {
+  color: #aaa;
+}
+.path, .path a, .path a:visited {
+  color: #888;
+}
