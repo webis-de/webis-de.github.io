@@ -22990,732 +22990,852 @@
             "unit-en-ml-introduction",
             "unit-en-regression",
             "unit-en-concept-learning",
-            "unit-en-ml-evaluating-effectiveness",
+            "unit-en-evaluating-effectiveness",
+            "unit-en-perceptron-learning",
+            "unit-en-multilayer-perceptron",
             "unit-en-decision-trees-basics",
             "unit-en-decision-trees-impurity",
             "unit-en-decision-trees-algorithms",
             "unit-en-decision-trees-pruning",
             "unit-en-probability-basics",
             "unit-en-bayesian-learning",
-            "unit-en-perceptron-learning",
-            "unit-en-multilayer-perceptron",
-            "unit-de-ensemble-classifiers"
+            "unit-de-ensemble-methods-basics"
         ],
         "unit-en-ml-organization": {
-            "sha": "f7263c527649fbfb3eef882fe47d6200ce6398e4",
+            "sha": "84a0eaefb27fafb7a4df17610bbd575ffa7c6f97",
             "numpages": 9,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "8198cc218ea2eb42f7124f4dade7696dc7d8b77d",
+                    "sha": "161cd32850e12e1a90cb25e8e373fabe033047ce",
                     "description": "Machine Learning Benno Stein"
                 },
                 {
                     "page": 2,
-                    "sha": "43fa702a9b9e6abf2a6194c96ff4b4b277f3469c",
+                    "sha": "abe74c91ef6994559f1fcff8f909846c8c510793",
                     "description": "Contents I. Introduction"
                 },
                 {
                     "page": 3,
-                    "sha": "bc7c002da2acf94b3c5283d27c3c3f0ce5404070",
+                    "sha": "a8a8aece81753d689ab4df912d1474c2d2a3585f",
                     "description": "Objectives "
                 },
                 {
                     "page": 4,
-                    "sha": "d9047cd1cf3b570e4b55d4b9204683f393a8fd16",
+                    "sha": "a3c3998a6c69b7147c850c7a11299b480545e76f",
                     "description": "Related Fields 1. Statistics"
                 },
                 {
                     "page": 5,
-                    "sha": "2ccb0c01bc89b3874f30973d54bedaf5fa4f071f",
+                    "sha": "9ef6270ffb8a9d5d483247ef28fd59b03cf201cb",
                     "description": "Literature Machine Learning:"
                 },
                 {
                     "page": 6,
-                    "sha": "94cd6626c53d26096b6a24cfb7f5cb8dd3a2dc88",
+                    "sha": "720c2bc5c206d376c6b05c70b9547cbe5d8f6005",
                     "description": "Software Programming:"
                 },
                 {
                     "page": 7,
-                    "sha": "d11722522207d464936e998e1e1d9296fcfd76f6",
+                    "sha": "cb4207cab4d8070d3474d0a4cbf46f5b4831b97c",
                     "description": "Software Statistics:"
                 },
                 {
                     "page": 8,
-                    "sha": "140fd0a8bd09c00944c479e015f372977d2c7569",
+                    "sha": "c5380570fd39c1c3d78e8edf1e530aab9ab5ec81",
                     "description": "Software Lab Class Setup"
                 },
                 {
                     "page": 9,
-                    "sha": "609a6c414822ea74befe0fd9cad915d02f144a69",
+                    "sha": "298a6a80c432d9b46fec5956717a26a81137aee6",
                     "description": "Software Lab Class Setup"
                 }
             ]
         },
         "unit-en-ml-introduction": {
-            "sha": "9f924455438b939c43ef34122d929944dbbfc1cf",
-            "numpages": 35,
+            "sha": "35f9d04751caaff720dba1bcf16b6015aee2abba",
+            "numpages": 58,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "25a3281de77486a674b6733a7d0b970107347f85",
+                    "sha": "0df87e97c2d28673f2232eb93e0ec13025da0dce",
                     "description": "Chapter ML:I I. Introduction"
                 },
                 {
                     "page": 2,
-                    "sha": "66638a1cd5eb85c4abf24b268915723198656f69",
+                    "sha": "ad59fb4fdb7d7f16c7d46bd150dd635609d4f1bd",
                     "description": "Examples of Learning Tasks Car Shopping Guide"
                 },
                 {
                     "page": 3,
-                    "sha": "e3fe50b7178753b5132a0ea5f4626561c8f77c4f",
+                    "sha": "2dcb13844007b243705dc06a85cee21256eb954d",
                     "description": "Examples of Learning Tasks Risk Analysis for Credit Approval"
                 },
                 {
                     "page": 4,
-                    "sha": "d9526c04ae3c96ba02990c86e5f13466ba8cab9c",
+                    "sha": "c14a1835ff5dc53de6f4de3fe48bf0e246a9348d",
                     "description": "Examples of Learning Tasks Risk Analysis for Credit Approval"
                 },
                 {
                     "page": 5,
-                    "sha": "8a1a81def8035b8db2650e0713a7e1e8d0ef597f",
+                    "sha": "dac9c206a046a719ab6cab1cf55a772b51a8abda",
                     "description": "Examples of Learning Tasks Image Analysis"
                 },
                 {
                     "page": 6,
-                    "sha": "fa2d196264a3afa050e90896774ac7f34f2ac6df",
+                    "sha": "8e0e18fc1c408779483c969d090a29e2510d6688",
                     "description": "Examples of Learning Tasks Image Analysis"
                 },
                 {
                     "page": 7,
-                    "sha": "3f9a4ef15f1ba582ccc25bdc13dd63fb4c0545b7",
-                    "description": "Specification of Learning Problems Definition 1 (Machine Learning"
+                    "sha": "7548d8bd2548e4e7561baa2fbc36f219351b5f72",
+                    "description": "Specification of Learning Tasks Definition 1 (Machine Learning"
                 },
                 {
                     "page": 8,
-                    "sha": "52b3aaf8776fb841cd8775b0530c2589b9883b33",
+                    "sha": "5935a2d09f686aeb3b6f4357cffb712a28fe0f51",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "25c6fd52ffdbc89b18bb149cfc378654f52a7d94",
-                    "description": "Specification of Learning Problems Learning Paradigms"
+                    "sha": "9d50af2c66b9e6846821f087ccc02aef3e506645",
+                    "description": "Specification of Learning Tasks Learning Paradigms"
                 },
                 {
                     "page": 10,
-                    "sha": "9286ee6b6472aaf04d80e73ada55652af3a8bf7f",
-                    "description": "Specification of Learning Problems Learning Paradigms"
+                    "sha": "92f3d4a78521103402fe0746c4b663786891a8e0",
+                    "description": "Specification of Learning Tasks Learning Paradigms"
                 },
                 {
                     "page": 11,
-                    "sha": "3dc2c9be7cbfd0a4c3bdcc0094f4f328ceaf9ecf",
-                    "description": "Specification of Learning Problems Example Chess: Kinds of Experience"
+                    "sha": "106acb695a5fe7a6aa77110da7095baeb8f7ab1c",
+                    "description": "Specification of Learning Tasks Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 12,
-                    "sha": "3fa42aea0cb7acf6ba79796beec58ce78fdcd3e6",
-                    "description": "Specification of Learning Problems Example Chess: Kinds of Experience"
+                    "sha": "b17dacf3eb32af0ba0a2e852322ddf5af74c6ad5",
+                    "description": "Specification of Learning Tasks Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 13,
-                    "sha": "1f5715a1a5b6382d23f43b94d1f8dc275a629aee",
-                    "description": "Specification of Learning Problems Example Chess: Kinds of Experience"
+                    "sha": "ad45098edf08a9168e3e4c66ce5e27a76420fb7b",
+                    "description": "Specification of Learning Tasks Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 14,
-                    "sha": "783f5f27b633826f1fc6abe65965aa962d23309f",
-                    "description": "Specification of Learning Problems Example Chess: Ideal Target Function \u03b3"
+                    "sha": "ab765ae2b35b87c2373c51c91ab5543d0b319fdd",
+                    "description": "Specification of Learning Tasks Example Chess: Ideal Target Function \u03b3"
                 },
                 {
                     "page": 15,
-                    "sha": "cdb398cc70d9ef49b9feecd1fe2f1cdd6ce7a7e1",
-                    "description": "Specification of Learning Problems Example Chess: Ideal Target Function \u03b3"
+                    "sha": "f97d8c588755ee4148d533cfeed592f6fac5599b",
+                    "description": "Specification of Learning Tasks Example Chess: Ideal Target Function \u03b3"
                 },
                 {
                     "page": 16,
-                    "sha": "0df8a683dc3309c69a8202a1cf0072dc509fbc38",
-                    "description": "Specification of Learning Problems Example Chess: From the Real World \u03b3 to a Model World y"
+                    "sha": "c837316dc52cca73b34c2ad2fd77d9f49425cf45",
+                    "description": "Specification of Learning Tasks Example Chess: Real World \u2192 Model World"
                 },
                 {
                     "page": 17,
-                    "sha": "21f16353e88c6cdee37c4cc2ccb0d58346a73350",
-                    "description": "Specification of Learning Problems Example Chess: From the Real World \u03b3 to a Model World y"
+                    "sha": "3596a894479db4dc51f3528442994d8f4ff026d3",
+                    "description": "Specification of Learning Tasks Example Chess: Real World \u2192 Model World"
                 },
                 {
                     "page": 18,
-                    "sha": "e8de075933ee29d508fabbe1436a5a0d0303eae7",
-                    "description": "Specification of Learning Problems Example Chess: From the Real World \u03b3 to a Model World y"
+                    "sha": "43458c3dcb1a725f86cafba2895d8c65433ef4b9",
+                    "description": "Specification of Learning Tasks Example Chess: Real World \u2192 Model World"
                 },
                 {
                     "page": 19,
-                    "sha": "11f5ccc838636c7bec45c835941d7fcd3f7f8a53",
+                    "sha": "3d89b8c93edd6a117d38083729b3c4d6aa5b8071",
                     "description": "Remarks:"
                 },
                 {
                     "page": 20,
-                    "sha": "aeeda98a50601cc8c1f0335dc6758774eab1c87b",
+                    "sha": "65e843435f87a02df42cf96419e24d67455abe23",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 21,
-                    "sha": "0e9a1e920ad6c613ef3d77e45bc648bf0eb0cce8",
-                    "description": "Specification of Learning Problems "
+                    "sha": "21222197c5065efc09be5650642a428189467a14",
+                    "description": "Specification of Learning Tasks "
                 },
                 {
                     "page": 22,
-                    "sha": "1b96085a8bd53397c76152d4f7df05e01ba480dc",
-                    "description": "Specification of Learning Problems "
+                    "sha": "d82286655aaadb76de486da04dc558f32496d2be",
+                    "description": "Specification of Learning Tasks "
                 },
                 {
                     "page": 23,
-                    "sha": "704988c97dfd67fb56f76178a0a092b639121a41",
-                    "description": "Specification of Learning Problems How to Build a Classifier y"
+                    "sha": "52733095411a7f0311e4c0833702fb8896746579",
+                    "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 24,
-                    "sha": "88516c257ba54203d46a11ecac73a5395963d95b",
-                    "description": "Specification of Learning Problems How to Build a Classifier y"
+                    "sha": "699e8d691d4c8deda643bd67fea2bf8d79b8b624",
+                    "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 25,
-                    "sha": "5a07fc75a13521391d70b65014a6de47bd1b86d0",
-                    "description": "Specification of Learning Problems How to Build a Classifier y"
+                    "sha": "ae9c1aba8af0e1e518dd9de971c33d69cc3b337e",
+                    "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 26,
-                    "sha": "c47d0e2cea151e4583efc65ccae0e77ffe7857f8",
-                    "description": "Specification of Learning Problems How to Build a Classifier y"
+                    "sha": "d217046f4681d80d0a7546ed318bc86178b3935b",
+                    "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 27,
-                    "sha": "e7e622ba0686ac9ed3712918a7587dc55ee91793",
-                    "description": "Specification of Learning Problems How to Build a Classifier y"
+                    "sha": "593ffea7ecd8634ef1ae8dd4330c7fb1c7a9cd3b",
+                    "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 28,
-                    "sha": "578d0a4cd36913381ffdb0f5ea4337155e05b34a",
-                    "description": "Specification of Learning Problems How to Build a Classifier y"
+                    "sha": "2c8e519745f6c29efa0070db7f8345957bcd8d63",
+                    "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 29,
-                    "sha": "5ac7ed21012e822f11eed130c949bf6e5137a92c",
+                    "sha": "4eb9e670c904c8cc5a025586f3eb90ac8a8f5ed9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 30,
-                    "sha": "ee8208f0eb16c6af1981f0d450443844bbb6c7fb",
-                    "description": "Specification of Learning Problems LMS Algorithm for Fitting y"
+                    "sha": "bb81851f5dcfd053d5ebcb21734dd83f3b665121",
+                    "description": "Specification of Learning Tasks The LMS Algorithm for Fitting y"
                 },
                 {
                     "page": 31,
-                    "sha": "5d7b6a9957738ef0304c9eb8896988f4bcb6e9e9",
+                    "sha": "ab3ee4e4f6fde42ae0c6c2cc5181e917f310d0bf",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "1c0c33d0c3cb4849f0ba859330c1934fce42b591",
-                    "description": "Specification of Learning Problems Design of Learning Systems"
+                    "sha": "cf81146f712a364e1528bb3222bc2a07e0d90c39",
+                    "description": "Elements of Machine Learning "
                 },
                 {
                     "page": 33,
-                    "sha": "5733033c922dab57165e963df57ac45c34687ab3",
-                    "description": "Specification of Learning Problems Design of Learning Systems"
+                    "sha": "1984ddfa19e789cbc70f002da44c9de3da50dc7a",
+                    "description": "Elements of Machine Learning I. Model Formation: Real World \u2192 Model World"
                 },
                 {
                     "page": 34,
-                    "sha": "72e4e6e2baf96c5e64d8f46ac5825547c2870914",
-                    "description": "Specification of Learning Problems Related Questions"
+                    "sha": "c978fe6bbcac4335cef7d97aad6dbc9fdefbec7a",
+                    "description": "Elements of Machine Learning II. Design of Supervised Learning Algorithms"
                 },
                 {
                     "page": 35,
-                    "sha": "d8c93def59832803cf92102568c9e71ddc1751d6",
-                    "description": "Specification of Learning Problems Related Questions"
+                    "sha": "364425a84a5d0f0d42d3bca9a86abad243e1d523",
+                    "description": "Elements of Machine Learning II. Design of Supervised Learning Algorithms: LMS"
+                },
+                {
+                    "page": 36,
+                    "sha": "7051643e2149cef976c89d577d6537b70ae09528",
+                    "description": "Elements of Machine Learning II. Design of Supervised Learning Algorithms: LMS"
+                },
+                {
+                    "page": 37,
+                    "sha": "39dd7b764005961e09b132d7bbf8e525adc76e5f",
+                    "description": "Elements of Machine Learning II. Design of Supervised Learning Algorithms: LMS"
+                },
+                {
+                    "page": 38,
+                    "sha": "cb009e377bf75251195430d08c2cdd1b726c9f0a",
+                    "description": "Elements of Machine Learning II. Design of Supervised Learning Algorithms: LMS"
+                },
+                {
+                    "page": 39,
+                    "sha": "ff6b6ce9b9e0c768ee07450c70c8d6407335c329",
+                    "description": "Related questions:"
+                },
+                {
+                    "page": 40,
+                    "sha": "5efb6a6c366439a2166514e3298e36a36182694e",
+                    "description": "Elements of Machine Learning III. Structure of Feature Spaces"
+                },
+                {
+                    "page": 41,
+                    "sha": "4063eee7f7763116e91c954badf459c3bb920e51",
+                    "description": "Elements of Machine Learning III. Structure of Feature Spaces"
+                },
+                {
+                    "page": 42,
+                    "sha": "349d365164ecf80e51c7cb7489f77dde478c750e",
+                    "description": "Elements of Machine Learning III. Structure of Feature Spaces"
+                },
+                {
+                    "page": 43,
+                    "sha": "27ace5d84eee3e9ab5eea947b10ac3f2fe354898",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 44,
+                    "sha": "e2f038e6b886a51223204c904c8b6b2171c86dd2",
+                    "description": "Elements of Machine Learning IV. Discriminative versus Generative Approaches"
+                },
+                {
+                    "page": 45,
+                    "sha": "004bbd9ed744d5c775a69a90499c1092bd84d748",
+                    "description": "Elements of Machine Learning IV. Discriminative versus Generative Approaches"
+                },
+                {
+                    "page": 46,
+                    "sha": "0ba837c0667033d2bca066e12fdc5de170355793",
+                    "description": "Elements of Machine Learning IV. Discriminative versus Generative Approaches"
+                },
+                {
+                    "page": 47,
+                    "sha": "539b15ae2094094f844c274d778f61b80a3092a5",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 48,
+                    "sha": "a9921c73d0dcd3a3e2cc90c4340449607fcd340d",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 49,
+                    "sha": "bf457feb3d85013f989e87008815ff7c9d4c2f96",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 50,
+                    "sha": "3046e66b3a3974eddb2f7352e1414f52c89ca1d8",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 51,
+                    "sha": "34c2f9fcb59cdc510ad0b1e182514019fba84b46",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 52,
+                    "sha": "89b97a628fdaeb620211a4f52e52162c7961f964",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 53,
+                    "sha": "7e624f2c374f8a4ec772f138832a83a53881f91b",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 54,
+                    "sha": "98f412d3359e24c6fdbeefd173c8ee8dd5bfa420",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 55,
+                    "sha": "7302dd7cbe5b8f5fdcb30b92231012f5f944d4a3",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 56,
+                    "sha": "5827b94fd3494535a40e7fde4a1cfbd44ccead10",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 57,
+                    "sha": "3b1f3c98b640eb38a43b304f1ba3d3762464ffe9",
+                    "description": "Elements of Machine Learning V. Frequentism versus Subjectivism"
+                },
+                {
+                    "page": 58,
+                    "sha": "6f63fbeb366f02c74fc0f67c87863e98a1687b94",
+                    "description": "Remarks:"
                 }
             ]
         },
         "unit-en-regression": {
-            "sha": "0282cd0f78e374a4240a667ca8b43e017c415abd",
-            "numpages": 44,
+            "sha": "f966a0ea62b5da23c393d8f14dafcf338970ef11",
+            "numpages": 45,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "9db6de39fb5abc85ecb27c22f921d30eb8a30a1e",
+                    "sha": "4b5405d665c0a1d62994a5205419a5a1925640e1",
                     "description": "Chapter ML:II II. Machine Learning Basics"
                 },
                 {
                     "page": 2,
-                    "sha": "bfe3ed629184c0c3139e773f8df86b8e6902de97",
+                    "sha": "1567744b194e56415dd73e989fbad7c872b5459f",
                     "description": "Regression Classification versus Regression"
                 },
                 {
                     "page": 3,
-                    "sha": "e70bbfbc460bdc897ada9f78bdcf5110edb9bc48",
+                    "sha": "63a49b7263a1c5750f4ad62b9f30303a787c4da0",
                     "description": "Regression Classification versus Regression"
                 },
                 {
                     "page": 4,
-                    "sha": "16252e09515ddbbf713d1792d47e720c0aa5de6b",
+                    "sha": "abdf6b92cebff3883ca2cd387b0c0a119a05d762",
                     "description": "Regression The Linear Regression Model"
                 },
                 {
                     "page": 5,
-                    "sha": "3a5d7b638a63d7b492b184d873d438a428f23634",
+                    "sha": "32607c816991a0b865f614b0db7723b4e8fed759",
                     "description": "Regression The Linear Regression Model"
                 },
                 {
                     "page": 6,
-                    "sha": "2fc12b333e8cd9bfb57db3a005ffb0c9631e4751",
+                    "sha": "cd52aa7943aa39d806c399ad7083c44c1f8b1756",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "4df89879c15be56cf1e3e1ddf15d9d045b57f171",
+                    "sha": "6fc87313f8db6ec0acdd6c1c428d2a2f76d90d19",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 8,
-                    "sha": "5f6669b567b52b7a40846d9fa6ad86dc764254ff",
+                    "sha": "aa9a5ce6529922aabdc1a9dc24c5e632a27bbf34",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 9,
-                    "sha": "aba46a3ad28f133ed8b57bb102cb134ec6fc631c",
+                    "sha": "6b0e2935b6d85737a3d227cb69e3aa9b8511596e",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 10,
-                    "sha": "cc204462d4d504c22bc8fb688ca9392905f6b43a",
+                    "sha": "e5773e9fb57334dbba2d5f263d38dfd118395420",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 11,
-                    "sha": "118c4b5391672af6eb9496f4531748a67f2b51ae",
+                    "sha": "8027dfccc4fd440ca9ab7b49fa66e006afffd8f6",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 12,
-                    "sha": "57b66e8d421aef89121f8adbf2c9a1c9eeb520b0",
+                    "sha": "b5cf5dc34994e39b82efce27ed151218680706b8",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 13,
-                    "sha": "d6ab73e59a9a6bff50f2e236286a4831cf9e2a8e",
+                    "sha": "a759f48d16400278507103fd8473a6a08daf1c10",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 14,
-                    "sha": "f8604c71e5533e8d05c590ff7b962e628724fca4",
+                    "sha": "0582f913228f559eea5efc8e19adc4c525208251",
                     "description": "Regression One-Dimensional Feature Space"
                 },
                 {
                     "page": 15,
-                    "sha": "e539733b16259e98e73b80c645f30ad04aba9b4a",
+                    "sha": "3c32d230cf9653775e1f7157c110023145c4a259",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 16,
-                    "sha": "94a25eb6b79077af466f7c5c5e55f56991586cc8",
+                    "sha": "c413bb59c4f39eea06d529e7841a59b74639583d",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 17,
-                    "sha": "c56ff6ef06e6028af7de3f1f572df2b4fd19f356",
+                    "sha": "e67159d400dbb1f7aecb5d6c3e44c0e2dc24ad72",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 18,
-                    "sha": "c45ab74cc15903596e22f82108fe603a6e5b811f",
+                    "sha": "fd9f2a082cf1bdb8d56055cf0fac9a15388a8ed4",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 19,
-                    "sha": "663e9a5bea307211d4e663a2f43ff4fcdb0504fc",
+                    "sha": "d19d7ad18798575190cea67b8ee2152dd6252fee",
                     "description": "Regression Higher-Dimensional Feature Space"
                 },
                 {
                     "page": 20,
-                    "sha": "c4c36ee9ad4e86a8189628fe3dc1c16e4780d5b6",
+                    "sha": "db9dc76c7677f0c12e12249fd49fde5d67b55f51",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "6f6337f6df8ffc45c9cd434ab8a3789cb42e7429",
+                    "sha": "c10e80aefb30203d93ffd8c0f658a9783e1dfe43",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 22,
-                    "sha": "ec11a108460c92cbe5152dbe1eb084f0b630c3c0",
+                    "sha": "177f4ccfb9d288430d2bad57d3055ec55e1b5645",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 23,
-                    "sha": "fca06fc1746e0329a0773da2e2b900b0a6851f83",
+                    "sha": "f39405c32f1c785e9c537b172674db20d039e407",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 24,
-                    "sha": "3245b9518149d6cbb2b172c29f95bf021fd2efc4",
+                    "sha": "26b8718b4908b5e3def665b90b283f5fece19edb",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 25,
-                    "sha": "1a20b21b6658cb8e95f82286747d472e44f62574",
+                    "sha": "7817fb936853f080e9382f6765ad5428f7209ff3",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 26,
-                    "sha": "187f8b5f7bfb484fddca29540ef0ccddf680ff91",
+                    "sha": "9c526a9976ed8c38cf155db53ba0e2fa35c96659",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 27,
-                    "sha": "dbbdc96f9ce71b8f93e10edef96f0b49b521124f",
+                    "sha": "a74e51a651147801d7fcb5382638461a28ebe2f3",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 28,
-                    "sha": "09ea77b5af2f627bf56757aa36ba03803edecdfa",
+                    "sha": "8a40afd23cf23348d1910485a53a85953c616c22",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 29,
-                    "sha": "772760627d6f0593f489c0ecfb2c1aac25565a23",
+                    "sha": "b2341a2216d1786e8bd4b8a9382560e76924e09a",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 30,
-                    "sha": "88b9afbdaa6e68b0c59f40b7395b0300a9c3c8fb",
+                    "sha": "dd63e154f7c36bc4e63bdece9d5d948011eca997",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 31,
-                    "sha": "e495d9b1206898040ca2e824347b29e00dbda970",
+                    "sha": "9e66ee6ae912f51fef2ea1965cd30d36f6035dd9",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 32,
-                    "sha": "4a1c2bd8c0698aa9c4c5dd1fcea9086f44ff2586",
+                    "sha": "94a02e577b257cc8bc652757f3cc1bcf7e9d94c5",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 33,
-                    "sha": "95942d6f8f7e6aeff02a3a88fcb3e63942beeb7c",
+                    "sha": "1fccaf21787eaea6b804521213d328bb322d4430",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 34,
-                    "sha": "a22b2d07ee340da130ee38fb8127f3c8efb2dc94",
+                    "sha": "388dcb69ed5afe4734c22094f9131af1dfa90822",
                     "description": "Regression Linear Regression for Classification"
                 },
                 {
                     "page": 35,
-                    "sha": "9245c26dfdecdbfa18e2c483a6f1dcc52032e4f8",
-                    "description": "Regression The Linear Model Function: Variants"
+                    "sha": "776e0493311adcc070c39e07ec2b8fc7dc7e96f3",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 36,
-                    "sha": "c13b4ed91a239559395ab816e71029280a5e9f71",
+                    "sha": "5fbff4499d825be1f1e13732e7ed7a58c84a598d",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 37,
-                    "sha": "3a12615af2a364ca3223603d9b32da850b742cfa",
+                    "sha": "d31714d834d951b26b86549a2dd37bf455d30fea",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 38,
-                    "sha": "ba5c3d0e209929c9a7cedb1fbf382c08c8e21b57",
+                    "sha": "c1d936cbc26dda84aec0a751de22c6ceb68a15cb",
                     "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 39,
-                    "sha": "85ff7895ee513acb07c8e128ae389a3be68d7225",
-                    "description": "Regression The Linear Model Function: Properties of the Solution"
+                    "sha": "a47a11927ca1ad0f0505da02f2e7693e13402397",
+                    "description": "Regression The Linear Model Function: Variants"
                 },
                 {
                     "page": 40,
-                    "sha": "73cd6cb7be2e487c133afa65dac8316bd0a46da3",
+                    "sha": "7fa5907b85a195ce77abf242ff5fa8af8417021f",
                     "description": "Regression The Linear Model Function: Properties of the Solution"
                 },
                 {
                     "page": 41,
-                    "sha": "6832639ddfdf808901ced7e68b28a5f9e58da470",
-                    "description": "Regression "
+                    "sha": "2020589f57f3a36646f8af44ec5064e9aeaaa474",
+                    "description": "Regression The Linear Model Function: Properties of the Solution"
                 },
                 {
                     "page": 42,
-                    "sha": "41c9f90f892df9fbc009cb5fd00e87e4fa252b08",
-                    "description": "Regression n"
+                    "sha": "8491bfb1002d18b6a72d05ed39e3b3071fa85c0a",
+                    "description": "Regression "
                 },
                 {
                     "page": 43,
-                    "sha": "337e44361d9bac0b7b9b3ca6c988d7af003113f6",
+                    "sha": "3aa56416c0559b53f4698820df7851f9bafa130d",
                     "description": "Regression n"
                 },
                 {
                     "page": 44,
-                    "sha": "030c553405fcac061478f3b91f0bf33463a2e5d7",
+                    "sha": "5b387dc5aeea7ea230156b99fd0bf65b70742265",
+                    "description": "Regression n"
+                },
+                {
+                    "page": 45,
+                    "sha": "1df45ab27a04dab169aba04262f409dc4dff2281",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-concept-learning": {
-            "sha": "63f3f0495109bf3fe90d96c1742b62b42cf7da18",
+            "sha": "9465992e871269c755eb0479b1e8008ce612b67c",
             "numpages": 51,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "593333f04324c4bdab968458af9d616d7aa4eae0",
+                    "sha": "5aa990e3d60af1c67220ce5728a8bcb740f23309",
                     "description": "Chapter ML:II "
                 },
                 {
                     "page": 2,
-                    "sha": "b6dc40224d2a7a0ca8c5dd7c1f116e237a23a97b",
+                    "sha": "d489027b0595b577da84085f4b9e3049a0571364",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 3,
-                    "sha": "e89c5fb8523f648809fc941ea221cfb70b84cc20",
+                    "sha": "dc278e7b8047545a95cb93a16d29d6a4e6e5fa71",
                     "description": "Remarks:"
                 },
                 {
                     "page": 4,
-                    "sha": "99b8815a556de725c945318ef301c2e6a36003c6",
+                    "sha": "2f82e6ffaafdb243b79cd0f8007586609b8be1e2",
                     "description": "Concept Learning: Search in Hypothesis Space Objects"
                 },
                 {
                     "page": 5,
-                    "sha": "ceed3e325b8a426ca62b903522ee5f0c16d2d5c0",
+                    "sha": "e9d16ed0a2a181a6340054a9fda396e03fe7f7c2",
                     "description": "Concept Learning: Search in Hypothesis Space Objects"
                 },
                 {
                     "page": 6,
-                    "sha": "eb6f94d9fe56855064bf26de237749c4a34c47af",
+                    "sha": "48eaf77affa691855fbd8bc1be96d92806d1f7ce",
                     "description": "Concept Learning: Search in Hypothesis Space Usually, an example set D, D = {(x1, c(x1)), . . . , (xn, c(xn))}, contains positive"
                 },
                 {
                     "page": 7,
-                    "sha": "7ff88aa79eebb75da4aaaec5a85c1aa6925bda5b",
+                    "sha": "f3dbdc83bc61bfc2f63d3fff05a0f0087ef734c0",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "4487c7a545f280a9775dfc7c0a8d757d320805fd",
+                    "sha": "3d9df1550b3cb69cbc90fd73503addf0d705b81f",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 9,
-                    "sha": "cca0a05e5aa82a9663f80bd6bfed80a4deea79e3",
+                    "sha": "9051f7a56ca39f839cb8b50f1de09c64d39c1e3f",
                     "description": "Concept Learning: Search in Hypothesis Space A Learning Task"
                 },
                 {
                     "page": 10,
-                    "sha": "f45f0f47ed5c91af83367c179b505d64ea0e72e5",
+                    "sha": "617d2548cf0e4135cda1fd2881af2bd2b85e1fbc",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 11,
-                    "sha": "4d97f02d5ac5e7aa039c04c0c6180d4037d52d47",
+                    "sha": "f46bac668a4ccb4c54d99cfdc6e17175d3df6eef",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 12,
-                    "sha": "fcc9ab366a277a0a54cb0810701acf01fbfa67a2",
+                    "sha": "b521defe9c8028af8c0abd0c046e20abd45f6594",
                     "description": "Concept Learning: Search in Hypothesis Space Order of Hypotheses"
                 },
                 {
                     "page": 13,
-                    "sha": "5c64257571024a7ca1079e60e3aa0eed530d7dd6",
+                    "sha": "d1b544d778242fde5f633b6493ae295ae5a41b43",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "f5ba560bccea2db78d714565bcff0d2b6962d61a",
+                    "sha": "c8f6a9667cc35e12b9873c4c66687041eba8b7bd",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 15,
-                    "sha": "8c14b8a595086640ad24efdb42e085b87493bb2a",
+                    "sha": "6f8d81ca008b4b6d9ad9e213167a855c69016768",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 16,
-                    "sha": "5e54ca925e72bf6e2831b5943f5f1207d913eae2",
+                    "sha": "ae5be3f22e6b242ed1ed78b02288880bcbd3a8c3",
                     "description": "Concept Learning: Search in Hypothesis Space Inductive Learning Hypothesis"
                 },
                 {
                     "page": 17,
-                    "sha": "549c095bb8a37cd100a21f7b48a9c54e4482a613",
+                    "sha": "bc906607561c8fcd215ab48ad6f8dc203e7e2019",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 18,
-                    "sha": "1b8f52743a6c4f4ea056f2f534bcc2904bc320cf",
+                    "sha": "7bf4e071fbe843a6b4a9d0c48dfed1805a415174",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "66476099100874c1b3a1168c2c9e23c8edccee3f",
+                    "sha": "f36b5528ff809613927f056cba814f0aa3cd90ff",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 20,
-                    "sha": "7aff34e9f64f3a8d650114b52a878463662e0ea9",
+                    "sha": "019f1e25403933032593a6178385aa17b36066f4",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 21,
-                    "sha": "1d6bd354fc3053f35c4f0055e639a12556673893",
+                    "sha": "c360bd768b6ec693de4412c6f169b8fabaa9e365",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 22,
-                    "sha": "42fa78fe6eb3b1d4d99249141f244c06708ef8f7",
+                    "sha": "e336f29793d73b9b11e38667307d58b806810a9a",
                     "description": "Concept Learning: Search in Hypothesis Space Find-S Algorithm"
                 },
                 {
                     "page": 23,
-                    "sha": "c5276801eb2821f13c816ed4352e1e1aee4327f8",
+                    "sha": "d83fbba1f612ee3592e8bea3512a29388379db19",
                     "description": "Concept Learning: Search in Hypothesis Space Discussion of the Find-S Algorithm"
                 },
                 {
                     "page": 24,
-                    "sha": "0a22b98657eb49dd32c015f224e99db86997cf5c",
+                    "sha": "1b8acb2daf7a46d77e0b620f069fc0e84585b408",
                     "description": "Concept Learning: Search in Version Space Definition 5 (Version Space)"
                 },
                 {
                     "page": 25,
-                    "sha": "90890a99a3b4dd0afb180cdde1d90d0911fc417b",
+                    "sha": "9ba3d38049587cfe3e781a5e69954510d4b70fb7",
                     "description": "Concept Learning: Search in Version Space Definition 5 (Version Space)"
                 },
                 {
                     "page": 26,
-                    "sha": "9c9223e0c91463b6a8f2c252ab0c34d8b2981b65",
+                    "sha": "e585707e1804b9d3e67d50c7437cb2f4c1e87363",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "82d043b6512821efc1c025ab5b0d352e01ef9f4f",
+                    "sha": "bd664b5c83fe4bdcd668de6462d29d86a52da93f",
                     "description": "Concept Learning: Search in Version Space Definition 6 (Boundary Sets of a Version Space)"
                 },
                 {
                     "page": 28,
-                    "sha": "1d3137a312f5bb8efc7fbdba93994cddd711b638",
+                    "sha": "78fe428a1dadcf4b466ddd149caf06ad961be8f3",
                     "description": "Concept Learning: Search in Version Space Definition 6 (Boundary Sets of a Version Space)"
                 },
                 {
                     "page": 29,
-                    "sha": "195d8b0a71673c738bb31a7bab88e945654ed084",
+                    "sha": "5b9cc8dfbb48371daeeb7e955caea927d63adec4",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm"
                 },
                 {
                     "page": 30,
-                    "sha": "1324974d23b7152a815431e5006ed731a7180977",
+                    "sha": "6990f3d15e87c616c753136bcfa64d8d43f7e910",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm"
                 },
                 {
                     "page": 31,
-                    "sha": "4e9934177ed78091eea75603736121807ab73384",
+                    "sha": "85eb699557eca12387e8386b2d61bacd499f5b79",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "942f1c0523c0757fc99aa7ae48baecd16998a6a8",
+                    "sha": "7ab162bfbe53fdfe28fc9ba94840a3630700e7a3",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (pseudo code)"
                 },
                 {
                     "page": 33,
-                    "sha": "547845ef2819bd2a10fb073607b306094e10fb9e",
+                    "sha": "bc94a3acdf36bc2f37b67d4293c4619b209db22b",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (pseudo code)"
                 },
                 {
                     "page": 34,
-                    "sha": "f1fa0be8a86659634fe129e70d57df2c3eb6d546",
+                    "sha": "009ca453c81cc554695e9dc305074bf192a019ae",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 35,
-                    "sha": "82bdc020bf0cba7a2d1146f10a73c8fdad3a30e8",
+                    "sha": "492a0f9a702b84e2251d87721a11272e126a8eaa",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 36,
-                    "sha": "ea884fcaaf087b8d70cf17be0bf778b0ebe7a12b",
+                    "sha": "c1e93ed1f3549018ff502a286f959372595d4b10",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 37,
-                    "sha": "5f1e914df73b1bdfd647167d502e758a9b4ca575",
+                    "sha": "b6211398d3a3aff513158288bf50dd539c50e3e3",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 38,
-                    "sha": "bf58895ffc3b422d8a83e8dbae8743b73c808e1a",
+                    "sha": "3c17d8e87da7c62e5acdbe7ac00a5e1c5afb0f84",
                     "description": "Concept Learning: Search in Version Space Candidate Elimination Algorithm (illustration)"
                 },
                 {
                     "page": 39,
-                    "sha": "6f78704c53d883fc571a1eb238993b1dc6d57463",
+                    "sha": "1ff3955fc08e9235d557f4bb5a30a66875055d4c",
                     "description": "Concept Learning: Search in Version Space Discussion of the Candidate Elimination Algorithm"
                 },
                 {
                     "page": 40,
-                    "sha": "0dcd35c7deeb389e71251d52278b3132e3c7609e",
+                    "sha": "98cf4fbff6a32088473cf55af0f6e2bb60cd2119",
                     "description": "Concept Learning: Search in Version Space Question 1: Selecting Examples from D"
                 },
                 {
                     "page": 41,
-                    "sha": "03a21fa3f63b62a4f6befcc65746486e4586b5e7",
+                    "sha": "3757f12af807271ef9c991fb31de3bce196bf028",
                     "description": "Concept Learning: Search in Version Space Question 1: Selecting Examples from D"
                 },
                 {
                     "page": 42,
-                    "sha": "a6ca1329cedb57c0d56496c54b052b74a08572f0",
+                    "sha": "69488381bbbf95df699ce00075645048ba7de6f8",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 43,
-                    "sha": "97b23f0926d29a21f16e34c83df6578e71a6fdd4",
+                    "sha": "89d8fa483fcfeb477e600eeb725a3a7dbcefe8c4",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 44,
-                    "sha": "9827d561ab79b1eb95d255a62f49f443089c759f",
+                    "sha": "c6a1fc90774b2ae2ec78044a96b27945cf11c20b",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 45,
-                    "sha": "693c5b9ee41199c2b13a3855e5b46050aaa64128",
+                    "sha": "1e79e43dc11dde68544ff90e884ff266d3e57b81",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 46,
-                    "sha": "ea5cb5621d5a26174686e020d2b33000c4704d9a",
+                    "sha": "d0229f1a84c61b8426437a863bba4d011c9b5515",
                     "description": "Concept Learning: Search in Version Space Question 2: Partially Learned Concepts"
                 },
                 {
                     "page": 47,
-                    "sha": "22a945171eb2f85be1c7b0fcd590f9e8eeb1a46d",
+                    "sha": "31424add7b34fc09ed5d17784da0cdfdb1a27e2e",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 48,
-                    "sha": "1e5a3378c6a1566a0f903df1446a4721f8b0a6c5",
+                    "sha": "2b142af26b0a2f52b9b1e527cebcc56d599d8ace",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 49,
-                    "sha": "d9bd04a7bcd9f140bd00b89c714644425ac77104",
+                    "sha": "c7bfdb1a7b3d2bf599878e9e4bc00d8751f5afce",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 50,
-                    "sha": "41c3e5b8d8498a37cd5a1f1dc0707527219fb603",
+                    "sha": "ebd9467f3f7371cd205d98fea82e1193fc6e84d5",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 },
                 {
                     "page": 51,
-                    "sha": "fba1059f5fc46f428698894587f254217af1d725",
+                    "sha": "e49cba8a529484ac6d6f217008b24e1985686136",
                     "description": "Concept Learning: Search in Version Space Question 3: Inductive Bias"
                 }
             ]
@@ -23832,1299 +23952,1304 @@
             ]
         },
         "unit-en-decision-trees-basics": {
-            "sha": "c6535af817d92d03dae8bf407384933367ba5ca7",
+            "sha": "2d601731879cf27d8188f05666c49a8edbe652d8",
             "numpages": 35,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "11af214d8a6aa6c380bf6cd38649187ff9cbddd0",
+                    "sha": "0334e5931a21f809a8d73c953fbc806b8d39b540",
                     "description": "Chapter ML:III III. Decision Trees"
                 },
                 {
                     "page": 2,
-                    "sha": "83d17ce04a83bf0f66b055af80dfe42d5c466ac7",
+                    "sha": "c10920e4da0cfddaf8201a9bf4563e1ab920e2ce",
                     "description": "Decision Trees Basics Specification of Classification Problems"
                 },
                 {
                     "page": 3,
-                    "sha": "ee54c0332258a9a17ef2173704832d1754330b3c",
+                    "sha": "520b800251e58d46edd3c26e83071472c73f533b",
                     "description": "Decision Trees Basics Decision Tree for the Concept \u201cEnjoySport\u201d"
                 },
                 {
                     "page": 4,
-                    "sha": "4e5e898d9c11cf27a32e07e84f13202d7ac52fab",
+                    "sha": "b09167d34e7117fc86d7d53f9cda3bf11081ecec",
                     "description": "Decision Trees Basics Decision Tree for the Concept \u201cEnjoySport\u201d"
                 },
                 {
                     "page": 5,
-                    "sha": "6c5c48eb08fba56c65720b7b5b2d91ea82f3dd47",
+                    "sha": "7e5091fec12e99a827af0a65c7be1fe28edbbdb8",
                     "description": "Decision Trees Basics Definition 1 (Splitting)"
                 },
                 {
                     "page": 6,
-                    "sha": "0517097a48cba81b09b72aeaafe0a93c3647e071",
+                    "sha": "3844660cd08dee4fe856ee0c29685505e026b917",
                     "description": "Decision Trees Basics Definition 1 (Splitting)"
                 },
                 {
                     "page": 7,
-                    "sha": "33eea9661dfaff1666a528413c6e0e1c4ac70bcc",
+                    "sha": "2abd13248b3979e94963f7357c51a95524f55514",
                     "description": "Decision Trees Basics Definition 1 (Splitting)"
                 },
                 {
                     "page": 8,
-                    "sha": "9baea3aeb4c351d38aa6f45ea4e271ba3a3ed6f1",
+                    "sha": "35e02d7dbd507c5c635f0ebbbab248f8d70c405f",
                     "description": "Decision Trees Basics Definition 1 (Splitting)"
                 },
                 {
                     "page": 9,
-                    "sha": "4a0a9988822d74e2d91fbfe5f5883b9fe84c2bd8",
+                    "sha": "5892fd4813eae6eac79eaf1a1bac07c702bb6bcc",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "e5cc9c18a7ac7a748b1bfb4305c481291184865c",
+                    "sha": "c19c41466a494e1ff2fcbdab92a264977c77c54a",
                     "description": "Decision Trees Basics Definition 2 (Decision Tree)"
                 },
                 {
                     "page": 11,
-                    "sha": "64582e936e81712dcfa353cf8cd2a9199288d475",
+                    "sha": "afb14ee9ece261816fbe8ff88836ab54055c64a8",
                     "description": "Decision Trees Basics Definition 2 (Decision Tree)"
                 },
                 {
                     "page": 12,
-                    "sha": "9b1b5358d3573a6238fc21fec6049b24e5497098",
+                    "sha": "9c4dc21a9fc27e78fa839c499b2c9618e4041bea",
                     "description": "Remarks:"
                 },
                 {
                     "page": 13,
-                    "sha": "038e156049933fdf1a3ea8b412d94b7112af2466",
+                    "sha": "6a72fce55bb7996a16be7585b194793a84484662",
                     "description": "Decision Trees Basics Notation"
                 },
                 {
                     "page": 14,
-                    "sha": "69ad32e102db6b4ce4619c44e0746e90a17fecc3",
+                    "sha": "8a34f3fcf72c040d96752c4ed2dbf779e13046a4",
                     "description": "Remarks:"
                 },
                 {
                     "page": 15,
-                    "sha": "9413b7ac0d2c87753b04a191ac5a8015436b09c3",
+                    "sha": "1ca3137f50b8f37bee973e545c89b1bae77cafd5",
                     "description": "Decision Trees Basics Algorithm Template: Construction"
                 },
                 {
                     "page": 16,
-                    "sha": "b57d3975d9102ed4b61d545291d9244d371f3f65",
+                    "sha": "c8fee04c7bd6e410828340ad34a471b343349b4f",
                     "description": "Decision Trees Basics Algorithm Template: Classification"
                 },
                 {
                     "page": 17,
-                    "sha": "dfd4f04d449d076e2f8007a532a7f9ad6b90f675",
+                    "sha": "f4aa56f9e71af26cb63dbe83a052d8c0f1074a94",
                     "description": "Remarks:"
                 },
                 {
                     "page": 18,
-                    "sha": "0ef263b48a9d76c363909143702f2df106164efb",
+                    "sha": "9dec74b84d82e94a572e412038e52546cc0509ff",
                     "description": "Decision Trees Basics When to Use Decision Trees"
                 },
                 {
                     "page": 19,
-                    "sha": "6d76cc5d02d4a3912dcca05fbbe68dab85e31eeb",
+                    "sha": "b7f1f1ed914cd72e52805e4964786fd77b8f170f",
                     "description": "Decision Trees Basics On the Construction of Decision Trees"
                 },
                 {
                     "page": 20,
-                    "sha": "1fa8ba871a9ea6e5728bf4d42b99456ea06de08e",
-                    "description": "Decision Trees Basics Performance of Decision Trees"
+                    "sha": "3e95f12dc583c75e9881919a4730add33d7a1f7d",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees"
                 },
                 {
                     "page": 21,
-                    "sha": "a0f6c0eacd68a6371ba53d02651fda579b5e0094",
-                    "description": "Decision Trees Basics Performance of Decision Trees"
+                    "sha": "b0da3cdef1513fad039cba1a132acab9cac95879",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees"
                 },
                 {
                     "page": 22,
-                    "sha": "8764530dac4f1ad21649ebde0d1d58c446d2692d",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Size"
+                    "sha": "d6491779fab4e4494d019211757bf852d38cce4a",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Size"
                 },
                 {
                     "page": 23,
-                    "sha": "0f9ca97d64600e08e0d9bd197b16e45c864bc9fd",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Size"
+                    "sha": "fc13b9608cf6d82d62f9b70fbca342763c4193de",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Size"
                 },
                 {
                     "page": 24,
-                    "sha": "e45148b1fb3ed30e165952175171cfe29f6b386a",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Size"
+                    "sha": "6086b2cf9dc62e674fbfddebfaddfc038486d26c",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Size"
                 },
                 {
                     "page": 25,
-                    "sha": "64c8039d0d19d12b8b8065d70cc19894f3eae547",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Size"
+                    "sha": "d391188cfba966dcc411b8cb86b3a39a2c8416f9",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Size"
                 },
                 {
                     "page": 26,
-                    "sha": "74a7117c44c9ff275b4dac781e5018fa81778db5",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Size"
+                    "sha": "e040f6b5a5080f81695e5d55fc035efd247ff796",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Size"
                 },
                 {
                     "page": 27,
-                    "sha": "6cc5ec864d8435b3fe95ec8628a9807b11ee8341",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Size"
+                    "sha": "1eb13b18b7de34ee20103369358672c5d668968b",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Size"
                 },
                 {
                     "page": 28,
-                    "sha": "cde57d166da530755962ff9dc4f2b5342820e99d",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Classification Error"
+                    "sha": "b42c66c4ba7cec016bd8ad38dc01e5065da0e0b1",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Classification Error"
                 },
                 {
                     "page": 29,
-                    "sha": "6bd2f90283ff8ef6373fd6ac7640f465c4d49581",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Classification Error"
+                    "sha": "778ff84b6c2c2ae413ab13deaa0a54de42318f59",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Classification Error"
                 },
                 {
                     "page": 30,
-                    "sha": "02fa178115a279957aabcb82f78730f8869a8748",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Classification Error"
+                    "sha": "2d17253b6ff39035b7eb8f07d75c18afe3d3abe3",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Classification Error"
                 },
                 {
                     "page": 31,
-                    "sha": "b99d2388e453816ab72f4c8f4dff3a876eb49f36",
+                    "sha": "e9b0673c80e10adf759b8abd5e0ff237325f0309",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "0063961f8e154e061353df795bed8ad6477d438e",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Misclassification Costs"
+                    "sha": "2ef57c9b7ca433cb742c99d864ee405d8cdaa2b9",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Misclassification Costs"
                 },
                 {
                     "page": 33,
-                    "sha": "3356d27308e38747927599effabe78fd7b4d52f1",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Misclassification Costs"
+                    "sha": "95f2cd21298d4be24ea4e3b504cd34d3b22cad79",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Misclassification Costs"
                 },
                 {
                     "page": 34,
-                    "sha": "04afbef390c0bc6afbfe99433e602a5e980fb241",
-                    "description": "Decision Trees Basics Performance of Decision Trees: Misclassification Costs"
+                    "sha": "fda6c8df9b7c232e872a80a94d1e3d5fbc9c1e24",
+                    "description": "Decision Trees Basics Evaluation of Decision Trees: Misclassification Costs"
                 },
                 {
                     "page": 35,
-                    "sha": "7a5d6912b71538dc85edc144ba8f39f08ff60e83",
+                    "sha": "da572d0075562400f601a494f7362bc966dd6b05",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-decision-trees-impurity": {
-            "sha": "fee42819e43674afa04ea5ff32c15fb2911f3ebb",
+            "sha": "3fd194c3abc2f4922d639598e1b407ef772e061f",
             "numpages": 36,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "8ccc5e8952e51664118758d29b0d7bdbe0876dd1",
+                    "sha": "f9927e1b02cc87d3428be792ce59517f1d611ea3",
                     "description": "Chapter ML:III III. Decision Trees"
                 },
                 {
                     "page": 2,
-                    "sha": "2a551eaa6ace1f978c6d973dcf45cd1176473cca",
+                    "sha": "ba8a17906d94ba8b6a528b1cc8549ce703de5601",
                     "description": "Impurity Functions Splitting"
                 },
                 {
                     "page": 3,
-                    "sha": "5051e3398e9b7981e387ab8a8dc0911d7ba86611",
+                    "sha": "432d8ceb903c2ad1024e5b59b5e8bffa5fe15cc2",
                     "description": "Impurity Functions Splitting"
                 },
                 {
                     "page": 4,
-                    "sha": "b008aef0da7a59d9293a27a971d178a33c6c4c4a",
+                    "sha": "d1409798f03a9df22be1487495a1e6651a15836e",
                     "description": "Impurity Functions Splitting"
                 },
                 {
                     "page": 5,
-                    "sha": "18c6e2ea84534bd758b9c829c8dbdedbcfc33f5a",
+                    "sha": "d59c9b3a3f20bd748d040c486959d82464002c9f",
                     "description": "Impurity Functions Splitting"
                 },
                 {
                     "page": 6,
-                    "sha": "d1df1d2dad69169bf48c2101c315d6bb8ab7807b",
+                    "sha": "ea2f128a1be913e4d3df943af29a35c5a00a3cbe",
                     "description": "Impurity Functions Definition 4 (Impurity Function \u03b9)"
                 },
                 {
                     "page": 7,
-                    "sha": "c78ec8af198936090c4c2cf2e23b35be62860ad2",
+                    "sha": "660c6704a67876c1bc39166cf29d6e90d6af2300",
                     "description": "Impurity Functions Definition 5 (Impurity of an Example Set \u03b9(D))"
                 },
                 {
                     "page": 8,
-                    "sha": "27d44e902d44826047c9330278b2d9e4e2b461da",
+                    "sha": "64ef097b35b798a89b5c0026285fcb832410d25b",
                     "description": "Impurity Functions Definition 5 (Impurity of an Example Set \u03b9(D))"
                 },
                 {
                     "page": 9,
-                    "sha": "79b4fda789cb2ec75d0421ccfa38e697963d6170",
+                    "sha": "16834402275bfb4f9a663d3273a1bf1db842b26e",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "183f0854545c7dca488343e9b85eef5dc65321ec",
+                    "sha": "2ce0f0cf4bf95dc0f62fa690871ee5b084a13fa6",
                     "description": "Impurity Functions Impurity Functions Based on the Misclassification Rate"
                 },
                 {
                     "page": 11,
-                    "sha": "9f9ec1b59d039d53a3562f832529c682da777aa4",
+                    "sha": "58690bd8b8a1c6e04cb07b97e3b95cb7e6429233",
                     "description": "Impurity Functions Impurity Functions Based on the Misclassification Rate"
                 },
                 {
                     "page": 12,
-                    "sha": "9f74e942ba1b2c98b239739b82dc65d31c860026",
+                    "sha": "6d48fdb6c061837a4fd410e88dcbd4d82be80a0e",
                     "description": "Impurity Functions Impurity Functions Based on the Misclassification Rate"
                 },
                 {
                     "page": 13,
-                    "sha": "108451840d56d4380c8cf5ddaa215826fb08e875",
+                    "sha": "581ba3e4d1bde727e3cf26d7f1e2926b63cf4cf5",
                     "description": "Impurity Functions Impurity Functions Based on the Misclassification Rate"
                 },
                 {
                     "page": 14,
-                    "sha": "57c1bd262394584a6790fffed46c38767cc4247c",
+                    "sha": "7eab91928e8e958b7f6ae97deb8d1f767d309817",
                     "description": "Impurity Functions Impurity Functions Based on the Misclassification Rate"
                 },
                 {
                     "page": 15,
-                    "sha": "4381823e1acdc1297caac1abbe92a0a91d106661",
+                    "sha": "8afaf2865fc5da9d5b053cb598f2c3116d94cd63",
                     "description": "Impurity Functions Impurity Functions Based on the Misclassification Rate"
                 },
                 {
                     "page": 16,
-                    "sha": "c4eee3fecb82b8bba11d13487a2225c5daa3fe13",
+                    "sha": "ce6f5a191229d9eb98f7b165a11ee94e68bef914",
                     "description": "Impurity Functions Definition 7 (Strict Impurity Function)"
                 },
                 {
                     "page": 17,
-                    "sha": "8bd170a23f9252aba529e25b7024284956fa1041",
+                    "sha": "d66cbbd2ea5d9d05cffd9e8aec80e89c0df82317",
                     "description": "Impurity Functions Definition 7 (Strict Impurity Function)"
                 },
                 {
                     "page": 18,
-                    "sha": "de5a7766015f4a8c0be05321040c1854114ec50f",
+                    "sha": "015e7827f630e23d75d5d80ad183039bd1482851",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "dd8fe4dd2e9260d815df04a5eb1d999ff30c88f3",
+                    "sha": "d8daa608aae684bbf243bf9b2a7e9d8a271cd098",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 20,
-                    "sha": "d38729e6f34c6d2a61c0fe612ee6b4ad77594b0b",
+                    "sha": "270831b10c7cc61c0613ef166646fc5de09717dd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "78f0d711780c81fc13a0b5038fee1aeba8c66466",
+                    "sha": "80a1210330637251a923ae363507c1d7de6f8665",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 22,
-                    "sha": "c59563e988c195c1dd1bcd6084e4365da30e07a5",
+                    "sha": "088af127f77ef77831e9d94e65abe0c69f177129",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 23,
-                    "sha": "92fb4367151a863ee87712e97bef6cc5efbde04b",
+                    "sha": "a87a267641d0667e68f02d9d01ec6bde053c9fc9",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 24,
-                    "sha": "badfcf15af8e165b8fc641efd5f8cf843f2fa309",
+                    "sha": "d4c9ec70b75fa75aa1ac002251dad88919bbaaaa",
                     "description": "Remarks [::::::: Bayes :::"
                 },
                 {
                     "page": 25,
-                    "sha": "28e902bbcb8b632ce6093402f53f7444958ad01d",
+                    "sha": "dfdca1e24b0b7f7410412941ca8d3723432d3c5b",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 26,
-                    "sha": "88099ca29d5f5b737602df6834d73e10d75e6dfb",
+                    "sha": "cb08c6af79f06c7c5ef49c62741ea22e1d608fdb",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 27,
-                    "sha": "b19dbf74d78311523a746d3c52f7ae0162e6b70d",
+                    "sha": "e80a1fc676bca1495e1f888893dab0da64a6b59b",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 28,
-                    "sha": "c2ddc3527bca55a47d9444830e547033df7095a0",
+                    "sha": "fe504a481dd1e750081fc9f6d864fca66f9db3fe",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 29,
-                    "sha": "ae80c15aee5405fe3921ec74b71353f6de47cea4",
+                    "sha": "cd9697033879a2b97f024dd1b93aa462fc7df52f",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 30,
-                    "sha": "99c35566b5dfa580e16f72bb82c1802b7e67e88d",
+                    "sha": "c3c06f77e940eb10eaec01c54502e309b05a8674",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 31,
-                    "sha": "5e00fd2c2607eeb23a19ad15d0acedfc67abf478",
+                    "sha": "f8ecf3406b34ccb68c5b0552902e32a0e61958f7",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 32,
-                    "sha": "d9d20fcf1e3a07cf759f7311984385a8235e07e2",
+                    "sha": "a7733ce89e7c7c1548873f1d4f68e68b85e67059",
                     "description": "Impurity Functions Impurity Functions Based on Entropy"
                 },
                 {
                     "page": 33,
-                    "sha": "63cf74bc8151d1055348be2b8e0922b7f5707286",
+                    "sha": "418e736d0d7e1a082773533e001c83daacb2c5c1",
                     "description": "Impurity Functions Impurity Functions Based on the Gini Index"
                 },
                 {
                     "page": 34,
-                    "sha": "c3649fff3def0b11768d322d8a0db1d696c0db7f",
+                    "sha": "9c028fb953bc330899c7219b8572b5afa317cba8",
                     "description": "Impurity Functions Impurity Functions Based on the Gini Index"
                 },
                 {
                     "page": 35,
-                    "sha": "bf8699e220bf44289f4f478e9575eb13835d521c",
+                    "sha": "9f41581f85e19b2a012366cd9def46dfddf1fa7e",
                     "description": "Impurity Functions Impurity Functions Based on the Gini Index"
                 },
                 {
                     "page": 36,
-                    "sha": "035b8aa43227bdcfd090347e1211e20d91b0d562",
+                    "sha": "313cedc05daf499a09265ba797b23f3cfb730451",
                     "description": "Impurity Functions Impurity Functions Based on the Gini Index"
                 }
             ]
         },
         "unit-en-decision-trees-algorithms": {
-            "sha": "bb6985866df371a178b96719e64df34e7e740fd4",
+            "sha": "22b4be7ea517a105ffd41e59d8592419a6ce6e8a",
             "numpages": 26,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "fef83596b3be24f9bdef33a739178835ebd91e93",
+                    "sha": "e99adf1e3209fbc37f7ae10d0200af7bb890053c",
                     "description": "Chapter ML:III III. Decision Trees"
                 },
                 {
                     "page": 2,
-                    "sha": "6671802ce15642b6dfa29da7e187767575e4a046",
+                    "sha": "52de44a4dd7620f985dc88681b920cde940a6df5",
                     "description": "Decision Tree Algorithms ID3 Algorithm"
                 },
                 {
                     "page": 3,
-                    "sha": "21de834ce961056b4e8e92c9271993be96d8652f",
+                    "sha": "b5243cf08e4fae03fc1bac78e43abca45f17ee1f",
                     "description": "Decision Tree Algorithms ID3 Algorithm"
                 },
                 {
                     "page": 4,
-                    "sha": "4d329eb9861fd0d29372ef9aace3c5262ad2e0cd",
+                    "sha": "4716545ead0c4c4e77b53b125d1226f6886cefaa",
                     "description": "Decision Tree Algorithms ID3 Algorithm"
                 },
                 {
                     "page": 5,
-                    "sha": "3bae757ea3a9f5aeecc9f4c2e0f41eca2682cf06",
+                    "sha": "d3cc23bf984a46e005509894a7b21988f90f81fe",
                     "description": "Decision Tree Algorithms ID3 Algorithm (pseudo code)"
                 },
                 {
                     "page": 6,
-                    "sha": "ab6e4c6353f92e123ee250c8cfdd9aba67b4b020",
+                    "sha": "65242758249cfb5976101b409319f660a0212ae4",
                     "description": "Decision Tree Algorithms ID3 Algorithm (pseudo code)"
                 },
                 {
                     "page": 7,
-                    "sha": "43cb49677aa6bd3002c5ae484de359bf69d722de",
+                    "sha": "7295dc3d4365f0b315888394baf9d70892e16498",
                     "description": "Decision Tree Algorithms ID3 Algorithm (pseudo code)"
                 },
                 {
                     "page": 8,
-                    "sha": "a317665de3e3a20280437dcc2c08d22720e08d3e",
+                    "sha": "941bfd9069dc35e3199b6158c4dba9493dd79dc8",
                     "description": "Decision Tree Algorithms ID3 Algorithm (pseudo code)"
                 },
                 {
                     "page": 9,
-                    "sha": "f58ccf879e8cd237e07fa0e105338e1c3b7585d9",
+                    "sha": "403a8d72d0f17879a251e53c4389f08b99218952",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "e228d77981e3cfb8974558cac6fb36644e7c4e95",
+                    "sha": "e46a3f3bdbffe8e21b7aeeb8da6c1d4684b806f0",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Example"
                 },
                 {
                     "page": 11,
-                    "sha": "77cba57e96b5b0b574a55f2fe89c679be2230f16",
+                    "sha": "5c22e1f62eae0528c9b211403ad95546f319c519",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Example"
                 },
                 {
                     "page": 12,
-                    "sha": "44a3c45a7f0c14d1d5e11f2e229c355844afb572",
+                    "sha": "4126456922ddecb498a0e1455db0537e59fab357",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Example"
                 },
                 {
                     "page": 13,
-                    "sha": "425b2c70a84651707cd2376f98f76675bfc77086",
+                    "sha": "67310a069f3b44cbbf40a7ecd43bbdf451bdecf9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "95499d1f17c33422111b1a352cbb0dd3709dd6dc",
+                    "sha": "575951d84089382d7aa8c373e30f4d3617a0a174",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Example"
                 },
                 {
                     "page": 15,
-                    "sha": "0a867f8924201129d3b31608874efeff033d4be1",
+                    "sha": "ce17e43be43d1ba0dd8f6112a1c3d482a97a8fa9",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Example"
                 },
                 {
                     "page": 16,
-                    "sha": "109c87a269f90811a56594dfb39e74eb6841cffa",
+                    "sha": "5dceb3d3cae71568708000f7d48c724a8dd29268",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Example"
                 },
                 {
                     "page": 17,
-                    "sha": "b456944a0b7282ff21125ea7c730183cbc98585b",
+                    "sha": "4a02f71de7bad556cb6e10c22cbea7a8f39b38a6",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Hypothesis Space"
                 },
                 {
                     "page": 18,
-                    "sha": "7654a4148a5e30e9b38b8e76218ca7f9977e1011",
+                    "sha": "989df01be89e9340b64ba4de53d0328d0dee3399",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Inductive Bias"
                 },
                 {
                     "page": 19,
-                    "sha": "11dfe6461eacbaf38167606c78d8645a144d8fd1",
+                    "sha": "5aa70713c3e61d729a8179e1e8cb28b77bce65cf",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Inductive Bias"
                 },
                 {
                     "page": 20,
-                    "sha": "e639ca7d7912430a59941b9c782444246ea7e153",
+                    "sha": "15c7428d8df165d3cb9824369966cc62b49a6c94",
                     "description": "Decision Tree Algorithms ID3 Algorithm: Inductive Bias"
                 },
                 {
                     "page": 21,
-                    "sha": "78ec0a545950ac18cf7a618d87bea14974625e8e",
+                    "sha": "8e524ce56b212048143c20f6e6878252e95cbc03",
                     "description": "Remarks:"
                 },
                 {
                     "page": 22,
-                    "sha": "b09b370b51da8d4d5f8326cad33886b12a838903",
+                    "sha": "92d6623fe15f1fde748c84ddf6bc2673f74eaf40",
                     "description": "Decision Tree Algorithms CART Algorithm"
                 },
                 {
                     "page": 23,
-                    "sha": "209dd85df2a7e5659dccef47b5959ec15925b73e",
+                    "sha": "4185846271855d5347910f235805d71eb83bddaf",
                     "description": "Decision Tree Algorithms CART Algorithm"
                 },
                 {
                     "page": 24,
-                    "sha": "d90be7243bd0ef3cbd0fe652773c17d9b2cddd92",
+                    "sha": "6e426bdd4e2159a59414e8c6d597330573888b98",
                     "description": "Decision Tree Algorithms CART Algorithm"
                 },
                 {
                     "page": 25,
-                    "sha": "910703e82e3aa23af8f95389e3eda51be6d6ba0c",
+                    "sha": "fd0372d4b7b755c4661feb3b2bf36d35de4b4919",
                     "description": "Decision Tree Algorithms CART Algorithm"
                 },
                 {
                     "page": 26,
-                    "sha": "a34bc512fa8aa156239926a77e971349ed60b7b4",
+                    "sha": "c7f46cd246b617f9ad1f454752886b184aea103d",
                     "description": "Decision Tree Algorithms CART Algorithm"
                 }
             ]
         },
         "unit-en-decision-trees-pruning": {
-            "sha": "281e4e1116ad44bf202ac8cda1d1828fdf8fb633",
+            "sha": "2305334faf19da53ced5bfd7510bedc200567a48",
             "numpages": 20,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "575e06790d412143ce6522ecdcfef19a7fe98487",
+                    "sha": "70749df383315a22617b2f7a0d8d85518e09e38f",
                     "description": "Chapter ML:III III. Decision Trees"
                 },
                 {
                     "page": 2,
-                    "sha": "92eca9c55df449a15aa2b561ae679aab8b6c3e5d",
+                    "sha": "ee04f91d388d806e7309e8b50bfdea4d8d6a7c24",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 3,
-                    "sha": "0eacc659ff9b1a78c11091bf19b349afd07e8dc9",
+                    "sha": "78b39a7fb6552cadadf1002ecc49ef4c908bfac8",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 4,
-                    "sha": "126801bf5a87a367dd5ed7c48c0152260d6951b5",
+                    "sha": "4a1194a0906b794257de0dcfb49819e832bde88b",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 5,
-                    "sha": "5472d4a583e03a0e9de9c1eef4752ce3bf001e51",
+                    "sha": "91b32e7c4a61ddf58c26c67e5ddc68e5fae3777a",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 6,
-                    "sha": "c04d464fffe45ea20f5420e6454d8c2cb59f6201",
+                    "sha": "93cec1969f396dfc3c63fd002a78bb105be50e14",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "768c6539ee2f7b8dfc6c5fe958ba0dcb6281c6b5",
+                    "sha": "7b53138128c74ec19993ab8798af331f835d4f6d",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 8,
-                    "sha": "2739ae99d7d79945ac39d8c0b29df2790ebcd10a",
+                    "sha": "be112ec67b31d3fd02577761ef81ba0ef1fe28f1",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 9,
-                    "sha": "7c87ac832c391dd7d6b3d0d61190b2ee821a253f",
+                    "sha": "bc25970b7fed2ea059ce68c6c17f4f27302ab4fb",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "f37d36ca8456e7d401d04d3057d8f25efe0d9304",
+                    "sha": "3ec831b2daa33af964a99c9ca8d5fa60c7add2d8",
                     "description": "Decision Tree Pruning Overfitting"
                 },
                 {
                     "page": 11,
-                    "sha": "2654daf9df9ab726aa686a3c9efd2c2565a3cbfe",
+                    "sha": "f1f264836b2cab0d168ec6691883e022ca42fa42",
                     "description": "Decision Tree Pruning (a) Stopping"
                 },
                 {
                     "page": 12,
-                    "sha": "9ff29484bb96921cab1da84566489d599b0d0c89",
+                    "sha": "8d50c1d9a6311524d1068975ae323b259e4d3294",
                     "description": "Decision Tree Pruning (b) Pruning"
                 },
                 {
                     "page": 13,
-                    "sha": "09fa5d3bad0cdabea5de405cc7a63935beacfc6c",
+                    "sha": "9e4a7473f8d9d99d1b3df1f105c634de985c3219",
                     "description": "Decision Tree Pruning (b) Pruning"
                 },
                 {
                     "page": 14,
-                    "sha": "fa191e7ebadde2e7b3389826751644c30690194a",
+                    "sha": "713d69e1c3109ef751144ab48588de9ac23b2234",
                     "description": "Decision Tree Pruning (b) Pruning"
                 },
                 {
                     "page": 15,
-                    "sha": "5ef614af35f5d570cf1abd52897cd86208fd1ae6",
+                    "sha": "340c58fc1c6eea19f271fcf453c0dc39256c37df",
                     "description": "Decision Tree Pruning (b) Pruning"
                 },
                 {
                     "page": 16,
-                    "sha": "e62824b02afbb1e324b7d8ef900a90a57647c159",
+                    "sha": "ad57f64914b6d0ebcac7a535c43921e41d70c359",
                     "description": "Decision Tree Pruning (b) Pruning"
                 },
                 {
                     "page": 17,
-                    "sha": "24b17c797e3691dd55e03000569a3a0c7ae65226",
+                    "sha": "3c233df153b70720069a4690f744eaebf72173d5",
                     "description": "Decision Tree Pruning (b) Pruning: Reduced Error Pruning"
                 },
                 {
                     "page": 18,
-                    "sha": "952e31a8663207f250577f3173dbea46e0fdbaf7",
+                    "sha": "e47eccf98b02ca9b056be4d4c45a2e1b584ded6f",
                     "description": "Decision Tree Pruning (b) Pruning: Reduced Error Pruning"
                 },
                 {
                     "page": 19,
-                    "sha": "c39e4480ee856e6004cc0380950aecc0835e8226",
+                    "sha": "4d45665aaf0345785fec456e406b12780a3b1b52",
                     "description": "Decision Tree Pruning (b) Pruning: Reduced Error Pruning"
                 },
                 {
                     "page": 20,
-                    "sha": "67d01f199e0d043bb45ae39c866cff4523df4151",
+                    "sha": "830f0009542d02feaedcaca6045473cf89f27413",
                     "description": "Decision Tree Pruning Extensions"
                 }
             ]
         },
         "unit-en-probability-basics": {
-            "sha": "98a90a159caae8c8a6ee32da083c1b1698ef53aa",
+            "sha": "3fe93c523694b2b67fb792e0989a1491baada1da",
             "numpages": 23,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "6e7b79dea2c92f910de9cf5f5595e2c9261595e8",
+                    "sha": "29c341b093eed2c45ab08f8e6070a85eeccbdd1f",
                     "description": "Chapter ML:IV IV. Statistical Learning"
                 },
                 {
                     "page": 2,
-                    "sha": "0b3e7b90642988fdb55bd4de5a263bee342b00e3",
+                    "sha": "83c26a3cfcf3f2ad64b3cc7f96a182a00da83e27",
                     "description": "Probability Basics Area Overview"
                 },
                 {
                     "page": 3,
-                    "sha": "a2cf6df7cace67d8ddffdb2dab335ef528182d9c",
+                    "sha": "0ae76c8cccf9e58a1562d3de90e7d8e92ca902d7",
                     "description": "Probability Basics Definition 1 (Random Experiment, Random Observation)"
                 },
                 {
                     "page": 4,
-                    "sha": "015625e81f0e36a8a56a2e01bb727e277b7cae74",
+                    "sha": "21bb84280f75e4e6b2368931dbff38453a2d31f3",
                     "description": "Remarks:"
                 },
                 {
                     "page": 5,
-                    "sha": "dc5abfe6201b7da54af4ef40c78d347a66f2a1e2",
+                    "sha": "365b2c8de0a0ab4ea1df960703c4dcd52af3f55c",
                     "description": "Probability Basics Definition 2 (Sample Space, Event Space)"
                 },
                 {
                     "page": 6,
-                    "sha": "f88d21515d7fda483b8311c25831eda53eb5b281",
+                    "sha": "649736c867e3913a85d95f58e4d92017e85c1902",
                     "description": "Probability Basics Definition 3 (Important Event Types)"
                 },
                 {
                     "page": 7,
-                    "sha": "8eb90a38c79bcc1374d07670a717c7a97b801d17",
+                    "sha": "d872a2651dc2756f94552aaa46494e1c0a64a1ff",
                     "description": "Probability Basics Classical Concept Formation"
                 },
                 {
                     "page": 8,
-                    "sha": "5120e1c092a4f821a4b9807f5eed852071281688",
+                    "sha": "8f1e4f76c70668ed98964649e2eb134b449f2db8",
                     "description": "Probability Basics Classical Concept Formation"
                 },
                 {
                     "page": 9,
-                    "sha": "4501b9228e2c2c229f1df294c1a32476b0097929",
+                    "sha": "2a7b36f37cf9137ffb7c776d254881098191fbc7",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "ee8eab35afe18b2b1961482009536684e4044a49",
+                    "sha": "38f02341f19d7320174382e03335c31cddb87556",
                     "description": "Probability Basics Axiomatic Concept Formation"
                 },
                 {
                     "page": 11,
-                    "sha": "765935eda5ac5bf37a438f00c4be2f5bbb3c0a08",
+                    "sha": "90afcd0939b0d327e2d4046c64225008cec70db2",
                     "description": "Probability Basics Axiomatic Concept Formation"
                 },
                 {
                     "page": 12,
-                    "sha": "66037f77a3470b3509027e47ea0d50453593086d",
+                    "sha": "99ef0a288f3bd56b999335edb334be817114232d",
                     "description": "Probability Basics Axiomatic Concept Formation"
                 },
                 {
                     "page": 13,
-                    "sha": "7693507b4ff73c0ccb89dfdce6ba450226adb187",
+                    "sha": "06402e6fb9776fc1e795c2b192a13423e3ee699c",
                     "description": "Probability Basics Axiomatic Concept Formation"
                 },
                 {
                     "page": 14,
-                    "sha": "3bf37a60d8ba80b8f6409010bd79e5186b6c35f9",
+                    "sha": "ee11f298835dd635e526e1346a796f576ef0fc3c",
                     "description": "Probability Basics Axiomatic Concept Formation"
                 },
                 {
                     "page": 15,
-                    "sha": "70d9aee66faaf0d86d6fff12c00da7a0d7d34bb9",
+                    "sha": "b1969972ffda001b314a6162404522cd10023fe0",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "34c5376f412fc3ef82f350e938fd1a881dd7101c",
+                    "sha": "05d0371095e7cf9b68e343c3d7e38e53cac03924",
                     "description": "Probability Basics Conditional Probability"
                 },
                 {
                     "page": 17,
-                    "sha": "4503dc98fc6f30fa3c08dcb35f8cf3c205ac326d",
+                    "sha": "0eaa758a4d8402cab98785af94714198720e6de3",
                     "description": "Probability Basics Conditional Probability"
                 },
                 {
                     "page": 18,
-                    "sha": "ab68806b956fe140a4acb04f494aa201f9cf6249",
+                    "sha": "87dbce569627b616664b59289fed71755eb909e4",
                     "description": "Probability Basics Conditional Probability"
                 },
                 {
                     "page": 19,
-                    "sha": "8ecb8a675774947e8a1c52229ed17d4bd217ee26",
+                    "sha": "d78603093cb20dca2516a651b17f13de3c0c38da",
                     "description": "Probability Basics Conditional Probability"
                 },
                 {
                     "page": 20,
-                    "sha": "673ebf61715944fc0fd9260e3b031d2404db3d9d",
+                    "sha": "1755140a35ab1379b4392b912d8ad8df09dcc86f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "781c2cda374e2bf37a3ae4af3f7431b81e46de0b",
+                    "sha": "a852f66ca84455e40de16d3283d518b31ffba686",
                     "description": "Remarks (continued) :"
                 },
                 {
                     "page": 22,
-                    "sha": "fc12363b3def441ff3debbb5f8dc61e9e9892177",
+                    "sha": "02662405e8ba78a64afb228bba4e081fae13ee4c",
                     "description": "Probability Basics Independence of Events"
                 },
                 {
                     "page": 23,
-                    "sha": "d62bac505b2c356da21bb6cd81a92e35ab3e2570",
+                    "sha": "2ed669cc506d971c39bf04c6f98ee416d88a8a11",
                     "description": "Probability Basics Independence of Events"
                 }
             ]
         },
         "unit-en-bayesian-learning": {
-            "sha": "a89a6a3553af279d9559e5c4a005dfa93e84de90",
-            "numpages": 24,
+            "sha": "a7761b8fdcb365d09ff29fa0d9c2553052e5f798",
+            "numpages": 25,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "f039ac29f5f722f29b4f65ef55a471df39318ab0",
+                    "sha": "b4cde660356fefca14f4b5b3ebe6f3357bd7d3a4",
                     "description": "Chapter ML:IV "
                 },
                 {
                     "page": 2,
-                    "sha": "7aafa9042a675cadad9be85652c902eb55a67ac4",
+                    "sha": "8235803d8258a994967c36dd65d1681ca27e33a2",
                     "description": "Bayes Classification Single Conditional Event"
                 },
                 {
                     "page": 3,
-                    "sha": "591c88201f6b2687e12e3d0627afcd8904d26fe9",
+                    "sha": "5e3386bb2f896dd6340f249559a60e9551f2ac03",
                     "description": "Bayes Classification Single Conditional Event"
                 },
                 {
                     "page": 4,
-                    "sha": "31fb16359aff9773e7ea23987fa7f30d9ae122a2",
-                    "description": "Bayes Classification Combined Conditional Events"
+                    "sha": "6f0bb9cde9482ed259a99cd4461c30c040e91b39",
+                    "description": "Bayes Classification Single Conditional Event"
                 },
                 {
                     "page": 5,
-                    "sha": "0f66eb14fac9f937230ec994f953554d8885afd6",
+                    "sha": "a74a228957a5b6ba331c6519e902d5fa815d28cd",
                     "description": "Bayes Classification Combined Conditional Events"
                 },
                 {
                     "page": 6,
-                    "sha": "6fd2eca28cd8b4a8c0b03f513ed8582d74a971e1",
-                    "description": "Remarks [:::::::::::: Information::::::"
+                    "sha": "98e10825b4cc0a2cade87e12ba82eb4f80f4b72d",
+                    "description": "Bayes Classification Combined Conditional Events"
                 },
                 {
                     "page": 7,
-                    "sha": "94db56cca65fb1d4d5a588d3c32716bc9dcde643",
-                    "description": "Remarks (continued) :"
+                    "sha": "0b97bb4c6546ce6564a520401082d8b7c322764a",
+                    "description": "Remarks [:::::::::::: Information::::::"
                 },
                 {
                     "page": 8,
-                    "sha": "0acb9c5e50e6e7ca14851284a5d7961f0507b9d5",
-                    "description": "Bayes Classification Naive Bayes"
+                    "sha": "be4fc6849491dbc7196ae3927e0545b9a0208849",
+                    "description": "Remarks (continued) :"
                 },
                 {
                     "page": 9,
-                    "sha": "e52231cb9e551f47d8c58ee7ef95f6a8dc090150",
+                    "sha": "f5f17c780c6ca05ec7a53883c880cd9b0d1fa989",
                     "description": "Bayes Classification Naive Bayes"
                 },
                 {
                     "page": 10,
-                    "sha": "548fa2f0f6f0b9198442290c026e1231b084d4f7",
-                    "description": "Remarks:"
-                },
-                {
-                    "page": 11,
-                    "sha": "128ee49e40ae700b4b09cf403b9581f46495fbbf",
-                    "description": "Remarks (continued) :"
-                },
-                {
-                    "page": 12,
-                    "sha": "179e563dee1a6fa5d7a2f185912c49b481e9bd1f",
+                    "sha": "8a8f6c5e887937cf1a17a56938803b9334f13ec2",
                     "description": "Bayes Classification Naive Bayes"
                 },
                 {
+                    "page": 11,
+                    "sha": "18afe72b311537b27e1c46a260f7eb9a0d2e8bc7",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 12,
+                    "sha": "41c1ca67b6426c07503588f5582474c5a4f85dd1",
+                    "description": "Remarks (continued) :"
+                },
+                {
                     "page": 13,
-                    "sha": "7ba7c5e3814459eb59f647ec9992ba3b566c7d3b",
+                    "sha": "870aa07cf3de490147e3e030e7f803aeeb9fbbbb",
                     "description": "Bayes Classification Naive Bayes"
                 },
                 {
                     "page": 14,
-                    "sha": "67747b0eaf344c8ef6afe9bedca218cc9619f6d0",
+                    "sha": "0b23706f9b402786fc3419353c91734faa01bae6",
                     "description": "Bayes Classification Naive Bayes"
                 },
                 {
                     "page": 15,
-                    "sha": "4dc7c6d31118142841b3f71ee604506a5ae60727",
-                    "description": "Remarks:"
+                    "sha": "26939a471c4252ccd516320d195c9229e06b5606",
+                    "description": "Bayes Classification Naive Bayes"
                 },
                 {
                     "page": 16,
-                    "sha": "15faead5607c6c67684be3631ea7559dae2d0853",
-                    "description": "Bayes Classification Naive Bayes: Classifier Construction Summary"
+                    "sha": "5383ac5a0af6cc058b12d00b62831be2db8f4f86",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "22cc566a32d156dfaccb5bde0020a19df68cdc66",
+                    "sha": "a04b57d3d068eaee90ef69a13939e21b9beb3691",
                     "description": "Bayes Classification Naive Bayes: Classifier Construction Summary"
                 },
                 {
                     "page": 18,
-                    "sha": "88d4b9698396ede59a8b1c874ae07c48cdfc1246",
-                    "description": "Remarks:"
+                    "sha": "4fb938052b45d000b5a1d57ea907e62c5813dcde",
+                    "description": "Bayes Classification Naive Bayes: Classifier Construction Summary"
                 },
                 {
                     "page": 19,
-                    "sha": "dad67baff707625347f8925132bbf5a40085f98a",
-                    "description": "Bayes Classification Naive Bayes: Example"
+                    "sha": "19ba80604e2ed7e58101e76d80f9ac781ae41b5c",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 20,
-                    "sha": "a14cfe27decb118f0f37c984a8862c579b18d3ab",
+                    "sha": "0d5afa76fd9fd14c71f6c19f91444797ab91eaa5",
                     "description": "Bayes Classification Naive Bayes: Example"
                 },
                 {
                     "page": 21,
-                    "sha": "832d0b8ce892db2d4016dc86993f52ba6bc45582",
+                    "sha": "ed1624fa5d6a0b67a2c14a6b0ce5085f1ded8470",
                     "description": "Bayes Classification Naive Bayes: Example"
                 },
                 {
                     "page": 22,
-                    "sha": "2d6d4f701095a229dbbbfdd365faaf82d3ee1653",
+                    "sha": "0870e708454d5aeea7743403142613773e6d4d39",
                     "description": "Bayes Classification Naive Bayes: Example"
                 },
                 {
                     "page": 23,
-                    "sha": "6c84aeb9ac3102acaad294f72578531aafa08ded",
+                    "sha": "7bd746ba4ecde5e7d6e6fa8abfcbd12d3d669fc8",
                     "description": "Bayes Classification Naive Bayes: Example"
                 },
                 {
                     "page": 24,
-                    "sha": "58adeb81f77b59aa9c5085cde1bc6265ba61ac3e",
+                    "sha": "9e2d4e20cbdcdfe2afb8618c57abd197c21d09c9",
+                    "description": "Bayes Classification Naive Bayes: Example"
+                },
+                {
+                    "page": 25,
+                    "sha": "b07d74079b23d2a686f0e598b24a0967bad2ce82",
                     "description": "Bayes Classification Naive Bayes: Example"
                 }
             ]
         },
         "unit-en-perceptron-learning": {
-            "sha": "a7ff4a1c275bc8af01a548e67b72e6eb8fe885e2",
+            "sha": "00ddcfaa994423dec7a3b3ee631d4802a0f27b66",
             "numpages": 64,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "d192e3f27a9a9b47e57a23db94636488633b2343",
+                    "sha": "56d7fe12279979356c1ffd575eef9a25518c6958",
                     "description": "Chapter ML:VI VI. Neural Networks"
                 },
                 {
                     "page": 2,
-                    "sha": "4e653fc8dd8bcf23bc67ab784dc8318371b12dce",
+                    "sha": "3567fc639725e2a393e2b32d602abe8e5ad20434",
                     "description": "Perceptron Learning The Biological Model"
                 },
                 {
                     "page": 3,
-                    "sha": "dc188b051b0020c2bfe4973b551ab518803d66db",
+                    "sha": "4673e1d5c2568107ff4edbd24d2662a8395b3ff3",
                     "description": "Perceptron Learning The Biological Model"
                 },
                 {
                     "page": 4,
-                    "sha": "749c83f0e86d3d9798aa28b9b0b342969f679e54",
+                    "sha": "9257efc97fee9990480fae9238b57d74a6504922",
                     "description": "Perceptron Learning History"
                 },
                 {
                     "page": 5,
-                    "sha": "d34ba28e78ff25e586225c34d78e7e27ab5d30c5",
+                    "sha": "21e665d0eb550cb9932fcc330784e6bc9fe945b9",
                     "description": "Perceptron Learning The Perceptron of Rosenblatt"
                 },
                 {
                     "page": 6,
-                    "sha": "19bdcb3a9042cfd6d8252e460f24f2dbbfa7f477",
+                    "sha": "5b883becca7d539750cdc1835779b0aaad6aa0b4",
                     "description": "Perceptron Learning The Perceptron of Rosenblatt"
                 },
                 {
                     "page": 7,
-                    "sha": "a11bf2ed99302c79e1700deadb400f3ccba348f8",
+                    "sha": "4e0f05978829cc543cf3f9ee16fa04ffc76477aa",
                     "description": "Perceptron Learning The Perceptron of Rosenblatt"
                 },
                 {
                     "page": 8,
-                    "sha": "c3add353949084dfc2fd5dc18b6e947786480855",
+                    "sha": "900632c94f3ff05ad66b6cc237c89df6487a1d90",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "636160aa45fc4f93f0a7359eebbe4dee8febca30",
+                    "sha": "ed2ae84308daee778b48e5a9edd440005e26c83c",
                     "description": "Perceptron Learning Specification of Classification Problems"
                 },
                 {
                     "page": 10,
-                    "sha": "76a93998cb476756a2e496ef88758bd9fcddd48f",
+                    "sha": "287a501a4b967791c492c4ecfa9578292bfdd0ab",
                     "description": "Perceptron Learning Computation in the Perceptron"
                 },
                 {
                     "page": 11,
-                    "sha": "631ea72d6e5e992d5afaea9fde428ffb1a4a289a",
+                    "sha": "fd0b9acb9784a83680cbfcc869bd560584d802f7",
                     "description": "Perceptron Learning Computation in the Perceptron"
                 },
                 {
                     "page": 12,
-                    "sha": "7a9da3c8d2b5f9725a4817672ee47500ff889ae1",
+                    "sha": "2694c9fbbee6950edcea4f0826c551b07e65bd7b",
                     "description": "Perceptron Learning Computation in the Perceptron"
                 },
                 {
                     "page": 13,
-                    "sha": "1c58a788433b9946a937f36248254af923bfaa12",
+                    "sha": "cdb12ea6c0f541d8609dde503618f7e6f8bf77dc",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "e54ab692d5de3584e49637d4531a95a5184d42c4",
+                    "sha": "da18fafb28de23cdb0bf3029532d581dfd74873f",
                     "description": "Perceptron Learning Weight Adaptation"
                 },
                 {
                     "page": 15,
-                    "sha": "200be029ec5fd7ebaec2b40df30584ce89ea7c04",
+                    "sha": "7f6e1161b508c7b932eb7c57808b3203f7531fd9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "707d5a2c1f012406773c35864c39b7e17f79e22e",
+                    "sha": "20e998b2e272e6c84cd78c3eb2d22ba8344d886c",
                     "description": "Perceptron Learning Weight Adaptation: Illustration in Input Space"
                 },
                 {
                     "page": 17,
-                    "sha": "9e7487579d6de91485a9512b37461e844229cf03",
+                    "sha": "9c0667c81e0814ee74fdfe929e1ed84d1acf8a8a",
                     "description": "Perceptron Learning Weight Adaptation: Illustration in Input Space"
                 },
                 {
                     "page": 18,
-                    "sha": "1daa574bcd26fcf1d84400c4d784da7574c84fed",
+                    "sha": "730e9a58ea6fabfab3b19355565bb232773c4e80",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "501366f1e5427d83a970ac77d231532c2e76e4ad",
+                    "sha": "cc0333a99597ff549ecb80c39a644373e02c79a6",
                     "description": "Perceptron Learning Example"
                 },
                 {
                     "page": 20,
-                    "sha": "02123133d722177cba9f0b5294d49988f21026c4",
+                    "sha": "52f4f8dda140bd2226f4c8534aa35a95a07b1451",
                     "description": "Perceptron Learning Example"
                 },
                 {
                     "page": 21,
-                    "sha": "7a76a11854c650493e28b201fc2b6147758cbf2e",
+                    "sha": "e93f29425e1a815536996c90e0c58fc15e3a704b",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 22,
-                    "sha": "2811655459c636d5ccf3baa2dca8c85c9b4a1d6c",
+                    "sha": "0630001e2b3e07e7f22393880c4fb993b102805e",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 23,
-                    "sha": "c897aac28f9737d9c4131a1bc85fa54b45dfff6e",
+                    "sha": "5405b646e5b94efdd37f2b468a93c8d5cd1a586a",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 24,
-                    "sha": "f49e901ae394a40576cf20105a188ee2c2fc2b21",
+                    "sha": "0506c6e077d652815ff92e7e5478529f420fe844",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 25,
-                    "sha": "3865d88aee09b49862c712452ec2f15ed6530acc",
+                    "sha": "e189be0814fd5033b04dcf3fcae98dd836b568b7",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 26,
-                    "sha": "b09452f099ee7968b0999772254b4865b6373565",
+                    "sha": "538afcf0687fe29096ca16c24e6832ff986a520c",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 27,
-                    "sha": "0a0931a8db8456decc3dbdc0770b70efaa0c7366",
+                    "sha": "ef8a81eba4d82c70e594411a9b88803df3f64b99",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 28,
-                    "sha": "82e4d3dc3c12e70ebe292afa1105dd9d82197234",
+                    "sha": "645f4a4c4276037b88b25e3d50d6807eacf5cd4b",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 29,
-                    "sha": "2f2286b9fcf62aed668ffb11c3588419784297d6",
+                    "sha": "60bf175b9cf443b44ff56b01d220fa389b143097",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 30,
-                    "sha": "c436d6a144536746ebfaa4bbde46847fe5f93f1b",
+                    "sha": "564f07b5dc14fbe8b847435dc83337192779330a",
                     "description": "Perceptron Learning Example: Illustration in Input Space"
                 },
                 {
                     "page": 31,
-                    "sha": "2fee4ad604d4c90b69445062ece5ce7b81334297",
+                    "sha": "fa09af7b3d114569e5ca10026ca856c67294a798",
                     "description": "Perceptron Learning Perceptron Convergence Theorem"
                 },
                 {
                     "page": 32,
-                    "sha": "323f4483f839abef449151c7678331b3d5e919a2",
+                    "sha": "3052e27670ca824bf208262d4752dbdc2aff8b22",
                     "description": "Perceptron Learning Perceptron Convergence Theorem"
                 },
                 {
                     "page": 33,
-                    "sha": "4261cc8c925f7e1fff76ed1701f158536da9630b",
+                    "sha": "546211fc02a9a8fe22d7e697fec1788d0cc9b1c0",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 34,
-                    "sha": "3061c7795b602ca2591b033c77ccb1cd427293e8",
+                    "sha": "4537b774fddd06fe67ae883fdd426c300a6488d2",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 35,
-                    "sha": "261cf243460889bde2dc2b0796af882e084896d1",
+                    "sha": "7e0a26c07c6266d6bb0fc7c41f50b4e1f6d5dfdd",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 36,
-                    "sha": "d14dca868b828dc11cc8750361fe4971230e35c8",
+                    "sha": "8bf35d0e94769822ff6857a5fc4d6edc79dde179",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 37,
-                    "sha": "a3523f98f5b5b2e2f2de5517135fbabc32f4bf19",
+                    "sha": "252ce35d098ccfe0d558796afa52d16029af9877",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 38,
-                    "sha": "f9e9bac17c9c3ba393dd1e781ca8db5fb328546c",
+                    "sha": "281994029a66fc9981e0250ed866cc7436e26ab2",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 39,
-                    "sha": "d06d49a2027d95575b0b764b4dc224abe679a3b3",
+                    "sha": "36c4452b43cfc8506e73c85c1a088c12290754ff",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 40,
-                    "sha": "8c9583fd201bec732aecde4bb5c04f863d01fcec",
+                    "sha": "b49673cc7201197f2ff8dbccd507827cf6e0978c",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 41,
-                    "sha": "3cad14794706d59a1c8cc464fa618f9de48244c0",
+                    "sha": "bfa770ba9fd63d74fed88a3d2134c89168f9bfd3",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 42,
-                    "sha": "fbfc61e284723d3be92e14c5e8d8b60870458508",
+                    "sha": "ba238bffd8184c61e3b4d2a072d4e9756476ca32",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 43,
-                    "sha": "f3bedfacb4dd1fd1b4302f2f02e29ab5ff5fcc42",
+                    "sha": "485a91a23e6235f8e31df9c653eefc441faca1f0",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 44,
-                    "sha": "4d3892a4551c5b66e4ada39907b82abcc08a8e93",
+                    "sha": "876ddb8e394ee98abc4fefccedf5fb4f5024fa5e",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 45,
-                    "sha": "9dadd4f15a3b897659af8f7ed823258158d53395",
+                    "sha": "798fc7093709220cf58a099a9323e0d2e14c6d48",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 46,
-                    "sha": "01c8834a70120fd9b4ee3dc0cf56ece50668fc65",
+                    "sha": "e2e3d96f510f4fb298e27dfbe499d46303a4df1b",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 47,
-                    "sha": "ad9740e8b799eea518099f92f26c4fc3720f3997",
+                    "sha": "4bf5c11881fc78878d666056520f1d1ef669ba62",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Proof"
                 },
                 {
                     "page": 48,
-                    "sha": "66b8f7cf8a569fbecf8c8627b0cebffe1614ff1d",
+                    "sha": "b1c06798601476203e5e8a6170a94dac397c5518",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Discussion"
                 },
                 {
                     "page": 49,
-                    "sha": "d9935d523dd5c0bbd3fd3f45af19c9a3627eeb0e",
+                    "sha": "7b45a90c749e9bc0780926ac52a8640cf7517494",
                     "description": "Perceptron Learning Perceptron Convergence Theorem: Discussion"
                 },
                 {
                     "page": 50,
-                    "sha": "7acafcd675b08e10f3b9fe3b02fbf2aad6832702",
+                    "sha": "096cbc5a3ba2627c9782c0ba9578d388873de397",
                     "description": "Gradient Descent Classification Error"
                 },
                 {
                     "page": 51,
-                    "sha": "9c19d4feef27ddd2f4e5ead8897925fbea8eb782",
+                    "sha": "6653bf84bb7afc412c98a1340b5b40753f9db037",
                     "description": "Gradient Descent Classification Error"
                 },
                 {
                     "page": 52,
-                    "sha": "4967d0157c9f20c771a27819aa390127adfb85bd",
+                    "sha": "ab861d72937994f3441decf7bbff74a4f16810bf",
                     "description": "Gradient Descent "
                 },
                 {
                     "page": 53,
-                    "sha": "265414ad0e85d8c5cea8bb94a00adfe70180e99d",
+                    "sha": "ec2d362696b7c4a83957e8899168e4777ca4fd70",
                     "description": "Gradient Descent Weight Adaptation"
                 },
                 {
                     "page": 54,
-                    "sha": "5b5fca8251bf36cb32a96a1b46a850f75e953e7f",
+                    "sha": "d7c3cccc6834ac3a14a1956ebf4f689dbbb7be1e",
                     "description": "Gradient Descent Weight Adaptation"
                 },
                 {
                     "page": 55,
-                    "sha": "f6a229d15e16c6fe02fdc2ab9d3482834ea580b4",
+                    "sha": "4eb35d4f3b9884a316857f75d7189f4255df57b5",
                     "description": "Gradient Descent Weight Adaptation"
                 },
                 {
                     "page": 56,
-                    "sha": "e3f557fcc22c5f3cff49a4c28e69c387fd2cb682",
+                    "sha": "9a2a71d51e981433b456c48b34edef520719f9da",
                     "description": "Gradient Descent Weight Adaptation"
                 },
                 {
                     "page": 57,
-                    "sha": "62826928de923acedb56d0dc55048e8db5deac16",
+                    "sha": "f4ff20336960e13317328cfb266794b8b846c011",
                     "description": "Gradient Descent Weight Adaptation"
                 },
                 {
                     "page": 58,
-                    "sha": "6377f98914a3d1497ef98633925d8d20574dc977",
+                    "sha": "70e3c8e4323293caa3932c6e532a899cf009324e",
                     "description": "Gradient Descent Weight Adaptation"
                 },
                 {
                     "page": 59,
-                    "sha": "ce4086f6e008d6899de418a2c370d8e89d9a4f7e",
+                    "sha": "b36d499ffe6a18952d70b0408502c0ec4305035d",
                     "description": "Gradient Descent Weight Adaptation: Batch Gradient Descent"
                 },
                 {
                     "page": 60,
-                    "sha": "039734c6338db124b93d2ccd1e359ba465ffef32",
+                    "sha": "af7724e301e184ff08e8df9adc742ec1e145e41f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 61,
-                    "sha": "9bf28ed8ef3690cf55ccd03d7a204f58d7bcea8e",
+                    "sha": "c46ec74db0c5b569b16247913633503977304ad8",
                     "description": "Gradient Descent Weight Adaptation: Delta Rule"
                 },
                 {
                     "page": 62,
-                    "sha": "3443924ba301dde82032158a7f5af4ea33883c84",
+                    "sha": "abccca52fc4fd7ef3d508d649e40baf47215a5cf",
                     "description": "Gradient Descent Weight Adaptation: Incremental Gradient Descent"
                 },
                 {
                     "page": 63,
-                    "sha": "9982b6b33e445f3a8507ef942ef40f32b54ddff9",
+                    "sha": "094ed852546f5e4645e000eaf4ed553a0f704273",
                     "description": "Remarks:"
                 },
                 {
                     "page": 64,
-                    "sha": "95370c0274c121dc7d10ce61c020a74e59124705",
+                    "sha": "1ac2b70e9254b6411fff991ab809ca7df5d64838",
                     "description": "Remarks (continued) :"
                 }
             ]
         },
         "unit-en-multilayer-perceptron": {
-            "sha": "b08dc686ceec8882d18d286c070e000289eb2d99",
+            "sha": "826014cdfff1e7f5e46b155fd8045b4c7e677713",
             "numpages": 22,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "ec6489192fbc46da1fa06b1585fd6f9a58ed0dc8",
+                    "sha": "a9916eb59eb7bedec74aafc723da24cc866724d5",
                     "description": "Chapter ML:VI "
                 },
                 {
                     "page": 2,
-                    "sha": "71fd489e0fe7379f209a3c224f543bf8a6e36753",
+                    "sha": "3889898cfd63c7697ba150f896322e9c2a5e070d",
                     "description": "Multilayer Perceptron Definition 1 (Linear Separability)"
                 },
                 {
                     "page": 3,
-                    "sha": "56686b8137252d1aa42cb235b1a7499e5bc1fc51",
+                    "sha": "7097752e2bf5c8f58217dcdc370f5feee2ca5dc4",
                     "description": "Multilayer Perceptron Definition 1 (Linear Separability)"
                 },
                 {
                     "page": 4,
-                    "sha": "e5a3902df76eb02675c0910de2e9b2d4845ebcca",
+                    "sha": "6d6b18f07e8612b9daa676b2bbd4a82745c2edb4",
                     "description": "Multilayer Perceptron Separability"
                 },
                 {
                     "page": 5,
-                    "sha": "8153513201cc31597ef052b41de747d061ef3137",
+                    "sha": "93834df79f28567eeeb185351b3b9273bea2dba0",
                     "description": "Multilayer Perceptron Separability"
                 },
                 {
                     "page": 6,
-                    "sha": "a40e9781dcb748c8b86d82a54c53a59e603a06ac",
+                    "sha": "f16c371b723893395ee8976ce2c84ab63e671709",
                     "description": "Multilayer Perceptron Separability"
                 },
                 {
                     "page": 7,
-                    "sha": "09869f577070e38b9b5cf275dc957357ab5a7076",
+                    "sha": "76f2852f75ae0d5bfd3c95c2b8575a52cfaf1dac",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "bd2b47048cdf2786d6a7bb3d6accd1347636f9d2",
+                    "sha": "f6efc1f57996076908734a8b30cd8591efd478d3",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 9,
-                    "sha": "96dfcdb7f3bf3f5a3fb292ea4c2bd18f5d48b2de",
+                    "sha": "704a58fd71ba8ea4a13013dc6fb975e7bbf037be",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 10,
-                    "sha": "a0e3049cb7f39c7873f6718bed4ce08331acd00c",
+                    "sha": "6b1724c3c1a9509433eef7f9bf73509488f4cb8d",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 11,
-                    "sha": "322307ee951797c0017a8a7a27ba76ba3be60d89",
+                    "sha": "607a569a5ba3bb2957538a18c89cffce5fbfae6d",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 12,
-                    "sha": "b94d76112c9695ddb5b8f24ba0e0c4de999b47ef",
+                    "sha": "b62944d561e7c9423aa01f18e40794ef3c6fb139",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 13,
-                    "sha": "18c8505a94b3856fdf5d8070fedb348a33a0934c",
+                    "sha": "172a95545a89501e9b83da5df11b841112bcc291",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 14,
-                    "sha": "9cbc835765d1a0fd31569cf1386bbeed836fd18a",
+                    "sha": "829592678a71ee0edf4f36dabbe24a203be68660",
                     "description": "Multilayer Perceptron Computation in the Network"
                 },
                 {
                     "page": 15,
-                    "sha": "9b5d7859921a583cc9da7d8921321224b02f0fd1",
+                    "sha": "4771e25cc2c967ae69f8a6bee80d3dcb76ff6f1c",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "5c5c082aa9dd6e6464e9e96d88d5f9df18faf78e",
+                    "sha": "ee0bed89b45774882aa4ec0638880f05a536c22e",
                     "description": "Multilayer Perceptron Classification Error"
                 },
                 {
                     "page": 17,
-                    "sha": "3e94f5b6c445382c1907f9d530feedd3a4be9503",
+                    "sha": "750e1e2a4fc1e6bc1db58e90cf38b5136e1c7b0b",
                     "description": "Multilayer Perceptron Weight Adaptation: Incremental Gradient Descent"
                 },
                 {
                     "page": 18,
-                    "sha": "c066e091128adb55af1442a8e5616095f2fc3bf2",
+                    "sha": "29af24454874b3556a1cbd8b6ac8558369124bb5",
                     "description": "Multilayer Perceptron Weight Adaptation: Incremental Gradient Descent"
                 },
                 {
                     "page": 19,
-                    "sha": "0da48cbb389437ed80c95098e25f0edc5942d3a6",
+                    "sha": "90deb594c735e268fd11013a0b0b969c0c1c95b8",
                     "description": "Multilayer Perceptron Weight Adaptation: Incremental Gradient Descent"
                 },
                 {
                     "page": 20,
-                    "sha": "9c63185a5eac81bde5793fc8c94ac4447ec560ed",
+                    "sha": "484eeb00d7685e3af0cdd6cd50e4c6c6cf64e859",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "f9e7b8f0cfc34cee9fdc0069c44f09ca2e4b6b61",
+                    "sha": "33949cbb5b6d77afe61e4f966be79baae910a45b",
                     "description": "Multilayer Perceptron Weight Adaptation: Momentum Term"
                 },
                 {
                     "page": 22,
-                    "sha": "9194891f00695f34d272e29de6e8d19a45ce02fa",
+                    "sha": "ecf955b692c952bda3a18ba405bd526a0a0c6989",
                     "description": "Multilayer Perceptron Weight Adaptation: Momentum Term"
                 }
             ]
@@ -25564,6 +25689,408 @@
                     "page": 26,
                     "sha": "7dc51281271321797f32ab6aa5cf19658964db4c",
                     "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-evaluating-effectiveness": {
+            "sha": "6abea0e4bd7523793028e094cbc5d8b03742adbf",
+            "numpages": 46,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "05e149bb2dad0bb15e8385cdc9da4d02049208d5",
+                    "description": "Chapter ML:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "aaf1fde8a7fb0d20fc89e92c9d79811971d276fd",
+                    "description": "Evaluating Effectiveness Misclassification Rate"
+                },
+                {
+                    "page": 3,
+                    "sha": "10fe6c767183e697af339602ec221a5a21d75db6",
+                    "description": "Evaluating Effectiveness Misclassification Rate"
+                },
+                {
+                    "page": 4,
+                    "sha": "bb58fb4db840492426daa7daf5d82ece0540e488",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "aa097630849d8c3d5b2b1f92faf25a3f726dafeb",
+                    "description": "Evaluating Effectiveness Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 6,
+                    "sha": "766fbc135c3bf3e79a9ca064cc6f3ae9f457ffca",
+                    "description": "Evaluating Effectiveness Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 7,
+                    "sha": "9efa3c3978932f36b456eca2e6538a4d59e3e7b3",
+                    "description": "Evaluating Effectiveness Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 8,
+                    "sha": "a2251105695bcfeb5572968e77bd89a75120d0f7",
+                    "description": "Evaluating Effectiveness Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 9,
+                    "sha": "c07674020aed54fb7e0b765d58965f37e444c539",
+                    "description": "Evaluating Effectiveness Misclassification Rate: Probabilistic Foundation"
+                },
+                {
+                    "page": 10,
+                    "sha": "0846a2e096b9459a17c7c9a5ee19a75c6178bcd9",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 11,
+                    "sha": "347529fd515ac7db3afcf476a7a5cfbc79483d08",
+                    "description": "Evaluating Effectiveness Illustration 1: Generic Feature and Class Distributions"
+                },
+                {
+                    "page": 12,
+                    "sha": "2f21588cc572f5045c89c26e7290fea2548c9bda",
+                    "description": "Evaluating Effectiveness Illustration 1: Generic Feature and Class Distributions"
+                },
+                {
+                    "page": 13,
+                    "sha": "62ddd73967f44f6d8a96ae83cf97a95e0c3b8957",
+                    "description": "Evaluating Effectiveness Illustration 1: Generic Feature and Class Distributions"
+                },
+                {
+                    "page": 14,
+                    "sha": "afe72cabf2fc9cd4cc7ecf04f69e01ab0c67e443",
+                    "description": "Evaluating Effectiveness Illustration 1: Generic Feature and Class Distributions"
+                },
+                {
+                    "page": 15,
+                    "sha": "b21bdbd7b7684fd184e82d7692f102e4f43b9e35",
+                    "description": "Evaluating Effectiveness Illustration 1: Generic Feature and Class Distributions"
+                },
+                {
+                    "page": 16,
+                    "sha": "2f4a67bf040bc68203edad9b577c124253eed385",
+                    "description": "Evaluating Effectiveness Illustration 1: Generic Feature and Class Distributions"
+                },
+                {
+                    "page": 17,
+                    "sha": "a91ed9b8d7a1a7b978f24c832629aeef35779945",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 18,
+                    "sha": "d116395deaf3dd6b08899fdaee7fd26a88d8fe22",
+                    "description": "Evaluating Effectiveness Illustration 2: Feature Distribution given Linearly Separable Classes"
+                },
+                {
+                    "page": 19,
+                    "sha": "0de85eb290168dcc00786b9e49e576b68f3d9bce",
+                    "description": "Evaluating Effectiveness Illustration 2: Feature Distribution given Linearly Separable Classes"
+                },
+                {
+                    "page": 20,
+                    "sha": "f8dc8b1853f30d9cc20132c529e86a2bf34fe06f",
+                    "description": "Evaluating Effectiveness Illustration 2: Feature Distribution given Linearly Separable Classes"
+                },
+                {
+                    "page": 21,
+                    "sha": "b1e2ed1b814cdffa7d9b682b4a8743281e20366d",
+                    "description": "Evaluating Effectiveness Illustration 2: Feature Distribution given Linearly Separable Classes"
+                },
+                {
+                    "page": 22,
+                    "sha": "2f42ee2ba388c5e1c6b6bfa139a859eb6e4bebb0",
+                    "description": "Evaluating Effectiveness Illustration 2: Feature Distribution given Linearly Separable Classes"
+                },
+                {
+                    "page": 23,
+                    "sha": "6c8765f68d2169e7395e836fd006c2238e1a7a02",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 24,
+                    "sha": "0b606d09afb5699ef3f4273d5098039395e78877",
+                    "description": "Evaluating Effectiveness Estimating Error Bounds"
+                },
+                {
+                    "page": 25,
+                    "sha": "7948f465bb7ad37d25973b20666afca377fc36d2",
+                    "description": "Evaluating Effectiveness Estimating Error Bounds"
+                },
+                {
+                    "page": 26,
+                    "sha": "d5dfd131022c4ec7fac1c1cd0d71c797f17ec058",
+                    "description": "Evaluating Effectiveness Estimating Error Bounds"
+                },
+                {
+                    "page": 27,
+                    "sha": "7bf47d4a8ddb34fd85613e6ecff7ec79914303cb",
+                    "description": "Remarks: \u2217"
+                },
+                {
+                    "page": 28,
+                    "sha": "676d8fad58200a4359c039ef2de11e5a729470a4",
+                    "description": "Evaluating Effectiveness (1) Training Error"
+                },
+                {
+                    "page": 29,
+                    "sha": "fb2f4b5d36eab904c8031447e78afd40a25de91f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 30,
+                    "sha": "95e8ced23b8e5c21c3614d4ae5adc2798b572818",
+                    "description": "Evaluating Effectiveness (2a) Holdout Error"
+                },
+                {
+                    "page": 31,
+                    "sha": "016bb731aee684a65096cda8db83a4260692505c",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 32,
+                    "sha": "e66855b778766a841decf11fc58f5f1f1c5b1184",
+                    "description": "Evaluating Effectiveness (2b) k-Fold Cross-Validation"
+                },
+                {
+                    "page": 33,
+                    "sha": "552894db0bd8a66b27e93cdc933208662739748c",
+                    "description": "Evaluating Effectiveness (2b) k-Fold Cross-Validation"
+                },
+                {
+                    "page": 34,
+                    "sha": "93bfff21b330be48c5a3c8133071f8b2db07d5ad",
+                    "description": "Evaluating Effectiveness (2b) k-Fold Cross-Validation"
+                },
+                {
+                    "page": 35,
+                    "sha": "1c8e0de2ea681a8cc08114bc6b241b14871f0dec",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 36,
+                    "sha": "6d9e34fbfcf26234ec36d9253413a6ccd111d0ab",
+                    "description": "Evaluating Effectiveness Comparing Model Variants"
+                },
+                {
+                    "page": 37,
+                    "sha": "a1f43cab7b5fa8a6bb20db662947907db9e7db98",
+                    "description": "Evaluating Effectiveness (3a) Model Selection (single validation set)"
+                },
+                {
+                    "page": 38,
+                    "sha": "17f9ece322da56cd2133a5181ac6197ffdbdaaf3",
+                    "description": "Evaluating Effectiveness (3a) Model Selection (single validation set)"
+                },
+                {
+                    "page": 39,
+                    "sha": "05cfdeea0713d0120f98b65411d13df115dfa151",
+                    "description": "Evaluating Effectiveness (3a) Model Selection (single validation set)"
+                },
+                {
+                    "page": 40,
+                    "sha": "5e2e51fa9c4e3e75ba5de434365fa90949d3d8c8",
+                    "description": "Evaluating Effectiveness (3a) Model Selection (single validation set)"
+                },
+                {
+                    "page": 41,
+                    "sha": "2f3f10285ec014b00313fe94282663254fcf7d78",
+                    "description": "Evaluating Effectiveness (3b) Model Selection (k validation sets)"
+                },
+                {
+                    "page": 42,
+                    "sha": "3649a87f2d81ae33d0bf9b342a9baf58889d1100",
+                    "description": "Evaluating Effectiveness (3b) Model Selection (k validation sets)"
+                },
+                {
+                    "page": 43,
+                    "sha": "d64d98a362e30d55049c5bf224a64645b5cdd927",
+                    "description": "Evaluating Effectiveness (3b) Model Selection (k validation sets)"
+                },
+                {
+                    "page": 44,
+                    "sha": "402c97907e957f8a4a22dc23c145c509ae8408b2",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 45,
+                    "sha": "b13a776ebd5ebe0553f87bcce7a5d5354a82d713",
+                    "description": "Evaluating Effectiveness Misclassification Costs"
+                },
+                {
+                    "page": 46,
+                    "sha": "3ca9f792442c0ff2def4e7112caf5ea6f36bc67d",
+                    "description": "Remarks: \u2217"
+                }
+            ]
+        },
+        "unit-de-ensemble-methods-basics": {
+            "sha": "761d637ea0034ee42ce0116bebd3f24621c2a174",
+            "numpages": 32,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "16eb4421cd34d208c9ddf9182c444d6e8d1e7114",
+                    "description": "Kapitel ML:IX IX. Ensemble and Meta"
+                },
+                {
+                    "page": 2,
+                    "sha": "8a24036cae6d9cdfc9879528ab4170f6855a0d32",
+                    "description": "Ensemble Methods Motivation (1): Generalisierungsf\u00e4higkeit"
+                },
+                {
+                    "page": 3,
+                    "sha": "bd7025c2a9645580f10ff9e35917cdb6b191321f",
+                    "description": "Ensemble Methods Motivation (2): No Free Lunch Theorem"
+                },
+                {
+                    "page": 4,
+                    "sha": "f47ddf5260753098217db033b4b033a708589e98",
+                    "description": "Ensemble Methods Motivation (3): Instabilit\u00e4t von Lernverfahren"
+                },
+                {
+                    "page": 5,
+                    "sha": "2ccfa4520a97438d2a0d6cc68470931aca4ed037",
+                    "description": "Ensemble Methods Motivation (4): Consequences"
+                },
+                {
+                    "page": 6,
+                    "sha": "8cca12bb1580f2ddee98b685bf736f0ff0ed1fc7",
+                    "description": "Ensemble Methods Bootstrap Aggregating (Bagging)"
+                },
+                {
+                    "page": 7,
+                    "sha": "38b89017a78e7ba1b1f714345916ad651e800f4f",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 8,
+                    "sha": "d60598ba743b6fd2877efcd20d99ce0197d33023",
+                    "description": "Ensemble Methods Bootstrap Aggregating"
+                },
+                {
+                    "page": 9,
+                    "sha": "cd80e8e5b0d31a5244e342c4b972dcbce57148e7",
+                    "description": "Ensemble Methods Bootstrap Aggregating"
+                },
+                {
+                    "page": 10,
+                    "sha": "29d6876d97b6cdc69ac23f346effc374c6945838",
+                    "description": "Ensemble Methods Bootstrap Aggregating"
+                },
+                {
+                    "page": 11,
+                    "sha": "07e42fcbbfec51e0032c2a763a5237c2e351a7c3",
+                    "description": "Ensemble Methods Boosting Weak Classifiers"
+                },
+                {
+                    "page": 12,
+                    "sha": "ea557c8a56817bab0e0d45b4719db8f40ebbf59e",
+                    "description": "Ensemble Methods Adaptive Boosting (AdaBoost)"
+                },
+                {
+                    "page": 13,
+                    "sha": "dea4c06d2578d994545197f93bdd62016b833ead",
+                    "description": "Ensemble Methods Adaptive Boosting"
+                },
+                {
+                    "page": 14,
+                    "sha": "5ef47df57b506ad64a9d3a2cf05cc97f5679645d",
+                    "description": "Ensemble Methods Adaptive Boosting"
+                },
+                {
+                    "page": 15,
+                    "sha": "d66ca731bd20029e1b924e7bc2ee07bc2e16e839",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 16,
+                    "sha": "0c7e5bb5f60947d64db7ef954d136a9885289a2f",
+                    "description": "Ensemble Methods Discrete AdaBoost"
+                },
+                {
+                    "page": 17,
+                    "sha": "be308d11bfe12ca298b4dc0b9b8302fbf11d6d07",
+                    "description": "Ensemble Methods Cascades of Classifiers (Cascading)"
+                },
+                {
+                    "page": 18,
+                    "sha": "cc3ed20096b7f3af514ba04e37729fa6d6ea6e4f",
+                    "description": "Ensemble Methods Cascading"
+                },
+                {
+                    "page": 19,
+                    "sha": "03752cac1bb44da8ca2ae33d47e107d702cc44e5",
+                    "description": "Ensemble Methods Ma\u00dfzahlen f\u00fcr Cascading"
+                },
+                {
+                    "page": 20,
+                    "sha": "36eb835fa382fc8f827fcf6a6f3a10b8d5ad59ae",
+                    "description": "Ensemble Methods Ma\u00dfzahlen f\u00fcr Cascading"
+                },
+                {
+                    "page": 21,
+                    "sha": "3bde2d357bb664b1a735137719a3f3e7ae5247e0",
+                    "description": "Ensemble Methods Cascading"
+                },
+                {
+                    "page": 22,
+                    "sha": "6a38b311df1aee4af856fbe84b6778de4a68e9db",
+                    "description": "Ensemble Methods Cascading for Face Detection (Main Loop)"
+                },
+                {
+                    "page": 23,
+                    "sha": "0721c8c273e569b8422c520ddc8e904e4c767856",
+                    "description": "Ensemble Methods Cascading for Face Detection (Gesamtklassifikator)"
+                },
+                {
+                    "page": 24,
+                    "sha": "893e673a85b19af89eec24ce7e6f6c0574e3f76b",
+                    "description": "Ensemble Methods Cascading for Face Detection(Einzelklassifikator in Kaskade)"
+                },
+                {
+                    "page": 25,
+                    "sha": "3e1972dbd93322e33d3b48f67b6064beb04ba8de",
+                    "description": "Ensemble Methods Cascading for Face Detection (Einzelklassifikator in Ensemble)"
+                },
+                {
+                    "page": 26,
+                    "sha": "9d347913a31c167399c647cbf3abb3619c290623",
+                    "description": "Ensemble Methods Cascading for Face Detection (alle Features)"
+                },
+                {
+                    "page": 27,
+                    "sha": "f255ed8e6dfad20a1c8cdccead7edb70703f8d06",
+                    "description": "Ensemble Methods Cascading for Face Detection (ausgew\u00e4hlte Features)"
+                },
+                {
+                    "page": 28,
+                    "sha": "5e66b67891669d8764564f40f3e98549bc349e7e",
+                    "description": "Ensemble Methods Cascading for Face Detection (Effizienz)"
+                },
+                {
+                    "page": 29,
+                    "sha": "4b4965cc893d38e4f44c582177f206da15d8a8ff",
+                    "description": "Ensemble Methods Cascading for Face Detection (Effizienz beim Training)"
+                },
+                {
+                    "page": 30,
+                    "sha": "e1f3081d60ee939c29a96a59f91aa049c50ecaa3",
+                    "description": "Ensemble Methods Trainingsmengen"
+                },
+                {
+                    "page": 31,
+                    "sha": "5a74e9bc0a036ca3e3c2d2c474925fbe8194d1bc",
+                    "description": "Ensemble Methods Grundlage der Entscheidung"
+                },
+                {
+                    "page": 32,
+                    "sha": "24c4b900cd237bb143fdf067147e78a23ddfd56a",
+                    "description": "Ensemble Methods Literature"
                 }
             ]
         }
