@@ -1,0 +1,283 @@
+---
+layout: default
+nav_active: index
+title: Abstractive Snippet Generation Challenge
+description: Abstractive Snippet Generation Challenge
+additional_css: ['https://assets.webis.de/css/workshop.css']
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li class="uk-disabled"><a href="#">Abstractive Snippet Generation Challenge</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"Abstractive Snippet Generation Challenge",
+    "description":"Abstractive Snippet Generation Challenge",
+    "text":"*Shared Task, any other text",
+    "url":"https://tldr.webis.de",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "summarization", 
+        "abstractive summarization", 
+        "web summarization", 
+        "snippet generation"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>TL;DR Challenge</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
+            <!-- 
+	    <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+	    -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#related-work">Related Work</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis</h2>
+        <ul>
+            <li>Task: Given a social media post, generate its abstractive summary.</li>
+            <li>Input: [<a href="https://zenodo.org/record/1168855">data</a>]</li>
+            <li>Submission: [<a href="https://www.tira.io/task/tldr-generation/">submit</a>]</li>
+            <li>Summaries: [<a href="summaries.html">demo</a>]</li>
+        </ul>
+
+        <!--
+        SECTION Task
+        -->
+        <h2 id="task">Task</h2>
+
+        <p>With the vast amounts of information being generated online, summarization has always been used in empowering users to quickly decide if they need to read lengthy articles. This problem is further exacerbated on social media platforms where users write informally with little concern for style, structure or grammar. In this challenge, participants will specifically generate summaries for social media posts.
+        </p>
+
+        <p>For the first time, we have created one of the largest datasets for neural summarization (Webis-TLDR-17 Corpus) by mining Reddit - an online discussion forum which encourages the practice of providing a "tldr- a short, paraphrased summary" by the author of a post. We invite participants to test and develop their neural summarization models on our dataset to generate such TLDRs; as an incentive, we provide a free, extensive qualitative evaluation of your models through dedicated crowdsourcing. </p>
+
+
+        <!--
+        SECTION Data
+        -->
+        <h2 id="data">Data</h2>
+        <p>We provide a corpus consisting of approximately 3 Million content-summary pairs mined from Reddit. It is up to the participants to split this into training and validation sets accordingly. </p>
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2 id="evaluation">Evaluation</h2>
+        <p>To provide fast approximations of model performance, the public leaderboard
+            will be
+            updated with <a href="https://github.com/tagucci/pythonrouge">ROUGE</a> scores.
+            You will be able to self-evaluate your software using the <a href="http://tira.io/">TIRA</a>
+            service. You can find the user guide <a href="https://www.tira.io/static/tira-vm-user-guide.pdf">here</a>.
+            Additionally, a qualitative evaluation will be performed through crowdsourcing. Human
+            annotators will rate each candidate summary according to five linguistic qualities as suggested
+            by the <a href="https://duc.nist.gov/pubs/2006papers/duc2006.pdf">DUC guidelines</a>.</p>
+
+
+        <!--
+        SECTION Submission
+        -->
+        <h2 id="submission">Submission</h2>
+        <p>
+            <h4>Introduction</h4>
+            <p>
+                Participants will <a href="tira-guide.html">install / deploy</a> their models in dedicated TIRA virtual machines, so that their runs
+                can be reproduced and so that they can be easily applied to different data (of same format) in the
+                future.
+            </p>
+            <h4>Quick start</h4>
+            <p>
+                Once trained models are ready, participants will upload them to the VM along with any other code
+                necessary. Please note that the models must be able to perform inference on CPU as we do not have GPUs
+                in the VMs. Inside the VMs, the task data is mounted at
+                <code>/media/training-datasets/tldr-generation</code>. You will find both training and validation
+                datasets here. We recommend trying to first run your models to generate summaries on the validation set
+                after connecting through SSH or RDP to your VM (you can find host ports in the web interface, same login
+                as to your VM). If you cannot connect to your VM, please make sure it is powered on: you can check and
+                power on your machine in the web interface.
+                <br><br>
+                Next register the shell command to run your system in the web interface, and run it. Note that your VM
+                will not be accessible while your system is running – it will be “sandboxed”, detached from the
+                internet, and after the run the state of the VM before the run will be restored. Your run can then be
+                reviewed and evaluated by the organizers. You can inspect runs on training and validation data yourself.
+                <br><br>
+                Note that your system is expected to read the paths to the input and output folders from the command
+                line. When you register the command to run your system, put variables in positions where you expect to
+                see these paths. Thus if your system expects to get the options <code>-i</code> and <code>-o</code>,
+                followed by input and output path respectively, the command you register may look like this:
+                <br>
+                <code>/home/my-user-name/my-software/run.sh -i $inputDataset -o $outputDir</code>
+                <br>
+                The actually executed command will then look something like this:
+                <br>
+                <code>/home/my-user-name/my-software/run.sh \
+                    -i /media/training-datasets/tldr-generation/inlg-19-tldr-generation-validation-dataset-2018-11-05 \
+                    -o /tmp/my-user-name/2019-03-15-10-11-19/output</code>
+                <br><br>
+                You can also directly run python scripts instead of a bash script, after registering your working
+                directory in the web interface. The <code>$inputDataset</code> variable can be set using the dropdown in
+                the web interface when you click on <b>Add Software</b>.
+            </p>
+            <h4>Scoring</h4>
+            <p>
+                When you have successfully tested your system on the validation data, run it on the test data:
+                <code>inlg-19-tldr-generation-test-dataset-2018-11-05</code>
+                <br>
+                This is only possible through the web interface. Once the run of your system completes, please also run
+                the evaluator on the output of your system. These are two separate actions and both should be invoked
+                through the web interface of TIRA. You don’t have to install the evaluator in your VM. It is already
+                prepared in TIRA. You should see it in the web interface, under your software, labeled “Evaluator”.
+                Before clicking the “Run” button, you will use a drop-down menu to select the “Input run”, i.e. one of
+                the completed runs of your system. The output files from the selected run will be evaluated.
+                <br><br>
+                You will see neither the files your system outputs, nor your STDOUT or STDERR. In the evaluator run you
+                will see STDERR, which will tell you if one or more of your output files is not valid. If you think
+                something went wrong with your run, send us an e-mail. We can unblind your STDOUT and STDERR on demand,
+                after we check that you did not leak the test data in the output.
+                <br><br>
+                You can register more than one system (“software/ model”) per virtual machine using the web interface.
+                TIRA gives systems automatic names “Software 1”, “Software 2” etc. You can perform several runs per
+                system. We will score only the latest evaluator runs for all your systems.
+            </p>
+            <p class="font-italic">
+                NOTE: By submitting your software you retain full copyrights. You agree to grant us usage rights for
+                evaluation of the corresponding data generated by your models. We agree not to share your model with a
+                third party or use it for any purpose other than research. The generated summaries will however be
+                shared with a crowdsourcing platform for evaluation.
+            </p>
+        </p>
+        <!--
+        SECTION Results
+        <h2 id="results">Results</h2>
+        <h4>Automatic metric - ROUGE (scores rounded off)</h4>
+        <table class="uk-table  uk-table-small uk-table-hover">
+            <caption>Models are grouped by participant.</caption>
+            <thead>
+                <tr>
+                        <th>Model</th>
+                        <th>R-1</th>
+                        <th>R-2</th>
+                        <th>R-LCS</th>
+                        <th>Average length</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td>unified-pgn</td>
+                    <td>19</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>33.5</td>
+            </tr>
+            <tr>
+                    <td>unified-vae-pgn</td>
+                    <td>19</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>32.8</td>
+            </tr>
+            <tr style="height: 15px;"></tr>
+            <tr>
+                    <td>transf-seq2seq</td>
+                    <td>19</td>
+                    <td>5</td>
+                    <td>14</td>
+                    <td>14.5</td>
+            </tr>
+            
+            <tr>
+                    <td>pseudo-self-attn</td>
+                    <td>18</td>
+                    <td>4</td>
+                    <td>13</td>
+                    <td>12.1</td>
+            </tr>
+            <tr style="height: 15px;"></tr>
+            <tr>
+                    <td>tldr-bottom-up</td>
+                    <td>20</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>37.3</td>
+            </tr>
+    </tbody>
+        </table>
+        -->
+
+        <!--
+        SECTION Related Work
+        -->
+        <h2 id="related-work">Related Work</h2>
+        <div id="publications-list">
+        <!--
+        You do not need to add anything here. Just change "Shared Task-title" below.
+        -->
+        
+        </div>
+
+
+        <!--
+        SECTION Task Committee
+        -->
+
+        <h2 id="task-committee">Task Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/syed.html gender="male" %}
+	    {% include people-cards/chen.html gender="male" %}
+	    {% include people-cards/hagen.html gender="male" %}
+            {% include people-cards/stein.html gender="male" %}
+	    {% include people-cards/wachsmuth.html gender="male" %}
+            {% include people-cards/potthast.html gender="male" %}
+        </div>
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:abstractive_snippet", yearHeadingSize = null);
+</script>
