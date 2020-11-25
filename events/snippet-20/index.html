@@ -59,7 +59,7 @@ additional_css: ['https://assets.webis.de/css/workshop.css']
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>TL;DR Challenge</h1>
+        <h1>Abstractive Snippet Generation Challenge</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -92,30 +92,22 @@ additional_css: ['https://assets.webis.de/css/workshop.css']
         -->
         <h2 id="task">Task</h2>
 
-        <p>With the vast amounts of information being generated online, summarization has always been used in empowering users to quickly decide if they need to read lengthy articles. This problem is further exacerbated on social media platforms where users write informally with little concern for style, structure or grammar. In this challenge, participants will specifically generate summaries for social media posts.
+        <p>We propose a shared task on abstractive snippet generation for web pages, a novel task of generating query-biased abstractive summaries for documents that are to be shown on a search results page. Conventional snippets are extractive in nature, which recently gave rise to copyright claims from news publishers as well as a new copyright legislation being passed in the European Union, limiting the fair use of web page contents for snippets. At the same time, abstractive summarization has matured considerably in recent years, potentially allowing for more personalization of snippets in the future. Taken together, these facts render further research into generating abstractive snippets both timely and promising.
         </p>
-
-        <p>For the first time, we have created one of the largest datasets for neural summarization (Webis-TLDR-17 Corpus) by mining Reddit - an online discussion forum which encourages the practice of providing a "tldr- a short, paraphrased summary" by the author of a post. We invite participants to test and develop their neural summarization models on our dataset to generate such TLDRs; as an incentive, we provide a free, extensive qualitative evaluation of your models through dedicated crowdsourcing. </p>
-
 
         <!--
         SECTION Data
         -->
         <h2 id="data">Data</h2>
-        <p>We provide a corpus consisting of approximately 3 Million content-summary pairs mined from Reddit. It is up to the participants to split this into training and validation sets accordingly. </p>
+        <p>we have prepared the Webis Abstractive Snippet Corpus, a novel and large-scale corpus for abstractive snippet generation. This corpus has been mined from the ClueWeb09, the ClueWeb12, and the DMOZ Open Directory Project, extracting more than 3.5 million examples of the form <query, snippet, document>.
+        </p>
 
         <!--
         SECTION Evaluation
         -->
         <h2 id="evaluation">Evaluation</h2>
-        <p>To provide fast approximations of model performance, the public leaderboard
-            will be
-            updated with <a href="https://github.com/tagucci/pythonrouge">ROUGE</a> scores.
-            You will be able to self-evaluate your software using the <a href="http://tira.io/">TIRA</a>
-            service. You can find the user guide <a href="https://www.tira.io/static/tira-vm-user-guide.pdf">here</a>.
-            Additionally, a qualitative evaluation will be performed through crowdsourcing. Human
-            annotators will rate each candidate summary according to five linguistic qualities as suggested
-            by the <a href="https://duc.nist.gov/pubs/2006papers/duc2006.pdf">DUC guidelines</a>.</p>
+        <p> Our evaluation is based on that of <a href="https://webis.de/downloads/publications/papers/stein_2020e.pdf">Chen et al. (2020)</a> as a two-step process involving <b>intrinsic</b> and <b>extrinsic</b> evaluation. The intrinsic evaluation assesses multiple properties of a snippet: text reuse, faithfulness (no hallucinations), and fluency. Extrinsic evaluation assesses their adequacy in the context of being used within a search engine. A combination of relevant automatic metrics and manual evaluation are used in both the scenarios. You will be able to self-evaluate your software using the <a href="http://tira.io/">TIRA</a> service. You can find the user guide <a href="https://www.tira.io/static/tira-vm-user-guide.pdf">here</a>. While results of the automatic metrics are shared on the leaderboard throughout the duration of the task, those of the manual evaluation will be shared later. This is primarily due to the cost constraint of selecting only the top-performing models on the automatic metrics for the subsequent manual evaluation via crowdsourcing.
+       </p>
 
 
         <!--
@@ -125,69 +117,15 @@ additional_css: ['https://assets.webis.de/css/workshop.css']
         <p>
             <h4>Introduction</h4>
             <p>
-                Participants will <a href="tira-guide.html">install / deploy</a> their models in dedicated TIRA virtual machines, so that their runs
-                can be reproduced and so that they can be easily applied to different data (of same format) in the
-                future.
+                bla
             </p>
             <h4>Quick start</h4>
             <p>
-                Once trained models are ready, participants will upload them to the VM along with any other code
-                necessary. Please note that the models must be able to perform inference on CPU as we do not have GPUs
-                in the VMs. Inside the VMs, the task data is mounted at
-                <code>/media/training-datasets/tldr-generation</code>. You will find both training and validation
-                datasets here. We recommend trying to first run your models to generate summaries on the validation set
-                after connecting through SSH or RDP to your VM (you can find host ports in the web interface, same login
-                as to your VM). If you cannot connect to your VM, please make sure it is powered on: you can check and
-                power on your machine in the web interface.
-                <br><br>
-                Next register the shell command to run your system in the web interface, and run it. Note that your VM
-                will not be accessible while your system is running – it will be “sandboxed”, detached from the
-                internet, and after the run the state of the VM before the run will be restored. Your run can then be
-                reviewed and evaluated by the organizers. You can inspect runs on training and validation data yourself.
-                <br><br>
-                Note that your system is expected to read the paths to the input and output folders from the command
-                line. When you register the command to run your system, put variables in positions where you expect to
-                see these paths. Thus if your system expects to get the options <code>-i</code> and <code>-o</code>,
-                followed by input and output path respectively, the command you register may look like this:
-                <br>
-                <code>/home/my-user-name/my-software/run.sh -i $inputDataset -o $outputDir</code>
-                <br>
-                The actually executed command will then look something like this:
-                <br>
-                <code>/home/my-user-name/my-software/run.sh \
-                    -i /media/training-datasets/tldr-generation/inlg-19-tldr-generation-validation-dataset-2018-11-05 \
-                    -o /tmp/my-user-name/2019-03-15-10-11-19/output</code>
-                <br><br>
-                You can also directly run python scripts instead of a bash script, after registering your working
-                directory in the web interface. The <code>$inputDataset</code> variable can be set using the dropdown in
-                the web interface when you click on <b>Add Software</b>.
+                bla
             </p>
             <h4>Scoring</h4>
             <p>
-                When you have successfully tested your system on the validation data, run it on the test data:
-                <code>inlg-19-tldr-generation-test-dataset-2018-11-05</code>
-                <br>
-                This is only possible through the web interface. Once the run of your system completes, please also run
-                the evaluator on the output of your system. These are two separate actions and both should be invoked
-                through the web interface of TIRA. You don’t have to install the evaluator in your VM. It is already
-                prepared in TIRA. You should see it in the web interface, under your software, labeled “Evaluator”.
-                Before clicking the “Run” button, you will use a drop-down menu to select the “Input run”, i.e. one of
-                the completed runs of your system. The output files from the selected run will be evaluated.
-                <br><br>
-                You will see neither the files your system outputs, nor your STDOUT or STDERR. In the evaluator run you
-                will see STDERR, which will tell you if one or more of your output files is not valid. If you think
-                something went wrong with your run, send us an e-mail. We can unblind your STDOUT and STDERR on demand,
-                after we check that you did not leak the test data in the output.
-                <br><br>
-                You can register more than one system (“software/ model”) per virtual machine using the web interface.
-                TIRA gives systems automatic names “Software 1”, “Software 2” etc. You can perform several runs per
-                system. We will score only the latest evaluator runs for all your systems.
-            </p>
-            <p class="font-italic">
-                NOTE: By submitting your software you retain full copyrights. You agree to grant us usage rights for
-                evaluation of the corresponding data generated by your models. We agree not to share your model with a
-                third party or use it for any purpose other than research. The generated summaries will however be
-                shared with a crowdsourcing platform for evaluation.
+                bla
             </p>
         </p>
         <!--
@@ -278,5 +216,5 @@ additional_css: ['https://assets.webis.de/css/workshop.css']
 
 <script src="https://assets.webis.de/js/filter.js"></script>
 <script>
-includeBibentries(document.getElementById("publications-list"), "tags:abstractive_snippet", yearHeadingSize = null);
+includeBibentries(document.getElementById("publications-list"), "tags:abstractive-snippet", yearHeadingSize = null);
 </script>
