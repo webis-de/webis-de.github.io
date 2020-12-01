@@ -8,7 +8,7 @@
     <meta name="copyright" content="&copy; {{site.time | date: '%Y'}} Webis">
     <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
 
-    <link rel="stylesheet" href="https://assets.webis.de/css/style.css?{{site.time | date: '%s'}}">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}?{{site.time | date: '%s'}}">
     {%- for css in page.additional_css %}
     <link rel="stylesheet" href="{{ css | relative_url }}?{{site.time | date: '%s'}}">
     {%- endfor %}
