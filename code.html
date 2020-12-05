@@ -1,0 +1,157 @@
+---
+layout: default
+nav_active: code
+title: Webis Code
+description: Overview of code that is used or was produced at Webis
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="index.html">Webis.de</a></li>
+<li class="uk-disabled"><a href="#">Code</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "DataCatalog",
+        "name": "Webis Data",
+        "description": "Overview of code that is used by or was produced at the Webis research group.",
+        "text": "This page organizes the code that is used in our research. Their availability for Webis externals is as follows: TODO",
+        "url": "https://webis.de/code.html",
+        "keywords": [
+            "webis",
+            "code",
+            "tools",
+            "services"
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "url": "https://webis.de/",
+                "name": "The Web Technology & Information Systems Network",
+                "alternateName": "Webis"
+            }
+        ]
+    }
+</script>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+    <h1>Code</h1>
+
+    <ul class="uk-list">
+        <li><span data-uk-icon="chevron-down"></span> <a href="#released-webis-code">Released Webis Code</a>
+        </li>
+        <li><span data-uk-icon="chevron-down"></span> <a href="#internal-webis-code">Internal Webis Code</a>
+        </li>
+        <li><span data-uk-icon="chevron-down"></span> <a href="#affiliated-code">Affiliated Code</a></li>
+        <li><span data-uk-icon="chevron-down"></span> <a href="#other-code">Other Code</a></li>
+    </ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+    <p>
+        This page organizes the code that is used in our research. Their availability for Webis externals is as
+        follows:
+        TODO: write description depending on the discussion on github
+        Most of our released code is hosted at Github <a title="Download: Github" href="https://github.com/webis-de/">Zenodo
+          <img src="data/img/github-icon.png" alt="Github"></a>
+    </p>
+
+    <div id="search-control">
+        <input type="text" class="uk-input" id="filter-field" placeholder="Type here to filter&hellip;"/>
+    </div>
+</div>
+
+<div class="uk-container uk-margin-medium webis-data-table">
+    <table class="uk-margin-medium uk-table uk-table-divider uk-table-small sortable targetable">
+        <thead>
+        <tr>
+            <th id="released-webis-code"></th>
+            <th colspan="8">
+                Released Webis Code
+                <a href="#" class="uk-float-right uk-link-reset" data-uk-icon="chevron-up"></a>
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th class="header"><span>Name</span></th>
+            <th class="header"><span>Task</span></th>
+            <th class="header numeric"><span>Input</span></th>
+            <th class="header"><span>Output</span></th>
+            <th class="header"><span>Language</span></th>
+            <th class="header uk-text-right"><span>Access</span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr code-author="christina lohr, johannes Kiesel, henning wachsmuth, khalid al-khatib, benno stein, stephanie luther, johannes hellrich,udo hahn"
+            code-tags="labeling, annotation, segment annotation, wat">
+            <td id="wat-sl-code"></td>
+            <td>WAT-SL</td>
+            <td>Web Annotation Tool for Segment Labeling</td>
+            <td class="uk-text-right" >Text</td>
+            <td>Labeled segments</td>
+            <td>Java, JS</td>
+            <td class="uk-text-right">
+                <a title="Download: Github" href="https://github.com/webis-de/wat" class="uk-link-reset">
+                    <img src="data/img/github-icon.png" alt="Github">
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <table class="uk-margin-medium uk-table uk-table-divider uk-table-small sortable targetable">
+        <thead>
+        <tr>
+            <th id="internal-webis-corpora"></th>
+            <th colspan="8">
+                Internal Webis Corpora
+                <a href="#" class="uk-float-right uk-link-reset" data-uk-icon="chevron-up"></a>
+            </th>
+        </tr>
+        <tr>
+          <th></th>
+          <th class="header"><span>Name</span></th>
+          <th class="header"><span>Task</span></th>
+          <th class="header numeric"><span>Input</span></th>
+          <th class="header"><span>Output</span></th>
+          <th class="header"><span>Language</span></th>
+          <th class="header uk-text-right"><span>Access</span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td id="grobid-service"></td>
+            <td>Grobid Service</td>
+            <td>Scalable Grobid text extraction service</td>
+            <td class="uk-text-right" >PDF</td>
+            <td>XML</td>
+            <td>Python</td>
+            <td class="uk-text-right">
+                <a title="Download: Gitlab" href="https://git.webis.de/code-research/text-reuse/phoenix/prototypes" class="uk-link-reset">
+                    <img src="data/img/gitlab-icon.png" alt="Gitlab">
+                </a>
+            </td>
+            <td>-</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+        None of our corpora match your filter.
+    </div>
+</div>
+</main>
+
+<script src="https://assets.webis.de/js/thirdparty/jquery/jquery.slim.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/fontawesome/fontawesome.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/fontawesome/solid.min.js"></script>
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script src="https://assets.webis.de/js/tables.js"></script>
+<script>initWebisDataFiltering();</script>
