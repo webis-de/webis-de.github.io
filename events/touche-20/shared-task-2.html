@@ -146,7 +146,7 @@ Runs may be either automatic or manual. An automatic run does not use the topic 
                         <ul>
                                 <li><code>qid</code>: The topic number.</li>
                                 <li><code>Q0</code>: Unused, should always be Q0.</li>
-                                <li><code>doc</code>: The document ID (the official ClueWeb12 ID) returned by your system for the topic <code>qid</code>.</li>
+                                <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID) returned by your system for the topic <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
                                 <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. It is important to handle tied scores (trec_eval sorts documents by the score values and not your rank values).</li>
                                 <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
