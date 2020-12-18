@@ -131,7 +131,17 @@ shared_tasks: 2
         <p>Be sure to retrieve good ''strong'' arguments. Our human assessors will label the retrieved documents manually, both for their general topical relevance, and for argument quality dimensions such as: (1) whether an argumentative text is logically cogent, (2) whether it is rhetorically well-written, and (3) whether it helps a user in their stance-building process, i.e., somewhat similar to the concept of "utility" (more information on argument quality: <a href="https://webis.de/downloads/publications/papers/stein_2017c.pdf">paper</a>).</p>
         
         [<a href="./touche2020-task1-relevance-args-me-corpus-version-1.qrels">Download relevance judgments from Touché 2020 (args.me corpus version 1)</a>]<br>
-        [<a href="./touche2020-task1-relevance-args-me-corpus-version-2020-04-01.qrels">Download relevance judgments from Touché 2020 (args.me corpus version 2020-04-01)</a>]
+        [<a href="./touche2020-task1-relevance-args-me-corpus-version-2020-04-01.qrels">Download relevance judgments from Touché 2020 (args.me corpus version 2020-04-01)</a>]<br><br>
+        The format of the relevance judgment file:<br><br>
+        <code>qid 0 doc rel</code><br><br>
+        With:
+		<ul>
+		        <li><code>qid</code>: The topic number.</li>
+		        <li><code>0</code>: Unused, always 0.</li>
+		        <li><code>doc</code>: The document ID (the official args.me ID).</li>
+		        <li><code>rel</code>: The relevance judgment: -2 non-argument, relevance 1 (low) to 5 (high).</li>
+		</ul>
+        <p>You can use the <a href="https://github.com/usnistgov/trec_eval">trec_eval software</a> to evaluate your run using the relevance judgments.</p>
 
         <!--
         SECTION Submission
