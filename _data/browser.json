@@ -27199,7 +27199,187 @@
                 }
             ]
         },
-        "unit-en-gradient-descent": null
+        "unit-en-gradient-descent": {
+            "sha": "dc6ea139ff44bff3e6dd59c4bd8d45091a02e2cc",
+            "numpages": 35,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "9b8c6f5dcfcb1b66d4737c26af719d1bee0ba682",
+                    "description": "Chapter ML:IV IV. Neural Networks"
+                },
+                {
+                    "page": 2,
+                    "sha": "3fed73e87eb96cc71c6a998abc1a7302f160e0dd",
+                    "description": "Gradient Descent Motivation"
+                },
+                {
+                    "page": 3,
+                    "sha": "d5e2a1e3137eb852868caa3d57b9efc73a3106ce",
+                    "description": "Gradient Descent Motivation"
+                },
+                {
+                    "page": 4,
+                    "sha": "3ec35514a021d821c121357448ad7aa26827f935",
+                    "description": "Gradient Descent Motivation"
+                },
+                {
+                    "page": 5,
+                    "sha": "18305e06c1c3377c85264be30167f9f4b0f9260a",
+                    "description": "Gradient Descent Principle"
+                },
+                {
+                    "page": 6,
+                    "sha": "89809dc9f80157b744695c205ccc24ca907511f6",
+                    "description": "Gradient Descent Principle"
+                },
+                {
+                    "page": 7,
+                    "sha": "8958f2d586cc6d8461daeda5982524fb2d1b2dbf",
+                    "description": "Gradient Descent "
+                },
+                {
+                    "page": 8,
+                    "sha": "19c9cbaf0e7687855e03ff226d417c3b902ef686",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 9,
+                    "sha": "18445ae8427f3fda2b73a2f263504181a0b21b12",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 10,
+                    "sha": "658b8327cb37f70535dd756b564f9a0adfc3f0fc",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 11,
+                    "sha": "a0647418d2048d84e77a50c1fb9f0d885c3fbd5f",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 12,
+                    "sha": "318e79d9c3ae5047b3dcde2127014ef4b313ca61",
+                    "description": "Gradient Descent (1) Linear Regression + Squared Loss"
+                },
+                {
+                    "page": 13,
+                    "sha": "bb01dd39e2446adeacba14421a8ac9f82fceb574",
+                    "description": "Gradient Descent (1) Linear Regression + Squared Loss"
+                },
+                {
+                    "page": 14,
+                    "sha": "458c1786115611ff5b0f5503b3f43c63f5ef82c2",
+                    "description": "Remarks (derivation of \u2207L2 (w)) :"
+                },
+                {
+                    "page": 15,
+                    "sha": "47f260e494c202f54818f5910607fbecd8230ca4",
+                    "description": "Gradient Descent The BGD Algorithm"
+                },
+                {
+                    "page": 16,
+                    "sha": "e7bfd420c4a6b997ed5a683bdfcaa6413f8ff4a9",
+                    "description": "Remarks: (?) Recap."
+                },
+                {
+                    "page": 17,
+                    "sha": "0f76628f5a451baf563477c9787755fc36e54f66",
+                    "description": "Gradient Descent Global Loss versus Pointwise Loss"
+                },
+                {
+                    "page": 18,
+                    "sha": "4e5838e83588342bfde68c68b25f82da3b9f045a",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 19,
+                    "sha": "08f7e8c4d3036f2a514ec43b893ca1a32a765c02",
+                    "description": "Gradient Descent The IGD Algorithm"
+                },
+                {
+                    "page": 20,
+                    "sha": "fb694e8f0639df39feae9a15743ed51105cee95b",
+                    "description": "Remarks (IGD) :"
+                },
+                {
+                    "page": 21,
+                    "sha": "419c60b47dbf23a24e932e94d3ba185a26cbbf38",
+                    "description": "Remarks (GD versus PT) (continued) :"
+                },
+                {
+                    "page": 22,
+                    "sha": "510c068baa8fac06916c08c406a1b102cc09460c",
+                    "description": "Gradient Descent (2) Linear Regression + 0\\u002f1 Loss"
+                },
+                {
+                    "page": 23,
+                    "sha": "1948d44896140396451d076940e4e8fd59a3ecab",
+                    "description": "Gradient Descent (2) Linear Regression + 0\\u002f1 Loss"
+                },
+                {
+                    "page": 24,
+                    "sha": "000f86c6b2979dc8877be2e7379fbf23b8df27bf",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 25,
+                    "sha": "19c17fe72a9a235b2aeaca27d9b2f53fa531bd60",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 26,
+                    "sha": "a02f8518f4c91b5074e90bd4641acf3699860121",
+                    "description": "Gradient Descent "
+                },
+                {
+                    "page": 27,
+                    "sha": "92670eaf10be01f6c730682fb336677826c5f22f",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 28,
+                    "sha": "579a3e0c3b99a897995bf6afd0e7ee0a4bf55139",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 29,
+                    "sha": "e31fd15bbd1433e9173504446c287612b1766044",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 30,
+                    "sha": "d6e6502d1e9b6be9b5576c252fc83378c339c27c",
+                    "description": "Gradient Descent (continued)"
+                },
+                {
+                    "page": 31,
+                    "sha": "0071e0c34a5c1ea57f01d15618f40cfc55275c5d",
+                    "description": "Gradient Descent (3) Logistic Regression + Logistic Loss + Regularization"
+                },
+                {
+                    "page": 32,
+                    "sha": "cbcf911c559b6fdcedacdfa4d4feb066e31abf64",
+                    "description": "Gradient Descent (3) Logistic Regression + Logistic Loss + Regularization"
+                },
+                {
+                    "page": 33,
+                    "sha": "684040e3c44f11ebac6b7d885421ae6018e8eceb",
+                    "description": "Remarks: ~ = (w1 , . . . , wp )T , and the"
+                },
+                {
+                    "page": 34,
+                    "sha": "e5d003d00e12a54823602e50653e861a96fb8467",
+                    "description": "Remarks (derivation of \u2207L\u03c3 (w)) :"
+                },
+                {
+                    "page": 35,
+                    "sha": "753335d91930004c82fea89d193d62b4881ae5a6",
+                    "description": "Remarks (derivation of \u2207L\u03c3 (w)) (continued) : X "
+                }
+            ]
+        }
     },
     "data-mining": {
         "ordering": [
