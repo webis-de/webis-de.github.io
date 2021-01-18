@@ -23007,349 +23007,219 @@
             "unit-de-ensemble-methods-basics"
         ],
         "unit-en-ml-organization": {
-            "sha": "be870e197573b7f339f5d4a1c3546bb27cc0d454",
+            "sha": "c630512e5d9f99d9ec23a9b02e78b24b895aa6c5",
             "numpages": 9,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "150f2c54a0cfc87f6e2b5ec052924bd3ab5e237b",
-                    "description": "Machine Learning Benno Stein"
+                    "sha": "7e2108b43e32e78530bef905d84d550381c6cd00",
+                    "description": "Machine Learning "
                 },
                 {
                     "page": 2,
-                    "sha": "d89b28a768edfb7f71f9d8acfa8fe433be7dd3dd",
+                    "sha": "31f1105ab16f0ed3c31e713eec51e2c756ab5f62",
                     "description": "Contents I. Introduction"
                 },
                 {
                     "page": 3,
-                    "sha": "ec5aa9b975c5fb8428f596ef85c7d7ecb07953b3",
+                    "sha": "20b10899b4d20845db0b10c7f2297a91a0ea1f74",
                     "description": "Objectives "
                 },
                 {
                     "page": 4,
-                    "sha": "faa1865b8f5a5741a7ff80ecb929ef2490fb867b",
+                    "sha": "13dd01b0cd8ef73cea2e625d125b56875ab7d7cf",
                     "description": "Related Fields 1. Statistics"
                 },
                 {
                     "page": 5,
-                    "sha": "51c4bccf6561ab45687ba4c0eefc21218b43b6c3",
+                    "sha": "5b6dfe1203ab1161dfb5dc7859288f1f915cde66",
                     "description": "Literature Machine Learning:"
                 },
                 {
                     "page": 6,
-                    "sha": "87bd7cb9dea7fdf45472ecc5d3385c001268a01c",
+                    "sha": "78917cb905c71e32bc2f97736d1a6adb859a4353",
                     "description": "Software Programming:"
                 },
                 {
                     "page": 7,
-                    "sha": "1ec3dc903f3a91e502ea6ff42cea94d93ad5338b",
+                    "sha": "24fb81af54db98d46bc46c239fb15cf40740361f",
                     "description": "Software Statistics:"
                 },
                 {
                     "page": 8,
-                    "sha": "346ae3e4ac20ecb25e77caf967a1202c34998fff",
+                    "sha": "a69893d65743b0b21c8d42b68f1028266d7129f1",
                     "description": "Software Lab Class Setup"
                 },
                 {
                     "page": 9,
-                    "sha": "28c66cc12e2981b04a93a029670ea1fb6e03c374",
+                    "sha": "25d65399478e08f1693516865f5f271f3e569a22",
                     "description": "Software Lab Class Setup"
                 }
             ]
         },
         "unit-en-ml-introduction": {
-            "sha": "68f0832c5e2bc6ed8576b04bbdf5f99dadf013d7",
-            "numpages": 58,
+            "sha": "0a05fd59d43daef825615f17b0a0e5ac74d75dc2",
+            "numpages": 32,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "fb9f43eb3ea02003d562b33fc54a37f34f6bdb3d",
+                    "sha": "b2b836f155c82b12833fe9e92ac1820388ea58e7",
                     "description": "Chapter ML:I I. Introduction"
                 },
                 {
                     "page": 2,
-                    "sha": "4055de3cb50717be957eda3a5d84e4e2883dc914",
+                    "sha": "cedf3d6d619f3b252bfc59d2f2a6f75f01ec608c",
                     "description": "Examples of Learning Tasks Car Shopping Guide"
                 },
                 {
                     "page": 3,
-                    "sha": "0031782406fc2d1400b0dd7238cea4eb8c7f8c98",
+                    "sha": "e6af0f1810993872a04f9247e6521bcaddfd9d1a",
                     "description": "Examples of Learning Tasks Risk Analysis for Credit Approval"
                 },
                 {
                     "page": 4,
-                    "sha": "c73c8e025870d42ef8309c6ae349eecf556e453d",
+                    "sha": "5d53ecb506c0b4c8d7da44c670c2069678e0cf5a",
                     "description": "Examples of Learning Tasks Risk Analysis for Credit Approval"
                 },
                 {
                     "page": 5,
-                    "sha": "b713c83358cbe29410bb36946b9c6edc7c7366db",
+                    "sha": "5f27f04aa4d2d8424c8be3a4d0e4080529735573",
                     "description": "Examples of Learning Tasks Image Analysis"
                 },
                 {
                     "page": 6,
-                    "sha": "a0438ebffcc60d3ae233bae79a4dba689ef34219",
+                    "sha": "c058309b7f65f0ed0da9cfa6c36da276068d2832",
                     "description": "Examples of Learning Tasks Image Analysis"
                 },
                 {
                     "page": 7,
-                    "sha": "971a5edea5e4bf530b1df191cd3354917e41d638",
+                    "sha": "6f340482236f701a24f8f6f7a5b9a26dc9cf1dd2",
                     "description": "Specification of Learning Tasks Definition 1 (Machine Learning"
                 },
                 {
                     "page": 8,
-                    "sha": "3a9563aecbea3f3ee7080ac06151d3d3a3937bf2",
+                    "sha": "a5b3caeaf6b7f6fd955d835adbb0edd9064ef5ce",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "88020adfb34599f10aea4114244d9ad519965373",
+                    "sha": "c77d6e2ff44a28adabd658cece8e42fee43cb750",
                     "description": "Specification of Learning Tasks Learning Paradigms"
                 },
                 {
                     "page": 10,
-                    "sha": "6f31f13d35298b16ba8ff5ab60582dd29d261062",
+                    "sha": "9cfcd6cd78742e315d44418a7cacf7499a063a5a",
                     "description": "Specification of Learning Tasks Learning Paradigms"
                 },
                 {
                     "page": 11,
-                    "sha": "ac7bffc1b828f151a8ce59852ca882bba58c9667",
+                    "sha": "42cd08eb3873bcde40f1d6f50bf4d2fab2534167",
                     "description": "Specification of Learning Tasks Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 12,
-                    "sha": "2bd5f3a87120db79c3290fa085c5f3c9e8591eca",
+                    "sha": "57698a5b205671ecbab0817c456ef60d9262a9c7",
                     "description": "Specification of Learning Tasks Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 13,
-                    "sha": "58fa7d19b0a019c745abf3a40f34ba0a2fd147cd",
+                    "sha": "0d0a991ccf657e0174f39d0cf950ef47e2eda3ea",
                     "description": "Specification of Learning Tasks Example Chess: Kinds of Experience"
                 },
                 {
                     "page": 14,
-                    "sha": "ad4cd0198b77c4c558c746848f685adc9773e799",
-                    "description": "Specification of Learning Tasks Example Chess: Ideal Target Function \u03b3"
+                    "sha": "b368e0eb7f35b554d30be90b2ac22603074889af",
+                    "description": "Specification of Learning Tasks Example Chess: Ideal Target Function \u03b3(o)"
                 },
                 {
                     "page": 15,
-                    "sha": "8a700b50cbbf5e54a505ca3f91133d526848ebcc",
-                    "description": "Specification of Learning Tasks Example Chess: Ideal Target Function \u03b3"
+                    "sha": "7d8bd7602b54d5fb57f29519b57800087f012a3b",
+                    "description": "Specification of Learning Tasks Example Chess: Ideal Target Function \u03b3(o)"
                 },
                 {
                     "page": 16,
-                    "sha": "89157f9fc22a0b963b00dde868e47ad39479b8ed",
+                    "sha": "84d6ae60dcc7dd6c9d88342160b978bf6ed80e00",
                     "description": "Specification of Learning Tasks Example Chess: Real World \u2192 Model World"
                 },
                 {
                     "page": 17,
-                    "sha": "d727feb3745799b9f3704042e5eb2ba5454844ac",
+                    "sha": "b6710876746a0467688b228ce6cf11c30607167f",
                     "description": "Specification of Learning Tasks Example Chess: Real World \u2192 Model World"
                 },
                 {
                     "page": 18,
-                    "sha": "4041cf372a73d9d31dd99694d05b1ac932183451",
+                    "sha": "00fdb1036292343add75a1559f7b273a95e3e298",
                     "description": "Specification of Learning Tasks Example Chess: Real World \u2192 Model World"
                 },
                 {
                     "page": 19,
-                    "sha": "c7ba4878bf2b592bde24656bc609699b0f050ebf",
+                    "sha": "fb935d7bde15383b05b3fe297d0b83a72d62121f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 20,
-                    "sha": "bea6500f65467070bc94b8b519b18061d0827fe7",
-                    "description": "Remarks (continued) :"
+                    "sha": "775ccce27e9095f161359aaba8ed1f67cefef818",
+                    "description": "Remarks (continued):"
                 },
                 {
                     "page": 21,
-                    "sha": "90a6f0c406311f9f0f7d4419d0bee9a66eb69513",
+                    "sha": "1e1aae1a6236caf904fd7293528e1a0daedb458b",
                     "description": "Specification of Learning Tasks "
                 },
                 {
                     "page": 22,
-                    "sha": "84f0f9d2031e111ce2856783026fc08d1783da9b",
+                    "sha": "1811971677b87b33a9f185a7440360cded113f92",
                     "description": "Specification of Learning Tasks "
                 },
                 {
                     "page": 23,
-                    "sha": "1ff65789522cff24f9ecc068db93a8a134b10348",
+                    "sha": "8c1c784e919cf73e2489787a1ce405eab0b41bea",
                     "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 24,
-                    "sha": "e98822a91f7bba385cf9cea8842865bf5abc223b",
+                    "sha": "1d9183dbc78a040958600070ae34e97b7a7b71ee",
                     "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 25,
-                    "sha": "a5397126b02c1d0d2a19c896a7140d4e025a8c7a",
+                    "sha": "07a0d84985028152ff71e94a072bd89474536988",
                     "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 26,
-                    "sha": "5d390dcb7ed06f2b8ad3b68a7228db7e053721a7",
+                    "sha": "d8ddabb2fecfa095faee1f808c16f2e760713003",
                     "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 27,
-                    "sha": "4c111e24ebd65ac8c325c9b34f80e68a1e2e6256",
+                    "sha": "2daa420f4f96b65b5e8904745c2195bf382a7a99",
                     "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 28,
-                    "sha": "04c345baae8fe9e347a7f4bf115b549ba6d3b30e",
+                    "sha": "6135e6028f46ddb0e76ae7e0cf8823f358d35e18",
                     "description": "Specification of Learning Tasks Real World \u2192 Model World"
                 },
                 {
                     "page": 29,
-                    "sha": "60b11a51b39d2d7a0017731ea408bb81c16992ee",
+                    "sha": "4aca5baf0b777e6bc20acec9e2f683a99930db8b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 30,
-                    "sha": "d2a5c2f1288e3be23f6509c22ab6d485f8663942",
-                    "description": "Specification of Learning Tasks The LMS Algorithm for Fitting y"
+                    "sha": "785a818730e89b54109cb4c8bbc2f1354dfd6d7d",
+                    "description": "Specification of Learning Tasks The LMS Algorithm for Fitting y(x)"
                 },
                 {
                     "page": 31,
-                    "sha": "db2527fd3fe02477887d1d89e5476b11b2271793",
+                    "sha": "c69a68a1f1ac2d0e994a77523f8a19ae9fa762fd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "ca2dedce65acd005f6e89f1400903de372ffaffd",
-                    "description": "Elements of Machine Learning "
-                },
-                {
-                    "page": 33,
-                    "sha": "2605b0dd44c8686048a508f6b58ee5b021836c16",
-                    "description": "Elements of Machine Learning I. Model Formation: Real World \u2192 Model World"
-                },
-                {
-                    "page": 34,
-                    "sha": "c4e7ac04c0f1ab24bd03e698d5eeeafa2e6174dc",
-                    "description": "Elements of Machine Learning II. Design of Supervised Learning Models"
-                },
-                {
-                    "page": 35,
-                    "sha": "e88981a0503213d8513b1514804a413a725e9363",
-                    "description": "Elements of Machine Learning II. Design of Supervised Learning Models: LMS in a Nutshell"
-                },
-                {
-                    "page": 36,
-                    "sha": "58978c69289db6e76cc9db7fccd27ca612a74a17",
-                    "description": "Elements of Machine Learning II. Design of Supervised Learning Models: LMS in a Nutshell"
-                },
-                {
-                    "page": 37,
-                    "sha": "e5ac7ebe0056dfe73e228bf8bf9fe2f30f0956bf",
-                    "description": "Elements of Machine Learning II. Design of Supervised Learning Models: LMS in a Nutshell"
-                },
-                {
-                    "page": 38,
-                    "sha": "ebb89f8fc56d44d1aedcd270b9e58cec25ce1941",
-                    "description": "Elements of Machine Learning II. Design of Supervised Learning Models: LMS in a Nutshell"
-                },
-                {
-                    "page": 39,
-                    "sha": "e98ebf4ea16986ea11b74b1ac4702ecaf86fbc1a",
-                    "description": "Related questions:"
-                },
-                {
-                    "page": 40,
-                    "sha": "7324d9d4dc04e2c243429744cdf91e12dc4f7203",
-                    "description": "Elements of Machine Learning III. Structure of Feature Spaces"
-                },
-                {
-                    "page": 41,
-                    "sha": "5a0dc041be2ac68bea2b1a924fe1aec72ba50498",
-                    "description": "Elements of Machine Learning III. Structure of Feature Spaces"
-                },
-                {
-                    "page": 42,
-                    "sha": "7cdaa2b99f5fd7c4390c4e786ab1df3f687949e8",
-                    "description": "Elements of Machine Learning III. Structure of Feature Spaces"
-                },
-                {
-                    "page": 43,
-                    "sha": "176f02bbffeb93e193339667dac3dcf2600850e8",
-                    "description": "Remarks:"
-                },
-                {
-                    "page": 44,
-                    "sha": "00c11b2fc717d59335239a7b8bf00e7d67629434",
-                    "description": "Elements of Machine Learning IV. Discriminative versus Generative Approach to Classification Problems"
-                },
-                {
-                    "page": 45,
-                    "sha": "b315bb75a9307afb5b5ef9de5d15dd0604d05c79",
-                    "description": "Elements of Machine Learning IV. Discriminative versus Generative Approach to Classification Problems"
-                },
-                {
-                    "page": 46,
-                    "sha": "429aa707524b618a32c7fb7b67d6da21dca9f478",
-                    "description": "Elements of Machine Learning IV. Discriminative versus Generative Approach to Classification Problems"
-                },
-                {
-                    "page": 47,
-                    "sha": "74c854f400f66279707ad570f57d737889966256",
-                    "description": "Remarks:"
-                },
-                {
-                    "page": 48,
-                    "sha": "e1cbcc9449b5bd3b3c8a0bcf67b562fefe7a7dcd",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 49,
-                    "sha": "1e685760bee120e7b6f058a869bfd68bfaa071d4",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 50,
-                    "sha": "7eca19527a947764c61f9a708e1eedd720ac9bc1",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 51,
-                    "sha": "81b581820eb7405a37d66bf611851cf8b4c72c00",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 52,
-                    "sha": "0b419ed410c1c31b9a7f8d427aac2b63149df5f8",
-                    "description": "Remarks:"
-                },
-                {
-                    "page": 53,
-                    "sha": "5866617bccd0124b44ac4ae90c0111aa63acae37",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 54,
-                    "sha": "ebc1b23ba2acf2599c46e5d0ec572ee41c033fd3",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 55,
-                    "sha": "b48af9014a2479dbaa6c648501e47dea61b86977",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 56,
-                    "sha": "8fc5d72fb9767f6f26284449e917fa4ce141985b",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 57,
-                    "sha": "aa42fbb0f7ed4e98de11acb8adf10ef17d56a7ee",
-                    "description": "Elements of Machine Learning V. Frequentist versus Subjectivist Approach to Parameter Estimation"
-                },
-                {
-                    "page": 58,
-                    "sha": "e1936f99659f1a16f14b144f393291e887649541",
-                    "description": "Remarks:"
+                    "sha": "313a4ef018504f87c1b078dca2da760a58e2efe6",
+                    "description": "Remarks (continued):"
                 }
             ]
         },
