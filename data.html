@@ -2571,6 +2571,17 @@ description: Overview of corpora that are used by the Webis
             <td></td>
         </tr>
         <tr>
+            <td id="all-the-news"></td>
+            <td><a href="https://components.one/datasets/all-the-news-2-news-articles-dataset/">All The News</a></td>
+            <td>Kaggle</td>
+            <td class="uk-text-center">2020</td>
+            <td class="numeric">3.1 GB</td>
+            <td class="numeric">2.7M</td>
+            <td>news articles</td>
+            <td>Text Summarization, Text Analysis</td>
+            <td></td>
+        </tr>
+        <tr>
             <td id="annotated-customer-reviews"></td>
             <td><a href="http://www.sfu.ca/~mtaboada/SFU_Review_Corpus.html">Annotated Customer Reviews</a></td>
             <td>Simon Fraser University Burnaby</td>
@@ -2579,6 +2590,17 @@ description: Overview of corpora that are used by the Webis
             <td class="numeric">-</td>
             <td></td>
             <td>Sentiment Analysis</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="any-aspect-summarization"></td>
+            <td><a href="https://github.com/tanyuqian/aspect-based-summarization">Any-Aspect Summarization</a></td>
+            <td>Carnegie Mellon University</td>
+            <td class="uk-text-center">2020</td>
+            <td class="numeric">1.5 GB</td>
+            <td class="numeric">280K</td>
+            <td>article-summary pairs</td>
+            <td>Text Summarization</td>
             <td></td>
         </tr>
         <tr>
@@ -3406,78 +3428,6 @@ description: Overview of corpora that are used by the Webis
             <td></td>
         </tr>
         <tr>
-            <td id="msmarco-conversational-search"></td>
-            <td><a href="https://github.com/microsoft/MSMARCO-Conversational-Search">MSMARCO Conversational
-                Search</a></td>
-            <td>Microsoft</td>
-            <td class="uk-text-center">2019</td>
-            <td class="numeric">1 GB</td>
-            <td class="numeric">2M</td>
-            <td>synthetic search sessions</td>
-            <td>Next Query Prediction</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td id="multi-domain-sentiment-dataset-processed-acl"></td>
-            <td><a href="http://www.cs.jhu.edu/~mdredze/datasets/sentiment/">Multi Domain Sentiment Dataset
-                (Processed ACL)</a></td>
-            <td>John Hopkins University</td>
-            <td class="uk-text-center">2007</td>
-            <td class="numeric">29 MB</td>
-            <td class="numeric">-</td>
-            <td></td>
-            <td>Sentiment Analysis</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td id="multilingual-amazon-reviews"></td>
-            <td>
-                <a href="https://registry.opendata.aws/amazon-reviews-ml/">Multilingual Amazon Reviews</a></td>
-            <td>P. Keung et al.</td>
-            <td class="uk-text-center">2020</td>
-            <td class="numeric">640 MB</td>
-            <td class="numeric">1.3M</td>
-            <td>reviews</td>
-            <td>Text Classification (Multilingual)</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td id="multi-news"></td>
-            <td><a href="https://github.com/Alex-Fabbri/Multi-News">Multi-News</a></td>
-            <td>Yale University</td>
-            <td class="uk-text-center">2019</td>
-            <td class="numeric">676 MB</td>
-            <td class="numeric">54K</td>
-            <td>multiple articles-summary pairs</td>
-            <td>Text Summarization, Multi-document</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td id="multiwoz-2-1"></td>
-            <td><a href="https://github.com/budzianowski/multiwoz">MultiWOZ 2.1</a>
-            </td>
-            <td>M. Eric et al.</td>
-            <td class="uk-text-center">2020</td>
-            <td class="numeric">19 MB</td>
-            <td class="numeric">10K</td>
-            <td>dialogues</td>
-            <td>Conversation Analysis (written, human-wizard)</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td id="montclair-electronic-language-database"></td>
-            <td>
-                <a href="http://www.montclair.edu/chss/linguistics/department-research-projects/meld/talks/montclair-electronic-language-learner-database/">Montclair
-                    Electronic Language Database</a></td>
-            <td>Montclair State University</td>
-            <td class="uk-text-center">2001</td>
-            <td class="numeric">56 KB</td>
-            <td class="numeric">33</td>
-            <td>documents</td>
-            <td>Cross-Language Analysis</td>
-            <td></td>
-        </tr>
-        <tr>
             <td id="movielens"></td>
             <td><a href="http://www.grouplens.org/node/73/">Movielens</a></td>
             <td>University of Minnesota</td>
@@ -3510,6 +3460,102 @@ description: Overview of corpora that are used by the Webis
             <td>Conversation Analysis (written, human-human)</td>
             <td></td>
         </tr>
+        <tr>
+            <td id="msmarco-conversational-search"></td>
+            <td><a href="https://github.com/microsoft/MSMARCO-Conversational-Search">MSMARCO Conversational
+                Search</a></td>
+            <td>Microsoft</td>
+            <td class="uk-text-center">2019</td>
+            <td class="numeric">1 GB</td>
+            <td class="numeric">2M</td>
+            <td>synthetic search sessions</td>
+            <td>Next Query Prediction</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td id="multi-domain-sentiment-dataset-processed-acl"></td>
+            <td><a href="http://www.cs.jhu.edu/~mdredze/datasets/sentiment/">Multi Domain Sentiment Dataset
+                (Processed ACL)</a></td>
+            <td>John Hopkins University</td>
+            <td class="uk-text-center">2007</td>
+            <td class="numeric">29 MB</td>
+            <td class="numeric">-</td>
+            <td></td>
+            <td>Sentiment Analysis</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="multilingual-amazon-reviews"></td>
+            <td>
+                <a href="https://registry.opendata.aws/amazon-reviews-ml/">Multilingual Amazon Reviews</a></td>
+            <td>P. Keung et al.</td>
+            <td class="uk-text-center">2020</td>
+            <td class="numeric">640 MB</td>
+            <td class="numeric">1.3M</td>
+            <td>reviews</td>
+            <td>Text Classification (Multilingual)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="multi-aspect-summarization"></td>
+            <td><a href="https://github.com/ColiLea/aspect_based_summarization">Multi-Aspect Summarization</a></td>
+            <td>Amazon Research</td>
+            <td class="uk-text-center">2019</td>
+            <td class="numeric">946 MB</td>
+            <td class="numeric">280K</td>
+            <td>article-summary pairs</td>
+            <td>Text Summarization</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="multi-news"></td>
+            <td><a href="https://github.com/Alex-Fabbri/Multi-News">Multi-News</a></td>
+            <td>Yale University</td>
+            <td class="uk-text-center">2019</td>
+            <td class="numeric">676 MB</td>
+            <td class="numeric">54K</td>
+            <td>multiple articles-summary pairs</td>
+            <td>Text Summarization, Multi-document</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="multiwoz-2-1"></td>
+            <td><a href="https://github.com/budzianowski/multiwoz">MultiWOZ 2.1</a>
+            </td>
+            <td>M. Eric et al.</td>
+            <td class="uk-text-center">2020</td>
+            <td class="numeric">19 MB</td>
+            <td class="numeric">10K</td>
+            <td>dialogues</td>
+            <td>Conversation Analysis (written, human-wizard)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="multi-xscience"></td>
+            <td><a href="https://github.com/yaolu/Multi-XScience">Multi-XScience</a></td>
+            <td>Mila</td>
+            <td class="uk-text-center">2020</td>
+            <td class="numeric">61.3 MB</td>
+            <td class="numeric">40K</td>
+            <td>article-summary pairs</td>
+            <td>Text Summarization, Scientific Document Summarization</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="montclair-electronic-language-database"></td>
+            <td>
+                <a href="http://www.montclair.edu/chss/linguistics/department-research-projects/meld/talks/montclair-electronic-language-learner-database/">Montclair
+                    Electronic Language Database</a></td>
+            <td>Montclair State University</td>
+            <td class="uk-text-center">2001</td>
+            <td class="numeric">56 KB</td>
+            <td class="numeric">33</td>
+            <td>documents</td>
+            <td>Cross-Language Analysis</td>
+            <td></td>
+        </tr>
+        
         <tr>
             <td id="netflix-challenge-partial"></td>
             <td><a href="http://www.netflixprize.com/">Netflix Challenge (Partial)</a></td>
