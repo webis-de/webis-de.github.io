@@ -122,11 +122,17 @@ description: Overview of corpora that are used by the Webis research group
         <h2 id="download">Download</h2>
         <p>The datasets are stored in our ceph cluster and can be accessed by our public S3 endpoints. S3 allows direct download with HTTP and can be directly incorporated into big data tools like Hadoop and Spark.</p>
 
-        <h3 id="download-ids-to-remove">IDs to Remove</h3>
+        <h3 id="download-ids-to-remove">Exclusion Lists (IDs to Remove)</h3>
 	<p>The following files contain the IDs of documents that you can skip during the processing of your corpus to obtain a corpus without near-duplicates. Each document specified by an ID has a near-duplicate that remains in the crawl.</p>
         <ul>
             <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw09b">ClueWeb09B (keys: documents-to-remove/cw09b-ids-to-remove-bzip2/*)</a>
+            </li>
+            <li>
                 <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw09">ClueWeb09 (keys: documents-to-remove/cw09-ids-to-remove-bzip2/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw12b13">ClueWeb12B13 (keys: documents-to-remove/cw12b13-ids-to-remove-bzip2/*)</a>
             </li>
             <li>
                 <a href="https://corpus-copycat.s3.data.webis.de/?prefix=documents-to-remove/cw12">ClueWeb12 (keys: documents-to-remove/cw12-ids-to-remove-bzip2/*)</a>
@@ -140,6 +146,35 @@ description: Overview of corpora that are used by the Webis research group
         </ul>
 	<p>The data contains one ID per line and is splitted into multiple parts. To retrieve the first two documents to remove for ClueWeb09, run:</p>
 	<code>curl 'https://corpus-copycat.s3.data.webis.de/documents-to-remove/cw09-ids-to-remove-bzip2/part-00000.bz2' \<br>
+			2>/dev/null |\<br>
+			bzip2 -dc \<br>
+			|head -2
+	</code>
+
+        <h3 id="download-inclusion-lists">Inclusion Lists</h3>
+	<p>The following files contain all IDs of documents that you can process to obtain a corpus without near-duplicates. All documents on this inclusion list are never near-duplicates of each other, i.e. the documents specified in this list should remain in the crawl.</p>
+        <ul>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicate-free-inclusion-lists/cw09b/">ClueWeb09B (keys: near-duplicate-free-inclusion-lists/cw09b/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicate-free-inclusion-lists/cw12b13/">ClueWeb12B13 (keys: near-duplicate-free-inclusion-lists/cw12b13/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicate-free-inclusion-lists/cw09/">ClueWeb09 (keys: documents-to-remove/cw09-ids-to-remove-bzip2/*)</a>
+            </li>
+            <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicate-free-inclusion-lists/cw012/">ClueWeb12 (keys: near-duplicate-free-inclusion-lists/cw012/*)</a>
+            </li>
+	    <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicate-free-inclusion-lists/cc-2015-11">Common Crawl 2015-11 (keys: near-duplicate-free-inclusion-lists/cc-2015-11/*)</a>
+            </li>
+	    <li>
+                <a href="https://corpus-copycat.s3.data.webis.de/?prefix=near-duplicate-free-inclusion-lists/cc-2017-04">Common Crawl 2017-04: (keys: near-duplicate-free-inclusion-lists/cc-2017-04/*)</a>
+            </li>
+        </ul>
+	<p>The data contains one ID per line and is splitted into multiple parts. To retrieve the first two documents to remove for ClueWeb09, run:</p>
+	<code>curl 'https://corpus-copycat.s3.data.webis.de/near-duplicate-free-inclusion-lists/cw09b/part-00000.bz2' \<br>
 			2>/dev/null |\<br>
 			bzip2 -dc \<br>
 			|head -2
