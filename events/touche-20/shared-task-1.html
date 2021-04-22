@@ -1,0 +1,449 @@
+---
+layout: workshop
+nav_active: shared task 1
+title: Touché @ CLEF
+description: Touché @ CLEF Argument Retrieval
+shared_tasks: 2
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Touché 2020</a></li>
+<li class="uk-disabled"><a href="#">Task 1</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"Touché @ CLEF",
+    "description":"Touché @ CLEF Argument Retrieval",
+    "text":"*Shared Task, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "touché", 
+        "argument retrieval", 
+        "argument retrieval for controversial questions", 
+        "argument retrieval for comparative questions"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Touché Task 1: Argument Retrieval for Controversial Questions</h1>
+        <p style="color:#909090";">&thinsp;&thinsp;Formerly named: Conversational Argument Retrieval</p>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#tira-quickstart">TIRA Quickstart</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <ul>
+            <li>Task: Given a question on a controversial topic, retrieve relevant arguments from a focused crawl of online debate portals.</li>
+            <li>Input: [<a href="https://zenodo.org/record/3734893">data</a>]</li>
+            <li>Submission: [<a href="https://www.tira.io/task/touche-task-1/">submit</a>]</li>
+        </ul>
+
+        <!--<p>You may provide links to associated resources, like so: [<a>link</a>]</p> -->
+
+
+        <!--
+        SECTION Task
+        -->
+        <h2 id="task">Task</h2>
+
+        <p>The goal of <strong>Task 1</strong> is to support users who search for arguments to be used in conversations (e.g., getting an overview of pros and cons or just looking for arguments in line with a user's stance). Given a question on a controversial topic, the task is to retrieve relevant arguments from a focused crawl of online debate portals. </p> <br>
+
+                </p>
+		<strong>Registration closed on Sunday, 26 April 2020</strong>
+		
+        <!--
+        SECTION Data
+        -->
+        <h2 id="data">Data</h2>
+        <p><strong>The topics</strong> for Tasks 1 will be send to each team via email upon completed registration. The topics will be provided as XML files.<br><br>
+                        Example topic for <strong>Task 1:</strong><br><br>
+                        &nbsp;&nbsp;&nbsp;&#60;topic&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;number&#62;1&#60;/number&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;Is climate change real?&#60;/title&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;You read an opinion piece on how climate change is a hoax
+                            and disagree. Now you are looking for arguments supporting
+                            the claim that climate change is in fact real.&#60;/description&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;narrative&#62;Relevant arguments will support the given stance that
+                            climate change is real or attack a hoax side's argument.&#60;/narrative&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&#60;/topic&#62;<br><br> </p>
+                        
+        [<a href="./topics-task-1.xml">Download full topics</a>]
+
+        <p><strong>The corpus</strong> for Task 1 is the <a href="https://zenodo.org/record/3734893">args.me corpus</a>; you may index the corpus with your favorite retrieval system. To ease participation, you may also directly use the <a href="https://www.args.me/index.html">args.me</a> search engine's <a href="https://www.args.me/api-en.html">API</a> for a baseline retrieval.</p>
+        
+        <!--
+        <h3 class="uk-margin-small-top">Output Format</h3>
+        <p>Output format description.</p>
+	-->
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2 id="evaluation">Evaluation</h2>
+        <p>Be sure to retrieve good ''strong'' arguments. Our human assessors will label the retrieved documents manually, both for their general topical relevance, and for argument quality dimensions such as: (1) whether an argumentative text is logically cogent, (2) whether it is rhetorically well-written, and (3) whether it helps a user in their stance-building process, i.e., somewhat similar to the concept of "utility" (more information on argument quality: <a href="https://webis.de/downloads/publications/papers/wachsmuth_2017b.pdf">paper</a>).</p>
+
+
+        <!--
+        SECTION Submission
+        -->
+        <h2 id="submission">Submission</h2>
+        <p>We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility. Please also have a look at our <a href="#tira-quickstart">TIRA quickstart</a>&#8212;;in case of problems we will be able to assist you. Even though the preferred way of run submission is TIRA, in case of problems you may also submit runs via email. We will try to quickly review your TIRA or email submissions and provide feedback.<br><br>
+Runs may be either automatic or manual. An automatic run does not use the topic descriptions or narratives and must not "manipulate" the topic titles via manual intervention. A manual run is anything that is not an automatic run. Upon submission, please let us know which of your runs are manual. For each topic, include up to 1,000 retrieved documents.
+                </p>
+                <p class="uk-text-left">
+                        The submission format for the task will follow the standard TREC format:<br><br>
+                        <code>qid Q0 doc rank score tag</code><br><br>
+
+                        With:
+                        <ul>
+                                <li><code>qid</code>: The topic number.</li>
+                                <li><code>Q0</code>: Unused, should always be Q0.</li>
+                                <li><code>doc</code>: The document ID (the official args.me ID) returned by your system for the topic <code>qid</code>.</li>
+                                <li><code>rank</code>: The rank the document is retrieved at.</li>
+                                <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. It is important to handle tied scores (trec_eval sorts documents by the score values and not your rank values).</li>
+                                <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
+                        </ul>
+
+                                The fields should be separated by a whitespace. The individual columns' widths are not restricted (i.e., score can be an arbitrary precision that has no ties) but it is important to include all columns and to separate them with a whitespace.<br><br>
+
+                                An example run for Task 1 is:<br><br>
+
+                                <code>1 Q0 Sf9294c83-Af186e851 1 17.89 myGroupMyMethod</code><br>
+                                <code>1 Q0 Sf9294c83-A9a4e056e 2 16.43 myGroupMyMethod</code><br>
+                                <code>1 Q0 S96f2396e-Aaf079b43 3 16.42 myGroupMyMethod</code><br>
+                                <code>...</code> </p>
+
+        <!--
+        SECTION TIRA Quickstart
+        -->
+        <h2><a id="tira-quickstart"></a>TIRA Quickstart</h2>
+        <p class=" uk-text-left">
+            Participants have to upload (through SSH or RDP) their retrieval models in a dedicated TIRA virtual machine, so that their runs
+            can be reproduced and so that they can be easily applied to different data (of same format) in the
+            future. You can find host ports for your VM in the web interface, same login as to your VM.
+            If you cannot connect to your VM, please make sure it is powered on: you can check and
+            power on your machine in the web interface.
+        </p>
+        <p class=" uk-text-left">
+            Your software is expected to accept two arguments:
+            <ul>
+                <li>An input directory (named <code>$inputDataset</code> in TIRA). The variable <code>$inputDataset</code> points to a directory which contains six files: <code>debateorg.json</code>, <code>debatepedia.json</code>, <code>debatewise.json</code>, <code>idebate.json</code>, <code>parliamentary.json</code> (those 5 files form the corpus), and <code>topics.xml</code> (the topics for which documents should be retrieved).</li>
+                <li>An output directory (named <code>$outputDir</code> in TIRA). Your software should create a standard trec run file in <code>$outputDir/run.txt</code>.</li>
+            </ul>
+            Your Software can use the <code>args-me.json</code> file or the API of the search engine <a href="https://www.args.me/api-en.html">args.me</a> to produce the run file.<br>
+            As soon as your Software is installed in your VM, you can register it in TIRA.
+
+            Assume that your software is started with a bash script in your home directory called <code>my-software.sh</code> which expects an argument <code>-i</code> specifying the input directory, and an argument <code>-o</code> specifying the output directory. Click on "Add software" and specify the command <code>my-software.sh -i $inputDataset -o $outputDir</code>. The other fields can stay with default settings.
+        </p>
+        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task1-example-software.png" alt="Overview of the software configuration in TIRA.">
+
+
+        <p class=" uk-text-left">
+            Click on "Run" to execute your software in TIRA. Note that your VM
+            will not be accessible while your system is running – it will be “sandboxed”, detached from the
+            internet, and after the run the state of the VM before the run will be restored. Your run will be
+            reviewed and evaluated by the organizers.
+        </p>
+
+        <p class=" uk-text-left font-italic">
+            NOTE: By submitting your software you retain full copyrights. You agree to grant us usage rights for
+            evaluation of the corresponding data generated by your software. We agree not to share your software with a
+            third party or use it for any purpose other than research.
+        </p>
+
+        <p class=" uk-text-left">
+            Once the run of your system completes, please also run
+            the evaluator on the output of your system to verify that your output is a valid submission.
+These are two separate actions and both should be invoked
+            through the web interface of TIRA. You don’t have to install the evaluator in your VM. It is already
+            prepared in TIRA. You should see it in the web interface, under your software, labeled “Evaluator”.
+            Before clicking the “Run” button, you will use a drop-down menu to select the “Input run”, i.e. one of
+            the completed runs of your system. The output files from the selected run will be evaluated.
+        </p>
+        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task1-example-evaluation.png" alt="Overview of the software evaluation in TIRA.">
+        <p class=" uk-text-left">
+            You can see and download STDOUT and STDERR as well as the outputs of your system.
+In the evaluator run you will see only STDOUT and STDERR, which will tell you if one or more of your output files is not valid.
+If you think something went wrong with your run, send us an e-mail.
+Additionally, we review your submissions and contact you on demand.
+            <br><br>
+            You can register more than one system (“software/ model”) per virtual machine using the web interface.
+            TIRA gives systems automatic names “Software 1”, “Software 2” etc. You can perform several runs per
+            system.
+        </p>
+
+        <!--
+        SECTION Results
+        -->
+        <h2><a id="results"></a>Results</h2>
+        
+        <h3>Results for old documents (args.me corpus version 1)</h3>
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+          <thead>
+            <tr>
+              <th>team</th>
+              <th colspan="2" align="center">results</th>
+           </tr>
+           <tr style="text-align: right;">
+             <th></th>
+             <th>Tag</th>
+             <th>nDCG@5</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>Weiss Schnee</td>
+             <td>gruppe-paulinum</td>
+             <td>0.804</td>
+           </tr>
+           <tr>
+             <td>Prince of Persia</td>
+             <td>0.8-DirichletLM-0.2-DirichletLM</td>
+             <td>0.791</td>
+           </tr>
+           <tr>
+             <td>The Three Mouseketeers</td>
+             <td>DirichletLMOptimized</td>
+             <td>0.789</td>
+           </tr>
+           <tr>
+             <td>Swordsman (<strong>baseline</strong>)</td>
+             <td>DirichletLM</td>
+             <td>0.769</td>
+           </tr>
+           <tr>
+             <td>Dread Pirate Roberts</td>
+             <td>MLM</td>
+             <td>0.743</td>
+           </tr>
+           <tr>
+             <td>Prince of Persia</td>
+             <td>0.8-BM25-0.2-BM25</td>
+             <td>0.724</td>
+           </tr>
+           <tr>
+             <td>Thongor</td>
+             <td>Gruppe4_DieUeberdurchschnittlichenUndGrossartigenInformationRetriever</td>
+             <td>0.717</td>
+           </tr>
+           <tr>
+             <td>Oscar François de Jarjayes</td>
+             <td>CbowDPHSentEmotional</td>
+             <td>0.699</td>
+           </tr>
+           <tr>
+             <td>Black Knight</td>
+             <td>speedboat</td>
+             <td>0.692</td>
+           </tr>
+           <tr>
+             <td>Utena Tenjou</td>
+             <td>Gruppe1Method</td>
+             <td>0.689</td>
+           </tr>
+           <tr>
+             <td>Arya Stark</td>
+             <td>MLU-Gruppe3-Lucene</td>
+             <td>0.662</td>
+           </tr>
+           <tr>
+             <td>Prince of Persia</td>
+             <td>0.8-DLH-0.2-PL2</td>
+             <td>0.642</td>
+           </tr>
+           <tr>
+             <td>Prince of Persia</td>
+             <td>0.8-DLH-0.2-BM25</td>
+             <td>0.641</td>
+           </tr>
+           <tr>
+             <td>Don Quixote</td>
+             <td>ReCAP_PF-ICF-DCFs</td>
+             <td>0.617</td>
+           </tr>
+           <tr>
+             <td>Aragorn</td>
+             <td>agg</td>
+             <td>0.593</td>
+           </tr>
+           <tr>
+             <td>Prince of Persia</td>
+             <td>0.9-DLH-0.1-DLH</td>
+             <td>0.555</td>
+           </tr>
+           <tr>
+             <td>Aragorn</td>
+             <td>vanilla_bert</td>
+             <td>0.331</td>
+           </tr>
+           <tr>
+             <td>Aragorn</td>
+             <td>cedr_drmm</td>
+             <td>0.319</td>
+           </tr>
+           <tr>
+             <td>Aragorn</td>
+             <td>SM_CKNRM</td>
+             <td>0.288</td>
+           </tr>
+           <tr>
+             <td>Aragorn</td>
+             <td>cedr_knrm</td>
+             <td>0.271</td>
+           </tr>
+         </tbody>
+        </table>
+        
+        [<a href="./touche2020-task1-relevance-args-me-corpus-version-1.qrels">Download qrels</a>]
+        
+        <h3>Results for new documents (args.me corpus version 2020-04-01)</h3>
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+          <thead>
+            <tr>
+              <th>team</th>
+              <th colspan="2" align="center">results</th>
+           </tr>
+           <tr style="text-align: right;">
+             <th></th>
+             <th>Tag</th>
+             <th>nDCG@5</th>
+           </tr>
+         </thead>
+          <tbody>
+            <tr>
+              <td>Dread Pirate Roberts</td>
+              <td>LM_both</td>
+              <td>0.808</td>
+            </tr>
+            <tr>
+              <td>Swordsman (<strong>baseline</strong>)</td>
+              <td>DirichletLM</td>
+              <td>0.756</td>
+            </tr>
+            <tr>
+              <td>Dread Pirate Roberts</td>
+              <td>MLM</td>
+              <td>0.755</td>
+            </tr>
+            <tr>
+              <td>Aragorn</td>
+              <td>KNRM</td>
+              <td>0.684</td>
+            </tr>
+            <tr>
+              <td>Dread Pirate Roberts</td>
+              <td>use5_annoy-52-25</td>
+              <td>0.598</td>
+            </tr>
+            <tr>
+              <td>Zorro</td>
+              <td>UvATask1LTR</td>
+              <td>0.573</td>
+            </tr>
+            <tr>
+              <td>Dread Pirate Roberts</td>
+              <td>use5_annoy-20-08</td>
+              <td>0.527</td>
+            </tr>
+            <tr>
+              <td>Dread Pirate Roberts</td>
+              <td>use5_annoy-15-47</td>
+              <td>0.519</td>
+            </tr>
+            <tr>
+              <td>Aragorn</td>
+              <td>vanilla_bert</td>
+              <td>0.404</td>
+            </tr>
+            <tr>
+              <td>Aragorn</td>
+              <td>agg</td>
+              <td>0.372</td>
+            </tr>
+            <tr>
+              <td>Aragorn</td>
+              <td>cedr_drmm</td>
+              <td>0.371</td>
+            </tr>
+            <tr>
+              <td>Aragorn<span style="opacity:0;">rançois de Jarjayes</span></td>
+              <td>cedr_knrm<span style="opacity:0;">ieUeberdurchschnittlichenUndGrossartigenInformationRetriever</span></td>
+              <td>0.319</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        [<a href="./touche2020-task1-relevance-args-me-corpus-version-2020-04-01.qrels">Download qrels</a>]
+
+        <!--
+        SECTION Task Committee
+        -->
+        <h2><a id="task-committee"></a>Task Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/potthast.html gender="male" %}
+            {% include people-cards/gienapp.html gender="male" %}
+            {% include people-cards/wachsmuth.html gender="male" %}
+            {% include people-cards/hagen.html gender="male" %}
+            {% include people-cards/froebe.html gender="male" %}
+            {% include people-cards/bondarenko.html gender="male" %}
+            {% include people-cards/ajjour.html gender="male" %}
+	    {% include people-cards/stein.html gender="male" %}
+        </div>
+
+    </div>
+    
+    <style>h1, p {margin: 0;}</style> <!--removes one line space between h1 and p-->
+
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>

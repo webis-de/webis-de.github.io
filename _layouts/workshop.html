@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="&copy; {{site.time | date: '%Y'}} Webis">
+    <!-- DO NOT CHANGE -->
+    <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
+
+    <!-- +++ Global Webis CSS +++ -->
+    <!-- +++ You can either include the global CSS file like this or @import it inside your own CSS/Sass. +++ -->
+    <link rel="stylesheet" href="https://assets.webis.de/css/style.css?{{site.time | date: '%s'}}">
+    <!-- +++ Event-specific CSS +++ -->
+    <link rel="stylesheet" href="https://assets.webis.de/css/workshop.css?{{site.time | date: '%s'}}">
+
+    <!-- +++ These are your own CSS files, specified in the page's Jekyll front matter as "additional_css". +++ -->
+    {%- for css in page.additional_css %}
+    <link rel="stylesheet" href="{{ css | relative_url }}?{{site.time | date: '%s'}}">
+    {%- endfor %}
+</head>
+<body class="uk-offcanvas-content">
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit-icons.min.js"></script>
+
+<div id="offcanvas-nav" class="mobile-nav" data-uk-offcanvas="overlay: true; flip: true;">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        <!-- Off-canvas mobile navigation -->
+        <!-- ATTENTION: Make sure to replace link URLs when deploying! -->
+        <nav class="uk-margin-large-top">
+            <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
+                <li{% if page.nav_active == "overview" %} class="uk-active"{% endif %}>
+                <a href="index.html">Overview</a>
+                </li>
+                {% if page.shared_tasks %}
+                  {% if page.shared_tasks == 1 %}
+                    <li {% if page.nav_active == "shared task" %} class="uk-active"{% endif %}>
+                    <a href="shared-task.html">Task</a>
+                    </li>
+                  {% else %}
+                    {% for t in (1..page.shared_tasks) %}
+                    {% assign nav_name = "shared task " | append: t %}
+                    <li {% if page.nav_active == nav_name %} class="uk-active"{% endif %}>
+                    <a href="shared-task-{{ t }}.html">Task {{ t }}</a>
+                    </li>
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+                <li{% if page.nav_active == "program" %} class="uk-active"{% endif %}>
+                <a href="program.html">Program</a>
+                </li>
+                <li{% if page.nav_active == "organization" %} class="uk-active"{% endif %}>
+                <a href="organization.html">Organization</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="uk-background-secondary global-nav" data-uk-sticky>
+    <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li>
+                <!-- DO NOT CHANGE -->
+                <a href="https://webis.de"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile navigation toggle button -->
+        <div class="uk-navbar-right mobile-nav">
+            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu"
+                    data-uk-toggle="target: #offcanvas-nav"></button>
+        </div>
+
+        <!-- Desktop navigation -->
+        <!-- ATTENTION: Make sure to replace link URLs when deploying! -->
+        <div class="uk-navbar-right desktop-nav">
+            <ul class="uk-navbar-nav">
+                <li{% if page.nav_active == "overview" %} class="uk-active"{% endif %}>
+                <a href="index.html">Overview</a>
+                </li>
+                {% if page.shared_tasks %}
+                  {% if page.shared_tasks == 1 %}
+                    <li {% if page.nav_active == "shared task" %} class="uk-active"{% endif %}>
+                    <a href="shared-task.html">Task</a>
+                    </li>
+                  {% else %}
+                    {% for t in (1..page.shared_tasks) %}
+                    {% assign nav_name = "shared task " | append: t %}
+                    <li {% if page.nav_active == nav_name %} class="uk-active"{% endif %}>
+                    <a href="shared-task-{{ t }}.html">Task {{ t }}</a>
+                    </li>
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+                <li{% if page.nav_active == "program" %} class="uk-active"{% endif %}>
+                <a href="program.html">Program</a>
+                </li>
+                <li{% if page.nav_active == "organization" %} class="uk-active"{% endif %}>
+                <a href="organization.html">Organization</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div data-uk-height-viewport="expand: true">
+{{ content }}
+</div>
+
+<footer class="uk-section uk-section-muted footer-section">
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-small uk-margin-top">
+            <div class="uk-width-1-5@s">
+              <!-- links specific to a service -->
+            </div>
+            <div class="uk-width-expand uk-visible@s"></div>
+            <div>
+              &copy; {{site.time | date: '%Y'}} <a href="https://webis.de/">Webis Group</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://github.com/webis-de"><span data-uk-icon="icon: github; ratio:0.8"></span></a> 
+              <a href="https://twitter.com/webis_de"><span data-uk-icon="icon: twitter; ratio:0.9"></span></a> 
+              <a href="https://www.youtube.com/webis"><span data-uk-icon="icon: youtube; ratio:0.9"></span></a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://webis.de/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://webis.de/legal.html">Impressum / Terms / Privacy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+----------------------------------------------------------------------------
+*TIR'15  -  12th International Workshop on Text-Based Information Retrieval*
+----------------------------------------------------------------------------
+
+                     In conjunction with the DEXA 2015
+ 26th International Conference on Database and Expert Systems Applications
+                              Valencia, Spain
+                         September 1 - September 4
+
+                            http://tir.webis.de
+
+
+----------------------------------------------------------------------------
+About this Workshop
+----------------------------------------------------------------------------
+
+Intelligent algorithms for data mining and information retrieval are the key 
+technology to cope with the information need challenges in our 
+media-centered society. Methods for text-based information retrieval receive
+special attention, which results from the important role of written text,
+from the high availability of the World Wide Web, and from the enormous
+impact of Web communities and social media on our life.
+
+The development of advanced information retrieval solutions requires the
+understanding and the combination of methods from different research areas, 
+including machine learning, data mining, computer linguistics, artificial
+intelligence, user interaction and modeling, Web engineering, or distributed
+systems. This workshop provides a platform for presenting and discussing
+new solutions, novel ideas, or specific tools focusing on text-based
+information retrieval. The following list organizes classic and recent 
+topics for which contributions are welcome, but are not limited to: 
+
+
+- Theory. Retrieval models, language models, similarity measures, formal 
+  analysis
+
+- Web Search. Ranking and recommendation, indexing, semantic search, social 
+  search, query classification and segmentation, vertical search, authority
+
+- Personalization and User Mining. Just-in-time retrieval, personalized
+  retrieval, context detection, user profiling
+
+- Multilinguality. Cross-language retrieval, parallel text mining
+
+- Evaluation. Corpus construction, experiment design, performance measures
+
+- Text Mining and Classification. Text reuse, topic identification,
+  sentiment analysis, opinion mining, dynamic taxonomy generation
+
+- NLP. Information extraction, text summarization and simplification,
+  named entity recognition, question answering, representation learning
+
+- Social Media Analysis. Social network analysis, trend analysis,
+  information diffusion, short text retrieval
+
+- Information Quality. Text quality assessment, quality-based ranking, 
+  readability assessment, trust and author reputation
+
+- Big Data Text Analytics. Parallel and distributed retrieval, online 
+  algorithms, scalability
+
+- Semantic Web. Meta data analysis and tagging, knowledge extraction,
+  inference, maintenance
+
+- Deep Learning. Natural language understanding, information retrieval
+
+
+The workshop is held for the twelfth time. In the past, it was 
+characterized by a stimulating atmosphere, and it attracted high quality
+contributions from all over the world.
+
+Accepted papers will appear in the proceedings of DEXA’15 Workshops published by the Conference Publishing Services (CPS) of IEEE Computer
+Society.
+
+
+----------------------------------------------------------------------------
+Important Dates
+----------------------------------------------------------------------------
+
+April 24, 2015: Deadline for paper submission (23:59 CET)
+May 15, 2015: Notification to authors
+May 25, 2015: Camera-ready copy due
+
+
+----------------------------------------------------------------------------
+Workshop Organizers
+----------------------------------------------------------------------------
+Michael Granitzer (Co-Chair), University of Passau, Germany
+Christin Seifert  (Co-Chair), University of Passau, Germany
+Benno Stein (Co-Chair), Bauhaus-Universität Weimar, Germany
+
+
+
+Contact: tir@webis.de
+Information about the workshop can be found at http://tir.webis.de
+

@@ -1,0 +1,124 @@
+---
+layout: workshop 
+nav_active: organization
+title: Clickbait Challenge > Organization
+description: Clickbait Detection Shared Task
+shared_tasks: 1
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Clickbait Challenge</a></li>
+<li class="uk-disabled"><a href="#">Organization</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Workshop",
+    "name":"*name of the workshop",
+    "description":"*synopsis, short description of the workshop",
+    "text":"*workshop, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "*some", 
+        "*key", 
+        "*words", 
+        "*to describe the workshop"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Organization</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#contact">Contact and Communication</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#resources">Resources</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#sponsors">Sponsors</a></li>
+	    <li><span data-uk-icon="chevron-down"></span> <a href="#organizing-committee">Organizing Committee</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Contact and Communication
+        -->
+        <h2><a id="contact"></a>Contact and Communication</h2>
+        <p>We would love to hear from you, so just drop us an <a href="mailto:clickbait@webis.de">email</a> or send us a <a href="https://twitter.com/intent/tweet?screen_name=webis_de&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+
+        <!--
+        SECTION Resources
+        -->
+        <h2><a id="resources"></a>Resources</h2>
+	<p>Our <a href="https://github.com/clickbait-challenge">Github Repository</a> hosts a collection of past submissions to the Clickbait Challenge.</p>
+
+        
+	    
+	        <!--
+        SECTION Sponsors
+        -->
+        <h2><a id="sponsors"></a>Sponsors</h2>
+	    
+	            <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://newsinitiative.withgoogle.com/dnifund/dni-projects/clickbait/" target="_blank" class="uk-link-reset">
+                        <div class="thumbnail-fill">
+                            <img src="{{ '/img/organizations/google_dni_logo.png' | relative_url }}" alt="Google Digital News Initiative">
+                        </div>
+                    </a>
+                </div>
+            </div>
+	  </div>
+	    
+	    <!--
+        SECTION Organizing Committee
+        -->
+        <!-- Use _includes/templates/people-card.html as a template for these cards. They do not need to be parametrized, this is just a demonstration. -->
+        <h2><a id="organizing-committee"></a>Organizing Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/gollub.html gender="male" %}
+            {% include people-cards/hagen.html gender="male" %}
+            {% include people-cards/potthast.html gender="male" %}
+            {% include people-cards/stein.html gender="male" %}
+        </div>
+
+        
+        
+        
+    </div>
+</main>

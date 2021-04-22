@@ -1,0 +1,83 @@
+-----------------------------------------------------------------------------------
+*TIR'17  -  14th International Workshop on Technologies for Information Retrieval*
+-----------------------------------------------------------------------------------
+
+                       In conjunction with the DEXA 2017
+   28th International Conference on Database and Expert Systems Applications
+                                Lyon, France
+                           August 28 - August 31
+
+                            http://tir.webis.de
+
+
+-----------------------------------------------------------------------------------
+About this Workshop
+-----------------------------------------------------------------------------------
+
+In recent years, information channels have become increasingly distributed, 
+opinionated, and vary in their information quality and trustworthiness of the 
+stated facts and arguments. Comprehensive understanding, sense-making and informed 
+discussions within a society require advanced technologies in natural language 
+processing, text mining, information retrieval, and provenance analytics.
+ 
+The development of advanced retrieval solutions requires the understanding and the 
+combination of methods from different research areas, including machine learning, 
+data mining, natural language processing, artificial intelligence, user interaction 
+and modeling, Web engineering, and Big Data processing. This workshop provides a 
+platform for presenting and discussing new solutions, novel ideas, or specific tools
+in this regard. The following list organizes classic and recent topics for which 
+contributions are welcome, but not limited to:
+
+
+- Theory. Retrieval models, similarity measures, formal analysis
+
+- Evaluation. Corpus construction, experiment design, performance measures
+
+- Information Quality and Provenance. Text quality assessment, text reuse, trust 
+  and author reputation, provenance analytics
+
+- Natural Language Processing. Opinion mining, text summarization and simplification, 
+  question answer-ing, discourse and argument mining
+
+- Personalization. Personalized retrieval, context detection, user profiling, 
+  user modeling
+  
+- Search User Interfaces. General purpose search, special purpose search, 
+  adaptive interfaces, retrieval in cognitive settings
+
+- Web Search. Ranking and recommendation, query classification and segmentation, 
+  vertical search, dynamic taxonomy generation
+
+- Social Media Analytics. People analytics, social network analysis, trend analysis
+
+- Semantic Web. Meta data analysis and tagging, knowledge extraction, 
+  inference and linking
+
+- Deep Learning. Representation learning for text
+
+
+The workshop is held for the fourteenth time. In the past, it was characterized by a 
+stimulating atmosphere, and it attracted high quality contributions from all over the world.
+Accepted papers will appear in the proceedings of DEXA’17 Workshops published by 
+the Conference Publish-ing Services (CPS) of IEEE Computer Society.
+
+
+----------------------------------------------------------------------------
+Important Dates
+----------------------------------------------------------------------------
+
+April 17, 2017: Deadline for paper submission (23:59 CET), extended
+May 22, 2017: Notification to authors, extended
+June 30, 2017: Camera-ready copy due, extended
+
+
+----------------------------------------------------------------------------
+Workshop Organizers
+----------------------------------------------------------------------------
+Michael Granitzer (Co-Chair), University of Passau, Germany
+Christin Seifert  (Co-Chair), University of Passau, Germany
+Benno Stein (Co-Chair), Bauhaus-Universität Weimar, Germany
+
+Contact: tir@webis.de
+Information about the workshop can be found at http://tir.webis.de
+

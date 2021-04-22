@@ -1,0 +1,211 @@
+---
+layout: default
+nav_active: index
+title: TL;DR Challenge 2021
+description: Abstractive Snippet Generation for Web Pages
+additional_css: ['https://assets.webis.de/css/workshop.css']
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li class="uk-disabled"><a href="#">TL;DR Challenge 2021</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"Abstractive Snippet Generation for Web Pages",
+    "description":"Abstractive Snippet Generation for Web Pages",
+    "text":"*Shared Task, any other text",
+    "url":"https://tldr.webis.de",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "summarization", 
+        "abstractive summarization", 
+        "web summarization", 
+        "snippet generation"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>TL;DR Challenge 2021: Abstractive Snippet Generation for Web Pages</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
+            <!-- 
+	    <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+	    -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#related-work">Related Work</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis</h2>
+        <ul>
+            <li>Task: Given a web page with a query, generate its abstractive snippet.</li>
+            <li>Input: [<a href="https://files.webis.de/tldr21/">data</a>]</li>
+            <li>Submission: [<a href="#submission">submit</a>]</li>
+            <li>Register [<a href="https://forms.gle/xwJhPvCw29FAGkdN6">here</a>]</li>
+        </ul>
+
+        <!--
+        SECTION Task
+        -->
+        <h2 id="task">Task</h2>
+
+        <p>We propose a shared task on abstractive snippet generation for web pages, a novel task of generating query-biased abstractive summaries for documents that are to be shown on a search results page. Conventional snippets are extractive in nature, which recently gave rise to copyright claims from news publishers as well as a new copyright legislation being passed in the European Union, limiting the fair use of web page contents for snippets. At the same time, abstractive summarization has matured considerably in recent years, potentially allowing for more personalization of snippets in the future. Taken together, these facts render further research into generating abstractive snippets both timely and promising.
+        </p>
+
+    
+        <!--
+        SECTION Data
+        -->
+        <h2 id="data">Data</h2>
+        <p> The Webis Abstractive Snippet Corpus has been mined from the ClueWeb09, the ClueWeb12, and the DMOZ Open Directory Project, extracting more than 3.5 million examples of the form (query, document, snippet). Participants are free to split the data into training and validation sets accordingly. 
+        </p>
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2 id="evaluation">Evaluation</h2>
+        <p> Our evaluation is based on that of <a href="https://webis.de/downloads/publications/papers/chen_2020a.pdf">Chen et al. (2020)</a> as a two-step process involving <b>intrinsic</b> and <b>extrinsic</b> evaluation. The intrinsic evaluation assesses multiple properties of a snippet: text reuse, faithfulness (no hallucinations), and fluency. Extrinsic evaluation assesses their adequacy in the context of being used within a search engine. A combination of relevant automatic metrics and manual evaluation are used in both the scenarios. You will be able to self-evaluate your software using the <a href="http://tira.io/">TIRA</a> service. You can find the user guide <a href="https://www.tira.io/static/tira-vm-user-guide.pdf">here</a>. While results of the automatic metrics are shared on the leaderboard throughout the duration of the task, those of the manual evaluation will be shared later. This is primarily due to the cost constraint of selecting only the top-performing models on the automatic metrics for the subsequent manual evaluation via crowdsourcing.
+       </p>
+
+
+        <!--
+        SECTION Submission
+        -->
+        <h2 id="submission">Submission</h2>
+        <p>
+            Will be updated shortly.
+        </p>
+        <!--
+        SECTION Results
+        <h2 id="results">Results</h2>
+        <h4>Automatic metric - ROUGE (scores rounded off)</h4>
+        <table class="uk-table  uk-table-small uk-table-hover">
+            <caption>Models are grouped by participant.</caption>
+            <thead>
+                <tr>
+                        <th>Model</th>
+                        <th>R-1</th>
+                        <th>R-2</th>
+                        <th>R-LCS</th>
+                        <th>Average length</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td>unified-pgn</td>
+                    <td>19</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>33.5</td>
+            </tr>
+            <tr>
+                    <td>unified-vae-pgn</td>
+                    <td>19</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>32.8</td>
+            </tr>
+            <tr style="height: 15px;"></tr>
+            <tr>
+                    <td>transf-seq2seq</td>
+                    <td>19</td>
+                    <td>5</td>
+                    <td>14</td>
+                    <td>14.5</td>
+            </tr>
+            
+            <tr>
+                    <td>pseudo-self-attn</td>
+                    <td>18</td>
+                    <td>4</td>
+                    <td>13</td>
+                    <td>12.1</td>
+            </tr>
+            <tr style="height: 15px;"></tr>
+            <tr>
+                    <td>tldr-bottom-up</td>
+                    <td>20</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>37.3</td>
+            </tr>
+    </tbody>
+        </table>
+        -->
+
+        <!--
+        SECTION Related Work
+        -->
+        <h2 id="related-work">Related Work</h2>
+        <div id="publications-list">
+        <!--
+        You do not need to add anything here. Just change "Shared Task-title" below.
+        -->
+        
+        </div>
+
+
+        <!--
+        SECTION Task Committee
+        -->
+
+        <h2 id="task-committee">Task Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/syed.html gender="male" %}
+	    {% include people-cards/chen.html gender="male" %}
+	    {% include people-cards/hagen.html gender="male" %}
+            {% include people-cards/stein.html gender="male" %}
+	    {% include people-cards/wachsmuth.html gender="male" %}
+            {% include people-cards/potthast.html gender="male" %}
+        </div>
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:abstractive-snippet", yearHeadingSize = null);
+</script>

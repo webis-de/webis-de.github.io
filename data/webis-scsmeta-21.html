@@ -1,0 +1,133 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis SCSmeta 21
+description: Meta-information extension of the Spoken Conversational Search dataset
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+"@context":"http://schema.org/",
+"@type":"Dataset",
+"name":"Webis SCSmeta 21",
+"description":"The Webis SCSmeta 21 is an extension of the Spoken Conversational Search dataset by Trippas et al. with annotations for types of meta-information mentioned in each turn. For each of the 1044~dialog turns in the dataset, the turn was examined to check if it communicates meta-information on the (desired) results. No distinction was made as to whether the seeker or the provider communicates meta-information, and the annotation was not restricted to instances in which meta-information has a noticeable effect on the search process.",
+"license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+"keywords":[
+"voice-based",
+"conversational",
+"meta-information",
+"user study"
+], 
+"datePublished":"2021",
+"creator":[
+{
+"@type":"Organization",
+"url":"https://webis.de/",
+"name":"The Web Technology & Information Systems Network",
+"alternateName":"Webis"
+},
+{
+"@type":"Person", 
+"url":"https://weimar.webis.de/people/#meyer",
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Meyer, Lars"
+},
+{
+"@type":"Person", 
+"url":"https://weimar.webis.de/people/#kiesel",
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Kiesel, Johannes"
+},
+{
+"@type":"Person", 
+"url":"https://weimar.webis.de/people/#stein",
+"affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+"name":"Stein, Benno"
+},
+{
+"@type":"Person", 
+"url":"https://temir.org/people.html#potthast",
+"affiliation":"Leipzig University", 
+"name":"Potthast, Martin"
+}
+],
+"includedInDataCatalog":{
+"@type":"DataCatalog",
+"name":"Webis Data Catalog",
+"url":"https://webis.de/data/"
+},
+"distribution":[
+{
+"@type":"DataDownload",
+"@id":"https://doi.org/10.5281/zenodo.4108195",
+"url":"https://doi.org/10.5281/zenodo.4108195"
+}
+]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<h1>Webis SCSmeta 21</h1>
+
+<ul class="uk-list">
+<!-- Comment out sections you do not provide -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#resources">Resources</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+</ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+<!--
+SECTION Synopsis
+-->
+<h2 id="synopsis">Synopsis</h2>
+<p>
+Extension of the <a href="https://jtrippas.github.io/Spoken-Conversational-Search/">Spoken Conversational Search dataset</a> by Trippas et al. with annotations for types of meta-information mentioned in each turn. For each of the 1044~dialog turns in the dataset, the turn was examined to check if it communicates meta-information on the (desired) results. No distinction was made as to whether the seeker or the provider communicates meta-information, and the annotation was not restricted to instances in which meta-information has a noticeable effect on the search process.
+</p>
+
+<!--
+SECTION Resources
+-->
+<h2 id="resources">Resources</h2>
+<p>
+You can find the entire dataset on <a href="https://doi.org/10.5281/zenodo.4108195">Zenodo</a>.
+</p>
+
+<p>If you use the dataset in your research, please send us a copy of your publication. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.4108195">doi</a>] for a stable link.</p>
+
+<!--
+SECTION People
+-->
+<h2 id="people">People</h2>
+<ul>
+<li><a href="https://weimar.webis.de/people/#meyer" title="Lars Meyer">Lars Meyer</a></li>
+<li><a href="https://weimar.webis.de/people/#kiesel" title="Johannes Kiesel">Johannes Kiesel</a></li>
+<li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+<li><a href="https://temir.org/people.html#potthast" title="Martin Potthast">Martin Potthast</a></li>
+</ul>
+
+<!--
+SECTION Publications
+-->
+<h2 id="publications">Publications</h2>
+<div id="publications-list">
+</div>
+
+</div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:webis-scsmeta-21");
+</script>

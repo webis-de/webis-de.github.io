@@ -1,0 +1,584 @@
+---
+layout: workshop
+nav_active: overview
+title: Same Side Stance Classification
+description: Task on deciding whether two arguments have the same stance
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="#">Same Side Stance Classification</a></li>
+<li class="uk-disabled"><a href="#">Overview</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"Same Side Stance Classification",
+    "description":"Task on deciding whether two arguments have the same stance",
+    "text":"*Shared Task, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "stance classification", 
+        "stance detection", 
+        "argument mining", 
+        "argumentation mining",
+	"computational argumentation",
+	"debating technology"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"0000-0001-7571-5383", 
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#ajjour",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Ajjour, Yamen"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#elbaff",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"El Baff, Roxanne"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Same Side Stance Classification</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#dates">Important Dates</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+            <!-- TODO: include once there are publications to be shown
+            <li><span data-uk-icon="chevron-down"></span> <a href="#related-work">Related Work</a></li>
+            -->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis</h2>
+        <p>
+            Identifying (classifying) the stance of an argument towards a particular topic is a fundamental task in
+            computational argumentation. The stance of an argument as considered here is a two-valued function: it can
+            either be ''pro'' a topic (=&nbsp;yes, I agree), or ''con'' a topic (=&nbsp;no, I do not agree).
+        </p>
+        <p>
+            With the new task &raquo;same side (stance) classification&laquo; we address a simpler variant of this
+            problem: Given two arguments regarding a certain topic, the task is to decide whether or not the two
+            arguments have the same stance.
+        </p>
+
+        <!--SECTION Dates -->
+        <h2> <a id='dates'> </a> Important Dates</h2>
+        <ul>
+            <li>Submission open: June 14th, 2019</li>
+            <li>Submission closed: June 21th, 2019 (11:59PM UTC-12:00)</li>
+            <li> Result Presentation at <a href="https://argmining19.webis.de/" />ArgMining 2019</a>: August 1st, 2019
+            </li>
+            <li>Notebooks dues (optional): January 24th, 2020</li>
+        </ul>
+
+        <!--
+        SECTION Task
+        -->
+        <h2><a id="task"></a>Task</h2>
+        <p>Given two arguments on a topic, decide whether they are on the same side or not.</p>
+        <p>
+            <strong> Example:</strong>
+        <div class="uk-child-width-expand" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    Argument 1
+                    <br />
+                    <p><i> Marriage is a commitment to love and care for your spouse till death. This is what is heard
+                            in all wedding vows. Gays can clearly qualify for marriage according to these vows, and any
+                            definition of marriage deduced from these vows. </i></p>
+                </div>
+            </div>
+            <div>
+
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    Argument 2
+                    <br />
+                    <p><i> Gay Marriage should be legalized since denying some people the option to marry is
+                            dscrimenatory and creates a second class of citizens.</i></p>
+                </div>
+            </div>
+            <div class="uk-width-small">
+                <span class="uk-label uk-label-success ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;same
+                    side&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+        </div>
+        <div class="uk-child-width-expand" uk-grid>
+            <div>
+
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    Argument 1
+                    <br />
+                    <p><i> Marriage is a commitment to love and care for your spouse till death. This is what is heard
+                            in all wedding vows. Gays can clearly qualify for marriage according to these vows, and any
+                            definition of marriage deduced from these vows. </i></p>
+                </div>
+            </div>
+
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    Argument 2
+                    <br />
+                    <p><i>Marriage is the institution that forms and upholds for society, its values and symbols are
+                            related to procreation. To change the definition of marriage to include same-sex couples
+                            would destroy its function, because it could no longer represent the inherently procreative
+                            relationship of opposite-sex pair-bonding." </i></p>
+                </div>
+            </div>
+            <div class="uk-width-small">
+                <span class="uk-label uk-label-danger">different side</span>
+            </div>
+        </div>
+
+        </p>
+        <p>
+            <strong> Rationale. </strong> Current stance classification algorithms require knowledge about the topic the
+            argument is about, i.e., the classifiers must be trained for a particular topic and hence cannot be reliably
+            applied for other (=&nbsp;across) topics. Observe that same side classification needs not to distinguish
+            between topic-specific pro- and con-vocabulary &mdash; ''only'' the argument similarity <i>within</i> a
+            stance needs to be assessed. I.e., same side classification can probably be solved independently of a topic
+            or a domain, so to speak, in a <i>topic-agnostic</i> fashion. We believe that the development of such a
+            technology has game-changing potential. It could be used to tackle, for instance, the following tasks:
+            measure the bias strength within an argumentation, structure a discussion, find out who or what is
+            challenging in a discussion, or filter wrongly labeled arguments in a large argument corpus&mdash;without
+            relying on knowledge of a topic or a domain.
+        </p>
+        <p>
+            We invite you to participate in the same side stance classification task! To keep the effort low,
+            participants need to submit only a short description of their models along with the predicted labels for the
+            provided test set. We plan to present results of the task at the <a href="https://argmining19.webis.de/"
+                target="_blank">6th Workshop on Argument Mining at ACL2019</a>, including a discussion of this task and
+            the received submissions. Follow-up challenges of this task, which will, among others, include much larger
+            datasets to allow for deep learning, are in preparation and will be advertised after we have evaluated your
+            feedback.
+        </p>
+
+        <!--
+        SECTION Data
+        -->
+        <h2><a id="data"></a>Data</h2>
+        <p>The <a href="https://doi.org/10.5281/zenodo.4382352"> dataset </a> used in the task
+            is derived from the following four sources: idebate.org,
+            debatepedia.org, debatewise.org and debate.org. Each instance in the dataset holds the following fields:
+        </p>
+
+        <h3 class="uk-margin-small-top">Input Format</h3>
+        <ul>
+            <li><i>id</i>: The id of the instance <br></li>
+            <li><i>topic</i>: The title of the debate. It can be a general topic (e.g. abortion) or a topic with a
+                stance (e.g. abortion should be legalized). <br></li>
+            <li> <i>argument1</i>: A pro or con argument related to the topic. <br></li>
+            <li> <i>argument1_id</i>: The ID of argument1. <br></li>
+            <li> <i>argument2</i>: A pro or con argument related to the topic. <br></li>
+            <li> <i>argument2_id</i>: The ID of argument2. <br></li>
+        </ul>
+
+        <h3 class="uk-margin-small-top">Output Format</h3>
+        <ul>
+            <li> <i>is_same_stance</i>: True or False. True in case argument1 and argument2 have the same stance
+                towards the topic and False otherwise.<br></li>
+        </ul>
+
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2><a id="evaluation"></a>Evaluation</h2>
+        <p>
+            We choose to work with the two most discussed topics in the considered four sources: <i>abortion</i> and
+            <i>gay marriage</i>.
+            Two experiments are set-up for the task of <i>same side stance classification</i>:
+        <ul>
+            <li><i>Within Topics</i>: The training set contains arguments for a set of topics (<i>abortion</i> and
+                <i>gay marriage</i>) and the test set contains arguments related to the same set of topics
+                (<i>abortion</i> and <i>gay marriage</i>). The following table presents an overview about the data. <br>
+                <table class="uk-margin-medium uk-table uk-table-divider uk-table-small" style="max-width:600px;">
+                    <tr>
+                        <th><br>Class</th>
+                        <th class="numeric">Topic: Abortion<br>&nbsp;</th>
+                        <th class="numeric">Topic: Gay Marriage<br>&nbsp;</th>
+                    </tr>
+                    <tr>
+                        <td> Same Side</td>
+                        <td class="numeric">20,834</td>
+                        <td class="numeric">13,277</td>
+                    </tr>
+                    <tr>
+                        <td> Different Side</td>
+                        <td class="numeric">20,006</td>
+                        <td class="numeric">9,786</td>
+                    </tr>
+                    <tr>
+                        <td> <b>Total</b></td>
+                        <td class="numeric"><b>40,840</b></td>
+                        <td class="numeric"><b>23,063</b></td>
+                    </tr>
+                </table>
+            </li>
+            <li><i>Cross Topics</i>: The training set contains arguments for a topic (<i>abortion</i>) and the test
+                set contains argument related to another set of topics.
+                <table class="uk-margin-medium uk-table uk-table-divider uk-table-small" style="max-width:250px;">
+                    <tr>
+                        <th>Class</th>
+                        <th class="numeric"># of instances</th>
+                    </tr>
+                    <tr>
+                        <td> Same Side</td>
+                        <td class="numeric">31,195</td>
+                    </tr>
+                    <tr>
+                        <td> Different Side</td>
+                        <td class="numeric">29,853</td>
+                    </tr>
+                    <tr>
+                        <td> <b>Total</b></td>
+                        <td class="numeric"><b>61,048</b></td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+        </p>
+
+
+
+
+        <!--
+        SECTION Submission
+        -->
+        <h2><a id="submission"></a>Submission</h2>
+        <p class="card-text text-left">We provide a test set for each experiment setting (<i>within topics</i> and
+            <i>across topics</i>). Train your model, predict the labels of the test set, and send us the results as a
+            CSV file, comma separated, with header
+            <i>id</i> and <i>label</i>. The <i>id</i> is the instance id provided in the test set, and the <i>label</i>
+            has a value of 'True' (if the two arguments have the same side) or 'False' (if the two arguments do not
+            have the same side). The results will be evaluated and ranked by the achieved accuracy.
+        </p>
+
+        <!--
+        SECTION Results
+        -->
+        <a id="results"></a>
+        <h2>Results Within Topics</h2>
+        <table id="within-leaderboard" class="uk-table uk-table-divider uk-table-small uk-table-hover">
+
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>Team</th>
+                    <th>University</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="mainrow" id="1">
+                    <td>1</td>
+                    <td>ReCAP&#10013;</td>
+                    <td>Trier University </td>
+                    <td>0.85</td>
+                    <td>0.66</td>
+                    <td> 0.77</td>
+                </tr>
+                <tr id="2" class="mainrow">
+                    <td>1</td>
+                    <td>ASV</td>
+                    <td>Leipzig University </td>
+                    <td>0.79</td>
+                    <td>0.73</td>
+                    <td> 0.77</td>
+                </tr>
+                <tr id="3">
+                    <td>2</td>
+                    <td>IBM Research </td>
+                    <td>IBM Research </td>
+                    <td>0.69</td>
+                    <td>0.59</td>
+                    <td> 0.66</td>
+                </tr>
+                <tr id="4">
+                    <td>3</td>
+                    <td>UKP</td>
+                    <td>TU Darmstadt </td>
+                    <td>0.68</td>
+                    <td>0.52</td>
+                    <td> 0.64</td>
+                </tr>
+                <tr id="5">
+                    <td>4</td>
+                    <td>HHU SSSC</td>
+                    <td>Düsseldorf University </td>
+                    <td>0.70</td>
+                    <td>0.33</td>
+                    <td> 0.60</td>
+                </tr>
+
+                <tr id="6">
+                    <td>5</td>
+                    <td>ReCAP&#10013;</td>
+                    <td>Trier University </td>
+                    <td>0.65</td>
+                    <td>0.24</td>
+                    <td> 0.56</td>
+                </tr>
+
+
+                <tr id="7">
+                    <td>6</td>
+                    <td>DBS*</td>
+                    <td>LMU</td>
+                    <td>0.53</td>
+                    <td>1.00</td>
+                    <td> 0.55</td>
+                </tr>
+                <tr id="8">
+                    <td>7</td>
+                    <td>ACQuA&#10013;</td>
+                    <td>MLU Halle </td>
+                    <td>0.53</td>
+                    <td>0.57</td>
+                    <td> 0.54</td>
+                </tr>
+                <tr id="9">
+                    <td>8</td>
+                    <td>Paderborn University</td>
+                    <td>Paderborn University </td>
+                    <td>0.59</td>
+                    <td>0.19</td>
+                    <td> 0.53</td>
+                </tr>
+
+                <tr id="10">
+                    <td>9</td>
+                    <td>sam</td>
+                    <td>Postdam University </td>
+                    <td>0.51</td>
+                    <td>0.58</td>
+                    <td> 0.51</td>
+                </tr>
+                <tr id="11">
+                    <td>10</td>
+                    <td>ACQuA&#10013;</td>
+                    <td>MLU Halle </td>
+                    <td>0.50</td>
+                    <td>0.11</td>
+                    <td> 0.50</td>
+                </tr>
+                <tr class="subrow no-align" name="11">
+                    <td colspan="6"><b>Model overview:</b> Rule-based: same-side classification is considered as a
+                        sentiment analysis task. Arguments with negative as well as positive sentiments are on the same
+                        side. Vocabulary with positive and negative words from Minqing Hu and Bing Liu.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#10013; ReCAP and ACQuA teams submitted 8 and 6 approaches respectively. For each team, the Table shows the
+            best and the worst performing models.
+        </p>
+
+        <p>* In addition to their Bert model the DBS team from LMU exploited also the fact that the "same side" relation
+            is an equivalence relation: if a test set contains arguments from the training set, labels can be deduced
+            via the transitivity property (among others). However, the test set underlying the results shown above does
+            not contain such exploitable algebraic or logical structures&mdash;in order to compare, as intended, the
+            language processing power of the submissions. We would like to mention this fact since the DBS team informed
+            us about their use of this possibility beforehand, which shows their fair-mindedness, and, not least, since
+            their exploitation of the algebraic structure is a smart move.</p>
+
+        <hr>
+        <h2>Results Cross Topics</h2>
+        <p>We evaluate all submitted predictions on a balanced subset of the <i>Cross</i> domain <i>test</i> set:
+            <!--   <ul>
+            <li><b>Balanced Test Set:</b> balanced subset of the original <i>cross</i> domain <i>test</i> set.</li>
+            <li><b>Balanced/No Leakage Test Set:</b> a subset which can not be leaked from the <i>within</i> domain <i>training</i> set. </li>
+    </ul>-->
+        </p>
+        <table id="within-leaderboard" class="uk-table uk-table-divider uk-table-small uk-table-hover">
+
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>Team</th>
+                    <th>University</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="mainrow">
+                    <td>1</td>
+                    <td>ReCAP&#10013;</td>
+                    <td>Trier University </td>
+                    <td>0.72</td>
+                    <td>0.72</td>
+                    <td>0.73</td>
+                    <!--   <td>1.00</td>
+                    <td>0.20</td>
+                    <td>0.60</td>-->
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ASV</td>
+                    <td>Leipzig University </td>
+                    <td>0.72</td>
+                    <td>0.72</td>
+                    <td>0.72</td>
+
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>HHU SSSC</td>
+                    <td>Düsseldorf University </td>
+                    <td>0.72</td>
+                    <td>0.53</td>
+                    <td>0.66</td>
+                    <!--  <td>0.68</td>
+                            <td>0.37</td>
+                            <td>0.60</td>-->
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>DBS</td>
+                    <td>LMU </td>
+                    <td>0.67</td>
+                    <td>0.53</td>
+                    <td>0.63</td>
+                    <!--   <td>0.78</td>
+            <td>0.61</td>
+            <td>0.72</td>-->
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>UKP</td>
+                    <td>TU Darmstadt </td>
+                    <td>0.64</td>
+                    <td>0.59</td>
+                    <td>0.63</td>
+                    <!--  <td>0.71</td>
+            <td>0.63</td>
+            <td>0.68</td> -->
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>IBM Research</td>
+                    <td>IBM Research </td>
+                    <td>0.62</td>
+                    <td>0.49</td>
+                    <td>0.60</td>
+                    <!--   <td>0.74</td>
+            <td>0.43</td>
+            <td>0.64</td>-->
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Paderborn University </td>
+                    <td>Paderborn University </td>
+                    <td>0.60</td>
+                    <td>0.38</td>
+                    <td>0.56</td>
+                    <!--    <td>0.79</td>
+            <td>0.33</td>
+            <td>0.62</td>-->
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>ReCAP&#10013;</td>
+                    <td>Trier University </td>
+                    <td>0.70</td>
+                    <td>0.11</td>
+                    <td>0.53</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>sam</td>
+                    <td>Postdam University </td>
+                    <td>0.51</td>
+                    <td>0.52</td>
+                    <td>0.51</td>
+                    <!--    <td>0.57</td>
+            <td>0.65</td>
+            <td>0.58</td> -->
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>ACQuA&#10013;</td>
+                    <td>MLU Halle </td>
+                    <td>0.50</td>
+                    <td>0.57</td>
+                    <td>0.50</td>
+                    <!--    <td>0.60</td>
+                    <td>0.54</td>
+                    <td>0.59</td>-->
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>ACQuA&#10013;</td>
+                    <td>MLU Halle </td>
+                    <td>0.46</td>
+                    <td>0.00</td>
+                    <td>0.50</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <p>* Dismissed because trained on <i>within</i> training set</p> -->
+
+        <p>&#10013; ReCAP and ACQuA teams submitted 8 and 6 approaches respectively. For each team, the Table shows the
+            best and the worst performing models.
+
+        </p>
+        <!--
+        SECTION Related Work
+        -->
+        <!-- TODO: include once there are publications to be shown
+        <h2 id="related-work">Related Work</h2>
+        <div id="publications-list">
+        -->
+        <!--
+        You do not need to add anything here. Just change "Shared Task-title" below.
+        -->
+        <!--</div>-->
+    </div>
+</main>
+
+<!-- TODO: include once there are publications to be shown
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script>
+    includeBibentries(document.getElementById("publications-list"), "tags:sameside");
+</script>
+-->

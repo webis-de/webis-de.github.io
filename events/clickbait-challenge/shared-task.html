@@ -1,0 +1,406 @@
+---
+layout: workshop # If deploying a standalone shared task page, choose "default"
+nav_active: shared task
+title: Clickbait Challenge > Clickbait Detection
+description: Clickbait Detection Shared Task
+# additional_css: ['https://assets.webis.de/css/workshop.css'] # Needed when using workshop-specific elements, such as people cards
+shared_tasks: 1
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Clickbait Challenge</a></li>
+<li class="uk-disabled"><a href="#">Clickbait Detection</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"*name of the Shared Task",
+    "description":"*synopsis, short description of the Shared Task",
+    "text":"*Shared Task, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "*some", 
+        "*key", 
+        "*words", 
+        "*to describe the Shared Task"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Clickbait Detection</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#ssubmission">Software Submission</a></li>
+	    <li><span data-uk-icon="chevron-down"></span> <a href="#psubmission">Paper Submission</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#related-work">Related Work</a></li>
+	    <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+
+        <!--
+        SECTION Task
+        -->
+        <h2><a id="task"></a>Task</h2>
+
+        <p>We invite you to <a href="https://docs.google.com/forms/d/e/1FAIpQLScXqljH1op5RkFA_UjKshQJhzrJG1zahH4ix_w5E7d-vDRnuw/viewform">participate in our ongoing challenge</a> on the detection of clickbait posts in social media.</p>
+
+        <p>The task of the challenge is to develop a classifier that rates how click baiting a social media post is. For each social media post, the content of the post itself as well as the main content of the linked target web page are provided as JSON-Objects in our <a href="#data">Datasets</a>.</p>
+
+
+        <!--
+        SECTION Data
+        -->
+        <h2><a id="data"></a>Data</h2>
+	 <h3 class="uk-margin-small-top">Dataset</h3>
+	    <p>The <a href="https://webis.de/data/webis-clickbait-17.html">Webis Clickbait Corpus 2017</a> comprises a total of <b>38,517 Twitter posts</b> from 27 major US news publishers. In addition to the posts, information about the articles linked in the posts are included. The posts had been published between November 2016 and June 2017. To avoid publisher and topical biases, a maximum of ten posts per day and publisher were sampled. All posts were annotated on a 4-point scale [not click baiting (0.0), slightly click baiting (0.33), considerably click baiting (0.66), heavily click baiting (1.0)] by five annotators from Amazon Mechanical Turk. A total of 9,276 posts are considered clickbait by the majority of annotators. In terms of its size, this corpus outranges the <a href="https://webis.de/data/webis-clickbait-16.html">Webis Clickbait Corpus 2016</a> by one order of magnitude. The corpus is divided into two logical parts, a training and a test dataset. </p>
+	    <p>The dataset itself is hosted on <a href="https://zenodo.org/record/3346491">Zenodo</a>.</p>
+        <h3 class="uk-margin-small-top">Input Format</h3>
+        <p>Every data point consists of a JSON-object that looks like this:</p>
+	<pre>
+	<code>
+	{
+ 	"id": "608999590243741697",
+ 	"postTimestamp": "Thu Jun 11 14:09:51 +0000 2015",
+ 	"postText": ["Some people are such food snobs"],
+ 	"postMedia": ["608999590243741697.png"],
+ 	"targetTitle": "Some people are such food snobs",
+ 	"targetDescription": "You'll never guess one...",
+ 	"targetKeywords": "food, foodfront, food waste...",
+ 	"targetParagraphs": [
+   	"What a drag it is, eating kale that isn't ...",
+   	"A new study, published this Wednesday by ...", 
+   	...],
+ 	"targetCaptions": ["(Flikr/USDA)"]
+ 	}  
+	</code>
+	</pre>
+
+        <h3 class="uk-margin-small-top">Output Format</h3>
+	<p>Classifiers have to output a clickbait score in the range [0,1], where a value of 1.0 denotes that a post is heavily click baiting.</p>
+        <div>
+        <pre>
+	<code>
+      	{"id": "608999590243741697", "clickbaitScore": 1.0}
+        </code
+	</pre>
+        </div>
+
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2><a id="evaluation"></a>Evaluation</h2>
+	<h3 class="uk-margin-small-top">Crowdsourcing</h3>
+        <p>Performance is measured against a crowd-sourced test set. The posts in the training and test sets have been judged on a 4-point scale [0, 0.3, 0.66, 1] by at least five annotators.</p>
+        <pre>
+	<code>
+	{
+	"id": "608999590243741697", 
+   	"truthJudgments": [0.33, 1.0, 1.0, 0.66, 0.33],
+   	"truthMean"  : 0.6666667,
+   	"truthMedian": 0.6666667,
+   	"truthMode"  : 1.0,
+   	"truthClass" : "clickbait"
+	}
+        </code>
+	</pre> 
+        <h3 class="uk-margin-small-top">Software Evaluation</h3>
+	As primary evaluation metric, Mean Squared Error (MSE) with respect to the mean judgments of the annotators is used. For informational purposes, we compute further evaluation metrics such as the Median Absolute Error (MedAE), the F1-Score (F1) with respect to the truth class, as well as the runtime of the classification software. For your convenience, you can <a href="eval.py"> download the official python evaluation program</a>.
+        <!--
+        SECTION Software Submission
+        -->
+        <h2><a id="ssubmission"></a>Software Submission</h2>
+        <p>We use the Evaluation as a Service platform <a href="https://www.tira.io/">TIRA</a> to evaluate the performance of your classifier. TIRA requires that you deploy your classifier as a program that can be executed with two arguments for input and output directories via a command line call.</p>
+	<ol class="uk-list uk-list-striped">
+    	<li>1. Use our <a href="clickbait17-notebook-template.zip">paper template</a> to outline your approach and elaborate on its variants.</li>
+    	<li>2. Develop and train a clickbait classifier on the <a href="#data">training data</a>.</li>
+    	<li>3. Deploy the trained classifier on the TIRA virtual machine assigned to you.</li>
+	<li>4. Use <a href="https://www.tira.io/task/clickbait-detection/">tira.io</a> to self-evaluate the deployed classifier on the test set by running an evaluator on the output of your run.</li>
+	</ol>	
+	<!--
+        SECTION Paper Submission
+        -->
+        <h2><a id="psubmission"></a>Paper Submission</h2>
+        <p>Once you succesfully evaluate your run, we invite you to submit a paper describing your approach. To that end:</p>
+	<ol class="uk-list uk-list-striped">
+    	<li>1. <a href="https://docs.google.com/forms/d/e/1FAIpQLScXqljH1op5RkFA_UjKshQJhzrJG1zahH4ix_w5E7d-vDRnuw/viewform">Register</a> for the challenge to get a TIRA virtual machine.</li>
+    	<li>2. Publish your paper on <a href="https://arxiv.org/corr">arXiv</a>. Once you do that, <a href="mailto:clickbait@webis.de">let us know</a> where we can find it so we can link to it in the leaderboard.</li>
+    	<li>3. Publish your code on our <a href="https://github.com/clickbait-challenge">github repository</a>. <a href="mailto:clickbait@webis.de">Let us know</a> if you don't already have access.</li>
+	</ol>
+
+        <!--
+        SECTION Results
+        -->
+        <h2><a id="results"></a>Results</h2>
+	<p>The following list presents the current performances achieved by the participants. As primary evaluation measure, <b>Mean Squared Error (MSE)</b> with respect to the mean judgments of the annotators is used. For further metrics, see the <a href="http://www.tira.io/task/clickbait-detection/dataset/clickbait17-test-170720/">full result table on tira.io</a>. If provided, paper and code of the submissions are linked in each row.
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+            <thead>
+                <tr>
+                    <th>team</th>
+                    <th colspan="7" align="center">results</th>
+                </tr>
+                <tr>
+                    <th></th>
+		    <th>MSE</th>
+                    <th>F1</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+		    <th>Accuracy</th>
+                    <th>Runtime</th>
+                    <th>Code/Paper</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>goldfish</td>
+                    <td>0.024</td>
+                    <td>0.741</td>
+                    <td>0.739</td>            
+		    <td>0.742</td>
+                    <td>0.876</td>
+                    <td>16:20:21</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+                <tr>
+                    <td>monkfish</td>
+                    <td>0.026</td>
+                    <td>0.694</td>
+                    <td>0.785</td>            
+		    <td>0.622</td>
+                    <td>0.870</td>
+                    <td>03:41:35</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>dartfish</td>
+                    <td>0.027</td>
+                    <td>0.706</td>
+                    <td>0.733</td>            
+		    <td>0.681</td>
+                    <td>0.865</td>
+                    <td>00:47:07</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>torpedo19</td>
+                    <td>0.03</td>
+                    <td>0.677</td>
+                    <td>0.755</td>            
+		    <td>0.614</td>
+                    <td>0.861</td>
+                    <td>00:52:44</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>albacore</td>
+                    <td>0.031</td>
+                    <td>0.67</td>
+                    <td>0.731</td>            
+		    <td>0.62</td>
+                    <td>0.855</td>
+                    <td>00:01:10</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>blobfish</td>
+                    <td>0.032</td>
+                    <td>0.646</td>
+                    <td>0.738</td>            
+		    <td>0.574</td>
+                    <td>0.85</td>
+                    <td>00:03:22</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>zingel</td>
+                    <td>0.033</td>
+                    <td>0.683</td>
+                    <td>0.719</td>            
+		    <td>0.65</td>
+                    <td>0.856</td>
+                    <td>00:03:27</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>anchovy</td>
+                    <td>0.034</td>
+                    <td>0.68</td>
+                    <td>0.717</td>            
+		    <td>0.645</td>
+                    <td>0.855</td>
+                    <td>00:07:20</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>ray</td>
+                    <td>0.034</td>
+                    <td>0.684</td>
+                    <td>0.691</td>            
+		    <td>0.677</td>
+                    <td>0.851</td>
+                    <td>00:29:28</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>icarfish</td>
+                    <td>0.035</td>
+                    <td>0.621</td>
+                    <td>0.768</td>            
+		    <td>0.522</td>
+                    <td>0.849</td>
+                    <td>01:02:57</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>emperor</td>
+                    <td>0.036</td>
+                    <td>0.641</td>
+                    <td>0.714</td>            
+		    <td>0.581</td>
+                    <td>0.845</td>
+                    <td>00:04:03</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>carpetshark</td>
+                    <td>0.036</td>
+                    <td>0.638</td>
+                    <td>0.728</td>            
+		    <td>0.568</td>
+                    <td>0.847</td>
+                    <td>00:08:05</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+
+		                <tr>
+                    <td>electriceel</td>
+                    <td>0.038</td>
+                    <td>0.588</td>
+                    <td>0.727</td>            
+		    <td>0.493</td>
+                    <td>0.835</td>
+                    <td>01:04:54</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>arowana</td>
+                    <td>0.039</td>
+                    <td>0.656</td>
+                    <td>0.659</td>            
+		    <td>0.654</td>
+                    <td>0.837</td>
+                    <td>00:35:24</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>pineapplefish</td>
+                    <td>0.041</td>
+                    <td>0.631</td>
+                    <td>0.642</td>            
+		    <td>0.621</td>
+                    <td>0.827</td>
+                    <td>00:54:28</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+		                <tr>
+                    <td>whitebait</td>
+                    <td>0.043</td>
+                    <td>0.565</td>
+                    <td>0.7</td>            
+		    <td>0.474</td>
+                    <td>0.826</td>
+                    <td>00:04:31</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+				                <tr>
+                    <td>clickbait17-baseline</td>
+                    <td>0.043</td>
+                    <td>0.552</td>
+                    <td>0.758</td>            
+		    <td>0.434</td>
+                    <td>0.832</td>
+                    <td>00:37:34</td>
+		    <td><a href="https://github.com/clickbait-challenge">Code</a>/<a href="https://arxiv.org/">Paper</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <!--
+        SECTION Related Work
+        -->
+        <h2><a id="related-work"></a>Related Work</h2>
+	<blockquote>
+    <p class="uk-margin-small-bottom">Clickbait tweets typically aim to exploit the "curiosity gap", providing just enough information to make readers curious, but not enough to satisfy their curiosity without clicking through to the linked content.</p>
+    <footer>Wikipedia contributors. <a href="https://en.wikipedia.org/wiki/Clickbait">Clickbait</a>. In Wikipedia, The Free Encyclopedia. Retrieved 2017</footer>
+</blockquote>
+		<blockquote>
+    <p class="uk-margin-small-bottom"> A tweet is Clickbait if (1) the tweet withholds information required to understand what the content of the article is; and if (2) the tweet exaggerates the article to create misleading expectations for the reader.</p>
+    <footer>Alex Peysakhovich and Kristin Hendrix. <a href="http://newsroom.fb.com/news/2016/08/news-feed-fyi-further-reducing-clickbait-in-feed/">News Feed FYI: Further Reducing Clickbait in Feed</a>. In Facebook newsroom, August, 2016.</footer>
+</blockquote>
+		<blockquote>
+    <p class="uk-margin-small-bottom">Clickbait is saying "this town" or "this state" or "this celebrity" instead of saying Los Angeles or Colorado or Justin Timberlake. It's over-promising and under-delivering. It's leaving out the one crucial piece of information the reader may want to know.</p>
+  <footer>Ricardo Bilton. <a href="http://digiday.com/media/many-many-ways-publishers-define-clickbait/">The many different ways publishers define 'clickbait'</a>. In digiday UK, November, 2014.</footer>
+		</blockquote>
+	<blockquote>
+     <p class="uk-margin-small-bottom">This paper presents the first machine learning approach to clickbait detection: the goal is to identify messages in a social stream that are designed to exploit cognitive biases to increase the likelihood of readers clicking an accompanying link.</p>
+    <footer>Martin Potthast, Sebastian Köpsel, Benno Stein, and Matthias Hagen.  <a href="https://webis.de/publications.html?q=clickbait#potthast_2016a">Clickbait Detection</a>. In Advances in Information Retrieval (ECIR 16), March 2016.</footer>
+		
+</blockquote>
+	<h2><a id="publications"></a>Publications</h2>
+	<div id="publications-list">
+        <!--
+        You do not need to add anything here. Just change "Shared Task-title" below.
+        -->
+        </div>
+
+
+
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "tags:clickbait", yearHeadingSize = null);
+</script>

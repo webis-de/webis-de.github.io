@@ -1,0 +1,255 @@
+---
+layout: workshop
+nav_active: shared task 2
+title: Touché @ CLEF
+description: Touché @ CLEF Argument Retrieval
+shared_tasks: 2
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Touché 2021</a></li>
+<li class="uk-disabled"><a href="#">Task 2</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"Touché @ CLEF",
+    "description":"Touché @ CLEF Argument Retrieval",
+    "text":"*Shared Task, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "touché", 
+        "argument retrieval", 
+        "argument retrieval for controversial questions", 
+        "argument retrieval for comparative questions"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Touché Task 2: Argument Retrieval for Comparative Questions</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#tira-quickstart">TIRA Quickstart</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <ul>
+            <li>Task: Given a comparative question, retrieve and rank documents from the ClueWeb12 that help to answer the comparative question.</li>
+            <li>Input: [<a href="https://www.chatnoir.eu/doc/">data</a>]</li>
+            <li>Submission: [<a href="https://www.tira.io/task/touche-task-2/">submit</a>]</li>
+        </ul>
+
+        <!--<p>You may provide links to associated resources, like so: [<a>link</a>]</p>-->
+
+
+        <!--
+        SECTION Task
+        -->
+        <h2 id="task">Task</h2>
+
+        <p>The goal of <strong>Task 2</strong> is to support users facing some choice problem from "everyday life". Given a comparative question, the task is to retrieve and rank documents from the ClueWeb12 that help to answer the comparative question. </p>
+        
+<strong>To register for the shared task click on </strong> [<a href="http://clef2021-labs-registration.dei.unipd.it/">registration</a>].
+<!--
+                <a class="uk-button uk-button-primary" href="http://clef2020-labs-registration.dei.unipd.it/registrationForm.php">Register now</a>
+-->
+		
+	<!--
+        SECTION Data
+        -->
+        <h2 id="data">Data</h2>
+        <p><strong>Touché 2021 topics (only titles)</strong> for Task 2 can be <a href="./topics-task-2-only-titles-2021.zip">downloaded from here</a>. The topics are provided as an XML file.<br><br>
+
+                        Example topic for <strong>Task 2:</strong><br><br>
+                        &nbsp;&nbsp;&nbsp;&#60;topic&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;number&#62;1&#60;/number&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;Which is better, a Mac or a PC?&#60;/title&#62;<br>
+                <!--    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;A person is thinking about replacing their old desktop machine by a new one. Without any "religious" preference for either the Mac or PC universe, they are willing to consider buying from either "side". For such an unbiased user, the potential differences between Macs and PCs should be highlighted---probably even that some people believe that the best way to describe the difference between a Mac and a PC is that they represent two different ways of thinking.&#60;/description&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;narrative&#62;Highly relevant documents discuss differences between a Mac and a PC (e.g., software availability, price range, design, vulnerability to viruses, etc.) and express preferences on the respective differences. Relevant documents may contain user opinions who are very happy or also very dissatisfied with some choice on Mac vs. PC that they made but without longer comparisons of both worlds. Documents that include only historical information (e.g., when was the first Mac/PC available) or documents without clearly expressed opinions or comparisons are not relevant.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/narrative&#62;<br> -->
+                        &nbsp;&nbsp;&nbsp;&#60;/topic&#62;<br><br></p>
+                        
+        [<a href="./topics-task-2.zip">Download full topics from Touché 2020</a>]<br>
+        [<a href="./touche2020-task2-relevance-withbaseline.qrels">Download relevance judgments from Touché 2020</a>]<br>
+        [<a href="./runs-task-2-2020.zip">Download submitted ranked documents (runs) from Touché 2020</a>]<br><br>
+
+        <p><strong>The corpus</strong> for Task 2 is the <a href="https://lemurproject.org/clueweb12/">ClueWeb12 corpus</a>; you may index the ClueWeb12 with your favorite retrieval system. To ease participation, you may also directly use the <a href="https://www.chatnoir.eu/">ChatNoir</a> search engine's <a href="https://www.chatnoir.eu/doc/">API</a> for a baseline retrieval. You will receive credentials to access the ChatNoir API upon a completed registration.</p>
+	<!--
+        <h3 class="uk-margin-small-top">Output Format</h3>
+        <p>Output format description.</p>
+	-->
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2 id="evaluation">Evaluation</h2>
+        <p>Be sure to retrieve documents that comprise convincing argumentation for or against one option or the other. Our human assessors will judge the ranked lists of the retrieved documents based on three dimensions: (1) document relevance, (2) whether a sufficient argumentative support is provided (more information on support: <a href="https://ie.technion.ac.il/~kurland/cqaSupport.pdf">paper</a>), and (3) trustworthiness and credibility of the web documents and arguments (more information on credibility: <a href="https://dl.acm.org/doi/pdf/10.1145/2567948.2578997">paper</a>).</p>
+        
+	The format of the relevance judgment file:<br><br>
+        <code>qid 0 doc rel</code><br><br>
+        With:
+		<ul>
+		        <li><code>qid</code>: The topic number.</li>
+		        <li><code>0</code>: Unused, always 0.</li>
+		        <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID).</li>
+		        <li><code>rel</code>: The relevance judgment: 0 not relevant, 1 relevant, 2 highly relevant.</li>
+		</ul>
+        <p>You can use the <a href="https://github.com/usnistgov/trec_eval">trec_eval software</a> to evaluate your run using the relevance judgments.</p>
+        <!--
+        SECTION Submission
+        -->
+        <h2 id="submission">Submission</h2>
+        <p>We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility. Please also have a look at our <a href="#tira-quickstart">TIRA quickstart</a>&#8212;in case of problems we will be able to assist you. Even though the preferred way of run submission is TIRA, in case of problems you may also submit runs via email. We will try to quickly review your TIRA or email submissions and provide feedback.<br><br>
+Runs may be either automatic or manual. An automatic run must not "manipulate" the topic titles via manual intervention. A manual run is anything that is not an automatic run. Upon submission, please let us know which of your runs are manual. For each topic, include up to 1,000 retrieved documents. Each team can submit <strong>up to 5</strong> different runs.
+                </p>
+                <p class="uk-text-left">
+                        The submission format for the task will follow the standard TREC format:<br><br>
+                        <code>qid Q0 doc rank score tag</code><br><br>
+
+                        With:
+                        <ul>
+                                <li><code>qid</code>: The topic number.</li>
+                                <li><code>Q0</code>: Unused, should always be Q0.</li>
+                                <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID) returned by your system for the topic <code>qid</code>.</li>
+                                <li><code>rank</code>: The rank the document is retrieved at.</li>
+                                <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. It is important to handle tied scores (trec_eval sorts documents by the score values and not your rank values).</li>
+                                <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
+                        </ul>
+
+                                The fields should be separated by a whitespace. The individual columns' widths are not restricted (i.e., score can be an arbitrary precision that has no ties) but it is important to include all columns and to separate them with a whitespace.<br><br>
+
+                                An example run for Task 2 is:<br><br>
+
+                                <code>1 Q0 clueweb12-en0010-85-29836 1 17.89 myGroupMyMethod</code><br>
+                                <code>1 Q0 clueweb12-en0010-86-00457 2 16.43 myGroupMyMethod</code><br>
+                                <code>1 Q0 clueweb12-en0010-86-09202 3 16.32 myGroupMyMethod</code><br>
+                                <code>...</code><br></p>
+
+        <!--
+        SECTION TIRA Quickstart
+        -->
+        <h2><a id="tira-quickstart"></a>TIRA Quickstart</h2>
+        <p class=" uk-text-left">
+            Participants have to upload (through SSH or RDP) their retrieval models in a dedicated TIRA virtual machine, so that their runs
+            can be reproduced and so that they can be easily applied to different data (of same format) in the
+            future. You can find host ports for your VM in the web interface, same login as to your VM.
+            If you cannot connect to your VM, please make sure it is powered on: you can check and
+            power on your machine in the web interface.
+        </p>
+        <p class=" uk-text-left">
+            Your software is expected to accept two arguments:
+            <ul>
+                <li>An input directory (named <code>$inputDataset</code> in TIRA). This input directory contains a <code>topics.xml</code> file hat contains the topics for which documents should be retrieved.</li>
+                <li>An output directory (named <code>$outputDir</code> in TIRA). Your software should create a standard trec run file in <code>$outputDir/run.txt</code>.</li>
+            </ul>
+            Your Software can use the API of the search engine <a href="https://www.chatnoir.eu/doc/">ChatNoir</a> to produce the run file.<br>
+            As soon as your Software is installed in your VM, you can register it in TIRA.
+
+            Assume that your software is started with a bash script in your home directory called <code>my-software.sh</code> which expects an argument <code>-i</code> specifying the input directory, and an argument <code>-o</code> specifying the output directory. Click on "Add software" and specify the command <code>./my-software.sh -i $inputDataset -o $outputDir</code>. The other fields can stay with default settings.
+        </p>
+        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task2-example-software.png" alt="Overview of the software configuration in TIRA.">
+
+
+        <p class=" uk-text-left">
+            Click on "Run" to execute your software in TIRA. Note that your VM
+            will not be accessible while your system is running – it will be “sandboxed”, detached from the
+            internet, and after the run the state of the VM before the run will be restored. Your run will be
+            reviewed and evaluated by the organizers.
+        </p>
+
+        <p class=" uk-text-left font-italic">
+            NOTE: By submitting your software you retain full copyrights. You agree to grant us usage rights for
+            evaluation of the corresponding data generated by your software. We agree not to share your software with a
+            third party or use it for any purpose other than research.
+        </p>
+
+        <p class=" uk-text-left">
+            Once the run of your system completes, please also run
+            the evaluator on the output of your system to verify that your output is a valid submission.
+These are two separate actions and both should be invoked
+            through the web interface of TIRA. You don’t have to install the evaluator in your VM. It is already
+            prepared in TIRA. You should see it in the web interface, under your software, labeled “Evaluator”.
+            Before clicking the “Run” button, you will use a drop-down menu to select the “Input run”, i.e. one of
+            the completed runs of your system. The output files from the selected run will be evaluated.
+        </p>
+        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task1-example-evaluation.png" alt="Overview of the software evaluation in TIRA.">
+        <p class=" uk-text-left">
+            You can see and download STDOUT and STDERR as well as the outputs of your system.
+In the evaluator run you will see only STDOUT and STDERR, which will tell you if one or more of your output files is not valid.
+If you think something went wrong with your run, send us an e-mail.
+Additionally, we review your submissions and contact you on demand.
+            <br><br>
+            You can register more than one system (“software/ model”) per virtual machine using the web interface.
+            TIRA gives systems automatic names “Software 1”, “Software 2” etc. You can perform several runs per
+            system.
+        </p>
+
+
+        <!--
+        SECTION Results
+        -->
+
+        <!--
+        SECTION Task Committee
+        -->
+        <h2><a id="task-committee"></a>Task Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/bondarenko.html gender="male" %}
+            {% include people-cards/hagen.html gender="male" %}
+            {% include people-cards/froebe.html gender="male" %}
+            {% include people-cards/beloucif.html gender="female" %}
+            {% include people-cards/biemann.html gender="male" %}
+            {% include people-cards/panchenko.html gender="male" %}
+        </div>
+
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>

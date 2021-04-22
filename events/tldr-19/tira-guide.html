@@ -1,0 +1,88 @@
+---
+layout: default
+nav_active: tira-guide
+title: TIRA Guide
+description: TIRA guide for submitting models
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">TL;DR Challenge</a></li>
+<li class="uk-disabled"><a href="#">Submission to TIRA</a></li>
+</ul>
+</nav>
+
+<div class="uk-section">
+    <div class="uk-container">
+        <h2 class="uk-lead">Submission to TIRA</h2>
+        <p class="uk-uk-text-left">
+            <h4 class="uk-text-left">Introduction</h4>
+            <p class=" uk-text-left">
+                Participants will install/ deploy their models in dedicated TIRA virtual machines, so that their runs
+                can be reproduced and so that they can be easily applied to different data (of same format) in the
+                future.
+            </p>
+            <h4 class="uk-text-left">Quickstart</h4>
+            <p class=" uk-text-left">
+                Once trained models are ready, participants will upload them to the VM along with any other code
+                necessary. Please note that the models must be able to perform inference on CPU as we do not have GPUs
+                in the VMs. Inside the VMs, the task data is mounted at
+                <code>/media/training-datasets/tldr-generation</code>. You will find both training and validation
+                datasets here. We recommend trying to first run your models to generate summaries on the validation set
+                after connecting through SSH or RDP to your VM (you can find host ports in the web interface, same login
+                as to your VM). If you cannot connect to your VM, please make sure it is powered on: you can check and
+                power on your machine in the web interface.
+                <br><br>
+                Next register the shell command to run your system in the web interface, and run it. Note that your VM
+                will not be accessible while your system is running – it will be “sandboxed”, detached from the
+                internet, and after the run the state of the VM before the run will be restored. Your run can then be
+                reviewed and evaluated by the organizers. You can inspect runs on training and validation data yourself.
+                <br><br>
+                Note that your system is expected to read the paths to the input and output folders from the command
+                line. When you register the command to run your system, put variables in positions where you expect to
+                see these paths. Thus if your system expects to get the options <code>-i</code> and <code>-o</code>,
+                followed by input and output path respectively, the command you register may look like this:
+                <br>
+                <code>/home/my-user-name/my-software/run.sh -i $inputDataset -o $outputDir</code>
+                <br>
+                The actually executed command will then look something like this:
+                <br>
+                <code>/home/my-user-name/my-software/run.sh \
+                    -i /media/training-datasets/tldr-generation/inlg-19-tldr-generation-validation-dataset-2018-11-05 \
+                    -o /tmp/my-user-name/2019-03-15-10-11-19/output</code>
+                <br><br>
+                You can also directly run python scripts instead of a bash script, after registering your working
+                directory in the web interface. The <code>$inputDataset</code> variable can be set using the dropdown in
+                the web interface when you click on <b>Add Software</b>.
+            </p>
+            <h4 class="uk-text-left">Scoring</h4>
+            <p class=" uk-text-left">
+                When you have successfully tested your system on the validation data, run it on the test data:
+                <code>inlg-19-tldr-generation-test-dataset-2018-11-05</code>
+                <br>
+                This is only possible through the web interface. Once the run of your system completes, please also run
+                the evaluator on the output of your system. These are two separate actions and both should be invoked
+                through the web interface of TIRA. You don’t have to install the evaluator in your VM. It is already
+                prepared in TIRA. You should see it in the web interface, under your software, labeled “Evaluator”.
+                Before clicking the “Run” button, you will use a drop-down menu to select the “Input run”, i.e. one of
+                the completed runs of your system. The output files from the selected run will be evaluated.
+                <br><br>
+                You will see neither the files your system outputs, nor your STDOUT or STDERR. In the evaluator run you
+                will see STDERR, which will tell you if one or more of your output files is not valid. If you think
+                something went wrong with your run, send us an e-mail. We can unblind your STDOUT and STDERR on demand,
+                after we check that you did not leak the test data in the output.
+                <br><br>
+                You can register more than one system (“software/ model”) per virtual machine using the web interface.
+                TIRA gives systems automatic names “Software 1”, “Software 2” etc. You can perform several runs per
+                system. We will score only the latest evaluator runs for all your systems.
+            </p>
+            <p class=" uk-text-left font-italic">
+                NOTE: By submitting your software you retain full copyrights. You agree to grant us usage rights for
+                evaluation of the corresponding data generated by your models. We agree not to share your model with a
+                third party or use it for any purpose other than research. The generated summaries will however be
+                shared with a crowdsourcing platform for evaluation.
+            </p>
+        </p>
+    </div>
+</div>

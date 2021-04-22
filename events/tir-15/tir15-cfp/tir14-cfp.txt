@@ -1,0 +1,94 @@
+----------------------------------------------------------------------------
+*TIR'14  -  11th International Workshop on Text-Based Information Retrieval*
+----------------------------------------------------------------------------
+
+                     In conjunction with the DEXA 2014
+ 25th International Conference on Database and Expert Systems Applications
+                              Munich, Germany
+                         September 1 - September 4
+
+                            http://tir.webis.de
+
+
+----------------------------------------------------------------------------
+About this Workshop
+----------------------------------------------------------------------------
+
+Intelligent algorithms for data mining and information retrieval are the key
+technology to cope with the information need challenges in our
+media-centered society. Methods for text-based information retrieval receive
+special attention, which results from the important role of written text,
+from the high availability of the World Wide Web, and from the enormous
+impact of Web communities and social media on our life.
+
+The development of advanced information retrieval solutions requires the
+understanding and the combination of methods from different research areas,
+including machine learning, data mining, computer linguistics, artificial
+intelligence, user interaction and modeling, Web engineering, or distributed
+systems. This workshop provides a common platform for presenting and
+discussing new solutions, novel ideas, or specific tools focusing on
+text-based information retrieval. The following list organizes classic and
+ongoing topics for which contributions are welcome, but are not limited to:
+
+ - Theory. Retrieval models, language models, similarity measures, formal
+   analysis
+
+ - Web Search. Ranking, indexing, semantic search, query classification and
+   segmentation, relevance feedback, vertical search
+
+ - Personalization and User Mining. Just-in-time retrieval, personalized
+   retrieval, context detection, profile mining
+
+ - Multilinguality. Cross-language retrieval, machine translation, language
+   identification
+
+ - Evaluation. Corpus construction, experiment design, performance measures
+
+ - Text Mining and Classification. Web mining, text reuse, topic
+   identification, sentiment analysis
+
+ - NLP. Information extraction, text summarization and simplification, named
+   entity recognition, question answering
+
+ - Social Media Analysis. Community mining, social network analysis, trend
+   analysis, information diffusion
+
+ - Information Quality. Text quality assessment, quality-based ranking,
+   readability assessment, trust and author reputation
+
+ - Big Data Text Analytics. Parallel and distributed retrieval, online
+   algorithms, scalability
+
+ - Semantic Web. Meta data analysis and tagging, knowledge extraction,
+   inference, maintenance
+
+The workshop is held for the eleventh time. In the past, it was
+characterized by a stimulating atmosphere, and it attracted high quality
+contributions from all over the world.
+
+Accepted papers will appear in the proceedings of DEXA'14 Workshops
+published by the Conference Publishing Services (CPS) of IEEE Computer
+Society.
+
+
+----------------------------------------------------------------------------
+Important Dates
+----------------------------------------------------------------------------
+
+April 24, 2014: Deadline for paper submission (24:00 CET)
+May 12, 2014: Notification to authors
+June 27, 2014: Camera-ready copy due
+
+
+----------------------------------------------------------------------------
+Workshop Organizers
+----------------------------------------------------------------------------
+
+Maik Anderka (Co-Chair), University of Paderborn
+Michael Granitzer (Co-Chair), University of Passau
+Benno Stein (Co-Chair), Bauhaus-Universität Weimar
+
+
+Contact: tir@webis.de
+Information about the workshop can be found at http://tir.webis.de
+

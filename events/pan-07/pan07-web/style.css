@@ -1,0 +1,580 @@
+.fullPage {
+
+}
+.sigirLeft {
+        FLOAT: left; POSITION: relative
+}
+.sigirRight {
+        DISPLAY: inline; FLOAT: right; MARGIN: 0px; POSITION: relative; TEXT-ALIGN: right
+}
+.sigirClear {
+        CLEAR: both; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1%; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.sigirHidden {
+        DISPLAY: none
+}
+.sigirMiddleContainer {
+        MARGIN-TOP: 1.5em; PADDING-BOTTOM: 1.5em; MARGIN-RIGHT: 1.5em; 
+}
+.sigirLeftBar {
+        POSITION: absolute
+}
+.sigirLeftBar {
+        MARGIN-LEFT: 1.5em; WIDTH: 10em; MARGIN-RIGHT: 1em
+}
+.sigirLeftBarContents {
+        MARGIN-LEFT: 1.5em; WIDTH: 10em; MARGIN-RIGHT: 1em
+}
+.sigirViewPage .sigirMain {
+        RIGHT: 1.5em; LEFT: 15.5em; MARGIN-BOTTOM: 1.5em; POSITION: absolute
+}
+.sigirTopic {
+        MARGIN: 2em 2.5em
+}
+.sigirBottomBar {
+
+}
+.sigirBottomBarContents {
+
+}
+.sigirNoViewPage .sigirMain {
+        MARGIN-LEFT: 8em; MARGIN-RIGHT: 8em
+}
+.sigirEditPage .sigirMain {
+        MARGIN-LEFT: 6em; MARGIN-RIGHT: 6em
+}
+.sigirPrintPage .sigirMiddleContainer {
+        MARGIN-TOP: 0em; PADDING-BOTTOM: 0em; MARGIN-RIGHT: 0em;
+}
+.sigirPrintPage .sigirMain {
+        BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; PADDING-TOP: 8px; BORDER-RIGHT-WIDTH: 0px; 
+}
+.sigirPrintPage .sigirBottomBar {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0em; MARGIN-RIGHT: 0px; PADDING-TOP: 0px
+}
+.sigirPrintPage .sigirBottomBarContents {
+        PADDING-LEFT: 1em
+}
+.sigirPrintPage .sigirLeftBar {
+  VISIBILITY: hidden
+}
+.sigirPlainPage .sigirMain {
+        MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+HTML BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: medium; BACKGROUND-IMAGE: url(bg-elementSigir.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat; FONT-FAMILY: "trebuchet ms", verdana, lucida, helvetica, sans-serif; BACKGROUND-COLOR: #F0F0F0; 
+}
+.webtitle {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; FONT-WEIGHT: bold; FONT-SIZE: 220%; PADDING-BOTTOM: 5px; MARGIN: 0px; COLOR: #004080; PADDING-TOP: 10px
+}
+BODY {
+	BACKGROUND-COLOR: transparent
+}
+P {
+	BACKGROUND-COLOR: transparent
+}
+LI {
+	BACKGROUND-COLOR: transparent
+}
+UL {
+	BACKGROUND-COLOR: transparent
+}
+OL {
+	BACKGROUND-COLOR: transparent
+}
+DL {
+	BACKGROUND-COLOR: transparent
+}
+DT {
+	BACKGROUND-COLOR: transparent
+}
+DD {
+	BACKGROUND-COLOR: transparent
+}
+ACRONYM {
+	BACKGROUND-COLOR: transparent
+}
+H1 {
+	BACKGROUND-COLOR: transparent
+}
+H2 {
+	BACKGROUND-COLOR: transparent
+}
+H3 {
+	BACKGROUND-COLOR: transparent
+}
+H4 {
+	BACKGROUND-COLOR: transparent
+}
+H5 {
+	BACKGROUND-COLOR: transparent
+}
+H6 {
+	BACKGROUND-COLOR: transparent
+}
+P {
+	MARGIN: 1em 0px 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+B {
+	FONT-WEIGHT: bold
+}
+HR {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; COLOR: #C0C0C0; BORDER-BOTTOM: medium none; HEIGHT: 1px; BACKGROUND-COLOR: #FFFFFF
+}
+PRE {
+	FONT-SIZE: 100%; COLOR: #600000; LINE-HEIGHT: 1.4em
+}
+CODE {
+	FONT-SIZE: 100%; COLOR: #600000; LINE-HEIGHT: 1.4em
+}
+TT {
+	FONT-SIZE: 100%; COLOR: #600000; LINE-HEIGHT: 1.4em
+}
+PRE {
+	BORDER-RIGHT: #6185a0 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #6185a0 1px solid; PADDING-LEFT: 6px; BACKGROUND: #eeeeee; PADDING-BOTTOM: 6px; MARGIN: 1em 3em; BORDER-LEFT: #6185a0 1px solid; COLOR: #600000; PADDING-TOP: 6px; BORDER-BOTTOM: #6185a0 1px solid; FONT-FAMILY: monospace
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0.1em; LINE-HEIGHT: 104%; PADDING-TOP: 0px; FONT-FAMILY: verdana, lucida, helvetica, sans-serif
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0.1em; LINE-HEIGHT: 104%; PADDING-TOP: 0px; FONT-FAMILY: verdana, lucida, helvetica, sans-serif
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0.1em; LINE-HEIGHT: 104%; PADDING-TOP: 0px; FONT-FAMILY: verdana, lucida, helvetica, sans-serif
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0.1em; LINE-HEIGHT: 104%; PADDING-TOP: 0px; FONT-FAMILY: verdana, lucida, helvetica, sans-serif
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0.1em; LINE-HEIGHT: 104%; PADDING-TOP: 0px; FONT-FAMILY: verdana, lucida, helvetica, sans-serif
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0.1em; LINE-HEIGHT: 104%; PADDING-TOP: 0px; FONT-FAMILY: verdana, lucida, helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 210%; MARGIN: 0px 0px 0.1em; COLOR: #004080
+}
+.sigirTopicTitle {
+	DISPLAY: block; PADDING-BOTTOM: 3px; BORDER-BOTTOM: #048 1px solid
+}
+.sigirWebTitle {
+	DISPLAY: block; FONT-SIZE: 130%; MARGIN-BOTTOM: 1em; COLOR: #004080; FONT-STYLE: italic
+}
+H2 {
+	PADDING-RIGHT: 0.7em; DISPLAY: block; PADDING-LEFT: 0.7em; FONT-SIZE: 145%; PADDING-BOTTOM: 0.2em; MARGIN: 1em -0.7em 0.15em; COLOR: #004080; PADDING-TOP: 0.2em; HEIGHT: auto; BACKGROUND-COLOR: white
+}
+H3 {
+	FONT-SIZE: 125%; COLOR: #004080
+}
+H4 {
+	FONT-SIZE: 115%; COLOR: #004080
+}
+H5 {
+	FONT-SIZE: 110%; COLOR: #004080
+}
+H6 {
+	FONT-SIZE: 95%; COLOR: #004080
+}
+:link {
+	COLOR: #004080; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+:visited {
+	COLOR: #004080; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+A:link IMG {
+	BACKGROUND-COLOR: transparent
+}
+A:visited IMG {
+	BACKGROUND-COLOR: transparent
+}
+A:hover IMG {
+	BACKGROUND-COLOR: transparent
+}
+A:active IMG {
+	BACKGROUND-COLOR: transparent
+}
+FORM {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	FONT-SIZE: 100%; MARGIN: 0.25em 0px; FONT-FAMILY: monospace
+}
+INPUT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: verdana,arial,sans-serif
+}
+SELECT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT-FAMILY: verdana,arial,sans-serif
+}
+SELECT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-RIGHT: #22638c 1px solid; BORDER-TOP: #22638c 1px solid; PADDING-LEFT: 1em; BORDER-LEFT: #22638c 1px solid; BORDER-BOTTOM: #22638c 1px solid
+}
+LEGEND {
+	BORDER-RIGHT: #8490a1 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: #8490a1 1px solid; PADDING-LEFT: 1em; FONT-SIZE: 95%; PADDING-BOTTOM: 0.2em; BORDER-LEFT: #8490a1 1px solid; COLOR: #8490a1; PADDING-TOP: 0.2em; BORDER-BOTTOM: #8490a1 1px solid; BACKGROUND-COLOR: #f8f8f8
+}
+LABEL {
+	FONT-SIZE: 95%; MARGIN-LEFT: 0.5em; LINE-HEIGHT: 125%
+}
+.newsbar {
+	BORDER-RIGHT: #CCC 1px solid; PADDING-RIGHT: 1.0em; BORDER-TOP: #CCC 1px solid; PADDING-LEFT: 1.0em; FONT-FAMILY: verdana, lucida, helvetica, sans-serif; FONT-SIZE: x-small; FLOAT: right; PADDING-BOTTOM: 1.0em; MARGIN: 0em 0em 1.0em 1.0em; OVERFLOW: hidden; BORDER-LEFT: #CCC 1px solid; WIDTH: 19em; PADDING-TOP: 1.0em; BORDER-BOTTOM: #CCC 1px solid; BACKGROUND-COLOR: #f0f0f0
+}
+.newsbar P {
+	text-align: center; 
+}
+.newsbar img {
+	margin-top: 0px; margin-bottom: 4px; 
+}
+.sigirMain {
+	BORDER-RIGHT: #CCC 1px solid; BORDER-TOP: #CCC 1px solid; FONT-SIZE: small; BORDER-LEFT: #CCC 1px solid; BORDER-BOTTOM: #CCC 1px solid; BACKGROUND-COLOR: white; 
+}
+.sigirTopBar {
+
+}
+.sigirTopBar UL LI A:link {
+	PADDING-RIGHT: 0.85em; PADDING-LEFT: 0.85em; FONT-WEIGHT: bold; FLOAT: left; PADDING-BOTTOM: 0.25em; COLOR: white; MARGIN-RIGHT: 1px; PADDING-TOP: 0.25em; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.sigirTopBar UL LI A:visited {
+	PADDING-RIGHT: 0.85em; PADDING-LEFT: 0.85em; FONT-WEIGHT: bold; FLOAT: left; PADDING-BOTTOM: 0.25em; COLOR: white; MARGIN-RIGHT: 1px; PADDING-TOP: 0.25em; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.sigirTopBar UL LI A:hover {
+	COLOR: #1559b3; BACKGROUND-COLOR: #b4d5ff; TEXT-DECORATION: none
+}
+.sigirTopBarContents {
+	PADDING-RIGHT: 2em; PADDING-LEFT: 1em; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+.sigirLeftBar {
+	BORDER-RIGHT: #CCC 1px solid; BORDER-TOP: #CCC 1px solid; OVERFLOW: hidden; BORDER-LEFT: #CCC 1px solid; BORDER-BOTTOM: #CCC 1px solid; BACKGROUND-COLOR: white;
+}
+.sigirLeftBarContents {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; FONT-SIZE: small; PADDING-BOTTOM: 1.7em; MARGIN: 0px; WIDTH: auto; COLOR: #A0A0A0; PADDING-TOP: 1em
+}
+.sigirLeftBarContents A {
+	COLOR: black
+}
+.sigirLeftBarContents STRONG A {
+	COLOR: #004080
+}
+.sigirLeftBarContents A:hover {
+        TEXT-DECORATION: underline; COLOR: #004080
+}
+
+.sigirLeftBarContents STRONG {
+	COLOR: #004080
+}
+.sigirLeftBar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.sigirLeftBar STRONG A:link {
+	FONT-WEIGHT: bold
+}
+.sigirLeftBar STRONG A:visited {
+	FONT-WEIGHT: bold
+}
+.sigirLeftBar LI {
+	DISPLAY: block; WIDTH: 100%; LIST-STYLE-TYPE: none
+}
+.sigirLeftBar LI A {
+	PADDING-RIGHT: 2%; DISPLAY: block; WIDTH: 98%
+}
+UNKNOWN {
+	WIDTH: auto
+}
+.sigirLeftBar HR {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; COLOR: #ccc; BORDER-BOTTOM: medium none; HEIGHT: 1px; BACKGROUND-COLOR: #ccc
+}
+.sigirLeftBarPersonal {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 1em; PADDING-BOTTOM: 0.5em; MARGIN: 1.5em -1px -0.5em -1em; PADDING-TOP: 0.25em; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #dfedfd
+}
+.sigirLeftBarPersonal P {
+	MARGIN: 0.5em 0px 0px
+}
+.sigirLeftBarPersonal A:visited {
+	COLOR: #666
+}
+UNKNOWN {
+	COLOR: #666666
+}
+.sigirBottomBar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.sigirBottomBarContents {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.sigirTopic {
+	PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: transparent
+}
+.sigirTopic TABLE {
+	WIDTH: auto; BORDER-COLLAPSE: collapse; BORDER-TOP:#000 2px solid; BORDER-BOTTOM:#000 2px solid;
+}
+.sigirTopic TABLE TD {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; BORDER-TOP: #000 1px solid;
+}
+.sigirTopic TABLE TD.whiteBorder {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; BORDER-TOP: #111 0px solid;
+}
+.sigirTopic TABLE TH {
+        PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; BORDER-TOP: #000 1px solid; BORDER-BOTTOM: #000 1px solid; COLOR: #004080;
+}
+.sigirTopic TABLE TD STRONG {
+	COLOR: #004080
+}
+.sigirTopic TABLE TH A:link {
+	TEXT-DECORATION: none
+}
+.sigirTopic TABLE TH A:visited {
+	TEXT-DECORATION: none
+}
+.sigirTopic UL {
+	MARGIN-TOP: 0px
+}
+.sigirTopic A:link {
+	TEXT-DECORATION: underline
+}
+.sigirTopic A:visited {
+	TEXT-DECORATION: underline
+}
+.sigirTopic A:hover {
+	TEXT-DECORATION: underline
+}
+.sigirTopic H1 A:link {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-LEFT: medium none; COLOR: #1559b3; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+.sigirTopic H1 A:visited {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-LEFT: medium none; COLOR: #1559b3; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+.sigirTopic H2 A:link {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-LEFT: medium none; COLOR: #1559b3; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+.sigirTopic H2 A:visited {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-LEFT: medium none; COLOR: #1559b3; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+.sigirTopic A:hover {
+	COLOR: #1559b3
+}
+.sigirTopic IMG {
+        margin-top: 4px; margin-bottom: 4px; margin-left: 4px; margin-right: 4px;
+}
+.sigirTopicAction {
+	MARGIN: 2em 0px 3em; BACKGROUND-COLOR: #f8f8f8
+}
+.sigirTopicAction TABLE {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 95%; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; BORDER-COLLAPSE: collapse; border-spacing: 0px; empty-cells: show; voice-family: inherit
+}
+TABLE.sigirTopicAction {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 95%; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; BORDER-COLLAPSE: collapse; border-spacing: 0px; empty-cells: show; voice-family: inherit
+}
+.sigirTopicAction A:link {
+	FONT-WEIGHT: bold; COLOR: white; BORDER-BOTTOM: #698fa8 1px solid; TEXT-DECORATION: none
+}
+.sigirTopicAction A:visited {
+	FONT-WEIGHT: bold; COLOR: white; BORDER-BOTTOM: #698fa8 1px solid; TEXT-DECORATION: none
+}
+.sigirTopicAction A:hover {
+	COLOR: #1559b3; BORDER-BOTTOM: #b4d5ff 1px solid
+}
+.sigirTopicAction TR {
+	BACKGROUND-COLOR: #22638c
+}
+.sigirTopicAction TH {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.sigirTopicAction TD {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 1em; BORDER-TOP: medium none; PADDING-LEFT: 1em; PADDING-BOTTOM: 0.3em; VERTICAL-ALIGN: middle; BORDER-LEFT: medium none; PADDING-TOP: 0.3em; BORDER-BOTTOM: medium none; HEIGHT: 2em; TEXT-ALIGN: left
+}
+.sigirTopicAction TD.sigirCancelCol {
+	WIDTH: 20%; TEXT-ALIGN: left; voice-family: inherit
+}
+.sigirTopicAction TD.sigirSubmitCol {
+	WIDTH: 40%; TEXT-ALIGN: center; voice-family: inherit
+}
+.sigirTopicAction .sigirSubmitOptions {
+	BORDER-RIGHT: #b6c6d9 1px solid; BORDER-TOP: #b6c6d9 1px solid; MARGIN: 0.25em 0px; BORDER-LEFT: #b6c6d9 1px solid; BORDER-BOTTOM: #b6c6d9 1px solid; BACKGROUND-COLOR: #d4e6fc
+}
+.sigirTopicAction TD.sigirAddCol {
+	WIDTH: 20%; TEXT-ALIGN: right; voice-family: inherit
+}
+.sigirTopicAction A:hover {
+	COLOR: #1559b3; BORDER-BOTTOM: #b4d5ff 1px solid
+}
+.sigirTopicActionSecondary {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0.15em; PADDING-TOP: 0.15em; BACKGROUND-COLOR: white
+}
+.sigirTopicActionHelp {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: white
+}
+.sigirTopicAction .sigirTopicActionHelp {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: white
+}
+.sigirTopicActionSecondary {
+	BORDER-TOP: #bbb 1px solid; COLOR: #22638c; BACKGROUND-COLOR: #dfedfd
+}
+.sigirTopicAction .sigirTopicActionSecondary {
+	BORDER-TOP: #bbb 1px solid; COLOR: #22638c; BACKGROUND-COLOR: #dfedfd
+}
+.sigirTopicActionSecondary TD.sigirSubmitCol {
+	TEXT-ALIGN: left
+}
+.sigirTopicActionSecondary A:link {
+	COLOR: #1e5bbd; BORDER-BOTTOM: #a3bcf1 1px solid; TEXT-DECORATION: none
+}
+.sigirTopicActionSecondary A:visited {
+	COLOR: #1e5bbd; BORDER-BOTTOM: #a3bcf1 1px solid; TEXT-DECORATION: none
+}
+.sigirTopicActionSecondary A:hover {
+	COLOR: #1e5bbd; BORDER-BOTTOM: #b4d5ff 1px solid
+}
+.sigirTopicActionHelp A:link {
+	BORDER-BOTTOM: 0px
+}
+.sigirTopicActionHelp A:visited {
+	BORDER-BOTTOM: 0px
+}
+.sigirTopicAction .sigirSeparator {
+	DISPLAY: inline; COLOR: white
+}
+.sigirTopicAction INPUT {
+	FONT-SIZE: 100%
+}
+.sigirTopicAction LABEL {
+	FONT-SIZE: 100%
+}
+UNKNOWN {
+	WIDTH: auto
+}
+.sigirTopicInfo {
+	MARGIN: 0.5em 0px 0px
+}
+.sigirRevInfo {
+	DISPLAY: block; FONT-SIZE: 95%
+}
+.sigirRevInfo EM {
+	FONT-STYLE: normal
+}
+.sigirRevInfo I {
+	FONT-STYLE: normal
+}
+.sigirTopicFooter {
+	MARGIN-TOP: 1em; DISPLAY: block; PADDING-BOTTOM: 2em
+}
+.sigirHomePath {
+	FONT-SIZE: 90%
+}
+.sigirHomePath A:hover {
+	TEXT-DECORATION: underline
+}
+.sigirPageNav {
+	FONT-WEIGHT: bold; FONT-SIZE: 95%; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 1em
+}
+.sigirMoved {
+
+}
+.sigirSeparator {
+	FONT-FAMILY: Arial,sans-serif
+}
+.sigirHelp UL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.sigirSubmit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; MARGIN: 0px 0.15em; PADDING-TOP: 0px
+}
+.sigirButton {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; MARGIN: 0px 0.15em; PADDING-TOP: 0px
+}
+.sigirSubmit {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid; COLOR: #041d3a; BORDER-BOTTOM: #333 1px solid; BACKGROUND-COLOR: #f2f2f2
+}
+.sigirButton {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; COLOR: #05264d; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #f2f2f2
+}
+.sigirCheckbox {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.sigirRadioButton {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.sigirTopic .sigirSubmit {
+	BACKGROUND-COLOR: #e8f1f9
+}
+.sigirSecondary {
+
+}
+.sigirTertiary {
+	BACKGROUND-COLOR: #b9d6fa
+}
+.sigirCancel {
+	BACKGROUND-COLOR: #eee
+}
+.sigirBroadcastMessage {
+	PADDING-RIGHT: 0.7em; PADDING-LEFT: 0.7em; PADDING-BOTTOM: 0.2em; MARGIN: 0px -0.7em 0.5em; COLOR: black; PADDING-TOP: 0.2em; BACKGROUND-COLOR: #ff0
+}
+.sigirBroadcastMessage B {
+	COLOR: #f00
+}
+.sigirBroadcastMessage STRONG {
+	COLOR: #f00
+}
+.sigirAlert {
+	COLOR: #f00
+}
+.sigirGrayText {
+	COLOR: #8490a1
+}
+.sigirHelpCol {
+	COLOR: #8490a1
+}
+.sigirGrayText A:link {
+	COLOR: #8490a1; TEXT-DECORATION: underline
+}
+.sigirGrayText A:visited {
+	COLOR: #8490a1; TEXT-DECORATION: underline
+}
+.sigirHelpCol A:link {
+	COLOR: #8490a1; TEXT-DECORATION: underline
+}
+.sigirHelpCol A:visited {
+	COLOR: #8490a1; TEXT-DECORATION: underline
+}
+.sigirGrayText A:hover {
+	COLOR: #1559b3
+}
+.sigirHelpCol A:hover {
+	COLOR: #1559b3
+}
+.sigirSmall {
+	FONT-SIZE: 85%
+}
+.sigirNew {
+
+}
+.sigirSummary {
+	FONT-SIZE: 85%; LINE-HEIGHT: 1.3em
+}
+.sigirNewLink {
+	BACKGROUND-COLOR: transparent
+}
+.sigirPrintPage H2 {
+	BORDER-BOTTOM: #900 1px solid
+}
+.sigirPrintPage .sigirAttachments {
+	BACKGROUND-COLOR: #ddd
+}
+.sigirPrintPage .sigirForm {
+	BACKGROUND-COLOR: #ddd
+}
+.sigirPlainPage .sigirMain {
+	PADDING-BOTTOM: 2em; PADDING-TOP: 2.5em
+}
+
+.part {
+    padding-bottom: 4ex;
+    border-bottom: 1px dotted #999;
+    margin-bottom: 0px;
+}

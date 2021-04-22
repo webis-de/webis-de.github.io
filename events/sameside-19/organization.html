@@ -1,0 +1,99 @@
+---
+layout: workshop
+nav_active: organization
+title: Same Side Stance Classification
+description: Task on deciding whether two arguments have the same stance
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Same Side Stance Classification</a></li>
+<li class="uk-disabled"><a href="#">Organization</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+    {
+        "@context":"http://schema.org/",
+        "@type":"Shared Task",
+        "name":"Same Side Stance Classification",
+        "description":"Task on deciding whether two arguments have the same stance",
+        "text":"*Shared Task, any other text",
+        "url":"*link that leads to this HTML web page.",
+        "sameAs":"*is there an id link, e.g. from zenodo?",
+        "keywords":[
+            "*some", 
+            "*key", 
+            "*words", 
+            "*to describe the Shared Task"
+        ], 
+        "creator":[
+            {
+                "@type":"Organization",
+                "url":"https://webis.de/",
+                "name":"The Web Technology & Information Systems Network",
+                "alternateName":"Webis"
+            },
+            {
+                "@id":"*orcid id if available", 
+                "@type":"Person", 
+                "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+                "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+                "name":"*last name, first name"
+            },
+            {
+                "@id":"*orcid id if available", 
+                "@type":"Person", 
+                "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+                "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+                "name":"*last name, first name"
+            }
+        ],
+        "includedInDataCatalog":{
+        },
+        "distribution":[
+        ]
+    }
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Organization</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#contact">Contact and Communication</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission details</a></li>-->
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#policy">Policy</a></li>-->
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#resources">Resources</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#organizing-committee">Organizing Committee</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#program-committee">Program Committee</a></li>-->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Contact and Communication
+        -->
+        <h2 id="contact">Contact and Communication</h2>
+        <ul>
+            <li>Email: yamen.ajjour@uni-weimar.de</li>
+        </ul>
+
+        <!--
+        SECTION Organizing Committee
+        -->
+        <h2 id="organizing-committee">Organizing Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/ajjour.html%}
+            {% include people-cards/alkhatib.html%}
+            {% include people-cards/cimiano.html %}
+            {% include people-cards/elbaff.html %}
+            {% include people-cards/ell.html %}
+            {% include people-cards/stein.html  %}
+            {% include people-cards/wachsmuth.html  %}
+        </div>
+
+    </div>
+</main>
