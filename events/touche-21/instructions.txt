@@ -1,0 +1,7 @@
+Complete and comprehensive working notebooks (papers) instructions will be available next week.
+
+In general, we will be accepting two types of submissions. CEUR-WS demands a minimum number of pages for papers to be published in proceedings.
+
+Hence,
+Short papers should be min. 5 pages and max. 6 pages + unlimited references.
+Long papers should be min. 10 pages and max. 12 pages + unlimited references.
