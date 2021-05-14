@@ -1,7 +1,8 @@
-Complete and comprehensive working notebooks (papers) instructions will be available next week.
+Complete and comprehensive working notebooks (papers) instructions are available at http://clef2021.clef-initiative.eu/index.php?page=Pages/instructions_for_authors.html
 
 In general, we will be accepting two types of submissions. CEUR-WS demands a minimum number of pages for papers to be published in proceedings.
 
 Hence,
-Short papers should be min. 5 pages and max. 6 pages + unlimited references.
-Long papers should be min. 10 pages and max. 12 pages + unlimited references.
+
+SHORT papers should be min. 5 pages and max. 6 pages + unlimited references.
+LONG papers should be min. 10 pages and max. 12 pages + unlimited references.
