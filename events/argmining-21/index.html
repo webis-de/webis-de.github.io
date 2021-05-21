@@ -1,0 +1,247 @@
+---
+layout: default
+nav_active: index
+title: Frame Identification - ArgMining 2021
+description: Frame Identification
+additional_css: ['https://assets.webis.de/css/workshop.css']
+---
+<nav class="uk-container">
+    <ul class="uk-breadcrumb">
+        <li><a href="https://webis.de/index.html">Webis.de</a></li>
+        <li><a href="https://webis.de/events.html">Events</a></li>
+        <li class="uk-disabled"><a href="#">Frame Identification 2021</a></li>
+    </ul>
+</nav>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Shared Task",
+        "name": "Frame Identification",
+        "description": "Frame Identification",
+        "text": "*Shared Task, any other text",
+        "url": "https://tldr.webis.de",
+        "sameAs": "*is there an id link, e.g. from zenodo?",
+        "keywords": [
+            "computational argumentation",
+            "classification",
+            "frames "
+        ],
+        "creator": [{
+                "@type": "Organization",
+                "url": "https://webis.de/",
+                "name": "The Web Technology & Information Systems Network",
+                "alternateName": "Webis"
+            },
+            {
+                "@id": "*orcid id if available",
+                "@type": "Person",
+                "url": "*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+                "affiliation": "*Bauhaus-Universit\u00e4t Weimar",
+                "name": "*last name, first name"
+            },
+            {
+                "@id": "*orcid id if available",
+                "@type": "Person",
+                "url": "*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+                "affiliation": "*Bauhaus-Universit\u00e4t Weimar",
+                "name": "*last name, first name"
+            }
+        ],
+        "includedInDataCatalog": {},
+        "distribution": []
+    }
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Frame Identification Shared Task 2021</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#overview">Overview</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
+            <!-- 
+	    <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+	    -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#related-work">Related Work</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis</h2>
+        <ul>
+            <li>Task: Given an argument and a number of candidate frames, choose the best fitting one.</li>
+            <li>Input: Arguments and candidate frames for a set of selected topics.</li>
+            <li>Submission: TBD </li>
+            <li>Register: TBD </li>
+        </ul>
+
+        <!--
+        SECTION Overview
+        -->
+        <h2><a id="overview"></a>Overview</h2>
+        <p>
+            Framing is the process of selecting a subset from the set of available information, based on a certain
+            guiding principle, and aiming for an effect on the target audience. In argumentation, framing is the process
+            of emphasizing a specific aspect of a controversial topic to convince the audience. For example, when
+            discussing the legalization of drugs, various aspects (called "frames" here) such as health, economics, or
+            ethics may be emphasized. An explicit handling of framing (be it by its uncovering or by its introduction)
+            is necessary for various computational argumentation tasks such as persuasiveness prediction and analysis,
+            argument summarization, and argument search.
+        </p>
+        <p>
+            In this shared task, we seek systems that are able to choose the "primary frame" of a given argument from a
+            set of provided candidate frames. We encourage all participants of this shared task to submit their work in
+            the 'Argument Mining' workshop at EMNLP. The accepted submissions will be included in the workshop
+            proceeding.
+        </p>
+
+        <!--
+        SECTION Task
+        -->
+        <h2 id="task">Task</h2>
+
+        <p>Given an argument (for a specific topic) and a set of candidate frames. The task is to choose the primary
+            frame of this argument from those that are available for the topic.</p>
+
+
+        <!--
+        SECTION Data
+        -->
+        <h2 id="data">Data</h2>
+        <h4>Training</h4>
+        <p>The training data is a subset of the Webis-argument-framing corpus. The corpus contains 12 326 arguments that
+            have been extracted from the debate platform 'debatepedia.com'. Each argument is labeled with its primary
+            frame, where the labels (the names of the frames) are derived from the platform's debate structure. The
+            corpus covers 465 controversial topics with altogether 1623 different primary frames. The dataset used in
+            the shared task contains 3380 arguments on 331 topics and covers the 100 most frequently used frames.</p>
+        <p>Statistics about the frame distribution in the dataset</p>
+        <ul>
+            <li>The most frequent frame is 'economics' (used in 50 arguments)</li>
+            <li>The mean number of arguments per frame is 34</li>
+            <li>The standard deviation of arguments per frame 13</li>
+            <li>The least occurring frame is 'border security' (used in 18 arguments)</li>
+        </ul>
+        <h4>Test</h4>
+        <p>The test data includes a subset of the frames that are covered in the training set. For each argument in the
+            test set, four candidate frames are given (one of them is the primary).</p>
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2 id="evaluation">Evaluation</h2>
+        <p> The evaluation of the submitted systems will be based on F1 score measure. You will be able to self-evaluate
+            your software using the <a href="http://tira.io/">TIRA</a> service. You can find the user guide <a
+                href="https://www.tira.io/static/tira-vm-user-guide.pdf">here</a>. While results of the automatic
+            metrics are shared on the leaderboard throughout the duration of the task, those of the manual evaluation
+            will be shared later. This is primarily due to the cost constraint of selecting only the top-performing
+            models on the automatic metrics for the subsequent manual evaluation via crowdsourcing.
+        </p>
+
+
+        <!--
+        SECTION Submission
+        -->
+        <h2 id="submission">Submission</h2>
+        <p>
+            Will be updated shortly.
+        </p>
+        <!--
+        SECTION Results
+        <h2 id="results">Results</h2>
+        <h4>Automatic metric - ROUGE (scores rounded off)</h4>
+        <table class="uk-table  uk-table-small uk-table-hover">
+            <caption>Models are grouped by participant.</caption>
+            <thead>
+                <tr>
+                        <th>Model</th>
+                        <th>R-1</th>
+                        <th>R-2</th>
+                        <th>R-LCS</th>
+                        <th>Average length</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td>unified-pgn</td>
+                    <td>19</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>33.5</td>
+            </tr>
+            <tr>
+                    <td>unified-vae-pgn</td>
+                    <td>19</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>32.8</td>
+            </tr>
+            <tr style="height: 15px;"></tr>
+            <tr>
+                    <td>transf-seq2seq</td>
+                    <td>19</td>
+                    <td>5</td>
+                    <td>14</td>
+                    <td>14.5</td>
+            </tr>
+            
+            <tr>
+                    <td>pseudo-self-attn</td>
+                    <td>18</td>
+                    <td>4</td>
+                    <td>13</td>
+                    <td>12.1</td>
+            </tr>
+            <tr style="height: 15px;"></tr>
+            <tr>
+                    <td>tldr-bottom-up</td>
+                    <td>20</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>37.3</td>
+            </tr>
+    </tbody>
+        </table>
+        -->
+
+        <!--
+        SECTION Related Work
+        -->
+        <h2 id="related-work">Related Work</h2>
+        <div id="publications-list">
+            <!--
+        You do not need to add anything here. Just change "Shared Task-title" below.
+        -->
+
+        </div>
+
+
+        <!--
+        SECTION Task Committee
+        -->
+
+        <h2 id="task-committee">Task Committee</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            {% include people-cards/alkhatib.html gender="male" %}
+            {% include people-cards/ajjour.html gender="male" %}
+            {% include people-cards/potthast.html gender="male" %}
+            {% include people-cards/syed.html gender="male" %}
+            {% include people-cards/stein.html gender="male" %}
+        </div>
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script>
+    includeBibentries(document.getElementById("publications-list"), "tags:webis-argument-framing-19", yearHeadingSize =
+        null);
+</script>
