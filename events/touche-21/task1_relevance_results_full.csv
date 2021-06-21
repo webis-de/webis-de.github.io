@@ -1,0 +1,3472 @@
+Team,Tag,Topic,nDCG@5
+Batman,ER_v1,99,0.83
+Batman,ER_v1,98,0.684
+Batman,ER_v1,97,1.0
+Batman,ER_v1,96,0.754
+Batman,ER_v1,95,0.0
+Batman,ER_v1,94,0.699
+Batman,ER_v1,93,0.073
+Batman,ER_v1,92,0.259
+Batman,ER_v1,91,0.713
+Batman,ER_v1,90,0.32
+Batman,ER_v1,89,0.066
+Batman,ER_v1,88,0.0
+Batman,ER_v1,87,0.364
+Batman,ER_v1,86,0.0
+Batman,ER_v1,85,0.723
+Batman,ER_v1,84,0.0
+Batman,ER_v1,83,0.595
+Batman,ER_v1,82,0.0
+Batman,ER_v1,81,0.551
+Batman,ER_v1,80,0.0
+Batman,ER_v1,79,0.0
+Batman,ER_v1,78,0.661
+Batman,ER_v1,77,0.0
+Batman,ER_v1,76,1.0
+Batman,ER_v1,75,0.361
+Batman,ER_v1,74,0.854
+Batman,ER_v1,73,0.066
+Batman,ER_v1,72,0.786
+Batman,ER_v1,71,0.0
+Batman,ER_v1,70,0.0
+Batman,ER_v1,69,1.0
+Batman,ER_v1,68,0.531
+Batman,ER_v1,67,0.566
+Batman,ER_v1,66,0.661
+Batman,ER_v1,65,0.0
+Batman,ER_v1,64,0.0
+Batman,ER_v1,63,0.0
+Batman,ER_v1,62,0.381
+Batman,ER_v1,61,0.446
+Batman,ER_v1,60,0.0
+Batman,ER_v1,59,1.0
+Batman,ER_v1,58,0.515
+Batman,ER_v1,57,0.0
+Batman,ER_v1,56,1.0
+Batman,ER_v1,55,1.0
+Batman,ER_v1,54,0.0
+Batman,ER_v1,53,0.0
+Batman,ER_v1,52,0.869
+Batman,ER_v1,51,0.0
+Batman,DE_RE_Analyzer_4r100,100,0.0
+Batman,DE_RE_Analyzer_4r100,99,0.655
+Batman,DE_RE_Analyzer_4r100,98,0.699
+Batman,DE_RE_Analyzer_4r100,97,0.82
+Batman,DE_RE_Analyzer_4r100,96,0.214
+Batman,DE_RE_Analyzer_4r100,95,0.83
+Batman,DE_RE_Analyzer_4r100,94,1.0
+Batman,DE_RE_Analyzer_4r100,93,0.723
+Batman,DE_RE_Analyzer_4r100,92,0.197
+Batman,DE_RE_Analyzer_4r100,91,0.449
+Batman,DE_RE_Analyzer_4r100,90,0.543
+Batman,DE_RE_Analyzer_4r100,89,0.18
+Batman,DE_RE_Analyzer_4r100,88,0.574
+Batman,DE_RE_Analyzer_4r100,87,0.551
+Batman,DE_RE_Analyzer_4r100,86,0.692
+Batman,DE_RE_Analyzer_4r100,85,0.757
+Batman,DE_RE_Analyzer_4r100,84,0.32
+Batman,DE_RE_Analyzer_4r100,83,1.0
+Batman,DE_RE_Analyzer_4r100,82,0.386
+Batman,DE_RE_Analyzer_4r100,81,0.684
+Batman,DE_RE_Analyzer_4r100,80,0.384
+Batman,DE_RE_Analyzer_4r100,79,0.743
+Batman,DE_RE_Analyzer_4r100,78,0.592
+Batman,DE_RE_Analyzer_4r100,77,0.0
+Batman,DE_RE_Analyzer_4r100,76,1.0
+Batman,DE_RE_Analyzer_4r100,75,0.107
+Batman,DE_RE_Analyzer_4r100,74,0.661
+Batman,DE_RE_Analyzer_4r100,73,0.192
+Batman,DE_RE_Analyzer_4r100,72,0.83
+Batman,DE_RE_Analyzer_4r100,71,0.681
+Batman,DE_RE_Analyzer_4r100,70,0.53
+Batman,DE_RE_Analyzer_4r100,69,1.0
+Batman,DE_RE_Analyzer_4r100,68,0.204
+Batman,DE_RE_Analyzer_4r100,67,0.65
+Batman,DE_RE_Analyzer_4r100,66,0.066
+Batman,DE_RE_Analyzer_4r100,65,0.073
+Batman,DE_RE_Analyzer_4r100,64,1.0
+Batman,DE_RE_Analyzer_4r100,63,0.415
+Batman,DE_RE_Analyzer_4r100,62,0.36
+Batman,DE_RE_Analyzer_4r100,61,0.934
+Batman,DE_RE_Analyzer_4r100,60,0.0
+Batman,DE_RE_Analyzer_4r100,59,0.481
+Batman,DE_RE_Analyzer_4r100,58,0.485
+Batman,DE_RE_Analyzer_4r100,57,0.628
+Batman,DE_RE_Analyzer_4r100,56,0.927
+Batman,DE_RE_Analyzer_4r100,55,0.639
+Batman,DE_RE_Analyzer_4r100,54,0.485
+Batman,DE_RE_Analyzer_4r100,53,0.17
+Batman,DE_RE_Analyzer_4r100,52,0.405
+Batman,DE_RE_Analyzer_4r100,51,0.374
+Batman,ER_Analyzer_5,100,0.0
+Batman,ER_Analyzer_5,99,0.0
+Batman,ER_Analyzer_5,97,0.0
+Batman,ER_Analyzer_5,95,0.0
+Batman,ER_Analyzer_5,94,0.0
+Batman,ER_Analyzer_5,92,0.0
+Batman,ER_Analyzer_5,90,0.0
+Batman,ER_Analyzer_5,88,0.0
+Batman,ER_Analyzer_5,87,0.0
+Batman,ER_Analyzer_5,85,0.0
+Batman,ER_Analyzer_5,84,0.0
+Batman,ER_Analyzer_5,81,0.0
+Batman,ER_Analyzer_5,79,0.0
+Batman,ER_Analyzer_5,77,0.0
+Batman,ER_Analyzer_5,75,0.0
+Batman,ER_Analyzer_5,70,0.0
+Batman,ER_Analyzer_5,65,0.0
+Batman,ER_Analyzer_5,64,0.0
+Batman,ER_Analyzer_5,61,0.0
+Batman,ER_Analyzer_5,59,0.0
+Batman,ER_Analyzer_5,58,0.0
+Batman,ER_Analyzer_5,57,0.0
+Batman,ER_Analyzer_5,55,0.0
+Batman,ER_Analyzer_5,53,0.0
+Batman,ER_Analyzer_5,51,0.0
+Deadpool,uh-t1-deadpool,100,0.214
+Deadpool,uh-t1-deadpool,99,1.0
+Deadpool,uh-t1-deadpool,98,0.893
+Deadpool,uh-t1-deadpool,97,0.5
+Deadpool,uh-t1-deadpool,96,0.459
+Deadpool,uh-t1-deadpool,95,1.0
+Deadpool,uh-t1-deadpool,94,0.893
+Deadpool,uh-t1-deadpool,93,0.6
+Deadpool,uh-t1-deadpool,92,0.282
+Deadpool,uh-t1-deadpool,91,0.854
+Deadpool,uh-t1-deadpool,90,0.311
+Deadpool,uh-t1-deadpool,89,0.403
+Deadpool,uh-t1-deadpool,88,0.713
+Deadpool,uh-t1-deadpool,87,0.254
+Deadpool,uh-t1-deadpool,86,0.684
+Deadpool,uh-t1-deadpool,85,0.765
+Deadpool,uh-t1-deadpool,84,1.0
+Deadpool,uh-t1-deadpool,83,1.0
+Deadpool,uh-t1-deadpool,82,0.393
+Deadpool,uh-t1-deadpool,81,1.0
+Deadpool,uh-t1-deadpool,80,0.699
+Deadpool,uh-t1-deadpool,79,0.85
+Deadpool,uh-t1-deadpool,78,0.131
+Deadpool,uh-t1-deadpool,77,0.0
+Deadpool,uh-t1-deadpool,76,1.0
+Deadpool,uh-t1-deadpool,75,0.393
+Deadpool,uh-t1-deadpool,74,1.0
+Deadpool,uh-t1-deadpool,73,0.342
+Deadpool,uh-t1-deadpool,72,1.0
+Deadpool,uh-t1-deadpool,71,0.658
+Deadpool,uh-t1-deadpool,70,0.65
+Deadpool,uh-t1-deadpool,69,1.0
+Deadpool,uh-t1-deadpool,68,0.512
+Deadpool,uh-t1-deadpool,67,0.82
+Deadpool,uh-t1-deadpool,66,0.699
+Deadpool,uh-t1-deadpool,65,0.0
+Deadpool,uh-t1-deadpool,64,1.0
+Deadpool,uh-t1-deadpool,63,0.754
+Deadpool,uh-t1-deadpool,62,0.784
+Deadpool,uh-t1-deadpool,61,0.17
+Deadpool,uh-t1-deadpool,60,0.0
+Deadpool,uh-t1-deadpool,59,0.339
+Deadpool,uh-t1-deadpool,58,0.339
+Deadpool,uh-t1-deadpool,57,0.339
+Deadpool,uh-t1-deadpool,56,0.339
+Deadpool,uh-t1-deadpool,55,0.339
+Deadpool,uh-t1-deadpool,54,0.0
+Deadpool,uh-t1-deadpool,53,0.0
+Deadpool,uh-t1-deadpool,52,0.339
+Deadpool,uh-t1-deadpool,51,0.0
+Robin Hood,robinhood_combined,100,0.339
+Robin Hood,robinhood_combined,99,0.339
+Robin Hood,robinhood_combined,98,1.0
+Robin Hood,robinhood_combined,97,0.861
+Robin Hood,robinhood_combined,96,0.677
+Robin Hood,robinhood_combined,95,0.934
+Robin Hood,robinhood_combined,94,0.827
+Robin Hood,robinhood_combined,93,1.0
+Robin Hood,robinhood_combined,92,0.58
+Robin Hood,robinhood_combined,91,0.689
+Robin Hood,robinhood_combined,90,0.551
+Robin Hood,robinhood_combined,89,0.723
+Robin Hood,robinhood_combined,88,0.553
+Robin Hood,robinhood_combined,87,0.638
+Robin Hood,robinhood_combined,86,0.934
+Robin Hood,robinhood_combined,85,0.808
+Robin Hood,robinhood_combined,84,0.67
+Robin Hood,robinhood_combined,83,1.0
+Robin Hood,robinhood_combined,82,0.553
+Robin Hood,robinhood_combined,81,0.934
+Robin Hood,robinhood_combined,80,0.107
+Robin Hood,robinhood_combined,79,0.915
+Robin Hood,robinhood_combined,78,0.869
+Robin Hood,robinhood_combined,77,0.784
+Robin Hood,robinhood_combined,76,0.869
+Robin Hood,robinhood_combined,75,1.0
+Robin Hood,robinhood_combined,74,0.446
+Robin Hood,robinhood_combined,73,0.67
+Robin Hood,robinhood_combined,72,1.0
+Robin Hood,robinhood_combined,71,0.0
+Robin Hood,robinhood_combined,70,1.0
+Robin Hood,robinhood_combined,69,1.0
+Robin Hood,robinhood_combined,68,0.0
+Robin Hood,robinhood_combined,67,0.85
+Robin Hood,robinhood_combined,66,0.83
+Robin Hood,robinhood_combined,65,0.553
+Robin Hood,robinhood_combined,64,0.67
+Robin Hood,robinhood_combined,63,0.754
+Robin Hood,robinhood_combined,62,0.381
+Robin Hood,robinhood_combined,61,0.626
+Robin Hood,robinhood_combined,60,0.0
+Robin Hood,robinhood_combined,59,0.842
+Robin Hood,robinhood_combined,58,0.655
+Robin Hood,robinhood_combined,57,0.934
+Robin Hood,robinhood_combined,56,0.0
+Robin Hood,robinhood_combined,55,1.0
+Robin Hood,robinhood_combined,54,1.0
+Robin Hood,robinhood_combined,53,0.468
+Robin Hood,robinhood_combined,52,0.662
+Robin Hood,robinhood_combined,51,0.67
+Robin Hood,robinhood_baseline,100,0.214
+Robin Hood,robinhood_baseline,99,0.684
+Robin Hood,robinhood_baseline,98,0.934
+Robin Hood,robinhood_baseline,97,0.5
+Robin Hood,robinhood_baseline,96,0.32
+Robin Hood,robinhood_baseline,95,0.769
+Robin Hood,robinhood_baseline,94,1.0
+Robin Hood,robinhood_baseline,93,0.689
+Robin Hood,robinhood_baseline,92,0.321
+Robin Hood,robinhood_baseline,91,1.0
+Robin Hood,robinhood_baseline,90,0.638
+Robin Hood,robinhood_baseline,89,0.658
+Robin Hood,robinhood_baseline,88,0.647
+Robin Hood,robinhood_baseline,87,0.408
+Robin Hood,robinhood_baseline,86,0.784
+Robin Hood,robinhood_baseline,85,0.827
+Robin Hood,robinhood_baseline,84,0.927
+Robin Hood,robinhood_baseline,83,0.83
+Robin Hood,robinhood_baseline,82,0.604
+Robin Hood,robinhood_baseline,81,1.0
+Robin Hood,robinhood_baseline,80,0.616
+Robin Hood,robinhood_baseline,79,0.746
+Robin Hood,robinhood_baseline,78,0.243
+Robin Hood,robinhood_baseline,77,0.934
+Robin Hood,robinhood_baseline,76,1.0
+Robin Hood,robinhood_baseline,75,0.311
+Robin Hood,robinhood_baseline,74,0.786
+Robin Hood,robinhood_baseline,73,0.681
+Robin Hood,robinhood_baseline,72,1.0
+Robin Hood,robinhood_baseline,71,0.842
+Robin Hood,robinhood_baseline,70,1.0
+Robin Hood,robinhood_baseline,69,1.0
+Robin Hood,robinhood_baseline,68,0.212
+Robin Hood,robinhood_baseline,67,0.808
+Robin Hood,robinhood_baseline,66,0.503
+Robin Hood,robinhood_baseline,65,0.146
+Robin Hood,robinhood_baseline,64,1.0
+Robin Hood,robinhood_baseline,63,0.604
+Robin Hood,robinhood_baseline,62,0.509
+Robin Hood,robinhood_baseline,61,0.396
+Robin Hood,robinhood_baseline,60,0.17
+Robin Hood,robinhood_baseline,59,0.927
+Robin Hood,robinhood_baseline,58,0.485
+Robin Hood,robinhood_baseline,57,0.588
+Robin Hood,robinhood_baseline,56,1.0
+Robin Hood,robinhood_baseline,55,0.796
+Robin Hood,robinhood_baseline,54,0.17
+Robin Hood,robinhood_baseline,53,0.0
+Robin Hood,robinhood_baseline,52,0.65
+Robin Hood,robinhood_baseline,51,0.0
+Robin Hood,robinhood_use,100,0.405
+Robin Hood,robinhood_use,99,0.339
+Robin Hood,robinhood_use,98,0.515
+Robin Hood,robinhood_use,97,0.85
+Robin Hood,robinhood_use,96,0.754
+Robin Hood,robinhood_use,95,0.927
+Robin Hood,robinhood_use,94,0.893
+Robin Hood,robinhood_use,93,0.769
+Robin Hood,robinhood_use,92,0.58
+Robin Hood,robinhood_use,91,0.662
+Robin Hood,robinhood_use,90,0.692
+Robin Hood,robinhood_use,89,0.723
+Robin Hood,robinhood_use,88,0.553
+Robin Hood,robinhood_use,87,0.704
+Robin Hood,robinhood_use,86,0.934
+Robin Hood,robinhood_use,85,0.677
+Robin Hood,robinhood_use,84,0.604
+Robin Hood,robinhood_use,83,1.0
+Robin Hood,robinhood_use,82,0.553
+Robin Hood,robinhood_use,81,0.607
+Robin Hood,robinhood_use,80,0.066
+Robin Hood,robinhood_use,79,0.915
+Robin Hood,robinhood_use,78,0.869
+Robin Hood,robinhood_use,77,0.757
+Robin Hood,robinhood_use,76,0.854
+Robin Hood,robinhood_use,75,1.0
+Robin Hood,robinhood_use,74,0.531
+Robin Hood,robinhood_use,73,0.604
+Robin Hood,robinhood_use,72,1.0
+Robin Hood,robinhood_use,71,0.0
+Robin Hood,robinhood_use,70,1.0
+Robin Hood,robinhood_use,69,1.0
+Robin Hood,robinhood_use,68,0.339
+Robin Hood,robinhood_use,67,0.842
+Robin Hood,robinhood_use,66,0.893
+Robin Hood,robinhood_use,65,0.638
+Robin Hood,robinhood_use,64,0.67
+Robin Hood,robinhood_use,63,0.681
+Robin Hood,robinhood_use,62,0.374
+Robin Hood,robinhood_use,61,0.18
+Robin Hood,robinhood_use,60,0.107
+Robin Hood,robinhood_use,59,0.842
+Robin Hood,robinhood_use,58,0.53
+Robin Hood,robinhood_use,57,0.869
+Robin Hood,robinhood_use,56,0.0
+Robin Hood,robinhood_use,55,1.0
+Robin Hood,robinhood_use,54,1.0
+Robin Hood,robinhood_use,53,0.531
+Robin Hood,robinhood_use,52,0.65
+Robin Hood,robinhood_use,51,0.67
+Robin Hood,robinhood_rm3,100,0.0
+Robin Hood,robinhood_rm3,99,0.854
+Robin Hood,robinhood_rm3,98,1.0
+Robin Hood,robinhood_rm3,97,0.573
+Robin Hood,robinhood_rm3,96,0.393
+Robin Hood,robinhood_rm3,95,0.692
+Robin Hood,robinhood_rm3,94,0.85
+Robin Hood,robinhood_rm3,93,0.339
+Robin Hood,robinhood_rm3,92,0.0
+Robin Hood,robinhood_rm3,91,1.0
+Robin Hood,robinhood_rm3,90,0.478
+Robin Hood,robinhood_rm3,89,0.769
+Robin Hood,robinhood_rm3,88,0.53
+Robin Hood,robinhood_rm3,87,0.342
+Robin Hood,robinhood_rm3,86,0.777
+Robin Hood,robinhood_rm3,85,0.893
+Robin Hood,robinhood_rm3,84,1.0
+Robin Hood,robinhood_rm3,83,1.0
+Robin Hood,robinhood_rm3,82,0.393
+Robin Hood,robinhood_rm3,81,1.0
+Robin Hood,robinhood_rm3,80,0.515
+Robin Hood,robinhood_rm3,79,0.65
+Robin Hood,robinhood_rm3,78,0.0
+Robin Hood,robinhood_rm3,77,0.17
+Robin Hood,robinhood_rm3,76,1.0
+Robin Hood,robinhood_rm3,75,0.384
+Robin Hood,robinhood_rm3,74,1.0
+Robin Hood,robinhood_rm3,73,0.457
+Robin Hood,robinhood_rm3,72,1.0
+Robin Hood,robinhood_rm3,71,0.777
+Robin Hood,robinhood_rm3,70,0.808
+Robin Hood,robinhood_rm3,69,1.0
+Robin Hood,robinhood_rm3,68,0.597
+Robin Hood,robinhood_rm3,67,0.677
+Robin Hood,robinhood_rm3,66,0.396
+Robin Hood,robinhood_rm3,65,0.0
+Robin Hood,robinhood_rm3,64,1.0
+Robin Hood,robinhood_rm3,63,0.639
+Robin Hood,robinhood_rm3,62,0.757
+Robin Hood,robinhood_rm3,61,0.607
+Robin Hood,robinhood_rm3,60,0.107
+Robin Hood,robinhood_rm3,59,1.0
+Robin Hood,robinhood_rm3,58,0.131
+Robin Hood,robinhood_rm3,57,0.786
+Robin Hood,robinhood_rm3,56,1.0
+Robin Hood,robinhood_rm3,55,1.0
+Robin Hood,robinhood_rm3,54,0.146
+Robin Hood,robinhood_rm3,53,0.0
+Robin Hood,robinhood_rm3,52,1.0
+Robin Hood,robinhood_rm3,51,0.0
+Macbeth,macbethPretrainedBaseline,100,0.107
+Macbeth,macbethPretrainedBaseline,99,0.83
+Macbeth,macbethPretrainedBaseline,98,1.0
+Macbeth,macbethPretrainedBaseline,97,1.0
+Macbeth,macbethPretrainedBaseline,96,0.173
+Macbeth,macbethPretrainedBaseline,95,1.0
+Macbeth,macbethPretrainedBaseline,94,0.934
+Macbeth,macbethPretrainedBaseline,93,0.107
+Macbeth,macbethPretrainedBaseline,92,0.409
+Macbeth,macbethPretrainedBaseline,91,0.723
+Macbeth,macbethPretrainedBaseline,90,0.595
+Macbeth,macbethPretrainedBaseline,89,0.83
+Macbeth,macbethPretrainedBaseline,88,0.0
+Macbeth,macbethPretrainedBaseline,87,0.784
+Macbeth,macbethPretrainedBaseline,86,0.658
+Macbeth,macbethPretrainedBaseline,85,0.893
+Macbeth,macbethPretrainedBaseline,84,0.893
+Macbeth,macbethPretrainedBaseline,83,1.0
+Macbeth,macbethPretrainedBaseline,82,0.0
+Macbeth,macbethPretrainedBaseline,81,1.0
+Macbeth,macbethPretrainedBaseline,80,0.418
+Macbeth,macbethPretrainedBaseline,79,0.747
+Macbeth,macbethPretrainedBaseline,78,0.0
+Macbeth,macbethPretrainedBaseline,77,0.468
+Macbeth,macbethPretrainedBaseline,76,0.699
+Macbeth,macbethPretrainedBaseline,75,0.915
+Macbeth,macbethPretrainedBaseline,74,0.869
+Macbeth,macbethPretrainedBaseline,73,0.655
+Macbeth,macbethPretrainedBaseline,72,0.869
+Macbeth,macbethPretrainedBaseline,71,0.173
+Macbeth,macbethPretrainedBaseline,70,0.786
+Macbeth,macbethPretrainedBaseline,69,1.0
+Macbeth,macbethPretrainedBaseline,68,0.585
+Macbeth,macbethPretrainedBaseline,67,0.827
+Macbeth,macbethPretrainedBaseline,66,0.585
+Macbeth,macbethPretrainedBaseline,65,0.158
+Macbeth,macbethPretrainedBaseline,64,0.5
+Macbeth,macbethPretrainedBaseline,63,0.585
+Macbeth,macbethPretrainedBaseline,62,0.362
+Macbeth,macbethPretrainedBaseline,61,0.842
+Macbeth,macbethPretrainedBaseline,60,0.485
+Macbeth,macbethPretrainedBaseline,59,0.83
+Macbeth,macbethPretrainedBaseline,58,0.0
+Macbeth,macbethPretrainedBaseline,57,0.0
+Macbeth,macbethPretrainedBaseline,56,1.0
+Macbeth,macbethPretrainedBaseline,55,1.0
+Macbeth,macbethPretrainedBaseline,54,1.0
+Macbeth,macbethPretrainedBaseline,53,0.0
+Macbeth,macbethPretrainedBaseline,52,0.82
+Macbeth,macbethPretrainedBaseline,51,0.235
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,100,0.243
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,99,0.384
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,98,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,97,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,96,0.381
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,95,0.784
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,94,0.786
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,93,0.238
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,92,0.406
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,91,0.628
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,90,0.577
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,89,0.713
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,88,0.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,87,0.661
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,86,0.35
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,85,0.384
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,84,0.808
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,83,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,82,0.32
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,81,0.869
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,80,0.426
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,79,0.788
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,78,0.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,77,0.364
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,76,0.684
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,75,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,74,0.83
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,73,0.543
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,72,0.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,71,0.415
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,70,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,69,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,68,0.415
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,67,0.384
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,66,0.254
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,65,0.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,64,0.33
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,63,0.658
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,62,0.15
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,61,0.915
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,60,0.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,59,0.757
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,58,0.553
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,57,0.577
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,56,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,55,0.869
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,54,0.83
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,53,0.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,52,0.777
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,51,0.509
+Macbeth,macbethBiEncoderCrossEncoder,100,0.0
+Macbeth,macbethBiEncoderCrossEncoder,99,0.83
+Macbeth,macbethBiEncoderCrossEncoder,98,0.83
+Macbeth,macbethBiEncoderCrossEncoder,97,1.0
+Macbeth,macbethBiEncoderCrossEncoder,96,0.254
+Macbeth,macbethBiEncoderCrossEncoder,95,0.854
+Macbeth,macbethBiEncoderCrossEncoder,94,0.588
+Macbeth,macbethBiEncoderCrossEncoder,93,0.066
+Macbeth,macbethBiEncoderCrossEncoder,92,0.456
+Macbeth,macbethBiEncoderCrossEncoder,91,0.662
+Macbeth,macbethBiEncoderCrossEncoder,90,0.585
+Macbeth,macbethBiEncoderCrossEncoder,89,0.713
+Macbeth,macbethBiEncoderCrossEncoder,88,0.0
+Macbeth,macbethBiEncoderCrossEncoder,87,0.638
+Macbeth,macbethBiEncoderCrossEncoder,86,0.427
+Macbeth,macbethBiEncoderCrossEncoder,85,0.765
+Macbeth,macbethBiEncoderCrossEncoder,84,0.743
+Macbeth,macbethBiEncoderCrossEncoder,83,1.0
+Macbeth,macbethBiEncoderCrossEncoder,82,0.0
+Macbeth,macbethBiEncoderCrossEncoder,81,0.934
+Macbeth,macbethBiEncoderCrossEncoder,80,0.146
+Macbeth,macbethBiEncoderCrossEncoder,79,0.927
+Macbeth,macbethBiEncoderCrossEncoder,78,0.0
+Macbeth,macbethBiEncoderCrossEncoder,77,0.0
+Macbeth,macbethBiEncoderCrossEncoder,76,0.616
+Macbeth,macbethBiEncoderCrossEncoder,75,0.842
+Macbeth,macbethBiEncoderCrossEncoder,74,0.869
+Macbeth,macbethBiEncoderCrossEncoder,73,0.339
+Macbeth,macbethBiEncoderCrossEncoder,72,0.316
+Macbeth,macbethBiEncoderCrossEncoder,71,0.512
+Macbeth,macbethBiEncoderCrossEncoder,70,0.765
+Macbeth,macbethBiEncoderCrossEncoder,69,0.684
+Macbeth,macbethBiEncoderCrossEncoder,68,0.512
+Macbeth,macbethBiEncoderCrossEncoder,67,0.339
+Macbeth,macbethBiEncoderCrossEncoder,66,0.327
+Macbeth,macbethBiEncoderCrossEncoder,65,0.066
+Macbeth,macbethBiEncoderCrossEncoder,64,0.173
+Macbeth,macbethBiEncoderCrossEncoder,63,0.415
+Macbeth,macbethBiEncoderCrossEncoder,62,0.235
+Macbeth,macbethBiEncoderCrossEncoder,61,0.692
+Macbeth,macbethBiEncoderCrossEncoder,60,0.47
+Macbeth,macbethBiEncoderCrossEncoder,59,0.746
+Macbeth,macbethBiEncoderCrossEncoder,58,0.0
+Macbeth,macbethBiEncoderCrossEncoder,57,0.0
+Macbeth,macbethBiEncoderCrossEncoder,56,1.0
+Macbeth,macbethBiEncoderCrossEncoder,55,0.869
+Macbeth,macbethBiEncoderCrossEncoder,54,0.927
+Macbeth,macbethBiEncoderCrossEncoder,53,0.0
+Macbeth,macbethBiEncoderCrossEncoder,52,0.497
+Macbeth,macbethBiEncoderCrossEncoder,51,0.577
+Macbeth,macbethBM25BiEncoderCrossEncoder,100,0.192
+Macbeth,macbethBM25BiEncoderCrossEncoder,99,0.684
+Macbeth,macbethBM25BiEncoderCrossEncoder,98,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,97,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,96,0.216
+Macbeth,macbethBM25BiEncoderCrossEncoder,95,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,94,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,93,0.107
+Macbeth,macbethBM25BiEncoderCrossEncoder,92,0.273
+Macbeth,macbethBM25BiEncoderCrossEncoder,91,0.662
+Macbeth,macbethBM25BiEncoderCrossEncoder,90,0.723
+Macbeth,macbethBM25BiEncoderCrossEncoder,89,0.769
+Macbeth,macbethBM25BiEncoderCrossEncoder,88,0.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,87,0.765
+Macbeth,macbethBM25BiEncoderCrossEncoder,86,0.5
+Macbeth,macbethBM25BiEncoderCrossEncoder,85,0.842
+Macbeth,macbethBM25BiEncoderCrossEncoder,84,0.893
+Macbeth,macbethBM25BiEncoderCrossEncoder,83,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,82,0.257
+Macbeth,macbethBM25BiEncoderCrossEncoder,81,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,80,0.426
+Macbeth,macbethBM25BiEncoderCrossEncoder,79,0.861
+Macbeth,macbethBM25BiEncoderCrossEncoder,78,0.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,77,0.35
+Macbeth,macbethBM25BiEncoderCrossEncoder,76,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,75,0.915
+Macbeth,macbethBM25BiEncoderCrossEncoder,74,0.869
+Macbeth,macbethBM25BiEncoderCrossEncoder,73,0.655
+Macbeth,macbethBM25BiEncoderCrossEncoder,72,0.515
+Macbeth,macbethBM25BiEncoderCrossEncoder,71,0.243
+Macbeth,macbethBM25BiEncoderCrossEncoder,70,0.83
+Macbeth,macbethBM25BiEncoderCrossEncoder,69,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,68,0.607
+Macbeth,macbethBM25BiEncoderCrossEncoder,67,0.701
+Macbeth,macbethBM25BiEncoderCrossEncoder,66,0.466
+Macbeth,macbethBM25BiEncoderCrossEncoder,65,0.139
+Macbeth,macbethBM25BiEncoderCrossEncoder,64,0.33
+Macbeth,macbethBM25BiEncoderCrossEncoder,63,0.573
+Macbeth,macbethBM25BiEncoderCrossEncoder,62,0.107
+Macbeth,macbethBM25BiEncoderCrossEncoder,61,0.842
+Macbeth,macbethBM25BiEncoderCrossEncoder,60,0.339
+Macbeth,macbethBM25BiEncoderCrossEncoder,59,0.83
+Macbeth,macbethBM25BiEncoderCrossEncoder,58,0.384
+Macbeth,macbethBM25BiEncoderCrossEncoder,57,0.577
+Macbeth,macbethBM25BiEncoderCrossEncoder,56,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,55,0.869
+Macbeth,macbethBM25BiEncoderCrossEncoder,54,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,53,0.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,52,0.777
+Macbeth,macbethBM25BiEncoderCrossEncoder,51,0.073
+Macbeth,macbethBM25CrossEncoder,100,0.423
+Macbeth,macbethBM25CrossEncoder,99,0.384
+Macbeth,macbethBM25CrossEncoder,98,1.0
+Macbeth,macbethBM25CrossEncoder,97,1.0
+Macbeth,macbethBM25CrossEncoder,96,0.253
+Macbeth,macbethBM25CrossEncoder,95,0.82
+Macbeth,macbethBM25CrossEncoder,94,1.0
+Macbeth,macbethBM25CrossEncoder,93,0.235
+Macbeth,macbethBM25CrossEncoder,92,0.076
+Macbeth,macbethBM25CrossEncoder,91,0.808
+Macbeth,macbethBM25CrossEncoder,90,0.658
+Macbeth,macbethBM25CrossEncoder,89,0.827
+Macbeth,macbethBM25CrossEncoder,88,0.0
+Macbeth,macbethBM25CrossEncoder,87,0.765
+Macbeth,macbethBM25CrossEncoder,86,0.566
+Macbeth,macbethBM25CrossEncoder,85,0.915
+Macbeth,macbethBM25CrossEncoder,84,0.927
+Macbeth,macbethBM25CrossEncoder,83,1.0
+Macbeth,macbethBM25CrossEncoder,82,0.257
+Macbeth,macbethBM25CrossEncoder,81,1.0
+Macbeth,macbethBM25CrossEncoder,80,0.655
+Macbeth,macbethBM25CrossEncoder,79,0.861
+Macbeth,macbethBM25CrossEncoder,78,0.0
+Macbeth,macbethBM25CrossEncoder,77,0.299
+Macbeth,macbethBM25CrossEncoder,76,1.0
+Macbeth,macbethBM25CrossEncoder,75,0.854
+Macbeth,macbethBM25CrossEncoder,74,0.869
+Macbeth,macbethBM25CrossEncoder,73,0.713
+Macbeth,macbethBM25CrossEncoder,72,0.515
+Macbeth,macbethBM25CrossEncoder,71,0.254
+Macbeth,macbethBM25CrossEncoder,70,1.0
+Macbeth,macbethBM25CrossEncoder,69,1.0
+Macbeth,macbethBM25CrossEncoder,68,0.607
+Macbeth,macbethBM25CrossEncoder,67,0.701
+Macbeth,macbethBM25CrossEncoder,66,0.437
+Macbeth,macbethBM25CrossEncoder,65,0.085
+Macbeth,macbethBM25CrossEncoder,64,0.33
+Macbeth,macbethBM25CrossEncoder,63,0.585
+Macbeth,macbethBM25CrossEncoder,62,0.316
+Macbeth,macbethBM25CrossEncoder,61,0.784
+Macbeth,macbethBM25CrossEncoder,60,0.0
+Macbeth,macbethBM25CrossEncoder,59,0.83
+Macbeth,macbethBM25CrossEncoder,58,0.553
+Macbeth,macbethBM25CrossEncoder,57,0.577
+Macbeth,macbethBM25CrossEncoder,56,1.0
+Macbeth,macbethBM25CrossEncoder,55,0.869
+Macbeth,macbethBM25CrossEncoder,54,0.83
+Macbeth,macbethBM25CrossEncoder,53,0.0
+Macbeth,macbethBM25CrossEncoder,52,0.777
+Macbeth,macbethBM25CrossEncoder,51,0.0
+Yeagerists,run_1_lucene_pure_rev,100,0.214
+Yeagerists,run_1_lucene_pure_rev,99,0.83
+Yeagerists,run_1_lucene_pure_rev,98,0.915
+Yeagerists,run_1_lucene_pure_rev,97,0.639
+Yeagerists,run_1_lucene_pure_rev,96,0.277
+Yeagerists,run_1_lucene_pure_rev,95,0.927
+Yeagerists,run_1_lucene_pure_rev,94,1.0
+Yeagerists,run_1_lucene_pure_rev,93,0.723
+Yeagerists,run_1_lucene_pure_rev,92,0.321
+Yeagerists,run_1_lucene_pure_rev,91,0.757
+Yeagerists,run_1_lucene_pure_rev,90,0.301
+Yeagerists,run_1_lucene_pure_rev,89,0.437
+Yeagerists,run_1_lucene_pure_rev,88,0.762
+Yeagerists,run_1_lucene_pure_rev,87,0.277
+Yeagerists,run_1_lucene_pure_rev,86,0.582
+Yeagerists,run_1_lucene_pure_rev,85,0.757
+Yeagerists,run_1_lucene_pure_rev,84,1.0
+Yeagerists,run_1_lucene_pure_rev,83,1.0
+Yeagerists,run_1_lucene_pure_rev,82,0.457
+Yeagerists,run_1_lucene_pure_rev,81,0.869
+Yeagerists,run_1_lucene_pure_rev,80,0.616
+Yeagerists,run_1_lucene_pure_rev,79,0.83
+Yeagerists,run_1_lucene_pure_rev,78,0.0
+Yeagerists,run_1_lucene_pure_rev,77,0.073
+Yeagerists,run_1_lucene_pure_rev,76,1.0
+Yeagerists,run_1_lucene_pure_rev,75,0.469
+Yeagerists,run_1_lucene_pure_rev,74,0.83
+Yeagerists,run_1_lucene_pure_rev,73,0.446
+Yeagerists,run_1_lucene_pure_rev,72,1.0
+Yeagerists,run_1_lucene_pure_rev,71,0.692
+Yeagerists,run_1_lucene_pure_rev,70,0.777
+Yeagerists,run_1_lucene_pure_rev,69,1.0
+Yeagerists,run_1_lucene_pure_rev,68,0.415
+Yeagerists,run_1_lucene_pure_rev,67,0.842
+Yeagerists,run_1_lucene_pure_rev,66,0.757
+Yeagerists,run_1_lucene_pure_rev,65,0.0
+Yeagerists,run_1_lucene_pure_rev,64,1.0
+Yeagerists,run_1_lucene_pure_rev,63,0.541
+Yeagerists,run_1_lucene_pure_rev,62,0.553
+Yeagerists,run_1_lucene_pure_rev,61,0.493
+Yeagerists,run_1_lucene_pure_rev,60,0.0
+Yeagerists,run_1_lucene_pure_rev,59,0.68
+Yeagerists,run_1_lucene_pure_rev,58,0.684
+Yeagerists,run_1_lucene_pure_rev,57,0.661
+Yeagerists,run_1_lucene_pure_rev,56,1.0
+Yeagerists,run_1_lucene_pure_rev,55,0.723
+Yeagerists,run_1_lucene_pure_rev,54,0.0
+Yeagerists,run_1_lucene_pure_rev,53,0.17
+Yeagerists,run_1_lucene_pure_rev,52,0.723
+Yeagerists,run_1_lucene_pure_rev,51,0.277
+Yeagerists,run_2_lunar-sweep-201,100,0.214
+Yeagerists,run_2_lunar-sweep-201,99,0.869
+Yeagerists,run_2_lunar-sweep-201,98,0.927
+Yeagerists,run_2_lunar-sweep-201,97,0.68
+Yeagerists,run_2_lunar-sweep-201,96,0.238
+Yeagerists,run_2_lunar-sweep-201,95,0.915
+Yeagerists,run_2_lunar-sweep-201,94,1.0
+Yeagerists,run_2_lunar-sweep-201,93,0.723
+Yeagerists,run_2_lunar-sweep-201,92,0.209
+Yeagerists,run_2_lunar-sweep-201,91,0.861
+Yeagerists,run_2_lunar-sweep-201,90,0.299
+Yeagerists,run_2_lunar-sweep-201,89,0.534
+Yeagerists,run_2_lunar-sweep-201,88,0.684
+Yeagerists,run_2_lunar-sweep-201,87,0.139
+Yeagerists,run_2_lunar-sweep-201,86,0.638
+Yeagerists,run_2_lunar-sweep-201,85,0.861
+Yeagerists,run_2_lunar-sweep-201,84,1.0
+Yeagerists,run_2_lunar-sweep-201,83,1.0
+Yeagerists,run_2_lunar-sweep-201,82,0.372
+Yeagerists,run_2_lunar-sweep-201,81,0.869
+Yeagerists,run_2_lunar-sweep-201,80,0.723
+Yeagerists,run_2_lunar-sweep-201,79,0.893
+Yeagerists,run_2_lunar-sweep-201,78,0.0
+Yeagerists,run_2_lunar-sweep-201,77,0.066
+Yeagerists,run_2_lunar-sweep-201,76,1.0
+Yeagerists,run_2_lunar-sweep-201,75,0.595
+Yeagerists,run_2_lunar-sweep-201,74,0.869
+Yeagerists,run_2_lunar-sweep-201,73,0.449
+Yeagerists,run_2_lunar-sweep-201,72,1.0
+Yeagerists,run_2_lunar-sweep-201,71,0.639
+Yeagerists,run_2_lunar-sweep-201,70,0.735
+Yeagerists,run_2_lunar-sweep-201,69,1.0
+Yeagerists,run_2_lunar-sweep-201,68,0.597
+Yeagerists,run_2_lunar-sweep-201,67,0.827
+Yeagerists,run_2_lunar-sweep-201,66,0.788
+Yeagerists,run_2_lunar-sweep-201,65,0.0
+Yeagerists,run_2_lunar-sweep-201,64,1.0
+Yeagerists,run_2_lunar-sweep-201,63,0.459
+Yeagerists,run_2_lunar-sweep-201,62,0.384
+Yeagerists,run_2_lunar-sweep-201,61,0.466
+Yeagerists,run_2_lunar-sweep-201,60,0.0
+Yeagerists,run_2_lunar-sweep-201,59,0.68
+Yeagerists,run_2_lunar-sweep-201,58,0.723
+Yeagerists,run_2_lunar-sweep-201,57,0.854
+Yeagerists,run_2_lunar-sweep-201,56,1.0
+Yeagerists,run_2_lunar-sweep-201,55,0.757
+Yeagerists,run_2_lunar-sweep-201,54,0.0
+Yeagerists,run_2_lunar-sweep-201,53,0.214
+Yeagerists,run_2_lunar-sweep-201,52,0.788
+Yeagerists,run_2_lunar-sweep-201,51,0.485
+Yeagerists,run_5_good-sweep-85,100,0.214
+Yeagerists,run_5_good-sweep-85,99,0.553
+Yeagerists,run_5_good-sweep-85,98,0.915
+Yeagerists,run_5_good-sweep-85,97,0.639
+Yeagerists,run_5_good-sweep-85,96,0.107
+Yeagerists,run_5_good-sweep-85,95,0.588
+Yeagerists,run_5_good-sweep-85,94,1.0
+Yeagerists,run_5_good-sweep-85,93,0.723
+Yeagerists,run_5_good-sweep-85,92,0.321
+Yeagerists,run_5_good-sweep-85,91,0.757
+Yeagerists,run_5_good-sweep-85,90,0.073
+Yeagerists,run_5_good-sweep-85,89,0.437
+Yeagerists,run_5_good-sweep-85,88,0.762
+Yeagerists,run_5_good-sweep-85,87,0.277
+Yeagerists,run_5_good-sweep-85,86,0.17
+Yeagerists,run_5_good-sweep-85,85,0.757
+Yeagerists,run_5_good-sweep-85,84,1.0
+Yeagerists,run_5_good-sweep-85,83,1.0
+Yeagerists,run_5_good-sweep-85,82,0.0
+Yeagerists,run_5_good-sweep-85,81,0.869
+Yeagerists,run_5_good-sweep-85,80,0.616
+Yeagerists,run_5_good-sweep-85,79,0.83
+Yeagerists,run_5_good-sweep-85,78,0.0
+Yeagerists,run_5_good-sweep-85,77,0.073
+Yeagerists,run_5_good-sweep-85,76,1.0
+Yeagerists,run_5_good-sweep-85,75,0.0
+Yeagerists,run_5_good-sweep-85,74,0.83
+Yeagerists,run_5_good-sweep-85,73,0.446
+Yeagerists,run_5_good-sweep-85,72,1.0
+Yeagerists,run_5_good-sweep-85,71,0.692
+Yeagerists,run_5_good-sweep-85,70,0.777
+Yeagerists,run_5_good-sweep-85,69,1.0
+Yeagerists,run_5_good-sweep-85,68,0.15
+Yeagerists,run_5_good-sweep-85,67,0.842
+Yeagerists,run_5_good-sweep-85,66,0.757
+Yeagerists,run_5_good-sweep-85,65,0.0
+Yeagerists,run_5_good-sweep-85,64,1.0
+Yeagerists,run_5_good-sweep-85,63,0.192
+Yeagerists,run_5_good-sweep-85,62,0.723
+Yeagerists,run_5_good-sweep-85,61,0.493
+Yeagerists,run_5_good-sweep-85,60,0.0
+Yeagerists,run_5_good-sweep-85,59,0.68
+Yeagerists,run_5_good-sweep-85,58,0.684
+Yeagerists,run_5_good-sweep-85,57,0.243
+Yeagerists,run_5_good-sweep-85,56,0.869
+Yeagerists,run_5_good-sweep-85,55,0.723
+Yeagerists,run_5_good-sweep-85,54,0.0
+Yeagerists,run_5_good-sweep-85,53,0.131
+Yeagerists,run_5_good-sweep-85,52,0.723
+Yeagerists,run_5_good-sweep-85,51,0.0
+Yeagerists,run_3_lunar-sweep-58,100,0.214
+Yeagerists,run_3_lunar-sweep-58,99,0.83
+Yeagerists,run_3_lunar-sweep-58,98,0.915
+Yeagerists,run_3_lunar-sweep-58,97,0.639
+Yeagerists,run_3_lunar-sweep-58,96,0.277
+Yeagerists,run_3_lunar-sweep-58,95,0.927
+Yeagerists,run_3_lunar-sweep-58,94,1.0
+Yeagerists,run_3_lunar-sweep-58,93,0.723
+Yeagerists,run_3_lunar-sweep-58,92,0.321
+Yeagerists,run_3_lunar-sweep-58,91,0.757
+Yeagerists,run_3_lunar-sweep-58,90,0.301
+Yeagerists,run_3_lunar-sweep-58,89,0.437
+Yeagerists,run_3_lunar-sweep-58,88,0.762
+Yeagerists,run_3_lunar-sweep-58,87,0.277
+Yeagerists,run_3_lunar-sweep-58,86,0.626
+Yeagerists,run_3_lunar-sweep-58,85,0.757
+Yeagerists,run_3_lunar-sweep-58,84,1.0
+Yeagerists,run_3_lunar-sweep-58,83,1.0
+Yeagerists,run_3_lunar-sweep-58,82,0.457
+Yeagerists,run_3_lunar-sweep-58,81,0.869
+Yeagerists,run_3_lunar-sweep-58,80,0.616
+Yeagerists,run_3_lunar-sweep-58,79,0.83
+Yeagerists,run_3_lunar-sweep-58,78,0.0
+Yeagerists,run_3_lunar-sweep-58,77,0.073
+Yeagerists,run_3_lunar-sweep-58,76,1.0
+Yeagerists,run_3_lunar-sweep-58,75,0.469
+Yeagerists,run_3_lunar-sweep-58,74,0.83
+Yeagerists,run_3_lunar-sweep-58,73,0.446
+Yeagerists,run_3_lunar-sweep-58,72,1.0
+Yeagerists,run_3_lunar-sweep-58,71,0.692
+Yeagerists,run_3_lunar-sweep-58,70,0.777
+Yeagerists,run_3_lunar-sweep-58,69,1.0
+Yeagerists,run_3_lunar-sweep-58,68,0.415
+Yeagerists,run_3_lunar-sweep-58,67,0.82
+Yeagerists,run_3_lunar-sweep-58,66,0.757
+Yeagerists,run_3_lunar-sweep-58,65,0.0
+Yeagerists,run_3_lunar-sweep-58,64,1.0
+Yeagerists,run_3_lunar-sweep-58,63,0.541
+Yeagerists,run_3_lunar-sweep-58,62,0.553
+Yeagerists,run_3_lunar-sweep-58,61,0.493
+Yeagerists,run_3_lunar-sweep-58,60,0.0
+Yeagerists,run_3_lunar-sweep-58,59,0.68
+Yeagerists,run_3_lunar-sweep-58,58,0.684
+Yeagerists,run_3_lunar-sweep-58,57,0.661
+Yeagerists,run_3_lunar-sweep-58,56,1.0
+Yeagerists,run_3_lunar-sweep-58,55,0.723
+Yeagerists,run_3_lunar-sweep-58,54,0.0
+Yeagerists,run_3_lunar-sweep-58,53,0.17
+Yeagerists,run_3_lunar-sweep-58,52,0.723
+Yeagerists,run_3_lunar-sweep-58,51,0.277
+Yeagerists,run_4_chocolate-sweep-50,100,0.214
+Yeagerists,run_4_chocolate-sweep-50,99,0.869
+Yeagerists,run_4_chocolate-sweep-50,98,0.927
+Yeagerists,run_4_chocolate-sweep-50,97,0.68
+Yeagerists,run_4_chocolate-sweep-50,96,0.238
+Yeagerists,run_4_chocolate-sweep-50,95,0.915
+Yeagerists,run_4_chocolate-sweep-50,94,1.0
+Yeagerists,run_4_chocolate-sweep-50,93,0.723
+Yeagerists,run_4_chocolate-sweep-50,92,0.209
+Yeagerists,run_4_chocolate-sweep-50,91,0.861
+Yeagerists,run_4_chocolate-sweep-50,90,0.299
+Yeagerists,run_4_chocolate-sweep-50,89,0.534
+Yeagerists,run_4_chocolate-sweep-50,88,0.684
+Yeagerists,run_4_chocolate-sweep-50,87,0.139
+Yeagerists,run_4_chocolate-sweep-50,86,0.638
+Yeagerists,run_4_chocolate-sweep-50,85,0.861
+Yeagerists,run_4_chocolate-sweep-50,84,1.0
+Yeagerists,run_4_chocolate-sweep-50,83,1.0
+Yeagerists,run_4_chocolate-sweep-50,82,0.372
+Yeagerists,run_4_chocolate-sweep-50,81,0.869
+Yeagerists,run_4_chocolate-sweep-50,80,0.723
+Yeagerists,run_4_chocolate-sweep-50,79,0.893
+Yeagerists,run_4_chocolate-sweep-50,78,0.0
+Yeagerists,run_4_chocolate-sweep-50,77,0.066
+Yeagerists,run_4_chocolate-sweep-50,76,1.0
+Yeagerists,run_4_chocolate-sweep-50,75,0.595
+Yeagerists,run_4_chocolate-sweep-50,74,0.869
+Yeagerists,run_4_chocolate-sweep-50,73,0.449
+Yeagerists,run_4_chocolate-sweep-50,72,1.0
+Yeagerists,run_4_chocolate-sweep-50,71,0.639
+Yeagerists,run_4_chocolate-sweep-50,70,0.735
+Yeagerists,run_4_chocolate-sweep-50,69,1.0
+Yeagerists,run_4_chocolate-sweep-50,68,0.604
+Yeagerists,run_4_chocolate-sweep-50,67,0.85
+Yeagerists,run_4_chocolate-sweep-50,66,0.788
+Yeagerists,run_4_chocolate-sweep-50,65,0.0
+Yeagerists,run_4_chocolate-sweep-50,64,1.0
+Yeagerists,run_4_chocolate-sweep-50,63,0.459
+Yeagerists,run_4_chocolate-sweep-50,62,0.384
+Yeagerists,run_4_chocolate-sweep-50,61,0.466
+Yeagerists,run_4_chocolate-sweep-50,60,0.0
+Yeagerists,run_4_chocolate-sweep-50,59,0.68
+Yeagerists,run_4_chocolate-sweep-50,58,0.723
+Yeagerists,run_4_chocolate-sweep-50,57,0.854
+Yeagerists,run_4_chocolate-sweep-50,56,1.0
+Yeagerists,run_4_chocolate-sweep-50,55,0.757
+Yeagerists,run_4_chocolate-sweep-50,54,0.0
+Yeagerists,run_4_chocolate-sweep-50,53,0.214
+Yeagerists,run_4_chocolate-sweep-50,52,0.788
+Yeagerists,run_4_chocolate-sweep-50,51,0.485
+Skeletor,manifold-c10,100,0.405
+Skeletor,manifold-c10,99,0.786
+Skeletor,manifold-c10,98,0.83
+Skeletor,manifold-c10,97,0.566
+Skeletor,manifold-c10,96,0.223
+Skeletor,manifold-c10,95,1.0
+Skeletor,manifold-c10,94,0.927
+Skeletor,manifold-c10,93,0.592
+Skeletor,manifold-c10,92,0.504
+Skeletor,manifold-c10,91,0.915
+Skeletor,manifold-c10,90,0.701
+Skeletor,manifold-c10,89,0.658
+Skeletor,manifold-c10,88,0.488
+Skeletor,manifold-c10,87,0.32
+Skeletor,manifold-c10,86,0.765
+Skeletor,manifold-c10,85,0.915
+Skeletor,manifold-c10,84,1.0
+Skeletor,manifold-c10,83,1.0
+Skeletor,manifold-c10,82,0.323
+Skeletor,manifold-c10,81,1.0
+Skeletor,manifold-c10,80,0.64
+Skeletor,manifold-c10,79,0.65
+Skeletor,manifold-c10,78,0.17
+Skeletor,manifold-c10,77,0.17
+Skeletor,manifold-c10,76,1.0
+Skeletor,manifold-c10,75,0.481
+Skeletor,manifold-c10,74,1.0
+Skeletor,manifold-c10,73,0.784
+Skeletor,manifold-c10,72,1.0
+Skeletor,manifold-c10,71,0.692
+Skeletor,manifold-c10,70,0.82
+Skeletor,manifold-c10,69,1.0
+Skeletor,manifold-c10,68,0.607
+Skeletor,manifold-c10,67,0.746
+Skeletor,manifold-c10,66,0.692
+Skeletor,manifold-c10,65,0.0
+Skeletor,manifold-c10,64,1.0
+Skeletor,manifold-c10,63,0.658
+Skeletor,manifold-c10,62,0.684
+Skeletor,manifold-c10,61,0.585
+Skeletor,manifold-c10,60,0.0
+Skeletor,manifold-c10,59,0.927
+Skeletor,manifold-c10,58,0.553
+Skeletor,manifold-c10,57,1.0
+Skeletor,manifold-c10,56,1.0
+Skeletor,manifold-c10,55,1.0
+Skeletor,manifold-c10,54,0.0
+Skeletor,manifold-c10,53,0.0
+Skeletor,manifold-c10,52,1.0
+Skeletor,manifold-c10,51,0.345
+Skeletor,semantic,100,0.0
+Skeletor,semantic,99,0.83
+Skeletor,semantic,98,0.491
+Skeletor,semantic,97,0.597
+Skeletor,semantic,96,0.67
+Skeletor,semantic,95,0.522
+Skeletor,semantic,94,0.53
+Skeletor,semantic,93,0.381
+Skeletor,semantic,92,0.568
+Skeletor,semantic,91,0.073
+Skeletor,semantic,90,0.82
+Skeletor,semantic,89,0.607
+Skeletor,semantic,88,0.57
+Skeletor,semantic,87,0.47
+Skeletor,semantic,86,0.204
+Skeletor,semantic,85,0.893
+Skeletor,semantic,84,0.342
+Skeletor,semantic,83,1.0
+Skeletor,semantic,82,0.681
+Skeletor,semantic,81,0.854
+Skeletor,semantic,80,0.424
+Skeletor,semantic,79,0.746
+Skeletor,semantic,78,0.512
+Skeletor,semantic,77,0.723
+Skeletor,semantic,76,1.0
+Skeletor,semantic,75,0.362
+Skeletor,semantic,74,0.83
+Skeletor,semantic,73,0.551
+Skeletor,semantic,72,0.554
+Skeletor,semantic,71,0.238
+Skeletor,semantic,70,0.481
+Skeletor,semantic,69,1.0
+Skeletor,semantic,68,0.0
+Skeletor,semantic,67,0.361
+Skeletor,semantic,66,0.757
+Skeletor,semantic,65,0.0
+Skeletor,semantic,64,0.83
+Skeletor,semantic,63,0.342
+Skeletor,semantic,62,0.512
+Skeletor,semantic,61,0.67
+Skeletor,semantic,60,0.5
+Skeletor,semantic,59,0.554
+Skeletor,semantic,58,0.301
+Skeletor,semantic,57,0.934
+Skeletor,semantic,56,0.915
+Skeletor,semantic,55,0.915
+Skeletor,semantic,54,0.915
+Skeletor,semantic,53,0.214
+Skeletor,semantic,52,0.588
+Skeletor,semantic,51,0.53
+Skeletor,bm25,100,0.214
+Skeletor,bm25,99,0.83
+Skeletor,bm25,98,0.842
+Skeletor,bm25,97,0.5
+Skeletor,bm25,96,0.32
+Skeletor,bm25,95,1.0
+Skeletor,bm25,94,0.861
+Skeletor,bm25,93,0.65
+Skeletor,bm25,92,0.42
+Skeletor,bm25,91,1.0
+Skeletor,bm25,90,0.83
+Skeletor,bm25,89,0.65
+Skeletor,bm25,88,0.51
+Skeletor,bm25,87,0.408
+Skeletor,bm25,86,0.754
+Skeletor,bm25,85,0.893
+Skeletor,bm25,84,1.0
+Skeletor,bm25,83,1.0
+Skeletor,bm25,82,0.35
+Skeletor,bm25,81,1.0
+Skeletor,bm25,80,0.869
+Skeletor,bm25,79,0.746
+Skeletor,bm25,78,0.214
+Skeletor,bm25,77,0.085
+Skeletor,bm25,76,1.0
+Skeletor,bm25,75,0.532
+Skeletor,bm25,74,0.854
+Skeletor,bm25,73,0.765
+Skeletor,bm25,72,1.0
+Skeletor,bm25,71,0.754
+Skeletor,bm25,70,0.808
+Skeletor,bm25,69,1.0
+Skeletor,bm25,68,0.597
+Skeletor,bm25,67,0.723
+Skeletor,bm25,66,0.522
+Skeletor,bm25,65,0.0
+Skeletor,bm25,64,1.0
+Skeletor,bm25,63,0.723
+Skeletor,bm25,62,0.619
+Skeletor,bm25,61,0.735
+Skeletor,bm25,60,0.0
+Skeletor,bm25,59,0.934
+Skeletor,bm25,58,0.36
+Skeletor,bm25,57,0.786
+Skeletor,bm25,56,1.0
+Skeletor,bm25,55,1.0
+Skeletor,bm25,54,0.146
+Skeletor,bm25,53,0.0
+Skeletor,bm25,52,0.934
+Skeletor,bm25,51,0.146
+Skeletor,manifold,100,0.339
+Skeletor,manifold,99,0.64
+Skeletor,manifold,98,0.83
+Skeletor,manifold,97,0.5
+Skeletor,manifold,96,0.223
+Skeletor,manifold,95,1.0
+Skeletor,manifold,94,0.934
+Skeletor,manifold,93,0.723
+Skeletor,manifold,92,0.58
+Skeletor,manifold,91,0.915
+Skeletor,manifold,90,0.636
+Skeletor,manifold,89,0.658
+Skeletor,manifold,88,0.488
+Skeletor,manifold,87,0.254
+Skeletor,manifold,86,0.765
+Skeletor,manifold,85,0.85
+Skeletor,manifold,84,1.0
+Skeletor,manifold,83,1.0
+Skeletor,manifold,82,0.192
+Skeletor,manifold,81,1.0
+Skeletor,manifold,80,0.64
+Skeletor,manifold,79,0.65
+Skeletor,manifold,78,0.316
+Skeletor,manifold,77,0.243
+Skeletor,manifold,76,1.0
+Skeletor,manifold,75,0.488
+Skeletor,manifold,74,0.934
+Skeletor,manifold,73,0.915
+Skeletor,manifold,72,1.0
+Skeletor,manifold,71,0.757
+Skeletor,manifold,70,0.808
+Skeletor,manifold,69,1.0
+Skeletor,manifold,68,0.607
+Skeletor,manifold,67,0.746
+Skeletor,manifold,66,0.692
+Skeletor,manifold,65,0.0
+Skeletor,manifold,64,1.0
+Skeletor,manifold,63,0.658
+Skeletor,manifold,62,0.626
+Skeletor,manifold,61,0.723
+Skeletor,manifold,60,0.0
+Skeletor,manifold,59,1.0
+Skeletor,manifold,58,0.553
+Skeletor,manifold,57,1.0
+Skeletor,manifold,56,1.0
+Skeletor,manifold,55,1.0
+Skeletor,manifold,54,0.0
+Skeletor,manifold,53,0.0
+Skeletor,manifold,52,1.0
+Skeletor,manifold,51,0.214
+Skeletor,bm25-0.7semantic,100,0.214
+Skeletor,bm25-0.7semantic,99,0.83
+Skeletor,bm25-0.7semantic,98,0.842
+Skeletor,bm25-0.7semantic,97,0.5
+Skeletor,bm25-0.7semantic,96,0.32
+Skeletor,bm25-0.7semantic,95,1.0
+Skeletor,bm25-0.7semantic,94,0.861
+Skeletor,bm25-0.7semantic,93,0.677
+Skeletor,bm25-0.7semantic,92,0.496
+Skeletor,bm25-0.7semantic,91,1.0
+Skeletor,bm25-0.7semantic,90,0.83
+Skeletor,bm25-0.7semantic,89,0.65
+Skeletor,bm25-0.7semantic,88,0.51
+Skeletor,bm25-0.7semantic,87,0.408
+Skeletor,bm25-0.7semantic,86,0.777
+Skeletor,bm25-0.7semantic,85,0.893
+Skeletor,bm25-0.7semantic,84,1.0
+Skeletor,bm25-0.7semantic,83,1.0
+Skeletor,bm25-0.7semantic,82,0.481
+Skeletor,bm25-0.7semantic,81,1.0
+Skeletor,bm25-0.7semantic,80,0.786
+Skeletor,bm25-0.7semantic,79,0.746
+Skeletor,bm25-0.7semantic,78,0.214
+Skeletor,bm25-0.7semantic,77,0.085
+Skeletor,bm25-0.7semantic,76,1.0
+Skeletor,bm25-0.7semantic,75,0.478
+Skeletor,bm25-0.7semantic,74,0.854
+Skeletor,bm25-0.7semantic,73,0.765
+Skeletor,bm25-0.7semantic,72,1.0
+Skeletor,bm25-0.7semantic,71,0.754
+Skeletor,bm25-0.7semantic,70,0.827
+Skeletor,bm25-0.7semantic,69,1.0
+Skeletor,bm25-0.7semantic,68,0.597
+Skeletor,bm25-0.7semantic,67,0.723
+Skeletor,bm25-0.7semantic,66,0.647
+Skeletor,bm25-0.7semantic,65,0.0
+Skeletor,bm25-0.7semantic,64,1.0
+Skeletor,bm25-0.7semantic,63,0.65
+Skeletor,bm25-0.7semantic,62,0.619
+Skeletor,bm25-0.7semantic,61,0.67
+Skeletor,bm25-0.7semantic,60,0.0
+Skeletor,bm25-0.7semantic,59,0.915
+Skeletor,bm25-0.7semantic,58,0.384
+Skeletor,bm25-0.7semantic,57,0.854
+Skeletor,bm25-0.7semantic,56,1.0
+Skeletor,bm25-0.7semantic,55,1.0
+Skeletor,bm25-0.7semantic,54,0.146
+Skeletor,bm25-0.7semantic,53,0.0
+Skeletor,bm25-0.7semantic,52,0.869
+Skeletor,bm25-0.7semantic,51,0.301
+Little Foot,whoosh,100,0.0
+Little Foot,whoosh,99,0.699
+Little Foot,whoosh,98,0.869
+Little Foot,whoosh,97,0.639
+Little Foot,whoosh,96,0.449
+Little Foot,whoosh,95,0.784
+Little Foot,whoosh,94,1.0
+Little Foot,whoosh,93,0.107
+Little Foot,whoosh,92,0.0
+Little Foot,whoosh,91,0.662
+Little Foot,whoosh,90,0.854
+Little Foot,whoosh,89,0.265
+Little Foot,whoosh,88,0.0
+Little Foot,whoosh,87,0.243
+Little Foot,whoosh,86,0.796
+Little Foot,whoosh,85,0.83
+Little Foot,whoosh,84,0.927
+Little Foot,whoosh,83,1.0
+Little Foot,whoosh,82,0.32
+Little Foot,whoosh,81,1.0
+Little Foot,whoosh,80,0.553
+Little Foot,whoosh,79,0.746
+Little Foot,whoosh,78,0.488
+Little Foot,whoosh,77,0.339
+Little Foot,whoosh,76,1.0
+Little Foot,whoosh,75,0.396
+Little Foot,whoosh,74,0.553
+Little Foot,whoosh,73,0.616
+Little Foot,whoosh,72,1.0
+Little Foot,whoosh,71,0.434
+Little Foot,whoosh,70,1.0
+Little Foot,whoosh,69,1.0
+Little Foot,whoosh,68,0.0
+Little Foot,whoosh,67,0.566
+Little Foot,whoosh,66,0.469
+Little Foot,whoosh,65,0.0
+Little Foot,whoosh,64,0.0
+Little Foot,whoosh,63,0.531
+Little Foot,whoosh,62,0.553
+Little Foot,whoosh,61,0.585
+Little Foot,whoosh,60,0.085
+Little Foot,whoosh,59,0.746
+Little Foot,whoosh,58,0.0
+Little Foot,whoosh,57,0.447
+Little Foot,whoosh,56,1.0
+Little Foot,whoosh,55,0.704
+Little Foot,whoosh,54,0.214
+Little Foot,whoosh,53,0.0
+Little Foot,whoosh,52,0.412
+Little Foot,whoosh,51,0.17
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,100,0.17
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,99,0.655
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,98,0.915
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,97,0.639
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,96,0.35
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,95,0.927
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,94,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,93,0.592
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,92,0.321
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,91,0.757
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,90,0.509
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,89,0.437
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,88,0.762
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,87,0.277
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,86,0.616
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,85,0.746
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,84,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,82,0.342
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,80,0.616
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,79,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,78,0.131
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,77,0.073
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,75,0.33
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,74,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,73,0.468
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,71,0.68
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,70,0.673
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,69,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,68,0.415
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,67,0.808
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,66,0.647
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,65,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,64,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,63,0.522
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,62,0.553
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,61,0.481
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,60,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,59,0.743
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,58,0.684
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,57,0.786
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,56,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,55,0.723
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,54,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,53,0.17
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,52,0.701
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,51,0.277
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,100,0.339
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,99,0.854
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,98,0.915
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,97,0.639
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,96,0.478
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,95,0.934
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,94,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,93,0.592
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,92,0.321
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,91,0.765
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,90,0.426
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,89,0.437
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,88,0.762
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,87,0.277
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,86,0.616
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,85,0.757
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,84,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,82,0.4
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,80,0.616
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,79,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,78,0.131
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,77,0.073
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,75,0.265
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,74,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,73,0.468
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,71,0.746
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,70,0.673
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,69,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,68,0.437
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,67,0.808
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,66,0.713
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,65,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,64,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,63,0.541
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,62,0.553
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,61,0.493
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,60,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,59,0.808
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,58,0.64
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,57,0.786
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,56,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,55,0.723
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,54,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,53,0.17
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,52,0.701
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,51,0.277
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,100,0.405
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,99,0.869
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,98,0.83
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,97,0.639
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,96,0.403
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,95,0.934
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,94,0.934
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,93,0.338
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,92,0.321
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,91,0.827
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,90,0.246
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,89,0.319
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,88,0.747
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,87,0.277
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,86,0.934
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,85,0.757
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,84,0.927
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,82,0.18
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,80,0.655
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,79,0.83
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,78,0.17
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,77,0.107
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,75,0.713
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,74,0.854
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,73,0.446
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,71,0.639
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,70,0.757
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,69,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,68,0.437
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,67,0.82
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,66,0.522
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,65,0.066
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,64,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,63,0.604
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,62,0.854
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,61,0.481
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,60,0.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,59,0.82
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,58,0.64
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,57,0.661
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,56,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,55,0.723
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,54,0.131
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,53,0.17
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,52,0.723
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,51,0.553
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,100,0.339
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,99,0.854
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,98,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,97,0.639
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,96,0.478
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,95,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,94,0.934
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,93,0.577
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,92,0.321
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,91,0.765
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,90,0.381
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,89,0.403
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,88,0.723
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,87,0.254
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,86,0.927
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,85,0.757
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,84,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,82,0.254
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,80,0.869
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,79,0.765
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,78,0.131
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,77,0.073
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,75,0.257
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,74,0.854
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,73,0.457
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,71,0.723
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,70,0.673
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,69,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,68,0.437
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,67,0.746
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,66,0.692
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,65,0.066
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,64,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,63,0.534
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,62,0.553
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,61,0.493
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,60,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,59,0.842
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,58,0.64
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,57,0.786
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,56,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,55,0.723
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,54,0.131
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,53,0.17
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,52,0.701
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,51,0.277
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,100,0.446
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,99,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,98,0.893
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,97,0.573
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,96,0.415
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,95,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,94,0.927
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,93,0.423
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,92,0.282
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,91,0.893
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,90,0.296
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,89,0.403
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,88,0.658
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,87,0.32
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,86,0.927
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,85,0.765
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,84,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,82,0.308
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,80,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,79,0.765
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,78,0.131
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,77,0.066
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,75,0.173
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,74,0.869
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,73,0.457
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,71,0.585
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,70,0.808
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,69,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,68,0.563
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,67,0.746
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,66,0.592
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,65,0.085
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,64,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,63,0.67
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,62,0.638
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,61,0.507
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,60,0.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,59,0.842
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,58,0.64
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,57,0.786
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,56,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,55,0.83
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,54,0.131
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,53,0.17
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,52,0.701
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,51,0.384
+Baseline Api,ARGSME,100,0.638
+Baseline Api,ARGSME,99,0.854
+Baseline Api,ARGSME,98,0.699
+Baseline Api,ARGSME,97,0.85
+Baseline Api,ARGSME,96,0.658
+Baseline Api,ARGSME,95,0.277
+Baseline Api,ARGSME,94,0.934
+Baseline Api,ARGSME,93,0.553
+Baseline Api,ARGSME,92,0.0
+Baseline Api,ARGSME,91,0.585
+Baseline Api,ARGSME,90,0.723
+Baseline Api,ARGSME,89,0.339
+Baseline Api,ARGSME,88,0.424
+Baseline Api,ARGSME,87,0.497
+Baseline Api,ARGSME,86,1.0
+Baseline Api,ARGSME,85,0.83
+Baseline Api,ARGSME,84,1.0
+Baseline Api,ARGSME,83,0.661
+Baseline Api,ARGSME,82,0.796
+Baseline Api,ARGSME,81,0.469
+Baseline Api,ARGSME,80,0.412
+Baseline Api,ARGSME,79,1.0
+Baseline Api,ARGSME,78,0.699
+Baseline Api,ARGSME,77,0.543
+Baseline Api,ARGSME,76,1.0
+Baseline Api,ARGSME,75,0.796
+Baseline Api,ARGSME,74,0.485
+Baseline Api,ARGSME,73,0.342
+Baseline Api,ARGSME,72,0.786
+Baseline Api,ARGSME,71,0.0
+Baseline Api,ARGSME,70,1.0
+Baseline Api,ARGSME,69,1.0
+Baseline Api,ARGSME,67,0.532
+Baseline Api,ARGSME,66,0.915
+Baseline Api,ARGSME,65,0.553
+Baseline Api,ARGSME,64,0.607
+Baseline Api,ARGSME,63,0.308
+Baseline Api,ARGSME,62,0.316
+Baseline Api,ARGSME,61,0.842
+Baseline Api,ARGSME,60,0.0
+Baseline Api,ARGSME,59,0.704
+Baseline Api,ARGSME,56,0.927
+Baseline Api,ARGSME,55,0.17
+Baseline Api,ARGSME,54,0.869
+Baseline Api,ARGSME,53,0.0
+Baseline Api,ARGSME,52,0.319
+Baseline Api,ARGSME,51,0.339
+Luke Skywalker,luke-skywalker,100,0.339
+Luke Skywalker,luke-skywalker,99,1.0
+Luke Skywalker,luke-skywalker,98,1.0
+Luke Skywalker,luke-skywalker,97,0.5
+Luke Skywalker,luke-skywalker,96,0.415
+Luke Skywalker,luke-skywalker,95,1.0
+Luke Skywalker,luke-skywalker,94,0.927
+Luke Skywalker,luke-skywalker,93,0.446
+Luke Skywalker,luke-skywalker,92,0.397
+Luke Skywalker,luke-skywalker,91,0.869
+Luke Skywalker,luke-skywalker,90,0.308
+Luke Skywalker,luke-skywalker,89,0.604
+Luke Skywalker,luke-skywalker,88,0.658
+Luke Skywalker,luke-skywalker,87,0.277
+Luke Skywalker,luke-skywalker,86,1.0
+Luke Skywalker,luke-skywalker,85,0.861
+Luke Skywalker,luke-skywalker,84,1.0
+Luke Skywalker,luke-skywalker,83,1.0
+Luke Skywalker,luke-skywalker,82,0.32
+Luke Skywalker,luke-skywalker,81,1.0
+Luke Skywalker,luke-skywalker,80,0.786
+Luke Skywalker,luke-skywalker,79,0.692
+Luke Skywalker,luke-skywalker,78,0.17
+Luke Skywalker,luke-skywalker,77,0.277
+Luke Skywalker,luke-skywalker,76,1.0
+Luke Skywalker,luke-skywalker,75,0.323
+Luke Skywalker,luke-skywalker,74,0.934
+Luke Skywalker,luke-skywalker,73,0.577
+Luke Skywalker,luke-skywalker,72,1.0
+Luke Skywalker,luke-skywalker,71,0.507
+Luke Skywalker,luke-skywalker,70,0.692
+Luke Skywalker,luke-skywalker,69,1.0
+Luke Skywalker,luke-skywalker,68,0.604
+Luke Skywalker,luke-skywalker,67,0.481
+Luke Skywalker,luke-skywalker,66,0.699
+Luke Skywalker,luke-skywalker,65,0.073
+Luke Skywalker,luke-skywalker,64,1.0
+Luke Skywalker,luke-skywalker,63,0.65
+Luke Skywalker,luke-skywalker,62,0.869
+Luke Skywalker,luke-skywalker,61,0.639
+Luke Skywalker,luke-skywalker,60,0.0
+Luke Skywalker,luke-skywalker,59,0.743
+Luke Skywalker,luke-skywalker,58,0.553
+Luke Skywalker,luke-skywalker,57,0.869
+Luke Skywalker,luke-skywalker,56,1.0
+Luke Skywalker,luke-skywalker,55,1.0
+Luke Skywalker,luke-skywalker,54,0.214
+Luke Skywalker,luke-skywalker,53,0.412
+Luke Skywalker,luke-skywalker,52,0.861
+Luke Skywalker,luke-skywalker,51,0.277
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,100,0.704
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,99,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,98,0.808
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,97,0.573
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,96,0.33
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,95,0.934
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,94,0.85
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,93,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,92,0.504
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,91,0.769
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,90,0.327
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,89,0.704
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,88,0.43
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,87,0.386
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,86,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,85,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,84,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,82,0.066
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,80,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,79,0.692
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,78,0.509
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,77,0.893
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,75,0.158
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,74,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,73,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,72,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,70,0.723
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,68,0.647
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,67,0.746
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,66,0.597
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,65,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,64,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,63,0.604
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,62,0.723
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,61,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,60,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,59,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,58,0.47
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,57,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,56,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,54,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,53,0.131
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,52,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,51,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,100,0.713
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,99,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,98,0.915
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,97,0.5
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,96,0.415
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,95,0.861
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,94,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,93,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,92,0.504
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,91,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,90,0.497
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,89,0.481
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,88,0.43
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,87,0.342
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,86,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,85,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,84,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,82,0.192
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,80,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,79,0.692
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,78,0.214
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,77,0.509
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,75,0.107
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,74,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,73,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,72,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,71,0.861
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,70,0.743
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,68,0.28
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,67,0.746
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,66,0.662
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,65,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,64,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,63,0.827
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,62,0.723
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,61,0.673
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,60,0.427
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,59,0.934
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,58,0.553
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,57,0.827
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,56,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,54,0.17
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,53,0.131
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,52,0.784
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,51,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,100,0.757
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,99,0.869
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,98,0.915
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,97,0.5
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,96,0.403
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,95,0.861
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,94,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,93,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,92,0.504
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,91,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,90,0.497
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,89,0.481
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,88,0.43
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,87,0.32
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,86,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,85,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,84,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,82,0.192
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,81,0.869
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,80,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,79,0.692
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,78,0.287
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,77,0.509
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,75,0.17
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,74,0.765
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,73,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,72,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,71,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,70,0.808
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,68,0.212
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,67,0.746
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,66,0.662
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,65,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,64,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,63,0.762
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,62,0.869
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,61,0.735
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,60,0.427
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,59,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,58,0.553
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,57,0.808
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,56,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,54,0.17
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,53,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,52,0.769
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,51,0.786
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,100,0.704
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,99,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,98,0.808
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,97,0.573
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,96,0.33
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,95,0.934
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,94,0.85
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,93,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,92,0.504
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,91,0.784
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,90,0.265
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,89,0.681
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,88,0.43
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,87,0.386
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,86,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,85,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,84,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,82,0.066
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,80,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,79,0.692
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,78,0.509
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,77,0.893
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,75,0.15
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,74,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,73,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,72,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,70,0.723
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,68,0.647
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,67,0.746
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,66,0.597
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,65,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,64,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,63,0.604
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,62,0.723
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,61,0.765
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,60,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,59,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,58,0.47
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,57,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,56,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,54,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,53,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,52,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,51,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,100,0.713
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,99,0.869
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,98,0.915
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,97,0.5
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,96,0.415
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,95,0.861
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,94,0.927
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,93,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,92,0.504
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,91,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,90,0.497
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,89,0.481
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,88,0.43
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,87,0.32
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,86,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,85,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,84,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,82,0.192
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,80,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,79,0.692
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,78,0.28
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,77,0.509
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,75,0.107
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,74,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,73,0.83
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,72,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,71,0.861
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,70,0.808
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,68,0.28
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,67,0.746
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,66,0.662
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,65,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,64,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,63,0.827
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,62,0.723
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,61,0.673
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,60,0.427
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,59,0.934
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,58,0.553
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,57,0.82
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,56,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,54,0.17
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,53,0.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,52,0.784
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,51,0.83
+Blade,bladeGroupBM25Method1,100,0.339
+Blade,bladeGroupBM25Method1,99,0.869
+Blade,bladeGroupBM25Method1,98,0.214
+Blade,bladeGroupBM25Method1,97,0.893
+Blade,bladeGroupBM25Method1,96,0.541
+Blade,bladeGroupBM25Method1,95,0.107
+Blade,bladeGroupBM25Method1,94,1.0
+Blade,bladeGroupBM25Method1,93,0.661
+Blade,bladeGroupBM25Method1,92,0.397
+Blade,bladeGroupBM25Method1,91,0.277
+Blade,bladeGroupBM25Method1,90,0.927
+Blade,bladeGroupBM25Method1,89,0.158
+Blade,bladeGroupBM25Method1,88,0.497
+Blade,bladeGroupBM25Method1,87,0.254
+Blade,bladeGroupBM25Method1,86,0.83
+Blade,bladeGroupBM25Method1,85,0.83
+Blade,bladeGroupBM25Method1,84,0.869
+Blade,bladeGroupBM25Method1,83,0.786
+Blade,bladeGroupBM25Method1,82,0.681
+Blade,bladeGroupBM25Method1,81,0.915
+Blade,bladeGroupBM25Method1,80,0.553
+Blade,bladeGroupBM25Method1,79,0.861
+Blade,bladeGroupBM25Method1,78,0.384
+Blade,bladeGroupBM25Method1,77,0.915
+Blade,bladeGroupBM25Method1,76,1.0
+Blade,bladeGroupBM25Method1,75,0.243
+Blade,bladeGroupBM25Method1,74,0.655
+Blade,bladeGroupBM25Method1,73,0.427
+Blade,bladeGroupBM25Method1,72,0.83
+Blade,bladeGroupBM25Method1,71,1.0
+Blade,bladeGroupBM25Method1,70,0.934
+Blade,bladeGroupBM25Method1,69,0.723
+Blade,bladeGroupBM25Method1,68,0.0
+Blade,bladeGroupBM25Method1,67,0.842
+Blade,bladeGroupBM25Method1,66,0.614
+Blade,bladeGroupBM25Method1,65,0.316
+Blade,bladeGroupBM25Method1,64,0.788
+Blade,bladeGroupBM25Method1,63,0.107
+Blade,bladeGroupBM25Method1,62,0.43
+Blade,bladeGroupBM25Method1,61,0.735
+Blade,bladeGroupBM25Method1,60,0.0
+Blade,bladeGroupBM25Method1,59,0.82
+Blade,bladeGroupBM25Method1,58,0.723
+Blade,bladeGroupBM25Method1,57,0.723
+Blade,bladeGroupBM25Method1,56,1.0
+Blade,bladeGroupBM25Method1,55,0.934
+Blade,bladeGroupBM25Method1,54,0.684
+Blade,bladeGroupBM25Method1,53,0.0
+Blade,bladeGroupBM25Method1,52,0.512
+Blade,bladeGroupBM25Method1,51,0.0
+Blade,bladeGroupLMDirichlet,100,0.405
+Blade,bladeGroupLMDirichlet,99,0.869
+Blade,bladeGroupLMDirichlet,98,0.17
+Blade,bladeGroupLMDirichlet,97,0.543
+Blade,bladeGroupLMDirichlet,96,0.384
+Blade,bladeGroupLMDirichlet,95,0.17
+Blade,bladeGroupLMDirichlet,94,1.0
+Blade,bladeGroupLMDirichlet,93,0.786
+Blade,bladeGroupLMDirichlet,92,0.42
+Blade,bladeGroupLMDirichlet,91,0.277
+Blade,bladeGroupLMDirichlet,90,0.192
+Blade,bladeGroupLMDirichlet,89,0.0
+Blade,bladeGroupLMDirichlet,88,0.339
+Blade,bladeGroupLMDirichlet,87,0.277
+Blade,bladeGroupLMDirichlet,86,0.83
+Blade,bladeGroupLMDirichlet,85,0.934
+Blade,bladeGroupLMDirichlet,84,1.0
+Blade,bladeGroupLMDirichlet,83,1.0
+Blade,bladeGroupLMDirichlet,82,0.619
+Blade,bladeGroupLMDirichlet,81,0.381
+Blade,bladeGroupLMDirichlet,80,0.699
+Blade,bladeGroupLMDirichlet,79,0.915
+Blade,bladeGroupLMDirichlet,78,0.457
+Blade,bladeGroupLMDirichlet,77,0.915
+Blade,bladeGroupLMDirichlet,76,1.0
+Blade,bladeGroupLMDirichlet,75,0.243
+Blade,bladeGroupLMDirichlet,74,0.786
+Blade,bladeGroupLMDirichlet,73,0.427
+Blade,bladeGroupLMDirichlet,72,0.854
+Blade,bladeGroupLMDirichlet,71,1.0
+Blade,bladeGroupLMDirichlet,70,1.0
+Blade,bladeGroupLMDirichlet,69,1.0
+Blade,bladeGroupLMDirichlet,68,0.131
+Blade,bladeGroupLMDirichlet,67,0.757
+Blade,bladeGroupLMDirichlet,66,0.677
+Blade,bladeGroupLMDirichlet,65,0.131
+Blade,bladeGroupLMDirichlet,64,1.0
+Blade,bladeGroupLMDirichlet,63,0.534
+Blade,bladeGroupLMDirichlet,62,0.553
+Blade,bladeGroupLMDirichlet,61,0.519
+Blade,bladeGroupLMDirichlet,60,0.17
+Blade,bladeGroupLMDirichlet,59,0.573
+Blade,bladeGroupLMDirichlet,58,0.723
+Blade,bladeGroupLMDirichlet,57,0.711
+Blade,bladeGroupLMDirichlet,56,1.0
+Blade,bladeGroupLMDirichlet,55,0.861
+Blade,bladeGroupLMDirichlet,54,0.47
+Blade,bladeGroupLMDirichlet,53,0.0
+Blade,bladeGroupLMDirichlet,52,0.497
+Blade,bladeGroupLMDirichlet,51,0.0
+Blade,bladeGroupBM25Method2,100,0.0
+Blade,bladeGroupBM25Method2,99,0.869
+Blade,bladeGroupBM25Method2,98,0.214
+Blade,bladeGroupBM25Method2,97,0.893
+Blade,bladeGroupBM25Method2,96,0.541
+Blade,bladeGroupBM25Method2,95,1.0
+Blade,bladeGroupBM25Method2,94,1.0
+Blade,bladeGroupBM25Method2,93,0.699
+Blade,bladeGroupBM25Method2,92,0.397
+Blade,bladeGroupBM25Method2,91,0.277
+Blade,bladeGroupBM25Method2,90,0.927
+Blade,bladeGroupBM25Method2,89,0.0
+Blade,bladeGroupBM25Method2,88,0.338
+Blade,bladeGroupBM25Method2,87,0.254
+Blade,bladeGroupBM25Method2,86,0.83
+Blade,bladeGroupBM25Method2,85,0.915
+Blade,bladeGroupBM25Method2,84,0.684
+Blade,bladeGroupBM25Method2,83,0.786
+Blade,bladeGroupBM25Method2,82,0.0
+Blade,bladeGroupBM25Method2,81,1.0
+Blade,bladeGroupBM25Method2,80,0.0
+Blade,bladeGroupBM25Method2,79,0.861
+Blade,bladeGroupBM25Method2,78,0.0
+Blade,bladeGroupBM25Method2,77,0.915
+Blade,bladeGroupBM25Method2,76,0.934
+Blade,bladeGroupBM25Method2,75,0.243
+Blade,bladeGroupBM25Method2,74,0.0
+Blade,bladeGroupBM25Method2,73,0.427
+Blade,bladeGroupBM25Method2,72,0.869
+Blade,bladeGroupBM25Method2,71,1.0
+Blade,bladeGroupBM25Method2,70,0.83
+Blade,bladeGroupBM25Method2,69,0.723
+Blade,bladeGroupBM25Method2,68,0.0
+Blade,bladeGroupBM25Method2,67,0.0
+Blade,bladeGroupBM25Method2,66,0.0
+Blade,bladeGroupBM25Method2,65,0.316
+Blade,bladeGroupBM25Method2,64,0.788
+Blade,bladeGroupBM25Method2,63,0.427
+Blade,bladeGroupBM25Method2,62,0.43
+Blade,bladeGroupBM25Method2,61,0.384
+Blade,bladeGroupBM25Method2,60,0.0
+Blade,bladeGroupBM25Method2,59,0.82
+Blade,bladeGroupBM25Method2,58,0.723
+Blade,bladeGroupBM25Method2,57,0.49
+Blade,bladeGroupBM25Method2,56,1.0
+Blade,bladeGroupBM25Method2,55,0.934
+Blade,bladeGroupBM25Method2,54,0.684
+Blade,bladeGroupBM25Method2,53,0.0
+Blade,bladeGroupBM25Method2,52,0.0
+Blade,bladeGroupBM25Method2,51,0.808
+Palpatine,run,100,0.085
+Palpatine,run,99,0.83
+Palpatine,run,98,0.83
+Palpatine,run,97,0.415
+Palpatine,run,96,0.0
+Palpatine,run,95,0.146
+Palpatine,run,94,0.447
+Palpatine,run,93,0.277
+Palpatine,run,92,0.259
+Palpatine,run,91,0.0
+Palpatine,run,90,0.0
+Palpatine,run,89,0.235
+Palpatine,run,88,0.066
+Palpatine,run,87,0.18
+Palpatine,run,86,0.384
+Palpatine,run,85,0.066
+Palpatine,run,84,0.762
+Palpatine,run,83,0.869
+Palpatine,run,82,0.18
+Palpatine,run,81,0.17
+Palpatine,run,80,0.316
+Palpatine,run,79,0.746
+Palpatine,run,78,0.0
+Palpatine,run,77,0.915
+Palpatine,run,76,1.0
+Palpatine,run,75,0.361
+Palpatine,run,74,0.854
+Palpatine,run,73,0.231
+Palpatine,run,72,0.786
+Palpatine,run,71,0.374
+Palpatine,run,70,1.0
+Palpatine,run,69,0.661
+Palpatine,run,68,0.223
+Palpatine,run,67,0.765
+Palpatine,run,66,0.457
+Palpatine,run,65,0.0
+Palpatine,run,64,0.277
+Palpatine,run,63,0.541
+Palpatine,run,62,0.381
+Palpatine,run,61,0.488
+Palpatine,run,60,0.146
+Palpatine,run,59,0.066
+Palpatine,run,58,0.515
+Palpatine,run,57,0.374
+Palpatine,run,56,1.0
+Palpatine,run,55,0.893
+Palpatine,run,54,0.0
+Palpatine,run,53,0.0
+Palpatine,run,52,0.381
+Palpatine,run,51,0.0
+Asterix,run2021_Mixed_1.625_1.0_250,100,0.405
+Asterix,run2021_Mixed_1.625_1.0_250,99,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,98,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,97,0.743
+Asterix,run2021_Mixed_1.625_1.0_250,96,0.519
+Asterix,run2021_Mixed_1.625_1.0_250,95,0.854
+Asterix,run2021_Mixed_1.625_1.0_250,94,0.915
+Asterix,run2021_Mixed_1.625_1.0_250,93,0.927
+Asterix,run2021_Mixed_1.625_1.0_250,92,0.321
+Asterix,run2021_Mixed_1.625_1.0_250,91,0.681
+Asterix,run2021_Mixed_1.625_1.0_250,90,0.592
+Asterix,run2021_Mixed_1.625_1.0_250,89,0.311
+Asterix,run2021_Mixed_1.625_1.0_250,88,0.85
+Asterix,run2021_Mixed_1.625_1.0_250,87,0.246
+Asterix,run2021_Mixed_1.625_1.0_250,86,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,85,0.765
+Asterix,run2021_Mixed_1.625_1.0_250,84,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,83,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,82,0.415
+Asterix,run2021_Mixed_1.625_1.0_250,81,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,80,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,79,0.842
+Asterix,run2021_Mixed_1.625_1.0_250,78,0.469
+Asterix,run2021_Mixed_1.625_1.0_250,77,0.869
+Asterix,run2021_Mixed_1.625_1.0_250,76,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,75,0.381
+Asterix,run2021_Mixed_1.625_1.0_250,74,0.869
+Asterix,run2021_Mixed_1.625_1.0_250,73,0.512
+Asterix,run2021_Mixed_1.625_1.0_250,72,0.934
+Asterix,run2021_Mixed_1.625_1.0_250,71,0.553
+Asterix,run2021_Mixed_1.625_1.0_250,70,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,69,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,68,0.743
+Asterix,run2021_Mixed_1.625_1.0_250,67,0.585
+Asterix,run2021_Mixed_1.625_1.0_250,66,0.57
+Asterix,run2021_Mixed_1.625_1.0_250,65,0.107
+Asterix,run2021_Mixed_1.625_1.0_250,64,0.735
+Asterix,run2021_Mixed_1.625_1.0_250,63,0.735
+Asterix,run2021_Mixed_1.625_1.0_250,62,0.47
+Asterix,run2021_Mixed_1.625_1.0_250,61,0.723
+Asterix,run2021_Mixed_1.625_1.0_250,60,0.0
+Asterix,run2021_Mixed_1.625_1.0_250,59,0.65
+Asterix,run2021_Mixed_1.625_1.0_250,58,0.684
+Asterix,run2021_Mixed_1.625_1.0_250,57,0.701
+Asterix,run2021_Mixed_1.625_1.0_250,56,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,55,0.746
+Asterix,run2021_Mixed_1.625_1.0_250,54,0.36
+Asterix,run2021_Mixed_1.625_1.0_250,53,0.299
+Asterix,run2021_Mixed_1.625_1.0_250,52,0.574
+Asterix,run2021_Mixed_1.625_1.0_250,51,0.131
+Asterix,run2021_Mixed_1.375_1.0_250,100,0.405
+Asterix,run2021_Mixed_1.375_1.0_250,99,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,98,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,97,0.743
+Asterix,run2021_Mixed_1.375_1.0_250,96,0.49
+Asterix,run2021_Mixed_1.375_1.0_250,95,0.869
+Asterix,run2021_Mixed_1.375_1.0_250,94,0.85
+Asterix,run2021_Mixed_1.375_1.0_250,93,0.762
+Asterix,run2021_Mixed_1.375_1.0_250,92,0.397
+Asterix,run2021_Mixed_1.375_1.0_250,91,0.704
+Asterix,run2021_Mixed_1.375_1.0_250,90,0.616
+Asterix,run2021_Mixed_1.375_1.0_250,89,0.338
+Asterix,run2021_Mixed_1.375_1.0_250,88,0.82
+Asterix,run2021_Mixed_1.375_1.0_250,87,0.246
+Asterix,run2021_Mixed_1.375_1.0_250,86,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,85,0.746
+Asterix,run2021_Mixed_1.375_1.0_250,84,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,83,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,82,0.427
+Asterix,run2021_Mixed_1.375_1.0_250,81,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,80,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,79,0.777
+Asterix,run2021_Mixed_1.375_1.0_250,78,0.338
+Asterix,run2021_Mixed_1.375_1.0_250,77,0.47
+Asterix,run2021_Mixed_1.375_1.0_250,76,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,75,0.381
+Asterix,run2021_Mixed_1.375_1.0_250,74,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,73,0.424
+Asterix,run2021_Mixed_1.375_1.0_250,72,0.927
+Asterix,run2021_Mixed_1.375_1.0_250,71,0.689
+Asterix,run2021_Mixed_1.375_1.0_250,70,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,69,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,68,0.743
+Asterix,run2021_Mixed_1.375_1.0_250,67,0.65
+Asterix,run2021_Mixed_1.375_1.0_250,66,0.701
+Asterix,run2021_Mixed_1.375_1.0_250,65,0.107
+Asterix,run2021_Mixed_1.375_1.0_250,64,0.777
+Asterix,run2021_Mixed_1.375_1.0_250,63,0.735
+Asterix,run2021_Mixed_1.375_1.0_250,62,0.64
+Asterix,run2021_Mixed_1.375_1.0_250,61,0.723
+Asterix,run2021_Mixed_1.375_1.0_250,60,0.0
+Asterix,run2021_Mixed_1.375_1.0_250,59,0.673
+Asterix,run2021_Mixed_1.375_1.0_250,58,0.553
+Asterix,run2021_Mixed_1.375_1.0_250,57,0.555
+Asterix,run2021_Mixed_1.375_1.0_250,56,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,55,0.746
+Asterix,run2021_Mixed_1.375_1.0_250,54,0.345
+Asterix,run2021_Mixed_1.375_1.0_250,53,0.299
+Asterix,run2021_Mixed_1.375_1.0_250,52,0.72
+Asterix,run2021_Mixed_1.375_1.0_250,51,0.131
+Asterix,run2021_Baseline_BM25,100,0.339
+Asterix,run2021_Baseline_BM25,99,0.854
+Asterix,run2021_Baseline_BM25,98,0.553
+Asterix,run2021_Baseline_BM25,97,0.673
+Asterix,run2021_Baseline_BM25,96,0.384
+Asterix,run2021_Baseline_BM25,95,0.0
+Asterix,run2021_Baseline_BM25,94,1.0
+Asterix,run2021_Baseline_BM25,93,0.699
+Asterix,run2021_Baseline_BM25,92,0.321
+Asterix,run2021_Baseline_BM25,91,0.563
+Asterix,run2021_Baseline_BM25,90,0.445
+Asterix,run2021_Baseline_BM25,89,0.289
+Asterix,run2021_Baseline_BM25,88,0.509
+Asterix,run2021_Baseline_BM25,87,0.478
+Asterix,run2021_Baseline_BM25,86,0.85
+Asterix,run2021_Baseline_BM25,85,0.83
+Asterix,run2021_Baseline_BM25,84,0.723
+Asterix,run2021_Baseline_BM25,83,0.684
+Asterix,run2021_Baseline_BM25,82,0.746
+Asterix,run2021_Baseline_BM25,81,0.604
+Asterix,run2021_Baseline_BM25,80,0.345
+Asterix,run2021_Baseline_BM25,79,0.893
+Asterix,run2021_Baseline_BM25,78,0.554
+Asterix,run2021_Baseline_BM25,77,1.0
+Asterix,run2021_Baseline_BM25,76,0.927
+Asterix,run2021_Baseline_BM25,75,0.374
+Asterix,run2021_Baseline_BM25,74,0.64
+Asterix,run2021_Baseline_BM25,73,0.192
+Asterix,run2021_Baseline_BM25,72,0.786
+Asterix,run2021_Baseline_BM25,71,0.316
+Asterix,run2021_Baseline_BM25,70,0.57
+Asterix,run2021_Baseline_BM25,69,1.0
+Asterix,run2021_Baseline_BM25,68,0.457
+Asterix,run2021_Baseline_BM25,67,0.519
+Asterix,run2021_Baseline_BM25,66,0.576
+Asterix,run2021_Baseline_BM25,65,0.17
+Asterix,run2021_Baseline_BM25,64,0.573
+Asterix,run2021_Baseline_BM25,63,0.597
+Asterix,run2021_Baseline_BM25,62,0.316
+Asterix,run2021_Baseline_BM25,61,1.0
+Asterix,run2021_Baseline_BM25,60,0.0
+Asterix,run2021_Baseline_BM25,59,0.434
+Asterix,run2021_Baseline_BM25,58,0.723
+Asterix,run2021_Baseline_BM25,57,0.628
+Asterix,run2021_Baseline_BM25,56,0.83
+Asterix,run2021_Baseline_BM25,55,0.585
+Asterix,run2021_Baseline_BM25,54,0.655
+Asterix,run2021_Baseline_BM25,53,0.146
+Asterix,run2021_Baseline_BM25,52,0.381
+Asterix,run2021_Baseline_BM25,51,0.339
+Asterix,run2021_Mixed_1.5_1.0_250,100,0.405
+Asterix,run2021_Mixed_1.5_1.0_250,99,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,98,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,97,0.743
+Asterix,run2021_Mixed_1.5_1.0_250,96,0.512
+Asterix,run2021_Mixed_1.5_1.0_250,95,0.854
+Asterix,run2021_Mixed_1.5_1.0_250,94,0.85
+Asterix,run2021_Mixed_1.5_1.0_250,93,0.893
+Asterix,run2021_Mixed_1.5_1.0_250,92,0.397
+Asterix,run2021_Mixed_1.5_1.0_250,91,0.681
+Asterix,run2021_Mixed_1.5_1.0_250,90,0.592
+Asterix,run2021_Mixed_1.5_1.0_250,89,0.323
+Asterix,run2021_Mixed_1.5_1.0_250,88,0.82
+Asterix,run2021_Mixed_1.5_1.0_250,87,0.246
+Asterix,run2021_Mixed_1.5_1.0_250,86,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,85,0.757
+Asterix,run2021_Mixed_1.5_1.0_250,84,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,83,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,82,0.415
+Asterix,run2021_Mixed_1.5_1.0_250,81,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,80,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,79,0.777
+Asterix,run2021_Mixed_1.5_1.0_250,78,0.338
+Asterix,run2021_Mixed_1.5_1.0_250,77,0.786
+Asterix,run2021_Mixed_1.5_1.0_250,76,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,75,0.381
+Asterix,run2021_Mixed_1.5_1.0_250,74,0.869
+Asterix,run2021_Mixed_1.5_1.0_250,73,0.512
+Asterix,run2021_Mixed_1.5_1.0_250,72,0.934
+Asterix,run2021_Mixed_1.5_1.0_250,71,0.692
+Asterix,run2021_Mixed_1.5_1.0_250,70,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,69,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,68,0.743
+Asterix,run2021_Mixed_1.5_1.0_250,67,0.65
+Asterix,run2021_Mixed_1.5_1.0_250,66,0.57
+Asterix,run2021_Mixed_1.5_1.0_250,65,0.107
+Asterix,run2021_Mixed_1.5_1.0_250,64,0.754
+Asterix,run2021_Mixed_1.5_1.0_250,63,0.735
+Asterix,run2021_Mixed_1.5_1.0_250,62,0.509
+Asterix,run2021_Mixed_1.5_1.0_250,61,0.723
+Asterix,run2021_Mixed_1.5_1.0_250,60,0.0
+Asterix,run2021_Mixed_1.5_1.0_250,59,0.673
+Asterix,run2021_Mixed_1.5_1.0_250,58,0.553
+Asterix,run2021_Mixed_1.5_1.0_250,57,0.555
+Asterix,run2021_Mixed_1.5_1.0_250,56,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,55,0.746
+Asterix,run2021_Mixed_1.5_1.0_250,54,0.345
+Asterix,run2021_Mixed_1.5_1.0_250,53,0.299
+Asterix,run2021_Mixed_1.5_1.0_250,52,0.574
+Asterix,run2021_Mixed_1.5_1.0_250,51,0.131
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,100,0.339
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,99,0.83
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,98,0.927
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,97,0.639
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,96,0.4
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,95,0.699
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,94,0.934
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,93,0.626
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,92,0.321
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,91,0.747
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,90,0.57
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,89,0.574
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,88,0.82
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,87,0.327
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,86,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,85,0.927
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,84,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,83,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,82,0.507
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,81,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,80,0.854
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,79,0.68
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,78,0.35
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,77,0.869
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,76,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,75,0.238
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,74,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,73,0.519
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,72,0.915
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,71,0.723
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,70,0.927
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,69,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,68,0.735
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,67,0.566
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,66,0.57
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,65,0.107
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,64,0.743
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,63,0.673
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,62,0.47
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,61,0.68
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,60,0.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,59,0.585
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,58,0.699
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,57,0.582
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,56,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,55,0.765
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,54,0.146
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,53,0.424
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,52,0.684
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,51,0.146
+Hua Mulan,args_naiveexpansion_0,100,0.146
+Hua Mulan,args_naiveexpansion_0,99,0.83
+Hua Mulan,args_naiveexpansion_0,98,0.915
+Hua Mulan,args_naiveexpansion_0,97,0.65
+Hua Mulan,args_naiveexpansion_0,96,0.342
+Hua Mulan,args_naiveexpansion_0,95,0.861
+Hua Mulan,args_naiveexpansion_0,94,1.0
+Hua Mulan,args_naiveexpansion_0,93,0.746
+Hua Mulan,args_naiveexpansion_0,92,0.321
+Hua Mulan,args_naiveexpansion_0,91,0.754
+Hua Mulan,args_naiveexpansion_0,90,0.301
+Hua Mulan,args_naiveexpansion_0,89,0.437
+Hua Mulan,args_naiveexpansion_0,88,0.713
+Hua Mulan,args_naiveexpansion_0,87,0.277
+Hua Mulan,args_naiveexpansion_0,86,0.582
+Hua Mulan,args_naiveexpansion_0,85,0.723
+Hua Mulan,args_naiveexpansion_0,84,1.0
+Hua Mulan,args_naiveexpansion_0,83,1.0
+Hua Mulan,args_naiveexpansion_0,82,0.585
+Hua Mulan,args_naiveexpansion_0,81,1.0
+Hua Mulan,args_naiveexpansion_0,80,0.616
+Hua Mulan,args_naiveexpansion_0,79,0.893
+Hua Mulan,args_naiveexpansion_0,78,0.146
+Hua Mulan,args_naiveexpansion_0,77,0.277
+Hua Mulan,args_naiveexpansion_0,76,1.0
+Hua Mulan,args_naiveexpansion_0,75,0.403
+Hua Mulan,args_naiveexpansion_0,74,0.786
+Hua Mulan,args_naiveexpansion_0,73,0.446
+Hua Mulan,args_naiveexpansion_0,72,1.0
+Hua Mulan,args_naiveexpansion_0,71,0.754
+Hua Mulan,args_naiveexpansion_0,70,0.827
+Hua Mulan,args_naiveexpansion_0,69,1.0
+Hua Mulan,args_naiveexpansion_0,68,0.35
+Hua Mulan,args_naiveexpansion_0,67,0.757
+Hua Mulan,args_naiveexpansion_0,66,0.588
+Hua Mulan,args_naiveexpansion_0,65,0.073
+Hua Mulan,args_naiveexpansion_0,64,1.0
+Hua Mulan,args_naiveexpansion_0,63,0.67
+Hua Mulan,args_naiveexpansion_0,62,0.553
+Hua Mulan,args_naiveexpansion_0,61,0.493
+Hua Mulan,args_naiveexpansion_0,60,0.0
+Hua Mulan,args_naiveexpansion_0,59,0.68
+Hua Mulan,args_naiveexpansion_0,58,0.684
+Hua Mulan,args_naiveexpansion_0,57,0.786
+Hua Mulan,args_naiveexpansion_0,56,1.0
+Hua Mulan,args_naiveexpansion_0,55,0.723
+Hua Mulan,args_naiveexpansion_0,54,0.0
+Hua Mulan,args_naiveexpansion_0,53,0.17
+Hua Mulan,args_naiveexpansion_0,52,0.701
+Hua Mulan,args_naiveexpansion_0,51,0.277
+Hua Mulan,args_t5expansion_0,100,0.53
+Hua Mulan,args_t5expansion_0,99,0.485
+Hua Mulan,args_t5expansion_0,98,0.788
+Hua Mulan,args_t5expansion_0,97,0.65
+Hua Mulan,args_t5expansion_0,96,0.131
+Hua Mulan,args_t5expansion_0,95,0.0
+Hua Mulan,args_t5expansion_0,94,1.0
+Hua Mulan,args_t5expansion_0,93,0.893
+Hua Mulan,args_t5expansion_0,92,0.321
+Hua Mulan,args_t5expansion_0,91,0.131
+Hua Mulan,args_t5expansion_0,90,0.493
+Hua Mulan,args_t5expansion_0,89,0.308
+Hua Mulan,args_t5expansion_0,88,0.364
+Hua Mulan,args_t5expansion_0,87,0.408
+Hua Mulan,args_t5expansion_0,86,0.316
+Hua Mulan,args_t5expansion_0,85,0.53
+Hua Mulan,args_t5expansion_0,84,1.0
+Hua Mulan,args_t5expansion_0,83,0.47
+Hua Mulan,args_t5expansion_0,82,0.754
+Hua Mulan,args_t5expansion_0,81,0.786
+Hua Mulan,args_t5expansion_0,80,0.723
+Hua Mulan,args_t5expansion_0,79,0.808
+Hua Mulan,args_t5expansion_0,78,0.342
+Hua Mulan,args_t5expansion_0,77,0.073
+Hua Mulan,args_t5expansion_0,76,1.0
+Hua Mulan,args_t5expansion_0,75,0.661
+Hua Mulan,args_t5expansion_0,74,0.485
+Hua Mulan,args_t5expansion_0,73,0.18
+Hua Mulan,args_t5expansion_0,72,0.345
+Hua Mulan,args_t5expansion_0,71,0.131
+Hua Mulan,args_t5expansion_0,70,1.0
+Hua Mulan,args_t5expansion_0,69,1.0
+Hua Mulan,args_t5expansion_0,68,0.469
+Hua Mulan,args_t5expansion_0,67,0.457
+Hua Mulan,args_t5expansion_0,66,0.83
+Hua Mulan,args_t5expansion_0,65,0.073
+Hua Mulan,args_t5expansion_0,64,0.073
+Hua Mulan,args_t5expansion_0,63,0.735
+Hua Mulan,args_t5expansion_0,62,0.339
+Hua Mulan,args_t5expansion_0,61,0.83
+Hua Mulan,args_t5expansion_0,60,0.107
+Hua Mulan,args_t5expansion_0,59,0.6
+Hua Mulan,args_t5expansion_0,58,0.64
+Hua Mulan,args_t5expansion_0,57,0.692
+Hua Mulan,args_t5expansion_0,56,1.0
+Hua Mulan,args_t5expansion_0,55,0.723
+Hua Mulan,args_t5expansion_0,54,0.424
+Hua Mulan,args_t5expansion_0,53,0.146
+Hua Mulan,args_t5expansion_0,52,0.139
+Hua Mulan,args_t5expansion_0,51,0.277
+Hua Mulan,args_gpt2expansion_0,100,0.339
+Hua Mulan,args_gpt2expansion_0,99,0.723
+Hua Mulan,args_gpt2expansion_0,98,0.83
+Hua Mulan,args_gpt2expansion_0,97,0.639
+Hua Mulan,args_gpt2expansion_0,96,0.412
+Hua Mulan,args_gpt2expansion_0,95,0.934
+Hua Mulan,args_gpt2expansion_0,94,1.0
+Hua Mulan,args_gpt2expansion_0,93,0.808
+Hua Mulan,args_gpt2expansion_0,92,0.321
+Hua Mulan,args_gpt2expansion_0,91,0.723
+Hua Mulan,args_gpt2expansion_0,90,0.381
+Hua Mulan,args_gpt2expansion_0,89,0.437
+Hua Mulan,args_gpt2expansion_0,88,0.777
+Hua Mulan,args_gpt2expansion_0,87,0.277
+Hua Mulan,args_gpt2expansion_0,86,0.934
+Hua Mulan,args_gpt2expansion_0,85,0.723
+Hua Mulan,args_gpt2expansion_0,84,1.0
+Hua Mulan,args_gpt2expansion_0,83,1.0
+Hua Mulan,args_gpt2expansion_0,82,0.519
+Hua Mulan,args_gpt2expansion_0,81,1.0
+Hua Mulan,args_gpt2expansion_0,80,0.83
+Hua Mulan,args_gpt2expansion_0,79,0.827
+Hua Mulan,args_gpt2expansion_0,78,0.0
+Hua Mulan,args_gpt2expansion_0,77,0.073
+Hua Mulan,args_gpt2expansion_0,76,1.0
+Hua Mulan,args_gpt2expansion_0,75,0.469
+Hua Mulan,args_gpt2expansion_0,74,0.796
+Hua Mulan,args_gpt2expansion_0,73,0.6
+Hua Mulan,args_gpt2expansion_0,72,1.0
+Hua Mulan,args_gpt2expansion_0,71,0.522
+Hua Mulan,args_gpt2expansion_0,70,0.827
+Hua Mulan,args_gpt2expansion_0,69,1.0
+Hua Mulan,args_gpt2expansion_0,68,0.35
+Hua Mulan,args_gpt2expansion_0,67,0.757
+Hua Mulan,args_gpt2expansion_0,66,0.765
+Hua Mulan,args_gpt2expansion_0,65,0.0
+Hua Mulan,args_gpt2expansion_0,64,1.0
+Hua Mulan,args_gpt2expansion_0,63,0.607
+Hua Mulan,args_gpt2expansion_0,62,0.509
+Hua Mulan,args_gpt2expansion_0,61,0.507
+Hua Mulan,args_gpt2expansion_0,60,0.0
+Hua Mulan,args_gpt2expansion_0,59,0.68
+Hua Mulan,args_gpt2expansion_0,58,0.485
+Hua Mulan,args_gpt2expansion_0,57,0.713
+Hua Mulan,args_gpt2expansion_0,56,1.0
+Hua Mulan,args_gpt2expansion_0,55,0.723
+Hua Mulan,args_gpt2expansion_0,54,0.17
+Hua Mulan,args_gpt2expansion_0,53,0.146
+Hua Mulan,args_gpt2expansion_0,52,0.701
+Hua Mulan,args_gpt2expansion_0,51,0.0
+Shanks,multi-2,100,0.339
+Shanks,multi-2,99,0.854
+Shanks,multi-2,98,0.869
+Shanks,multi-2,97,0.757
+Shanks,multi-2,96,0.607
+Shanks,multi-2,95,0.0
+Shanks,multi-2,94,1.0
+Shanks,multi-2,93,0.869
+Shanks,multi-2,92,0.273
+Shanks,multi-2,91,0.628
+Shanks,multi-2,90,0.765
+Shanks,multi-2,89,0.723
+Shanks,multi-2,88,0.131
+Shanks,multi-2,87,0.478
+Shanks,multi-2,86,0.777
+Shanks,multi-2,85,0.515
+Shanks,multi-2,84,0.927
+Shanks,multi-2,83,0.786
+Shanks,multi-2,82,0.757
+Shanks,multi-2,81,0.777
+Shanks,multi-2,80,0.661
+Shanks,multi-2,79,0.927
+Shanks,multi-2,78,0.488
+Shanks,multi-2,77,0.934
+Shanks,multi-2,76,1.0
+Shanks,multi-2,75,0.0
+Shanks,multi-2,74,0.339
+Shanks,multi-2,73,0.35
+Shanks,multi-2,72,0.869
+Shanks,multi-2,71,0.0
+Shanks,multi-2,70,0.681
+Shanks,multi-2,69,0.485
+Shanks,multi-2,68,0.49
+Shanks,multi-2,67,0.723
+Shanks,multi-2,66,0.83
+Shanks,multi-2,65,0.066
+Shanks,multi-2,64,0.585
+Shanks,multi-2,63,0.066
+Shanks,multi-2,62,0.0
+Shanks,multi-2,61,0.83
+Shanks,multi-2,60,0.0
+Shanks,multi-2,59,0.915
+Shanks,multi-2,58,0.796
+Shanks,multi-2,57,0.827
+Shanks,multi-2,56,1.0
+Shanks,multi-2,55,0.927
+Shanks,multi-2,54,0.616
+Shanks,multi-2,53,0.405
+Shanks,multi-2,52,0.405
+Shanks,multi-2,51,0.214
+Shanks,multi-1,100,0.47
+Shanks,multi-1,99,0.854
+Shanks,multi-1,98,0.869
+Shanks,multi-1,97,0.746
+Shanks,multi-1,96,0.607
+Shanks,multi-1,95,0.0
+Shanks,multi-1,94,0.869
+Shanks,multi-1,93,0.869
+Shanks,multi-1,92,0.273
+Shanks,multi-1,91,0.628
+Shanks,multi-1,90,0.746
+Shanks,multi-1,89,0.65
+Shanks,multi-1,88,0.0
+Shanks,multi-1,87,0.466
+Shanks,multi-1,86,0.777
+Shanks,multi-1,85,0.515
+Shanks,multi-1,84,0.861
+Shanks,multi-1,83,0.83
+Shanks,multi-1,82,0.723
+Shanks,multi-1,81,0.754
+Shanks,multi-1,80,0.661
+Shanks,multi-1,79,0.927
+Shanks,multi-1,78,0.423
+Shanks,multi-1,77,1.0
+Shanks,multi-1,76,1.0
+Shanks,multi-1,75,0.0
+Shanks,multi-1,74,0.339
+Shanks,multi-1,73,0.35
+Shanks,multi-1,72,0.869
+Shanks,multi-1,71,0.0
+Shanks,multi-1,70,0.689
+Shanks,multi-1,69,0.699
+Shanks,multi-1,68,0.478
+Shanks,multi-1,67,0.723
+Shanks,multi-1,66,0.786
+Shanks,multi-1,65,0.085
+Shanks,multi-1,64,0.585
+Shanks,multi-1,63,0.107
+Shanks,multi-1,62,0.0
+Shanks,multi-1,61,0.83
+Shanks,multi-1,60,0.0
+Shanks,multi-1,59,0.915
+Shanks,multi-1,58,0.796
+Shanks,multi-1,57,0.808
+Shanks,multi-1,56,1.0
+Shanks,multi-1,55,0.927
+Shanks,multi-1,54,0.684
+Shanks,multi-1,53,0.28
+Shanks,multi-1,52,0.405
+Shanks,multi-1,51,0.485
+Shanks,re-rank1,100,0.412
+Shanks,re-rank1,99,0.869
+Shanks,re-rank1,98,1.0
+Shanks,re-rank1,97,0.639
+Shanks,re-rank1,96,0.405
+Shanks,re-rank1,95,0.212
+Shanks,re-rank1,94,1.0
+Shanks,re-rank1,93,0.85
+Shanks,re-rank1,92,0.273
+Shanks,re-rank1,91,0.689
+Shanks,re-rank1,90,0.595
+Shanks,re-rank1,89,0.481
+Shanks,re-rank1,88,0.861
+Shanks,re-rank1,87,0.32
+Shanks,re-rank1,86,0.915
+Shanks,re-rank1,85,0.757
+Shanks,re-rank1,84,1.0
+Shanks,re-rank1,83,1.0
+Shanks,re-rank1,82,0.35
+Shanks,re-rank1,81,1.0
+Shanks,re-rank1,80,0.699
+Shanks,re-rank1,79,0.82
+Shanks,re-rank1,78,0.277
+Shanks,re-rank1,77,0.934
+Shanks,re-rank1,76,1.0
+Shanks,re-rank1,75,0.254
+Shanks,re-rank1,74,0.485
+Shanks,re-rank1,73,0.277
+Shanks,re-rank1,72,1.0
+Shanks,re-rank1,71,0.869
+Shanks,re-rank1,70,0.85
+Shanks,re-rank1,69,0.661
+Shanks,re-rank1,68,0.555
+Shanks,re-rank1,67,0.68
+Shanks,re-rank1,66,0.647
+Shanks,re-rank1,65,0.073
+Shanks,re-rank1,64,0.658
+Shanks,re-rank1,63,0.639
+Shanks,re-rank1,62,0.277
+Shanks,re-rank1,61,0.699
+Shanks,re-rank1,60,0.0
+Shanks,re-rank1,59,0.861
+Shanks,re-rank1,58,0.699
+Shanks,re-rank1,57,0.85
+Shanks,re-rank1,56,1.0
+Shanks,re-rank1,55,1.0
+Shanks,re-rank1,54,0.339
+Shanks,re-rank1,53,0.412
+Shanks,re-rank1,52,0.519
+Shanks,re-rank1,51,0.0
+Shanks,LMDSimilarity,100,0.412
+Shanks,LMDSimilarity,99,0.869
+Shanks,LMDSimilarity,98,1.0
+Shanks,LMDSimilarity,97,0.639
+Shanks,LMDSimilarity,96,0.405
+Shanks,LMDSimilarity,95,0.212
+Shanks,LMDSimilarity,94,1.0
+Shanks,LMDSimilarity,93,0.85
+Shanks,LMDSimilarity,92,0.273
+Shanks,LMDSimilarity,91,0.689
+Shanks,LMDSimilarity,90,0.595
+Shanks,LMDSimilarity,89,0.481
+Shanks,LMDSimilarity,88,0.861
+Shanks,LMDSimilarity,87,0.32
+Shanks,LMDSimilarity,86,0.915
+Shanks,LMDSimilarity,85,0.757
+Shanks,LMDSimilarity,84,1.0
+Shanks,LMDSimilarity,83,1.0
+Shanks,LMDSimilarity,82,0.35
+Shanks,LMDSimilarity,81,1.0
+Shanks,LMDSimilarity,80,0.699
+Shanks,LMDSimilarity,79,0.82
+Shanks,LMDSimilarity,78,0.277
+Shanks,LMDSimilarity,77,0.934
+Shanks,LMDSimilarity,76,1.0
+Shanks,LMDSimilarity,75,0.254
+Shanks,LMDSimilarity,74,0.485
+Shanks,LMDSimilarity,73,0.277
+Shanks,LMDSimilarity,72,1.0
+Shanks,LMDSimilarity,71,0.869
+Shanks,LMDSimilarity,70,0.85
+Shanks,LMDSimilarity,69,0.661
+Shanks,LMDSimilarity,68,0.555
+Shanks,LMDSimilarity,67,0.68
+Shanks,LMDSimilarity,66,0.647
+Shanks,LMDSimilarity,65,0.073
+Shanks,LMDSimilarity,64,0.658
+Shanks,LMDSimilarity,63,0.639
+Shanks,LMDSimilarity,62,0.277
+Shanks,LMDSimilarity,61,0.699
+Shanks,LMDSimilarity,60,0.0
+Shanks,LMDSimilarity,59,0.861
+Shanks,LMDSimilarity,58,0.699
+Shanks,LMDSimilarity,57,0.85
+Shanks,LMDSimilarity,56,1.0
+Shanks,LMDSimilarity,55,1.0
+Shanks,LMDSimilarity,54,0.339
+Shanks,LMDSimilarity,53,0.412
+Shanks,LMDSimilarity,52,0.519
+Shanks,LMDSimilarity,51,0.0
+Shanks,re-rank2,100,0.412
+Shanks,re-rank2,99,0.869
+Shanks,re-rank2,98,1.0
+Shanks,re-rank2,97,0.639
+Shanks,re-rank2,96,0.4
+Shanks,re-rank2,95,0.701
+Shanks,re-rank2,94,1.0
+Shanks,re-rank2,93,0.827
+Shanks,re-rank2,92,0.273
+Shanks,re-rank2,91,0.689
+Shanks,re-rank2,90,0.595
+Shanks,re-rank2,89,0.481
+Shanks,re-rank2,88,0.85
+Shanks,re-rank2,87,0.32
+Shanks,re-rank2,86,0.915
+Shanks,re-rank2,85,0.746
+Shanks,re-rank2,84,1.0
+Shanks,re-rank2,83,1.0
+Shanks,re-rank2,82,0.35
+Shanks,re-rank2,81,0.869
+Shanks,re-rank2,80,0.699
+Shanks,re-rank2,79,0.82
+Shanks,re-rank2,78,0.277
+Shanks,re-rank2,77,0.934
+Shanks,re-rank2,76,1.0
+Shanks,re-rank2,75,0.254
+Shanks,re-rank2,74,0.509
+Shanks,re-rank2,73,0.408
+Shanks,re-rank2,72,1.0
+Shanks,re-rank2,71,0.765
+Shanks,re-rank2,70,0.85
+Shanks,re-rank2,69,0.661
+Shanks,re-rank2,68,0.555
+Shanks,re-rank2,67,0.68
+Shanks,re-rank2,66,0.647
+Shanks,re-rank2,65,0.073
+Shanks,re-rank2,64,1.0
+Shanks,re-rank2,63,0.607
+Shanks,re-rank2,62,0.277
+Shanks,re-rank2,61,0.661
+Shanks,re-rank2,60,0.0
+Shanks,re-rank2,59,0.915
+Shanks,re-rank2,58,0.64
+Shanks,re-rank2,57,0.607
+Shanks,re-rank2,56,1.0
+Shanks,re-rank2,55,1.0
+Shanks,re-rank2,54,0.146
+Shanks,re-rank2,53,0.424
+Shanks,re-rank2,52,0.681
+Shanks,re-rank2,51,0.582
+Athos,uh-t1-athos-lucenetfidf,100,0.339
+Athos,uh-t1-athos-lucenetfidf,99,0.869
+Athos,uh-t1-athos-lucenetfidf,98,0.893
+Athos,uh-t1-athos-lucenetfidf,97,0.639
+Athos,uh-t1-athos-lucenetfidf,96,0.415
+Athos,uh-t1-athos-lucenetfidf,95,1.0
+Athos,uh-t1-athos-lucenetfidf,94,0.927
+Athos,uh-t1-athos-lucenetfidf,93,0.577
+Athos,uh-t1-athos-lucenetfidf,92,0.321
+Athos,uh-t1-athos-lucenetfidf,91,0.893
+Athos,uh-t1-athos-lucenetfidf,90,0.362
+Athos,uh-t1-athos-lucenetfidf,89,0.403
+Athos,uh-t1-athos-lucenetfidf,88,0.658
+Athos,uh-t1-athos-lucenetfidf,87,0.408
+Athos,uh-t1-athos-lucenetfidf,86,0.934
+Athos,uh-t1-athos-lucenetfidf,85,0.757
+Athos,uh-t1-athos-lucenetfidf,84,1.0
+Athos,uh-t1-athos-lucenetfidf,83,1.0
+Athos,uh-t1-athos-lucenetfidf,82,0.327
+Athos,uh-t1-athos-lucenetfidf,81,1.0
+Athos,uh-t1-athos-lucenetfidf,80,0.83
+Athos,uh-t1-athos-lucenetfidf,79,0.83
+Athos,uh-t1-athos-lucenetfidf,78,0.146
+Athos,uh-t1-athos-lucenetfidf,77,0.073
+Athos,uh-t1-athos-lucenetfidf,76,1.0
+Athos,uh-t1-athos-lucenetfidf,75,0.173
+Athos,uh-t1-athos-lucenetfidf,74,0.869
+Athos,uh-t1-athos-lucenetfidf,73,0.423
+Athos,uh-t1-athos-lucenetfidf,72,1.0
+Athos,uh-t1-athos-lucenetfidf,71,0.723
+Athos,uh-t1-athos-lucenetfidf,70,0.639
+Athos,uh-t1-athos-lucenetfidf,69,1.0
+Athos,uh-t1-athos-lucenetfidf,68,0.563
+Athos,uh-t1-athos-lucenetfidf,67,0.808
+Athos,uh-t1-athos-lucenetfidf,66,0.765
+Athos,uh-t1-athos-lucenetfidf,65,0.0
+Athos,uh-t1-athos-lucenetfidf,64,1.0
+Athos,uh-t1-athos-lucenetfidf,63,0.519
+Athos,uh-t1-athos-lucenetfidf,62,0.638
+Athos,uh-t1-athos-lucenetfidf,61,0.507
+Athos,uh-t1-athos-lucenetfidf,60,0.0
+Athos,uh-t1-athos-lucenetfidf,59,0.842
+Athos,uh-t1-athos-lucenetfidf,58,0.684
+Athos,uh-t1-athos-lucenetfidf,57,0.786
+Athos,uh-t1-athos-lucenetfidf,56,1.0
+Athos,uh-t1-athos-lucenetfidf,55,0.83
+Athos,uh-t1-athos-lucenetfidf,54,0.131
+Athos,uh-t1-athos-lucenetfidf,53,0.17
+Athos,uh-t1-athos-lucenetfidf,52,0.701
+Athos,uh-t1-athos-lucenetfidf,51,0.277
+Elrond,ElrondSimpleRun,100,0.339
+Elrond,ElrondSimpleRun,99,0.83
+Elrond,ElrondSimpleRun,98,0.723
+Elrond,ElrondSimpleRun,97,0.85
+Elrond,ElrondSimpleRun,96,0.469
+Elrond,ElrondSimpleRun,95,0.381
+Elrond,ElrondSimpleRun,94,1.0
+Elrond,ElrondSimpleRun,93,0.684
+Elrond,ElrondSimpleRun,92,0.397
+Elrond,ElrondSimpleRun,91,0.519
+Elrond,ElrondSimpleRun,90,0.582
+Elrond,ElrondSimpleRun,89,0.82
+Elrond,ElrondSimpleRun,88,0.638
+Elrond,ElrondSimpleRun,87,0.488
+Elrond,ElrondSimpleRun,86,0.927
+Elrond,ElrondSimpleRun,85,0.83
+Elrond,ElrondSimpleRun,84,0.934
+Elrond,ElrondSimpleRun,83,0.786
+Elrond,ElrondSimpleRun,82,0.243
+Elrond,ElrondSimpleRun,81,0.777
+Elrond,ElrondSimpleRun,80,0.146
+Elrond,ElrondSimpleRun,79,1.0
+Elrond,ElrondSimpleRun,78,0.765
+Elrond,ElrondSimpleRun,77,0.934
+Elrond,ElrondSimpleRun,76,1.0
+Elrond,ElrondSimpleRun,75,0.699
+Elrond,ElrondSimpleRun,74,0.869
+Elrond,ElrondSimpleRun,73,0.83
+Elrond,ElrondSimpleRun,72,0.83
+Elrond,ElrondSimpleRun,71,1.0
+Elrond,ElrondSimpleRun,70,1.0
+Elrond,ElrondSimpleRun,69,1.0
+Elrond,ElrondSimpleRun,68,0.51
+Elrond,ElrondSimpleRun,67,0.786
+Elrond,ElrondSimpleRun,66,0.588
+Elrond,ElrondSimpleRun,65,0.0
+Elrond,ElrondSimpleRun,64,1.0
+Elrond,ElrondSimpleRun,63,0.257
+Elrond,ElrondSimpleRun,62,0.339
+Elrond,ElrondSimpleRun,61,0.692
+Elrond,ElrondSimpleRun,60,0.107
+Elrond,ElrondSimpleRun,59,0.769
+Elrond,ElrondSimpleRun,58,0.788
+Elrond,ElrondSimpleRun,57,0.735
+Elrond,ElrondSimpleRun,56,0.893
+Elrond,ElrondSimpleRun,55,0.927
+Elrond,ElrondSimpleRun,54,0.723
+Elrond,ElrondSimpleRun,53,0.0
+Elrond,ElrondSimpleRun,52,0.381
+Elrond,ElrondSimpleRun,51,0.723
+Elrond,ElrondOpenNlpRun,100,0.405
+Elrond,ElrondOpenNlpRun,99,0.869
+Elrond,ElrondOpenNlpRun,98,0.842
+Elrond,ElrondOpenNlpRun,97,0.5
+Elrond,ElrondOpenNlpRun,96,0.607
+Elrond,ElrondOpenNlpRun,95,0.893
+Elrond,ElrondOpenNlpRun,94,1.0
+Elrond,ElrondOpenNlpRun,93,0.861
+Elrond,ElrondOpenNlpRun,92,0.321
+Elrond,ElrondOpenNlpRun,91,0.0
+Elrond,ElrondOpenNlpRun,90,0.405
+Elrond,ElrondOpenNlpRun,89,0.415
+Elrond,ElrondOpenNlpRun,88,0.747
+Elrond,ElrondOpenNlpRun,87,0.342
+Elrond,ElrondOpenNlpRun,86,0.934
+Elrond,ElrondOpenNlpRun,85,0.927
+Elrond,ElrondOpenNlpRun,84,0.893
+Elrond,ElrondOpenNlpRun,83,1.0
+Elrond,ElrondOpenNlpRun,82,0.257
+Elrond,ElrondOpenNlpRun,81,1.0
+Elrond,ElrondOpenNlpRun,80,0.893
+Elrond,ElrondOpenNlpRun,79,0.757
+Elrond,ElrondOpenNlpRun,78,0.0
+Elrond,ElrondOpenNlpRun,77,0.85
+Elrond,ElrondOpenNlpRun,76,1.0
+Elrond,ElrondOpenNlpRun,75,0.362
+Elrond,ElrondOpenNlpRun,74,0.927
+Elrond,ElrondOpenNlpRun,73,0.626
+Elrond,ElrondOpenNlpRun,72,1.0
+Elrond,ElrondOpenNlpRun,71,0.934
+Elrond,ElrondOpenNlpRun,70,1.0
+Elrond,ElrondOpenNlpRun,69,1.0
+Elrond,ElrondOpenNlpRun,68,0.0
+Elrond,ElrondOpenNlpRun,67,0.934
+Elrond,ElrondOpenNlpRun,66,0.854
+Elrond,ElrondOpenNlpRun,65,0.0
+Elrond,ElrondOpenNlpRun,64,1.0
+Elrond,ElrondOpenNlpRun,63,0.551
+Elrond,ElrondOpenNlpRun,62,0.673
+Elrond,ElrondOpenNlpRun,61,0.765
+Elrond,ElrondOpenNlpRun,60,0.085
+Elrond,ElrondOpenNlpRun,59,1.0
+Elrond,ElrondOpenNlpRun,58,0.699
+Elrond,ElrondOpenNlpRun,57,0.82
+Elrond,ElrondOpenNlpRun,56,1.0
+Elrond,ElrondOpenNlpRun,55,1.0
+Elrond,ElrondOpenNlpRun,54,0.0
+Elrond,ElrondOpenNlpRun,53,0.553
+Elrond,ElrondOpenNlpRun,52,0.662
+Elrond,ElrondOpenNlpRun,51,0.316
+Elrond,ElrondKRun,100,0.339
+Elrond,ElrondKRun,99,1.0
+Elrond,ElrondKRun,98,0.808
+Elrond,ElrondKRun,97,0.5
+Elrond,ElrondKRun,96,0.626
+Elrond,ElrondKRun,95,0.915
+Elrond,ElrondKRun,94,0.915
+Elrond,ElrondKRun,93,1.0
+Elrond,ElrondKRun,92,0.321
+Elrond,ElrondKRun,91,1.0
+Elrond,ElrondKRun,90,0.543
+Elrond,ElrondKRun,89,0.481
+Elrond,ElrondKRun,88,0.713
+Elrond,ElrondKRun,87,0.408
+Elrond,ElrondKRun,86,1.0
+Elrond,ElrondKRun,85,0.808
+Elrond,ElrondKRun,84,1.0
+Elrond,ElrondKRun,83,1.0
+Elrond,ElrondKRun,82,0.386
+Elrond,ElrondKRun,81,1.0
+Elrond,ElrondKRun,80,0.786
+Elrond,ElrondKRun,79,0.765
+Elrond,ElrondKRun,78,0.418
+Elrond,ElrondKRun,77,0.915
+Elrond,ElrondKRun,76,1.0
+Elrond,ElrondKRun,75,0.146
+Elrond,ElrondKRun,74,0.827
+Elrond,ElrondKRun,73,0.6
+Elrond,ElrondKRun,72,1.0
+Elrond,ElrondKRun,71,0.927
+Elrond,ElrondKRun,70,0.927
+Elrond,ElrondKRun,69,1.0
+Elrond,ElrondKRun,68,0.555
+Elrond,ElrondKRun,67,0.82
+Elrond,ElrondKRun,66,0.788
+Elrond,ElrondKRun,65,0.17
+Elrond,ElrondKRun,64,1.0
+Elrond,ElrondKRun,63,0.585
+Elrond,ElrondKRun,62,0.915
+Elrond,ElrondKRun,61,0.723
+Elrond,ElrondKRun,60,0.0
+Elrond,ElrondKRun,59,1.0
+Elrond,ElrondKRun,58,0.699
+Elrond,ElrondKRun,57,0.808
+Elrond,ElrondKRun,56,1.0
+Elrond,ElrondKRun,55,1.0
+Elrond,ElrondKRun,54,0.339
+Elrond,ElrondKRun,53,0.0
+Elrond,ElrondKRun,52,0.796
+Elrond,ElrondKRun,51,0.491
+Elrond,ElrondTaskBodyRun,100,0.339
+Elrond,ElrondTaskBodyRun,99,0.515
+Elrond,ElrondTaskBodyRun,98,0.934
+Elrond,ElrondTaskBodyRun,97,0.67
+Elrond,ElrondTaskBodyRun,96,0.614
+Elrond,ElrondTaskBodyRun,95,0.927
+Elrond,ElrondTaskBodyRun,94,1.0
+Elrond,ElrondTaskBodyRun,93,0.934
+Elrond,ElrondTaskBodyRun,92,0.384
+Elrond,ElrondTaskBodyRun,91,0.551
+Elrond,ElrondTaskBodyRun,90,0.82
+Elrond,ElrondTaskBodyRun,89,0.15
+Elrond,ElrondTaskBodyRun,88,0.36
+Elrond,ElrondTaskBodyRun,87,0.386
+Elrond,ElrondTaskBodyRun,86,0.808
+Elrond,ElrondTaskBodyRun,85,0.692
+Elrond,ElrondTaskBodyRun,84,0.934
+Elrond,ElrondTaskBodyRun,83,1.0
+Elrond,ElrondTaskBodyRun,82,0.4
+Elrond,ElrondTaskBodyRun,81,1.0
+Elrond,ElrondTaskBodyRun,80,0.83
+Elrond,ElrondTaskBodyRun,79,0.757
+Elrond,ElrondTaskBodyRun,78,0.319
+Elrond,ElrondTaskBodyRun,77,0.0
+Elrond,ElrondTaskBodyRun,76,1.0
+Elrond,ElrondTaskBodyRun,75,0.223
+Elrond,ElrondTaskBodyRun,74,0.72
+Elrond,ElrondTaskBodyRun,73,0.577
+Elrond,ElrondTaskBodyRun,72,1.0
+Elrond,ElrondTaskBodyRun,71,0.681
+Elrond,ElrondTaskBodyRun,70,0.854
+Elrond,ElrondTaskBodyRun,69,1.0
+Elrond,ElrondTaskBodyRun,68,0.299
+Elrond,ElrondTaskBodyRun,67,0.65
+Elrond,ElrondTaskBodyRun,66,0.762
+Elrond,ElrondTaskBodyRun,65,0.073
+Elrond,ElrondTaskBodyRun,64,1.0
+Elrond,ElrondTaskBodyRun,63,0.585
+Elrond,ElrondTaskBodyRun,62,0.214
+Elrond,ElrondTaskBodyRun,61,0.415
+Elrond,ElrondTaskBodyRun,60,0.0
+Elrond,ElrondTaskBodyRun,59,0.808
+Elrond,ElrondTaskBodyRun,58,0.509
+Elrond,ElrondTaskBodyRun,57,0.762
+Elrond,ElrondTaskBodyRun,56,1.0
+Elrond,ElrondTaskBodyRun,55,0.362
+Elrond,ElrondTaskBodyRun,54,0.485
+Elrond,ElrondTaskBodyRun,53,0.553
+Elrond,ElrondTaskBodyRun,52,0.412
+Elrond,ElrondTaskBodyRun,51,0.146
+Heimdall,argrank_r1_c10.0_q5.0,100,0.497
+Heimdall,argrank_r1_c10.0_q5.0,99,0.869
+Heimdall,argrank_r1_c10.0_q5.0,98,0.842
+Heimdall,argrank_r1_c10.0_q5.0,97,0.746
+Heimdall,argrank_r1_c10.0_q5.0,96,0.107
+Heimdall,argrank_r1_c10.0_q5.0,95,0.934
+Heimdall,argrank_r1_c10.0_q5.0,94,1.0
+Heimdall,argrank_r1_c10.0_q5.0,93,0.446
+Heimdall,argrank_r1_c10.0_q5.0,92,0.321
+Heimdall,argrank_r1_c10.0_q5.0,91,0.746
+Heimdall,argrank_r1_c10.0_q5.0,90,0.934
+Heimdall,argrank_r1_c10.0_q5.0,89,0.437
+Heimdall,argrank_r1_c10.0_q5.0,88,0.754
+Heimdall,argrank_r1_c10.0_q5.0,87,0.311
+Heimdall,argrank_r1_c10.0_q5.0,86,0.757
+Heimdall,argrank_r1_c10.0_q5.0,85,0.927
+Heimdall,argrank_r1_c10.0_q5.0,84,1.0
+Heimdall,argrank_r1_c10.0_q5.0,83,1.0
+Heimdall,argrank_r1_c10.0_q5.0,82,0.563
+Heimdall,argrank_r1_c10.0_q5.0,81,1.0
+Heimdall,argrank_r1_c10.0_q5.0,80,0.684
+Heimdall,argrank_r1_c10.0_q5.0,79,0.692
+Heimdall,argrank_r1_c10.0_q5.0,78,0.0
+Heimdall,argrank_r1_c10.0_q5.0,77,0.066
+Heimdall,argrank_r1_c10.0_q5.0,76,1.0
+Heimdall,argrank_r1_c10.0_q5.0,75,0.701
+Heimdall,argrank_r1_c10.0_q5.0,74,0.509
+Heimdall,argrank_r1_c10.0_q5.0,73,0.299
+Heimdall,argrank_r1_c10.0_q5.0,72,1.0
+Heimdall,argrank_r1_c10.0_q5.0,71,0.566
+Heimdall,argrank_r1_c10.0_q5.0,70,0.893
+Heimdall,argrank_r1_c10.0_q5.0,69,1.0
+Heimdall,argrank_r1_c10.0_q5.0,68,0.33
+Heimdall,argrank_r1_c10.0_q5.0,67,0.827
+Heimdall,argrank_r1_c10.0_q5.0,66,0.661
+Heimdall,argrank_r1_c10.0_q5.0,65,0.0
+Heimdall,argrank_r1_c10.0_q5.0,64,0.786
+Heimdall,argrank_r1_c10.0_q5.0,63,0.566
+Heimdall,argrank_r1_c10.0_q5.0,62,0.786
+Heimdall,argrank_r1_c10.0_q5.0,61,0.534
+Heimdall,argrank_r1_c10.0_q5.0,60,0.0
+Heimdall,argrank_r1_c10.0_q5.0,59,0.842
+Heimdall,argrank_r1_c10.0_q5.0,58,0.83
+Heimdall,argrank_r1_c10.0_q5.0,57,0.796
+Heimdall,argrank_r1_c10.0_q5.0,56,1.0
+Heimdall,argrank_r1_c10.0_q5.0,55,0.869
+Heimdall,argrank_r1_c10.0_q5.0,54,0.301
+Heimdall,argrank_r1_c10.0_q5.0,53,0.066
+Heimdall,argrank_r1_c10.0_q5.0,52,0.636
+Heimdall,argrank_r1_c10.0_q5.0,51,0.786
+Heimdall,argrank_r1_c5.0_q10.0,100,0.49
+Heimdall,argrank_r1_c5.0_q10.0,99,0.869
+Heimdall,argrank_r1_c5.0_q10.0,98,0.808
+Heimdall,argrank_r1_c5.0_q10.0,97,0.65
+Heimdall,argrank_r1_c5.0_q10.0,96,0.107
+Heimdall,argrank_r1_c5.0_q10.0,95,0.934
+Heimdall,argrank_r1_c5.0_q10.0,94,0.927
+Heimdall,argrank_r1_c5.0_q10.0,93,0.446
+Heimdall,argrank_r1_c5.0_q10.0,92,0.397
+Heimdall,argrank_r1_c5.0_q10.0,91,0.746
+Heimdall,argrank_r1_c5.0_q10.0,90,0.927
+Heimdall,argrank_r1_c5.0_q10.0,89,0.437
+Heimdall,argrank_r1_c5.0_q10.0,88,0.754
+Heimdall,argrank_r1_c5.0_q10.0,87,0.311
+Heimdall,argrank_r1_c5.0_q10.0,86,0.757
+Heimdall,argrank_r1_c5.0_q10.0,85,0.927
+Heimdall,argrank_r1_c5.0_q10.0,84,1.0
+Heimdall,argrank_r1_c5.0_q10.0,83,1.0
+Heimdall,argrank_r1_c5.0_q10.0,82,0.372
+Heimdall,argrank_r1_c5.0_q10.0,81,1.0
+Heimdall,argrank_r1_c5.0_q10.0,80,0.684
+Heimdall,argrank_r1_c5.0_q10.0,79,0.692
+Heimdall,argrank_r1_c5.0_q10.0,78,0.0
+Heimdall,argrank_r1_c5.0_q10.0,77,0.073
+Heimdall,argrank_r1_c5.0_q10.0,76,1.0
+Heimdall,argrank_r1_c5.0_q10.0,75,0.701
+Heimdall,argrank_r1_c5.0_q10.0,74,0.345
+Heimdall,argrank_r1_c5.0_q10.0,73,0.43
+Heimdall,argrank_r1_c5.0_q10.0,72,1.0
+Heimdall,argrank_r1_c5.0_q10.0,71,0.5
+Heimdall,argrank_r1_c5.0_q10.0,70,0.915
+Heimdall,argrank_r1_c5.0_q10.0,69,1.0
+Heimdall,argrank_r1_c5.0_q10.0,68,0.33
+Heimdall,argrank_r1_c5.0_q10.0,67,0.85
+Heimdall,argrank_r1_c5.0_q10.0,66,0.661
+Heimdall,argrank_r1_c5.0_q10.0,65,0.0
+Heimdall,argrank_r1_c5.0_q10.0,64,0.661
+Heimdall,argrank_r1_c5.0_q10.0,63,0.566
+Heimdall,argrank_r1_c5.0_q10.0,62,0.699
+Heimdall,argrank_r1_c5.0_q10.0,61,0.534
+Heimdall,argrank_r1_c5.0_q10.0,60,0.0
+Heimdall,argrank_r1_c5.0_q10.0,59,0.842
+Heimdall,argrank_r1_c5.0_q10.0,58,0.83
+Heimdall,argrank_r1_c5.0_q10.0,57,0.788
+Heimdall,argrank_r1_c5.0_q10.0,56,1.0
+Heimdall,argrank_r1_c5.0_q10.0,55,0.854
+Heimdall,argrank_r1_c5.0_q10.0,54,0.301
+Heimdall,argrank_r1_c5.0_q10.0,53,0.073
+Heimdall,argrank_r1_c5.0_q10.0,52,0.647
+Heimdall,argrank_r1_c5.0_q10.0,51,0.786
+Heimdall,argrank_r0_c0.01_q5.0,100,0.0
+Heimdall,argrank_r0_c0.01_q5.0,99,0.0
+Heimdall,argrank_r0_c0.01_q5.0,98,0.0
+Heimdall,argrank_r0_c0.01_q5.0,97,0.0
+Heimdall,argrank_r0_c0.01_q5.0,96,0.0
+Heimdall,argrank_r0_c0.01_q5.0,95,0.0
+Heimdall,argrank_r0_c0.01_q5.0,94,0.0
+Heimdall,argrank_r0_c0.01_q5.0,93,0.0
+Heimdall,argrank_r0_c0.01_q5.0,92,0.0
+Heimdall,argrank_r0_c0.01_q5.0,91,0.0
+Heimdall,argrank_r0_c0.01_q5.0,90,0.0
+Heimdall,argrank_r0_c0.01_q5.0,89,0.0
+Heimdall,argrank_r0_c0.01_q5.0,88,0.0
+Heimdall,argrank_r0_c0.01_q5.0,87,0.0
+Heimdall,argrank_r0_c0.01_q5.0,86,0.0
+Heimdall,argrank_r0_c0.01_q5.0,85,0.0
+Heimdall,argrank_r0_c0.01_q5.0,84,0.0
+Heimdall,argrank_r0_c0.01_q5.0,83,0.0
+Heimdall,argrank_r0_c0.01_q5.0,82,0.0
+Heimdall,argrank_r0_c0.01_q5.0,81,0.0
+Heimdall,argrank_r0_c0.01_q5.0,80,0.0
+Heimdall,argrank_r0_c0.01_q5.0,79,0.0
+Heimdall,argrank_r0_c0.01_q5.0,78,0.0
+Heimdall,argrank_r0_c0.01_q5.0,77,0.0
+Heimdall,argrank_r0_c0.01_q5.0,76,0.0
+Heimdall,argrank_r0_c0.01_q5.0,75,0.0
+Heimdall,argrank_r0_c0.01_q5.0,74,0.0
+Heimdall,argrank_r0_c0.01_q5.0,73,0.0
+Heimdall,argrank_r0_c0.01_q5.0,72,0.0
+Heimdall,argrank_r0_c0.01_q5.0,71,0.0
+Heimdall,argrank_r0_c0.01_q5.0,70,0.0
+Heimdall,argrank_r0_c0.01_q5.0,69,0.0
+Heimdall,argrank_r0_c0.01_q5.0,68,0.0
+Heimdall,argrank_r0_c0.01_q5.0,67,0.0
+Heimdall,argrank_r0_c0.01_q5.0,66,0.0
+Heimdall,argrank_r0_c0.01_q5.0,65,0.0
+Heimdall,argrank_r0_c0.01_q5.0,64,0.0
+Heimdall,argrank_r0_c0.01_q5.0,63,0.0
+Heimdall,argrank_r0_c0.01_q5.0,62,0.0
+Heimdall,argrank_r0_c0.01_q5.0,61,0.0
+Heimdall,argrank_r0_c0.01_q5.0,60,0.0
+Heimdall,argrank_r0_c0.01_q5.0,59,0.0
+Heimdall,argrank_r0_c0.01_q5.0,58,0.0
+Heimdall,argrank_r0_c0.01_q5.0,57,0.0
+Heimdall,argrank_r0_c0.01_q5.0,56,0.0
+Heimdall,argrank_r0_c0.01_q5.0,55,0.0
+Heimdall,argrank_r0_c0.01_q5.0,54,0.0
+Heimdall,argrank_r0_c0.01_q5.0,53,0.0
+Heimdall,argrank_r0_c0.01_q5.0,52,0.0
+Heimdall,argrank_r0_c0.01_q5.0,51,0.0
+Heimdall,argrank_r1_c10.0_q10.0,100,0.497
+Heimdall,argrank_r1_c10.0_q10.0,99,0.869
+Heimdall,argrank_r1_c10.0_q10.0,98,0.808
+Heimdall,argrank_r1_c10.0_q10.0,97,0.65
+Heimdall,argrank_r1_c10.0_q10.0,96,0.107
+Heimdall,argrank_r1_c10.0_q10.0,95,0.934
+Heimdall,argrank_r1_c10.0_q10.0,94,0.927
+Heimdall,argrank_r1_c10.0_q10.0,93,0.446
+Heimdall,argrank_r1_c10.0_q10.0,92,0.397
+Heimdall,argrank_r1_c10.0_q10.0,91,0.746
+Heimdall,argrank_r1_c10.0_q10.0,90,0.927
+Heimdall,argrank_r1_c10.0_q10.0,89,0.437
+Heimdall,argrank_r1_c10.0_q10.0,88,0.754
+Heimdall,argrank_r1_c10.0_q10.0,87,0.311
+Heimdall,argrank_r1_c10.0_q10.0,86,0.757
+Heimdall,argrank_r1_c10.0_q10.0,85,0.927
+Heimdall,argrank_r1_c10.0_q10.0,84,1.0
+Heimdall,argrank_r1_c10.0_q10.0,83,1.0
+Heimdall,argrank_r1_c10.0_q10.0,82,0.372
+Heimdall,argrank_r1_c10.0_q10.0,81,1.0
+Heimdall,argrank_r1_c10.0_q10.0,80,0.684
+Heimdall,argrank_r1_c10.0_q10.0,79,0.692
+Heimdall,argrank_r1_c10.0_q10.0,78,0.0
+Heimdall,argrank_r1_c10.0_q10.0,77,0.073
+Heimdall,argrank_r1_c10.0_q10.0,76,1.0
+Heimdall,argrank_r1_c10.0_q10.0,75,0.701
+Heimdall,argrank_r1_c10.0_q10.0,74,0.316
+Heimdall,argrank_r1_c10.0_q10.0,73,0.43
+Heimdall,argrank_r1_c10.0_q10.0,72,1.0
+Heimdall,argrank_r1_c10.0_q10.0,71,0.5
+Heimdall,argrank_r1_c10.0_q10.0,70,0.915
+Heimdall,argrank_r1_c10.0_q10.0,69,1.0
+Heimdall,argrank_r1_c10.0_q10.0,68,0.33
+Heimdall,argrank_r1_c10.0_q10.0,67,0.85
+Heimdall,argrank_r1_c10.0_q10.0,66,0.661
+Heimdall,argrank_r1_c10.0_q10.0,65,0.0
+Heimdall,argrank_r1_c10.0_q10.0,64,0.661
+Heimdall,argrank_r1_c10.0_q10.0,63,0.566
+Heimdall,argrank_r1_c10.0_q10.0,62,0.83
+Heimdall,argrank_r1_c10.0_q10.0,61,0.534
+Heimdall,argrank_r1_c10.0_q10.0,60,0.0
+Heimdall,argrank_r1_c10.0_q10.0,59,0.842
+Heimdall,argrank_r1_c10.0_q10.0,58,0.83
+Heimdall,argrank_r1_c10.0_q10.0,57,0.788
+Heimdall,argrank_r1_c10.0_q10.0,56,1.0
+Heimdall,argrank_r1_c10.0_q10.0,55,0.854
+Heimdall,argrank_r1_c10.0_q10.0,54,0.301
+Heimdall,argrank_r1_c10.0_q10.0,53,0.073
+Heimdall,argrank_r1_c10.0_q10.0,52,0.647
+Heimdall,argrank_r1_c10.0_q10.0,51,0.786
+Heimdall,argrank_r0_c0.1_q5.0,100,0.0
+Heimdall,argrank_r0_c0.1_q5.0,99,0.0
+Heimdall,argrank_r0_c0.1_q5.0,98,0.0
+Heimdall,argrank_r0_c0.1_q5.0,97,0.0
+Heimdall,argrank_r0_c0.1_q5.0,96,0.0
+Heimdall,argrank_r0_c0.1_q5.0,95,0.0
+Heimdall,argrank_r0_c0.1_q5.0,94,0.0
+Heimdall,argrank_r0_c0.1_q5.0,93,0.0
+Heimdall,argrank_r0_c0.1_q5.0,92,0.0
+Heimdall,argrank_r0_c0.1_q5.0,91,0.0
+Heimdall,argrank_r0_c0.1_q5.0,90,0.0
+Heimdall,argrank_r0_c0.1_q5.0,89,0.0
+Heimdall,argrank_r0_c0.1_q5.0,88,0.0
+Heimdall,argrank_r0_c0.1_q5.0,87,0.0
+Heimdall,argrank_r0_c0.1_q5.0,86,0.0
+Heimdall,argrank_r0_c0.1_q5.0,85,0.0
+Heimdall,argrank_r0_c0.1_q5.0,84,0.0
+Heimdall,argrank_r0_c0.1_q5.0,83,0.214
+Heimdall,argrank_r0_c0.1_q5.0,82,0.0
+Heimdall,argrank_r0_c0.1_q5.0,81,0.0
+Heimdall,argrank_r0_c0.1_q5.0,80,0.0
+Heimdall,argrank_r0_c0.1_q5.0,79,0.0
+Heimdall,argrank_r0_c0.1_q5.0,78,0.0
+Heimdall,argrank_r0_c0.1_q5.0,77,0.0
+Heimdall,argrank_r0_c0.1_q5.0,76,0.0
+Heimdall,argrank_r0_c0.1_q5.0,75,0.0
+Heimdall,argrank_r0_c0.1_q5.0,74,0.0
+Heimdall,argrank_r0_c0.1_q5.0,73,0.0
+Heimdall,argrank_r0_c0.1_q5.0,72,0.0
+Heimdall,argrank_r0_c0.1_q5.0,71,0.0
+Heimdall,argrank_r0_c0.1_q5.0,70,0.0
+Heimdall,argrank_r0_c0.1_q5.0,69,0.0
+Heimdall,argrank_r0_c0.1_q5.0,68,0.0
+Heimdall,argrank_r0_c0.1_q5.0,67,0.0
+Heimdall,argrank_r0_c0.1_q5.0,66,0.0
+Heimdall,argrank_r0_c0.1_q5.0,65,0.0
+Heimdall,argrank_r0_c0.1_q5.0,64,0.0
+Heimdall,argrank_r0_c0.1_q5.0,63,0.0
+Heimdall,argrank_r0_c0.1_q5.0,62,0.0
+Heimdall,argrank_r0_c0.1_q5.0,61,0.0
+Heimdall,argrank_r0_c0.1_q5.0,60,0.0
+Heimdall,argrank_r0_c0.1_q5.0,59,0.0
+Heimdall,argrank_r0_c0.1_q5.0,58,0.0
+Heimdall,argrank_r0_c0.1_q5.0,57,0.0
+Heimdall,argrank_r0_c0.1_q5.0,56,0.0
+Heimdall,argrank_r0_c0.1_q5.0,55,0.0
+Heimdall,argrank_r0_c0.1_q5.0,54,0.0
+Heimdall,argrank_r0_c0.1_q5.0,53,0.0
+Heimdall,argrank_r0_c0.1_q5.0,52,0.0
+Heimdall,argrank_r0_c0.1_q5.0,51,0.0
+Gandalf,BM25F-gandalf,100,0.519
+Gandalf,BM25F-gandalf,99,0.83
+Gandalf,BM25F-gandalf,98,0.915
+Gandalf,BM25F-gandalf,97,0.927
+Gandalf,BM25F-gandalf,96,0.066
+Gandalf,BM25F-gandalf,95,0.0
+Gandalf,BM25F-gandalf,94,1.0
+Gandalf,BM25F-gandalf,93,0.723
+Gandalf,BM25F-gandalf,92,0.197
+Gandalf,BM25F-gandalf,91,0.488
+Gandalf,BM25F-gandalf,90,0.616
+Gandalf,BM25F-gandalf,89,0.585
+Gandalf,BM25F-gandalf,88,0.47
+Gandalf,BM25F-gandalf,87,0.277
+Gandalf,BM25F-gandalf,86,0.277
+Gandalf,BM25F-gandalf,85,0.339
+Gandalf,BM25F-gandalf,84,0.405
+Gandalf,BM25F-gandalf,83,0.216
+Gandalf,BM25F-gandalf,82,0.614
+Gandalf,BM25F-gandalf,81,0.786
+Gandalf,BM25F-gandalf,80,0.146
+Gandalf,BM25F-gandalf,79,0.619
+Gandalf,BM25F-gandalf,78,0.614
+Gandalf,BM25F-gandalf,77,0.927
+Gandalf,BM25F-gandalf,76,0.757
+Gandalf,BM25F-gandalf,75,0.543
+Gandalf,BM25F-gandalf,74,0.146
+Gandalf,BM25F-gandalf,73,0.223
+Gandalf,BM25F-gandalf,72,0.554
+Gandalf,BM25F-gandalf,71,0.0
+Gandalf,BM25F-gandalf,70,0.515
+Gandalf,BM25F-gandalf,69,1.0
+Gandalf,BM25F-gandalf,68,0.0
+Gandalf,BM25F-gandalf,67,0.17
+Gandalf,BM25F-gandalf,66,0.893
+Gandalf,BM25F-gandalf,65,0.553
+Gandalf,BM25F-gandalf,64,0.563
+Gandalf,BM25F-gandalf,63,0.588
+Gandalf,BM25F-gandalf,62,0.0
+Gandalf,BM25F-gandalf,61,0.927
+Gandalf,BM25F-gandalf,60,0.0
+Gandalf,BM25F-gandalf,59,0.746
+Gandalf,BM25F-gandalf,58,0.747
+Gandalf,BM25F-gandalf,57,0.339
+Gandalf,BM25F-gandalf,56,0.83
+Gandalf,BM25F-gandalf,55,0.277
+Gandalf,BM25F-gandalf,54,0.447
+Gandalf,BM25F-gandalf,53,0.0
+Gandalf,BM25F-gandalf,52,0.192
+Gandalf,BM25F-gandalf,51,0.405
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,100,0.146
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,99,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,98,0.934
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,97,0.735
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,96,0.243
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,95,0.592
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,94,0.869
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,93,0.699
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,92,0.321
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,91,0.934
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,90,0.49
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,89,0.769
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,88,0.777
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,87,0.519
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,86,0.67
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,85,0.915
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,84,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,82,0.396
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,81,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,80,0.319
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,79,0.915
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,78,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,77,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,75,0.459
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,74,0.83
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,73,0.662
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,71,0.842
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,70,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,68,0.585
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,67,0.4
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,66,0.893
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,65,0.131
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,64,0.854
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,63,0.692
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,62,0.339
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,61,0.777
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,60,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,59,0.861
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,58,0.723
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,57,0.661
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,56,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,54,0.339
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,53,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,52,0.662
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,51,0.216
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,100,0.553
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,99,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,98,0.827
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,97,0.585
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,96,0.364
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,95,0.743
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,94,0.85
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,93,0.842
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,92,0.223
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,91,0.827
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,90,0.934
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,89,0.692
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,88,0.423
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,87,0.308
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,86,0.67
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,85,0.934
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,84,0.915
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,82,0.723
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,81,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,80,0.374
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,79,0.757
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,78,0.485
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,77,0.277
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,75,0.83
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,74,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,73,0.723
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,71,0.607
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,70,0.927
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,68,0.17
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,67,0.754
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,66,0.6
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,65,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,64,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,63,0.746
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,62,0.684
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,61,0.927
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,60,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,59,0.893
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,58,0.869
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,57,0.747
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,56,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,54,0.339
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,53,0.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,52,0.585
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,51,0.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,100,0.214
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,99,0.83
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,98,0.915
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,97,0.639
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,96,0.277
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,95,0.927
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,94,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,93,0.808
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,92,0.321
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,91,0.757
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,90,0.301
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,89,0.437
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,88,0.762
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,87,0.277
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,86,0.582
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,85,0.757
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,84,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,82,0.519
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,81,0.869
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,80,0.616
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,79,0.83
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,78,0.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,77,0.073
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,75,0.469
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,74,0.83
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,73,0.446
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,71,0.82
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,70,0.777
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,68,0.35
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,67,0.842
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,66,0.757
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,65,0.384
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,64,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,63,0.541
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,62,0.553
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,61,0.493
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,60,0.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,59,0.68
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,58,0.684
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,57,0.786
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,56,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,55,0.723
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,54,0.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,53,0.17
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,52,0.701
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,51,0.277
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,100,0.692
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,99,0.553
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,98,0.481
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,97,0.796
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,96,0.713
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,95,0.554
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,94,0.661
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,93,0.699
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,92,0.124
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,91,0.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,90,0.723
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,89,0.915
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,88,0.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,87,0.384
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,86,0.67
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,85,0.493
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,84,0.426
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,83,0.893
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,82,0.582
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,81,0.85
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,80,0.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,79,0.53
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,78,0.595
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,77,0.796
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,76,0.827
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,75,0.515
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,74,0.353
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,73,0.555
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,72,0.619
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,71,0.408
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,70,0.83
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,68,0.066
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,67,0.854
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,66,0.927
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,65,0.426
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,64,0.808
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,63,0.754
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,62,0.372
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,61,0.319
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,60,0.32
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,59,0.757
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,58,0.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,57,0.713
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,56,0.735
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,55,0.655
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,54,0.553
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,53,0.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,52,0.345
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,51,0.762
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,100,0.073
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,99,0.83
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,98,0.927
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,97,0.639
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,96,0.449
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,95,0.927
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,94,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,93,0.765
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,92,0.321
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,91,0.869
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,90,0.412
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,89,0.437
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,88,0.468
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,87,0.254
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,86,0.67
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,85,0.757
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,84,0.381
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,82,0.257
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,81,0.869
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,80,0.301
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,79,0.723
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,78,0.146
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,77,0.073
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,75,0.469
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,74,0.83
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,73,0.446
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,71,0.427
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,70,0.934
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,68,0.35
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,67,0.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,66,0.073
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,65,0.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,64,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,63,0.51
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,62,0.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,61,0.566
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,60,0.17
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,59,0.915
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,58,0.684
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,57,0.786
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,56,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,55,0.723
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,54,0.277
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,53,0.17
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,52,0.869
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,51,0.934
+Jean Pierre Polnareff,seupd-jpp-dirichlet,100,0.405
+Jean Pierre Polnareff,seupd-jpp-dirichlet,99,0.854
+Jean Pierre Polnareff,seupd-jpp-dirichlet,98,0.893
+Jean Pierre Polnareff,seupd-jpp-dirichlet,97,0.639
+Jean Pierre Polnareff,seupd-jpp-dirichlet,96,0.478
+Jean Pierre Polnareff,seupd-jpp-dirichlet,95,0.934
+Jean Pierre Polnareff,seupd-jpp-dirichlet,94,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,93,0.592
+Jean Pierre Polnareff,seupd-jpp-dirichlet,92,0.321
+Jean Pierre Polnareff,seupd-jpp-dirichlet,91,0.757
+Jean Pierre Polnareff,seupd-jpp-dirichlet,90,0.616
+Jean Pierre Polnareff,seupd-jpp-dirichlet,89,0.437
+Jean Pierre Polnareff,seupd-jpp-dirichlet,88,0.85
+Jean Pierre Polnareff,seupd-jpp-dirichlet,87,0.277
+Jean Pierre Polnareff,seupd-jpp-dirichlet,86,0.701
+Jean Pierre Polnareff,seupd-jpp-dirichlet,85,0.746
+Jean Pierre Polnareff,seupd-jpp-dirichlet,84,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,83,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,82,0.497
+Jean Pierre Polnareff,seupd-jpp-dirichlet,81,0.869
+Jean Pierre Polnareff,seupd-jpp-dirichlet,80,0.64
+Jean Pierre Polnareff,seupd-jpp-dirichlet,79,0.83
+Jean Pierre Polnareff,seupd-jpp-dirichlet,78,0.131
+Jean Pierre Polnareff,seupd-jpp-dirichlet,77,0.073
+Jean Pierre Polnareff,seupd-jpp-dirichlet,76,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,75,0.405
+Jean Pierre Polnareff,seupd-jpp-dirichlet,74,0.83
+Jean Pierre Polnareff,seupd-jpp-dirichlet,73,0.446
+Jean Pierre Polnareff,seupd-jpp-dirichlet,72,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,71,0.82
+Jean Pierre Polnareff,seupd-jpp-dirichlet,70,0.842
+Jean Pierre Polnareff,seupd-jpp-dirichlet,69,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,68,0.372
+Jean Pierre Polnareff,seupd-jpp-dirichlet,67,0.746
+Jean Pierre Polnareff,seupd-jpp-dirichlet,66,0.757
+Jean Pierre Polnareff,seupd-jpp-dirichlet,65,0.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,64,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,63,0.534
+Jean Pierre Polnareff,seupd-jpp-dirichlet,62,0.553
+Jean Pierre Polnareff,seupd-jpp-dirichlet,61,0.481
+Jean Pierre Polnareff,seupd-jpp-dirichlet,60,0.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,59,0.743
+Jean Pierre Polnareff,seupd-jpp-dirichlet,58,0.684
+Jean Pierre Polnareff,seupd-jpp-dirichlet,57,0.786
+Jean Pierre Polnareff,seupd-jpp-dirichlet,56,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,55,0.723
+Jean Pierre Polnareff,seupd-jpp-dirichlet,54,0.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,53,0.17
+Jean Pierre Polnareff,seupd-jpp-dirichlet,52,0.723
+Jean Pierre Polnareff,seupd-jpp-dirichlet,51,0.277
