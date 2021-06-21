@@ -1,18 +1,18 @@
 Team,Tag,Topic,nDCG@5
 Batman,ER_v1,99,0.577
 Batman,ER_v1,98,0.392
-Batman,ER_v1,97,1.0
+Batman,ER_v1,97,1
 Batman,ER_v1,96,0.903
-Batman,ER_v1,95,1.0
+Batman,ER_v1,95,1
 Batman,ER_v1,94,0.531
 Batman,ER_v1,93,0.346
 Batman,ER_v1,92,0.567
 Batman,ER_v1,91,0.5
 Batman,ER_v1,90,0.423
-Batman,ER_v1,89,1.0
+Batman,ER_v1,89,1
 Batman,ER_v1,88,0.23
-Batman,ER_v1,87,1.0
-Batman,ER_v1,86,0.0
+Batman,ER_v1,87,1
+Batman,ER_v1,86,0
 Batman,ER_v1,85,0.846
 Batman,ER_v1,84,0.587
 Batman,ER_v1,83,0.787
@@ -20,16 +20,16 @@ Batman,ER_v1,82,0.714
 Batman,ER_v1,81,0.894
 Batman,ER_v1,80,0.5
 Batman,ER_v1,79,0.827
-Batman,ER_v1,78,1.0
+Batman,ER_v1,78,1
 Batman,ER_v1,77,0.633
-Batman,ER_v1,76,1.0
+Batman,ER_v1,76,1
 Batman,ER_v1,75,0.566
 Batman,ER_v1,74,0.846
 Batman,ER_v1,73,0.066
 Batman,ER_v1,72,0.693
 Batman,ER_v1,71,0.403
-Batman,ER_v1,70,0.0
-Batman,ER_v1,69,1.0
+Batman,ER_v1,70,0
+Batman,ER_v1,69,1
 Batman,ER_v1,68,0.423
 Batman,ER_v1,67,0.566
 Batman,ER_v1,66,0.69
@@ -43,7 +43,7 @@ Batman,ER_v1,59,0.846
 Batman,ER_v1,58,0.923
 Batman,ER_v1,57,0.47
 Batman,ER_v1,56,0.654
-Batman,ER_v1,55,1.0
+Batman,ER_v1,55,1
 Batman,ER_v1,54,0.76
 Batman,ER_v1,53,0.846
 Batman,ER_v1,52,0.694
@@ -53,7 +53,7 @@ Batman,DE_RE_Analyzer_4r100,99,0.5
 Batman,DE_RE_Analyzer_4r100,98,0.674
 Batman,DE_RE_Analyzer_4r100,97,0.827
 Batman,DE_RE_Analyzer_4r100,96,0.797
-Batman,DE_RE_Analyzer_4r100,95,1.0
+Batman,DE_RE_Analyzer_4r100,95,1
 Batman,DE_RE_Analyzer_4r100,94,0.683
 Batman,DE_RE_Analyzer_4r100,93,0.674
 Batman,DE_RE_Analyzer_4r100,92,0.213
@@ -65,21 +65,21 @@ Batman,DE_RE_Analyzer_4r100,87,0.846
 Batman,DE_RE_Analyzer_4r100,86,0.52
 Batman,DE_RE_Analyzer_4r100,85,0.663
 Batman,DE_RE_Analyzer_4r100,84,0.27
-Batman,DE_RE_Analyzer_4r100,83,1.0
+Batman,DE_RE_Analyzer_4r100,83,1
 Batman,DE_RE_Analyzer_4r100,82,0.693
-Batman,DE_RE_Analyzer_4r100,81,1.0
+Batman,DE_RE_Analyzer_4r100,81,1
 Batman,DE_RE_Analyzer_4r100,80,0.597
 Batman,DE_RE_Analyzer_4r100,79,0.443
 Batman,DE_RE_Analyzer_4r100,78,0.903
 Batman,DE_RE_Analyzer_4r100,77,0.499
-Batman,DE_RE_Analyzer_4r100,76,1.0
+Batman,DE_RE_Analyzer_4r100,76,1
 Batman,DE_RE_Analyzer_4r100,75,0.383
-Batman,DE_RE_Analyzer_4r100,74,1.0
+Batman,DE_RE_Analyzer_4r100,74,1
 Batman,DE_RE_Analyzer_4r100,73,0.154
-Batman,DE_RE_Analyzer_4r100,72,1.0
+Batman,DE_RE_Analyzer_4r100,72,1
 Batman,DE_RE_Analyzer_4r100,71,0.846
 Batman,DE_RE_Analyzer_4r100,70,0.461
-Batman,DE_RE_Analyzer_4r100,69,1.0
+Batman,DE_RE_Analyzer_4r100,69,1
 Batman,DE_RE_Analyzer_4r100,68,0.209
 Batman,DE_RE_Analyzer_4r100,67,0.566
 Batman,DE_RE_Analyzer_4r100,66,0.934
@@ -89,16 +89,16 @@ Batman,DE_RE_Analyzer_4r100,63,0.403
 Batman,DE_RE_Analyzer_4r100,62,0.837
 Batman,DE_RE_Analyzer_4r100,61,0.846
 Batman,DE_RE_Analyzer_4r100,60,0.414
-Batman,DE_RE_Analyzer_4r100,59,1.0
+Batman,DE_RE_Analyzer_4r100,59,1
 Batman,DE_RE_Analyzer_4r100,58,0.934
 Batman,DE_RE_Analyzer_4r100,57,0.77
 Batman,DE_RE_Analyzer_4r100,56,0.683
-Batman,DE_RE_Analyzer_4r100,55,1.0
+Batman,DE_RE_Analyzer_4r100,55,1
 Batman,DE_RE_Analyzer_4r100,54,0.846
 Batman,DE_RE_Analyzer_4r100,53,0.3
 Batman,DE_RE_Analyzer_4r100,52,0.377
 Batman,DE_RE_Analyzer_4r100,51,0.56
-Batman,ER_Analyzer_5,100,1.0
+Batman,ER_Analyzer_5,100,1
 Batman,ER_Analyzer_5,99,0.357
 Batman,ER_Analyzer_5,97,0.868
 Batman,ER_Analyzer_5,95,0.787
@@ -106,7 +106,7 @@ Batman,ER_Analyzer_5,94,0.5
 Batman,ER_Analyzer_5,92,0.403
 Batman,ER_Analyzer_5,90,0.78
 Batman,ER_Analyzer_5,88,0.106
-Batman,ER_Analyzer_5,87,1.0
+Batman,ER_Analyzer_5,87,1
 Batman,ER_Analyzer_5,85,0.674
 Batman,ER_Analyzer_5,84,0.613
 Batman,ER_Analyzer_5,81,0.903
@@ -114,8 +114,8 @@ Batman,ER_Analyzer_5,79,0.469
 Batman,ER_Analyzer_5,77,0.868
 Batman,ER_Analyzer_5,75,0.74
 Batman,ER_Analyzer_5,70,0.633
-Batman,ER_Analyzer_5,65,1.0
-Batman,ER_Analyzer_5,64,1.0
+Batman,ER_Analyzer_5,65,1
+Batman,ER_Analyzer_5,64,1
 Batman,ER_Analyzer_5,61,0.846
 Batman,ER_Analyzer_5,59,0.31
 Batman,ER_Analyzer_5,58,0.51
@@ -126,8 +126,8 @@ Batman,ER_Analyzer_5,51,0.499
 Deadpool,uh-t1-deadpool,100,0.73
 Deadpool,uh-t1-deadpool,99,0.5
 Deadpool,uh-t1-deadpool,98,0.846
-Deadpool,uh-t1-deadpool,97,1.0
-Deadpool,uh-t1-deadpool,96,1.0
+Deadpool,uh-t1-deadpool,97,1
+Deadpool,uh-t1-deadpool,96,1
 Deadpool,uh-t1-deadpool,95,0.846
 Deadpool,uh-t1-deadpool,94,0.643
 Deadpool,uh-t1-deadpool,93,0.566
@@ -136,32 +136,32 @@ Deadpool,uh-t1-deadpool,91,0.566
 Deadpool,uh-t1-deadpool,90,0.469
 Deadpool,uh-t1-deadpool,89,0.77
 Deadpool,uh-t1-deadpool,88,0.673
-Deadpool,uh-t1-deadpool,87,1.0
+Deadpool,uh-t1-deadpool,87,1
 Deadpool,uh-t1-deadpool,86,0.546
 Deadpool,uh-t1-deadpool,85,0.827
 Deadpool,uh-t1-deadpool,84,0.837
-Deadpool,uh-t1-deadpool,83,1.0
+Deadpool,uh-t1-deadpool,83,1
 Deadpool,uh-t1-deadpool,82,0.797
-Deadpool,uh-t1-deadpool,81,1.0
+Deadpool,uh-t1-deadpool,81,1
 Deadpool,uh-t1-deadpool,80,0.606
 Deadpool,uh-t1-deadpool,79,0.577
 Deadpool,uh-t1-deadpool,78,0.616
-Deadpool,uh-t1-deadpool,77,1.0
+Deadpool,uh-t1-deadpool,77,1
 Deadpool,uh-t1-deadpool,76,0.903
 Deadpool,uh-t1-deadpool,75,0.5
-Deadpool,uh-t1-deadpool,74,1.0
+Deadpool,uh-t1-deadpool,74,1
 Deadpool,uh-t1-deadpool,73,0.567
-Deadpool,uh-t1-deadpool,72,1.0
+Deadpool,uh-t1-deadpool,72,1
 Deadpool,uh-t1-deadpool,71,0.894
 Deadpool,uh-t1-deadpool,70,0.74
-Deadpool,uh-t1-deadpool,69,1.0
-Deadpool,uh-t1-deadpool,68,1.0
+Deadpool,uh-t1-deadpool,69,1
+Deadpool,uh-t1-deadpool,68,1
 Deadpool,uh-t1-deadpool,67,0.566
 Deadpool,uh-t1-deadpool,66,0.923
-Deadpool,uh-t1-deadpool,65,1.0
+Deadpool,uh-t1-deadpool,65,1
 Deadpool,uh-t1-deadpool,64,0.74
 Deadpool,uh-t1-deadpool,63,0.357
-Deadpool,uh-t1-deadpool,62,1.0
+Deadpool,uh-t1-deadpool,62,1
 Deadpool,uh-t1-deadpool,61,0.213
 Deadpool,uh-t1-deadpool,60,0.213
 Deadpool,uh-t1-deadpool,59,0.213
@@ -181,44 +181,44 @@ Robin Hood,robinhood_combined,96,0.903
 Robin Hood,robinhood_combined,95,0.606
 Robin Hood,robinhood_combined,94,0.663
 Robin Hood,robinhood_combined,93,0.837
-Robin Hood,robinhood_combined,92,1.0
+Robin Hood,robinhood_combined,92,1
 Robin Hood,robinhood_combined,91,0.54
-Robin Hood,robinhood_combined,90,1.0
+Robin Hood,robinhood_combined,90,1
 Robin Hood,robinhood_combined,89,0.557
 Robin Hood,robinhood_combined,88,0.367
 Robin Hood,robinhood_combined,87,0.894
 Robin Hood,robinhood_combined,86,0.531
 Robin Hood,robinhood_combined,85,0.77
 Robin Hood,robinhood_combined,84,0.464
-Robin Hood,robinhood_combined,83,1.0
+Robin Hood,robinhood_combined,83,1
 Robin Hood,robinhood_combined,82,0.653
-Robin Hood,robinhood_combined,81,1.0
+Robin Hood,robinhood_combined,81,1
 Robin Hood,robinhood_combined,80,0.423
 Robin Hood,robinhood_combined,79,0.5
-Robin Hood,robinhood_combined,78,1.0
+Robin Hood,robinhood_combined,78,1
 Robin Hood,robinhood_combined,77,0.934
 Robin Hood,robinhood_combined,76,0.934
 Robin Hood,robinhood_combined,75,0.674
 Robin Hood,robinhood_combined,74,0.608
 Robin Hood,robinhood_combined,73,0.443
-Robin Hood,robinhood_combined,72,1.0
-Robin Hood,robinhood_combined,71,0.0
-Robin Hood,robinhood_combined,70,1.0
-Robin Hood,robinhood_combined,69,1.0
+Robin Hood,robinhood_combined,72,1
+Robin Hood,robinhood_combined,71,0
+Robin Hood,robinhood_combined,70,1
+Robin Hood,robinhood_combined,69,1
 Robin Hood,robinhood_combined,68,0.857
 Robin Hood,robinhood_combined,67,0.837
-Robin Hood,robinhood_combined,66,1.0
-Robin Hood,robinhood_combined,65,1.0
+Robin Hood,robinhood_combined,66,1
+Robin Hood,robinhood_combined,65,1
 Robin Hood,robinhood_combined,64,0.817
 Robin Hood,robinhood_combined,63,0.423
 Robin Hood,robinhood_combined,62,0.923
 Robin Hood,robinhood_combined,61,0.827
-Robin Hood,robinhood_combined,60,1.0
+Robin Hood,robinhood_combined,60,1
 Robin Hood,robinhood_combined,59,0.78
 Robin Hood,robinhood_combined,58,0.934
 Robin Hood,robinhood_combined,57,0.837
 Robin Hood,robinhood_combined,56,0.837
-Robin Hood,robinhood_combined,55,1.0
+Robin Hood,robinhood_combined,55,1
 Robin Hood,robinhood_combined,54,0.76
 Robin Hood,robinhood_combined,53,0.73
 Robin Hood,robinhood_combined,52,0.673
@@ -226,7 +226,7 @@ Robin Hood,robinhood_combined,51,0.617
 Robin Hood,robinhood_baseline,100,0.72
 Robin Hood,robinhood_baseline,99,0.5
 Robin Hood,robinhood_baseline,98,0.857
-Robin Hood,robinhood_baseline,97,1.0
+Robin Hood,robinhood_baseline,97,1
 Robin Hood,robinhood_baseline,96,0.846
 Robin Hood,robinhood_baseline,95,0.826
 Robin Hood,robinhood_baseline,94,0.606
@@ -236,12 +236,12 @@ Robin Hood,robinhood_baseline,91,0.577
 Robin Hood,robinhood_baseline,90,0.627
 Robin Hood,robinhood_baseline,89,0.857
 Robin Hood,robinhood_baseline,88,0.78
-Robin Hood,robinhood_baseline,87,1.0
+Robin Hood,robinhood_baseline,87,1
 Robin Hood,robinhood_baseline,86,0.674
 Robin Hood,robinhood_baseline,85,0.78
 Robin Hood,robinhood_baseline,84,0.674
-Robin Hood,robinhood_baseline,83,1.0
-Robin Hood,robinhood_baseline,82,1.0
+Robin Hood,robinhood_baseline,83,1
+Robin Hood,robinhood_baseline,82,1
 Robin Hood,robinhood_baseline,81,0.934
 Robin Hood,robinhood_baseline,80,0.683
 Robin Hood,robinhood_baseline,79,0.566
@@ -249,26 +249,26 @@ Robin Hood,robinhood_baseline,78,0.693
 Robin Hood,robinhood_baseline,77,0.894
 Robin Hood,robinhood_baseline,76,0.903
 Robin Hood,robinhood_baseline,75,0.5
-Robin Hood,robinhood_baseline,74,1.0
+Robin Hood,robinhood_baseline,74,1
 Robin Hood,robinhood_baseline,73,0.703
-Robin Hood,robinhood_baseline,72,1.0
-Robin Hood,robinhood_baseline,71,1.0
+Robin Hood,robinhood_baseline,72,1
+Robin Hood,robinhood_baseline,71,1
 Robin Hood,robinhood_baseline,70,0.894
-Robin Hood,robinhood_baseline,69,1.0
+Robin Hood,robinhood_baseline,69,1
 Robin Hood,robinhood_baseline,68,0.846
 Robin Hood,robinhood_baseline,67,0.566
 Robin Hood,robinhood_baseline,66,0.77
-Robin Hood,robinhood_baseline,65,1.0
+Robin Hood,robinhood_baseline,65,1
 Robin Hood,robinhood_baseline,64,0.78
 Robin Hood,robinhood_baseline,63,0.249
 Robin Hood,robinhood_baseline,62,0.923
 Robin Hood,robinhood_baseline,61,0.749
 Robin Hood,robinhood_baseline,60,0.797
 Robin Hood,robinhood_baseline,59,0.846
-Robin Hood,robinhood_baseline,58,1.0
+Robin Hood,robinhood_baseline,58,1
 Robin Hood,robinhood_baseline,57,0.894
 Robin Hood,robinhood_baseline,56,0.74
-Robin Hood,robinhood_baseline,55,1.0
+Robin Hood,robinhood_baseline,55,1
 Robin Hood,robinhood_baseline,54,0.751
 Robin Hood,robinhood_baseline,53,0.791
 Robin Hood,robinhood_baseline,52,0.673
@@ -281,44 +281,44 @@ Robin Hood,robinhood_use,96,0.923
 Robin Hood,robinhood_use,95,0.606
 Robin Hood,robinhood_use,94,0.597
 Robin Hood,robinhood_use,93,0.857
-Robin Hood,robinhood_use,92,1.0
+Robin Hood,robinhood_use,92,1
 Robin Hood,robinhood_use,91,0.489
-Robin Hood,robinhood_use,90,1.0
+Robin Hood,robinhood_use,90,1
 Robin Hood,robinhood_use,89,0.557
 Robin Hood,robinhood_use,88,0.367
 Robin Hood,robinhood_use,87,0.894
 Robin Hood,robinhood_use,86,0.531
 Robin Hood,robinhood_use,85,0.637
 Robin Hood,robinhood_use,84,0.464
-Robin Hood,robinhood_use,83,1.0
+Robin Hood,robinhood_use,83,1
 Robin Hood,robinhood_use,82,0.586
 Robin Hood,robinhood_use,81,0.72
 Robin Hood,robinhood_use,80,0.403
 Robin Hood,robinhood_use,79,0.5
-Robin Hood,robinhood_use,78,1.0
+Robin Hood,robinhood_use,78,1
 Robin Hood,robinhood_use,77,0.806
 Robin Hood,robinhood_use,76,0.923
 Robin Hood,robinhood_use,75,0.674
 Robin Hood,robinhood_use,74,0.608
 Robin Hood,robinhood_use,73,0.443
-Robin Hood,robinhood_use,72,1.0
-Robin Hood,robinhood_use,71,0.0
-Robin Hood,robinhood_use,70,1.0
-Robin Hood,robinhood_use,69,1.0
+Robin Hood,robinhood_use,72,1
+Robin Hood,robinhood_use,71,0
+Robin Hood,robinhood_use,70,1
+Robin Hood,robinhood_use,69,1
 Robin Hood,robinhood_use,68,0.857
 Robin Hood,robinhood_use,67,0.826
-Robin Hood,robinhood_use,66,1.0
+Robin Hood,robinhood_use,66,1
 Robin Hood,robinhood_use,65,0.923
 Robin Hood,robinhood_use,64,0.797
 Robin Hood,robinhood_use,63,0.423
-Robin Hood,robinhood_use,62,1.0
+Robin Hood,robinhood_use,62,1
 Robin Hood,robinhood_use,61,0.903
 Robin Hood,robinhood_use,60,0.826
 Robin Hood,robinhood_use,59,0.78
 Robin Hood,robinhood_use,58,0.934
 Robin Hood,robinhood_use,57,0.837
 Robin Hood,robinhood_use,56,0.76
-Robin Hood,robinhood_use,55,1.0
+Robin Hood,robinhood_use,55,1
 Robin Hood,robinhood_use,54,0.73
 Robin Hood,robinhood_use,53,0.683
 Robin Hood,robinhood_use,52,0.673
@@ -326,49 +326,49 @@ Robin Hood,robinhood_use,51,0.694
 Robin Hood,robinhood_rm3,100,0.817
 Robin Hood,robinhood_rm3,99,0.434
 Robin Hood,robinhood_rm3,98,0.934
-Robin Hood,robinhood_rm3,97,1.0
+Robin Hood,robinhood_rm3,97,1
 Robin Hood,robinhood_rm3,96,0.934
 Robin Hood,robinhood_rm3,95,0.857
 Robin Hood,robinhood_rm3,94,0.683
 Robin Hood,robinhood_rm3,93,0.5
-Robin Hood,robinhood_rm3,92,0.0
+Robin Hood,robinhood_rm3,92,0
 Robin Hood,robinhood_rm3,91,0.72
 Robin Hood,robinhood_rm3,90,0.577
 Robin Hood,robinhood_rm3,89,0.817
 Robin Hood,robinhood_rm3,88,0.751
-Robin Hood,robinhood_rm3,87,1.0
+Robin Hood,robinhood_rm3,87,1
 Robin Hood,robinhood_rm3,86,0.751
 Robin Hood,robinhood_rm3,85,0.923
 Robin Hood,robinhood_rm3,84,0.857
-Robin Hood,robinhood_rm3,83,1.0
+Robin Hood,robinhood_rm3,83,1
 Robin Hood,robinhood_rm3,82,0.903
 Robin Hood,robinhood_rm3,81,0.76
 Robin Hood,robinhood_rm3,80,0.683
 Robin Hood,robinhood_rm3,79,0.827
 Robin Hood,robinhood_rm3,78,0.578
-Robin Hood,robinhood_rm3,77,1.0
+Robin Hood,robinhood_rm3,77,1
 Robin Hood,robinhood_rm3,76,0.846
 Robin Hood,robinhood_rm3,75,0.567
-Robin Hood,robinhood_rm3,74,1.0
+Robin Hood,robinhood_rm3,74,1
 Robin Hood,robinhood_rm3,73,0.751
-Robin Hood,robinhood_rm3,72,1.0
+Robin Hood,robinhood_rm3,72,1
 Robin Hood,robinhood_rm3,71,0.923
 Robin Hood,robinhood_rm3,70,0.749
-Robin Hood,robinhood_rm3,69,1.0
+Robin Hood,robinhood_rm3,69,1
 Robin Hood,robinhood_rm3,68,0.846
 Robin Hood,robinhood_rm3,67,0.749
-Robin Hood,robinhood_rm3,66,1.0
-Robin Hood,robinhood_rm3,65,1.0
+Robin Hood,robinhood_rm3,66,1
+Robin Hood,robinhood_rm3,65,1
 Robin Hood,robinhood_rm3,64,0.903
 Robin Hood,robinhood_rm3,63,0.394
-Robin Hood,robinhood_rm3,62,1.0
+Robin Hood,robinhood_rm3,62,1
 Robin Hood,robinhood_rm3,61,0.683
 Robin Hood,robinhood_rm3,60,0.846
 Robin Hood,robinhood_rm3,59,0.749
 Robin Hood,robinhood_rm3,58,0.749
 Robin Hood,robinhood_rm3,57,0.846
 Robin Hood,robinhood_rm3,56,0.923
-Robin Hood,robinhood_rm3,55,1.0
+Robin Hood,robinhood_rm3,55,1
 Robin Hood,robinhood_rm3,54,0.73
 Robin Hood,robinhood_rm3,53,0.903
 Robin Hood,robinhood_rm3,52,0.846
@@ -390,35 +390,35 @@ Macbeth,macbethPretrainedBaseline,87,0.791
 Macbeth,macbethPretrainedBaseline,86,0.608
 Macbeth,macbethPretrainedBaseline,85,0.77
 Macbeth,macbethPretrainedBaseline,84,0.74
-Macbeth,macbethPretrainedBaseline,83,1.0
+Macbeth,macbethPretrainedBaseline,83,1
 Macbeth,macbethPretrainedBaseline,82,0.56
-Macbeth,macbethPretrainedBaseline,81,1.0
+Macbeth,macbethPretrainedBaseline,81,1
 Macbeth,macbethPretrainedBaseline,80,0.516
 Macbeth,macbethPretrainedBaseline,79,0.566
 Macbeth,macbethPretrainedBaseline,78,0.903
-Macbeth,macbethPretrainedBaseline,77,1.0
+Macbeth,macbethPretrainedBaseline,77,1
 Macbeth,macbethPretrainedBaseline,76,0.837
 Macbeth,macbethPretrainedBaseline,75,0.923
 Macbeth,macbethPretrainedBaseline,74,0.837
 Macbeth,macbethPretrainedBaseline,73,0.934
-Macbeth,macbethPretrainedBaseline,72,1.0
+Macbeth,macbethPretrainedBaseline,72,1
 Macbeth,macbethPretrainedBaseline,71,0.77
-Macbeth,macbethPretrainedBaseline,70,1.0
-Macbeth,macbethPretrainedBaseline,69,1.0
+Macbeth,macbethPretrainedBaseline,70,1
+Macbeth,macbethPretrainedBaseline,69,1
 Macbeth,macbethPretrainedBaseline,68,0.837
 Macbeth,macbethPretrainedBaseline,67,0.78
-Macbeth,macbethPretrainedBaseline,66,1.0
+Macbeth,macbethPretrainedBaseline,66,1
 Macbeth,macbethPretrainedBaseline,65,0.857
 Macbeth,macbethPretrainedBaseline,64,0.787
 Macbeth,macbethPretrainedBaseline,63,0.5
-Macbeth,macbethPretrainedBaseline,62,1.0
+Macbeth,macbethPretrainedBaseline,62,1
 Macbeth,macbethPretrainedBaseline,61,0.827
 Macbeth,macbethPretrainedBaseline,60,0.44
 Macbeth,macbethPretrainedBaseline,59,0.826
 Macbeth,macbethPretrainedBaseline,58,0.54
 Macbeth,macbethPretrainedBaseline,57,0.346
-Macbeth,macbethPretrainedBaseline,56,1.0
-Macbeth,macbethPretrainedBaseline,55,1.0
+Macbeth,macbethPretrainedBaseline,56,1
+Macbeth,macbethPretrainedBaseline,55,1
 Macbeth,macbethPretrainedBaseline,54,0.923
 Macbeth,macbethPretrainedBaseline,53,0.846
 Macbeth,macbethPretrainedBaseline,52,0.53
@@ -426,7 +426,7 @@ Macbeth,macbethPretrainedBaseline,51,0.674
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,100,0.213
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,99,0.5
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,98,0.934
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,97,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,97,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,96,0.751
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,95,0.826
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,94,0.489
@@ -434,19 +434,19 @@ Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,93,0.643
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,92,0.903
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,91,0.606
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,90,0.846
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,89,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,89,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,88,0.5
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,87,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,87,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,86,0.403
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,85,0.654
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,84,0.577
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,83,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,83,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,82,0.577
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,81,0.74
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,80,0.45
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,79,0.643
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,78,0.56
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,77,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,77,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,76,0.894
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,75,0.73
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,74,0.826
@@ -454,49 +454,49 @@ Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,73,0.806
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,72,0.414
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,71,0.509
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,70,0.903
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,69,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,69,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,68,0.846
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,67,0.761
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,66,0.77
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,65,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,65,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,64,0.586
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,63,0.394
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,62,0.868
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,61,0.817
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,60,0.407
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,59,0.903
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,58,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,58,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,57,0.469
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,56,1.0
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,55,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,56,1
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,55,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,54,0.74
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,53,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,53,1
 Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,52,0.683
-Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,51,1.0
+Macbeth,macbethBM25AugmentedBiEncoderCrossEncoder,51,1
 Macbeth,macbethBiEncoderCrossEncoder,100,0.74
 Macbeth,macbethBiEncoderCrossEncoder,99,0.5
 Macbeth,macbethBiEncoderCrossEncoder,98,0.751
-Macbeth,macbethBiEncoderCrossEncoder,97,1.0
+Macbeth,macbethBiEncoderCrossEncoder,97,1
 Macbeth,macbethBiEncoderCrossEncoder,96,0.923
 Macbeth,macbethBiEncoderCrossEncoder,95,0.846
 Macbeth,macbethBiEncoderCrossEncoder,94,0.5
 Macbeth,macbethBiEncoderCrossEncoder,93,0.5
-Macbeth,macbethBiEncoderCrossEncoder,92,1.0
+Macbeth,macbethBiEncoderCrossEncoder,92,1
 Macbeth,macbethBiEncoderCrossEncoder,91,0.606
 Macbeth,macbethBiEncoderCrossEncoder,90,0.683
-Macbeth,macbethBiEncoderCrossEncoder,89,1.0
+Macbeth,macbethBiEncoderCrossEncoder,89,1
 Macbeth,macbethBiEncoderCrossEncoder,88,0.5
-Macbeth,macbethBiEncoderCrossEncoder,87,1.0
+Macbeth,macbethBiEncoderCrossEncoder,87,1
 Macbeth,macbethBiEncoderCrossEncoder,86,0.423
 Macbeth,macbethBiEncoderCrossEncoder,85,0.703
 Macbeth,macbethBiEncoderCrossEncoder,84,0.511
-Macbeth,macbethBiEncoderCrossEncoder,83,1.0
+Macbeth,macbethBiEncoderCrossEncoder,83,1
 Macbeth,macbethBiEncoderCrossEncoder,82,0.817
 Macbeth,macbethBiEncoderCrossEncoder,81,0.749
 Macbeth,macbethBiEncoderCrossEncoder,80,0.454
 Macbeth,macbethBiEncoderCrossEncoder,79,0.434
-Macbeth,macbethBiEncoderCrossEncoder,78,1.0
-Macbeth,macbethBiEncoderCrossEncoder,77,1.0
+Macbeth,macbethBiEncoderCrossEncoder,78,1
+Macbeth,macbethBiEncoderCrossEncoder,77,1
 Macbeth,macbethBiEncoderCrossEncoder,76,0.894
 Macbeth,macbethBiEncoderCrossEncoder,75,0.903
 Macbeth,macbethBiEncoderCrossEncoder,74,0.837
@@ -504,11 +504,11 @@ Macbeth,macbethBiEncoderCrossEncoder,73,0.703
 Macbeth,macbethBiEncoderCrossEncoder,72,0.593
 Macbeth,macbethBiEncoderCrossEncoder,71,0.703
 Macbeth,macbethBiEncoderCrossEncoder,70,0.923
-Macbeth,macbethBiEncoderCrossEncoder,69,1.0
+Macbeth,macbethBiEncoderCrossEncoder,69,1
 Macbeth,macbethBiEncoderCrossEncoder,68,0.826
 Macbeth,macbethBiEncoderCrossEncoder,67,0.791
 Macbeth,macbethBiEncoderCrossEncoder,66,0.846
-Macbeth,macbethBiEncoderCrossEncoder,65,1.0
+Macbeth,macbethBiEncoderCrossEncoder,65,1
 Macbeth,macbethBiEncoderCrossEncoder,64,0.511
 Macbeth,macbethBiEncoderCrossEncoder,63,0.5
 Macbeth,macbethBiEncoderCrossEncoder,62,0.868
@@ -517,8 +517,8 @@ Macbeth,macbethBiEncoderCrossEncoder,60,0.317
 Macbeth,macbethBiEncoderCrossEncoder,59,0.76
 Macbeth,macbethBiEncoderCrossEncoder,58,0.366
 Macbeth,macbethBiEncoderCrossEncoder,57,0.597
-Macbeth,macbethBiEncoderCrossEncoder,56,1.0
-Macbeth,macbethBiEncoderCrossEncoder,55,1.0
+Macbeth,macbethBiEncoderCrossEncoder,56,1
+Macbeth,macbethBiEncoderCrossEncoder,55,1
 Macbeth,macbethBiEncoderCrossEncoder,54,0.826
 Macbeth,macbethBiEncoderCrossEncoder,53,0.28
 Macbeth,macbethBiEncoderCrossEncoder,52,0.606
@@ -536,25 +536,25 @@ Macbeth,macbethBM25BiEncoderCrossEncoder,91,0.606
 Macbeth,macbethBM25BiEncoderCrossEncoder,90,0.846
 Macbeth,macbethBM25BiEncoderCrossEncoder,89,0.77
 Macbeth,macbethBM25BiEncoderCrossEncoder,88,0.5
-Macbeth,macbethBM25BiEncoderCrossEncoder,87,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,87,1
 Macbeth,macbethBM25BiEncoderCrossEncoder,86,0.566
 Macbeth,macbethBM25BiEncoderCrossEncoder,85,0.77
 Macbeth,macbethBM25BiEncoderCrossEncoder,84,0.674
-Macbeth,macbethBM25BiEncoderCrossEncoder,83,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,83,1
 Macbeth,macbethBM25BiEncoderCrossEncoder,82,0.643
 Macbeth,macbethBM25BiEncoderCrossEncoder,81,0.74
 Macbeth,macbethBM25BiEncoderCrossEncoder,80,0.45
 Macbeth,macbethBM25BiEncoderCrossEncoder,79,0.566
 Macbeth,macbethBM25BiEncoderCrossEncoder,78,0.934
-Macbeth,macbethBM25BiEncoderCrossEncoder,77,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,77,1
 Macbeth,macbethBM25BiEncoderCrossEncoder,76,0.894
 Macbeth,macbethBM25BiEncoderCrossEncoder,75,0.923
 Macbeth,macbethBM25BiEncoderCrossEncoder,74,0.837
 Macbeth,macbethBM25BiEncoderCrossEncoder,73,0.934
 Macbeth,macbethBM25BiEncoderCrossEncoder,72,0.693
 Macbeth,macbethBM25BiEncoderCrossEncoder,71,0.817
-Macbeth,macbethBM25BiEncoderCrossEncoder,70,1.0
-Macbeth,macbethBM25BiEncoderCrossEncoder,69,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,70,1
+Macbeth,macbethBM25BiEncoderCrossEncoder,69,1
 Macbeth,macbethBM25BiEncoderCrossEncoder,68,0.894
 Macbeth,macbethBM25BiEncoderCrossEncoder,67,0.596
 Macbeth,macbethBM25BiEncoderCrossEncoder,66,0.846
@@ -567,8 +567,8 @@ Macbeth,macbethBM25BiEncoderCrossEncoder,60,0.347
 Macbeth,macbethBM25BiEncoderCrossEncoder,59,0.826
 Macbeth,macbethBM25BiEncoderCrossEncoder,58,0.923
 Macbeth,macbethBM25BiEncoderCrossEncoder,57,0.469
-Macbeth,macbethBM25BiEncoderCrossEncoder,56,1.0
-Macbeth,macbethBM25BiEncoderCrossEncoder,55,1.0
+Macbeth,macbethBM25BiEncoderCrossEncoder,56,1
+Macbeth,macbethBM25BiEncoderCrossEncoder,55,1
 Macbeth,macbethBM25BiEncoderCrossEncoder,54,0.923
 Macbeth,macbethBM25BiEncoderCrossEncoder,53,0.846
 Macbeth,macbethBM25BiEncoderCrossEncoder,52,0.694
@@ -577,7 +577,7 @@ Macbeth,macbethBM25CrossEncoder,100,0.367
 Macbeth,macbethBM25CrossEncoder,99,0.5
 Macbeth,macbethBM25CrossEncoder,98,0.837
 Macbeth,macbethBM25CrossEncoder,97,0.846
-Macbeth,macbethBM25CrossEncoder,96,1.0
+Macbeth,macbethBM25CrossEncoder,96,1
 Macbeth,macbethBM25CrossEncoder,95,0.673
 Macbeth,macbethBM25CrossEncoder,94,0.74
 Macbeth,macbethBM25CrossEncoder,93,0.751
@@ -586,48 +586,48 @@ Macbeth,macbethBM25CrossEncoder,91,0.606
 Macbeth,macbethBM25CrossEncoder,90,0.846
 Macbeth,macbethBM25CrossEncoder,89,0.923
 Macbeth,macbethBM25CrossEncoder,88,0.5
-Macbeth,macbethBM25CrossEncoder,87,1.0
+Macbeth,macbethBM25CrossEncoder,87,1
 Macbeth,macbethBM25CrossEncoder,86,0.643
 Macbeth,macbethBM25CrossEncoder,85,0.78
 Macbeth,macbethBM25CrossEncoder,84,0.606
-Macbeth,macbethBM25CrossEncoder,83,1.0
+Macbeth,macbethBM25CrossEncoder,83,1
 Macbeth,macbethBM25CrossEncoder,82,0.643
 Macbeth,macbethBM25CrossEncoder,81,0.74
 Macbeth,macbethBM25CrossEncoder,80,0.53
 Macbeth,macbethBM25CrossEncoder,79,0.577
 Macbeth,macbethBM25CrossEncoder,78,0.826
-Macbeth,macbethBM25CrossEncoder,77,1.0
+Macbeth,macbethBM25CrossEncoder,77,1
 Macbeth,macbethBM25CrossEncoder,76,0.894
 Macbeth,macbethBM25CrossEncoder,75,0.74
 Macbeth,macbethBM25CrossEncoder,74,0.837
 Macbeth,macbethBM25CrossEncoder,73,0.923
 Macbeth,macbethBM25CrossEncoder,72,0.693
 Macbeth,macbethBM25CrossEncoder,71,0.73
-Macbeth,macbethBM25CrossEncoder,70,1.0
-Macbeth,macbethBM25CrossEncoder,69,1.0
+Macbeth,macbethBM25CrossEncoder,70,1
+Macbeth,macbethBM25CrossEncoder,69,1
 Macbeth,macbethBM25CrossEncoder,68,0.894
 Macbeth,macbethBM25CrossEncoder,67,0.596
 Macbeth,macbethBM25CrossEncoder,66,0.894
-Macbeth,macbethBM25CrossEncoder,65,1.0
+Macbeth,macbethBM25CrossEncoder,65,1
 Macbeth,macbethBM25CrossEncoder,64,0.894
 Macbeth,macbethBM25CrossEncoder,63,0.511
 Macbeth,macbethBM25CrossEncoder,62,0.787
 Macbeth,macbethBM25CrossEncoder,61,0.894
 Macbeth,macbethBM25CrossEncoder,60,0.407
 Macbeth,macbethBM25CrossEncoder,59,0.903
-Macbeth,macbethBM25CrossEncoder,58,1.0
+Macbeth,macbethBM25CrossEncoder,58,1
 Macbeth,macbethBM25CrossEncoder,57,0.469
-Macbeth,macbethBM25CrossEncoder,56,1.0
-Macbeth,macbethBM25CrossEncoder,55,1.0
-Macbeth,macbethBM25CrossEncoder,54,1.0
-Macbeth,macbethBM25CrossEncoder,53,1.0
+Macbeth,macbethBM25CrossEncoder,56,1
+Macbeth,macbethBM25CrossEncoder,55,1
+Macbeth,macbethBM25CrossEncoder,54,1
+Macbeth,macbethBM25CrossEncoder,53,1
 Macbeth,macbethBM25CrossEncoder,52,0.694
-Macbeth,macbethBM25CrossEncoder,51,1.0
+Macbeth,macbethBM25CrossEncoder,51,1
 Yeagerists,run_1_lucene_pure_rev,100,0.654
 Yeagerists,run_1_lucene_pure_rev,99,0.5
 Yeagerists,run_1_lucene_pure_rev,98,0.903
 Yeagerists,run_1_lucene_pure_rev,97,0.934
-Yeagerists,run_1_lucene_pure_rev,96,1.0
+Yeagerists,run_1_lucene_pure_rev,96,1
 Yeagerists,run_1_lucene_pure_rev,95,0.826
 Yeagerists,run_1_lucene_pure_rev,94,0.72
 Yeagerists,run_1_lucene_pure_rev,93,0.663
@@ -636,29 +636,29 @@ Yeagerists,run_1_lucene_pure_rev,91,0.654
 Yeagerists,run_1_lucene_pure_rev,90,0.729
 Yeagerists,run_1_lucene_pure_rev,89,0.749
 Yeagerists,run_1_lucene_pure_rev,88,0.703
-Yeagerists,run_1_lucene_pure_rev,87,1.0
+Yeagerists,run_1_lucene_pure_rev,87,1
 Yeagerists,run_1_lucene_pure_rev,86,0.357
 Yeagerists,run_1_lucene_pure_rev,85,0.817
 Yeagerists,run_1_lucene_pure_rev,84,0.751
-Yeagerists,run_1_lucene_pure_rev,83,1.0
+Yeagerists,run_1_lucene_pure_rev,83,1
 Yeagerists,run_1_lucene_pure_rev,82,0.923
-Yeagerists,run_1_lucene_pure_rev,81,1.0
+Yeagerists,run_1_lucene_pure_rev,81,1
 Yeagerists,run_1_lucene_pure_rev,80,0.673
 Yeagerists,run_1_lucene_pure_rev,79,0.577
 Yeagerists,run_1_lucene_pure_rev,78,0.627
-Yeagerists,run_1_lucene_pure_rev,77,1.0
-Yeagerists,run_1_lucene_pure_rev,76,1.0
+Yeagerists,run_1_lucene_pure_rev,77,1
+Yeagerists,run_1_lucene_pure_rev,76,1
 Yeagerists,run_1_lucene_pure_rev,75,0.577
-Yeagerists,run_1_lucene_pure_rev,74,1.0
+Yeagerists,run_1_lucene_pure_rev,74,1
 Yeagerists,run_1_lucene_pure_rev,73,0.586
-Yeagerists,run_1_lucene_pure_rev,72,1.0
+Yeagerists,run_1_lucene_pure_rev,72,1
 Yeagerists,run_1_lucene_pure_rev,71,0.923
 Yeagerists,run_1_lucene_pure_rev,70,0.73
-Yeagerists,run_1_lucene_pure_rev,69,1.0
-Yeagerists,run_1_lucene_pure_rev,68,1.0
+Yeagerists,run_1_lucene_pure_rev,69,1
+Yeagerists,run_1_lucene_pure_rev,68,1
 Yeagerists,run_1_lucene_pure_rev,67,0.566
 Yeagerists,run_1_lucene_pure_rev,66,0.846
-Yeagerists,run_1_lucene_pure_rev,65,1.0
+Yeagerists,run_1_lucene_pure_rev,65,1
 Yeagerists,run_1_lucene_pure_rev,64,0.797
 Yeagerists,run_1_lucene_pure_rev,63,0.297
 Yeagerists,run_1_lucene_pure_rev,62,0.934
@@ -668,7 +668,7 @@ Yeagerists,run_1_lucene_pure_rev,59,0.868
 Yeagerists,run_1_lucene_pure_rev,58,0.903
 Yeagerists,run_1_lucene_pure_rev,57,0.751
 Yeagerists,run_1_lucene_pure_rev,56,0.643
-Yeagerists,run_1_lucene_pure_rev,55,1.0
+Yeagerists,run_1_lucene_pure_rev,55,1
 Yeagerists,run_1_lucene_pure_rev,54,0.797
 Yeagerists,run_1_lucene_pure_rev,53,0.868
 Yeagerists,run_1_lucene_pure_rev,52,0.673
@@ -677,7 +677,7 @@ Yeagerists,run_2_lunar-sweep-201,100,0.654
 Yeagerists,run_2_lunar-sweep-201,99,0.5
 Yeagerists,run_2_lunar-sweep-201,98,0.923
 Yeagerists,run_2_lunar-sweep-201,97,0.923
-Yeagerists,run_2_lunar-sweep-201,96,1.0
+Yeagerists,run_2_lunar-sweep-201,96,1
 Yeagerists,run_2_lunar-sweep-201,95,0.837
 Yeagerists,run_2_lunar-sweep-201,94,0.751
 Yeagerists,run_2_lunar-sweep-201,93,0.643
@@ -686,29 +686,29 @@ Yeagerists,run_2_lunar-sweep-201,91,0.654
 Yeagerists,run_2_lunar-sweep-201,90,0.74
 Yeagerists,run_2_lunar-sweep-201,89,0.749
 Yeagerists,run_2_lunar-sweep-201,88,0.72
-Yeagerists,run_2_lunar-sweep-201,87,1.0
+Yeagerists,run_2_lunar-sweep-201,87,1
 Yeagerists,run_2_lunar-sweep-201,86,0.454
 Yeagerists,run_2_lunar-sweep-201,85,0.857
 Yeagerists,run_2_lunar-sweep-201,84,0.751
-Yeagerists,run_2_lunar-sweep-201,83,1.0
+Yeagerists,run_2_lunar-sweep-201,83,1
 Yeagerists,run_2_lunar-sweep-201,82,0.903
-Yeagerists,run_2_lunar-sweep-201,81,1.0
+Yeagerists,run_2_lunar-sweep-201,81,1
 Yeagerists,run_2_lunar-sweep-201,80,0.751
 Yeagerists,run_2_lunar-sweep-201,79,0.606
 Yeagerists,run_2_lunar-sweep-201,78,0.791
-Yeagerists,run_2_lunar-sweep-201,77,1.0
-Yeagerists,run_2_lunar-sweep-201,76,1.0
+Yeagerists,run_2_lunar-sweep-201,77,1
+Yeagerists,run_2_lunar-sweep-201,76,1
 Yeagerists,run_2_lunar-sweep-201,75,0.654
-Yeagerists,run_2_lunar-sweep-201,74,1.0
+Yeagerists,run_2_lunar-sweep-201,74,1
 Yeagerists,run_2_lunar-sweep-201,73,0.674
-Yeagerists,run_2_lunar-sweep-201,72,1.0
+Yeagerists,run_2_lunar-sweep-201,72,1
 Yeagerists,run_2_lunar-sweep-201,71,0.894
 Yeagerists,run_2_lunar-sweep-201,70,0.643
-Yeagerists,run_2_lunar-sweep-201,69,1.0
-Yeagerists,run_2_lunar-sweep-201,68,1.0
+Yeagerists,run_2_lunar-sweep-201,69,1
+Yeagerists,run_2_lunar-sweep-201,68,1
 Yeagerists,run_2_lunar-sweep-201,67,0.597
 Yeagerists,run_2_lunar-sweep-201,66,0.903
-Yeagerists,run_2_lunar-sweep-201,65,1.0
+Yeagerists,run_2_lunar-sweep-201,65,1
 Yeagerists,run_2_lunar-sweep-201,64,0.826
 Yeagerists,run_2_lunar-sweep-201,63,0.326
 Yeagerists,run_2_lunar-sweep-201,62,0.934
@@ -718,7 +718,7 @@ Yeagerists,run_2_lunar-sweep-201,59,0.806
 Yeagerists,run_2_lunar-sweep-201,58,0.923
 Yeagerists,run_2_lunar-sweep-201,57,0.76
 Yeagerists,run_2_lunar-sweep-201,56,0.674
-Yeagerists,run_2_lunar-sweep-201,55,1.0
+Yeagerists,run_2_lunar-sweep-201,55,1
 Yeagerists,run_2_lunar-sweep-201,54,0.826
 Yeagerists,run_2_lunar-sweep-201,53,0.868
 Yeagerists,run_2_lunar-sweep-201,52,0.76
@@ -726,7 +726,7 @@ Yeagerists,run_2_lunar-sweep-201,51,0.817
 Yeagerists,run_5_good-sweep-85,100,0.654
 Yeagerists,run_5_good-sweep-85,99,0.5
 Yeagerists,run_5_good-sweep-85,98,0.903
-Yeagerists,run_5_good-sweep-85,97,1.0
+Yeagerists,run_5_good-sweep-85,97,1
 Yeagerists,run_5_good-sweep-85,96,0.797
 Yeagerists,run_5_good-sweep-85,95,0.923
 Yeagerists,run_5_good-sweep-85,94,0.72
@@ -736,48 +736,48 @@ Yeagerists,run_5_good-sweep-85,91,0.654
 Yeagerists,run_5_good-sweep-85,90,0.74
 Yeagerists,run_5_good-sweep-85,89,0.749
 Yeagerists,run_5_good-sweep-85,88,0.683
-Yeagerists,run_5_good-sweep-85,87,1.0
+Yeagerists,run_5_good-sweep-85,87,1
 Yeagerists,run_5_good-sweep-85,86,0.673
 Yeagerists,run_5_good-sweep-85,85,0.817
 Yeagerists,run_5_good-sweep-85,84,0.751
-Yeagerists,run_5_good-sweep-85,83,1.0
+Yeagerists,run_5_good-sweep-85,83,1
 Yeagerists,run_5_good-sweep-85,82,0.903
-Yeagerists,run_5_good-sweep-85,81,1.0
+Yeagerists,run_5_good-sweep-85,81,1
 Yeagerists,run_5_good-sweep-85,80,0.673
 Yeagerists,run_5_good-sweep-85,79,0.577
 Yeagerists,run_5_good-sweep-85,78,0.868
-Yeagerists,run_5_good-sweep-85,77,1.0
-Yeagerists,run_5_good-sweep-85,76,1.0
+Yeagerists,run_5_good-sweep-85,77,1
+Yeagerists,run_5_good-sweep-85,76,1
 Yeagerists,run_5_good-sweep-85,75,0.577
-Yeagerists,run_5_good-sweep-85,74,1.0
+Yeagerists,run_5_good-sweep-85,74,1
 Yeagerists,run_5_good-sweep-85,73,0.586
-Yeagerists,run_5_good-sweep-85,72,1.0
+Yeagerists,run_5_good-sweep-85,72,1
 Yeagerists,run_5_good-sweep-85,71,0.923
 Yeagerists,run_5_good-sweep-85,70,0.73
-Yeagerists,run_5_good-sweep-85,69,1.0
+Yeagerists,run_5_good-sweep-85,69,1
 Yeagerists,run_5_good-sweep-85,68,0.846
 Yeagerists,run_5_good-sweep-85,67,0.566
 Yeagerists,run_5_good-sweep-85,66,0.846
 Yeagerists,run_5_good-sweep-85,65,0.77
 Yeagerists,run_5_good-sweep-85,64,0.797
 Yeagerists,run_5_good-sweep-85,63,0.394
-Yeagerists,run_5_good-sweep-85,62,1.0
+Yeagerists,run_5_good-sweep-85,62,1
 Yeagerists,run_5_good-sweep-85,61,0.74
 Yeagerists,run_5_good-sweep-85,60,0.923
 Yeagerists,run_5_good-sweep-85,59,0.868
 Yeagerists,run_5_good-sweep-85,58,0.903
 Yeagerists,run_5_good-sweep-85,57,0.5
 Yeagerists,run_5_good-sweep-85,56,0.674
-Yeagerists,run_5_good-sweep-85,55,1.0
+Yeagerists,run_5_good-sweep-85,55,1
 Yeagerists,run_5_good-sweep-85,54,0.797
-Yeagerists,run_5_good-sweep-85,53,1.0
+Yeagerists,run_5_good-sweep-85,53,1
 Yeagerists,run_5_good-sweep-85,52,0.673
 Yeagerists,run_5_good-sweep-85,51,0.903
 Yeagerists,run_3_lunar-sweep-58,100,0.654
 Yeagerists,run_3_lunar-sweep-58,99,0.5
 Yeagerists,run_3_lunar-sweep-58,98,0.903
 Yeagerists,run_3_lunar-sweep-58,97,0.934
-Yeagerists,run_3_lunar-sweep-58,96,1.0
+Yeagerists,run_3_lunar-sweep-58,96,1
 Yeagerists,run_3_lunar-sweep-58,95,0.826
 Yeagerists,run_3_lunar-sweep-58,94,0.72
 Yeagerists,run_3_lunar-sweep-58,93,0.663
@@ -786,29 +786,29 @@ Yeagerists,run_3_lunar-sweep-58,91,0.654
 Yeagerists,run_3_lunar-sweep-58,90,0.729
 Yeagerists,run_3_lunar-sweep-58,89,0.749
 Yeagerists,run_3_lunar-sweep-58,88,0.703
-Yeagerists,run_3_lunar-sweep-58,87,1.0
+Yeagerists,run_3_lunar-sweep-58,87,1
 Yeagerists,run_3_lunar-sweep-58,86,0.414
 Yeagerists,run_3_lunar-sweep-58,85,0.817
 Yeagerists,run_3_lunar-sweep-58,84,0.751
-Yeagerists,run_3_lunar-sweep-58,83,1.0
+Yeagerists,run_3_lunar-sweep-58,83,1
 Yeagerists,run_3_lunar-sweep-58,82,0.923
-Yeagerists,run_3_lunar-sweep-58,81,1.0
+Yeagerists,run_3_lunar-sweep-58,81,1
 Yeagerists,run_3_lunar-sweep-58,80,0.673
 Yeagerists,run_3_lunar-sweep-58,79,0.577
 Yeagerists,run_3_lunar-sweep-58,78,0.627
-Yeagerists,run_3_lunar-sweep-58,77,1.0
-Yeagerists,run_3_lunar-sweep-58,76,1.0
+Yeagerists,run_3_lunar-sweep-58,77,1
+Yeagerists,run_3_lunar-sweep-58,76,1
 Yeagerists,run_3_lunar-sweep-58,75,0.577
-Yeagerists,run_3_lunar-sweep-58,74,1.0
+Yeagerists,run_3_lunar-sweep-58,74,1
 Yeagerists,run_3_lunar-sweep-58,73,0.586
-Yeagerists,run_3_lunar-sweep-58,72,1.0
+Yeagerists,run_3_lunar-sweep-58,72,1
 Yeagerists,run_3_lunar-sweep-58,71,0.923
 Yeagerists,run_3_lunar-sweep-58,70,0.73
-Yeagerists,run_3_lunar-sweep-58,69,1.0
-Yeagerists,run_3_lunar-sweep-58,68,1.0
+Yeagerists,run_3_lunar-sweep-58,69,1
+Yeagerists,run_3_lunar-sweep-58,68,1
 Yeagerists,run_3_lunar-sweep-58,67,0.566
 Yeagerists,run_3_lunar-sweep-58,66,0.846
-Yeagerists,run_3_lunar-sweep-58,65,1.0
+Yeagerists,run_3_lunar-sweep-58,65,1
 Yeagerists,run_3_lunar-sweep-58,64,0.797
 Yeagerists,run_3_lunar-sweep-58,63,0.297
 Yeagerists,run_3_lunar-sweep-58,62,0.934
@@ -818,7 +818,7 @@ Yeagerists,run_3_lunar-sweep-58,59,0.868
 Yeagerists,run_3_lunar-sweep-58,58,0.903
 Yeagerists,run_3_lunar-sweep-58,57,0.751
 Yeagerists,run_3_lunar-sweep-58,56,0.643
-Yeagerists,run_3_lunar-sweep-58,55,1.0
+Yeagerists,run_3_lunar-sweep-58,55,1
 Yeagerists,run_3_lunar-sweep-58,54,0.797
 Yeagerists,run_3_lunar-sweep-58,53,0.868
 Yeagerists,run_3_lunar-sweep-58,52,0.673
@@ -827,7 +827,7 @@ Yeagerists,run_4_chocolate-sweep-50,100,0.654
 Yeagerists,run_4_chocolate-sweep-50,99,0.5
 Yeagerists,run_4_chocolate-sweep-50,98,0.923
 Yeagerists,run_4_chocolate-sweep-50,97,0.923
-Yeagerists,run_4_chocolate-sweep-50,96,1.0
+Yeagerists,run_4_chocolate-sweep-50,96,1
 Yeagerists,run_4_chocolate-sweep-50,95,0.837
 Yeagerists,run_4_chocolate-sweep-50,94,0.751
 Yeagerists,run_4_chocolate-sweep-50,93,0.643
@@ -836,29 +836,29 @@ Yeagerists,run_4_chocolate-sweep-50,91,0.654
 Yeagerists,run_4_chocolate-sweep-50,90,0.74
 Yeagerists,run_4_chocolate-sweep-50,89,0.749
 Yeagerists,run_4_chocolate-sweep-50,88,0.72
-Yeagerists,run_4_chocolate-sweep-50,87,1.0
+Yeagerists,run_4_chocolate-sweep-50,87,1
 Yeagerists,run_4_chocolate-sweep-50,86,0.454
 Yeagerists,run_4_chocolate-sweep-50,85,0.857
 Yeagerists,run_4_chocolate-sweep-50,84,0.73
-Yeagerists,run_4_chocolate-sweep-50,83,1.0
+Yeagerists,run_4_chocolate-sweep-50,83,1
 Yeagerists,run_4_chocolate-sweep-50,82,0.903
-Yeagerists,run_4_chocolate-sweep-50,81,1.0
+Yeagerists,run_4_chocolate-sweep-50,81,1
 Yeagerists,run_4_chocolate-sweep-50,80,0.751
 Yeagerists,run_4_chocolate-sweep-50,79,0.606
 Yeagerists,run_4_chocolate-sweep-50,78,0.791
-Yeagerists,run_4_chocolate-sweep-50,77,1.0
-Yeagerists,run_4_chocolate-sweep-50,76,1.0
+Yeagerists,run_4_chocolate-sweep-50,77,1
+Yeagerists,run_4_chocolate-sweep-50,76,1
 Yeagerists,run_4_chocolate-sweep-50,75,0.654
-Yeagerists,run_4_chocolate-sweep-50,74,1.0
+Yeagerists,run_4_chocolate-sweep-50,74,1
 Yeagerists,run_4_chocolate-sweep-50,73,0.674
-Yeagerists,run_4_chocolate-sweep-50,72,1.0
+Yeagerists,run_4_chocolate-sweep-50,72,1
 Yeagerists,run_4_chocolate-sweep-50,71,0.894
 Yeagerists,run_4_chocolate-sweep-50,70,0.643
-Yeagerists,run_4_chocolate-sweep-50,69,1.0
-Yeagerists,run_4_chocolate-sweep-50,68,1.0
+Yeagerists,run_4_chocolate-sweep-50,69,1
+Yeagerists,run_4_chocolate-sweep-50,68,1
 Yeagerists,run_4_chocolate-sweep-50,67,0.654
 Yeagerists,run_4_chocolate-sweep-50,66,0.903
-Yeagerists,run_4_chocolate-sweep-50,65,1.0
+Yeagerists,run_4_chocolate-sweep-50,65,1
 Yeagerists,run_4_chocolate-sweep-50,64,0.826
 Yeagerists,run_4_chocolate-sweep-50,63,0.326
 Yeagerists,run_4_chocolate-sweep-50,62,0.934
@@ -868,7 +868,7 @@ Yeagerists,run_4_chocolate-sweep-50,59,0.806
 Yeagerists,run_4_chocolate-sweep-50,58,0.923
 Yeagerists,run_4_chocolate-sweep-50,57,0.76
 Yeagerists,run_4_chocolate-sweep-50,56,0.674
-Yeagerists,run_4_chocolate-sweep-50,55,1.0
+Yeagerists,run_4_chocolate-sweep-50,55,1
 Yeagerists,run_4_chocolate-sweep-50,54,0.826
 Yeagerists,run_4_chocolate-sweep-50,53,0.868
 Yeagerists,run_4_chocolate-sweep-50,52,0.76
@@ -876,39 +876,39 @@ Yeagerists,run_4_chocolate-sweep-50,51,0.817
 Skeletor,manifold-c10,100,0.673
 Skeletor,manifold-c10,99,0.5
 Skeletor,manifold-c10,98,0.827
-Skeletor,manifold-c10,97,1.0
+Skeletor,manifold-c10,97,1
 Skeletor,manifold-c10,96,0.894
 Skeletor,manifold-c10,95,0.846
 Skeletor,manifold-c10,94,0.654
 Skeletor,manifold-c10,93,0.674
-Skeletor,manifold-c10,92,1.0
+Skeletor,manifold-c10,92,1
 Skeletor,manifold-c10,91,0.5
 Skeletor,manifold-c10,90,0.489
 Skeletor,manifold-c10,89,0.857
 Skeletor,manifold-c10,88,0.663
-Skeletor,manifold-c10,87,1.0
+Skeletor,manifold-c10,87,1
 Skeletor,manifold-c10,86,0.683
 Skeletor,manifold-c10,85,0.903
 Skeletor,manifold-c10,84,0.674
-Skeletor,manifold-c10,83,1.0
+Skeletor,manifold-c10,83,1
 Skeletor,manifold-c10,82,0.749
-Skeletor,manifold-c10,81,1.0
+Skeletor,manifold-c10,81,1
 Skeletor,manifold-c10,80,0.673
 Skeletor,manifold-c10,79,0.577
 Skeletor,manifold-c10,78,0.627
-Skeletor,manifold-c10,77,1.0
+Skeletor,manifold-c10,77,1
 Skeletor,manifold-c10,76,0.903
 Skeletor,manifold-c10,75,0.597
-Skeletor,manifold-c10,74,1.0
+Skeletor,manifold-c10,74,1
 Skeletor,manifold-c10,73,0.837
-Skeletor,manifold-c10,72,1.0
-Skeletor,manifold-c10,71,1.0
+Skeletor,manifold-c10,72,1
+Skeletor,manifold-c10,71,1
 Skeletor,manifold-c10,70,0.923
-Skeletor,manifold-c10,69,1.0
-Skeletor,manifold-c10,68,1.0
+Skeletor,manifold-c10,69,1
+Skeletor,manifold-c10,68,1
 Skeletor,manifold-c10,67,0.577
 Skeletor,manifold-c10,66,0.846
-Skeletor,manifold-c10,65,1.0
+Skeletor,manifold-c10,65,1
 Skeletor,manifold-c10,64,0.837
 Skeletor,manifold-c10,63,0.24
 Skeletor,manifold-c10,62,0.903
@@ -916,9 +916,9 @@ Skeletor,manifold-c10,61,0.78
 Skeletor,manifold-c10,60,0.857
 Skeletor,manifold-c10,59,0.683
 Skeletor,manifold-c10,58,0.923
-Skeletor,manifold-c10,57,1.0
+Skeletor,manifold-c10,57,1
 Skeletor,manifold-c10,56,0.797
-Skeletor,manifold-c10,55,1.0
+Skeletor,manifold-c10,55,1
 Skeletor,manifold-c10,54,0.683
 Skeletor,manifold-c10,53,0.749
 Skeletor,manifold-c10,52,0.846
@@ -927,7 +927,7 @@ Skeletor,semantic,100,0.174
 Skeletor,semantic,99,0.403
 Skeletor,semantic,98,0.593
 Skeletor,semantic,97,0.846
-Skeletor,semantic,96,1.0
+Skeletor,semantic,96,1
 Skeletor,semantic,95,0.74
 Skeletor,semantic,94,0.501
 Skeletor,semantic,93,0.24
@@ -936,17 +936,17 @@ Skeletor,semantic,91,0.5
 Skeletor,semantic,90,0.77
 Skeletor,semantic,89,0.934
 Skeletor,semantic,88,0.454
-Skeletor,semantic,87,1.0
+Skeletor,semantic,87,1
 Skeletor,semantic,86,0.209
 Skeletor,semantic,85,0.749
 Skeletor,semantic,84,0.097
-Skeletor,semantic,83,1.0
+Skeletor,semantic,83,1
 Skeletor,semantic,82,0.846
 Skeletor,semantic,81,0.923
 Skeletor,semantic,80,0.327
 Skeletor,semantic,79,0.51
-Skeletor,semantic,78,1.0
-Skeletor,semantic,77,1.0
+Skeletor,semantic,78,1
+Skeletor,semantic,77,1
 Skeletor,semantic,76,0.894
 Skeletor,semantic,75,0.317
 Skeletor,semantic,74,0.934
@@ -954,8 +954,8 @@ Skeletor,semantic,73,0.52
 Skeletor,semantic,72,0.787
 Skeletor,semantic,71,0.894
 Skeletor,semantic,70,0.286
-Skeletor,semantic,69,1.0
-Skeletor,semantic,68,0.0
+Skeletor,semantic,69,1
+Skeletor,semantic,68,0
 Skeletor,semantic,67,0.357
 Skeletor,semantic,66,0.7
 Skeletor,semantic,65,0.934
@@ -968,15 +968,15 @@ Skeletor,semantic,59,0.593
 Skeletor,semantic,58,0.77
 Skeletor,semantic,57,0.934
 Skeletor,semantic,56,0.674
-Skeletor,semantic,55,1.0
+Skeletor,semantic,55,1
 Skeletor,semantic,54,0.837
-Skeletor,semantic,53,1.0
+Skeletor,semantic,53,1
 Skeletor,semantic,52,0.72
 Skeletor,semantic,51,0.481
 Skeletor,bm25,100,0.72
 Skeletor,bm25,99,0.5
 Skeletor,bm25,98,0.826
-Skeletor,bm25,97,1.0
+Skeletor,bm25,97,1
 Skeletor,bm25,96,0.846
 Skeletor,bm25,95,0.846
 Skeletor,bm25,94,0.654
@@ -986,39 +986,39 @@ Skeletor,bm25,91,0.577
 Skeletor,bm25,90,0.7
 Skeletor,bm25,89,0.934
 Skeletor,bm25,88,0.797
-Skeletor,bm25,87,1.0
+Skeletor,bm25,87,1
 Skeletor,bm25,86,0.654
 Skeletor,bm25,85,0.77
 Skeletor,bm25,84,0.684
-Skeletor,bm25,83,1.0
+Skeletor,bm25,83,1
 Skeletor,bm25,82,0.894
-Skeletor,bm25,81,1.0
+Skeletor,bm25,81,1
 Skeletor,bm25,80,0.73
 Skeletor,bm25,79,0.5
 Skeletor,bm25,78,0.74
-Skeletor,bm25,77,1.0
+Skeletor,bm25,77,1
 Skeletor,bm25,76,0.903
 Skeletor,bm25,75,0.643
-Skeletor,bm25,74,1.0
+Skeletor,bm25,74,1
 Skeletor,bm25,73,0.827
-Skeletor,bm25,72,1.0
-Skeletor,bm25,71,1.0
+Skeletor,bm25,72,1
+Skeletor,bm25,71,1
 Skeletor,bm25,70,0.923
-Skeletor,bm25,69,1.0
+Skeletor,bm25,69,1
 Skeletor,bm25,68,0.846
 Skeletor,bm25,67,0.566
 Skeletor,bm25,66,0.903
-Skeletor,bm25,65,1.0
+Skeletor,bm25,65,1
 Skeletor,bm25,64,0.77
 Skeletor,bm25,63,0.24
 Skeletor,bm25,62,0.923
 Skeletor,bm25,61,0.76
-Skeletor,bm25,60,1.0
+Skeletor,bm25,60,1
 Skeletor,bm25,59,0.923
 Skeletor,bm25,58,0.934
 Skeletor,bm25,57,0.846
 Skeletor,bm25,56,0.74
-Skeletor,bm25,55,1.0
+Skeletor,bm25,55,1
 Skeletor,bm25,54,0.797
 Skeletor,bm25,53,0.693
 Skeletor,bm25,52,0.837
@@ -1026,7 +1026,7 @@ Skeletor,bm25,51,0.857
 Skeletor,manifold,100,0.673
 Skeletor,manifold,99,0.423
 Skeletor,manifold,98,0.827
-Skeletor,manifold,97,1.0
+Skeletor,manifold,97,1
 Skeletor,manifold,96,0.894
 Skeletor,manifold,95,0.846
 Skeletor,manifold,94,0.73
@@ -1036,39 +1036,39 @@ Skeletor,manifold,91,0.577
 Skeletor,manifold,90,0.489
 Skeletor,manifold,89,0.857
 Skeletor,manifold,88,0.663
-Skeletor,manifold,87,1.0
+Skeletor,manifold,87,1
 Skeletor,manifold,86,0.749
 Skeletor,manifold,85,0.837
 Skeletor,manifold,84,0.674
-Skeletor,manifold,83,1.0
+Skeletor,manifold,83,1
 Skeletor,manifold,82,0.683
-Skeletor,manifold,81,1.0
+Skeletor,manifold,81,1
 Skeletor,manifold,80,0.606
 Skeletor,manifold,79,0.577
 Skeletor,manifold,78,0.693
-Skeletor,manifold,77,1.0
+Skeletor,manifold,77,1
 Skeletor,manifold,76,0.903
 Skeletor,manifold,75,0.674
-Skeletor,manifold,74,1.0
+Skeletor,manifold,74,1
 Skeletor,manifold,73,0.903
-Skeletor,manifold,72,1.0
-Skeletor,manifold,71,1.0
+Skeletor,manifold,72,1
+Skeletor,manifold,71,1
 Skeletor,manifold,70,0.903
-Skeletor,manifold,69,1.0
-Skeletor,manifold,68,1.0
+Skeletor,manifold,69,1
+Skeletor,manifold,68,1
 Skeletor,manifold,67,0.577
 Skeletor,manifold,66,0.846
-Skeletor,manifold,65,1.0
+Skeletor,manifold,65,1
 Skeletor,manifold,64,0.837
 Skeletor,manifold,63,0.174
 Skeletor,manifold,62,0.826
 Skeletor,manifold,61,0.714
-Skeletor,manifold,60,1.0
-Skeletor,manifold,59,1.0
+Skeletor,manifold,60,1
+Skeletor,manifold,59,1
 Skeletor,manifold,58,0.923
-Skeletor,manifold,57,1.0
+Skeletor,manifold,57,1
 Skeletor,manifold,56,0.797
-Skeletor,manifold,55,1.0
+Skeletor,manifold,55,1
 Skeletor,manifold,54,0.749
 Skeletor,manifold,53,0.923
 Skeletor,manifold,52,0.846
@@ -1076,7 +1076,7 @@ Skeletor,manifold,51,0.77
 Skeletor,bm25-0.7semantic,100,0.654
 Skeletor,bm25-0.7semantic,99,0.5
 Skeletor,bm25-0.7semantic,98,0.826
-Skeletor,bm25-0.7semantic,97,1.0
+Skeletor,bm25-0.7semantic,97,1
 Skeletor,bm25-0.7semantic,96,0.846
 Skeletor,bm25-0.7semantic,95,0.846
 Skeletor,bm25-0.7semantic,94,0.654
@@ -1086,39 +1086,39 @@ Skeletor,bm25-0.7semantic,91,0.577
 Skeletor,bm25-0.7semantic,90,0.7
 Skeletor,bm25-0.7semantic,89,0.934
 Skeletor,bm25-0.7semantic,88,0.797
-Skeletor,bm25-0.7semantic,87,1.0
+Skeletor,bm25-0.7semantic,87,1
 Skeletor,bm25-0.7semantic,86,0.597
 Skeletor,bm25-0.7semantic,85,0.77
 Skeletor,bm25-0.7semantic,84,0.664
-Skeletor,bm25-0.7semantic,83,1.0
+Skeletor,bm25-0.7semantic,83,1
 Skeletor,bm25-0.7semantic,82,0.894
-Skeletor,bm25-0.7semantic,81,1.0
+Skeletor,bm25-0.7semantic,81,1
 Skeletor,bm25-0.7semantic,80,0.663
 Skeletor,bm25-0.7semantic,79,0.5
 Skeletor,bm25-0.7semantic,78,0.74
 Skeletor,bm25-0.7semantic,77,0.868
 Skeletor,bm25-0.7semantic,76,0.903
 Skeletor,bm25-0.7semantic,75,0.597
-Skeletor,bm25-0.7semantic,74,1.0
+Skeletor,bm25-0.7semantic,74,1
 Skeletor,bm25-0.7semantic,73,0.827
-Skeletor,bm25-0.7semantic,72,1.0
-Skeletor,bm25-0.7semantic,71,1.0
+Skeletor,bm25-0.7semantic,72,1
+Skeletor,bm25-0.7semantic,71,1
 Skeletor,bm25-0.7semantic,70,0.857
-Skeletor,bm25-0.7semantic,69,1.0
+Skeletor,bm25-0.7semantic,69,1
 Skeletor,bm25-0.7semantic,68,0.846
 Skeletor,bm25-0.7semantic,67,0.566
 Skeletor,bm25-0.7semantic,66,0.903
-Skeletor,bm25-0.7semantic,65,1.0
+Skeletor,bm25-0.7semantic,65,1
 Skeletor,bm25-0.7semantic,64,0.77
 Skeletor,bm25-0.7semantic,63,0.24
 Skeletor,bm25-0.7semantic,62,0.903
 Skeletor,bm25-0.7semantic,61,0.826
-Skeletor,bm25-0.7semantic,60,1.0
+Skeletor,bm25-0.7semantic,60,1
 Skeletor,bm25-0.7semantic,59,0.934
 Skeletor,bm25-0.7semantic,58,0.934
 Skeletor,bm25-0.7semantic,57,0.923
 Skeletor,bm25-0.7semantic,56,0.74
-Skeletor,bm25-0.7semantic,55,1.0
+Skeletor,bm25-0.7semantic,55,1
 Skeletor,bm25-0.7semantic,54,0.797
 Skeletor,bm25-0.7semantic,53,0.693
 Skeletor,bm25-0.7semantic,52,0.837
@@ -1140,9 +1140,9 @@ Little Foot,whoosh,87,0.806
 Little Foot,whoosh,86,0.674
 Little Foot,whoosh,85,0.894
 Little Foot,whoosh,84,0.74
-Little Foot,whoosh,83,1.0
+Little Foot,whoosh,83,1
 Little Foot,whoosh,82,0.586
-Little Foot,whoosh,81,1.0
+Little Foot,whoosh,81,1
 Little Foot,whoosh,80,0.606
 Little Foot,whoosh,79,0.597
 Little Foot,whoosh,78,0.923
@@ -1151,24 +1151,24 @@ Little Foot,whoosh,76,0.846
 Little Foot,whoosh,75,0.489
 Little Foot,whoosh,74,0.729
 Little Foot,whoosh,73,0.627
-Little Foot,whoosh,72,1.0
+Little Foot,whoosh,72,1
 Little Foot,whoosh,71,0.857
 Little Foot,whoosh,70,0.846
-Little Foot,whoosh,69,1.0
+Little Foot,whoosh,69,1
 Little Foot,whoosh,68,0.52
 Little Foot,whoosh,67,0.5
 Little Foot,whoosh,66,0.846
-Little Foot,whoosh,65,1.0
+Little Foot,whoosh,65,1
 Little Foot,whoosh,64,0.213
 Little Foot,whoosh,63,0.403
-Little Foot,whoosh,62,1.0
+Little Foot,whoosh,62,1
 Little Foot,whoosh,61,0.923
 Little Foot,whoosh,60,0.903
-Little Foot,whoosh,59,1.0
+Little Foot,whoosh,59,1
 Little Foot,whoosh,58,0.106
 Little Foot,whoosh,57,0.46
 Little Foot,whoosh,56,0.74
-Little Foot,whoosh,55,1.0
+Little Foot,whoosh,55,1
 Little Foot,whoosh,54,0.817
 Little Foot,whoosh,53,0.213
 Little Foot,whoosh,52,0.531
@@ -1177,7 +1177,7 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,100,
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,99,0.5
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,98,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,97,0.934
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,96,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,96,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,95,0.77
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,94,0.73
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,93,0.597
@@ -1186,29 +1186,29 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,91,0
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,90,0.55
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,89,0.749
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,88,0.683
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,87,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,87,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,86,0.316
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,85,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,84,0.751
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,83,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,82,0.934
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,81,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,80,0.673
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,79,0.577
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,78,0.693
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,77,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,77,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,76,0.934
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,75,0.5
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,74,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,74,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,73,0.664
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,72,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,71,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,70,0.663
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,69,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,68,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,69,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,68,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,67,0.566
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,66,0.903
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,65,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,65,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,64,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,63,0.317
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,62,0.934
@@ -1218,7 +1218,7 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,59,0
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,58,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,57,0.703
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,56,0.643
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,55,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,55,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,54,0.74
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,53,0.846
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,52,0.683
@@ -1226,8 +1226,8 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem-queryexp,51,0
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,100,0.673
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,99,0.5
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,98,0.903
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,97,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,96,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,97,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,96,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,95,0.78
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,94,0.72
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,93,0.597
@@ -1236,39 +1236,39 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,91,0.654
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,90,0.624
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,89,0.749
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,88,0.703
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,87,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,87,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,86,0.326
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,85,0.817
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,84,0.751
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,83,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,82,0.903
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,81,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,80,0.683
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,79,0.577
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,78,0.693
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,77,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,77,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,76,0.934
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,75,0.5
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,74,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,74,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,73,0.664
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,72,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,71,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,70,0.643
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,69,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,68,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,69,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,68,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,67,0.566
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,66,0.903
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,65,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,65,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,64,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,63,0.297
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,62,0.934
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,61,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,60,0.934
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,59,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,59,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,58,0.846
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,57,0.703
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,56,0.663
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,55,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,55,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,54,0.74
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,53,0.868
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,52,0.673
@@ -1276,8 +1276,8 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-lucenestop-nostem,51,0.857
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,100,0.749
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,99,0.5
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,98,0.894
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,97,1.0
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,96,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,97,1
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,96,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,95,0.837
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,94,0.73
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,93,0.566
@@ -1286,48 +1286,48 @@ Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,91,0.577
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,90,0.469
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,89,0.857
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,88,0.703
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,87,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,87,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,86,0.827
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,85,0.684
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,84,0.586
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,83,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,82,0.729
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,81,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,80,0.606
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,79,0.597
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,78,0.693
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,77,0.934
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,76,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,75,0.703
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,74,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,74,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,73,0.608
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,72,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,71,0.846
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,70,0.663
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,69,1.0
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,68,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,69,1
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,68,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,67,0.566
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,66,0.903
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,65,0.903
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,64,0.827
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,63,0.249
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,62,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,62,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,61,0.74
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,60,0.934
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,59,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,59,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,58,0.846
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,57,0.751
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,56,0.663
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,55,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,55,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,54,0.797
-Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,53,1.0
+Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,53,1
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,52,0.683
 Goemon Ishikawa,goemon2021-dirichlet-opennlptoken-terrierstop-nostem,51,0.74
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,100,0.683
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,99,0.5
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,98,0.894
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,97,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,96,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,97,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,96,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,95,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,94,0.73
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,93,0.566
@@ -1336,48 +1336,48 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,91,
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,90,0.567
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,89,0.826
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,88,0.683
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,87,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,87,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,86,0.817
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,85,0.817
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,84,0.751
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,83,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,82,0.903
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,81,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,80,0.703
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,79,0.643
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,78,0.693
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,77,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,77,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,76,0.934
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,75,0.5
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,74,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,74,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,73,0.684
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,72,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,71,0.846
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,70,0.643
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,69,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,68,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,69,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,68,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,67,0.566
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,66,0.846
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,65,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,64,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,63,0.297
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,62,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,62,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,61,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,60,0.934
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,59,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,59,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,58,0.846
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,57,0.703
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,56,0.74
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,55,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,55,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,54,0.74
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,53,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,53,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,52,0.673
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-terrierstop-nostem-queryexp,51,0.857
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,100,0.826
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,99,0.5
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,98,0.846
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,97,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,96,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,97,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,96,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,95,0.903
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,94,0.72
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,93,0.5
@@ -1386,136 +1386,136 @@ Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,91,0.566
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,90,0.489
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,89,0.826
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,88,0.683
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,87,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,87,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,86,0.817
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,85,0.827
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,84,0.817
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,83,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,83,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,82,0.837
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,81,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,81,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,80,0.683
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,79,0.643
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,78,0.806
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,77,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,76,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,77,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,76,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,75,0.403
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,74,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,74,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,73,0.684
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,72,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,72,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,71,0.894
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,70,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,69,1.0
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,68,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,70,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,69,1
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,68,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,67,0.566
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,66,0.894
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,65,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,65,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,64,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,63,0.173
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,62,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,62,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,61,0.797
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,60,0.934
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,59,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,59,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,58,0.846
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,57,0.703
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,56,0.674
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,55,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,55,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,54,0.74
-Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,53,1.0
+Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,53,1
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,52,0.673
 Goemon Ishikawa,goemon2021-dirichlet-lucenetoken-atirestop-nostem,51,0.749
-Baseline Api,ARGSME,100,0.714
-Baseline Api,ARGSME,99,0.566
-Baseline Api,ARGSME,98,0.52
-Baseline Api,ARGSME,97,0.817
-Baseline Api,ARGSME,96,0.749
-Baseline Api,ARGSME,95,0.751
-Baseline Api,ARGSME,94,0.577
-Baseline Api,ARGSME,93,0.423
-Baseline Api,ARGSME,92,0.894
-Baseline Api,ARGSME,91,0.403
-Baseline Api,ARGSME,90,0.653
-Baseline Api,ARGSME,89,1.0
-Baseline Api,ARGSME,88,0.407
-Baseline Api,ARGSME,87,0.868
-Baseline Api,ARGSME,86,0.74
-Baseline Api,ARGSME,85,0.827
-Baseline Api,ARGSME,84,0.78
-Baseline Api,ARGSME,83,0.894
-Baseline Api,ARGSME,82,0.923
-Baseline Api,ARGSME,81,0.846
-Baseline Api,ARGSME,80,0.434
-Baseline Api,ARGSME,79,0.597
-Baseline Api,ARGSME,78,0.923
-Baseline Api,ARGSME,77,0.499
-Baseline Api,ARGSME,76,1.0
-Baseline Api,ARGSME,75,0.694
-Baseline Api,ARGSME,74,1.0
-Baseline Api,ARGSME,73,0.154
-Baseline Api,ARGSME,72,0.473
-Baseline Api,ARGSME,71,0.0
-Baseline Api,ARGSME,70,0.827
-Baseline Api,ARGSME,69,1.0
-Baseline Api,ARGSME,67,0.489
-Baseline Api,ARGSME,66,1.0
-Baseline Api,ARGSME,65,1.0
-Baseline Api,ARGSME,64,0.77
-Baseline Api,ARGSME,63,0.423
-Baseline Api,ARGSME,62,1.0
-Baseline Api,ARGSME,61,0.846
-Baseline Api,ARGSME,60,0.633
-Baseline Api,ARGSME,59,1.0
-Baseline Api,ARGSME,56,0.643
-Baseline Api,ARGSME,55,0.633
-Baseline Api,ARGSME,54,0.69
-Baseline Api,ARGSME,53,1.0
-Baseline Api,ARGSME,52,0.47
-Baseline Api,ARGSME,51,0.894
+Swordsman (Baseline),args.me API,100,0.714
+Swordsman (Baseline),args.me API,99,0.566
+Swordsman (Baseline),args.me API,98,0.52
+Swordsman (Baseline),args.me API,97,0.817
+Swordsman (Baseline),args.me API,96,0.749
+Swordsman (Baseline),args.me API,95,0.751
+Swordsman (Baseline),args.me API,94,0.577
+Swordsman (Baseline),args.me API,93,0.423
+Swordsman (Baseline),args.me API,92,0.894
+Swordsman (Baseline),args.me API,91,0.403
+Swordsman (Baseline),args.me API,90,0.653
+Swordsman (Baseline),args.me API,89,1
+Swordsman (Baseline),args.me API,88,0.407
+Swordsman (Baseline),args.me API,87,0.868
+Swordsman (Baseline),args.me API,86,0.74
+Swordsman (Baseline),args.me API,85,0.827
+Swordsman (Baseline),args.me API,84,0.78
+Swordsman (Baseline),args.me API,83,0.894
+Swordsman (Baseline),args.me API,82,0.923
+Swordsman (Baseline),args.me API,81,0.846
+Swordsman (Baseline),args.me API,80,0.434
+Swordsman (Baseline),args.me API,79,0.597
+Swordsman (Baseline),args.me API,78,0.923
+Swordsman (Baseline),args.me API,77,0.499
+Swordsman (Baseline),args.me API,76,1
+Swordsman (Baseline),args.me API,75,0.694
+Swordsman (Baseline),args.me API,74,1
+Swordsman (Baseline),args.me API,73,0.154
+Swordsman (Baseline),args.me API,72,0.473
+Swordsman (Baseline),args.me API,71,0
+Swordsman (Baseline),args.me API,70,0.827
+Swordsman (Baseline),args.me API,69,1
+Swordsman (Baseline),args.me API,67,0.489
+Swordsman (Baseline),args.me API,66,1
+Swordsman (Baseline),args.me API,65,1
+Swordsman (Baseline),args.me API,64,0.77
+Swordsman (Baseline),args.me API,63,0.423
+Swordsman (Baseline),args.me API,62,1
+Swordsman (Baseline),args.me API,61,0.846
+Swordsman (Baseline),args.me API,60,0.633
+Swordsman (Baseline),args.me API,59,1
+Swordsman (Baseline),args.me API,56,0.643
+Swordsman (Baseline),args.me API,55,0.633
+Swordsman (Baseline),args.me API,54,0.69
+Swordsman (Baseline),args.me API,53,1
+Swordsman (Baseline),args.me API,52,0.47
+Swordsman (Baseline),args.me API,51,0.894
 Luke Skywalker,luke-skywalker,100,0.77
 Luke Skywalker,luke-skywalker,99,0.5
-Luke Skywalker,luke-skywalker,98,1.0
-Luke Skywalker,luke-skywalker,97,1.0
-Luke Skywalker,luke-skywalker,96,1.0
+Luke Skywalker,luke-skywalker,98,1
+Luke Skywalker,luke-skywalker,97,1
+Luke Skywalker,luke-skywalker,96,1
 Luke Skywalker,luke-skywalker,95,0.903
 Luke Skywalker,luke-skywalker,94,0.72
 Luke Skywalker,luke-skywalker,93,0.5
-Luke Skywalker,luke-skywalker,92,1.0
+Luke Skywalker,luke-skywalker,92,1
 Luke Skywalker,luke-skywalker,91,0.5
 Luke Skywalker,luke-skywalker,90,0.49
 Luke Skywalker,luke-skywalker,89,0.74
 Luke Skywalker,luke-skywalker,88,0.683
-Luke Skywalker,luke-skywalker,87,1.0
+Luke Skywalker,luke-skywalker,87,1
 Luke Skywalker,luke-skywalker,86,0.894
 Luke Skywalker,luke-skywalker,85,0.923
 Luke Skywalker,luke-skywalker,84,0.797
-Luke Skywalker,luke-skywalker,83,1.0
+Luke Skywalker,luke-skywalker,83,1
 Luke Skywalker,luke-skywalker,82,0.749
-Luke Skywalker,luke-skywalker,81,1.0
+Luke Skywalker,luke-skywalker,81,1
 Luke Skywalker,luke-skywalker,80,0.597
 Luke Skywalker,luke-skywalker,79,0.566
 Luke Skywalker,luke-skywalker,78,0.791
-Luke Skywalker,luke-skywalker,77,1.0
-Luke Skywalker,luke-skywalker,76,1.0
+Luke Skywalker,luke-skywalker,77,1
+Luke Skywalker,luke-skywalker,76,1
 Luke Skywalker,luke-skywalker,75,0.566
 Luke Skywalker,luke-skywalker,74,0.934
 Luke Skywalker,luke-skywalker,73,0.586
-Luke Skywalker,luke-skywalker,72,1.0
+Luke Skywalker,luke-skywalker,72,1
 Luke Skywalker,luke-skywalker,71,0.73
 Luke Skywalker,luke-skywalker,70,0.827
-Luke Skywalker,luke-skywalker,69,1.0
+Luke Skywalker,luke-skywalker,69,1
 Luke Skywalker,luke-skywalker,68,0.868
 Luke Skywalker,luke-skywalker,67,0.5
 Luke Skywalker,luke-skywalker,66,0.923
-Luke Skywalker,luke-skywalker,65,1.0
+Luke Skywalker,luke-skywalker,65,1
 Luke Skywalker,luke-skywalker,64,0.827
 Luke Skywalker,luke-skywalker,63,0.24
 Luke Skywalker,luke-skywalker,62,0.934
 Luke Skywalker,luke-skywalker,61,0.797
-Luke Skywalker,luke-skywalker,60,1.0
+Luke Skywalker,luke-skywalker,60,1
 Luke Skywalker,luke-skywalker,59,0.903
 Luke Skywalker,luke-skywalker,58,0.903
-Luke Skywalker,luke-skywalker,57,1.0
+Luke Skywalker,luke-skywalker,57,1
 Luke Skywalker,luke-skywalker,56,0.654
-Luke Skywalker,luke-skywalker,55,1.0
+Luke Skywalker,luke-skywalker,55,1
 Luke Skywalker,luke-skywalker,54,0.827
 Luke Skywalker,luke-skywalker,53,0.857
 Luke Skywalker,luke-skywalker,52,0.817
@@ -1533,25 +1533,25 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,90,0.837
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,89,0.749
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,88,0.643
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,87,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,87,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,86,0.894
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,85,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,84,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,83,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,82,0.52
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,81,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,80,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,79,0.577
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,78,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,77,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,78,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,77,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,76,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,75,0.5
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,74,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,74,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,73,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,72,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,72,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,71,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,70,0.903
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,69,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,68,0.693
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,67,0.566
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,66,0.797
@@ -1560,21 +1560,21 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,63,0.346
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,62,0.846
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,61,0.817
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,60,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,60,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,59,0.78
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,58,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,57,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,58,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,57,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,56,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,55,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,54,0.751
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,53,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,53,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,52,0.72
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-expanded-topics-2021,51,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,100,0.78
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,99,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,98,0.826
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,97,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,96,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,97,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,96,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,95,0.826
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,94,0.817
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,93,0.903
@@ -1583,25 +1583,25 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,90,0.53
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,89,0.749
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,88,0.643
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,87,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,87,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,86,0.827
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,85,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,84,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,83,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,82,0.694
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,81,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,80,0.683
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,79,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,78,0.663
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,77,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,77,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,76,0.903
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,75,0.394
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,74,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,74,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,73,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,72,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,72,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,71,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,70,0.78
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,69,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,68,0.71
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,67,0.566
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,66,0.797
@@ -1615,16 +1615,16 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,58,0.934
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,57,0.934
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,56,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,55,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,54,0.827
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,53,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,53,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,52,0.76
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021,51,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,100,0.837
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,99,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,98,0.826
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,97,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,96,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,97,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,96,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,95,0.826
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,94,0.817
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,93,0.903
@@ -1633,25 +1633,25 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,90,0.55
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,89,0.749
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,88,0.643
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,87,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,87,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,86,0.827
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,85,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,84,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,83,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,82,0.694
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,81,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,80,0.683
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,79,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,78,0.74
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,77,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,77,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,76,0.903
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,75,0.346
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,74,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,74,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,73,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,72,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,72,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,71,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,70,0.78
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,69,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,68,0.633
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,67,0.566
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,66,0.797
@@ -1665,9 +1665,9 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,58,0.934
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,57,0.903
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,56,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,55,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,54,0.827
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,53,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,53,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,52,0.76
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1500.0-topics-2021,51,0.684
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,100,0.923
@@ -1683,25 +1683,25 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,90,0.837
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,89,0.749
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,88,0.643
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,87,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,87,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,86,0.894
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,85,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,84,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,83,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,82,0.52
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,81,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,80,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,79,0.577
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,78,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,77,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,76,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,78,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,77,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,76,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,75,0.5
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,74,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,74,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,73,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,72,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,72,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,71,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,70,0.903
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,69,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,68,0.693
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,67,0.566
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,66,0.797
@@ -1710,21 +1710,21 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,63,0.346
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,62,0.846
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,61,0.817
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,60,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,60,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,59,0.78
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,58,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,57,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,58,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,57,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,56,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,55,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,54,0.751
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,53,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,53,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,52,0.72
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021,51,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,100,0.78
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,99,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,98,0.826
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,97,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,96,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,97,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,96,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,95,0.826
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,94,0.817
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,93,0.903
@@ -1733,25 +1733,25 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,90,0.55
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,89,0.749
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,88,0.643
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,87,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,87,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,86,0.827
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,85,0.751
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,84,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,83,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,83,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,82,0.694
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,81,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,81,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,80,0.683
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,79,0.5
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,78,0.729
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,77,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,77,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,76,0.903
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,75,0.394
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,74,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,74,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,73,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,72,1.0
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,71,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,72,1
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,71,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,70,0.78
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,69,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,69,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,68,0.69
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,67,0.566
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,66,0.797
@@ -1765,9 +1765,9 @@ Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,58,0.934
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,57,0.923
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,56,0.797
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,55,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,55,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,54,0.827
-Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,53,1.0
+Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,53,1
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,52,0.76
 Pippin Took,seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-topics-2021,51,0.751
 Blade,bladeGroupBM25Method1,100,0.714
@@ -1776,11 +1776,11 @@ Blade,bladeGroupBM25Method1,98,0.154
 Blade,bladeGroupBM25Method1,97,0.817
 Blade,bladeGroupBM25Method1,96,0.791
 Blade,bladeGroupBM25Method1,95,0.434
-Blade,bladeGroupBM25Method1,94,1.0
+Blade,bladeGroupBM25Method1,94,1
 Blade,bladeGroupBM25Method1,93,0.72
 Blade,bladeGroupBM25Method1,92,0.749
 Blade,bladeGroupBM25Method1,91,0.454
-Blade,bladeGroupBM25Method1,90,1.0
+Blade,bladeGroupBM25Method1,90,1
 Blade,bladeGroupBM25Method1,89,0.903
 Blade,bladeGroupBM25Method1,88,0.464
 Blade,bladeGroupBM25Method1,87,0.923
@@ -1788,7 +1788,7 @@ Blade,bladeGroupBM25Method1,86,0.623
 Blade,bladeGroupBM25Method1,85,0.643
 Blade,bladeGroupBM25Method1,84,0.761
 Blade,bladeGroupBM25Method1,83,0.846
-Blade,bladeGroupBM25Method1,82,1.0
+Blade,bladeGroupBM25Method1,82,1
 Blade,bladeGroupBM25Method1,81,0.837
 Blade,bladeGroupBM25Method1,80,0.464
 Blade,bladeGroupBM25Method1,79,0.5
@@ -1799,34 +1799,34 @@ Blade,bladeGroupBM25Method1,75,0.663
 Blade,bladeGroupBM25Method1,74,0.934
 Blade,bladeGroupBM25Method1,73,0.27
 Blade,bladeGroupBM25Method1,72,0.806
-Blade,bladeGroupBM25Method1,71,1.0
+Blade,bladeGroupBM25Method1,71,1
 Blade,bladeGroupBM25Method1,70,0.857
-Blade,bladeGroupBM25Method1,69,1.0
+Blade,bladeGroupBM25Method1,69,1
 Blade,bladeGroupBM25Method1,68,0.903
 Blade,bladeGroupBM25Method1,67,0.654
 Blade,bladeGroupBM25Method1,66,0.663
-Blade,bladeGroupBM25Method1,65,1.0
+Blade,bladeGroupBM25Method1,65,1
 Blade,bladeGroupBM25Method1,64,0.577
 Blade,bladeGroupBM25Method1,63,0.423
 Blade,bladeGroupBM25Method1,62,0.597
 Blade,bladeGroupBM25Method1,61,0.797
 Blade,bladeGroupBM25Method1,60,0.499
-Blade,bladeGroupBM25Method1,59,1.0
+Blade,bladeGroupBM25Method1,59,1
 Blade,bladeGroupBM25Method1,58,0.934
 Blade,bladeGroupBM25Method1,57,0.749
 Blade,bladeGroupBM25Method1,56,0.797
 Blade,bladeGroupBM25Method1,55,0.868
 Blade,bladeGroupBM25Method1,54,0.55
-Blade,bladeGroupBM25Method1,53,1.0
+Blade,bladeGroupBM25Method1,53,1
 Blade,bladeGroupBM25Method1,52,0.53
 Blade,bladeGroupBM25Method1,51,0.77
 Blade,bladeGroupLMDirichlet,100,0.78
 Blade,bladeGroupLMDirichlet,99,0.577
 Blade,bladeGroupLMDirichlet,98,0.097
-Blade,bladeGroupLMDirichlet,97,1.0
-Blade,bladeGroupLMDirichlet,96,1.0
+Blade,bladeGroupLMDirichlet,97,1
+Blade,bladeGroupLMDirichlet,96,1
 Blade,bladeGroupLMDirichlet,95,0.5
-Blade,bladeGroupLMDirichlet,94,1.0
+Blade,bladeGroupLMDirichlet,94,1
 Blade,bladeGroupLMDirichlet,93,0.703
 Blade,bladeGroupLMDirichlet,92,0.791
 Blade,bladeGroupLMDirichlet,91,0.454
@@ -1837,28 +1837,28 @@ Blade,bladeGroupLMDirichlet,87,0.923
 Blade,bladeGroupLMDirichlet,86,0.623
 Blade,bladeGroupLMDirichlet,85,0.683
 Blade,bladeGroupLMDirichlet,84,0.751
-Blade,bladeGroupLMDirichlet,83,1.0
-Blade,bladeGroupLMDirichlet,82,1.0
+Blade,bladeGroupLMDirichlet,83,1
+Blade,bladeGroupLMDirichlet,82,1
 Blade,bladeGroupLMDirichlet,81,0.567
 Blade,bladeGroupLMDirichlet,80,0.443
 Blade,bladeGroupLMDirichlet,79,0.5
 Blade,bladeGroupLMDirichlet,78,0.934
 Blade,bladeGroupLMDirichlet,77,0.923
-Blade,bladeGroupLMDirichlet,76,1.0
+Blade,bladeGroupLMDirichlet,76,1
 Blade,bladeGroupLMDirichlet,75,0.663
-Blade,bladeGroupLMDirichlet,74,1.0
+Blade,bladeGroupLMDirichlet,74,1
 Blade,bladeGroupLMDirichlet,73,0.27
 Blade,bladeGroupLMDirichlet,72,0.846
-Blade,bladeGroupLMDirichlet,71,1.0
+Blade,bladeGroupLMDirichlet,71,1
 Blade,bladeGroupLMDirichlet,70,0.934
-Blade,bladeGroupLMDirichlet,69,1.0
+Blade,bladeGroupLMDirichlet,69,1
 Blade,bladeGroupLMDirichlet,68,0.806
 Blade,bladeGroupLMDirichlet,67,0.566
 Blade,bladeGroupLMDirichlet,66,0.663
-Blade,bladeGroupLMDirichlet,65,1.0
+Blade,bladeGroupLMDirichlet,65,1
 Blade,bladeGroupLMDirichlet,64,0.817
 Blade,bladeGroupLMDirichlet,63,0.317
-Blade,bladeGroupLMDirichlet,62,1.0
+Blade,bladeGroupLMDirichlet,62,1
 Blade,bladeGroupLMDirichlet,61,0.903
 Blade,bladeGroupLMDirichlet,60,0.546
 Blade,bladeGroupLMDirichlet,59,0.934
@@ -1867,20 +1867,20 @@ Blade,bladeGroupLMDirichlet,57,0.857
 Blade,bladeGroupLMDirichlet,56,0.74
 Blade,bladeGroupLMDirichlet,55,0.714
 Blade,bladeGroupLMDirichlet,54,0.837
-Blade,bladeGroupLMDirichlet,53,1.0
+Blade,bladeGroupLMDirichlet,53,1
 Blade,bladeGroupLMDirichlet,52,0.54
-Blade,bladeGroupLMDirichlet,51,1.0
+Blade,bladeGroupLMDirichlet,51,1
 Blade,bladeGroupBM25Method2,100,0.903
 Blade,bladeGroupBM25Method2,99,0.577
 Blade,bladeGroupBM25Method2,98,0.154
 Blade,bladeGroupBM25Method2,97,0.817
 Blade,bladeGroupBM25Method2,96,0.791
-Blade,bladeGroupBM25Method2,95,1.0
-Blade,bladeGroupBM25Method2,94,1.0
+Blade,bladeGroupBM25Method2,95,1
+Blade,bladeGroupBM25Method2,94,1
 Blade,bladeGroupBM25Method2,93,0.683
 Blade,bladeGroupBM25Method2,92,0.749
 Blade,bladeGroupBM25Method2,91,0.454
-Blade,bladeGroupBM25Method2,90,1.0
+Blade,bladeGroupBM25Method2,90,1
 Blade,bladeGroupBM25Method2,89,0.48
 Blade,bladeGroupBM25Method2,88,0.26
 Blade,bladeGroupBM25Method2,87,0.923
@@ -1889,35 +1889,35 @@ Blade,bladeGroupBM25Method2,85,0.627
 Blade,bladeGroupBM25Method2,84,0.489
 Blade,bladeGroupBM25Method2,83,0.846
 Blade,bladeGroupBM25Method2,82,0.714
-Blade,bladeGroupBM25Method2,81,1.0
+Blade,bladeGroupBM25Method2,81,1
 Blade,bladeGroupBM25Method2,80,0.097
 Blade,bladeGroupBM25Method2,79,0.5
-Blade,bladeGroupBM25Method2,78,1.0
+Blade,bladeGroupBM25Method2,78,1
 Blade,bladeGroupBM25Method2,77,0.923
 Blade,bladeGroupBM25Method2,76,0.934
 Blade,bladeGroupBM25Method2,75,0.663
-Blade,bladeGroupBM25Method2,74,1.0
+Blade,bladeGroupBM25Method2,74,1
 Blade,bladeGroupBM25Method2,73,0.27
 Blade,bladeGroupBM25Method2,72,0.868
-Blade,bladeGroupBM25Method2,71,1.0
-Blade,bladeGroupBM25Method2,70,1.0
-Blade,bladeGroupBM25Method2,69,1.0
+Blade,bladeGroupBM25Method2,71,1
+Blade,bladeGroupBM25Method2,70,1
+Blade,bladeGroupBM25Method2,69,1
 Blade,bladeGroupBM25Method2,68,0.903
-Blade,bladeGroupBM25Method2,67,0.0
+Blade,bladeGroupBM25Method2,67,0
 Blade,bladeGroupBM25Method2,66,0.286
-Blade,bladeGroupBM25Method2,65,1.0
+Blade,bladeGroupBM25Method2,65,1
 Blade,bladeGroupBM25Method2,64,0.577
 Blade,bladeGroupBM25Method2,63,0.327
 Blade,bladeGroupBM25Method2,62,0.597
 Blade,bladeGroupBM25Method2,61,0.454
 Blade,bladeGroupBM25Method2,60,0.499
-Blade,bladeGroupBM25Method2,59,1.0
+Blade,bladeGroupBM25Method2,59,1
 Blade,bladeGroupBM25Method2,58,0.934
 Blade,bladeGroupBM25Method2,57,0.846
 Blade,bladeGroupBM25Method2,56,0.797
 Blade,bladeGroupBM25Method2,55,0.868
 Blade,bladeGroupBM25Method2,54,0.52
-Blade,bladeGroupBM25Method2,53,1.0
+Blade,bladeGroupBM25Method2,53,1
 Blade,bladeGroupBM25Method2,52,0.26
 Blade,bladeGroupBM25Method2,51,0.566
 Palpatine,run,100,0.383
@@ -1929,11 +1929,11 @@ Palpatine,run,95,0.209
 Palpatine,run,94,0.48
 Palpatine,run,93,0.286
 Palpatine,run,92,0.567
-Palpatine,run,91,0.0
-Palpatine,run,90,0.0
+Palpatine,run,91,0
+Palpatine,run,90,0
 Palpatine,run,89,0.787
 Palpatine,run,88,0.143
-Palpatine,run,87,1.0
+Palpatine,run,87,1
 Palpatine,run,86,0.347
 Palpatine,run,85,0.066
 Palpatine,run,84,0.434
@@ -1944,7 +1944,7 @@ Palpatine,run,80,0.251
 Palpatine,run,79,0.5
 Palpatine,run,78,0.837
 Palpatine,run,77,0.894
-Palpatine,run,76,1.0
+Palpatine,run,76,1
 Palpatine,run,75,0.566
 Palpatine,run,74,0.846
 Palpatine,run,73,0.174
@@ -1955,7 +1955,7 @@ Palpatine,run,69,0.787
 Palpatine,run,68,0.383
 Palpatine,run,67,0.577
 Palpatine,run,66,0.327
-Palpatine,run,65,1.0
+Palpatine,run,65,1
 Palpatine,run,64,0.286
 Palpatine,run,63,0.327
 Palpatine,run,62,0.894
@@ -1967,14 +1967,14 @@ Palpatine,run,57,0.48
 Palpatine,run,56,0.77
 Palpatine,run,55,0.48
 Palpatine,run,54,0.73
-Palpatine,run,53,1.0
+Palpatine,run,53,1
 Palpatine,run,52,0.373
 Palpatine,run,51,0.846
 Asterix,run2021_Mixed_1.625_1.0_250,100,0.694
 Asterix,run2021_Mixed_1.625_1.0_250,99,0.5
 Asterix,run2021_Mixed_1.625_1.0_250,98,0.923
 Asterix,run2021_Mixed_1.625_1.0_250,97,0.923
-Asterix,run2021_Mixed_1.625_1.0_250,96,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,96,1
 Asterix,run2021_Mixed_1.625_1.0_250,95,0.923
 Asterix,run2021_Mixed_1.625_1.0_250,94,0.643
 Asterix,run2021_Mixed_1.625_1.0_250,93,0.597
@@ -1987,21 +1987,21 @@ Asterix,run2021_Mixed_1.625_1.0_250,87,0.846
 Asterix,run2021_Mixed_1.625_1.0_250,86,0.827
 Asterix,run2021_Mixed_1.625_1.0_250,85,0.894
 Asterix,run2021_Mixed_1.625_1.0_250,84,0.5
-Asterix,run2021_Mixed_1.625_1.0_250,83,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,83,1
 Asterix,run2021_Mixed_1.625_1.0_250,82,0.846
-Asterix,run2021_Mixed_1.625_1.0_250,81,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,81,1
 Asterix,run2021_Mixed_1.625_1.0_250,80,0.703
 Asterix,run2021_Mixed_1.625_1.0_250,79,0.597
 Asterix,run2021_Mixed_1.625_1.0_250,78,0.934
 Asterix,run2021_Mixed_1.625_1.0_250,77,0.846
-Asterix,run2021_Mixed_1.625_1.0_250,76,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,76,1
 Asterix,run2021_Mixed_1.625_1.0_250,75,0.5
-Asterix,run2021_Mixed_1.625_1.0_250,74,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,74,1
 Asterix,run2021_Mixed_1.625_1.0_250,73,0.433
-Asterix,run2021_Mixed_1.625_1.0_250,72,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,72,1
 Asterix,run2021_Mixed_1.625_1.0_250,71,0.52
 Asterix,run2021_Mixed_1.625_1.0_250,70,0.903
-Asterix,run2021_Mixed_1.625_1.0_250,69,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,69,1
 Asterix,run2021_Mixed_1.625_1.0_250,68,0.923
 Asterix,run2021_Mixed_1.625_1.0_250,67,0.5
 Asterix,run2021_Mixed_1.625_1.0_250,66,0.868
@@ -2011,11 +2011,11 @@ Asterix,run2021_Mixed_1.625_1.0_250,63,0.346
 Asterix,run2021_Mixed_1.625_1.0_250,62,0.923
 Asterix,run2021_Mixed_1.625_1.0_250,61,0.608
 Asterix,run2021_Mixed_1.625_1.0_250,60,0.596
-Asterix,run2021_Mixed_1.625_1.0_250,59,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,59,1
 Asterix,run2021_Mixed_1.625_1.0_250,58,0.923
 Asterix,run2021_Mixed_1.625_1.0_250,57,0.846
 Asterix,run2021_Mixed_1.625_1.0_250,56,0.663
-Asterix,run2021_Mixed_1.625_1.0_250,55,1.0
+Asterix,run2021_Mixed_1.625_1.0_250,55,1
 Asterix,run2021_Mixed_1.625_1.0_250,54,0.683
 Asterix,run2021_Mixed_1.625_1.0_250,53,0.903
 Asterix,run2021_Mixed_1.625_1.0_250,52,0.627
@@ -2024,11 +2024,11 @@ Asterix,run2021_Mixed_1.375_1.0_250,100,0.694
 Asterix,run2021_Mixed_1.375_1.0_250,99,0.5
 Asterix,run2021_Mixed_1.375_1.0_250,98,0.934
 Asterix,run2021_Mixed_1.375_1.0_250,97,0.923
-Asterix,run2021_Mixed_1.375_1.0_250,96,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,96,1
 Asterix,run2021_Mixed_1.375_1.0_250,95,0.934
 Asterix,run2021_Mixed_1.375_1.0_250,94,0.577
 Asterix,run2021_Mixed_1.375_1.0_250,93,0.597
-Asterix,run2021_Mixed_1.375_1.0_250,92,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,92,1
 Asterix,run2021_Mixed_1.375_1.0_250,91,0.423
 Asterix,run2021_Mixed_1.375_1.0_250,90,0.714
 Asterix,run2021_Mixed_1.375_1.0_250,89,0.749
@@ -2037,35 +2037,35 @@ Asterix,run2021_Mixed_1.375_1.0_250,87,0.846
 Asterix,run2021_Mixed_1.375_1.0_250,86,0.894
 Asterix,run2021_Mixed_1.375_1.0_250,85,0.894
 Asterix,run2021_Mixed_1.375_1.0_250,84,0.577
-Asterix,run2021_Mixed_1.375_1.0_250,83,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,83,1
 Asterix,run2021_Mixed_1.375_1.0_250,82,0.846
-Asterix,run2021_Mixed_1.375_1.0_250,81,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,81,1
 Asterix,run2021_Mixed_1.375_1.0_250,80,0.703
 Asterix,run2021_Mixed_1.375_1.0_250,79,0.663
-Asterix,run2021_Mixed_1.375_1.0_250,78,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,78,1
 Asterix,run2021_Mixed_1.375_1.0_250,77,0.934
-Asterix,run2021_Mixed_1.375_1.0_250,76,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,76,1
 Asterix,run2021_Mixed_1.375_1.0_250,75,0.5
-Asterix,run2021_Mixed_1.375_1.0_250,74,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,74,1
 Asterix,run2021_Mixed_1.375_1.0_250,73,0.464
-Asterix,run2021_Mixed_1.375_1.0_250,72,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,72,1
 Asterix,run2021_Mixed_1.375_1.0_250,71,0.714
 Asterix,run2021_Mixed_1.375_1.0_250,70,0.923
-Asterix,run2021_Mixed_1.375_1.0_250,69,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,69,1
 Asterix,run2021_Mixed_1.375_1.0_250,68,0.923
 Asterix,run2021_Mixed_1.375_1.0_250,67,0.5
-Asterix,run2021_Mixed_1.375_1.0_250,66,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,66,1
 Asterix,run2021_Mixed_1.375_1.0_250,65,0.857
 Asterix,run2021_Mixed_1.375_1.0_250,64,0.827
 Asterix,run2021_Mixed_1.375_1.0_250,63,0.413
 Asterix,run2021_Mixed_1.375_1.0_250,62,0.923
 Asterix,run2021_Mixed_1.375_1.0_250,61,0.608
 Asterix,run2021_Mixed_1.375_1.0_250,60,0.693
-Asterix,run2021_Mixed_1.375_1.0_250,59,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,59,1
 Asterix,run2021_Mixed_1.375_1.0_250,58,0.923
 Asterix,run2021_Mixed_1.375_1.0_250,57,0.703
 Asterix,run2021_Mixed_1.375_1.0_250,56,0.606
-Asterix,run2021_Mixed_1.375_1.0_250,55,1.0
+Asterix,run2021_Mixed_1.375_1.0_250,55,1
 Asterix,run2021_Mixed_1.375_1.0_250,54,0.694
 Asterix,run2021_Mixed_1.375_1.0_250,53,0.903
 Asterix,run2021_Mixed_1.375_1.0_250,52,0.703
@@ -2083,12 +2083,12 @@ Asterix,run2021_Baseline_BM25,91,0.346
 Asterix,run2021_Baseline_BM25,90,0.624
 Asterix,run2021_Baseline_BM25,89,0.934
 Asterix,run2021_Baseline_BM25,88,0.407
-Asterix,run2021_Baseline_BM25,87,1.0
+Asterix,run2021_Baseline_BM25,87,1
 Asterix,run2021_Baseline_BM25,86,0.567
 Asterix,run2021_Baseline_BM25,85,0.643
 Asterix,run2021_Baseline_BM25,84,0.49
 Asterix,run2021_Baseline_BM25,83,0.826
-Asterix,run2021_Baseline_BM25,82,1.0
+Asterix,run2021_Baseline_BM25,82,1
 Asterix,run2021_Baseline_BM25,81,0.826
 Asterix,run2021_Baseline_BM25,80,0.403
 Asterix,run2021_Baseline_BM25,79,0.423
@@ -2096,12 +2096,12 @@ Asterix,run2021_Baseline_BM25,78,0.923
 Asterix,run2021_Baseline_BM25,77,0.846
 Asterix,run2021_Baseline_BM25,76,0.749
 Asterix,run2021_Baseline_BM25,75,0.586
-Asterix,run2021_Baseline_BM25,74,1.0
+Asterix,run2021_Baseline_BM25,74,1
 Asterix,run2021_Baseline_BM25,73,0.097
 Asterix,run2021_Baseline_BM25,72,0.484
 Asterix,run2021_Baseline_BM25,71,0.347
 Asterix,run2021_Baseline_BM25,70,0.367
-Asterix,run2021_Baseline_BM25,69,1.0
+Asterix,run2021_Baseline_BM25,69,1
 Asterix,run2021_Baseline_BM25,68,0.578
 Asterix,run2021_Baseline_BM25,67,0.454
 Asterix,run2021_Baseline_BM25,66,0.69
@@ -2111,7 +2111,7 @@ Asterix,run2021_Baseline_BM25,63,0.597
 Asterix,run2021_Baseline_BM25,62,0.934
 Asterix,run2021_Baseline_BM25,61,0.923
 Asterix,run2021_Baseline_BM25,60,0.655
-Asterix,run2021_Baseline_BM25,59,1.0
+Asterix,run2021_Baseline_BM25,59,1
 Asterix,run2021_Baseline_BM25,58,0.923
 Asterix,run2021_Baseline_BM25,57,0.749
 Asterix,run2021_Baseline_BM25,56,0.673
@@ -2124,11 +2124,11 @@ Asterix,run2021_Mixed_1.5_1.0_250,100,0.694
 Asterix,run2021_Mixed_1.5_1.0_250,99,0.5
 Asterix,run2021_Mixed_1.5_1.0_250,98,0.923
 Asterix,run2021_Mixed_1.5_1.0_250,97,0.923
-Asterix,run2021_Mixed_1.5_1.0_250,96,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,96,1
 Asterix,run2021_Mixed_1.5_1.0_250,95,0.923
 Asterix,run2021_Mixed_1.5_1.0_250,94,0.577
 Asterix,run2021_Mixed_1.5_1.0_250,93,0.597
-Asterix,run2021_Mixed_1.5_1.0_250,92,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,92,1
 Asterix,run2021_Mixed_1.5_1.0_250,91,0.423
 Asterix,run2021_Mixed_1.5_1.0_250,90,0.714
 Asterix,run2021_Mixed_1.5_1.0_250,89,0.749
@@ -2137,21 +2137,21 @@ Asterix,run2021_Mixed_1.5_1.0_250,87,0.846
 Asterix,run2021_Mixed_1.5_1.0_250,86,0.827
 Asterix,run2021_Mixed_1.5_1.0_250,85,0.894
 Asterix,run2021_Mixed_1.5_1.0_250,84,0.566
-Asterix,run2021_Mixed_1.5_1.0_250,83,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,83,1
 Asterix,run2021_Mixed_1.5_1.0_250,82,0.846
-Asterix,run2021_Mixed_1.5_1.0_250,81,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,81,1
 Asterix,run2021_Mixed_1.5_1.0_250,80,0.703
 Asterix,run2021_Mixed_1.5_1.0_250,79,0.663
-Asterix,run2021_Mixed_1.5_1.0_250,78,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,78,1
 Asterix,run2021_Mixed_1.5_1.0_250,77,0.903
-Asterix,run2021_Mixed_1.5_1.0_250,76,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,76,1
 Asterix,run2021_Mixed_1.5_1.0_250,75,0.5
-Asterix,run2021_Mixed_1.5_1.0_250,74,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,74,1
 Asterix,run2021_Mixed_1.5_1.0_250,73,0.433
-Asterix,run2021_Mixed_1.5_1.0_250,72,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,72,1
 Asterix,run2021_Mixed_1.5_1.0_250,71,0.729
 Asterix,run2021_Mixed_1.5_1.0_250,70,0.923
-Asterix,run2021_Mixed_1.5_1.0_250,69,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,69,1
 Asterix,run2021_Mixed_1.5_1.0_250,68,0.923
 Asterix,run2021_Mixed_1.5_1.0_250,67,0.5
 Asterix,run2021_Mixed_1.5_1.0_250,66,0.868
@@ -2161,11 +2161,11 @@ Asterix,run2021_Mixed_1.5_1.0_250,63,0.346
 Asterix,run2021_Mixed_1.5_1.0_250,62,0.923
 Asterix,run2021_Mixed_1.5_1.0_250,61,0.608
 Asterix,run2021_Mixed_1.5_1.0_250,60,0.653
-Asterix,run2021_Mixed_1.5_1.0_250,59,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,59,1
 Asterix,run2021_Mixed_1.5_1.0_250,58,0.923
 Asterix,run2021_Mixed_1.5_1.0_250,57,0.77
 Asterix,run2021_Mixed_1.5_1.0_250,56,0.597
-Asterix,run2021_Mixed_1.5_1.0_250,55,1.0
+Asterix,run2021_Mixed_1.5_1.0_250,55,1
 Asterix,run2021_Mixed_1.5_1.0_250,54,0.694
 Asterix,run2021_Mixed_1.5_1.0_250,53,0.903
 Asterix,run2021_Mixed_1.5_1.0_250,52,0.627
@@ -2173,7 +2173,7 @@ Asterix,run2021_Mixed_1.5_1.0_250,51,0.934
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,100,0.683
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,99,0.566
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,98,0.903
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,97,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,97,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,96,0.934
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,95,0.837
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,94,0.674
@@ -2185,23 +2185,23 @@ Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,89,0.934
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,88,0.817
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,87,0.923
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,86,0.894
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,85,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,85,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,84,0.566
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,83,1.0
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,82,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,83,1
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,82,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,81,0.857
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,80,0.606
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,79,0.663
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,78,0.903
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,77,0.846
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,76,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,76,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,75,0.5
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,74,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,74,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,73,0.443
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,72,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,72,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,71,0.653
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,70,1.0
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,69,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,70,1
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,69,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,68,0.934
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,67,0.566
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,66,0.868
@@ -2215,7 +2215,7 @@ Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,59,0.693
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,58,0.903
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,57,0.749
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,56,0.751
-Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,55,1.0
+Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,55,1
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,54,0.78
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,53,0.771
 Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,52,0.72
@@ -2223,8 +2223,8 @@ Asterix,run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300,51,0.857
 Hua Mulan,args_naiveexpansion_0,100,0.643
 Hua Mulan,args_naiveexpansion_0,99,0.5
 Hua Mulan,args_naiveexpansion_0,98,0.903
-Hua Mulan,args_naiveexpansion_0,97,1.0
-Hua Mulan,args_naiveexpansion_0,96,1.0
+Hua Mulan,args_naiveexpansion_0,97,1
+Hua Mulan,args_naiveexpansion_0,96,1
 Hua Mulan,args_naiveexpansion_0,95,0.694
 Hua Mulan,args_naiveexpansion_0,94,0.654
 Hua Mulan,args_naiveexpansion_0,93,0.73
@@ -2233,41 +2233,41 @@ Hua Mulan,args_naiveexpansion_0,91,0.597
 Hua Mulan,args_naiveexpansion_0,90,0.616
 Hua Mulan,args_naiveexpansion_0,89,0.749
 Hua Mulan,args_naiveexpansion_0,88,0.673
-Hua Mulan,args_naiveexpansion_0,87,1.0
+Hua Mulan,args_naiveexpansion_0,87,1
 Hua Mulan,args_naiveexpansion_0,86,0.28
 Hua Mulan,args_naiveexpansion_0,85,0.74
 Hua Mulan,args_naiveexpansion_0,84,0.751
-Hua Mulan,args_naiveexpansion_0,83,1.0
+Hua Mulan,args_naiveexpansion_0,83,1
 Hua Mulan,args_naiveexpansion_0,82,0.923
-Hua Mulan,args_naiveexpansion_0,81,1.0
+Hua Mulan,args_naiveexpansion_0,81,1
 Hua Mulan,args_naiveexpansion_0,80,0.673
 Hua Mulan,args_naiveexpansion_0,79,0.577
 Hua Mulan,args_naiveexpansion_0,78,0.616
 Hua Mulan,args_naiveexpansion_0,77,0.923
-Hua Mulan,args_naiveexpansion_0,76,1.0
+Hua Mulan,args_naiveexpansion_0,76,1
 Hua Mulan,args_naiveexpansion_0,75,0.577
-Hua Mulan,args_naiveexpansion_0,74,1.0
+Hua Mulan,args_naiveexpansion_0,74,1
 Hua Mulan,args_naiveexpansion_0,73,0.586
-Hua Mulan,args_naiveexpansion_0,72,1.0
+Hua Mulan,args_naiveexpansion_0,72,1
 Hua Mulan,args_naiveexpansion_0,71,0.923
 Hua Mulan,args_naiveexpansion_0,70,0.74
-Hua Mulan,args_naiveexpansion_0,69,1.0
+Hua Mulan,args_naiveexpansion_0,69,1
 Hua Mulan,args_naiveexpansion_0,68,0.868
 Hua Mulan,args_naiveexpansion_0,67,0.566
 Hua Mulan,args_naiveexpansion_0,66,0.846
-Hua Mulan,args_naiveexpansion_0,65,1.0
+Hua Mulan,args_naiveexpansion_0,65,1
 Hua Mulan,args_naiveexpansion_0,64,0.797
 Hua Mulan,args_naiveexpansion_0,63,0.27
-Hua Mulan,args_naiveexpansion_0,62,1.0
+Hua Mulan,args_naiveexpansion_0,62,1
 Hua Mulan,args_naiveexpansion_0,61,0.74
 Hua Mulan,args_naiveexpansion_0,60,0.787
 Hua Mulan,args_naiveexpansion_0,59,0.868
 Hua Mulan,args_naiveexpansion_0,58,0.903
 Hua Mulan,args_naiveexpansion_0,57,0.703
 Hua Mulan,args_naiveexpansion_0,56,0.643
-Hua Mulan,args_naiveexpansion_0,55,1.0
+Hua Mulan,args_naiveexpansion_0,55,1
 Hua Mulan,args_naiveexpansion_0,54,0.74
-Hua Mulan,args_naiveexpansion_0,53,1.0
+Hua Mulan,args_naiveexpansion_0,53,1
 Hua Mulan,args_naiveexpansion_0,52,0.673
 Hua Mulan,args_naiveexpansion_0,51,0.857
 Hua Mulan,args_t5expansion_0,100,0.797
@@ -2283,7 +2283,7 @@ Hua Mulan,args_t5expansion_0,91,0.066
 Hua Mulan,args_t5expansion_0,90,0.586
 Hua Mulan,args_t5expansion_0,89,0.826
 Hua Mulan,args_t5expansion_0,88,0.414
-Hua Mulan,args_t5expansion_0,87,1.0
+Hua Mulan,args_t5expansion_0,87,1
 Hua Mulan,args_t5expansion_0,86,0.174
 Hua Mulan,args_t5expansion_0,85,0.491
 Hua Mulan,args_t5expansion_0,84,0.76
@@ -2293,38 +2293,38 @@ Hua Mulan,args_t5expansion_0,81,0.846
 Hua Mulan,args_t5expansion_0,80,0.703
 Hua Mulan,args_t5expansion_0,79,0.5
 Hua Mulan,args_t5expansion_0,78,0.923
-Hua Mulan,args_t5expansion_0,77,1.0
-Hua Mulan,args_t5expansion_0,76,1.0
+Hua Mulan,args_t5expansion_0,77,1
+Hua Mulan,args_t5expansion_0,76,1
 Hua Mulan,args_t5expansion_0,75,0.72
-Hua Mulan,args_t5expansion_0,74,1.0
+Hua Mulan,args_t5expansion_0,74,1
 Hua Mulan,args_t5expansion_0,73,0.297
 Hua Mulan,args_t5expansion_0,72,0.44
 Hua Mulan,args_t5expansion_0,71,0.132
 Hua Mulan,args_t5expansion_0,70,0.749
-Hua Mulan,args_t5expansion_0,69,1.0
+Hua Mulan,args_t5expansion_0,69,1
 Hua Mulan,args_t5expansion_0,68,0.69
 Hua Mulan,args_t5expansion_0,67,0.26
 Hua Mulan,args_t5expansion_0,66,0.576
-Hua Mulan,args_t5expansion_0,65,1.0
+Hua Mulan,args_t5expansion_0,65,1
 Hua Mulan,args_t5expansion_0,64,0.077
 Hua Mulan,args_t5expansion_0,63,0.423
 Hua Mulan,args_t5expansion_0,62,0.806
 Hua Mulan,args_t5expansion_0,61,0.903
 Hua Mulan,args_t5expansion_0,60,0.78
-Hua Mulan,args_t5expansion_0,59,1.0
+Hua Mulan,args_t5expansion_0,59,1
 Hua Mulan,args_t5expansion_0,58,0.846
 Hua Mulan,args_t5expansion_0,57,0.826
 Hua Mulan,args_t5expansion_0,56,0.566
-Hua Mulan,args_t5expansion_0,55,1.0
+Hua Mulan,args_t5expansion_0,55,1
 Hua Mulan,args_t5expansion_0,54,0.52
-Hua Mulan,args_t5expansion_0,53,1.0
+Hua Mulan,args_t5expansion_0,53,1
 Hua Mulan,args_t5expansion_0,52,0.23
 Hua Mulan,args_t5expansion_0,51,0.857
 Hua Mulan,args_gpt2expansion_0,100,0.673
 Hua Mulan,args_gpt2expansion_0,99,0.5
 Hua Mulan,args_gpt2expansion_0,98,0.817
-Hua Mulan,args_gpt2expansion_0,97,1.0
-Hua Mulan,args_gpt2expansion_0,96,1.0
+Hua Mulan,args_gpt2expansion_0,97,1
+Hua Mulan,args_gpt2expansion_0,96,1
 Hua Mulan,args_gpt2expansion_0,95,0.857
 Hua Mulan,args_gpt2expansion_0,94,0.72
 Hua Mulan,args_gpt2expansion_0,93,0.683
@@ -2333,29 +2333,29 @@ Hua Mulan,args_gpt2expansion_0,91,0.597
 Hua Mulan,args_gpt2expansion_0,90,0.53
 Hua Mulan,args_gpt2expansion_0,89,0.749
 Hua Mulan,args_gpt2expansion_0,88,0.771
-Hua Mulan,args_gpt2expansion_0,87,1.0
+Hua Mulan,args_gpt2expansion_0,87,1
 Hua Mulan,args_gpt2expansion_0,86,0.674
 Hua Mulan,args_gpt2expansion_0,85,0.74
 Hua Mulan,args_gpt2expansion_0,84,0.751
-Hua Mulan,args_gpt2expansion_0,83,1.0
+Hua Mulan,args_gpt2expansion_0,83,1
 Hua Mulan,args_gpt2expansion_0,82,0.846
-Hua Mulan,args_gpt2expansion_0,81,1.0
+Hua Mulan,args_gpt2expansion_0,81,1
 Hua Mulan,args_gpt2expansion_0,80,0.683
 Hua Mulan,args_gpt2expansion_0,79,0.643
 Hua Mulan,args_gpt2expansion_0,78,0.693
-Hua Mulan,args_gpt2expansion_0,77,1.0
-Hua Mulan,args_gpt2expansion_0,76,1.0
+Hua Mulan,args_gpt2expansion_0,77,1
+Hua Mulan,args_gpt2expansion_0,76,1
 Hua Mulan,args_gpt2expansion_0,75,0.577
 Hua Mulan,args_gpt2expansion_0,74,0.826
 Hua Mulan,args_gpt2expansion_0,73,0.797
-Hua Mulan,args_gpt2expansion_0,72,1.0
+Hua Mulan,args_gpt2expansion_0,72,1
 Hua Mulan,args_gpt2expansion_0,71,0.923
 Hua Mulan,args_gpt2expansion_0,70,0.674
-Hua Mulan,args_gpt2expansion_0,69,1.0
+Hua Mulan,args_gpt2expansion_0,69,1
 Hua Mulan,args_gpt2expansion_0,68,0.868
 Hua Mulan,args_gpt2expansion_0,67,0.566
 Hua Mulan,args_gpt2expansion_0,66,0.846
-Hua Mulan,args_gpt2expansion_0,65,1.0
+Hua Mulan,args_gpt2expansion_0,65,1
 Hua Mulan,args_gpt2expansion_0,64,0.817
 Hua Mulan,args_gpt2expansion_0,63,0.23
 Hua Mulan,args_gpt2expansion_0,62,0.934
@@ -2365,16 +2365,16 @@ Hua Mulan,args_gpt2expansion_0,59,0.868
 Hua Mulan,args_gpt2expansion_0,58,0.846
 Hua Mulan,args_gpt2expansion_0,57,0.78
 Hua Mulan,args_gpt2expansion_0,56,0.577
-Hua Mulan,args_gpt2expansion_0,55,1.0
+Hua Mulan,args_gpt2expansion_0,55,1
 Hua Mulan,args_gpt2expansion_0,54,0.74
-Hua Mulan,args_gpt2expansion_0,53,1.0
+Hua Mulan,args_gpt2expansion_0,53,1
 Hua Mulan,args_gpt2expansion_0,52,0.683
-Hua Mulan,args_gpt2expansion_0,51,1.0
+Hua Mulan,args_gpt2expansion_0,51,1
 Shanks,multi-2,100,0.714
 Shanks,multi-2,99,0.566
 Shanks,multi-2,98,0.664
 Shanks,multi-2,97,0.846
-Shanks,multi-2,96,1.0
+Shanks,multi-2,96,1
 Shanks,multi-2,95,0.357
 Shanks,multi-2,94,0.674
 Shanks,multi-2,93,0.674
@@ -2383,7 +2383,7 @@ Shanks,multi-2,91,0.413
 Shanks,multi-2,90,0.77
 Shanks,multi-2,89,0.749
 Shanks,multi-2,88,0.132
-Shanks,multi-2,87,1.0
+Shanks,multi-2,87,1
 Shanks,multi-2,86,0.464
 Shanks,multi-2,85,0.546
 Shanks,multi-2,84,0.77
@@ -2396,12 +2396,12 @@ Shanks,multi-2,78,0.903
 Shanks,multi-2,77,0.846
 Shanks,multi-2,76,0.894
 Shanks,multi-2,75,0.357
-Shanks,multi-2,74,1.0
+Shanks,multi-2,74,1
 Shanks,multi-2,73,0.23
 Shanks,multi-2,72,0.868
-Shanks,multi-2,71,0.0
+Shanks,multi-2,71,0
 Shanks,multi-2,70,0.846
-Shanks,multi-2,69,1.0
+Shanks,multi-2,69,1
 Shanks,multi-2,68,0.473
 Shanks,multi-2,67,0.74
 Shanks,multi-2,66,0.806
@@ -2411,7 +2411,7 @@ Shanks,multi-2,63,0.27
 Shanks,multi-2,62,0.643
 Shanks,multi-2,61,0.73
 Shanks,multi-2,60,0.71
-Shanks,multi-2,59,1.0
+Shanks,multi-2,59,1
 Shanks,multi-2,58,0.78
 Shanks,multi-2,57,0.846
 Shanks,multi-2,56,0.643
@@ -2424,7 +2424,7 @@ Shanks,multi-1,100,0.846
 Shanks,multi-1,99,0.566
 Shanks,multi-1,98,0.684
 Shanks,multi-1,97,0.846
-Shanks,multi-1,96,1.0
+Shanks,multi-1,96,1
 Shanks,multi-1,95,0.357
 Shanks,multi-1,94,0.531
 Shanks,multi-1,93,0.674
@@ -2432,8 +2432,8 @@ Shanks,multi-1,92,0.345
 Shanks,multi-1,91,0.413
 Shanks,multi-1,90,0.78
 Shanks,multi-1,89,0.797
-Shanks,multi-1,88,0.0
-Shanks,multi-1,87,1.0
+Shanks,multi-1,88,0
+Shanks,multi-1,87,1
 Shanks,multi-1,86,0.511
 Shanks,multi-1,85,0.546
 Shanks,multi-1,84,0.703
@@ -2446,12 +2446,12 @@ Shanks,multi-1,78,0.771
 Shanks,multi-1,77,0.846
 Shanks,multi-1,76,0.894
 Shanks,multi-1,75,0.337
-Shanks,multi-1,74,1.0
+Shanks,multi-1,74,1
 Shanks,multi-1,73,0.23
 Shanks,multi-1,72,0.868
-Shanks,multi-1,71,0.0
+Shanks,multi-1,71,0
 Shanks,multi-1,70,0.868
-Shanks,multi-1,69,1.0
+Shanks,multi-1,69,1
 Shanks,multi-1,68,0.433
 Shanks,multi-1,67,0.74
 Shanks,multi-1,66,0.596
@@ -2461,7 +2461,7 @@ Shanks,multi-1,63,0.337
 Shanks,multi-1,62,0.643
 Shanks,multi-1,61,0.72
 Shanks,multi-1,60,0.71
-Shanks,multi-1,59,1.0
+Shanks,multi-1,59,1
 Shanks,multi-1,58,0.78
 Shanks,multi-1,57,0.846
 Shanks,multi-1,56,0.566
@@ -2472,9 +2472,9 @@ Shanks,multi-1,52,0.443
 Shanks,multi-1,51,0.7
 Shanks,re-rank1,100,0.846
 Shanks,re-rank1,99,0.577
-Shanks,re-rank1,98,1.0
+Shanks,re-rank1,98,1
 Shanks,re-rank1,97,0.934
-Shanks,re-rank1,96,1.0
+Shanks,re-rank1,96,1
 Shanks,re-rank1,95,0.577
 Shanks,re-rank1,94,0.654
 Shanks,re-rank1,93,0.76
@@ -2483,11 +2483,11 @@ Shanks,re-rank1,91,0.531
 Shanks,re-rank1,90,0.673
 Shanks,re-rank1,89,0.749
 Shanks,re-rank1,88,0.703
-Shanks,re-rank1,87,1.0
+Shanks,re-rank1,87,1
 Shanks,re-rank1,86,0.72
 Shanks,re-rank1,85,0.817
 Shanks,re-rank1,84,0.674
-Shanks,re-rank1,83,1.0
+Shanks,re-rank1,83,1
 Shanks,re-rank1,82,0.653
 Shanks,re-rank1,81,0.826
 Shanks,re-rank1,80,0.654
@@ -2496,12 +2496,12 @@ Shanks,re-rank1,78,0.627
 Shanks,re-rank1,77,0.903
 Shanks,re-rank1,76,0.903
 Shanks,re-rank1,75,0.5
-Shanks,re-rank1,74,1.0
+Shanks,re-rank1,74,1
 Shanks,re-rank1,73,0.26
-Shanks,re-rank1,72,1.0
+Shanks,re-rank1,72,1
 Shanks,re-rank1,71,0.868
-Shanks,re-rank1,70,1.0
-Shanks,re-rank1,69,1.0
+Shanks,re-rank1,70,1
+Shanks,re-rank1,69,1
 Shanks,re-rank1,68,0.627
 Shanks,re-rank1,67,0.73
 Shanks,re-rank1,66,0.894
@@ -2511,20 +2511,20 @@ Shanks,re-rank1,63,0.5
 Shanks,re-rank1,62,0.749
 Shanks,re-rank1,61,0.894
 Shanks,re-rank1,60,0.78
-Shanks,re-rank1,59,1.0
+Shanks,re-rank1,59,1
 Shanks,re-rank1,58,0.934
-Shanks,re-rank1,57,1.0
+Shanks,re-rank1,57,1
 Shanks,re-rank1,56,0.643
-Shanks,re-rank1,55,1.0
+Shanks,re-rank1,55,1
 Shanks,re-rank1,54,0.903
 Shanks,re-rank1,53,0.791
 Shanks,re-rank1,52,0.54
-Shanks,re-rank1,51,1.0
+Shanks,re-rank1,51,1
 Shanks,LMDSimilarity,100,0.846
 Shanks,LMDSimilarity,99,0.577
-Shanks,LMDSimilarity,98,1.0
+Shanks,LMDSimilarity,98,1
 Shanks,LMDSimilarity,97,0.934
-Shanks,LMDSimilarity,96,1.0
+Shanks,LMDSimilarity,96,1
 Shanks,LMDSimilarity,95,0.577
 Shanks,LMDSimilarity,94,0.654
 Shanks,LMDSimilarity,93,0.76
@@ -2533,11 +2533,11 @@ Shanks,LMDSimilarity,91,0.531
 Shanks,LMDSimilarity,90,0.673
 Shanks,LMDSimilarity,89,0.749
 Shanks,LMDSimilarity,88,0.703
-Shanks,LMDSimilarity,87,1.0
+Shanks,LMDSimilarity,87,1
 Shanks,LMDSimilarity,86,0.72
 Shanks,LMDSimilarity,85,0.817
 Shanks,LMDSimilarity,84,0.674
-Shanks,LMDSimilarity,83,1.0
+Shanks,LMDSimilarity,83,1
 Shanks,LMDSimilarity,82,0.653
 Shanks,LMDSimilarity,81,0.826
 Shanks,LMDSimilarity,80,0.654
@@ -2546,12 +2546,12 @@ Shanks,LMDSimilarity,78,0.627
 Shanks,LMDSimilarity,77,0.903
 Shanks,LMDSimilarity,76,0.903
 Shanks,LMDSimilarity,75,0.5
-Shanks,LMDSimilarity,74,1.0
+Shanks,LMDSimilarity,74,1
 Shanks,LMDSimilarity,73,0.26
-Shanks,LMDSimilarity,72,1.0
+Shanks,LMDSimilarity,72,1
 Shanks,LMDSimilarity,71,0.868
-Shanks,LMDSimilarity,70,1.0
-Shanks,LMDSimilarity,69,1.0
+Shanks,LMDSimilarity,70,1
+Shanks,LMDSimilarity,69,1
 Shanks,LMDSimilarity,68,0.627
 Shanks,LMDSimilarity,67,0.73
 Shanks,LMDSimilarity,66,0.894
@@ -2561,18 +2561,18 @@ Shanks,LMDSimilarity,63,0.5
 Shanks,LMDSimilarity,62,0.749
 Shanks,LMDSimilarity,61,0.894
 Shanks,LMDSimilarity,60,0.78
-Shanks,LMDSimilarity,59,1.0
+Shanks,LMDSimilarity,59,1
 Shanks,LMDSimilarity,58,0.934
-Shanks,LMDSimilarity,57,1.0
+Shanks,LMDSimilarity,57,1
 Shanks,LMDSimilarity,56,0.643
-Shanks,LMDSimilarity,55,1.0
+Shanks,LMDSimilarity,55,1
 Shanks,LMDSimilarity,54,0.903
 Shanks,LMDSimilarity,53,0.791
 Shanks,LMDSimilarity,52,0.54
-Shanks,LMDSimilarity,51,1.0
+Shanks,LMDSimilarity,51,1
 Shanks,re-rank2,100,0.846
 Shanks,re-rank2,99,0.577
-Shanks,re-rank2,98,1.0
+Shanks,re-rank2,98,1
 Shanks,re-rank2,97,0.934
 Shanks,re-rank2,96,0.934
 Shanks,re-rank2,95,0.749
@@ -2583,25 +2583,25 @@ Shanks,re-rank2,91,0.531
 Shanks,re-rank2,90,0.673
 Shanks,re-rank2,89,0.749
 Shanks,re-rank2,88,0.73
-Shanks,re-rank2,87,1.0
+Shanks,re-rank2,87,1
 Shanks,re-rank2,86,0.72
 Shanks,re-rank2,85,0.797
 Shanks,re-rank2,84,0.674
-Shanks,re-rank2,83,1.0
+Shanks,re-rank2,83,1
 Shanks,re-rank2,82,0.653
-Shanks,re-rank2,81,1.0
+Shanks,re-rank2,81,1
 Shanks,re-rank2,80,0.654
 Shanks,re-rank2,79,0.5
 Shanks,re-rank2,78,0.627
 Shanks,re-rank2,77,0.903
 Shanks,re-rank2,76,0.923
 Shanks,re-rank2,75,0.5
-Shanks,re-rank2,74,1.0
+Shanks,re-rank2,74,1
 Shanks,re-rank2,73,0.392
-Shanks,re-rank2,72,1.0
-Shanks,re-rank2,71,1.0
-Shanks,re-rank2,70,1.0
-Shanks,re-rank2,69,1.0
+Shanks,re-rank2,72,1
+Shanks,re-rank2,71,1
+Shanks,re-rank2,70,1
+Shanks,re-rank2,69,1
 Shanks,re-rank2,68,0.627
 Shanks,re-rank2,67,0.73
 Shanks,re-rank2,66,0.894
@@ -2615,7 +2615,7 @@ Shanks,re-rank2,59,0.934
 Shanks,re-rank2,58,0.846
 Shanks,re-rank2,57,0.857
 Shanks,re-rank2,56,0.643
-Shanks,re-rank2,55,1.0
+Shanks,re-rank2,55,1
 Shanks,re-rank2,54,0.894
 Shanks,re-rank2,53,0.749
 Shanks,re-rank2,52,0.606
@@ -2623,8 +2623,8 @@ Shanks,re-rank2,51,0.797
 Athos,uh-t1-athos-lucenetfidf,100,0.673
 Athos,uh-t1-athos-lucenetfidf,99,0.5
 Athos,uh-t1-athos-lucenetfidf,98,0.846
-Athos,uh-t1-athos-lucenetfidf,97,1.0
-Athos,uh-t1-athos-lucenetfidf,96,1.0
+Athos,uh-t1-athos-lucenetfidf,97,1
+Athos,uh-t1-athos-lucenetfidf,96,1
 Athos,uh-t1-athos-lucenetfidf,95,0.903
 Athos,uh-t1-athos-lucenetfidf,94,0.72
 Athos,uh-t1-athos-lucenetfidf,93,0.566
@@ -2633,41 +2633,41 @@ Athos,uh-t1-athos-lucenetfidf,91,0.577
 Athos,uh-t1-athos-lucenetfidf,90,0.489
 Athos,uh-t1-athos-lucenetfidf,89,0.826
 Athos,uh-t1-athos-lucenetfidf,88,0.683
-Athos,uh-t1-athos-lucenetfidf,87,1.0
+Athos,uh-t1-athos-lucenetfidf,87,1
 Athos,uh-t1-athos-lucenetfidf,86,0.751
 Athos,uh-t1-athos-lucenetfidf,85,0.817
 Athos,uh-t1-athos-lucenetfidf,84,0.751
-Athos,uh-t1-athos-lucenetfidf,83,1.0
+Athos,uh-t1-athos-lucenetfidf,83,1
 Athos,uh-t1-athos-lucenetfidf,82,0.771
-Athos,uh-t1-athos-lucenetfidf,81,1.0
+Athos,uh-t1-athos-lucenetfidf,81,1
 Athos,uh-t1-athos-lucenetfidf,80,0.606
 Athos,uh-t1-athos-lucenetfidf,79,0.577
 Athos,uh-t1-athos-lucenetfidf,78,0.693
-Athos,uh-t1-athos-lucenetfidf,77,1.0
+Athos,uh-t1-athos-lucenetfidf,77,1
 Athos,uh-t1-athos-lucenetfidf,76,0.934
 Athos,uh-t1-athos-lucenetfidf,75,0.403
-Athos,uh-t1-athos-lucenetfidf,74,1.0
+Athos,uh-t1-athos-lucenetfidf,74,1
 Athos,uh-t1-athos-lucenetfidf,73,0.546
-Athos,uh-t1-athos-lucenetfidf,72,1.0
+Athos,uh-t1-athos-lucenetfidf,72,1
 Athos,uh-t1-athos-lucenetfidf,71,0.846
 Athos,uh-t1-athos-lucenetfidf,70,0.663
-Athos,uh-t1-athos-lucenetfidf,69,1.0
-Athos,uh-t1-athos-lucenetfidf,68,1.0
+Athos,uh-t1-athos-lucenetfidf,69,1
+Athos,uh-t1-athos-lucenetfidf,68,1
 Athos,uh-t1-athos-lucenetfidf,67,0.566
 Athos,uh-t1-athos-lucenetfidf,66,0.846
-Athos,uh-t1-athos-lucenetfidf,65,1.0
+Athos,uh-t1-athos-lucenetfidf,65,1
 Athos,uh-t1-athos-lucenetfidf,64,0.797
 Athos,uh-t1-athos-lucenetfidf,63,0.24
-Athos,uh-t1-athos-lucenetfidf,62,1.0
+Athos,uh-t1-athos-lucenetfidf,62,1
 Athos,uh-t1-athos-lucenetfidf,61,0.797
 Athos,uh-t1-athos-lucenetfidf,60,0.934
-Athos,uh-t1-athos-lucenetfidf,59,1.0
+Athos,uh-t1-athos-lucenetfidf,59,1
 Athos,uh-t1-athos-lucenetfidf,58,0.903
 Athos,uh-t1-athos-lucenetfidf,57,0.703
 Athos,uh-t1-athos-lucenetfidf,56,0.74
-Athos,uh-t1-athos-lucenetfidf,55,1.0
+Athos,uh-t1-athos-lucenetfidf,55,1
 Athos,uh-t1-athos-lucenetfidf,54,0.817
-Athos,uh-t1-athos-lucenetfidf,53,1.0
+Athos,uh-t1-athos-lucenetfidf,53,1
 Athos,uh-t1-athos-lucenetfidf,52,0.673
 Athos,uh-t1-athos-lucenetfidf,51,0.857
 Elrond,ElrondSimpleRun,100,0.806
@@ -2678,12 +2678,12 @@ Elrond,ElrondSimpleRun,96,0.633
 Elrond,ElrondSimpleRun,95,0.643
 Elrond,ElrondSimpleRun,94,0.74
 Elrond,ElrondSimpleRun,93,0.566
-Elrond,ElrondSimpleRun,92,1.0
+Elrond,ElrondSimpleRun,92,1
 Elrond,ElrondSimpleRun,91,0.434
 Elrond,ElrondSimpleRun,90,0.627
-Elrond,ElrondSimpleRun,89,1.0
+Elrond,ElrondSimpleRun,89,1
 Elrond,ElrondSimpleRun,88,0.694
-Elrond,ElrondSimpleRun,87,1.0
+Elrond,ElrondSimpleRun,87,1
 Elrond,ElrondSimpleRun,86,0.643
 Elrond,ElrondSimpleRun,85,0.827
 Elrond,ElrondSimpleRun,84,0.73
@@ -2693,15 +2693,15 @@ Elrond,ElrondSimpleRun,81,0.76
 Elrond,ElrondSimpleRun,80,0.403
 Elrond,ElrondSimpleRun,79,0.597
 Elrond,ElrondSimpleRun,78,0.923
-Elrond,ElrondSimpleRun,77,1.0
+Elrond,ElrondSimpleRun,77,1
 Elrond,ElrondSimpleRun,76,0.78
 Elrond,ElrondSimpleRun,75,0.674
-Elrond,ElrondSimpleRun,74,1.0
+Elrond,ElrondSimpleRun,74,1
 Elrond,ElrondSimpleRun,73,0.74
 Elrond,ElrondSimpleRun,72,0.586
-Elrond,ElrondSimpleRun,71,1.0
-Elrond,ElrondSimpleRun,70,1.0
-Elrond,ElrondSimpleRun,69,1.0
+Elrond,ElrondSimpleRun,71,1
+Elrond,ElrondSimpleRun,70,1
+Elrond,ElrondSimpleRun,69,1
 Elrond,ElrondSimpleRun,68,0.644
 Elrond,ElrondSimpleRun,67,0.693
 Elrond,ElrondSimpleRun,66,0.787
@@ -2711,7 +2711,7 @@ Elrond,ElrondSimpleRun,63,0.326
 Elrond,ElrondSimpleRun,62,0.846
 Elrond,ElrondSimpleRun,61,0.846
 Elrond,ElrondSimpleRun,60,0.23
-Elrond,ElrondSimpleRun,59,1.0
+Elrond,ElrondSimpleRun,59,1
 Elrond,ElrondSimpleRun,58,0.868
 Elrond,ElrondSimpleRun,57,0.826
 Elrond,ElrondSimpleRun,56,0.72
@@ -2723,8 +2723,8 @@ Elrond,ElrondSimpleRun,51,0.74
 Elrond,ElrondOpenNlpRun,100,0.78
 Elrond,ElrondOpenNlpRun,99,0.5
 Elrond,ElrondOpenNlpRun,98,0.826
-Elrond,ElrondOpenNlpRun,97,1.0
-Elrond,ElrondOpenNlpRun,96,1.0
+Elrond,ElrondOpenNlpRun,97,1
+Elrond,ElrondOpenNlpRun,96,1
 Elrond,ElrondOpenNlpRun,95,0.846
 Elrond,ElrondOpenNlpRun,94,0.577
 Elrond,ElrondOpenNlpRun,93,0.703
@@ -2733,47 +2733,47 @@ Elrond,ElrondOpenNlpRun,91,0.5
 Elrond,ElrondOpenNlpRun,90,0.627
 Elrond,ElrondOpenNlpRun,89,0.903
 Elrond,ElrondOpenNlpRun,88,0.673
-Elrond,ElrondOpenNlpRun,87,1.0
+Elrond,ElrondOpenNlpRun,87,1
 Elrond,ElrondOpenNlpRun,86,0.74
-Elrond,ElrondOpenNlpRun,85,1.0
+Elrond,ElrondOpenNlpRun,85,1
 Elrond,ElrondOpenNlpRun,84,0.392
-Elrond,ElrondOpenNlpRun,83,1.0
+Elrond,ElrondOpenNlpRun,83,1
 Elrond,ElrondOpenNlpRun,82,0.627
-Elrond,ElrondOpenNlpRun,81,1.0
+Elrond,ElrondOpenNlpRun,81,1
 Elrond,ElrondOpenNlpRun,80,0.577
 Elrond,ElrondOpenNlpRun,79,0.5
 Elrond,ElrondOpenNlpRun,78,0.77
-Elrond,ElrondOpenNlpRun,77,1.0
+Elrond,ElrondOpenNlpRun,77,1
 Elrond,ElrondOpenNlpRun,76,0.934
 Elrond,ElrondOpenNlpRun,75,0.489
-Elrond,ElrondOpenNlpRun,74,1.0
+Elrond,ElrondOpenNlpRun,74,1
 Elrond,ElrondOpenNlpRun,73,0.587
-Elrond,ElrondOpenNlpRun,72,1.0
-Elrond,ElrondOpenNlpRun,71,1.0
+Elrond,ElrondOpenNlpRun,72,1
+Elrond,ElrondOpenNlpRun,71,1
 Elrond,ElrondOpenNlpRun,70,0.846
-Elrond,ElrondOpenNlpRun,69,1.0
+Elrond,ElrondOpenNlpRun,69,1
 Elrond,ElrondOpenNlpRun,68,0.509
 Elrond,ElrondOpenNlpRun,67,0.857
 Elrond,ElrondOpenNlpRun,66,0.903
-Elrond,ElrondOpenNlpRun,65,1.0
+Elrond,ElrondOpenNlpRun,65,1
 Elrond,ElrondOpenNlpRun,64,0.74
 Elrond,ElrondOpenNlpRun,63,0.511
 Elrond,ElrondOpenNlpRun,62,0.806
 Elrond,ElrondOpenNlpRun,61,0.894
 Elrond,ElrondOpenNlpRun,60,0.923
 Elrond,ElrondOpenNlpRun,59,0.857
-Elrond,ElrondOpenNlpRun,58,1.0
+Elrond,ElrondOpenNlpRun,58,1
 Elrond,ElrondOpenNlpRun,57,0.923
 Elrond,ElrondOpenNlpRun,56,0.77
-Elrond,ElrondOpenNlpRun,55,1.0
+Elrond,ElrondOpenNlpRun,55,1
 Elrond,ElrondOpenNlpRun,54,0.827
-Elrond,ElrondOpenNlpRun,53,1.0
+Elrond,ElrondOpenNlpRun,53,1
 Elrond,ElrondOpenNlpRun,52,0.51
 Elrond,ElrondOpenNlpRun,51,0.826
 Elrond,ElrondKRun,100,0.846
 Elrond,ElrondKRun,99,0.403
 Elrond,ElrondKRun,98,0.749
-Elrond,ElrondKRun,97,1.0
+Elrond,ElrondKRun,97,1
 Elrond,ElrondKRun,96,0.934
 Elrond,ElrondKRun,95,0.749
 Elrond,ElrondKRun,94,0.577
@@ -2783,48 +2783,48 @@ Elrond,ElrondKRun,91,0.597
 Elrond,ElrondKRun,90,0.453
 Elrond,ElrondKRun,89,0.749
 Elrond,ElrondKRun,88,0.846
-Elrond,ElrondKRun,87,1.0
+Elrond,ElrondKRun,87,1
 Elrond,ElrondKRun,86,0.797
 Elrond,ElrondKRun,85,0.78
 Elrond,ElrondKRun,84,0.684
-Elrond,ElrondKRun,83,1.0
+Elrond,ElrondKRun,83,1
 Elrond,ElrondKRun,82,0.903
-Elrond,ElrondKRun,81,1.0
+Elrond,ElrondKRun,81,1
 Elrond,ElrondKRun,80,0.577
 Elrond,ElrondKRun,79,0.5
 Elrond,ElrondKRun,78,0.837
-Elrond,ElrondKRun,77,1.0
+Elrond,ElrondKRun,77,1
 Elrond,ElrondKRun,76,0.934
 Elrond,ElrondKRun,75,0.404
-Elrond,ElrondKRun,74,1.0
+Elrond,ElrondKRun,74,1
 Elrond,ElrondKRun,73,0.577
-Elrond,ElrondKRun,72,1.0
-Elrond,ElrondKRun,71,1.0
-Elrond,ElrondKRun,70,1.0
-Elrond,ElrondKRun,69,1.0
+Elrond,ElrondKRun,72,1
+Elrond,ElrondKRun,71,1
+Elrond,ElrondKRun,70,1
+Elrond,ElrondKRun,69,1
 Elrond,ElrondKRun,68,0.627
 Elrond,ElrondKRun,67,0.673
 Elrond,ElrondKRun,66,0.903
 Elrond,ElrondKRun,65,0.683
 Elrond,ElrondKRun,64,0.78
 Elrond,ElrondKRun,63,0.24
-Elrond,ElrondKRun,62,1.0
+Elrond,ElrondKRun,62,1
 Elrond,ElrondKRun,61,0.74
-Elrond,ElrondKRun,60,1.0
+Elrond,ElrondKRun,60,1
 Elrond,ElrondKRun,59,0.826
-Elrond,ElrondKRun,58,1.0
+Elrond,ElrondKRun,58,1
 Elrond,ElrondKRun,57,0.903
 Elrond,ElrondKRun,56,0.797
-Elrond,ElrondKRun,55,1.0
+Elrond,ElrondKRun,55,1
 Elrond,ElrondKRun,54,0.77
-Elrond,ElrondKRun,53,1.0
+Elrond,ElrondKRun,53,1
 Elrond,ElrondKRun,52,0.751
 Elrond,ElrondKRun,51,0.627
 Elrond,ElrondTaskBodyRun,100,0.617
 Elrond,ElrondTaskBodyRun,99,0.394
 Elrond,ElrondTaskBodyRun,98,0.827
-Elrond,ElrondTaskBodyRun,97,1.0
-Elrond,ElrondTaskBodyRun,96,1.0
+Elrond,ElrondTaskBodyRun,97,1
+Elrond,ElrondTaskBodyRun,96,1
 Elrond,ElrondTaskBodyRun,95,0.817
 Elrond,ElrondTaskBodyRun,94,0.749
 Elrond,ElrondTaskBodyRun,93,0.934
@@ -2833,36 +2833,36 @@ Elrond,ElrondTaskBodyRun,91,0.577
 Elrond,ElrondTaskBodyRun,90,0.923
 Elrond,ElrondTaskBodyRun,89,0.934
 Elrond,ElrondTaskBodyRun,88,0.461
-Elrond,ElrondTaskBodyRun,87,1.0
+Elrond,ElrondTaskBodyRun,87,1
 Elrond,ElrondTaskBodyRun,86,0.72
 Elrond,ElrondTaskBodyRun,85,0.827
 Elrond,ElrondTaskBodyRun,84,0.684
-Elrond,ElrondTaskBodyRun,83,1.0
+Elrond,ElrondTaskBodyRun,83,1
 Elrond,ElrondTaskBodyRun,82,0.596
-Elrond,ElrondTaskBodyRun,81,1.0
+Elrond,ElrondTaskBodyRun,81,1
 Elrond,ElrondTaskBodyRun,80,0.683
 Elrond,ElrondTaskBodyRun,79,0.52
 Elrond,ElrondTaskBodyRun,78,0.806
-Elrond,ElrondTaskBodyRun,77,1.0
+Elrond,ElrondTaskBodyRun,77,1
 Elrond,ElrondTaskBodyRun,76,0.923
 Elrond,ElrondTaskBodyRun,75,0.566
-Elrond,ElrondTaskBodyRun,74,1.0
+Elrond,ElrondTaskBodyRun,74,1
 Elrond,ElrondTaskBodyRun,73,0.509
-Elrond,ElrondTaskBodyRun,72,1.0
+Elrond,ElrondTaskBodyRun,72,1
 Elrond,ElrondTaskBodyRun,71,0.934
 Elrond,ElrondTaskBodyRun,70,0.693
-Elrond,ElrondTaskBodyRun,69,1.0
+Elrond,ElrondTaskBodyRun,69,1
 Elrond,ElrondTaskBodyRun,68,0.714
 Elrond,ElrondTaskBodyRun,67,0.5
 Elrond,ElrondTaskBodyRun,66,0.923
-Elrond,ElrondTaskBodyRun,65,1.0
+Elrond,ElrondTaskBodyRun,65,1
 Elrond,ElrondTaskBodyRun,64,0.827
 Elrond,ElrondTaskBodyRun,63,0.346
 Elrond,ElrondTaskBodyRun,62,0.934
 Elrond,ElrondTaskBodyRun,61,0.76
 Elrond,ElrondTaskBodyRun,60,0.577
 Elrond,ElrondTaskBodyRun,59,0.934
-Elrond,ElrondTaskBodyRun,58,1.0
+Elrond,ElrondTaskBodyRun,58,1
 Elrond,ElrondTaskBodyRun,57,0.703
 Elrond,ElrondTaskBodyRun,56,0.74
 Elrond,ElrondTaskBodyRun,55,0.74
@@ -2887,35 +2887,35 @@ Heimdall,argrank_r1_c10.0_q5.0,87,0.846
 Heimdall,argrank_r1_c10.0_q5.0,86,0.77
 Heimdall,argrank_r1_c10.0_q5.0,85,0.923
 Heimdall,argrank_r1_c10.0_q5.0,84,0.72
-Heimdall,argrank_r1_c10.0_q5.0,83,1.0
+Heimdall,argrank_r1_c10.0_q5.0,83,1
 Heimdall,argrank_r1_c10.0_q5.0,82,0.934
 Heimdall,argrank_r1_c10.0_q5.0,81,0.837
 Heimdall,argrank_r1_c10.0_q5.0,80,0.73
 Heimdall,argrank_r1_c10.0_q5.0,79,0.683
 Heimdall,argrank_r1_c10.0_q5.0,78,0.771
-Heimdall,argrank_r1_c10.0_q5.0,77,1.0
-Heimdall,argrank_r1_c10.0_q5.0,76,1.0
+Heimdall,argrank_r1_c10.0_q5.0,77,1
+Heimdall,argrank_r1_c10.0_q5.0,76,1
 Heimdall,argrank_r1_c10.0_q5.0,75,0.606
-Heimdall,argrank_r1_c10.0_q5.0,74,1.0
+Heimdall,argrank_r1_c10.0_q5.0,74,1
 Heimdall,argrank_r1_c10.0_q5.0,73,0.771
-Heimdall,argrank_r1_c10.0_q5.0,72,1.0
+Heimdall,argrank_r1_c10.0_q5.0,72,1
 Heimdall,argrank_r1_c10.0_q5.0,71,0.826
 Heimdall,argrank_r1_c10.0_q5.0,70,0.846
-Heimdall,argrank_r1_c10.0_q5.0,69,1.0
-Heimdall,argrank_r1_c10.0_q5.0,68,1.0
+Heimdall,argrank_r1_c10.0_q5.0,69,1
+Heimdall,argrank_r1_c10.0_q5.0,68,1
 Heimdall,argrank_r1_c10.0_q5.0,67,0.78
 Heimdall,argrank_r1_c10.0_q5.0,66,0.923
-Heimdall,argrank_r1_c10.0_q5.0,65,1.0
+Heimdall,argrank_r1_c10.0_q5.0,65,1
 Heimdall,argrank_r1_c10.0_q5.0,64,0.903
 Heimdall,argrank_r1_c10.0_q5.0,63,0.326
 Heimdall,argrank_r1_c10.0_q5.0,62,0.934
 Heimdall,argrank_r1_c10.0_q5.0,61,0.72
-Heimdall,argrank_r1_c10.0_q5.0,60,1.0
+Heimdall,argrank_r1_c10.0_q5.0,60,1
 Heimdall,argrank_r1_c10.0_q5.0,59,0.903
-Heimdall,argrank_r1_c10.0_q5.0,58,1.0
+Heimdall,argrank_r1_c10.0_q5.0,58,1
 Heimdall,argrank_r1_c10.0_q5.0,57,0.683
 Heimdall,argrank_r1_c10.0_q5.0,56,0.577
-Heimdall,argrank_r1_c10.0_q5.0,55,1.0
+Heimdall,argrank_r1_c10.0_q5.0,55,1
 Heimdall,argrank_r1_c10.0_q5.0,54,0.894
 Heimdall,argrank_r1_c10.0_q5.0,53,0.934
 Heimdall,argrank_r1_c10.0_q5.0,52,0.683
@@ -2937,35 +2937,35 @@ Heimdall,argrank_r1_c5.0_q10.0,87,0.846
 Heimdall,argrank_r1_c5.0_q10.0,86,0.77
 Heimdall,argrank_r1_c5.0_q10.0,85,0.923
 Heimdall,argrank_r1_c5.0_q10.0,84,0.73
-Heimdall,argrank_r1_c5.0_q10.0,83,1.0
+Heimdall,argrank_r1_c5.0_q10.0,83,1
 Heimdall,argrank_r1_c5.0_q10.0,82,0.934
 Heimdall,argrank_r1_c5.0_q10.0,81,0.857
 Heimdall,argrank_r1_c5.0_q10.0,80,0.73
 Heimdall,argrank_r1_c5.0_q10.0,79,0.749
 Heimdall,argrank_r1_c5.0_q10.0,78,0.923
-Heimdall,argrank_r1_c5.0_q10.0,77,1.0
-Heimdall,argrank_r1_c5.0_q10.0,76,1.0
+Heimdall,argrank_r1_c5.0_q10.0,77,1
+Heimdall,argrank_r1_c5.0_q10.0,76,1
 Heimdall,argrank_r1_c5.0_q10.0,75,0.606
-Heimdall,argrank_r1_c5.0_q10.0,74,1.0
+Heimdall,argrank_r1_c5.0_q10.0,74,1
 Heimdall,argrank_r1_c5.0_q10.0,73,0.903
-Heimdall,argrank_r1_c5.0_q10.0,72,1.0
+Heimdall,argrank_r1_c5.0_q10.0,72,1
 Heimdall,argrank_r1_c5.0_q10.0,71,0.826
 Heimdall,argrank_r1_c5.0_q10.0,70,0.837
-Heimdall,argrank_r1_c5.0_q10.0,69,1.0
-Heimdall,argrank_r1_c5.0_q10.0,68,1.0
+Heimdall,argrank_r1_c5.0_q10.0,69,1
+Heimdall,argrank_r1_c5.0_q10.0,68,1
 Heimdall,argrank_r1_c5.0_q10.0,67,0.837
 Heimdall,argrank_r1_c5.0_q10.0,66,0.923
-Heimdall,argrank_r1_c5.0_q10.0,65,1.0
+Heimdall,argrank_r1_c5.0_q10.0,65,1
 Heimdall,argrank_r1_c5.0_q10.0,64,0.903
 Heimdall,argrank_r1_c5.0_q10.0,63,0.326
 Heimdall,argrank_r1_c5.0_q10.0,62,0.868
 Heimdall,argrank_r1_c5.0_q10.0,61,0.72
-Heimdall,argrank_r1_c5.0_q10.0,60,1.0
+Heimdall,argrank_r1_c5.0_q10.0,60,1
 Heimdall,argrank_r1_c5.0_q10.0,59,0.903
-Heimdall,argrank_r1_c5.0_q10.0,58,1.0
+Heimdall,argrank_r1_c5.0_q10.0,58,1
 Heimdall,argrank_r1_c5.0_q10.0,57,0.673
 Heimdall,argrank_r1_c5.0_q10.0,56,0.597
-Heimdall,argrank_r1_c5.0_q10.0,55,1.0
+Heimdall,argrank_r1_c5.0_q10.0,55,1
 Heimdall,argrank_r1_c5.0_q10.0,54,0.894
 Heimdall,argrank_r1_c5.0_q10.0,53,0.923
 Heimdall,argrank_r1_c5.0_q10.0,52,0.703
@@ -2978,7 +2978,7 @@ Heimdall,argrank_r0_c0.01_q5.0,96,0.606
 Heimdall,argrank_r0_c0.01_q5.0,95,0.934
 Heimdall,argrank_r0_c0.01_q5.0,94,0.5
 Heimdall,argrank_r0_c0.01_q5.0,93,0.5
-Heimdall,argrank_r0_c0.01_q5.0,92,1.0
+Heimdall,argrank_r0_c0.01_q5.0,92,1
 Heimdall,argrank_r0_c0.01_q5.0,91,0.5
 Heimdall,argrank_r0_c0.01_q5.0,90,0.749
 Heimdall,argrank_r0_c0.01_q5.0,89,0.934
@@ -2993,20 +2993,20 @@ Heimdall,argrank_r0_c0.01_q5.0,81,0.923
 Heimdall,argrank_r0_c0.01_q5.0,80,0.5
 Heimdall,argrank_r0_c0.01_q5.0,79,0.5
 Heimdall,argrank_r0_c0.01_q5.0,78,0.473
-Heimdall,argrank_r0_c0.01_q5.0,77,1.0
+Heimdall,argrank_r0_c0.01_q5.0,77,1
 Heimdall,argrank_r0_c0.01_q5.0,76,0.837
 Heimdall,argrank_r0_c0.01_q5.0,75,0.78
 Heimdall,argrank_r0_c0.01_q5.0,74,0.407
 Heimdall,argrank_r0_c0.01_q5.0,73,0.627
-Heimdall,argrank_r0_c0.01_q5.0,72,1.0
+Heimdall,argrank_r0_c0.01_q5.0,72,1
 Heimdall,argrank_r0_c0.01_q5.0,71,0.78
-Heimdall,argrank_r0_c0.01_q5.0,70,1.0
-Heimdall,argrank_r0_c0.01_q5.0,69,1.0
+Heimdall,argrank_r0_c0.01_q5.0,70,1
+Heimdall,argrank_r0_c0.01_q5.0,69,1
 Heimdall,argrank_r0_c0.01_q5.0,68,0.78
 Heimdall,argrank_r0_c0.01_q5.0,67,0.663
-Heimdall,argrank_r0_c0.01_q5.0,66,1.0
+Heimdall,argrank_r0_c0.01_q5.0,66,1
 Heimdall,argrank_r0_c0.01_q5.0,65,0.693
-Heimdall,argrank_r0_c0.01_q5.0,64,1.0
+Heimdall,argrank_r0_c0.01_q5.0,64,1
 Heimdall,argrank_r0_c0.01_q5.0,63,0.28
 Heimdall,argrank_r0_c0.01_q5.0,62,0.55
 Heimdall,argrank_r0_c0.01_q5.0,61,0.55
@@ -3015,7 +3015,7 @@ Heimdall,argrank_r0_c0.01_q5.0,59,0.56
 Heimdall,argrank_r0_c0.01_q5.0,58,0.77
 Heimdall,argrank_r0_c0.01_q5.0,57,0.434
 Heimdall,argrank_r0_c0.01_q5.0,56,0.749
-Heimdall,argrank_r0_c0.01_q5.0,55,1.0
+Heimdall,argrank_r0_c0.01_q5.0,55,1
 Heimdall,argrank_r0_c0.01_q5.0,54,0.749
 Heimdall,argrank_r0_c0.01_q5.0,53,0.827
 Heimdall,argrank_r0_c0.01_q5.0,52,0.5
@@ -3037,35 +3037,35 @@ Heimdall,argrank_r1_c10.0_q10.0,87,0.846
 Heimdall,argrank_r1_c10.0_q10.0,86,0.77
 Heimdall,argrank_r1_c10.0_q10.0,85,0.923
 Heimdall,argrank_r1_c10.0_q10.0,84,0.73
-Heimdall,argrank_r1_c10.0_q10.0,83,1.0
+Heimdall,argrank_r1_c10.0_q10.0,83,1
 Heimdall,argrank_r1_c10.0_q10.0,82,0.934
 Heimdall,argrank_r1_c10.0_q10.0,81,0.857
 Heimdall,argrank_r1_c10.0_q10.0,80,0.73
 Heimdall,argrank_r1_c10.0_q10.0,79,0.749
 Heimdall,argrank_r1_c10.0_q10.0,78,0.923
-Heimdall,argrank_r1_c10.0_q10.0,77,1.0
-Heimdall,argrank_r1_c10.0_q10.0,76,1.0
+Heimdall,argrank_r1_c10.0_q10.0,77,1
+Heimdall,argrank_r1_c10.0_q10.0,76,1
 Heimdall,argrank_r1_c10.0_q10.0,75,0.606
-Heimdall,argrank_r1_c10.0_q10.0,74,1.0
+Heimdall,argrank_r1_c10.0_q10.0,74,1
 Heimdall,argrank_r1_c10.0_q10.0,73,0.903
-Heimdall,argrank_r1_c10.0_q10.0,72,1.0
+Heimdall,argrank_r1_c10.0_q10.0,72,1
 Heimdall,argrank_r1_c10.0_q10.0,71,0.826
 Heimdall,argrank_r1_c10.0_q10.0,70,0.837
-Heimdall,argrank_r1_c10.0_q10.0,69,1.0
-Heimdall,argrank_r1_c10.0_q10.0,68,1.0
+Heimdall,argrank_r1_c10.0_q10.0,69,1
+Heimdall,argrank_r1_c10.0_q10.0,68,1
 Heimdall,argrank_r1_c10.0_q10.0,67,0.837
 Heimdall,argrank_r1_c10.0_q10.0,66,0.923
-Heimdall,argrank_r1_c10.0_q10.0,65,1.0
+Heimdall,argrank_r1_c10.0_q10.0,65,1
 Heimdall,argrank_r1_c10.0_q10.0,64,0.903
 Heimdall,argrank_r1_c10.0_q10.0,63,0.326
 Heimdall,argrank_r1_c10.0_q10.0,62,0.934
 Heimdall,argrank_r1_c10.0_q10.0,61,0.72
-Heimdall,argrank_r1_c10.0_q10.0,60,1.0
+Heimdall,argrank_r1_c10.0_q10.0,60,1
 Heimdall,argrank_r1_c10.0_q10.0,59,0.903
-Heimdall,argrank_r1_c10.0_q10.0,58,1.0
+Heimdall,argrank_r1_c10.0_q10.0,58,1
 Heimdall,argrank_r1_c10.0_q10.0,57,0.673
 Heimdall,argrank_r1_c10.0_q10.0,56,0.597
-Heimdall,argrank_r1_c10.0_q10.0,55,1.0
+Heimdall,argrank_r1_c10.0_q10.0,55,1
 Heimdall,argrank_r1_c10.0_q10.0,54,0.894
 Heimdall,argrank_r1_c10.0_q10.0,53,0.923
 Heimdall,argrank_r1_c10.0_q10.0,52,0.703
@@ -3073,15 +3073,15 @@ Heimdall,argrank_r1_c10.0_q10.0,51,0.72
 Heimdall,argrank_r0_c0.1_q5.0,100,0.749
 Heimdall,argrank_r0_c0.1_q5.0,99,0.5
 Heimdall,argrank_r0_c0.1_q5.0,98,0.577
-Heimdall,argrank_r0_c0.1_q5.0,97,1.0
+Heimdall,argrank_r0_c0.1_q5.0,97,1
 Heimdall,argrank_r0_c0.1_q5.0,96,0.703
-Heimdall,argrank_r0_c0.1_q5.0,95,1.0
+Heimdall,argrank_r0_c0.1_q5.0,95,1
 Heimdall,argrank_r0_c0.1_q5.0,94,0.597
 Heimdall,argrank_r0_c0.1_q5.0,93,0.5
-Heimdall,argrank_r0_c0.1_q5.0,92,1.0
+Heimdall,argrank_r0_c0.1_q5.0,92,1
 Heimdall,argrank_r0_c0.1_q5.0,91,0.5
 Heimdall,argrank_r0_c0.1_q5.0,90,0.78
-Heimdall,argrank_r0_c0.1_q5.0,89,1.0
+Heimdall,argrank_r0_c0.1_q5.0,89,1
 Heimdall,argrank_r0_c0.1_q5.0,88,0.5
 Heimdall,argrank_r0_c0.1_q5.0,87,0.596
 Heimdall,argrank_r0_c0.1_q5.0,86,0.749
@@ -3093,20 +3093,20 @@ Heimdall,argrank_r0_c0.1_q5.0,81,0.846
 Heimdall,argrank_r0_c0.1_q5.0,80,0.5
 Heimdall,argrank_r0_c0.1_q5.0,79,0.5
 Heimdall,argrank_r0_c0.1_q5.0,78,0.376
-Heimdall,argrank_r0_c0.1_q5.0,77,1.0
+Heimdall,argrank_r0_c0.1_q5.0,77,1
 Heimdall,argrank_r0_c0.1_q5.0,76,0.826
 Heimdall,argrank_r0_c0.1_q5.0,75,0.77
 Heimdall,argrank_r0_c0.1_q5.0,74,0.473
 Heimdall,argrank_r0_c0.1_q5.0,73,0.627
-Heimdall,argrank_r0_c0.1_q5.0,72,1.0
+Heimdall,argrank_r0_c0.1_q5.0,72,1
 Heimdall,argrank_r0_c0.1_q5.0,71,0.78
-Heimdall,argrank_r0_c0.1_q5.0,70,1.0
-Heimdall,argrank_r0_c0.1_q5.0,69,1.0
+Heimdall,argrank_r0_c0.1_q5.0,70,1
+Heimdall,argrank_r0_c0.1_q5.0,69,1
 Heimdall,argrank_r0_c0.1_q5.0,68,0.903
 Heimdall,argrank_r0_c0.1_q5.0,67,0.72
-Heimdall,argrank_r0_c0.1_q5.0,66,1.0
+Heimdall,argrank_r0_c0.1_q5.0,66,1
 Heimdall,argrank_r0_c0.1_q5.0,65,0.693
-Heimdall,argrank_r0_c0.1_q5.0,64,1.0
+Heimdall,argrank_r0_c0.1_q5.0,64,1
 Heimdall,argrank_r0_c0.1_q5.0,63,0.28
 Heimdall,argrank_r0_c0.1_q5.0,62,0.729
 Heimdall,argrank_r0_c0.1_q5.0,61,0.55
@@ -3115,7 +3115,7 @@ Heimdall,argrank_r0_c0.1_q5.0,59,0.596
 Heimdall,argrank_r0_c0.1_q5.0,58,0.77
 Heimdall,argrank_r0_c0.1_q5.0,57,0.423
 Heimdall,argrank_r0_c0.1_q5.0,56,0.78
-Heimdall,argrank_r0_c0.1_q5.0,55,1.0
+Heimdall,argrank_r0_c0.1_q5.0,55,1
 Heimdall,argrank_r0_c0.1_q5.0,54,0.673
 Heimdall,argrank_r0_c0.1_q5.0,53,0.827
 Heimdall,argrank_r0_c0.1_q5.0,52,0.5
@@ -3133,12 +3133,12 @@ Gandalf,BM25F-gandalf,91,0.47
 Gandalf,BM25F-gandalf,90,0.714
 Gandalf,BM25F-gandalf,89,0.857
 Gandalf,BM25F-gandalf,88,0.345
-Gandalf,BM25F-gandalf,87,1.0
-Gandalf,BM25F-gandalf,86,0.0
+Gandalf,BM25F-gandalf,87,1
+Gandalf,BM25F-gandalf,86,0
 Gandalf,BM25F-gandalf,85,0.213
 Gandalf,BM25F-gandalf,84,0.106
 Gandalf,BM25F-gandalf,83,0.586
-Gandalf,BM25F-gandalf,82,1.0
+Gandalf,BM25F-gandalf,82,1
 Gandalf,BM25F-gandalf,81,0.703
 Gandalf,BM25F-gandalf,80,0.403
 Gandalf,BM25F-gandalf,79,0.317
@@ -3146,26 +3146,26 @@ Gandalf,BM25F-gandalf,78,0.846
 Gandalf,BM25F-gandalf,77,0.894
 Gandalf,BM25F-gandalf,76,0.903
 Gandalf,BM25F-gandalf,75,0.356
-Gandalf,BM25F-gandalf,74,1.0
+Gandalf,BM25F-gandalf,74,1
 Gandalf,BM25F-gandalf,73,0.163
 Gandalf,BM25F-gandalf,72,0.327
-Gandalf,BM25F-gandalf,71,0.0
+Gandalf,BM25F-gandalf,71,0
 Gandalf,BM25F-gandalf,70,0.317
-Gandalf,BM25F-gandalf,69,1.0
+Gandalf,BM25F-gandalf,69,1
 Gandalf,BM25F-gandalf,68,0.403
 Gandalf,BM25F-gandalf,67,0.106
-Gandalf,BM25F-gandalf,66,1.0
+Gandalf,BM25F-gandalf,66,1
 Gandalf,BM25F-gandalf,65,0.846
 Gandalf,BM25F-gandalf,64,0.52
 Gandalf,BM25F-gandalf,63,0.606
 Gandalf,BM25F-gandalf,62,0.846
-Gandalf,BM25F-gandalf,61,1.0
+Gandalf,BM25F-gandalf,61,1
 Gandalf,BM25F-gandalf,60,0.414
-Gandalf,BM25F-gandalf,59,1.0
+Gandalf,BM25F-gandalf,59,1
 Gandalf,BM25F-gandalf,58,0.616
 Gandalf,BM25F-gandalf,57,0.367
 Gandalf,BM25F-gandalf,56,0.673
-Gandalf,BM25F-gandalf,55,1.0
+Gandalf,BM25F-gandalf,55,1
 Gandalf,BM25F-gandalf,54,0.414
 Gandalf,BM25F-gandalf,53,0.616
 Gandalf,BM25F-gandalf,52,0.23
@@ -3183,25 +3183,25 @@ Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,91,0.5
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,90,0.846
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,89,0.903
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,88,0.826
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,87,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,87,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,86,0.663
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,85,0.903
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,84,0.73
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,83,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,82,0.797
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,81,0.846
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,80,0.577
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,79,0.5
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,78,0.74
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,77,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,77,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,76,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,75,0.48
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,74,0.923
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,73,0.53
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,72,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,71,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,70,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,72,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,71,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,70,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,69,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,68,0.703
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,67,0.797
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,66,0.894
@@ -3215,15 +3215,15 @@ Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,59,0.868
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,58,0.934
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,57,0.797
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,56,0.923
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,55,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,54,0.903
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,53,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,53,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,52,0.673
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_medium_features,51,0.934
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,100,0.826
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,99,0.5
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,98,0.683
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,97,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,97,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,96,0.934
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,95,0.56
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,94,0.566
@@ -3233,25 +3233,25 @@ Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,91,0.5
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,90,0.903
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,89,0.817
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,88,0.827
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,87,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,87,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,86,0.827
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,85,0.827
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,84,0.392
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,83,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,82,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,81,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,83,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,82,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,81,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,80,0.5
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,79,0.577
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,78,0.616
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,77,1.0
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,77,1
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,76,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,75,0.613
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,74,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,74,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,73,0.653
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,72,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,71,0.827
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,70,0.923
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,69,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,68,0.903
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,67,0.703
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,66,0.846
@@ -3262,19 +3262,19 @@ Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,62,0.903
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,61,0.791
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,60,0.923
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,59,0.693
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,58,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,58,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,57,0.77
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,56,0.566
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,55,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,54,0.826
-Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,53,1.0
+Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,53,1
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,52,0.606
 Dread Pirate Roberts,dreadpirateroberts_lambdamart_small_features,51,0.903
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,100,0.654
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,99,0.5
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,98,0.903
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,97,0.934
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,96,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,96,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,95,0.77
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,94,0.72
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,93,0.683
@@ -3283,29 +3283,29 @@ Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,91,0.654
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,90,0.616
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,89,0.749
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,88,0.703
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,87,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,87,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,86,0.357
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,85,0.817
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,84,0.751
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,83,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,82,0.923
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,81,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,81,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,80,0.673
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,79,0.577
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,78,0.627
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,77,1.0
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,77,1
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,76,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,75,0.577
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,74,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,74,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,73,0.586
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,72,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,71,0.923
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,70,0.73
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,69,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,68,0.868
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,67,0.566
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,66,0.846
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,65,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,65,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,64,0.797
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,63,0.297
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,62,0.934
@@ -3315,7 +3315,7 @@ Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,59,0.868
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,58,0.903
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,57,0.703
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,56,0.643
-Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,55,1
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,54,0.797
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,53,0.868
 Dread Pirate Roberts,dreadpirateroberts_dirichlet_filtered,52,0.673
@@ -3331,18 +3331,18 @@ Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,93,0.5
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,92,0.654
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,91,0.077
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,90,0.74
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,89,1.0
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,88,0.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,89,1
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,88,0
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,87,0.693
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,86,0.596
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,85,0.52
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,84,0.307
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,83,1
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,82,0.77
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,81,0.837
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,80,0.163
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,79,0.424
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,78,1.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,78,1
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,77,0.714
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,76,0.74
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,75,0.44
@@ -3351,11 +3351,11 @@ Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,73,0.279
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,72,0.586
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,71,0.633
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,70,0.633
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,69,1
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,68,0.066
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,67,0.846
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,66,0.443
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,65,1.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,65,1
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,64,0.566
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,63,0.617
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,62,0.749
@@ -3365,7 +3365,7 @@ Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,59,0.596
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,58,0.45
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,57,0.616
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,56,0.894
-Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,55,1
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,54,0.837
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,53,0.586
 Dread Pirate Roberts,dreadpirateroberts_universal-sentence-encoder-qa,52,0.423
@@ -3387,35 +3387,35 @@ Dread Pirate Roberts,dreadpirateroberts_run_mlm,87,0.894
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,86,0.566
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,85,0.817
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,84,0.894
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,83,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,83,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,82,0.703
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,81,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,81,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,80,0.383
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,79,0.654
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,78,0.693
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,77,1.0
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,76,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,77,1
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,76,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,75,0.577
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,74,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,74,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,73,0.586
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,72,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,72,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,71,0.654
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,70,0.934
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,69,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,69,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,68,0.868
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,67,0.923
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,66,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,66,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,65,0.787
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,64,0.894
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,63,0.327
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,62,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,62,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,61,0.72
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,60,0.509
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,59,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,59,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,58,0.903
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,57,0.703
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,56,0.643
-Dread Pirate Roberts,dreadpirateroberts_run_mlm,55,1.0
+Dread Pirate Roberts,dreadpirateroberts_run_mlm,55,1
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,54,0.74
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,53,0.868
 Dread Pirate Roberts,dreadpirateroberts_run_mlm,52,0.703
@@ -3423,8 +3423,8 @@ Dread Pirate Roberts,dreadpirateroberts_run_mlm,51,0.643
 Jean Pierre Polnareff,seupd-jpp-dirichlet,100,0.749
 Jean Pierre Polnareff,seupd-jpp-dirichlet,99,0.5
 Jean Pierre Polnareff,seupd-jpp-dirichlet,98,0.846
-Jean Pierre Polnareff,seupd-jpp-dirichlet,97,1.0
-Jean Pierre Polnareff,seupd-jpp-dirichlet,96,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,97,1
+Jean Pierre Polnareff,seupd-jpp-dirichlet,96,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,95,0.837
 Jean Pierre Polnareff,seupd-jpp-dirichlet,94,0.72
 Jean Pierre Polnareff,seupd-jpp-dirichlet,93,0.597
@@ -3433,29 +3433,29 @@ Jean Pierre Polnareff,seupd-jpp-dirichlet,91,0.597
 Jean Pierre Polnareff,seupd-jpp-dirichlet,90,0.596
 Jean Pierre Polnareff,seupd-jpp-dirichlet,89,0.749
 Jean Pierre Polnareff,seupd-jpp-dirichlet,88,0.76
-Jean Pierre Polnareff,seupd-jpp-dirichlet,87,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,87,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,86,0.509
 Jean Pierre Polnareff,seupd-jpp-dirichlet,85,0.797
 Jean Pierre Polnareff,seupd-jpp-dirichlet,84,0.684
-Jean Pierre Polnareff,seupd-jpp-dirichlet,83,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,83,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,82,0.923
-Jean Pierre Polnareff,seupd-jpp-dirichlet,81,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,81,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,80,0.673
 Jean Pierre Polnareff,seupd-jpp-dirichlet,79,0.577
 Jean Pierre Polnareff,seupd-jpp-dirichlet,78,0.693
-Jean Pierre Polnareff,seupd-jpp-dirichlet,77,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,77,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,76,0.923
 Jean Pierre Polnareff,seupd-jpp-dirichlet,75,0.597
-Jean Pierre Polnareff,seupd-jpp-dirichlet,74,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,74,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,73,0.586
-Jean Pierre Polnareff,seupd-jpp-dirichlet,72,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,72,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,71,0.923
 Jean Pierre Polnareff,seupd-jpp-dirichlet,70,0.797
-Jean Pierre Polnareff,seupd-jpp-dirichlet,69,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,69,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,68,0.868
 Jean Pierre Polnareff,seupd-jpp-dirichlet,67,0.566
 Jean Pierre Polnareff,seupd-jpp-dirichlet,66,0.846
-Jean Pierre Polnareff,seupd-jpp-dirichlet,65,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,65,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,64,0.797
 Jean Pierre Polnareff,seupd-jpp-dirichlet,63,0.327
 Jean Pierre Polnareff,seupd-jpp-dirichlet,62,0.923
@@ -3465,7 +3465,7 @@ Jean Pierre Polnareff,seupd-jpp-dirichlet,59,0.868
 Jean Pierre Polnareff,seupd-jpp-dirichlet,58,0.903
 Jean Pierre Polnareff,seupd-jpp-dirichlet,57,0.703
 Jean Pierre Polnareff,seupd-jpp-dirichlet,56,0.674
-Jean Pierre Polnareff,seupd-jpp-dirichlet,55,1.0
+Jean Pierre Polnareff,seupd-jpp-dirichlet,55,1
 Jean Pierre Polnareff,seupd-jpp-dirichlet,54,0.74
 Jean Pierre Polnareff,seupd-jpp-dirichlet,53,0.868
 Jean Pierre Polnareff,seupd-jpp-dirichlet,52,0.673
