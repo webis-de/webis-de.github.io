@@ -141,7 +141,7 @@ shared_tasks: 2
 		        <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID).</li>
 		        <li><code>rel</code>: The relevance judgment: 0 not relevant, 1 relevant, 2 highly relevant.</li>
 		</ul>
-        <p>You can use the <a href="https://github.com/usnistgov/trec_eval">trec_eval software</a> to evaluate your run using the relevance judgments.</p>
+        <p>You can use the <a href="https://github.com/joaopalotti/trectools">trectools software</a> to evaluate your run using the relevance judgments.</p>
         <!--
         SECTION Submission
         -->
@@ -159,7 +159,7 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
                                 <li><code>Q0</code>: Unused, should always be Q0.</li>
                                 <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID) returned by your system for the topic <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
-                                <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. It is important to handle tied scores (trec_eval sorts documents by the score values and not your rank values).</li>
+                                <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. It is important to handle tied scores (trectools sorts documents by the score values and not your rank values).</li>
                                 <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
                         </ul>
 
