@@ -142,7 +142,7 @@ shared_tasks: 2
 		        <li><code>doc</code>: The document ID (the official args.me ID).</li>
 		        <li><code>rel</code>: The relevance judgment: -2 non-argument (spam), 0 (not relevant) to 3 (highly relevant). The quality judgment: 0 (low) to 3 (high).</li>
 		</ul>
-        <p>You can use the <a href="https://github.com/joaopalotti/trectools">trectools software</a> to evaluate your run using the relevance judgments.</p>
+   <!--     <p>You can use the <a href="https://github.com/joaopalotti/trectools">trectools software</a> to evaluate your run using the relevance judgments.</p> -->
 
         <!--
         SECTION Submission
@@ -161,7 +161,7 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
                                 <li><code>Q0</code>: Unused, should always be Q0.</li>
                                 <li><code>doc</code>: The document ID (the official args.me ID) returned by your system for the topic <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
-                                <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order. It is important to handle tied scores (trectools sorts documents by the score values and not your rank values).</li>
+                                <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order: it is important to handle tie scores.</li>
                                 <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
                         </ul>
 
