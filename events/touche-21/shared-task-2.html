@@ -131,7 +131,7 @@ shared_tasks: 2
         SECTION Evaluation
         -->
         <h2 id="evaluation">Evaluation</h2>
-        <p>Be sure to retrieve documents that comprise convincing argumentation for or against one option or the other. Our human assessors will label the retrieved documents manually, both for their general topical relevance and for the rhetorical quality, i.e., "well-writtenness" of the document: (1) whether the text has a good style of speech (formal language is preferred over informal), (2) whether the text has a proper sentence structure and is easy to read, (3) whether it includes profanity, has typos, and makes use of other detrimental style choices.</p>
+        <p>Be sure to retrieve documents that comprise convincing argumentation for or against one option or the other. Our human assessors will label the retrieved documents manually, both for their general topical relevance and for the rhetorical quality, i.e., "well-writtenness" of the document: (1) whether a document contains arguments (i.e., argumentative support is provided) and whether the text has a good style of speech (formal language is preferred over informal), (2) whether the text has a proper sentence structure and is easy to read and follow, whether it can be well understood, (3) whether it includes profanity, has typos, and makes use of other detrimental style choices.</p>
         
 	The format of the relevance/quality judgment file:<br><br>
         <code>qid 0 doc rel</code><br><br>
@@ -140,7 +140,7 @@ shared_tasks: 2
 		        <li><code>qid</code>: The topic number.</li>
 		        <li><code>0</code>: Unused, always 0.</li>
 		        <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID).</li>
-		        <li><code>rel</code>: The relevance judgment: 0 (not relevant) to 3 (highly relevant). The quality judgment: 0 (low) to 3 (high).</li>
+		        <li><code>rel</code>: The relevance judgment: 0 (not relevant) to 3 (highly relevant). The quality judgment: 0 (low, or no arguments) to 3 (high).</li>
 		</ul>
       	<p>You can use the corresponding <a href="./evaluate.py">evaluation script</a> to evaluate your run using the relevance judgments.</p>
 	<!--
