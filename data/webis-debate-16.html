@@ -5,74 +5,82 @@ title: Webis Data Webis-Debate-16
 description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
-<ul class="uk-breadcrumb">
-<li><a href="../index.html">Webis.de</a></li>
-<li><a href="../data.html">Data</a></li>
-<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
-</ul>
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../../../data.html">Data</a></li>
+        <li class="uk-disabled"><a href="#">Webis-Debate-16</a></li>
+    </ul>
 </nav>
 
 
 <script type="application/ld+json">
-{
-    "@context":"http://schema.org/",
-    "@type":"Dataset",
-    "name":"Webis-Debate-16",
-    "description":"A collection of phrases classified as argumentative or non-argumentative. The phrases have the topics culture, economy, education, environment, free speech, health, international, law , politics, religion, science, society and sport.",
-    "text":"The classifications and the phrases were seperated by tabs in text files. There are in total 10.846 argumentative phrases and 5556 non-argumentative ones.",
-    "url":"https://webis.de/data/webis-debate-16.html",
-    "sameAs":"https://doi.org/10.5281/zenodo.3251804",
-    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
-    "keywords":[
-        "debate", 
-        "argumentation", 
-        "arguments", 
-        "discussion"
-    ], 
-    "datePublished":"2016",
-    "creator":[
-        {
-            "@type":"Organization",
-            "url":"https://webis.de/",
-            "name":"The Web Technology & Information Systems Network",
-            "alternateName":"Webis"
+    {
+        "@context": "http://schema.org/",
+        "@type": "Dataset",
+        "name": "webis-cmv-20",
+        "description": "The Webis-CMV-20 dataset comprises all available posts and comments in the ChangeMyView subreddit from the foundation of the subreddit in 2005, until September 2017. From these, we have derived two sub-datasets for the tasks of persuasiveness prediction, and opinion malleability prediction. In addition, the corpus comprises historical posts by CMV authors, and derived personal characteristics.",
+        "url": "https://webis.de/data/webis-cmv-20",
+        "sameAs": "https://doi.org/10.5281/zenodo.3778298",
+        "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "keywords": [
+            "arguments",
+            "computational argumentation",
+            "persuasiveness"
+            "ChangeMyView"
+        ],
+        "datePublished": "2020",
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "https://webis.de/",
+                "name": "The Web Technology & Information Systems Network",
+                "alternateName": "Webis"
+            },
+            {
+                "@type": "Person",
+                "url": "https://weimar.webis.de/people/#alkhatib",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Al-Khatib, Khalid"
+            },
+            {
+                "@id": "0000-0002-9283-6846",
+                "@type": "Person",
+                "url": "https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/voelske/",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "V&ouml;lske, Michael"
+            },
+            {
+                "@type": "Person",
+                "url": "https://temir.org/people.html#syed",
+                "affiliation": "Leipzig University",
+                "name": "Syed, Shahbaz"
+            },
+            {
+                "@type": "Person",
+                "url": "https://weimar.webis.de/people/#kolyada",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Kolyada, Nikolay"
+            },
+            {
+                "@type": "Person",
+                "url": "https://weimar.webis.de/people/#stein",
+                "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+                "name": "Stein, Benno"
+            }
+        ],
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Webis Data Catalog",
+            "url": "https://webis.de/data/"
         },
-        {
-            "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#alkhatib",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Al-Khatib, Khalid"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Wachsmuth, Henning"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Hagen, Matthias"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#stein",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Stein, Benno"
-        },
-        {
-            "@type":"Person", 
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"K\u00F6hler, Jonas"
-        }
-    ],
-    "includedInDataCatalog":{
-        "@type":"DataCatalog",
-        "name":"Webis Data Catalog",
-        "url":"https://webis.de/data/"
+        "distribution": [
+            {
+                "@type": "DataDownload",
+                "encodingFormat": "CSV",
+                "contentUrl": "https://zenodo.org/record/3778298"
+            }
+        ]
     }
-}
 </script>
 
 <main class="uk-section uk-section-default">
@@ -81,67 +89,74 @@ description: Overview of corpora that are used by the Webis research group
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
-            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
-            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
-            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
     </div>
 
     <div class="uk-container uk-margin-medium">
+        
         <!--
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-        A collection of phrases classified as argumentative or non-argumentative. The phrases have the topics culture, economy, education, environment, free speech, health, international, law , politics, religion, science, society and sport.
+            <p> A collection of phrases classified as argumentative or non-argumentative. The phrases have the topics culture, economy, education, environment, free speech, health, international, law , politics, religion, science, society and sport. </p>
         </p>
+        
 
         <!--
         SECTION Download
         -->
+        
         <h2 id="download">Download</h2>
-        <p>You can access the Webis-Debate-16 corpus on <a href="https://doi.org/10.5281/zenodo.3251804">Zenodo</a>.</p>
-
-        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://zenodo.org/record/3251804/export/hx">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3251804">doi</a>] for a stable link.</p>
+        <p>To download the corpus use the following links:</p>
+        <ul>
+            
+            <li><a href="https://doi.org/10.5281/zenodo.3251804">Zenodo: Webis-Debate-16</a></li>
+            
+            
+            <li><a href="https://toolbox.google.com/datasetsearch/search?query=webis-debate-16">Google Dataset Search: Webis-Debate-16</a></li>
+            
+        </ul>
+        
 
         
-        <h2 id="research">Research</h2>
-        <p>
-            The classifications and the phrases were seperated by tabs in text files. There are in total 10.846 argumentative phrases and 5556 non-argumentative ones.
-        </p>
-
-
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="https://weimar.webis.de/people/#alkhatib">Khalid Al-Khatib</a></li>
-            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
-            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
-            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#alkhatib">Khalid Al-Khatib</a></li>
+            
+                <li><a href="https://www.uni-paderborn.de/person/3900/">Henning Wachsmuth</a></li>
+            
+                <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/hagen/">Matthias Hagen</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
+            
+                <li>Jonas Köhler</li>
+            
         </ul>
+        
 
-        <p>Students: Jonas Köhler</p>
-
-        <!--
-    	SECTION Publications
-        -->
+        
         <h2 id="publications">Publications</h2>
-        <!--
-            <div id="publications-list">
-            </div>
+        <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:clickbait");
+                </script>
+            </p>
+        </div>
+        
 
-            </div>
-    	-->
+    </div>
+
 </main>
 
-<!--
-<script src="https://assets.webis.de/js/filter.js"></script>
-<script src="https://assets.webis.de/js/selection.js"></script>
-<script>
-//includeBibentries(document.getElementById("publications-list"), "keywords:clickbait");
-</script>
--->
