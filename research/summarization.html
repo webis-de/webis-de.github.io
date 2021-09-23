@@ -1,0 +1,96 @@
+---
+layout: default
+nav_active: research
+title: Webis Research Summarization
+description: Overview of the Webis group's research on text summarization
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../research.html">Research</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Research ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "Research",
+"name": "Text Summarization",
+"description": "",
+"url": "https://webis.de/research/conversational-search.html",
+"keywords": [
+"Text Summarization"
+],
+"creator": [{
+"@type": "Organization",
+"url": "https://webis.de/",
+"name": "The Web Technology & Information Systems Network",
+"alternateName": "Webis"
+}
+],
+"includedInDataCatalog": {},
+"distribution": []
+}
+</script>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<h1>Text Summarization</h1>
+
+<ul class="uk-list">
+<!-- Comment out sections you do not provide -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+<!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+</ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+<!--
+SECTION Synopsis
+-->
+<h2><a id="synopsis"></a>Synopsis</h2>
+<p>Text Summarization, although a longstanding research area, has seen rapid progress since the adoption of neural networks for text processing. While most of the existing summarization research focuses on news, our research aims to explore other document types such as social media posts, argumentative texts, podcasts, and news editorials. Each of these domains poses different challenges for modeling important content, generating summaries based on the target audience, and evaluating the summary quality. We also aim to develop visual interfaces and toolkits for demonstrating the state-of-the-art in deep learning based text summarization.
+</p>
+
+<!--
+SECTION Research
+<h2><a id="research"></a>Research</h2>
+-->
+
+<!--
+SECTION People
+-->
+<h2><a id="people"></a>People</h2>
+<ul>
+<li><a href="https://weimar.webis.de/people/#syed" title="Shahbaz Syed">Shahbaz Syed</a></li>
+<li><a href="https://weimar.webis.de/people/#voelske" title="Michael Völske">Michael Völske</a></li>
+<li><a href="https://weimar.webis.de/people/#al-khatib" title="Khalid Al-Khatib">Khalid Al-Khatib</a></li>
+<li><a href="https://weimar.webis.de/people/#el-baff" title="Roxanne El Baff">Roxanne El Baff</a></li>
+<li><a href="https://weimar.webis.de/people/#kiesel" title="Johannes Kiesel">Johannes Kiesel</a></li>
+<li><a href="https://weimar.webis.de/people/#chen" title="Wei-Fan Chen">Wei-Fan Chen</a></li>
+<li><a href="https://www.uni-paderborn.de/en/person/73059" title="Milad Alshomary">Milad Alshomary</a></li>
+<li><a href="https://temir.org/people.html#yousef" title="Tariq Yousef">Tariq Yousef</a></li>
+<li><a href="https://weimar.webis.de/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+
+</ul>
+<p>Students: Dominik Schwabe</p>
+
+<!--
+SECTION Publications
+-->
+<h2><a id="publications"></a>Publications</h2>
+<div id="publications-list">
+</div>
+</div>
+</div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:summarization");
+</script>
