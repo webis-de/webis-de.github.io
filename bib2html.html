@@ -1,0 +1,311 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Webis Bib2html-service</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Generate web-pages from bib-files">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="&copy; 2021 Webis">
+    <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
+
+    <link rel="stylesheet" href="/css/style.css?1631820755">
+</head>
+<body class="uk-offcanvas-content">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit-icons.min.js"></script>
+
+<div id="offcanvas-nav" class="mobile-nav" data-uk-offcanvas="overlay: true; flip: true;">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        <!-- Off-canvas mobile navigation -->
+        <nav class="uk-margin-large-top">
+            <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
+                <li>
+                    <a href="/people.html">People</a>
+                </li>
+                <li>
+                    <a href="/for-students.html">For&nbsp;Students</a>
+                </li>
+                <li>
+                    <a href="/lecturenotes.html">Lecturenotes</a>
+                </li>
+                <li>
+                    <a href="/research.html">Research</a>
+                </li>
+                <li>
+                    <a href="/publications.html">Publications</a>
+                </li>
+                <li>
+                    <a href="/data.html">Data</a>
+                </li>
+                <li>
+                    <a href="/events.html">Events</a>
+                </li>
+                <li class="uk-active">
+                    <a href="/facilities.html">Facilities</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="uk-background-secondary global-nav" data-uk-sticky>
+    <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="/"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile navigation toggle button -->
+        <div class="uk-navbar-right mobile-nav">
+            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu"
+                    data-uk-toggle="target: #offcanvas-nav"></button>
+        </div>
+
+        <!-- Desktop navigation -->
+        <div class="uk-navbar-right desktop-nav">
+            <ul class="uk-navbar-nav">
+                <li>
+                <a href="/people.html">People</a>
+                </li>
+                <li class="">
+                    <a href="/for-students.html">For&nbsp;Students</a>
+                </li>
+                <li class="nav-group-start">
+                    <a href="/lecturenotes.html">Lecturenotes</a>
+                </li>
+                <li>
+                <a href="/research.html">Research</a>
+                </li>
+                <li>
+                <a href="/publications.html">Publications</a>
+                </li>
+                <li class="nav-group-start">
+                    <a href="/data.html">Data</a>
+                </li>
+                <li>
+                <a href="/events.html">Events</a>
+                </li>
+                <li class="uk-active">
+                <a href="/facilities.html">Facilities</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div data-uk-height-viewport="expand: true">
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="index.html">Webis.de</a></li>
+<li><a href="facilities.html">Facilities</a></li>
+<li class="uk-disabled"><a href="#">Bib2Html-service</a></li>
+</ul>
+</nav>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<!-- <h1>Create tables</h1> -->
+
+</div>
+
+<script>
+// $("#button-execute-task").click(function(e) {
+//     // $("#div-logs").removeClass("uk-hidden");
+//     e.preventDefault();
+//     $.ajax({
+//         type: "GET",
+//         url: "{{ url }}",
+//         success: function(result) {
+//             alert('ok');
+//         },
+//         error: function(result) {
+//             alert('error');
+//         }
+//     });
+// });
+
+function poll() {
+  setTimeout(function () {
+     GetData();
+  }, 5000);
+}
+
+function GetData() {
+    $.ajax({
+        url: "http://127.0.0.1:8113/status/4a4346b042a44ee9a45678bb8b5d33c9",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        success: function(resultData) {
+            console.log("ok")
+            $('#logs').textContent = resultData
+        },
+        error : function(xhr, textStatus, errorThrown) {
+            console.log("error")
+        },
+        complete: function() {
+           poll();
+        },
+        timeout: 0,
+    });
+}
+
+poll();
+
+</script>
+
+<div class="uk-container uk-margin-medium">
+<!--
+SECTION Website Maintenance
+-->
+<h2><a id="website-maintenance"></a>Bib2Html-service execution log</h2>
+
+<a id="lecturenotes-upload"></a>
+<div class="entry">
+    <pre>
+        <code id="logs" style="height: 300px;">
+    Execute task `Update data-pages`...
+    CVS Checkout...
+    literature/ updated successfully.
+    Done.
+    git pull `webis-de/webis-de.github.io`...
+    Done.
+    Execute bib2html.py script...
+    Bib-files parsed: webis-data.bib, other-data.bib, webis-people.bib.
+    Web-pages generated.
+    git commit & push `webis-de/webis-de.github.io`...
+    Done.
+        </code>
+    </pre>
+</div>
+
+
+
+</div> <!-- container -->
+</main>
+
+</div>
+
+<footer class="uk-section uk-section-muted footer-section">
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-small" data-uk-grid>
+            <div class="uk-text-muted uk-text-small search-engines uk-width-1-3@s uk-width-1-5@m">
+
+                <h4>Search Engines</h4>
+
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="http://www.args.me/" class="uk-link-reset"><img alt="Args.me" src="/research/img/args-logo.png"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5><a href="http://www.args.me/" class="uk-link-heading">Args</a></h5>
+                            <div class="uk-text-small">Argument search</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="https://www.chatnoir.eu/" class="uk-link-reset"><img alt="ChatNoir" src="/research/img/chatnoir2-logo.png"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5><a href="https://www.chatnoir.eu/" class="uk-link-heading">ChatNoir</a></h5>
+                            <div class="uk-text-small">Web search</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="https://www.chatnoir.eu/" class="uk-link-reset"><img alt="Netspeak" src="/research/img/netspeak-logo.png"></a></div>
+                        <div class="uk-width-expand">
+                            <h5><a href="http://netspeak.org/" class="uk-link-heading">Netspeak</a></h5>
+                            <div class="uk-text-small">Writing assistance</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid uk-grid-small uk-margin-bottom" data-uk-grid>
+                        <div class="uk-width-auto search-engine-icon">
+                            <a href="http://picapica.org/" class="uk-link-reset"><img alt="Picapica" src="/research/img/picapica-logo.png"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h5><a href="http://picapica.org/" class="uk-link-heading">Picapica</a></h5>
+                            <div class="uk-text-small">Plagiarism detection</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-grid uk-grid-small uk-width-2-3@s uk-width-4-5@m" data-uk-grid>
+                <div class="uk-width-expand uk-visible@m"></div>
+
+                <div class="footer-link-column">
+                    <ul class="uk-nav">
+                        <li class="uk-nav-header">Halle</li>
+                        <li><a href="https://halle.webis.de">Home</a></li>
+                        <li><a href="https://halle.webis.de/mitarbeiter/">People</a></li>
+                        <li><a href="https://halle.webis.de/lehre/">Teaching</a></li>
+                        <li><a href="https://halle.webis.de/3131652_3169416/">Research</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-link-column">
+                    <ul class="uk-nav">
+                        <li class="uk-nav-header">Leipzig</li>
+                        <li><a href="https://leipzig.webis.de">Home</a></li>
+                        <li><a href="https://temir.org/people.html">People</a></li>
+                        <li><a href="https://temir.org/teaching.html">Teaching</a></li>
+                        <li><a href="https://temir.org/research.html">Research</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-link-column">
+                    <ul class="uk-nav">
+                        <li class="uk-nav-header">Paderborn</li>
+                        <li><a href="https://paderborn.webis.de">Home</a></li>
+                        <li><a href="https://cs.uni-paderborn.de/css/group/group/">People</a></li>
+                        <li><a href="https://cs.uni-paderborn.de/css/teaching/teaching/">Teaching</a></li>
+                        <li><a href="https://cs.uni-paderborn.de/css/research/research/">Research</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-link-column">
+                    <ul class="uk-nav">
+                        <li class="uk-nav-header">Weimar</li>
+                        <li><a href="https://weimar.webis.de">Home</a></li>
+                        <li><a href="https://weimar.webis.de/people/">People</a></li>
+                        <li><a href="https://weimar.webis.de/teaching/">Teaching</a></li>
+                        <li><a href="https://weimar.webis.de/research/">Research</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="uk-grid uk-grid-small uk-margin-top">
+            <div class="uk-width-1-5@s">
+              <!-- links specific to a service -->
+            </div>
+            <div class="uk-width-expand uk-visible@s"></div>
+            <div>
+              &copy; 2021 <a href="/">Webis Group</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://github.com/webis-de"><span data-uk-icon="icon: github; ratio:0.8"></span></a> 
+              <a href="https://twitter.com/webis_de"><span data-uk-icon="icon: twitter; ratio:0.9"></span></a> 
+              <a href="https://www.youtube.com/webis"><span data-uk-icon="icon: youtube; ratio:0.9"></span></a> <span class="uk-padding-small">&bullet;</span>
+              <a href="/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="/legal.html">Impressum / Terms / Privacy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
