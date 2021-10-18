@@ -70,7 +70,7 @@ shared_tasks: 3
             <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#tira-quickstart">TIRA Quickstart</a></li>
-	    <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+	    <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li> -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
         </ul>
     </div>
@@ -82,7 +82,7 @@ shared_tasks: 3
         <h2 id="synopsis">Synopsis</h2>
 
         <ul>
-            <li>Task: Given a question on a controversial topic, retrieve relevant arguments from a focused crawl of online debate portals.</li>
+            <li>Task: Given a query about a controversial topic, retrieve and rank a relevant pair of sentences from a collection of arguments.</li>
             <li>Input: [<a href="https://zenodo.org/record/3734893">data</a>]</li>
             <li>Submission: [<a href="https://www.tira.io/task/touche-task-1/">submit</a>]</li>
         </ul>
@@ -95,7 +95,7 @@ shared_tasks: 3
         -->
         <h2><a id="task"></a>Task</h2>
 
-        <p>The goal of <strong>Task 1</strong> is to support users who search for arguments to be used in conversations (e.g., getting an overview of pros and cons or just looking for arguments in line with a user's stance). Given a question on a controversial topic, the task is to retrieve relevant arguments from a focused crawl of online debate portals. </p>
+        <p>The goal of <strong>Task 1</strong> is to support users who search for arguments to be used in conversations (e.g., getting an overview of pros and cons or just looking for arguments in line with a user's stance). However, in contrast to previous iterations of this task, we now require <strong>retrieving a pair of sentences</strong> from a collection of arguments. Each sentence in this pair must be argumentative (e.g., a claim, a supporting premise, or a conclusion). Also, to encourage diversity of the retrieved results, sentences in this pair may come from two different arguments.</p>
 
 		<!--<strong>To register for the shared task click on </strong> [<a href="http://clef2021-labs-registration.dei.unipd.it/">registration</a>].-->
 <!--
@@ -106,6 +106,12 @@ shared_tasks: 3
         SECTION Data
         -->
         <h2><a id="data"></a>Data</h2>
+		
+		<p><strong>The corpus</strong> for Task 1 (available <a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/">here</a>) is a pre-processed version of  the <a href="https://zenodo.org/record/3734893">args.me corpus (version 2020-04-01)</a> where each argument is split into sentences; you may index these sentences (and the complete arguments if you wish to) with your favorite retrieval system. To ease participation, you may also directly use the <a href="https://www.args.me/index.html">args.me</a> search engine's <a href="https://www.args.me/api-en.html">API</a> for a baseline retrieval and then extract the candidate pair of sentences.</p>
+
+		<h4>Optional Data</h4> <br>
+		Participants can access the query relevance judgments and quality judgments of the past edition of this task (where complete arguments were retrieved instead of sentence pairs). This data may serve as a source of distant supervision, but there is no strict requirement to harness it.
+
         <p><strong>Touché 2021 topics (only titles)</strong> for Task 1 can be <a href="./topics-task-1-only-titles-2021.zip">downloaded from here</a>. The topics are provided as an XML file.<br><br>
                         Example topic:</strong><br><br>
                         &nbsp;&nbsp;&nbsp;&#60;topic&#62;<br>
@@ -118,14 +124,14 @@ shared_tasks: 3
         [<a href="./touche-task1-51-100-relevance.qrels">Download relevance judgments from Touché 2021 (args.me corpus version 2020-04-01)</a>]<br>
         [<a href="./touche-task1-51-100-quality.qrels">Download quality judgments from Touché 2021 (args.me corpus version 2020-04-01)</a>]<br>
         
-        <h3>Touché 2020 Results</h3>
+        <!-- <h3>Touché 2020 Results</h3>
                         
         [<a href="./topics-task-1-2020.zip">Download full topics from Touché 2020</a>] <br>
         [<a href="./touche2020-task1-relevance-args-me-corpus-version-1.qrels">Download relevance judgments from Touché 2020 (args.me corpus version 1)</a>]<br>
         [<a href="./touche2020-task1-relevance-args-me-corpus-version-2020-04-01-corrected.qrels">Download <strong>corrected</strong> relevance judgments from Touché 2020 (args.me corpus version 2020-04-01)</a>]<br>
         [<a href="./runs-task-1-2020.zip">Download submitted ranked documents (runs) from Touché 2020</a>]<br><br>
 
-        <p><strong>The corpus</strong> for Task 1 is the <a href="https://zenodo.org/record/3734893">args.me corpus (version 2020-04-01)</a>; you may index the corpus with your favorite retrieval system. To ease participation, you may also directly use the <a href="https://www.args.me/index.html">args.me</a> search engine's <a href="https://www.args.me/api-en.html">API</a> for a baseline retrieval.</p>
+         -->
         
         <!--
         <h3 class="uk-margin-small-top">Output Format</h3>
@@ -136,18 +142,18 @@ shared_tasks: 3
         SECTION Evaluation
         -->
         <h2><a id="evaluation"></a>Evaluation</h2>
-        <p>Be sure to retrieve good ''strong'' arguments. Our human assessors will label the retrieved documents manually, both for their general topical relevance and for the rhetorical quality, i.e., "well-writtenness" of the document: (1) whether the text has a good style of speech (formal language is preferred over informal), (2) whether the text has a proper sentence structure and is easy to read, (3) whether it includes profanity, has typos, and makes use of other detrimental style choices.</p>
+        <p>Be sure to retrieve a pair of ''strong'' argumentative sentences. Our human assessors will label the retrieved pairs manually, both for their general topical relevance and for their argument quality, i.e.,: (1) whether each sentence in the retrieved pair is argumentative (claim, supporting premise, or conclusion), (2) whether the sentence pair forms a coherent argument (one sentence must not contradict the other sentence in the pair), (3) whether the sentence pair forms a short summary of the corresponding arguments from which these sentences come from; each sentence in the pair must ideally be the most representative /  most important sentence of its corresponding argument.</p>
         
         The format of the relevance/quality judgment file:<br><br>
-        <code>qid 0 doc rel</code><br><br>
+        <code>qid 0 pair rel</code><br><br>
         With:
 		<ul>
 		        <li><code>qid</code>: The topic number.</li>
 		        <li><code>0</code>: Unused, always 0.</li>
-		        <li><code>doc</code>: The document ID (the official args.me ID).</li>
+		        <li><code>pair</code>: The pair of  sentence IDs (from the provided version of the args.me corpus).</li>
 		        <li><code>rel</code>: The relevance judgment: -2 non-argument (spam), 0 (not relevant) to 3 (highly relevant). The quality judgment: 0 (low) to 3 (high).</li>
 		</ul>
-   	<p>You can use the corresponding <a href="./evaluate.py">evaluation script</a> to evaluate your run using the relevance judgments.</p>
+   	<!-- <p>You can use the corresponding <a href="./evaluate.py">evaluation script</a> to evaluate your run using the relevance judgments.</p> -->
 
         <!--
         SECTION Submission
@@ -158,13 +164,13 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
                 </p>
                 <p class="uk-text-left">
                         The submission format for the task will follow the standard TREC format:<br><br>
-                        <code>qid Q0 doc rank score tag</code><br><br>
+                        <code>qid Q0 pair rank score tag</code><br><br>
 
                         With:
                         <ul>
                                 <li><code>qid</code>: The topic number.</li>
                                 <li><code>Q0</code>: Unused, should always be Q0.</li>
-                                <li><code>doc</code>: The document ID (the official args.me ID) returned by your system for the topic <code>qid</code>.</li>
+                                <li><code>pair</code>: The pair of sentence IDs (from the provided version of the args.me corpus) returned by your system for the topic <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
                                 <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order: it is important to handle tie scores.</li>
                                 <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
@@ -174,9 +180,9 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
 
                                 An example run for Task 1 is:<br><br>
 
-                                <code>1 Q0 Sf9294c83-Af186e851 1 17.89 myGroupMyMethod</code><br>
-                                <code>1 Q0 Sf9294c83-A9a4e056e 2 16.43 myGroupMyMethod</code><br>
-                                <code>1 Q0 S96f2396e-Aaf079b43 3 16.42 myGroupMyMethod</code><br>
+                                <code>1 Q0 Sf9294c83-Af186e851_sent1||Sf9294c83-A9a4e056e_sent3 1 17.89 myGroupMyMethod</code><br>
+                                <code>1 Q0 Sf9294c83-A9a4e056e_sent2||Sf9294c83-A9a4e056e_sent4 2 16.43 myGroupMyMethod</code><br>
+                                <code>1 Q0 S96f2396e-Aaf079b43_sent1||Sf9294c83-Af186e851_sent5 3 16.42 myGroupMyMethod</code><br>
                                 <code>...</code> </p>
 
         <!--
@@ -193,10 +199,10 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
         <p class=" uk-text-left">
             Your software is expected to accept two arguments:
             <ul>
-                <li>An input directory (named <code>$inputDataset</code> in TIRA). The variable <code>$inputDataset</code> points to a directory which contains six files: <code>debateorg.json</code>, <code>debatepedia.json</code>, <code>debatewise.json</code>, <code>idebate.json</code>, <code>parliamentary.json</code> (those 5 files form the corpus), and <code>topics.xml</code> (the topics for which documents should be retrieved).</li>
+                <li>An input directory (named <code>$inputDataset</code> in TIRA). The variable <code>$inputDataset</code> points to a directory which contains one csv file: <code>args_processed_04_01.csv</code> (the provided corpus), and <code>topics.xml</code> (the topics for which documents should be retrieved).</li>
                 <li>An output directory (named <code>$outputDir</code> in TIRA). Your software should create a standard trec run file in <code>$outputDir/run.txt</code>.</li>
             </ul>
-            Your Software can use the <code>args-me.json</code> file or the API of the search engine <a href="https://www.args.me/api-en.html">args.me</a> to produce the run file.<br>
+            Your Software can use the <code>args_processed_04_01.csv</code> file to produce the run file.<br>
             As soon as your Software is installed in your VM, you can register it in TIRA.
 
             Assume that your software is started with a bash script in your home directory called <code>my-software.sh</code> which expects an argument <code>-i</code> specifying the input directory, and an argument <code>-o</code> specifying the output directory. Click on "Add software" and specify the command <code>./my-software.sh -i $inputDataset -o $outputDir</code>. The other fields can stay with default settings.
@@ -241,289 +247,20 @@ Additionally, we review your submissions and contact you on demand.
         <!--
         SECTION Results
         -->
-	<h2 id="results">Results</h2>
-	<h3>Results for Relevance Evaluation</h3>
-	The table below shows the best-scoring run of each team. The full table including all runs can be accessed <a class="uk-link" href="./task1_relevance_results_all.html">here</a>. Per-topic results are also available [<a href="./task1_relevance_results_full.csv">download</a>]
-	<table class="uk-table uk-table-divider uk-table-small uk-table-hover">
-          <thead>
-            <tr>
-              <th>team</th>
-              <th colspan="2" align="center">results</th>
-            </tr>
-            <tr style="text-align: right;">
-              <th></th>
-              <th>Tag</th>
-              <th>nDCG@5</th>
-            </tr>
-          </thead>
-	  <tbody>
-	    <tr>
-	      <td>Elrond</td>
-	      <td>ElrondKRun</td>
-	      <td>0.720</td>
-	    </tr>
-	    <tr>
-	      <td>Pippin Took</td>
-	      <td>seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-2000.0-topics-2021</td>
-	      <td>0.705</td>
-	    </tr>
-	    <tr>
-	      <td>Robin Hood</td>
-	      <td>robinhood_combined</td>
-	      <td>0.691</td>
-	    </tr>
-	    <tr>
-	      <td>Asterix</td>
-	      <td>run2021_Mixed_1.625_1.0_250</td>
-	      <td>0.681</td>
-	    </tr>
-	    <tr>
-	      <td>Dread Pirate Roberts</td>
-	      <td>dreadpirateroberts_lambdamart_small_features</td>
-	      <td>0.678</td>
-	    </tr>
-	    <tr>
-	      <td>Skeletor</td>
-	      <td>bm25-0.7semantic</td>
-	      <td>0.667</td>
-	    </tr>
-	    <tr>
-	      <td>Luke Skywalker</td>
-	      <td>luke-skywalker</td>
-	      <td>0.662</td>
-	    </tr>
-	    <tr>
-	      <td>Shanks</td>
-	      <td>re-rank2</td>
-	      <td>0.658</td>
-	    </tr>
-	    <tr>
-	      <td>Heimdall</td>
-	      <td>argrank_r1_c10.0_q5.0</td>
-	      <td>0.648</td>
-	    </tr>
-	    <tr>
-	      <td>Athos</td>
-	      <td>uh-t1-athos-lucenetfidf</td>
-	      <td>0.637</td>
-	    </tr>
-	    <tr>
-	      <td>Goemon Ishikawa</td>
-	      <td>goemon2021-dirichlet-lucenetoken-atirestop-nostem</td>
-	      <td>0.635</td>
-	    </tr>
-	    <tr>
-	      <td>Jean Pierre Polnareff</td>
-	      <td>seupd-jpp-dirichlet</td>
-	      <td>0.633</td>
-	    </tr>
-	    <tr>
-	      <td>Swordsman (<b>Baseline</b>)</td>
-	      <td>Dirichlet</td>
-	      <td>0.626</td>
-	    </tr>
-	    <tr>
-	      <td>Yeagerists</td>
-	      <td>run_4_chocolate-sweep-50</td>
-	      <td>0.625</td>
-	    </tr>
-	    <tr>
-	      <td>Hua Mulan</td>
-	      <td>args_naiveexpansion_0</td>
-	      <td>0.620</td>
-	    </tr>
-	    <tr>
-	      <td>Macbeth</td>
-	      <td>macbethPretrainedBaseline</td>
-	      <td>0.611</td>
-	    </tr>
-	    <tr>
-	      <td>Swordsman (<b>Baseline</b>)</td>
-	      <td>ARGSME</td>
-	      <td>0.607</td>
-	    </tr>
-	    <tr>
-	      <td>Blade</td>
-	      <td>bladeGroupBM25Method1</td>
-	      <td>0.601</td>
-	    </tr>
-	    <tr>
-	      <td>Deadpool</td>
-	      <td>uh-t1-deadpool</td>
-	      <td>0.557</td>
-	    </tr>
-	    <tr>
-	      <td>Batman</td>
-	      <td>DE_RE_Analyzer_4r100</td>
-	      <td>0.528</td>
-	    </tr>
-	    <tr>
-	      <td>Little Foot</td>
-	      <td>whoosh</td>
-	      <td>0.521</td>
-	    </tr>
-	    <tr>
-	      <td>Gandalf</td>
-	      <td>BM25F-gandalf</td>
-	      <td>0.486</td>
-	    </tr>
-	    <tr>
-	      <td>Palpatine</td>
-	      <td>run</td>
-	      <td>0.401</td>
-	    </tr>
-	  </tbody>
-        </table>
-	<h3>Results for Quality Evaluation</h3>
-	The table below shows the best-scoring run of each team. The full table including all runs can be accessed <a class="uk-link" href="./task1_quality_results_all.html">here</a>. Per-topic results are also available [<a href="./task1_quality_results_full.csv">download</a>]
-	<table class="uk-table uk-table-divider uk-table-small uk-table-hover">
-          <thead>
-            <tr>
-              <th>team</th>
-              <th colspan="2" align="center">results</th>
-            </tr>
-            <tr style="text-align: right;">
-              <th></th>
-              <th>Tag</th>
-              <th>nDCG@5</th>
-            </tr>
-          </thead>
-	  <tbody>
-	    <tr>
-	      <td>Heimdall</td>
-	      <td>argrank_r1_c10.0_q10.0</td>
-	      <td>0.841</td>
-	    </tr>
-	    <tr>
-	      <td>Skeletor</td>
-	      <td>manifold</td>
-	      <td>0.827</td>
-	    </tr>
-	    <tr>
-	      <td>Asterix</td>
-	      <td>run2021_Jolly_10.0_0.0_0.3_0.0__1.5_1.0_300</td>
-	      <td>0.818</td>
-	    </tr>
-	    <tr>
-	      <td>Elrond</td>
-	      <td>ElrondOpenNlpRun</td>
-	      <td>0.817</td>
-	    </tr>
-	    <tr>
-	      <td>Pippin Took</td>
-	      <td>seupd2021-rck-stop-kstem-doShingle-false-shingle-size-0-Dirichlet-mu-1800.0-expanded-topics-2021</td>
-	      <td>0.814</td>
-	    </tr>
-	    <tr>
-	      <td>Goemon Ishikawa</td>
-	      <td>goemon2021-dirichlet-lucenetoken-atirestop-nostem</td>
-	      <td>0.812</td>
-	    </tr>
-	    <tr>
-	      <td>Hua Mulan</td>
-	      <td>args_gpt2expansion_0</td>
-	      <td>0.811</td>
-	    </tr>
-	    <tr>
-	      <td>Yeagerists</td>
-	      <td>run_4_chocolate-sweep-50</td>
-	      <td>0.810</td>
-	    </tr>
-	    <tr>
-	      <td>Dread Pirate Roberts</td>
-	      <td>dreadpirateroberts_lambdamart_medium_features</td>
-	      <td>0.810</td>
-	    </tr>
-	    <tr>
-	      <td>Robin Hood</td>
-	      <td>robinhood_baseline</td>
-	      <td>0.809</td>
-	    </tr>
-	    <tr>
-	      <td>Luke Skywalker</td>
-	      <td>luke-skywalker</td>
-	      <td>0.808</td>
-	    </tr>
-	    <tr>
-	      <td>Macbeth</td>
-	      <td>macbethBM25CrossEncoder</td>
-	      <td>0.803</td>
-	    </tr>
-	    <tr>
-	      <td>Jean Pierre Polnareff</td>
-	      <td>seupd-jpp-dirichlet</td>
-	      <td>0.802</td>
-	    </tr>
-	    <tr>
-	      <td>Athos</td>
-	      <td>uh-t1-athos-lucenetfidf</td>
-	      <td>0.802</td>
-	    </tr>
-	    <tr>
-	      <td>Swordsman (<b>Baseline</b>)</td>
-	      <td>DirichletLM</td>
-	      <td>0.796</td>
-	    </tr>
-	    <tr>
-	      <td>Shanks</td>
-	      <td>LMDSimilarity</td>
-	      <td>0.795</td>
-	    </tr>
-	    <tr>
-	      <td>Blade</td>
-	      <td>bladeGroupLMDirichlet</td>
-	      <td>0.763</td>
-	    </tr>
-	    <tr>
-	      <td>Little Foot</td>
-	      <td>whoosh</td>
-	      <td>0.718</td>
-	    </tr>
-	    <tr>
-	      <td>Swordsman (<b>Baseline</b>)</td>
-	      <td>ARGSME</td>
-	      <td>0.717</td>
-	    </tr>
-	    <tr>
-	      <td>Batman</td>
-	      <td>DE_RE_Analyzer_4r100</td>
-	      <td>0.695</td>
-	    </tr>
-	    <tr>
-	      <td>Deadpool</td>
-	      <td>uh-t1-deadpool</td>
-	      <td>0.679</td>
-	    </tr>
-	    <tr>
-	      <td>Gandalf</td>
-	      <td>BM25F-gandalf</td>
-	      <td>0.603</td>
-	    </tr>
-	    <tr>
-	      <td>Palpatine</td>
-	      <td>run</td>
-	      <td>0.562</td>
-	    </tr>
-	  </tbody>
-        </table>
-	<h3>Qrel Download</h3>
-	<ul>
-	    <li>Relevance qrels [<a href="./touche-task1-51-100-relevance.qrels">download</a>]</li>
-	    <li>Quality qrels [<a href="./touche-task1-51-100-quality.qrels">download</a>]</li>
-        </ul>
+
         <!--
         SECTION Task Committee
         -->
         <h2><a id="task-committee"></a>Task Committee</h2>
         <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
-            {% include people-cards/gienapp.html gender="male" %}
-            {% include people-cards/potthast.html gender="male" %}
-            {% include people-cards/wachsmuth.html gender="male" %}
-            {% include people-cards/hagen.html gender="male" %}
-            {% include people-cards/froebe.html gender="male" %}
+            {% include people-cards/syed.html gender="male" %}
+            {% include people-cards/gurcke.html gender="male" %}
             {% include people-cards/bondarenko.html gender="male" %}
-            {% include people-cards/ajjour.html gender="male" %}
-	    {% include people-cards/stein.html gender="male" %}
+            {% include people-cards/froebe.html gender="male" %}
+            {% include people-cards/hagen.html gender="male" %}
+		    {% include people-cards/stein.html gender="male" %}
+            {% include people-cards/wachsmuth.html gender="male" %}
+			{% include people-cards/potthast.html gender="male" %}
         </div>
 
     </div>
