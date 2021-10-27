@@ -61,7 +61,7 @@ SECTION Synopsis
 <h2 id="synopsis">Synopsis</h2>
 <ul>
 <li>Task: Given a controversial topic and a collection of web documents with images, retrieve for each stance (pro/con) images that show support for that stance.</li>
-<li>Input: [collection] [topics] [training judgements] (coming soon)</li>
+<li>Input: [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>] [topics] [training judgements] (coming soon)</li>
 <li>Submission: [tira] (coming soon)</li>
 </ul>
 
@@ -76,10 +76,9 @@ SECTION Data
 -->
 <h2><a id="data"></a>Data</h2>
 <p>
-This task uses a focused crawl of at least 10,000 images (and associated web pages) as document collection. Systems are evaluated using Touché topics 1–50.
-</p>
-<p>
-More information coming soon.
+This task uses a focused crawl of about 20,000 images (and associated web pages) as document collection. See the collection's README for more information on its contents. We may still modify the collection until the end of 2021 based on feedback and own considerations. [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>]
+</p><p>
+Systems are evaluated using Touché topics 1–50. 
 </p>
 
 <!--
@@ -106,26 +105,25 @@ SECTION Submission
 <h2><a id="submission"></a>Submission</h2>
 <p>We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility (see the Quickstart section below). Email submission is allowed as a fallback. For each topic and stance, include 10 retrieved images. Each team can submit up to 5 different runs.</p>
 <p>
-The submission format for the task will follow the standard TREC format, but makes use of the second column to indicate the stance:<br><br>
-<code>qid stance doc rank score tag</code><br><br>
-With:
+The submission format adapts the standard TREC format. Each line corresponds to an image retrieved for some topic at a certain rank and contains the following fields, separated by single whitespaces:
 <ul>
-<li><code>qid</code>: The topic number.</li>
-<li><code>stance</code>: The stance, must be "PRO" or "CON".</li>
-<li><code>doc</code>: The ID of the image returned by your system for topic <code>qid</code> and <code>stance</code> at <code>rank</code>.</li>
-<li><code>rank</code>: The rank of the image in the result list for the topic and stance, must be an integer from 1 to 10.</li>
-<li><code>score</code>: The score (integer or floating point) that generated the ranking. Not used in the evaluation.</li>
-<li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
+<li>The topic number (1 to 50).</li>
+<li>The stance ("PRO" or "CON").</li>
+<li>The image ID (correspond to the name of the image's directory in the collection; always 17 characters long and start with "I").</li>
+<li>The rank (1 to 10).</li>
+<li>A score (integer or floating point; lower ranks must have higher scores). Not used in this year's evaluation.</li>
+<li>A tag that identifies your group and the method you used to produce the run.</li>
 </ul>
-The fields should be separated by a whitespace.<br><br>
-<!-- TODO
-An example run for Task 3 is:<br><br>
-
-<code>1 Q0 Sf9294c83-Af186e851 1 17.89 myGroupMyMethod</code><br>
-<code>1 Q0 Sf9294c83-A9a4e056e 2 16.43 myGroupMyMethod</code><br>
-<code>1 Q0 S96f2396e-Aaf079b43 3 16.42 myGroupMyMethod</code><br>
-<code>...</code>
--->
+For example:
+<pre>
+1 PRO I000330ba4ea0ad13 1 17.89 myGroupMyMethod
+1 PRO I0005e6fe00ea17fd 2 16.43 myGroupMyMethod
+...
+1 CON I0009d5f038fe6f2e 1 15.89 myGroupMyMethod
+1 CON I000f34bd3f8cb030 2 14.43 myGroupMyMethod
+...
+</pre>
+Each possible combination of topic, stance, and rank may occur once, making a run file up to 1000 lines long (50 topics, 2 stances, 10 ranks). Missing lines are treated like an irrelevant image.
 </p>
 
 <!--
