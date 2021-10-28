@@ -44,7 +44,6 @@ shared_tasks: 3
 <ul class="uk-list">
 <!-- Comment out sections you do not provide -->
 <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-<li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
 <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
@@ -60,32 +59,28 @@ SECTION Synopsis
 -->
 <h2 id="synopsis">Synopsis</h2>
 <ul>
-<li>Task: Given a controversial topic and a collection of web documents with images, retrieve for each stance (pro/con) images that show support for that stance.</li>
-<li>Input: [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>] [topics] [training judgements] (coming soon)</li>
-<li>Submission: [tira] (coming soon)</li>
+<li>Task: Given a controversial topic, the task is to retrieve images (from web pages) for each stance (pro/con) that show support for that stance.</li>
+<li>Input: [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>] [training judgements]</li>
+<li>Evaluation: [topics] (coming soon)</li>
+<li>Submission: [baseline] [verifier] [tira] (coming soon)</li>
 </ul>
-
-<!--
-SECTION Task
--->
-<h2><a id="task"></a>Task</h2>
-<p>The goal of <strong>Task 3</strong> is to support users in getting an overview of opinions on controversial topics. Given a controversial topic, the task is to retrieve images (from web pages) for each stance (pro/con) that show support for that stance.</p>
 
 <!--
 SECTION Data
 -->
 <h2><a id="data"></a>Data</h2>
 <p>
-This task uses a focused crawl of about 20,000 images (and associated web pages) as document collection. See the collection's README for more information on its contents. We may still modify the collection until the end of 2021 based on feedback and own considerations. [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>]
-</p><p>
-Systems are evaluated using Touché topics 1–50. 
+This task uses a focused crawl of about 20,000 images (and associated web pages) as document collection. See the collection's README for more information on its contents. We may still modify the collection until the end of 2021 based on feedback and own considerations.
+[<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>]
 </p>
 
 <!--
 SECTION Evaluation
 -->
 <h2><a id="evaluation"></a>Evaluation</h2>
-<p>Systems are evaluated by the ratio of relevant images among 20 retrieved images (Precision) for each topic, namely 10 images for each stance.</p>
+<p>
+Systems are evaluated on Touché topics 1–50 by the ratio of relevant images among 20 retrieved images (Precision) for each topic, namely 10 images for each stance.
+</p>
 <!--
 The format of the relevance/quality judgment file:<br><br>
 <code>qid 0 doc rel</code><br><br>
@@ -103,9 +98,11 @@ With:
 SECTION Submission
 -->
 <h2><a id="submission"></a>Submission</h2>
-<p>We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility (see the Quickstart section below). Email submission is allowed as a fallback. For each topic and stance, include 10 retrieved images. Each team can submit up to 5 different runs.</p>
 <p>
-The submission format adapts the standard TREC format. Each line corresponds to an image retrieved for some topic at a certain rank and contains the following fields, separated by single whitespaces:
+We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility (see the Quickstart section below). Email submission is allowed as a fallback. For each topic and stance, include 10 retrieved images. Each team can submit up to 5 different runs.
+</p><p>
+The submission format adapts the standard TREC format. Each line corresponds to an image retrieved for some topic and stance at a certain rank, making a run file 1000 lines long (50 topics, 2 stances, 10 ranks). Each line contains the following fields, separated by single whitespaces:
+</p>
 <ul>
 <li>The topic number (1 to 50).</li>
 <li>The stance ("PRO" or "CON").</li>
@@ -123,8 +120,6 @@ For example:
 1 CON I000f34bd3f8cb030 2 14.43 myGroupMyMethod
 ...
 </pre>
-Each possible combination of topic, stance, and rank may occur once, making a run file up to 1000 lines long (50 topics, 2 stances, 10 ranks). Missing lines are treated like an irrelevant image.
-</p>
 
 <!--
 SECTION TIRA Quickstart
