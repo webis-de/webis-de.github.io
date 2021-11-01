@@ -82,8 +82,8 @@ shared_tasks: 3
         <h2 id="synopsis">Synopsis</h2>
 
         <ul>
-            <li>Task: Given a comparative question, retrieve and rank documents from the ClueWeb12 that help to answer the comparative question.</li>
-            <li>Input: [<a href="https://www.chatnoir.eu/doc/">data</a>]</li>
+            <li>Task: Given a comparative topic and a collection of documents, the task is to retrieve relevant argumentative passages for either compared object or for both and to detect their respective stances with respect to the object they talk about.</li>
+            <li>Input: [Document corpus will be provided not later than mid November].<!--[<a href="https://www.chatnoir.eu/doc/">data</a>]--></li>
             <li>Submission: [<a href="https://www.tira.io/task/touche-task-2/">submit</a>]</li>
         </ul>
 
@@ -95,7 +95,7 @@ shared_tasks: 3
         -->
         <h2 id="task">Task</h2>
 
-        <p>The goal of <strong>Task 2</strong> is to support users facing some choice problem from "everyday life". Given a comparative question, the task is to retrieve and rank documents from the ClueWeb12 that help to answer the comparative question. </p>
+        <p>The goal of <strong>Task 2</strong> is to support users facing some choice problem from "everyday life". Given a comparative topic and a collection of documents, the task is to retrieve relevant argumentative passages for either compared object or for both and to detect their respective stances with respect to the object they talk about. </p>
         
 <!--<strong>To register for the shared task click on </strong> [<a href="http://clef2021-labs-registration.dei.unipd.it/">registration</a>].-->
 <!--
@@ -106,16 +106,20 @@ shared_tasks: 3
         SECTION Data
         -->
         <h2 id="data">Data</h2>
-        <p><strong>Touché 2021 topics (only titles)</strong> for Task 2 can be <a href="data/topics-task2-2022.zip">downloaded from here</a>. The topics are provided as an XML file.<br><br>
+        <p><strong>Touché 2022 topics</strong> for Task 2 can be <a href="data/topics-task2-2022.zip">downloaded from here</a> (50 topics). The topics are provided as an XML file. The notebook for parsing the topics can be <a href="code/parse_topics.ipynb">downloaded from here</a>. <br><br>
 
                         Example topic for <strong>Task 2:</strong><br><br>
                         &nbsp;&nbsp;&nbsp;&#60;topic&#62;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;number&#62;1&#60;/number&#62;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;Which is better, a Mac or a PC?&#60;/title&#62;<br>
-                <!--    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;A person is thinking about replacing their old desktop machine by a new one. Without any "religious" preference for either the Mac or PC universe, they are willing to consider buying from either "side". For such an unbiased user, the potential differences between Macs and PCs should be highlighted---probably even that some people believe that the best way to describe the difference between a Mac and a PC is that they represent two different ways of thinking.&#60;/description&#62;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;narrative&#62;Highly relevant documents discuss differences between a Mac and a PC (e.g., software availability, price range, design, vulnerability to viruses, etc.) and express preferences on the respective differences. Relevant documents may contain user opinions who are very happy or also very dissatisfied with some choice on Mac vs. PC that they made but without longer comparisons of both worlds. Documents that include only historical information (e.g., when was the first Mac/PC available) or documents without clearly expressed opinions or comparisons are not relevant.<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/narrative&#62;<br> -->
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;number&#62;25&#60;/number&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;Which browser is better, Internet Explorer or Firefox?&#60;/title&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;A windows user wants to decide whether to use the default Internet Explorer or go for Firefox as alternative and seeks for information to compare them in multiple different aspects such as security and privacy, performance, ease of use, reliability, etc.&#60;/description&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;narrative&#62;Highly relevant documents discuss in detail pros and cons of both web browsers by contrasting their characteristics and features. This comparison may contain technical details but also personal opinions. A relevant document may explicitly state what are the good/bad features of either the Internet Explorer or the Firefox browser without a clear comparison. Documents that include only descriptions of browser war or historical background how the browsers evolved, etc. are not relevant.<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/narrative&#62;<br>
                         &nbsp;&nbsp;&nbsp;&#60;/topic&#62;<br><br></p>
+                        
+        <p><strong>The corpus</strong> for Task 2 is the <a href="">collection of 1.2 million text passages</a> (will be published not later than mid November).</p>
+                        
+        <h3>Touché 2021 Results</h3>
         
         [<a href="./topics-task-2-2021.zip">Download full topics Touché 2021</a>]<br>                
         [<a href="./touche-task2-51-100-relevance.qrels">Download relevance judgments from Touché 2021</a>]<br>
@@ -127,7 +131,6 @@ shared_tasks: 3
         [<a href="./touche2020-task2-relevance-withbaseline.qrels">Download relevance judgments from Touché 2020</a>]<br>
         [<a href="./runs-task-2-2020.zip">Download submitted ranked documents (runs) from Touché 2020</a>]<br><br>
 
-        <p><strong>The corpus</strong> for Task 2 is the <a href="https://lemurproject.org/clueweb12/">ClueWeb12 corpus</a>; you may index the ClueWeb12 with your favorite retrieval system. To ease participation, you may also directly use the <a href="https://www.chatnoir.eu/">ChatNoir</a> search engine's <a href="https://www.chatnoir.eu/doc/">API</a> for a baseline retrieval. You will receive credentials to access the ChatNoir API upon a completed registration.</p>
 	<!--
         <h3 class="uk-margin-small-top">Output Format</h3>
         <p>Output format description.</p>
