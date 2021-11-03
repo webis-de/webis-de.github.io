@@ -29508,920 +29508,930 @@
             "unit-en-argument-search"
         ],
         "unit-en-ir-organization": {
-            "sha": "5826ae0dd75482fd8cc53a9db01dc41659065e3b",
+            "sha": "283056c32dbc68f848a8fc55071a349750396b26",
             "numpages": 9,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "08b35cfc39c49263f418eb5ee135e814836d47ee",
+                    "sha": "849d616a3423a2d21a23e3a8156a2f11cf2039ac",
                     "description": "Information Retrieval Matthias Hagen"
                 },
                 {
                     "page": 2,
-                    "sha": "528c2a5f997c072ad015598fb7d4e6ba59e7935f",
+                    "sha": "e05e9c3a48ed7d012734607ada47e7d942cdd898",
                     "description": "Contents I. Introduction"
                 },
                 {
                     "page": 3,
-                    "sha": "efc9fd367c1301a6defea112c73ef941be87a983",
+                    "sha": "576f017fe1ccf39a49775cdca33fbfd020869e3d",
                     "description": "Objectives "
                 },
                 {
                     "page": 4,
-                    "sha": "a9b54b41bd1b0b75f97344eeb478006c224ffa76",
+                    "sha": "a4e3826e2623946e74fd3904211c6beca4169b09",
                     "description": "Related Fields 1. Statistics"
                 },
                 {
                     "page": 5,
-                    "sha": "412dbfa1676536859822cb18c2949f1f79ca6b11",
+                    "sha": "6dd681e790908e6f89b42c5cfaafe701d6842fe8",
                     "description": "Literature Information Retrieval:"
                 },
                 {
                     "page": 6,
-                    "sha": "16a259ed0c07af526c30dfdf08caf433b5bcc586",
+                    "sha": "e4de286139d1c1db874a1681331b93250e0abfab",
                     "description": "Literature Information Retrieval:"
                 },
                 {
                     "page": 7,
-                    "sha": "b4b6209542a51fb3905f7a766072213ac225b94d",
+                    "sha": "651941cc6c520459c807b73c7bc82b0036912feb",
                     "description": "Literature \u201cCore\u201d information retrieval conferences:"
                 },
                 {
                     "page": 8,
-                    "sha": "2617e569da9d3ac1e5ee7ea45556f8f8061cd2d1",
+                    "sha": "815f56c35f932887519234132d1fe85ce78d8c48",
                     "description": "Software Industry (Open Source):"
                 },
                 {
                     "page": 9,
-                    "sha": "73bd0096710c2761aa630128a218822025d04686",
-                    "description": "Software Services:"
+                    "sha": "6abe277939a6323d78a69b79b75b2530560e1f24",
+                    "description": "Software Research:"
                 }
             ]
         },
         "unit-en-ir-introduction": {
-            "sha": "ecd90b67f90bb65074dd152744fbd30bbefa51a7",
+            "sha": "952b6c91f14360cf8090d170e58bf26558cf5fdd",
             "numpages": 90,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "0f32c9a3f6c60ef6858b90143d099e37e45a41a1",
+                    "sha": "12b9565f5fd9812e59d7524a54a757c5e0288d7a",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 2,
-                    "sha": "ec431eb0530a42cf7933753cfebe6c429fd4be55",
+                    "sha": "2bf7d65b71695883a67fd144cfe8aab2d4849a6f",
                     "description": "Information Retrieval in a Nutshell"
                 },
                 {
                     "page": 3,
-                    "sha": "5072cffb6cc7f26ebfc3e64a4f525641ae713589",
+                    "sha": "469c96e786c14e688476ac11a918b210775333e1",
                     "description": "Information Retrieval in a Nutshell"
                 },
                 {
                     "page": 4,
-                    "sha": "3963f133e5a62ca38f204752bd58dff4be59a5d8",
+                    "sha": "399621a9bdceb59175ce72c5c8bf3be2f2222f5a",
                     "description": "Information Retrieval in a Nutshell"
                 },
                 {
                     "page": 5,
-                    "sha": "348dd45fd0f03a34d5db3b1ee5c5c1e6c1059b29",
+                    "sha": "9e7a60051ae49ddfbf81026c226eb8d539409c81",
                     "description": "Information Retrieval in a Nutshell"
                 },
                 {
                     "page": 6,
-                    "sha": "597088675355afccfbe3f8230ac27763bb2b5492",
+                    "sha": "52b20e3d61699a5cb4d482a75325a9256e044b5f",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 7,
-                    "sha": "1fb71a1775cf2e82e3a71f5aa267762e48225276",
+                    "sha": "88157d83bd39016e8fa7c9a96b60d395d7d2cd19",
                     "description": "Examples of Information Retrieval Problems Learn everything there is to learn about information retrieval."
                 },
                 {
                     "page": 8,
-                    "sha": "79074d3e89bb7327c2682f8c0f39c0b7475810ca",
+                    "sha": "a700e28320740e6ba8c0d8e5d516212711a458a8",
                     "description": "Examples of Information Retrieval Problems Learn everything there is to learn about information retrieval."
                 },
                 {
                     "page": 9,
-                    "sha": "9b49bd6cf1b8a85f5c88f051b451017a61291bd9",
+                    "sha": "94d1ebe69009671b605431683be4dfcfee3fc21f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "9818c21458fe82f321bc6561c6a751ea1ecee2d7",
+                    "sha": "816d3ca18dacbeaa71da3adba84f36ab9b8a1c09",
                     "description": "Examples of Information Retrieval Problems Plan a trip from San Francisco to Paris, France."
                 },
                 {
                     "page": 11,
-                    "sha": "bb47908cea1e3e70069fc8f0e1653ae0cf613567",
+                    "sha": "1d0ea0de4c071e4ef1166dc5bff0e610af5ef03b",
                     "description": "Examples of Information Retrieval Problems Plan a trip from San Francisco to Paris, France."
                 },
                 {
                     "page": 12,
-                    "sha": "d680d198233fa37b1edb275a2058dcea75456cde",
+                    "sha": "9d822d2a9517fe0de2037a471558d8ea445d1a08",
                     "description": "Remarks:"
                 },
                 {
                     "page": 13,
-                    "sha": "5a95c8c0e94d03a37bf1379c54e20e3f283abb8d",
+                    "sha": "eea1324d8116d576671b44cccdfb0e5acb5798d0",
                     "description": "Examples of Information Retrieval Problems What were the news of the day?"
                 },
                 {
                     "page": 14,
-                    "sha": "860e9baa964b11c08e34b36e90c841e90fe6e96a",
+                    "sha": "3617091743a7fabe0203fb2327e62328a54dfcdb",
                     "description": "Examples of Information Retrieval Problems What were the news of the day?"
                 },
                 {
                     "page": 15,
-                    "sha": "dbd7a506628771fb696492179ce76f8b9be174b0",
+                    "sha": "dbd6579bd6139927d12df639d1cc489d6986a70c",
                     "description": "Examples of Information Retrieval Problems What were the news of the day?"
                 },
                 {
                     "page": 16,
-                    "sha": "9bcb013fa250c719f352f88f8f31a0e283a092b0",
+                    "sha": "2b8010818b417b15f6241a0a36b492bc6b9f0064",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "d61279201301b656e52dc48a8b3d4614794d493e",
+                    "sha": "e92516e2c5013aef961ddccc74311fb5a5b97d7b",
                     "description": "Examples of Information Retrieval Problems Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 18,
-                    "sha": "c29ca77315df7b653b42bd18deda7c01c9658908",
+                    "sha": "ea6e2283423e96924d9cdeafa96f49c4f9713cc5",
                     "description": "Examples of Information Retrieval Problems Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 19,
-                    "sha": "bd4b58f4ffaf80a117918e76d7e659698a4258ec",
+                    "sha": "fd01591e8d16c3c04d853f548097e9137ad8bdd2",
                     "description": "Examples of Information Retrieval Problems Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 20,
-                    "sha": "bdfb04c58ff55f61b99d12d889b91bf08e158e1f",
+                    "sha": "02d01d1fdea0316eab8df5e92aa57ec421370330",
                     "description": "Examples of Information Retrieval Problems Answer \u201cCan Kangaroos jump higher than the Empire State Building?\u201d"
                 },
                 {
                     "page": 21,
-                    "sha": "09c27aa4b08a1da11240341d45e6e55e7fe5661c",
+                    "sha": "37194fe1c4fe4494704010e7c7da48016fad9d0c",
                     "description": "Remarks:"
                 },
                 {
                     "page": 22,
-                    "sha": "550d358eb60cef70e4ae2357584f2c6292ef4bc0",
+                    "sha": "412096500135075ba5719acbe949efc99003351a",
                     "description": "Examples of Information Retrieval Problems Build a fence."
                 },
                 {
                     "page": 23,
-                    "sha": "65bc67235065bc83e4f510785b409518b92a2cc4",
+                    "sha": "ae9e32c2943b8e6fe4913f70489d449713e859e0",
                     "description": "Examples of Information Retrieval Problems Build a fence."
                 },
                 {
                     "page": 24,
-                    "sha": "c3ec4b1f1793ab02c53d868ae0697543f5fa4879",
+                    "sha": "8bf0be7d44c9f4b162e1a0d67b726136d014bbb9",
                     "description": "Remarks:"
                 },
                 {
                     "page": 25,
-                    "sha": "25ea44f7ab8b387bc979ec167adc594117ae5960",
+                    "sha": "89e7e86946cd66db1e6035d4206121a8efdbe48b",
                     "description": "Examples of Information Retrieval Problems Write an essay on video surveillance."
                 },
                 {
                     "page": 26,
-                    "sha": "a00a9961961327acc66773bc93eb1b15d34b217d",
+                    "sha": "eb399817a135936aec5bdcc64d85fd0962efe3ab",
                     "description": "Examples of Information Retrieval Problems Write an essay on video surveillance."
                 },
                 {
                     "page": 27,
-                    "sha": "be573a3faf1229d777b02aa30ec4a13cf1f1c502",
+                    "sha": "75f08230936ce44e3216154462d680aef412c006",
                     "description": "Remarks:"
                 },
                 {
                     "page": 28,
-                    "sha": "3de40ee10a53ece7ad6b6ba736bcd29b9a2eddee",
+                    "sha": "4a42ab6dac06ec81995792fb5f0d6ca0b6a9a9b1",
                     "description": "Examples of Information Retrieval Problems Given an example image, find more like it."
                 },
                 {
                     "page": 29,
-                    "sha": "17824515fcc3ff53e729b54b26458e82321c5e24",
+                    "sha": "1db4531084d885252b029e069189579727159d3b",
                     "description": "Examples of Information Retrieval Problems Given an example image, find more like it."
                 },
                 {
                     "page": 30,
-                    "sha": "7339bd77345584926157d838785f0a545f7ccd45",
+                    "sha": "94be6c426411d49d13e5e63a2b4c1c0cc7487a45",
                     "description": "Examples of Information Retrieval Problems Given an example text, find more like it."
                 },
                 {
                     "page": 31,
-                    "sha": "8ac563a085c501a3af47d12f75438bd5c547bd1f",
+                    "sha": "60ab52ed40e6d04274d5e51ac89fcfd1a1afa8c2",
                     "description": "Examples of Information Retrieval Problems Given an example text, find more like it."
                 },
                 {
                     "page": 32,
-                    "sha": "9a951431d082868cfec83fdd13f18867dd720537",
+                    "sha": "965d141c09e7ed62a0b8cc0a3c2743626b757dbc",
                     "description": "Examples of Information Retrieval Problems Given an example text, find more like it."
                 },
                 {
                     "page": 33,
-                    "sha": "5cb98fe3a7cd40a8346ca19d2cba0097255f85d0",
+                    "sha": "7317a01a4e389c9a27fa675a50eb64fcc3d3dbc4",
                     "description": "Examples of Information Retrieval Problems Given an example text, find more like it."
                 },
                 {
                     "page": 34,
-                    "sha": "d45a2e176635b616f22c0238f4e3ec580fafce28",
+                    "sha": "719ac796701dd7857a4d1d3365dac447502b96f6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 35,
-                    "sha": "3141ad8c75c53fe8c54521e769f6226431ba2003",
+                    "sha": "ef187e7672b79fb979f8a900fdf42a5b449f81a6",
                     "description": "Examples of Information Retrieval Problems Find out what people commonly write in the phrase how to ? this."
                 },
                 {
                     "page": 36,
-                    "sha": "24715b89cdbb700aa257dc8061f07b25aa0f4a54",
+                    "sha": "211318ad1a4bd7316f4dd5c3f6e8cf3a08adcdaa",
                     "description": "Examples of Information Retrieval Problems Find out what people commonly write in the phrase how to ? this."
                 },
                 {
                     "page": 37,
-                    "sha": "a718f86fe76991e94a25142a9d47aa7fb321b309",
+                    "sha": "406590739c6ed9fa4b3b14c6d863ad1680aab21a",
                     "description": "Remarks:"
                 },
                 {
                     "page": 38,
-                    "sha": "c984be0dc23465efb46b756291190eafa8f5d0f9",
+                    "sha": "fab6f067c78c1bfb24b3e375549d7d1c5923f6fa",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 39,
-                    "sha": "37c31d979594b212b18a6a26e46cf33dc0b1480e",
+                    "sha": "56066f3b4576ffbd6e18b2049f15d72ba58518a3",
                     "description": "Terminology Information science distinguishes the concepts data, information, and knowledge."
                 },
                 {
                     "page": 40,
-                    "sha": "fdc381f13945d25e4cfdf9f9e9390776aff5cf39",
+                    "sha": "eda5921dffdc033e15d3962a63e789d36c82c00d",
                     "description": "Remarks:"
                 },
                 {
                     "page": 41,
-                    "sha": "d4a9594849f111cd563b3e1d1fb413e55caaa38d",
+                    "sha": "e4e1ce34990d32753dbd49a96d110ed14f7403c2",
                     "description": "Terminology Definition 4 (Information System)"
                 },
                 {
                     "page": 42,
-                    "sha": "ee7a69d90d1a8710a28805303e605ef80dd02591",
+                    "sha": "ec346e06058ca62d74702cec3657adbdd0d29e90",
                     "description": "Remarks:"
                 },
                 {
                     "page": 43,
-                    "sha": "fdf02b3fca74a59e8f5ab09a1879e1f21d7026be",
+                    "sha": "94a55e8689f9de102c36f1973e5203da4f415a92",
                     "description": "Terminology "
                 },
                 {
                     "page": 44,
-                    "sha": "86626893253cf230e16874a5c1c19b859e66688b",
+                    "sha": "3ce0d3a7cbbbca7948860b9d0dda00512403cff3",
                     "description": "Terminology "
                 },
                 {
                     "page": 45,
-                    "sha": "a75c037489997082f011c6acf95354098b3935ae",
+                    "sha": "c627f26a4267ca632291769dcebd7288335b45d8",
                     "description": "Terminology "
                 },
                 {
                     "page": 46,
-                    "sha": "7276fd4f4ffb9cbca9beb7183846004e3ca96e7c",
+                    "sha": "5dac8c3884badac5aefe19a5eff57f4bf29851b0",
                     "description": "Terminology "
                 },
                 {
                     "page": 47,
-                    "sha": "8923efb45e4ab41a316544a90968cfe4118a2fe2",
+                    "sha": "c92d58572af6e6d1ed8779c034a75c7feef7a738",
                     "description": "Terminology "
                 },
                 {
                     "page": 48,
-                    "sha": "cec2a890bb62869a7234bf49c435b827d48dbd35",
+                    "sha": "9c19b07fa06eeab0576ff0b8997c98649a8a1d67",
                     "description": "Terminology "
                 },
                 {
                     "page": 49,
-                    "sha": "b7d272bbc36b56927bae4bcaba2145d66145c354",
+                    "sha": "6147cad38e70fbc7a15c0a734855b7abdc8f725b",
                     "description": "Terminology "
                 },
                 {
                     "page": 50,
-                    "sha": "c73d5965cd3bbc39f7a181bffa2d623267ccf8ff",
+                    "sha": "0bb53c266ef4258a7c9288a26c1e2f6871e5ee6d",
                     "description": "Terminology "
                 },
                 {
                     "page": 51,
-                    "sha": "5a99ab313c7cc8e79448114fe2a94e7ddc0b9860",
+                    "sha": "ece36ca00bde2a4c2244d8bd5312560a42ac1646",
                     "description": "Terminology "
                 },
                 {
                     "page": 52,
-                    "sha": "fe2caa08e9fcb7a37bf453c930fbc00aa83389cd",
+                    "sha": "a37a3c4203fadf6355cee9daf273beb6db537e9d",
                     "description": "Terminology "
                 },
                 {
                     "page": 53,
-                    "sha": "e951fa88743ed5ac77006d1f3ba329479dfa46a5",
+                    "sha": "5dd96acada6f0bdfa8bcf236c9bfcef5b2e5b0b2",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 54,
-                    "sha": "28835b7976533cee9cb545f15816969acf47e370",
+                    "sha": "0691147ff5edb1c6f3aee857ca9c241f5513ee91",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 55,
-                    "sha": "846e727a0520544cda4c168352f73d2652bfacec",
+                    "sha": "61a5256368a7a77de90557f865a456d64f68891d",
                     "description": "Terminology Definition 7 (Information Retrieval)"
                 },
                 {
                     "page": 56,
-                    "sha": "76a641a23e4ae4838d86d6244be7cc86f721a9e7",
+                    "sha": "87b0e72324345344cebb7dabb26baae5b1297a7f",
                     "description": "Remarks:"
                 },
                 {
                     "page": 57,
-                    "sha": "f4372d2ed95431d5d2fac0b400ef784da3370e50",
+                    "sha": "9a57df3ac5c2aee2db1b299feb57ae06944362cc",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 58,
-                    "sha": "9693cff89ae0685df6c660cbaab03576c2a9d455",
+                    "sha": "e34f804b4866adafb24f41735b10ed9ef2e17f0c",
                     "description": "Delineation Databases, Data Retrieval"
                 },
                 {
                     "page": 59,
-                    "sha": "ab2de282ff35cbddf3f09bcc9d5f70fa618cad23",
+                    "sha": "4ed3be9fbea3196985a4c612e4f884907353a29b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 60,
-                    "sha": "502ffa9887e0217336fad6b02bbaba2fe2fe88de",
+                    "sha": "d74b2963a4255926243845bacf98a7c43d136e53",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 61,
-                    "sha": "8b2056330765ea812a16dc2946c2eda8688d63e2",
+                    "sha": "2b067587a257f853ac6b75ce7ca4eef57cfd0685",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 62,
-                    "sha": "b47d4720c3623cee33ddffa677970ce86affbeed",
+                    "sha": "37b3ea5708b47ffb9b4d38c8b5639db3dd046163",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 63,
-                    "sha": "12c5af2b14c7b84609a4c6247b554e8608d1bde5",
+                    "sha": "a203877ddb4efe1347cb68e0bc0fda5a1c590772",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 64,
-                    "sha": "f46023bf5497988ddd2b638e4ae3e48f358fd542",
+                    "sha": "e0971fbfe682932358014e46a10ae1ed9fd2b8e3",
                     "description": "Delineation Semiotics"
                 },
                 {
                     "page": 65,
-                    "sha": "26fe23a5790bb29356d7e26c77ff8c0cf1da92a6",
+                    "sha": "56f2a44b9ab3051514a051b06e3eb273894e802b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 66,
-                    "sha": "c2adb0b1730703d802f976c5559553ebc2e8641c",
+                    "sha": "385ed6adccce50a42aa57c921174543fb1f8b2e3",
                     "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 67,
-                    "sha": "472206ba34666f3e9f6391fe3b62eee88989f87e",
+                    "sha": "0f4a59e72b49914d9feaf8b771a439566c2c692f",
                     "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 68,
-                    "sha": "c6e11c47b12b8e016fbfb98754ec7265aeb30d4e",
+                    "sha": "a5ed26960b783017856146b612a9111050c927e4",
                     "description": "Delineation Machine Learning, Data Mining"
                 },
                 {
                     "page": 69,
-                    "sha": "4fdb40c71509feb9a53a8fe37a000347a4a10bf4",
+                    "sha": "896e4039d597706ef10454e3e7340e42ff33248f",
                     "description": "Delineation Retrieval"
                 },
                 {
                     "page": 70,
-                    "sha": "7b8135e660c75581d7d7ad5fdac096a168ba8679",
+                    "sha": "2350d98bc875888ba2198125ad1965d4175c9b3f",
                     "description": "Chapter IR:I I. Introduction"
                 },
                 {
                     "page": 71,
-                    "sha": "350252e7f1717570efa311a5ef6fd27c8445c03e",
+                    "sha": "c23bf83fd05ddcbd64666268741ec4397302c67e",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 72,
-                    "sha": "b596de388d49112df32401132e1ad74efc3c24db",
+                    "sha": "db7b7afc41b46802a0f96dbbbd36af7fe33557ac",
                     "description": "Remarks:"
                 },
                 {
                     "page": 73,
-                    "sha": "c6b9f945ab8a77a2f63805bce3e1e20ec426ac8e",
+                    "sha": "30d2608d67d36da6fe88a19af33822c92721884b",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 74,
-                    "sha": "2ba26215ee079d390ffe1136efd5cabc28aaadaf",
+                    "sha": "d88aec9140350108106458897311e8f0c7f88a19",
                     "description": "Historical Background Manual Retrieval"
                 },
                 {
                     "page": 75,
-                    "sha": "160ee09dd7b4baf91466da60767f7322ae0c51e9",
+                    "sha": "28607a1a3b4581f244008cf969a15496212ee6a1",
                     "description": "Remarks:"
                 },
                 {
                     "page": 76,
-                    "sha": "938bc07ecf0a3fb2c387ff698344d6c73be45a5d",
+                    "sha": "cabebb41842a420c2de296e3a9be23b67233bdee",
                     "description": "Historical Background Mechanical Retrieval"
                 },
                 {
                     "page": 77,
-                    "sha": "1ca228f942527f6ee3f46864ed95893f08618855",
+                    "sha": "5d22688cc1648246eff639f9f754f4776707d095",
                     "description": "Historical Background Mechanical Retrieval"
                 },
                 {
                     "page": 78,
-                    "sha": "3f9910231811a93724de9242dc29aa31869b9899",
+                    "sha": "c7fb54404b4441ff5d57daa41e5229ff0236685d",
                     "description": "Historical Background Computerized Retrieval"
                 },
                 {
                     "page": 79,
-                    "sha": "e642f47856f180c9c421d699e21fef3624b2e09b",
+                    "sha": "19cb3cbe8b419a59e107f1c9c416a91157b0ebae",
                     "description": "Historical Background Computerized Retrieval"
                 },
                 {
                     "page": 80,
-                    "sha": "aea713b651dad84443e02a7dc592babcfe66a209",
+                    "sha": "ac963d5f080b09308dc634b0553e3fb766f3ee97",
                     "description": "Remarks:"
                 },
                 {
                     "page": 81,
-                    "sha": "58847665a17f0bfb18cd966024e5d454dd0728a4",
+                    "sha": "3f3d01525f7dcd07bfe7dac31a242673af40607b",
                     "description": "Historical Background Information Retrieval (1950s)"
                 },
                 {
                     "page": 82,
-                    "sha": "dc25482024f76fa69b30cf03430f56f1d814365c",
+                    "sha": "0deb0adda12ffe331d801aab1aa42fb5c3ea882c",
                     "description": "Historical Background Information Retrieval (1960s)"
                 },
                 {
                     "page": 83,
-                    "sha": "134f1b506c0c5692d7dab7ba43a1fd516deab03a",
+                    "sha": "b774577bd269520159d529984e3bf45c5763e0a5",
                     "description": "Remarks:"
                 },
                 {
                     "page": 84,
-                    "sha": "f908897f74af3a360263cc1a512c69b39138d30f",
+                    "sha": "b429f46b564dcae14384c03e5967d206c499092f",
                     "description": "Historical Background Information Retrieval (1970s)"
                 },
                 {
                     "page": 85,
-                    "sha": "e47815d3e1d79bdb3bd9695d29eba94fad7fe913",
-                    "description": "Historical Background Information Retrieval (1980s - mid-1990s)"
+                    "sha": "71617f278a8bc06efe74d21f69df164abee58985",
+                    "description": "Historical Background Information Retrieval (1980s \u2013 mid-1990s)"
                 },
                 {
                     "page": 86,
-                    "sha": "5f7b4792999132cef12bd98e9ca4d0c0f4faa21c",
-                    "description": "Historical Background Information Retrieval (mid-1990s - 2000s)"
+                    "sha": "b8f02346358a44e5b7155cccf50fa5b961a63d2a",
+                    "description": "Historical Background Information Retrieval (mid-1990s \u2013 2000s)"
                 },
                 {
                     "page": 87,
-                    "sha": "544a8e72a758f4a28164eaed54d0b34ab806a229",
+                    "sha": "029db83352700ab3fb002d038c07b93d2b5a4844",
                     "description": "Historical Background Information Retrieval (today)"
                 },
                 {
                     "page": 88,
-                    "sha": "2dad34f7f8d26f888b2debce3073688008de88f3",
+                    "sha": "e322997a9ad19e47a147235aea383feccbc186bf",
                     "description": "Historical Background Information Retrieval (today)"
                 },
                 {
                     "page": 89,
-                    "sha": "5bf9cf3e7bf834631e6622245146dda8f44c80c3",
+                    "sha": "7cce7a1ae5615edac11444f926a36a6ccdd0f856",
                     "description": "Historical Background Information Retrieval (today)"
                 },
                 {
                     "page": 90,
-                    "sha": "591456867f47b12b8b8ceaa232938515171dae55",
+                    "sha": "fb223c3d76b4672f0a008a583be2e7e289ca3e41",
                     "description": "Historical Background Information Retrieval (today)"
                 }
             ]
         },
         "unit-en-ir-architecture": {
-            "sha": "8027f52c0d587d2b5bdcebaad992de61efa11c04",
-            "numpages": 68,
+            "sha": "6c513c74440e33c7e480078895e0cf26c9664e0e",
+            "numpages": 70,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "91c5629e56ad5d4a47e5e8ab5d0f8ec8a9c7ac54",
+                    "sha": "f3874b875cce05ef31dbcd136faee572187106be",
                     "description": "Chapter IR:II II. Architecture of a Search Engine"
                 },
                 {
                     "page": 2,
-                    "sha": "1169e4d16b625d235df813676cd6ec62649b2767",
+                    "sha": "b1b97b973d5c92e5dedf1ca8741dd716217d58a8",
                     "description": "Remarks:"
                 },
                 {
                     "page": 3,
-                    "sha": "af6281b0658b0e91bd632da4ac6de5058d9f83e8",
+                    "sha": "9cf3b0ddd555637efca849a05d70f45848ec9757",
                     "description": "IR:II-102 "
                 },
                 {
                     "page": 4,
-                    "sha": "0b495f5ce20f0c0e097dec06a9cebbdb7d6e5ce9",
+                    "sha": "e2080272f4a6d2ae037a652c25d6b9a8806113fe",
                     "description": "? "
                 },
                 {
                     "page": 5,
-                    "sha": "5887ba78b7c4dfa73b96e9d332b94827fa94c696",
+                    "sha": "60ce9d7949a87a5d2380be470eed488dd8378c3a",
                     "description": "Indexing Process "
                 },
                 {
                     "page": 6,
-                    "sha": "0de7cfcf702bb9843450b1b5f41291da616e82ca",
+                    "sha": "c112ecd16a5b6fca66a245383cdd0cea5f3a0ba0",
                     "description": "Acquisition conversion to"
                 },
                 {
                     "page": 7,
-                    "sha": "9ba8fd1d09ce207e75ea0dd0ae1e2fe30f2640a7",
+                    "sha": "95e0e9b9d7b7efd9c87b5e26645d8f88bd5dac51",
                     "description": "Acquisition In the acquisition step, documents are collected, prepared, and stored."
                 },
                 {
                     "page": 8,
-                    "sha": "4de3d50e90f204f28eed6813d93f298a928ffe85",
+                    "sha": "9facd7034bed8307c1f8afb3e01e3580bea58f92",
                     "description": "Acquisition Crawler"
                 },
                 {
                     "page": 9,
-                    "sha": "57ee31625b4a71e90116d3e0023d86a69e9e0ac0",
+                    "sha": "f28f297982413981ef3a648e9fe50a0746abe97f",
                     "description": "Acquisition Crawler"
                 },
                 {
                     "page": 10,
-                    "sha": "4301f17d003cfba3a03b0c6309ab7e95819ec0e2",
+                    "sha": "d0de5afb43036bdf73b3106f37fc991b7058f669",
                     "description": "Remarks:"
                 },
                 {
                     "page": 11,
-                    "sha": "ee7d12c2852c0598da96aa5b3c4114c21b0be013",
+                    "sha": "ec8dabe31af00e6092261e5ac3f8465eee818f50",
                     "description": "Acquisition Converter"
                 },
                 {
                     "page": 12,
-                    "sha": "361e6ad18137f52898efbd4ba3684c628e5478e7",
+                    "sha": "8c91e459ad7111eb657477eb3ab8afc17b1bc213",
                     "description": "Acquisition Document Store"
                 },
                 {
                     "page": 13,
-                    "sha": "e0b9bfd165e44a5cd0cee38ae265d3805dc2f89f",
+                    "sha": "6434faf7ad2f5ead0dfb28a9c686d1756182bf1b",
                     "description": "Acquisition Document Store"
                 },
                 {
                     "page": 14,
-                    "sha": "a063d7c9d53b4bd12f45ecba72b08991e5fa7c00",
+                    "sha": "5baed2b61aab4cd0dcb196c131c97b3149bbaf1f",
                     "description": "Acquisition conversion to"
                 },
                 {
                     "page": 15,
-                    "sha": "0ada6a0eea33abaf1db08068c8a2710d30aa7bcb",
+                    "sha": "f0e151493f6c060932230a6a86881e5d8a4061dd",
                     "description": "Text analysis "
                 },
                 {
                     "page": 16,
-                    "sha": "6847de96dfefac6129912826751b36d9ad117655",
+                    "sha": "106d5ffc1b71a09360076a89a08546258e1e1898",
                     "description": "Text Analysis The text analysis step extracts from a document\u2019s text the keys by which it can be"
                 },
                 {
                     "page": 17,
-                    "sha": "33dff7441274f17488b07934233ae608e38307a3",
+                    "sha": "931b09a0581280c3539132762c3451a5045b08e3",
                     "description": "Text Analysis The text analysis step extracts from a document\u2019s text the keys by which it can be"
                 },
                 {
                     "page": 18,
-                    "sha": "647853788e78bd80c952309a7170bfc8f35b0460",
+                    "sha": "477d5d861f057a672a52470d15f1bca90f79fde0",
                     "description": "Text Analysis Segmenter"
                 },
                 {
                     "page": 19,
-                    "sha": "420cd7f2e34277ced59742a8426c2fe6f7233b32",
+                    "sha": "23e60e6ce786d76832cd82ee35fa76e042b35fd3",
                     "description": "Text Analysis Segmenter"
                 },
                 {
                     "page": 20,
-                    "sha": "3aacb4b404952e3e1a4d857f2da2aebfbd38e2ae",
+                    "sha": "c0c1878bbc74a5fa3160b0133cef2d393333f625",
                     "description": "Text Analysis Stopping"
                 },
                 {
                     "page": 21,
-                    "sha": "6ca4672df1ecdf862fc3d2b9afaa6b0ab3e005fe",
+                    "sha": "07be46f6f8578fc0279eb1d1c35af3970b06c4da",
                     "description": "Text Analysis Stemming \\u002f Lemmatization"
                 },
                 {
                     "page": 22,
-                    "sha": "933293cf45551b2297820d58d8d47a637f21c1ee",
+                    "sha": "b5420651f4153e5ef628829b4094a81b5c4ca8c8",
                     "description": "Text Analysis Stemming \\u002f Lemmatization"
                 },
                 {
                     "page": 23,
-                    "sha": "1fcb0fb0b1e443e6b19642b551081355c9405f86",
+                    "sha": "6160aca570b0575c8fd00cc970ca003d026156e0",
                     "description": "Text Analysis Link Extraction"
                 },
                 {
                     "page": 24,
-                    "sha": "8743522a1626bdf609bb8d0cbc8b844c7780da24",
+                    "sha": "c268e487df91822fa8463f71aaea89c6c39eea79",
                     "description": "Text Analysis Information Extraction"
                 },
                 {
                     "page": 25,
-                    "sha": "43eb8c62c38c4a2217d1cc0622cde91bd7a558e0",
+                    "sha": "1945d631cb2cfcf541010bc3ba0162b77df0811b",
                     "description": "Text Analysis Classification"
                 },
                 {
                     "page": 26,
-                    "sha": "869ea729717011c4adcd0ebc342f26fb0c75c46c",
+                    "sha": "65e210b1071d1a3ff8be04c066ed4e9984742546",
                     "description": "Text analysis "
                 },
                 {
                     "page": 27,
-                    "sha": "96e74981d2cbb8262cc2e9dc486c1269fa99cd80",
+                    "sha": "d14cae3dfb308fa67e7fffdea0bacfc7fb951df7",
                     "description": "Text analysis "
                 },
                 {
                     "page": 28,
-                    "sha": "2affe92e5ffd00bc762f05530af3e875e3792950",
+                    "sha": "e9ad66815145583883db2e8b8005e711978f8946",
                     "description": "Indexing The indexing step creates the index data structures required for fast retrieval from"
                 },
                 {
                     "page": 29,
-                    "sha": "f20964b7b225217ae34207d53e5a2c14103623e7",
-                    "description": "Indexing Document Statistics"
-                },
-                {
-                    "page": 30,
-                    "sha": "4f39fcf7d55b86a494f5177b1de32307710f3290",
+                    "sha": "fc9026a5bb7803156c43b08fcb2b9b808c121589",
                     "description": "Indexing Term Weighting"
                 },
                 {
-                    "page": 31,
-                    "sha": "13524ffa02721fc6d50180a2577df1abfda3be62",
+                    "page": 30,
+                    "sha": "053361b3c2adffcf73ea64064edbef2edf1ef902",
                     "description": "Indexing Index Construction"
                 },
                 {
+                    "page": 31,
+                    "sha": "9078aeae5669eddb23b9ddad8a0a316cf9f117ce",
+                    "description": "Indexing Distribution"
+                },
+                {
                     "page": 32,
-                    "sha": "73440c3619c0cc10b6918ba9b95671b81bbf2130",
+                    "sha": "ed90ade69962474a2cbfa269089c28bc786e342e",
                     "description": "Indexing Distribution"
                 },
                 {
                     "page": 33,
-                    "sha": "79e47797e84ed602d2e45fb0a8740671445440bd",
-                    "description": "Indexing Distribution"
+                    "sha": "7840301bc0cf198e729db950d9fae2eecdd0f230",
+                    "description": "Indexing Document Statistics"
                 },
                 {
                     "page": 34,
-                    "sha": "b9e4c020df66b308461e7dfec0f7056f683f336f",
+                    "sha": "ed44981932927b392ae548170131f4cbb60e1411",
                     "description": "Chapter IR:II II. Architecture of a Search Engine"
                 },
                 {
                     "page": 35,
-                    "sha": "8fe908d813a88b6c007c727ef7adac8f17c638ca",
+                    "sha": "55d82dffba2ed235f77838eec0ccc6b6b656a33e",
                     "description": "Text analysis "
                 },
                 {
                     "page": 36,
-                    "sha": "d462fcdedcea03338f018faad546e439f09fb22a",
+                    "sha": "9f6db6fdc98843b8fd0e906aa7157fed746f0f4f",
                     "description": "Text analysis "
                 },
                 {
                     "page": 37,
-                    "sha": "ff973e44d2a6511a04e4f2293743d2cc2a141506",
+                    "sha": "fc95acf99da65af60330b0136f4c49c8b83210b8",
                     "description": "Text analysis "
                 },
                 {
                     "page": 38,
-                    "sha": "747cfa6cae2a685f580ef0c27e4b9998f974e3cc",
-                    "description": "User Interface A search engine\u2019s user interface enables user interaction with the system. They are"
+                    "sha": "702d2c6d4e8e0533bbad2bae72d392ee935a088b",
+                    "description": "User Interface A search engine\u2019s user interface enables user interaction with the system. Different"
                 },
                 {
                     "page": 39,
-                    "sha": "6076cd63a42ae8b31d9d3ee99ad5a884b2a46611",
-                    "description": "User Interface A search engine\u2019s user interface enables user interaction with the system. They are"
+                    "sha": "2dda72801a1a4cdd4bcddc59d45c67ac94afd5fb",
+                    "description": "User Interface A search engine\u2019s user interface enables user interaction with the system. Different"
                 },
                 {
                     "page": 40,
-                    "sha": "ab0796fdb82bcd0a9af803ce761b45bc646e8db0",
-                    "description": "User Interface A search engine\u2019s user interface enables user interaction with the system. They are"
+                    "sha": "213e19467a1ee30b3617f554bed85ce46895a87a",
+                    "description": "User Interface A search engine\u2019s user interface enables user interaction with the system. Different"
                 },
                 {
                     "page": 41,
-                    "sha": "bf2d10611b6b563aded0fd5cf6651893e606c60d",
+                    "sha": "5c8f67f868f995ce0c406ee3db4e5e3b2b8097a3",
                     "description": "User Interface Query Language"
                 },
                 {
                     "page": 42,
-                    "sha": "92ad5148b24f25c4e1557e60ba5e88aebcce5b69",
+                    "sha": "0d4b0242975fb451db57bcabcc7472161bee8548",
                     "description": "User Interface Query Language"
                 },
                 {
                     "page": 43,
-                    "sha": "f330a3fd885684b5ecc10d6fdc24abb9c955c88b",
+                    "sha": "f33161fe0f163f25566e8525505216c3b9c5e654",
                     "description": "User Interface Result Presentation"
                 },
                 {
                     "page": 44,
-                    "sha": "2935f50030c7c8f999db919a8652e52fb55561d7",
+                    "sha": "4a1f5785bd0db1a7e71ea6a2156bfea6f516cc59",
                     "description": "Text analysis "
                 },
                 {
                     "page": 45,
-                    "sha": "bd98f29137a548c8050fd54bda5e8e6f51f05065",
+                    "sha": "f4b1b3228f91b128cfa578ba6c96f784b1439436",
                     "description": "Text analysis "
                 },
                 {
                     "page": 46,
-                    "sha": "62db41828e00f24120d4372b43f2565a040429a7",
+                    "sha": "3b985d63e660c6dac0caf669797e31b327ce2c4e",
                     "description": "Text analysis "
                 },
                 {
                     "page": 47,
-                    "sha": "ba4ac2a05dd536add5365803ed29669cff7a0689",
-                    "description": "Query Analysis and Synthesis Text Analysis"
+                    "sha": "c35b2ef096dfffd624b949e11f4f23c87fca1b0a",
+                    "description": "User Interface Query analysis (query understanding) maps a query\u2019s keywords to index terms to"
                 },
                 {
                     "page": 48,
-                    "sha": "c389dae8b50d9c6e6fb0ef7857683a01c012be22",
-                    "description": "Query Analysis and Synthesis Logging"
+                    "sha": "fbe46729e594ccc60ec4495516ecad432e858740",
+                    "description": "Query Analysis and Synthesis Text Analysis"
                 },
                 {
                     "page": 49,
-                    "sha": "67b6fb60e5b98b6570b931459748e02ff33ab390",
-                    "description": "Remarks:"
+                    "sha": "f2ca2e7df1dd69ae011d25feb1fd50d36f9ac9ea",
+                    "description": "Query Analysis and Synthesis Logging"
                 },
                 {
                     "page": 50,
-                    "sha": "5bc97bf8d00e27eb72808429b0aee763695d3629",
-                    "description": "Query Analysis and Synthesis Query Rewriting"
+                    "sha": "28ec14cb8e6de08ba528c9f63d0e2e3ecff64232",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 51,
-                    "sha": "a5785959d9bd1ac5235da09273d9e28d6f0e6489",
+                    "sha": "db7542f28599b312b73cdda24f08107d6957b039",
                     "description": "Query Analysis and Synthesis Query Rewriting"
                 },
                 {
                     "page": 52,
-                    "sha": "3dc6586207963f5c35c90bb6dbd6d19648388e10",
-                    "description": "Query Analysis and Synthesis Query Expansion"
+                    "sha": "1aad2ac471fff461a7040839495320d117bb3dfb",
+                    "description": "Query Analysis and Synthesis Query Rewriting"
                 },
                 {
                     "page": 53,
-                    "sha": "94167b446c6d57f3ed593d4732276c78e5176c97",
-                    "description": "Query Analysis and Synthesis Query Expansion: Relevance Feedback"
+                    "sha": "c83159e208aa80bcc23a2a3e31de0bcb01cc0d4b",
+                    "description": "Query Analysis and Synthesis Query Expansion"
                 },
                 {
                     "page": 54,
-                    "sha": "6f9a4ce0d3a5e90f8487641c55f649c826747d71",
-                    "description": "Query Analysis and Synthesis Query Expansion: Relevance Feedback"
+                    "sha": "91f90fdbcb8b4dff96dffc0150d6289e94dbb08c",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 55,
-                    "sha": "ef03142b9c5c4dfaeaa1877edffb403eaafb90ba",
-                    "description": "Text analysis "
+                    "sha": "836547a00c4211004cdb10edfc6940166336d9d0",
+                    "description": "Query Analysis and Synthesis Query Expansion: Relevance Feedback"
                 },
                 {
                     "page": 56,
-                    "sha": "711ce38926b6c81a21751067931caa2bd5a2d2fc",
-                    "description": "Text analysis "
+                    "sha": "10765abe407b583ee184fa6f7315d6827d1777ae",
+                    "description": "Query Analysis and Synthesis Query Expansion: Relevance Feedback"
                 },
                 {
                     "page": 57,
-                    "sha": "3421883322bb469b66248826c85483d1efba88a8",
-                    "description": "Retrieval Given a query representation, the ranking step scores and orders the documents"
+                    "sha": "3d3ebb2147a85bdcd89734a7db98e083c0e110fe",
+                    "description": "Text analysis "
                 },
                 {
                     "page": 58,
-                    "sha": "29136f7fcee0d9b2f2dcb3e968cf53365a5e1718",
-                    "description": "Retrieval Document Scoring"
+                    "sha": "51fdfef22c1d357ad1e831f1981c04a4696415d3",
+                    "description": "Text analysis "
                 },
                 {
                     "page": 59,
-                    "sha": "4f7a3c33614fd5dc1f079589b5dc48a07d46ef91",
-                    "description": "Retrieval Document Scoring"
+                    "sha": "0d4944d08f1987add256ef7056801050e9da1f17",
+                    "description": "Retrieval Given a query representation, the ranking step scores and orders the documents"
                 },
                 {
                     "page": 60,
-                    "sha": "129670ed108a3eff1bcc556907390fdd528b0662",
+                    "sha": "d44161cdcaef5fc6955774718184a73c7f8c1769",
                     "description": "Retrieval Document Scoring"
                 },
                 {
                     "page": 61,
-                    "sha": "d4003223d9241719c5042a512a2c7504a5ff044c",
+                    "sha": "8a2bf575bd53359f040ac56ee7def6ece922dbca",
                     "description": "Retrieval Document Scoring"
                 },
                 {
                     "page": 62,
-                    "sha": "d287abf61a66c1577355208d56fcc24365c75894",
-                    "description": "Retrieval Distribution"
+                    "sha": "20f7c5484b0e3e44e615ceba1485da26ecdc32df",
+                    "description": "Retrieval Document Scoring"
                 },
                 {
                     "page": 63,
-                    "sha": "8dd756b1e1cb0788898f757599409301687833f7",
-                    "description": "Chapter IR:II II. Architecture of a Search Engine"
+                    "sha": "972b9b76108f46e2fced3aeae40b079f9d3e106b",
+                    "description": "Retrieval Document Scoring"
                 },
                 {
                     "page": 64,
-                    "sha": "bf2a00de1a8a61c676b62931866f2a46c0495c34",
-                    "description": "Text analysis "
+                    "sha": "6eaa291cb69dc60b2dbb1754295c8019fd68f340",
+                    "description": "Retrieval Distribution"
                 },
                 {
                     "page": 65,
-                    "sha": "7ae74f2f7f620ec9b3ab5525dbbca07b99af2381",
-                    "description": "Text analysis "
+                    "sha": "77026a1cc2b17d0130b050b8b357cd664a609f0f",
+                    "description": "Chapter IR:II II. Architecture of a Search Engine"
                 },
                 {
                     "page": 66,
-                    "sha": "cde0142db0ad3304af88632e0323d1d89c5c7d9d",
-                    "description": "Evaluation Overview"
+                    "sha": "efd15082f0f251c7a7aea4ca6f54588fffb3f5d5",
+                    "description": "Text analysis "
                 },
                 {
                     "page": 67,
-                    "sha": "76cb30d6ba4bfb4186f0ed7424d43ff676583f38",
-                    "description": "Remarks:"
+                    "sha": "60ad2491b6ee097a9b76369dd7c460020e30ad96",
+                    "description": "Text analysis "
                 },
                 {
                     "page": 68,
-                    "sha": "2d4cc066750124bd493641649e61c9baad31eaaa",
+                    "sha": "9ba532e061916cce0690c24211cb9d50e2772f42",
+                    "description": "Evaluation Overview"
+                },
+                {
+                    "page": 69,
+                    "sha": "0ae8d5391ebb7e16f7876c1376b1c5e2617d8d9b",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 70,
+                    "sha": "e592cd521f55a29b20a171becb89451a73f96560",
                     "description": "Architecture of a Search Engine Text analysis"
                 }
             ]
         },
         "unit-en-ir-architecture-karaoke": {
-            "sha": "56e448efe3f750b78d6357885d5c3ab0cc141a0a",
+            "sha": "61a80f0872fdfd64b97c90c4cf58c33fa2355290",
             "numpages": 12,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "6579424ea838587abbfbd6da67e7ee8db3b58364",
+                    "sha": "1d678b1816b0bd081cb965fc6df5ec8f73de9c42",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 2,
-                    "sha": "e6955c3449c5f0c4ba1fd5049c2610ec77b2f94e",
+                    "sha": "369f65cdc62cae64e15204220495e79f7cd542c2",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 3,
-                    "sha": "468600c556feb73f5862aff3f17ff11101c0570b",
+                    "sha": "3d7c0dfbaeb3c71480bbfa4123497517f2d89c49",
                     "description": "Architecture of a Search Engine (Karaoke Version) "
                 },
                 {
                     "page": 4,
-                    "sha": "42dbde4de2bb6e03c89c6a4b4f7374f457bc3f37",
+                    "sha": "28e0383aa31bea3297bb0439f45028c7f2c8a186",
                     "description": "Architecture of a Search Engine (Karaoke Version) Acquisition"
                 },
                 {
                     "page": 5,
-                    "sha": "76c16f19680bbd3e42fe45af50bcd5fb4b9c0283",
+                    "sha": "ede116e5471d32b1948f50c8cd1ff201c1018e44",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 6,
-                    "sha": "12a3f729bfefc91a2ca5837bed36acda016928ee",
+                    "sha": "37201a6a7b3c4d0fe458344cc6d304e2f428b376",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 7,
-                    "sha": "2090a74e99771b29b0983f3d55be0be0dfea69ce",
+                    "sha": "c94edfd5eba60acd2f9e60c0d8fb009b11694b7b",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 8,
-                    "sha": "9afae2250075f5ec2d103a82c081cb1c097682b6",
+                    "sha": "32cbde5ce6c35ad804dbd3739838906ffa7c4b61",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 9,
-                    "sha": "22ccd95f8e45149aeef9d7aed30fb7dae566d0ce",
+                    "sha": "f85c755b1b1b1b4c18ee5156f4db06cea59b51fc",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 10,
-                    "sha": "d236a2c00b5db21c8df71a4c14800251a5fbddd7",
+                    "sha": "7c74c6530499a2e99e8dea825f6510d0a10199f4",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 11,
-                    "sha": "0ddbc3f75bfbfb50d1c5f09804f3be067d033bda",
+                    "sha": "3b9251f745e1109afd9e064ebf11d54c6e5325f6",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 },
                 {
                     "page": 12,
-                    "sha": "01855b2624b2db0ecaea5dcb2d29ece51e533181",
+                    "sha": "323ed3d92b961575724c76cb7aa476825d68f089",
                     "description": "Architecture of a Search Engine (Karaoke Version) Text analysis"
                 }
             ]
@@ -31369,193 +31379,203 @@
             ]
         },
         "unit-en-retrieval-models": {
-            "sha": "12566ae8b9c7c4360f06123ee48f3afae2955f70",
+            "sha": "56a41996fd3de5f29b9a6105d3b9c7b45bb91404",
             "numpages": 11,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "42e14c99fdbcca9cc5e587813769c5025adba40e",
+                    "sha": "d8e52014dce7221da7b9bccb74213a9b1fed6a29",
                     "description": "Chapter IR:IV IV. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "456844ddb692477176336fd5ad4d4ebdf4368f9f",
+                    "sha": "5579142658703401deabd9fc9c6fb020641bd939",
                     "description": "Overview of Retrieval Models Document Views"
                 },
                 {
                     "page": 3,
-                    "sha": "6828ba5ed91bd6039267c7d3ffa901ebbd7b47eb",
+                    "sha": "5d03978b35e94bf0755cbc459d386235e08a054d",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 4,
-                    "sha": "2de26790723d15d0bd492c2fee6c3e420f7030b2",
+                    "sha": "86f07564e69b8b9a950c00a6971c2817b5b3855e",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 5,
-                    "sha": "7500cdcdf9e0b3ae81972498aab0224b3ad1f88e",
+                    "sha": "0bb4c7d505108763fa7f1e5d64a70264faf2c6a3",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 6,
-                    "sha": "b577ae4ed74b86a4dc216194eeadf99a20782a4d",
+                    "sha": "b26d1d7a629b01c68f90e1f21641d9e8c80e2162",
                     "description": "Overview of Retrieval Models Retrieval Models"
                 },
                 {
                     "page": 7,
-                    "sha": "1ae255041c6fb72e4cc33b0f5926469c09bda792",
+                    "sha": "97bb18b00ce6b8e36ff250d7d5df2425aa48843c",
                     "description": "Overview of Retrieval Models Definition 1 (Retrieval Model, Relevance Function)"
                 },
                 {
                     "page": 8,
-                    "sha": "801f2f9464900104ff21347fe86507cbc9dc0c80",
+                    "sha": "d6b3e3071e26dc32225c58004797e6bf8798e480",
                     "description": "Overview of Retrieval Models Definition 1 (Retrieval Model, Relevance Function)"
                 },
                 {
                     "page": 9,
-                    "sha": "ff31f0c31d2b9e2640d70f91dc55e3aa89f4cf6c",
+                    "sha": "6e798432fb24d31fc70a09c80a583afdf784a2ca",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "2bb8bfa337358e0aa039a2aeb15f1087d244e56b",
+                    "sha": "680916c8c892cd071b9825738f8db1842d25fb2a",
                     "description": "Overview of Retrieval Models History of Retrieval Models"
                 },
                 {
                     "page": 11,
-                    "sha": "d0c5fe7efb7a496bb29623dc0b8a1b6ef0bd52a6",
+                    "sha": "3e46a475d9d5e94a721905beb196d53fa66e7e82",
                     "description": "Overview of Retrieval Models Document Modeling"
                 }
             ]
         },
         "unit-en-rm-empirical": {
-            "sha": "85d2a1177a7be076b5a2cee3ad5e9321bc562c2e",
-            "numpages": 25,
+            "sha": "be8f08f791875d1ab0c9ba880d9e4d520457033a",
+            "numpages": 27,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "a6325ed114395ce707edddcb990f7f2d8a2a0b08",
+                    "sha": "5390cbf485a544f62f9579c2661b4f9c329e53fe",
                     "description": "Chapter IR:IV IV. Retrieval Models"
                 },
                 {
                     "page": 2,
-                    "sha": "231d5251b123e3898f434df9c0be84345892a94f",
+                    "sha": "eb1d17850fef92380de2864abffd7d8a338ca58a",
                     "description": "Empirical Models "
                 },
                 {
                     "page": 3,
-                    "sha": "33839629d6c813a3e7288b9a0ba211f35de44baf",
+                    "sha": "eef6c30198fe063fd46f5bbbd260006ca09ad1bf",
                     "description": "Boolean Retrieval Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 4,
-                    "sha": "738ceaa61b269244f2bd5fa8f2fff32dbe8c6ccd",
+                    "sha": "41cb4a396ba35b08b9b4e0f77d7c762a42922338",
                     "description": "Boolean Retrieval Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 5,
-                    "sha": "22c7662695e87d9209fd2fc0a9cb4963ba39a4be",
+                    "sha": "7dc937c60ba485f6c8df1148f8c95f6c8e4ac970",
                     "description": "Boolean Retrieval Relevance Function \u03c1"
                 },
                 {
                     "page": 6,
-                    "sha": "44fa4384570fdb4770913d4f1d947c553812f42f",
+                    "sha": "ddbf797a910c3e1c670f372f2ac8f943b03343b4",
                     "description": "Boolean Retrieval Relevance Function \u03c1"
                 },
                 {
                     "page": 7,
-                    "sha": "07447c42fa12bfa151f03ce1462d8a73cb0636f6",
+                    "sha": "395445272decd2b51409a468e7678d3caf100d5d",
                     "description": "Boolean Retrieval Example"
                 },
                 {
                     "page": 8,
-                    "sha": "0ab07296dd2137c7c7cfd4f174ca7e2f3c9a578b",
+                    "sha": "8d5a07f7d8cb6e0dec3a54d2a84e650144526cbe",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "b056f816b4ca8d6337fc7a1b0fd1baa3f5019983",
+                    "sha": "1d3bdc72b9dd23db6d7b9122e313fced457458f8",
                     "description": "Boolean Retrieval Query Refinement: \u201cSearching by Numbers\u201d"
                 },
                 {
                     "page": 10,
-                    "sha": "48da9d0b02a6c6c6abe26052e59ccf7e8c93e2a8",
+                    "sha": "3c2c28c3b730de95a4d044b2ec7212fe54f1294d",
                     "description": "Boolean Retrieval Query Refinement: \u201cSearching by Numbers\u201d"
                 },
                 {
                     "page": 11,
-                    "sha": "7d402d2b222b93798f12dba373cd482d0b1ea94d",
+                    "sha": "7c7e7800627719253fa24d42003bdb0dff8318b9",
                     "description": "Boolean Retrieval Discussion"
                 },
                 {
                     "page": 12,
-                    "sha": "e9002f014308b11b3207f4e7d98ac78db4821e72",
+                    "sha": "64cda2b2307256cbd3f8909cfed34181f36d808e",
                     "description": "Vector Space Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 13,
-                    "sha": "26ec3760de3ead4a64ca809c7875fb4c5f3f8e36",
+                    "sha": "7d15b764efa97f5d599a2397ca2c302ebde08016",
                     "description": "Vector Space Model Retrieval Model R = hD, Q, \u03c1i"
                 },
                 {
                     "page": 14,
-                    "sha": "1f7ac3c77ea6fe9353360d95998d04df40c887f8",
+                    "sha": "dbd4d3843015f9ae56ea76db39b9df13bd37c384",
                     "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
                 },
                 {
                     "page": 15,
-                    "sha": "8a86aa95e3577deba21a3c22ffc7c56a0a2496ae",
+                    "sha": "f0df1ef2a76b4ff6c65789b1b65f0c0fc9b1615b",
                     "description": "Vector Space Model Relevance Function \u03c1: Cosine Similarity"
                 },
                 {
                     "page": 16,
-                    "sha": "de4584c178adcb24e738fbd58a0844eebd7aa658",
+                    "sha": "b2663956901477a16c96d9c8cef01fce62a8de8e",
                     "description": "Vector Space Model Example"
                 },
                 {
                     "page": 17,
-                    "sha": "451330b4bab45b3f2be1779034faa92cb9c2285d",
-                    "description": "Vector Space Model Term Weighting: tf \u00b7idf"
+                    "sha": "8ff1f348c69c52538d18a5977d70cb20a518b518",
+                    "description": "Vector Space Model Example"
                 },
                 {
                     "page": 18,
-                    "sha": "43b66beb0c6c474e072b778960c5719a26d36922",
-                    "description": "Vector Space Model Term Weighting: tf \u00b7idf"
+                    "sha": "39688c5f29d1b278673dd258897b988dede616c0",
+                    "description": "Vector Space Model Example"
                 },
                 {
                     "page": 19,
-                    "sha": "3dc5ffbe851cd93e27411b54aa4e4a7fdd361e0e",
+                    "sha": "cff4d5b7f1a68777f7e9f70b2c0a6db296051f64",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 20,
-                    "sha": "080379c8a105e021a164b2dd0c312fde6765b424",
+                    "sha": "f3741493a3f1ebdb3986ec090dbe77e1279cad07",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 21,
-                    "sha": "869462c680b61df4c826890509f75581a76a79c9",
+                    "sha": "323e519be7bdb9ec286801f9eaa5c3d6ecdfa53f",
                     "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 22,
-                    "sha": "b059a09394210e36c3fcf312a1e0c8bf832f0578",
-                    "description": "Remarks:"
+                    "sha": "875f40c9a616477f14cb3a75f6a720f1841dedd8",
+                    "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 23,
-                    "sha": "e19d5194ca22b139eb2f4e7d043fa3f3914f958d",
-                    "description": "Vector Space Model Query Refinement: Relevance Feedback"
+                    "sha": "459b17df4c4f49dc0f4b5805bc28b1100851b551",
+                    "description": "Vector Space Model Term Weighting: tf \u00b7idf"
                 },
                 {
                     "page": 24,
-                    "sha": "ab4e76c4782d1f686313b97fe72156f291dcc7b2",
-                    "description": "Vector Space Model Query Refinement: Relevance Feedback"
+                    "sha": "a6ec3d6466efaa44bb20be823fe7eb8fcbb3d170",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 25,
-                    "sha": "4cc3866c80a5e86f5b3695ebd6d363201b3053a6",
+                    "sha": "84d821a6a2ff3d37b6741e6bf30da9b273b48171",
+                    "description": "Vector Space Model Query Refinement: Relevance Feedback"
+                },
+                {
+                    "page": 26,
+                    "sha": "98b67c3658a521a5736808c8215fa36e37a08143",
+                    "description": "Vector Space Model Query Refinement: Relevance Feedback"
+                },
+                {
+                    "page": 27,
+                    "sha": "a6202c261807e6d2a64470b41268a9743c5d5e29",
                     "description": "Vector Space Model Discussion"
                 }
             ]
@@ -32455,112 +32475,112 @@
             ]
         },
         "unit-en-laboratory-experiments": {
-            "sha": "5e862d5da94ee46e0c0ae53f8d111eaf7069d982",
+            "sha": "3f6f4b11d105cbf0d6aeedaeb680f5f9b5675def",
             "numpages": 21,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "3bd0cee0500918645ae84de175ec157f46432802",
+                    "sha": "3a77aa6b530e0bf117d61064cf81bd6c626a7161",
                     "description": "Chapter IR:VII VII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "a3f16c6428abc64f1ffddf8317dc00466d75a37b",
+                    "sha": "d78d4d9b92092545c825788a4f2470a9d66bca3f",
                     "description": "Laboratory Experiments Retrieval Types"
                 },
                 {
                     "page": 3,
-                    "sha": "a0a752c88d5690964db14aaf77bf019294fa44e1",
+                    "sha": "683456d769ead298e7241d402957ffdcbf6c8229",
                     "description": "Remarks:"
                 },
                 {
                     "page": 4,
-                    "sha": "446563dde86ab0dafcbf6676ca76cefbc95c44ab",
+                    "sha": "5ee97a9a2b09eda52b6bf4e69e825f0cdccfe13f",
                     "description": "Laboratory Experiments Experimental Setup"
                 },
                 {
                     "page": 5,
-                    "sha": "4bf4f85d9c55cae415a9b6b39d8e6d6d061cd075",
+                    "sha": "5311e1a286378426477b53a71c679ba519b2f43d",
                     "description": "Remarks:"
                 },
                 {
                     "page": 6,
-                    "sha": "b517e66039a9133cefca057406f694aebafff6e0",
+                    "sha": "4891a7e11e4f1200f697c563ad5b567cd79ed923",
                     "description": "Laboratory Experiments Experimental Setup: Document Collections \\u002f Corpora"
                 },
                 {
                     "page": 7,
-                    "sha": "f042f5cc19c9df1413fe19215a48b7a5c2b9b55c",
+                    "sha": "3b7240f6d4fce3008651bbe8322a17e3801b707e",
                     "description": "Remarks:"
                 },
                 {
                     "page": 8,
-                    "sha": "38d0c9afd057f250e801346b693986410ca6743f",
+                    "sha": "95f9c510936e987ad8898e7b54dc5bc6e9131e0e",
                     "description": "Laboratory Experiments Experimental Setup: Topics"
                 },
                 {
                     "page": 9,
-                    "sha": "ef323459197ded400f49d72b7a6bd93ff5498684",
+                    "sha": "71cd11c0f9bb1828f9c9a7c69a58d0bcf45d8576",
                     "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "ac307df8259676ac40b5688afe4472c51aa3c77d",
+                    "sha": "9b8d4f93cd92022b2bf1e62d6a9c71f90fb333d8",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 11,
-                    "sha": "5c3aed54d4968d8575d9755c48f62b97bd95c1e0",
+                    "sha": "304bd648af9d1973733723996c30339056ea56ec",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 12,
-                    "sha": "a41a1ae880a9a0eb948d41a2f37a23aad6e4c885",
+                    "sha": "b790652960a1593670a4286ba5f9962591213098",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 13,
-                    "sha": "0d0e6c597bf981a9038b4524e9f920512ae3b4d3",
+                    "sha": "c60e2df42755b0a5f28d9376f043d729db33486f",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 14,
-                    "sha": "c8befe55fd62dd44fecc041a47895b760e92439b",
+                    "sha": "432b2b83d0081f47eeb95461985570d451ff9fdf",
                     "description": "Laboratory Experiments Experimental Setup: Relevance Judgments"
                 },
                 {
                     "page": 15,
-                    "sha": "77dc1033ac2e28a3bf7383d0d036bbcae08964e1",
+                    "sha": "8371f0dd1b512879e0717c0aeb0216116ea7f2de",
                     "description": "Remarks:"
                 },
                 {
                     "page": 16,
-                    "sha": "b931ec5c02bc9b396b7f83472ee0222e970e00f1",
+                    "sha": "4dcc893b04bd4d148f081f2f0146d83087cf4271",
                     "description": "Laboratory Experiments Experimental Setup: Pooling"
                 },
                 {
                     "page": 17,
-                    "sha": "56e39343edc6372b168b2df4f073728b5eb29450",
+                    "sha": "06b7b53b5c02ccda3f9f9112bd28201b8f94430d",
                     "description": "Laboratory Experiments Assessor Reliability"
                 },
                 {
                     "page": 18,
-                    "sha": "b1cf3b23920c4d06f08833cfbfc8826feba2ae51",
+                    "sha": "b2fea0c3d15af324eb90e20918fa8aae07ec9a9b",
                     "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 19,
-                    "sha": "b53684f192a0c82051ebc629f4a5d648b3f10346",
+                    "sha": "b17460cd2fbf199f4955ba7278d63d796b125633",
                     "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 20,
-                    "sha": "69b99898cba9cfc3d5f97e9bf2b9edd9081381a9",
+                    "sha": "6732527beae5da87938f4c64c9694f3a78a79bac",
                     "description": "Laboratory Experiments Assessor Reliability: Kappa Statistics"
                 },
                 {
                     "page": 21,
-                    "sha": "0146c8410dd7a4058929118c097b495f8a5f2be8",
+                    "sha": "dde6335b8498939923467b2d5dc73b0a2be69020",
                     "description": "Remarks:"
                 }
             ]
@@ -32772,92 +32792,92 @@
             ]
         },
         "unit-en-training-and-testing": {
-            "sha": "8e6e6ddd8e83f341e13a282b3490e5098b6b84e9",
+            "sha": "45c1bc5cf9a6f44630a2fa03d874361754c18e1e",
             "numpages": 17,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "b26cace57547f112c0a41624b9a86bfc2ddab8b0",
+                    "sha": "46340bdeb6fe36aa14aeff6a1c8b1fe08be19068",
                     "description": "Chapter IR:VII VII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "ead5bbab34ae993f68d687e81e8f6971e4daeede",
+                    "sha": "e884754514f0c1650a588d18f1fd305a154eed8e",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 3,
-                    "sha": "4f841873add4e66886c65b6959c487903ec73e1a",
+                    "sha": "25b77a0ece3b4f587430700cf28d4e048783587a",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 4,
-                    "sha": "7fc227a5d4d0fe63c36420634db365ea6cd231d4",
+                    "sha": "5139ea2e101d66ffa99ff86f67b28b02d1941b20",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 5,
-                    "sha": "98f3c6cda6eec37d6fdc0991d11d8b1855e34c8a",
+                    "sha": "3661ae808e8cf4708d4c59a7197f25923f6119e6",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 6,
-                    "sha": "7765f0b1e761dd1e52f84657327e7183e7f5d126",
+                    "sha": "315d88dac4f50e32d955144e83d58d7c99476f86",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 7,
-                    "sha": "52b8d11de75943f0125261682df388377a28822d",
+                    "sha": "abe3a47158570906e45cda50d8dafe2b0fbfeeb8",
                     "description": "Training and Testing Statistical Hypothesis Testing"
                 },
                 {
                     "page": 8,
-                    "sha": "eaa8748530e8b8ada8de872c6f1ad56b83f3da36",
+                    "sha": "01bba23903fb19fbc725053fc8b18da86ad1785b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 9,
-                    "sha": "ec51a62fff2fc88a39e7bf42f13f7fc01318d0f1",
+                    "sha": "dfd4a4e4553a04005acf03c02207971d53570144",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 10,
-                    "sha": "b6c9e056dd8409978b8292df08e0a54643ed463c",
+                    "sha": "d54b991e14a3283339706edf9a191bef6ac22828",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 11,
-                    "sha": "05cb57a116ef7d9d5195aa704df25985f0082702",
+                    "sha": "fc7119e22ff4c22659b3e70d5616a3c3b349d2ba",
                     "description": "Training and Testing Statistical Hypothesis Testing: Sign Test"
                 },
                 {
                     "page": 12,
-                    "sha": "95327c6f9a4f551895bb69d83e213e2d612b61c5",
+                    "sha": "eef81a64acdef2d334e7025d71c3fd07e77d9476",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 13,
-                    "sha": "da33e6b37610f8ee3556fc25d708cc045eb9a14a",
+                    "sha": "067d9427d7a27aad36cf8439ccbe1e489e263bd8",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 14,
-                    "sha": "abd585dd0cc33d9548e795ffe1d35b04ccbc20f4",
+                    "sha": "01815b39edd43f8b23fa88cdb3998f834bbb5c91",
                     "description": "Training and Testing Statistical Hypothesis Testing: Student\u2019s t-test"
                 },
                 {
                     "page": 15,
-                    "sha": "5e2945391a13952a26463c6e17b5bd634199b723",
+                    "sha": "97f1085cd31abadb8617bf99389dd379e03b2dcf",
                     "description": "Training and Testing Statistical Hypothesis Testing: Power and Effect Size"
                 },
                 {
                     "page": 16,
-                    "sha": "1a9aee593f488f1c161eb3fe245ccb58c0600d60",
+                    "sha": "e0b06074fa0e6c91140c15b323a42bfe257221c1",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "5abf38d1ad96a2151ad9d6accfffe0f9c51b9b2f",
+                    "sha": "e2523d5bd8ffaa3d0e7329719d9458ca36fe2f6d",
                     "description": "Training and Testing Hyperparameter Optimization"
                 }
             ]
@@ -34029,1632 +34049,1712 @@
             ]
         },
         "unit-en-ir-effectiveness-measures": {
-            "sha": "45a150819245ad162971aebf7d7bcd16a52dbe90",
+            "sha": "a08d1c74d69cb6e90ce1ad62240ffc8c4bd153c7",
             "numpages": 50,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "848e82f878b100a308f49eef7acf6a35c2c74c10",
+                    "sha": "593370bd5945f5ccce8e25b69f0985b81db1c61e",
                     "description": "Chapter IR:VII VII. Evaluation"
                 },
                 {
                     "page": 2,
-                    "sha": "dfaf365c161219f61c5ea57a62630e76f31db9c2",
-                    "description": "Performance Measures Effectiveness and Efficiency"
+                    "sha": "6a241ad0d46b1d224580208b44510f1ee5dc8e9c",
+                    "description": "Measuring Performance Effectiveness and Efficiency"
                 },
                 {
                     "page": 3,
-                    "sha": "266083f4db98fbb43878eb92e658c06fbd332276",
-                    "description": "Performance Measures Effectiveness Measures"
+                    "sha": "365ad8b6199070449bb96fcdf4b2b1d743d04ab0",
+                    "description": "Measuring Performance Effectiveness Measures"
                 },
                 {
                     "page": 4,
-                    "sha": "57d1b0fa9a2a1d802a5b1020041d9c3d88b046ee",
-                    "description": "Performance Measures Effectiveness Measures"
+                    "sha": "0c42e09d035f784fbb3d46210ca3b9060ba9c352",
+                    "description": "Measuring Performance Effectiveness Measures"
                 },
                 {
                     "page": 5,
-                    "sha": "5e5b06c4182259c3f8d4b928f54872af25a65ff3",
-                    "description": "Performance Measures Effectiveness Measures"
+                    "sha": "cd6098090ce8f04a63949df5c5e830be94253476",
+                    "description": "Measuring Performance Effectiveness Measures"
                 },
                 {
                     "page": 6,
-                    "sha": "21a874c5eed606f965eb9a98797434f4d3058466",
-                    "description": "Performance Measures Effectiveness Measures"
+                    "sha": "4e2db4b2caad6dc835399e8c6c96a791cf156051",
+                    "description": "Measuring Performance Effectiveness Measures"
                 },
                 {
                     "page": 7,
-                    "sha": "93d18eb7688ae381554d494f4ee090029c6a69a0",
-                    "description": "Performance Measures Effectiveness Measures"
+                    "sha": "28483f702ee36180d95e07378251a4326bce45af",
+                    "description": "Measuring Performance Effectiveness Measures"
                 },
                 {
                     "page": 8,
-                    "sha": "bedc760fd7e07c901f5ee62674e879bcd9ad8587",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                    "sha": "fbe56a6b658efa32fb10db0bd59c1967fcf9d40f",
+                    "description": "Set Retrieval Effectiveness Precision and Recall"
                 },
                 {
                     "page": 9,
-                    "sha": "31e38d48e6257ee7f600224829796423812c41b7",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                    "sha": "e942fc5d1f16dc334e7682e5586546d12685023f",
+                    "description": "Set Retrieval Effectiveness Precision and Recall"
                 },
                 {
                     "page": 10,
-                    "sha": "83eb637632d8e4846db7a6655fe8002ac9190872",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall"
+                    "sha": "d949913c876337a6ca6d2fbd70edcdc4cd8d6ca0",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 11,
-                    "sha": "b91f44da139a33f88ab9ebfb36e80376f7646335",
-                    "description": "Remarks:"
+                    "sha": "167d012f6ba87cb56378749de83facaf870ac8e1",
+                    "description": "Set Retrieval Effectiveness F -Measure"
                 },
                 {
                     "page": 12,
-                    "sha": "09a07d3598ffe5174a500c6920adc70ab82c3f5c",
-                    "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
+                    "sha": "9ce8dfe7b0c2ba8e7a44aeebfca15ceedab63b8c",
+                    "description": "Set Retrieval Effectiveness F -Measure"
                 },
                 {
                     "page": 13,
-                    "sha": "cff0e934d175f62a2f037672ac241b4c4192b796",
-                    "description": "Performance Measures Set Retrieval Effectiveness: F -Measure"
-                },
-                {
-                    "page": 14,
-                    "sha": "41affd797b80e90deea68c62ee2642c5dbc79051",
+                    "sha": "e360738c2592f8b8014df84ac691e9fe54d83e5c",
                     "description": "Remarks:"
                 },
                 {
+                    "page": 14,
+                    "sha": "b88cc57517133eae98c1c55c13683c73982058ac",
+                    "description": "Remarks (ctd.):"
+                },
+                {
                     "page": 15,
-                    "sha": "43de9ed5134543f1904b5702bdc36f147a5656ee",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                    "sha": "2f640947712c602295126a301c5bd7dcf5cde068",
+                    "description": "Set Retrieval Effectiveness Illustration"
                 },
                 {
                     "page": 16,
-                    "sha": "af5f71f001acc994408597d0645d6418ae066364",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                    "sha": "822298e030ae50ebc87f16f8f8d8eac0ab71723f",
+                    "description": "Set Retrieval Effectiveness Illustration"
                 },
                 {
                     "page": 17,
-                    "sha": "2d67944f3b8f9fda062cd2f88f2f2bfad73bd7ec",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Illustration"
+                    "sha": "7fa33e3a9e59976d5227f81f9bf774a7c418bbae",
+                    "description": "Set Retrieval Effectiveness Illustration"
                 },
                 {
                     "page": 18,
-                    "sha": "b4bf5c1a29032feabc85d9bb9e7e7023f6c93afb",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall Averaging"
+                    "sha": "f57893b312648d21021c8c37f7fb02eba598e959",
+                    "description": "Set Retrieval Effectiveness Precision and Recall Averaging"
                 },
                 {
                     "page": 19,
-                    "sha": "f91505b5d802560644fec7b7d0a63d61917e52ac",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall Averaging"
+                    "sha": "c9c03a79469c1741471880221e21cf494f328cd9",
+                    "description": "Set Retrieval Effectiveness Precision and Recall Averaging"
                 },
                 {
                     "page": 20,
-                    "sha": "970161546931f9aaaf83ef42c61faf61a7c300c2",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Precision and Recall Averaging"
+                    "sha": "ea2d334a0a0a033c241fc7f1d6f14929f919f371",
+                    "description": "Set Retrieval Effectiveness Precision and Recall Averaging"
                 },
                 {
                     "page": 21,
-                    "sha": "b37a71c0aac299f304bd7aaaf31a435c4445978c",
+                    "sha": "a954554fdadf71c54508d73800e28a88a98aeb32",
                     "description": "Remarks:"
                 },
                 {
                     "page": 22,
-                    "sha": "6f9831507f1bdf33c0cbf4695c796e0ed9e6ff9c",
-                    "description": "Performance Measures Set Retrieval Effectiveness: Recall Estimation"
+                    "sha": "710946767ff58fe545bdd1bcd4c5011c68c48510",
+                    "description": "Set Retrieval Effectiveness Recall Estimation"
                 },
                 {
                     "page": 23,
-                    "sha": "69cc971dbee0b94bf90c27deb1a09e26acc715bc",
-                    "description": "Performance Measures Ranking Effectiveness"
+                    "sha": "407031cfdafa961fdc08bf8c1c6eb9a81c9ca171",
+                    "description": "Ranked Retrieval Effectiveness Example"
                 },
                 {
                     "page": 24,
-                    "sha": "5b7626459942700b25e362cb36a3fa0d200fdd1d",
-                    "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
+                    "sha": "3942d2bf56b67761ba92f518a774a143cf1e9fcb",
+                    "description": "Ranked Retrieval Effectiveness Precision@k and Recall@k"
                 },
                 {
                     "page": 25,
-                    "sha": "5b1730fa2a5d44d61946aa934bdbcbbf6a1ac66f",
-                    "description": "Performance Measures Ranking Effectiveness: Precision@k and Recall@k"
+                    "sha": "664afcea62b5aa5498f8ae2ec2c85639caa30ab8",
+                    "description": "Ranked Retrieval Effectiveness Precision@k and Recall@k"
                 },
                 {
                     "page": 26,
-                    "sha": "a024f9960e1b66fc5434bdd234f1f87c0afc4de1",
-                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                    "sha": "046cd36ee4a0df8f0bbb00fd36daf08c0ce3339e",
+                    "description": "Ranked Retrieval Effectiveness Precision-Recall Curves"
                 },
                 {
                     "page": 27,
-                    "sha": "3c459a6179925af2a143958950115841874513c4",
-                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                    "sha": "50191ec93a75ac62a3e1a71c853d0e4ebe8b4445",
+                    "description": "Ranked Retrieval Effectiveness Precision-Recall Curves"
                 },
                 {
                     "page": 28,
-                    "sha": "1c82bffb6381490b1bb87933ae803ad3d95d3362",
-                    "description": "Performance Measures Ranking Effectiveness: Precision-Recall Curves"
+                    "sha": "2d53e5612332044177e1f577ab82011c51a4f7b7",
+                    "description": "Ranked Retrieval Effectiveness Precision-Recall Curves"
                 },
                 {
                     "page": 29,
-                    "sha": "676236165144625fc9a2a503ee88ecfc2b283f95",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                    "sha": "db147ba1e4dc44464d9633ff7ba79378fce3c86a",
+                    "description": "Ranked Retrieval Effectiveness Average Precision"
                 },
                 {
                     "page": 30,
-                    "sha": "67f5470b3d5370317e1174c21bf8d4f3d3919b41",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                    "sha": "c42473da532fc7b44e72410af82d53dabd8dfb81",
+                    "description": "Ranked Retrieval Effectiveness Average Precision"
                 },
                 {
                     "page": 31,
-                    "sha": "f233f84cc5afad590e2d899e72b9a764759fd3ef",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                    "sha": "54a2db1da95cb1768037b603e900c9729156d28d",
+                    "description": "Ranked Retrieval Effectiveness Average Precision"
                 },
                 {
                     "page": 32,
-                    "sha": "944c8f2ab094f0cea36523eff0ba22167d9a4003",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                    "sha": "066f02619e1db44ff3c97ad6a2f3e842d968fb7e",
+                    "description": "Ranked Retrieval Effectiveness Average Precision"
                 },
                 {
                     "page": 33,
-                    "sha": "df89d78057d5db8abb5c92b3c397d02650e093c9",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 1)"
+                    "sha": "6d40dc911571a55239615d57e5148a852eb89a35",
+                    "description": "Ranked Retrieval Effectiveness Average Precision (Alternative 1)"
                 },
                 {
                     "page": 34,
-                    "sha": "263851ae9b411284e38197f8af598768dc57ddba",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision (Alternative 2)"
+                    "sha": "bd44fb54089f6819f32c580acba3d7f5d4b8e666",
+                    "description": "Ranked Retrieval Effectiveness Average Precision (Alternative 2)"
                 },
                 {
                     "page": 35,
-                    "sha": "73c974acfd0bd783d9024212d9a25199bbf578b5",
-                    "description": "Performance Measures Ranking Effectiveness: Average Precision"
+                    "sha": "d1ee4ed246b43ca95bd9e5e0b5748fe9091c009b",
+                    "description": "Ranked Retrieval Effectiveness Average Precision"
                 },
                 {
                     "page": 36,
-                    "sha": "7260403bcf18507a98f9da3af90fa9d20f6ccfe1",
-                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                    "sha": "0095706bf1ebec837a6d9ba4ebb42993d2367234",
+                    "description": "Ranked Retrieval Effectiveness Averaging Precision-Recall Curves"
                 },
                 {
                     "page": 37,
-                    "sha": "3b39cd116a664c50edbb35f6d90bab907195cd67",
-                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                    "sha": "5e5c26d5c21329e19a567e06579ad4f5473c50a9",
+                    "description": "Ranked Retrieval Effectiveness Averaging Precision-Recall Curves"
                 },
                 {
                     "page": 38,
-                    "sha": "02cec801612aa48d9a247d9a97fb7dbcbef47f5d",
-                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                    "sha": "93743a1fa20ad33b0a9236bc4debb80194b3a895",
+                    "description": "Ranked Retrieval Effectiveness Averaging Precision-Recall Curves"
                 },
                 {
                     "page": 39,
-                    "sha": "c34fc986c800013171abdad5f7deec9da542a2f6",
-                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                    "sha": "3257860c06355985b9cb8395b9b05d89c95c7750",
+                    "description": "Ranked Retrieval Effectiveness Averaging Precision-Recall Curves"
                 },
                 {
                     "page": 40,
-                    "sha": "3e33a8a81b73b78df5797081f8bc998119ec3a71",
-                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                    "sha": "530f9cdc504f1c0e2ed725e070a1105d77c50caa",
+                    "description": "Ranked Retrieval Effectiveness Averaging Precision-Recall Curves"
                 },
                 {
                     "page": 41,
-                    "sha": "e4f6bf3f71ada78fef8df72f83df14c0e1090a63",
-                    "description": "Performance Measures Ranking Effectiveness: Averaging Precision-Recall Curves"
+                    "sha": "9e7c8b0ec4d78ca239f8d2b4a669c562292ee81a",
+                    "description": "Ranked Retrieval Effectiveness Averaging Precision-Recall Curves"
                 },
                 {
                     "page": 42,
-                    "sha": "1d84e8b0aa1e1c42326e10dea56482855fd2b882",
-                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                    "sha": "f2e1d06362a2acff8d6f222c8a6723652aa8ce5e",
+                    "description": "Ranked Retrieval Effectiveness Mean Average Precision (MAP)"
                 },
                 {
                     "page": 43,
-                    "sha": "50029dd697951d58984d8f2cbb22b8eda9861908",
-                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                    "sha": "509085e0b6935b2649284aa6e689ebbb1628af7b",
+                    "description": "Ranked Retrieval Effectiveness Mean Average Precision (MAP)"
                 },
                 {
                     "page": 44,
-                    "sha": "6241c75ca309a3b7dc82e0e19e35fd3e0ed20c38",
-                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                    "sha": "52c4cd813ce83d989cc6836064a449ac97135204",
+                    "description": "Ranked Retrieval Effectiveness Mean Average Precision (MAP)"
                 },
                 {
                     "page": 45,
-                    "sha": "e240fea0e1ab94cf6c75ffb1420973622d1e59c0",
-                    "description": "Performance Measures Ranking Effectiveness: Mean Average Precision (MAP)"
+                    "sha": "3c80f33dc9362456faab47e9e6253290507d36ef",
+                    "description": "Ranked Retrieval Effectiveness Mean Average Precision (MAP)"
                 },
                 {
                     "page": 46,
-                    "sha": "ecc8af29b30b2bace89601371b822aaadfe4789f",
-                    "description": "Performance Measures Ranking Effectiveness: Mean Reciprocal Rank (MRR)"
+                    "sha": "038d12f7d9a3be79800bef7d141e83caebcd44ee",
+                    "description": "Ranked Retrieval Effectiveness Mean Reciprocal Rank (MRR)"
                 },
                 {
                     "page": 47,
-                    "sha": "8093c040b86e123e19d5dbf9a32fcfa5aa66c5b2",
+                    "sha": "97edc0ea6a1ba590c7bf10317e7b0efe8d1b6091",
                     "description": "Remarks: [Fuhr 2017]"
                 },
                 {
                     "page": 48,
-                    "sha": "716775bad3d86640de23d8128ebdf1472cfc20d8",
-                    "description": "Performance Measures Ranking Effectiveness: Discounted Cumulative Gain (DCG)"
+                    "sha": "948b46b898ad2f90c8a4cfe47ea6bce68767bf2a",
+                    "description": "Ranked Retrieval Effectiveness Discounted Cumulative Gain (DCG)"
                 },
                 {
                     "page": 49,
-                    "sha": "88c147bf9cb30939e67f2361ae0c5f84f8f53d92",
-                    "description": "Performance Measures Ranking Effectiveness: Normalized Discounted Cumulative Gain (nDCG)"
+                    "sha": "ae609db1b406bc8743350668aa2a78ffcf9b7dbd",
+                    "description": "Ranked Retrieval Effectiveness Normalized Discounted Cumulative Gain (nDCG)"
                 },
                 {
                     "page": 50,
-                    "sha": "9f3aef3125e6d32324f51b065b782004240e3c0f",
+                    "sha": "01d587e0fd2e29da1680826b6a7c5a832ee15c30",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-indexing-basics": {
-            "sha": "09f81d1303831ea201bb7a7eb21c63d28fc6a736",
+            "sha": "1cdcc30addf5653f298391f90eff371c07ff946a",
             "numpages": 21,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "515c25b718a76d1f7a6f78fb314a5fea07a20018",
+                    "sha": "624ca50a739a25ce03b1f503c44200de8d50fcc6",
                     "description": "Chapter IR:III III. Indexing"
                 },
                 {
                     "page": 2,
-                    "sha": "f1bca2c084853b84f5026beb8a7549f22e413b24",
+                    "sha": "53da1121a9f75d6aa975edf77720a68f511d5db3",
                     "description": "Indexing Basics Definition 1 (Index"
                 },
                 {
                     "page": 3,
-                    "sha": "06f756a8dbb9e11b813687e10be20e5a56223ad0",
+                    "sha": "945be981570fd72a20ecc50ebfbe81f19f2a0599",
                     "description": "Indexing Basics Definition 1 (Index"
                 },
                 {
                     "page": 4,
-                    "sha": "fc845ecda307094623b55fd5bdc46c5ee2845c66",
+                    "sha": "2f5dbe44ec5a7851f111d2598aaf24e313606ea1",
                     "description": "Indexing Basics Definition 1 (Index"
                 },
                 {
                     "page": 5,
-                    "sha": "515d2e116b10c873844784933f3d11e67a845de4",
+                    "sha": "dfcf38f3606a7fb6b97ed1bae89de829ce515db1",
                     "description": "Indexing Basics Requirements"
                 },
                 {
                     "page": 6,
-                    "sha": "7d30ed4417b9d8437e9eefbc95c62a9ae10a0c65",
+                    "sha": "5a09a026d70c4b87407a2c56a0d9810afc8c365f",
                     "description": "Indexing Basics Requirements"
                 },
                 {
                     "page": 7,
-                    "sha": "aafb8c7d8d88cebaf36812183d321cc24b295796",
+                    "sha": "82240490c5f19fb7dc49d5785b58b9559cc667f6",
                     "description": "Indexing Basics Requirements"
                 },
                 {
                     "page": 8,
-                    "sha": "d07a9997350210918eb60a53fafa0e818b0f4e9c",
+                    "sha": "f4cfe20a2ce030aa1197e55b008365f8a46433f6",
                     "description": "Indexing Basics Requirements"
                 },
                 {
                     "page": 9,
-                    "sha": "61e93fc89efe0f84505481198bfe33ce24c37932",
+                    "sha": "47028d5e77e5bf0971fa8ae6294ed76a278408b6",
                     "description": "Indexing Basics Requirements"
                 },
                 {
                     "page": 10,
-                    "sha": "11fb7e14cc9e795a81df1c035acf404c793ff5d7",
+                    "sha": "d105c1c70701ba88b3d3ad7e688a092e02721025",
                     "description": "Indexing Basics Requirements"
                 },
                 {
                     "page": 11,
-                    "sha": "6365f9447896f4d498e83e404366e7dce27d27a6",
+                    "sha": "2791534f65094c74a0a77d3f40783e774ece74a3",
                     "description": "Remarks:"
                 },
                 {
                     "page": 12,
-                    "sha": "1dc7b454558f65fb90b9e73a732cba0e2a3bb326",
+                    "sha": "58cabce8f63987337d8a917d89ce0ad765fea4c4",
                     "description": "Indexing Basics Definition 2 (Document, Documentary Unit"
                 },
                 {
                     "page": 13,
-                    "sha": "a15334081453bce1394b860c5bba0f086f5dedff",
+                    "sha": "15244e354445638052a4d7d53042d9f465d5e6ea",
                     "description": "Indexing Basics Definition 2 (Document, Documentary Unit"
                 },
                 {
                     "page": 14,
-                    "sha": "42ed379581f522377a532d4eefab094a7ba1f1db",
+                    "sha": "726cccab6de6c8fa3753706daffa54f182ec3c65",
                     "description": "Indexing Basics Definition 2 (Document, Documentary Unit"
                 },
                 {
                     "page": 15,
-                    "sha": "7401f720d758488bfca89acd0267032a696cc2c5",
+                    "sha": "7031f5a73f2aabb25192bbab2b981a83039e4684",
                     "description": "Indexing Basics Definition 3 (Vocabulary, Terminology, Index Term"
                 },
                 {
                     "page": 16,
-                    "sha": "214502d97ed0507731599d9d5c15a14575883f92",
+                    "sha": "5d9633d415d3d67a369fd40038572b35d65f1d16",
                     "description": "Indexing Basics Definition 3 (Vocabulary, Terminology, Index Term"
                 },
                 {
                     "page": 17,
-                    "sha": "1cc32f5216076df6fc2bf94970f3557588a5e4be",
+                    "sha": "47215d0a1dcfc67bf91dee763aebb9dec2804a3e",
                     "description": "Indexing Basics Definition 3 (Vocabulary, Terminology, Index Term"
                 },
                 {
                     "page": 18,
-                    "sha": "bb2c5d24548444e48394882e8e68eb4a920bf992",
+                    "sha": "cf392a453a4b16706f199513c609bd1b492411e4",
                     "description": "Indexing Basics Definition 3 (Vocabulary, Terminology, Index Term"
                 },
                 {
                     "page": 19,
-                    "sha": "5a86f8d879abbe963f1b2c3e84d7c4e82eeb1368",
+                    "sha": "34e4c5fb6c56ace43dad5d7394859927a0843cbc",
                     "description": "Indexing Basics Definition 3 (Vocabulary, Terminology, Index Term"
                 },
                 {
                     "page": 20,
-                    "sha": "3f2e47acf25e192a9bad9e5eb448e0e5427b4289",
+                    "sha": "c1166e7a89e858d2adfe0c90d0f834794a85712d",
                     "description": "Remarks:"
                 },
                 {
                     "page": 21,
-                    "sha": "2219cb87cf3909f5990227d24f547c4cf40ff18e",
+                    "sha": "fceac6cf2894b9098f6c83de6846e83205324752",
                     "description": "Indexing Basics Querying an Index"
                 }
             ]
         },
         "unit-en-inverted-index": {
-            "sha": "df0be616b6abd486365cddcc55935a96eeee9120",
+            "sha": "369d56027405a59893d291b38a5ae77b037c5952",
             "numpages": 90,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "be43f00c898e4ec8ce4c3ed0d6a2b655ec6f0848",
+                    "sha": "8e91ecd8a33ed7ff8f3ca83d4a8df8dc3008ebf2",
                     "description": "Chapter IR:III III. Indexing"
                 },
                 {
                     "page": 2,
-                    "sha": "ee5bf4247a0b75bc0a0366dbf56601632e0e3428",
+                    "sha": "322c9c32ff326d3f3e35086c5c41ec895ecbe48e",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 3,
-                    "sha": "c5df70999f4ae6f9a8254ca7b0e18e650cb9f347",
+                    "sha": "c72e2bdc74e626b9e811d0da640f14c286831fac",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 4,
-                    "sha": "cc544195abacc0217e4cfdc83e764491884e26eb",
+                    "sha": "b84a4a43c248916660b4562b8915217ed62ee311",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 5,
-                    "sha": "b4041de9821f8a65bfc52a84019f98c1e87e115f",
+                    "sha": "6cffcf6531b44d0e693e34b965769e3c2c7dfe06",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 6,
-                    "sha": "5da74d0e12f126a554df6f932939f13eb7cc34c1",
+                    "sha": "c17332b8f8e19648d9b1f6e7684977f45f9fc8a3",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 7,
-                    "sha": "4edbe231b36b3676ace3db3680bc20cf9e6eb971",
+                    "sha": "332401a6dbfa588be28fc4eaf08256e5fe838cb5",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 8,
-                    "sha": "3637dc451af128d33b876ba283cdbd5179a29d7b",
+                    "sha": "6a81c3a7828e969d73872c846e8e848a77f38dd6",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 9,
-                    "sha": "3bb287aa4d6b4cf1e405af4843e829a71f235842",
+                    "sha": "454c3b7f21c65fdc0b885ede416d6815329f2ee1",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 10,
-                    "sha": "da896d10bb956f46209f43428bf3cfc5eff92e50",
+                    "sha": "86dbe7aeaa3bed2acd87ceb0cb7c01bf65b4e24f",
                     "description": "Inverted Index Term-Document Matrix"
                 },
                 {
                     "page": 11,
-                    "sha": "476cf4d41858e48042ebadb3d5e9a1daa4cf824c",
+                    "sha": "d052c4a91430792a4ebef0eaabc1021a401c7913",
                     "description": "Inverted Index Data Structure"
                 },
                 {
                     "page": 12,
-                    "sha": "80ced3c7c906b4068528bf0655533f938160aedc",
+                    "sha": "05bb97da6ad18d4b56802c6930d2006c3e4e762e",
                     "description": "Inverted Index Data Structure"
                 },
                 {
                     "page": 13,
-                    "sha": "593d42a882ea8beda7c5dc84d134e96f29a051e4",
+                    "sha": "81da273d1741bf7fda2eeb81761b74a30181e57b",
                     "description": "Inverted Index Posting"
                 },
                 {
                     "page": 14,
-                    "sha": "3d4f416d9f463e573ed1859d7ffb7b1cffc82dfa",
+                    "sha": "ea22293b42e804cedfec30b4844c3d4564d148b1",
                     "description": "Inverted Index Posting"
                 },
                 {
                     "page": 15,
-                    "sha": "7b24b47548ee035ce77866f6cea9253349dbb6fb",
+                    "sha": "f38914faf21394ba8d993a20dd0987ad0dacec50",
                     "description": "Inverted Index Posting"
                 },
                 {
                     "page": 16,
-                    "sha": "ad72abf389ad472bf36bd989c3c128bed6597e4b",
+                    "sha": "39bd1ff5b86e8e0907ff3d344d0838147d2ed091",
                     "description": "Inverted Index Posting List, Postlist"
                 },
                 {
                     "page": 17,
-                    "sha": "17455fa37785c5a1f4f318f6d45c08f3902b7f04",
+                    "sha": "d2d54f801cacf6428f2d290c84cd41b04ac2c5fe",
                     "description": "Remarks:"
                 },
                 {
                     "page": 18,
-                    "sha": "9808ffc45844f704034350283f02ed0db8f71441",
+                    "sha": "ce204e594aed1e4f57800f8c25f38a08f08a84ae",
                     "description": "Chapter IR:III III. Indexing"
                 },
                 {
                     "page": 19,
-                    "sha": "7427d4b64f4668c2d6d15c2d609bf623507f59e3",
+                    "sha": "5fbff96a7f0ea3229752d18cabcde146d73e1095",
                     "description": "Query Processing I Retrieval Types"
                 },
                 {
                     "page": 20,
-                    "sha": "f6ccb81b10292dbb9e970d4360f2fad4c98e7592",
+                    "sha": "de4c3c74106dc4dc94fddc970dbc0498b6f69907",
                     "description": "Query Processing I Query Semantics for Set Retrieval"
                 },
                 {
                     "page": 21,
-                    "sha": "72cbd8360ebeb4665c63fe5f11da4c7fa69226d6",
+                    "sha": "2aa9efc9c020fb36556ec4464f24bb100078c4de",
                     "description": "Query Processing I Conjunctive Multi-Term Queries"
                 },
                 {
                     "page": 22,
-                    "sha": "949eeab14d8e1ad6221b2ff2bb92ecb872d1f84b",
+                    "sha": "a2acfe95544f1b28ef90fc86f027c8984953182b",
                     "description": "Query Processing I Conjunctive Multi-Term Queries"
                 },
                 {
                     "page": 23,
-                    "sha": "d6dac6b2a370d971bc908861bf4bc96d4df434c7",
+                    "sha": "8d51dae0658c303fcb872c74707fb7a66b680783",
                     "description": "Query Processing I List Intersection"
                 },
                 {
                     "page": 24,
-                    "sha": "320c0fb6c8d0cb17f7080e3ed4e530ea70e6b5fc",
+                    "sha": "1d3347c0ae85562b6864f683ce56521ceae8d4ea",
                     "description": "Query Processing I List Intersection"
                 },
                 {
                     "page": 25,
-                    "sha": "e98aa576d2d938508ceb5bbf43add8318763587a",
+                    "sha": "3edbad878f3885919b5958dadb2cf8995f500424",
                     "description": "Query Processing I List Intersection"
                 },
                 {
                     "page": 26,
-                    "sha": "814c425bebf88a6e4e8e72abb8a73648b797cc1c",
+                    "sha": "bae56db0d662631ab9e21e90aefdbb27145a644f",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 27,
-                    "sha": "5e624d81a4b2982ade567011176ac5da30ffc063",
+                    "sha": "3642c893f8c01f16af8f414684de5ff799ef90c4",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 28,
-                    "sha": "608a397c39b7edf5f94ebc88e8f299916927fed6",
+                    "sha": "a365962c8645961902ef3184893e9dbd5ae9599f",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 29,
-                    "sha": "fc5c351fe7708cfa0c384700b479f38e0cdaee3f",
+                    "sha": "f8120372ec885ded150e5fd719ade58181253542",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 30,
-                    "sha": "7f30544debde6c5ac04a4a24e19be2ed68c698cf",
+                    "sha": "9bbbe6eac468d1b4afa855ceb2c2a01894aa4867",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 31,
-                    "sha": "e29bb1a4565d5f15afef89f0a454778f2b68c543",
+                    "sha": "cc06e6ac764eb02981810ad60d89e089590f0e6a",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 32,
-                    "sha": "cc72bd1ff3698e41d68fe4f6a2f10ad04c21d2f0",
+                    "sha": "90d452cd8657bd47804346a7d892ccb5fce977a0",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 33,
-                    "sha": "5a8ff4c6b95fb06cc47d988d84d7750327cb7493",
+                    "sha": "42ef8a643ab6ff0c3dcfa21ae4b3cf6766219049",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 34,
-                    "sha": "3842c9a7e3542006537e3f2c74c4889ed6fc0b12",
+                    "sha": "02d0cefd67550256bcf5b59128cfb65391519efd",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 35,
-                    "sha": "0829bc9433a492b36e74d67485a5f8d8ef4bee71",
+                    "sha": "25f544e98818c1b3d25850c1a15e3e1d223d4add",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 36,
-                    "sha": "939657b19af628be2eee1770328163704d237454",
+                    "sha": "a427e8f6ed0072c0e3a586b3839b83014e431a11",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 37,
-                    "sha": "83bc1041c6cc0b07deaf2c6dfe12b8240e8ac0aa",
+                    "sha": "bd6c9beae8e10f39a98c6353db25c65d9388f24b",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 38,
-                    "sha": "36cc90e4784b9f794015d9051a7374275797c0a6",
+                    "sha": "7740d5e6289e3345babb74994bbb121a9e884cbf",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 39,
-                    "sha": "b87b46f2451caf42b13098e5d98c4a4c165208e2",
+                    "sha": "ad67a8885f5596b4e7fa1de5c2369c0cb2ed9470",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 40,
-                    "sha": "4add405e7792592c896cb490a406649fe47dc79e",
+                    "sha": "e469c236c812a196ba6cee0d98bf2af555895ad8",
                     "description": "Query Processing I List Intersection: Example"
                 },
                 {
                     "page": 41,
-                    "sha": "c21d0b7b59c8a23f171a937627760b4a7ac401b0",
+                    "sha": "2df8b98a90eef26416677fa65741b2d7a8175159",
                     "description": "Remarks:"
                 },
                 {
                     "page": 42,
-                    "sha": "2c762c11c2d3c38ff0613c069e9fd8af49b5f605",
+                    "sha": "aa27c808d748f4c84d13e80e51dcee8adb35b475",
                     "description": "Query Processing I List Intersection"
                 },
                 {
                     "page": 43,
-                    "sha": "ecf83bade437d8978d0fb4875fa30674c330cdf6",
+                    "sha": "1dc8b804aecdbf4e4fb3f47e8b9b7c5f9474af74",
                     "description": "Query Processing I List Intersection"
                 },
                 {
                     "page": 44,
-                    "sha": "0c0ffbeeca86ed7740b512b552532552e0520aad",
+                    "sha": "0d79089441a0b8b02362727979cce788ca2f81a3",
                     "description": "Query Processing I Proximity Queries"
                 },
                 {
                     "page": 45,
-                    "sha": "a69d0d836091b46a4221a4b0d0bfa025a4cb661f",
+                    "sha": "7893ab700ea9d73299ed68652ff8bc6f96a567d9",
                     "description": "Query Processing I Proximity Queries"
                 },
                 {
                     "page": 46,
-                    "sha": "c9aae66cc07170d5f2047c4b4cb7984088914432",
+                    "sha": "18ae1cc4a8e313394799a63b89dc3b09e812fc9b",
                     "description": "Query Processing I Proximity Queries"
                 },
                 {
                     "page": 47,
-                    "sha": "7e9128b2b7ba68258d7a0c5719b3ea5325aaadab",
+                    "sha": "32f22d0b927ceb122988b350d3ff300d330d254b",
                     "description": "Query Processing I Proximity Queries"
                 },
                 {
                     "page": 48,
-                    "sha": "73214bac5fbe3cfc136b9e47cb10d03f048dc65b",
+                    "sha": "08674770365154804cb5366e37c3511a70d92f3b",
                     "description": "Query Processing I Phrasal Queries"
                 },
                 {
                     "page": 49,
-                    "sha": "0d29b1d623d4c7c73d4cf4711d8a863fc264ddc5",
+                    "sha": "1b263f331711e0bacbe96edd6f0026e985e5f572",
                     "description": "Query Processing I Phrasal Queries"
                 },
                 {
                     "page": 50,
-                    "sha": "a4aa62127225548114c41a701ed06bdd87927ba4",
+                    "sha": "4ab511b08b86ed2de004094d1176546a203ed2df",
                     "description": "Query Processing I Phrasal Queries"
                 },
                 {
                     "page": 51,
-                    "sha": "4c83c2a1c3350e2550e36d09c48438f7d39fc237",
+                    "sha": "63b73482ab289fc3b3ce1f8c98e4a7320012637b",
                     "description": "Query Processing I Phrasal Queries"
                 },
                 {
                     "page": 52,
-                    "sha": "dffcb7b06e94a773a8065ac92788aede1b50c61c",
+                    "sha": "3c6064ac0bb164bd47eee3d51cfd372ab40ad1a6",
                     "description": "Remarks:"
                 },
                 {
                     "page": 53,
-                    "sha": "9ce308bf024f8fe60d17917030cb0bd52dcf4604",
+                    "sha": "e2cdb238e43a0201214e3a6ce5663d579634576a",
                     "description": "Query Processing II Retrieval Types"
                 },
                 {
                     "page": 54,
-                    "sha": "c3d783922e3f10d51529ced74ded5247724545f7",
+                    "sha": "04e5b3b19bf75d12d8e901236a40b6f32c8e1cb8",
                     "description": "Query Processing II Query Semantics for Ranked Retrieval"
                 },
                 {
                     "page": 55,
-                    "sha": "123df44d9ccb55a65ff1ab0a13a81e8abbea5fb7",
+                    "sha": "eab5dcabbab7c7ea47579b7ba8f07ce320422e0b",
                     "description": "Query Processing II Single-Term Queries"
                 },
                 {
                     "page": 56,
-                    "sha": "800926b4b2d67c75fbdfe787bff74bf80fcbb091",
+                    "sha": "d12b64f1f63dd07587096aa8a0f9ca37ec796c96",
                     "description": "Query Processing II Single-Term Queries"
                 },
                 {
                     "page": 57,
-                    "sha": "ac0993d938ef4e38ad137caf46be858c08878997",
+                    "sha": "a539384f72d1abeb52bcdd088e3afaa8ecccc00f",
                     "description": "Query Processing II Document Scoring"
                 },
                 {
                     "page": 58,
-                    "sha": "4bc3002cd736826d6f386c7cda70cf1c1b76265c",
+                    "sha": "5ec2eff1d1783036b5fd3c8ceb0be5321f218c09",
                     "description": "Remarks:"
                 },
                 {
                     "page": 59,
-                    "sha": "57dbf5e37cef98daa1651a41533ce7d1b7f73f25",
+                    "sha": "fda5b31513ea2baa45de1e371099b203fe4ac3bc",
                     "description": "Query Processing II Document Scoring"
                 },
                 {
                     "page": 60,
-                    "sha": "81ceb86dab586fac014b647697e90cafb06e3fac",
+                    "sha": "eeb0997de0c2b768d97921e61a087002f3951623",
                     "description": "Query Processing II Document Scoring"
                 },
                 {
                     "page": 61,
-                    "sha": "6d5f7d706522ab8c2673cd0aeca630a54c59fc5e",
+                    "sha": "1158f498f2c925b6f9c0128fd386d72306a84868",
                     "description": "Remarks:"
                 },
                 {
                     "page": 62,
-                    "sha": "b62bf8df9ffef124cb0f642439ded8ac68574c0e",
+                    "sha": "5b50ba9d308d47c3499766c33f625052c0d1c4c0",
                     "description": "Query Processing II Document Scoring"
                 },
                 {
                     "page": 63,
-                    "sha": "cd7101c9dde22371d96b7809fc891d5fa38c2cac",
+                    "sha": "ce3436a8ffbb42d4d8dccefad8ec7f0e7748bb72",
                     "description": "Remarks:"
                 },
                 {
                     "page": 64,
-                    "sha": "fa5b678c38b4fa698923157379affce00a827304",
-                    "description": "Query Processing Top-k Retrieval"
+                    "sha": "f2a09ff35a0f80c40b8b6492835d0e823dd451dd",
+                    "description": "Query Processing II Top-k Retrieval"
                 },
                 {
                     "page": 65,
-                    "sha": "a87b73648eff4148732e61cbdfc20a4913ec237a",
-                    "description": "Query Processing Index Distribution"
+                    "sha": "b290ef61c6941d54240e6eecb2776adbdd5a56c3",
+                    "description": "Query Processing II Index Distribution"
                 },
                 {
                     "page": 66,
-                    "sha": "2349247dfc2470d1da3f714f005cde8e9ebc3dc6",
-                    "description": "Query Processing Caching"
+                    "sha": "8f347a42f2f53aa52559709875d231b94a104cf0",
+                    "description": "Query Processing II Caching"
                 },
                 {
                     "page": 67,
-                    "sha": "2eb81a5675ab85ba2c36d8feada94ff19ee22395",
+                    "sha": "f22dc59a61f6770dca54dd36c915f3226fc10cab",
                     "description": "Chapter IR:III III. Indexing"
                 },
                 {
                     "page": 68,
-                    "sha": "24f0dc290cd883138ce79ef04ca0ee9d5745ea3d",
+                    "sha": "517c37868880054cd175782818c4b20ff2a608db",
                     "description": "Index Construction In-Memory Index Construction"
                 },
                 {
                     "page": 69,
-                    "sha": "7e0d751f4f7655cd0cc409b333dc24307a59821d",
+                    "sha": "943165b3ca6ef9ff2a530a010d77d2deaf4d0ca1",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 70,
-                    "sha": "5620972fd7f560b270de697f409d36cc8b22a910",
+                    "sha": "188f6b89b2366fb4ffbb05dbf3c01c09e9bc368d",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 71,
-                    "sha": "ae1460bb8a04a7df7c926cb629ec76da3824a3ea",
+                    "sha": "b4ba3c330add0a5164c288fc7862fa62b7a87724",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 72,
-                    "sha": "b69f1fc03ed2b6542a1a0bdc1c027e027d1f8ff6",
+                    "sha": "f5cc23753047b8b35569443ef3f1564aa9acff66",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 73,
-                    "sha": "5b57e8145d12494b2eee7e411ba440f0a70f043d",
+                    "sha": "e4852b07b330cf1c45ae921ff7b223f4972f8c08",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 74,
-                    "sha": "855a9a12a4155d1bd5e20d07cf0f44ae745f2132",
+                    "sha": "e00d7c5cdbd50862d88dfb6e489850a6b959b254",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 75,
-                    "sha": "9d466f6477365ef79c817bc83c3ca0324c3a5ba1",
+                    "sha": "0051114659b49d289cb705c6b990d3a808c27641",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 76,
-                    "sha": "f9e8e224293eb119a7528420377908fc9ebd3ebb",
+                    "sha": "f5a841465cd6b5035075c66c0549ce712b31e3a7",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 77,
-                    "sha": "4bcdae10bb1fb970f862375153383f21f6568f43",
+                    "sha": "5b89d93fec7999a024cba6f74b32fcca4644fd37",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 78,
-                    "sha": "b6c21bf9f661809e19adbd9ca3a727c7b7624d69",
+                    "sha": "472ffa1715d9281515676032b55e156006483616",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 79,
-                    "sha": "7e9f8260eb9637bea7e0666b2fae9e3421ff6d03",
+                    "sha": "14f83d5c6f67afe6aa470310ce8c03d9057ea8a2",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 80,
-                    "sha": "079621ab92c0f590632b7edb742f0e005c431d3d",
+                    "sha": "17007fa36bed3648990eecb7a0a77fa945cd3971",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 81,
-                    "sha": "c5efe28d82cdf3066e5e9452c1359bd01fa2351f",
+                    "sha": "78e9ce21c972240ae6cf365af8c7a86f12b975c6",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 82,
-                    "sha": "c02f82bbab81ff524eed058b66f821301390709c",
+                    "sha": "755da2cf4971317b1ee4a2aa3a0b491928f89538",
                     "description": "Index Construction Index Merging"
                 },
                 {
                     "page": 83,
-                    "sha": "7ff4a3877fe09625dfe2fe30a0ef62ff3fd0961a",
+                    "sha": "88558379fed4e8d73b27e69433a16afe1d41b437",
                     "description": "Remarks:"
                 },
                 {
                     "page": 84,
-                    "sha": "bb37139764cffafd0531c68423969486227ba05b",
+                    "sha": "d8a4c6589d12d7e88a56c699dd869afbe62ca57f",
                     "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 85,
-                    "sha": "8fc697369af72a03b9f6c62875e89bd028262450",
+                    "sha": "6f5167bf4fe0f090895429494e4e75a58d2d5f7a",
                     "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 86,
-                    "sha": "554af0b2176ebbcfc9fea6fb99239daaf43f938f",
+                    "sha": "6e24c8ce0f5c3ebca13fec91ab22dc76b9cf3f98",
                     "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 87,
-                    "sha": "42fbed5e1883460c63604744f1b4601f46ec8f3b",
+                    "sha": "9a06fcbaae54f38437811e8703a7c4cdb5afa756",
                     "description": "Remarks:"
                 },
                 {
                     "page": 88,
-                    "sha": "0c7b5a24767df2773f31985fae5de8e3440747eb",
+                    "sha": "8b8c69e4c7a1f67a4273c8de2097f9e4d1486665",
                     "description": "Index Construction Distributed Indexing"
                 },
                 {
                     "page": 89,
-                    "sha": "bb324d9d40ae6993080582ded6e91f39e483722f",
+                    "sha": "f65ddd323ed8a3f69c6c9977a565687923a2d47e",
                     "description": "Index Construction Distributed Indexing: Example Netspeak"
                 },
                 {
                     "page": 90,
-                    "sha": "61479e3e76aabce87784e7925baf43ce7edf394f",
+                    "sha": "47f3c10809f7daf068457dfd20026f97f67ab1d9",
                     "description": "Index Construction Index Updates"
                 }
             ]
         },
         "unit-en-web-search": {
-            "sha": "9a593d1e09c6c50a8751861b198e581a14a18214",
+            "sha": "7221c70ecaed004961500ddfc5801d81161b4813",
             "numpages": 50,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "f86d3f328b0b42271c4191f85dfa0660bbc65503",
+                    "sha": "a36b1632379d4292ff02c3bba35d6299bbc55a50",
                     "description": "Chapter IR:XI XI. IR Applications"
                 },
                 {
                     "page": 2,
-                    "sha": "fe75b5577b797662f5ea729472a5c7544aa1596e",
+                    "sha": "f964fbc77523c76bcd3ba61cd7ad3fdb0ab8cc33",
                     "description": "Web Technology Overview"
                 },
                 {
                     "page": 3,
-                    "sha": "f202b41e9d285ff63b01f758dcce08deec597e7b",
+                    "sha": "0e599f6955b32cb3aa121e01c4a314a559d47f4f",
                     "description": "Web Technology Internet"
                 },
                 {
                     "page": 4,
-                    "sha": "ddba311e16e74369b01125be79c2be68b70a04ee",
+                    "sha": "8358b51551f69e46fb0daa76c6e961fa60a4a374",
                     "description": "Web Technology Internet"
                 },
                 {
                     "page": 5,
-                    "sha": "c43fb7b0a620c1bdb8fa1183a87963bda0623682",
+                    "sha": "b0063a119d6cc283b64cc1b6eb15d287cc5574b0",
                     "description": "Web Technology Internet"
                 },
                 {
                     "page": 6,
-                    "sha": "65792ea52959d9b5ef3cd60227a94574186b4e92",
+                    "sha": "489dea819e1e4281bd51e0347284e7d9a7c76202",
                     "description": "Web Technology World Wide Web"
                 },
                 {
                     "page": 7,
-                    "sha": "439697d81c81cf83d392fec8c7e7e2fb73c9bdc2",
+                    "sha": "a11aa705940ebb906ccf531b789077f2d9159cad",
                     "description": "Web Technology World Wide Web"
                 },
                 {
                     "page": 8,
-                    "sha": "6210795fb2b7fa3085e093cb9b16f90b6aa3ed41",
+                    "sha": "6d2b532a7bd13719a36a6de6ddd9c70dc252aa00",
                     "description": "Web Technology World Wide Web"
                 },
                 {
                     "page": 9,
-                    "sha": "e91909bd5d40b9251ddd4bf8375655b6dd43eefd",
+                    "sha": "e2ebe18ab5f47c944e01199b4d8204569a369cc1",
                     "description": "Web Technology Addressing"
                 },
                 {
                     "page": 10,
-                    "sha": "00c9d02451c6323a493e4368fcfd82786c443396",
+                    "sha": "6920b922aafee029ac001a8025a898a91db88a8d",
                     "description": "Web Technology Addressing"
                 },
                 {
                     "page": 11,
-                    "sha": "506dcd05bf7fec52ebae3b56017557195fb78a17",
+                    "sha": "27e330b0e49c574db316aefcd83c5c81df31c954",
                     "description": "Web Technology Addressing"
                 },
                 {
                     "page": 12,
-                    "sha": "b42a6f541d91f0c508303e76ff7825086251db25",
+                    "sha": "3cba032c09b4cc2c7fd562fd546598b6002ff9b8",
                     "description": "Web Technology Hypertext Transfer Protocol (HTTP)"
                 },
                 {
                     "page": 13,
-                    "sha": "d40c3ad7116379287a01c60394367dc23bd31af0",
+                    "sha": "a038d3b0161b2c15e073a4f45ee8585d999838ef",
                     "description": "Web Technology Hypertext Transfer Protocol (HTTP)"
                 },
                 {
                     "page": 14,
-                    "sha": "e967583a9828001c8367a2d7b0548665022cc344",
+                    "sha": "c45164fb79720d86c11455ec305755be341b94eb",
                     "description": "Web Technology Hypertext Transfer Protocol (HTTP)"
                 },
                 {
                     "page": 15,
-                    "sha": "b2b0d5c996b9083092f260ae73123cf1005f1346",
+                    "sha": "e3bd86700c024eb23552ac3de936e086bd5b7406",
                     "description": "Web Technology Hypertext Markup Language (HTML)"
                 },
                 {
                     "page": 16,
-                    "sha": "9a3c56c53aa85283e21ec381f312032ddc41f4b7",
+                    "sha": "a58ea552836d1f50ddab2ad58726bb485e9cd067",
                     "description": "Web Graph Topology of the Web"
                 },
                 {
                     "page": 17,
-                    "sha": "2adef855afec297fb57f4a114301b488a7cf774a",
+                    "sha": "0d21a45751d7ce1939779b458bf2116313b670d2",
                     "description": "Web Graph Topology of the Web"
                 },
                 {
                     "page": 18,
-                    "sha": "8ba50f80123baddaf29384ba43cd73f6320bfef6",
+                    "sha": "6a45b75d7adcf65c1ccf94f4610940742cb1b46d",
                     "description": "Web Graph Topology of the Web"
                 },
                 {
                     "page": 19,
-                    "sha": "3803734499ec584486208f9c779b061c8bc75ca8",
+                    "sha": "b385d05d46d625cfd07fa5c7a884a63d07e55b37",
                     "description": "Web Crawling Crawling Hypertext"
                 },
                 {
                     "page": 20,
-                    "sha": "6653eab24a25585807a0cbeb5046f3b8fadb41e2",
+                    "sha": "e9c48ed505924bb83fb6715ac7e0e9c1c3f0eadf",
                     "description": "Web Crawling Requirements"
                 },
                 {
                     "page": 21,
-                    "sha": "727840d90792bd84ad39540381f0df511059178c",
+                    "sha": "77e11288283e6ae934f728edea1412af37d8edbb",
                     "description": "Web Crawling Selectivity"
                 },
                 {
                     "page": 22,
-                    "sha": "65cb3995c8a690c3bceb211de22b60d670c479d5",
+                    "sha": "71de64b42279a2f384f4e75e1286f8123280f9b2",
                     "description": "Remarks:"
                 },
                 {
                     "page": 23,
-                    "sha": "871e5f6151d59f268e180dcf92b76e9cd1cd737e",
+                    "sha": "633dc3a8a6a8279a5cd60f55f770262882f1eba4",
                     "description": "Web Crawling Selectivity: Malicious Pages (Black-hat SEO\u2217, Spam)"
                 },
                 {
                     "page": 24,
-                    "sha": "8b0cb4aef8bc954c1abea10563058b63f864cde5",
+                    "sha": "9de79da93026eb2273eb5cad2c48cf13ceb6a46e",
                     "description": "Web Crawling Politeness"
                 },
                 {
                     "page": 25,
-                    "sha": "3f429f58533a7d9dd1b262a2b965c636274469ed",
+                    "sha": "3a5b7fd044ee7688b050d3e6ef8e706c6773e7f4",
                     "description": "Web Crawling Politeness: Robots Exclusion Protocol (robots.txt)"
                 },
                 {
                     "page": 26,
-                    "sha": "280cbcc8dd676f16e38949ca9ca0fe3f220d5ee5",
+                    "sha": "bba0afa4dae35d9de91c9272178923fa3d58f0ce",
                     "description": "Remarks:"
                 },
                 {
                     "page": 27,
-                    "sha": "073b4588ec957ec5c51dee4179b38d9b63668fa9",
+                    "sha": "79f113f2e826969a2597968ab3f55db2c008bcfc",
                     "description": "Web Crawling Politeness: Crawling Algorithm Revisited"
                 },
                 {
                     "page": 28,
-                    "sha": "a8799e234a59b29a8038302e59dafdf82434335b",
+                    "sha": "e149b7361eb8b60398b0097be85630e2a43ed6f0",
                     "description": "Web Crawling Freshness"
                 },
                 {
                     "page": 29,
-                    "sha": "c3aff3a5175c44f0b71efbe2308d8b624cd2d6da",
+                    "sha": "7c28700152faac546b57c09b8ceef0f3c3ef5dac",
                     "description": "Web Crawling Freshness: Metric"
                 },
                 {
                     "page": 30,
-                    "sha": "8417e8e1ca762d58e6d2f21231aa3cab054544c6",
+                    "sha": "d95ef3bc129939c968d4a7c7e1aae1780b6daf88",
                     "description": "Web Crawling Freshness: Metric"
                 },
                 {
                     "page": 31,
-                    "sha": "056f4738ec6dc5932a2f6f60ff67551382c7c1e8",
+                    "sha": "b6345adbb565e97d6d69a70f753f90d1f3ed23ba",
                     "description": "Web Crawling Freshness: Age Metric"
                 },
                 {
                     "page": 32,
-                    "sha": "c6ce020b7227676530f56d63463e041804965532",
+                    "sha": "ed85ba7c7e2943f4a13161d815c778d685ed0dd3",
                     "description": "Web Crawling Freshness: Age Metric"
                 },
                 {
                     "page": 33,
-                    "sha": "b029b6213be91a4982311f41f69622f5c9952fec",
+                    "sha": "2ced2401cceebfdbb9839012702ce36cdea2d626",
                     "description": "Web Crawling Freshness: Age Metric"
                 },
                 {
                     "page": 34,
-                    "sha": "72054fc5e3e1458047fe6f69807c2be3da0111b4",
+                    "sha": "846e7409e00ec7bc93266b7f4df7f08c07517f7d",
                     "description": "Web Crawling Freshness: Age Metric"
                 },
                 {
                     "page": 35,
-                    "sha": "12020acdf29ed666ed936d51953d883ec34b87c6",
+                    "sha": "a8a597e0e17d7e682cbb3519e275d071c16e9aa3",
                     "description": "Web Crawling Freshness: Age Metric"
                 },
                 {
                     "page": 36,
-                    "sha": "23ccde79bb926e1518660e14501c6bbb3c900b83",
+                    "sha": "b231bb142f887a8820e53886cc4a267639b485f5",
                     "description": "Web Crawling Efficiency and Scalability"
                 },
                 {
                     "page": 37,
-                    "sha": "c44b0ffd0199f0d4308861cb4a8df3e5b56761aa",
+                    "sha": "312e6c21c8af2c25875ef52aa321153d01bdc86a",
                     "description": "Remarks:"
                 },
                 {
                     "page": 38,
-                    "sha": "65a6b2db6abdc165de692533cd79d4af20d8502b",
+                    "sha": "a68bd1ea3a83ad5c53e20de499b745dd88bf20c3",
                     "description": "Web Crawling Extensibility"
                 },
                 {
                     "page": 39,
-                    "sha": "613bf8c834b9cf21c05b18d16adcc359f31e107a",
+                    "sha": "ef9f4849df29d3911d0677a05a705a40624ba10e",
                     "description": "Link Analysis Hyperlinks"
                 },
                 {
                     "page": 40,
-                    "sha": "571c845c289112c99eeb83e85d4d70598422efb5",
+                    "sha": "fdf09891ddd254736b5a3a65f014c3f85456a13b",
                     "description": "Link Analysis Anchor Text"
                 },
                 {
                     "page": 41,
-                    "sha": "1a24c85fd5e05d7e9515a20bf564afb5ede2b269",
+                    "sha": "98dc86dd1dbd00d560152de29c14da9dda7267a3",
                     "description": "Remarks:"
                 },
                 {
                     "page": 42,
-                    "sha": "d2cb6834e8400f387ac3f97171e85a7ee0c06969",
+                    "sha": "59f10d5bdf26b1e4ade09e64e931a0947bb015ca",
                     "description": "Link Analysis PageRank"
                 },
                 {
                     "page": 43,
-                    "sha": "7ef060cb8246e498d3df7bf7d68c83514a36fa84",
+                    "sha": "2e2db3dcee73bc75d177477a909476ffd01fd4f8",
                     "description": "Link Analysis PageRank: Random Surfer Model"
                 },
                 {
                     "page": 44,
-                    "sha": "c13b86b39493a859b37e681f77696cab04598099",
+                    "sha": "497a54d61ae7926c9c76247b193f162f2c8f5985",
                     "description": "Link Analysis PageRank: Definition"
                 },
                 {
                     "page": 45,
-                    "sha": "757ed750d47a5129b95fb9fee8a610a00720c994",
+                    "sha": "2bc2761ca04e364a3c77471c5e8bd6febdbc8e11",
                     "description": "Link Analysis PageRank: Example"
                 },
                 {
                     "page": 46,
-                    "sha": "e1ba4cf550ddf823637365f3020737e60daac516",
+                    "sha": "cecd02336324c6f208c285a55c53537a3e768b02",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 47,
-                    "sha": "638f3c4ac5c8cb6ac1ab8fa0a9b14c27e93a545c",
+                    "sha": "6e0ec1c439306cb58efb5a373bd4aecdb8d83546",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 48,
-                    "sha": "aabd836affb1af462e7812a14cc7ea660b083c1f",
+                    "sha": "6fddfc0894c600b0ec2b5e772ea4e76bafc3660b",
                     "description": "Link Analysis Algorithm:"
                 },
                 {
                     "page": 49,
-                    "sha": "a9418caaf104a2ca08183525210e092d95855a63",
+                    "sha": "cb275a83adbbaa62944521c0f85b6533c31e05b1",
                     "description": "Link Analysis PageRank: Convergence"
                 },
                 {
                     "page": 50,
-                    "sha": "cacee3cbd2b2cb486a9dca10b6d3b5692501109a",
+                    "sha": "b525b487978758242713df21cda3f7f9418ec1ec",
                     "description": "Link Analysis PageRank: Variants"
                 }
             ]
         },
         "unit-en-argument-search": {
-            "sha": "475b58175b0a016a6e7edd0ba7a362824fbd3267",
-            "numpages": 109,
+            "sha": "d9bfd75543bd79680b2eadfcebf303f7a437de0a",
+            "numpages": 125,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "228bd7eabfb90e69b4f769bf3b04a818c24b55aa",
+                    "sha": "e4a8066f17496003fe0da184168d3bbf9a0e43d0",
                     "description": "Chapter IR:XI XI. IR Applications"
                 },
                 {
                     "page": 2,
-                    "sha": "802410f907db66adbc1937f073a777c66ddf342f",
+                    "sha": "8dace37c7b1582611fa58149982954866c02e2ec",
                     "description": ""
                 },
                 {
                     "page": 3,
-                    "sha": "36e1b8467526a8ed5ad0784ec4ed7bbeb181ddd8",
+                    "sha": "9e5bcc7db388a380a59e8c2fb784c904f7c3493a",
                     "description": ""
                 },
                 {
                     "page": 4,
-                    "sha": "bd50f4677d3fbeddadca980152463cbf7f1b87bb",
+                    "sha": "ac4c2a987c7c4b6901dbc7c6c024c8dbbd3453fb",
                     "description": "The Treachery of Answers Retrieving answers as a retrieval paradigm:"
                 },
                 {
                     "page": 5,
-                    "sha": "65bc297953f1f523c4f9d590f46bf6ec6ecf05d0",
+                    "sha": "0e3fc1eb5a909b21450d58e3256efcdf71a10de0",
                     "description": "The Treachery of Answers Retrieving answers as a retrieval paradigm:"
                 },
                 {
                     "page": 6,
-                    "sha": "c8491fc148c5ec9a4a44bac6390bf13fa778894c",
+                    "sha": "0b524f10a9f99010018a1fac32fc170f50002fe7",
                     "description": "The Treachery of Answers Retrieving answers as a retrieval paradigm:"
                 },
                 {
                     "page": 7,
-                    "sha": "fd6b7ee5fb7afd458f579a2b174c61c4e9ee197a",
+                    "sha": "8b1f9165336152d94508d7f06d0b54985b10c273",
                     "description": "The Treachery of Answers "
                 },
                 {
                     "page": 8,
-                    "sha": "48afb1b4167f59d20e0234726c797839e36531d9",
-                    "description": "Remarks:"
+                    "sha": "7ceef20a24e656880b4b29af3d0a251f005b6204",
+                    "description": "IR:XI-58 "
                 },
                 {
                     "page": 9,
-                    "sha": "6c78f277e7b910ce5e6f048dc5848af4fcdb6c93",
-                    "description": "Argument Retrieval Problems Basic Argument Model"
+                    "sha": "95ade260eabf67030b57c3eff6a6c85078737c18",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 10,
-                    "sha": "551e8fe7cdec1f8544f34914bd2a4a5e8203f42d",
+                    "sha": "f6a17a496a0c47496936cd409e170a26d163a2f9",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 11,
-                    "sha": "86018a3e537083c8fc8755973236972d2360b1ae",
+                    "sha": "85f77c1c7edca28f0d12ed04c88de1a4d113ed72",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 12,
-                    "sha": "a39adee9aca6333a89fd7c3bea8558a1d16fae91",
+                    "sha": "6ed50ed94ec1e3eede2a036960785c26282d9bbd",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 13,
-                    "sha": "9cf133293f07611bfa06550f44b836ffd84643f9",
+                    "sha": "3405fd25f8d4d5c0c0408dc8994d63c0caf48b3c",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 14,
-                    "sha": "076471357e776328994fd89565c345953f2a08cf",
+                    "sha": "e1e5d3a42bec54861d89b801cdabc05e9fccea76",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 15,
-                    "sha": "624a62e61558d7f707f8dea843cfd12fb137d476",
+                    "sha": "81d2a21568121b6b6572f926791758ac44b566d1",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 16,
-                    "sha": "475f785eb17c4369ba4dce620d80e8456bafabab",
+                    "sha": "a012b23bbc47a944eb5b5cb4616b2d9acbf52163",
                     "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 17,
-                    "sha": "2aea1cccd8d433b7bd0e29b62538b0f49ac97756",
-                    "description": "Argument Retrieval Problems (1) Argument Relevance \u03a0rel"
+                    "sha": "9e32d0386d02de891dbbf921c0f3f4cf3e421089",
+                    "description": "Argument Retrieval Problems Basic Argument Model"
                 },
                 {
                     "page": 18,
-                    "sha": "0460f2392f2aa557072a43b12a10826bebe4cbf8",
+                    "sha": "00499b7948a5f964ddb9a044f83901407a1013e7",
                     "description": "Argument Retrieval Problems (1) Argument Relevance \u03a0rel"
                 },
                 {
                     "page": 19,
-                    "sha": "2d449ac34b9b74547d8e4b9cd407e2660135ec9a",
+                    "sha": "e7c8dc03ebc3d8fca9cadb5c53eea1b2955fc299",
                     "description": "Argument Retrieval Problems (1) Argument Relevance \u03a0rel"
                 },
                 {
                     "page": 20,
-                    "sha": "c00129e0b7503a35f678fc800c294b7f8fcee37d",
-                    "description": "Argument Retrieval Problems (2) Argument Ranking \u03a0rank"
+                    "sha": "5834f30b9963e336f4f1bae7d3782c44ce83b04b",
+                    "description": "Argument Retrieval Problems (1) Argument Relevance \u03a0rel"
                 },
                 {
                     "page": 21,
-                    "sha": "7918b1877c23ceb536214d9b68515667e690a5be",
+                    "sha": "590d1ea8efda5f6cf052d7562b60a178b528d09f",
                     "description": "Argument Retrieval Problems (2) Argument Ranking \u03a0rank"
                 },
                 {
                     "page": 22,
-                    "sha": "bba285e4252d5838650f83b20e5e7c8a423a191c",
-                    "description": "Argument Retrieval Problems (3) \u2013 (7) Further Problems"
+                    "sha": "41e4eee739e4092fc32e4952f2311a3ca4a4478f",
+                    "description": "Argument Retrieval Problems (2) Argument Ranking \u03a0rank"
                 },
                 {
                     "page": 23,
-                    "sha": "1a34591b0ebee2fa93b4d03ebf1b736cab4bd814",
+                    "sha": "c7b7e9e13df6cd3d2d716c8ea0d9ecb8835eac62",
                     "description": "Argument Retrieval Problems (3) \u2013 (7) Further Problems"
                 },
                 {
                     "page": 24,
-                    "sha": "1d26b65a89a2bdcab65bcec0e15631858f2f8d7a",
-                    "description": "Chapter IR:XI XI. IR Applications"
+                    "sha": "34979cc373595e539b16a38601e12b3b1c39c2bd",
+                    "description": "Argument Retrieval Problems (3) \u2013 (7) Further Problems"
                 },
                 {
                     "page": 25,
-                    "sha": "705e1ae473a9d536408fcbadc550b635d8158810",
-                    "description": "Argument Ranking I "
+                    "sha": "eabdeadf6ce3508644f9747b76c3682bce183195",
+                    "description": "Chapter IR:XI XI. IR Applications"
                 },
                 {
                     "page": 26,
-                    "sha": "2b24a404965d618586885ba413a6513ca99f6288",
+                    "sha": "1b56fc4a17869e997053fd352490336e81179ce7",
                     "description": "Argument Ranking I "
                 },
                 {
                     "page": 27,
-                    "sha": "230be916461225f3a1dc5bfb30742e9569489a2a",
-                    "description": "Argument Ranking I Query Reintroduce death penalty?"
+                    "sha": "fce8d78b3d39e9956ae3a01ba2acad8ada097a0c",
+                    "description": "Argument Ranking I "
                 },
                 {
                     "page": 28,
-                    "sha": "19caa7131bf5a14672e1d71787c307fcb3c6b0f2",
+                    "sha": "4acbc37a1911a030bffb2d740dfb44d0be08e5a5",
                     "description": "Argument Ranking I Query Reintroduce death penalty?"
                 },
                 {
                     "page": 29,
-                    "sha": "69476a97ef24569900dddca72ea09a17bbf06861",
+                    "sha": "eb987e458355f33f8aedb98d808dc68e78d83b8b",
                     "description": "Argument Ranking I Query Reintroduce death penalty?"
                 },
                 {
                     "page": 30,
-                    "sha": "5f4acc27cb9533aa0763b4c966e018385fd5a7b0",
+                    "sha": "aaf745f84247b82702db9ce006c98cb926142650",
                     "description": "Argument Ranking I Query Reintroduce death penalty?"
                 },
                 {
                     "page": 31,
-                    "sha": "0ae647b03675c67046d309f319e7ab0e0176653e",
+                    "sha": "5a832e1c23724b988261d83ee9154ed64239b41b",
                     "description": "Argument Ranking I Query Reintroduce death penalty?"
                 },
                 {
                     "page": 32,
-                    "sha": "5f4dc9e8b5eae85a9b369d7f293773c048e10af2",
-                    "description": "Argument Ranking I X p(dj )"
+                    "sha": "33d203a8e7b448563a2747c8547a98d6a2fcaeaf",
+                    "description": "Argument Ranking I Query Reintroduce death penalty?"
                 },
                 {
                     "page": 33,
-                    "sha": "3765ffe4d81f2befb2947d7a2bbccd109a79a080",
+                    "sha": "8071abef86691e5af8a204d668e0583651f000c2",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 34,
-                    "sha": "0c2e039a1b4fe359e8e9585269488e3bae0b09d2",
+                    "sha": "3aa0d51a2c432a6323622a7dcf6fb587d2b682af",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 35,
-                    "sha": "507f9d3c22b43141542c10ee006528e089fb1c24",
+                    "sha": "804d1985581ef5bb08cd03fcd16867ddde3be8bc",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 36,
-                    "sha": "3485efa9b048645286f926846066489978c74724",
+                    "sha": "69439786bc480e13a57464b5b3e4b2ec881785ae",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 37,
-                    "sha": "d33f66ac2dcfdd00065aee4496d8db958337ab41",
+                    "sha": "eee43b555a5a17a0ce4e19fcaa24d5b6b1543ab2",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 38,
-                    "sha": "c9e30f2b06c63fbcd72c1f5bc9745fc32c32c396",
+                    "sha": "43a761bb747dc7ffc5899cb1aa58c11d0dc0710d",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 39,
-                    "sha": "ecdbb0f7a5b8bdc3e8e27d0ae4a78ef02f5991c3",
+                    "sha": "79586157437e02b5c583b0f680c2f8310a54192b",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 40,
-                    "sha": "f9b48efe05f8668ea042228fbd6723585f549487",
+                    "sha": "3a1e1a4d8be2a28553aaa20e89cd5de185008aab",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 41,
-                    "sha": "5cba69594608da157b93d72e4892a96472a0688e",
+                    "sha": "719565569ab06f3e43729206a7a6574c3637dd70",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 42,
-                    "sha": "e172bdb9196d5e28baca5ebc8b8e32eae8ba2694",
+                    "sha": "52d5861fab399a408c23d5749a78de06c97fae9b",
                     "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 43,
-                    "sha": "adda0c87b13ee7586cf39a040637610b783c405a",
-                    "description": "Argument Ranking I From Premise Scores to Argument Ranks"
+                    "sha": "344bd8ecb018afe559e51ff8bf4dbacb94fc4f78",
+                    "description": "Argument Ranking I X p(dj )"
                 },
                 {
                     "page": 44,
-                    "sha": "d376f2a2a8d9115f67da2eedc9565ee07bd1a933",
+                    "sha": "e69410547b83b17879975007e7ec8fdf38fb7e71",
                     "description": "Argument Ranking I From Premise Scores to Argument Ranks"
                 },
                 {
                     "page": 45,
-                    "sha": "5bbbdbf875970739270702d33a0ada912c66b2be",
-                    "description": "Argument Ranking I Case Study: Graph Construction"
+                    "sha": "6b42b3da0f52f45265f4dc81593aaddf0e426223",
+                    "description": "Argument Ranking I From Premise Scores to Argument Ranks"
                 },
                 {
                     "page": 46,
-                    "sha": "819d59287e4ac0557258eb37b9a7598fe00528ea",
+                    "sha": "32e83c3af513ace2d244a78c1b5c34ed0ef2288c",
                     "description": "Argument Ranking I Case Study: Graph Construction"
                 },
                 {
                     "page": 47,
-                    "sha": "8b47ac18a9373097f5f3857c849e32adfd0a6c09",
-                    "description": "Argument Ranking I Case Study: Results"
+                    "sha": "de921ffc1e5653c4d389e9c97d57f68fe3ab7294",
+                    "description": "Argument Ranking I Case Study: Graph Construction"
                 },
                 {
                     "page": 48,
-                    "sha": "cfd62b3995c4d5cd0cea1eebfe3d488fcd1a4cfa",
+                    "sha": "a718ffd79b77fcfd59d94687f13d998ffda75db3",
                     "description": "Argument Ranking I Case Study: Results"
                 },
                 {
                     "page": 49,
-                    "sha": "324bd538fd8c9506711539170c6b84a963eec2d6",
+                    "sha": "9d9f4bf72c543f1d1d25575df0dd2b5edf5815e2",
                     "description": "Argument Ranking I Case Study: Results"
                 },
                 {
                     "page": 50,
-                    "sha": "8561c9298c3e690c258a6559874e407d83722ef1",
+                    "sha": "027ca99711eac9029745bc73e97a29fc2c385627",
                     "description": "Argument Ranking I Case Study: Results"
                 },
                 {
                     "page": 51,
-                    "sha": "2cded7e53c35f3493bc9efd08957b502e912f4e0",
+                    "sha": "c92fa917d26196e45c52bac42a0308b88e1b12b3",
                     "description": "Argument Ranking I Case Study: Results"
                 },
                 {
                     "page": 52,
-                    "sha": "7a83ee7d8e445fe954537d0421ae20ff51b37f1b",
+                    "sha": "abcd4df954daaabb0e51360751644c5267157a81",
                     "description": "Argument Ranking I Case Study: Results"
                 },
                 {
                     "page": 53,
-                    "sha": "899a0b095dc48b3fa3d4fb9e2ab22c6366ed6f87",
-                    "description": "Argument Ranking II "
+                    "sha": "68feebc8a792558a5c8661188406b1aad3df256f",
+                    "description": "Argument Ranking I Case Study: Results"
                 },
                 {
                     "page": 54,
-                    "sha": "b4f3283c79cdd361d9d71d710336197b62ee7468",
+                    "sha": "7d6f45209fb16727382932547b7a3f0dedaa22b0",
                     "description": "Argument Ranking II "
                 },
                 {
                     "page": 55,
-                    "sha": "9f2ab218fedb5cd3d16c90327e0e867dfc7154aa",
-                    "description": "Argument Ranking II \u2217"
+                    "sha": "6ff8806b74483ccd4bcfac274ac1f54b08f68f56",
+                    "description": "Argument Ranking II "
                 },
                 {
                     "page": 56,
-                    "sha": "d1305a9536c9761f75c981781f7c69491cee7aaf",
+                    "sha": "06151d80a223e6587a142c61eb10fc79ad832c5d",
                     "description": "Argument Ranking II \u2217"
                 },
                 {
                     "page": 57,
-                    "sha": "755636b295caf1756d0bce6c909d43d97e319b38",
-                    "description": "Argument Ranking II Corpus and Analysis"
+                    "sha": "95d6f8270c6b5153d1840964012929118cba9e9d",
+                    "description": "Argument Ranking II \u2217"
                 },
                 {
                     "page": 58,
-                    "sha": "08f5c262cab4bf0be291dea6ab0c1efd25328a6c",
+                    "sha": "2aef937b3bda28c1d292b6100d66c57a99b869d5",
                     "description": "Argument Ranking II Corpus and Analysis"
                 },
                 {
                     "page": 59,
-                    "sha": "93fd9c7c86d168a510e188d4d1b0e8398f1bbf0c",
-                    "description": "Chapter IR:XI XI. IR Applications"
+                    "sha": "349164df79b6cb0a1a8de638280b29a4d8d1fbf4",
+                    "description": "Argument Ranking II Corpus and Analysis"
                 },
                 {
                     "page": 60,
-                    "sha": "2ad32da9eda8c8875b5adb0cb3fc182df6641f40",
-                    "description": "Argumentation-Related Resources "
+                    "sha": "cc01812dae3934b47daac9024da1f0ef5e786475",
+                    "description": "Chapter IR:XI XI. IR Applications"
                 },
                 {
                     "page": 61,
-                    "sha": "af4d0ba5c20577697fb3cbca8cda338875175860",
-                    "description": "Argumentation-Related Resources \u2217"
+                    "sha": "2c5bab7f4a4cc0cf01325b793d176b27906ad000",
+                    "description": "Argumentation-Related Resources "
                 },
                 {
                     "page": 62,
-                    "sha": "adee9b7f4a5f063869e2b7ec8cc0227381e91537",
+                    "sha": "4b00f2e59b2c82e72e1f3c56d49bb3260cbbca9d",
                     "description": "Argumentation-Related Resources \u2217"
                 },
                 {
                     "page": 63,
-                    "sha": "65f1153f8a62077b7f8ba2e71072aea1508b9974",
+                    "sha": "89af1863a8f3ca24645a47e06d5712e14c841aa4",
                     "description": "Argumentation-Related Resources \u2217"
                 },
                 {
                     "page": 64,
-                    "sha": "c086bde3d2ec5511f4dc67e6918b8841eef0efdd",
+                    "sha": "efcc33d5483cce36e97e0f79423bb22c5acc30c6",
                     "description": "Argumentation-Related Resources \u2217"
                 },
                 {
                     "page": 65,
-                    "sha": "087188a6882617e0422eb471fa9a739fb9577e32",
+                    "sha": "fee0e5a135b7edb5c9b4d3f79ee6abacbdca9f3f",
                     "description": "Argumentation-Related Resources \u2217"
                 },
                 {
                     "page": 66,
-                    "sha": "0d9e898ab09b8d188a26e7c87acdbbf206dd04f0",
+                    "sha": "5e7d4b5d09a8daf7b0fee2b991a3eec7b2079570",
                     "description": "Argumentation-Related Resources \u2217"
                 },
                 {
                     "page": 67,
-                    "sha": "1c373916420206e04dcd7ff59c7ef1642f26cec4",
-                    "description": "Argumentation-Related Resources The Argument Web"
+                    "sha": "a42a890c4b6251fa71f67f658057f1794fbd71e1",
+                    "description": "Argumentation-Related Resources \u2217"
                 },
                 {
                     "page": 68,
-                    "sha": "31dc61235049a87e4da431220e6e7dca5a8ed94a",
+                    "sha": "a58e84225bcac6201800244a41e24eb0d8a66d14",
                     "description": "Argumentation-Related Resources The Argument Web"
                 },
                 {
                     "page": 69,
-                    "sha": "49db4015c9b9911ada82876d13f11516b4c1f84c",
-                    "description": "Argument Search Engines Vision of Argument Search"
+                    "sha": "77e5975679dae91c90985e06db4b0f12c9b958a1",
+                    "description": "Argumentation-Related Resources The Argument Web"
                 },
                 {
                     "page": 70,
-                    "sha": "e35de12ffb404f00cda9841e871d7a13b0c3308e",
-                    "description": "Argument Search Engines* Vision of Argument Search"
+                    "sha": "72eb6016eb0759b06faf83f74226998eaa1ba566",
+                    "description": "Argument Search Engines Vision of Argument Search"
                 },
                 {
                     "page": 71,
-                    "sha": "22b2e1e86b3abc9da7bfe3bc1cd5dc5e114629d5",
-                    "description": "Argument Search Engines Basic Elements and Process"
+                    "sha": "51b924486d92c5d3f56bd9591331a632dc9944e8",
+                    "description": "Argument Search Engines* Vision of Argument Search"
                 },
                 {
                     "page": 72,
-                    "sha": "e99dcf3aadfb49486670035587108a929b435e32",
+                    "sha": "7d9e4a2eccfac6009a050ee0df21359cd7586073",
                     "description": "Argument Search Engines Basic Elements and Process"
                 },
                 {
                     "page": 73,
-                    "sha": "48188745d7548ef724bcb830fc5a65b199f44040",
+                    "sha": "a55a03feeaacf04cbb118ff07b9ee12c703d5286",
                     "description": "Argument Search Engines Basic Elements and Process"
                 },
                 {
                     "page": 74,
-                    "sha": "276c86b9fe85319b67d28e4d7d56a3cf3d722a5f",
+                    "sha": "7c083f60a0ab1c8aca71ceb8d69133018a1990c1",
                     "description": "Argument Search Engines Basic Elements and Process"
                 },
                 {
                     "page": 75,
-                    "sha": "365d249dea1f9e4fccaff7adf23487fbefeba408",
-                    "description": "Argument Search Engines Acquisition Paradigms: (a) args.me"
+                    "sha": "fc4b7ba6a55dc54c845f0a0f6bb4238447bdcc42",
+                    "description": "Argument Search Engines Basic Elements and Process"
                 },
                 {
                     "page": 76,
-                    "sha": "fccd173039df2d2bf6738526fdecc8219261cda4",
-                    "description": "Argument Search Engines Acquisition Paradigms: (b) IBM Debater"
+                    "sha": "37a88bc834393d568707a4f2c5c2098d57bd2066",
+                    "description": "Argument Search Engines Acquisition Paradigms: (a) args.me"
                 },
                 {
                     "page": 77,
-                    "sha": "51c5ff396f8e3929203ff68591bdf86cccb0e666",
-                    "description": "Argument Search Engines Acquisition Paradigms: (c) ArgumenText"
+                    "sha": "dcd600d3d1a9f48f1c6e8a9fcfe197065dd3d38e",
+                    "description": "Argument Search Engines Acquisition Paradigms: (b) IBM Debater"
                 },
                 {
                     "page": 78,
-                    "sha": "bb34d31df86954f488d59c3254919f6a2bc2cf18",
-                    "description": "Argument Search Engines Ranking Paradigms in IR"
+                    "sha": "2dedc799de6358a8f2a2c9ed8e9c0b264e2f0665",
+                    "description": "Argument Search Engines Acquisition Paradigms: (c) ArgumenText"
                 },
                 {
                     "page": 79,
-                    "sha": "73c33156afce8e0618fd643c241ca09578c6c2e3",
+                    "sha": "57c408aabff005e10b6deed52f7eccc5510808e4",
                     "description": "Argument Search Engines Ranking Paradigms in IR"
                 },
                 {
                     "page": 80,
-                    "sha": "62b97da4d42fb4e1d0b89193bd7bc9476dce7948",
+                    "sha": "6621731cbfc146464df780d7aa89e79dce2f98ff",
                     "description": "Argument Search Engines Ranking Paradigms in IR"
                 },
                 {
                     "page": 81,
-                    "sha": "a49f0d653f25571465873ce4f842096518ec0c99",
-                    "description": "Argument Search Engines More on Args"
+                    "sha": "36aa47e306b4d4d43fd60c7f06da39e4717b3c89",
+                    "description": "Argument Search Engines Ranking Paradigms in IR"
                 },
                 {
                     "page": 82,
-                    "sha": "8ff2584ca531b92fea6f0464daa778fd17f6b997",
+                    "sha": "72d0792f60d324b9e2918fc2b47abadbf12cfbd8",
                     "description": "Argument Search Engines More on Args"
                 },
                 {
                     "page": 83,
-                    "sha": "16eced06067795d94920795074a859b9283f9ae7",
-                    "description": "Argument Search Engines Presentation and Analytics"
+                    "sha": "883e69f7130296e876d334811d46a60ef507b55f",
+                    "description": "Argument Search Engines More on Args"
                 },
                 {
                     "page": 84,
-                    "sha": "08d624b3d10a7397db505bf8dd5e83fd2b1f79db",
+                    "sha": "530599615c86f01b1a0f1ec6f6a0d9fb43ddd176",
                     "description": "Argument Search Engines Presentation and Analytics"
                 },
                 {
                     "page": 85,
-                    "sha": "e98b5cf6970a3f010b370a39a40206359bd76eb9",
+                    "sha": "3b854f2254ff68ac950479392c995e122b5535ab",
                     "description": "Argument Search Engines Presentation and Analytics"
                 },
                 {
                     "page": 86,
-                    "sha": "4d0bb68b9a276eb7b1ef8b1c4084130f2a1ff743",
-                    "description": "Chapter IR:XI XI. IR Applications"
+                    "sha": "392e8ec449ad521a1ad5c43597990f9d8e98a65c",
+                    "description": "Argument Search Engines Presentation and Analytics"
                 },
                 {
                     "page": 87,
-                    "sha": "bb88a5f8a05bc4caf99a169008a7ed0bc8db309f",
-                    "description": "Argument Search Evaluation Same Side Stance Classification"
+                    "sha": "a8d2647d3f700de9bfd011fe20992ef2fb4b7e54",
+                    "description": "Chapter IR:XI XI. IR Applications"
                 },
                 {
                     "page": 88,
-                    "sha": "88357e210e9a7f5c1d2ecd7b1525a3c33a4dbb60",
-                    "description": "Argument Search Evaluation Same Side Stance Classification"
+                    "sha": "941a71ee3e4151d6fb2cf0333756b6afc55534b0",
+                    "description": "SameSide @ ArgMining 2019 1st Shared Task on Same Side Stance Classification"
                 },
                 {
                     "page": 89,
-                    "sha": "e0ace2b34b81c3cd3d7fe14e114341dfb3ee7474",
-                    "description": "Argument Search Evaluation Same Side Stance Classification"
+                    "sha": "18113445587a14ca220ce87ee7f0bdd2d731a3b8",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification"
                 },
                 {
                     "page": 90,
-                    "sha": "7e3989849bcbf54fb4b90b988bb72d70c720a572",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Task Rationale"
+                    "sha": "ed39cc69332875be0fc735e2c3fe686f025cb0af",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification"
                 },
                 {
                     "page": 91,
-                    "sha": "ad66aba51c5cc3599af07c7fa899b837252b33a4",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Tasks Details"
+                    "sha": "d17e521ec7744b296b251f942781f8e83cf5aa59",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification"
                 },
                 {
                     "page": 92,
-                    "sha": "0d064731bf5383ba3f910b6d5f49789a89a548a0",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Tasks Details"
+                    "sha": "7153edc39d767eb8ca324d16558cb5a8769b0921",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Task Rationale"
                 },
                 {
                     "page": 93,
-                    "sha": "ca3abb6a98f2f2025af6b0595bfbc43f1091483f",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "7c004f7d87d7e10323e74550a7be8c17a087fb34",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Tasks Details"
                 },
                 {
                     "page": 94,
-                    "sha": "ee597fde4f4ddce3f4188edafaba301608c9c8b7",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "39980c69a01ba660004dc5b636adb48abcaedddc",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Tasks Details"
                 },
                 {
                     "page": 95,
-                    "sha": "3c6f362912ce571332d749872dd46d8aad466629",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "83fc4d9ccc16404bd07a8fae26bdb94bb4dcda41",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 96,
-                    "sha": "94a1e1f35b2b14d4c16726344463274f149468db",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "73154d0b12aae403b43b55f6c55c6f8cef426410",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 97,
-                    "sha": "89ecf7fbccb40be274d3ee1188560d6a43209f41",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "5fa397a1974430857cf1e6800e4fa74dbb09b630",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 98,
-                    "sha": "5fac7717f12aebd0a7b49e44c9ae244365e606f8",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "3836d594e61b8870acd75b108d12be653217cee5",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 99,
-                    "sha": "e0b14d64f1ccaf6bda3231099fb6f6a00f846deb",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "0c86ba2e3b28a26a029447ec65e1331ba44b57b0",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 100,
-                    "sha": "54f595e6bd7068e66f625dc20e2aa940ce8b58fa",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "8f42aa604cd8a3179e78bbf8052c3415ba8a0c7a",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 101,
-                    "sha": "5f9c713b7507304b25de62bda63b7b94135026ef",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "a99221059c31857060f0572edc2dc9c828adc3e7",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 102,
-                    "sha": "7f0231219dff2caa48a5bc3eadc07c6ed1cbe760",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cWithin Domain\u201d"
+                    "sha": "fdf424eca14521940f7ee3b2d6516129a8d041eb",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 103,
-                    "sha": "e61b1dc819cc3497da47aae1ad5b9e2f9a66390f",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cCross Domain\u201d"
+                    "sha": "a98fc6cffd95fa327ec36989545739b0ded75bc6",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 104,
-                    "sha": "1c6212288344591fa24ea073abae8bd926282ecc",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cCross Domain\u201d"
+                    "sha": "bd4ea6c9a24f1ec2267ba3a3872b412704a70e15",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cWithin Domain\u201d"
                 },
                 {
                     "page": 105,
-                    "sha": "e0666a4a88b2fbe8e9b0595a97f6d62e06c8d490",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cCross Domain\u201d"
+                    "sha": "040186d8af03a51bd9fea448ae14256bc71f7e1d",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cCross Domain\u201d"
                 },
                 {
                     "page": 106,
-                    "sha": "f18f03afe8d91224beabb59445537e3e6c6cca27",
-                    "description": "Argument Search Evaluation Same Side Stance Classification: Results \u201cCross Domain\u201d"
+                    "sha": "8aab0a1f23bfb1f0b99ea8bda6ec5164e2ec8712",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cCross Domain\u201d"
                 },
                 {
                     "page": 107,
-                    "sha": "9093f63c5f647bb017b4ebb0cde9928c01d2f9de",
-                    "description": "Argument Search Evaluation Argument Retrieval Task @ CLEF 2020"
+                    "sha": "d65e3dd60b46c7542ef4c22213eca578943b629f",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cCross Domain\u201d"
                 },
                 {
                     "page": 108,
-                    "sha": "c09203a2527984e37dfe309fc6fb74fb39cad440",
-                    "description": "Argument Search Evaluation Argument Retrieval Task @ CLEF 2020"
+                    "sha": "bbbd2d75e3419f4941cbb311efd099cba8c15da1",
+                    "description": "Argument Search Evaluation I Same Side Stance Classification: Results \u201cCross Domain\u201d"
                 },
                 {
                     "page": 109,
-                    "sha": "6f278821b0b7f3ccfe8070fcc5634546484744fe",
+                    "sha": "57270fd88e500cd5f93a84f5ee08f5481811abec",
                     "description": "Touch\u00e9 @ CLEF 2020 1st Shared Task on Argument Retrieval"
+                },
+                {
+                    "page": 110,
+                    "sha": "be862e9ce704f1d39297f633f120c83a6240c6cf",
+                    "description": "Argument Search Evaluation II Argument Retrieval Task @ CLEF 2020"
+                },
+                {
+                    "page": 111,
+                    "sha": "44b7a96bbad6fee8054c2c0b4e3a56b11954e651",
+                    "description": "Argument Search Evaluation II Argument Retrieval Task @ CLEF 2020"
+                },
+                {
+                    "page": 112,
+                    "sha": "4cb5782dea2ce2ffdc2fbb740f6d1874739f2ff0",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 113,
+                    "sha": "20ed835bbcc56773b3240e08262580e2ffeff3d1",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 114,
+                    "sha": "33d61e727dd27e6b577deea2ab1b20f510f96e3f",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 115,
+                    "sha": "23a66f13668cd6914d8b4eb37e34e00bdde1b401",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 116,
+                    "sha": "2861792fb76a5eee31478f2f0fa92a9842317d77",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 117,
+                    "sha": "5a71d7dfd74a8efa82d168d67bb5de8d56a393f2",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 118,
+                    "sha": "ff96f4f11fb97a3c78e94199e0183928dbd8ef63",
+                    "description": "Argument Search Evaluation II Supporting Argumentative Conversations: Results"
+                },
+                {
+                    "page": 119,
+                    "sha": "73e1242717af0bd61e31180d64aec0a5e163a59c",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
+                },
+                {
+                    "page": 120,
+                    "sha": "dc259c9564b3d3d238a6d47aff8cf16b7f9adbe1",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
+                },
+                {
+                    "page": 121,
+                    "sha": "7ae1f27f2ab2acde346ca42af470ece627705594",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
+                },
+                {
+                    "page": 122,
+                    "sha": "1ddbf59ca93926042a34450490ca152e623d7ae7",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
+                },
+                {
+                    "page": 123,
+                    "sha": "9db303ed759b7ca5b75998cf9c373497f5b8d2f8",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
+                },
+                {
+                    "page": 124,
+                    "sha": "e26b72b113ecbf38ffd97578db4e01be3660329c",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
+                },
+                {
+                    "page": 125,
+                    "sha": "13bbec1a513e6323b2e97c2bbdac05a2271c903e",
+                    "description": "Argument Search Evaluation II Answering Comparative Questions with Arguments: Results"
                 }
             ]
         }
