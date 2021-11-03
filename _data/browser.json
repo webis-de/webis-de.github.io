@@ -23417,8 +23417,8 @@
             "unit-en-ml-introduction",
             "unit-en-ml-elements",
             "unit-en-ml-syntax-overview",
-            "unit-en-linear-regression",
             "unit-en-concept-learning",
+            "unit-en-regression-for-classification",
             "unit-en-evaluating-effectiveness",
             "unit-en-logistic-regression",
             "unit-en-regularization",
@@ -26588,7 +26588,7 @@
                 }
             ]
         },
-        "unit-en-linear-regression": {
+        "unit-en-regression-for-classification": {
             "sha": "ee470add13aecc633e75d0d8bcd4ab3f9ce01c94",
             "numpages": 46,
             "pages": [
