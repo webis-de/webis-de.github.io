@@ -83,7 +83,8 @@ shared_tasks: 3
 
         <ul>
             <li>Task: Given a comparative topic and a collection of documents, the task is to retrieve relevant argumentative passages for either compared object or for both and to detect their respective stances with respect to the object they talk about.</li>
-            <li>Input: [Document corpus will be provided not later than mid November].<!--[<a href="https://www.chatnoir.eu/doc/">data</a>]--></li>
+            <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">document collection</a>]</li>
+            <li>Input: [<a href="">stance detection (dataset will be added until mid November)</a>]</li>
             <li>Submission: [<a href="https://www.tira.io/task/touche-task-2/">submit</a>]</li>
         </ul>
 
@@ -117,7 +118,7 @@ shared_tasks: 3
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/narrative&#62;<br>
                         &nbsp;&nbsp;&nbsp;&#60;/topic&#62;<br><br></p>
                         
-        <p><strong>The corpus</strong> for Task 2 is the <a href="">collection of 1.2 million text passages</a> (will be published not later than mid November).</p>
+        <p><strong>The corpus</strong> for Task 2 is the <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">collection</a> of about 0.9 million text passages.</p>
                         
         <h3>Touché 2021 Results</h3>
         
@@ -140,9 +141,11 @@ shared_tasks: 3
         SECTION Evaluation
         -->
         <h2 id="evaluation">Evaluation</h2>
-        <p>Be sure to retrieve documents that comprise convincing argumentation for or against one option or the other. Our human assessors will label the retrieved documents manually, both for their general topical relevance and for the rhetorical quality, i.e., "well-writtenness" of the document: (1) whether a document contains arguments (i.e., argumentative support is provided) and whether the text has a good style of speech (formal language is preferred over informal), (2) whether the text has a proper sentence structure and is easy to read and follow, whether it can be well understood, (3) whether it includes profanity, has typos, and makes use of other detrimental style choices.</p>
+        <p>Be sure to retrieve relevant documents that comprise convincing argumentation for or against one option or the other. Our human assessors will label the retrieved documents manually, both for their general topical relevance and for the rhetorical quality, i.e., "well-writtenness" of the document: (1) whether a document contains arguments (i.e., argumentative support is provided) and whether the text has a good style of speech (formal language is preferred over informal), (2) whether the text has a proper sentence structure and is easy to read and follow, whether it can be well understood, (3) whether it includes profanity, has typos, and makes use of other detrimental style choices.</p>
         
-	The format of the relevance/quality judgment file:<br><br>
+        <p>Additionally, classify the stance of the retrieved text passages towards the compared objects in questions. For instance, in the question <i>Who is a better friend, a cat or a dog?</i>  the terms <i>cat</i> and <i>dog</i> are the comparison objects. An answer candidate like <i>Cats can be quite affectionate and attentive, and thus are good friends</i> should be classified as pro the <i>cat</i> object, while <i>Cats are less faithful than dogs</i> as supporting the <i>dog</i> object.</p>
+        
+	The format of the relevance / quality judgment files from Touché 2020 and 2021:<br><br>
         <code>qid 0 doc rel</code><br><br>
         With:
 		<ul>
@@ -151,7 +154,7 @@ shared_tasks: 3
 		        <li><code>doc</code>: The document ID ("trec_id" if you use ChatNoir or the official ClueWeb12 ID).</li>
 		        <li><code>rel</code>: The relevance judgment: 0 (not relevant) to 3 (highly relevant). The quality judgment: 0 (low, or no arguments) to 3 (high).</li>
 		</ul>
-      	<p>You can use the corresponding <a href="./evaluate.py">evaluation script</a> to evaluate your run using the relevance judgments.</p>
+      	<p>You can use the corresponding <a href="./evaluate.py">evaluation script</a> for evaluation using the relevance judgments.</p>
 	<!--
         SECTION Submission
         -->
