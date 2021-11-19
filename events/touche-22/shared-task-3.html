@@ -61,8 +61,8 @@ SECTION Synopsis
 <h2 id="synopsis">Synopsis</h2>
 <ul>
 <li>Task: Given a controversial topic, the task is to retrieve images (from web pages) for each stance (pro/con) that show support for that stance.</li>
-<li>Input: [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>] [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/training-qrels.txt">training judgements</a>]</li>
-<li>Evaluation: [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/topics.xml">topics</a>]</li>
+<li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/">collection</a>] [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/training-qrels.txt">training judgements</a>]</li>
+<li>Evaluation: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/topics.xml">topics</a>]</li>
 <li>Submission: [baseline] [verifier] [tira] (coming soon)</li>
 </ul>
 
@@ -73,8 +73,8 @@ SECTION Data
 -->
 <h2><a id="data"></a>Data</h2>
 <p>
-This task uses a focused crawl of about 20,000 images (and associated web pages) as document collection. See the collection's <a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/README.txt">README</a> for more information on its contents. We may still modify the collection until the end of 2021 based on feedback and own considerations. The collection also contains a small set of training judgements for quick testing (file format explained in the <a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/README.txt">README</a>).
-[<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/">collection</a>] [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/training-qrels.txt">training judgements</a>]
+This task uses a focused crawl of about 20,000 images (and associated web pages) as document collection. See the collection's <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/README.txt">README</a> for more information on its contents and file formats. We may still modify the collection until the end of 2021 based on feedback and own considerations. The collection also contains a small set of training judgements for basic testing.
+[<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/">collection</a>] [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/training-qrels.txt">training judgements</a>]
 </p>
 
 <!--
@@ -82,20 +82,8 @@ SECTION Evaluation
 -->
 <h2><a id="evaluation"></a>Evaluation</h2>
 <p>
-Systems are evaluated on Touché topics 1–50 by the ratio of relevant images among 20 retrieved images (Precision) for each topic, namely 10 images for each stance (file format explained in the <a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/README.txt">README</a>). [<a href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/2022-task3/topics.xml">topics</a>]
+Systems are evaluated on Touché topics 1–50 by the ratio of relevant images among 20 retrieved images (Precision) for each topic, namely 10 images for each stance (file format explained in the <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/README.txt">README</a>). [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/topics.xml">topics</a>]
 </p>
-<!--
-The format of the relevance/quality judgment file:<br><br>
-<code>qid 0 doc rel</code><br><br>
-With:
-<ul>
-<li><code>qid</code>: The topic number.</li>
-<li><code>0</code>: Unused, always 0.</li>
-<li><code>doc</code>: The document ID (the official args.me ID).</li>
-<li><code>rel</code>: The relevance judgment: -2 non-argument (spam), 0 (not relevant) to 3 (highly relevant). The quality judgment: 0 (low) to 3 (high).</li>
-</ul>
-<p>You can use the corresponding <a href="./evaluate.py">evaluation script</a> to evaluate your run using the relevance judgments.</p>
--->
 
 <!--
 SECTION Submission
