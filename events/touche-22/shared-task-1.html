@@ -157,16 +157,17 @@ shared_tasks: 3
         -->
         <h2><a id="submission"></a>Submission</h2>
         <p>We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility. Please also have a look at our <a href="#tira-quickstart">TIRA quickstart</a>&#8212;in case of problems we will be able to assist you. Even though the preferred way of run submission is TIRA, in case of problems you may also submit runs via email. We will try to quickly review your TIRA or email submissions and provide feedback.<br><br>
-Runs may be either automatic or manual. An automatic run must not "manipulate" the topic titles via manual intervention. A manual run is anything that is not an automatic run. Upon submission, please let us know which of your runs are manual. For each topic, include up to 1,000 retrieved documents. Each team can submit <strong>up to 5</strong> different runs.
+Runs may be either automatic or manual. An automatic run must not "manipulate" the topic titles via manual intervention. A manual run is anything that is not an automatic run. Upon submission, please let us know which of your runs are manual. For each topic, include up to 1,000 retrieved sentence pairs. Each team can submit <strong>up to 5</strong> different runs.
                 </p>
                 <p class="uk-text-left">
                         The submission format for the task will follow the standard TREC format:<br><br>
-                        <code>qid Q0 pair rank score tag</code><br><br>
+                        <code>qid stance pair rank score tag</code><br><br>
 
                         With:
                         <ul>
                                 <li><code>qid</code>: The topic number.</li>
-                                <li><code>Q0</code>: Unused, should always be Q0.</li>
+                                <li><code>stance</code>: The stance of the sentence pair ("PRO" or "CON").</li>
+                                <!-- <li><code>Q0</code>: Unused, should always be Q0.</li> -->
                                 <li><code>pair</code>: The pair of sentence IDs (from the provided version of the args.me corpus) returned by your system for the topic <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
                                 <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order: it is important to handle tie scores.</li>
@@ -177,10 +178,14 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
 
                                 An example run for Task 1 is:<br><br>
 
-                                <code>1 Q0 Sf9294c83-Af186e851_sent1,Sf9294c83-A9a4e056e_sent3 1 17.89 myGroupMyMethod</code><br>
-                                <code>1 Q0 Sf9294c83-A9a4e056e_sent2,Sf9294c83-A9a4e056e_sent4 2 16.43 myGroupMyMethod</code><br>
-                                <code>1 Q0 S96f2396e-Aaf079b43_sent1,Sf9294c83-Af186e851_sent5 3 16.42 myGroupMyMethod</code><br>
-                                <code>...</code> </p>
+                                <code>1 PRO Sf9294c83-Af186e851_sent1,Sf9294c83-A9a4e056e_sent3 1 17.89 myGroupMyMethod</code><br>
+                                <code>1 PRO Sf9294c83-A9a4e056e_sent2,Sf9294c83-A9a4e056e_sent4 2 16.43 myGroupMyMethod</code><br>
+                                <code>1 CON S96f2396e-Aaf079b43_sent1,Sf9294c83-Af186e851_sent5 3 16.42 myGroupMyMethod</code><br>
+                                <code>...</code> 
+                    <br>
+                    <strong>Note:</strong> If you do not have stance information, use <code>Q0</code> as the value in the stance column.
+                    </p>
+                        
 
         <!--
         SECTION TIRA Quickstart
