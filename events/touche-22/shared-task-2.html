@@ -83,7 +83,7 @@ shared_tasks: 3
 
         <ul>
             <li>Task: Given a comparative topic and a collection of documents, the task is to retrieve relevant argumentative passages for either compared object or for both and to detect their respective stances with respect to the object they talk about.</li>
-            <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">collection</a>] [<a href="">stance detection (dataset will be added until mid November)</a>]</li>
+            <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">collection</a>] [<a href="">stance detection (dataset will be added in December)</a>]</li>
             <li>Submission: [<a href="https://www.tira.io/task/touche-task-2/">submit</a>]</li>
         </ul>
 
@@ -112,9 +112,9 @@ shared_tasks: 3
                         &nbsp;&nbsp;&nbsp;&#60;topic&#62;<br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;number&#62;25&#60;/number&#62;<br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;Which browser is better, Internet Explorer or Firefox?&#60;/title&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;objects&#62;Internet Explorer, Firefox&#60;/objects&#62;<br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;A windows user wants to decide whether to use the default Internet Explorer or go for Firefox as alternative and seeks for information to compare them in multiple different aspects such as security and privacy, performance, ease of use, reliability, etc.&#60;/description&#62;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;narrative&#62;Highly relevant documents discuss in detail pros and cons of both web browsers by contrasting their characteristics and features. This comparison may contain technical details but also personal opinions. A relevant document may explicitly state what are the good/bad features of either the Internet Explorer or the Firefox browser without a clear comparison. Documents that include only descriptions of browser war or historical background how the browsers evolved, etc. are not relevant.<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/narrative&#62;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;narrative&#62;Highly relevant documents discuss in detail pros and cons of both web browsers by contrasting their characteristics and features. This comparison may contain technical details but also personal opinions. A relevant document may explicitly state what are the good/bad features of either the Internet Explorer or the Firefox browser without a clear comparison. Documents that include only descriptions of browser war or historical background how the browsers evolved, etc. are not relevant.&#60;/narrative&#62;<br>
                         &nbsp;&nbsp;&nbsp;&#60;/topic&#62;<br><br></p>
                         
         <p><strong>The corpus</strong> for Task 2 is the <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">collection</a> of about 0.9 million text passages.</p>
@@ -163,25 +163,26 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
                 
                 <p class="uk-text-left">
                         The submission format for the task will follow the standard TREC format:<br><br>
-                        <code>qid Q0 doc rank score tag</code><br><br>
+                        <code>qid stance doc rank score tag</code><br><br>
 
                         With:
                         <ul>
                                 <li><code>qid</code>: The topic number.</li>
-                                <li><code>Q0</code>: Unused, should always be Q0.</li>
+                                <li><code>stance</code>: The stance of the document toward the comparison object (FIRST: pro 1st object, SECOND: pro 2nd object, NEUTRAL, NO: no stance).</li>
                                 <li><code>doc</code>: The document ID <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
                                 <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order: it is important to handle tie scores.</li>
                                 <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
                         </ul>
+                        <p><strong>Note</strong>: If you do not classify the stance, use <code>Q0</code> as the value in the stance column.</p>
 
                                 The fields should be separated by a whitespace. The individual columns' widths are not restricted (i.e., score can be an arbitrary precision that has no ties) but it is important to include all columns and to separate them with a whitespace.<br><br>
 
                                 An example run for Task 2 is:<br><br>
 
-                                <code>1 Q0 clueweb12-en0010-85-29836___1 1 17.89 myGroupMyMethod</code><br>
-                                <code>1 Q0 clueweb12-en0010-86-00457___3 2 16.43 myGroupMyMethod</code><br>
-                                <code>1 Q0 clueweb12-en0010-86-09202___5 3 16.32 myGroupMyMethod</code><br>
+                                <code>1 FIRST clueweb12-en0010-85-29836___1 1 17.89 myGroupMyMethod</code><br>
+                                <code>1 NEUTRAL clueweb12-en0010-86-00457___3 2 16.43 myGroupMyMethod</code><br>
+                                <code>1 NO clueweb12-en0010-86-09202___5 3 16.32 myGroupMyMethod</code><br>
                                 <code>...</code><br></p>
         <p>We will provide an example of the submission format for stance detection until mid November.</p>
         <!--
