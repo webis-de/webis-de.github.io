@@ -98,8 +98,8 @@ The submission format adapts the standard TREC format. Each line corresponds to 
 <li>The topic number (1 to 50).</li>
 <li>The stance ("PRO" or "CON").</li>
 <li>The image's ID (corresponds to the name of the image's directory in the collection; always 17 characters long and starts with "I").</li>
-<li>The rank (1 to 10). Not used in this year's evaluation.</li>
-<li>A score (integer or floating point; lower ranks must <i>not</i> have lower scores). Not used in this year's evaluation.</li>
+<li>The rank (1 to 10 in increasing order per topic and stance). Not used in this year's evaluation.</li>
+<li>A score (integer or floating point; non-increasing per topic and stance). Not used in this year's evaluation.</li>
 <li>A tag that identifies your group and the method you used to produce the run.</li>
 </ul>
 For example:
