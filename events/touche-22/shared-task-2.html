@@ -83,7 +83,7 @@ shared_tasks: 3
 
         <ul>
             <li>Task: Given a comparative topic and a collection of documents, the task is to retrieve relevant argumentative passages for either compared object or for both and to detect their respective stances with respect to the object they talk about.</li>
-            <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">collection</a>] [<a href="">stance detection (dataset will be added in December)</a>]</li>
+            <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-passages-version-002.jsonl.gz">document collection</a>] [<a href="data/task2-stance-dataset.zip">stance dataset</a>]</li>
             <li>Submission: [<a href="https://www.tira.io/task/touche-task-2/">submit</a>]</li>
         </ul>
 
@@ -168,8 +168,8 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
                         With:
                         <ul>
                                 <li><code>qid</code>: The topic number.</li>
-                                <li><code>stance</code>: The stance of the document toward the comparison object (FIRST: pro 1st object, SECOND: pro 2nd object, NEUTRAL, NO: no stance).</li>
-                                <li><code>doc</code>: The document ID <code>qid</code>.</li>
+                                <li><code>stance</code>: The stance of the document (passage) toward the comparison objects (FIRST: pro 1st object, SECOND: pro 2nd object, NEUTRAL: neutral stance, NO: no stance).</li>
+                                <li><code>doc</code>: The document (passage) ID <code>qid</code>.</li>
                                 <li><code>rank</code>: The rank the document is retrieved at.</li>
                                 <li><code>score</code>: The score (integer or floating point) that generated the ranking. The score must be in descending (non-increasing) order: it is important to handle tie scores.</li>
                                 <li><code>tag</code>: A tag that identifies your group and the method you used to produce the run.</li>
