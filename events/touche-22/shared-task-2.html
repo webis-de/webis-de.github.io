@@ -194,24 +194,25 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
             can be reproduced and so that they can be easily applied to different data (of same format) in the
             future. You can find host ports for your VM in the web interface, same login as to your VM.
             If you cannot connect to your VM, please make sure it is powered on: you can check and
-            power on your machine in the web interface.
+            power on your machine in the web interface where you see the state of your VM and can access the connection informations on how to access your VM.
         </p>
+        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task2-vm-overview.png" alt="Overview of the virtual machine in TIRA.">
+        
         <p class=" uk-text-left">
             Your software is expected to accept two arguments:
             <ul>
-                <li>An input directory (named <code>$inputDataset</code> in TIRA). This input directory contains a <code>topics.xml</code> file hat contains the topics for which documents should be retrieved.</li>
+                <li>An input directory (named <code>$inputDataset</code> in TIRA). This input directory contains a <code>topics.xml</code> file hat contains the topics for which documents should be retrieved and a <code>passages.jsonl.gz</code> that contains the passages.</li>
                 <li>An output directory (named <code>$outputDir</code> in TIRA). Your software should create a standard trec run file in <code>$outputDir/run.txt</code>.</li>
             </ul>
-            Your Software can use the API of the search engine <a href="https://www.chatnoir.eu/doc/">ChatNoir</a> to produce the run file.<br>
             As soon as your Software is installed in your VM, you can register it in TIRA.
 
-            Assume that your software is started with a bash script in your home directory called <code>my-software.sh</code> which expects an argument <code>-i</code> specifying the input directory, and an argument <code>-o</code> specifying the output directory. Click on "Add software" and specify the command <code>./my-software.sh -i $inputDataset -o $outputDir</code>. The other fields can stay with default settings.
+            Assume that your software is started with a bash script in your home directory called <code>my-software.sh</code> which expects an argument <code>-i</code> specifying the input directory, and an argument <code>-o</code> specifying the output directory. Click on "Add software" and specify the command <code>./my-software.sh -i $inputDataset -o $outputDir</code>. Please select `touche-2022-task2` as input dataset.
         </p>
         <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task2-example-software.png" alt="Overview of the software configuration in TIRA.">
 
 
         <p class=" uk-text-left">
-            Click on "Run" to execute your software in TIRA. Note that your VM
+            Please save your software and click on "Run" to execute your software in TIRA. Note that your VM
             will not be accessible while your system is running – it will be “sandboxed”, detached from the
             internet, and after the run the state of the VM before the run will be restored. Your run will be
             reviewed and evaluated by the organizers.
@@ -228,15 +229,13 @@ Runs may be either automatic or manual. An automatic run must not "manipulate" t
             the evaluator on the output of your system to verify that your output is a valid submission.
 These are two separate actions and both should be invoked
             through the web interface of TIRA. You don’t have to install the evaluator in your VM. It is already
-            prepared in TIRA. You should see it in the web interface, under your software, labeled “Evaluator”.
-            Before clicking the “Run” button, you will use a drop-down menu to select the “Input run”, i.e. one of
-            the completed runs of your system. The output files from the selected run will be evaluated.
+            prepared in TIRA. You can run the evaluator in the overview of your runs by clicking on the "Evaluate" button.
         </p>
-        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task1-example-evaluation.png" alt="Overview of the software evaluation in TIRA.">
+        <img width="75%" style="margin-left: auto; margin-right: auto; display: block;" src="tira-task2-example-evaluation.png" alt="Overview of the software evaluation in TIRA.">
         <p class=" uk-text-left">
-            You can see and download STDOUT and STDERR as well as the outputs of your system.
-In the evaluator run you will see only STDOUT and STDERR, which will tell you if one or more of your output files is not valid.
-If you think something went wrong with your run, send us an e-mail.
+            By Clicking on "Inspect" you can see and download the STDOUT and STDERR as well as the outputs of your system.
+The output of the evaluator will tell you if the output of your run valid.
+If you think something went wrong with your run, send us an e-mail or open a <a href="https://www.tira.io/c/touche/9">new Topic in the Touché Forum in TIRA</a>.
 Additionally, we review your submissions and contact you on demand.
             <br><br>
             You can register more than one system (“software/ model”) per virtual machine using the web interface.
