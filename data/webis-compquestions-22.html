@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_active: data
-title: Webis Data Webis-Comparative-Web-Search-Questions-20
+title: Webis Data Webis-CompQuestions-22
 description: Short description of the Corpus
 ---
 <nav class="uk-container">
@@ -17,10 +17,10 @@ description: Short description of the Corpus
 {
     "@context":"http://schema.org/",
     "@type":"Dataset",
-    "name":"webis-comparative-web-search-questions-20",
-    "description":"Webis-comparative-web-search-questions-20 comprises 15,000 web questions collected from the public datasets. The questions are manually annotated as comparative or not. The comparative ones are annotated with more fine-grained subclasses.",
+    "name":"webis-compquestions-22",
+    "description":"Webis-CompQuestions-22 comprises ~31,000 web questions collected from the public datasets. The questions are manually annotated as comparative or not. The comparative ones are annotated as subjective or not, direct or not, with aspect or without aspect, with comparison aspects, objects, predicates. For a subset of comparative questions, their potential answers are labeled with stances.",
     "text":"*research, any other text",
-    "url":"https://webis.de/data/webis-comparative-web-search-questions-20.html",
+    "url":"https://webis.de/data/webis-compquestions-22.html",
     "sameAs":"https://zenodo.org/record/3553652",
     "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords":[
@@ -29,7 +29,7 @@ description: Short description of the Corpus
         "web questions", 
         "question classification"
     ], 
-    "datePublished":"2020",
+    "datePublished":"2022",
     "image":"*link to image which describes corpus",
     "issn":"*international standard serial number if available",
     "measurementTechnique":"*technique or technology used in a Dataset",
@@ -77,7 +77,7 @@ description: Short description of the Corpus
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
@@ -89,7 +89,7 @@ description: Short description of the Corpus
         -->
         <h2 id="synopsis">Synopsis</h2>
 
-        <p>The Webis Comparative Web Search Questions 2020 (Webis-CompQuestions-20) corpus comprises 15,000 web questions collected from the public datasets MS Marco, Google Natural Questions and Quora. The questions were manually annotated as comparative or not and with more fine-grained subclasses.</p>
+        <p>The Webis Comparative Web Search Questions 2022 (Webis-CompQuestions-22) corpus comprises 30,000+ web questions collected from the public datasets MS Marco, Google Natural Questions, and Quora. The questions were manually annotated as comparative or not. The comparative ones were annotated as subjective or not, direct or not, with aspect or without aspect, and on the token level with comparison aspects, objects, and predicates. For a subset of comparative questions, their potential answers are labeled with stances.</p>
 
 
         <!--
@@ -97,30 +97,24 @@ description: Short description of the Corpus
         -->
         <h2 id="webis-download">Download</h2>
 
-        <p>You can access the Webis Comparative Web Search Questions Corpus 2020 on <a href="https://doi.org/10.5281/zenodo.4486547">Zenodo</a>.</p>
+        <p>You can access the Webis CompQuestions Corpus 2022 at <a href="https://github.com/webis-de/wsdm22-towards-understanding-and-answering-comparative-questions">GitHub</a>.</p>
 
-        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#?q=stein2020a">bib</a>].</p>
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the data using [<a href="https://webis.de/publications.html#?q=bondarenko2022a">bib</a>].</p>
 
         <!--
         SECTION Research
-        -->
+        
         <h2 id="research">Research</h2>
 
-        <p>We analyze comparative questions, i.e., questions asking to compare different items that were submitted to a search engine. Responses to such questions might be quite different from the simple “ten blue links” and could, for example, aggregate pros and cons of the different options as direct answers. However, changing the result presentation is an intricate decision such that the classification of comparative questions forms a highly precision-oriented task.
-
-
-
-</p>
+        <p>We analyze comparative questions, i.e., questions asking to compare different items that were submitted to a search engine. Responses to such questions might be quite different from the simple “ten blue links” and could, for example, aggregate pros and cons of the different options as direct answers. However, changing the result presentation is an intricate decision such that the classification of comparative questions forms a highly precision-oriented task. </p>-->
 
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/bondarenko/" title="Alexander Bondarenko">Alexander Bondarenko</a></li>
-            <li><a href="https://weimar.webis.de/people/#voelske" title="Michael Völske">Michael Völske</a></li>
-			<li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/froebe/" title="Maik Fröbe">Maik Fröbe</a></li>
-            <li><a href="https://weimar.webis.de/people/#hagen" title="Prof. Dr. Matthias Hagen">Matthias Hagen</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/bondarenko/">Alexander Bondarenko</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
         </ul>
 
         <!--
@@ -133,7 +127,7 @@ description: Short description of the Corpus
         	<script src="https://assets.webis.de/js/filter.js"></script>
 <script src="https://assets.webis.de/js/selection.js"></script>
 		<script>
-		includeBibentries(document.getElementById("publications-list"), "keywords:webis-compquestions-20");
+		includeBibentries(document.getElementById("publications-list"), "keywords:webis-compquestions-22");
 		</script>
 		</p>
         </div>
