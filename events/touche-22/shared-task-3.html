@@ -63,7 +63,7 @@ SECTION Synopsis
   <li>Task: Given a controversial topic, the task is to retrieve images (from web pages) for each stance (pro/con) that show support for that stance. [<a href="https://www.tira.io/c/touche/9">forum</a>] [<a href="https://www.tira.io/t/announcements-for-task-3-image-retrieval-for-arguments-2022/556">announcements</a>]</li>
 <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/">collection</a>] [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/training-qrels.txt">training judgements</a>]</li>
 <li>Evaluation: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/topics.xml">topics</a>]</li>
-<li>Submission: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/original-rankings-baseline.py">baseline</a>] [verifier] [tira] (coming soon)</li>
+<li>Submission: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/original-rankings-baseline.py">baseline</a>] [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/submission-verifier.sh">verifier</a>] [<a href="https://www.tira.io/task/touche-task-3/dataset/touche-task-3-2022-01-21">tira</a>]</li>
 </ul>
 
 <a class="uk-button uk-button-primary" href="https://clef2022-labs-registration.dei.unipd.it/">Register now</a>
@@ -92,7 +92,7 @@ SECTION Submission
 <p>
 We encourage participants to use <a href="https://www.tira.io/">TIRA</a> for their submissions to allow for a better reproducibility (see the Quickstart section below). Email submission is allowed as a fallback. For each topic and stance, include 10 retrieved images. Each team can submit up to 5 different runs.
 </p><p>
-The submission format adapts the standard TREC format. Each line corresponds to an image retrieved for some topic and stance at a certain rank, making a run file 1000 lines long (50 topics, 2 stances, 10 ranks). Each line contains the following fields, separated by single whitespaces:
+The submission format adapts the standard TREC format. Each line corresponds to an image retrieved for some topic and stance at a certain rank, making a run file 1000 lines long (50 topics, 2 stances, 10 ranks). Each line contains the following fields, separated by single whitespaces: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/submission-verifier.sh">verifier</a>]
 </p>
 <ul>
 <li>The topic number (1 to 50).</li>
