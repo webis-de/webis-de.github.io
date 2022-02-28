@@ -17,7 +17,7 @@ description: Overview of corpora that are used by the Webis research group
     "@context":"http://schema.org/",
     "@type":"Dataset",
     "name":"Webis-SameSideAdversarial-21",
-    "description":"The Webis-SameSideAdversarial-21 dataset ....",
+    "description":"The Webis-SameSideAdversarial-21 dataset contains 175 cases. It is manually created to reveal the ability of models to solve different types of adversarial cases for same side stance predictions more systematically. The examples are derived from the dataset used in the Same Side Stance Classification shared task.",
     "url":"https://webis.de/data/webis-sameside-adversarial-21.html",
     "sameAs":"https://doi.org/10.5281/zenodo.5282635",
     "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
@@ -96,7 +96,15 @@ description: Overview of corpora that are used by the Webis research group
         SECTION Synopsis
         -->
         <h2><a id="synopsis"></a>Synopsis</h2>
-        <p>The Webis-SameSideAdversarial-21 dataset ...</p>
+        <p>The Webis-SameSideAdversarial-21 dataset contains 175 cases. It is manually created to reveal the ability of models to solve different types of adversarial cases for same side stance predictions more systematically. The examples are derived from the dataset used in the Same Side Stance Classification shared task.</p>
+        <p>We have selected <b>25</b> distinct arguments from the "<i>gay marriage</i>" topic that are short and express their stance clearly. For each selected argument, we construct new arguments of four distinct types to obtain two pairs, one with the same stance, and one with an opposing stance:</p>
+        <ul>
+            <li><b>Negation</b>: a simple negation of the argument.</li>
+            <li><b>Paraphrase</b>: alters important words from the argument to synonymous expressions with the same stance.</li>
+            <li><b>Argument</b>: uses an argument from the same topic and stance, but semantically completely different regarding the first one.</li>
+            <li><b>Citation</b>: repeats or summarizes the first argument and then expresses agreement or rejection (a case frequently occurring in the dataset).</li>
+        </ul>
+        <p>The types <i>Paraphrase</i>, <i>Argument</i>, and <i>Citation</i> are also formulated in a negated version to create additional test instances for the opposite stance.</p>
 
         <!--
         SECTION Download
