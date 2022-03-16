@@ -1,0 +1,135 @@
+---
+layout: default
+nav_active: data
+title: Webis Clickbait Spoiling Corpus 2022
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"webis-clickbait-22",
+    "description":"The Webis Clickbait Spoiling Corpus 2022 dataset contains 5,000 spoiled clickbait posts crawled from Facebook, Reddit, and Twitter. This corpus supports the task of clickbait spoiling, which deals with generating a short text that satisfies the curiosity induced by a clickbait post. This dataset contains the clickbait posts and manually cleaned versions of the linked documents, and extracted spoilers for each clickbait post. Additionally, the spoilers are categorized into three types: short phrase spoilers, longer passage spoilers, and multiple non-consecutive pieces of text.",
+    "url":"https://webis.de/data/webis-clickbait-22",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "clickbait",
+        "clickbait spoiling",
+        "question answering"
+    ], 
+    "datePublished":"2022",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#froebe",
+             "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"Fr\u00f6be, Maik"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/",
+             "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"Jurk, Artur"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#potthast",
+            "affiliation":"Leipzig University", 
+            "name":"Potthast, Martin"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"JSONL",
+            "contentUrl":"https://zenodo.org/record/6362726"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis Clickbait Spoiling Corpus 2022</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>-->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+		The Webis Clickbait Spoiling Corpus 2022 (Webis-Clickbait-22) contains 5,000 spoiled clickbait posts crawled from Facebook, Reddit, and Twitter. This corpus supports the task of clickbait spoiling, which deals with generating a short text that satisfies the curiosity induced by a clickbait post.
+	</p>
+	<p>
+		This dataset contains the clickbait posts and manually cleaned versions of the linked documents, and extracted spoilers for each clickbait post. Additionally, the spoilers are categorized into three types: short phrase spoilers, longer passage spoilers, and multiple non-consecutive pieces of text.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>The webis-clickbait-22 corpus is available for download at <a href="https://zenodo.org/record/6362726">https://zenodo.org/record/6362726</a>.</p>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#froebe">Maik Fr&ouml;be</a></li>
+            <li>Artur Jurk</li>
+            <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+        </ul>
+        <!--
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/selection.js"></script>
+<script src="https://assets.webis.de/js/filter.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "keywords:webis-argument-framing-19");
+            </script>
+            </p>
+        </div>
+        -->
+    </div>
+
+</main>
