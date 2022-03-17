@@ -1,0 +1,131 @@
+---
+layout: workshop
+nav_active: overview
+title: Workshop Title
+description: Short description of the Workshop
+shared_tasks: 1  # delete for no shared tasks; increase for more shared tasks; this value must be the same in all html files of this workshop
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="#">Workshop Title</a></li>
+<li class="uk-disabled"><a href="#">Overview</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Workshop",
+    "name":"*name of the workshop",
+    "description":"*synopsis, short description of the workshop",
+    "text":"*workshop, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "*some", 
+        "*key", 
+        "*words", 
+        "*to describe the workshop"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Title of Workshop</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis/Call</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#tasks">Shared Tasks</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#dates">Important Dates</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#sponsors">Sponsors</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis/Call</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p>You may provide links to associated resources, for example submission information: [<a href="{{ '/templates/workshop-template/organization.html#submission' | relative_url }}">submission details</a>]</p>
+
+
+        <!-- OPTIONAL -->
+        <!--
+        SECTION Shared Tasks
+        -->
+        <h2><a id="tasks"></a>Shared Tasks</h2>
+        <ul>
+            <li><a href="shared-task.html">Shared Task Template</a></li>
+            <li>...</li>
+        </ul>
+
+        <p>... or arrange it in a table (<a href="https://pan.webis.de/shared-tasks.html" target="_blank">example</a>).</p>
+
+        <!--
+        SECTION Important Dates
+        -->
+        <h2><a id="dates"></a>Important Dates</h2>
+        <ul>
+            <li>May 24, 2019: Deadline 1</li>
+            <li>November 29, 2019: Deadline 2</li>
+            <li>January 6, 2020: Deadline 3 [<a>link</a>]</li>
+            <li>...</li>
+        </ul>
+
+        The timezone of all deadlines is &lt;timezone&gt;.
+
+        <!--
+        SECTION Sponsors
+        -->
+        <h2><a id="sponsors"></a>Sponsors</h2>
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://webis.de/" target="_blank" class="uk-link-reset">
+                        <div class="thumbnail-fill">
+                            <img src="https://assets.webis.de/img/webis-logo-teal.png" alt="Workshop Sponsor #1">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

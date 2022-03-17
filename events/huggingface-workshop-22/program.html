@@ -1,0 +1,143 @@
+---
+layout: workshop
+nav_active: program
+title: Workshop Title
+description: Short description of the Workshop
+shared_tasks: 1  # delete for no shared tasks; increase for more shared tasks; this value must be the same in all html files of this workshop
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Workshop Title</a></li>
+<li class="uk-disabled"><a href="#">Program</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Workshop",
+    "name":"*name of the workshop",
+    "description":"*synopsis, short description of the workshop",
+    "text":"*workshop, any other text",
+    "url":"*link that leads to this HTML web page.",
+    "sameAs":"*is there an id link, e.g. from zenodo?",
+    "keywords":[
+        "*some", 
+        "*key", 
+        "*words", 
+        "*to describe the workshop"
+    ], 
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        },
+        {
+            "@id":"*orcid id if available", 
+            "@type":"Person", 
+            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
+            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
+            "name":"*last name, first name"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Program</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#keynotes">Keynotes</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#program">Program</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Keynotes
+        -->
+        <h2><a id="keynotes"></a>Keynotes</h2>
+        <div class="uk-grid uk-child-width-1-2@l" data-uk-grid>
+            <article class="keynote" id="keynote-1">
+                <header class="keynote-header">
+                    <div class="keynote-speaker-image">
+                        <img src="https://webis.de/weimar/people/img/silhouette-female.jpg" alt="First Last">
+                    </div>
+                    <div class="keynote-meta">
+                        <div class="keynote-title">Title of Keynote</div>
+                        <div class="keynote-speaker"><a href="https://webis.de/people.html#<last>" target="_blank">&lt;First&gt; &lt;Last&gt;</a></div>
+                        <div class="keynote-affiliation">&lt;Affiliation&gt;</div>
+                    </div>
+                </header>
+                <div class="keynote-body">
+                    <!-- Keynote synopsis -->
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                    <footer>
+                        <div class="keynote-bio" id="keynote-bio-1">
+                            <!-- Speaker bio -->
+                            <p>
+                                Lorem Ipsum, Ph.D, is Professor of Placeholder Text Generation at the University of Blank Space, Antarctica, since 753 B.C. They previously worked for Microsoft, popularizing their self-titled debut work "Lorem Ipsum" by including it in template texts in Microsoft Office.
+                            </p>
+
+                            <a href="#" class="read-more" data-uk-toggle="target: #keynote-bio-1; cls: expanded">Read more&hellip;</a>
+                            <a href="#" class="read-less" data-uk-toggle="target: #keynote-bio-1; cls: expanded">Read less&hellip;</a>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+        </div>
+
+        <!--
+        SECTION Program
+        -->
+        <h2><a id="program"></a>Program</h2>
+        <table class="uk-table uk-table-responsive program-table">
+            <tr class="program-section-title">
+                <td>08:00-09:00</td>
+                <td>
+                    Introduction <a class="schedule_links" target="_blank">[material]</a>
+                </td>
+            </tr>
+            <tr class="program-session">
+                <td></td>
+                <td>Session 1</td>
+            </tr>
+            <tr class="program-presentation-title">
+                <td>09:00-10:00</td>
+                <td>
+                    <a href="#keynote-1">Keynote: Generating Fake Latin Placeholder Texts Using Neural Networks</a>
+                    <a class="schedule_links" target="_blank">[material]</a>
+                </td>
+            </tr>
+            <tr class="program-speaker">
+                <td></td>
+                <td>Lorem Ipsum</td>
+            </tr>
+        </table>
+    </div>
+</main>
