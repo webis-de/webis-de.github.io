@@ -8,8 +8,8 @@ description: Short description of the Workshop
 <ul class="uk-breadcrumb">
 <li><a href="https://webis.de/index.html">Webis.de</a></li>
 <li><a href="https://webis.de/events.html">Events</a></li>
-<li><a href="#">Workshop Title</a></li>
-<li class="uk-disabled"><a href="#">Overview</a></li>
+<li><a href="#">HF Workshop</a></li>
+<li class="uk-disabled"><a href="#">Organization</a></li>
 </ul>
 </nav>
 
@@ -64,11 +64,7 @@ description: Short description of the Workshop
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#contact">Contact and Communication</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission details</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#policy">Policy</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#resources">Resources</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#organizing-committee">Organizing Committee</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#program-committee">Program Committee</a></li>
         </ul>
     </div>
 
@@ -85,43 +81,11 @@ description: Short description of the Workshop
         </ul>
 
         <!--
-        SECTION Submission details
-        -->
-        <h2><a id="submission"></a>Submission</h2>
-        <p>Details about how to submit for this workshop should be provided here.</p>
-        <p>If participation requires working on a dataset, you should link to it: [<a href="{{ '/templates/data.html' | relative_url }}">data</a>]</p>
-
-        <!--
-        SECTION Policy
-        -->
-        <h2><a id="policy"></a>Policy</h2>
-        <p>We abide by <a>&lt;link to policy here&gt;</a>.</p>
-
-        <!--
         SECTION Resources
         -->
         <h2><a id="resources"></a>Resources</h2>
         <ul>
             <li><a>External links</a>, e.g. to code repositories</li>
-            <li>...</li>
-        </ul>
-
-        <!--
-        SECTION Organizing Committee
-        -->
-        <!-- Use _includes/templates/people-card.html as a template for these cards. They do not need to be parametrized, this is just a demonstration. -->
-        <h2><a id="organizing-committee"></a>Organizing Committee</h2>
-        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
-            {% include templates/people-card.html gender="female" %}
-            {% include templates/people-card.html gender="male" %}
-        </div>
-
-        <!--
-        SECTION Program Committee
-        -->
-        <h2><a id="program-committee"></a>Program Committee</h2>
-        <ul>
-            <li>&lt;First&gt; &lt;Last&gt;, &lt;Affiliation&gt;</li>
             <li>...</li>
         </ul>
     </div>
