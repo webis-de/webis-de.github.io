@@ -8,7 +8,7 @@ description: This will be a hands-on class lead by Omar Espejel, Developer Advoc
 <ul class="uk-breadcrumb">
 <li><a href="https://webis.de/index.html">Webis.de</a></li>
 <li><a href="https://webis.de/events.html">Events</a></li>
-<li><a href="#">HF Workshop</a></li>
+<li><a href="#">ML Demo.cratization Tour with 🤗</a></li>
 <li class="uk-disabled"><a href="#">Overview</a></li>
 </ul>
 </nav>
@@ -35,20 +35,6 @@ description: This will be a hands-on class lead by Omar Espejel, Developer Advoc
             "name":"The Web Technology & Information Systems Network",
             "alternateName":"Webis"
         },
-        {
-            "@id":"*orcid id if available", 
-            "@type":"Person", 
-            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
-            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
-            "name":"*last name, first name"
-        },
-        {
-            "@id":"*orcid id if available", 
-            "@type":"Person", 
-            "url":"*https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#name",
-            "affiliation":"*Bauhaus-Universit\u00e4t Weimar", 
-            "name":"*last name, first name"
-        }
     ],
     "includedInDataCatalog":{
     },
@@ -59,56 +45,92 @@ description: This will be a hands-on class lead by Omar Espejel, Developer Advoc
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Hugging Face Hands-on Workshop</h1>
-
+        <h1>ML Demo.cratization Tour with 🤗</h1>
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
-            <li><span data-uk-icon="chevron-down"></span> <a href="#tour">ML Demo.cratization tour with 🤗</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#quick">Quick Infos</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#overview">Overview</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#prerequisites">Prerequisites</a></li>
         </ul>
     </div>
-
-
-
-    <div class="uk-container uk-margin-medium">
-        <h2><a id="tour"></a>ML Demo.cratization tour with 🤗 (April 8, 2PM (CET))</a></h2>
-        <div class="uk-panel">
-    <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent" src="./workshop.png" width="30%" alt="ML DEMO.CRATIZATION TOUT @ GERMANY">
-    <p>We are happy to host the German leg of the <a href="https://huggingface2.notion.site/huggingface2/ML-Demo-cratization-tour-with-66847a294abd4e9785e85663f5239652">Hugging Face ML Demo.cratization tour</a>. This hands-on workshop will be held in English and will discuss the lifecycle of a machine learning model after it's been trained. Specifically, you will learn how to create Machine Learning apps and demos using the <a href="https://streamlit.io/">Streamlit</a> and <a href="https://gradio.app/">Gradio</a> libraries.</p>
-    <p>Additionally, you will learn how to share these apps with the world to better communicate the results of your research. This workshop will be led by Omar Espejel who is a Machine Learning Developer Advocate at Hugging Face.</p>
-    
-    <p>We look forward to welcoming you on <a style="font-weight:bold;text-decoration:underline;" href="https://uni-leipzig.zoom.us/j/62335765383?pwd=OFlEbnY5Sk9Mb25HR3VEU1lYWnVuQT09">Zoom</a> or on <a style="font-weight:bold;text-decoration:underline;" href="https://youtu.be/2CiZNBE9WH4">Youtube Live</a> in:</p>
-    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2022-04-08T14:00:00+0200">
-        <div>
-            <div class="uk-countdown-number uk-countdown-days uk-text-default uk-text-bold uk-text-center"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small ">Days</div>
-        </div>
-        <div class="uk-countdown-separator uk-text-default uk-text-bold">:</div>
-        <div>
-            <div class="uk-countdown-number uk-countdown-hours uk-text-default uk-text-bold uk-text-center"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small">Hours</div>
-        </div>
-        <div class="uk-countdown-separator uk-text-default uk-text-bold">:</div>
-        <div>
-            <div class="uk-countdown-number uk-countdown-minutes uk-text-default uk-text-bold uk-text-center"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small">Minutes</div>
-        </div>
-        <div class="uk-countdown-separator uk-text-default uk-text-bold">:</div>
-        <div>
-            <div class="uk-countdown-number uk-countdown-seconds uk-text-default uk-text-bold uk-text-center"></div>
-            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small">Seconds</div>
+    <div class="uk-section">
+        <div class="uk-container uk-margin">
+            <a id="overview"></a>
+            <table class="uk-table uk-table-divider uk-table-hover">
+            <thead>
+                <tr>
+                    <td colspan="2"><span class="uk-text-bold">Quick Infos</span></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>What?</td>
+                    <td class="uk-table-expand">Huggingface Hands-on Workshop</td>
+                </tr>
+                <tr>
+                    <td>Who?</td>
+                    <td class="uk-table-expand">Omar Espejel (Huggingface), Christopher Akiki (Webis Group)</td>
+                </tr>
+                <tr>
+                    <td>When?</td>
+                    <td class="uk-table-expand">Friday, April 8th, 2022, 14:00-15:00 CET <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2U3Y3N1aTZqYTJuMHQ2a2lkbWJlcHQ4ZXUgcWZ0dmRxMW1ub2R1czB1YjdtbjMyMGxzZ29AZw&amp;tmsrc=qftvdq1mnodus0ub7mn320lsgo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a></td>
+                </tr>
+                <tr>
+                    <td>Where?</td>
+                    <td class="uk-table-expand"><a href="https://uni-leipzig.zoom.us/j/62335765383?pwd=OFlEbnY5Sk9Mb25HR3VEU1lYWnVuQT09">[Zoom]</a><a href="https://youtu.be/2CiZNBE9WH4">[Youtube Live]</a></td>
+                </tr>
+                <tr>
+                    <td>How?</td>
+                    <td class="uk-table-expand">Optionally <a href="https://forms.gle/zkYHh8mcycqLStz47">[RSVP] for an Email reminder or just tune in!</a></td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="uk-align-center uk-margin" data-src="/workshop.png" uk-img="loading: eager; width: 30%";>...</div>
+            <!--<img class="uk-align-center uk-margin" src="./workshop.png" width="30%" alt="ML DEMO.CRATIZATION TOUR @ GERMANY">-->
         </div>
     </div>
-    <p>Optionally, if you'd like to be reminded of this event, you're welcome to <a style="font-weight:bold;text-decoration:underline;" href="https://forms.gle/J6NghB6bnB9bheKv9">enter your email here for a reminder</a> or directly <a style="font-weight:bold;text-decoration:underline;" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2U3Y3N1aTZqYTJuMHQ2a2lkbWJlcHQ4ZXUgcWZ0dmRxMW1ub2R1czB1YjdtbjMyMGxzZ29AZw&tmsrc=qftvdq1mnodus0ub7mn320lsgo%40group.calendar.google.com">add the event to Google Calendar</a>.</p>
-</div>
-
-        <h2><a id="prerequisites"></a>Prerequisites</h2>
-        <p>To follow along the live coding session you will need:</p>
-        <ul>
-            <li>Basic Knowledge of Python</li>
-            <li>Conceptual knowledge of ML (Consult our <a href="https://webis.de/lecturenotes.html#machine-learning">Machine Learning lectures</a> for a refresher)</li>
-            <li><a href="https://colab.research.google.com/">Google Colab</a> access or a <a href="https://github.com/huggingface/education-toolkit/blob/main/requirements.txt">local dev environment</a>.</li>
-            <li>Join the event's  <a href="https://huggingface.co/organizations/webis-huggingface-workshop/share/bJuekdVOhCSfBjDDUGqMxEhNWmBITbskin">Organization Page</a> on the Hugging Face Hub. (You will be prompted to create an account if you don't already have one)</li>
-        </ul>
+    <div class="uk-section">
+        <div class="uk-container uk-margin">
+            <h2><a id="overview">Overview</a></h2>
+            <div class="uk-panel">
+            <p>We are happy to host the German leg of the <a href="https://huggingface2.notion.site/huggingface2/ML-Demo-cratization-tour-with-66847a294abd4e9785e85663f5239652">Hugging Face ML Demo.cratization tour</a>. This hands-on workshop will be held in English and will discuss the lifecycle of a machine learning model after it's been trained. Specifically, you will learn how to create Machine Learning apps and demos using the <a href="https://streamlit.io/">Streamlit</a> and <a href="https://gradio.app/">Gradio</a> libraries.</p>
+            <p>Additionally, you will learn how to share these apps with the world to better communicate the results of your research. This workshop will be led by Omar Espejel who is a Machine Learning Developer Advocate at Hugging Face.</p>
+            <p>We look forward to welcoming you on <a class="uk-link-muted" href="https://uni-leipzig.zoom.us/j/62335765383?pwd=OFlEbnY5Sk9Mb25HR3VEU1lYWnVuQT09">Zoom</a> or on <a class="uk-link-muted" href="https://youtu.be/2CiZNBE9WH4">Youtube Live</a> in:</p>
+            <div class="uk-grid-small uk-child-width-auto uk-align-center" uk-grid uk-countdown="date: 2022-04-08T14:00:00+0200">
+                <div>
+                    <div class="uk-countdown-number uk-countdown-days uk-text-default uk-text-bold uk-text-center"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small ">Days</div>
+                </div>
+                <div class="uk-countdown-separator uk-text-default uk-text-bold">:</div>
+                <div>
+                    <div class="uk-countdown-number uk-countdown-hours uk-text-default uk-text-bold uk-text-center"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small">Hours</div>
+                </div>
+                <div class="uk-countdown-separator uk-text-default uk-text-bold">:</div>
+                <div>
+                    <div class="uk-countdown-number uk-countdown-minutes uk-text-default uk-text-bold uk-text-center"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small">Minutes</div>
+                </div>
+                <div class="uk-countdown-separator uk-text-default uk-text-bold">:</div>
+                <div>
+                    <div class="uk-countdown-number uk-countdown-seconds uk-text-default uk-text-bold uk-text-center"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s uk-text-small">Seconds</div>
+                </div>
+            </div>
+            <p>Optionally, if you'd like to be reminded of this event, you're welcome to <a class="uk-link-muted" href="https://forms.gle/J6NghB6bnB9bheKv9">enter your email here for a reminder</a> or directly <a class="uk-link-muted" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2U3Y3N1aTZqYTJuMHQ2a2lkbWJlcHQ4ZXUgcWZ0dmRxMW1ub2R1czB1YjdtbjMyMGxzZ29AZw&tmsrc=qftvdq1mnodus0ub7mn320lsgo%40group.calendar.google.com">add the event to Google Calendar</a>.</p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section">
+        <div class="uk-container uk-margin">
+            <h2><a id="prerequisites"></a>Prerequisites</h2>
+            <p>To follow along the live coding session you will need:</p>
+            <ul>
+                <li>Basic Knowledge of Python</li>
+                <li>Conceptual knowledge of ML (Consult our <a href="https://webis.de/lecturenotes.html#machine-learning">Machine Learning lectures</a> for a refresher)</li>
+                <li><a href="https://colab.research.google.com/">Google Colab</a> access or a <a href="https://github.com/huggingface/education-toolkit/blob/main/requirements.txt">local dev environment</a>.</li>
+                <li>Join the event's  <a href="https://huggingface.co/organizations/webis-huggingface-workshop/share/bJuekdVOhCSfBjDDUGqMxEhNWmBITbskin">Organization Page</a> on the Hugging Face Hub. (You will be prompted to create an account if you don't already have one)</li>
+            </ul>
+        </div>
     </div>
 </main>
