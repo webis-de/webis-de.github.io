@@ -222,8 +222,13 @@ shared_tasks: 3
             <code>1 CON S72f5af83-Afb975dba__PREMISE__1,S72f5af83-Afb975dba__CONC__1 3 16.42 myGroupMyMethod</code><br>
             <code>...</code>
             <br>
+            
             <strong>Note:</strong> If you do not have stance information, use <code>Q0</code> as the value in the stance
             column.
+            <br>
+            <strong>Note:</strong> Some examples do not contain the conclusion as part of the <code>sentences</code> column although it is present in the <code>conclusion</code> column. This is because we excluded very short conclusions (less than two words) from being a valid argument sentence. We observed that in many cases they did not convey any stance (e.g. <em>home schooling</em>). Since we cannot inspect every short conclusion manually, we applied the length heuristic to filter them.  
+            However, if you still want to retrieve such conclusions as part of the final output, please provide [doc_id]__CONC__1 as the corresponding sentence ID (e.g., <code>S72f5af83-Afb975dba__CONC__1</code>).
+
         </p>
 
 
