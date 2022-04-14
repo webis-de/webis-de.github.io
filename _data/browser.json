@@ -11861,9 +11861,10 @@
         "ordering": [
             "unit-de-wt-organization",
             "unit-de-wt-introduction",
-            "unit-de-network-protocol1",
-            "unit-de-network-protocol2",
-            "unit-de-network-protocol3",
+            "unit-de-internetworking",
+            "unit-de-client-server",
+            "unit-de-http-protocol",
+            "unit-de-character-encoding",
             "unit-de-doclang-introduction",
             "unit-de-doclang-html",
             "unit-de-doclang-css",
@@ -18418,6 +18419,875 @@
                     "page": 45,
                     "sha": "dbc2807ca6ad963b7ef21b560b57cc9f0fa5bff8",
                     "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-internetworking": {
+            "sha": "0edf0aa911ee9f7d7229a7884e94f1be4ee530d5",
+            "numpages": 45,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "cc85ae53ae1933fd6c1f3b8045ae2e12c5e8e5f3",
+                    "description": "Kapitel WT:II II. Kommunikation und Protokolle f\u00fcr Web-Systeme"
+                },
+                {
+                    "page": 2,
+                    "sha": "779e9111f418973ab22ab27e9d67c67e048c6325",
+                    "description": "Rechnernetze "
+                },
+                {
+                    "page": 3,
+                    "sha": "dcbccd3c8c0ae4aa99965424063e5f97703b0bbf",
+                    "description": "Rechnernetze "
+                },
+                {
+                    "page": 4,
+                    "sha": "0ff4f540b7551ec236da73f23489d1c8b88502cd",
+                    "description": "Rechnernetze "
+                },
+                {
+                    "page": 5,
+                    "sha": "1bfc85258ad1147461f3ca07275dc6748cf6c2a3",
+                    "description": "Rechnernetze "
+                },
+                {
+                    "page": 6,
+                    "sha": "fc52579bef8c8ac2a87bf66664b9444404006c79",
+                    "description": "Rechnernetze "
+                },
+                {
+                    "page": 7,
+                    "sha": "e521a69ade1971ee1369a94ff0c8d39408857142",
+                    "description": "Rechnernetze "
+                },
+                {
+                    "page": 8,
+                    "sha": "8d41411dc83a03165a1bf0543c257ac870d6631b",
+                    "description": "Prinzipien des Datenaustauschs \u00dcbersicht"
+                },
+                {
+                    "page": 9,
+                    "sha": "ecacb7bc6fd1ac68761fa947f7850b2fc99ca6d5",
+                    "description": "Prinzipien des Datenaustauschs \u00dcbersicht"
+                },
+                {
+                    "page": 10,
+                    "sha": "f77305ee3010269b332d3823777e6e44a4e455ff",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 11,
+                    "sha": "59d4141905901c70dd8a2d10c030e9aa3df90fef",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 12,
+                    "sha": "b27ef0dc94a28ed96aa3fcf232aed1b9d46c75cb",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 13,
+                    "sha": "4ed2fc1f18ee93e6a796e7bffeed16cf648c8591",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 14,
+                    "sha": "d390660417dac7afd40cc75fa82d25b332afe919",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 15,
+                    "sha": "d6e3545baf3a47ebeecc3aa014cc30d56b073450",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 16,
+                    "sha": "2b25d4a9748fa364c8fd67ba990fa2b005960599",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 17,
+                    "sha": "3682b7eb9d94f2b382796cf96fa7077734cdb817",
+                    "description": "Prinzipien des Datenaustauschs "
+                },
+                {
+                    "page": 18,
+                    "sha": "d93deaa3a48ccb58193078202c7c5d90e5e14a1c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 19,
+                    "sha": "8d6da3b37363e8c00bc0d56a4a509354a53d6bdb",
+                    "description": "Netzsoftware und Kommunikationsprotokolle Herstellung einer Verbindung und Datenaustausch 6= Kommunikation."
+                },
+                {
+                    "page": 20,
+                    "sha": "fe1c714229e5dfb35adc937d3ad992f7f92dce1f",
+                    "description": "Netzsoftware und Kommunikationsprotokolle Die Netzsoftware ist eine in Schichten organisierte, komplexe Software, die die"
+                },
+                {
+                    "page": 21,
+                    "sha": "faecbc10ada0a2ede3b4b956f32168d1c727d64a",
+                    "description": "Netzsoftware und Kommunikationsprotokolle Die Netzsoftware ist eine in Schichten organisierte, komplexe Software, die die"
+                },
+                {
+                    "page": 22,
+                    "sha": "07d12aac11ff42b69b116fa46c2e3c1b0ca16c23",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
+                },
+                {
+                    "page": 23,
+                    "sha": "7f99dd32c8f1684eb879130539ec661dc678bec2",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
+                },
+                {
+                    "page": 24,
+                    "sha": "b58e1d63ba5ce9138a9920e73adf35f34bee1a35",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
+                },
+                {
+                    "page": 25,
+                    "sha": "c5ca93318cc95acbebddb94f333d66d4a4016778",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
+                },
+                {
+                    "page": 26,
+                    "sha": "b649f2da9196707fd8df45bbd0c6a86b4a77429a",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI-Modell"
+                },
+                {
+                    "page": 27,
+                    "sha": "1ee980b087b9996dfbbcf277b0b7d30f6c81f09f",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 28,
+                    "sha": "1488555586d7a74ac7e25154dae034fa8f2429cb",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI versus TCP\\u002fIP Protokoll-Stack"
+                },
+                {
+                    "page": 29,
+                    "sha": "b6a4de73e17d7be5bc9e4dac9032da080756f803",
+                    "description": "Netzsoftware und Kommunikationsprotokolle ISO-OSI versus TCP\\u002fIP Protokoll-Stack"
+                },
+                {
+                    "page": 30,
+                    "sha": "d7b3b97cfa093a39c1aa8cc262bbad14eb2bdd8c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 31,
+                    "sha": "999fb48a54ef04cfe7553e61307bb605c050bdec",
+                    "description": "Netzsoftware und Kommunikationsprotokolle Datenfragmentierung und Kapselung"
+                },
+                {
+                    "page": 32,
+                    "sha": "5fe32340441241186bd79a220fb75b455d21ec97",
+                    "description": "Internetworking"
+                },
+                {
+                    "page": 33,
+                    "sha": "5dd65419a859d8f113023ec85e1fa42a7390f2e5",
+                    "description": "Internetworking "
+                },
+                {
+                    "page": 34,
+                    "sha": "582fd1cec38c2fab2055647b19ccdbf8ca1f00bc",
+                    "description": "Internetworking "
+                },
+                {
+                    "page": 35,
+                    "sha": "a47ee903086e5b9590b250fccf90dfaedd8ff773",
+                    "description": "Internetworking MAC-Adressierung"
+                },
+                {
+                    "page": 36,
+                    "sha": "812f68b4e47f0140a0dffce271c83ab2131b7e8d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 37,
+                    "sha": "8527f0325bfb5f0cc67468c16ddc45c51ba50932",
+                    "description": "Internetworking IP-Adressierung mit IPv4"
+                },
+                {
+                    "page": 38,
+                    "sha": "573e07e6b6520b900bfdf87da59283a64382e803",
+                    "description": "Internetworking IP-Adressierung mit IPv4"
+                },
+                {
+                    "page": 39,
+                    "sha": "b9cc77ddbb39d11c7fb06c99b78f90b0ce79e473",
+                    "description": "Internetworking IP-Adressierung mit IPv4: Netzklassen (veraltet)"
+                },
+                {
+                    "page": 40,
+                    "sha": "db62a31802e3144f00b1cc746eda90e08aa33ff9",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 41,
+                    "sha": "d3702e62bb9e13c2b2b7a2c82f440b28aa9ce01c",
+                    "description": "Internetworking IP-Adressierung mit IPv6"
+                },
+                {
+                    "page": 42,
+                    "sha": "62c356f2094a86c4b07db6bf06c013d3e9fd10be",
+                    "description": "Internetworking IP-Adressierung mit IPv6"
+                },
+                {
+                    "page": 43,
+                    "sha": "5e42c2c46921cf808357ee18b02a02cf7e7b4b5c",
+                    "description": "Internetworking Domain Name System, DNS"
+                },
+                {
+                    "page": 44,
+                    "sha": "1953d8dfce45d4010cedf6f07deecd100699fb7c",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 45,
+                    "sha": "abf2ac7609e2218ab03f90e5acf98b701fc86224",
+                    "description": "Internetworking Quellen zum Nachlernen und Nachschlagen im Web"
+                }
+            ]
+        },
+        "unit-de-client-server": {
+            "sha": "a6d5d20d03fd542c5fd3a66c490599e94f84c5cd",
+            "numpages": 48,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "14845c5997f8d616ce0bb69a70a125e68ad4fce3",
+                    "description": "Kapitel WT:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "781411ba900f035a5fe391c35eb29a2fc1b061f1",
+                    "description": "Client-Server-Interaktionsmodell Client"
+                },
+                {
+                    "page": 3,
+                    "sha": "f24ef984b61a51677446d3dd93a47bd21a6b0eee",
+                    "description": "Client-Server-Interaktionsmodell Client"
+                },
+                {
+                    "page": 4,
+                    "sha": "fd59adb5d0506e78a099ca7f36988135816c4a30",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 5,
+                    "sha": "4c7e8af3867cd8d57adf707fc1fc0739df289624",
+                    "description": "Client-Server-Interaktionsmodell Portkonzept"
+                },
+                {
+                    "page": 6,
+                    "sha": "049282a8bbbd18d9d7a481f4aadbf1b1f7278eae",
+                    "description": "Client-Server-Interaktionsmodell Portkonzept"
+                },
+                {
+                    "page": 7,
+                    "sha": "0c80e1993dc7234048721be70ae3ec9e5f60f75c",
+                    "description": "Client-Server-Interaktionsmodell Klassifikation von Ports"
+                },
+                {
+                    "page": 8,
+                    "sha": "1bf6c293f48c2c934b2c89427d70c02d50b1f078",
+                    "description": "Client-Server-Interaktionsmodell Klassifikation von Ports"
+                },
+                {
+                    "page": 9,
+                    "sha": "f2b2f99f6422b13af9e5c478f3b022a5561e475d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 10,
+                    "sha": "e275972c8e389186fa7cba18319e4d9976f74ee0",
+                    "description": "Client-Server-Interaktionsmodell Socket-API"
+                },
+                {
+                    "page": 11,
+                    "sha": "613bbdc51c0bed90297a1d1a4d3704ba748643bb",
+                    "description": "Client-Server-Interaktionsmodell Socket-API"
+                },
+                {
+                    "page": 12,
+                    "sha": "ef44e3381732ffcc9101f96bcd5782cdfa718d2a",
+                    "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
+                },
+                {
+                    "page": 13,
+                    "sha": "fb770ad09a73856e7648a5e7adece009fa652863",
+                    "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
+                },
+                {
+                    "page": 14,
+                    "sha": "dc14e53bd1336d17d1ee880aff2d07ec5f50c65b",
+                    "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
+                },
+                {
+                    "page": 15,
+                    "sha": "ddf6b65395f030d3c72e8886d4637023a1b440f1",
+                    "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
+                },
+                {
+                    "page": 16,
+                    "sha": "c38ed078385e633daa532fc554bd9f7d3096db3c",
+                    "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
+                },
+                {
+                    "page": 17,
+                    "sha": "531b6c774b29c5e397f1492c44ee8dc3c28e4162",
+                    "description": "Client-Server-Interaktionsmodell Verbindungsherstellung mit Sockets"
+                },
+                {
+                    "page": 18,
+                    "sha": "cb15bcd171fe23b676ecbd819679fde62258bea4",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 19,
+                    "sha": "18561300587be0166498cdb4648dd61bb33b155d",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
+                },
+                {
+                    "page": 20,
+                    "sha": "eed5da8c180745fa6271d5c1ee6b90173018b773",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
+                },
+                {
+                    "page": 21,
+                    "sha": "fdd05613068877c06a4d54e18f426d3ed2379c57",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
+                },
+                {
+                    "page": 22,
+                    "sha": "3a95a39a771625de5d45d7c0b9947bb6e69d78db",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java"
+                },
+                {
+                    "page": 23,
+                    "sha": "985bfeb15264855a018d1382d6ed17d0ca27f9d2",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Python"
+                },
+                {
+                    "page": 24,
+                    "sha": "03143368cf065f37fa6cb58f45a66f5fecff70dc",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Python"
+                },
+                {
+                    "page": 25,
+                    "sha": "2a879378f24175cdebc019355dec56c1909d5f6c",
+                    "description": "Client-Server-Interaktionsmodell Socket-Verbindung mit Java \\u002f Python"
+                },
+                {
+                    "page": 26,
+                    "sha": "0077bb3634d1c10f8fd52bad954422f14005dc3c",
+                    "description": "Client-Server-Interaktionsmodell Dienstabwicklung durch Anforderungs-\\u002fAntwortprotokoll"
+                },
+                {
+                    "page": 27,
+                    "sha": "df96ce389d7e04a96aab33486325c9eb0177438e",
+                    "description": "Client-Server-Interaktionsmodell Dienstabwicklung durch Anforderungs-\\u002fAntwortprotokoll"
+                },
+                {
+                    "page": 28,
+                    "sha": "5d7039dbf6ba5a6fe0eacdd2cbb86e0d98e95ef8",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 29,
+                    "sha": "6eac875fd1c6e2310e5ef330308004d3b16ddd58",
+                    "description": "Uniform Resource Locator URI"
+                },
+                {
+                    "page": 30,
+                    "sha": "3156c66e70feceb2ed8d496978decb2045bb39a7",
+                    "description": "Uniform Resource Locator URI"
+                },
+                {
+                    "page": 31,
+                    "sha": "79109e718e6e9862ada3e61b935b08ece87f2796",
+                    "description": "Uniform Resource Locator URL versus URI"
+                },
+                {
+                    "page": 32,
+                    "sha": "74e6bc73cd4a323a2c7104a8b338b55a457ebad4",
+                    "description": "Uniform Resource Locator URL versus URI"
+                },
+                {
+                    "page": 33,
+                    "sha": "80d490cd13329cbad939da5921fd4311adccf809",
+                    "description": "Uniform Resource Locator URL versus URI"
+                },
+                {
+                    "page": 34,
+                    "sha": "646ecd62137b29d51523fe290abafb5b6552f839",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 35,
+                    "sha": "ae57ec5adbf1a6e343b24cf1195b1e2b52659458",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 36,
+                    "sha": "2799bdfebb940ec68fad1c5e640f3dff7c50c9b7",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 37,
+                    "sha": "ddf547771e21c951dfefe36951cdb5cf5ae21acd",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 38,
+                    "sha": "d9543d807ecbfec076648cf7f6d780fcf4af27e1",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 39,
+                    "sha": "f6b196bf6ba34ba0969871ba3a62cafdb99867c5",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 40,
+                    "sha": "486b31701b46114d42f303db6c990e4676ab0dcf",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 41,
+                    "sha": "f94239a57302e2525731bb9ebf65999ac40c1fa8",
+                    "description": "Uniform Resource Locator BNF-Syntax der HTTP-URL"
+                },
+                {
+                    "page": 42,
+                    "sha": "0d9e31753d54bcdb34c7f95e7e514b74eae005a4",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 43,
+                    "sha": "2949b55e6fd1af6278402e0ba0d485e6e78cacce",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 44,
+                    "sha": "a6b870c64c9adf855956d45c90e7017682ed86b0",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 45,
+                    "sha": "2322e45ded93b2020f30df0d0434da65aeccc0f7",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 46,
+                    "sha": "9a76db759e2c8926c5c2d87ae76f5322deb11e05",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 47,
+                    "sha": "ea18c06ba65524b29928b8ee8ffd608c27c47071",
+                    "description": "Uniform Resource Locator Namensaufl\u00f6sung URN \u2192 URL"
+                },
+                {
+                    "page": 48,
+                    "sha": "064190b3f7cffc9c57b6a9dc356c2751fa41c659",
+                    "description": "Bemerkungen:"
+                }
+            ]
+        },
+        "unit-de-http-protocol": {
+            "sha": "138205968fd1db275036f59ad76753bf98c32e3b",
+            "numpages": 60,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "6a72535b5e899440f0e14cf221fe26fbec5cc0cc",
+                    "description": "Kapitel WT:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "d49464ba6afbaaebc5f6672bd95e865cb334339b",
+                    "description": "Grundlagen HTTP-Protokoll Der HTTP-Standard sieht das Client-Server-Prinzip mit folgenden"
+                },
+                {
+                    "page": 3,
+                    "sha": "3ba76daacd0316dff43b566fdf634f20f3d81339",
+                    "description": "Grundlagen HTTP-Protokoll Der HTTP-Standard sieht das Client-Server-Prinzip mit folgenden"
+                },
+                {
+                    "page": 4,
+                    "sha": "6e02e5c0935a701e0d3c5cc449c6a488b85a2ba1",
+                    "description": "Grundlagen HTTP-Protokoll Historie"
+                },
+                {
+                    "page": 5,
+                    "sha": "28e1154bb35f8b8c68ba82e3bf4c3fbf1bff3199",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 6,
+                    "sha": "b4f68db24ed3dca5c70aa2ae9d4edd03f7d71ab5",
+                    "description": "Grundlagen HTTP-Protokoll Das HTTP-Protokoll spezifiziert Nachrichtentypen, Datentransfer, Regeln zur"
+                },
+                {
+                    "page": 7,
+                    "sha": "d9fe503f9501795bb2b996723053b8d2bc567ca0",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message"
+                },
+                {
+                    "page": 8,
+                    "sha": "69a98767e371800a2a3ab1532256832c572a8922",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message"
+                },
+                {
+                    "page": 9,
+                    "sha": "198e5d83004e1d0f680fdbd322f8a2a47cc1fa28",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Methoden"
+                },
+                {
+                    "page": 10,
+                    "sha": "cba276e41653498fdba06ad843e0c29a550dee27",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Methoden"
+                },
+                {
+                    "page": 11,
+                    "sha": "6c3ed6283c3aa8431871e5e12796b3100bfa18ff",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Methoden"
+                },
+                {
+                    "page": 12,
+                    "sha": "ea36a2d20d11ccce9a84531b8b659cfc81dc0205",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Beispielanfrage mittels GET-Methode (1)"
+                },
+                {
+                    "page": 13,
+                    "sha": "867887e335902b1f12e90d1ae9e969587c7b59db",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
+                },
+                {
+                    "page": 14,
+                    "sha": "36a4cb28a937e27bb242e86c0f6e70be44631899",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
+                },
+                {
+                    "page": 15,
+                    "sha": "ca335705b66990de44a43185e3d5388b199da21f",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
+                },
+                {
+                    "page": 16,
+                    "sha": "4988fc9a8c29b703e5391ff5b527d8f3f01e3555",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Request-Message: Beispielanfrage mittels GET-Methode (2)"
+                },
+                {
+                    "page": 17,
+                    "sha": "337d1bc9348774b2ac8f12e8f1ba701ab448bf9d",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Response-Message"
+                },
+                {
+                    "page": 18,
+                    "sha": "eea044a3d34e5066066b8676595662c61f48a6c5",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Response-Message"
+                },
+                {
+                    "page": 19,
+                    "sha": "d66d152c3afc6f74559539a2d9d369696b9c5517",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Response-Message: Status-Codes"
+                },
+                {
+                    "page": 20,
+                    "sha": "9e84c2865f33623ab7b031f88b786f44b0f878df",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Response-Message: Status-Codes"
+                },
+                {
+                    "page": 21,
+                    "sha": "955b87834d28fd816501992156773280a5cbf9ee",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Message-Header"
+                },
+                {
+                    "page": 22,
+                    "sha": "1c0d6bafc8f8a227b23cd594a11270d4d5b6b7d0",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 23,
+                    "sha": "1cd8aba36f5f3c9c2db2bf0b7d09d54e8d450490",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Response-Message: Beispielantwort"
+                },
+                {
+                    "page": 24,
+                    "sha": "6d8ccf772fb591b1fc64b768c9944294023804dc",
+                    "description": "Grundlagen HTTP-Protokoll Content Type \\u002f MIME Type \\u002f Media Type"
+                },
+                {
+                    "page": 25,
+                    "sha": "e1a33ce202cfc4cfac7c73b9ba64a5bb184aae8b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 26,
+                    "sha": "1599b5a7c4b1fbdc9687ab65d5d043ef8636020f",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 27,
+                    "sha": "30ff7f02110d7b9b82f520cf87286c25a229205b",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 28,
+                    "sha": "92e3ae4fed669abefe15254f51a133194c4c84b9",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 29,
+                    "sha": "fbdb3007d121c6ff7725689b50b3a1d57a4941f1",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 30,
+                    "sha": "371c915e6fc9fff37ce2a633ab33d99cfb43082c",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 31,
+                    "sha": "534dee05c7a4156f1551cf3f411de55ceaf0efc3",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 32,
+                    "sha": "a8825ddb8168ca8b7e38415e55c8f40be1e32b34",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 33,
+                    "sha": "f941caa10ee9c644c8358f66c957c0ffd92b8256",
+                    "description": "Grundlagen HTTP-Protokoll HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 34,
+                    "sha": "941543e04228defc987dff6293768414b3b7bf9c",
+                    "description": "Weitere HTTP-Konzepte Session-Management"
+                },
+                {
+                    "page": 35,
+                    "sha": "99156baed52c044c6d22efb41b4302b478a08e68",
+                    "description": "Weitere HTTP-Konzepte Session-Management"
+                },
+                {
+                    "page": 36,
+                    "sha": "debdefbf5fcabd4e8c062319fcb4c881b683559d",
+                    "description": "Weitere HTTP-Konzepte Session-Management"
+                },
+                {
+                    "page": 37,
+                    "sha": "2f75a71480789a8075b4f6f333319c13bf657d6d",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 38,
+                    "sha": "916ee2d0ea3eb9548eb3d285ee85225827c009d8",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 39,
+                    "sha": "25d38139765bd73db26e05c018bbcb1a29f0aa04",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 40,
+                    "sha": "c3c0e5751d35505bc03535e8584eb465f8d7e936",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 41,
+                    "sha": "d4f7c4a1c291493f22a780365087c1153bc655bc",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 42,
+                    "sha": "518083c3dd36514c3c980f3f5a5d92387ba09d02",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 43,
+                    "sha": "e621e67120b8ccd108f0346f3085359279d83712",
+                    "description": "Weitere HTTP-Konzepte Session-Management: Cookies"
+                },
+                {
+                    "page": 44,
+                    "sha": "012ee8ccad1f58e985b5a265ee39c333565fe08b",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 45,
+                    "sha": "989327250bfd681e4c88d7a9338563f776bab4fe",
+                    "description": "Weitere HTTP-Konzepte Content-Negotiation"
+                },
+                {
+                    "page": 46,
+                    "sha": "3286600e8ec1b446dd4ff699fb247f96c7b1911f",
+                    "description": "Weitere HTTP-Konzepte Content-Negotiation"
+                },
+                {
+                    "page": 47,
+                    "sha": "04e0315c4f237e74291198cc91a8f96914b9e73f",
+                    "description": "Weitere HTTP-Konzepte Content-Negotiation: transparent"
+                },
+                {
+                    "page": 48,
+                    "sha": "728286cc1839765b0adc54ab978c0376b04256e5",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 49,
+                    "sha": "475737a25b7576fd2fba51decb28ae5cdc34781c",
+                    "description": "Weitere HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
+                },
+                {
+                    "page": 50,
+                    "sha": "956743a25353fea91160797d1347a1f9e8dfe5f0",
+                    "description": "Weitere HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
+                },
+                {
+                    "page": 51,
+                    "sha": "0c01bab8e64e974032df4b8684648d3bad8522c9",
+                    "description": "Weitere HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
+                },
+                {
+                    "page": 52,
+                    "sha": "d0561dd63fbccdc2a3dd4626259318cacda52bc3",
+                    "description": "Weitere HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
+                },
+                {
+                    "page": 53,
+                    "sha": "ba765550afdcdfb742b47f4bc514389ec7b1e22b",
+                    "description": "Weitere HTTP-Konzepte Optimierte Ausnutzung der Verbindung"
+                },
+                {
+                    "page": 54,
+                    "sha": "c768bb389dc0eed7e2b9d1eb217b779e5cacdd59",
+                    "description": "Grundlagen TLS-Protokoll "
+                },
+                {
+                    "page": 55,
+                    "sha": "f9ac298c70fa51c6aeba382936bd5370db83b23d",
+                    "description": "Grundlagen TLS-Protokoll "
+                },
+                {
+                    "page": 56,
+                    "sha": "8703b505fec5d655c7166836270b8169d6eb570e",
+                    "description": "Grundlagen TLS-Protokoll "
+                },
+                {
+                    "page": 57,
+                    "sha": "19361d9adf75492991b16fa3e8051e53554de831",
+                    "description": "Grundlagen TLS-Protokoll "
+                },
+                {
+                    "page": 58,
+                    "sha": "2ee6669abf3a69f8592ca79952ab7a424661b85f",
+                    "description": "Grundlagen TLS-Protokoll "
+                },
+                {
+                    "page": 59,
+                    "sha": "c3fec3bd622772056b810979aaa6eeb1eee869c1",
+                    "description": "Grundlagen TLS-Protokoll "
+                },
+                {
+                    "page": 60,
+                    "sha": "227e2d19871284d07665905e9f0e7c4af9c312af",
+                    "description": "Grundlagen TLS-Protokoll "
+                }
+            ]
+        },
+        "unit-de-character-encoding": {
+            "sha": "9ee3206d2540272c3d3840ee70a0c165e43f94c9",
+            "numpages": 16,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "a9c8d064fac52709440ec3e987305c625528caeb",
+                    "description": "Kapitel WT:II "
+                },
+                {
+                    "page": 2,
+                    "sha": "2462ed6ca2be77d55465ceafb6bd2411e2b965b6",
+                    "description": "Zeichen und Codierung Internationalisierung"
+                },
+                {
+                    "page": 3,
+                    "sha": "b5c6ea2ad08916d6df2424155c5c97fcb0250dee",
+                    "description": "Zeichen und Codierung Internationalisierung"
+                },
+                {
+                    "page": 4,
+                    "sha": "1cdaa8dbd4806bc854f8d9c57bb1c37b3e1b4a7d",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 5,
+                    "sha": "02fc28e58b911095357590225e2785a737157ba9",
+                    "description": "Zeichen und Codierung Internationalisierung"
+                },
+                {
+                    "page": 6,
+                    "sha": "e863637c8948ec63679ffacc0f8aa6536ec707c5",
+                    "description": "Zeichen und Codierung Internationalisierung"
+                },
+                {
+                    "page": 7,
+                    "sha": "1baf7323d587cc95327dfd782324693e4d049605",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 8,
+                    "sha": "cfd8e2d33c54e386bfb6d0beb4eaff5298ad0749",
+                    "description": "Zeichen und Codierung Internationalisierung"
+                },
+                {
+                    "page": 9,
+                    "sha": "85366b9231d25a7f721fdc48fa39b1bd38d23b6e",
+                    "description": "Zeichen und Codierung Internationalisierung: HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 10,
+                    "sha": "f3c5bcef62c20a6c110946edd36421f55d25b6a9",
+                    "description": "Zeichen und Codierung Internationalisierung: HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 11,
+                    "sha": "07f7a31687ec39c74b30a9a07640f086f17e8d88",
+                    "description": "Zeichen und Codierung Internationalisierung: HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 12,
+                    "sha": "506012292e6f5242eb3c151696c1a054be4845a1",
+                    "description": "Zeichen und Codierung Internationalisierung: HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 13,
+                    "sha": "86800775c996720ee19cc90f0b9bea1cf82ed004",
+                    "description": "Zeichen und Codierung Internationalisierung: HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 14,
+                    "sha": "4a61b131d38b42a15b4bb6cb7bb5e7e99e59b9b6",
+                    "description": "Zeichen und Codierung Internationalisierung: HTTP-Kommunikation mit Java"
+                },
+                {
+                    "page": 15,
+                    "sha": "c8568bead5857c26fadbcdec3aec72fa41f8c655",
+                    "description": "Bemerkungen:"
+                },
+                {
+                    "page": 16,
+                    "sha": "3cbf0b0e45c64c0d5effef963b594d24e56d6249",
+                    "description": "WWW "
                 }
             ]
         }
