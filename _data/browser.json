@@ -24263,6 +24263,8 @@
             "unit-en-probability-basics",
             "unit-en-bayes-classifier",
             "unit-en-frequentist-subjectivist",
+            "unit-en-deep-learning-introduction",
+            "unit-en-rnn-basics",
             "unit-de-ensemble-methods-basics"
         ],
         "unit-en-ml-organization": {
@@ -25755,293 +25757,298 @@
             ]
         },
         "unit-en-probability-basics": {
-            "sha": "a170f58fb76e5fbaeffb4c24f151c44b0700ae93",
-            "numpages": 57,
+            "sha": "14eaac5df21565fb8594c3f38cf23ad33c3c839a",
+            "numpages": 58,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "5596b82645083552a3faa3b1ba0cbed47c5b3767",
+                    "sha": "0a1d1ff6f8ec769fc478f0e03a0fb24031487382",
                     "description": "Chapter ML:VII VII. Bayesian Learning"
                 },
                 {
                     "page": 2,
-                    "sha": "e04937784aa4b02d8f118f7c124c0719c1787490",
-                    "description": "Probability Basics Area Overview"
+                    "sha": "7daa0f7157a20054d1653c0a3e517c12bee9f40f",
+                    "description": "Approaches to Probability Area Overview"
                 },
                 {
                     "page": 3,
-                    "sha": "35d6b5441700f5768da51c122e7cf701be8347a9",
-                    "description": "Probability Basics Area Overview"
+                    "sha": "dbc928d5930403ecb524301123c19aa9c1ad3d9d",
+                    "description": "Approaches to Probability Area Overview"
                 },
                 {
                     "page": 4,
-                    "sha": "fe639c37d30e0eebbe959a15606032a25246d12f",
-                    "description": "Probability Basics Definition 1 (Random Experiment, Random Observation)"
+                    "sha": "e60e9708b68e5a8e125820d1928731c48845af21",
+                    "description": "Approaches to Probability Definition 1 (Random Experiment, Random Observation)"
                 },
                 {
                     "page": 5,
-                    "sha": "310ceac66206ddcc1e0716436dcf6782c1245965",
-                    "description": "Probability Basics Definition 1 (Random Experiment, Random Observation)"
+                    "sha": "6b6ebc81ebd95470df6c1e156870a5c2d565f21a",
+                    "description": "Approaches to Probability Definition 1 (Random Experiment, Random Observation)"
                 },
                 {
                     "page": 6,
-                    "sha": "555060d1083e84be86ff164c24341cc16967fba0",
+                    "sha": "27c68af1ba0b097e195537e41951c92491195025",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "93fff43a4821032f2f7449ac76c9371855bd3022",
-                    "description": "Probability Basics Definition 2 (Sample Space, Event Space)"
+                    "sha": "5fa4d6a0b14596f66a8e4c0b3c18542e1c8e16ad",
+                    "description": "Approaches to Probability Definition 2 (Sample Space, Event Space)"
                 },
                 {
                     "page": 8,
-                    "sha": "4882a0f8dd00594b9ebd16a68b50c72bda849da7",
-                    "description": "Probability Basics Definition 2 (Sample Space, Event Space)"
+                    "sha": "5b07b61bd457fb0a05aaac40ebfabb69f170d873",
+                    "description": "Approaches to Probability Definition 2 (Sample Space, Event Space)"
                 },
                 {
                     "page": 9,
-                    "sha": "0520567feee92733cc57abafb589b270fbd8ec92",
-                    "description": "Probability Basics Definition 2 (Sample Space, Event Space)"
+                    "sha": "e3114bbeb255048c3544f0a0fd9573919609dd5c",
+                    "description": "Approaches to Probability Definition 2 (Sample Space, Event Space)"
                 },
                 {
                     "page": 10,
-                    "sha": "6deda56a30169580454f954845e3db1f1a1d41bd",
-                    "description": "Probability Basics Definition 2 (Sample Space, Event Space)"
+                    "sha": "dd9cd4cf81c3bd44cbee78144d3f68db2189fcc9",
+                    "description": "Approaches to Probability Definition 2 (Sample Space, Event Space)"
                 },
                 {
                     "page": 11,
-                    "sha": "d68625ce57efc3c6db051c5542d6de10eba77468",
-                    "description": "Probability Basics Definition 3 (Important Event Types)"
+                    "sha": "4fd3e548e52602690f1713fea25c142a230fb95b",
+                    "description": "Approaches to Probability Definition 3 (Important Event Types)"
                 },
                 {
                     "page": 12,
-                    "sha": "9b4a1f790da285824d8e855f19b73c51ba5e8d62",
-                    "description": "Probability Basics Definition 3 (Important Event Types)"
+                    "sha": "21cc83ca6b86f7982707f1fa22e6038764496327",
+                    "description": "Approaches to Probability Definition 3 (Important Event Types)"
                 },
                 {
                     "page": 13,
-                    "sha": "8b712eb749f9609ac7a49c979d3135ff61e1dbc4",
+                    "sha": "d26b0640cd4c75fdf463868bde9cb401a16a9554",
                     "description": "Remarks:"
                 },
                 {
                     "page": 14,
-                    "sha": "416f8ac520dd6a7b18d049c0f2e8fed66e766379",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "dc7efc82e7687f2aec0991daf5b2b6a750f2e326",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 15,
-                    "sha": "08d6dfa0d1f89a44a5a4369fdd9b3d2b6fcc79a5",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "999f2910ab51a88d6bcbb039c7f8a9dbc0ad796f",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 16,
-                    "sha": "d7c1e2b1b78e771e3321c91fbe3fe55612b35fc6",
+                    "sha": "e1c3e396003a0e3aa50c5d866517d68d441cb04b",
                     "description": "Remarks:"
                 },
                 {
                     "page": 17,
-                    "sha": "077e013ee2d6c89113ef158c0d19056b39d8d5a5",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "af235232cc9e384f26697f91324e84b7dfb28f2f",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 18,
-                    "sha": "3747ae1b330251d0df00efb00afc28f02c9ef730",
+                    "sha": "406b3434a9c326530fb83cfb6059a6994f75784d",
                     "description": "Remarks:"
                 },
                 {
                     "page": 19,
-                    "sha": "452954a1bafb92ea5011c4e3029a261fdfaa3cee",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "8605c349d8924f68b7ddfdeb4a4334e4dd9bbd00",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 20,
-                    "sha": "43e9449c0d65828213f1a897e059ba104b860050",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "9b5ed46d471ddf574bb7d22aabb6cde96ebd8a1d",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 21,
-                    "sha": "363644f9316923297f6c38f419fa11303d442a94",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "c4633e7cfd33ded46e8e50ecdf23e036b887023e",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 22,
-                    "sha": "d3667687bfd6f5ef6aa6dba95d3b30903d04e65f",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "4795b2846d077df671af7bdd9a7bedac6cf5d08d",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 23,
-                    "sha": "efa17955ad0f2d578007f47c01da6ac0dd6be73c",
-                    "description": "Probability Basics How to Capture the Nature of Probability"
+                    "sha": "74bcd07eee20400ba4fcab04e32d194fa8fa6c48",
+                    "description": "Approaches to Probability How to Capture the Nature of Probability"
                 },
                 {
                     "page": 24,
-                    "sha": "fd3e33b2a24bade81279a74b2458b668b31b5727",
+                    "sha": "bfae022b84c0718dccc1d3724c54be593d7ae5dd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 25,
-                    "sha": "7652c2fa0b2cdcd1a19787045026b82b023cf55f",
+                    "sha": "eab6edf80575f065892e1fb7b0ea937c0ed9dab8",
                     "description": "Remarks (frequentist versus subjectivist) :"
                 },
                 {
                     "page": 26,
-                    "sha": "d740946ca7739e822b8a35e9ba08d8c441c500b7",
-                    "description": "Probability Basics Axiomatic Approach to Probability"
+                    "sha": "76cbcac2454c445d9b1a44033314da41fad5722b",
+                    "description": "Approaches to Probability Axiomatic Approach to Probability"
                 },
                 {
                     "page": 27,
-                    "sha": "67efbbd09124bba49c552c814955c18c4f29250e",
-                    "description": "Probability Basics Axiomatic Approach to Probability"
+                    "sha": "ec84a4299e671f692a6e24a2c5686f8aefa2aca1",
+                    "description": "Approaches to Probability Axiomatic Approach to Probability"
                 },
                 {
                     "page": 28,
-                    "sha": "48a70263fc246ec4ca60ec6b2c86bb2b6329dcd1",
-                    "description": "Probability Basics Axiomatic Approach to Probability"
+                    "sha": "ba30781897eb1cd688974d3c4b9055af72346416",
+                    "description": "Approaches to Probability Axiomatic Approach to Probability"
                 },
                 {
                     "page": 29,
-                    "sha": "2aa2d484d572764cb3fa93d973d0ddeb3616a65f",
-                    "description": "Probability Basics Axiomatic Approach to Probability"
+                    "sha": "e6eddcd8cf20eb4fce55eeb25ca3f2d49f63e32c",
+                    "description": "Approaches to Probability Axiomatic Approach to Probability"
                 },
                 {
                     "page": 30,
-                    "sha": "0b0e2ec81e10e4bad0e025f8e9c9801cadb2a2b5",
-                    "description": "Probability Basics Axiomatic Approach to Probability"
+                    "sha": "1e4778d370cd9c94c6b3209a851b2203e1ed8fc0",
+                    "description": "Approaches to Probability Axiomatic Approach to Probability"
                 },
                 {
                     "page": 31,
-                    "sha": "113f8f7a135f4c56515b680ffe5da383af986777",
+                    "sha": "fc4d0af8323c4c99f1a4c9768a3a99b25c024178",
                     "description": "Remarks:"
                 },
                 {
                     "page": 32,
-                    "sha": "8d257e8508e5ffe60dcead5807cf5ad846ec6fc5",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "01670f037ba595559d575af6e5094dd46c1d5ab5",
+                    "description": "Chapter ML:VII "
                 },
                 {
                     "page": 33,
-                    "sha": "8ae0678bde3bcc3cd5c69bae74e88bbe423868c5",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "1807c94fb26a5618ddaf633276a6b81fa28f0277",
+                    "description": "Conditional Probability Basic Definition"
                 },
                 {
                     "page": 34,
-                    "sha": "eeef14faea23ecce605708375abf17a738bc8903",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "5858650fe9ac0de027a9c61770fc5ba6f22ce1e7",
+                    "description": "Conditional Probability Basic Definition"
                 },
                 {
                     "page": 35,
-                    "sha": "8a6e30ac24ef5cc4d0a777c7fe4166f800cbc96f",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "e6b5d72f7f459e3a843ddec289f78106083a95b3",
+                    "description": "Conditional Probability Basic Definition"
                 },
                 {
                     "page": 36,
-                    "sha": "ad55e13d0d7341d4fb2ae52ab03b2ef99f027eb1",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "e4521a5717dc946dce3d23e776de769ec0534678",
+                    "description": "Conditional Probability Basic Definition"
                 },
                 {
                     "page": 37,
-                    "sha": "6ec31f857c9d90fa7c1c0c1f62150abdfa0adf62",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "c6ab5ed493a833d7be6954271e00ca3997ac6757",
+                    "description": "Conditional Probability Basic Definition"
                 },
                 {
                     "page": 38,
-                    "sha": "531cff0d81c79a18840368cabe7337d2aa03d3a5",
-                    "description": "Remarks (conditional probability) :"
+                    "sha": "989ad6956a0b0bdebbf9c370a120a0ab66078472",
+                    "description": "Conditional Probability Basic Definition"
                 },
                 {
                     "page": 39,
-                    "sha": "0665640edc2e802992aa3fbfe7114186c74c42e0",
-                    "description": "Remarks (conditional event algebra) :"
+                    "sha": "3f0d61f638fc7d23153120bad1c98d521da78116",
+                    "description": "Remarks (conditional probability) :"
                 },
                 {
                     "page": 40,
-                    "sha": "71784a63c10b7b91048c0e4e03db3642c38996f6",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "fe8a2dd09f89b283886cb063a9419fff9a5c6b75",
+                    "description": "Remarks (conditional event algebra) :"
                 },
                 {
                     "page": 41,
-                    "sha": "b110fa5c887511a968af46a0b2b513031b331d11",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "86d5b680c1490423d8d3c62314a57e9cc6044457",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 42,
-                    "sha": "d9a2ac7676c9e8cd1fa74f243f0e261af48e3dc6",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "6431d6f6d223b5d2c7fc0449b8c13b076f1f8375",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 43,
-                    "sha": "d07419833eae3d220a4cb38b27618fa5e7173db6",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "01688ba66d82b917953b57f443dfffeb52ac6d47",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 44,
-                    "sha": "9f14d1e75c0b121da4443bd31f2f28d7de9bcc52",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "a205932d38824ffde9b6ebdcb2eedfa34e6359fa",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 45,
-                    "sha": "cfdb445b4587e6f9bfd1a8c6c1a0c73fbe311a91",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "c5d3c1a69f588d99cdf191dbcf4f80a39dd9960d",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 46,
-                    "sha": "d82ef6bda97a75a3bceaa75f9e46951d6c4905eb",
-                    "description": "Probability Basics Conditional Probability"
+                    "sha": "5f4deae39c3d148735572217171fbc95fe28f28a",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 47,
-                    "sha": "8aadd141e797e6fbff85382e3bad12f91a72ce6d",
-                    "description": "Remarks:"
+                    "sha": "10a6e2c9a764a1ae29c6fa55b0cc4e64c3eb232b",
+                    "description": "Conditional Probability Total Probability"
                 },
                 {
                     "page": 48,
-                    "sha": "ee3c47dc428e307f926ee483040a6f4fd95c4605",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "95fe07cddfe21aec5c54cde400c8482baac287f7",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 49,
-                    "sha": "89ee5096e38c01f3207d95fad7336537ef2ab148",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "5a54ad602ca17834b6da084dd5434f8a4158d6d7",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 50,
-                    "sha": "0106b869ec1704ba7348fa814dffdc58ff8b6e85",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "82563d8aaa4652fa637da2a835953cca5917b89f",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 51,
-                    "sha": "305e4127c4e9a51ab608ed6d641e80b0617cbb22",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "a003d4266c9dbff33d1838dfc07b94069b754aa3",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 52,
-                    "sha": "48742b3d54aed5cccbc66f40975d3f2a461971c0",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "61c11aacab4f305bb9854c3be29d2a0613a972fc",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 53,
-                    "sha": "01cafdca47bdb3eae19de29c2103703112763eee",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "cd744e2480e90eb98a615b43dd33017b66475343",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 54,
-                    "sha": "317939ab607d0a2a94ef12ed22c965b33d8c1efa",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "f085ff9b661bf56099dba440b7fbbd8cc32ca552",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 55,
-                    "sha": "574b7555e9b49c51e080f722ada34f835fcacc6a",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "df27daa15522ef54edfc4098a4ff4ff959d867ca",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 56,
-                    "sha": "5f9bd66b0b7061c061d46934cdcc9947232bc91f",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "7665fc7864e35aef952c673466da72fcf582b531",
+                    "description": "Conditional Probability Independence of Events"
                 },
                 {
                     "page": 57,
-                    "sha": "eeb366fb2db001b9c23603f9bd8f9500bd8ee3c6",
-                    "description": "Probability Basics Independence of Events"
+                    "sha": "d9d901f48cbdc247a8d1e676f6e87dfc1968411f",
+                    "description": "Conditional Probability Independence of Events"
+                },
+                {
+                    "page": 58,
+                    "sha": "d7d19812d0ad34ec8f1ed7f9bcc630bd7c20c6d9",
+                    "description": "Conditional Probability Independence of Events"
                 }
             ]
         },
@@ -29077,393 +29084,855 @@
             ]
         },
         "unit-en-bayes-classifier": {
-            "sha": "12c97a48249b2958e662f16093c05996541b6932",
+            "sha": "060a9a2e7a9d9bfbb1c12a4b429675ddcd759fca",
             "numpages": 37,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "04e0b990d97e5e26f81911fd6bd3ada1209340bc",
+                    "sha": "a02048767b461145cca89d500e0be122daf1d844",
                     "description": "Chapter ML:VII "
                 },
                 {
                     "page": 2,
-                    "sha": "533ea7f4a9c82582b7d9bffc24f0bf05bf61b745",
+                    "sha": "0b676d22de0ea417fc3250bf811d3e96106a3f4e",
                     "description": "Bayes Classifier Generative Approach to Classification Problems"
                 },
                 {
                     "page": 3,
-                    "sha": "f12ef2ab686dcba790dbed75e8cf9b5a9d0ebfdd",
+                    "sha": "73d7288c2d4e71df7964ae737c704d947e1f28f2",
                     "description": "Bayes Classifier Bayes Theorem"
                 },
                 {
                     "page": 4,
-                    "sha": "9c3dfa2cd1f6562bd022ad5b74a6745264d75b5a",
+                    "sha": "2ff5935e4e4658cee4e61f7b30c22cae1b56b59c",
                     "description": "Bayes Classifier Bayes Theorem"
                 },
                 {
                     "page": 5,
-                    "sha": "5bdca984fce71195d2e89ffc9241109b65f52cad",
+                    "sha": "7e1c06c06c7ef7cca87d4f25802ca9284b07543b",
                     "description": "Bayes Classifier Bayes Theorem"
                 },
                 {
                     "page": 6,
-                    "sha": "e73220c7255ec05e726de20fd34d9f6e3b1681f9",
+                    "sha": "510e874aec54e5c3a51a431452a0af617b723e90",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 7,
-                    "sha": "cd17cd572b6312e97865d88c010b7442a30900ff",
+                    "sha": "ad72267f494125bda2322236e025e142ff80b3ad",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 8,
-                    "sha": "bcde6f45f9f9c53e88cc600a0acc456018f6b41d",
+                    "sha": "de4bbcd511af927920ee97a11e771206d645140d",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 9,
-                    "sha": "7353f9541e46e7733da8953897a997bbbc8ce448",
+                    "sha": "750a7657e5e731750783669ffebbd1a34a53d093",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 10,
-                    "sha": "5a2ef34ce5497537925b846ad925256a0447dc4a",
+                    "sha": "2ec3f5b7e595832a7fe7dece00bc6f17623fcc67",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 11,
-                    "sha": "7641fff88d80b0d0aa423a6b8bb6ee9d1f6bff50",
+                    "sha": "ce046baa80d4b6cd0ed3b34cc3dc4c4b8e3a16d9",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 12,
-                    "sha": "42c0305a8434f54b59cb7639d4aaa5b4326a974f",
+                    "sha": "27cd903f842970a719e1e62ad2d743b33a8110bc",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 13,
-                    "sha": "edf574bd0c3e45c4c6dea7b1075a722d1f212e8e",
+                    "sha": "f666b672718ca2bdf1c345fb8afed46fec2c04e8",
                     "description": "Bayes Classifier Example: Reasoning About a Disease"
                 },
                 {
                     "page": 14,
-                    "sha": "4a7d77c0960382f728ab2f602517e48eada1d6e1",
+                    "sha": "5f81732508310300b58daa0bc6720d200655b55b",
                     "description": "Bayes Classifier Combined Conditional Events: P (Ai | B1, . . . , Bp)"
                 },
                 {
                     "page": 15,
-                    "sha": "9c32bb28d8339fd2d88e31292196b3a04a5cbe3c",
+                    "sha": "bfd572af922cb26524f7c3dbf75358cac6c20133",
                     "description": "Bayes Classifier Combined Conditional Events: P (Ai | B1, . . . , Bp)"
                 },
                 {
                     "page": 16,
-                    "sha": "52112a5fa1d2f02c0cf2ad6ed7e3a287ab6425b4",
+                    "sha": "8e15a7a764b138f53a6175ce337796d5f9d3ee60",
                     "description": "Bayes Classifier Combined Conditional Events: P (Ai | B1, . . . , Bp)"
                 },
                 {
                     "page": 17,
-                    "sha": "1d7265176f0633538ef056b33dd4358ed0bd6bf5",
+                    "sha": "7ed766e562b3c1028ddf7f5816adf65c9c3f3cdb",
                     "description": "Remarks [:::::::::::: information:::::"
                 },
                 {
                     "page": 18,
-                    "sha": "e6161d0eccccf7423feff079a9265e377ebe3ba9",
+                    "sha": "c64896fa894fa2d8a6b534d6bdcdd4fc89701828",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 19,
-                    "sha": "b516b2fd674d7d588890bfcc06a684dac885a983",
+                    "sha": "b292d0481c392026cb12cb78685792b0e27d8211",
                     "description": "Bayes Classifier Naive Bayes"
                 },
                 {
                     "page": 20,
-                    "sha": "523a4c01c60adbbd637987c080abf058a8c70dd4",
+                    "sha": "fa1b217e7fa674ab4c6389c6ee289171c2c78358",
                     "description": "Bayes Classifier Naive Bayes"
                 },
                 {
                     "page": 21,
-                    "sha": "40d25ce133e948b25755f29a1c5c22b818f530bb",
+                    "sha": "1e3475b25eb9b657ae613e8d82c87859fe7db26a",
                     "description": "Bayes Classifier Naive Bayes"
                 },
                 {
                     "page": 22,
-                    "sha": "950d568d217abc850be200eb70f1f89ea0055044",
+                    "sha": "f38bb472d37e2ec0a33e7f26f8a811480238114c",
                     "description": "Remarks:"
                 },
                 {
                     "page": 23,
-                    "sha": "4db110867ab43600afc6752b43b116b0d7804e01",
+                    "sha": "236200e6e85ad8829bbb0736e8e84511379cf5c7",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 24,
-                    "sha": "57df34c3bb98fa5297e88dd52305cd8fb436073e",
+                    "sha": "36fac4dcf432c13823fea48316cfd9fc5dd0fd6e",
                     "description": "Bayes Classifier Naive Bayes"
                 },
                 {
                     "page": 25,
-                    "sha": "0ead42223fb8c974f5606ed5ac2d94900f0b804d",
+                    "sha": "1aef04603537f3db9cb7eb680d451a963154e0f7",
                     "description": "Bayes Classifier Naive Bayes"
                 },
                 {
                     "page": 26,
-                    "sha": "85df0ecbf8ab09b2cde8e8b075dd3559b3b8168d",
+                    "sha": "bf5c6ea98bb54e8c6ba602f7268ae670ca07016d",
                     "description": "Bayes Classifier Naive Bayes"
                 },
                 {
                     "page": 27,
-                    "sha": "6e05d70c87eeced564b349a10b42fb357732b0cd",
+                    "sha": "11b9373d623d4504854794ad1b16ab05273095f0",
                     "description": "Remarks:"
                 },
                 {
                     "page": 28,
-                    "sha": "df7e1443b83c5a236663b8d6986ccc2828afd022",
+                    "sha": "530ae5c4654910bce2317e9ccd7981fc5999a0d9",
                     "description": "Bayes Classifier Naive Bayes: Classifier Construction Summary"
                 },
                 {
                     "page": 29,
-                    "sha": "3ae748c6c366bc54c7012d91b4894dd40911869b",
+                    "sha": "c2b28d76b2ef5ddb7305314667c02016d5cb8b3d",
                     "description": "Bayes Classifier Naive Bayes: Classifier Construction Summary"
                 },
                 {
                     "page": 30,
-                    "sha": "81b638befc3aeba62ff624062b3ce3f03ae5b450",
+                    "sha": "c57dcd23ce4a4fa39aae49dc76f68433e4e872c8",
                     "description": "Remarks:"
                 },
                 {
                     "page": 31,
-                    "sha": "47f3b7ae7465edf6b78b2882bb08c115a3216ec7",
+                    "sha": "42ea3e3328fa62540a335d03175da27d1d35d739",
                     "description": "Bayes Classifier Naive Bayes: Example"
                 },
                 {
                     "page": 32,
-                    "sha": "eb83d8f8b2700155536f8752fa921fc7cb40e8fe",
+                    "sha": "cdf3b5c2a3e833cfc14e12bda862aada1087e2dc",
                     "description": "Bayes Classifier Naive Bayes: Example"
                 },
                 {
                     "page": 33,
-                    "sha": "bdca23e0f4cc9343dbed9064d0f4d461b9c96b2f",
+                    "sha": "ea7c44a6830ca84745eb0072d02ba7b5465d960c",
                     "description": "Bayes Classifier Naive Bayes: Example"
                 },
                 {
                     "page": 34,
-                    "sha": "4be0e2cdf5ba7c25af30bd5f0578c2b94162279b",
+                    "sha": "7b86528dabf7b96c3cee9ca89ff8fe04aa7a22e5",
                     "description": "Bayes Classifier Naive Bayes: Example"
                 },
                 {
                     "page": 35,
-                    "sha": "25702fe18ef199fabc7e7a2c62dba764ac556e17",
+                    "sha": "584614fdc10a1ed13c43294318bda5f723dd0334",
                     "description": "Bayes Classifier Naive Bayes: Example"
                 },
                 {
                     "page": 36,
-                    "sha": "0ae32d2036ab07352b621e5dae53d4e10ea9f657",
+                    "sha": "0325672507e424009b64b311b72d5ca49416483e",
                     "description": "Bayes Classifier Naive Bayes: Example"
                 },
                 {
                     "page": 37,
-                    "sha": "0e2eb0492f0455dd675855d00b4ea2902e3b22fc",
+                    "sha": "eaea6ac9714febadea1bb1aeccce03795bbf9433",
                     "description": "Remarks:"
                 }
             ]
         },
         "unit-en-frequentist-subjectivist": {
-            "sha": "7e7dc798604b1d00d9489dc34796d74767c7e1b4",
-            "numpages": 39,
+            "sha": "d5132167933d6820840d3560fdf0437b55871fdf",
+            "numpages": 55,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "cf6c407caf6ee7dde2f4cf3979a3f458e453e290",
+                    "sha": "24d7d24e9d75194eb9cc8e0fa7d7b25f7651d6c3",
                     "description": "Chapter ML:VII "
                 },
                 {
                     "page": 2,
-                    "sha": "129dd571951dabf51aee80f6db2cff1f73db6d7a",
-                    "description": "Frequentist versus Subjectivist Data Events"
+                    "sha": "8967176352174ab2a6637451e346d0a072b1b586",
+                    "description": "Exploitation of Data Data Events"
                 },
                 {
                     "page": 3,
-                    "sha": "6357dd7e1e1d68bbd9fe9e48e147d04e895ecabb",
-                    "description": "Frequentist versus Subjectivist Data Events"
+                    "sha": "2f4bc57bb03f7759bf809b2da823e0777ee366f2",
+                    "description": "Exploitation of Data Data Events"
                 },
                 {
                     "page": 4,
-                    "sha": "30bd713c3c403fae98d7d8f4e1698f08f5070e51",
-                    "description": "Frequentist versus Subjectivist Data Events"
+                    "sha": "5170f8759c69ac5ee9ad690952568af3c99fb676",
+                    "description": "Exploitation of Data Data Events"
                 },
                 {
                     "page": 5,
-                    "sha": "bbadc5a6b834364fcbcb0bbe72381a9036d42792",
-                    "description": "Frequentist versus Subjectivist Data Events"
+                    "sha": "71662ec93298fbe6c032d08f28d8da05f2d26c02",
+                    "description": "Exploitation of Data Data Events"
                 },
                 {
                     "page": 6,
-                    "sha": "6db54386a6b7741f791852cc8deeba282010600a",
+                    "sha": "4a9c04cd8203fcec4cb712ccafe7d63b60aa7dfd",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "4853523ebcc3e656f0377f3bffeba8e9317fc4d5",
+                    "sha": "00b5ab54928f5342d9b3ce135e0eb5b5f5ddfc4d",
                     "description": "Remarks: (continued)"
                 },
                 {
                     "page": 8,
-                    "sha": "21f529cafa590e7f7ad4da6276f8a6b9d54f2a9c",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "0a5b57ec8f0b0a972f9cd068987b29b2f4bbe3d9",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 9,
-                    "sha": "b43ce4621f1fe1d85f05198196ee572ff86caaf9",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "556fea52c3a23f5f1a6d5c352ff9272b31aed087",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 10,
-                    "sha": "40fa0bb24df06b0b8872c47bd87ff6accbc4d70c",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "512897b46d219723e99650dbee47113a940dba0b",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 11,
-                    "sha": "15397a41100f4e0a4f81123957d5abf209bac75f",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "10ee3e9686a5af4cb749152b60648771f171d19c",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 12,
-                    "sha": "710fc9c5e70e1ca1ba9657e433b9c6fb7d2bced6",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "0b5db862e45095949a6a8261c13545c42ae61a63",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 13,
-                    "sha": "2f20f878f8f2cc59f5ca558f96f99d8ed590a85e",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "b2cc52a39cf2d9b59d2035b889fe2e6c304157d6",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 14,
-                    "sha": "69a2526fab51606350b2599176cff276fdb4106b",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Examples"
+                    "sha": "b60c1e2cc82c15c7a410c8d16fef3532c642f7fc",
+                    "description": "Exploitation of Data Typical Learning Settings"
                 },
                 {
                     "page": 15,
-                    "sha": "396de203ddc8908194fba254a842db86030d2a3f",
+                    "sha": "a3834e7a7b76c610cb14123c5d34f1aa700431b1",
                     "description": "Remarks (predictor-response vs. outcome-only setting) : (1),. . . , (4)"
                 },
                 {
                     "page": 16,
-                    "sha": "9143197739865198b674447339bdb91a6a7a2e6b",
+                    "sha": "4c2bf9c28206d689480aaebae757c3c1cee0fa18",
                     "description": "Remarks (discriminative vs. generative approach) : (1), (2), (3)"
                 },
                 {
                     "page": 17,
-                    "sha": "8f5f942a35147e6b7403cd2fe268252a1e6de11f",
-                    "description": "Remarks (discriminative vs. generative approach) : (continued) (4)"
+                    "sha": "dcb6a87eedd147938686d400490068d35776cceb",
+                    "description": "Remarks (discriminative vs. generative approach) : (continued) "
                 },
                 {
                     "page": 18,
-                    "sha": "3077a775963fba9bbcbee301adc217a185dd3f9e",
+                    "sha": "786bb949e095607cf135c85078ab16f6e015b123",
                     "description": "Remarks (ML principle vs. Bayes method) : (1), (2), (3)"
                 },
                 {
                     "page": 19,
-                    "sha": "20691341037979a49c377121c55d343105deece9",
-                    "description": "Remarks (ML principle vs. Bayes method) : (continued) (2), (5)"
+                    "sha": "6741d04442f5346eed021e811bd2284c37a7d90b",
+                    "description": "Exploitation of Data Learning Approaches Overview"
                 },
                 {
                     "page": 20,
-                    "sha": "b07d3c005ead7a3ba316fcbe4de0fce91ae2f68a",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Overview"
+                    "sha": "ed60daec06bb4b5194ed9ea58051ed7099d3b9ca",
+                    "description": "Exploitation of Data Learning Approaches Overview"
                 },
                 {
                     "page": 21,
-                    "sha": "66b56fa4e2ac9fc731b32445a3b765e3ad8ceb6a",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Overview"
+                    "sha": "4f7bb796a32e83c1e79362f04ccdaad375f24e46",
+                    "description": "Exploitation of Data Learning Approaches Overview"
                 },
                 {
                     "page": 22,
-                    "sha": "819b193233983dc951e4d0fcc74d7bd0f3684f8b",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Overview"
+                    "sha": "1092183313c004feb3114ec1474361fc5c9cd4ad",
+                    "description": "Exploitation of Data Learning Approaches Overview"
                 },
                 {
                     "page": 23,
-                    "sha": "35cb1a6fdba0fbc3562fcd2732120a2fad48842a",
-                    "description": "Frequentist versus Subjectivist Exploitation of Data: Overview"
-                },
-                {
-                    "page": 24,
-                    "sha": "19f0bf9819aa212331d1b7fff99106c997071511",
+                    "sha": "449072d19019b5e7486a653e48d37fbb4178358e",
                     "description": "Remarks:"
                 },
                 {
+                    "page": 24,
+                    "sha": "78cedece2a9a2b541fc3a4c132083b40c760e765",
+                    "description": "Chapter ML:VII "
+                },
+                {
                     "page": 25,
-                    "sha": "8a4ed82f624432682cb46fe114b2a5ee25c41d57",
-                    "description": "Frequentist versus Subjectivist Maximum Likelihood versus Bayes"
+                    "sha": "de188de05c963b976ebc39a5795e605904e987a6",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 26,
-                    "sha": "d4ec5b439a4031314a7bbbc6c32c452cb063fe77",
-                    "description": "Frequentist versus Subjectivist Maximum Likelihood versus Bayes"
+                    "sha": "19431aac475fa96faaa88a88791750390db85dd7",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 27,
-                    "sha": "69268e7f9819a10fdfc481ec899ba405bc9c1e2d",
-                    "description": "Frequentist versus Subjectivist Maximum Likelihood versus Bayes"
+                    "sha": "e7ded6fb0c3f5acddebcf6a5b063fbd397ed5806",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 28,
-                    "sha": "9458e64360d07843d9b8256e292f1e473e99cff7",
-                    "description": "Remarks: Estimating p(c | x) is usually significantly easier than estimating p(x, c)."
+                    "sha": "ab642a7efe53e049e3e04ae855c71e767ba4aade",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 29,
-                    "sha": "9e6a3d190258cd4f0e010e7afdee1c02de59623f",
-                    "description": "Remarks: (continued)"
+                    "sha": "4716d7c3169a5b6be8f9d38a3391c2981ca673b2",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 30,
-                    "sha": "548e5ad88a9b5a9f2ae43d0147cddc07584b228f",
-                    "description": "Frequentist versus Subjectivist Maximum Likelihood versus Bayes: Example"
+                    "sha": "b6b09e8cf5b645ff0049a2acaf28b02c645d779e",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 31,
-                    "sha": "07623d267d8e94000c8a7d66c215f4e39fbf3b31",
-                    "description": "Frequentist versus Subjectivist Maximum Likelihood versus Bayes: Example"
+                    "sha": "c650a2ca4fbfc8cf8bd24b5f61e6b4fb6c2c9850",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes"
                 },
                 {
                     "page": 32,
-                    "sha": "65a26bcdc9713b1b6fbea9ae0d6ed07991f97741",
-                    "description": "Frequentist versus Subjectivist MAP Hypothesis versus MAP Classification"
+                    "sha": "113a4231d3e94dfc814703d9039afa981a51b88b",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 33,
-                    "sha": "69ee5f34769a895dc4a494d7b6e1c5a70749fe58",
-                    "description": "Frequentist versus Subjectivist MAP Hypothesis versus MAP Classification"
+                    "sha": "5af03b7d2361230194d994313f8c75f14f160293",
+                    "description": "Remarks: (continued)"
                 },
                 {
                     "page": 34,
-                    "sha": "2161e6ac6be57ae73e51b67f5c8fbd3b7c5db5c0",
-                    "description": "Frequentist versus Subjectivist Advanced Bayesian Methods"
+                    "sha": "40020aa1cfca6950ede130007d1cd19d12e2a2b3",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Example"
                 },
                 {
                     "page": 35,
-                    "sha": "7b90106d86c3d31c15273cff8a6ef4410b779a56",
-                    "description": "Frequentist versus Subjectivist Advanced Bayesian Methods"
+                    "sha": "caf52771882d81e5fe6f92a7b1896b28c847043f",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Example"
                 },
                 {
                     "page": 36,
-                    "sha": "f9073e6e3c629bc0f20a15eb28f12106d7dfb750",
-                    "description": "Frequentist versus Subjectivist Advanced Bayesian Methods"
+                    "sha": "6541ac27f877fab712064cc28eeab82ff573b4e6",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Example"
                 },
                 {
                     "page": 37,
-                    "sha": "165fa36b81d15eb1a17ea825dddc7f764525969e",
-                    "description": "Frequentist versus Subjectivist Advanced Bayesian Methods"
+                    "sha": "515672281664329479d6a8951240b50d9316a6cc",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
                 },
                 {
                     "page": 38,
-                    "sha": "f3d5b00bcb4fe68ec428b3f4279782d7aa14354c",
-                    "description": "Frequentist versus Subjectivist Advanced Bayesian Methods"
+                    "sha": "7b0fb0e2a48242431722f9998dcd6235c2fb3652",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
                 },
                 {
                     "page": 39,
-                    "sha": "2b004f549f29fcfe72b7da0336ff5b08daf970e2",
+                    "sha": "d7ee6d1e59ee01cbf767fa45721ca964982e23be",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
+                },
+                {
+                    "page": 40,
+                    "sha": "416e772c02292b5718ea27f5a705df30e6837640",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
+                },
+                {
+                    "page": 41,
+                    "sha": "769ddde4820a0e0103422bdde50c2e52e33e3223",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
+                },
+                {
+                    "page": 42,
+                    "sha": "c9e44bd5e318c37011e7535cbd10025a860a269b",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
+                },
+                {
+                    "page": 43,
+                    "sha": "b4787f5f72c980f3c8602eb9cf4995eb0c6626c1",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
+                },
+                {
+                    "page": 44,
+                    "sha": "6a801d08718137d818cc75cd7cf1b16f11858f21",
+                    "description": "Frequentist versus Subjectivist Logistic Regression versus Naive Bayes: Conditional Class Probabilities"
+                },
+                {
+                    "page": 45,
+                    "sha": "1f11e4103e0ae218af972bbc9b119b765ef70997",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 46,
+                    "sha": "7969a838896d893846f6c724e22b235954325e21",
+                    "description": "Frequentist versus Subjectivist Naive Bayes: Smoothing and Continuous Likelihoods"
+                },
+                {
+                    "page": 47,
+                    "sha": "5f4fd5fd3d1b4becda75027c187c296b4d3c5dbb",
+                    "description": "Frequentist versus Subjectivist Naive Bayes: Prior Probability Models"
+                },
+                {
+                    "page": 48,
+                    "sha": "097b13b37f98e2d22f8582e45837645884eb45d9",
+                    "description": "Frequentist versus Subjectivist Classification: Bayes Optimum versus MAP versus Ensemble"
+                },
+                {
+                    "page": 49,
+                    "sha": "b24abbb0e7fa82e2e2938536ffc43acd22812b22",
+                    "description": "Frequentist versus Subjectivist Classification: Bayes Optimum versus MAP versus Ensemble"
+                },
+                {
+                    "page": 50,
+                    "sha": "1f3532ef78fe102b8917336e835d82a0a4a397a5",
+                    "description": "Frequentist versus Subjectivist Advanced Bayesian Decision Making"
+                },
+                {
+                    "page": 51,
+                    "sha": "c7506d9df2e4b672f62135b565afd21fb8f8637f",
+                    "description": "Frequentist versus Subjectivist Advanced Bayesian Decision Making"
+                },
+                {
+                    "page": 52,
+                    "sha": "fe756ccd752e24cd9aa6ec05d638180d71ad7ee6",
+                    "description": "Frequentist versus Subjectivist Advanced Bayesian Decision Making"
+                },
+                {
+                    "page": 53,
+                    "sha": "0682ff505fa8d1f2363a3fdbfbf3e15d7cf27d3f",
+                    "description": "Frequentist versus Subjectivist Advanced Bayesian Decision Making"
+                },
+                {
+                    "page": 54,
+                    "sha": "349bb395799308b86f8a83ad42b639e7f64d46c9",
+                    "description": "Frequentist versus Subjectivist Advanced Bayesian Decision Making"
+                },
+                {
+                    "page": 55,
+                    "sha": "2dff0c98dd1520421bde186619ba1840dfbcadfb",
+                    "description": "Remarks:"
+                }
+            ]
+        },
+        "unit-en-deep-learning-introduction": {
+            "sha": "1c018ed6961cd80711bac1ad8d04dae3f8c42465",
+            "numpages": 29,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "407c6bd1bdde8aacceddd1b0392879fbca574e48",
+                    "description": "Chapter ML:IX IX. Deep Learning"
+                },
+                {
+                    "page": 2,
+                    "sha": "b09601bff1f3d6865aa8f10e7650017fd80f6be7",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 3,
+                    "sha": "e44414aaea5c39ab656afe89f73104195bc815a1",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 4,
+                    "sha": "cefaedb509b26900416ca78a68da48ae307f267d",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 5,
+                    "sha": "d37ebe6e4d23471cb89124c37091284f9076730a",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 6,
+                    "sha": "2e124780a85fc94393e2c1ce77268be95a114b82",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 7,
+                    "sha": "e7380446fcef7c1e220dda4e5b4fe410b6e01cf3",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 8,
+                    "sha": "c0729f6d57cd9f52fdab831ef0ce9b8387b0d8e1",
+                    "description": "Introduction to Deep Learning History"
+                },
+                {
+                    "page": 9,
+                    "sha": "b5a695b52350f23ea9a116fb385854776d776907",
+                    "description": "Introduction to Deep Learning Tasks, Recap, Notation"
+                },
+                {
+                    "page": 10,
+                    "sha": "63b8422e9ba6c34db45ab392803180330929a71d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 11,
+                    "sha": "7b3e09c3d440ad701342b4baccfa86730f69e4bb",
+                    "description": "Introduction to Deep Learning Tasks, Recap, Notation"
+                },
+                {
+                    "page": 12,
+                    "sha": "2cea3c04f1b76b7c91f6310b42e161b76192e2f9",
+                    "description": "Introduction to Deep Learning Tasks, Recap, Notation"
+                },
+                {
+                    "page": 13,
+                    "sha": "e9402602b0bef2c7fdfa9c6148c59886aa383d8d",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 14,
+                    "sha": "12e0d9571b15b28e40e256b293fc6535d0883dd6",
+                    "description": "Chapter ML:IX "
+                },
+                {
+                    "page": 15,
+                    "sha": "c7f4569bfc54fb87d5666c538c3c6f063dbef721",
+                    "description": "Autoencoder Networks Representation Learning Task: Word Embedding"
+                },
+                {
+                    "page": 16,
+                    "sha": "4815ee1c21eb8c4cc0ac8e5515cf8f30dd7f17ba",
+                    "description": "Autoencoder Networks Word Embedding with Autoencoders"
+                },
+                {
+                    "page": 17,
+                    "sha": "071f5af9b9caa19696010eed0e6ea181ef59ba4f",
+                    "description": "Autoencoder Networks Representation Learning Task: Co-Occurrence Embedding (Word2Vec)"
+                },
+                {
+                    "page": 18,
+                    "sha": "2ea86d8267a8a5a246739e45ed119f96e6c231f6",
+                    "description": "Chapter ML:IX "
+                },
+                {
+                    "page": 19,
+                    "sha": "ebce70db61d3616b4a8f228944b53960586d0659",
+                    "description": "Convolutional Neural Networks Image Classification Task"
+                },
+                {
+                    "page": 20,
+                    "sha": "9a5f4f42161186d2a11c59eb3ee96a7a0c3489b3",
+                    "description": "Convolutional Neural Networks Image Classification Task"
+                },
+                {
+                    "page": 21,
+                    "sha": "293a2067d27cc2be097c61c2123d117a25e3add0",
+                    "description": "Convolutional Neural Networks Image Classification Task"
+                },
+                {
+                    "page": 22,
+                    "sha": "ea5e971fa8d26bc08e69db0f6762247c528c3c02",
+                    "description": "Convolutional Neural Networks Image Classification with CNN"
+                },
+                {
+                    "page": 23,
+                    "sha": "7036492ab4b561508de85e484c22e2f22f9af396",
+                    "description": "Convolutional Neural Networks Image Classification with CNN"
+                },
+                {
+                    "page": 24,
+                    "sha": "c0d5dc6693fe61acdfb09ec58000d90f85b4ded4",
+                    "description": "Convolutional Neural Networks Image Classification with CNN"
+                },
+                {
+                    "page": 25,
+                    "sha": "c00f44a2cc6e330e30d8421811645ed9404bc33e",
+                    "description": "Convolutional Neural Networks (continued)"
+                },
+                {
+                    "page": 26,
+                    "sha": "7f55452bf96b0189af09c1567084c85693ed2765",
+                    "description": "Convolutional Neural Networks Image Classification with CNN"
+                },
+                {
+                    "page": 27,
+                    "sha": "67b9b914c7ff4306a12ecb6980ae4fabbb4bfd97",
+                    "description": "Convolutional Neural Networks Image Classification with CNN"
+                },
+                {
+                    "page": 28,
+                    "sha": "9f2effa5542d9f32db6e7338eda23ff0cb50afa8",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 29,
+                    "sha": "deffffb411bd7baa569793dc8eec973685c01c80",
+                    "description": "Remarks (technical variants and improvements) :"
+                }
+            ]
+        },
+        "unit-en-rnn-basics": {
+            "sha": "7583dd60e1e16bf279a68e4dd27a78d8b38e8fe4",
+            "numpages": 45,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "e72333089f89347c21f2ec341fdbc9becc8763f3",
+                    "description": "Chapter ML:IX "
+                },
+                {
+                    "page": 2,
+                    "sha": "a0195f9ad2076530cbe71e316199fda6a036987b",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Encoding is Illustrated"
+                },
+                {
+                    "page": 3,
+                    "sha": "dedd75c13d8184d043420161e5de08029e994982",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 4,
+                    "sha": "111c33728f62d5631bfac0a79353e4ecf1866f65",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 5,
+                    "sha": "86f28994cb545783b56e7af29e67ae15b3dbdd48",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 6,
+                    "sha": "90da1d4073d85fe09e6ac6695564449f12a9c401",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 7,
+                    "sha": "ef79d84e4b487a29e95876131e4817e08ffbc566",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 8,
+                    "sha": "ef91d385932c83fca76bca958434ecfe7823fe0b",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 9,
+                    "sha": "922f0c207a7f72d2b0c5fa68caf351ffb8d6ab62",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 10,
+                    "sha": "42c09395c34b889bbdedbb407c305598e172f6b5",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 11,
+                    "sha": "ba52094017a15de1d2d2160a53c7c3cc3c299ea7",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 12,
+                    "sha": "678f1c248748454154e08001fd65361ea11aa62d",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 13,
+                    "sha": "d120a321b7c593977c013b2db9fd45b0c4f57e45",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 14,
+                    "sha": "d0234adc5ce1f4a61ffb7589f052a1abd0bdd14f",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 15,
+                    "sha": "a6d81259af8fae1394ca9496efae0c37837ebede",
+                    "description": "Recurrent Neural Networks (S1) Sentiment Classification Task: Sequence to Class"
+                },
+                {
+                    "page": 16,
+                    "sha": "4128f204baa7384f94e51b530b33c4673c2da805",
+                    "description": "Recurrent Neural Networks (S1) Sequence-to-Class Mapping with RNN"
+                },
+                {
+                    "page": 17,
+                    "sha": "f90023448ff04fdee7d87aafa9cce2c1d880da90",
+                    "description": "Recurrent Neural Networks "
+                },
+                {
+                    "page": 18,
+                    "sha": "658265757d0654b202f0b28448ebe89383dc6f38",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 19,
+                    "sha": "908bc2ad9a24bb8f777a5ffa53d7282410156d21",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 20,
+                    "sha": "0c82ca261d01aa8460cd469b6a00f33e5baa048b",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 21,
+                    "sha": "4fc0a78b618973c9d079913c637fb8c32427d52a",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 22,
+                    "sha": "709aa6aa3fabc334b52bdc11bf0d4b3e1189cece",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 23,
+                    "sha": "5028b4bbb141e4fc678ea804b9cc84e73e038ea6",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 24,
+                    "sha": "f60dbcc9b9976824d8d179ae9fb642265e143c0e",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 25,
+                    "sha": "6b1e6c32a932df2c59cd1a4fae508aa8d2bbf547",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 26,
+                    "sha": "4ea3ec999a610a3e6f190f8e0093e09034df0f84",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 27,
+                    "sha": "7671e825e8144b4069e96189b604b5394665cba5",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 28,
+                    "sha": "170fae6ad76ef2efb26d62a29759075ea8181e23",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 29,
+                    "sha": "97de7f804b2aa649777f7f3c51f691929a8ae858",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 30,
+                    "sha": "1f8f25d26004e7a5d64ed02c529882882ab14feb",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 31,
+                    "sha": "b203dee272a31880b399842fff5c8447916211d8",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 32,
+                    "sha": "acf4765b26984ec1ff9d1f817bb1ec7f3a2257ea",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 33,
+                    "sha": "93e15ad85858ffb7bc7af938500bdef456572e66",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 34,
+                    "sha": "8f126c9884db13d12bb2261de7db613cf0281a29",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 35,
+                    "sha": "4df03f961eeb75786e502caed444436026a1fda1",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 36,
+                    "sha": "fc53f19268b7929ef0d807506a1ae5cf510467be",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 37,
+                    "sha": "beba015b77243a76e9a302d44175147b9277df4a",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 38,
+                    "sha": "da0cc9f67c57702a989ffefca3f73b6cf33f0e4e",
+                    "description": "Recurrent Neural Networks How RNN (Sequence) Decoding is Illustrated"
+                },
+                {
+                    "page": 39,
+                    "sha": "860547d9cd245af7d0a47721986f1cf784ad63b0",
+                    "description": "Recurrent Neural Networks (S2) Text Generation Task: Class to Sequence"
+                },
+                {
+                    "page": 40,
+                    "sha": "63bea01499f33c3db7afd9cd04fbcc7f06e03cc5",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                },
+                {
+                    "page": 41,
+                    "sha": "da469dbeff35f4ce8ddab22e3ed65bea470c5d68",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                },
+                {
+                    "page": 42,
+                    "sha": "f2a0134d217e7db5fb2fb81c3ba6894287d9b862",
+                    "description": "Recurrent Neural Networks (S3) Text Translation Task: Sequence to Sequence"
+                },
+                {
+                    "page": 43,
+                    "sha": "ca26bf6c377229db1e91b46b8aeab294233dc8f1",
+                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
+                },
+                {
+                    "page": 44,
+                    "sha": "1034571292a399516c445848bb7507dac84f6ae2",
+                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
+                },
+                {
+                    "page": 45,
+                    "sha": "fc83a801b2d0b666ac23ef5d8ce04e247cb13c3b",
                     "description": "Remarks:"
                 }
             ]
