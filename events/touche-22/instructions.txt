@@ -1,4 +1,7 @@
-Complete and comprehensive working notebooks (papers) instructions are available at http://clef2021.clef-initiative.eu/index.php?page=Pages/instructions_for_authors.html
+Complete and comprehensive working notebooks (papers) instructions are available at 
+https://clef2022.clef-initiative.eu/index.php?page=Pages/instructions_for_authors.html
+
+Please read them carefully.
 
 In general, we will be accepting two types of submissions. CEUR-WS demands a minimum number of pages for papers to be published in proceedings.
 
