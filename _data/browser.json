@@ -24265,6 +24265,7 @@
             "unit-en-frequentist-subjectivist",
             "unit-en-deep-learning-introduction",
             "unit-en-rnn-basics",
+            "unit-en-rnn-nmt",
             "unit-en-vanishing-gradient",
             "unit-de-ensemble-methods-basics"
         ],
@@ -29692,645 +29693,821 @@
             ]
         },
         "unit-en-deep-learning-introduction": {
-            "sha": "4644559b2aade1b7e636b6ed5d24d77e87153050",
-            "numpages": 24,
+            "sha": "c8efe40e9dc3e7c8bd95f27cdc8537953f82bbbe",
+            "numpages": 28,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "c7a8b6923d08f8214e19fafe1021902bdf494145",
+                    "sha": "467265f1dcac503da9ae9d22463e3df1da8cf4af",
                     "description": "Chapter ML:IX IX. Deep Learning"
                 },
                 {
                     "page": 2,
-                    "sha": "ce25df17bfd831660829aaa6e72d9e57cba385d2",
+                    "sha": "181637371747a1456fbac3b91c587fb014e0729c",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 3,
-                    "sha": "55058840a528532a7e72559d9427508b0d872d70",
+                    "sha": "6869d1f9c683592974bb540071e21addcd80ffc2",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 4,
-                    "sha": "c58d02bfd912e331106092cfcb86588a2712375f",
+                    "sha": "2d6a434f50c6b5fa471b379770ade2f7646afbd3",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 5,
-                    "sha": "6c92004a9ddc9c17932d017ea6609040fc16336f",
+                    "sha": "4629ed475ba126ed77db8c441081a18f759164a8",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 6,
-                    "sha": "21053fcb69bdedd8a1df168a3c09c5e181b827c2",
+                    "sha": "d8bd165e414447e596bdf0f4c2907d434719064a",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 7,
-                    "sha": "860463d8e645e7361f4a96cfcc68b34ed474afad",
+                    "sha": "0578d22dde513ccfc12393a50d11f2497bba97d2",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 8,
-                    "sha": "228e0238ec3e73347802098c607f279968415bae",
+                    "sha": "083f5bd539a92730e1b982212e2fc9112dddfd0f",
                     "description": "Introduction to Deep Learning History"
                 },
                 {
                     "page": 9,
-                    "sha": "5896fa7d969d6c79074cabf0a8fae50805090b19",
+                    "sha": "c71eb41a94143408e839397d91f8180e501cf714",
                     "description": "Introduction to Deep Learning Types of Learning Tasks"
                 },
                 {
                     "page": 10,
-                    "sha": "589d60c68b4be82106b26cc838b82c76c51052b8",
+                    "sha": "9786be6945c44a8944f9ad59a47903c2942e5dfd",
                     "description": "Introduction to Deep Learning Types of Learning Tasks"
                 },
                 {
                     "page": 11,
-                    "sha": "e8bcc395396c68a6e84a64243739546b45b92065",
+                    "sha": "f5fdf690df27cf71e8603fa1f9629c9750f7900c",
                     "description": "Remarks:"
                 },
                 {
                     "page": 12,
-                    "sha": "8493ed3bae16e65891d2195c01f01d0861d6ecd0",
+                    "sha": "1e3c6d9617ffe59aae75ca1a73f36e8757aecbbf",
                     "description": "Chapter ML:IX "
                 },
                 {
                     "page": 13,
-                    "sha": "9ff9e7360a5f007cc640d2d20a6b069eec5315c2",
-                    "description": "Convolutional Neural Networks Image Classification Task"
+                    "sha": "43ad419037f91f686135574fae13d03d2903c98e",
+                    "description": "Autoencoder Networks Representation Learning Task: Word Embedding"
                 },
                 {
                     "page": 14,
-                    "sha": "a5d540ea0998a8e627289a1a0fc7328794b9cf85",
-                    "description": "Convolutional Neural Networks Image Classification Task"
+                    "sha": "7ccef4b31164b0845df7e83e28e0a912f60db70c",
+                    "description": "Autoencoder Networks Word Embedding with Autoencoders"
                 },
                 {
                     "page": 15,
-                    "sha": "c9e349bdc20a2f33cd75bc8c999058f148b1d663",
-                    "description": "Convolutional Neural Networks Image Classification Task"
+                    "sha": "13969806cef9aadba627184101094c0e031fdd90",
+                    "description": "Autoencoder Networks Representation Learning Task: Co-Occurrence Embedding (Word2Vec)"
                 },
                 {
                     "page": 16,
-                    "sha": "e00273e3f852f27532640af88a1ea686dd2fb786",
-                    "description": "Convolutional Neural Networks Image Classification with CNNs"
+                    "sha": "60521d054a653f8eaa67f9d694436953c41bffb2",
+                    "description": "Chapter ML:IX "
                 },
                 {
                     "page": 17,
-                    "sha": "83e222029d44d877f1743fdb8c19f6c9afd4210d",
-                    "description": "Convolutional Neural Networks Image Classification with CNNs"
+                    "sha": "20e9cfeae44d28f9bec1ae5c7a79169dabd6002c",
+                    "description": "Convolutional Neural Networks Image Classification Task"
                 },
                 {
                     "page": 18,
-                    "sha": "d5aa1d058a297095ced9fc0b69b1c43389dde30e",
-                    "description": "Convolutional Neural Networks Image Classification with CNNs"
+                    "sha": "973032ff6d663efb5fb9c9409d1afd6468f530d6",
+                    "description": "Convolutional Neural Networks Image Classification Task"
                 },
                 {
                     "page": 19,
-                    "sha": "e6825803bec777549b2435ab6c14d716ba56bb73",
-                    "description": "Convolutional Neural Networks (continued)"
+                    "sha": "bc7d82d24f1cdd74c7a7a39a0f11e24fca296227",
+                    "description": "Convolutional Neural Networks Image Classification Task"
                 },
                 {
                     "page": 20,
-                    "sha": "59765d07fa932c729b601a85c4584df77cd37cbd",
+                    "sha": "97c4a2db50ca1ae4c4867926cefaeb2a6e892e64",
                     "description": "Convolutional Neural Networks Image Classification with CNNs"
                 },
                 {
                     "page": 21,
-                    "sha": "9f21dd77b531b4e406ce312bcb19c0b6f1c0afbf",
+                    "sha": "39c9e1ab02f9f8cf0a0db1ffe74d7a0fe3a5aa09",
                     "description": "Convolutional Neural Networks Image Classification with CNNs"
                 },
                 {
                     "page": 22,
-                    "sha": "1978862726bdf6c60b7fa9c2de472b4e2b92e410",
-                    "description": "Remarks (computation of yc ) :"
+                    "sha": "8f49491b1471aea5e620c39749528eb12e3a2e75",
+                    "description": "Convolutional Neural Networks Image Classification with CNNs"
                 },
                 {
                     "page": 23,
-                    "sha": "aacfb54cd425e425fee1c9be00e9bb2b90cb666c",
-                    "description": "Remarks (technical variants and improvements) :"
+                    "sha": "f3801ac146807f20ece10a9254b754bdda230761",
+                    "description": "Convolutional Neural Networks (continued)"
                 },
                 {
                     "page": 24,
-                    "sha": "184d330722aa23f69677654d52ad6c1d0828f3ee",
+                    "sha": "edc0d856b44b2fad4056698f0c90615528cf1f9b",
+                    "description": "Convolutional Neural Networks Image Classification with CNNs"
+                },
+                {
+                    "page": 25,
+                    "sha": "5fc077fe6b24c2b8267c368f0bb982e58216dc45",
+                    "description": "Convolutional Neural Networks Image Classification with CNNs"
+                },
+                {
+                    "page": 26,
+                    "sha": "8a4aa13d1b48b8c0afa6163cf61537adcf0e9945",
+                    "description": "Remarks (computation of yc ) :"
+                },
+                {
+                    "page": 27,
+                    "sha": "f4d95507c6e23a9159db85bccf958e02e3f4b035",
+                    "description": "Remarks (technical variants and improvements) :"
+                },
+                {
+                    "page": 28,
+                    "sha": "bfe95bf72e12200b34514ef01bfc1c38f9ccfa61",
                     "description": "Remarks (learning strategies) :"
                 }
             ]
         },
         "unit-en-rnn-basics": {
-            "sha": "e92485952b9c6d2277c58c251abd29d2e631cf4e",
-            "numpages": 89,
+            "sha": "dc3c0872017828383c8460fa219e2f1d60147b0a",
+            "numpages": 81,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "9c8e44cc2c0403ad72226b954d22b6a755f7a47e",
+                    "sha": "7f7a700e7051fd66672753d93525ba070663965c",
                     "description": "Chapter ML:IX "
                 },
                 {
                     "page": 2,
-                    "sha": "720dd5cfba408c19ff49ed1f3fcee4db218b3d68",
+                    "sha": "2384813504602293af89e8ba9fa067303ce76aab",
                     "description": "Recurrent Neural Networks Notation"
                 },
                 {
                     "page": 3,
-                    "sha": "758bb6e078642188a05ab498f74c594a63998e98",
+                    "sha": "0c3f417c2c2de8a74f359051123fbb62e06d2fc0",
                     "description": "Recurrent Neural Networks Notation"
                 },
                 {
                     "page": 4,
-                    "sha": "0cb15fd4bafef8a9467edb6a13c1ab0b1c54bd88",
+                    "sha": "3f98d8f1d7192f470ae0992e1e161f746fd1103b",
                     "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 5,
-                    "sha": "7b4eae538105a48c87e2377e2fa00e4483d43c4d",
+                    "sha": "d0c7119765e3b8b75f6b6167d09c0cae4657c797",
                     "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 6,
-                    "sha": "906a2cc5c08f37535cab8b0dfd407db399c0673a",
+                    "sha": "829a16174d53ec4a1dfaf389602763ead6079e98",
                     "description": "Remarks:"
                 },
                 {
                     "page": 7,
-                    "sha": "d5d9c4c804db39dd96aabf59e1fdf03acfbd6d67",
+                    "sha": "a12fcf137902f57c077eece8d189737572b3c1c0",
                     "description": "Recurrent Neural Networks Types of Learning Tasks"
                 },
                 {
                     "page": 8,
-                    "sha": "b090a9833e18f042efa5c002b98045bebbff9464",
+                    "sha": "795031e910a43005947038e7a9532af6a85163e3",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 9,
-                    "sha": "dffa01e07b75250b4790707ebf7f40a6fc61b64a",
+                    "sha": "fae9a4a979d2335347ddb238d5fedc9bfe998aec",
                     "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 10,
-                    "sha": "31f5d8a2e0bed54a63117ac637f275c133f9a997",
+                    "sha": "d9765bea6608be7a918fea7fd2abf63ae4b6264f",
                     "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 11,
-                    "sha": "1923f6b5b96c05436f86d1df92cc70c468b72559",
+                    "sha": "6f857d62119c0580ce5b91c780c7f5cdbdbc33a5",
                     "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 12,
-                    "sha": "9248526b42cde341c5d6a761efae7c3114c4c8df",
+                    "sha": "dd8cb4330c0e99d7f15784abfa9bbff1a1ff35b2",
                     "description": "Remarks:"
                 },
                 {
                     "page": 13,
-                    "sha": "4f1b38bc5e7056c648528f80aa3027699f111eeb",
+                    "sha": "1682466b2f300e47576720ffabd81c8573c7203b",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 14,
-                    "sha": "19941f6727215ce6617c15b97e5c7fef6847263e",
+                    "sha": "3400e3a2ff07b7a5a63a85ac38fb63c9a91d0eb9",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 15,
-                    "sha": "6b55de344d8d6981693b1027cdeb8154ec0f5223",
+                    "sha": "1864ffc2e56d42feccd9dc5aaa9b164074a57dfa",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 16,
-                    "sha": "09565c5970d289a821d999113b4282d18d1d6fd1",
+                    "sha": "f28d4a79606e7634accd12a87a33ac51baa80d7e",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 17,
-                    "sha": "5c28ea25a3cb29e2e8a7d10f4925872b4ce94d2a",
+                    "sha": "f1ad3319acd6a469a3fd0331b6d4c3826ddc6955",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 18,
-                    "sha": "a0d6c47cf034a17ed00c57166ec37be9116f7577",
+                    "sha": "44e1d461e95988bce3e061a6e30d43dea32be010",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 19,
-                    "sha": "39f16baa14ca784b8c15f0436aa469ae7d7fc962",
+                    "sha": "0ff869961ee77b7ffefc44f7c559eb22b7c8764a",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 20,
-                    "sha": "63994ce026e2eee2ec584a1a97076b5f5d453e4f",
+                    "sha": "65b0009ef09ad87d83073f11f4e9b901b4e87784",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 21,
-                    "sha": "cf76d40fde9ad04c5eb03bbe4c5e9e6c90951e2f",
+                    "sha": "fffe16799f3ad180300e139e39f100a92caf322e",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 22,
-                    "sha": "eca9ecf88ca2bb2f47c82308de83b35a50e52d8a",
+                    "sha": "f30779cbb4a46cb30f0c6d18c7c8b92dba95d03d",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 23,
-                    "sha": "1058ed261dfb490de791307b016ad688507d1a2d",
+                    "sha": "182c492ff10f7d20237127142000ad689b3272e5",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 24,
-                    "sha": "9c0e1fb5b826e109460dcc284e6d84290f02759e",
+                    "sha": "44dcc3d4bbef39209814ec888fb15b2f88d7ccd9",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 25,
-                    "sha": "4f659c24926780fb57bf70f3da15999cad12375b",
+                    "sha": "58725a3131c718585a8431cd0ec6a09237ed7651",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 26,
-                    "sha": "6d156846efbd228a847e1e84264be5f022c9c46f",
+                    "sha": "fe5a252fda94f9be44143836489b413feb07614b",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 27,
-                    "sha": "0c53fad87e134bb1227a27114faa7cd0121f0d40",
+                    "sha": "5b8c9474ec7cd9352a5355e07fc571ced68b9193",
                     "description": "Recurrent Neural Networks RNN Sequence Encoding"
                 },
                 {
                     "page": 28,
-                    "sha": "1d94e06bd646246805620a3436dbb605612183e9",
+                    "sha": "b207a8b50b4eb21883cbce5e4422107a66ecdbd9",
                     "description": "Recurrent Neural Networks (S1) Sequence-to-Class: Sentiment Classification"
                 },
                 {
                     "page": 29,
-                    "sha": "e01b5bb367287f41dd6fc1c8a8cdcdbe5cad6a7a",
+                    "sha": "3d03cc66bd1a9931bedb58b8e31e76b1b5752638",
                     "description": "Recurrent Neural Networks (S1) Sequence-to-Class: Sentiment Classification"
                 },
                 {
                     "page": 30,
-                    "sha": "169f1f387a6585ccd7b18de8bdf8d038cbfa0323",
+                    "sha": "2c820276de6cc6d16b9589a3cf1ce61d40de1a00",
                     "description": "Recurrent Neural Networks (S1) Sequence-to-Class: Sentiment Classification"
                 },
                 {
                     "page": 31,
-                    "sha": "ad6040d08ccd74319cefd3054e776d2baf6afba3",
-                    "description": "Recurrent Neural Networks (S1) Sequence-to-Class Mapping with RNN"
+                    "sha": "c34a426861cfd5a95437c78da386d4d7c1632ece",
+                    "description": "Recurrent Neural Networks (S1) Sequence-to-Class Mapping with RNNs"
                 },
                 {
                     "page": 32,
-                    "sha": "76838fcf6edaa088344535a422f827ff4f393fb5",
+                    "sha": "a138bf18950a4588753da27bd4da4ed53dd9b69c",
                     "description": "Recurrent Neural Networks "
                 },
                 {
                     "page": 33,
-                    "sha": "e93c7831f9d60d62962397852bfe18ca25f99542",
+                    "sha": "7845410380b893663b7977cff88e06856595944a",
                     "description": "Recurrent Neural Networks "
                 },
                 {
                     "page": 34,
-                    "sha": "4d067427f66bc7ac2aabd0a85988206cac5472be",
+                    "sha": "ff7fc3e9b3a2de0a1058432bab0ece4fb7a0bd24",
                     "description": "Recurrent Neural Networks "
                 },
                 {
                     "page": 35,
-                    "sha": "42a20a228cf9425a9f646f570c0074a30520d25d",
+                    "sha": "eb41256fc005cdd40c832956a317c7cb61cec86e",
                     "description": "Recurrent Neural Networks "
                 },
                 {
                     "page": 36,
-                    "sha": "1f24bcc6c49830129479a7ec65153bd10a041d23",
+                    "sha": "735509c41f057b98d3b0d87fa552b2cffbc42454",
                     "description": "Recurrent Neural Networks "
                 },
                 {
                     "page": 37,
-                    "sha": "746b924142f94de0e6120f05eeae01a02b2f4c2e",
-                    "description": "Recurrent Neural Networks Types of Learning Tasks"
+                    "sha": "af6d04945b9137630bf4ff1eeabe00666954dba1",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 38,
-                    "sha": "a93cbec44d29512be30192d64b9682e62c923e53",
-                    "description": "Recurrent Neural Networks RNN Sequence Decoding"
+                    "sha": "1f8026c7110d834ad189cbb7b0953a1b14c84947",
+                    "description": "Recurrent Neural Networks The IGD Algorithm for Sequence-to-Class Tasks"
                 },
                 {
                     "page": 39,
-                    "sha": "749cdd4db590e1f2b4fdb77138ac2f2caa4bfbd7",
-                    "description": "Recurrent Neural Networks (continued)"
+                    "sha": "bc92a6392391bc5556e7725f0a8b6b0f8be71ce2",
+                    "description": "Recurrent Neural Networks Types of Learning Tasks"
                 },
                 {
                     "page": 40,
-                    "sha": "342e891cff2b6abcd12f23482776be6d8fbceffa",
-                    "description": "Recurrent Neural Networks (continued)"
+                    "sha": "8b59cedbc5ab50dd921102b299c538219894b806",
+                    "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 41,
-                    "sha": "5759c6544f667295184a031d7b07d7f0614afa06",
+                    "sha": "c9413ec1052b3822cf850e8487720239f8c0dc08",
                     "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 42,
-                    "sha": "fac3ceca540778427db80a9a336a23b44c069bfb",
-                    "description": "Remarks:"
+                    "sha": "fd5af67f2c4d7740b3153711a2ea21df8a32781b",
+                    "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 43,
-                    "sha": "2ad611c6c2bfab0b858867af1a2c1cb771ba43cc",
-                    "description": "Recurrent Neural Networks RNN Sequence Decoding"
+                    "sha": "fed7cab4739ca833c4a1c1b99f623c8ac4652996",
+                    "description": "Recurrent Neural Networks (continued)"
                 },
                 {
                     "page": 44,
-                    "sha": "f9a4e8ae727013122f8e55d62f74ceabcf1a0f59",
-                    "description": "Recurrent Neural Networks RNN Sequence Decoding"
+                    "sha": "3f229ac6091e4ca44ed3ba6278865277d51cb826",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 45,
-                    "sha": "3d2061233c2e288f6b07672063c86b30047a8404",
+                    "sha": "689dcbcd0a8051ee0980463ca9c1c6316bd5e6ae",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 46,
-                    "sha": "90f23b4d9f0bfa99be26de6aae84f97117570dcc",
+                    "sha": "8e1d55454c5cbdc4ceb8be168563964394ddfb35",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 47,
-                    "sha": "7b0a18c66ccf5c0b3b93596df84488aafa021141",
+                    "sha": "3241983936da1b7430c6edaeb5184e97b4c6c5a0",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 48,
-                    "sha": "4a4f0d08a5f0879c560ae3aeae407fabcf34566c",
+                    "sha": "b74217eab15921826b91a7a2c94e91147dad5d6d",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 49,
-                    "sha": "e39dc4c291ba526fdc248fa024fb943dcb05bd42",
+                    "sha": "5b69e9e46de49b6e1c10ac1f6b87d7df0e068dea",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 50,
-                    "sha": "1d40b67653caa2350413dae9d05d0cce5874bf3e",
+                    "sha": "b6944f7c599c02a242c26f8f381fc810c9bf5ce6",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 51,
-                    "sha": "9faf56d4e8260419140b455491d2187fac871f8d",
+                    "sha": "82f5cbcb6665eb325843131d7024351312ed60c1",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 52,
-                    "sha": "799ea16db13bc174812e4e4f83fd5bc507556106",
+                    "sha": "bc5d53abe758c6a20b9cae5c9148ae5cb0038a55",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 53,
-                    "sha": "fc05ea44cd1369dddc28497533b6ebae6dea6a00",
+                    "sha": "8eb57632e72a4704fafb2c1bf4463146f4e3ca7b",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 54,
-                    "sha": "8d2d3e13597050e78eff4b67ef59874c1b235f47",
+                    "sha": "22e8cdd61654b569db7cb50879dea024330965e8",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 55,
-                    "sha": "b3bae16c19cb88957363e83d45920593f5e84b9a",
+                    "sha": "d6beea35b489626fd79fdfcf8fc404edea12e704",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 56,
-                    "sha": "ab84dc61e3d12881f1c1346a814ae6d7c736b57c",
+                    "sha": "30e04d4e2c9a8646eee7ab3e7ea3c274fa0a62ce",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 57,
-                    "sha": "7e36a652d4217aa49bea9d7edd909bf8bc10bb1b",
+                    "sha": "5924c86103a6fb19b9e7af6a05cae3407b15ffae",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 58,
-                    "sha": "3355006f9ccf9e43683a3272ec93cb5b407c602c",
+                    "sha": "a5dafeeffda67724e3fb55042099cbc9ee7fc25d",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 59,
-                    "sha": "a0b388c30aa7467bd60cf807e4b21a9d8ca06564",
+                    "sha": "a2f32ddf112c7e81b6e1978421711087b4103b58",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 60,
-                    "sha": "2d18a2d3c316828b2a9d05daaf4047295c182e85",
+                    "sha": "0ef2be0f28b30ea08aaa0e25b890fd15a939691e",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 61,
-                    "sha": "aef32f444f085998fd421856f683fbce8a0e4077",
+                    "sha": "fd05ec3a8941561447ebabd1924b692455f032f3",
                     "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 62,
-                    "sha": "3c10260fc73af08b23a48ea7321d9cb46d80a629",
-                    "description": "Remarks:"
+                    "sha": "889f955c17dcc1e937acdfc0ccd11a43eb93ce1e",
+                    "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 63,
-                    "sha": "96f162d99879472c8f05a9401779b7a45e1e2c8f",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
+                    "sha": "a2a57c508bea5d2e6df4edf1b24bc06586d0079c",
+                    "description": "Recurrent Neural Networks RNN Sequence Decoding"
                 },
                 {
                     "page": 64,
-                    "sha": "08f25a40eaa5c6113470153a04ed605fdc413383",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
+                    "sha": "7deb2fccbf4e4cea372e22e52ec96a16a1586bc1",
+                    "description": "Remarks:"
                 },
                 {
                     "page": 65,
-                    "sha": "aacce4211e4e1b1b5ca4c2acf600094be3303a01",
+                    "sha": "de804f004754b5a76878eb32feddf0440f676774",
                     "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 66,
-                    "sha": "ce5fe1ab56baa0a21c878367517edb867d3a4765",
+                    "sha": "23383aac0190e2cc9b7e39be655bac7e27570ae2",
                     "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 67,
-                    "sha": "155eba6630e1d75bbdd8cfda2bf5300fe3ff9821",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "910d74891e6d2e8d068dbcddc8c05bcb1da39b11",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 68,
-                    "sha": "bcb1d323b5e94d5adcc302fcda612cd1811e631c",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "7b285aea67f37dd6ebd47019f5a3085e3b71addf",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 69,
-                    "sha": "df9bc3a04329cebc5b4a8b4090c5dca760db30f0",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "1ea113f6ab1263116fde5253f7adf87248754598",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 70,
-                    "sha": "636db3f555173140f644f596cb4f09023ca8c0a5",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "93ab6f14fdd4179a54a6b2cf067d91624faa42a8",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 71,
-                    "sha": "cf4e63a5b594be385b3233eb9aaea84aff6708dd",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "c235318d9cb34bf1665e677e4a600235bf9da335",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence: Text Generation"
                 },
                 {
                     "page": 72,
-                    "sha": "51f846feec4db96904df26b57f82f150dbd426b0",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "3b634bcf4565193a3ec140145e222f2bcfcdc2cc",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 73,
-                    "sha": "af3a621a7443e82b936ec0ba60da8af550e5e05a",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "342b72578f35a28faaab3b13b617c68991a0b552",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 74,
-                    "sha": "d926bc94892b6583a8009ddd59ee8a5fb62a87c0",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "7257c3feb533e23d7b7fc28dbbbbc094e2d87c66",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 75,
-                    "sha": "a66a137e6202d9739019d9398810e2e6ae3d16ea",
-                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNN"
+                    "sha": "2b9ca7d89f4471fe471b7f56937234c449c629c4",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 76,
-                    "sha": "1e57cbcc4a67b8e343a6ebf23e5abe3493ffe19a",
-                    "description": "Recurrent Neural Networks Types of Learning Tasks"
+                    "sha": "1c4dd0051c104e55fd49ae1269f147ec74968d58",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 77,
-                    "sha": "14c6cf49ae3526e7201b5b8073f757c18c563c1c",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence: Text Translation"
+                    "sha": "b39ce5e1b57f73034528dc50a772cbcbda393fbf",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 78,
-                    "sha": "f15e875ecd973e06bd5557da02b8ee4ce20ca4d6",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence: Text Translation"
+                    "sha": "f759ca90f8c40a7dc22f9d93d55fe89eafae4001",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 79,
-                    "sha": "d55ce7e531651864b31de0c94cab4d6cb74c2e21",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence: Text Translation"
+                    "sha": "aad46ed53763847681b848213702006f5195799e",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 80,
-                    "sha": "fc890f6605bd36d10e96a50971be5172d90c5da3",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence: Text Translation"
+                    "sha": "cc3d804ff321028f6fc35b7d11a0bba694637c11",
+                    "description": "Recurrent Neural Networks (S2) Class-to-Sequence Mapping with RNNs"
                 },
                 {
                     "page": 81,
-                    "sha": "61866f2d911493241a639cfb574c6370c83d8b6e",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 82,
-                    "sha": "276cc15f985ae96901a48a0f39f2a797daba0c25",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 83,
-                    "sha": "c9615fe372a8798e2a83851ee41209ffe08f3538",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 84,
-                    "sha": "b5888f74a41c0b58cd53acedf935e19c26225448",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 85,
-                    "sha": "43e9bfa64d2da36125dfbde4973db6d73ecc6267",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 86,
-                    "sha": "7472cb202c894885d86940715c3876250b8c2ee9",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 87,
-                    "sha": "740ca0804bc69e6b604796b15e8c92baa4a538c6",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 88,
-                    "sha": "c7f93d9b73735ffaf9dcf6840cfe4f29edd2f49b",
-                    "description": "Recurrent Neural Networks (S3) Sequence-to-Sequence Mapping with RNN"
-                },
-                {
-                    "page": 89,
-                    "sha": "1edd93fb6c42876da87b14a6448f7d8543515c45",
-                    "description": "Remarks:"
+                    "sha": "b2535b18f44a0331c2913e8adbad37b8df944f74",
+                    "description": "Recurrent Neural Networks The IGD Algorithm for Class-to-Sequence Tasks"
                 }
             ]
         },
         "unit-en-vanishing-gradient": {
-            "sha": "903c515b0ec1fabc62c2ec228807ba43a7d37a4c",
+            "sha": "75c5b3bdf20066b60f113f537f5028c479d8b18c",
             "numpages": 12,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "9efa429108b7d8b67eab41cb9df63f6414b2d691",
+                    "sha": "6301ae0c39c6288a40758092410950491223ed5b",
                     "description": "Chapter ML:IX "
                 },
                 {
                     "page": 2,
-                    "sha": "b2c907df145f4fc2c73122eaba4b3bf1dc07b4a2",
+                    "sha": "438eca6d8d717aaa0d7f11ae8ad30b1965f8ad4f",
                     "description": "Vanishing Gradient Problem Vanishing Gradient Illustration"
                 },
                 {
                     "page": 3,
-                    "sha": "e78e148e0f3d049c9bec86e938b00f65c03cbd1d",
+                    "sha": "d82df3f630b298e42ca24f140a2ced6d7e484bdd",
                     "description": "Vanishing Gradient Problem RNN with Long Short-Term Memory (LSTM)"
                 },
                 {
                     "page": 4,
-                    "sha": "85786443d19412a77d32939dbc7092f50d737e6c",
+                    "sha": "f8256fe9ad1653259274232cb534429a90d5fb64",
                     "description": "Remarks:"
                 },
                 {
                     "page": 5,
-                    "sha": "3c9494f6b33b29fb97f5ac3965ea4cfc320f6d08",
+                    "sha": "8f557a528769f948ffb927c4979ad7bb690e4b5a",
                     "description": "Vanishing Gradient Problem RNN with Gated Recurrent Units (GRU)"
                 },
                 {
                     "page": 6,
-                    "sha": "8a5c8ae70c60c84c3d3fde57c52ee41551ca3a5b",
+                    "sha": "f7eb0f3c325a6801498249cbd076ab1c52900049",
                     "description": "Vanishing Gradient Problem "
                 },
                 {
                     "page": 7,
-                    "sha": "0845881d9a44c6b70926bb3e19a15ad6614f1598",
+                    "sha": "4cae9c9ecb0cd6bde70cd694feeba14f0367cd3a",
                     "description": "Vanishing Gradient Problem "
                 },
                 {
                     "page": 8,
-                    "sha": "ee16c4752d5aa304da756fbc613983aba2411072",
+                    "sha": "09602b124173ae042fd7d1f42d878c4504a51d4e",
                     "description": "Vanishing Gradient Problem "
                 },
                 {
                     "page": 9,
-                    "sha": "9150234882078313ca9424b879f00e3e0585370b",
+                    "sha": "8dc79e05bc52bbad65a3bfebce5d9c2bee049247",
                     "description": "Vanishing Gradient Problem "
                 },
                 {
                     "page": 10,
-                    "sha": "13cf1fedd01a5567f30c35ae00be7329ccc7abdb",
+                    "sha": "0b306bd6c29d0368e3690f10d669120e0bae6779",
                     "description": "Vanishing Gradient Problem RNN with Parameterized Attention"
                 },
                 {
                     "page": 11,
-                    "sha": "45bcc93ec906488751c45023f9cc13ac0e3b2326",
+                    "sha": "05d0eaa6b271b35122330ca3cf7ad9643f00f44d",
                     "description": "Remarks (attention calculus) :"
                 },
                 {
                     "page": 12,
-                    "sha": "a9df88964f267de7caf5a1c960d47589be4115d5",
+                    "sha": "ab25b7132fc63ef5df4cdf7771e8f88e86fe255f",
                     "description": "Remarks (parameterized attention) :"
+                }
+            ]
+        },
+        "unit-en-rnn-nmt": {
+            "sha": "2716f70a1ccf5e560c71eb8d3314707850af8b87",
+            "numpages": 38,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "9a606ed0a2bd22ec8f260cfecee417a16846c757",
+                    "description": "Chapter ML:IX "
+                },
+                {
+                    "page": 2,
+                    "sha": "d1df16185d9a0aad3701603e8f951374bde2a7ae",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 3,
+                    "sha": "c1a1ed3e534d88e6f979fe26004900162b57fa7b",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 4,
+                    "sha": "a192d874d7698129972c4bf5157c1463377fd0d9",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 5,
+                    "sha": "446109ed4be70be8a4b0c73bed1f507f35b880c6",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 6,
+                    "sha": "792caea2af440139c0051be7af51d9dd3d0bb42a",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 7,
+                    "sha": "605d1ee80d54970b841637bec1330c5203c2fc9a",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 8,
+                    "sha": "68542daee8ae40a9a92718c4bf2bb9699bb63a5e",
+                    "description": "RNNs for Machine Translation Statistical Machine Translation (SMT)"
+                },
+                {
+                    "page": 9,
+                    "sha": "9b25ebc8b419f736bee17ea60463f795e2b51f6a",
+                    "description": "Remarks (statistical machine translation) :"
+                },
+                {
+                    "page": 10,
+                    "sha": "b864b5d028c3f902ddfad2cf51b194b94b490bee",
+                    "description": "RNNs for Machine Translation Neural Machine Translation (NMT)"
+                },
+                {
+                    "page": 11,
+                    "sha": "d7fdf36e3d4feb4c28c5724e5a0b0ca82698d8e9",
+                    "description": "RNNs for Machine Translation Neural Machine Translation (NMT)"
+                },
+                {
+                    "page": 12,
+                    "sha": "cc97e00fa5718021bc3ca474157e86277d671197",
+                    "description": "RNNs for Machine Translation Neural Machine Translation (NMT)"
+                },
+                {
+                    "page": 13,
+                    "sha": "506178963ceb1517e50bd039285389f536c84717",
+                    "description": "RNNs for Machine Translation Neural Machine Translation (NMT)"
+                },
+                {
+                    "page": 14,
+                    "sha": "a5446c2062ae126359c6db01ac05f55b023a99ae",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 15,
+                    "sha": "49b4f3494375a892989508d1615b69341091b686",
+                    "description": "RNNs for Machine Translation Types of Learning Tasks"
+                },
+                {
+                    "page": 16,
+                    "sha": "7d1de90009be229482788063cdfa3925540a8140",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 17,
+                    "sha": "206b0e444c27e0b0368ea0008c99ac911ba1c571",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 18,
+                    "sha": "49177c7231905105dc3d38a3d556faac5aa6dd29",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 19,
+                    "sha": "61c91e3887440d648a8ac908452425513cca31fe",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 20,
+                    "sha": "1ed2f1c26d20db4acbafdc9255379e0009e26713",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 21,
+                    "sha": "a99cb631ccc3545e2fafaa893a8a08ae4ee2802d",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 22,
+                    "sha": "cf58195840fa864819fcc5b91a411cf0d29d78b6",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence: Machine Translation"
+                },
+                {
+                    "page": 23,
+                    "sha": "3243c8883df70f08ba14ca14ed713b95640f431a",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 24,
+                    "sha": "f8ddaca9c4367ec82926a29ddca712f86270fbf5",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 25,
+                    "sha": "a05bc05639b0c5c6eb0eba2b469e7faaeddee51f",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 26,
+                    "sha": "0e2dd8c0fc5fc5bca40ee2a7dc8db08222a22468",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 27,
+                    "sha": "d4ae74e577e9b6e454ec732bdbc2e160a2a01e53",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 28,
+                    "sha": "c45fc11bea67d3fd3b8dfb3d4f5cf124a865d215",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 29,
+                    "sha": "f615f45730683ed5bd585852019be6aa5b88a015",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 30,
+                    "sha": "2e95ecc7d77823b6e69d81b543c95ceb16cbdefe",
+                    "description": "RNNs for Machine Translation (S3) Sequence-to-Sequence Mapping with RNNs"
+                },
+                {
+                    "page": 31,
+                    "sha": "296762dea70e90ff7161ec133fe9e08103ba9536",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 32,
+                    "sha": "32fd750d99ddb0d8769b849d17f977c276979a8c",
+                    "description": "RNNs for Machine Translation Sequence-to-Sequence RNNs are Conditional Language Models"
+                },
+                {
+                    "page": 33,
+                    "sha": "f8361d127023c88354489a35ff547752d36e817e",
+                    "description": "RNNs for Machine Translation Sequence-to-Sequence RNNs are Conditional Language Models"
+                },
+                {
+                    "page": 34,
+                    "sha": "3df87fa239ad2f550b9fd5d69fb7d391a841f40d",
+                    "description": "RNNs for Machine Translation Sequence-to-Sequence RNNs are Conditional Language Models"
+                },
+                {
+                    "page": 35,
+                    "sha": "f55190c5503a18945f7299d26f7c6c7086d755dd",
+                    "description": "RNNs for Machine Translation Sequence-to-Sequence RNNs are Conditional Language Models"
+                },
+                {
+                    "page": 36,
+                    "sha": "005d3bc3f55f41a8260c2807947840d08abc47fd",
+                    "description": "RNNs for Machine Translation Sequence-to-Sequence RNNs are Conditional Language Models"
+                },
+                {
+                    "page": 37,
+                    "sha": "dd449c80cc6ee75b1fef8ec09e42422529d23398",
+                    "description": "RNNs for Machine Translation Sequence-to-Sequence RNNs are Conditional Language Models"
+                },
+                {
+                    "page": 38,
+                    "sha": "8a7c3fa2513cdcc0f9eb9da5acb2c27926ee6b80",
+                    "description": "Remarks: Each output vector y(t) corresponds to a probability distribution over Vocabularyd (recall the"
                 }
             ]
         }
