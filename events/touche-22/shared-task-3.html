@@ -60,13 +60,15 @@ SECTION Synopsis
 -->
 <h2 id="synopsis">Synopsis</h2>
 <ul>
-  <li>Task: Given a controversial topic, the task is to retrieve images (from web pages) for each stance (pro/con) that show support for that stance. [<a href="https://www.tira.io/c/touche/9">forum</a>] [<a href="https://www.tira.io/t/announcements-for-task-3-image-retrieval-for-arguments-2022/556">announcements</a>]</li>
+  <li>Task: Given a controversial topic, the task is to retrieve images (from web pages) for each stance (pro/con) that show support for that stance. [<a href="https://www.tira.io/c/touche/9">forum</a>]</li>
 <li>Input: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/">collection</a>] [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/training-qrels.txt">training judgements</a>]</li>
 <li>Evaluation: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/topics.xml">topics</a>]</li>
-<li>Submission: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/original-rankings-baseline.py">baseline</a>] [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/submission-verifier.sh">verifier</a>] [<a href="https://www.tira.io/task/touche-task-3/dataset/touche-task-3-2022-01-21">tira</a>]</li>
+<li>Submission: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/original-rankings-baseline.py">baseline</a>] [verifier: <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/submission-verifier.sh">program</a>, <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/image-ids.txt">image-ids</a>] [<a href="https://www.tira.io/task/touche-task-3/dataset/touche-task-3-2022-01-21">tira</a>] [evaluator: <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/submission-evaluator.sh">program</a>, <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/touche-task3-001-050-relevance.qrels">qrels</a>]</li>
 </ul>
 
+<!--
 <a class="uk-button uk-button-primary" href="https://clef2022-labs-registration.dei.unipd.it/">Register now</a>
+-->
 
 <!--
 SECTION Data
@@ -112,7 +114,10 @@ For example:
 ...
 </pre>
 <p>
-If you have questions, please ask in the <a href="https://www.tira.io/c/touche/9">forum</a>. You will get a combined TIRA-and-forum account on registration. Announcements are published <a href="https://www.tira.io/t/announcements-for-task-3-image-retrieval-for-arguments-2022/556">here</a>.
+If you have questions, please ask in the <a href="https://www.tira.io/c/touche/9">forum</a>. You will get a combined TIRA-and-forum account on registration.
+</p>
+<p>
+We provide relevance judgements for submitted runs <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/touche-task3-001-050-relevance.qrels">here</a>. The file contains binary judgements on topic-image pairs for topic-relevance, the pro-stance, and the con-stance. You can evaluate your run on UNIX with these judgements and <a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/submission-evaluator.sh">our evaluator</a>.
 </p>
 
 <!--
