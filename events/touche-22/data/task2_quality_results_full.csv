@@ -1,0 +1,1301 @@
+Team,Tag,Topic,nDCG@5
+Grimjack,grimjack-argumentative-axioms,100,0.485
+Grimjack,grimjack-argumentative-axioms,95,0.15
+Grimjack,grimjack-argumentative-axioms,93,1.0
+Grimjack,grimjack-argumentative-axioms,92,0.229
+Grimjack,grimjack-argumentative-axioms,91,0.49
+Grimjack,grimjack-argumentative-axioms,88,0.0
+Grimjack,grimjack-argumentative-axioms,86,0.107
+Grimjack,grimjack-argumentative-axioms,84,0.381
+Grimjack,grimjack-argumentative-axioms,78,0.449
+Grimjack,grimjack-argumentative-axioms,77,0.358
+Grimjack,grimjack-argumentative-axioms,76,0.311
+Grimjack,grimjack-argumentative-axioms,74,0.339
+Grimjack,grimjack-argumentative-axioms,72,0.384
+Grimjack,grimjack-argumentative-axioms,70,0.364
+Grimjack,grimjack-argumentative-axioms,69,0.934
+Grimjack,grimjack-argumentative-axioms,68,0.361
+Grimjack,grimjack-argumentative-axioms,67,0.316
+Grimjack,grimjack-argumentative-axioms,62,0.842
+Grimjack,grimjack-argumentative-axioms,61,0.938
+Grimjack,grimjack-argumentative-axioms,60,0.214
+Grimjack,grimjack-argumentative-axioms,59,0.238
+Grimjack,grimjack-argumentative-axioms,58,0.0
+Grimjack,grimjack-argumentative-axioms,56,0.0
+Grimjack,grimjack-argumentative-axioms,55,0.277
+Grimjack,grimjack-argumentative-axioms,54,0.915
+Grimjack,grimjack-argumentative-axioms,53,0.17
+Grimjack,grimjack-argumentative-axioms,51,0.915
+Grimjack,grimjack-argumentative-axioms,48,0.786
+Grimjack,grimjack-argumentative-axioms,43,0.0
+Grimjack,grimjack-argumentative-axioms,42,0.15
+Grimjack,grimjack-argumentative-axioms,37,0.397
+Grimjack,grimjack-argumentative-axioms,36,0.32
+Grimjack,grimjack-argumentative-axioms,34,0.446
+Grimjack,grimjack-argumentative-axioms,33,0.574
+Grimjack,grimjack-argumentative-axioms,30,0.277
+Grimjack,grimjack-argumentative-axioms,28,0.254
+Grimjack,grimjack-argumentative-axioms,27,0.066
+Grimjack,grimjack-argumentative-axioms,26,0.085
+Grimjack,grimjack-argumentative-axioms,25,0.277
+Grimjack,grimjack-argumentative-axioms,23,0.366
+Grimjack,grimjack-argumentative-axioms,22,0.869
+Grimjack,grimjack-argumentative-axioms,19,0.15
+Grimjack,grimjack-argumentative-axioms,18,0.0
+Grimjack,grimjack-argumentative-axioms,17,0.192
+Grimjack,grimjack-argumentative-axioms,14,0.15
+Grimjack,grimjack-argumentative-axioms,12,0.485
+Grimjack,grimjack-argumentative-axioms,9,0.085
+Grimjack,grimjack-argumentative-axioms,8,0.49
+Grimjack,grimjack-argumentative-axioms,3,0.0
+Grimjack,grimjack-argumentative-axioms,2,0.585
+Grimjack,grimjack-baseline,100,0.485
+Grimjack,grimjack-baseline,95,0.15
+Grimjack,grimjack-baseline,93,1.0
+Grimjack,grimjack-baseline,92,0.229
+Grimjack,grimjack-baseline,91,0.49
+Grimjack,grimjack-baseline,88,0.0
+Grimjack,grimjack-baseline,86,0.107
+Grimjack,grimjack-baseline,84,0.381
+Grimjack,grimjack-baseline,78,0.449
+Grimjack,grimjack-baseline,77,0.358
+Grimjack,grimjack-baseline,76,0.311
+Grimjack,grimjack-baseline,74,0.339
+Grimjack,grimjack-baseline,72,0.384
+Grimjack,grimjack-baseline,70,0.364
+Grimjack,grimjack-baseline,69,0.934
+Grimjack,grimjack-baseline,68,0.361
+Grimjack,grimjack-baseline,67,0.316
+Grimjack,grimjack-baseline,62,0.842
+Grimjack,grimjack-baseline,61,0.938
+Grimjack,grimjack-baseline,60,0.214
+Grimjack,grimjack-baseline,59,0.238
+Grimjack,grimjack-baseline,58,0.0
+Grimjack,grimjack-baseline,56,0.0
+Grimjack,grimjack-baseline,55,0.277
+Grimjack,grimjack-baseline,54,0.915
+Grimjack,grimjack-baseline,53,0.17
+Grimjack,grimjack-baseline,51,0.915
+Grimjack,grimjack-baseline,48,0.786
+Grimjack,grimjack-baseline,43,0.0
+Grimjack,grimjack-baseline,42,0.15
+Grimjack,grimjack-baseline,37,0.397
+Grimjack,grimjack-baseline,36,0.32
+Grimjack,grimjack-baseline,34,0.446
+Grimjack,grimjack-baseline,33,0.574
+Grimjack,grimjack-baseline,30,0.277
+Grimjack,grimjack-baseline,28,0.254
+Grimjack,grimjack-baseline,27,0.066
+Grimjack,grimjack-baseline,26,0.085
+Grimjack,grimjack-baseline,25,0.277
+Grimjack,grimjack-baseline,23,0.366
+Grimjack,grimjack-baseline,22,0.869
+Grimjack,grimjack-baseline,19,0.15
+Grimjack,grimjack-baseline,18,0.0
+Grimjack,grimjack-baseline,17,0.192
+Grimjack,grimjack-baseline,14,0.15
+Grimjack,grimjack-baseline,12,0.485
+Grimjack,grimjack-baseline,9,0.085
+Grimjack,grimjack-baseline,8,0.49
+Grimjack,grimjack-baseline,3,0.0
+Grimjack,grimjack-baseline,2,0.585
+Grimjack,grimjack-fair-reranking-argumentative-axioms,100,0.553
+Grimjack,grimjack-fair-reranking-argumentative-axioms,95,0.173
+Grimjack,grimjack-fair-reranking-argumentative-axioms,93,1.0
+Grimjack,grimjack-fair-reranking-argumentative-axioms,92,0.229
+Grimjack,grimjack-fair-reranking-argumentative-axioms,91,0.808
+Grimjack,grimjack-fair-reranking-argumentative-axioms,88,0.0
+Grimjack,grimjack-fair-reranking-argumentative-axioms,86,0.384
+Grimjack,grimjack-fair-reranking-argumentative-axioms,84,0.49
+Grimjack,grimjack-fair-reranking-argumentative-axioms,78,0.893
+Grimjack,grimjack-fair-reranking-argumentative-axioms,77,0.371
+Grimjack,grimjack-fair-reranking-argumentative-axioms,76,0.311
+Grimjack,grimjack-fair-reranking-argumentative-axioms,74,0.339
+Grimjack,grimjack-fair-reranking-argumentative-axioms,72,0.384
+Grimjack,grimjack-fair-reranking-argumentative-axioms,70,0.628
+Grimjack,grimjack-fair-reranking-argumentative-axioms,69,0.854
+Grimjack,grimjack-fair-reranking-argumentative-axioms,68,0.361
+Grimjack,grimjack-fair-reranking-argumentative-axioms,67,0.301
+Grimjack,grimjack-fair-reranking-argumentative-axioms,62,0.647
+Grimjack,grimjack-fair-reranking-argumentative-axioms,61,0.978
+Grimjack,grimjack-fair-reranking-argumentative-axioms,60,0.299
+Grimjack,grimjack-fair-reranking-argumentative-axioms,59,0.107
+Grimjack,grimjack-fair-reranking-argumentative-axioms,58,0.0
+Grimjack,grimjack-fair-reranking-argumentative-axioms,56,0.0
+Grimjack,grimjack-fair-reranking-argumentative-axioms,55,0.146
+Grimjack,grimjack-fair-reranking-argumentative-axioms,54,0.769
+Grimjack,grimjack-fair-reranking-argumentative-axioms,53,0.449
+Grimjack,grimjack-fair-reranking-argumentative-axioms,51,0.934
+Grimjack,grimjack-fair-reranking-argumentative-axioms,48,0.616
+Grimjack,grimjack-fair-reranking-argumentative-axioms,43,0.146
+Grimjack,grimjack-fair-reranking-argumentative-axioms,42,0.246
+Grimjack,grimjack-fair-reranking-argumentative-axioms,37,0.42
+Grimjack,grimjack-fair-reranking-argumentative-axioms,36,0.415
+Grimjack,grimjack-fair-reranking-argumentative-axioms,34,0.386
+Grimjack,grimjack-fair-reranking-argumentative-axioms,33,0.47
+Grimjack,grimjack-fair-reranking-argumentative-axioms,30,0.277
+Grimjack,grimjack-fair-reranking-argumentative-axioms,28,0.434
+Grimjack,grimjack-fair-reranking-argumentative-axioms,27,0.15
+Grimjack,grimjack-fair-reranking-argumentative-axioms,26,0.17
+Grimjack,grimjack-fair-reranking-argumentative-axioms,25,0.342
+Grimjack,grimjack-fair-reranking-argumentative-axioms,23,0.387
+Grimjack,grimjack-fair-reranking-argumentative-axioms,22,0.869
+Grimjack,grimjack-fair-reranking-argumentative-axioms,19,0.18
+Grimjack,grimjack-fair-reranking-argumentative-axioms,18,0.0
+Grimjack,grimjack-fair-reranking-argumentative-axioms,17,0.311
+Grimjack,grimjack-fair-reranking-argumentative-axioms,14,0.139
+Grimjack,grimjack-fair-reranking-argumentative-axioms,12,0.614
+Grimjack,grimjack-fair-reranking-argumentative-axioms,9,0.073
+Grimjack,grimjack-fair-reranking-argumentative-axioms,8,0.478
+Grimjack,grimjack-fair-reranking-argumentative-axioms,3,0.0
+Grimjack,grimjack-fair-reranking-argumentative-axioms,2,0.604
+Grimjack,grimjack-all-you-need-is-t0,100,0.509
+Grimjack,grimjack-all-you-need-is-t0,95,0.265
+Grimjack,grimjack-all-you-need-is-t0,93,1.0
+Grimjack,grimjack-all-you-need-is-t0,92,0.252
+Grimjack,grimjack-all-you-need-is-t0,91,0.689
+Grimjack,grimjack-all-you-need-is-t0,88,0.0
+Grimjack,grimjack-all-you-need-is-t0,86,0.085
+Grimjack,grimjack-all-you-need-is-t0,84,0.277
+Grimjack,grimjack-all-you-need-is-t0,78,0.449
+Grimjack,grimjack-all-you-need-is-t0,77,0.349
+Grimjack,grimjack-all-you-need-is-t0,76,0.277
+Grimjack,grimjack-all-you-need-is-t0,74,0.339
+Grimjack,grimjack-all-you-need-is-t0,72,0.515
+Grimjack,grimjack-all-you-need-is-t0,70,0.616
+Grimjack,grimjack-all-you-need-is-t0,69,0.915
+Grimjack,grimjack-all-you-need-is-t0,68,0.316
+Grimjack,grimjack-all-you-need-is-t0,67,0.47
+Grimjack,grimjack-all-you-need-is-t0,62,0.842
+Grimjack,grimjack-all-you-need-is-t0,61,0.938
+Grimjack,grimjack-all-you-need-is-t0,60,0.0
+Grimjack,grimjack-all-you-need-is-t0,59,0.073
+Grimjack,grimjack-all-you-need-is-t0,58,0.073
+Grimjack,grimjack-all-you-need-is-t0,56,0.0
+Grimjack,grimjack-all-you-need-is-t0,55,0.0
+Grimjack,grimjack-all-you-need-is-t0,54,0.83
+Grimjack,grimjack-all-you-need-is-t0,53,0.17
+Grimjack,grimjack-all-you-need-is-t0,51,0.934
+Grimjack,grimjack-all-you-need-is-t0,48,0.786
+Grimjack,grimjack-all-you-need-is-t0,43,0.0
+Grimjack,grimjack-all-you-need-is-t0,42,0.173
+Grimjack,grimjack-all-you-need-is-t0,37,0.259
+Grimjack,grimjack-all-you-need-is-t0,36,0.32
+Grimjack,grimjack-all-you-need-is-t0,34,0.423
+Grimjack,grimjack-all-you-need-is-t0,33,0.246
+Grimjack,grimjack-all-you-need-is-t0,30,0.415
+Grimjack,grimjack-all-you-need-is-t0,28,0.107
+Grimjack,grimjack-all-you-need-is-t0,27,0.066
+Grimjack,grimjack-all-you-need-is-t0,26,0.0
+Grimjack,grimjack-all-you-need-is-t0,25,0.235
+Grimjack,grimjack-all-you-need-is-t0,23,0.387
+Grimjack,grimjack-all-you-need-is-t0,22,0.507
+Grimjack,grimjack-all-you-need-is-t0,19,0.066
+Grimjack,grimjack-all-you-need-is-t0,18,0.17
+Grimjack,grimjack-all-you-need-is-t0,17,0.17
+Grimjack,grimjack-all-you-need-is-t0,14,0.066
+Grimjack,grimjack-all-you-need-is-t0,12,0.457
+Grimjack,grimjack-all-you-need-is-t0,9,0.192
+Grimjack,grimjack-all-you-need-is-t0,8,0.49
+Grimjack,grimjack-all-you-need-is-t0,3,0.0
+Grimjack,grimjack-all-you-need-is-t0,2,0.5
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,100,0.339
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,95,0.277
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,93,0.83
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,92,0.385
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,91,0.446
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,88,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,86,0.468
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,84,0.47
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,78,1.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,77,0.491
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,76,0.299
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,74,0.339
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,72,0.83
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,70,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,69,1.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,68,0.573
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,67,0.47
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,62,0.647
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,61,0.741
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,60,0.214
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,59,0.085
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,58,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,56,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,55,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,54,0.769
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,53,0.449
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,51,0.934
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,48,0.655
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,43,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,42,0.18
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,37,0.299
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,36,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,34,0.386
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,33,0.424
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,30,0.5
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,28,0.427
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,27,0.066
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,26,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,25,0.0
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,23,0.387
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,22,0.592
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,19,0.18
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,18,0.18
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,17,0.35
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,14,0.073
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,12,0.457
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,9,0.073
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,8,0.478
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,3,0.107
+Grimjack,grimjack-fair-argumentative-reranking-with-t0,2,0.393
+Olivier Armstrong,tfid_arg_similarity,100,0.345
+Olivier Armstrong,tfid_arg_similarity,95,0.212
+Olivier Armstrong,tfid_arg_similarity,93,1.0
+Olivier Armstrong,tfid_arg_similarity,92,0.548
+Olivier Armstrong,tfid_arg_similarity,91,0.531
+Olivier Armstrong,tfid_arg_similarity,88,0.085
+Olivier Armstrong,tfid_arg_similarity,86,0.592
+Olivier Armstrong,tfid_arg_similarity,84,0.796
+Olivier Armstrong,tfid_arg_similarity,78,1.0
+Olivier Armstrong,tfid_arg_similarity,77,0.521
+Olivier Armstrong,tfid_arg_similarity,76,0.927
+Olivier Armstrong,tfid_arg_similarity,74,0.17
+Olivier Armstrong,tfid_arg_similarity,72,1.0
+Olivier Armstrong,tfid_arg_similarity,70,0.17
+Olivier Armstrong,tfid_arg_similarity,69,1.0
+Olivier Armstrong,tfid_arg_similarity,68,0.5
+Olivier Armstrong,tfid_arg_similarity,67,0.588
+Olivier Armstrong,tfid_arg_similarity,62,0.893
+Olivier Armstrong,tfid_arg_similarity,61,0.879
+Olivier Armstrong,tfid_arg_similarity,60,0.597
+Olivier Armstrong,tfid_arg_similarity,59,0.146
+Olivier Armstrong,tfid_arg_similarity,58,0.339
+Olivier Armstrong,tfid_arg_similarity,56,0.423
+Olivier Armstrong,tfid_arg_similarity,55,0.869
+Olivier Armstrong,tfid_arg_similarity,54,0.934
+Olivier Armstrong,tfid_arg_similarity,53,0.418
+Olivier Armstrong,tfid_arg_similarity,51,1.0
+Olivier Armstrong,tfid_arg_similarity,48,0.786
+Olivier Armstrong,tfid_arg_similarity,43,1.0
+Olivier Armstrong,tfid_arg_similarity,42,0.532
+Olivier Armstrong,tfid_arg_similarity,37,0.665
+Olivier Armstrong,tfid_arg_similarity,36,0.446
+Olivier Armstrong,tfid_arg_similarity,34,0.64
+Olivier Armstrong,tfid_arg_similarity,33,0.934
+Olivier Armstrong,tfid_arg_similarity,30,0.33
+Olivier Armstrong,tfid_arg_similarity,28,0.573
+Olivier Armstrong,tfid_arg_similarity,27,0.757
+Olivier Armstrong,tfid_arg_similarity,26,0.327
+Olivier Armstrong,tfid_arg_similarity,25,0.412
+Olivier Armstrong,tfid_arg_similarity,23,0.275
+Olivier Armstrong,tfid_arg_similarity,22,1.0
+Olivier Armstrong,tfid_arg_similarity,19,0.212
+Olivier Armstrong,tfid_arg_similarity,18,0.681
+Olivier Armstrong,tfid_arg_similarity,17,0.757
+Olivier Armstrong,tfid_arg_similarity,14,0.427
+Olivier Armstrong,tfid_arg_similarity,12,0.405
+Olivier Armstrong,tfid_arg_similarity,9,0.47
+Olivier Armstrong,tfid_arg_similarity,8,0.173
+Olivier Armstrong,tfid_arg_similarity,3,0.566
+Olivier Armstrong,tfid_arg_similarity,2,0.254
+Captain Levi,levirank_psuedo_relevance_feedback,100,0.723
+Captain Levi,levirank_psuedo_relevance_feedback,95,0.522
+Captain Levi,levirank_psuedo_relevance_feedback,93,0.893
+Captain Levi,levirank_psuedo_relevance_feedback,92,0.729
+Captain Levi,levirank_psuedo_relevance_feedback,91,0.64
+Captain Levi,levirank_psuedo_relevance_feedback,88,0.496
+Captain Levi,levirank_psuedo_relevance_feedback,86,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,84,0.915
+Captain Levi,levirank_psuedo_relevance_feedback,78,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,77,0.705
+Captain Levi,levirank_psuedo_relevance_feedback,76,0.553
+Captain Levi,levirank_psuedo_relevance_feedback,74,0.577
+Captain Levi,levirank_psuedo_relevance_feedback,72,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,70,0.746
+Captain Levi,levirank_psuedo_relevance_feedback,69,0.699
+Captain Levi,levirank_psuedo_relevance_feedback,68,0.374
+Captain Levi,levirank_psuedo_relevance_feedback,67,0.595
+Captain Levi,levirank_psuedo_relevance_feedback,62,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,61,0.713
+Captain Levi,levirank_psuedo_relevance_feedback,60,0.723
+Captain Levi,levirank_psuedo_relevance_feedback,59,0.36
+Captain Levi,levirank_psuedo_relevance_feedback,58,0.066
+Captain Levi,levirank_psuedo_relevance_feedback,56,0.83
+Captain Levi,levirank_psuedo_relevance_feedback,55,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,54,0.765
+Captain Levi,levirank_psuedo_relevance_feedback,53,0.915
+Captain Levi,levirank_psuedo_relevance_feedback,51,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,48,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,43,0.786
+Captain Levi,levirank_psuedo_relevance_feedback,42,0.68
+Captain Levi,levirank_psuedo_relevance_feedback,37,0.504
+Captain Levi,levirank_psuedo_relevance_feedback,36,0.5
+Captain Levi,levirank_psuedo_relevance_feedback,34,0.927
+Captain Levi,levirank_psuedo_relevance_feedback,33,0.457
+Captain Levi,levirank_psuedo_relevance_feedback,30,0.85
+Captain Levi,levirank_psuedo_relevance_feedback,28,0.531
+Captain Levi,levirank_psuedo_relevance_feedback,27,0.532
+Captain Levi,levirank_psuedo_relevance_feedback,26,0.396
+Captain Levi,levirank_psuedo_relevance_feedback,25,0.677
+Captain Levi,levirank_psuedo_relevance_feedback,23,0.696
+Captain Levi,levirank_psuedo_relevance_feedback,22,0.459
+Captain Levi,levirank_psuedo_relevance_feedback,19,0.372
+Captain Levi,levirank_psuedo_relevance_feedback,18,0.299
+Captain Levi,levirank_psuedo_relevance_feedback,17,1.0
+Captain Levi,levirank_psuedo_relevance_feedback,14,0.566
+Captain Levi,levirank_psuedo_relevance_feedback,12,0.83
+Captain Levi,levirank_psuedo_relevance_feedback,9,0.934
+Captain Levi,levirank_psuedo_relevance_feedback,8,0.673
+Captain Levi,levirank_psuedo_relevance_feedback,3,0.554
+Captain Levi,levirank_psuedo_relevance_feedback,2,1.0
+Captain Levi,levirank_voting_retrieval,100,0.723
+Captain Levi,levirank_voting_retrieval,95,0.614
+Captain Levi,levirank_voting_retrieval,93,0.893
+Captain Levi,levirank_voting_retrieval,92,0.704
+Captain Levi,levirank_voting_retrieval,91,0.553
+Captain Levi,levirank_voting_retrieval,88,0.58
+Captain Levi,levirank_voting_retrieval,86,0.934
+Captain Levi,levirank_voting_retrieval,84,0.854
+Captain Levi,levirank_voting_retrieval,78,0.927
+Captain Levi,levirank_voting_retrieval,77,0.777
+Captain Levi,levirank_voting_retrieval,76,0.757
+Captain Levi,levirank_voting_retrieval,74,0.655
+Captain Levi,levirank_voting_retrieval,72,1.0
+Captain Levi,levirank_voting_retrieval,70,0.827
+Captain Levi,levirank_voting_retrieval,69,0.762
+Captain Levi,levirank_voting_retrieval,68,0.33
+Captain Levi,levirank_voting_retrieval,67,0.588
+Captain Levi,levirank_voting_retrieval,62,1.0
+Captain Levi,levirank_voting_retrieval,61,0.688
+Captain Levi,levirank_voting_retrieval,60,0.788
+Captain Levi,levirank_voting_retrieval,59,0.786
+Captain Levi,levirank_voting_retrieval,58,0.0
+Captain Levi,levirank_voting_retrieval,56,0.85
+Captain Levi,levirank_voting_retrieval,55,1.0
+Captain Levi,levirank_voting_retrieval,54,1.0
+Captain Levi,levirank_voting_retrieval,53,0.827
+Captain Levi,levirank_voting_retrieval,51,1.0
+Captain Levi,levirank_voting_retrieval,48,1.0
+Captain Levi,levirank_voting_retrieval,43,0.83
+Captain Levi,levirank_voting_retrieval,42,0.65
+Captain Levi,levirank_voting_retrieval,37,0.58
+Captain Levi,levirank_voting_retrieval,36,0.5
+Captain Levi,levirank_voting_retrieval,34,0.85
+Captain Levi,levirank_voting_retrieval,33,0.364
+Captain Levi,levirank_voting_retrieval,30,0.82
+Captain Levi,levirank_voting_retrieval,28,0.4
+Captain Levi,levirank_voting_retrieval,27,0.83
+Captain Levi,levirank_voting_retrieval,26,0.257
+Captain Levi,levirank_voting_retrieval,25,0.531
+Captain Levi,levirank_voting_retrieval,23,0.65
+Captain Levi,levirank_voting_retrieval,22,0.677
+Captain Levi,levirank_voting_retrieval,19,0.246
+Captain Levi,levirank_voting_retrieval,18,0.457
+Captain Levi,levirank_voting_retrieval,17,1.0
+Captain Levi,levirank_voting_retrieval,14,0.607
+Captain Levi,levirank_voting_retrieval,12,0.677
+Captain Levi,levirank_voting_retrieval,9,0.915
+Captain Levi,levirank_voting_retrieval,8,0.5
+Captain Levi,levirank_voting_retrieval,3,0.554
+Captain Levi,levirank_voting_retrieval,2,1.0
+Captain Levi,levirank_baseline_large_duo_t5,100,0.854
+Captain Levi,levirank_baseline_large_duo_t5,95,0.658
+Captain Levi,levirank_baseline_large_duo_t5,93,0.893
+Captain Levi,levirank_baseline_large_duo_t5,92,0.637
+Captain Levi,levirank_baseline_large_duo_t5,91,0.699
+Captain Levi,levirank_baseline_large_duo_t5,88,0.665
+Captain Levi,levirank_baseline_large_duo_t5,86,1.0
+Captain Levi,levirank_baseline_large_duo_t5,84,0.927
+Captain Levi,levirank_baseline_large_duo_t5,78,0.861
+Captain Levi,levirank_baseline_large_duo_t5,77,0.657
+Captain Levi,levirank_baseline_large_duo_t5,76,0.83
+Captain Levi,levirank_baseline_large_duo_t5,74,0.72
+Captain Levi,levirank_baseline_large_duo_t5,72,1.0
+Captain Levi,levirank_baseline_large_duo_t5,70,0.765
+Captain Levi,levirank_baseline_large_duo_t5,69,1.0
+Captain Levi,levirank_baseline_large_duo_t5,68,0.415
+Captain Levi,levirank_baseline_large_duo_t5,67,0.786
+Captain Levi,levirank_baseline_large_duo_t5,62,1.0
+Captain Levi,levirank_baseline_large_duo_t5,61,0.47
+Captain Levi,levirank_baseline_large_duo_t5,60,0.723
+Captain Levi,levirank_baseline_large_duo_t5,59,0.661
+Captain Levi,levirank_baseline_large_duo_t5,58,0.277
+Captain Levi,levirank_baseline_large_duo_t5,56,0.83
+Captain Levi,levirank_baseline_large_duo_t5,55,1.0
+Captain Levi,levirank_baseline_large_duo_t5,54,1.0
+Captain Levi,levirank_baseline_large_duo_t5,53,0.827
+Captain Levi,levirank_baseline_large_duo_t5,51,1.0
+Captain Levi,levirank_baseline_large_duo_t5,48,1.0
+Captain Levi,levirank_baseline_large_duo_t5,43,1.0
+Captain Levi,levirank_baseline_large_duo_t5,42,0.915
+Captain Levi,levirank_baseline_large_duo_t5,37,0.58
+Captain Levi,levirank_baseline_large_duo_t5,36,0.573
+Captain Levi,levirank_baseline_large_duo_t5,34,0.893
+Captain Levi,levirank_baseline_large_duo_t5,33,0.699
+Captain Levi,levirank_baseline_large_duo_t5,30,0.469
+Captain Levi,levirank_baseline_large_duo_t5,28,0.519
+Captain Levi,levirank_baseline_large_duo_t5,27,0.704
+Captain Levi,levirank_baseline_large_duo_t5,26,0.577
+Captain Levi,levirank_baseline_large_duo_t5,25,0.488
+Captain Levi,levirank_baseline_large_duo_t5,23,0.613
+Captain Levi,levirank_baseline_large_duo_t5,22,0.488
+Captain Levi,levirank_baseline_large_duo_t5,19,0.372
+Captain Levi,levirank_baseline_large_duo_t5,18,0.47
+Captain Levi,levirank_baseline_large_duo_t5,17,1.0
+Captain Levi,levirank_baseline_large_duo_t5,14,1.0
+Captain Levi,levirank_baseline_large_duo_t5,12,0.827
+Captain Levi,levirank_baseline_large_duo_t5,9,0.83
+Captain Levi,levirank_baseline_large_duo_t5,8,0.551
+Captain Levi,levirank_baseline_large_duo_t5,3,0.396
+Captain Levi,levirank_baseline_large_duo_t5,2,1.0
+Captain Levi,levirank_dense_initial_retrieval,100,0.83
+Captain Levi,levirank_dense_initial_retrieval,95,0.658
+Captain Levi,levirank_dense_initial_retrieval,93,0.893
+Captain Levi,levirank_dense_initial_retrieval,92,0.637
+Captain Levi,levirank_dense_initial_retrieval,91,0.699
+Captain Levi,levirank_dense_initial_retrieval,88,0.665
+Captain Levi,levirank_dense_initial_retrieval,86,1.0
+Captain Levi,levirank_dense_initial_retrieval,84,0.927
+Captain Levi,levirank_dense_initial_retrieval,78,0.861
+Captain Levi,levirank_dense_initial_retrieval,77,0.482
+Captain Levi,levirank_dense_initial_retrieval,76,0.83
+Captain Levi,levirank_dense_initial_retrieval,74,0.72
+Captain Levi,levirank_dense_initial_retrieval,72,1.0
+Captain Levi,levirank_dense_initial_retrieval,70,0.765
+Captain Levi,levirank_dense_initial_retrieval,69,1.0
+Captain Levi,levirank_dense_initial_retrieval,68,0.541
+Captain Levi,levirank_dense_initial_retrieval,67,0.786
+Captain Levi,levirank_dense_initial_retrieval,62,1.0
+Captain Levi,levirank_dense_initial_retrieval,61,0.47
+Captain Levi,levirank_dense_initial_retrieval,60,0.854
+Captain Levi,levirank_dense_initial_retrieval,59,0.661
+Captain Levi,levirank_dense_initial_retrieval,58,0.277
+Captain Levi,levirank_dense_initial_retrieval,56,0.83
+Captain Levi,levirank_dense_initial_retrieval,55,1.0
+Captain Levi,levirank_dense_initial_retrieval,54,1.0
+Captain Levi,levirank_dense_initial_retrieval,53,0.827
+Captain Levi,levirank_dense_initial_retrieval,51,1.0
+Captain Levi,levirank_dense_initial_retrieval,48,1.0
+Captain Levi,levirank_dense_initial_retrieval,43,1.0
+Captain Levi,levirank_dense_initial_retrieval,42,0.915
+Captain Levi,levirank_dense_initial_retrieval,37,0.58
+Captain Levi,levirank_dense_initial_retrieval,36,0.573
+Captain Levi,levirank_dense_initial_retrieval,34,0.893
+Captain Levi,levirank_dense_initial_retrieval,33,0.699
+Captain Levi,levirank_dense_initial_retrieval,30,0.469
+Captain Levi,levirank_dense_initial_retrieval,28,0.519
+Captain Levi,levirank_dense_initial_retrieval,27,0.681
+Captain Levi,levirank_dense_initial_retrieval,26,0.577
+Captain Levi,levirank_dense_initial_retrieval,25,0.488
+Captain Levi,levirank_dense_initial_retrieval,23,0.613
+Captain Levi,levirank_dense_initial_retrieval,22,0.488
+Captain Levi,levirank_dense_initial_retrieval,19,0.35
+Captain Levi,levirank_dense_initial_retrieval,18,0.47
+Captain Levi,levirank_dense_initial_retrieval,17,1.0
+Captain Levi,levirank_dense_initial_retrieval,14,1.0
+Captain Levi,levirank_dense_initial_retrieval,12,0.893
+Captain Levi,levirank_dense_initial_retrieval,9,0.83
+Captain Levi,levirank_dense_initial_retrieval,8,0.551
+Captain Levi,levirank_dense_initial_retrieval,3,0.396
+Captain Levi,levirank_dense_initial_retrieval,2,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,100,0.854
+Captain Levi,levirank_psuedo_relevance_feedback+voting,95,0.507
+Captain Levi,levirank_psuedo_relevance_feedback+voting,93,0.83
+Captain Levi,levirank_psuedo_relevance_feedback+voting,92,0.707
+Captain Levi,levirank_psuedo_relevance_feedback+voting,91,0.699
+Captain Levi,levirank_psuedo_relevance_feedback+voting,88,0.665
+Captain Levi,levirank_psuedo_relevance_feedback+voting,86,0.915
+Captain Levi,levirank_psuedo_relevance_feedback+voting,84,0.796
+Captain Levi,levirank_psuedo_relevance_feedback+voting,78,0.927
+Captain Levi,levirank_psuedo_relevance_feedback+voting,77,0.558
+Captain Levi,levirank_psuedo_relevance_feedback+voting,76,0.83
+Captain Levi,levirank_psuedo_relevance_feedback+voting,74,0.655
+Captain Levi,levirank_psuedo_relevance_feedback+voting,72,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,70,0.746
+Captain Levi,levirank_psuedo_relevance_feedback+voting,69,0.893
+Captain Levi,levirank_psuedo_relevance_feedback+voting,68,0.507
+Captain Levi,levirank_psuedo_relevance_feedback+voting,67,0.869
+Captain Levi,levirank_psuedo_relevance_feedback+voting,62,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,61,0.282
+Captain Levi,levirank_psuedo_relevance_feedback+voting,60,0.934
+Captain Levi,levirank_psuedo_relevance_feedback+voting,59,0.661
+Captain Levi,levirank_psuedo_relevance_feedback+voting,58,0.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,56,0.915
+Captain Levi,levirank_psuedo_relevance_feedback+voting,55,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,54,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,53,0.808
+Captain Levi,levirank_psuedo_relevance_feedback+voting,51,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,48,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,43,0.869
+Captain Levi,levirank_psuedo_relevance_feedback+voting,42,0.723
+Captain Levi,levirank_psuedo_relevance_feedback+voting,37,0.496
+Captain Levi,levirank_psuedo_relevance_feedback+voting,36,0.573
+Captain Levi,levirank_psuedo_relevance_feedback+voting,34,0.699
+Captain Levi,levirank_psuedo_relevance_feedback+voting,33,0.786
+Captain Levi,levirank_psuedo_relevance_feedback+voting,30,0.754
+Captain Levi,levirank_psuedo_relevance_feedback+voting,28,0.277
+Captain Levi,levirank_psuedo_relevance_feedback+voting,27,0.915
+Captain Levi,levirank_psuedo_relevance_feedback+voting,26,0.469
+Captain Levi,levirank_psuedo_relevance_feedback+voting,25,0.754
+Captain Levi,levirank_psuedo_relevance_feedback+voting,23,0.72
+Captain Levi,levirank_psuedo_relevance_feedback+voting,22,0.481
+Captain Levi,levirank_psuedo_relevance_feedback+voting,19,0.296
+Captain Levi,levirank_psuedo_relevance_feedback+voting,18,0.638
+Captain Levi,levirank_psuedo_relevance_feedback+voting,17,1.0
+Captain Levi,levirank_psuedo_relevance_feedback+voting,14,0.65
+Captain Levi,levirank_psuedo_relevance_feedback+voting,12,0.754
+Captain Levi,levirank_psuedo_relevance_feedback+voting,9,0.893
+Captain Levi,levirank_psuedo_relevance_feedback+voting,8,0.65
+Captain Levi,levirank_psuedo_relevance_feedback+voting,3,0.588
+Captain Levi,levirank_psuedo_relevance_feedback+voting,2,0.934
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,100,0.869
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,95,0.412
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,93,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,92,0.763
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,91,0.765
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,88,0.741
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,86,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,84,0.927
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,78,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,77,0.076
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,76,0.381
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,74,0.457
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,72,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,70,0.743
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,69,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,68,0.735
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,67,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,62,0.762
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,61,0.642
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,60,0.607
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,59,0.515
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,58,0.384
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,56,0.83
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,55,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,54,0.934
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,53,0.869
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,51,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,48,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,43,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,42,0.5
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,37,0.705
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,36,0.531
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,34,0.743
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,33,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,30,0.661
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,28,0.563
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,27,0.85
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,26,0.684
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,25,0.681
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,23,0.32
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,22,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,19,0.861
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,18,0.927
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,17,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,14,0.777
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,12,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,9,0.861
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,8,0.478
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,3,0.735
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter_reranked,2,0.934
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,100,0.17
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,95,0.254
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,93,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,92,0.634
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,91,0.488
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,88,0.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,86,0.28
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,84,0.83
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,78,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,77,0.197
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,76,0.257
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,74,0.265
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,72,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,70,0.507
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,69,0.934
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,68,0.592
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,67,0.83
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,62,0.592
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,61,0.197
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,60,0.592
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,59,0.869
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,58,0.17
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,56,0.17
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,55,0.713
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,54,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,53,0.36
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,51,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,48,0.699
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,43,0.83
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,42,0.5
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,37,0.558
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,36,0.243
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,34,0.446
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,33,0.446
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,30,0.827
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,28,0.563
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,27,1.0
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,26,0.497
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,25,0.488
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,23,0.421
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,22,0.927
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,19,0.345
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,18,0.339
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,17,0.83
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,14,0.754
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,12,0.713
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,9,0.15
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,8,0.541
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,3,0.5
+Aldo Nadi,seupd2122-kueri_kueristopv2_BM2_false_porter,2,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,100,0.515
+Aldo Nadi,seupd2122-kueri_RF_reranked,95,0.927
+Aldo Nadi,seupd2122-kueri_RF_reranked,93,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,92,0.551
+Aldo Nadi,seupd2122-kueri_RF_reranked,91,0.757
+Aldo Nadi,seupd2122-kueri_RF_reranked,88,0.456
+Aldo Nadi,seupd2122-kueri_RF_reranked,86,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,84,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,78,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,77,0.504
+Aldo Nadi,seupd2122-kueri_RF_reranked,76,0.786
+Aldo Nadi,seupd2122-kueri_RF_reranked,74,0.692
+Aldo Nadi,seupd2122-kueri_RF_reranked,72,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,70,0.447
+Aldo Nadi,seupd2122-kueri_RF_reranked,69,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,68,0.68
+Aldo Nadi,seupd2122-kueri_RF_reranked,67,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,62,0.927
+Aldo Nadi,seupd2122-kueri_RF_reranked,61,0.789
+Aldo Nadi,seupd2122-kueri_RF_reranked,60,0.553
+Aldo Nadi,seupd2122-kueri_RF_reranked,59,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,58,0.485
+Aldo Nadi,seupd2122-kueri_RF_reranked,56,0.927
+Aldo Nadi,seupd2122-kueri_RF_reranked,55,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,54,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,53,0.485
+Aldo Nadi,seupd2122-kueri_RF_reranked,51,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,48,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,43,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,42,0.522
+Aldo Nadi,seupd2122-kueri_RF_reranked,37,0.657
+Aldo Nadi,seupd2122-kueri_RF_reranked,36,0.323
+Aldo Nadi,seupd2122-kueri_RF_reranked,34,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,33,0.854
+Aldo Nadi,seupd2122-kueri_RF_reranked,30,0.403
+Aldo Nadi,seupd2122-kueri_RF_reranked,28,0.67
+Aldo Nadi,seupd2122-kueri_RF_reranked,27,0.788
+Aldo Nadi,seupd2122-kueri_RF_reranked,26,0.577
+Aldo Nadi,seupd2122-kueri_RF_reranked,25,0.83
+Aldo Nadi,seupd2122-kueri_RF_reranked,23,0.571
+Aldo Nadi,seupd2122-kueri_RF_reranked,22,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,19,0.713
+Aldo Nadi,seupd2122-kueri_RF_reranked,18,0.893
+Aldo Nadi,seupd2122-kueri_RF_reranked,17,1.0
+Aldo Nadi,seupd2122-kueri_RF_reranked,14,0.743
+Aldo Nadi,seupd2122-kueri_RF_reranked,12,0.854
+Aldo Nadi,seupd2122-kueri_RF_reranked,9,0.704
+Aldo Nadi,seupd2122-kueri_RF_reranked,8,0.788
+Aldo Nadi,seupd2122-kueri_RF_reranked,3,0.573
+Aldo Nadi,seupd2122-kueri_RF_reranked,2,0.746
+Aldo Nadi,seupd2122-kueri_rrf,100,0.384
+Aldo Nadi,seupd2122-kueri_rrf,95,0.503
+Aldo Nadi,seupd2122-kueri_rrf,93,1.0
+Aldo Nadi,seupd2122-kueri_rrf,92,0.662
+Aldo Nadi,seupd2122-kueri_rrf,91,0.927
+Aldo Nadi,seupd2122-kueri_rrf,88,0.406
+Aldo Nadi,seupd2122-kueri_rrf,86,0.57
+Aldo Nadi,seupd2122-kueri_rrf,84,1.0
+Aldo Nadi,seupd2122-kueri_rrf,78,1.0
+Aldo Nadi,seupd2122-kueri_rrf,77,0.282
+Aldo Nadi,seupd2122-kueri_rrf,76,0.481
+Aldo Nadi,seupd2122-kueri_rrf,74,0.396
+Aldo Nadi,seupd2122-kueri_rrf,72,1.0
+Aldo Nadi,seupd2122-kueri_rrf,70,0.384
+Aldo Nadi,seupd2122-kueri_rrf,69,0.934
+Aldo Nadi,seupd2122-kueri_rrf,68,0.85
+Aldo Nadi,seupd2122-kueri_rrf,67,1.0
+Aldo Nadi,seupd2122-kueri_rrf,62,0.861
+Aldo Nadi,seupd2122-kueri_rrf,61,0.755
+Aldo Nadi,seupd2122-kueri_rrf,60,0.412
+Aldo Nadi,seupd2122-kueri_rrf,59,0.869
+Aldo Nadi,seupd2122-kueri_rrf,58,0.214
+Aldo Nadi,seupd2122-kueri_rrf,56,0.424
+Aldo Nadi,seupd2122-kueri_rrf,55,1.0
+Aldo Nadi,seupd2122-kueri_rrf,54,1.0
+Aldo Nadi,seupd2122-kueri_rrf,53,0.47
+Aldo Nadi,seupd2122-kueri_rrf,51,1.0
+Aldo Nadi,seupd2122-kueri_rrf,48,1.0
+Aldo Nadi,seupd2122-kueri_rrf,43,0.83
+Aldo Nadi,seupd2122-kueri_rrf,42,0.223
+Aldo Nadi,seupd2122-kueri_rrf,37,0.496
+Aldo Nadi,seupd2122-kueri_rrf,36,0.396
+Aldo Nadi,seupd2122-kueri_rrf,34,0.554
+Aldo Nadi,seupd2122-kueri_rrf,33,0.51
+Aldo Nadi,seupd2122-kueri_rrf,30,0.827
+Aldo Nadi,seupd2122-kueri_rrf,28,0.67
+Aldo Nadi,seupd2122-kueri_rrf,27,0.636
+Aldo Nadi,seupd2122-kueri_rrf,26,0.415
+Aldo Nadi,seupd2122-kueri_rrf,25,0.638
+Aldo Nadi,seupd2122-kueri_rrf,23,0.457
+Aldo Nadi,seupd2122-kueri_rrf,22,0.915
+Aldo Nadi,seupd2122-kueri_rrf,19,0.345
+Aldo Nadi,seupd2122-kueri_rrf,18,0.418
+Aldo Nadi,seupd2122-kueri_rrf,17,1.0
+Aldo Nadi,seupd2122-kueri_rrf,14,0.808
+Aldo Nadi,seupd2122-kueri_rrf,12,0.784
+Aldo Nadi,seupd2122-kueri_rrf,9,0.393
+Aldo Nadi,seupd2122-kueri_rrf,8,0.522
+Aldo Nadi,seupd2122-kueri_rrf,3,0.566
+Aldo Nadi,seupd2122-kueri_rrf,2,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,100,0.723
+Aldo Nadi,seupd2122-kueri_rrf_reranked,95,0.616
+Aldo Nadi,seupd2122-kueri_rrf_reranked,93,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,92,0.748
+Aldo Nadi,seupd2122-kueri_rrf_reranked,91,0.934
+Aldo Nadi,seupd2122-kueri_rrf_reranked,88,0.518
+Aldo Nadi,seupd2122-kueri_rrf_reranked,86,0.927
+Aldo Nadi,seupd2122-kueri_rrf_reranked,84,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,78,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,77,0.183
+Aldo Nadi,seupd2122-kueri_rrf_reranked,76,0.53
+Aldo Nadi,seupd2122-kueri_rrf_reranked,74,0.515
+Aldo Nadi,seupd2122-kueri_rrf_reranked,72,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,70,0.522
+Aldo Nadi,seupd2122-kueri_rrf_reranked,69,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,68,0.777
+Aldo Nadi,seupd2122-kueri_rrf_reranked,67,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,62,0.861
+Aldo Nadi,seupd2122-kueri_rrf_reranked,61,0.803
+Aldo Nadi,seupd2122-kueri_rrf_reranked,60,0.82
+Aldo Nadi,seupd2122-kueri_rrf_reranked,59,0.786
+Aldo Nadi,seupd2122-kueri_rrf_reranked,58,0.647
+Aldo Nadi,seupd2122-kueri_rrf_reranked,56,0.788
+Aldo Nadi,seupd2122-kueri_rrf_reranked,55,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,54,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,53,0.83
+Aldo Nadi,seupd2122-kueri_rrf_reranked,51,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,48,0.83
+Aldo Nadi,seupd2122-kueri_rrf_reranked,43,0.661
+Aldo Nadi,seupd2122-kueri_rrf_reranked,42,0.5
+Aldo Nadi,seupd2122-kueri_rrf_reranked,37,0.665
+Aldo Nadi,seupd2122-kueri_rrf_reranked,36,0.342
+Aldo Nadi,seupd2122-kueri_rrf_reranked,34,0.934
+Aldo Nadi,seupd2122-kueri_rrf_reranked,33,0.83
+Aldo Nadi,seupd2122-kueri_rrf_reranked,30,0.415
+Aldo Nadi,seupd2122-kueri_rrf_reranked,28,0.604
+Aldo Nadi,seupd2122-kueri_rrf_reranked,27,0.796
+Aldo Nadi,seupd2122-kueri_rrf_reranked,26,0.423
+Aldo Nadi,seupd2122-kueri_rrf_reranked,25,0.681
+Aldo Nadi,seupd2122-kueri_rrf_reranked,23,0.432
+Aldo Nadi,seupd2122-kueri_rrf_reranked,22,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,19,0.553
+Aldo Nadi,seupd2122-kueri_rrf_reranked,18,0.65
+Aldo Nadi,seupd2122-kueri_rrf_reranked,17,1.0
+Aldo Nadi,seupd2122-kueri_rrf_reranked,14,0.735
+Aldo Nadi,seupd2122-kueri_rrf_reranked,12,0.934
+Aldo Nadi,seupd2122-kueri_rrf_reranked,9,0.512
+Aldo Nadi,seupd2122-kueri_rrf_reranked,8,0.765
+Aldo Nadi,seupd2122-kueri_rrf_reranked,3,0.585
+Aldo Nadi,seupd2122-kueri_rrf_reranked,2,1.0
+Captain Tempesta,hextech_run_2,100,0.64
+Captain Tempesta,hextech_run_2,95,0.423
+Captain Tempesta,hextech_run_2,93,1.0
+Captain Tempesta,hextech_run_2,92,0.701
+Captain Tempesta,hextech_run_2,91,0.723
+Captain Tempesta,hextech_run_2,88,0.273
+Captain Tempesta,hextech_run_2,86,0.253
+Captain Tempesta,hextech_run_2,84,0.743
+Captain Tempesta,hextech_run_2,78,1.0
+Captain Tempesta,hextech_run_2,77,0.197
+Captain Tempesta,hextech_run_2,76,0.393
+Captain Tempesta,hextech_run_2,74,0.339
+Captain Tempesta,hextech_run_2,72,1.0
+Captain Tempesta,hextech_run_2,70,0.257
+Captain Tempesta,hextech_run_2,69,0.927
+Captain Tempesta,hextech_run_2,68,0.592
+Captain Tempesta,hextech_run_2,67,0.447
+Captain Tempesta,hextech_run_2,62,0.869
+Captain Tempesta,hextech_run_2,61,0.961
+Captain Tempesta,hextech_run_2,60,0.619
+Captain Tempesta,hextech_run_2,59,0.146
+Captain Tempesta,hextech_run_2,58,0.447
+Captain Tempesta,hextech_run_2,56,0.757
+Captain Tempesta,hextech_run_2,55,1.0
+Captain Tempesta,hextech_run_2,54,0.934
+Captain Tempesta,hextech_run_2,53,0.762
+Captain Tempesta,hextech_run_2,51,1.0
+Captain Tempesta,hextech_run_2,48,1.0
+Captain Tempesta,hextech_run_2,43,0.869
+Captain Tempesta,hextech_run_2,42,0.5
+Captain Tempesta,hextech_run_2,37,0.504
+Captain Tempesta,hextech_run_2,36,0.434
+Captain Tempesta,hextech_run_2,34,0.607
+Captain Tempesta,hextech_run_2,33,1.0
+Captain Tempesta,hextech_run_2,30,0.342
+Captain Tempesta,hextech_run_2,28,0.277
+Captain Tempesta,hextech_run_2,27,0.626
+Captain Tempesta,hextech_run_2,26,0.231
+Captain Tempesta,hextech_run_2,25,0.85
+Captain Tempesta,hextech_run_2,23,0.535
+Captain Tempesta,hextech_run_2,22,0.869
+Captain Tempesta,hextech_run_2,19,0.0
+Captain Tempesta,hextech_run_2,18,0.515
+Captain Tempesta,hextech_run_2,17,0.243
+Captain Tempesta,hextech_run_2,14,0.607
+Captain Tempesta,hextech_run_2,12,0.384
+Captain Tempesta,hextech_run_2,9,0.066
+Captain Tempesta,hextech_run_2,8,0.466
+Captain Tempesta,hextech_run_2,3,0.434
+Captain Tempesta,hextech_run_2,2,0.869
+Captain Tempesta,hextech_run_1,100,0.616
+Captain Tempesta,hextech_run_1,95,0.423
+Captain Tempesta,hextech_run_1,93,1.0
+Captain Tempesta,hextech_run_1,92,0.701
+Captain Tempesta,hextech_run_1,91,0.723
+Captain Tempesta,hextech_run_1,88,0.299
+Captain Tempesta,hextech_run_1,86,0.238
+Captain Tempesta,hextech_run_1,84,0.735
+Captain Tempesta,hextech_run_1,78,1.0
+Captain Tempesta,hextech_run_1,77,0.197
+Captain Tempesta,hextech_run_1,76,0.393
+Captain Tempesta,hextech_run_1,74,0.339
+Captain Tempesta,hextech_run_1,72,1.0
+Captain Tempesta,hextech_run_1,70,0.246
+Captain Tempesta,hextech_run_1,69,1.0
+Captain Tempesta,hextech_run_1,68,0.592
+Captain Tempesta,hextech_run_1,67,0.447
+Captain Tempesta,hextech_run_1,62,0.786
+Captain Tempesta,hextech_run_1,61,0.961
+Captain Tempesta,hextech_run_1,60,0.553
+Captain Tempesta,hextech_run_1,59,0.146
+Captain Tempesta,hextech_run_1,58,0.381
+Captain Tempesta,hextech_run_1,56,0.796
+Captain Tempesta,hextech_run_1,55,1.0
+Captain Tempesta,hextech_run_1,54,0.934
+Captain Tempesta,hextech_run_1,53,0.762
+Captain Tempesta,hextech_run_1,51,1.0
+Captain Tempesta,hextech_run_1,48,1.0
+Captain Tempesta,hextech_run_1,43,0.854
+Captain Tempesta,hextech_run_1,42,0.5
+Captain Tempesta,hextech_run_1,37,0.504
+Captain Tempesta,hextech_run_1,36,0.434
+Captain Tempesta,hextech_run_1,34,0.607
+Captain Tempesta,hextech_run_1,33,0.854
+Captain Tempesta,hextech_run_1,30,0.372
+Captain Tempesta,hextech_run_1,28,0.277
+Captain Tempesta,hextech_run_1,27,0.619
+Captain Tempesta,hextech_run_1,26,0.231
+Captain Tempesta,hextech_run_1,25,0.85
+Captain Tempesta,hextech_run_1,23,0.535
+Captain Tempesta,hextech_run_1,22,0.83
+Captain Tempesta,hextech_run_1,19,0.0
+Captain Tempesta,hextech_run_1,18,0.515
+Captain Tempesta,hextech_run_1,17,0.296
+Captain Tempesta,hextech_run_1,14,0.607
+Captain Tempesta,hextech_run_1,12,0.384
+Captain Tempesta,hextech_run_1,9,0.0
+Captain Tempesta,hextech_run_1,8,0.459
+Captain Tempesta,hextech_run_1,3,0.434
+Captain Tempesta,hextech_run_1,2,1.0
+Captain Tempesta,hextech_run_3,100,0.64
+Captain Tempesta,hextech_run_3,95,0.423
+Captain Tempesta,hextech_run_3,93,1.0
+Captain Tempesta,hextech_run_3,92,0.701
+Captain Tempesta,hextech_run_3,91,0.723
+Captain Tempesta,hextech_run_3,88,0.282
+Captain Tempesta,hextech_run_3,86,0.253
+Captain Tempesta,hextech_run_3,84,0.735
+Captain Tempesta,hextech_run_3,78,1.0
+Captain Tempesta,hextech_run_3,77,0.197
+Captain Tempesta,hextech_run_3,76,0.393
+Captain Tempesta,hextech_run_3,74,0.339
+Captain Tempesta,hextech_run_3,72,1.0
+Captain Tempesta,hextech_run_3,70,0.257
+Captain Tempesta,hextech_run_3,69,0.927
+Captain Tempesta,hextech_run_3,68,0.592
+Captain Tempesta,hextech_run_3,67,0.316
+Captain Tempesta,hextech_run_3,62,0.869
+Captain Tempesta,hextech_run_3,61,0.961
+Captain Tempesta,hextech_run_3,60,0.619
+Captain Tempesta,hextech_run_3,59,0.146
+Captain Tempesta,hextech_run_3,58,0.381
+Captain Tempesta,hextech_run_3,56,0.626
+Captain Tempesta,hextech_run_3,55,1.0
+Captain Tempesta,hextech_run_3,54,0.934
+Captain Tempesta,hextech_run_3,53,0.747
+Captain Tempesta,hextech_run_3,51,1.0
+Captain Tempesta,hextech_run_3,48,1.0
+Captain Tempesta,hextech_run_3,43,0.869
+Captain Tempesta,hextech_run_3,42,0.5
+Captain Tempesta,hextech_run_3,37,0.504
+Captain Tempesta,hextech_run_3,36,0.434
+Captain Tempesta,hextech_run_3,34,0.607
+Captain Tempesta,hextech_run_3,33,1.0
+Captain Tempesta,hextech_run_3,30,0.342
+Captain Tempesta,hextech_run_3,28,0.277
+Captain Tempesta,hextech_run_3,27,0.626
+Captain Tempesta,hextech_run_3,26,0.231
+Captain Tempesta,hextech_run_3,25,0.85
+Captain Tempesta,hextech_run_3,23,0.535
+Captain Tempesta,hextech_run_3,22,0.869
+Captain Tempesta,hextech_run_3,19,0.0
+Captain Tempesta,hextech_run_3,18,0.515
+Captain Tempesta,hextech_run_3,17,0.243
+Captain Tempesta,hextech_run_3,14,0.607
+Captain Tempesta,hextech_run_3,12,0.384
+Captain Tempesta,hextech_run_3,9,0.0
+Captain Tempesta,hextech_run_3,8,0.466
+Captain Tempesta,hextech_run_3,3,0.427
+Captain Tempesta,hextech_run_3,2,0.83
+Captain Tempesta,hextech_run_4,100,0.214
+Captain Tempesta,hextech_run_4,95,0.485
+Captain Tempesta,hextech_run_4,93,1.0
+Captain Tempesta,hextech_run_4,92,0.526
+Captain Tempesta,hextech_run_4,91,0.445
+Captain Tempesta,hextech_run_4,88,0.268
+Captain Tempesta,hextech_run_4,86,0.597
+Captain Tempesta,hextech_run_4,84,0.861
+Captain Tempesta,hextech_run_4,78,1.0
+Captain Tempesta,hextech_run_4,77,0.705
+Captain Tempesta,hextech_run_4,76,0.639
+Captain Tempesta,hextech_run_4,74,0.424
+Captain Tempesta,hextech_run_4,72,1.0
+Captain Tempesta,hextech_run_4,70,0.469
+Captain Tempesta,hextech_run_4,69,0.854
+Captain Tempesta,hextech_run_4,68,0.415
+Captain Tempesta,hextech_run_4,67,0.447
+Captain Tempesta,hextech_run_4,62,0.0
+Captain Tempesta,hextech_run_4,61,0.952
+Captain Tempesta,hextech_run_4,60,0.47
+Captain Tempesta,hextech_run_4,59,0.57
+Captain Tempesta,hextech_run_4,58,0.204
+Captain Tempesta,hextech_run_4,56,0.577
+Captain Tempesta,hextech_run_4,55,1.0
+Captain Tempesta,hextech_run_4,54,1.0
+Captain Tempesta,hextech_run_4,53,0.639
+Captain Tempesta,hextech_run_4,51,1.0
+Captain Tempesta,hextech_run_4,48,0.869
+Captain Tempesta,hextech_run_4,43,1.0
+Captain Tempesta,hextech_run_4,42,0.541
+Captain Tempesta,hextech_run_4,37,0.406
+Captain Tempesta,hextech_run_4,36,0.434
+Captain Tempesta,hextech_run_4,34,0.481
+Captain Tempesta,hextech_run_4,33,0.854
+Captain Tempesta,hextech_run_4,30,0.437
+Captain Tempesta,hextech_run_4,28,0.364
+Captain Tempesta,hextech_run_4,27,0.339
+Captain Tempesta,hextech_run_4,26,0.446
+Captain Tempesta,hextech_run_4,25,0.85
+Captain Tempesta,hextech_run_4,23,0.543
+Captain Tempesta,hextech_run_4,22,0.655
+Captain Tempesta,hextech_run_4,19,0.107
+Captain Tempesta,hextech_run_4,18,0.345
+Captain Tempesta,hextech_run_4,17,0.447
+Captain Tempesta,hextech_run_4,14,0.478
+Captain Tempesta,hextech_run_4,12,0.17
+Captain Tempesta,hextech_run_4,9,0.066
+Captain Tempesta,hextech_run_4,8,0.338
+Captain Tempesta,hextech_run_4,3,0.434
+Captain Tempesta,hextech_run_4,2,0.927
+Captain Tempesta,hextech_run_5,100,0.509
+Captain Tempesta,hextech_run_5,95,0.408
+Captain Tempesta,hextech_run_5,93,1.0
+Captain Tempesta,hextech_run_5,92,0.41
+Captain Tempesta,hextech_run_5,91,0.614
+Captain Tempesta,hextech_run_5,88,0.251
+Captain Tempesta,hextech_run_5,86,0.412
+Captain Tempesta,hextech_run_5,84,0.893
+Captain Tempesta,hextech_run_5,78,1.0
+Captain Tempesta,hextech_run_5,77,0.2
+Captain Tempesta,hextech_run_5,76,0.396
+Captain Tempesta,hextech_run_5,74,0.551
+Captain Tempesta,hextech_run_5,72,1.0
+Captain Tempesta,hextech_run_5,70,0.405
+Captain Tempesta,hextech_run_5,69,0.927
+Captain Tempesta,hextech_run_5,68,0.65
+Captain Tempesta,hextech_run_5,67,0.491
+Captain Tempesta,hextech_run_5,62,0.869
+Captain Tempesta,hextech_run_5,61,0.952
+Captain Tempesta,hextech_run_5,60,0.616
+Captain Tempesta,hextech_run_5,59,0.0
+Captain Tempesta,hextech_run_5,58,0.509
+Captain Tempesta,hextech_run_5,56,0.574
+Captain Tempesta,hextech_run_5,55,0.83
+Captain Tempesta,hextech_run_5,54,0.934
+Captain Tempesta,hextech_run_5,53,0.553
+Captain Tempesta,hextech_run_5,51,1.0
+Captain Tempesta,hextech_run_5,48,1.0
+Captain Tempesta,hextech_run_5,43,0.83
+Captain Tempesta,hextech_run_5,42,0.5
+Captain Tempesta,hextech_run_5,37,0.209
+Captain Tempesta,hextech_run_5,36,0.493
+Captain Tempesta,hextech_run_5,34,0.607
+Captain Tempesta,hextech_run_5,33,1.0
+Captain Tempesta,hextech_run_5,30,0.434
+Captain Tempesta,hextech_run_5,28,0.408
+Captain Tempesta,hextech_run_5,27,0.746
+Captain Tempesta,hextech_run_5,26,0.299
+Captain Tempesta,hextech_run_5,25,0.861
+Captain Tempesta,hextech_run_5,23,0.535
+Captain Tempesta,hextech_run_5,22,1.0
+Captain Tempesta,hextech_run_5,19,0.107
+Captain Tempesta,hextech_run_5,18,0.085
+Captain Tempesta,hextech_run_5,17,0.277
+Captain Tempesta,hextech_run_5,14,0.67
+Captain Tempesta,hextech_run_5,12,0.457
+Captain Tempesta,hextech_run_5,9,0.5
+Captain Tempesta,hextech_run_5,8,0.466
+Captain Tempesta,hextech_run_5,3,0.585
+Captain Tempesta,hextech_run_5,2,0.83
+Katana,Colbert trained by me,100,0.64
+Katana,Colbert trained by me,95,0.743
+Katana,Colbert trained by me,93,0.893
+Katana,Colbert trained by me,92,0.683
+Katana,Colbert trained by me,91,0.827
+Katana,Colbert trained by me,88,0.504
+Katana,Colbert trained by me,86,0.585
+Katana,Colbert trained by me,84,0.158
+Katana,Colbert trained by me,78,1.0
+Katana,Colbert trained by me,77,0.504
+Katana,Colbert trained by me,76,0.701
+Katana,Colbert trained by me,74,0.647
+Katana,Colbert trained by me,72,1.0
+Katana,Colbert trained by me,70,0.83
+Katana,Colbert trained by me,69,0.893
+Katana,Colbert trained by me,68,0.265
+Katana,Colbert trained by me,67,0.661
+Katana,Colbert trained by me,62,1.0
+Katana,Colbert trained by me,61,0.446
+Katana,Colbert trained by me,60,0.765
+Katana,Colbert trained by me,59,0.491
+Katana,Colbert trained by me,58,0.0
+Katana,Colbert trained by me,56,1.0
+Katana,Colbert trained by me,55,0.854
+Katana,Colbert trained by me,54,1.0
+Katana,Colbert trained by me,53,0.673
+Katana,Colbert trained by me,51,1.0
+Katana,Colbert trained by me,48,1.0
+Katana,Colbert trained by me,43,0.83
+Katana,Colbert trained by me,42,0.607
+Katana,Colbert trained by me,37,0.58
+Katana,Colbert trained by me,36,0.415
+Katana,Colbert trained by me,34,0.638
+Katana,Colbert trained by me,33,0.384
+Katana,Colbert trained by me,30,0.277
+Katana,Colbert trained by me,28,0.493
+Katana,Colbert trained by me,27,0.311
+Katana,Colbert trained by me,26,0.386
+Katana,Colbert trained by me,25,0.481
+Katana,Colbert trained by me,23,0.646
+Katana,Colbert trained by me,22,0.17
+Katana,Colbert trained by me,19,0.704
+Katana,Colbert trained by me,18,0.65
+Katana,Colbert trained by me,17,0.83
+Katana,Colbert trained by me,14,0.573
+Katana,Colbert trained by me,12,0.769
+Katana,Colbert trained by me,9,0.519
+Katana,Colbert trained by me,8,0.626
+Katana,Colbert trained by me,3,0.777
+Katana,Colbert trained by me,2,0.765
+Katana,Colbert fine tune on touche data,100,0.786
+Katana,Colbert fine tune on touche data,95,0.628
+Katana,Colbert fine tune on touche data,93,0.927
+Katana,Colbert fine tune on touche data,92,0.341
+Katana,Colbert fine tune on touche data,91,0.723
+Katana,Colbert fine tune on touche data,88,0.295
+Katana,Colbert fine tune on touche data,86,0.934
+Katana,Colbert fine tune on touche data,84,0.066
+Katana,Colbert fine tune on touche data,78,1.0
+Katana,Colbert fine tune on touche data,77,0.504
+Katana,Colbert fine tune on touche data,76,0.701
+Katana,Colbert fine tune on touche data,74,0.423
+Katana,Colbert fine tune on touche data,72,1.0
+Katana,Colbert fine tune on touche data,70,0.661
+Katana,Colbert fine tune on touche data,69,1.0
+Katana,Colbert fine tune on touche data,68,0.915
+Katana,Colbert fine tune on touche data,67,0.786
+Katana,Colbert fine tune on touche data,62,0.915
+Katana,Colbert fine tune on touche data,61,0.333
+Katana,Colbert fine tune on touche data,60,0.915
+Katana,Colbert fine tune on touche data,59,0.0
+Katana,Colbert fine tune on touche data,58,0.212
+Katana,Colbert fine tune on touche data,56,0.661
+Katana,Colbert fine tune on touche data,55,1.0
+Katana,Colbert fine tune on touche data,54,1.0
+Katana,Colbert fine tune on touche data,53,0.661
+Katana,Colbert fine tune on touche data,51,1.0
+Katana,Colbert fine tune on touche data,48,1.0
+Katana,Colbert fine tune on touche data,43,1.0
+Katana,Colbert fine tune on touche data,42,0.573
+Katana,Colbert fine tune on touche data,37,0.58
+Katana,Colbert fine tune on touche data,36,0.519
+Katana,Colbert fine tune on touche data,34,0.861
+Katana,Colbert fine tune on touche data,33,0.47
+Katana,Colbert fine tune on touche data,30,0.57
+Katana,Colbert fine tune on touche data,28,0.231
+Katana,Colbert fine tune on touche data,27,0.316
+Katana,Colbert fine tune on touche data,26,0.65
+Katana,Colbert fine tune on touche data,25,0.684
+Katana,Colbert fine tune on touche data,23,0.193
+Katana,Colbert fine tune on touche data,22,0.339
+Katana,Colbert fine tune on touche data,19,0.066
+Katana,Colbert fine tune on touche data,18,0.434
+Katana,Colbert fine tune on touche data,17,0.934
+Katana,Colbert fine tune on touche data,14,0.769
+Katana,Colbert fine tune on touche data,12,0.777
+Katana,Colbert fine tune on touche data,9,0.588
+Katana,Colbert fine tune on touche data,8,0.808
+Katana,Colbert fine tune on touche data,3,0.67
+Katana,Colbert fine tune on touche data,2,0.423
+Katana,Colbert edinburg,100,0.515
+Katana,Colbert edinburg,95,0.338
+Katana,Colbert edinburg,93,0.927
+Katana,Colbert edinburg,92,0.535
+Katana,Colbert edinburg,91,0.689
+Katana,Colbert edinburg,88,0.42
+Katana,Colbert edinburg,86,1.0
+Katana,Colbert edinburg,84,0.311
+Katana,Colbert edinburg,78,1.0
+Katana,Colbert edinburg,77,0.42
+Katana,Colbert edinburg,76,0.72
+Katana,Colbert edinburg,74,0.658
+Katana,Colbert edinburg,72,1.0
+Katana,Colbert edinburg,70,0.515
+Katana,Colbert edinburg,69,0.927
+Katana,Colbert edinburg,68,0.353
+Katana,Colbert edinburg,67,0.53
+Katana,Colbert edinburg,62,1.0
+Katana,Colbert edinburg,61,0.445
+Katana,Colbert edinburg,60,0.893
+Katana,Colbert edinburg,59,0.146
+Katana,Colbert edinburg,58,0.146
+Katana,Colbert edinburg,56,0.934
+Katana,Colbert edinburg,55,1.0
+Katana,Colbert edinburg,54,1.0
+Katana,Colbert edinburg,53,0.607
+Katana,Colbert edinburg,51,1.0
+Katana,Colbert edinburg,48,1.0
+Katana,Colbert edinburg,43,0.661
+Katana,Colbert edinburg,42,0.67
+Katana,Colbert edinburg,37,0.58
+Katana,Colbert edinburg,36,0.5
+Katana,Colbert edinburg,34,0.699
+Katana,Colbert edinburg,33,0.491
+Katana,Colbert edinburg,30,0.459
+Katana,Colbert edinburg,28,0.507
+Katana,Colbert edinburg,27,0.459
+Katana,Colbert edinburg,26,0.614
+Katana,Colbert edinburg,25,0.403
+Katana,Colbert edinburg,23,0.717
+Katana,Colbert edinburg,22,0.374
+Katana,Colbert edinburg,19,0.566
+Katana,Colbert edinburg,18,0.434
+Katana,Colbert edinburg,17,0.934
+Katana,Colbert edinburg,14,0.607
+Katana,Colbert edinburg,12,0.597
+Katana,Colbert edinburg,9,0.403
+Katana,Colbert edinburg,8,0.692
+Katana,Colbert edinburg,3,0.85
+Katana,Colbert edinburg,2,0.893
+Asuna,asuna-run-5,100,0.384
+Asuna,asuna-run-5,95,0.0
+Asuna,asuna-run-5,93,0.927
+Asuna,asuna-run-5,92,0.0
+Asuna,asuna-run-5,91,0.131
+Asuna,asuna-run-5,88,0.0
+Asuna,asuna-run-5,86,0.47
+Asuna,asuna-run-5,84,0.445
+Asuna,asuna-run-5,78,0.765
+Asuna,asuna-run-5,77,0.085
+Asuna,asuna-run-5,76,0.445
+Asuna,asuna-run-5,74,0.512
+Asuna,asuna-run-5,72,1.0
+Asuna,asuna-run-5,70,0.478
+Asuna,asuna-run-5,69,0.854
+Asuna,asuna-run-5,68,0.265
+Asuna,asuna-run-5,67,0.17
+Asuna,asuna-run-5,62,0.066
+Asuna,asuna-run-5,61,0.53
+Asuna,asuna-run-5,60,0.0
+Asuna,asuna-run-5,59,0.0
+Asuna,asuna-run-5,58,0.0
+Asuna,asuna-run-5,56,0.301
+Asuna,asuna-run-5,55,0.214
+Asuna,asuna-run-5,54,0.757
+Asuna,asuna-run-5,53,0.146
+Asuna,asuna-run-5,51,1.0
+Asuna,asuna-run-5,48,0.47
+Asuna,asuna-run-5,43,0.0
+Asuna,asuna-run-5,42,0.531
+Asuna,asuna-run-5,37,0.465
+Asuna,asuna-run-5,36,0.0
+Asuna,asuna-run-5,34,0.374
+Asuna,asuna-run-5,33,0.066
+Asuna,asuna-run-5,30,0.139
+Asuna,asuna-run-5,28,0.18
+Asuna,asuna-run-5,27,0.073
+Asuna,asuna-run-5,26,0.0
+Asuna,asuna-run-5,25,0.277
+Asuna,asuna-run-5,23,0.185
+Asuna,asuna-run-5,22,0.316
+Asuna,asuna-run-5,19,0.434
+Asuna,asuna-run-5,18,0.405
+Asuna,asuna-run-5,17,0.743
+Asuna,asuna-run-5,14,0.085
+Asuna,asuna-run-5,12,0.296
+Asuna,asuna-run-5,9,0.139
+Asuna,asuna-run-5,8,0.235
+Asuna,asuna-run-5,3,0.427
+Asuna,asuna-run-5,2,0.83
+Puss in Boots,BM25-Baseline,100,0.699
+Puss in Boots,BM25-Baseline,95,0.361
+Puss in Boots,BM25-Baseline,93,1.0
+Puss in Boots,BM25-Baseline,92,0.503
+Puss in Boots,BM25-Baseline,91,0.446
+Puss in Boots,BM25-Baseline,88,0.098
+Puss in Boots,BM25-Baseline,86,0.515
+Puss in Boots,BM25-Baseline,84,0.408
+Puss in Boots,BM25-Baseline,78,0.554
+Puss in Boots,BM25-Baseline,77,0.603
+Puss in Boots,BM25-Baseline,76,0.158
+Puss in Boots,BM25-Baseline,74,0.339
+Puss in Boots,BM25-Baseline,72,0.83
+Puss in Boots,BM25-Baseline,70,0.82
+Puss in Boots,BM25-Baseline,69,0.934
+Puss in Boots,BM25-Baseline,68,0.33
+Puss in Boots,BM25-Baseline,67,0.619
+Puss in Boots,BM25-Baseline,62,0.765
+Puss in Boots,BM25-Baseline,61,0.854
+Puss in Boots,BM25-Baseline,60,0.339
+Puss in Boots,BM25-Baseline,59,0.342
+Puss in Boots,BM25-Baseline,58,0.158
+Puss in Boots,BM25-Baseline,56,0.0
+Puss in Boots,BM25-Baseline,55,0.616
+Puss in Boots,BM25-Baseline,54,0.796
+Puss in Boots,BM25-Baseline,53,0.339
+Puss in Boots,BM25-Baseline,51,0.934
+Puss in Boots,BM25-Baseline,48,1.0
+Puss in Boots,BM25-Baseline,43,0.345
+Puss in Boots,BM25-Baseline,42,0.67
+Puss in Boots,BM25-Baseline,37,0.307
+Puss in Boots,BM25-Baseline,36,0.427
+Puss in Boots,BM25-Baseline,34,0.423
+Puss in Boots,BM25-Baseline,33,0.616
+Puss in Boots,BM25-Baseline,30,0.289
+Puss in Boots,BM25-Baseline,28,0.235
+Puss in Boots,BM25-Baseline,27,0.446
+Puss in Boots,BM25-Baseline,26,0.085
+Puss in Boots,BM25-Baseline,25,0.563
+Puss in Boots,BM25-Baseline,23,0.535
+Puss in Boots,BM25-Baseline,22,0.869
+Puss in Boots,BM25-Baseline,19,0.107
+Puss in Boots,BM25-Baseline,18,0.0
+Puss in Boots,BM25-Baseline,17,0.085
+Puss in Boots,BM25-Baseline,14,0.585
+Puss in Boots,BM25-Baseline,12,0.308
+Puss in Boots,BM25-Baseline,9,0.192
+Puss in Boots,BM25-Baseline,8,0.449
+Puss in Boots,BM25-Baseline,3,0.0
+Puss in Boots,BM25-Baseline,2,0.915

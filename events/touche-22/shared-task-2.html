@@ -70,7 +70,7 @@ shared_tasks: 3
             <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#tira-quickstart">TIRA Quickstart</a></li>
- 	    <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li> -->
+ 	    <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
         </ul>
     </div>
@@ -257,116 +257,156 @@ Additionally, we review your submissions and contact you on demand.
         SECTION Results
         -->
         
-	<!-- <h2 id="results">Results</h2>
+	<h2 id="results">Results</h2>
 	<h3>Results for Relevance Evaluation</h3>
-	The table below shows the best-scoring run of each team. The full table including all runs can be accessed <a class="uk-link" href="./task2_relevance_results_all.html">here</a>. Per-topic results are also available [<a href="./task2_relevance_results_full.csv">download</a>].
+	The table below shows the highest-scoring run of each team. The full table including all runs can be accessed <a class="uk-link" href="./data/task2_relevance_results_all.html">here</a>. Per-topic results are also available [<a href="./data/task2_relevance_results_full.csv">download</a>].
 	<table class="uk-table uk-table-divider uk-table-small uk-table-hover">
-          <thead>
-            <tr>
-              <th>team</th>
-              <th colspan="2" align="center">results</th>
-            </tr>
-            <tr style="text-align: right;">
-              <th></th>
-              <th>Tag</th>
-              <th>nDCG@5</th>
-            </tr>
-          </thead>
-	  <tbody>
-	    <tr>
-	      <td>Katana</td>
-	      <td>py_terrier_xgb</td>
-	      <td>0.489</td>
-	    </tr>
-	    <tr>
-	      <td>Thor</td>
-	      <td>uh-t2-thor</td>
-	      <td>0.478</td>
-	    </tr>
-	    <tr>
-	      <td>Rayla</td>
-	      <td>DistilBERT_argumentation_advanced_ranking_run_1</td>
-	      <td>0.473</td>
-	    </tr>
-	    <tr>
-	      <td>Jack Sparrow</td>
-	      <td>JackSparrow__bert</td>
-	      <td>0.467</td>
-	    </tr>
-	    <tr>
-	      <td>Mercutio</td>
-	      <td>ul-t2-mercutio-run_2</td>
-	      <td>0.441</td>
-	    </tr>
-	    <tr>
-	      <td>Puss in Boots (<b>Baseline</b>)</td>
-	      <td>ChatNoir</td>
-	      <td>0.422</td>
-	    </tr>
-	    <tr>
-	      <td>Prince Caspian</td>
-	      <td>prince-caspian</td>
-	      <td>0.244</td>
-	    </tr>
-	  </tbody>
-        </table>
-	<h3>Results for Quality Evaluation</h3>
-	The table below shows the best-scoring run of each team. The full table including all runs can be accessed <a class="uk-link" href="./task2_quality_results_all.html">here</a>. Per-topic results are also available [<a href="./task2_quality_results_full.csv">download</a>].
+  <thead>
+    <tr style="text-align: right;">
+      <th>Team</th>
+      <th>Tag</th>
+      <th>Mean nDCG@5</th>
+      <th>CI95 Low</th>
+      <th>CI95 High</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Captain Levi</td>
+      <td>levirank_dense_initial_retrieval</td>
+      <td>0.758</td>
+      <td>0.708</td>
+      <td>0.810</td>
+    </tr>
+    <tr>
+      <td>Aldo Nadi</td>
+      <td>seupd2122-kueri_rrf_reranked</td>
+      <td>0.709</td>
+      <td>0.649</td>
+      <td>0.769</td>
+    </tr>
+    <tr>
+      <td>Katana</td>
+      <td>Colbert edinburg</td>
+      <td>0.618</td>
+      <td>0.551</td>
+      <td>0.676</td>
+    </tr>
+    <tr>
+      <td>Captain Tempesta</td>
+      <td>hextech_run_1</td>
+      <td>0.574</td>
+      <td>0.504</td>
+      <td>0.640</td>
+    </tr>
+    <tr>
+      <td>Olivier Armstrong</td>
+      <td>tfid_arg_similarity</td>
+      <td>0.492</td>
+      <td>0.414</td>
+      <td>0.569</td>
+    </tr>
+    <tr>
+      <td>Puss in Boots</td>
+      <td>BM25-Baseline</td>
+      <td>0.469</td>
+      <td>0.403</td>
+      <td>0.538</td>
+    </tr>
+    <tr>
+      <td>Grimjack</td>
+      <td>grimjack-fair-reranking-argumentative-axioms</td>
+      <td>0.422</td>
+      <td>0.351</td>
+      <td>0.496</td>
+    </tr>
+    <tr>
+      <td>Asuna</td>
+      <td>asuna-run-5</td>
+      <td>0.263</td>
+      <td>0.202</td>
+      <td>0.324</td>
+    </tr>
+  </tbody>
+  </table>
+ <h3>Results for Quality Evaluation</h3>
+	The table below shows the best-scoring run of each team. The full table including all runs can be accessed <a class="uk-link" href="./data/task2_quality_results_all.html">here</a>. Per-topic results are also available [<a href="./data/task2_quality_results_full.csv">download</a>].
 	<table class="uk-table uk-table-divider uk-table-small uk-table-hover">
-          <thead>
-            <tr>
-              <th>team</th>
-              <th colspan="2" align="center">results</th>
-            </tr>
-            <tr style="text-align: right;">
-              <th></th>
-              <th>Tag</th>
-              <th>nDCG@5</th>
-            </tr>
-          </thead>
-	  <tbody>
-	    <tr>
-	      <td>Rayla</td>
-	      <td>DistilBERT_argumentation_bm25</td>
-	      <td>0.688</td>
-	    </tr>
-	    <tr>
-	      <td>Katana</td>
-	      <td>lgbm_ranker</td>
-	      <td>0.684</td>
-	    </tr>
-	    <tr>
-	      <td>Thor</td>
-	      <td>uh-t2-thor</td>
-	      <td>0.680</td>
-	    </tr>
-	    <tr>
-	      <td>Jack Sparrow</td>
-	      <td>JackSparrow__bert</td>
-	      <td>0.664</td>
-	    </tr>
-	    <tr>
-	      <td>Mercutio</td>
-	      <td>ul-t2-mercutio-run_2</td>
-	      <td>0.651</td>
-	    </tr>
-	    <tr>
-	      <td>Puss in Boots (<b>Baseline</b>)</td>
-	      <td>ChatNoir</td>
-	      <td>0.636</td>
-	    </tr>
-	    <tr>
-	      <td>Prince Caspian</td>
-	      <td>prince-caspian</td>
-	      <td>0.548</td>
-	    </tr>
-	  </tbody>
+  <thead>
+    <tr style="text-align: right;">
+      <th>Team</th>
+      <th>Tag</th>
+      <th>Mean nDCG@5</th>
+      <th>CI95 Low</th>
+      <th>CI95 High</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aldo Nadi</td>
+      <td>seupd2122-kueri_RF_reranked</td>
+      <td>0.774</td>
+      <td>0.719</td>
+      <td>0.828</td>
+    </tr>
+    <tr>
+      <td>Captain Levi</td>
+      <td>levirank_dense_initial_retrieval</td>
+      <td>0.744</td>
+      <td>0.690</td>
+      <td>0.804</td>
+    </tr>
+    <tr>
+      <td>Katana</td>
+      <td>Colbert trained by me</td>
+      <td>0.644</td>
+      <td>0.575</td>
+      <td>0.707</td>
+    </tr>
+    <tr>
+      <td>Captain Tempesta</td>
+      <td>hextech_run_5</td>
+      <td>0.597</td>
+      <td>0.523</td>
+      <td>0.674</td>
+    </tr>
+    <tr>
+      <td>Olivier Armstrong</td>
+      <td>tfid_arg_similarity</td>
+      <td>0.582</td>
+      <td>0.506</td>
+      <td>0.662</td>
+    </tr>
+    <tr>
+      <td>Puss in Boots</td>
+      <td>BM25-Baseline</td>
+      <td>0.476</td>
+      <td>0.401</td>
+      <td>0.556</td>
+    </tr>
+    <tr>
+      <td>Grimjack</td>
+      <td>grimjack-fair-reranking-argumentative-axioms</td>
+      <td>0.403</td>
+      <td>0.330</td>
+      <td>0.478</td>
+    </tr>
+    <tr>
+      <td>Asuna</td>
+      <td>asuna-run-5</td>
+      <td>0.332</td>
+      <td>0.254</td>
+      <td>0.418</td>
+    </tr>
+  </tbody>
         </table>
 	<h3>Qrel Download</h3>
 	<ul>
-	    <li>Relevance qrels [<a href="./touche-task2-51-100-relevance.qrels">download</a>]</li>
-	    <li>Quality qrels [<a href="./touche-task2-51-100-quality.qrels">download</a>]</li>
-        </ul> -->       
+	    <li>Relevance qrels [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-2022-relevance.qrels">download</a>]</li>
+	    <li>Quality qrels [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-2022-quality.qrels">download</a>]</li>
+	    <li>Stance labels [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task2-22/touche-task2-2022-stance.qrels">download</a>]</li>
+        </ul>       
+        
 
         <!--
         SECTION Task Committee
