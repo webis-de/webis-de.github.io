@@ -67,7 +67,7 @@ shared_tasks: 3
             <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#submission">Submission</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#tira-quickstart">TIRA Quickstart</a></li>
-            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
         </ul>
     </div>
@@ -83,10 +83,20 @@ shared_tasks: 3
                 collection of arguments.</li>
             <li>Input: [<a
                     href="https://files.webis.de/data-in-progress/data-research/arguana/touche/touche22/">data</a>]</li>
-            <li>Submission: [<a href="https://www.tira.io/task/touche-task-1/dataset/touche-task-1-2022-02-16">tira</a>]</li>
-            <li>Evaluation: [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/topics.xml">topics</a>]</li>
-            <li>Manual judgments (qrels):  [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/touche-task1-2022-relevance-dedup.qrels">relevance</a>], [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/touche-task1-2022-quality-dedup.qrels">quality</a>], [<a href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/touche-task1-2022-coherence-dedup.qrels">coherence</a>] (top-5 pooling)</li>
-            <strong>Update: </strong> The <code>qrels</code> contained 52 duplicates that have been now removed and links updated accordingly.
+            <li>Submission: [<a href="https://www.tira.io/task/touche-task-1/dataset/touche-task-1-2022-02-16">tira</a>]
+            </li>
+            <li>Evaluation: [<a
+                    href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/topics.xml">topics</a>]
+            </li>
+            <li>Manual judgments (qrels): [<a
+                    href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/touche-task1-2022-relevance-dedup.qrels">relevance</a>],
+                [<a
+                    href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/touche-task1-2022-quality-dedup.qrels">quality</a>],
+                [<a
+                    href="https://files.webis.de/corpora/corpora-webis/corpus-touche-task1-22/touche-task1-2022-coherence-dedup.qrels">coherence</a>]
+                (top-5 pooling)</li>
+            <strong>Update: </strong> The <code>qrels</code> contained 52 duplicates that have been now removed and
+            links updated accordingly.
         </ul>
 
         <!--<p>You may provide links to associated resources, like so: [<a>link</a>]</p> -->
@@ -120,7 +130,11 @@ shared_tasks: 3
                 href="https://www.args.me/api-en.html">API</a> for a baseline retrieval and then extract the candidate
             pair of sentences.</p>
 
-            <p> <strong>Note:</strong> Duplicate sentences are an expected part of this dataset. This is because in some of the debate portals from which the args.me corpus was derived, individual arguments are mapped to the same conclusion (which is essentially the discussion topic/title on the corresponding portal). Moreover, we opted to preserve the duplicates to reflect the common information retrieval scenario where filtering out such documents is part of the pipeline.</p>
+        <p> <strong>Note:</strong> Duplicate sentences are an expected part of this dataset. This is because in some of
+            the debate portals from which the args.me corpus was derived, individual arguments are mapped to the same
+            conclusion (which is essentially the discussion topic/title on the corresponding portal). Moreover, we opted
+            to preserve the duplicates to reflect the common information retrieval scenario where filtering out such
+            documents is part of the pipeline.</p>
 
         <h4>Optional Data</h4>
         Participants can access the query relevance judgments and quality judgments of the past edition of this task
@@ -224,12 +238,17 @@ shared_tasks: 3
             <code>1 CON S72f5af83-Afb975dba__PREMISE__1,S72f5af83-Afb975dba__CONC__1 3 16.42 myGroupMyMethod</code><br>
             <code>...</code>
             <br>
-            
+
             <strong>Note:</strong> If you do not have stance information, use <code>Q0</code> as the value in the stance
             column.
             <br>
-            <strong>Note:</strong> Some examples do not contain the conclusion as part of the <code>sentences</code> column although it is present in the <code>conclusion</code> column. This is because we excluded very short conclusions (less than two words) from being a valid argument sentence. We observed that in many cases they did not convey any stance (e.g. <em>home schooling</em>). Since we cannot inspect every short conclusion manually, we applied the length heuristic to filter them.  
-            However, if you still want to retrieve such conclusions as part of the final output, please provide [doc_id]__CONC__1 as the corresponding sentence ID (e.g., <code>S72f5af83-Afb975dba__CONC__1</code>).
+            <strong>Note:</strong> Some examples do not contain the conclusion as part of the <code>sentences</code>
+            column although it is present in the <code>conclusion</code> column. This is because we excluded very short
+            conclusions (less than two words) from being a valid argument sentence. We observed that in many cases they
+            did not convey any stance (e.g. <em>home schooling</em>). Since we cannot inspect every short conclusion
+            manually, we applied the length heuristic to filter them.
+            However, if you still want to retrieve such conclusions as part of the final output, please provide
+            [doc_id]__CONC__1 as the corresponding sentence ID (e.g., <code>S72f5af83-Afb975dba__CONC__1</code>).
 
         </p>
 
@@ -237,28 +256,327 @@ shared_tasks: 3
         <!--
 SECTION TIRA Quickstart
 -->
-<h2><a id="tira-quickstart"></a>TIRA Quickstart</h2>
-<p>
-Participant software is run in a virtual machine. Log in to <a href="https://www.tira.io">TIRA</a>, go to the <a href="https://www.tira.io/task/touche-task-1/dataset/touche-task-1-2022-02-16">task's dataset page</a>, and click on "&gt;_ SUBMIT". Click the "CONNECTION INFO" button for how to connect to the virtual machine. Click on "POWER ON" if the state is not "RUNNING". 
-</p>
-<img width="75%" src="tira-task1-vm-overview.png" alt="Virtual machine state in TIRA.">
-<p>
-The software is executed on the command line with two parameters: (1) <code>$inputDataset</code> refers to a directory that contains the <a href="#data">collection</a>; (2) <code>$outputDir</code> refers to a directory in which the software has to create the <a href="#submission">submission file</a> named <code>run.txt</code>. Specify exactly how each software of your virtual machine is run using the "Command" field in the TIRA web interface. Select <code>touche-task-1-2022-02-16</code> as the input dataset.
-</p>
-<img width="75%" src="tira-task1-example-software.png" alt="Software configuration in TIRA.">
-<p>
-As you "RUN" the software, you will not be able to connect to the virtual machine (takes at least 10 minutes). Once finished, click on "INSPECT" to check on the run and click on "EVALUATE" for a syntax check (give it a few minutes, then check back on the page). Your run will later be reviewed and evaluated by the organizers. If uncertain on something, ask in the <a href="https://www.tira.io/c/touche/9">forum</a> or send a mail/message to <a href="#task-committee">Shahbaz</a>.
-</p>
-<img width="75%" src="tira-task1-example-evaluation.png" alt="A run in TIRA.">
-<p>
+        <h2><a id="tira-quickstart"></a>TIRA Quickstart</h2>
+        <p>
+            Participant software is run in a virtual machine. Log in to <a href="https://www.tira.io">TIRA</a>, go to
+            the <a href="https://www.tira.io/task/touche-task-1/dataset/touche-task-1-2022-02-16">task's dataset
+                page</a>, and click on "&gt;_ SUBMIT". Click the "CONNECTION INFO" button for how to connect to the
+            virtual machine. Click on "POWER ON" if the state is not "RUNNING".
+        </p>
+        <img width="75%" src="tira-task1-vm-overview.png" alt="Virtual machine state in TIRA.">
+        <p>
+            The software is executed on the command line with two parameters: (1) <code>$inputDataset</code> refers to a
+            directory that contains the <a href="#data">collection</a>; (2) <code>$outputDir</code> refers to a
+            directory in which the software has to create the <a href="#submission">submission file</a> named
+            <code>run.txt</code>. Specify exactly how each software of your virtual machine is run using the "Command"
+            field in the TIRA web interface. Select <code>touche-task-1-2022-02-16</code> as the input dataset.
+        </p>
+        <img width="75%" src="tira-task1-example-software.png" alt="Software configuration in TIRA.">
+        <p>
+            As you "RUN" the software, you will not be able to connect to the virtual machine (takes at least 10
+            minutes). Once finished, click on "INSPECT" to check on the run and click on "EVALUATE" for a syntax check
+            (give it a few minutes, then check back on the page). Your run will later be reviewed and evaluated by the
+            organizers. If uncertain on something, ask in the <a href="https://www.tira.io/c/touche/9">forum</a> or send
+            a mail/message to <a href="#task-committee">Shahbaz</a>.
+        </p>
+        <img width="75%" src="tira-task1-example-evaluation.png" alt="A run in TIRA.">
+        <p>
 
-Create a separate "Software" entry in the TIRA web interface for each of your approaches. NOTE: By submitting your software you retain full copyrights. You agree to grant us usage rights for evaluation of the corresponding data generated by your software. We agree not to share your software with a third party or use it for any purpose other than research.
-</p>
+            Create a separate "Software" entry in the TIRA web interface for each of your approaches. NOTE: By
+            submitting your software you retain full copyrights. You agree to grant us usage rights for evaluation of
+            the corresponding data generated by your software. We agree not to share your software with a third party or
+            use it for any purpose other than research.
+        </p>
 
         <!--
         SECTION Results
         -->
 
+        <h2 id="results">Results</h2>
+        <h3>Results for Relevance Evaluation</h3>
+        The table below shows the highest-scoring run of each team. The full table including all runs can be accessed <a
+            class="uk-link" href="./data/task1_relevance_results_all.html">here</a>.
+
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+            <thead>
+                <tr style="text-align: right;">
+                    <th>Team</th>
+                    <th>Tag</th>
+                    <th>Mean NDCG@5</th>
+                    <th>CI95 Low</th>
+                    <th>CI95 High</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Porthos</td>
+                    <td>scl_dlm_bqnc_acl_nsp</td>
+                    <td>0.742</td>
+                    <td>0.670</td>
+                    <td>0.807</td>
+                </tr>
+                <tr>
+                    <td>Daario Naharis</td>
+                    <td>INTSEG-Letter-no_stoplist-Krovetz-Icoef-Evidence-Par</td>
+                    <td>0.683</td>
+                    <td>0.609</td>
+                    <td>0.755</td>
+                </tr>
+                <tr>
+                    <td>Bruce Banner</td>
+                    <td>Bruce-Banner_pyserinin_sparse_v3</td>
+                    <td>0.651</td>
+                    <td>0.573</td>
+                    <td>0.720</td>
+                </tr>
+                <tr>
+                    <td>D Artagnan</td>
+                    <td>seupd2122-6musk-kstem-stop-shingle3</td>
+                    <td>0.642</td>
+                    <td>0.575</td>
+                    <td>0.705</td>
+                </tr>
+                <tr>
+                    <td>Gamora</td>
+                    <td>seupd2122-javacafe-gamoraHeuristicsOnlyQueryReductionDoubleIndex</td>
+                    <td>0.616</td>
+                    <td>0.551</td>
+                    <td>0.687</td>
+                </tr>
+                <tr>
+                    <td>Hit Girl</td>
+                    <td>Io</td>
+                    <td>0.588</td>
+                    <td>0.515</td>
+                    <td>0.657</td>
+                </tr>
+                <tr>
+                    <td>Pearl</td>
+                    <td>PearlBlocklist_WeightedRelevance</td>
+                    <td>0.481</td>
+                    <td>0.399</td>
+                    <td>0.560</td>
+                </tr>
+                <tr>
+                    <td>Gorgon</td>
+                    <td>GorgonA2Bm25</td>
+                    <td>0.408</td>
+                    <td>0.354</td>
+                    <td>0.461</td>
+                </tr>
+                <tr>
+                    <td>General Grievous</td>
+                    <td>seupd2122-lgtm_QE_NRR</td>
+                    <td>0.403</td>
+                    <td>0.335</td>
+                    <td>0.471</td>
+                </tr>
+                <tr>
+                    <td>Swordsman</td>
+                    <td>baseline_swordsman</td>
+                    <td>0.356</td>
+                    <td>0.296</td>
+                    <td>0.412</td>
+                </tr>
+                <tr>
+                    <td>Korg</td>
+                    <td>korg9000</td>
+                    <td>0.252</td>
+                    <td>0.187</td>
+                    <td>0.318</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Results for Quality Evaluation</h3>
+        The table below shows the highest-scoring run of each team. The full table including all runs can be accessed <a
+            class="uk-link" href="./data/task1_quality_results_all.html">here</a>.
+
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+            <thead>
+                <tr style="text-align: right;">
+                    <th>Team</th>
+                    <th>Tag</th>
+                    <th>Mean NDCG@5</th>
+                    <th>CI95 Low</th>
+                    <th>CI95 High</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Daario Naharis</td>
+                    <td>INTSEG-Letter-no_stoplist-Krovetz-Icoef-Evidence-Par</td>
+                    <td>0.913</td>
+                    <td>0.870</td>
+                    <td>0.947</td>
+                </tr>
+                <tr>
+                    <td>Porthos</td>
+                    <td>scl_dlm_bqnc_acl_nsp</td>
+                    <td>0.873</td>
+                    <td>0.825</td>
+                    <td>0.913</td>
+                </tr>
+                <tr>
+                    <td>Gamora</td>
+                    <td>seupd2122-javacafe-gamoraHeuristicsOnlyQueryReductionDoubleIndex</td>
+                    <td>0.785</td>
+                    <td>0.729</td>
+                    <td>0.848</td>
+                </tr>
+                <tr>
+                    <td>Hit Girl</td>
+                    <td>Ganymede</td>
+                    <td>0.776</td>
+                    <td>0.707</td>
+                    <td>0.840</td>
+                </tr>
+                <tr>
+                    <td>Bruce Banner</td>
+                    <td>Bruce-Banner_pyserinin_sparse_v1</td>
+                    <td>0.772</td>
+                    <td>0.702</td>
+                    <td>0.830</td>
+                </tr>
+                <tr>
+                    <td>Gorgon</td>
+                    <td>GorgonA2Bm25</td>
+                    <td>0.742</td>
+                    <td>0.700</td>
+                    <td>0.786</td>
+                </tr>
+                <tr>
+                    <td>D Artagnan</td>
+                    <td>seupd2122-6musk-stop-wordnet-kstem-dirichlet</td>
+                    <td>0.733</td>
+                    <td>0.676</td>
+                    <td>0.787</td>
+                </tr>
+                <tr>
+                    <td>Pearl</td>
+                    <td>PearlArgRank7530</td>
+                    <td>0.678</td>
+                    <td>0.609</td>
+                    <td>0.744</td>
+                </tr>
+                <tr>
+                    <td>Swordsman</td>
+                    <td>baseline_swordsman</td>
+                    <td>0.608</td>
+                    <td>0.543</td>
+                    <td>0.671</td>
+                </tr>
+                <tr>
+                    <td>General Grievous</td>
+                    <td>seupd2122-lgtm_NQE_NRR</td>
+                    <td>0.517</td>
+                    <td>0.442</td>
+                    <td>0.591</td>
+                </tr>
+                <tr>
+                    <td>Korg</td>
+                    <td>korg9000</td>
+                    <td>0.453</td>
+                    <td>0.384</td>
+                    <td>0.529</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Results for Coherence Evaluation</h3>
+        The table below shows the highest-scoring run of each team. The full table including all runs can be accessed <a
+            class="uk-link" href="./data/task1_coherence_results_all.html">here</a>.
+
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+            <thead>
+                <tr style="text-align: right;">
+                    <th>Team</th>
+                    <th>Tag</th>
+                    <th>Mean NDCG@5</th>
+                    <th>CI95 Low</th>
+                    <th>CI95 High</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Daario Naharis</td>
+                    <td>INTSEG-Run-Whitespace-Krovetz-Stoplist-Pos-Evidence-icoeff-Sep</td>
+                    <td>0.458</td>
+                    <td>0.389</td>
+                    <td>0.525</td>
+                </tr>
+                <tr>
+                    <td>Porthos</td>
+                    <td>scl_dlm_bqnc_acl_nsp</td>
+                    <td>0.429</td>
+                    <td>0.353</td>
+                    <td>0.509</td>
+                </tr>
+                <tr>
+                    <td>Pearl</td>
+                    <td>PearlArgRank7530</td>
+                    <td>0.398</td>
+                    <td>0.311</td>
+                    <td>0.485</td>
+                </tr>
+                <tr>
+                    <td>Bruce Banner</td>
+                    <td>Bruce-Banner_pyserinin_sparse_v1</td>
+                    <td>0.378</td>
+                    <td>0.300</td>
+                    <td>0.459</td>
+                </tr>
+                <tr>
+                    <td>D Artagnan</td>
+                    <td>seupd2122-6musk-kstem-stop-shingle3</td>
+                    <td>0.378</td>
+                    <td>0.311</td>
+                    <td>0.452</td>
+                </tr>
+                <tr>
+                    <td>Hit Girl</td>
+                    <td>Ganymede</td>
+                    <td>0.377</td>
+                    <td>0.303</td>
+                    <td>0.456</td>
+                </tr>
+                <tr>
+                    <td>Gamora</td>
+                    <td>seupd2122-javacafe-gamora_sbert_kstemstopengpos_multi_YYY</td>
+                    <td>0.285</td>
+                    <td>0.203</td>
+                    <td>0.373</td>
+                </tr>
+                <tr>
+                    <td>Gorgon</td>
+                    <td>GorgonKEBM25</td>
+                    <td>0.282</td>
+                    <td>0.233</td>
+                    <td>0.335</td>
+                </tr>
+                <tr>
+                    <td>Swordsman</td>
+                    <td>baseline_swordsman</td>
+                    <td>0.248</td>
+                    <td>0.193</td>
+                    <td>0.303</td>
+                </tr>
+                <tr>
+                    <td>General Grievous</td>
+                    <td>seupd2122-lgtm_QE_NRR</td>
+                    <td>0.231</td>
+                    <td>0.162</td>
+                    <td>0.313</td>
+                </tr>
+                <tr>
+                    <td>Korg</td>
+                    <td>korg9000</td>
+                    <td>0.168</td>
+                    <td>0.117</td>
+                    <td>0.223</td>
+                </tr>
+            </tbody>
+        </table>
         <!--
         SECTION Task Committee
         -->
