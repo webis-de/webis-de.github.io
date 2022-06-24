@@ -24285,8 +24285,9 @@
             "unit-en-frequentist-subjectivist",
             "unit-en-deep-learning-introduction",
             "unit-en-rnn-basics",
+            "unit-en-rnn-longterm",
             "unit-en-rnn-mt",
-            "unit-en-attention-mechanism",
+            "unit-en-attention",
             "unit-de-ensemble-methods-basics"
         ],
         "unit-en-ml-organization": {
@@ -30955,6 +30956,203 @@
                     "page": 42,
                     "sha": "9ca26c6ff1e75aac72494b071470914f4b9efff9",
                     "description": "Remarks: Each output vector y(t) corresponds to a probability distribution over Vocabularyd (recall the"
+                }
+            ]
+        },
+        "unit-en-rnn-longterm": {
+            "sha": "341091be32847bf11d2411f3bc106894f38c4c7c",
+            "numpages": 5,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "b4c77b37f64a8a7faeb01d96ed35eaf1d532f7c9",
+                    "description": "Chapter ML:IX "
+                },
+                {
+                    "page": 2,
+                    "sha": "a67c2c25e8462abef77a6dee3bb67aadb992e488",
+                    "description": "Long-Term Dependencies Vanishing Gradient Problem"
+                },
+                {
+                    "page": 3,
+                    "sha": "55fefffb019c12420e6cababa03ab862fec64d52",
+                    "description": "Long-Term Dependencies RNN with Long Short-Term Memory (LSTM)"
+                },
+                {
+                    "page": 4,
+                    "sha": "738bc03e609e3770ba6836eeae30ecc423de3457",
+                    "description": "Remarks:"
+                },
+                {
+                    "page": 5,
+                    "sha": "34912e0ff52434ff4ac21b78a8781b53c811c135",
+                    "description": "Long-Term Dependencies RNN with Gated Recurrent Units (GRU)"
+                }
+            ]
+        },
+        "unit-en-attention": {
+            "sha": "9e5003e39a4f6c4a1d8275d3931e2b32f8f394c7",
+            "numpages": 32,
+            "pages": [
+                {
+                    "page": 1,
+                    "sha": "ef6b6f18c0df8e1cb229ad0313bc2bc6d180cc88",
+                    "description": "Chapter ML:IX "
+                },
+                {
+                    "page": 2,
+                    "sha": "ba641f41e159f9fec4d7b4c660029684daffd5b8",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 3,
+                    "sha": "6db7c7cd48987c733b38646223b59e763fac13b7",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 4,
+                    "sha": "c9458241f768192921c3d0b2600e62b3f3decdd2",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 5,
+                    "sha": "3dea74255f31a9573f777ee0c44e8ccfcc949ac1",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 6,
+                    "sha": "6d9fea15e24b2701f49b293ef0284976945b2d29",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 7,
+                    "sha": "7a2c50d0b014e978b679632c0fc26ca907c94cd1",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 8,
+                    "sha": "7a6f786a326efc992042ff556efde41a96e0d5d5",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 9,
+                    "sha": "564395dce07b70915076b0eb482b2df53e9e245b",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 10,
+                    "sha": "c555e478d1ead8856857aa4bdf404e68e4353a66",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 11,
+                    "sha": "e688f59234051572ac43f49fdab862ff820fb5a6",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 12,
+                    "sha": "7faa44c1ba132a2456376fcdffd71e6bd29eab58",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 13,
+                    "sha": "31709a03462c0e9c57164a0b435635deb973042b",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 14,
+                    "sha": "24488107bd2bb9ec8a0a58759696874a509bbe8a",
+                    "description": "Attention Mechanism Notation III (language model view)"
+                },
+                {
+                    "page": 15,
+                    "sha": "966cad4a94bbb7e512a37c883ac0feedf7421b0e",
+                    "description": "Attention Mechanism Rationale of the Attention Mechanism"
+                },
+                {
+                    "page": 16,
+                    "sha": "94145cc60aa260a82a98d3f81c00af6234a4817d",
+                    "description": "Attention Mechanism Rationale of the Attention Mechanism"
+                },
+                {
+                    "page": 17,
+                    "sha": "f0b8c1ead9bba54b6a7fc042a92852dd1fca847e",
+                    "description": "Attention Mechanism Rationale of the Attention Mechanism"
+                },
+                {
+                    "page": 18,
+                    "sha": "b9073c21ffeea7dfb599c12c3dca765c9fe70365",
+                    "description": "Attention Mechanism Rationale of the Attention Mechanism"
+                },
+                {
+                    "page": 19,
+                    "sha": "6be923360cfc9603a4d3043fd42be7cc6df2d1e1",
+                    "description": "Attention Mechanism Rationale of the Attention Mechanism"
+                },
+                {
+                    "page": 20,
+                    "sha": "8c28c784b192b52115313c2ac73a973653311e2c",
+                    "description": "Attention Mechanism Query the Encoder to Tweak the Decoder Output"
+                },
+                {
+                    "page": 21,
+                    "sha": "0c23362f361de7b1950520d37e536686a34e64aa",
+                    "description": "Remarks (observations) :"
+                },
+                {
+                    "page": 22,
+                    "sha": "5031e6260fb8c6453d293c4853a3c3f0d97ddf0a",
+                    "description": "Attention Mechanism RNN with Simple Attention"
+                },
+                {
+                    "page": 23,
+                    "sha": "bd543a692f169b79bd12dbf3bffcaced613d9e6a",
+                    "description": "Attention Mechanism (continued)"
+                },
+                {
+                    "page": 24,
+                    "sha": "ab0946cde7280dac0c93dbd5a59733a13e23e40e",
+                    "description": "Attention Mechanism (continued)"
+                },
+                {
+                    "page": 25,
+                    "sha": "9410c633ae935e3962062657bc1aae95991a62cf",
+                    "description": "Attention Mechanism (continued)"
+                },
+                {
+                    "page": 26,
+                    "sha": "45714ed1ab3f5704847036449ce98f9b724e38dd",
+                    "description": "Attention Mechanism (continued)"
+                },
+                {
+                    "page": 27,
+                    "sha": "0b1883c6ca29f941a5d046107f24e46adcfa59f4",
+                    "description": "Attention Mechanism "
+                },
+                {
+                    "page": 28,
+                    "sha": "e6f50e3c4c40fe7ac4806519245b37835216a633",
+                    "description": "Attention Mechanism "
+                },
+                {
+                    "page": 29,
+                    "sha": "68cc222649200089471f53e150c8d76d6ce4e510",
+                    "description": "Attention Mechanism "
+                },
+                {
+                    "page": 30,
+                    "sha": "758932b0b7e7a1de32e27c574b16e2a73ba3e485",
+                    "description": "Attention Mechanism RNN with Parameterized Attention"
+                },
+                {
+                    "page": 31,
+                    "sha": "581860089d9182d7ca7ea079232ee25bf6800f0a",
+                    "description": "Remarks (attention calculus) :"
+                },
+                {
+                    "page": 32,
+                    "sha": "b2a11468fc9bcd17f421fe07ecdd05b558f5d85e",
+                    "description": "Remarks (parameterized attention) :"
                 }
             ]
         }
