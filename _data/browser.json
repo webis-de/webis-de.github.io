@@ -11859,7 +11859,6 @@
     },
     "web-technology": {
         "ordering": [
-            "unit-en-rnn-longterm",
             "unit-de-wt-organization",
             "unit-de-wt-introduction",
             "unit-de-internetworking",
@@ -19309,17 +19308,6 @@
                     "page": 24,
                     "sha": "90d6965152142e09a58ad13916b4d81b4c10dffe",
                     "description": "WWW "
-                }
-            ]
-        },
-        "unit-en-rnn-longterm": {
-            "sha": "1dd2b5d36b410316e1c721c656366f3a29906585",
-            "numpages": 1,
-            "pages": [
-                {
-                    "page": 1,
-                    "sha": "c5fd36d7ff835eb25381291578221ad17d1c0775",
-                    "description": "Chapter ML:IX "
                 }
             ]
         }
