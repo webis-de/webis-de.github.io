@@ -18,9 +18,8 @@ description: Overview of the Paderborn Genre Analysis Corpus 2012 dataset
     "@context": "http://schema.org/",
     "@type": "Dataset",
     "name": "Paderborn Genre Analysis Corpus 2012",
-    "description": "The Paderborn Genre Analysis 2012 corpus (PaGA-12) contains 1,639 HTML documents of 26 genres. All documents were collected from 2009-10-18 to 2009-11-20, and each document is manually assigned to exactly one genre. For each genre, the corpus provides at least 50 documents. All HTML documents contain German text only, and framesets are removed. The corpus is delivered in form of a MySQL database dump; the database structure is detailed in a README file delivered with the corpus.",
+    "description": "The Paderborn Genre Analysis 2012 corpus (PaGA-12) contains 1,639 HTML documents of 26 genres. All documents were collected from 2009-10-18 to 2009-11-20, and each document is manually assigned to exactly one genre. For each genre, the corpus provides at least 50 documents.",
     "url": "https://webis.de/data/paderborn-genre-analysis-corpus-2012.html",
-    "sameAs": "https://doi.org/10.5281/zenodo.3250070",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords": [ "-" ],
     "datePublished": "2012",
@@ -51,13 +50,7 @@ description: Overview of the Paderborn Genre Analysis Corpus 2012 dataset
         "@type": "DataCatalog",
         "name": "Webis Data Catalog",
         "url": "https://webis.de/data/"
-    },
-    "distribution": [
-        {
-            "@type": "DataDownload",
-            "contentUrl": "https://doi.org/10.5281/zenodo.3250070"
-        }
-    ]
+    }
 }
 </script>
 
@@ -68,7 +61,7 @@ description: Overview of the Paderborn Genre Analysis Corpus 2012 dataset
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
@@ -80,7 +73,7 @@ description: Overview of the Paderborn Genre Analysis Corpus 2012 dataset
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            <p>The Paderborn Genre Analysis 2012 corpus (PaGA-12) contains 1,639 HTML documents of 26 genres. All documents were collected from 2009-10-18 to 2009-11-20, and each document is manually assigned to exactly one genre. For each genre, the corpus provides at least 50 documents.</p> <p>All HTML documents contain German text only, and framesets are removed. The corpus is delivered in form of a MySQL database dump; the database structure is detailed in a README file delivered with the corpus.</p>
+            <p>The Paderborn Genre Analysis 2012 corpus (PaGA-12) contains 1,639 HTML documents of 26 genres. All documents were collected from 2009-10-18 to 2009-11-20, and each document is manually assigned to exactly one genre. For each genre, the corpus provides at least 50 documents.</p>
         </p>
         
         <!--
@@ -89,7 +82,6 @@ description: Overview of the Paderborn Genre Analysis Corpus 2012 dataset
         <h2 id="download">Download</h2>
         <p>To download the corpus use the following links:</p>
         <ul>
-            <li><a href="https://doi.org/10.5281/zenodo.3250070">Zenodo: Paderborn Genre Analysis Corpus 2012</a></li>
             <li><a href="https://toolbox.google.com/datasetsearch/search?query=paga-12">Google Dataset Search: Paderborn Genre Analysis Corpus 2012</a></li>
         </ul>
         
@@ -112,7 +104,7 @@ description: Overview of the Paderborn Genre Analysis Corpus 2012 dataset
                 <script src="https://assets.webis.de/js/selection.js"></script>
                 <script src="https://assets.webis.de/js/filter.js"></script>
                 <script>
-                    includeBibentries(document.getElementById("publications-list"), "-");
+                    includeBibentries(document.getElementById("publications-list"), "keywords:clickbait");
                 </script>
             </p>
         </div>

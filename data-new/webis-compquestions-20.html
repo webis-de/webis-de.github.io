@@ -18,9 +18,8 @@ description: Overview of the Webis-CompQuestions-20 dataset
     "@context": "http://schema.org/",
     "@type": "Dataset",
     "name": "Webis-CompQuestions-20",
-    "description": "The Webis Comparative Web Search Questions 2020 (Webis-CompQuestions-20) corpus comprises 15,000 web questions collected from the public datasets MS Marco, Google Natural Questions and Quora. The questions were manually annotated as comparative or not and with more fine-grained subclasses.",
+    "description": "The Webis Comparative Web Search Questions 2020 (Webis-CompQuestions-20) corpus comprises 15,000 web questions collected from the public datasets MS Marco, Google Natural Questions, and Quora. The questions were manually annotated as comparative or not and with more fine-grained subclasses.",
     "url": "https://webis.de/data/webis-compquestions-20.html",
-    "sameAs": "https://zenodo.org/record/3553652",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords": [ "-" ],
     "datePublished": "2020",
@@ -30,19 +29,17 @@ description: Overview of the Webis-CompQuestions-20 dataset
             "url": "https://webis.de/",
             "name": "The Web Technology & Information Systems Network",
             "alternateName": "Webis"
+        },
+        {
+            "@type": "Person",
+            "name": "first name *last name"
         }
     ],
     "includedInDataCatalog": {
         "@type": "DataCatalog",
         "name": "Webis Data Catalog",
         "url": "https://webis.de/data/"
-    },
-    "distribution": [
-        {
-            "@type": "DataDownload",
-            "contentUrl": "https://zenodo.org/record/3553652"
-        }
-    ]
+    }
 }
 </script>
 
@@ -53,9 +50,9 @@ description: Overview of the Webis-CompQuestions-20 dataset
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
             
-            
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
     </div>
 
@@ -65,7 +62,7 @@ description: Overview of the Webis-CompQuestions-20 dataset
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            <p>The Webis Comparative Web Search Questions 2020 (Webis-CompQuestions-20) corpus comprises 15,000 web questions collected from the public datasets MS Marco, Google Natural Questions and Quora. The questions were manually annotated as comparative or not and with more fine-grained subclasses.</p>
+            <p>The Webis Comparative Web Search Questions 2020 (Webis-CompQuestions-20) corpus comprises 15,000 web questions collected from the public datasets MS Marco, Google Natural Questions, and Quora. The questions were manually annotated as comparative or not and with more fine-grained subclasses.</p>
         </p>
         
         <!--
@@ -74,8 +71,15 @@ description: Overview of the Webis-CompQuestions-20 dataset
         <h2 id="download">Download</h2>
         <p>To download the corpus use the following links:</p>
         <ul>
-            <li><a href="https://zenodo.org/record/3553652">Zenodo: Webis-CompQuestions-20</a></li>
             <li><a href="https://toolbox.google.com/datasetsearch/search?query=webis-compquestions-20">Google Dataset Search: Webis-CompQuestions-20</a></li>
+        </ul>
+        
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li>first name *last name</li>
         </ul>
         
         <!--
@@ -87,7 +91,7 @@ description: Overview of the Webis-CompQuestions-20 dataset
                 <script src="https://assets.webis.de/js/selection.js"></script>
                 <script src="https://assets.webis.de/js/filter.js"></script>
                 <script>
-                    includeBibentries(document.getElementById("publications-list"), "-");
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-compquestions-20");
                 </script>
             </p>
         </div>
