@@ -5,61 +5,16 @@ title: Webis Data Webis-Ambient-15
 description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
-<ul class="uk-breadcrumb">
-<li><a href="../index.html">Webis.de</a></li>
-<li><a href="../data.html">Data</a></li>
-<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
-</ul>
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../../../data.html">Data</a></li>
+        <li class="uk-disabled"><a href="#">Webis-Ambient-15</a></li>
+    </ul>
 </nav>
 
 
 <script type="application/ld+json">
-{
-    "@context":"http://schema.org/",
-    "@type":"Dataset",
-    "name":"Webis-Ambient-15",
-    "description":"This corpus is an extension of the Ambient data set created by Carpineto and Romano. For each subtopic, the websites of the given URLs were downloaded (if accessible). Those documents are named as the original documents, for example, 1/1.4/1.3.html. Each subtopic was then manually enriched to ten documents with websites retrieved by Google (for example, 1/1.1/g00.html - 'g' for Google, 00 for the first Google result). Some subtopics could not be sufficently enriched and were discarded. Moreover, some subtopics were duplicates or not interpretable and were also discarded.",
-    "url":"https://webis.de/data/webis-ambient-15.html",
-    "sameAs":"https://doi.org/10.5281/zenodo.3250669",
-    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
-    "keywords":[
-        "subtopic information retrieval", 
-        "subtopic", 
-        "documents", 
-        "ambient"
-    ], 
-    "datePublished":"2015",
-    "creator":[
-        {
-            "@type":"Organization",
-            "url":"https://webis.de/",
-            "name":"The Web Technology & Information Systems Network",
-            "alternateName":"Webis"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Hagen, Matthias"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#gollub",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Gollub, Tim"
-        },
-        {
-            "@type":"Person", 
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Busse, Matthias"
-        }
-    ],
-    "includedInDataCatalog":{
-        "@type":"DataCatalog",
-        "name":"Webis Data Catalog",
-        "url":"https://webis.de/data/"
-    }
-}
+    
 </script>
 
 <main class="uk-section uk-section-default">
@@ -69,62 +24,74 @@ description: Overview of corpora that are used by the Webis research group
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
     </div>
 
     <div class="uk-container uk-margin-medium">
+        
         <!--
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
-
-        <p>This corpus is an extension of the <a href="http://search.fub.it/ambient/">Ambient data set created by Carpineto and Romano</a>. For each subtopic, the websites of the given URLs were downloaded (if accessible). Those documents are named as the original documents, for example, 1/1.4/1.3.html. Each subtopic was then manually enriched to ten documents with websites retrieved by Google (for example, 1/1.1/g00.html - 'g' for Google, 00 for the first Google result). Some subtopics could not be sufficently enriched and were discarded. Moreover, some subtopics were duplicates or not interpretable and were also discarded.</p>
-
+        <p>
+            <p>This corpus is an extension of the <a href="http://search.fub.it/ambient/">Ambient data set created by Carpineto and Romano</a>. For each subtopic, the websites of the given URLs were downloaded (if accessible). Those documents are named as the original documents, for example, 1/1.4/1.3.html. Each subtopic was then manually enriched to ten documents with websites retrieved by Google (for example, 1/1.1/g00.html - 'g' for Google, 00 for the first Google result). Some subtopics could not be sufficently enriched and were discarded. Moreover, some subtopics were duplicates or not interpretable and were also discarded.</p>
+        </p>
+        
 
         <!--
         SECTION Download
         -->
-        <h2 id="download">Download</h2>
+        <h2 id="download">Access</h2>
+            <p>
+                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/10.5281/zenodo.3250669">doi</a>]. 
+            </p>
+        
+        <ul>
+            
+            
+            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.3250669">Zenodo</a>
+                
+                </li>
+            
+            
+            <li>Find the related metadata at <a href="https://toolbox.google.com/datasetsearch/search?query=webis-ambient-15">Google</a>.</li>
+            
+        </ul>
+        
 
-        <p>You can access the Webis-Ambient-15 corpus on <a href="https://doi.org/10.5281/zenodo.3250669">Zenodo</a>.</p>
-
-        <p>The data sets consists of 44 topics (topics.txt) and 481 subtopics (subtopics.txt). Some subtopics are topically very similar and therefore rather difficult to be clustered. These subtopics (11.2, 12.13, 14.2, 19.33, 20.2, 20.5, 21.2, 24.3, 24.4, 27.26, 31.16, 36.7, 44.9) are discarded in the file subtopics-filtered.txt, which lists only the remaining 468 subtopics.</p>
-
-        <p>If you use the dataset in your research, please send us a copy of your publication. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3250669">doi</a>] for a stable link.</p>
-
-        <!--
-        SECTION Research
-        -->
-        <h2 id="research">Research</h2>
-
-        <p>For more information on the dataset see the publication below.</p>
-
-
+        
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen" title="Martin Potthast">Matthias Hagen</a></li>
-            <li><a href="https://weimar.webis.de/people/#gollub" title="Tim Gollub">Tim Gollub</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#hagen">Matthias Hagen</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#gollub">Tim Gollub</a></li>
+            
+                <li>Matthias Busse</li>
+            
         </ul>
-        <p>Students: Matthias Busse.</p>
-	<!--
-	SECTION Publications
-	-->
-	<h2 id="publications">Publications</h2>
-        <div id="publications-list">
-        </div>
+        
 
+        
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-ambient-15");
+                </script>
+            </p>
         </div>
+        
+
+    </div>
+
 </main>
 
-<script src="https://assets.webis.de/js/filter.js"></script>
-<script src="https://assets.webis.de/js/selection.js"></script>
-<script>
-includeBibentries(document.getElementById("publications-list"), "keywords:webis-ambient-15");
-</script>

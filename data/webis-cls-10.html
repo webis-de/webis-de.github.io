@@ -5,60 +5,16 @@ title: Webis Data Webis-CLS-10
 description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
-<ul class="uk-breadcrumb">
-<li><a href="../index.html">Webis.de</a></li>
-<li><a href="../data.html">Data</a></li>
-<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
-</ul>
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../../../data.html">Data</a></li>
+        <li class="uk-disabled"><a href="#">Webis-CLS-10</a></li>
+    </ul>
 </nav>
 
 
 <script type="application/ld+json">
-{
-    "@context":"http://schema.org/",
-    "@type":"Dataset",
-    "name":"Webis-CLS-10",
-    "description":"The Cross-Lingual Sentiment (CLS) dataset comprises about 800.000 Amazon product reviews in the four languages English, German, French, and Japanese.",
-    "text":"The dataset was first used by (Prettenhofer and Stein, 2010). It consists of Amazon product reviews for three product categories---books, dvds and music---written in four different languages: English, German, French, and Japanese. The German, French, and Japanese reviews were crawled from Amazon in November, 2009. The English reviews were sampled from the Multi-Domain Sentiment Dataset (Blitzer et. al., 2007). For each language-category pair there exist three sets of training documents, test documents, and unlabeled documents. The training and test sets comprise 2.000 documents each, whereas the number of unlabeled documents varies from 9.000 - 170.000.",
-    "url":"https://webis.de/data/webis-cls-10.html",
-    "sameAs":"https://doi.org/10.5281/zenodo.3251672",
-    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
-    "keywords":[
-        "product reviews", 
-        "cross-lingual", 
-        "sentiment", 
-        "English",
-        "German",
-        "French",
-        "Japanese"
-    ], 
-    "datePublished":"2010",
-    "creator":[
-        {
-            "@type":"Organization",
-            "url":"https://webis.de/",
-            "name":"The Web Technology & Information Systems Network",
-            "alternateName":"Webis"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#prettenhofer",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Prettenhofer, Peter"
-        },
-        {
-            "@type":"Person", 
-            "url":"https://weimar.webis.de/people/#stein",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-            "name":"Stein, Benno"
-        }
-    ],
-    "includedInDataCatalog":{
-        "@type":"DataCatalog",
-        "name":"Webis Data Catalog",
-        "url":"https://webis.de/data/"
-    }
-}
+    
 </script>
 
 <main class="uk-section uk-section-default">
@@ -68,70 +24,72 @@ description: Overview of corpora that are used by the Webis research group
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
     </div>
 
     <div class="uk-container uk-margin-medium">
+        
         <!--
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
-
-        <p>The Cross-Lingual Sentiment (CLS) dataset comprises about 800.000 Amazon product reviews in the four languages English, German, French, and Japanese.</p>
-
-        <p>For more information on the construction of the dataset see (Prettenhofer and Stein, 2010) or the enclosed readme files. If you have a question after reading the paper and the readme files, please contact <a href="https://weimar.webis.de/people#prettenhofer" title="Peter Prettenhofer">Peter Prettenhofer</a>.</p>
-
-
+        <p>
+            <p>The Cross-Lingual Sentiment (CLS) dataset comprises about 800.000 Amazon product reviews in the four languages English, German, French, and Japanese.</p>
+        </p>
+        
 
         <!--
         SECTION Download
         -->
-        <h2 id="download">Download</h2>
-        <p>We provide the dataset in two formats: 1) a processed format which corresponds to the preprocessing (tokenization, etc.) in (Prettenhofer and Stein, 2010); 2) an unprocessed format which contains the full text of the reviews (e.g., for machine translation or feature engineering).</p>
+        <h2 id="download">Access</h2>
+            <p>
+                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/10.5281/zenodo.3251672">doi</a>]. 
+            </p>
+        
+        <ul>
+            
+            
+            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.3251672">Zenodo</a>
+                
+                </li>
+            
+            
+            <li>Find the related metadata at <a href="https://toolbox.google.com/datasetsearch/search?query=webis-cls-10">Google</a>.</li>
+            
+        </ul>
+        
 
-        <p>You can access the Webis-CLS-10 corpus on <a href="https://doi.org/10.5281/zenodo.3251672">Zenodo</a>.</p>
-
-        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#prettenhofer_2010">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3251672">doi</a>] for a stable link.</p>
-
-        <!--
-        SECTION Research
-        -->
-        <h2 id="research">Research</h2>
-
-        <p>The dataset was first used by (Prettenhofer and Stein, 2010). It consists of Amazon product reviews for three product categories---books, dvds and music---written in four different languages: English, German, French, and Japanese. The German, French, and Japanese reviews were crawled from Amazon in November, 2009. The English reviews were sampled from the <a href="http://www.cs.jhu.edu/~mdredze/datasets/sentiment/">Multi-Domain Sentiment Dataset</a> (Blitzer et. al., 2007). For each language-category pair there exist three sets of training documents, test documents, and unlabeled documents. The training and test sets comprise 2.000 documents each, whereas the number of unlabeled documents varies from 9.000 - 170.000.</p>
-
-        <p>For more information on the construction of the dataset see (Prettenhofer and Stein, 2010) and the enclosed readme files.</p>
-
-
-
+        
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="https://weimar.webis.de/people/#prettenhofer" title="Peter Prettenhofer">Peter Prettenhofer</a></li>
-            <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#prettenhofer">Peter Prettenhofer</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
+            
         </ul>
+        
 
-        <p>We kindly thank Mark Dredze and John Blitzer for the permission to include a sample of the Multi-Domain Sentiment Dataset (Blitzer et. al., 2007) in our dataset.</p>
-
-
-	<!--
-	SECTION Publications
-	-->
-	<h2 id="publications">Publications</h2>
+        
+        <h2 id="publications">Publications</h2>
         <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-cls-10");
+                </script>
+            </p>
         </div>
+        
 
-        </div>
+    </div>
+
 </main>
 
-<script src="https://assets.webis.de/js/filter.js"></script>
-<script src="https://assets.webis.de/js/selection.js"></script>
-<script>
-includeBibentries(document.getElementById("publications-list"), "keywords:webis-cls-10");
-</script>

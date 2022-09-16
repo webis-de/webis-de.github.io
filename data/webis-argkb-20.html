@@ -1,60 +1,20 @@
 ---
 layout: default
 nav_active: data
-title: Webis Data Webis-ArgKB-20 
+title: Webis Data Webis-ArgKB-20
 description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
-<ul class="uk-breadcrumb">
-<li><a href="../index.html">Webis.de</a></li>
-<li><a href="../data.html">Data</a></li>
-<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
-</ul>
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../../../data.html">Data</a></li>
+        <li class="uk-disabled"><a href="#">Webis-ArgKB-20</a></li>
+    </ul>
 </nav>
 
 
 <script type="application/ld+json">
-{
-    "@context":"http://schema.org/",
-    "@type":"Dataset",
-    "name":"webis-ArgKB-20",
-    "description":"The Webis-ArgKB-20 is a new corpus that comprises about 16k manual annotations of 4740 claims in accordance with a newly proposed model for an argumentation knowledge graph. ",
-    "url":"https://webis.de/data/webis-ArgKB-20",
-    "sameAs":"https://doi.org/10.5281/zenodo.3972091",
-    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
-    "keywords":[
-        "arguments", 
-        "computational argumentation",
-        "argument knowledge graph" 
-        "argument search"
-    ], 
-    "datePublished":"2020",
-   {
-      "@type":"Organization",
-      "url":"https://webis.de/",
-      "name":"The Web Technology & Information Systems Network",
-      "alternateName":"Webis"
-    },
-    {
-      "@type":"Person", 
-      "url":"https://weimar.webis.de/people/#alkhatib",
-      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-      "name":"Al-Khatib, Khalid"
-    },
-    {
-      "@type":"Person", 
-      "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
-      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-      "name":"Wachsmuth, Henning"
-    },
-    {
-      "@type":"Person", 
-      "url":"https://weimar.webis.de/people/#stein",
-      "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
-      "name":"Stein, Benno"
-    },
-  ],
-}
+    
 </script>
 
 <main class="uk-section uk-section-default">
@@ -64,54 +24,72 @@ description: Overview of corpora that are used by the Webis research group
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#documentation">Documentation</a></li>
-            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
+            
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
-            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
     </div>
 
     <div class="uk-container uk-margin-medium">
+        
         <!--
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-The Webis-ArgKB-20 is a new corpus that comprises about 16k manual annotations of 4740 claims in accordance with a newly proposed model for an argumentation knowledge graph.
-      </p>
+            <p>The Webis-ArgKB-20 is a new corpus that comprises about 16k manual annotations of 4740 claims in accordance with a newly proposed model for an argumentation knowledge graph. </p>
+        </p>
+        
 
         <!--
         SECTION Download
         -->
-        <h2 id="download">Download</h2>
-        <p>To download the corpus and model use the following links:</p>
+        <h2 id="download">Access</h2>
+            <p>
+                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/10.5281/zenodo.3972091">doi</a>]. 
+            </p>
+        
         <ul>
-            <li>
-                <a href="https://doi.org/10.5281/zenodo.3972091">Webis-ArgKB-20 Data</a>
-            </li>
+            
+            
+            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.3972091">Zenodo</a>
+                
+                </li>
+            
+            
         </ul>
+        
 
+        
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-            <li><a href="https://weimar.webis.de/people/#alkhatib">Khalid Al-Khatib</a></li>
-            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
-            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#alkhatib">Khalid Al-Khatib</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#wachsmuth">Henning Wachsmuth</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
+            
         </ul>
+        
+
         
         <h2 id="publications">Publications</h2>
         <div id="publications-list">
             <p>
-            <script src="https://assets.webis.de/js/selection.js"></script>
-<script src="https://assets.webis.de/js/filter.js"></script>
-            <script>
-            includeBibentries(document.getElementById("publications-list"), "keywords:webis-argument-kb-20");
-            </script>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-argument-kb-20");
+                </script>
             </p>
         </div>
+        
+
     </div>
 
 </main>
+

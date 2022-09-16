@@ -1,88 +1,20 @@
 ---
 layout: default
 nav_active: data
-title: Webis Data Wikipedia Text Reuse Corpus
-description: Wikipedia Text Reuse Corpus
+title: Webis Data Webis-Wikipedia-Text-Reuse-18
+description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
-<ul class="uk-breadcrumb">
-<li><a href="../index.html">Webis.de</a></li>
-<li><a href="../data.html">Data</a></li>
-<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
-</ul>
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../../../data.html">Data</a></li>
+        <li class="uk-disabled"><a href="#">Webis-Wikipedia-Text-Reuse-18</a></li>
+    </ul>
 </nav>
 
 
 <script type="application/ld+json">
-{
-    "@context":"http://schema.org/",
-    "@type":"Dataset",
-    "name":"Wikipedia Text Reuse Corpus",
-    "description":"A cropus of text reuse cases extracted from within Wikipedia and in between Wikipedia and a sample of Common Crawl",
-    "text":"The datasets were extracted in the work by Alshomary et al. 2018 that aimed to study the text reuse phenomena related to Wikipedia at scale. A pipeline for large scale text reuse extraction was developed and used on Wikipedia and the CommonCrawl.",
-    "url":"https://webis.de/data/webis-wikipedia-textreuse-18.html",
-    "sameAs":"https://doi.org/10.5281/zenodo.3546193",
-    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
-    "keywords":[
-       "Wikipedia",
-       "Common Crawl",
-       "Text Reuse"
-    ],
-    "datePublished":"2018",
-    "creator":[
-        {
-            "@type":"Organization",
-            "url":"https://webis.de/",
-            "name":"The Web Technology & Information Systems Network",
-            "alternateName":"Webis"
-        },
-        {
-            "@type":"Person",
-            "url":"https://www.uni-paderborn.de/person/73059/",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
-            "name":"Alshomary, Milad"
-        },
-        {
-            "@id":"0000-0002-9283-6846",
-            "@type":"Person",
-            "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/voelske/",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
-            "name":"V&ouml;lske, Michael"
-        },
-        {
-            "@type":"Person",
-            "url":"https://www.uni-paderborn.de/person/3900/",
-            "affiliation":"Universit\u00e4t Paderborn",
-            "name":"Wachsmuth, Henning"
-        },
-        {
-            "@id":"0000-0001-9033-2217",
-            "@type":"Person",
-            "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/stein/",
-            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
-            "name":"Stein, Benno"
-        },
-        {
-            "@id":"0000-0002-9733-2890",
-            "@type":"Person",
-            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/hagen/",
-            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg",
-            "name":"Hagen, Matthias"
-        },
-        {
-            "@id":"0000-0003-2451-0665",
-            "@type":"Person",
-            "url":"https://temir.org/people.html#potthast",
-            "affiliation":"Universit\u00e4t Leipzig",
-            "name":"Potthast, Martin"
-        }
-    ],
-    "includedInDataCatalog":{
-        "@type":"DataCatalog",
-        "name":"Webis Data Catalog",
-        "url":"https://webis.de/data/"
-    }
-}
+    
 </script>
 
 <main class="uk-section uk-section-default">
@@ -92,81 +24,80 @@ description: Wikipedia Text Reuse Corpus
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
             <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
-            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            
             <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
             <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
         </ul>
     </div>
 
     <div class="uk-container uk-margin-medium">
+        
         <!--
         SECTION Synopsis
         -->
         <h2 id="synopsis">Synopsis</h2>
-
-        <p>The Wikipedia Text Reuse Corpus 2018 (Webis-Wikipedia-Text-Reuse-18) containing text reuse cases extracted from within Wikipedia and in between Wikipedia and a sample of the Common Crawl</p>
-
+        <p>
+            <p>The Wikipedia Text Reuse Corpus 2018 (Webis-Wikipedia-Text-Reuse-18) containing text reuse cases extracted from within Wikipedia and in between Wikipedia and a sample of the Common Crawl</p>
+        </p>
+        
 
         <!--
         SECTION Download
         -->
-        <h2 id="webis-download">Download</h2>
-          <p>You can access the "Within Wikipedia Text Reuse" corpus on <a href="https://doi.org/10.5281/zenodo.3546193">Zenodo</a>.</p>
-            <ul>
-                <li>
-                wikipedia.jsonl.bz2 (3.0 GB)
-                <p> - Each line, representing a Wikipedia article, contains a json array of article_id, article_title, and article_body  </p>
+        <h2 id="download">Access</h2>
+            <p>
+                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/10.5281/zenodo.3546193">doi</a>]. 
+            </p>
+        
+        <ul>
+            
+            
+            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.3372485">Zenodo</a>
+                
                 </li>
-                <li>
-                within-wikipedia-tr-01.jsonl.bz2 (3.0 GB)
-                <p> - Each line, representing a text reuse case, contains a json array of s_id (source article id), t_id (target article id), s_text (source text), t_text (target text) </p>
-                </li>
-                <li>
-                within-wikipedia-tr-02.jsonl.bz2 (2.5 GB)
-                <p> - Each line, representing a text reuse case, contains a json array of s_id (source article id), t_id (target article id), s_text (source text), t_text (target text) </p>
-                </li>
-            </ul>
-            <p>You can access the "Commoncrawl & Wikipedia Text Reuse" corpus on <a href="https://doi.org/10.5281/zenodo.3546193">Zenodo</a>.</p>
-            <ul>
-                <li>
-                preprocessed_web_sample.jsonl.xz (34.9 GB)
-                <p> - Each line, representing a web page, contains a json object of page_id, page_url, and content  </p>
-                </li>
-                <li>
-                without-wikipedia-tr.jsonl.bz2 (190.5 MB)
-                <p> - Each line, representing a text reuse case, contains a json array of s_id (Wikipedia page id), t_id (The web page id), s_text (source text), t_text (target text) </p>
-                </li>
-            </ul>
-        <h2 id="research">Research</h2>
-        The datasets were extracted in the work by Alshomary et al. 2018 that aimed to study the text reuse phenomena related to Wikipedia at scale. A pipeline for large scale text reuse extraction was developed and used on Wikipedia and the CommonCrawl.
+            
+            
+            <li>Find the related metadata at <a href="https://toolbox.google.com/datasetsearch/search?query=Webis-Wikipedia-Text-Reuse-18">Google</a>.</li>
+            
+        </ul>
+        
+
+        
         <!--
         SECTION People
         -->
         <h2 id="people">People</h2>
         <ul>
-        <li><a href="https://www.uni-paderborn.de/person/73059/">Milad Alshomary</a></li>
-        <li><a href="https://weimar.webis.de/people/#voelske" title="Michael V&ouml;lske">Michael V&ouml;lske</a></li>
-        <li><a href="https://www.uni-paderborn.de/person/3900/">Henning Wachsmuth</a></li>
-        <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
-        <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
-        <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+            
+                <li>Milad Alshomary</li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#voelske">Michael Vöske</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#wachsmuth">Henning Wachsmuth</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#hagen">Matthias Hagen</a></li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#potthast">Martin Potthast</a></li>
+            
         </ul>
+        
 
-
+        
         <h2 id="publications">Publications</h2>
         <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-qspell-17");
+                </script>
+            </p>
         </div>
-          <!--
-      You do not need to add anything here.
-      Typo3 will insert publications automatically via pub-database.php.
-      For more information visit webis-web-notes.txt.
-      -->
-        </div>
+        
+
+    </div>
+
 </main>
 
-<script src="https://assets.webis.de/js/filter.js"></script>
-<script src="https://assets.webis.de/js/selection.js"></script>
-<script>
-//includeBibentries(document.getElementById("publications-list"), "keywords:webis-qspell-17");
-</script>
