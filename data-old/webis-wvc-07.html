@@ -1,0 +1,119 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-WVC-07
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-WVC-07",
+    "description":"The Webis Wikipedia vandalism corpus (Webis-WVC-07) is a corpus for the evaluation of automatic vandalism detection algorithms for Wikipedia. For research purposes the corpus can be used free of charge.",
+    "text":"As part of our research on automatic vandalism detection we have compiled a corpus of vandalism cases found in Wikipedia. The corpus is the first standardized test collection for the comparison of vandalism detection algorithms. It comprises 940 edits from which 301 are marked as vandalism by human evaluators. The corpus is based in part on the results of a study conducted by the Wikipedia community.",
+    "url":"https://doi.org/10.5281/zenodo.3341473",
+    "sameAs":"https://doi.org/10.5281/zenodo.3341473",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "wikipedia", 
+        "vandalism"
+    ], 
+    "datePublished":"2007",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#potthast",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-WVC-07</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>This corpus is outdated. Please use its successors <a href="https://webis.de/data/pan-wvc-10" title="PAN-WVC-10">PAN-WVC-10</a> and <a href="https://webis.de/data/pan-wvc-11" title="PAN-WVC-11">PAN-WVC-11</a>.</p>
+
+        <p>The Webis Wikipedia vandalism corpus (Webis-WVC-07) is a corpus for the evaluation of automatic vandalism detection algorithms for Wikipedia. For research purposes the corpus can be used free of charge.</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>You can access the Webis-WVC-07 corpus on <a href="https://doi.org/10.5281/zenodo.3341473">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#?q=bibid:webis_2007">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3341473">doi</a>] for a stable link.</p>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>As part of our research on <a href="https://webis.de/research/wikipedia-vandalism.html">automatic vandalism detection</a> we have compiled a corpus of vandalism cases found in Wikipedia. The corpus is the first standardized test collection for the comparison of vandalism detection algorithms. It comprises 940 edits from which 301 are marked as vandalism by human evaluators. The corpus is based in part on the results of a <a href="http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Vandalism_studies/Study1">study</a> conducted by the Wikipedia community.</p>
+
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://temir.org/people.html#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:webis-wvc-07");
+</script>

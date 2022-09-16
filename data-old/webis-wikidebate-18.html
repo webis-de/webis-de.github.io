@@ -1,0 +1,164 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-WikiDebate-18
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-WikiDebate-18",
+    "description":"Webis-WikiDebate-18 is a large-scale corpus for the argumentation model. The corpus is generated automatically based on the metadata in discussions, and then verified partly by an expert.",
+    "url":"https://webis.de/data/webis-wikidebate-18.html",
+    "sameAs":"https://doi.org/10.5281/zenodo.3339136",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "wikipedia", 
+        "talk pages", 
+        "discussions", 
+        "tags",
+        "shortcuts",
+        "links", 
+        "templates" 
+    ], 
+    "datePublished":"2018",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#alkhatib",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Al-Khatib, Khalid"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Wachsmuth, Henning"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Lang, Kevin"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Herpel, Jakob"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"TSV",
+            "contentUrl":"https://files.webis.de/corpora/corpora-webis/corpus-webis-wikidebate-18/Webis-WikiDebate-18.tar.gz"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+
+        <h1>Webis-WikiDebate-18</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li> -->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            Webis-WikiDebate-18 is a large-scale corpus for the argumentation model. The corpus is generated automatically based on the metadata in discussions, and then verified partly by an expert.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>You can access the Webis-WikiDebate-18 corpus on <a href="https://doi.org/10.5281/zenodo.3339136">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3339136">doi</a>] for a stable link.</p>
+
+        <p>
+            The table has the following attributes:
+        </p>
+        <ul>
+            <li>comment-ID</li>
+            <li>discussion-ID</li>
+            <li>reference comment-ID</li>
+            <li>comment (wiki format with tag)</li>
+            <li>comment (plain text without tag)</li>
+            <li>username</li>
+            <li>timestamp</li>
+            <li>hierarchy level in discussion</li>
+        </ul>
+        <p>
+            The ID's consists of up to 3 numbers. For example the comment-ID "3203277-22-11" consists of the page-ID "3203277" with the 23th discussion and the 12th comment inside the discussion. Please note that the counting starts with 0. The page-ID is from the MediaWiki's internal article ID and can be called by the curid attribute (e.g. http://en.wikipedia.org/?curid=3203277). The article on wikipedia and the corresponding talk page have two different IDs.</br>
+            Sometimes the value is "\N" when the comment or the structure of the discussion was ill-formed and there was no previous comment, user or timestamp statement. This can happen quite often because no editor checks the meta data and everything has to be managed by the users themselves.</br>
+            The reference comment-ID is the last comment on the higher hierarchy level which the current one refers to with its statement.</br>
+            The hierarchy level of a comment in a discussion is identified by the number of the ":" in wiki format at the beginning of a comment and shows how deep the discussion already involves.
+        </p>
+        
+        <!--
+        SECTION Research
+        -->
+        <!--
+        <h3 id="research">Research</h3>
+        <p></p>
+        -->
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#alkhatib">Khalid Al-Khatib</a></li>
+            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+        <p>Students: Kevin Lang, Jakob Herpel.</p>
+    </div>
+</main>

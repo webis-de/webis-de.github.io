@@ -1,0 +1,138 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-KIQC-13
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-KIQC-13",
+    "description":"The Webis Known-Item Question Corpus 2013 (Webis-KIQC-13) contains annotations for 2,755 questions posted on Yahoo! Answers. For each question, 2 annotators were asked to categorize the question as having a known-item information need or not, to identify a ClueWeb09 website representing the known item, and whether false memories are contained in the description of the need. The corpus represents the decisions of the annotators who had discussions for the few questions on which they did not agree initially. The corpus contains the IDs of the ClueWeb09 documents representing the known item and an annotated categorization and correction for questions with a false memory.",
+    "text":"The original questions were crawled from the Yahoo! Answers platform to enable repeatable research on realistic known-item topics.Each question entry in the corpus contains the returned information from the Yahoo! Answers API and additionally fields for the ClueWeb09-ID and the URL of the respective known-item, a Boolean field for whether false memories are included and in case that this is true also fields for the type of the false memory and a short correction notice. For more information on the construction of the dataset see the respective publication.",
+    "url":"https://webis.de/data/webis-kiqc-13.html",
+    "sameAs":"https://doi.org/10.5281/zenodo.3254421",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "questions", 
+        "yahoo", 
+        "known-item"
+    ], 
+    "datePublished":"2013",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"W\u00e4gner, Daniel"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    }
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-KIQC-13</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The Webis Known-Item Question Corpus 2013 (Webis-KIQC-13) contains annotations for 2,755 questions posted on Yahoo! Answers. For each question, 2 annotators were asked to categorize the question as having a known-item information need or not, to identify a ClueWeb09 website representing the known item, and whether false memories are contained in the description of the need. The corpus represents the decisions of the annotators who had discussions for the few questions on which they did not agree initially.</p>
+
+        <p>The corpus contains the IDs of the ClueWeb09 documents representing the known item and an annotated categorization and correction for questions with a false memory.</p>
+
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>You can access the Webis-KIQC-13 corpus on <a href="https://doi.org/10.5281/zenodo.3254421">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#hagen_2015b">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3254421">doi</a>] for a stable link.</p>
+
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>The original questions were crawled from the Yahoo! Answers platform to enable repeatable research on realistic known-item topics.</p>
+
+        <p>Each question entry in the corpus contains the returned information from the Yahoo! Answers API and additionally fields for the ClueWeb09-ID and the URL of the respective known-item, a Boolean field for whether false memories are included and in case that this is true also fields for the type of the false memory and a short correction notice.</p>
+
+        <p>For more information on the construction of the dataset see the respective publication.</p>
+
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+        <p>Students: Daniel Wägner</p>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:webis-kiqc-13");
+</script>

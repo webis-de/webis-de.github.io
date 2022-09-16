@@ -1,0 +1,165 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-Argument-Framing-19 
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"webis-argument-framing-19",
+    "description":"Webis-argument-framing-19 comprises 12,326 arguments crawled from debatepedia.org. Arguments that address a common aspect of a topic is considered to be a frame. The arguments are stored in csv format.",
+    "url":"https://webis.de/data/webis-argument-framing-19",
+    "sameAs":"https://doi.org/10.5281/zenodo.3373355",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "debate portal", 
+        "arguments", 
+        "computational argumentation", 
+        "argument search"
+    ], 
+    "datePublished":"2019",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#ajjour",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Ajjour, Yamen"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.uni-paderborn.de/person/73059/",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Alshomary, Milad"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Wachsmuth, Henning"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"https://zenodo.org/record/3373510/files/Webis-argument-framing.zip?download=1"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-Argument-Framing-19</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            Webis-argument-framing-19 is created to evaluate identifying the frames in arguments. A set of arguments that address a common aspect of a topic is considered to be a frame. The corpus comprises 12,326 arguments crawled from debatepedia.org.  The arguments are stored in csv format.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>To download the corpus use the following link:</p>
+        <ul>
+            <li>
+                <a href="https://doi.org/10.5281/zenodo.3373355">webis-argument-framing-19</a>
+                (7.4 MB in CSV format)
+            </li>
+        </ul>
+
+        <p>Each argument in the corpus is represented by the following fields:</p>
+        <ul>
+        <li><strong>topic:</strong> A general statement on which people in general disagree.</li>
+	    <li><strong>conclusion:</strong> A statement about the topic that one can accepts or rejects which makes the core of the argument.</li>
+	    <li><strong>premise:</strong> A reason that supports the conclusion.</li>
+        <li><strong>argument_id:</strong>A unique number for each argument.</li>
+        <li><strong>stance:</strong> Pro or Con the topic.</li>
+        <li><strong>frame:</strong> the frame of the argument.</li>
+        <li><strong>frame_id:</strong> A unique number for each frame.</li>
+        <li><strong>topic_id:</strong> A unique number for each topic.</li>
+        </ul>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+        <p>
+            The arguments in the corpus are clustered into frames according to the aspect they highlight about the topic. An unsupervised approach that perform the tasks are evaluated against the frames in the corpus. The approach used to group arguments consists of the following steps:</p>
+            <ul>
+                <li> Topic Clustering: clustering arguments into topics</li>
+                <li> Topic Removal: Removing topic-specific words in the arguments based on the topic clusters </li>
+                <li> Frame Clustering: Arguments are grouped into clusters after topic-removal </li>
+            </ul>
+
+        
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#ajjour">Yamen Ajjour</a></li>
+            <li><a href="https://www.uni-paderborn.de/person/73059/"> Milad Alshomary</a></li>
+            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "keywords:webis-argument-framing-19");
+            </script>
+            </p>
+        </div>
+    </div>
+
+</main>
+
+

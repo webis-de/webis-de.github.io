@@ -1,0 +1,339 @@
+---
+layout: default
+nav_active: data
+title: Webis Data LFA-11
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"LFA-11",
+    "description":"The Language Function Analysis 2011 Corpus (LFA-11) is a German text corpus of promotional text, reviews and blog posts on music and smartphones. The texts were manually classified with respect to their topic relevance, language function, and sentiment polarity.",
+    "text":"The corpus consists of two separated collections, which contain the texts about music and smartphones respectively. The music collection consists of 2,713 promotional texts and reviews from both users and professionals. The smartphone collection contains 2,093 blog posts on smartphones from the Spinn3r corpus. Annotations are provided in form of an UTF-8 encoded XMI file, which is preformatted for Apache UIMA. The two collections are split into training (50% of texts), validation (25%) and test sets (25%).",
+    "url":"https://webis.de/data/lfa-11.html",
+    "sameAs":"https://doi.org/10.5281/zenodo.3244090",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "promotional text", 
+        "reviews", 
+        "blog posts", 
+        "music",
+        "smartphones",
+        "topic relevance",
+        "language function",
+        "sentiment polarity"
+    ], 
+    "datePublished":"2011",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Wachsmuth, Henning"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Bujna, Kathrin"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"XMI",
+            "contentUrl":"http://infexba.uni-paderborn.de/fileadmin/Informatik/AG-Engels/webdesign/infexba/lfa-11-corpus.tar.gz"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>LFA-11</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The Language Function Analysis 2011 Corpus (LFA-11) is a German text corpus of promotional text, reviews and blog posts on music and smartphones. The texts were manually classified with respect to their topic relevance, language function, and sentiment polarity.</p>
+
+        <p>The purpose of the corpus is to provide textual data for the development and evaluation of approaches to language function analysis and sentiment analysis. Therefore, each text is classified by language function (personal, commercial, or informational) as well as by sentiment (positive, negative, neutral).</p>
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+
+        <p>You can access the LFA-11 corpus on <a href="https://doi.org/10.5281/zenodo.3244090">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#?q=bibid:wachsmuth_2011">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3244090">doi</a>] for a stable link.</p>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>The corpus consists of two separated collections, which contain the texts about <i>music</i> and <i>smartphones</i> respectively. The music collection consists of 2,713 promotional texts and reviews from both users and professionals. The smartphone collection contains 2,093 blog posts on smartphones from the <a href="http://spinn3r.com/">Spinn3r corpus</a>.</p>
+
+        <p>Annotations are provided in form of an UTF-8 encoded XMI file, which is preformatted for <a href="http://uima.apache.org/">Apache UIMA</a>. The two collections are split into training (50% of texts), validation (25%) and test sets (25%). The distribution of the different annotations over the sets are shown in the tables below.</p>
+
+       <table class="uk-table uk-table-striped uk-table-small uk-width-auto">
+              <tbody>
+                     <tr>
+                         <th colspan="3">Music</th>
+                     </tr>
+                     <tr>
+                         <th>Relevance</th>
+                         <th>true</th>
+                         <th>false</th>
+                     </tr>
+                     <tr>
+                         <td>Training set</td>
+                         <td align="center">1327 (97.9%)</td>
+                         <td align="center">28 (2.1%)</td>
+                     </tr>
+                     <tr>
+                         <td>Validation set</td>
+                         <td align="center">673 (99.1%)</td>
+                         <td align="center">6 (0.9%)</td>
+                     </tr>
+                     <tr>
+                         <td>Test set</td>
+                         <td align="center">662 (97.5%)</td>
+                         <td align="center">17 (2.5%)</td>
+                     </tr>
+              </tbody>
+              <caption>Distribution of relevance annotations</caption>
+       </table>
+
+       <table class="uk-table uk-table-striped uk-table-small uk-width-auto">
+              <tbody>
+                     <tr>
+                         <th colspan="3">Smartphone</th>
+                     </tr>
+                     <tr>
+                         <th>Relevance</th>
+                         <th>true</th>
+                         <th>false</th>
+                     </tr>
+                     <tr>
+                         <td>Training set</td>
+                         <td align="center">561 (53.6%)</td>
+                         <td align="center">486 (46.4%)</td>
+                     </tr>
+                     <tr>
+                         <td>Validation set</td>
+                         <td align="center">307 (58.7%)</td>
+                         <td align="center">216 (41.3%)</td>
+                     </tr>
+                     <tr>
+                         <td>Test set</td>
+                         <td align="center">287 (54.9%)</td>
+                         <td align="center">236 (45.1%)</td>
+                     </tr>
+              </tbody>
+       </table>
+
+
+       <br />
+       <p>Three different functions of language are analyzed:</p>
+
+       <ul>
+           <li><i>commercial</i>: the text is of obvious commercial interest. It seems to predominantly aim at persuading the reader to buy or like the product.</li>
+           <li><i>informational</i>: the text predominantly appears to be informative in a journalistic manner.</li>
+           <li><i>personal</i>: the text probably represents the personal view on the product of a private individual.</li>
+       </ul>
+
+       <p>The distribution of the single functions in the corpus is shown in the table below.</p>
+
+       <table class="uk-table uk-table-striped uk-table-small uk-width-auto">
+              <tbody>
+                     <tr>
+                         <th colspan="4">Music</th>
+                     </tr>
+                     <tr>
+                         <th>Function</th>
+                         <th>Commercial</th>
+                         <th>Informational</th>
+                         <th>Personal</th>
+                     </tr>
+                     <tr>
+                         <td>Training set</td>
+                         <td align="center">127 ( 9.4%)</td>
+                         <td align="center">707 (52.2%)</td>
+                         <td align="center">521 (38.5%)</td>
+                     </tr>
+                     <tr>
+                         <td>Validation set</td>
+                         <td align="center">72 (10.6%)</td>
+                         <td align="center">188 (27.7%)</td>
+                         <td align="center">419 (61.7%)</td>
+                     </tr>
+                     <tr>
+                         <td>Test set</td>
+                         <td align="center">68 (10.0%)</td>
+                         <td align="center">269 (39.6%)</td>
+                         <td align="center">342 (50.4%)</td>
+                     </tr>
+              </tbody>
+              <caption>Distribution of language function annotations</caption>
+       </table>
+<table class="uk-table uk-table-striped uk-table-small uk-width-auto">
+              <tbody>
+                     <tr>
+                         <th colspan="4">Smartphone</th>
+                     </tr>
+                     <tr>
+                         <th>Function</th>
+                         <th>Commercial</th>
+                         <th>Informational</th>
+                         <th>Personal</th>
+                     </tr>
+                     <tr>
+                         <td>Training set</td>
+                         <td align="center">90 ( 8.6%)</td>
+                         <td align="center">411 (39.3%)</td>
+                         <td align="center">546 (52.1%)</td>
+                     </tr>
+                     <tr>
+                         <td>Validation set</td>
+                         <td align="center">36 ( 6.9%)</td>
+                         <td align="center">208 (39.8%)</td>
+                         <td align="center">279 (53.4%)</td>
+                     </tr>
+                     <tr>
+                         <td>Test set</td>
+                         <td align="center">28 ( 5.4%)</td>
+                         <td align="center">193 (36.9%)</td>
+                         <td align="center">302 (57.7%)</td>
+                     </tr>
+              </tbody>
+       </table>
+       <br />
+
+       <table class="uk-table uk-table-striped uk-table-small uk-width-auto">
+              <tbody>
+                     <tr>
+                         <th colspan="4">Music</th>
+                     </tr>
+                     <tr>
+                         <th>Sentiment</th>
+                         <th>Positive</th>
+                         <th>Negative</th>
+                         <th>Neutral</th>
+                    </tr>
+                    <tr>
+                       <td>Training set</td>
+                       <td align="center">1003 (74.9%)</td>
+                       <td align="center">93 ( 6.9%)</td>
+                       <td align="center">259 (19.1%)</td>
+                    </tr>
+                    <tr>
+                        <td>Validation set</td>
+                        <td align="center">558 (82.2%)</td>
+                        <td align="center">39 ( 5.7%)</td>
+                        <td align="center">82 (12.1%)</td>
+                    </tr>
+                    <tr>
+                        <td>Test set</td>
+                        <td align="center">514 (75.7%)</td>
+                        <td align="center">50 ( 7.4%)</td>
+                        <td align="center">115 (16.9%)</td>
+                    </tr>
+              </tbody>
+              <caption>Distribution of sentiment annotations</caption>
+       </table>
+<table class="uk-table uk-table-striped uk-table-small uk-width-auto">
+              <tbody>
+                    <tr>
+                        <th colspan="4">Smartphone</th>
+                    </tr>
+                    <tr>
+                        <th>Sentiment</th>
+                        <th>Positive</th>
+                        <th>Negative</th>
+                        <th>Neutral</th>
+                    </tr>
+                    <tr>
+                        <td>Training set</td>
+                        <td align="center">205 (19.6%)</td>
+                        <td align="center">104 ( 9.9%)</td>
+                        <td align="center">738 (70.5%)</td>
+                    </tr>
+                    <tr>
+                        <td>Validation set</td>
+                        <td align="center">110 (21.0%)</td>
+                        <td align="center">70 (13.4%)</td>
+                        <td align="center">343 (65.6%)</td>
+                    </tr>
+                    <tr>
+                        <td>Test set</td>
+                        <td align="center">84 (16.1%)</td>
+                        <td align="center">80 (15.3%)</td>
+                        <td align="center">359 (68.6%)</td>
+                    </tr>
+              </tbody>
+       </table>
+       <br />
+       <p>For more information please download the LFA-11 Corpus documentation <a href="http://infexba.uni-paderborn.de/fileadmin/Informatik/AG-Engels/webdesign/infexba/lfa-11-documentation.pdf">lfa-11-documentation.pdf</a> (last accessed on 04/23/2013).</p>
+
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth" title="Henning Wachsmuth">Henning Wachsmuth</a></li>
+            <li>Kathrin Bujna</li>
+        </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:lfa-11");
+</script>

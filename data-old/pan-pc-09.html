@@ -1,0 +1,161 @@
+---
+layout: default
+nav_active: data
+title: Webis Data PAN-PC-09
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"PAN-PC-09",
+    "description":"The PAN plagiarism corpus 2009 (PAN-PC-09) is a corpus for the evaluation of automatic plagiarism detection algorithms. For research purposes the corpus can be used free of charge.",
+    "text":"The PAN-PC-09 contains documents in which artificial plagiarism has been inserted automatically. The plagiarism cases have been constructed using a so-called random plagiarist, a computer program which constructs plagiarism according to a number of random variables. The variables include the percentage of plagiarism in the whole corpus, the percentage of plagiarism per document, the length of a single plagiarized section, and the degree of obfuscation per plagiarized section.",
+    "url":"https://webis.de/data/pan-pc-09.html",
+    "sameAs":"https://doi.org/10.5281/zenodo.3250083",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "plagiarism", 
+        "plagiarism detection",
+        "2009"
+    ], 
+    "datePublished":"2009",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#potthast",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://www.lsi.upc.edu/~albarron/",
+            "name":"Barrón-Cedeño, Alberto"
+        },
+        {
+            "@type":"Person", 
+            "url":"http://users.dsic.upv.es/~prosso/",
+            "name":"Rosso, Paolo"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Eiselt, Andreas"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    }
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>PAN-PC-09</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>This corpus is outdated. Please use its successor <a href="https://webis.de/data/pan-pc-11" title="PAN-PC-11">PAN-PC-11</a>.</p>
+
+        <p>The PAN plagiarism corpus 2009 (PAN-PC-09) is a corpus for the evaluation of automatic plagiarism detection algorithms. For research purposes the corpus can be used free of charge.</p>
+
+
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>You can access the PAN-PC-09 corpus on <a href="https://doi.org/10.5281/zenodo.3250083">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#potthast:2010f">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3250083">doi</a>] for a stable link.</p>
+
+        <p>You might also be interested the following items:</p>
+
+        <ul>
+            <li>The results of the <a href="https://pan.webis.de/sepln09/pan09-web/external-plagiarism-detection.html">1st International Competition on Plagiarism Detection</a>.</li>
+            <li>The reference implementation of the <a href="https://github.com/pan-webis-de/pan-code/tree/master/sepln09">plagiarism detection performance measures</a> used in the above competition.</li>
+        </ul>
+
+        <!--
+        SECTION Research
+        -->
+        <h2 id="research">Research</h2>
+
+        <p>The PAN-PC-09 can be used to evaluate two retrieval tasks pertaining to automatic plagiarism detection:</p>
+
+        <ul>
+            <li><i>External Plagiarism Detection.</i> Given a set of suspicious documents and a set of source documents, the task is to find all plagiarized sections in the suspicious documents and their respective source sections in the source documents.</li>
+            <li><i>Intrinsic Plagiarism Detection.</i> Given only a set of suspicious documents, the task is to identify all plagiarized sections, e.g., by detecting writing style breaches. The comparison of a suspicious document with other documents is not allowed in this task.</li>
+        </ul>
+
+        <p>The PAN-PC-09 contains documents in which artificial plagiarism has been inserted automatically. The plagiarism cases have been constructed using a so-called random plagiarist, a computer program which constructs plagiarism according to a number of random variables. The variables include the percentage of plagiarism in the whole corpus, the percentage of plagiarism per document, the length of a single plagiarized section, and the degree of obfuscation per plagiarized section.</p>
+
+        <p>A detailed description of the corpus construction can be found in the corpus readme file and in the Publications.</p>
+
+        <p><i>Previous Corpus Versions.</i> There have been two corpus versions prior to this one. The first version was the Webis-PC-08, in which we experimented for the first time with generating plagiarism semi-automatically. The second version was developed for the 1st International Competition on Plagiarism Detection at the PAN'09 workshop, which has been released in two steps as training corpus and test corpus. Both versions are still available upon request, but we recommend to use the current version in your research.</p>
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://temir.org/people.html#potthast" title="Martin Potthast">Martin Potthast</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+            <li><a href="http://www.lsi.upc.edu/~albarron/" title="Alberto Barrón-Cedeño">Alberto Barrón-Cedeño</a> (NLEL at Universidad Polytécnica de Valencia)</li>
+            <li><a href="http://users.dsic.upv.es/~prosso/" title="Paolo Rosso">Paolo Rosso</a> (NLEL at Universidad Polytécnica de Valencia)</li>
+        </ul>
+
+        <p>Students: Andreas Eiselt</p>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:pan-pc-09");
+</script>

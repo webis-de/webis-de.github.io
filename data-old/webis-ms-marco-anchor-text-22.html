@@ -1,0 +1,143 @@
+---
+layout: default
+nav_active: data
+title: Webis MS MARCO Anchor Text 2022 corpus 
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis MS MARCO Anchor Text 2022",
+    "description":"The Webis MS MARCO Anchor Text 2022 dataset enriches Version 1 and 2 of the document collection of MS MARCO with anchor text extracted from six Common Crawl snapshots covering the years 2016 to 2021 (between 1.7-3.4 billion documents each)",
+    "url":"https://webis.de/data/webis-ms-marco-anchor-text-22.html",
+    "sameAs":"https://zenodo.org/record/5883456",
+    "keywords":[
+        "information retrieval", 
+        "argument search"
+    ], 
+    "datePublished":"2022",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/team/#froebe",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"Fr\u00f6be, Maik"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/team/#guenther",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"G\u00fcnther, Sebastian"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/team/#probst",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"Probst, Maximilian"
+        },
+        {
+            "@type":"Person", 
+            "affiliation":"Leipzig University",
+	    "url":"https://temir.org/people.html",
+	    "name":"Potthast, Martin"
+        },
+	{
+	    "@type":"Person",
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg", 
+            "name":"Hagen, Matthias"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"JSON",
+            "contentUrl":"https://zenodo.org/record/5883456#.YfbHru8o_rk"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis MS MARCO Anchor Text 2022</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li> 
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+The Webis MS MARCO Anchor Text 2022 dataset enriches Version 1 and 2 of the document collection of <a href="https://microsoft.github.io/msmarco/">MS MARCO</a> with anchor text extracted from six <a href="https://commoncrawl.org/">Common Crawl</a> snapshots. The six Common Crawl snapshots cover the years 2016 to 2021 (between 1.7-3.4 billion documents each). Overall, the MS MARCO Anchor Text 2022 dataset enriches 1,703,834 documents for Version 1 and 4,821,244 documents for Version 2 with up to 1,000 anchor texts each.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>The Webis MS MARCO Anchor Text 2022 dataset is available at:</p>
+        <ul>
+            <li>
+                <a href="https://github.com/allenai/ir_datasets/issues/154">ir_datasets</a>
+            </li>
+	    <li>
+		    <a href="https://zenodo.org/record/5883456">Zenodo</a>
+	    </li>
+	    <li>
+		    <a href="https://huggingface.co/datasets/webis/ms-marco-anchor-text">Hugging Face</a>
+	    </li>
+        </ul>
+
+ 
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/team/#froebe">Maik Fröbe</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/team/#guenther">Sebastian Günther</a></li>
+	    <li>Maximilian Probst</li>
+	    <li><a href="https://temir.org/people.html"> Martin Potthast</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+        </ul>
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/selection.js"></script>
+            <script src="https://assets.webis.de/js/filter.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "keywords:webis-ms-marco-anchor-text-22");
+            </script>
+            </p>
+        </div>
+    </div>
+</main>
+

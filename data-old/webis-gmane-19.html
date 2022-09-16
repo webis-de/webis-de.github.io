@@ -1,0 +1,218 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-Gmane-19
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-Gmane-19",
+    "description":"A large-scale corpus of over 153 million fully-segmented emails from 14.635 public mailing lists.",
+    "url":"https://webis.de/data/webis-gmane-19.html",
+    "sameAs":"",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "dialog",
+        "dialog analysis",
+        "email",
+        "email corpus",
+        "mailing list",
+        "mailing list corpus",
+        "newsgroup",
+        "gmane",
+        "corpus",
+        "debate", 
+        "argumentation", 
+        "arguments", 
+        "discussion",
+    ], 
+    "datePublished":"2020",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type": "Person",
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar",
+            "name": "Bevendorff, Janek"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#alkhatib",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Al-Khatib, Khalid"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2451-0665",
+            "@type": "Person",
+            "affiliation": "Leipzig University",
+            "name": "Potthast, Martin"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"JSON",
+            "contentUrl":""
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-Gmane-19</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>A large-scale corpus of over 153 million fully-segmented emails from 14.635 public mailing lists.</p>
+
+        <p>The Webis Gmane Email Corpus 2019 is a dataset of more than 153 million parsed and segmented emails&nbsp;crawled between February and May 2019 from gmane.io covering more than 20 years&nbsp;of public mailing lists. The dataset has been published as a resource at ACL 2020.</p>
+
+        <p>The dataset comes as a set of Gzip-compressed files containing line-based JSON&nbsp;in the&nbsp;<a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html">Elasticsearch bulk format</a>. Each data record&nbsp;consists of two lines:</p>
+
+        <pre>
+<code class="language-json">{"index": {"_id": "&lt;urn:uuid:c1d95e4b-0f43-46c7-a99e-c575d1d8e1ce&gt;"}}
+{"headers": {"header name": "header value", ...}, "text_plain": "plaintext body", "lang": "en", "segments": [{"end": 99, "label": "paragraph", "begin": 0}, ...], "group": "gmane group name"}
+</code></pre>
+
+        <p>The first line is the Elasticsearch index action with a document UUID, the second one the actual parsed email with a (reduced and anonymized) set of headers, the detected language, the original Gmane group name and the predicted content segments as character spans. The Gzip files are splittable every 1,000 records (line pairs) for parallel processing in, e.g., Hadoop.</p>
+
+        <p>Available email headers are:</p>
+
+        <ul>
+            <li>message_id</li>
+            <li>date (ES 7.x: yyyy-MM-dd HH:mm:ssXXX, ES 6.8: yyy-MM-dd HH:mm:ssZZ)</li>
+            <li>subject</li>
+            <li>from</li>
+            <li>to</li>
+            <li>cc</li>
+            <li>in_reply_to</li>
+            <li>references</li>
+            <li>list_id</li>
+        </ul>
+
+        <p>Available segment classes are:</p>
+
+        <ul>
+            <li>paragraph</li>
+            <li>closing</li>
+            <li>inline_headers</li>
+            <li>log_data</li>
+            <li>mua_signature</li>
+            <li>patch</li>
+            <li>personal_signature</li>
+            <li>quotation</li>
+            <li>quotation_marker</li>
+            <li>raw_code</li>
+            <li>salutation</li>
+            <li>section_heading</li>
+            <li>tabular</li>
+            <li>technical</li>
+            <li>visual_separator</li>
+        </ul>
+
+        <h3>Compatibility Note:</h3>
+        <p>The corpus was originally indexed with Elasticsearch 6.8, which accepted a different date format. Elasticsearch 7.x may fail due to invalid UTC zone offsets in some messages. The following Painless&nbsp;script fixes the issue by clipping offsets outside the +/-18:00 range:</p>
+
+        <pre>
+<code class="language-java">if (ctx._source.headers.date != null) {
+    String o = ctx._source.headers.date.substring(ctx._source.headers.date.length() - 5);
+    int oi = Integer.min(18, Integer.parseInt(o.substring(0, 2)));
+    String co = String.format("%02d", new def[] {oi});
+    o = oi < 18 ? co + o.substring(o.length() - 3) : co + ":00";
+    ctx._source.headers.date = ctx._source.headers.date.substring(0, ctx._source.headers.date.length() - 5) + o;
+}</code></pre>
+
+        <p>In Python, you can preprocess the date field with:</p>
+
+        <pre>
+<code class="language-python">''.join((d[:-5], f'{min(18, int(d[-5:-3])):02d}', d[-3:] if int(d[-5:-3]) &lt; 18 else ':00'))</code></pre>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>As a qualified individual researcher or member of a research institution, you can request access the Webis-Gmane-19 corpus on <a href="https://zenodo.org/record/3766985">Zenodo</a>.</p>
+
+        <p>The dataset is available only to individual researchers and research institutions.&nbsp;If you qualify for either one, we are happy to share the data with you under the following conditions: Any non-academic use and redistribution of the data are&nbsp;prohibited.&nbsp;By downloading the dataset, you agree to these terms. We request you be responsible&nbsp;in your research and in your handling of the data and&nbsp;adhere to ethical standards and privacy regulations.</p>
+
+        <p>Despite the anonymization of email addresses and headers and the fact that all data comes from a readily-available online source, we take this step as a measure to protect the privacy of users whose data can be found in the corpus.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus as [<a href="https://webis.de/publications.html#bevendorff_2020c">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.3766984">doi</a>] for a stable link.</p>
+
+        <p>The pre-trained segmentation model and code can be downloaded freely from <a href="https://github.com/webis-de/acl-20">GitHub</a>.</p>
+
+        <p>The raw crawl data (including a snapshot of the whole <code>gwene</code> RSS feed headline hierarchy) is available at the <a href="https://archive.org/details/webis-gmane-19">Internet Archive</a>.</p>
+
+        <!--
+        SECTION Research
+        -->
+<!--        <h2 id="research">Research</h2>-->
+<!--        <p></p>-->
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://weimar.webis.de/people/#bevendorff">Janek Bevendorff</a></li>
+            <li><a href="https://weimar.webis.de/people/#alkhatib">Khalid Al-Khatib</a></li>
+            <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+
+        <!--
+    	SECTION Publications
+        -->
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-gmane-2019");
+                </script>
+            </p>
+        </div>
+    </div>
+</main>

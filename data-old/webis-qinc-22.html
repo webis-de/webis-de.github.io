@@ -1,0 +1,186 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-QInC-22
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"Webis-QInC-22",
+    "description":"The Webis Query Interpretation Corpus 2022 (Webis-QInC-22) contains manually selected explicit entities, implicit entities and entity based interpretations for 2,800 web queries.",
+    "text":"",
+    "url":"https://webis.de/data/webis-qinc-22.html",
+    "sameAs":"https://doi.org/10.5281/zenodo.5820673",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "queries",
+        "entity linking",
+        "query interpretation",
+        "query understanding",
+        "query segmentation"
+    ], 
+    "datePublished":"2022",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person",
+            "url":"https://www.vaibhavkasturia.com/",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg",
+            "name":"Kasturia, Vaibhav"
+        },
+        {
+            "@type":"Person",
+            "url":"https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#gohsen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar",
+            "name":"Gohsen, Marcel"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Martin-Luther-Universit\u00e4t Halle-Wittenberg",
+            "name":"Hagen, Matthias"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    }
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-QInC-22</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+
+        <p>The Webis Query Interpretation Corpus 2022 (Webis-QInC-22) contains manually selected explicit entities, implicit entities and entity based interpretations for 2,800 web queries. These web queries were either obtained from existing entity linking datasets or ambiguity queries from various sources.</p>
+
+        <p>The dataset consists of a train and test split and comes as a Zip-compressed archive of JSON files. Each JSON file contains an array of queries where each is formatted like the following: </p>
+
+        <pre><code class="language-json">
+            {
+                "id": "webis-001",
+                "query": "new york times square dance",
+                "difficulty": 2,
+                "categories": [
+                    "ConQ"
+                ],
+                "explicit_entities": [
+                    {
+                        "mention": "new york times",
+                        "entity": [
+                            "https://en.wikipedia.org/wiki/The_New_York_Times"
+                        ],
+                        "relevance": 2
+                    },
+                    {
+                        "mention": "new york",
+                        "entity": [
+                            "https://en.wikipedia.org/wiki/New_York_City"
+                        ],
+                        "relevance": 2
+                    },
+                    {
+                        "mention": "times square",
+                        "entity": [
+                            "https://en.wikipedia.org/wiki/Times_Square"
+                        ],
+                        "relevance": 2
+                    },
+                    ...
+                ],
+                "implicit_entities": [],
+                "interpretations": [
+                    {
+                        "id": 0,
+                        "interpretation": [
+                            "https://en.wikipedia.org/wiki/The_New_York_Times",
+                            "square dance"
+                        ],
+                        "relevance": 3,
+                        "equivalent": null,
+                        "comment": "Articles about square dance in the New York Times newspaper"
+                    },
+                    {
+                        "id": 1,
+                        "interpretation": [
+                            "https://en.wikipedia.org/wiki/New_York_City",
+                            "https://en.wikipedia.org/wiki/Times_Square",
+                            "dance"
+                        ],
+                        "relevance": 3,
+                        "equivalent": null,
+                        "comment": "Dance happening at the Times Square in New York City"
+                    },
+                    ...
+                ],
+            }
+        </code>
+        </pre>
+
+        <p>Additionally, the dataset comprise line-based JSON files that document the evaluation of explicit entity retrieval and query interpretation of all analyzed entity linking tools.</p>
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>You can access the Webis-QInC-22 corpus on <a href="https://doi.org/10.5281/zenodo.5820673">Zenodo</a>.</p>
+
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#kasturia_2022">bib</a>]. If you additionally want to link to the dataset, please use the dataset's [<a href="https://doi.org/10.5281/zenodo.5820673">doi</a>] for a stable link.</p>
+
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://www.vaibhavkasturia.com/" title="Vaibhav Kasturia">Vaibhav Kasturia</a></li>
+            <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#gohsen" title="Marcel Gohsen">Marcel Gohsen</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen" title="Matthias Hagen">Matthias Hagen</a></li>
+        </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2 id="publications">Publications</h2>
+        <div id="publications-list">
+        </div>
+
+        </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:webis-qinc-22");
+</script>

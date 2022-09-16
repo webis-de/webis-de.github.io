@@ -1,0 +1,332 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Webis-ArgQuality-20 
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"webis-argquality-20",
+    "description":"The Webis Argument Quality Corpus 2020  (Webis-ArgQuality-20) contains 1271 arguments spanning 20 topics with scores for rhetorical, logical, dialectical, and overall quality as well as topical relevance. Quality scores are inferred from a total of 42k pairwise judgments. Arguments are sourced from the args.me corpus.",
+    "url":"https://webis.de/data/webis-argument-quality-20",
+    "sameAs":"http://doi.org/10.5281/zenodo.3780049",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "arguments", 
+        "computational argumentation",
+        "argument quality",
+        "argument search"
+    ], 
+    "datePublished":"2020",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#gienapp",
+            "affiliation":"Leipzig University", 
+            "name":"Gienapp, Lukas"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Hagen, Matthias"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://temir.org/people.html#potthast",
+            "affiliation":"Leipzig University", 
+            "name":"Potthast, Martin"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"https://zenodo.org/record/3780049"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Webis-ArgQuality-20</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#documentation">Documentation</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>-->
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            The Webis Argument Quality Corpus 2020 (Webis-ArgQuality-20) contains 1271 arguments spanning 20 topics with scores for rhetorical, logical, dialectical, and overall quality as well as topical relevance. Quality scores are inferred from a total of 42k pairwise judgments. Arguments are sourced from the args.me corpus.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>To download the corpus and model use the following links:</p>
+        <ul>
+            <li>
+                <a href="https://zenodo.org/record/3780049">Webis-ArgQuality-20 Data</a>
+            </li>
+            <li>
+                <a href="https://github.com/webis-de/acl20-efficient-argument-quality-annotation">Webis-ArgQuality-20 Model</a>
+            </li>
+        </ul>
+
+        <!--
+        SECTION Documentation
+        -->
+        <h2 id="documentation">Documentation</h2>
+        <p> The Webis-ArgQuality-20 corpus consists of two sets of data: a processed version, where for each annotated argument, a scalar value for each argument quality dimension is derived; and the raw annotation data, providing the individual paired comparison labels. The structure of both datasets is described below. </p>
+
+        <h3> Processed Data </h3>
+        <p>The dataset is split into three different tables. Each key represents a column name, with details about the contained data in the explanation field. Primary keys are marked in <b>bold</b>. If a combined key is used, all entries that the combined key is composed of are marked. Foreign keys that can be used to reference other tables are marked in <i>italics</i>.</p>
+        <ul>
+            <li> Argument Dataset
+                <table class="uk-table uk-table-divider uk-table-condensed"> 
+                <tbody>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Key</b></td>
+                    <td class="uk-table-shrink"><b>Explanation</b></td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Topic ID</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier for the topic context</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Argument ID</b></td>
+                    <td class="uk-table-shrink">Unique identifier for the item in regards to the discussion it is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Discussion ID</b></td>
+                    <td class="uk-table-shrink">Unique identifier of the discussion the item is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Is Argument?</td>
+                    <td class="uk-table-shrink">Boolean value, indicating wether the item is an argument, or not </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Stance</td>
+                    <td class="uk-table-shrink">Denotes the stance of the item, can be Pro, Con or Not specified</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Relevance</td>
+                    <td class="uk-table-shrink">Relevance score, z-normalised</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Logical Quality</td>
+                    <td class="uk-table-shrink">Logical quality score, z-normalised</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Rhetorical Quality</td>
+                    <td class="uk-table-shrink">Rhetorical quality score, z-normalised</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Dialectical Quality</td>
+                    <td class="uk-table-shrink">Dialectical quality score, z-normalised </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Combined Quality</td>
+                    <td class="uk-table-shrink">Combined quality score, z-normalised</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Premise</td>
+                    <td class="uk-table-shrink">Text of the items' premise </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Text Length</td>
+                    <td class="uk-table-shrink">Word Count of the premise</td>
+                  </tr>
+                </tbody>
+                </table>                                                                       
+            </li>
+            <li>Ranking Dataset
+                <table class="uk-table uk-table-divider uk-table-condensed">
+                <tbody>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Key</b></td>
+                    <td class="uk-table-shrink"><b>Explanation</b></td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Topic ID</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier for the topic context </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Model</b></td>
+                    <td class="uk-table-shrink">Unique identifier of the discussion the item is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Rank</b></td>
+                    <td class="uk-table-shrink">The rank of the argument in the respective engines ranking </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><i>Argument ID</i></td>
+                    <td class="uk-table-shrink">Unique identifier for the argument in regards to the discussion it is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><i>Discussion ID</i></td>
+                    <td class="uk-table-shrink">Unique identifier of the discussion the argument is part of</td>
+                  </tr>
+                </tbody>
+                </table> 
+            </li>
+            <li>Topic Dataset
+                <table class="uk-table uk-table-divider uk-table-condensed">
+                <tbody>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Key</b></td>
+                    <td class="uk-table-shrink"><b>Explanation</b></td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Topic ID</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier for the topic context </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Category</td>
+                    <td class="uk-table-shrink">Thematical category the topic belongs to</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Long Query</td>
+                    <td class="uk-table-shrink">Long query, used as input for the retrieval models</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Short Query</td>
+                    <td class="uk-table-shrink">Shortened form of the query</td>
+                  </tr>
+                </tbody>
+                </table> 
+            </li>
+        </ul>
+        <h4>Raw Data</h4>
+        <p>Individual comparisons for argument quality are given in a dedicated table each. Relevance annotations are included as well. Each key represents a column name, with details about the contained data in the explanation field. Primary keys are marked in <b>bold</b>. If a combined key is used, all entries that the combined key is composed of are marked. Foreign keys that can be used to reference other tables are marked in <i>italics</i>.</p>
+        <ul>
+            <li>Quality Annotations
+                <table class="uk-table uk-table-divider uk-table-condensed">
+                <tbody>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Key</b></td>
+                    <td class="uk-table-shrink"><b>Explanation</b></td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Argument ID A</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier for argument A in regards to the discussion it is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Discussion ID A</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier of the discussion argument A is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Argument ID B</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier for argument B in regards to the discussion it is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Discussion ID B</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier of the discussion argument B is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Comparison</td>
+                    <td class="uk-table-shrink">Denotes the direction of the comparison; can be "A" if argument A is better, "B" if argument B is better, of "Tie", if both arguments are equal. </td>
+                  </tr>
+                </tbody>
+                </table>
+            </li> 
+            <li>Relevance Annotations
+                <table class="uk-table uk-table-divider uk-table-condensed">
+                <tbody>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Key</b></td>
+                    <td class="uk-table-shrink"><b>Explanation</b></td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b>Task ID</b></td>
+                    <td class="uk-table-shrink">ID of the annotation task this annotation was part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Argument ID</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier for the argument in regards to the discussion it is part of</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink"><b><i>Discussion ID</i></b></td>
+                    <td class="uk-table-shrink">Unique identifier of the discussion the argument is part of </td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Relevance</td>
+                    <td class="uk-table-shrink">Denotes the relevance of this argument with regards to the topic on a scale of 0 (low) to 4 (high). -2 is used to mark irrelevant text/spam</td>
+                  </tr>
+                  <tr>
+                    <td class="uk-table-shrink">Is Argument?</td>
+                    <td class="uk-table-shrink">Boolean value, indicating wether the item is an argument, or not</td>
+                  </tr>
+                </tbody>
+                </table>
+            </li>
+        </ul>
+        <h4>Model Implementation</h4>
+        <p>A Python implementation is provided. See code comments for additional implementation details. Also, an example describing the usage of the model is given, and can be applied to the raw data to derive the processed version.</p>
+
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://temir.org/people.html#gienapp">Lukas Gienapp</a></li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+            <li><a href="https://www.informatik.uni-halle.de/arbeitsgruppen/big_data_analytics/mitarbeiter/#hagen">Matthias Hagen</a></li>
+            <li><a href="https://temir.org/people.html#potthast">Martin Potthast</a></li>
+        </ul>
+        <!--
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/selection.js"></script>
+<script src="https://assets.webis.de/js/filter.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "keywords:webis-argument-framing-19");
+            </script>
+            </p>
+        </div>
+        -->
+    </div>
+
+</main>

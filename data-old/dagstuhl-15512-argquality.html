@@ -1,0 +1,175 @@
+---
+layout: default
+nav_active: data
+title: Webis Data Dagstuhl-15512-ArgQuality 
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../data.html">Data</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Dataset",
+    "name":"dagstuhl-15512-argquality",
+    "description":"An English corpus for studying the assessment of argumentation quality. It contains 320 online debate portal arguments, annotated for 15 different quality dimensions by three annotators.",
+    "url":"https://webis.de/data/dagstuhl-15512-argquality",
+    "sameAs":"https://doi.org/10.5281/zenodo.3973284",
+    "license":"https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords":[
+        "arguments", 
+        "computational argumentation"
+    ], 
+    "datePublished":"2018",
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@type":"Person",
+            "url":"https://cs.uni-paderborn.de/css/group/group#wachsmuth",
+            "affiliation":"Paderborn University",
+            "name":"Wachsmuth, Henning"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"University of Toronto, Toronto, Canada",
+            "name":"Naderi, Nona"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"IBM Research Dublin, Ireland",
+            "name":"Hou, Yufang"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"IBM Research Haifa, Israel",
+            "name":"Bilu, Yonatan"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"Stanford University, Stanford, CA, USA",
+            "name":"Prabhakaran, Vinodkumar"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"University of Toronto, Toronto, Canada",
+            "name":"Alberdingk Thijm, Tim"
+        },
+        {
+            "@type":"Person",
+            "affiliation":"University of Toronto, Toronto, Canada",
+            "name":"Hirst, Graeme"
+        },
+        {
+            "@type":"Person", 
+            "url":"https://weimar.webis.de/people/#stein",
+            "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+            "name":"Stein, Benno"
+        }
+    ],
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"Webis Data Catalog",
+        "url":"https://webis.de/data/"
+    },
+    "distribution":[
+        {
+            "@type":"DataDownload",
+            "encodingFormat":"CSV",
+            "contentUrl":"https://zenodo.org/record/3973285"
+        }
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Dagstuhl-15512-ArgQuality</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#download">Download</a></li>
+            <!--<li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li>-->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+???END
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            An English corpus for studying the assessment of argumentation quality. It contains 320 online debate portal arguments, annotated for 15 different quality dimensions by three annotators.
+            
+            In version 2, the annotated XMI files have been changed according to a new underlying type system where each quality dimension is represented by an own annotation. This annotation contains not only the majority score of the respective dimension (as in version 1), but also the mean score and the scores of all annotators. We recommend to use version 2.
+            
+            In case you publish any results related to the Dagstuhl-15512 ArgQuality corpus, please cite our EACL 2017 <a href="#publications">paper</a> on argumentation quality.
+        </p>
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Download</h2>
+        <p>To download the corpus use the following link:</p>
+        <ul>
+            <li>
+                <a href="https://zenodo.org/record/3973285">Dagstuhl-15512-ArgQuality</a>
+            </li>
+        </ul>
+
+        <!--
+        SECTION Research
+        
+        <h2 id="research">Research</h2>
+
+        <ul>
+            <li> </li>
+        </ul>
+
+    
+        -->
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            <li><a href="https://cs.uni-paderborn.de/css/group/group#wachsmuth">Henning Wachsmuth</a></li>
+            <li>Nona Naderi</li>
+            <li>Yufang Hou</li>
+            <li>Yonatan Bilu</li>
+            <li>Vinodkumar Prabhakaran</li>
+            <li>Tim Alberdingk Thijm</li>
+            <li>Graeme Hirst</li>
+            <li><a href="https://weimar.webis.de/people/#stein">Benno Stein</a></li>
+        </ul>
+
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+            <script src="https://assets.webis.de/js/selection.js"></script>
+<script src="https://assets.webis.de/js/filter.js"></script>
+            <script>
+            includeBibentries(document.getElementById("publications-list"), "bibid:stein2017c");
+            </script>
+            </p>
+        </div>
+
+    </div>
+
+</main>
+
+
