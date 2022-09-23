@@ -1,0 +1,164 @@
+---
+layout: default
+nav_active: data
+title: Webis Data TexBiG
+description: Overview of corpora that are used by the Webis research group
+---
+<nav class="uk-container">
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../../../data.html">Data</a></li>
+        <li class="uk-disabled"><a href="#">TexBiG</a></li>
+    </ul>
+</nav>
+
+
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "name": "TexBiG",
+    "description": "<p> TexBiG (from the German Text-Bild-Gef{\\\"u}ge, meaning Text-Image-Structure) is a document layout analysis dataset for historical documents in the late 19th and early 20th century. The dataset provides instance segmentation (bounding boxes and polygons/masks) annotations for 19 different classes with more then 52.000 instances. Annotations are manually annotated by experts and evaluated with Krippendorff's Alpha, for each document image are least two different annotators have labeled the document. </p>",
+    "url": "https://webis.de/data/TexBiG",
+    "sameAs": "https://doi.org/10.5281/zenodo.6885143",
+    "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
+    "keywords": [
+        "humanities"
+    ],
+    "datePublished": "2022",
+    "creator": [
+        {
+            "@type": "Organization",
+            "url": "https://webis.de/",
+            "name": "The Web Technology & Information Systems Network",
+            "alternateName": "Webis Group"
+        },
+        {
+            "@type": "Person",
+            "@id": "",
+            "name": "David Tschirschwitz",
+            "url": "",
+            "affiliation": ""
+        },
+        {
+            "@type": "Person",
+            "@id": "",
+            "name": "Franziska Klemstein",
+            "url": "",
+            "affiliation": ""
+        },
+        {
+            "@type": "Person",
+            "@id": "0000-0001-9033-2217",
+            "name": "Benno Stein",
+            "url": "https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein",
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar"
+        },
+        {
+            "@type": "Person",
+            "@id": "",
+            "name": "Volker Rodehorst",
+            "url": "",
+            "affiliation": ""
+        }
+    ],
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Webis Data Catalog",
+        "url": "https://webis.de/data/"
+    },
+    "distribution": [
+        [
+            {
+                "@type": "DataDownload",
+                "contentUrl": "https://doi.org/10.5281/zenodo.6885143"
+            },
+            {
+                "@type": "DataDownload",
+                "contentUrl": "https://toolbox.google.com/datasetsearch/search?query=texbig"
+            }
+        ]
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>TexBiG</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        
+        <!--
+        SECTION Synopsis
+        -->
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            <p> TexBiG (from the German Text-Bild-Gef{\"u}ge, meaning Text-Image-Structure) is a document layout analysis dataset for historical documents in the late 19th and early 20th century. The dataset provides instance segmentation (bounding boxes and polygons/masks) annotations for 19 different classes with more then 52.000 instances. Annotations are manually annotated by experts and evaluated with Krippendorff's Alpha, for each document image are least two different annotators have labeled the document. </p>
+        </p>
+        
+
+        <!--
+        SECTION Download
+        -->
+        <h2 id="download">Access</h2>
+            <p>
+                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/https://doi.org/10.5281/zenodo.6885143">doi</a>]. 
+            </p>
+        
+        <ul>
+            
+            
+            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.6885143">Zenodo</a>
+                
+                </li>
+            
+            
+            <li>Find the related metadata at <a href="https://toolbox.google.com/datasetsearch/search?query=texbig">Google</a>.</li>
+            
+        </ul>
+        
+
+        
+        <!--
+        SECTION People
+        -->
+        <h2 id="people">People</h2>
+        <ul>
+            
+                <li>David Tschirschwitz</li>
+            
+                <li>Franziska Klemstein</li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
+            
+                <li>Volker Rodehorst</li>
+            
+        </ul>
+        
+
+        
+        <h2 id="publications">Publications</h2>
+        <div id="publications-list">
+            <p>
+                <script src="https://assets.webis.de/js/selection.js"></script>
+                <script src="https://assets.webis.de/js/filter.js"></script>
+                <script>
+                    includeBibentries(document.getElementById("publications-list"), "keywords:texbig");
+                </script>
+            </p>
+        </div>
+        
+
+    </div>
+
+</main>
+
