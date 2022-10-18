@@ -41,7 +41,7 @@ select.uk-select.filter {
 }
 
 #lecturenotes-coursetable li {
-  margin: 0px;
+  margin: 0;
 }
 
 #lecturenotes-coursetable {
@@ -150,6 +150,7 @@ select.uk-select.filter {
 
     // selection
     .halle li:not(.halle),
+    .jena li:not(.jena),
     .leipzig li:not(.leipzig),
     .paderborn li:not(.paderborn),
     .passau li:not(.passau),
