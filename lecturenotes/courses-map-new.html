@@ -1,0 +1,81 @@
+---
+layout: default
+nav_active: lecturenotes
+title: Webis Lecturenotes Courses Map
+description: Webis lecturenotes courses map
+---
+<nav class="uk-container">
+    <ul class="uk-breadcrumb">
+        <li><a href="../index.html">Webis.de</a></li>
+        <li><a href="../lecturenotes.html">Lecturenotes</a></li>
+        <li class="uk-disabled"><a href="#">Courses Map</a></li>
+    </ul>
+</nav>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Courses Map</h1>
+
+        <p>
+            The table below organizes the Webis courses (see <a href="#copyright-notice">copyright</a>), which cover
+            relevant contents from our research areas. Clicking a table cell will bring you to the respective <a
+                title="Course slides" href="{{ '/lecturenotes.html' | relative_url }}">course slides</a>. Choose a
+            filter criterion to see at which universities or at what level our courses are taught.
+        </p>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <div>
+            <select class="uk-select filter"
+                    onkeyup="changeStyleSheet(this.options[this.selectedIndex].value)"
+                    onchange="changeStyleSheet(this.options[this.selectedIndex].value)">
+                <option value="base" selected="selected">Click here to filter...</option>
+                <option disabled="disabled">--</option>
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+                <option disabled="disabled">--</option>
+                <option value="jena">Jena University</option>
+                <option value="leipzig">Leipzig University</option>
+                <option value="paderborn">Paderborn University</option>
+                <option value="passau">Passau University</option>
+                <option value="weimar">Weimar University</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="uk-container uk-margin-medium" id="lecturenotes-coursetable">
+        <div class="base">
+            {% include courses-map.html %}
+        </div>
+    </div>
+
+    <div class="uk-container">
+        <p id="copyright-notice" class="uk-text-muted">
+            &copy; Maintainers of the Lecturenotes repository and main persons in charge are
+            <a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a> and
+            <a href="https://www.uni-paderborn.de/person/315/">Theo Lettmann</a>,
+            who also authored a large portion of the scripts. Our mission is to create first-class
+            teaching resources for selected basic and advanced computer science topics, while putting high emphasis on
+            both semantical and syntactical coherence. In this regard the mathematical language is unified across all
+            units, as is the ''formalization dialectics'', but also the use of fonts, colors, and style, to mention only
+            a few aspects. <br>
+
+            Meanwhile other computer scientists have joined the team:
+            <a href="https://www.fim.uni-passau.de/data-science/team/">Michael Granitzer</a> (Passau University) as of
+            2013,
+            <a href="https://jena.webis.de/">Matthias Hagen</a> (Friedrich Schiller University Jena) as of 2015,
+            <a href="https://temir.org/people.html#potthast">Martin Potthast</a> (Leipzig University) as of 2017,
+            <a href="https://www.uni-paderborn.de/person/3900/">Henning Wachsmuth</a> (Paderborn University) as of 2018.
+            The Lecturenotes scripts are continuously improved and extended; the scripts are freely available and their
+            use is encouraged as long as they are not
+            modified and a copyright note pointing to the authors is provided. Hints regarding the improvement or the
+            use of the scripts are very welcome.</p>
+        <p class="uk-text-right uk-text-muted">Benno Stein and Theo Lettmann</p>
+    </div>
+</main>
+
+<script>
+    function changeStyleSheet(name) {
+        document.querySelector('#lecturenotes-coursetable > div').setAttribute('class', name);
+    }
+</script>

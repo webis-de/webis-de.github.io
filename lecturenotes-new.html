@@ -1,0 +1,44 @@
+---
+layout: default
+nav_active: lecturenotes
+title: Webis Lecturenotes Slides
+description: Webis lecture notes
+---
+<nav class="uk-container">
+    <ul class="uk-breadcrumb">
+        <li><a href="index.html">Webis.de</a></li>
+        <li class="uk-disabled"><a href="#">Lecturenotes</a></li>
+    </ul>
+</nav>
+
+<!--
+NOTE
+Using Jekyll to insert the dates from ../_data/slidedates.json
+These dates are updated by the upload.php, which leads to a clear separation of tasks:
+You change this file, the upload.php changes the slidedates.json.
+-->
+<main class="uk-section uk-section-default" id="lecturenotes-slides">
+    <div class="uk-container">
+        <h1>Lecturenotes</h1>
+        <ul class="uk-list">
+            <li><span data-uk-icon="chevron-right"></span> <a href="lecturenotes/courses-map.html">Courses Map</a></li>
+        </ul>
+        {% include lecturenotes.html %}
+        <div id="filtered-all-message" class="uk-hidden uk-text-muted" aria-hidden="true">
+            None of our lecturenotes match your filter.
+        </div>
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/thirdparty/fontawesome/fontawesome.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/fontawesome/brands.min.js"></script>
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script src="https://assets.webis.de/js/tables.js"></script>
+<script>
+    initWebisTableFiltering(document.querySelectorAll(".targetable"), true, entry => {
+        const attributes = entry.dataset;
+        attributes['name'] = normalize(entry.children[1].textContent);
+        return attributes;
+    });
+</script>
