@@ -25,7 +25,11 @@ description: Collection of resources relevant to our students
 </ul>
 </div>
 
-
+<div class="uk-container uk-margin-medium">
+<div id="search-control">
+<input type="text" class="uk-input" id="filter-field" placeholder="Type here to filter&hellip;"/>
+</div>
+</div>
 
 <div class="uk-container uk-margin-medium">
 
@@ -35,42 +39,44 @@ description: Collection of resources relevant to our students
 <p>
 Students who are eager to develop their skills by doing a research-oriented thesis in our group should mail their interests to <a href="mailto:webis@listserv.uni-weimar.de?subject=Application%20for%20a%20Thesis%20at%20Webis">webis@listserv.uni-weimar.de</a>. Suitable topic candidates are shown in the following list, which is not meant to be complete though:
 </p>
+<div class="webis-list">
 <ul> <!-- sorted alphabetically by title -->
-    <!--<li>Adapting sentence embeddings to OCR erroneous data</li>  proposed by Kim -->
-    <!--<li>Adversarial Learning of Writing Style Representations</li> [needs additional supervisor] --> <!-- proposed by Martin -->
-    <!--<li>An Exploratory Study on the Retrievability of Research Papers</li> -->  <!-- proposed by Maik, Sebastian -->
-    <!--<li>Argumentation in Software Engineering</li>--> <!-- proposed by Martin,Norbert,Benno -->
-    <!--<li>Assessing the Quality of Comparative Review Webpages</li>--> <!-- proposed by Matti, Janek  -->
-    <!-- <li>Authorship Attribution based on Supra-segmental Features</li>-->  <!-- proposed by Janek, Magdalena -->
-    <!--<li>Automatic Generation of Persuasive Texts</li>-->  <!-- proposed by Roxanne, Khalid -->
-    <!--<li>Automatic Updates of Relevance Labels for Web Search</li> --> <!-- proposed by Maik -->
-    <!--<li>Axiomatic Argumentative Web Scale Document Re-ranking</li>--> <!-- proposed by Sascha -->
-    <!--<li>Crawling and Analyzing the Novelupdates Corpus</li> [under consideration] --> <!-- proposed by Erik Körner -->
-    <!--<li>Detecting Bias in Media</li>--> <!-- proposed by Wei-Fan, Khalid -->
-    <!--<li>Crawling and Extraction of insurance websites and subsequent multilabel classification of available insurance products</li> <!-- proposed by Christian -->
-    <li>Does Training Data from different Corpora benefit Learning-to-Rank?</li> <!-- proposed by Maik -->
-    <!--<li>Entity Linking for Comparative Questions</li>--> <!-- proposed by Matthias, Sascha, Vaibhav -->
-    <!--<li>Exploiting Argumentation Knowledge Graphs for Argument Generation</li> [at full load] -->  <!-- proposed by Khalid -->
-    <!--<li>Harvesting the Web for Building Evidence-based Knowledge Graphs</li>--> <!-- proposed by Khalid -->
-    <!--<li>Identifying Successful Debating Strategies in Social Media</li>--> <!-- proposed by Khalid -->
-    <li>Incorporating Knowledge Graph Embeddings in Large Language Models</li> <!-- proposed by Ferdinand -->
-    <!--<li>Information Theory and Authorship</li>--> <!-- proposed by Benno, Martin -->
-    <!--<li>Learning to Rank Using Only Outdated Training Data</li>--> <!-- proposed by Maik -->
-    <li>Mining Arguments from Podcasts</li> <!-- proposed by Matti and Khalid (Johannes?) -->
-    <!--<li>Paraphrasing Operations for Heuristic Author Obfuscation</li>--> <!-- proposed by Martin, Benno, Matthias, Janek -->
-    <!--<li>Partitioning and Reconstructing Text Embeddings for Bias Mitigation and Authorship Analysis</li>--> <!-- seems like Victor Zimmermann will be looking into this --> <!-- proposed by Niklas -->
-    <!--<li>Rank Fusion for Contextualized Word Search</li> --> <!-- proposed by Matti  -->
-    <!--<li>Text Mining Methods for Intelligent Writing Assistance</li> [at full load] --> <!-- proposed by Khalid -->
-    <!--<li>Summarizing Online Discussions</li> [at full load] --> <!-- proposed by Khalid and Shahbaz -->
-    <!--<li>Simulating Search Behavior</li>--> <!-- proposed by Matthias, Sebastian -->
-    <!--<li>System Evaluation with Pairwise Relevance Judgements</li> [at full load] --> <!-- proposed by Lukas, Martin -->
-    <li>Query Obfuscation for Dense Retrieval Models</li> <!-- proposed by Maik Fröbe -->
-    <!--<li>Verbalizing Entity-based Answers in Conversational QA-Systems</li> --> <!-- proposed by Marcel  -->
-    <li>Reducing the Size of Dense Retrieval Indexes by Removing Unimportant Terms</li> <!-- proposed by Maik, Ferdinand -->
+    <!--<li data-mentor="kim bürgl">Adapting sentence embeddings to OCR erroneous data</li>-->
+    <!--<li data-mentor="martin potthast">Adversarial Learning of Writing Style Representations</li> [needs additional supervisor]--> 
+    <!--<li data-mentor="maik fröbe, sebastian günther">An Exploratory Study on the Retrievability of Research Papers</li>-->  
+    <!--<li data-mentor="martin potthast, norbert siegmund, benno stein">Argumentation in Software Engineering</li>--> 
+    <!--<li data-mentor="matti wiegmann, janek bevendorff">Assessing the Quality of Comparative Review Webpages</li>--> 
+    <!--<li data-mentor="janek bevendorff, magdalena wolska">Authorship Attribution based on Supra-segmental Features</li>-->  
+    <!--<li data-mentor="roxanne el baff, khalid al-khatib">Automatic Generation of Persuasive Texts</li>-->  
+    <!--<li data-mentor="maik fröbe">Automatic Updates of Relevance Labels for Web Search</li> --> 
+    <!--<li data-mentor="sascha bondarenko">Axiomatic Argumentative Web Scale Document Re-ranking</li>--> 
+    <!--<li data-mentor="erik körner">Crawling and Analyzing the Novelupdates Corpus</li> [under consideration] --> 
+    <!--<li data-mentor="wei-fan chen, khalid al-khatib">Detecting Bias in Media</li>--> 
+    <!--<li data-mentor="christian kahmann">Crawling and Extraction of insurance websites and subsequent multilabel classification of available insurance products</li> --> 
+    <li data-mentor="maik fröbe">Does Training Data from different Corpora benefit Learning-to-Rank?</li> 
+    <!--<li data-mentor="matthias hagen, sascha bondarenko">Entity Linking for Comparative Questions</li>--> 
+    <!--<li data-mentor="khalid al-khatib">Exploiting Argumentation Knowledge Graphs for Argument Generation</li> [at full load] -->  
+    <!--<li data-mentor="khalid al-khatib">Harvesting the Web for Building Evidence-based Knowledge Graphs</li>--> 
+    <!--<li data-mentor="khalid al-khatib">Identifying Successful Debating Strategies in Social Media</li>--> 
+    <li data-mentor="ferdinand schlatt">Incorporating Knowledge Graph Embeddings in Large Language Models</li> 
+    <!--<li data-mentor="benno stein, martin potthast">Information Theory and Authorship</li>--> 
+    <!--<li data-mentor="maik fröbe">Learning to Rank Using Only Outdated Training Data</li>--> 
+    <!--<li data-mentor="martin potthast, benno stein, matthias hagen, janek bevendorff">Paraphrasing Operations for Heuristic Author Obfuscation</li>--> 
+    <!--<li data-mentor="niklas deckers">Partitioning and Reconstructing Text Embeddings for Bias Mitigation and Authorship Analysis</li>--> <!-- seems like Victor Zimmermann will be looking into this --> 
+    <!--<li data-mentor="matti wiegmann">Rank Fusion for Contextualized Word Search</li> --> 
+    <!--<li data-mentor="khalid al-khatib>Text Mining Methods for Intelligent Writing Assistance</li> [at full load] --> 
+    <!--<li data-mentor="khalid al-khatib and shahbaz syed">Summarizing Online Discussions</li> [at full load] --> 
+    <!--<li data-mentor="matthias hagen, sebastian günther">Simulating Search Behavior</li>--> 
+    <!--<li data-mentor="lukas gienapp, martin potthast">System Evaluation with Pairwise Relevance Judgements</li> [at full load] --> 
+    <li data-mentor="maik fröbe">Query Obfuscation for Dense Retrieval Models</li> 
+    <!--<li data-mentor="marcel gohsen">Verbalizing Entity-based Answers in Conversational QA-Systems</li> --> 
+    <li data-mentor="maik fröbe, ferdinand schlatt">Reducing the Size of Dense Retrieval Indexes by Removing Unimportant Terms</li> 
 </ul>
+</div>
 
 
 <h2><a id="ongoing-theses"></a>Ongoing Theses</h2>
+<div class="webis-list">
 <ul> 
     <li>Halle
         <ul>
@@ -130,6 +136,7 @@ Students who are eager to develop their skills by doing a research-oriented thes
          </ul>
      </li>
 </ul>
+</div>
 
 
 
@@ -189,3 +196,8 @@ Web: webis.de
 
 </div>
 </main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script>
+initWebisFiltering(document.querySelectorAll(".webis-list ul"), "li", true, defaultDataAttributesPopulationFunction);
+</script>
