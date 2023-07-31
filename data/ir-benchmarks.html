@@ -1,14 +1,14 @@
 ---
 layout: default
 nav_active: data
-title: "Webis Data Archive Query Log 2022"
+title: "Webis Data IR Benchmarks"
 description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
     <ul class="uk-breadcrumb">
         <li><a href="../index.html">Webis.de</a></li>
         <li><a href="../../../data.html">Data</a></li>
-        <li class="uk-disabled"><a href="#">Archive Query Log 2022</a></li>
+        <li class="uk-disabled"><a href="#">IR Benchmarks</a></li>
     </ul>
 </nav>
 
@@ -17,23 +17,17 @@ description: Overview of corpora that are used by the Webis research group
     {
     "@context": "http://schema.org/",
     "@type": "Dataset",
-    "name": "Archive Query Log 2022",
-    "description": "<p>The AQL-22 is a query log collected at the Internet Archive over the last 25 years. Includes 356 M queries, 137 M search result pages, and 1.4 B billion search results across 550 search providers. The AQL-22 is the first public query log that is on par with commercial logs with respect to size, scope, and diversity. Provided in a privacy-preserving manner, it promotes open research as well as more transparency and accountability in the search industry.</p>",
-    "url": "https://webis.de/data/Archive Query Log 2022",
+    "name": "IR Benchmarks",
+    "description": "<p>A collection of information retrieval benchmarks covering 15 corpora (1.9 billion documents) on which 32 well-known shared tasks are based. We filled the leaderboards with Docker images of 50 standard retrieval approaches. Within this setup, we were able to automatically run and evaluate the 50 approaches on the 32 tasks (1600 runs). All Benchmarks are added as training datasets because their qrels are already publicly available. Please find a detailed tutorial on how to submit approaches at <a href=\"https://github.com/tira-io/ir-experiment-platform/tree/main/tira-ir-starters\" target=\"_blank\">GitHub</a></p>",
+    "url": "https://webis.de/data/IR Benchmarks",
     "sameAs": "-",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords": [
         "scadsai",
         "ir",
         "information retrieval",
-        "query",
         "tira",
-        "openwebsearch",
-        "web-archive",
-        "dm",
-        "data mining",
-        "aql",
-        "query log"
+        "openwebsearch"
     ],
     "datePublished": "2023",
     "creator": [
@@ -46,20 +40,6 @@ description: Overview of corpora that are used by the Webis research group
         {
             "@type": "Person",
             "@id": "",
-            "name": "Jan Heinrich Reimer",
-            "url": "",
-            "affiliation": ""
-        },
-        {
-            "@type": "Person",
-            "@id": "",
-            "name": "Sebastian Schmidt",
-            "url": "",
-            "affiliation": ""
-        },
-        {
-            "@type": "Person",
-            "@id": "",
             "name": "Maik Fr\u00f6be",
             "url": "",
             "affiliation": ""
@@ -67,16 +47,37 @@ description: Overview of corpora that are used by the Webis research group
         {
             "@type": "Person",
             "@id": "",
-            "name": "Lukas Gienapp",
+            "name": "Jan Heinrich Reimer",
             "url": "",
             "affiliation": ""
         },
         {
             "@type": "Person",
             "@id": "",
-            "name": "Harrisen Scells",
+            "name": "Sean MacAvaney",
             "url": "",
             "affiliation": ""
+        },
+        {
+            "@type": "Person",
+            "@id": "",
+            "name": "Niklas Deckers",
+            "url": "",
+            "affiliation": ""
+        },
+        {
+            "@type": "Person",
+            "@id": "",
+            "name": "Simon Reich",
+            "url": "",
+            "affiliation": ""
+        },
+        {
+            "@type": "Person",
+            "@id": "",
+            "name": "Janek Bevendorff",
+            "url": "https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#bevendorff",
+            "affiliation": "Bauhaus-Universit\u00e4t Weimar"
         },
         {
             "@type": "Person",
@@ -106,23 +107,14 @@ description: Overview of corpora that are used by the Webis research group
         "url": "https://webis.de/data/"
     },
     "distribution": [
-        [
-            {
-                "@type": "DataDownload",
-                "contentUrl": "https://aql-dashboard.web.webis.de/"
-            },
-            {
-                "@type": "DataDownload",
-                "contentUrl": "https://datasetsearch.research.google.com/search?docid=L2cvMTF0eHJ3em0yNw%3D%3D"
-            }
-        ]
+        []
     ]
 }
 </script>
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Archive Query Log 2022</h1>
+        <h1>IR Benchmarks</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -140,7 +132,7 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            <p>The AQL-22 is a query log collected at the Internet Archive over the last 25 years. Includes 356 M queries, 137 M search result pages, and 1.4 B billion search results across 550 search providers. The AQL-22 is the first public query log that is on par with commercial logs with respect to size, scope, and diversity. Provided in a privacy-preserving manner, it promotes open research as well as more transparency and accountability in the search industry.</p>
+            <p>A collection of information retrieval benchmarks covering 15 corpora (1.9 billion documents) on which 32 well-known shared tasks are based. We filled the leaderboards with Docker images of 50 standard retrieval approaches. Within this setup, we were able to automatically run and evaluate the 50 approaches on the 32 tasks (1600 runs). All Benchmarks are added as training datasets because their qrels are already publicly available. Please find a detailed tutorial on how to submit approaches at <a href="https://github.com/tira-io/ir-experiment-platform/tree/main/tira-ir-starters" target="_blank">GitHub</a></p>
         </p>
         
 
@@ -152,17 +144,6 @@ description: Overview of corpora that are used by the Webis research group
                 Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/">doi</a>]. 
             </p>
         
-        <ul>
-            
-            <li>Browse the dataset <a href="https://aql-dashboard.web.webis.de/">here</a>.</li>
-            
-            
-            
-            
-            <li>Find the related metadata at <a href="https://datasetsearch.research.google.com/search?docid=L2cvMTF0eHJ3em0yNw%3D%3D">Google</a>.</li>
-            
-        </ul>
-        
 
         
         <!--
@@ -171,15 +152,17 @@ description: Overview of corpora that are used by the Webis research group
         <h2 id="people">People</h2>
         <ul>
             
-                <li>Jan Heinrich Reimer</li>
-            
-                <li>Sebastian Schmidt</li>
-            
                 <li>Maik Fröbe</li>
             
-                <li>Lukas Gienapp</li>
+                <li>Jan Heinrich Reimer</li>
             
-                <li>Harrisen Scells</li>
+                <li>Sean MacAvaney</li>
+            
+                <li>Niklas Deckers</li>
+            
+                <li>Simon Reich</li>
+            
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#bevendorff">Janek Bevendorff</a></li>
             
                 <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
             
@@ -197,7 +180,7 @@ description: Overview of corpora that are used by the Webis research group
                 <script src="https://assets.webis.de/js/selection.js"></script>
                 <script src="https://assets.webis.de/js/filter.js"></script>
                 <script>
-                    includeBibentries(document.getElementById("publications-list"), "archive#reimer_2023");
+                    includeBibentries(document.getElementById("publications-list"), "tira#froebe_2023e");
                 </script>
             </p>
         </div>
