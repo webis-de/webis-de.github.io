@@ -45,57 +45,67 @@ select.uk-select.filter {
 }
 
 #lecturenotes-coursetable {
-    .ads .part {
-        background: rgb(112, 172, 216);
+
+    table {
+        border-spacing: 0px;
     }
 
-    .db .part {
-        background: rgb(142, 202, 245);
+    .lecturenotes-collection {
+        display: table-cell !important;
+        vertical-align: top;
+        background-image: none;
+        font-size: .875rem;
+        font-weight: bold;
+        padding: 0px;
+        margin-bottom: 3px;
     }
 
-    .web .part {
-        background: rgb(171, 220, 255);
+    .lecturenotes-part {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: .875rem;
+        padding: 0px;
     }
 
-    .ir .part {
-        background: rgb(189, 182, 227);
-    }
-
-    .nlp .part {
-        background: rgb(219, 213, 253);
-    }
-
-    .ml .part {
-        background: rgb(234, 219, 93);
-    }
-
-    .dm .part {
-        background: rgb(247, 234, 123);
-    }
-
-    .search .part {
-        background: rgb(161, 196, 131);
-    }
-
-    .logics .part {
-        background: rgb(178, 217, 144);
-    }
-
-    .mk .part {
-        background: rgb(206, 222, 191);
-    }
-
-    .tools .part {
-        background: rgb(233, 161, 119);
-    }
-
-    .generic .part {
-        background: rgb(255, 255, 255);
+    .lecturenotes-collection div,
+    .lecturenotes-part div {
+        display: flex;
+        height: 68px;
+        background: silver;
+        border: 1px solid white;
     }
 
     .part:hover:not(.empty) {
-        filter: brightness(1.05);
+        filter: brightness(1.1);
     }
+
+    .lecturenotes-collection a,
+    .lecturenotes-collection span,
+    .lecturenotes-part a,
+    .lecturenotes-part span {
+        display: flex;
+        padding: 4px;
+        width: 100px;
+        color: inherit !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table div.part.empty,
+    table.halle div:not(.halle),
+    table.jena div:not(.jena),
+    table.leipzig div:not(.leipzig),
+    table.paderborn div:not(.paderborn),
+    table.passau div:not(.passau),
+    table.weimar div:not(.weimar),
+    table.bachelor tr:not(.bachelor) div,
+    table.master tr:not(.master) div {
+        background: rgb(229, 229, 229) !important;
+        color: rgb(120, 120, 120);
+        filter: brightness(1);
+    }
+
 
     // resize to fit ul.collection to contain li elements without additional space
     // li width steps with tolerance for .container padding and scroll bar
@@ -146,20 +156,6 @@ select.uk-select.filter {
         ul {
             width: 1100px;
         }
-    }
-
-    // selection
-    .halle li:not(.halle),
-    .jena li:not(.jena),
-    .leipzig li:not(.leipzig),
-    .paderborn li:not(.paderborn),
-    .passau li:not(.passau),
-    .weimar li:not(.weimar),
-    .bachelor ul:not(.bachelor) li,
-    .master ul:not(.master) li {
-        background: rgb(210, 210, 210);
-        color: rgb(120, 120, 120);
-        filter: brightness(1);
     }
 }
 
