@@ -1,14 +1,14 @@
 ---
 layout: default
 nav_active: data
-title: "Webis Data Webis-Persuasive-Debaters-on-Reddit-CMV-2022"
+title: "Webis Data Webis-Context-sensitive-Word-Search-Queries-2022"
 description: Overview of corpora that are used by the Webis research group
 ---
 <nav class="uk-container">
     <ul class="uk-breadcrumb">
         <li><a href="../index.html">Webis.de</a></li>
         <li><a href="../../../data.html">Data</a></li>
-        <li class="uk-disabled"><a href="#">Webis-Persuasive-Debaters-on-Reddit-CMV-2022</a></li>
+        <li class="uk-disabled"><a href="#">Webis-Context-sensitive-Word-Search-Queries-2022</a></li>
     </ul>
 </nav>
 
@@ -17,10 +17,10 @@ description: Overview of corpora that are used by the Webis research group
     {
     "@context": "http://schema.org/",
     "@type": "Dataset",
-    "name": "Webis-Persuasive-Debaters-on-Reddit-CMV-2022",
-    "description": "<p>This dataset contains 3,801 debaters from Reddit, their comment, and their persuasion effectiveness. The debates originate from the subreddit Chage my View and are extracted from the Webis CMV dataset (Al Khatib et al., 2020). The dataset consists of three files in JSON Lines (.jsonl) format.</p>",
-    "url": "https://webis.de/data/Webis-Persuasive-Debaters-on-Reddit-CMV-2022",
-    "sameAs": "https://doi.org/10.5281/zenodo.7034173",
+    "name": "Webis-Context-sensitive-Word-Search-Queries-2022",
+    "description": "<p>This repository contains two datasets with word search queries. Each word search query consists of a token n-gram with one wildcard token ([MASK]). The answers to each query are the most likely token to replace the mask. All queries originate from wikitext-103 and CLOTH, the respected source is annotated for each query.</p><p>The original-token dataset lists exactly one top answer for each query. The ranked-answers dataset lists multiple, sorted answers in three relevance categories, where 3 is the most relevant. Please refer to the citation for more details.</p>",
+    "url": "https://webis.de/data/Webis-Context-sensitive-Word-Search-Queries-2022",
+    "sameAs": "https://doi.org/10.5281/zenodo.6425595",
     "license": "https://creativecommons.org/licenses/by/4.0/deed.en",
     "keywords": [
         "-"
@@ -43,16 +43,16 @@ description: Overview of corpora that are used by the Webis research group
         {
             "@type": "Person",
             "@id": "",
-            "name": "Khalid Al-Khatib",
-            "url": "https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#alkhatib",
-            "affiliation": "Bauhaus-Universit\u00e4t Weimar"
+            "name": "Michael V\u00f6lske",
+            "url": "",
+            "affiliation": ""
         },
         {
             "@type": "Person",
             "@id": "",
-            "name": "Vishal Khanna",
-            "url": "",
-            "affiliation": ""
+            "name": "Martin Potthast",
+            "url": "https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#potthast",
+            "affiliation": "Leipzig University"
         },
         {
             "@type": "Person",
@@ -71,7 +71,7 @@ description: Overview of corpora that are used by the Webis research group
         [
             {
                 "@type": "DataDownload",
-                "contentUrl": "https://doi.org/10.5281/zenodo.7034173"
+                "contentUrl": "https://doi.org/10.5281/zenodo.6425595"
             }
         ]
     ]
@@ -80,7 +80,7 @@ description: Overview of corpora that are used by the Webis research group
 
 <main class="uk-section uk-section-default">
     <div class="uk-container">
-        <h1>Webis-Persuasive-Debaters-on-Reddit-CMV-2022</h1>
+        <h1>Webis-Context-sensitive-Word-Search-Queries-2022</h1>
 
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->
@@ -98,7 +98,7 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="synopsis">Synopsis</h2>
         <p>
-            <p>This dataset contains 3,801 debaters from Reddit, their comment, and their persuasion effectiveness. The debates originate from the subreddit Chage my View and are extracted from the Webis CMV dataset (Al Khatib et al., 2020). The dataset consists of three files in JSON Lines (.jsonl) format.</p>
+            <p>This repository contains two datasets with word search queries. Each word search query consists of a token n-gram with one wildcard token ([MASK]). The answers to each query are the most likely token to replace the mask. All queries originate from wikitext-103 and CLOTH, the respected source is annotated for each query.</p><p>The original-token dataset lists exactly one top answer for each query. The ranked-answers dataset lists multiple, sorted answers in three relevance categories, where 3 is the most relevant. Please refer to the citation for more details.</p>
         </p>
         
 
@@ -107,14 +107,14 @@ description: Overview of corpora that are used by the Webis research group
         -->
         <h2 id="download">Access</h2>
             <p>
-                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/10.5281/zenodo.7034173">doi</a>]. 
+                Please refer to the <a href="#publications">publications</a> for citing the dataset. If you want to link the dataset, please use the dataset permalink [<a class="doi" href="https://doi.org/10.5281/zenodo.6425595">doi</a>]. 
             </p>
         
         <ul>
             
             
             
-            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.7034173">Zenodo</a>.</li>
+            <li>Download the dataset from <a href="https://doi.org/10.5281/zenodo.6425595">Zenodo</a>.</li>
             
             
         </ul>
@@ -129,9 +129,9 @@ description: Overview of corpora that are used by the Webis research group
             
                 <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#wiegmann">Matti Wiegmann</a></li>
             
-                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#alkhatib">Khalid Al-Khatib</a></li>
+                <li>Michael Völske</li>
             
-                <li>Vishal Khanna</li>
+                <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#potthast">Martin Potthast</a></li>
             
                 <li><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/#stein">Benno Stein</a></li>
             
@@ -145,7 +145,7 @@ description: Overview of corpora that are used by the Webis research group
                 <script src="https://assets.webis.de/js/selection.js"></script>
                 <script src="https://assets.webis.de/js/filter.js"></script>
                 <script>
-                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-persuasive-debaters-22");
+                    includeBibentries(document.getElementById("publications-list"), "keywords:webis-context-sensitive-word-search-queries-2022");
                 </script>
             </p>
         </div>
