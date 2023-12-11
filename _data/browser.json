@@ -1,288 +1,293 @@
 {
     "databases": {
         "unit-de-db-organization": {
-            "sha": "7af959ccc3a51d8167a0c784dbdb14e4de2d65e5",
+            "sha": "c76e1393aef2a369d13f739ab098cc108d5ed69c",
             "numpages": 7,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "36cd5172ff5e0aa3016fa7f49d47bbaf832c503c",
+                    "sha": "28ee05be09dc7569d9bc6d3c5a1f6a91b5ebd199",
                     "description": "Datenbanken Benno Stein"
                 },
                 {
                     "page": 2,
-                    "sha": "41ac6da6c72fe97ec79a02b6cbb44968446be038",
+                    "sha": "e52593b42c3a30b468ff47120e63b2ec81cfdc1a",
                     "description": "Inhalt I. Einf\u00fchrung"
                 },
                 {
                     "page": 3,
-                    "sha": "168bc78f54f6b2531342668a2e0900673df21463",
+                    "sha": "26ff0fe2ffdad1eedf28b0108d0c767f2fbaf3ea",
                     "description": "Ziele "
                 },
                 {
                     "page": 4,
-                    "sha": "0f1ef694c3e55e859795c45390713f6a90cabde8",
+                    "sha": "ba39e541b2204a6792766790433b46dd4467c57c",
                     "description": "Angrenzende Gebiete Ingenieur-Datenbanken"
                 },
                 {
                     "page": 5,
-                    "sha": "6cea44fa5e8fe676054bd3401a3e6fbd022cb226",
+                    "sha": "a3bf7657460737d9578f52da1bb1ccaae751af26",
                     "description": "Angrenzende Gebiete 1. Syntaktische Web-Technologien"
                 },
                 {
                     "page": 6,
-                    "sha": "11b1cee8980c17d08b89d706abbe823eb31ecb12",
+                    "sha": "6bb6065a528a2a86837fd7252961ee591fb081df",
                     "description": "Angrenzende Gebiete 1. Syntaktische Web-Technologien"
                 },
                 {
                     "page": 7,
-                    "sha": "a0d1bd83ce4b140f0685f4a39792f01e1bfa667a",
+                    "sha": "8050b913cfae45de59da30905a3927e068ae19b3",
                     "description": "Literatur \u2217 R. Elmasri, S.B. Navathe."
                 }
             ]
         },
         "unit-de-db-introduction": {
-            "sha": "4eef76d12f32880699faea493f25455e3427c688",
-            "numpages": 48,
+            "sha": "d477c0ea35b5b971a0e0155127fa83ad8c31aa69",
+            "numpages": 49,
             "pages": [
                 {
                     "page": 1,
-                    "sha": "73d7217c91f7f183ec71c3ecc5264fc818fb3561",
+                    "sha": "37635cf9eec5a4c4d1ed841e248296a0fe5e70ab",
                     "description": "Kapitel DB:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 2,
-                    "sha": "1f217ddc1dc021a5704a6a72a386b965eea32e2a",
-                    "description": "Datenintensive Anwendungen"
+                    "sha": "e4966ffcd23485e9be0e93959af36cbbb89fb688",
+                    "description": "Datenintensive Anwendungen "
                 },
                 {
                     "page": 3,
-                    "sha": "94c4ccdb347875b1f520c387de043b1703a09af8",
+                    "sha": "548714009e3d272b81a352afb3a1b8641afacdd2",
                     "description": "Datenintensive Anwendungen Beispiel: Hotelreservierung"
                 },
                 {
                     "page": 4,
-                    "sha": "4f3dda8f2aba6b223802e1b17368e58b07d2b12e",
-                    "description": "Entstehung von Datenbanksystemen Alte Bibliothek von Alexandria"
+                    "sha": "c9f60fcc7c7851e0ea831550ace911295be8087b",
+                    "description": "Entstehung von Datenbanksystemen Alte Bibliothek von Alexandria (3. Jh. v. Chr.)"
                 },
                 {
                     "page": 5,
-                    "sha": "bf42ca6b14726904fccfc1053f5bfd2a34ce4309",
-                    "description": "Entstehung von Datenbanksystemen Neue Bibliothek von Alexandria"
+                    "sha": "0f9686c8fa6a5ff4e96dcca109ad8f3f014a2960",
+                    "description": "Entstehung von Datenbanksystemen Neue Bibliothek von Alexandria (2001)"
                 },
                 {
                     "page": 6,
-                    "sha": "5e3f3c7f339321b1c53024a155941c178d38f7aa",
-                    "description": "Entstehung von Datenbanksystemen Neue Bibliothek von Alexandria"
+                    "sha": "c27a2356ed02b696fc42df15f2f42df564740bec",
+                    "description": "Entstehung von Datenbanksystemen Neue Bibliothek von Alexandria (2001)"
                 },
                 {
                     "page": 7,
-                    "sha": "03f439defa421d94ce59765df37db01b81cbc06a",
+                    "sha": "812186c6f551529aa932db023f5a790eb985fa30",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 8,
-                    "sha": "a0ba622f53efaaf10d7fab4c8109a5abcfcd9d58",
-                    "description": "Entstehung von Datenbanksystemen Anfang 60er Jahre: direkter Dateizugriff"
+                    "sha": "6b63704e0a2860c3c8bae31d7603549a77e65a21",
+                    "description": "Entstehung von Datenbanksystemen Direkter Dateizugriff (Anfang 1960er)"
                 },
                 {
                     "page": 9,
-                    "sha": "237dae4447f632ba6e2b8ec7cdeb7698f6f1139d",
+                    "sha": "0476b7a3162bfaa37a112b7d020f1a8797989495",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 10,
-                    "sha": "f43f2a1125ccdad5d8d3a6bd02505506a1f6a133",
-                    "description": "Entstehung von Datenbanksystemen Ende 60er Jahre: Dateizugriff mit Verwaltungssystem"
+                    "sha": "5f746af473def6953cf2897af0c26b1ee4b8073b",
+                    "description": "Entstehung von Datenbanksystemen Ende 1960er Jahre: Dateizugriff mit Verwaltungssystem"
                 },
                 {
                     "page": 11,
-                    "sha": "adfe4226c3f1cbb753ea581c69a774862509562a",
-                    "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
+                    "sha": "f08d47589b7e6b352b8ba77cadd28d373b16d712",
+                    "description": "Entstehung von Datenbanksystemen Probleme bzw. Herausforderungen"
                 },
                 {
                     "page": 12,
-                    "sha": "4ec93f0417e97f6ed8d6b08452665c3ae70eae7b",
-                    "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
+                    "sha": "ed70ab06006d712c8da038a4ac6027eafce42eab",
+                    "description": "Entstehung von Datenbanksystemen Probleme bzw. Herausforderungen"
                 },
                 {
                     "page": 13,
-                    "sha": "04340b2f4089e14cb70b0f2e86e842e8ccc2387b",
-                    "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
+                    "sha": "1eb959bc19a99a1cdefe855bcbfa6e618c38e34c",
+                    "description": "Entstehung von Datenbanksystemen Probleme bzw. Herausforderungen"
                 },
                 {
                     "page": 14,
-                    "sha": "171a95c1e1ce1f4afcd563da3a1e4ac87f8497a1",
-                    "description": "Entstehung von Datenbanksystemen Probleme der fr\u00fchen Datenverarbeitung"
+                    "sha": "1a09e8b9c25e8f1e0e19e7a9e252e0ed5a1c0e5c",
+                    "description": "Entstehung von Datenbanksystemen Probleme bzw. Herausforderungen"
                 },
                 {
                     "page": 15,
-                    "sha": "b2ba23330f5687da0e37a450fbe9b152f9295bec",
-                    "description": "Entstehung von Datenbanksystemen Mitte 70er Jahre: explizites Daten-Management"
+                    "sha": "9c25b37f2f0142100da6009b4502f8f8ccdb2929",
+                    "description": "Entstehung von Datenbanksystemen Seit Mitte der 1970er Jahre: explizites Daten-Management"
                 },
                 {
                     "page": 16,
-                    "sha": "8656bb73c9e4a70f1346dd01ea393f49ceaddca9",
+                    "sha": "d308d5fc23961dde857eaed9d4d32cb274431295",
                     "description": "Begriffsbildung und Einordnung Definition 1 (Datenbank = Datenbasis, DB)"
                 },
                 {
                     "page": 17,
-                    "sha": "f96ea4eaa314c79a07823980f1a36dc1f04820e0",
+                    "sha": "3b13f739f5956089a9cfa27551a76c85d8b62764",
                     "description": "Begriffsbildung und Einordnung Definition 1 (Datenbank = Datenbasis, DB)"
                 },
                 {
                     "page": 18,
-                    "sha": "dfd64e4c4465cf94fb25ba57c0f6754aca8e0a32",
+                    "sha": "5d50cd4445dbfd1dd0c30b79baff8a364c5d805a",
                     "description": "Begriffsbildung und Einordnung Softwareschichten eines Computer-Systems"
                 },
                 {
                     "page": 19,
-                    "sha": "44c701cf42cf63709153d46601764df42cff43e8",
+                    "sha": "073f85f50e4a4e25c2d0fa0999b9cdf6a2385624",
                     "description": "Bemerkungen:"
                 },
                 {
                     "page": 20,
-                    "sha": "5ec6e17043fea5faa18226e655393f008aa8d62f",
-                    "description": "Datenbank-Management-Systeme Neun Anforderungen an ein DBMS"
+                    "sha": "a1340edfa3b76e56c4fecd6425736b93d1fa4edf",
+                    "description": "Kapitel DB:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 21,
-                    "sha": "03c01dc8e1d1083b88098c9b9b8edb3dc1cbfea2",
+                    "sha": "a820a9753501b5b5924f396dc4c45ef2246385b6",
                     "description": "Datenbank-Management-Systeme Neun Anforderungen an ein DBMS"
                 },
                 {
                     "page": 22,
-                    "sha": "4ec1b42126ed74b4e739823f5e32f9dc3fe2e827",
-                    "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
+                    "sha": "eba1575c0226d1074484dd50eb8f8a010b7348ff",
+                    "description": "Datenbank-Management-Systeme Neun Anforderungen an ein DBMS"
                 },
                 {
                     "page": 23,
-                    "sha": "cb26c226cbfc35556f6d81a6e3ea97f7cf99d31b",
+                    "sha": "c0692bb8c862f2ff93e1ee9cdca21c68f9a69517",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 24,
-                    "sha": "2e17ccac1ffd1dddd2a3ca7a4bad0ee55e05e4a2",
-                    "description": "Bemerkungen:"
-                },
-                {
-                    "page": 25,
-                    "sha": "1c9a93426980e63a4bb4350b5d66a167567b987f",
+                    "sha": "2b9ebb74bc5b2683d28a49ca678aeaa3481b5501",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
+                    "page": 25,
+                    "sha": "f043b07b6ac590cc07b53ceeba61356b60746db4",
+                    "description": "Bemerkungen:"
+                },
+                {
                     "page": 26,
-                    "sha": "adfc3f60e67f05f44c06922d5e1086e74d1ca696",
+                    "sha": "5c1de38086d5509a864810ca7a7824c983955d13",
                     "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 27,
-                    "sha": "540ce0e972356451089d87b4781b6eb387892878",
-                    "description": "Datenbank-Management-Systeme Was ein DBMS zu tun hat"
+                    "sha": "c479038f2fee3b52f84b878950fdcb63505d896d",
+                    "description": "Datenbank-Management-Systeme Drei-Schichten-Schema-Architektur"
                 },
                 {
                     "page": 28,
-                    "sha": "3780adc67be0a91ed60899cbf37f34ffe279f5cd",
+                    "sha": "07fd8a7c6251078442f658f1a7c65108d761100a",
                     "description": "Datenbank-Management-Systeme Was ein DBMS zu tun hat"
                 },
                 {
                     "page": 29,
-                    "sha": "33fd5ebd1c5daa09fd79ded1acefc3f9f5875365",
-                    "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
+                    "sha": "34de377dff0f505215c52d969e5c7842aab04339",
+                    "description": "Datenbank-Management-Systeme Was ein DBMS zu tun hat"
                 },
                 {
                     "page": 30,
-                    "sha": "117673277bf5f921e3505bdcbd47ff3db3b2850f",
-                    "description": "Datenbank-Management-Systeme Ebene 1"
-                },
-                {
-                    "page": 31,
-                    "sha": "e5d1bf6049eeee18abd0d33ae923204ef9d2c493",
-                    "description": "Bemerkungen:"
-                },
-                {
-                    "page": 32,
-                    "sha": "3cf616e9bd850a289aa38685b0b2e761ee4356a8",
+                    "sha": "52134dbc0dc4b59d92dd96f3de41bbcba2f04240",
                     "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
                 },
                 {
+                    "page": 31,
+                    "sha": "138fa2770bc375f5923d0cffbf2f2a4c29cd7659",
+                    "description": "Datenbank-Management-Systeme Ebene 1"
+                },
+                {
+                    "page": 32,
+                    "sha": "4eec99078bab50b520f6f7b6ed083ea52e39338f",
+                    "description": "Bemerkungen:"
+                },
+                {
                     "page": 33,
-                    "sha": "6e3cd4d8a9dc00af2d5faf31fb5abb556a95249c",
+                    "sha": "e41935ce1509ed6f59c6b1c2bd75fdf56f388e1e",
                     "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
                 },
                 {
                     "page": 34,
-                    "sha": "9855caa835610a9dfbd4184fc84de74dd404b611",
-                    "description": "Relationale Datenbanksysteme "
+                    "sha": "81b98ce7d9463ce954fb8297d8994025f0f5e573",
+                    "description": "Datenbank-Management-Systeme Systemarchitektur und Komponenten eines DBMS"
                 },
                 {
                     "page": 35,
-                    "sha": "ce30fb9d9cbd12b219579ed8e2fc0905ee7f28be",
-                    "description": "Relationale Datenbanksysteme Merkmale relationaler Datenbank-Management-Systeme (RDBMS)"
+                    "sha": "7a873ffd6485cbaefd1e55e920e87e75f56db1ca",
+                    "description": "Kapitel DB:I I. Einf\u00fchrung"
                 },
                 {
                     "page": 36,
-                    "sha": "337f71cb68818509e7cec6748581f57b7f34219d",
-                    "description": "Bemerkungen:"
+                    "sha": "f01b7a24108cd45642c2d776b8143f315152e5e8",
+                    "description": "Relationale Datenbanksysteme Merkmale relationaler Datenbank-Management-Systeme, RDBMS"
                 },
                 {
                     "page": 37,
-                    "sha": "65d27043ff590112d4865f4ab2dcbfaeef99e7fd",
-                    "description": "Relationale Datenbanksysteme Beispiel: Daten- und Datenbankdefinition"
+                    "sha": "161b7ff258cf30c6686e5737e904a70ccad2a905",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 38,
-                    "sha": "4d32253e7ab31ccf7e444d3ee89e0070b0d53bc4",
-                    "description": "Relationale Datenbanksysteme Beispiel: Integrit\u00e4tsbedingungen"
+                    "sha": "94ea06eafc6ef9d454969c3c73662bdbc2934e35",
+                    "description": "Relationale Datenbanksysteme Beispiel: Daten- und Datenbankdefinition"
                 },
                 {
                     "page": 39,
-                    "sha": "0a089876034c738ac1c84161dba23ea4ff62136e",
-                    "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
+                    "sha": "59eff7bbf04aa0b803af47e24770d37ad113f697",
+                    "description": "Relationale Datenbanksysteme Beispiel: Integrit\u00e4tsbedingungen"
                 },
                 {
                     "page": 40,
-                    "sha": "463b00ee2f99282b4ff802ad8e07e9495f5285cf",
+                    "sha": "3cf6c51a14b0f7e2058247d574fdc68599326aaa",
                     "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
                 },
                 {
                     "page": 41,
-                    "sha": "071c0441bbffedfc84df7b5cdd1d12e6c6cf403b",
+                    "sha": "65a99f49307d2af9bbd2d184a3c074288afc2533",
                     "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
                 },
                 {
                     "page": 42,
-                    "sha": "87830acc815f8c46ea992cf84c43dea8ea21e36f",
-                    "description": "Relationale Datenbanksysteme Anfrageoptimierung"
+                    "sha": "7e6ab30c7fb61fcf48a6abb5911b5aaf82c88c6f",
+                    "description": "Relationale Datenbanksysteme Beispiel: Anfrageoperationen"
                 },
                 {
                     "page": 43,
-                    "sha": "c4869c09005e7930aa8b3fe02b32b2644341f201",
+                    "sha": "3bb8f4945f6a237852aad285c7f1bb1c5593a326",
                     "description": "Relationale Datenbanksysteme Anfrageoptimierung"
                 },
                 {
                     "page": 44,
-                    "sha": "6856e2b5fb81004eb0394168045b8de2783f00c0",
-                    "description": "Bemerkungen:"
+                    "sha": "8c1cd952f28047719d5c0a63bcd447dada2d2288",
+                    "description": "Relationale Datenbanksysteme Anfrageoptimierung"
                 },
                 {
                     "page": 45,
-                    "sha": "917f83490e7f0699c2f01c2d1d8505ce48721459",
-                    "description": "Relationale Datenbanksysteme Grenzen von RDBMS"
+                    "sha": "1da335e0e4934b9b1b4723400ee993857de09f47",
+                    "description": "Bemerkungen:"
                 },
                 {
                     "page": 46,
-                    "sha": "857cde5f89233ab749c341792ebe1ad9e42fb68f",
+                    "sha": "d795d4c23637c9089bfac8174014c92114daac93",
                     "description": "Relationale Datenbanksysteme Grenzen von RDBMS"
                 },
                 {
                     "page": 47,
-                    "sha": "134b799c6c06451b5fb18b0ec3872cf4be733a9a",
-                    "description": "Relationale Datenbanksysteme Erstellung von RDBMS"
+                    "sha": "bbd10bd4f782e8802af728777505f3f9bd95e29e",
+                    "description": "Relationale Datenbanksysteme Grenzen von RDBMS"
                 },
                 {
                     "page": 48,
-                    "sha": "ceba72e47647a27afe94a54e35782956567d56e0",
+                    "sha": "20b8f4c4045174e914677eba6b23c34bd9223005",
+                    "description": "Relationale Datenbanksysteme Erstellung von RDBMS"
+                },
+                {
+                    "page": 49,
+                    "sha": "0900bff8a95fe0bfa68c044257af0d74189c311e",
                     "description": "Bemerkungen:"
                 }
             ]
