@@ -32699,6 +32699,8 @@
             "unit-en-cluster-analysis-evaluation",
             "unit-en-cluster-analysis-constrained",
             "unit-de-self-organizing-maps",
+            "unit-de-frequent-itemset-mining",
+            "unit-de-rule-mining",
         ],
         "unit-en-dm-organization": {
             sha: "175800f644eef7e009a767d4961f972e062a922b",
@@ -34672,6 +34674,198 @@
                     page: 30,
                     sha: "28c8abceefdf028ea4c11dc2983879b3ac988596",
                     description: "Neural Gas Beispiel: Spezialfall Neuronales Gas in 2D",
+                },
+            ],
+        },
+        "unit-de-frequent-itemset-mining": {
+            sha: "cd324bc797383863346cd862f18609c68003a0cd",
+            numpages: 22,
+            pages: [
+                {
+                    page: 1,
+                    sha: "81868f9141d045ad49428cf3f9803d439ef804ed",
+                    description: "Kapitel DM:V V. Association Analysis",
+                },
+                {
+                    page: 2,
+                    sha: "92afaeb259ccf8fee7f352fe56542bf3d18d597a",
+                    description: "Assoziationsanalyse Motivation/\u00dcberblick",
+                },
+                {
+                    page: 3,
+                    sha: "c5ae07710b36e3afbf16892a0d0a9606e896f6a5",
+                    description: "Assoziationsanalyse Spezifikation des Problems der Assoziationsanalyse",
+                },
+                {
+                    page: 4,
+                    sha: "eb8ae5f282c6ff4e44a9344d582ba0f7e5244398",
+                    description: "Assoziationsanalyse Spezifikation des Problems der Assoziationsanalyse",
+                },
+                {
+                    page: 5,
+                    sha: "5056f265a0670e1541e6939924512fdc62135728",
+                    description: "Assoziationsanalyse k-Itemset, Instanzmenge, Support",
+                },
+                {
+                    page: 6,
+                    sha: "3d419dc7184f65b0a24bdd1187a561ebbf028b3e",
+                    description: "Assoziationsanalyse k-Itemset, Support",
+                },
+                {
+                    page: 7,
+                    sha: "fa59d4b7bb7c7d2edcca501c05d3c02e92556c93",
+                    description: "Kapitel DM:V V. Association Analysis",
+                },
+                {
+                    page: 8,
+                    sha: "5dbf824fd53a5f745b88251fcfb5c1e159020a65",
+                    description: "Frequent Itemset Mining H\u00e4ufige k-Itemsets",
+                },
+                {
+                    page: 9,
+                    sha: "a4f8c1d7879c55af835668f0b65769f7ac81ac63",
+                    description: "Frequent Itemset Mining H\u00e4ufige k-Itemsets",
+                },
+                {
+                    page: 10,
+                    sha: "34bb0f2d09348c314d2656f8c193bd2079094399",
+                    description: "Frequent Itemset Mining H\u00e4ufige k-Itemsets",
+                },
+                {
+                    page: 11,
+                    sha: "5e58ba1cdd63930a34e144ed0486195fef3b1f3f",
+                    description: "Frequent Itemset Mining Abgeschlossene h\u00e4ufige Itemsets, Maximal h\u00e4ufige Itemsets",
+                },
+                {
+                    page: 12,
+                    sha: "32e965f3bd7e175eb50c0337258a9cc52c7a6dc4",
+                    description: "Frequent Itemset Mining Abgeschlossene h\u00e4ufige Itemsets, Maximal h\u00e4ufige Itemsets",
+                },
+                {
+                    page: 13,
+                    sha: "e01d2d147103a0077c8aa1af0feb4a747720e043",
+                    description: "Bemerkungen:",
+                },
+                {
+                    page: 14,
+                    sha: "7e434569196be2785eb9fb34f96c5ca1eda07676",
+                    description: "Frequent Itemset Mining Abgeschlossene h\u00e4ufige Itemsets, Maximal h\u00e4ufige Itemsets",
+                },
+                {
+                    page: 15,
+                    sha: "76d36e5ce1290d380cbae969d53cf4b6bbe3f014",
+                    description: "Frequent Itemset Mining A-Priori Algorithmus",
+                },
+                {
+                    page: 16,
+                    sha: "8e0ff26a7c7d5ffdc1f8349330cdfe034eefe3ff",
+                    description: "Frequent Itemset Mining A-Priori Algorithmus",
+                },
+                {
+                    page: 17,
+                    sha: "aaafe2983fe8dae41c82a0a88abd0d89969916ec",
+                    description: "Bemerkungen:",
+                },
+                {
+                    page: 18,
+                    sha: "5d402128bf31a2a55ba799fe869053cdf7eadd92",
+                    description: "Frequent Itemset Mining A-Priori Algorithmus",
+                },
+                {
+                    page: 19,
+                    sha: "9fd5941e719d33cea0bd05303b0b8656ecf4604c",
+                    description: "Bemerkungen:",
+                },
+                {
+                    page: 20,
+                    sha: "babf2588e0836fec8af0c3a79757f8cd8ea7c42c",
+                    description: "Frequent Itemset Mining Beispiel: A-Priori Algorithmus mit \u03c3min =",
+                },
+                {
+                    page: 21,
+                    sha: "4fa33078ad1ceb815af4844099e7d1d3e838846f",
+                    description: "Frequent Itemset Mining Beispiel: A-Priori Algorithmus mit \u03c3min =",
+                },
+                {
+                    page: 22,
+                    sha: "6751a5057997e7ce33dfb70908583913c93dcafe",
+                    description: "Frequent Itemset Mining Effizienzverbesserungen A-Priori Algorithmus",
+                },
+            ],
+        },
+        "unit-de-rule-mining": {
+            sha: "42277480a24b8a22700c885cadcc4ec23cc37ea5",
+            numpages: 14,
+            pages: [
+                {
+                    page: 1,
+                    sha: "4832201f79bc9c5b21eeef61dfa3b0ee38f2ad0c",
+                    description: "Kapitel DM:V V. Association Analysis",
+                },
+                {
+                    page: 2,
+                    sha: "95701ce2ede10daeea756778fe4b72a90d09d0e7",
+                    description: "Regel-Mining Von h\u00e4ufigen Itemsets zu Regeln",
+                },
+                {
+                    page: 3,
+                    sha: "5ec6a207255da37fbebd2eb7aa4b69e9a25b0a1e",
+                    description: "Regel-Mining Von h\u00e4ufigen Itemsets zu Regeln",
+                },
+                {
+                    page: 4,
+                    sha: "ad9eeac162d805885a26337608d06092bbcd674d",
+                    description: "Regel-Mining Assoziationsregeln",
+                },
+                {
+                    page: 5,
+                    sha: "84a10b2407ad9c81b234b0ea6bd0bd6a19368bac",
+                    description: "Regel-Mining Extraktion von Assoziationsregeln",
+                },
+                {
+                    page: 6,
+                    sha: "f9dd7af1b541dedbe84b33e52ac365a517d35320",
+                    description: "Regel-Mining Extraktion von Assoziationsregeln",
+                },
+                {
+                    page: 7,
+                    sha: "93f112fdbdbcc3e6789e070194d7e31742ee5db5",
+                    description: "Regel-Mining Beispiel: Extraktion von Assoziationsregeln",
+                },
+                {
+                    page: 8,
+                    sha: "81ac4c2f691681a7a10fc98b289731e2d840aced",
+                    description: "Regel-Mining Evaluierung von Assoziationsregeln",
+                },
+                {
+                    page: 9,
+                    sha: "5cdb9a5bf9411498e7a7e07c19cc4d16cbd476a9",
+                    description: "Regel-Mining Evaluierung von Assoziationsregeln",
+                },
+                {
+                    page: 10,
+                    sha: "9f3603bd5f5c7ca54fe93401840903916c330c20",
+                    description: "Regel-Mining Evaluierung von Assoziationsregeln",
+                },
+                {
+                    page: 11,
+                    sha: "fa1f7e820866e46603af04b1e27d4b8ec9c06045",
+                    description: "Regel-Mining Evaluierung von Assoziationsregeln",
+                },
+                {
+                    page: 12,
+                    sha: "9c32d16eba39298a052e5feccf588c97af03f2de",
+                    description: "Regel-Mining Beispiel Lift",
+                },
+                {
+                    page: 13,
+                    sha: "b392556829b0d1a559cba1f4596416a2ec913936",
+                    description: "Regel-Mining Beispiel Lift",
+                },
+                {
+                    page: 14,
+                    sha: "6b5796de3fcc589d14e7fb8bd16eae10eb613911",
+                    description: "Regel-Mining Zusammenfassung",
                 },
             ],
         },
