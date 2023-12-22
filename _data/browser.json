@@ -41415,6 +41415,7 @@
             "unit-de-diagnosis-cbr",
             "unit-en-planning-basics",
             "unit-en-planning-algorithms",
+            "unit-en-planning-extensions",
             "unit-de-configuration-basics",
         ],
         "unit-de-kbs-organization": {
