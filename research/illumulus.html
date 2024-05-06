@@ -1,0 +1,108 @@
+---
+layout: default
+nav_active: research
+title: Webis Research Illumulus
+description: Overview of research that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../research.html">Research</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Research ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Research",
+  "name":"Illumulus",
+  "description":"",
+  "url":"https://webis.de/research/illumulus.html",
+  "keywords":[
+    "illumulus"
+  ], 
+  "creator":[
+    {
+      "@type":"Organization",
+      "url":"https://webis.de/",
+      "name":"The Web Technology & Information Systems Network",
+      "alternateName":"Webis"
+    },
+    {
+        "@type":"Person", 
+        "url":"https://weimar.webis.de/people/#stein",
+        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+        "name":"Stein, Benno"
+    },
+    {
+        "@type":"Person", 
+        "url":"https://weimar.webis.de/people/#gollub",
+        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+        "name":"Gollub, Tim"
+    },
+    {
+        "@type":"Person", 
+        "url":"https://weimar.webis.de/people/#gohsen",
+        "affiliation":"Bauhaus-Universit\u00e4t Weimar", 
+        "name":"Gohsen, Marcel"
+    }
+  ],
+  "includedInDataCatalog":{
+  },
+  "distribution":[
+  ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Netspeak</h1>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis</h2>
+<p>
+ Being creative, telling stories and bringing them to life through vivid images — can a machine master these skills? The ILLUMULUS is an anonymous author that uses generative neural networks to create individual stories and images by interacting with visitors. One-of-a-kind »books« are created for visitors to take with them.T he ILLUMULUS is a interactive performance that aims at making AI’s impressive capabilities tangible for everyone.
+</p>
+
+<p>
+The idea for ILLUMULUS was inspired by the ILLUMATEN. It originated during an illustration project carried out at the Bauhaus-Universität Weimar in 2007 under the leadership of illustrator Jutta Bauer.
+</p>
+
+        <!--
+        SECTION People
+        -->
+        <h2><a id="people"></a>People</h2>
+        <ul>
+        <li><a href="https://weimar.webis.de/people/#gohsen" title="Marcel Gohsen">Marcel Gohsen</a></li>
+        <li><a href="https://weimar.webis.de/people/#gollub" title="Tim Gollub">Tim Gollub</a></li>
+        <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+        </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2><a id="publications"></a>Publications</h2>
+        <div id="publications-list">
+        </div>
+	</div>
+        </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:illumulus");
+</script>
