@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paper Namer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div id="root" class="w-2/4"></div>
+    <script type="text/babel">
+      const PaperRenamer = () => {
+        const [paperTitle, setPaperTitle] = React.useState("");
+        const [lastName, setLastName] = React.useState("");
+        const [publicationYear, setPublicationYear] = React.useState(
+          new Date().getFullYear().toString()
+        );
+        const [arxivUrl, setArxivUrl] = React.useState("");
+        const [fileName, setFileName] = React.useState("");
+        const [copyMessage, setCopyMessage] = React.useState("");
+        const [paperDetails, setPaperDetails] = React.useState(null);
+        const [errors, setErrors] = React.useState({});
+        const fileNameInputRef = React.useRef(null);
+
+        const validateManualFields = () => {
+          const newErrors = {};
+          if (!paperTitle.trim())
+            newErrors.paperTitle = "Paper title is required";
+          if (!lastName.trim()) newErrors.lastName = "Last name is required";
+          if (!publicationYear)
+            newErrors.publicationYear = "Publication year is required";
+          setErrors(newErrors);
+          return Object.keys(newErrors).length === 0;
+        };
+
+        const generateManualFileName = () => {
+          if (validateManualFields()) {
+            const year = publicationYear.slice(-2);
+            const title = formatTitle(paperTitle);
+            const newFileName = `${lastName.toLowerCase()}${year}-${title}.pdf`;
+            setFileName(newFileName);
+            setCopyMessage("");
+          }
+        };
+
+        const generateArxivFileName = async () => {
+          setErrors({});
+          if (!arxivUrl.trim()) {
+            setErrors({ arxivUrl: "arXiv URL is required" });
+            return;
+          }
+
+          const arxivId = getArxivId(arxivUrl);
+          if (!arxivId) {
+            setErrors({ arxivUrl: "Invalid arXiv URL" });
+            return;
+          }
+
+          try {
+            const response = await axios.get(
+              `https://export.arxiv.org/api/query?id_list=${arxivId}`
+            );
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(response.data, "text/xml");
+
+            const entry = xmlDoc.querySelector("entry");
+            if (!entry) {
+              setErrors({ arxivUrl: "No paper found with the given ID" });
+              return;
+            }
+
+            const title = entry.querySelector("title").textContent.trim();
+            const authors = entry
+              .querySelector("author > name")
+              .textContent.trim();
+            const published = entry.querySelector("published").textContent;
+
+            const lastNameFromArxiv = authors.split(",")[0].split(" ").pop();
+            const year = published.substring(2, 4);
+            const cleanTitle = formatTitle(title);
+            const newFileName = `${lastNameFromArxiv.toLowerCase()}${year}-${cleanTitle}.pdf`;
+
+            setFileName(newFileName);
+            setPaperDetails({
+              title,
+              firstAuthor: authors.split(",")[0],
+              published: published.substring(0, 10),
+            });
+            setCopyMessage("");
+          } catch (error) {
+            setErrors({ arxivUrl: `Error: ${error.message}` });
+          }
+        };
+
+        const formatTitle = (title) => {
+          return title
+            .toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, "")
+            .replace(/\s+/g, "-");
+        };
+
+        const getArxivId = (url) => {
+          const match = url.match(/(?:abs|pdf|arxiv:)\/(\d+\.\d+)/);
+          return match ? match[1] : "";
+        };
+
+        const selectFileName = () => {
+          if (fileNameInputRef.current) {
+            fileNameInputRef.current.select();
+            setCopyMessage("Filename copied to clipboard!");
+            navigator.clipboard.writeText(fileName);
+            setTimeout(() => setCopyMessage(""), 3000);
+          }
+        };
+
+        const clearFields = (section) => {
+          if (section === "arxiv") {
+            setArxivUrl("");
+            setPaperDetails(null);
+          } else {
+            setPaperTitle("");
+            setLastName("");
+            setPublicationYear(new Date().getFullYear().toString());
+          }
+          setFileName("");
+          setCopyMessage("");
+          setErrors({});
+        };
+
+        return (
+          <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full">
+            <h1 className="text-3xl font-bold mb-6 text-center">Paper Renamer</h1>
+
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">From arXiv</h2>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  htmlFor="arxivUrl"
+                >
+                  arXiv URL
+                </label>
+                <div className="flex">
+                  <input
+                    className={`shadow appearance-none border rounded-l w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+                      errors.arxivUrl ? "border-red-500" : ""
+                    }`}
+                    id="arxivUrl"
+                    type="text"
+                    placeholder="Enter arXiv URL (e.g., https://arxiv.org/abs/2309.11495)"
+                    value={arxivUrl}
+                    onChange={(e) => setArxivUrl(e.target.value)}
+                  />
+                  <button
+                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-r focus:outline-none focus:shadow-outline"
+                    onClick={() => clearFields("arxiv")}
+                  >
+                    <i className="fas fa-undo-alt"></i>
+                  </button>
+                </div>
+                {errors.arxivUrl && (
+                  <p className="text-red-500 text-xs italic mt-2">
+                    {errors.arxivUrl}
+                  </p>
+                )}
+              </div>
+              <div className="flex items-center justify-between mb-4">
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  onClick={generateArxivFileName}
+                >
+                  <i className="fas fa-magic mr-2"></i>
+                  Generate Filename
+                </button>
+              </div>
+              {paperDetails && (
+                <div className="mt-4">
+                  <h3 className="font-bold mb-2">Paper Details:</h3>
+                  <p>
+                    <strong>Title:</strong> {paperDetails.title}
+                  </p>
+                  <p>
+                    <strong>First Author:</strong> {paperDetails.firstAuthor}
+                  </p>
+                  <p>
+                    <strong>Published:</strong> {paperDetails.published}
+                  </p>
+                </div>
+              )}
+            </div>
+
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">Enter Manually</h2>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  htmlFor="paperTitle"
+                >
+                  Paper Title
+                </label>
+                <input
+                  className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+                    errors.paperTitle ? "border-red-500" : ""
+                  }`}
+                  id="paperTitle"
+                  type="text"
+                  placeholder="Enter paper title"
+                  value={paperTitle}
+                  onChange={(e) => setPaperTitle(e.target.value)}
+                />
+                {errors.paperTitle && (
+                  <p className="text-red-500 text-xs italic mt-2">
+                    {errors.paperTitle}
+                  </p>
+                )}
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  htmlFor="lastName"
+                >
+                  Last Name (First Author)
+                </label>
+                <input
+                  className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+                    errors.lastName ? "border-red-500" : ""
+                  }`}
+                  id="lastName"
+                  type="text"
+                  placeholder="Enter last name of the first author"
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)}
+                />
+                {errors.lastName && (
+                  <p className="text-red-500 text-xs italic mt-2">
+                    {errors.lastName}
+                  </p>
+                )}
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  htmlFor="publicationYear"
+                >
+                  Publication Year
+                </label>
+                <input
+                  className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+                    errors.publicationYear ? "border-red-500" : ""
+                  }`}
+                  id="publicationYear"
+                  type="number"
+                  min="1800"
+                  max={new Date().getFullYear()}
+                  value={publicationYear}
+                  onChange={(e) => setPublicationYear(e.target.value)}
+                />
+                {errors.publicationYear && (
+                  <p className="text-red-500 text-xs italic mt-2">
+                    {errors.publicationYear}
+                  </p>
+                )}
+              </div>
+              <div className="flex items-center justify-between mb-4">
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  onClick={generateManualFileName}
+                >
+                  <i className="fas fa-magic mr-2"></i>
+                  Generate Filename
+                </button>
+                <button
+                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  onClick={() => clearFields("manual")}
+                >
+                  <i className="fas fa-undo-alt mr-2"></i>
+                  Clear Fields
+                </button>
+              </div>
+            </div>
+
+            {fileName && (
+              <div className="mb-4">
+                <h4 className="text-lg font-bold mb-2">Generated Filename:</h4>
+                <div className="flex">
+                  <input
+                    className="shadow appearance-none border rounded-l w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline break-all"
+                    id="generatedFileName"
+                    type="text"
+                    ref={fileNameInputRef}
+                    value={fileName}
+                    readOnly
+                  />
+                  <button
+                    className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r focus:outline-none focus:shadow-outline"
+                    onClick={selectFileName}
+                  >
+                    <i className="far fa-clipboard"></i>
+                  </button>
+                </div>
+              </div>
+            )}
+            {copyMessage && (
+              <p className="text-green-600 text-sm mt-2">{copyMessage}</p>
+            )}
+          </div>
+        );
+      };
+
+      ReactDOM.render(<PaperRenamer />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
