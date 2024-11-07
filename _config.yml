@@ -30,6 +30,8 @@ exclude:
   - commons/package.json
   - commons/package-lock.json
 
+include: [".well-known"]
+
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
