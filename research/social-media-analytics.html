@@ -1,0 +1,59 @@
+---
+layout: default
+nav_active: research
+title: Webis Research Social Media Analytics
+description: Overview of research that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../research.html">Research</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Research ", "" }}</a></li>
+</ul>
+</nav>
+
+<main class="uk-section uk-section-default">
+  <div class="uk-container">
+    <h1>Social Media Analytics</h1>
+
+    <ul class="uk-list">
+      <!-- Comment out sections you do not provide -->
+      <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+      <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+      <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+    </ul>
+  </div>
+
+  <div class="uk-container uk-margin-medium">
+
+
+    <!--
+    SECTION Synopsis
+    -->
+    <h2><a id="synopsis"></a>Synopsis</h2>
+
+    <p>This projects analyzes texts from social media accorindg to various aspects. Examples include sentiment analysis and summary visualization.</p>
+
+    <!--
+    SECTION People
+    -->
+    <h2><a id="people"></a>People</h2>
+    <ul>
+	<li><a href="https://weimar.webis.de/people/#potthast" title="Martin Potthast">Martin Potthast</a></li>
+    </ul>
+
+	<!--
+	SECTION Publications
+	-->
+	<h2><a id="publications"></a>Publications</h2>
+    <div id="publications-list">
+    </div>
+	</div>
+    </div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:social-media-analytics");
+</script>
