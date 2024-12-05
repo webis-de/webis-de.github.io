@@ -1,0 +1,71 @@
+---
+layout: default
+nav_active: research
+title: Webis Research Business Analytics
+description: Overview of research that are used by the Webis research group
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../research.html">Research</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Research ", "" }}</a></li>
+</ul>
+</nav>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<h1>Business Analytics</h1>
+
+<ul class="uk-list">
+<!-- Comment out sections you do not provide -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+<!-- <li><span data-uk-icon="chevron-down"></span> <a href="#research">Research</a></li> -->
+<li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+<li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+</ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+<!--
+SECTION Synopsis
+-->
+<h2><a id="synopsis"></a>Synopsis</h2>
+<p>The project develops Information Extraction (IE) technologies for business intelligence tools.
+[demo:
+<a href="https://demo.webis.de/infexba">sentiment analysis</a>]
+</p>
+
+
+<!--
+SECTION Research
+-->
+
+
+
+
+<!--
+SECTION People
+-->
+<h2><a id="people"></a>People</h2>
+<ul>
+<li><a href="https://weimar.webis.de/people/#prettenhofer" title="Peter Prettenhofer">Peter Prettenhofer</a></li>
+<li><a href="https://weimar.webis.de/people/#wachsmuth" title="Henning Wachsmuth">Henning Wachsmuth</a></li>
+<li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+</ul>
+
+
+<!--
+SECTION Publications
+-->
+<h2><a id="publications"></a>Publications</h2>
+<div id="publications-list">
+</div>
+</div>
+</div>
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:business-analytics");
+</script>
