@@ -1,0 +1,84 @@
+---
+layout: default
+nav_active: events
+title: Webis Christmas 24
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="#">Webis Christmas 24</a></li>
+<li class="uk-disabled"><a href="#">Overview</a></li>
+</ul>
+</nav>
+
+<main class="uk-section uk-section-default">
+<div class="uk-container">
+<h1>Webis Christmas 24</h1>
+</div>
+
+<div class="uk-container uk-margin-medium">
+<h2><a id="synopsis"></a>Synopsis</h2>
+<p>
+These songs were created as part of the "Secret Song Santa" by and for group members in 2024.
+</p>
+<audio id="audio" preload="auto" tabindex="0" controls=""><source/></audio>
+<ul id="playlist">
+<li><button data-song="tmp.mp3">Song 1</button> [<a href="#">paper</a>]</li>
+<li><button data-song="tmp.mp3">Song 2</button> [<a href="#">paper</a>]</li>
+</ul>
+</div>
+</main>
+
+<style>
+#playlist {
+  padding-left: 0px;
+}
+#playlist li {
+  display: block;
+  margin-bottom: 5px;
+}
+#playlist button {
+  cursor: pointer;
+}
+#playlist .active button {
+  font-weight: bold;
+}
+</style>
+<script>
+const audioElement = document.querySelector("#audio");
+const playlistElement = document.querySelector("#playlist");
+
+function select(songElement) {
+  for (const activeSongElement of Array.from(playlistElement.querySelectorAll(".active"))) {
+    activeSongElement.classList.remove("active");
+  }
+  songElement.classList.add("active");
+  audioElement.querySelector("source").setAttribute("src", songElement.querySelector("[data-song]").getAttribute("data-song"));
+  audioElement.load();
+}
+function play(songElement) {
+  select(songElement);
+  audioElement.play();
+}
+function playNext() {
+  const activeSongElement = playlistElement.querySelector(".active");
+  if (activeSongElement === null) {
+    play(playlistElement.querySelector("li"));
+  } else {
+    const nextSongElement = activeSongElement.nextElementSibling;
+    if (nextSongElement === null) {
+      select(playlistElement.querySelector("li"));
+    } else {
+      play(nextSongElement);
+    }
+  }
+}
+audioElement.addEventListener("ended", playNext);
+for (const songElement of Array.from(playlistElement.querySelectorAll("li"))) {
+  songElement.querySelector("button").addEventListener("click", event => play(songElement));
+}
+
+select(playlistElement.querySelector("li"));
+</script>
+
