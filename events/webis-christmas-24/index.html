@@ -20,41 +20,56 @@ title: Webis Christmas 24
 <div class="uk-container uk-margin-medium">
 <h2><a id="synopsis"></a>Synopsis</h2>
 <p>
-These songs were created as part of the "Secret Song Santa" by and for group members in 2024.
+These songs were created as part of the "Secret Song Santa" by and for Webis group members in 2024.
 </p>
 <audio id="audio" preload="auto" tabindex="0" controls=""><source/></audio>
-<ul id="playlist">
-<li><button data-song="tmp.mp3">Song 1</button> [<a href="#">paper</a>]</li>
-<li><button data-song="tmp.mp3">Song 2</button> [<a href="#">paper</a>]</li>
-</ul>
+<ol id="playlist">
+<li><button data-song="song01.mp3">Song 01</button></li>
+<li><button data-song="song02.mp3">Song 02</button></li>
+<li><button data-song="song03.mp3">Song 03</button></li>
+<li><button data-song="song04.mp3">Song 04</button></li>
+<li><button data-song="song05.mp3">Song 05</button></li>
+<li><button data-song="song06.mp3">Song 06</button></li>
+<li><button data-song="song07.mp3">Song 07</button></li>
+<li><button data-song="song08.mp3">Song 08</button></li>
+<li><button data-song="song09.mp3">Song 09</button></li>
+<li><button data-song="song10.mp3">Song 10</button></li>
+<li><button data-song="song11.mp3">Song 11</button></li>
+<li><button data-song="song12.mp3">Song 12</button></li>
+</ol>
 </div>
 </main>
 
 <style>
-#playlist {
-  padding-left: 0px;
-}
 #playlist li {
-  display: block;
   margin-bottom: 5px;
 }
 #playlist button {
   cursor: pointer;
+  width: 60%;
+  max-width: 300px;
+  text-align: left;
+  background-color: white;
+  border: 0px;
+}
+#playlist button:hover {
+  background-color: lightgray;
 }
 #playlist .active button {
-  font-weight: bold;
+  background-color: #b4d4f5;
 }
 </style>
 <script>
 const audioElement = document.querySelector("#audio");
 const playlistElement = document.querySelector("#playlist");
+const baseUrl = "https://files.webis.de/data-in-production/data-proposals/webis-christmas-24/quiz/";
 
 function select(songElement) {
   for (const activeSongElement of Array.from(playlistElement.querySelectorAll(".active"))) {
     activeSongElement.classList.remove("active");
   }
   songElement.classList.add("active");
-  audioElement.querySelector("source").setAttribute("src", songElement.querySelector("[data-song]").getAttribute("data-song"));
+  audioElement.querySelector("source").setAttribute("src", baseUrl + songElement.querySelector("[data-song]").getAttribute("data-song"));
   audioElement.load();
 }
 function play(songElement) {
@@ -74,7 +89,7 @@ function playNext() {
     }
   }
 }
-audioElement.addEventListener("ended", playNext);
+// TODO audioElement.addEventListener("ended", playNext);
 for (const songElement of Array.from(playlistElement.querySelectorAll("li"))) {
   songElement.querySelector("button").addEventListener("click", event => play(songElement));
 }
