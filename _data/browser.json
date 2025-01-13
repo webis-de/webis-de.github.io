@@ -19617,9 +19617,11 @@
         ordering: [
             "unit-en-literature-research",
             "unit-en-oral-presentations",
-            "unit-en-scientific-writing",
-            "unit-en-styleguide",
-            "unit-en-styletest",
+            "unit-en-paper-writing",
+            "unit-en-formal-notation",
+            "unit-en-lecturenotes-tutorial",
+            "unit-en-lecturenotes-typesetting",
+            "unit-en-lecturenotes-figures",
         ],
         "unit-en-styleguide": {
             sha: "36b2ce5c3aa3c99a2fe994131703898cbe7cc9ef",
@@ -20039,88 +20041,88 @@
             ],
         },
         "unit-en-literature-research": {
-            sha: "51f772142e9e599522223a0e2989e8d29468516e",
+            sha: "690a34524c6c09ad0a69e5a00f9db5239eb959e8",
             numpages: 8,
             pages: [
                 {
                     page: 1,
-                    sha: "49e8c950b41a3184a6155a02ef7d3d0cddab2074",
+                    sha: "fd501db51c85b07566c076b3f13673761eb3d4ae",
                     description: "Chapter G:I I. Scientific Toolbox",
                 },
                 {
                     page: 2,
-                    sha: "9cf058844ff39a1a9650c3a2f34739a85de4374c",
+                    sha: "2b3d189572b6bd986b73565cf0c33c839e193213",
                     description: "Literature Research What it is and why to do it",
                 },
                 {
                     page: 3,
-                    sha: "c973140306195b6aaa9f06d838b7b344e8eb02eb",
+                    sha: "8b521df17f6396517c230ce1a61aeba63774dc61",
                     description: "Literature Research Types of scientific literature (and similar)",
                 },
                 {
                     page: 4,
-                    sha: "9da857f15380d5d5ff13c2d59ad61bfce1e632a6",
+                    sha: "63848dce3f0a8ba4d9c6a54f7e9c4817d7169df9",
                     description: "Literature Research What type to prefer (in our field)",
                 },
                 {
                     page: 5,
-                    sha: "024ceb612fff90d3e4e62594de50ea72c1dad5ee",
+                    sha: "bff9964ae534f0c3d41ac3423e1f8f1b0274ee27",
                     description: "Literature Research Assessing the \u201cquality\u201d of literature",
                 },
                 {
                     page: 6,
-                    sha: "bd4afc5f48e0d8461ff718fe396e17623586745d",
+                    sha: "6f135d02f25002ed41c246edbd37ad9f988bac06",
                     description: "Literature Research Reading and finding literature",
                 },
                 {
                     page: 7,
-                    sha: "30137d196b6362757b13404cbc0e8e85ae265afd",
+                    sha: "23ecaced4138a869e8eb7fba88b44b25cf3c9850",
                     description: "Literature Research Acquiring literature",
                 },
                 {
                     page: 8,
-                    sha: "510f006f7ed974d7764af4ff9b01df1f85b9187c",
+                    sha: "eef93c470cbbc3b8e596883ee41d5167f712edeb",
                     description: "Literature Research Organizing literature",
                 },
             ],
         },
         "unit-en-oral-presentations": {
-            sha: "411ac7e86ec120fb1c79e4fe469dd1f9581f8aa7",
+            sha: "e276ead38035b1a28b5eebf8f1ffd2d5f7402f70",
             numpages: 7,
             pages: [
                 {
                     page: 1,
-                    sha: "453ea361f9d11b534b231e4a0cbc4d518f522098",
+                    sha: "676b0ad4be72865229c8a371af9f0488f5000068",
                     description: "Chapter G:I I. Scientific Toolbox",
                 },
                 {
                     page: 2,
-                    sha: "054948c083a6faaff65c397a5f978586059c6295",
+                    sha: "f09a863d0cb004f6b6cdbd4e48e3c560a8042534",
                     description: "Oral Presentations Content of a talk",
                 },
                 {
                     page: 3,
-                    sha: "80439b1d994111e3da6962c67ba201871fce417e",
+                    sha: "823308833b364ba425e075373a56297448a2525b",
                     description: "Oral Presentations Figures",
                 },
                 {
                     page: 4,
-                    sha: "71024d3ac4939fe737c27235ed32f5fd92bff36c",
+                    sha: "0d3c0bcab8498eca7ad63e016e2a359edd3fb532",
                     description: "Oral Presentations Presentation and slide structure",
                 },
                 {
                     page: 5,
-                    sha: "5752b9dfdc1b579313f40cbca90ec46270179a78",
+                    sha: "1b4de5c12725410a20068812503f5e8f95de2d7f",
                     description: "Oral Presentations Style of slides",
                 },
                 {
                     page: 6,
-                    sha: "0375518e2b51a76c3746a7137d5d50af88f19afd",
+                    sha: "d76de7bae5a043cc50eadb632c4312df46b47ae8",
                     description: "Oral Presentations Fonts",
                 },
                 {
                     page: 7,
-                    sha: "b55610d801ac4cc8e2c44b8889de89b1427a2681",
+                    sha: "0a9a7158604436477493d7091ee4dd80b27b39ae",
                     description: "Oral Presentations Talking and timing",
                 },
             ],
@@ -20183,6 +20185,496 @@
                     page: 11,
                     sha: "c26fcf4638f7ba069198b29fe833398eb56df816",
                     description: "Scientific Writing Plagiarism",
+                },
+            ],
+        },
+        "unit-en-paper-writing": {
+            sha: "ea021c5fd86cc4270e51ce76534cbde934403d8a",
+            numpages: 11,
+            pages: [
+                {
+                    page: 1,
+                    sha: "9cb108124d3cc48ad8b288753806bb4f027ff9ce",
+                    description: "Chapter G:I I. Scientific Toolbox",
+                },
+                {
+                    page: 2,
+                    sha: "63ccb0f85d3cf79d16f8673792a6dd9311bfa2b2",
+                    description: "Paper Writing Content of a Paper",
+                },
+                {
+                    page: 3,
+                    sha: "846f8765dc87d7eeea76ba97c84b599dfed14821",
+                    description: "Paper Writing Structure of a Paper",
+                },
+                {
+                    page: 4,
+                    sha: "cddea7c9a82bfa35643c9cc788b9ae61cccce1f3",
+                    description: "Paper Writing Abstract",
+                },
+                {
+                    page: 5,
+                    sha: "c3ebba4eea8c5a274a2eab831c1996e9805ca2ed",
+                    description: "Paper Writing Sections",
+                },
+                {
+                    page: 6,
+                    sha: "fab4eb49a8e4ec4a0412907cf65e5c568cac215a",
+                    description: "Paper Writing Style",
+                },
+                {
+                    page: 7,
+                    sha: "a9deb77c4884461fa49f0e15a146bb208227ce6f",
+                    description: "Paper Writing Style",
+                },
+                {
+                    page: 8,
+                    sha: "3b6ebe4b10ae1d65417dc85573dca198991eb524",
+                    description: "Paper Writing Tables, Figures, Terms, and Footnotes",
+                },
+                {
+                    page: 9,
+                    sha: "e412f869fc012175d130661022e8e7a738c358ba",
+                    description: "Paper Writing Citations",
+                },
+                {
+                    page: 10,
+                    sha: "b4ffb5bc62d3c7633d8017463fe14fb82483632a",
+                    description: "Paper Writing References",
+                },
+                {
+                    page: 11,
+                    sha: "19265f8b8f0f824b3a1704a1cb868776afa6d11d",
+                    description: "Paper Writing Plagiarism",
+                },
+            ],
+        },
+        "unit-en-formal-notation": {
+            sha: "1e914cbd62c4c121d792287ab7ec544003ba1cbb",
+            numpages: 3,
+            pages: [
+                {
+                    page: 1,
+                    sha: "9cb88b6c178fc35c5bd046cb5bc41895f24d07a9",
+                    description: "Chapter G:I I. Formal Notation",
+                },
+                {
+                    page: 2,
+                    sha: "955ad60a0a265e8a54a016ccbc9a8efcd5758611",
+                    description: "Mathematical Elements Identifiers",
+                },
+                {
+                    page: 3,
+                    sha: "a13541d8e4a92b7da22f9463017cc8eb7fd07cbf",
+                    description: "Mathematical Environments Definitions and Theorems",
+                },
+            ],
+        },
+        "unit-en-lecturenotes-figures": {
+            sha: "0e12f0ae649e4ce87dae9e1284a64b7a78a0863e",
+            numpages: 3,
+            pages: [
+                {
+                    page: 1,
+                    sha: "5d807c7907ff9472306b7c7cc76db094de5acc2d",
+                    description: "Chapter G:I I. Style Guide",
+                },
+                {
+                    page: 2,
+                    sha: "f72ea393ff729d968814a5d0da7e9da5c0e77345",
+                    description: "Lecturenotes Figures Adobe Illustrator",
+                },
+                {
+                    page: 3,
+                    sha: "cd91fd3000eba61f20b377859815365fe7a9e2e1",
+                    description: "ACM 1 column ACL 1 column",
+                },
+            ],
+        },
+        "unit-en-lecturenotes-tutorial": {
+            sha: "b7922781736330ad64470f0f3f6615fcd2c47670",
+            numpages: 45,
+            pages: [
+                {
+                    page: 1,
+                    sha: "424033bb2981ce134c6d5517a174e7516d898b91",
+                    description: "Chapter G:I I. Lecturenotes Guide",
+                },
+                {
+                    page: 2,
+                    sha: "fa4df698bad80c73dfe7e5886cb0585b0f174ab7",
+                    description: "First Steps Style Files and Options",
+                },
+                {
+                    page: 3,
+                    sha: "df56eac105ab4cafec37de566816b168918be4dc",
+                    description: "First Steps Style Files and Options",
+                },
+                {
+                    page: 4,
+                    sha: "79c00feefc55e81f79d74d7002ba6ac26a4d98dc",
+                    description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ",
+                },
+                {
+                    page: 5,
+                    sha: "96d7920dd2d9bf3eb462eec8bdba910098b3b860",
+                    description: "Chapter G:I I. Style Guide",
+                },
+                {
+                    page: 6,
+                    sha: "7dd1a8d1e73838940169a39ce6f3ad949b8c18a3",
+                    description: "Slide Examples Standard Slide",
+                },
+                {
+                    page: 7,
+                    sha: "bcef8ed44662629c4837366d333e43ddda6bbab0",
+                    description: "Slide Examples Standard Slide + Continuous Slide",
+                },
+                {
+                    page: 8,
+                    sha: "cf8f21487281e63d787942401a236a4c701f2428",
+                    description: "Slide Examples Standard Slide + Continuous Slide + Continuous Slide",
+                },
+                {
+                    page: 9,
+                    sha: "730f28e14eefdb5b5aa0734c56d80f908f02d53e",
+                    description: "Slide Examples Animated Slides",
+                },
+                {
+                    page: 10,
+                    sha: "ab68cceaf41de7018d4dadbf50749fcad3c784e6",
+                    description: "Slide Examples Lists",
+                },
+                {
+                    page: 11,
+                    sha: "cd5618ea85072767e135c8b1a65f712f2b32569f",
+                    description: "Slide Examples Animated List",
+                },
+                {
+                    page: 12,
+                    sha: "f849847b6827713d310228838d4c5da812c5809f",
+                    description: "Slide Examples Animated List",
+                },
+                {
+                    page: 13,
+                    sha: "96a39a0ba780c79d54449ed2a783f5caecf8a132",
+                    description: "Slide Examples Animated List",
+                },
+                {
+                    page: 14,
+                    sha: "3958fe43b0d43b47b46e9cbac3837640504d865e",
+                    description: "Slide Examples Animated List: Code",
+                },
+                {
+                    page: 15,
+                    sha: "7b1a064d8bf87f02085459732e8be91ab4e22088",
+                    description: "Slide Examples Tables",
+                },
+                {
+                    page: 16,
+                    sha: "f024e9c1b0ef8c8b37672a0e87590117df60d47a",
+                    description: "Slide Examples Figures (centered)",
+                },
+                {
+                    page: 17,
+                    sha: "183b2f26e47f4994a279e4bf923cf82c9a56bc86",
+                    description: "Slide Examples Figures (inline)",
+                },
+                {
+                    page: 18,
+                    sha: "91948ec538025a683d265ab0ff8556adbb03f9b4",
+                    description: "Slide Examples Figures (displaced)",
+                },
+                {
+                    page: 19,
+                    sha: "90e6698719107316d348b7e97c852845a1f701a4",
+                    description: "Slide Examples Figures (displaced)",
+                },
+                {
+                    page: 20,
+                    sha: "4ccbb2ba0950db2b8520b5f367e85bc1fec17dbc",
+                    description: "Slide Examples Remarks Slide",
+                },
+                {
+                    page: 21,
+                    sha: "078835ff6371717a04210d78ebf4b9a943221d5e",
+                    description: "Slide Examples Lecture Content Slide (see rendering)",
+                },
+                {
+                    page: 22,
+                    sha: "74f9e72dfed3d0db2719ea29fdb3347b47ccf8a1",
+                    description: "Slide Examples Hyperlinks: (1) Absolute URL",
+                },
+                {
+                    page: 23,
+                    sha: "3e6511a3627225739d9f5fb5ed5ebc39c9a4baa2",
+                    description: "Slide Examples Hyperlinks: (2) Within Same (\u201cintra\u201d) Unit",
+                },
+                {
+                    page: 24,
+                    sha: "e2978d2253fd49e8102dc6a6ed94d61a81045d56",
+                    description: "Slide Examples Hyperlinks: (3) Between Different (\u201cinter\u201d) Units",
+                },
+                {
+                    page: 25,
+                    sha: "67067541cb65792d85b58196cb350ad0137607fc",
+                    description: "Slide Examples Hyperlinks: (3) Between Different (\u201cinter\u201d) Units",
+                },
+                {
+                    page: 26,
+                    sha: "7f1338a38545e797bfcdd1bfc3f7c9f0918fde26",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 27,
+                    sha: "c073315459a32b9b887a8f50cdcda2d7848a70a8",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 28,
+                    sha: "07d13fa931e05d4d03bab16b000a7cf0e54c8eae",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 29,
+                    sha: "64e1eaa66faa07f1019c29f5cd41048710a2d612",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 30,
+                    sha: "8a6ff5fb3004baecc9fdd56db1ec4ab8ebb7be18",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 31,
+                    sha: "c8a5eadf2cef3a1ac23f933dfdd651308c62e939",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 32,
+                    sha: "7edafd7c50298d620295defe6ed614c0c77c0cfa",
+                    description: "Slide Examples Hyperlinks: Tweaking the Style",
+                },
+                {
+                    page: 33,
+                    sha: "d4700cf745b9e3ac53a8af67b790dbd3ecdff4ad",
+                    description: "Slide Examples Animated Two-Column Slide",
+                },
+                {
+                    page: 34,
+                    sha: "60b8ba3c90acdfb3cd79707e3f6c6716b5710003",
+                    description: "Slide Examples Animated Two-Column Slide",
+                },
+                {
+                    page: 35,
+                    sha: "52398d5842ceb2183b8a33426c10870e29c089f2",
+                    description: "Slide Examples Animated Two-Column Slide: Code",
+                },
+                {
+                    page: 36,
+                    sha: "7614a7a49daa2c0831e2f381f8fc85eb8e217fe9",
+                    description: "Slide Examples \u2014 Restyle Head and Foot \u2014",
+                },
+                {
+                    page: 37,
+                    sha: "17a71f8e9e7f9a9d74457b3c51e2caad25eba394",
+                    description: "Slide Examples Restyle Head and Foot: Code",
+                },
+                {
+                    page: 38,
+                    sha: "264faf853d92564891bf9e1e90c7589a9869df7f",
+                    description: "Chapter G:I I. Style Guide",
+                },
+                {
+                    page: 39,
+                    sha: "62455f95d11fe1f1384f54475d77504a1da54312",
+                    description: "Slide Commands Overview (1) Slide Environment",
+                },
+                {
+                    page: 40,
+                    sha: "b8642465ff4776b810ae48637b21683aa6cb0ae8",
+                    description: "Slide Commands Overview (2) Predefined Colors and Color Commands",
+                },
+                {
+                    page: 41,
+                    sha: "5ecdb673a893749711450c6c8b13ccfa3eedaabe",
+                    description: "Slide Commands Overview (3) Additional Text Elements",
+                },
+                {
+                    page: 42,
+                    sha: "1e462d5f4230d04e431413ff6c2e6ac7192c0c52",
+                    description: "Remarks (slide commands) :",
+                },
+                {
+                    page: 43,
+                    sha: "358435e11717bfc858c542c3c01838e94b950958",
+                    description: "Chapter G:I I. Style Guide",
+                },
+                {
+                    page: 44,
+                    sha: "efb9174dc17882f5df6f606b5e58fd7563894003",
+                    description: "Latex Hints Your Latex Code is Read by Others",
+                },
+                {
+                    page: 45,
+                    sha: "9a0e31ed9580cce814ed20f430cd636781aa9fcc",
+                    description: "Latex Hints Some Debugging",
+                },
+            ],
+        },
+        "unit-en-lecturenotes-typesetting": {
+            sha: "aaa0e70a6c8164cfc651a57898bc550aefe74906",
+            numpages: 30,
+            pages: [
+                {
+                    page: 1,
+                    sha: "332b7c58f1c22b8cfe5456e6e8b97aa14b622c40",
+                    description: "Chapter G:I I. Style Guide",
+                },
+                {
+                    page: 2,
+                    sha: "58d6b1d316cabb77ede2806624e55914a4fab990",
+                    description: "Lecturenotes Typesetting Test Current Options and Dimensions",
+                },
+                {
+                    page: 3,
+                    sha: "b7d818547d471ce2fbb3328d03a58552b9c3d636",
+                    description: "Lecturenotes Typesetting Test Current Options and Dimensions",
+                },
+                {
+                    page: 4,
+                    sha: "555782cb7a73c9ee514fdae8e3517e035edaffa2",
+                    description: "Remarks: ",
+                },
+                {
+                    page: 5,
+                    sha: "9caa9de4c37b237da606179980ebd13580402f5d",
+                    description: "Lecturenotes Typesetting Test Listings: itemize",
+                },
+                {
+                    page: 6,
+                    sha: "73ed0f3cb87960f9e51ca71bfe936d6cad28c695",
+                    description: "Lecturenotes Typesetting Test Listings: enumerate",
+                },
+                {
+                    page: 7,
+                    sha: "009cff10de248ec4b88aa888faf309ea57888b02",
+                    description: "Lecturenotes Typesetting Test Listings with coloritem",
+                },
+                {
+                    page: 8,
+                    sha: "a899f5ebd55508c08b4a4e513cea7f7da534dee2",
+                    description: "Lecturenotes Typesetting Test Listings with coloritem",
+                },
+                {
+                    page: 9,
+                    sha: "f9170bbb1ab542bafd33cff9fe1e0005ed9cfcc2",
+                    description: "Lecturenotes Typesetting Test Listings with coloritem",
+                },
+                {
+                    page: 10,
+                    sha: "4660da2e91e7b472470fbfc55aae52dfab5ce05a",
+                    description: "Lecturenotes Typesetting Test Listings with coloritem",
+                },
+                {
+                    page: 11,
+                    sha: "25d908963ea147cbb20530bd87155532067a2562",
+                    description: "Lecturenotes Typesetting Test Listings: Numbered Lines under small",
+                },
+                {
+                    page: 12,
+                    sha: "bbcd2a555afd81b306135978860f371ecf65571d",
+                    description: "Lecturenotes Typesetting Test Skips: \normalsize",
+                },
+                {
+                    page: 13,
+                    sha: "93996578b4c87b613af51f9d4980b39f6a5076bc",
+                    description: "Lecturenotes Typesetting Test Skips: small",
+                },
+                {
+                    page: 14,
+                    sha: "fbccf5dde09609dec63816f91b16723866f0e277",
+                    description: "Lecturenotes Typesetting Test Skips: Itemize + \normalsize",
+                },
+                {
+                    page: 15,
+                    sha: "77a4651bff14a85360cc99b636514484872241e8",
+                    description: "Lecturenotes Typesetting Test Skips: Itemize + small",
+                },
+                {
+                    page: 16,
+                    sha: "fc496e18ff9b1e6ceed6e483abc9afab78f2422c",
+                    description: "Lecturenotes Typesetting Test Skips: Minipage + \normalsize",
+                },
+                {
+                    page: 17,
+                    sha: "2d4a6ab3896cc2813ee18b5b8bd77dd71d209b9f",
+                    description: "Lecturenotes Typesetting Test Skips: Minipage + small",
+                },
+                {
+                    page: 18,
+                    sha: "72ddf5bb230bc3f7c5b1e37c067991ed07de823b",
+                    description: "Lecturenotes Typesetting Test Font Sizes",
+                },
+                {
+                    page: 19,
+                    sha: "a5b17cb6187ca440ed5da17fe8a2e7652de7ad98",
+                    description: "\normalsize (1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y",
+                },
+                {
+                    page: 20,
+                    sha: "78ac800575713aa37417678a735e70717abb73b3",
+                    description: "T U V W X Y Z (17) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (18) a b c d e f g h i j k l m n o p q r s t u v w x",
+                },
+                {
+                    page: 21,
+                    sha: "539c3d4430f1e35b0c6250dd18d9f47ae50b9a90",
+                    description: "small (1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R",
+                },
+                {
+                    page: 22,
+                    sha: "0afd6ac615d3189f9669917bff34aa221674a875",
+                    description: "\footnotesize (1) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (2) a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (3) a b c d e",
+                },
+                {
+                    page: 23,
+                    sha: "4f911d6e3831d3350ae96d9cb4a8385b3ad25518",
+                    description: "Lecturenotes Typesetting Test Verbatim",
+                },
+                {
+                    page: 24,
+                    sha: "76564a40488b29f1890bfaee6f4c9f688bbb2a65",
+                    description: "Lecturenotes Typesetting Test Dimensions of Slide Head Define Start of First Line",
+                },
+                {
+                    page: 25,
+                    sha: "79e2cb03b069e9d70adb20a9883564b508f200f9",
+                    description: "Lecturenotes Typesetting Test Dimensions of Slide Head Define Start of First Line",
+                },
+                {
+                    page: 26,
+                    sha: "61de9882cfabcb93c3122a4961eb80b5f20f0a32",
+                    description: "Dimensions of Slide Head Define Start of First Line Slide head argument:",
+                },
+                {
+                    page: 27,
+                    sha: "768b41b81dc355933f78deb7ef9c6d4c6892293c",
+                    description: "Dimensions of Slide Head Define Start of First Line Slide head argument:",
+                },
+                {
+                    page: 28,
+                    sha: "13e01799099062815b1641fc5e9cb37a9639617e",
+                    description: "Dimensions of Slide Head Define Start of First Line ",
+                },
+                {
+                    page: 29,
+                    sha: "8f843a6ececd921367a6dc1e521ecfb1c9068233",
+                    description: "Dimensions of Slide Head Define Start of First Line ",
+                },
+                {
+                    page: 30,
+                    sha: "23257fbb10a8263cf8ef06bf261bf1d2e73a222a",
+                    description: "Dimensions of Slide Head Define Start of First Line ",
                 },
             ],
         },
