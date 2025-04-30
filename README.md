@@ -6,15 +6,11 @@ The Webis website source code.
 
 *If you are editing the files directly on GitHub, you can skip this section.*
 
-**Note:** Please use the `--recursive` flag for `git clone` or refer to
-the [Update Dependencies](#Update-Dependencies) section below to initialize
-or update the needed dependencies before compiling the source code.
-
 The website is built using [Jekyll](https://jekyllrb.com/docs/). To install
 Jekyll on your system, run
 
     sudo apt install ruby ruby-dev build-essential
-    sudo gem install jekyll jekyll-sitemap
+    sudo gem install jekyll
 
 After Jekyll is installed, you can `cd` into the main folder of this
 repository and run

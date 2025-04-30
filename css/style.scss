@@ -2,13 +2,8 @@
 # Front matter to ensure Jekyll is processing the file.
 ---
 
-@import url("https://assets.webis.de/css/style.css?{{site.time | date: '%s'}}");
-
-// Layout variables
-@import "../_sass/_variables.scss";
-
 // Styles
-@import "../_sass/index";
-@import "../_sass/lecturenotes";
-@import "../_sass/retrieval-models";
-@import "../_sass/aitools";
+@use "../_sass/index";
+@use "../_sass/lecturenotes";
+@use "../_sass/retrieval-models";
+@use "../_sass/aitools";

@@ -1,7 +1,13 @@
-// Index page
+@use "variables";
+
+// Import main Webis layout
+@import url("https://assets.webis.de/css/style.css");
+
+
+// Index page styles
 
 .index-main-cover {
-    background: $global-secondary-background url("../img/index-cover-optimized.jpg") no-repeat center center fixed;
+    background: variables.$global-secondary-background url("../img/index-cover-optimized.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 450px;
     font-size: 1.05rem;
@@ -32,7 +38,7 @@
     }
 }
 
-@media (min-width: $breakpoint-medium) {
+@media (min-width: variables.$breakpoint-medium) {
     .index-main-cover {
         height: 50vh;
     }

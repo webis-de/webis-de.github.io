@@ -32,9 +32,5 @@ exclude:
 
 include: [".well-known"]
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-redirect-from
-
 redirect_from:
   json: false
