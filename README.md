@@ -6,11 +6,11 @@ The Webis website source code.
 
 *If you are editing the files directly on GitHub, you can skip this section.*
 
-The website is built using [Jekyll](https://jekyllrb.com/docs/). To install
-Jekyll on your system, run
+The website is built using [Jekyll](https://jekyllrb.com/docs/) and uses
+[UIkit](https://getuikit.com/) as a CSS framework as well as a few additional
+JavaScript libraries. To install Jekyll on your system, run
 
-    sudo apt install ruby ruby-dev build-essential
-    sudo gem install jekyll
+    sudo apt install ruby ruby-dev build-essential jekyll
 
 After Jekyll is installed, you can `cd` into the main folder of this
 repository and run
