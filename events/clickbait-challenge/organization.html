@@ -7,9 +7,9 @@ shared_tasks: 1
 ---
 <nav class="uk-container">
 <ul class="uk-breadcrumb">
-<li><a href="https://webis.de/index.html">Webis.de</a></li>
-<li><a href="https://webis.de/events.html">Events</a></li>
-<li><a href="index.html">Clickbait Challenge</a></li>
+<li><a href="{{ '/index.html' | absolute_url }}">Webis.de</a></li>
+<li><a href="{{ '/events.html' | absolute_url }}">Events</a></li>
+<li><a href="{{ page.path | append: '/../' | relative_url }}">Clickbait Challenge</a></li>
 <li class="uk-disabled"><a href="#">Organization</a></li>
 </ul>
 </nav>

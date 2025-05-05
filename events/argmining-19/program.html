@@ -6,9 +6,9 @@ description: The 6th Workshop on Argument Mining
 ---
 <nav class="uk-container">
 <ul class="uk-breadcrumb">
-<li><a href="https://webis.de/index.html">Webis.de</a></li>
-<li><a href="https://webis.de/events.html">Events</a></li>
-<li><a href="index.html">ArgMining 2019</a></li>
+<li><a href="{{ '/index.html' | absolute_url }}">Webis.de</a></li>
+<li><a href="{{ '/events.html' | absolute_url }}">Events</a></li>
+<li><a href="{{ page.path | append: '/../' | relative_url }}">ArgMining 2019</a></li>
 <li class="uk-disabled"><a href="#">Program</a></li>
 </ul>
 </nav>
@@ -39,7 +39,7 @@ description: The 6th Workshop on Argument Mining
     <div class="uk-container">
         <h1>Program</h1>
         <ul class="uk-list">
-            <li><span data-uk-icon="chevron-right"></span> <a href="https://webis.de/publications.html#stein_2019">Proceedings</a></li>
+            <li><span data-uk-icon="chevron-right"></span> <a href="{{ '/publications.html#stein_2019' | absolute_url }}">Proceedings</a></li>
         </ul>
         <ul class="uk-list">
             <!-- Comment out sections you do not provide -->

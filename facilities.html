@@ -6,7 +6,7 @@ description: Overview of the Webis facilities
 ---
 <nav class="uk-container">
     <ul class="uk-breadcrumb">
-        <li><a href="index.html">Webis.de</a></li>
+        <li><a href="{{ '/' | relative_url }}">Webis.de</a></li>
         <li class="uk-disabled"><a href="#">Facilities</a></li>
     </ul>
 </nav>
@@ -65,7 +65,7 @@ description: Overview of the Webis facilities
                 <div class="image"><img src="facilities/img/generic-lab-logo.png" alt="Lab"></div>
                 <div class="description">
                     Weimar Webis Lab 1<br>
-                    B11 <a href="facilities/img/weimar-webis-lab-1.png">012</a><!-- <span class="phone-ext">3756</span> --><br>
+                    B11 <a href="{{ '/facilities/img/weimar-webis-lab-1.png' | relative_url }}">012</a><!-- <span class="phone-ext">3756</span> --><br>
                     10 workstations<br>
                 </div>
             </div>
@@ -86,7 +86,7 @@ description: Overview of the Webis facilities
                 <div class="image"><img src="facilities/img/generic-lab-logo.png" alt="Lab"></div>
                 <div class="description">
                     Weimar Webis Lab 3<br>
-                    HK7 <a href="facilities/img/weimar-webis-lab-3.png">R104 - R106</a><span class="phone-ext">3797 | 3781</span><br>
+                    HK7 <a href="{{ '/facilities/img/weimar-webis-lab-3.png' | relative_url }}">R104 - R106</a><span class="phone-ext">3797 | 3781</span><br>
                     13 workstations
                 </div>
             </div>
@@ -104,7 +104,7 @@ description: Overview of the Webis facilities
             <div class="entry">
                 <div class="image"><img src="facilities/img/generic-cloud-logo.png" alt="Cloud"/></div>
                 <div class="description">
-                    <a href="facilities/img/webis-cluster-2018.jpg">Deltaweb Cluster</a>
+                    <a href="{{ '/facilities/img/webis-cluster-2018.jpg' | relative_url }}">Deltaweb Cluster</a>
                     <span class="date">[2018]</span><br>
                     B11 Serverroom NK03<span class="phone-ext">1055</span><br>
                     Specification: 78 nodes, 1248 cores at 2.1 GHz, 10 TB RAM, 12&hairsp;480 TB HDD<br>
@@ -126,7 +126,7 @@ description: Overview of the Webis facilities
             <div class="entry">
                 <div class="image"><img src="facilities/img/generic-cloud-logo.png" alt="Cloud"/></div>
                 <div class="description">
-                    <a href="facilities/img/webis-cluster-2016.jpg">Gammaweb Cluster</a>
+                    <a href="{{ '/facilities/img/webis-cluster-2016.jpg' | relative_url }}">Gammaweb Cluster</a>
                     <span class="date">[2016, 2021, 2024]</span><br>
                     B11 Serverroom NK03<span class="phone-ext">1055</span><br>
                     Specification: 10 nodes, 448 cores at 2.1 GHz, 2.5 GHz, and 3.2 GHz, 8.9 TB RAM, 78 TB SSD; 1.7 TB GPU RAM, 4 Nvidia H100, 24 Nvidia A100, 24 GeForce GTX 1080
@@ -137,7 +137,7 @@ description: Overview of the Webis facilities
             <div class="entry">
                 <div class="image"><img src="facilities/img/generic-cloud-logo.png" alt="Cloud"/></div>
                 <div class="description">
-                    <a href="facilities/img/webis-cluster-2014.jpg">Betaweb Cluster</a>
+                    <a href="{{ '/facilities/img/webis-cluster-2014.jpg' | relative_url }}">Betaweb Cluster</a>
                     <span class="date">[2015]</span><br>
                     <a href="http://www.digital-bauhaus-lab.de">Digital Bauhaus Lab K04</a><span class="phone-ext">3580</span><br>
                     Specification: 135 nodes, 1620 cores at 2.4 GHz, 25.4 TB RAM, 4060 TB HDD<br>
@@ -159,7 +159,7 @@ description: Overview of the Webis facilities
             <div class="entry">
                 <div class="image"><img src="facilities/img/generic-cloud-logo.png" alt="Cloud"/></div>
                 <div class="description">
-                    <a href="facilities/img/webis-cluster-2010.jpg">Alphaweb Cluster</a>
+                    <a href="{{ '/facilities/img/webis-cluster-2010.jpg' | relative_url }}">Alphaweb Cluster</a>
                     <span class="date">[2009 - 2021]</span><br>
                     <!--B11 R204--> Retired<br>
                     Specification: 44 nodes, 88 cores at 1 GHz and 2 GHz, 0.4 TB RAM, 352 TB HDD
@@ -379,7 +379,7 @@ description: Overview of the Webis facilities
             <div class="entry">
                 <div class="image"><img src="facilities/img/generic-notes-logo.png" alt="Notes"/></div>
                 <div class="description">
-                <a href="facilities/paper-renamer.html">Paper Renamer</a><br>
+                <a href="{{ '/facilities/paper-renamer.html' | relative_url }}">Paper Renamer</a><br>
                 Easily generate correct names for saving research papers according to Webis naming convention. Also supports generating filenames from arXiv URLs. 
             </div>
             </div>
@@ -443,7 +443,7 @@ description: Overview of the Webis facilities
                     [<a href="https://kb.webis.de/services/ceph/s3-usage.html">S3</a>]
                     [<a href="https://git.webis.de/code-lib/aitools/aitools4-aq-cluster-computing/-/blob/master/docker/Readme.md">datascience
                     image</a>]
-                    [<a href="https://webis.de/lecturenotes.html#unit-en-docker">docker</a>]
+                    [<a href="{{ '/lecturenotes.html#unit-en-docker' | absolute_url }}">docker</a>]
                     [<a href="https://git.webis.de/code-generic/code-admin-clusters/blob/master/betaweb/hadoop/hadoop-notes.md">hadoop</a>]
                     [<a href="https://kb.webis.de/services/slurm/index.html">slurm</a>]
                     [<a href="https://kb.webis.de/k8s-manual/kubernetes-tutorial/index.html">kubernetes</a>]

@@ -6,8 +6,8 @@ description: Short description of the Corpus
 ---
 <nav class="uk-container">
 <ul class="uk-breadcrumb">
-<li><a href="../index.html">Webis.de</a></li>
-<li><a href="../data.html">Data</a></li>
+<li><a href="{{ '/' | relative_url }}">Webis.de</a></li>
+<li><a href="{{ '/data.html' | relative_url }}">Data</a></li>
 <li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Data ", "" }}</a></li>
 </ul>
 </nav>
@@ -99,7 +99,7 @@ description: Short description of the Corpus
 
         <p>You can access the Webis Comparative Web Search Questions Corpus 2020 on <a href="https://doi.org/10.5281/zenodo.4486547">Zenodo</a>.</p>
 
-        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="https://webis.de/publications.html#?q=stein2020a">bib</a>].</p>
+        <p>If you use the dataset in your research, please send us a copy of your publication. We kindly ask you to cite the corpus via [<a href="{{ '/publications.html#?q=stein2020a' | absolute_url }}">bib</a>].</p>
 
         <!--
         SECTION Research

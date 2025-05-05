@@ -34,27 +34,27 @@
         <nav class="uk-margin-large-top">
             <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
                 <li{% if page.nav_active == "overview" %} class="uk-active"{% endif %}>
-                <a href="index.html">Overview</a>
+                <a href="{{ page.path | append: '/../' | relative_url }}">Overview</a>
                 </li>
                 {% if page.shared_tasks %}
                   {% if page.shared_tasks == 1 %}
                     <li {% if page.nav_active == "shared task" %} class="uk-active"{% endif %}>
-                    <a href="shared-task.html">Task</a>
+                    <a href="{{ page.path | append: '/../shared-task.html' | relative_url }}">Task</a>
                     </li>
                   {% else %}
                     {% for t in (1..page.shared_tasks) %}
                     {% assign nav_name = "shared task " | append: t %}
                     <li {% if page.nav_active == nav_name %} class="uk-active"{% endif %}>
-                    <a href="shared-task-{{ t }}.html">Task {{ t }}</a>
+                    <a href="{{ page.path | append: '/../shared-task-' | append: t | append: '.html' | relative_url }}">Task {{ t }}</a>
                     </li>
                     {% endfor %}
                   {% endif %}
                 {% endif %}
                 <li{% if page.nav_active == "program" %} class="uk-active"{% endif %}>
-                <a href="program.html">Program</a>
+                <a href="{{ page.path | append: '/../program.html' | relative_url }}">Program</a>
                 </li>
                 <li{% if page.nav_active == "organization" %} class="uk-active"{% endif %}>
-                <a href="organization.html">Organization</a>
+                <a href="{{ page.path | append: '/../organization.html' | relative_url }}">Organization</a>
                 </li>
             </ul>
         </nav>
@@ -67,7 +67,7 @@
             <ul class="uk-navbar-nav">
                 <li>
                 <!-- DO NOT CHANGE -->
-                <a href="https://webis.de"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
+                <a href="{{ '/' | relative_url }}"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a>
                 </li>
             </ul>
         </div>
@@ -83,27 +83,27 @@
         <div class="uk-navbar-right desktop-nav">
             <ul class="uk-navbar-nav">
                 <li{% if page.nav_active == "overview" %} class="uk-active"{% endif %}>
-                <a href="index.html">Overview</a>
+                <a href="{{ page.path | append: '/../' | relative_url }}">Overview</a>
                 </li>
                 {% if page.shared_tasks %}
                   {% if page.shared_tasks == 1 %}
                     <li {% if page.nav_active == "shared task" %} class="uk-active"{% endif %}>
-                    <a href="shared-task.html">Task</a>
+                    <a href="{{ page.path | append: '/../shared-task.html' | relative_url }}">Task</a>
                     </li>
                   {% else %}
                     {% for t in (1..page.shared_tasks) %}
                     {% assign nav_name = "shared task " | append: t %}
                     <li {% if page.nav_active == nav_name %} class="uk-active"{% endif %}>
-                    <a href="shared-task-{{ t }}.html">Task {{ t }}</a>
+                    <a href="{{ page.path | append: '/../shared-task-' | append: t | append: '.html' | relative_url }}">Task {{ t }}</a>
                     </li>
                     {% endfor %}
                   {% endif %}
                 {% endif %}
                 <li{% if page.nav_active == "program" %} class="uk-active"{% endif %}>
-                <a href="program.html">Program</a>
+                <a href="{{ page.path | append: '/../program.html' | relative_url }}">Program</a>
                 </li>
                 <li{% if page.nav_active == "organization" %} class="uk-active"{% endif %}>
-                <a href="organization.html">Organization</a>
+                <a href="{{ page.path | append: '/../organization.html' | relative_url }}">Organization</a>
                 </li>
             </ul>
         </div>
@@ -122,12 +122,12 @@
             </div>
             <div class="uk-width-expand uk-visible@s"></div>
             <div>
-              &copy; {{site.time | date: '%Y'}} <a href="https://webis.de/">Webis Group</a> <span class="uk-padding-small">&bullet;</span>
+              &copy; {{site.time | date: '%Y'}} <a href="{{ '/' | absolute_url }}">Webis Group</a> <span class="uk-padding-small">&bullet;</span>
               <a href="https://github.com/webis-de"><span data-uk-icon="icon: github; ratio:0.8"></span></a> 
               <a href="https://x.com/webis_de"><span data-uk-icon="icon: x; ratio:0.9"></span></a> 
               <a href="https://www.youtube.com/webis"><span data-uk-icon="icon: youtube; ratio:0.9"></span></a> <span class="uk-padding-small">&bullet;</span>
-              <a href="https://webis.de/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
-              <a href="https://webis.de/legal.html">Impressum / Terms / Privacy</a>
+              <a href="{{ '/people.html' | relative_url }}">Contact</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="{{ '/legal.html' | relative_url }}">Impressum / Terms / Privacy</a>
             </div>
         </div>
     </div>

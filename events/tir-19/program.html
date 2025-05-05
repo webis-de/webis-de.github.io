@@ -30,7 +30,7 @@
         <nav id="navigation" role="navigation">
       <div id="main-menu">
         <ul class="menu">
-          <li class="first leaf"><a href="index.html">Call for Papers</a></li>
+          <li class="first leaf"><a href="{{ page.path | append: '/../' | relative_url }}">Call for Papers</a></li>
           <li class="leaf"><a href="program.html" class="active">Workshop Program</a></li>
           <li class="leaf"><a href="submission.html">Submission</a></li>
           <li class="leaf"><a href="dates.html">Dates</a></li>
@@ -89,7 +89,7 @@
   <div class="content">
   <ul>
     <li class="leaf"><a href="mailto:tir@webis.de?subject=[TIR-19]">Contact</a></li>
-	<li class="last leaf"><a href="https://webis.de/events.html#tir-workshop-series" target="_blank">Previous TIR Workshops</a></li>
+	<li class="last leaf"><a href="{{ '/events.html#tir-workshop-series' | absolute_url }}" target="_blank">Previous TIR Workshops</a></li>
 	<li class="leaf"><a href="http://www.dexa.org">DEXA Home</a></li>
   </ul>
  </div>
