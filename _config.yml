@@ -34,3 +34,5 @@ include: [".well-known"]
 
 redirect_from:
   json: false
+
+url: https://webis.de
