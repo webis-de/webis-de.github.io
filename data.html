@@ -80,4 +80,14 @@ description: Overview of corpora that are used by the Webis
 <script src="https://assets.webis.de/js/filter.js"></script>
 <script src="https://assets.webis.de/js/selection.js"></script>
 <script src="https://assets.webis.de/js/tables.js"></script>
-<script>initWebisDataFiltering();</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const tables = document.querySelectorAll('.targetable');
+  
+  // Initialize sorting and filtering
+  initWebisDataFiltering(tables);
+
+  // Apply default sorting by 'Name' column
+  sortTablesByName(tables);
+});
+</script>
