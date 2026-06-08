@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Agentic AI in University Administration — CIKM 2026 Shared Task</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A shared task on agentic AI in university administration, part of the CIKM 2026 AnalytiCup: build agents that solve standardized administrative tasks under controlled tool access and expert-judged reference solutions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="&copy; 2026 Webis">
+    <!-- DO NOT CHANGE -->
+    <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
+
+    <!-- +++ Global Webis CSS +++ -->
+    <link rel="stylesheet" href="https://assets.webis.de/css/style.css?1760090551">
+    <!-- +++ Event-specific CSS +++ -->
+    <link rel="stylesheet" href="https://assets.webis.de/css/workshop.css?1760090551">
+</head>
+<body class="uk-offcanvas-content">
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit-icons.min.js"></script>
+
+<div id="offcanvas-nav" class="mobile-nav" data-uk-offcanvas="overlay: true; flip: true;">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+        <nav class="uk-margin-large-top">
+            <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
+                <li><a href="index.html">Overview</a></li>
+                <li class="uk-active"><a href="shared-task.html">Task</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="organization.html">Organization</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="uk-background-secondary global-nav" data-uk-sticky>
+    <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><!-- DO NOT CHANGE --><a href="https://webis.de"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right mobile-nav">
+            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu" data-uk-toggle="target: #offcanvas-nav"></button>
+        </div>
+        <div class="uk-navbar-right desktop-nav">
+            <ul class="uk-navbar-nav">
+                <li><a href="index.html">Overview</a></li>
+                <li class="uk-active"><a href="shared-task.html">Task</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="organization.html">Organization</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div data-uk-height-viewport="expand: true">
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Agentic AI in University Administration</a></li>
+<li class="uk-disabled"><a href="#">Shared Task</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Shared Task",
+    "name":"Agentic AI in University Administration",
+    "description":"A shared task on agentic AI in university administration, part of the CIKM 2026 AnalytiCup. Participants build agents that solve standardized administrative tasks (e.g., travel permits and reimbursements) by retrieving relevant regulations, planning, and using a controlled set of tools under expert-judged reference solutions.",
+    "text":"The first reusable, Cranfield-style laboratory for the controlled evaluation of agentic AI in a university environment.",
+    "url":"https://webis.de/events/agentic-ai-26/shared-task.html",
+    "keywords":[
+        "Agentic AI",
+        "Agentic Retrieval",
+        "Enterprise Search",
+        "Tool Use",
+        "University Administration"
+    ],
+    "creator":[
+        {
+            "@type":"Organization",
+            "url":"https://webis.de/",
+            "name":"The Web Technology & Information Systems Network",
+            "alternateName":"Webis"
+        },
+        {
+            "@id":"https://orcid.org/0000-0003-2451-0665",
+            "@type":"Person",
+            "affiliation":"University of Kassel, hessian.AI, ScaDS.AI",
+            "name":"Potthast, Martin"
+        },
+        {
+            "@id":"https://orcid.org/0009-0008-4868-4882",
+            "@type":"Person",
+            "affiliation":"University of Kassel, hessian.AI",
+            "name":"Ruth, Simon"
+        }
+    ],
+    "includedInDataCatalog":{
+    },
+    "distribution":[
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Agentic AI in University Administration</h1>
+        <p class="uk-text-lead">A shared task at the <a href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener">CIKM&nbsp;2026</a> AnalytiCup, Rome, 8&ndash;11&nbsp;November&nbsp;2026.</p>
+
+        <ul class="uk-list">
+            <!-- Comment out sections you do not provide -->
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task">Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#data">Data &amp; Tools</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#evaluation">Evaluation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#participation">Participation</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#dates">Important Dates</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#awards">Awards</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#results">Results</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#related-work">Related Work</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#task-committee">Task Committee</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis</h2>
+
+        <p>Agentic AI systems combine large language models, information retrieval,
+        planning, and tool use to act on behalf of users in complex digital
+        environments. Yet their evaluation remains difficult for lack of reproducible,
+        bounded laboratories. A university administration is a closed-world,
+        socio-technical environment in which many tasks follow standardized,
+        well-documented processes&nbsp;&mdash; making it particularly suited for a
+        Cranfield-style evaluation of AI&nbsp;agents.</p>
+
+        <p>This shared task offers the first reusable laboratory for the controlled
+        evaluation of agentic AI in a university environment, namely the University of
+        Kassel. Participants build agents that solve standardized administrative tasks
+        (e.g., travel permits and reimbursements) by retrieving the relevant
+        regulations, planning the necessary steps, and using a controlled set of tools,
+        while complying with the institution's codes of conduct. The document collection
+        is compiled together with the <a href="https://openwebsearch.eu" target="_blank" rel="noopener">OpenWebSearch.eu</a>
+        project, which also provides search and retrieval endpoints.</p>
+
+
+        <!--
+        SECTION Task
+        -->
+        <h2><a id="task"></a>Task</h2>
+
+        <p>In its most generic form, the class of tasks we study can be described as
+        follows:</p>
+
+        <blockquote class="uk-text-meta">
+        Given a digital environment and a problem or task (the objective) that is
+        typically tackled by a person acting in the environment, develop an intelligent
+        agent that achieves the objective on the person's behalf by planning and
+        executing the necessary steps in accordance with the environment's codes of
+        conduct.
+        </blockquote>
+
+        <h3 class="uk-margin-small-top">Topic areas</h3>
+        <p>The first edition focuses on three administrative task areas:</p>
+        <ul class="uk-list uk-list-bullet">
+            <li><b>Business travel</b>&nbsp;&mdash; travel permit requests, compliance
+            checking (e.g., hotel rate limits, private extensions), and reimbursement
+            processing. Topics are derived from labeled mail exchanges between
+            administrative staff and university staff.</li>
+            <li><b>Privately advanced costs</b>&nbsp;&mdash; reimbursement of
+            out-of-pocket expenses paid by university staff. The process is modeled as a
+            BPMN workflow and provided to participants.</li>
+            <li><b>Internal procurement</b>&nbsp;&mdash; identification, selection, and
+            ordering of goods through the university's procurement system, supported by
+            a dedicated product-search tool for reproducibility.</li>
+        </ul>
+
+        <h3 class="uk-margin-small-top">Sub-tasks</h3>
+        <p>To lower the barrier to entry, participants may address any of three
+        sub-tasks, each taking the task description as input:</p>
+        <ol class="uk-list uk-list-decimal">
+            <li><b>Retrieval</b>&nbsp;&mdash; retrieve documents relevant to the current
+            state and task progress (focus on recall); output the run and a log of
+            reasoning tokens.</li>
+            <li><b>Simulation</b>&nbsp;&mdash; generate a plan of action without
+            executing it; output the plan, retrieved documents, and reasoning tokens.</li>
+            <li><b>Solving</b>&nbsp;&mdash; build a working agent that synthesizes a full
+            solution; output the solution and a log of actions, retrieved documents, and
+            reasoning tokens.</li>
+        </ol>
+
+
+        <!--
+        SECTION Data & Tools
+        -->
+        <h2><a id="data"></a>Data &amp; Tools</h2>
+        <p>The environment comprises a document collection, a set of topics, and a
+        controlled set of tools.</p>
+
+        <h3 class="uk-margin-small-top">Document collection</h3>
+        <p>Compiled by crawling the web pages of the University of Kassel and other
+        sources together with the <a href="https://openwebsearch.eu" target="_blank" rel="noopener">OpenWebSearch.eu</a>
+        project. A specialized sub-crawl is available for download, and the project
+        provides pre-computed embeddings and a RAG&nbsp;API endpoint for participants who
+        do not wish to index the collection themselves. First-edition tasks are selected
+        to have sufficient English documentation.</p>
+
+        <h3 class="uk-margin-small-top">Topics</h3>
+        <p>We compile a collection of 50&nbsp;topics across the three task areas above,
+        drawing on the hands-on expertise of administrative staff trained in the
+        University of Kassel's &ldquo;AI&nbsp;FrAIdays&rdquo; seminar series. Each topic
+        consists of a user query (with any attached documents), an expected output
+        following the prescribed process, and annotations for query type, complexity,
+        and rule area.</p>
+
+        <h3 class="uk-margin-small-top">Tools</h3>
+        <p>Tool access is provided through one of the established AI agent protocols
+        (e.g., <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">MCP</a>
+        or <a href="https://a2a-protocol.org/" target="_blank" rel="noopener">A2A</a>).
+        The following tools are envisioned for the first edition:</p>
+        <ul class="uk-list uk-list-bullet">
+            <li><b>All task areas:</b> RAG systems / chatbots indexing the relevant
+            document collections (hosted at OpenWebSearch.eu) and a subset of internal
+            documents; a mock mail backend for sending e-mails to fake addresses of the
+            administrative staff; and any locally available tools participants choose to
+            integrate via the prescribed agent protocol.</li>
+            <li><b>Business travel and privately advanced costs:</b> a BPMN endpoint
+            exposing the modeled university workflows, and a mock interface to the
+            university's SAP-based travel and reimbursement portal for filling in and
+            submitting forms without touching the live system.</li>
+            <li><b>Internal procurement:</b> a RAG endpoint over the university's
+            internal product catalog; where appropriate, public product catalogs may
+            additionally be consulted via web-search tools.</li>
+        </ul>
+        <p class="uk-text-meta">No personally identifiable information (names, mail
+        addresses, phone numbers) of University of Kassel staff is contained in the
+        collection or the mock backends.</p>
+
+        <h3 class="uk-margin-small-top">Input / Output format</h3>
+        <p><b>Input:</b> a task description (a user request, optionally with attached
+        documents). <b>Output</b> depends on the chosen sub-task and follows prescribed
+        formats: retrieved documents in the TREC run format, action logs in a common
+        protocol format, and reasoning tokens as plain text. Validation tools are
+        provided.</p>
+
+
+        <!--
+        SECTION Evaluation
+        -->
+        <h2><a id="evaluation"></a>Evaluation</h2>
+        <p>Because solutions to standardized tasks can be checked against a reference,
+        we combine manual and automatic evaluation:</p>
+        <ul class="uk-list uk-list-bullet">
+            <li><b>Success rate and average error rate.</b> A minimal acceptable
+            solution (e.g., a reimbursement application with valid receipts) is a binary
+            success criterion; among non-successful solutions, the number and severity of
+            errors (rule violations, missing receipts, incorrect form fields) enable a
+            finer ranking. Judges compare synthesized solutions against expert reference
+            solutions, ideally via a diff visualization.</li>
+            <li><b>Qualitative agent behavior audit, tool-use accuracy, and retrieval
+            quality.</b> Participants submit a detailed agent behavior log (reasoning
+            tokens, tool calls and responses, queries, retrieved sources in
+            chronological order). Samples are manually analyzed to verify agents reach
+            solutions for the right reasons; tool-use accuracy and retrieval quality are
+            quantified with standard measures.</li>
+            <li><b>Efficiency.</b> Manual task-completion time (a trained-human
+            baseline), runtime, and environmental-impact measures, for which we
+            investigate the TIREx tracker.</li>
+        </ul>
+        <p>Automatic LLM-as-judge measures will be investigated and validated against
+        the human reference-based judgments on a sample before being used to rank
+        systems. The organizers will carry out the necessary relevance judgments and
+        qualitative assessments.</p>
+
+
+        <!--
+        SECTION Participation
+        -->
+        <h2><a id="participation"></a>Participation</h2>
+        <p>Participation is open to research groups and individuals from IR, NLP, AI,
+        and adjacent communities, as well as industry teams.</p>
+        <ol class="uk-list uk-list-decimal">
+            <li><b>Register your interest</b> by e-mailing the organizers (see
+            <a href="#contact">Contact</a>); registration opens in July&nbsp;2026.</li>
+            <li><b>Form a team</b> and choose one or more of the three sub-tasks
+            (Retrieval, Simulation, Solving).</li>
+            <li><b>Develop your agent</b> against the released document collection,
+            tools, and example topics. Tools are accessed via the prescribed AI agent
+            protocol; you may integrate your own local tools.</li>
+            <li><b>Submit your runs</b> in the prescribed formats together with the agent
+            behavior log. Validation tools are provided to check submission validity.</li>
+            <li><b>Results and findings</b> are presented at the CIKM&nbsp;2026 AnalytiCup
+            session; participating teams are invited to contribute to the overview paper.</li>
+        </ol>
+
+
+        <!--
+        SECTION Important Dates
+        -->
+        <h2><a id="dates"></a>Important Dates</h2>
+        <p class="uk-text-meta">All dates are tentative and will be finalized upon
+        acceptance.</p>
+        <table class="uk-table uk-table-divider uk-table-small uk-table-hover">
+            <tbody>
+                <tr><td><b>July 2026</b></td><td>Launch; release of collection, tools, and example topics; registration opens.</td></tr>
+                <tr><td><b>August 2026</b></td><td>Team formation deadline; training topics released.</td></tr>
+                <tr><td><b>Mid-October 2026</b></td><td>Submission deadline for system runs.</td></tr>
+                <tr><td><b>Late October 2026</b></td><td>Evaluation period (expert judgments and automatic measures).</td></tr>
+                <tr><td><b>Early November 2026</b></td><td>Notification of results.</td></tr>
+                <tr><td><b>8 November 2026</b></td><td>Presentation at the CIKM&nbsp;2026 AnalytiCup (main conference 9&ndash;11&nbsp;November).</td></tr>
+            </tbody>
+        </table>
+
+
+        <!--
+        SECTION Awards
+        -->
+        <h2><a id="awards"></a>Awards</h2>
+        <p>Winning teams are recognized with certificates, a presentation slot at the
+        CIKM&nbsp;2026 AnalytiCup session, and a mention in the overview paper. We
+        foresee no monetary prizes at this stage, though awards may be extended if
+        sponsorship becomes available.</p>
+
+
+        <!--
+        SECTION Results
+        -->
+        <h2><a id="results"></a>Results</h2>
+        <p>Results will be announced after the evaluation period&nbsp;&mdash; see
+        <a href="#dates">Important Dates</a>.</p>
+
+
+        <!--
+        SECTION Related Work
+        -->
+        <h2><a id="related-work"></a>Related Work</h2>
+        <p>This task builds on and complements prior community evaluations:</p>
+        <ul class="uk-list uk-list-bullet">
+            <li><b>TREC Enterprise tracks (2005&ndash;2008).</b> We revisit the
+            enterprise setting with a more holistic aim: rather than retrieving
+            information for a query, we automate achieving the objective, of which
+            retrieval is a sub-task.</li>
+            <li><b>TREC Million LLM track (2025&ndash;2026).</b> Retrieving expert LLMs
+            for specific tasks complements ours, as an agent may consult such an expert
+            while executing its plan.</li>
+            <li><b>TREC RAG track (2024&ndash;2026).</b> A RAG response is a synthesized
+            solution integrating retrieval, but does not include tool calling or richer
+            environment interactions.</li>
+            <li><b>TREC AutoJudge track (2026)</b> and the <b>CLEF</b> evaluation labs
+            (e.g., Touch&eacute;, LongEval), with which integration and shared expertise
+            are foreseen.</li>
+        </ul>
+
+
+        <!--
+        SECTION Task Committee
+        -->
+        <h2><a id="task-committee"></a>Task Committee</h2>
+        <!-- TODO: replace silhouette placeholders with photos and add affiliation logos / profile links. -->
+        <div data-uk-grid class="uk-grid uk-grid-match uk-grid-small thumbnail-card-grid">
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0003-2451-0665" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/img/people/potthast.jpg" alt="Martin Potthast"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Martin Potthast</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of Kassel, hessian.AI, ScaDS.AI &middot; Track coordinator (evaluation design, reproducibility)</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0002-5503-0341" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Udo Kruschwitz"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Udo Kruschwitz</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of Regensburg &middot; Enterprise search and assessment design</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0003-3566-5507" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Michael Granitzer"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Michael Granitzer</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of Passau &middot; Document collection, crawling, RAG infrastructure (OpenWebSearch.eu)</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0009-0003-1747-5643" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Michael Dinzinger"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Michael Dinzinger</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of Passau &middot; Document collection, crawling, RAG infrastructure (OpenWebSearch.eu)</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0002-2888-4202" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Arjen P. de Vries"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Arjen P. de Vries</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">Radboud University &middot; Evaluation methodology</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0001-9578-7157" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Harrisen Scells"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Harrisen Scells</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of T&uuml;bingen &middot; Tooling and baselines</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0002-1003-981X" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/img/people/froebe.jpg" alt="Maik Fr&ouml;be"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Maik Fr&ouml;be</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">Friedrich-Schiller-Universit&auml;t Jena &middot; Reproducibility infrastructure (TIRA)</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0000-0001-5446-8328" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Andrew Parry"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Andrew Parry</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">Bloomberg LP &middot; Measures and analysis</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="https://orcid.org/0009-0008-4868-4882" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-male.jpg" alt="Simon Ruth"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Simon Ruth</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of Kassel, hessian.AI &middot; Topic curation, data labeling, mock tool backends</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <a href="#" class="uk-link-reset">
+                        <div class="thumbnail-left"><img src="https://webis.de/weimar/people/img/silhouette-female.jpg" alt="Clara Erner"></div>
+                        <div class="uk-height-1-1">
+                            <div class="uk-card-title">Clara Erner</div>
+                            <div class="uk-text-muted uk-margin-small-top uk-margin-small-bottom">University of Kassel &middot; Topic curation, data labeling, mock tool backends</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        SECTION Contact
+        -->
+        <h2><a id="contact"></a>Contact</h2>
+        <p>For questions about the task and to register your interest, contact the
+        organizers at <a href="mailto:simon.ruth@uni-kassel.de">simon.ruth@uni-kassel.de</a>
+        and <a href="mailto:martin.potthast@uni-kassel.de">martin.potthast@uni-kassel.de</a>.</p>
+    </div>
+</main>
+
+<footer class="uk-section uk-section-muted footer-section">
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-small uk-margin-top">
+            <div class="uk-width-1-5@s"></div>
+            <div class="uk-width-expand uk-visible@s"></div>
+            <div>
+              &copy; 2026 <a href="https://webis.de/">Webis Group</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://github.com/webis-de"><span data-uk-icon="icon: github; ratio:0.8"></span></a>
+              <a href="https://twitter.com/webis_de"><span data-uk-icon="icon: twitter; ratio:0.9"></span></a>
+              <a href="https://www.youtube.com/webis"><span data-uk-icon="icon: youtube; ratio:0.9"></span></a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://webis.de/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://webis.de/legal.html">Impressum / Terms / Privacy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>

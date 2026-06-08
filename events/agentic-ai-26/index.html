@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Agentic AI in University Administration — CIKM 2026 Shared Task</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A shared task on agentic AI in university administration, part of the CIKM 2026 AnalytiCup.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="&copy; 2026 Webis">
+    <!-- DO NOT CHANGE -->
+    <link rel="icon" type="image/png" href="https://assets.webis.de/img/favicon.png">
+
+    <!-- +++ Global Webis CSS +++ -->
+    <link rel="stylesheet" href="https://assets.webis.de/css/style.css?1760090551">
+    <!-- +++ Event-specific CSS +++ -->
+    <link rel="stylesheet" href="https://assets.webis.de/css/workshop.css?1760090551">
+</head>
+<body class="uk-offcanvas-content">
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit.min.js"></script>
+<script src="https://assets.webis.de/js/thirdparty/uikit/uikit-icons.min.js"></script>
+
+<div id="offcanvas-nav" class="mobile-nav" data-uk-offcanvas="overlay: true; flip: true;">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+        <nav class="uk-margin-large-top">
+            <ul class="uk-nav uk-nav-primary uk-nav-parent-icon" data-uk-nav>
+                <li class="uk-active"><a href="index.html">Overview</a></li>
+                <li><a href="shared-task.html">Task</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="organization.html">Organization</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="uk-background-secondary global-nav" data-uk-sticky>
+    <nav class="uk-navbar-container uk-navbar-transparent uk-container uk-light" data-uk-navbar="mode: click">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><!-- DO NOT CHANGE --><a href="https://webis.de"><img src="https://assets.webis.de/img/webis-logo.png" alt="Webis Logo" class="uk-logo"> Webis.de</a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right mobile-nav">
+            <button class="uk-button uk-navbar-item uk-light uk-button-large" type="button" data-uk-icon="icon: menu" data-uk-toggle="target: #offcanvas-nav"></button>
+        </div>
+        <div class="uk-navbar-right desktop-nav">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="index.html">Overview</a></li>
+                <li><a href="shared-task.html">Task</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="organization.html">Organization</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div data-uk-height-viewport="expand: true">
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="https://webis.de/index.html">Webis.de</a></li>
+<li><a href="https://webis.de/events.html">Events</a></li>
+<li><a href="index.html">Agentic AI in University Administration</a></li>
+<li class="uk-disabled"><a href="#">Overview</a></li>
+</ul>
+</nav>
+
+<script type="application/ld+json">
+{
+    "@context":"http://schema.org/",
+    "@type":"Event",
+    "name":"Agentic AI in University Administration — CIKM 2026 Shared Task",
+    "description":"A shared task on agentic AI in university administration, part of the CIKM 2026 AnalytiCup.",
+    "url":"https://webis.de/events/agentic-ai-26/",
+    "keywords":["Agentic AI","Agentic Retrieval","Enterprise Search","Tool Use","University Administration"],
+    "creator":[
+        {"@type":"Organization","url":"https://webis.de/","name":"The Web Technology & Information Systems Network","alternateName":"Webis"}
+    ]
+}
+</script>
+
+<main class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h1>Agentic AI in University Administration</h1>
+        <p class="uk-text-lead">A shared task at the <a href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener">CIKM&nbsp;2026</a> AnalytiCup, Rome, 8&ndash;11&nbsp;November&nbsp;2026.</p>
+
+        <ul class="uk-list">
+            <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis / Call</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#tasks">Shared Task</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#dates">Important Dates</a></li>
+            <li><span data-uk-icon="chevron-down"></span> <a href="#sponsors">Sponsors</a></li>
+        </ul>
+    </div>
+
+    <div class="uk-container uk-margin-medium">
+        <!--
+        SECTION Synopsis
+        -->
+        <h2><a id="synopsis"></a>Synopsis / Call</h2>
+        <p>Agentic AI systems combine large language models, information retrieval,
+        planning, and tool use to act on behalf of users in complex digital
+        environments. Their evaluation, however, remains difficult for lack of
+        reproducible, bounded laboratories. A university administration is a
+        closed-world, socio-technical environment whose tasks follow standardized,
+        well-documented processes&nbsp;&mdash; making it particularly suited for a
+        Cranfield-style evaluation of AI&nbsp;agents.</p>
+
+        <p>This shared task offers the first reusable laboratory for the controlled
+        evaluation of agentic AI in a university environment, namely the University of
+        Kassel. Participants build agents that solve standardized administrative tasks
+        (e.g., travel permits and reimbursements) by retrieving the relevant
+        regulations, planning the necessary steps, and using a controlled set of tools,
+        while complying with the institution's codes of conduct. The task runs as part
+        of the CIKM&nbsp;2026 AnalytiCup and is organized together with the
+        <a href="https://openwebsearch.eu" target="_blank" rel="noopener">OpenWebSearch.eu</a>
+        project.</p>
+
+        <p>For the full task definition, data, evaluation, and participation process,
+        see the <a href="shared-task.html">Task</a> page.</p>
+
+
+        <!--
+        SECTION Shared Task
+        -->
+        <h2><a id="tasks"></a>Shared Task</h2>
+        <ul class="uk-list uk-list-bullet">
+            <li><a href="shared-task.html">Agentic AI in University Administration</a>&nbsp;&mdash;
+            three task areas (business travel, privately advanced costs, internal
+            procurement) and three sub-tasks (retrieval, simulation, solving).</li>
+        </ul>
+
+
+        <!--
+        SECTION Important Dates
+        -->
+        <h2><a id="dates"></a>Important Dates</h2>
+        <p class="uk-text-meta">All dates are tentative and will be finalized upon
+        acceptance.</p>
+        <ul class="uk-list uk-list-bullet">
+            <li><b>July 2026</b>: Launch; release of collection, tools, and example topics; registration opens.</li>
+            <li><b>August 2026</b>: Team formation deadline; training topics released.</li>
+            <li><b>Mid-October 2026</b>: Submission deadline for system runs.</li>
+            <li><b>Late October 2026</b>: Evaluation period.</li>
+            <li><b>Early November 2026</b>: Notification of results.</li>
+            <li><b>8 November 2026</b>: Presentation at the CIKM&nbsp;2026 AnalytiCup (main conference 9&ndash;11&nbsp;November).</li>
+        </ul>
+        <p>The timezone of all deadlines is Anywhere on Earth (AoE).</p>
+
+
+        <!--
+        SECTION Sponsors
+        -->
+        <h2><a id="sponsors"></a>Sponsors</h2>
+        <p>To be announced.</p>
+    </div>
+</main>
+
+<footer class="uk-section uk-section-muted footer-section">
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-small uk-margin-top">
+            <div class="uk-width-1-5@s"></div>
+            <div class="uk-width-expand uk-visible@s"></div>
+            <div>
+              &copy; 2026 <a href="https://webis.de/">Webis Group</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://github.com/webis-de"><span data-uk-icon="icon: github; ratio:0.8"></span></a>
+              <a href="https://twitter.com/webis_de"><span data-uk-icon="icon: twitter; ratio:0.9"></span></a>
+              <a href="https://www.youtube.com/webis"><span data-uk-icon="icon: youtube; ratio:0.9"></span></a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://webis.de/people.html">Contact</a> <span class="uk-padding-small">&bullet;</span>
+              <a href="https://webis.de/legal.html">Impressum / Terms / Privacy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>
