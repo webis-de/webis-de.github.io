@@ -69,7 +69,7 @@
     "@type":"Shared Task",
     "name":"Agentic AI in University Administration",
     "description":"A shared task on agentic AI in university administration, part of the CIKM 2026 AnalytiCup. Participants build agents that solve standardized administrative tasks (e.g., travel permits and reimbursements) by retrieving relevant regulations, planning, and using a controlled set of tools under expert-judged reference solutions.",
-    "text":"The first reusable, Cranfield-style laboratory for the controlled evaluation of agentic AI in a university environment.",
+    "text":"The first reusable, Cranfield-style laboratory for the controlled evaluation of agentic AI in a university environment, an underexplored yet highly relevant problem.",
     "url":"https://webis.de/events/agentic-ai-26/shared-task.html",
     "keywords":[
         "Agentic AI",
@@ -138,7 +138,9 @@
         bounded laboratories. A university administration is a closed-world,
         socio-technical environment in which many tasks follow standardized,
         well-documented processes&nbsp;&mdash; making it particularly suited for a
-        Cranfield-style evaluation of AI&nbsp;agents.</p>
+        Cranfield-style evaluation of AI&nbsp;agents. The controlled, reproducible
+        evaluation of agentic AI in such enterprise-like settings is an underexplored
+        yet highly relevant problem.</p>
 
         <p>This shared task offers the first reusable laboratory for the controlled
         evaluation of agentic AI in a university environment, namely the University of
@@ -194,6 +196,38 @@
             solution; output the solution and a log of actions, retrieved documents, and
             reasoning tokens.</li>
         </ol>
+
+        <h3 class="uk-margin-small-top">Example topic</h3>
+        <p>The agent receives the travel expense regulations and the BPMN reimbursement
+        workflow, then follows the process steps until approval or denial:</p>
+        <div class="uk-grid uk-grid-small uk-child-width-1-2@m" data-uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <div class="uk-card-badge uk-label">Input</div>
+                    <p class="uk-margin-remove-bottom">Back from a 3-day conference in
+                    Munich (Mon&ndash;Wed); please process my reimbursement.</p>
+                    <p class="uk-text-meta uk-margin-small-top">Attached: train
+                    89&nbsp;&euro; (return) &middot; hotel 2&thinsp;&times;&thinsp;75&nbsp;&euro;
+                    &middot; registration 250&nbsp;&euro;</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                    <div class="uk-card-badge uk-label uk-label-success">Expected output</div>
+                    <ol class="uk-list uk-list-decimal uk-margin-remove">
+                        <li><b>Check:</b> hotel 75&nbsp;&euro;&nbsp;&le;&nbsp;80&nbsp;&euro;
+                        limit, train economy, registration &mdash; all compliant.</li>
+                        <li><b>Fill:</b> form with transport 89&nbsp;&euro;, accommodation
+                        150&nbsp;&euro;, registration 250&nbsp;&euro;, and 3&thinsp;&times;
+                        the domestic daily allowance.</li>
+                        <li><b>Submit:</b> to travel administration for approval.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <p class="uk-text-meta">Type: reimbursement request &middot; Complexity: medium
+        (multi-document) &middot; Rule area: reimbursement procedure, receipt
+        requirements.</p>
 
 
         <!--
@@ -255,28 +289,36 @@
         -->
         <h2><a id="evaluation"></a>Evaluation</h2>
         <p>Because solutions to standardized tasks can be checked against a reference,
-        we combine manual and automatic evaluation:</p>
+        we combine manual and automatic evaluation. Each sub-task is scored on the same
+        gold topics, with criteria matched to its required output:</p>
         <ul class="uk-list uk-list-bullet">
-            <li><b>Success rate and average error rate.</b> A minimal acceptable
-            solution (e.g., a reimbursement application with valid receipts) is a binary
-            success criterion; among non-successful solutions, the number and severity of
-            errors (rule violations, missing receipts, incorrect form fields) enable a
-            finer ranking. Judges compare synthesized solutions against expert reference
-            solutions, ideally via a diff visualization.</li>
-            <li><b>Qualitative agent behavior audit, tool-use accuracy, and retrieval
-            quality.</b> Participants submit a detailed agent behavior log (reasoning
-            tokens, tool calls and responses, queries, retrieved sources in
-            chronological order). Samples are manually analyzed to verify agents reach
-            solutions for the right reasons; tool-use accuracy and retrieval quality are
-            quantified with standard measures.</li>
-            <li><b>Efficiency.</b> Manual task-completion time (a trained-human
-            baseline), runtime, and environmental-impact measures, for which we
-            investigate the TIREx tracker.</li>
+            <li><b>(1) Retrieval.</b> Retrieved documents are judged against the set of
+            sources needed to make progress on the task, using recall-oriented IR
+            measures (Recall@k, MAP, nDCG). Recall is primary, since a missing regulation
+            or form invalidates the downstream solution.</li>
+            <li><b>(2) Simulation.</b> The proposed plan is compared against the reference
+            process (modeled, where available, as a BPMN workflow): we score the coverage
+            and precision of the plan's steps, the correctness of their ordering, and
+            whether the required decision points and documents are accounted for. The
+            supporting retrieved documents are scored as in the Retrieval sub-task.</li>
+            <li><b>(3) Solving.</b> The synthesized solution is scored on <i>task
+            success</i> &mdash; a binary criterion: the minimal solution accepted by
+            peers (e.g., a reimbursement application with valid receipts) &mdash; and,
+            among non-successful runs, on the number and severity of errors (rule
+            violations, missing receipts, incorrect form fields), which enable a finer
+            ranking. The agent behavior log additionally yields tool-use accuracy
+            (precision/recall of tool calls) and retrieval quality, and a qualitative
+            audit verifies the solution was reached for the right reasons rather than by
+            chance.</li>
         </ul>
-        <p>Automatic LLM-as-judge measures will be investigated and validated against
-        the human reference-based judgments on a sample before being used to rank
-        systems. The organizers will carry out the necessary relevance judgments and
-        qualitative assessments.</p>
+        <p>Across all sub-tasks we also report <b>efficiency</b> measures: manual
+        task-completion time (a trained-human baseline), runtime, and environmental
+        impact, for which we investigate the TIREx tracker. Judges compare solutions
+        against expert reference solutions, ideally via a diff visualization; trained
+        laypeople suffice for most topics, with regulatory edge cases referred to domain
+        experts. Automatic LLM-as-judge measures will be validated against the human
+        reference-based judgments on a sample before being used to rank systems. The
+        organizers carry out the necessary judgments and assessments.</p>
 
 
         <!--
