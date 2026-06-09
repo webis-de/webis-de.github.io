@@ -198,36 +198,14 @@
         </ol>
 
         <h3 class="uk-margin-small-top">Example topic</h3>
-        <p>The agent receives the travel expense regulations and the BPMN reimbursement
-        workflow, then follows the process steps until approval or denial:</p>
-        <div class="uk-grid uk-grid-small uk-child-width-1-2@m" data-uk-grid>
-            <div>
-                <div class="uk-card uk-card-default uk-card-small uk-card-body">
-                    <div class="uk-card-badge uk-label">Input</div>
-                    <p class="uk-margin-remove-bottom">Back from a 3-day conference in
-                    Munich (Mon&ndash;Wed); please process my reimbursement.</p>
-                    <p class="uk-text-meta uk-margin-small-top">Attached: train
-                    89&nbsp;&euro; (return) &middot; hotel 2&thinsp;&times;&thinsp;75&nbsp;&euro;
-                    &middot; registration 250&nbsp;&euro;</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-small uk-card-body">
-                    <div class="uk-card-badge uk-label uk-label-success">Expected output</div>
-                    <ol class="uk-list uk-list-decimal uk-margin-remove">
-                        <li><b>Check:</b> hotel 75&nbsp;&euro;&nbsp;&le;&nbsp;80&nbsp;&euro;
-                        limit, train economy, registration &mdash; all compliant.</li>
-                        <li><b>Fill:</b> form with transport 89&nbsp;&euro;, accommodation
-                        150&nbsp;&euro;, registration 250&nbsp;&euro;, and 3&thinsp;&times;
-                        the domestic daily allowance.</li>
-                        <li><b>Submit:</b> to travel administration for approval.</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-        <p class="uk-text-meta">Type: reimbursement request &middot; Complexity: medium
-        (multi-document) &middot; Rule area: reimbursement procedure, receipt
-        requirements.</p>
+        <figure class="uk-margin">
+            <img src="example-topic.png" style="max-width:380px;width:100%;border:1px solid #e5e5e5;border-radius:3px;"
+                 alt="Example topic for travel reimbursement: an agent receives the travel regulations and BPMN reimbursement workflow, then processes a conference-trip reimbursement request with attached receipts (train, hotel, registration), producing the steps check, fill, and submit.">
+            <figcaption class="uk-text-meta uk-margin-small-top">Example topic for travel
+            reimbursement: a user query with attached documents, the expected agent output
+            following the prescribed process, and annotations for query type, complexity,
+            and rule area.</figcaption>
+        </figure>
 
 
         <!--
