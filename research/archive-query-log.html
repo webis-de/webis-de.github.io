@@ -1,0 +1,95 @@
+---
+layout: default
+nav_active: research
+title: Webis Research Archive Query Log
+description: Overview of the Webis group's research on the Archive Query Log, a query log built from search result pages archived on web archives.
+---
+<nav class="uk-container">
+<ul class="uk-breadcrumb">
+<li><a href="../index.html">Webis.de</a></li>
+<li><a href="../research.html">Research</a></li>
+<li class="uk-disabled"><a href="#">{{ page.title | replace: "Webis Research ", "" }}</a></li>
+</ul>
+</nav>
+
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "Research",
+"name": "Archive Query Log",
+"description": "Research on mining queries from search engine result pages of hundreds of search providers in 25 years of web archives.",
+"url": "https://webis.de/research/archive-query-log.html",
+"keywords": [
+"aql",
+"query log",
+"web archive"
+],
+"creator": [{
+"@type": "Organization",
+"url": "https://webis.de/",
+"name": "The Web Technology & Information Systems Network",
+"alternateName": "Webis"
+}
+],
+"includedInDataCatalog": {},
+"distribution": []
+}
+</script>
+
+<main class="uk-section uk-section-default">
+
+<div class="uk-container">
+    <h1>Archive Query Log</h1>
+
+    <ul class="uk-list">
+    <!-- Comment out sections you do not provide -->
+    <li><span data-uk-icon="chevron-down"></span> <a href="#synopsis">Synopsis</a></li>
+    <li><span data-uk-icon="chevron-down"></span> <a href="#people">People</a></li>
+    <li><span data-uk-icon="chevron-down"></span> <a href="#publications">Publications</a></li>
+    </ul>
+</div>
+
+<div class="uk-container uk-margin-medium">
+    <!--
+    SECTION Synopsis
+    -->
+    <h2><a id="synopsis"></a>Synopsis</h2>
+    <p>Query logs and search engine result pages (SERPs) are essential for research on information retrieval, but search providers like Bing or Google typically do not publish them for privacy and business reasons, while none of the few publicly available query logs combines size, scope, and diversity. At the same time, web archives like the Internet Archive's Wayback Machine have captured the SERPs of countless searches over the last decades.</p>
+
+    <p>The Archive Query Log (AQL) mines these archived SERPs. Its first version included 356&nbsp;million queries across 550 search providers collected over 25 years, enabling diachronic analyses of search engines and promoting transparency and accountability in the search industry [<a href="{{ '/publications.html' | relative_url }}#reimer_2023">SIGIR 2023</a>; <a href="https://github.com/webis-de/archive-query-log">code</a>; <a href="{{ '/data/aql-22.html' | relative_url }}">data</a>; <a href="https://aql.webis.de/">demo</a>; <a href="https://pypi.org/project/archive-query-log/">pypi</a>; <a href="https://youtube.com/watch?v=nbds28OVTsQ">video</a>].</p>
+
+    <p>To facilitate continuous SERP from web archives, for the AQL, we have developed an open SERP mining infrastructure that can be scaled from a single machine to a Kubernetes cluster [<a href="{{ '/publications.html' | relative_url }}#merker_2026a">ECIR 2026</a>]. Besides contributions for new search providers and parsers, this architecture enables researchers to analyze the AQL data, for example, on predicting the performance of retrieval corpora [<a href="{{ '/publications.html' | relative_url }}#parry_2025a">QPP++ 2025</a>].</p>
+
+    <!--
+    SECTION People
+    -->
+    <h2><a id="people"></a>People</h2>
+    <ul>
+    <li><a href="https://weimar.webis.de/people/#froebe" title="Maik Fröbe">Maik Fröbe</a></li>
+    <li><a href="https://temir.org/people.html#gienapp" title="Lukas Gienapp">Lukas Gienapp</a></li>
+    <li><a href="https://jena.webis.de" title="Matthias Hagen">Matthias Hagen</a></li>
+    <li><a href="https://www.fmi.uni-jena.de/en/4565/people" title="Jan Heinrich Merker">Jan Heinrich Merker</a></li>
+    <li>Andrew Parry</li>
+    <li><a href="https://temir.org/people.html#potthast" title="Martin Potthast">Martin Potthast</a></li>
+    <li>Simon Ruth</li>
+    <li><a href="https://scells.me/" title="Harrisen Scells">Harrisen Scells</a></li>
+    <li>Sebastian Schmidt</li>
+    <li><a href="https://weimar.webis.de/people/#stein" title="Benno Stein">Benno Stein</a></li>
+    </ul>
+
+    <!--
+    SECTION Publications
+    -->
+    <h2><a id="publications"></a>Publications</h2>
+    <div id="publications-list">
+    </div>
+</div>
+
+</main>
+
+<script src="https://assets.webis.de/js/filter.js"></script>
+<script src="https://assets.webis.de/js/selection.js"></script>
+<script>
+includeBibentries(document.getElementById("publications-list"), "keywords:aql");
+</script>
